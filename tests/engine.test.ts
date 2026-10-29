@@ -14,6 +14,13 @@ import { lifeCourseFragments } from "../content/scenes/lifeCourse";
 import { earlyLifeThreads } from "../content/scenes/earlyLifeThreads";
 import { earlyLifeThreadForSeed, threadEchoFor } from "../src/engine/earlyLifeThread";
 import nationalHistory from "../content/historical/national.json";
+import { historicalSignificance, MIN_FALLBACK_SIGNIFICANCE } from "../content/historical/significance";
+import { heardLeadIns, livedLeadIns, voiceFor } from "../content/scenes/historicalVoice";
+import { occupations } from "../content/scenes/occupations";
+import { currentOccupation, workLine } from "../src/engine/work";
+
+const residenceAtYear = (state: ReturnType<typeof generateSession>, year: number) =>
+  state.biography.residenceHistory.find((residence) => year >= residence.fromYear && year <= residence.toYear)?.placeId ?? state.biography.residenceHistory[0]!.placeId;
 
 const generated = (start: StartSelection) => generateSession(start, regionPacks[start.birthRegionId]);
 const findGenerated = (predicate: (state: ReturnType<typeof generated>) => boolean, label: string) => {
@@ -161,11 +168,20 @@ describe("conversation and atlas", () => {
     expect(points.at(-1)!.year - points.at(-2)!.year).toBeLessThanOrEqual(5);
   });
 
-  it.each([1900, 1920, 1930, 1940])("has verified historical background for every five-year interval from %i", (birthYear) => {
+  it.each([1900, 1920, 1930, 1940])("voices only significant history and covers most five-year intervals from %i", (birthYear) => {
     const state = generated(selection("tver", birthYear, `backgrounds-${birthYear}`));
     const backgrounds = timelineBackgrounds(state);
     const intervals = lifeTimelinePoints(state.selection).filter((point) => !point.final);
-    expect([...backgrounds.keys()]).toEqual(intervals.map((point) => point.year));
+    const intervalYears = new Set(intervals.map((point) => point.year));
+    for (const [year, background] of backgrounds) {
+      expect(intervalYears.has(year)).toBe(true);
+      if (background.existingLifeEventId) continue;
+      const id = background.id.replace(/^context:(national:|world:)?/, "");
+      expect(historicalSignificance(id, background.title), background.title).toBeGreaterThanOrEqual(MIN_FALLBACK_SIGNIFICANCE);
+      expect(background.title).not.toMatch(/закон|конституц|перепис|домен/i);
+    }
+    // Years that hold only acts, censuses or paperwork are left without an aside instead of voicing them.
+    expect(backgrounds.size / intervals.length).toBeGreaterThanOrEqual(0.75);
   });
 
   it("selects historical background deterministically from a varied event pool", () => {
@@ -173,16 +189,100 @@ describe("conversation and atlas", () => {
     const sameB = generated(selection("tver", 1920, "same-history-pool"));
     expect([...timelineBackgrounds(sameA).entries()]).toEqual([...timelineBackgrounds(sameB).entries()]);
 
-    const selectedFor1925 = new Set<string>();
+    const lives = new Set<string>();
     for (let index = 0; index < 80; index += 1) {
       const state = generated(selection("tver", 1920, `history-pool-${index}`));
       const backgrounds = timelineBackgrounds(state);
       const ids = [...backgrounds.values()].map((background) => background.id);
       expect(new Set(ids).size).toBe(ids.length);
-      selectedFor1925.add(backgrounds.get(1925)!.id);
+      lives.add(ids.join("|"));
     }
-    expect(selectedFor1925.size).toBeGreaterThanOrEqual(2);
+    expect(lives.size).toBeGreaterThanOrEqual(2);
     expect(nationalHistory.events.filter((event) => "scale" in event && event.scale !== "major").length).toBeGreaterThanOrEqual(14);
+  });
+
+  it("varies the birth answer and its source instead of always citing the passport", () => {
+    const answers = new Set<string>();
+    let passport = 0;
+    for (let index = 0; index < 60; index += 1) {
+      const state = generated(selection("tver", 1932, `birth-voice-${index}`));
+      const answer = chooseOption(state, "detail").dialogue.transcript.at(-1)!.text;
+      expect(answer).toContain("1932");
+      answers.add(answer.split("\n\n")[0]!.split(". ")[0]!);
+      if (answer.includes("паспорт")) passport += 1;
+    }
+    expect(answers.size).toBeGreaterThanOrEqual(8);
+    expect(passport).toBeLessThan(20);
+    const state = generated(selection("tver", 1932, "birth-voice-angles"));
+    const byAngle = new Set(["detail", "feeling", "meaning"].map((angle) => chooseOption(state, angle).dialogue.transcript.at(-1)!.text));
+    expect(byAngle.size).toBe(3);
+  });
+
+  it("names the family path concretely instead of «бабушки или дедушки»", () => {
+    const seen = new Set<string>();
+    for (let index = 0; index < 120; index += 1) {
+      let state = generated(selection("tver", 1932, `kinship-words-${index}`));
+      expect(biographyIssues(state)).toEqual([]);
+      expect(state.biography.relationship.introduction).not.toMatch(/ или /);
+      for (let guard = 0; state.screen !== "atlas" && guard < 30; guard += 1) {
+        const options = currentScene(state).options;
+        state = chooseOption(state, options[0]!.id);
+      }
+      const spoken = state.dialogue.transcript.filter((turn) => turn.speaker === "grandmother").map((turn) => turn.text).join("\n");
+      expect(spoken).not.toMatch(/бабушки или дедушки|усыновила или удочерила|твоим родителем|Твоего родителя/);
+      for (const phrase of ["сестра твоей бабушки", "сестра твоего дедушки", "мама твоей мамы", "мама твоего папы", "Твою маму я удочерила", "Твоего папу я усыновила"]) {
+        if (spoken.includes(phrase)) seen.add(phrase);
+      }
+    }
+    expect(seen.size).toBeGreaterThanOrEqual(5);
+  });
+
+  it("gives every life a concrete, era- and place-appropriate job told across her working years", () => {
+    const titles = new Set<string>();
+    for (let index = 0; index < 60; index += 1) {
+      for (const outcome of ["pathA", "pathB"] as const) {
+        let state = generated(selection("tver", 1900 + (index % 41), `work-${index}`));
+        for (let guard = 0; state.screen !== "atlas" && guard < 40; guard += 1) {
+          const options = currentScene(state).options;
+          state = chooseOption(state, options.find((option) => option.id === outcome)?.id ?? options[guard % options.length]!.id);
+        }
+        const occupation = currentOccupation(state)!;
+        expect(occupation, `work-${index}`).toBeTruthy();
+        titles.add(occupation.title);
+        const work = state.biography.work!;
+        expect(work.startYear).toBeGreaterThanOrEqual(occupation.from);
+        expect(work.startYear).toBeLessThanOrEqual(occupation.to);
+        expect(occupation.countries).toContain("RU");
+        if (occupation.placeIds) expect(occupation.placeIds).toContain(`ru-${residenceAtYear(state, work.startYear)}`);
+        const branch = state.biography.branches[0]!;
+        if (branch.type === "profession") expect(occupation.kind).toBe(outcome === "pathA" ? "craft" : "office");
+        if (branch.type === "education") expect(occupation.trained).toBe(outcome === "pathA");
+        const spoken = state.dialogue.transcript.filter((turn) => turn.speaker === "grandmother").map((turn) => turn.text).join("\n");
+        const stages = ["start", "middle", "late"].map((stage) => spoken.indexOf(workLine(state, occupation, stage as "start" | "middle" | "late")));
+        expect(stages.every((position) => position >= 0), `work-${index} ${occupation.id}`).toBe(true);
+        expect(stages).toEqual([...stages].sort((a, b) => a - b));
+        expect(knownAtlasEvents(state).some((event) => event.id === "life:work")).toBe(true);
+      }
+    }
+    expect(titles.size).toBeGreaterThanOrEqual(6);
+  });
+
+  it("chooses the late working line by whether she retired before a verified closure", () => {
+    const occupation = occupations.find((candidate) => candidate.id === "tver-proletarka-weaver")!;
+    const early = generated(selection("tver", 1925, "closure-early"));
+    const late = generated(selection("tver", 1940, "closure-late"));
+    expect(workLine(early, occupation, "late")).toBe(occupation.closure!.before);
+    expect(workLine(late, occupation, "late")).toBe(occupation.closure!.after);
+  });
+
+  it("never repeats a historical lead-in within one life", () => {
+    expect(livedLeadIns.length).toBeGreaterThanOrEqual(20);
+    for (const seed of ["lead-a", "lead-b", "lead-c"]) {
+      const lived = Array.from({ length: livedLeadIns.length }, (_, order) => voiceFor("no-voice", 30, true, "Факт.", "national", "Факт", seed, order));
+      expect(new Set(lived).size).toBe(livedLeadIns.length);
+      const heard = Array.from({ length: heardLeadIns.length }, (_, order) => voiceFor("no-voice", 2, true, "Факт.", "national", "Факт", seed, order));
+      expect(new Set(heard).size).toBe(heardLeadIns.length);
+    }
   });
 
   it.each(branchCatalog)("reveals the $label setup before offering its consequential questions", (definition) => {
@@ -262,6 +362,8 @@ describe("conversation and atlas", () => {
     expect(threadEchoFor(state, 20, phaseAtAge(20))).toBe(thread.echoes.youth);
     expect(threadEchoFor(state, 30, phaseAtAge(30))).toBe(thread.echoes.adult);
     expect(threadEchoFor(state, 60, phaseAtAge(60))).toBe(thread.echoes.later);
+    expect(threadEchoFor(state, 15, phaseAtAge(15))).toBe(thread.echoes.school);
+    expect(threadEchoFor(state, 45, phaseAtAge(45))).toBe(thread.echoes.midlife);
 
     const laterFragments = [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
       .map((age) => lifeTimelinePoints(state.selection).find((point) => point.age === age))
@@ -291,6 +393,17 @@ describe("conversation and atlas", () => {
       expect(state.biography.lifeEvents.filter((event) => event.id.startsWith("life:timeline:")).map((event) => event.year))
         .toEqual(lifeTimelinePoints(state.selection).map((point) => point.year));
       expect(state.biography.lifeEvents.every((event) => event.year <= state.selection.conversationYear)).toBe(true);
+      // One story from beginning to end: the turning point is foreshadowed, recalled at the end next to the
+      // childhood object, and the final words return to that object.
+      const definition = branchCatalog.find((candidate) => candidate.type === state.biography.branches[0]!.type)!;
+      const thread = earlyLifeThreadForSeed(state.selection.runSeed);
+      const spoken = state.dialogue.transcript.filter((turn) => turn.speaker === "grandmother").map((turn) => turn.text).join("\n");
+      const finalAnswer = state.dialogue.transcript.at(-1)!.text;
+      expect(spoken).toContain(definition.foreshadow);
+      expect(finalAnswer).toContain(outcome === "pathA" ? definition.lateA : definition.lateB);
+      expect(finalAnswer).not.toContain(outcome === "pathA" ? definition.lateB : definition.lateA);
+      expect(finalAnswer).toContain(thread.echoes.closing);
+      expect(spoken).toContain(thread.echoes.midlife);
     }
   });
 

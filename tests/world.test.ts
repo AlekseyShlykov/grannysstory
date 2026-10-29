@@ -319,7 +319,7 @@ describe("offline data and fallbacks", () => {
     clearWorldPacks();
     const state = generateSession(selection("tver", 1932, "offline"), regionPacks.tver!);
     const backgrounds = [...timelineBackgrounds(state).values()];
-    expect(backgrounds.length).toBe(lifeTimelinePoints(state.selection).filter((point) => !point.final).length);
+    expect(backgrounds.length).toBeGreaterThan(lifeTimelinePoints(state.selection).filter((point) => !point.final).length * 0.75);
     expect(backgrounds.every((background) => !background.id.startsWith("context:world:"))).toBe(true);
     world = loadWholeWorld();
     expect(worldData().packs.size).toBeGreaterThan(0);

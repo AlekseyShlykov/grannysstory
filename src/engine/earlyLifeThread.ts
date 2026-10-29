@@ -25,13 +25,23 @@ export function threadAffinity(fragment: LifeCourseFragment, state: GameSessionS
   return score;
 }
 
-/** Returns a later callback only at a few life thresholds, avoiding a repeated formula in every answer. */
+/**
+ * Returns a callback to the childhood object at the first interval of each later life phase, so the object
+ * runs through the whole conversation without becoming a formula in every answer.
+ */
 export function threadEchoFor(state: GameSessionState, age: number, phase: LifePhase): string | null {
   const thread = earlyLifeThreadForState(state);
   if (!thread) return null;
+  if (phase === "school" && age > 10 && age < 16) return thread.echoes.school;
   if (phase === "youth" && age < 25) return thread.echoes.youth;
   if (phase === "adult" && age < 35) return thread.echoes.adult;
+  if (phase === "midlife" && age < 50) return thread.echoes.midlife;
   if (phase === "later" && age < 65) return thread.echoes.later;
   return null;
+}
+
+/** The last word on the childhood object, said in the present at the end of the conversation. */
+export function threadClosingFor(state: GameSessionState): string | null {
+  return earlyLifeThreadForState(state)?.echoes.closing ?? null;
 }
 

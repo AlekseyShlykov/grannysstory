@@ -95,6 +95,8 @@ export interface Person {
   name: string;
   birthYear: number;
   parentIds: string[];
+  /** Absent in older saves, where the family was described as «бабушка или дедушка». */
+  sex?: "female" | "male";
 }
 
 export interface RelationshipEdge {
@@ -189,6 +191,14 @@ export interface BiographyState {
   lifeEvents: LifeEvent[];
   branches: BranchState[];
   flags: string[];
+  /** Canonical work; absent in older saves. With a work-shaping branch the job depends on its outcome. */
+  work?: WorkState;
+}
+
+export interface WorkState {
+  startYear: number;
+  occupationId?: string;
+  byOutcome?: { pathA: string; pathB: string };
 }
 
 export interface DialogueState {
@@ -235,6 +245,11 @@ export interface BranchDefinition {
   answerB: string;
   consequenceA: string;
   consequenceB: string;
+  /** Said one interval before the turning point; hints at it without deciding anything. */
+  foreshadow: string;
+  /** Said at the end of the conversation, looking back at the outcome that became canon. */
+  lateA: string;
+  lateB: string;
   titleA: string;
   titleB: string;
   themes: [ThemeId, ThemeId];

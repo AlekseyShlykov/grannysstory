@@ -19,7 +19,7 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Говорили, что как раз тогда первую конституцию приняли, но я этого, конечно, не застала."
   },
   first_five_year_plan_1928: {
-    lived: "Тогда всё строили наперегонки, пятилетка. Взрослые приходили с работы такие уставшие, что ужинали молча.",
+    lived: "Началась пятилетка, всё строили наперегонки. Взрослые приходили с работы такие уставшие, что ужинали молча.",
     heard: "Мама рассказывала, что тогда началась пятилетка, все работали без продыху. Я-то этого не помню, мала была."
   },
   universal_primary_education_1930: {
@@ -31,31 +31,31 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Тогда новую конституцию приняли. Красивые слова, а жили-то люди по-другому. Это я уж потом поняла."
   },
   war_begins_1941: {
-    lived: "Тогда как раз война началась. До сих пор с ужасом вспоминаю тот день, все стояли у репродуктора и никто не говорил ни слова.",
-    heard: "Тогда как раз война началась. Я была маленькая, но страх взрослых помню, он был в самом воздухе."
+    lived: "Двадцать второго июня все стояли у репродуктора и никто не говорил ни слова. Война. До сих пор тот день вспоминаю с ужасом.",
+    heard: "А потом началась война. Я была маленькая, но страх взрослых помню, он был в самом воздухе."
   },
   victory_1945: {
     lived: "А потом пришла Победа. Мы плакали и смеялись одновременно, соседка обнимала всех подряд, даже тех, с кем не здоровалась.",
     heard: "Потом была Победа. Я тогда ещё не всё понимала, но помню, как плакали взрослые, и это были хорошие слёзы."
   },
   monetary_reform_1947: {
-    lived: "Тогда карточки отменили и деньги поменяли. Кто копил, тот почти всё потерял, а хлеб наконец можно было просто купить.",
-    heard: "Тогда как раз карточки отменили, про это потом долго рассказывали."
+    lived: "В декабре сорок седьмого отменили карточки и поменяли деньги. Кто копил, тот почти всё потерял, а хлеб наконец можно было просто купить.",
+    heard: "Карточки отменили, когда я была совсем мала, про это потом долго рассказывали."
   },
   stalin_death_1953: {
     lived: "Сталин тогда умер. Кто-то рыдал, а кто-то молчал так, что было ясно: он думает совсем другое. Мы тогда многого вслух не говорили.",
     heard: "Тогда Сталин умер, взрослые не знали, что теперь будет."
   },
   sputnik_1957: {
-    lived: "Тогда первый спутник запустили. Мы выходили вечером во двор и всё пытались его разглядеть, хотя, наверное, видели просто звезду.",
+    lived: "Осенью пятьдесят седьмого все вечерами выходили во двор смотреть спутник. Мы его будто бы видели, хотя, наверное, это была просто звезда.",
     heard: "Тогда первый спутник полетел, все этим гордились."
   },
   gagarin_1961: {
-    lived: "А тогда Гагарин полетел! Люди высыпали на улицы просто так, без всякого приказа. Такой общей радости я больше не помню.",
+    lived: "Двенадцатое апреля помню как сейчас: Гагарин полетел. Люди высыпали на улицы просто так, без всякого приказа. Такой общей радости я больше не помню.",
     heard: "Тогда Гагарин полетел, вся страна радовалась."
   },
   leonov_1965: {
-    lived: "Тогда Леонов в открытый космос вышел, по телевизору показывали. Я смотрела и боялась за него, как за своего.",
+    lived: "Леонова в открытом космосе показывали по телевизору. Я смотрела и боялась за него, как за своего.",
     heard: "Тогда человек впервые вышел в открытый космос, про это все говорили."
   },
   census_1970: {
@@ -63,7 +63,7 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Тогда как раз была перепись, ходили по квартирам."
   },
   soyuz_apollo_1975: {
-    lived: "Тогда наши с американцами в космосе состыковались. Мы думали, ну всё, теперь точно не будет войны.",
+    lived: "Помню «Союз» и «Аполлон», как они состыковались. Мы думали, ну всё, теперь точно не будет войны.",
     heard: "Тогда наши с американцами в космосе встретились."
   },
   ussr_constitution_1977: {
@@ -71,19 +71,19 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Тогда новую конституцию приняли."
   },
   moscow_olympics_1980: {
-    lived: "Тогда Олимпиада была в Москве. Помню мишку, который улетал, весь зал тогда плакал у телевизора, и я тоже.",
+    lived: "Олимпиада в Москве, мишка на шариках. Когда он улетал, плакали все у телевизора, и я тоже.",
     heard: "Тогда в Москве была Олимпиада."
   },
   perestroika_1985: {
-    lived: "А тогда началась перестройка. Сначала все обрадовались, что можно говорить, а потом оказалось, что говорить можно, а жить всё труднее.",
+    lived: "Потом пошла перестройка. Сначала все обрадовались, что можно говорить, а потом оказалось, что говорить можно, а жить всё труднее.",
     heard: "Тогда началась перестройка."
   },
   chernobyl_1986: {
-    lived: "Тогда Чернобыль случился. Сначала толком ничего не говорили, а потом мы долго боялись покупать грибы и молоко на рынке.",
+    lived: "Про Чернобыль сначала толком ничего не говорили. А потом мы долго боялись покупать грибы и молоко на рынке.",
     heard: "Тогда случилась авария в Чернобыле."
   },
   ussr_dissolution_1991: {
-    lived: "Тогда Союз развалился. Я легла спать в одной стране, а проснулась будто в другой, и никто толком не мог объяснить, что теперь будет.",
+    lived: "В девяносто первом Союз развалился. Я легла спать в одной стране, а проснулась будто в другой, и никто толком не мог объяснить, что теперь будет.",
     heard: "Тогда распался Советский Союз."
   },
   russian_constitution_1993: {
@@ -91,7 +91,7 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Тогда приняли новую конституцию."
   },
   financial_crisis_1998: {
-    lived: "Тогда дефолт этот грянул. Все сбережения за неделю превратились в бумажки, я долго потом держала деньги в банке из-под чая.",
+    lived: "Августа девяносто восьмого я не забуду: дефолт. Сбережения за неделю превратились в бумажки, я потом долго держала деньги в банке из-под чая.",
     heard: "Тогда был кризис, дефолт."
   },
   census_2002: {
@@ -103,7 +103,7 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Тогда семьям с детьми стали помогать деньгами."
   },
   financial_crisis_2008: {
-    lived: "Тогда опять кризис был. Я уже не пугалась, только вздыхала: опять, значит, ничего не откладывать.",
+    lived: "В восьмом году опять пришёл кризис. Я уже не пугалась, только вздыхала: опять, значит, ничего не откладывать.",
     heard: "Тогда был кризис."
   },
   census_2010: {
@@ -111,19 +111,19 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     heard: "Тогда как раз перепись была."
   },
   sochi_olympics_2014: {
-    lived: "Тогда Олимпиада в Сочи была, я каждый вечер смотрела фигурное катание. Сидела и болела, как девчонка.",
+    lived: "Сочинскую Олимпиаду я смотрела каждый вечер, особенно фигурное катание. Сидела и болела, как девчонка.",
     heard: "Тогда в Сочи была Олимпиада."
   },
   world_cup_2018: {
-    lived: "Тогда у нас чемпионат по футболу проходил. Я футбол никогда не любила, а тут вдруг смотрела все матчи.",
+    lived: "Чемпионат мира по футболу у нас проходил, представь. Я футбол никогда не любила, а тут вдруг смотрела все матчи.",
     heard: "Тогда у нас был чемпионат мира по футболу."
   },
   covid_2020: {
-    lived: "А тогда эта пандемия началась. Я сидела дома месяцами, родные приносили продукты и махали мне в окно. Странное было время, тихое и страшное.",
+    lived: "Пандемию ты, конечно, помнишь, но у меня она была своя. Я сидела дома месяцами, родные приносили продукты и махали мне в окно. Странное было время, тихое и страшное.",
     heard: "Тогда началась пандемия."
   },
   ukraine_war_2022: {
-    lived: "А потом снова война, с Украиной. Я одну войну уже пережила и не думала, что доживу до новой. Об этом мне тяжело говорить.",
+    lived: "А в двадцать втором снова война, с Украиной. Я одну войну уже пережила и не думала, что доживу до новой. Об этом мне тяжело говорить.",
     heard: "Тогда началась война с Украиной."
   },
   victory_anniversary_2025: {
@@ -200,7 +200,7 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     away: "Тогда город оказался в блокаде. Нас там уже не было, но мы каждый день ждали вестей и боялись их получить."
   },
   leningrad_renamed_1991: {
-    lived: "Тогда городу вернули старое имя, Санкт-Петербург. Я ещё долго говорила «Ленинград», язык не поворачивался.",
+    lived: "Городу вернули старое имя, Санкт-Петербург. Я ещё долго говорила «Ленинград», язык не поворачивался.",
     heard: "Тогда городу вернули имя Санкт-Петербург."
   },
   kalinin_liberated_1941: {
@@ -289,38 +289,122 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
   }
 };
 
-// Fallback phrasing for verified records without a hand-written voice. Only the lead-in is fiction and it
-// reflects how close to her the record is scoped. In speech she mentions the fact briefly: one short sentence
-// of the summary, or its title when the summary reads like a reference book (abbreviations, long figures).
-// The full summary with its source stays in the atlas.
-const leadIns: Record<string, { lived: string; heard: string }> = {
-  local: { lived: "Это было совсем рядом с нами.", heard: "Мне потом рассказывали, это было совсем рядом." },
-  municipal: { lived: "У нас тогда только об этом и говорили.", heard: "Мне потом рассказывали, у нас об этом много говорили." },
-  district: { lived: "В наших краях тогда было вот что.", heard: "Мне потом рассказывали, в наших краях тогда было вот что." },
-  regional: { lived: "В наших краях тогда было вот что.", heard: "Мне потом рассказывали, в наших краях тогда было вот что." },
-  constituent: { lived: "Время тогда было такое.", heard: "Мне потом рассказывали." },
-  national: { lived: "Время тогда было такое.", heard: "Мне потом рассказывали." },
-  international: { lived: "Тогда весь мир об этом говорил.", heard: "Мне потом рассказывали." }
+// Fallback phrasing for verified records without a hand-written voice. Only the lead-in is fiction. In speech
+// she mentions the fact briefly: one short sentence of the summary, or its title when the summary reads like a
+// reference book (abbreviations, long figures). The full summary with its source stays in the atlas.
+// Each run walks a seeded permutation of these pools, so within one life no lead-in is repeated while the pool
+// is longer than the number of five-year intervals (a 100-year life has 20).
+
+/** Events she lived through as a conscious child or adult. Neutral to scope: they fit a city and a country alike. */
+export const livedLeadIns: readonly string[] = [
+  "Время тогда было такое.",
+  "У нас тогда только об этом и говорили.",
+  "Помню, как раз в те годы вот что было.",
+  "Вокруг тем временем шла большая жизнь, и она до нас доходила.",
+  "На работе, в очередях, у соседей все обсуждали одно и то же.",
+  "Из большого, что тогда случилось, мне вот это запомнилось.",
+  "Радио в те дни почти не выключали.",
+  "Если уж говорить про те годы, без этого не обойтись.",
+  "Соседи тогда спорили до хрипоты, а дело было вот в чём.",
+  "Это сейчас про такое пишут спокойно, а тогда никто не знал, чем кончится.",
+  "Мы жили своими делами, но мимо этого пройти было нельзя.",
+  "Это я не по книжкам знаю, это при мне было.",
+  "Тогда у всех на уме было одно.",
+  "Многие тогда думали, что теперь жизнь пойдёт по-другому.",
+  "Сначала доходили только слухи, а потом всё стало ясно.",
+  "Знаешь, что тогда ещё было?",
+  "Я тогда не всё понимала, но запомнила.",
+  "Даже в нашей тихой жизни это отозвалось.",
+  "Жили мы, конечно, не только этим, но и этим тоже.",
+  "Газеты тогда расхватывали прямо у киоска.",
+  "Вот ещё что было в те годы, это ты в учебниках найдёшь.",
+  "Помню, взрослые и молодые тогда впервые говорили об одном и том же.",
+  "Новости в то время приходили одна за другой, но эта осталась.",
+  "Кто тогда жил, тот это помнит, хоть и каждый по-своему.",
+  "Про это потом много рассказывали, а я видела своими глазами.",
+  "Для страны это было важно, а для нас ещё и очень близко.",
+  "Тогда, кстати, вот что случилось.",
+  "Как сейчас помню, с чего в те дни начинался любой разговор."
+];
+
+/** Events from her first years, which she knows from others. */
+export const heardLeadIns: readonly string[] = [
+  "Мне потом рассказывали.",
+  "Сама я этого не помню, мама рассказывала.",
+  "Это я знаю уже по чужим рассказам.",
+  "Я была совсем маленькая, так что знаю со слов взрослых.",
+  "Отец потом не раз к этому возвращался.",
+  "Это я уже в школе узнала.",
+  "Взрослые потом часто это вспоминали.",
+  "Помнить я этого не могу, а слышала не раз.",
+  "Соседи потом рассказывали.",
+  "Бабушка моя любила об этом вспоминать.",
+  "Мне это уже потом объяснили.",
+  "В семье об этом говорили, когда я подросла."
+];
+
+/** Lead-ins for the verified circumstance she mentions just before a turning point. */
+const framingLeadIns = {
+  young: [
+    "Взрослые тогда часто говорили об одном.",
+    "Дома тогда разговоры всё время возвращались к одному.",
+    "Я ещё мало что понимала, но слышала, о чём говорят старшие."
+  ],
+  adult: [
+    "А вокруг как раз многое менялось.",
+    "И время ещё было такое, что всё сдвигалось.",
+    "Тут надо сказать, что творилось вокруг.",
+    "Решать пришлось не в пустоте, вокруг было вот что.",
+    "Всё это совпало ещё с одним.",
+    "А в те же годы вокруг происходило вот что."
+  ]
 };
 
-export function spokenFact(factText: string, title?: string): string {
+/** Picks from a pool by a per-run permutation: distinct `order` values never repeat while order < pool size. */
+function pickInOrder(pool: readonly string[], runSeed: string, order: number): string {
+  // A tiny deterministic LCG keeps this content module free of engine imports.
+  let hash = 2166136261;
+  for (const char of runSeed) hash = Math.imul(hash ^ char.charCodeAt(0), 16777619) >>> 0;
+  const indexes = pool.map((_, index) => index);
+  for (let index = indexes.length - 1; index > 0; index -= 1) {
+    hash = (Math.imul(hash, 1664525) + 1013904223) >>> 0;
+    const swap = hash % (index + 1);
+    [indexes[index], indexes[swap]] = [indexes[swap]!, indexes[index]!];
+  }
+  return pool[indexes[((order % pool.length) + pool.length) % pool.length]!]!;
+}
+
+/** The first sentence of a summary when it sounds like speech; null when it reads like a reference book. */
+export function speakableSentence(factText: string): string | null {
   const first = factText.match(/^.+?[.!?](?=\s|$)/)?.[0] ?? factText;
   const bookish = /\d+\s?(г|гг|тыс|млн|млрд|км|руб|долл)\.|\(|%|;/.test(first) || first.length > 150;
-  if (!bookish || !title) return first;
-  return /[.!?…»]$/.test(title) ? title : `${title}.`;
+  return bookish ? null : first;
+}
+
+export function spokenFact(factText: string, title?: string): string {
+  const sentence = speakableSentence(factText);
+  if (sentence || !title) return sentence ?? factText;
+  return /[.!?…]$/.test(title) ? title : `${title}.`;
 }
 
 /** Lead-in for the verified circumstance she mentions just before a turning point. */
-export function framingVoice(age: number, factText: string, title: string): string {
-  return `${age < 16 ? "Взрослые тогда часто говорили об одном." : "А вокруг как раз многое менялось."} ${spokenFact(factText, title)}`;
+export function framingVoice(age: number, factText: string, title: string, runSeed = "", kind: "event" | "context" = "event"): string | null {
+  // Everyday statistics («Зарплата в 1960-е») are atlas material; spoken aloud as a title they sound like a table.
+  if (kind === "context" && !speakableSentence(factText)) return null;
+  const pool = age < 16 ? framingLeadIns.young : framingLeadIns.adult;
+  return `${pickInOrder(pool, `${runSeed}:framing`, 0)} ${spokenFact(factText, title)}`;
 }
 
-export function voiceFor(eventId: string, age: number, wasPresent: boolean, factText: string, level?: string, title?: string): string {
+/**
+ * `order` is the position of this mention among the historical asides of one life; together with `runSeed`
+ * it keeps lead-ins from repeating within a conversation.
+ */
+export function voiceFor(eventId: string, age: number, wasPresent: boolean, factText: string, level?: string, title?: string, runSeed = "", order = 0): string {
   const voice = historicalVoice[eventId];
   if (!voice) {
-    if (!level) return age < 6 ? `Мне потом рассказывали: ${factText}` : `Время тогда было такое: ${factText}`;
-    const lead = leadIns[level] ?? leadIns.national!;
-    return `${age < 6 ? lead.heard : lead.lived} ${spokenFact(factText, title)}`;
+    const heard = age < 6;
+    const lead = pickInOrder(heard ? heardLeadIns : livedLeadIns, `${runSeed}:${heard ? "heard" : "lived"}`, order);
+    return `${lead} ${level ? spokenFact(factText, title) : factText}`;
   }
   if (!wasPresent && voice.away) return voice.away;
   return age < 6 ? voice.heard : voice.lived;

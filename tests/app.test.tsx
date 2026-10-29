@@ -75,7 +75,7 @@ describe("accessible vertical slice", () => {
     expect(fetch).toHaveBeenCalledWith("/data/regions/moscow.json");
     expect(group.textContent).toContain("Где и когда ты родилась?");
     fireEvent.click(screen.getByRole("button", { name: "Где и когда ты родилась?" }));
-    expect(screen.getByLabelText("Последний вопрос и ответ").textContent).toMatch(/Родилась я в 1927 году/);
+    expect(screen.getByLabelText("Последний вопрос и ответ").textContent).toMatch(/1927/);
   });
 
   it("can start a fully random supported story", async () => {

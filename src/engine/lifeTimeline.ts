@@ -1,4 +1,5 @@
 import nationalJson from "../../content/historical/national.json";
+import { historicalSignificance, MIN_FALLBACK_SIGNIFICANCE } from "../../content/historical/significance";
 import { lifeCourseFragments, questionForms } from "../../content/scenes/lifeCourse";
 import type { LifeCourseFragment, LifePhase, ReflectionAngle } from "../../content/scenes/lifeCourse";
 import type { GameSessionState, LifeEvent, NationalHistoricalEvent, StartSelection } from "../data/types";
@@ -33,6 +34,7 @@ interface BackgroundCandidate {
   startYear: number;
   endYear: number;
   tier: number;
+  significance: number;
   background: TimelineBackground;
 }
 
@@ -120,6 +122,7 @@ function legacyNationalCandidates(): BackgroundCandidate[] {
       startYear,
       endYear,
       tier: 1,
+      significance: historicalSignificance(event.id, event.title),
       background: { id: `context:national:${event.id}`, title: event.title, year: startYear, text: event.historicalContext, sourceIds: [event.sourceId], placeId: "" }
     };
   });
@@ -147,7 +150,8 @@ function worldCandidates(state: GameSessionState): BackgroundCandidate[] | null 
         endYear: Math.max(item.year, eventEndYear(item.event)),
         // Regional and narrower records form the local layer; country and international records form the global layer.
         tier: isLocalLevel(item.level) ? 1 : item.level === "international" ? 3 : 2,
-          background: { id: key, title: item.event.title, year: item.year, text: item.event.summary, sourceIds: item.event.sourceIds, placeId: "", level: item.level }
+        significance: historicalSignificance(item.event.id, item.event.title, item.event.category),
+        background: { id: key, title: item.event.title, year: item.year, text: item.event.summary, sourceIds: item.event.sourceIds, placeId: "", level: item.level }
       };
     });
   return candidates.length ? candidates : null;
@@ -162,6 +166,7 @@ export function timelineBackgrounds(state: GameSessionState): Map<number, Timeli
       startYear: event.year,
       endYear: event.year,
       tier: 0,
+      significance: Number.POSITIVE_INFINITY,
       background: {
         id: event.id,
         title: event.title,
@@ -181,16 +186,19 @@ export function timelineBackgrounds(state: GameSessionState): Map<number, Timeli
   const localFirst = seededRandom(`${state.selection.runSeed}:historical-scope-order`).int(0, 1) === 0;
   for (const [pointIndex, point] of points.entries()) {
     const matches = candidates.filter((candidate) => !used.has(candidate.key)
+      && candidate.significance >= MIN_FALLBACK_SIGNIFICANCE
       && !((alreadyTold.get(candidate.key) ?? Infinity) < point.year)
+      // A long period (a city name, a construction) is mentioned when it begins, not as news decades later.
+      && (candidate.startYear >= point.year - 4 || pointIndex === 0)
       && overlaps(candidate.startYear, candidate.endYear, point));
     const random = seededRandom(`${state.selection.runSeed}:historical-pool:${point.year}`);
-    const fixed = matches.filter((candidate) => candidate.tier === 0);
-    const local = matches.filter((candidate) => candidate.tier === 1);
-    const global = matches.filter((candidate) => candidate.tier >= 2);
+    // The most significant event of those years wins; local and global scope only alternate between equals.
+    // Secondary records only fill otherwise empty years; years with only acts or paperwork stay without an aside.
     const wantsLocal = pointIndex % 2 === (localFirst ? 0 : 1);
-    const preferred = fixed.length ? fixed : wantsLocal ? local : global;
-    const fallback = fixed.length ? fixed : wantsLocal ? global : local;
-    const selectionPool = preferred.length ? preferred : fallback;
+    const best = Math.max(...matches.map((candidate) => candidate.significance));
+    const top = matches.filter((candidate) => candidate.significance === best);
+    const preferred = top.filter((candidate) => candidate.tier === 0 || (candidate.tier === 1) === wantsLocal);
+    const selectionPool = preferred.length ? preferred : top;
     const selected = selectionPool.length ? selectionPool[random.int(0, selectionPool.length - 1)] : undefined;
     if (!selected) continue;
     used.add(selected.key);

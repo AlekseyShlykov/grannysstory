@@ -1,3 +1,4 @@
+import { isSpokenSignificant } from "../../../content/historical/significance";
 import type { BiographyState, BranchType, HistoricalAnchor } from "../../data/types";
 import type { WorldData } from "../../data/worldTypes";
 import type { RandomSource } from "../random";
@@ -12,7 +13,7 @@ const anchorCategories: Record<BranchType, string[]> = {
   profession: ["local_economy", "labor", "technology", "economic_crisis"],
   migration: ["infrastructure_transport", "local_economy", "housing_urban", "migration", "economic_crisis"],
   love: ["culture_leisure", "everyday_life", "infrastructure_transport"],
-  marriage: ["family_law", "women_rights", "housing_urban", "everyday_life"],
+  marriage: ["housing_urban", "everyday_life", "economic_crisis", "migration"],
   familyResponsibility: ["healthcare", "social_policy", "public_health", "housing_urban"],
   friendship: ["culture_leisure", "sport", "media_communication", "everyday_life"],
   dream: ["culture_leisure", "technology", "media_communication", "education"]
@@ -61,7 +62,10 @@ function anchorFromEvent(item: RelevantEvent): HistoricalAnchor {
 /** Verified circumstances near a turning point at the place she lived then (events first, then everyday context). */
 export function branchAnchorCandidates(world: WorldData, residences: ResidencePeriod[], profile: LifeProfile, type: BranchType, year: number): HistoricalAnchor[] {
   const events = relevantEvents(world, residences, profile, year - 4, year)
-    .filter((item) => !item.event.sensitive && anchorCategories[type].includes(item.event.category) && !NOT_A_FRAMING.test(`${item.event.title} ${item.event.summary}`))
+    .filter((item) => !item.event.sensitive
+      && anchorCategories[type].includes(item.event.category)
+      && isSpokenSignificant(item.event.id, item.event.title, item.event.category)
+      && !NOT_A_FRAMING.test(`${item.event.title} ${item.event.summary}`))
     .map(anchorFromEvent);
   if (events.length) return events;
   const residence = residences.find((period) => year >= period.fromYear && year <= period.toYear);

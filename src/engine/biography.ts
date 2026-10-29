@@ -22,6 +22,7 @@ import { validateSelection } from "./setup";
 import { chooseBranchWithHistory, lifeProfile } from "./world/biographyLink";
 import { getLocation, resolveLocationId } from "./world/geography";
 import { checkMove, pickDestination } from "./world/migration";
+import { planWork } from "./work";
 
 const traits = ["отвечает не сразу", "любит точные бытовые подробности", "смеётся над собственными ошибками", "не любит говорить торжественно"] as const;
 const childlessStatuses = [
@@ -131,7 +132,8 @@ function createFamily(selection: StartSelection, random: ReturnType<typeof seede
       id: "parent",
       name: parentIsDaughter ? (adoptive ? "её приёмная дочь, твоя мама" : "её дочь, твоя мама") : (adoptive ? "её приёмный сын, твой папа" : "её сын, твой папа"),
       birthYear: parentBirthYear,
-      parentIds: adoptive ? [] : ["grandmother"]
+      parentIds: adoptive ? [] : ["grandmother"],
+      sex: parentIsDaughter ? "female" : "male"
     };
     return {
       people: [grandmother, parent, player],
@@ -139,10 +141,12 @@ function createFamily(selection: StartSelection, random: ReturnType<typeof seede
         variant,
         playerRelationLabel: adoptive ? "приёмная бабушка" : "родная бабушка",
         introduction: adoptive
-          ? "Она стала частью семьи задолго до твоего рождения. Слово «приёмная» здесь объясняет родство, но не дистанцию."
-          : "Она твоя родная бабушка, хотя близость между вами всё равно складывалась не автоматически.",
+          ? `Она ${parentIsDaughter ? "удочерила твою маму" : "усыновила твоего папу"} задолго до твоего рождения. Слово «приёмная» здесь объясняет родство, но не дистанцию.`
+          : `Она твоя родная бабушка, ${parentIsDaughter ? "мама твоей мамы" : "мама твоего папы"}, хотя близость между вами всё равно складывалась не автоматически.`,
         childrenStatus: adoptive ? "adoptive_parent" : "biological_parent",
-        childrenText: adoptive ? "У неё не было биологических детей; твоего родителя она усыновила или удочерила." : "У неё родился ребёнок, который позже стал твоим родителем.",
+        childrenText: adoptive
+          ? `У неё не было биологических детей; ${parentIsDaughter ? "твою маму она удочерила" : "твоего папу она усыновила"}.`
+          : `У неё родил${parentIsDaughter ? "ась дочь, твоя мама" : "ся сын, твой папа"}.`,
         hasOwnChildren: true,
         familyAnchorId: "parent",
         edges: [
@@ -161,19 +165,27 @@ function createFamily(selection: StartSelection, random: ReturnType<typeof seede
     };
   }
 
+  // Separate streams: concrete sexes were added later and must not shift the rest of an existing seed's life.
+  const bridgeIsSister = seededRandom(`${selection.runSeed}:bridge-sex`).next() < 0.5;
+  const collateralParentIsDaughter = seededRandom(`${selection.runSeed}:collateral-parent-sex`).next() < 0.5;
+  const grandparentWord = bridgeIsSister ? "твоя бабушка" : "твой дедушка";
   const bridge: Person = {
     id: variant === "great_aunt" ? "grandmother_sibling" : "player_grandparent",
-    name: variant === "great_aunt" ? "её сестра или брат" : "её двоюродная сестра или брат",
+    name: variant === "great_aunt"
+      ? `её ${bridgeIsSister ? "сестра" : "брат"}, ${grandparentWord}`
+      : `её ${bridgeIsSister ? "двоюродная сестра" : "двоюродный брат"}, ${grandparentWord}`,
     birthYear: selection.birthYear + random.int(0, 3),
-    parentIds: []
+    parentIds: [],
+    sex: bridgeIsSister ? "female" : "male"
   };
   const collateralParentBirth = bridge.birthYear + random.int(22, 28);
   const collateralPlayerBirth = collateralParentBirth + random.int(20, 26);
   const parent: Person = {
     id: "parent",
-    name: "твой родитель",
+    name: collateralParentIsDaughter ? "твоя мама" : "твой папа",
     birthYear: collateralParentBirth,
-    parentIds: [bridge.id]
+    parentIds: [bridge.id],
+    sex: collateralParentIsDaughter ? "female" : "male"
   };
   player.birthYear = collateralPlayerBirth;
   const childrenStatus = random.pick(childlessStatuses);
@@ -183,8 +195,8 @@ function createFamily(selection: StartSelection, random: ReturnType<typeof seede
       variant,
       playerRelationLabel: variant === "great_aunt" ? "старшая родственница, которую в семье зовут бабушкой" : "двоюродная бабушка",
       introduction: variant === "great_aunt"
-        ? "Формально она сестра твоей бабушки или дедушки. В семье её всегда звали бабушкой, и ты тоже."
-        : "Она двоюродная родственница твоей бабушки или дедушки. Для тебя она всегда была просто бабушкой.",
+        ? `Формально она сестра ${bridgeIsSister ? "твоей бабушки" : "твоего дедушки"}. В семье её всегда звали бабушкой, и ты тоже.`
+        : `Она двоюродная сестра ${bridgeIsSister ? "твоей бабушки" : "твоего дедушки"}. Для тебя она всегда была просто бабушкой.`,
       childrenStatus,
       childrenText: childlessDescriptions[childrenStatus],
       hasOwnChildren: false,
@@ -287,8 +299,10 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
     flags
   };
   const plan = planWithHistory(selection, draft, branch, branchYear);
+  const work = planWork(selection, birthPlaceId, plan.branch, branchYear, plan.destinationPlaceId);
   return {
     ...draft,
+    ...(work ? { work } : {}),
     themes: [...new Set([...plan.branch.themes, "healthAgingAndIndependence", "smallJoysAndGratitude", "meaningAndLegacy"])] as BiographyState["themes"],
     branches: [{
       id: `branch:${plan.branch.type}`,

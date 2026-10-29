@@ -1,4 +1,7 @@
+import { birthAfterwords, birthStatements } from "../../content/scenes/birthVoice";
 import { framingVoice, voiceFor } from "../../content/scenes/historicalVoice";
+import { spokenChildren, spokenRelationship } from "../../content/scenes/kinshipVoice";
+import type { Sex } from "../../content/scenes/kinshipVoice";
 import type { ReflectionAngle } from "../../content/scenes/lifeCourse";
 import { placeLocative } from "../../content/scenes/regions";
 import { placeLocativeAt, placeNameAt } from "../data/world";
@@ -13,7 +16,10 @@ import {
   questionsForPoint,
   timelineBackgrounds
 } from "./lifeTimeline";
-import { threadEchoFor } from "./earlyLifeThread";
+import { threadClosingFor, threadEchoFor } from "./earlyLifeThread";
+import { seededRandom } from "./random";
+import { currentOccupation, nextWorkStage, workFactId, workLifeEvent, workLine } from "./work";
+import type { WorkStage } from "./work";
 
 export interface DialogueOption {
   id: string;
@@ -123,29 +129,13 @@ function withTurn(
   };
 }
 
-function spokenRelationship(state: GameSessionState): string {
-  switch (state.biography.relationship.variant) {
-    case "biological_grandmother":
-      return "Я твоя родная бабушка. Но само родство ещё не делает людей близкими, это мы уже потом устроили.";
-    case "adoptive_grandmother":
-      return "Твоего родителя я приняла в семью задолго до твоего рождения. Слово «приёмная» всё объясняет на бумаге и почти ничего между нами.";
-    case "great_aunt":
-      return "Формально я сестра твоей бабушки или дедушки. Но в семье меня всегда звали бабушкой, и ты тоже.";
-    case "cousin_grandmother":
-      return "Я двоюродная родственница твоей бабушки или дедушки. Для тебя с самого начала была просто бабушкой.";
-  }
-}
-
-function spokenChildren(state: GameSessionState): string {
-  switch (state.biography.relationship.childrenStatus) {
-    case "biological_parent": return "У меня родился ребёнок, который потом стал твоим родителем. Только не думай, что после этого я сразу всё поняла про семью.";
-    case "adoptive_parent": return "Биологических детей у меня не было. Твоего родителя я усыновила или удочерила, а дальше были обычные семейные дни, хорошие и невозможные.";
-    case "chose_no_children": return "Я сознательно не хотела собственных детей. Не из-за одной большой причины, просто не видела себя матерью. Жизнь от этого пустой не стала.";
-    case "wanted_no_children": return "Детей я хотела, но их не было. Это было больно, потом стало частью жизни, но не единственным её названием.";
-    case "circumstances_changed": return "Я всё откладывала решение о детях, а потом обстоятельства изменились. Иногда думаю об этом, но не считаю всю жизнь ошибкой.";
-    case "no_strong_preference": return "Я никогда не чувствовала, что материнство обязательно должно стать центром моей жизни. Вокруг это понимали не все, а мне объяснять надоело.";
-    case "mentor_without_children": return "Собственных детей у меня не было. Зато младшие родственники всё время оказывались у меня на кухне, и я для них была важным взрослым, хоть и не всегда удобным.";
-  }
+function familySexes(state: GameSessionState): { bridge: Sex; parent: Sex } {
+  const people = state.biography.people;
+  const anchorId = state.biography.relationship.familyAnchorId;
+  return {
+    bridge: anchorId === "parent" ? undefined : people.find((person) => person.id === anchorId)?.sex,
+    parent: people.find((person) => person.id === "parent")?.sex
+  };
 }
 
 function specialEventsInPoint(state: GameSessionState): LifeEvent[] {
@@ -161,16 +151,54 @@ function specialEventsInPoint(state: GameSessionState): LifeEvent[] {
 
 function specialSpeech(state: GameSessionState, events: LifeEvent[]): string[] {
   const speech: string[] = [];
-  if (events.some((event) => event.id === "life:family-connection")) speech.push(spokenRelationship(state), spokenChildren(state));
+  if (events.some((event) => event.id === "life:family-connection")) {
+    const { bridge, parent } = familySexes(state);
+    speech.push(
+      spokenRelationship(state.biography.relationship.variant, bridge, parent),
+      spokenChildren(state.biography.relationship.childrenStatus, parent)
+    );
+  }
   for (const event of events) if (event.id !== "life:family-connection") speech.push(event.text);
   return speech;
 }
 
-function birthAnswer(state: GameSessionState): string {
+const birthAngles: ReflectionAngle[] = ["detail", "feeling", "meaning"];
+
+/**
+ * Year and place are canon; who told her and the small detail around them vary by run and by the question,
+ * so the passport is only one of many possible sources, and sometimes there is no source at all.
+ */
+function birthAnswer(state: GameSessionState, angle: ReflectionAngle): string {
   const year = state.selection.birthYear;
   const placeId = state.biography.residenceHistory[0]?.placeId ?? "tver";
   const where = placeLocativeAt(placeId, year) ?? placeLocative(placeNameAt(placeId, year));
-  return `Родилась я в ${year} году, ${where}. Это я точно знаю, так в паспорте записано. А что было совсем маленькой, почти не помню, так, обрывки.`;
+  const random = seededRandom(`${state.selection.runSeed}:birth-voice`);
+  const base = random.int(0, birthStatements.length - 1);
+  const offset = Math.max(birthAngles.indexOf(angle), 0) * 5;
+  const statement = birthStatements[(base + offset) % birthStatements.length]!(year, where);
+  const afterword = birthAfterwords[random.int(0, birthAfterwords.length - 1)]!;
+  return [statement, afterword].filter(Boolean).join(" ");
+}
+
+/** Says one stage of her working life and records it; the first stage also enters the atlas. */
+function tellWork(state: GameSessionState, stage: WorkStage): { state: GameSessionState; line: string | null } {
+  const occupation = currentOccupation(state);
+  if (!occupation) return { state, line: null };
+  let next: GameSessionState = {
+    ...state,
+    discovery: { facts: [...state.discovery.facts, { id: workFactId(stage), learnedAtStep: state.dialogue.step + 1, lifeEventIds: stage === "start" ? ["life:work"] : [] }] }
+  };
+  if (stage === "start") {
+    const year = next.biography.work?.startYear ?? next.selection.birthYear + 18;
+    next = addKnownEvent(next, workLifeEvent(next, occupation, residenceAt(next, year)), { pride: true, regret: false, gratitude: true, acceptance: false });
+  }
+  return { state: next, line: workLine(next, occupation, stage) };
+}
+
+function isPointBeforeBranch(state: GameSessionState): boolean {
+  const branch = state.biography.branches[0];
+  const point = activePoint(state);
+  return Boolean(branch && !branch.resolved && branch.year > point.endYear && branch.year <= point.endYear + 5);
 }
 
 export function currentScene(state: GameSessionState): DialogueSceneView {
@@ -198,12 +226,15 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
     const answer = optionId === "pathA" ? branch.answerA : branch.answerB;
     const decision = next.biography.lifeEvents.find((event) => event.id === `life:${branch.type}:decision`);
     if (decision) next = addKnownEvent(next, decision, { pride: true, regret: true, gratitude: false, acceptance: false });
-    return withTurn(next, option.text, answer, point.final);
+    // When the turning point decides her work, the concrete job follows the decision in the same answer.
+    const work = nextWorkStage(next, point.age, Math.max(point.endYear, next.biography.branches[0]?.year ?? 0)) === "start" ? tellWork(next, "start") : null;
+    if (work?.line) next = work.state;
+    return withTurn(next, option.text, [answer, work?.line].filter(Boolean).join(" "), point.final);
   }
 
   const angle = optionId as ReflectionAngle;
   const mainAnswer = point.age === 0
-    ? `${birthAnswer(next)} ${fragment.detail}`
+    ? `${birthAnswer(next, angle)} ${fragment.detail}`
     : personalAnswer(fragment, angle);
   const threadEcho = threadEchoFor(next, point.age, phaseAtAge(point.age));
   const linkedAnswer = threadEcho ? `${threadEcho} ${mainAnswer}` : mainAnswer;
@@ -226,7 +257,15 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   const speech = [linkedAnswer, ...specialSpeech(next, specials)];
   for (const event of specials) next = addKnownEvent(next, { ...event, known: true }, { pride: false, regret: false, gratitude: true, acceptance: true });
 
-  const background = timelineBackgrounds(next).get(point.year);
+  const workStage = nextWorkStage(next, point.age, point.endYear);
+  if (workStage) {
+    const work = tellWork(next, workStage);
+    next = work.state;
+    if (work.line) speech.push(work.line);
+  }
+
+  const backgrounds = timelineBackgrounds(next);
+  const background = backgrounds.get(point.year);
   if (background) {
     const historicalEvent = background.existingLifeEventId
       ? next.biography.lifeEvents.find((event) => event.id === background.existingLifeEventId)
@@ -234,7 +273,13 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
     if (historicalEvent) next = addKnownEvent(next, { ...historicalEvent, known: true }, { pride: false, regret: false, gratitude: false, acceptance: false });
     const eventId = background.id.replace(/^context:(national:|world:)?/, "");
     const wasPresent = !background.existingLifeEventId || Boolean(historicalEvent?.peopleIds.includes("grandmother"));
-    speech.push(voiceFor(eventId, Math.max(0, background.year - state.selection.birthYear), wasPresent, background.text, background.level, background.title));
+    // The order of this aside among all asides of the life keeps lead-in phrases from repeating.
+    const order = [...backgrounds.keys()].sort((a, b) => a - b).indexOf(point.year);
+    speech.push(voiceFor(eventId, Math.max(0, background.year - state.selection.birthYear), wasPresent, background.text, background.level, background.title, state.selection.runSeed, order));
+  }
+
+  if (isPointBeforeBranch(next)) {
+    speech.push(activeBranchDefinition(next).foreshadow);
   }
 
   if (introducesBranch) {
@@ -242,7 +287,8 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
     const anchor = next.biography.branches[0]?.historicalAnchor;
     if (anchor) {
       next = addKnownEvent(next, anchorAsLifeEvent(anchor, residenceAt(next, anchor.year)), { pride: false, regret: false, gratitude: false, acceptance: false });
-      speech.push(framingVoice(anchor.year - state.selection.birthYear, anchor.summary, anchor.title));
+      const framing = framingVoice(anchor.year - state.selection.birthYear, anchor.summary, anchor.title, state.selection.runSeed, anchor.kind);
+      if (framing) speech.push(framing);
     }
     speech.push(branch.setup);
     next = revealBranchSetup(next);
@@ -250,6 +296,13 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   }
 
   if (point.final) {
+    const resolved = next.biography.branches[0];
+    if (resolved?.resolved && resolved.outcome) {
+      const definition = activeBranchDefinition(next);
+      speech.push(resolved.outcome.id === "pathA" ? definition.lateA : definition.lateB);
+    }
+    const closing = threadClosingFor(next);
+    if (closing) speech.push(closing);
     const hundred = point.age === 100 ? " Сто лет, подумать только." : "";
     speech.push(`Вот и дошли до ${point.year} года.${hundred} Я пока здесь, так что не делай из моей жизни законченную книгу. Давай лучше поставим чайник.`);
   }
