@@ -53,14 +53,14 @@ npm run build
 
 ## GitHub Pages
 
-Репозиторий содержит workflow `.github/workflows/deploy-pages.yml`. После включения источника Pages `GitHub Actions` каждый push в `main` проверяет данные, тестирует TypeScript-сборку и публикует `dist` с базовым путём `/grannysstory/`.
+Репозиторий содержит workflow `.github/workflows/deploy-pages.yml`. После однократного включения Pages каждый push в `main` проверяет данные, TypeScript-сборку и публикует `dist` с базовым путём `/grannysstory/`.
 
 ```bash
-gh api --method POST repos/AlekseyShlykov/grannysstory/pages -f build_type=workflow
-gh workflow run deploy-pages.yml --repo AlekseyShlykov/grannysstory
+gh api --method POST repos/AlekseyShlykov/grannysstory/pages -f build_type=workflow # один раз
+gh workflow run deploy-pages.yml --repo AlekseyShlykov/grannysstory                # при ручном запуске
 ```
 
-После успешного workflow игра будет доступна по адресу `https://alekseyshlykov.github.io/grannysstory/`.
+После успешного workflow игра будет доступна по адресу `https://buildtounderstand.dev/grannysstory/` (Pages использует настроенный для аккаунта домен).
 
 
 ## Мировой исторический набор
