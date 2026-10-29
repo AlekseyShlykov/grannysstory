@@ -1,0 +1,76 @@
+{
+ "records": [
+  {
+   "id": "gb-greater-manchester-2000-m60",
+   "title": "Завершена кольцевая дорога M60",
+   "start_date": "2000-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-greater-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открыт последний участок внешней кольцевой автомагистрали M60 вокруг Манчестера.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "месяц завершения M60"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-greater-manchester-2023-bee-network",
+   "title": "Запуск транспортной сети Bee Network",
+   "start_date": "2023-09-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-greater-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В Большом Манчестере запущена единая сеть Bee Network: первые автобусы стали работать по франшизе под контролем местных властей.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата запуска"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

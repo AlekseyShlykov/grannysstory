@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "source_id": "wikidata",
+      "name": "Wikidata",
+      "publisher": "Wikimedia Foundation",
+      "country": null,
+      "url": "https://www.wikidata.org/",
+      "historical_coverage": { "from": 1900, "to": 2025 },
+      "geographic_coverage": ["FR", "US", "GB", "PL", "RU"],
+      "categories": ["geography", "identifiers"],
+      "access_method": "api",
+      "bulk_download": true,
+      "license": "CC0 1.0",
+      "attribution_required": false,
+      "access_restrictions": ["User-Agent policy and rate limits of the Wikidata Query Service"],
+      "status": "accessed",
+      "accessed": "2026-10-29",
+      "notes": "Стабильные QID, координаты (P625) и сверка названий; collect/wikidata_locations.py, кеш в data/cache/wikidata."
+    }
+  ]
+}

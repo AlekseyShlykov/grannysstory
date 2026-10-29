@@ -1,0 +1,543 @@
+{
+ "records": [
+  {
+   "id": "pl-nat-1945-eastern-resettlement",
+   "title": "Переселение поляков с бывших восточных земель",
+   "start_date": "1944",
+   "end_date": "1947",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "migration",
+   "historical_summary": "После перенесения восточной границы поляков из Виленщины, Волыни и Восточной Малопольши переселяли в новую Польшу, главным образом на «Возвращённые земли» на западе; по официальным данным, к 1947 г. переселено свыше 1 млн человек. Ехали неделями в открытых товарных вагонах со скарбом и скотом; больные, старики и матери с детьми умирали в дороге.",
+   "affected_groups": [
+    "migrants",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home",
+    "new_home_after_move"
+   ],
+   "narrative_hooks": [
+    "family_from_the_east",
+    "house_left_behind"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_ipn"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_ipn",
+     "url": "https://przystanekhistoria.pl/pa2/teksty/78935,Ekspatriacja-Przymusowe-przesiedlenia-Polakow-do-nowej-Polski.html",
+     "accessed": "2026-10-29",
+     "supports": "главная волна 1944–1946; свыше 1 млн к лету 1947; товарные вагоны, направление — Возвращённые земли, Вроцлав"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1944-land-reform",
+   "title": "Аграрная реформа ПКНО",
+   "title_original": "Reforma rolna",
+   "start_date": "1944-09-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Декретом Польского комитета национального освобождения от 6 сентября 1944 г. крупные имения были разделены; до конца 1944 г. парцеллировано 212 тыс. га, свыше 100 тыс. га перешло государству.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "land_received"
+   ],
+   "narrative_hooks": [
+    "family_got_land"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1944/17",
+     "accessed": "2026-10-29",
+     "supports": "Dekret PKWN z 6.09.1944 o przeprowadzeniu reformy rolnej"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "212 тыс. га к концу 1944, >100 тыс. га огосударствлено"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1944-repatriation-office",
+   "title": "Создан Государственный репатриационный уряд",
+   "title_original": "Państwowy Urząd Repatriacyjny",
+   "start_date": "1944-10-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "migration",
+   "historical_summary": "Декретом ПКНО от 7 октября 1944 г. создан Государственный репатриационный уряд (PUR), занимавшийся переселением поляков с бывших восточных земель; ликвидирован 22 марта 1951 г.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_ipn"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_ipn",
+     "url": "https://przystanekhistoria.pl/pa2/teksty/78935,Ekspatriacja-Przymusowe-przesiedlenia-Polakow-do-nowej-Polski.html",
+     "accessed": "2026-10-29",
+     "supports": "7.10.1944 PUR, 22.03.1951 ликвидация"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1945-marriage-law",
+   "title": "Новое брачное право (единое для всей страны)",
+   "title_original": "Prawo małżeńskie",
+   "start_date": "1946-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "Декрет от 25 сентября 1945 г. «Брачное право» вступил в силу 1 января 1946 г. и заменил прежние разные по регионам правила единым светским брачным законодательством.",
+   "affected_groups": [
+    "women",
+    "men",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "civil_wedding_before_church"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1945/270",
+     "accessed": "2026-10-29",
+     "supports": "Dekret z 25.09.1945 Prawo małżeńskie, в силе 1.01.1946"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1946-nationalisation",
+   "title": "Национализация основных отраслей экономики",
+   "start_date": "1946-01-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Закон от 3 января 1946 г. передал в собственность государства основные отрасли народного хозяйства — крупную промышленность, банки, транспорт.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "employer_changed"
+   ],
+   "narrative_hooks": [
+    "family_business_taken"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1946/17",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 3.01.1946 o przejęciu na własność Państwa podstawowych gałęzi gospodarki narodowej"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1949-end-of-rationing",
+   "title": "Отмена послевоенных продовольственных карточек",
+   "start_date": "1949-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "После войны хлеб, мука, мясо и сахар продавались по карточкам; постановлением от 11 декабря 1948 г. система отменена с 1 января 1949 г. (талоны на жиры действовали до июля 1950 г., на молоко — до марта 1951 г.).",
+   "affected_groups": [
+    "consumers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_dzieje"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/content/reglamentacja-towar%C3%B3w-w-prl",
+     "accessed": "2026-10-29",
+     "supports": "1945–1949 карточки; отмена с 1.01.1949; жиры до 1.07.1950, молоко до 03.1951"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1950-currency-change",
+   "title": "Обмен денег 1950 года",
+   "start_date": "1950-10-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "Закон от 28 октября 1950 г. об изменении денежной системы ввёл новый злотый; сбережения граждан были обменены на невыгодных условиях.",
+   "affected_groups": [
+    "all_residents",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "savings_lost_or_restored"
+   ],
+   "narrative_hooks": [
+    "savings_lost_overnight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1950/459",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 28.10.1950 o zmianie systemu pieniężnego, в силе 30.10.1950"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1951-rationing-meat",
+   "title": "Карточки на мясо и жиры для работников предприятий",
+   "start_date": "1951-08-29",
+   "end_date": "1953-01-03",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "Постановлением от 29 августа 1951 г. снова введены карточки на мясо и жиры для работников 1363 предприятий в 14 воеводствах, Варшаве и Лодзи; их отменили 3 января 1953 г. с заметным повышением цен.",
+   "affected_groups": [
+    "industrial_workers",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_dzieje"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/content/reglamentacja-towar%C3%B3w-w-prl",
+     "accessed": "2026-10-29",
+     "supports": "29.08.1951; 1363 предприятия; отмена 3.01.1953 с повышением цен"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1952-constitution",
+   "title": "Конституция ПНР",
+   "title_original": "Konstytucja Polskiej Rzeczypospolitej Ludowej",
+   "start_date": "1952-07-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "22 июля 1952 г. Законодательный сейм принял Конституцию Польской Народной Республики; государство получило название ПНР.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1952/232",
+     "accessed": "2026-10-29",
+     "supports": "Konstytucja PRL uchwalona 22.07.1952"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1952-television",
+   "title": "Первая телепередача в Польше",
+   "start_date": "1952-10-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "media_communication",
+   "historical_summary": "25 октября 1952 г. в 19:00 вышла первая польская телепередача — получасовая программа, которую смотрели на 24 приёмниках «Ленинград» в клубах; регулярное вещание (полчаса в неделю) началось 23 января 1953 г.",
+   "affected_groups": [
+    "television_owners",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_in_the_block"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Telewizja_Polska",
+     "accessed": "2026-10-29",
+     "supports": "25.10.1952 первая передача, 24 приёмника; 23.01.1953 регулярное вещание"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1956-abortion-law",
+   "title": "Закон 1956 г. о допустимости прерывания беременности",
+   "title_original": "Ustawa o warunkach dopuszczalności przerywania ciąży",
+   "start_date": "1956-05-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 27 апреля 1956 г. (в силе с мая 1956 г.) разрешил врачам прерывать беременность по медицинским показаниям, при трудных жизненных условиях женщины или если беременность возникла в результате преступления.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 14,
+    "groups_any": [
+     "women"
+    ]
+   },
+   "potential_impacts": [
+    "reproductive_choice_widened"
+   ],
+   "narrative_hooks": [
+    "unspoken_pregnancy_story"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1956/61",
+     "accessed": "2026-10-29",
+     "supports": "Dz.U. 1956 nr 12 poz. 61, ст. 1: медицинские показания, трудные жизненные условия, преступление"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1956-poznan-june",
+   "title": "Познанский июнь",
+   "start_date": "1956-06-28",
+   "end_date": "1956-06-30",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "labor",
+   "historical_summary": "28–30 июня 1956 г. в Познани рабочие завода Цегельского и других предприятий вышли с протестом против норм и налогов; выступление подавлено армией, погибли не менее 58 человек, около 600 ранены, около 250 арестованы.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "heard_about_poznan"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Poznański_Czerwiec",
+     "accessed": "2026-10-29",
+     "supports": "28–30.06.1956; 58 погибших по IPN, ~600 раненых, ~250 арестованных"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1956-october-thaw",
+   "title": "Польский Октябрь 1956 года",
+   "start_date": "1956-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "После событий 1956 г. к власти вернулся Владислав Гомулка (первый секретарь с октября 1956 г.); сталинизм окончился, от полной коллективизации деревни отказались.",
+   "affected_groups": [
+    "rural_residents",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "collective_farm_dissolved"
+   ],
+   "narrative_hooks": [
+    "thaw_optimism"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "Октябрь 1956, Гомулка 1956–1970, отказ от коллективизации в 1956"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "октябрь 1956 Гомулка первый секретарь"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

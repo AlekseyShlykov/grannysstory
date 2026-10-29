@@ -1,0 +1,59 @@
+{
+  "datasetVersion": "0.5.0",
+  "saveFormatVersion": 2,
+  "conversationYear": 2026,
+  "allowedBirthYears": {
+    "from": 1900,
+    "to": 1940
+  },
+  "provisional": false,
+  "regions": [
+    {
+      "id": "moscow",
+      "countryId": "russia",
+      "label": "Москва",
+      "pack": "moscow.json",
+      "enabled": true,
+      "coverage": "Город Москва; проверенное ядро содержит два события."
+    },
+    {
+      "id": "leningrad",
+      "countryId": "russia",
+      "label": "Ленинград",
+      "pack": "leningrad.json",
+      "enabled": true,
+      "coverage": "Ленинград / Санкт-Петербург; присутствие в блокадном городе определяется отдельно."
+    },
+    {
+      "id": "tver",
+      "countryId": "russia",
+      "label": "Тверь / Калинин",
+      "pack": "tver.json",
+      "enabled": true,
+      "coverage": "Город Тверь / Калинин; область пока не представлена во всей полноте."
+    },
+    {
+      "id": "novgorod",
+      "countryId": "russia",
+      "label": "Новгородская область",
+      "pack": "novgorod.json",
+      "enabled": true,
+      "coverage": "Пока только город Новгород / Великий Новгород."
+    },
+    {
+      "id": "smolensk",
+      "countryId": "russia",
+      "label": "Смоленская область",
+      "pack": "smolensk.json",
+      "enabled": true,
+      "coverage": "Пока только город Смоленск."
+    }
+  ],
+  "checksums": {
+    "moscow": "9e522a053e4ed0e28587c6a0694df30cfa68196dd7f5c5fa83ad33392530e99c",
+    "leningrad": "a73b25be638f126779ae8cf4f3075f28a58f40c7454401e7206a8b422a37e9ec",
+    "tver": "777e3b47dfd78c8f37591f9c6663de86b1b419024f2de6058ae289974e001870",
+    "novgorod": "4273e2b1391438a6f8c9d07bee4603ee89216625e4649ee550d85503e75624f7",
+    "smolensk": "31d321ed2acfdfaf0c1f87a30c5a6c710dbbce0da52ddac416411f5e6cc648b7"
+  }
+}

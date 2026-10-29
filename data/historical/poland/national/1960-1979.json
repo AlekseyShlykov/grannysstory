@@ -1,0 +1,497 @@
+{
+ "records": [
+  {
+   "id": "pl-nat-1961-daily-tv",
+   "title": "Ежедневное телевещание",
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "media_communication",
+   "historical_summary": "С 1961 г. Польское телевидение стало вещать ежедневно (в источнике названы две даты — 3 января и 1 февраля 1961 г.).",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Telewizja_Polska",
+     "accessed": "2026-10-29",
+     "supports": "1961 ежедневное вещание, расхождение дат"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1961-school-reform",
+   "title": "Закон о развитии системы просвещения: восьмилетняя школа",
+   "start_date": "1961-07-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "education",
+   "historical_summary": "Закон от 15 июля 1961 г. о развитии системы просвещения и воспитания реформировал школьную систему ПНР.",
+   "affected_groups": [
+    "school_pupils",
+    "teachers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1961/160",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 15.07.1961 o rozwoju systemu oświaty i wychowania"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1965-family-code",
+   "title": "Семейный и опекунский кодекс",
+   "title_original": "Kodeks rodzinny i opiekuńczy",
+   "start_date": "1965-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "С 1 января 1965 г. действует Семейный и опекунский кодекс: супруги имеют равные права и обязанности, жена может сохранить свою фамилию, развод возможен при полном и длительном распаде совместной жизни; брачный возраст — 21 год для мужчин и 18 лет для женщин.",
+   "affected_groups": [
+    "women",
+    "men",
+    "parents"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "divorce_possible"
+   ],
+   "narrative_hooks": [
+    "kept_maiden_name",
+    "divorce_decision"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1964/59",
+     "accessed": "2026-10-29",
+     "supports": "Kodeks rodzinny i opiekuńczy, ст. 10, 23, 25, 56; в силе 1.01.1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1968-march",
+   "title": "Март 1968 года: студенческие протесты и антисемитская кампания",
+   "start_date": "1968-03-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "repression",
+   "historical_summary": "8 марта 1968 г. митинг в Варшавском университете разогнали ZOMO; протесты прошли во многих вузах (крупнейшая манифестация — в Гданьске 15 марта). До октября задержаны 2732 человека, сотни студентов отчислены; одновременно власти вели антисемитскую кампанию, и в 1968 г. страну покинули от 13 до 20 тыс. человек.",
+   "affected_groups": [
+    "students",
+    "jewish_population"
+   ],
+   "eligibility": {
+    "min_age": 17
+   },
+   "potential_impacts": [
+    "emigration",
+    "expelled_from_university"
+   ],
+   "narrative_hooks": [
+    "friends_left_in_1968",
+    "student_protest"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Marzec_1968",
+     "accessed": "2026-10-29",
+     "supports": "8.03.1968 митинг; Гданьск 15.03 ~20 тыс.; 2732 задержанных; 13–20 тыс. эмигрантов в 1968"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1970-december-gierek",
+   "title": "Декабрь 1970 и приход Герека",
+   "start_date": "1970-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "После рабочего бунта на Балтийском побережье в декабре 1970 г. Гомулку сменила команда Эдварда Герека; развитие 1970-х финансировалось иностранными кредитами и закончилось внешним долгом.",
+   "affected_groups": [
+    "all_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "gierek_decade_consumer_hopes"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "бунт на Побережье, Герек, кредиты и долг"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1971-colour-tv",
+   "title": "Первые цветные передачи и второй канал",
+   "start_date": "1971-07-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "media_communication",
+   "historical_summary": "2 октября 1970 г. начал работу второй общенациональный канал ТВП2, а 22 июля 1971 г. вышла первая цветная передача (система SECAM); цветные телевизоры были доступны немногим.",
+   "affected_groups": [
+    "television_owners",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "neighbours_colour_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Telewizja_Polska",
+     "accessed": "2026-10-29",
+     "supports": "2.10.1970 TVP2; 22.07.1971 первая цветная передача; мало кто мог купить"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1973-fiat-126p",
+   "title": "«Малюх»: начало выпуска Fiat 126p",
+   "title_original": "Polski Fiat 126p",
+   "start_date": "1973-06-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "6 июня 1973 г. в Бельско-Бяле собран первый польский Fiat 126p; машина стоила 69 тыс. злотых при средней зарплате около 3–4 тыс. зл., предоплаты принимала PKO с февраля 1973 г. До 2000 г. в Польше выпущено около 3,3 млн «малюхов».",
+   "affected_groups": [
+    "consumers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "first_family_car"
+   ],
+   "narrative_hooks": [
+    "waiting_years_for_car",
+    "first_family_car"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Polski_Fiat_126p",
+     "accessed": "2026-10-29",
+     "supports": "6.06.1973; 69 000 зл; предоплаты PKO с 5.02.1973; средняя зарплата 3–4 тыс.; 3 318 674 в Польше; конец 22.09.2000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1975-labour-code",
+   "title": "Кодекс труда",
+   "start_date": "1975-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "labor",
+   "historical_summary": "С 1 января 1975 г. действует Кодекс труда (закон от 26 июня 1974 г.), объединивший нормы о трудовых отношениях.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1974/141",
+     "accessed": "2026-10-29",
+     "supports": "Kodeks pracy z 26.06.1974, в силе 1.01.1975"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1975-two-tier-reform",
+   "title": "Административная реформа 1975 года: 49 воеводств",
+   "start_date": "1975-06-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Закон от 28 мая 1975 г. ввёл с 1 июня 1975 г. двухуровневое деление: 49 небольших воеводств и гмины, поветы упразднены. Варшава, Лодзь и Краков стали отдельными воеводствами.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "address_changed_without_moving"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1975/91",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 28.05.1975, в силе 1.06.1975"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Podział_administracyjny_Polski_(1975–1998)",
+     "accessed": "2026-10-29",
+     "supports": "49 воеводств, ликвидация поветов, городские воеводства"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1976-june-protests",
+   "title": "Июнь 1976: повышение цен и протесты в Радоме, Урсусе, Плоцке",
+   "start_date": "1976-06-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "labor",
+   "historical_summary": "24 июня 1976 г. правительство объявило резкое (до 70%) повышение цен на продукты; 25 июня забастовали около 97 предприятий, в Радоме горел комитет партии. Повышение отменили, но участников протестов избивали, арестовывали и увольняли; 23 сентября 1976 г. создан Комитет защиты рабочих (KOR).",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "wolf_ticket_after_strike"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Czerwiec_1976",
+     "accessed": "2026-10-29",
+     "supports": "24.06 объявление; 25.06 ~97 предприятий; Радом; репрессии; KOR 23.09.1976"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1976-sugar-rationing",
+   "title": "Карточки на сахар",
+   "start_date": "1976-08-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "С 12 августа 1976 г. сахар продавался по «товарным билетам»: 10,50 зл/кг по карточке против 26 зл/кг в свободной продаже; карточки на сахар отменены в ноябре 1985 г.",
+   "affected_groups": [
+    "consumers",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "queue_for_sugar"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_dzieje"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/content/reglamentacja-towar%C3%B3w-w-prl",
+     "accessed": "2026-10-29",
+     "supports": "12.08.1976 сахар 10,50/26 зл; отмена ноябрь 1985"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1979-papal-visit",
+   "title": "Первое паломничество Иоанна Павла II в Польшу",
+   "start_date": "1979",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "religion",
+   "historical_summary": "В 1979 г. Иоанн Павел II, избранный папой в 1978 г., впервые приехал в Польшу; в Варшаве на площади Победы прошла месса.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "went_to_papal_mass"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "1978 избрание, 1979 визит"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1979 месса на площади Победы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

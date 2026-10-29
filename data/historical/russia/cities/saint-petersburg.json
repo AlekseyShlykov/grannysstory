@@ -1,0 +1,668 @@
+{
+  "records": [
+    {
+      "id": "ru-spb-1903-flood",
+      "title": "Наводнение 1903 года",
+      "title_original": null,
+      "start_date": "1903-11-25",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "25 ноября 1903 года вода в Неве поднялась на 269 см выше ординара — одно из крупнейших наводнений XX века в городе.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
+          "accessed": "2026-10-29",
+          "supports": "25.11.1903, 269 см"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1905-putilov-strike",
+      "title": "Забастовка на Путиловском заводе",
+      "title_original": null,
+      "start_date": "1905-01",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "В январе 1905 года забастовка на Путиловском заводе переросла в шествие рабочих к Зимнему дворцу 9 января, которое было расстреляно («Кровавое воскресенье»).",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Кировский_завод",
+          "accessed": "2026-10-29",
+          "supports": "январь 1905, 9 января"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1914-renamed-petrograd",
+      "title": "Санкт-Петербург стал Петроградом",
+      "title_original": null,
+      "start_date": "1914-08-31",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "18 (31) августа 1914 года, вскоре после вступления России в Первую мировую войну, столицу переименовали в Петроград, отказавшись от немецкого по звучанию названия.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_encspb",
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://prlib.ru/history/1983280",
+          "accessed": "2026-10-29",
+          "supports": "18 (31) августа 1914"
+        },
+        {
+          "source_id": "ru_encspb",
+          "url": "https://encspb.ru/object/2804017592",
+          "accessed": "2026-10-29",
+          "supports": "после вступления в войну"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-spb-1918-population-collapse",
+      "title": "Петроград пустеет",
+      "title_original": null,
+      "start_date": "1918",
+      "end_date": "1920",
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "economic_crisis",
+      "subcategory": null,
+      "historical_summary": "После революции население Петрограда резко сократилось — примерно с 2,3 млн в 1917 году до 740 тысяч в 1920-м: голод, остановка заводов и транспорта, инфляция и отъезд жителей.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "food_shortage",
+        "migration"
+      ],
+      "narrative_hooks": [
+        "family_left_city"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Санкт-Петербурга",
+          "accessed": "2026-10-29",
+          "supports": "2,3 млн → 740 тыс.; причины"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1924-renamed-leningrad",
+      "title": "Петроград переименован в Ленинград",
+      "title_original": null,
+      "start_date": "1924-01-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "26 января 1924 года постановлением II съезда Советов СССР, через несколько дней после смерти Ленина, Петроград переименовали в Ленинград.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_encspb"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_encspb",
+          "url": "https://encspb.ru/object/2804017592",
+          "accessed": "2026-10-29",
+          "supports": "26 января 1924"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-spb-1924-flood",
+      "title": "Наводнение 1924 года",
+      "title_original": null,
+      "start_date": "1924-09-23",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "23 сентября 1924 года вода поднялась на 380 см — второе по силе наводнение в истории города после 1824 года.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "housing_loss"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
+          "accessed": "2026-10-29",
+          "supports": "23.09.1924, 380 см"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1924-fordson-putilovets",
+      "title": "Первый советский трактор",
+      "title_original": null,
+      "start_date": "1924",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1924 году на «Красном путиловце» испытали и запустили в серию трактор «Фордзон-Путиловец». В декабре 1934 года завод получил имя Кирова.",
+      "affected_groups": [
+        "industrial_workers",
+        "agricultural_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Кировский_завод",
+          "accessed": "2026-10-29",
+          "supports": "1924; 17.12.1934"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1941-kirov-plant-evacuated",
+      "title": "Кировский завод эвакуирован в Челябинск",
+      "title_original": null,
+      "start_date": "1941",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "В 1941 году большую часть Кировского завода эвакуировали в Челябинск; оставшиеся в Ленинграде цеха и в блокаду выпускали танки и боеприпасы.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "evacuation"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Кировский_завод",
+          "accessed": "2026-10-29",
+          "supports": "1941 эвакуация"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1955-metro-opened",
+      "title": "Открыт ленинградский метрополитен",
+      "title_original": null,
+      "start_date": "1955-11-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "15 ноября 1955 года открылась первая линия ленинградского метро от «Площади Восстания» до «Автово»; строительство начали в 1941 году, прервали войной и возобновили в 1947-м.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Петербургский_метрополитен",
+          "accessed": "2026-10-29",
+          "supports": "15.11.1955; 1941; 1947"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1955-flood",
+      "title": "Наводнение 1955 года",
+      "title_original": null,
+      "start_date": "1955-10-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "15 октября 1955 года уровень воды поднялся на 293 см.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
+          "accessed": "2026-10-29",
+          "supports": "15.10.1955, 293 см"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1962-kirovets-tractor",
+      "title": "«Кировец» с Кировского завода",
+      "title_original": null,
+      "start_date": "1962",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1962 году Кировский завод начал выпускать мощные колёсные тракторы «Кировец», серийное производство развернули с 1964 года.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Кировский_завод",
+          "accessed": "2026-10-29",
+          "supports": "1962; 1964"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1967-nevsko-vasileostrovskaya",
+      "title": "Открыта Невско-Василеостровская линия",
+      "title_original": null,
+      "start_date": "1967-11-03",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "3 ноября 1967 года открылась Невско-Василеостровская линия ленинградского метро.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Петербургский_метрополитен",
+          "accessed": "2026-10-29",
+          "supports": "03.11.1967"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1975-flood",
+      "title": "Наводнение 1975 года",
+      "title_original": null,
+      "start_date": "1975-09-29",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "29 сентября 1975 года вода поднялась на 281 см — третье по силе наводнение XX века.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
+          "accessed": "2026-10-29",
+          "supports": "29.09.1975, 281 см"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1985-pravoberezhnaya-line",
+      "title": "Метро на правый берег Невы",
+      "title_original": null,
+      "start_date": "1985-12-30",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "30 декабря 1985 года открылась линия метро на правый берег Невы, к новым жилым районам.",
+      "affected_groups": [
+        "commuters",
+        "tenants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Петербургский_метрополитен",
+          "accessed": "2026-10-29",
+          "supports": "30.12.1985"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-1999-flood",
+      "title": "Наводнение 1999 года",
+      "title_original": null,
+      "start_date": "1999-11-30",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "30 ноября 1999 года вода в Неве поднялась на 262 см.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
+          "accessed": "2026-10-29",
+          "supports": "30.11.1999, 262 см"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-2011-flood-barrier",
+      "title": "Защитная дамба введена в строй",
+      "title_original": null,
+      "start_date": "2011-08-12",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "12 августа 2011 года ввели в эксплуатацию комплекс защитных сооружений от наводнений; впервые его полностью закрыли 28 ноября 2011 года, и город избежал наводнения.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
+          "accessed": "2026-10-29",
+          "supports": "12.08.2011; 28.11.2011"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-spb-2008-frunzensko-primorskaya",
+      "title": "Открыта пятая линия метро",
+      "title_original": null,
+      "start_date": "2008-12-20",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "20 декабря 2008 года открылась Фрунзенско-Приморская линия петербургского метро; её последнюю станцию открыли в октябре 2019 года.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Петербургский_метрополитен",
+          "accessed": "2026-10-29",
+          "supports": "20.12.2008; 03.10.2019"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

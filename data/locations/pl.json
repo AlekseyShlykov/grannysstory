@@ -1,0 +1,1320 @@
+{
+ "locations": [
+  {
+   "id": "state-de-empire",
+   "type": "state",
+   "country": "DE",
+   "wikidata": "Q43287",
+   "codes": {},
+   "names": [
+    {
+     "name": "Deutsches Reich",
+     "lang": "de",
+     "from": "1871",
+     "to": "1918-11-09"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Германская империя",
+     "locative": "в Германской империи",
+     "from": "1871",
+     "to": "1918-11-09"
+    }
+   ],
+   "alt_names": [
+    "Kaiserreich",
+    "Германская империя"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1871",
+     "to": "1918-11-09"
+    }
+   ],
+   "sovereignty_note": "Даты по Wikidata (P571 1871, P576 1918-11-09). Нужен только как верхний уровень для Данцига (провинция Западная Пруссия).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1871",
+   "valid_to": "1918-11-09"
+  },
+  {
+   "id": "state-at-hu",
+   "type": "state",
+   "country": "AT",
+   "wikidata": "Q28513",
+   "codes": {},
+   "names": [
+    {
+     "name": "Österreich-Ungarn",
+     "lang": "de",
+     "from": "1867",
+     "to": "1918-11-11"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Австро-Венгрия",
+     "locative": "в Австро-Венгрии",
+     "from": "1867",
+     "to": "1918-11-11"
+    }
+   ],
+   "alt_names": [
+    "Austria-Hungary",
+    "Austro-Węgry"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1867",
+     "to": "1918-11-11"
+    }
+   ],
+   "sovereignty_note": "Wikidata даёт несколько дат распада (28.10, 29.10, 11.11, 25.11.1918); здесь взята 11.11.1918. Фактически Краков перешёл под польскую власть 31.10.1918 (Польская ликвидационная комиссия).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1867",
+   "valid_to": "1918-11-11"
+  },
+  {
+   "id": "state-pl-regency",
+   "type": "transitional_administration",
+   "country": "PL",
+   "wikidata": "Q696908",
+   "codes": {},
+   "names": [
+    {
+     "name": "Królestwo Polskie",
+     "lang": "pl",
+     "from": "1916-11-05",
+     "to": "1918-11-14"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Королевство Польское (регентское)",
+     "locative": "в Королевстве Польском",
+     "from": "1916-11-05",
+     "to": "1918-11-14"
+    }
+   ],
+   "alt_names": [
+    "Regency Kingdom of Poland",
+    "Królestwo Regencyjne"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-empire",
+     "from": "1916-11-05",
+     "to": "1918-11-09"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1918-11-10",
+     "to": "1918-11-10"
+    },
+    {
+     "id": "pl",
+     "from": "1918-11-11",
+     "to": "1918-11-14"
+    }
+   ],
+   "sovereignty_note": "Переходная польская администрация, учреждённая оккупационными властями Германии и Австро-Венгрии. До ноября 1918 г. она не обладала полной самостоятельностью; поэтому узел больше не считается суверенным государством. С 11.11.1918 он вложен в независимую Польшу до передачи гражданской власти Пилсудскому 14.11.1918.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_sejm_eli",
+    "pl_szukajwarchiwach"
+   ],
+   "valid_from": "1916-11-05",
+   "valid_to": "1918-11-14"
+  },
+  {
+   "id": "state-danzig",
+   "type": "state",
+   "country": "PL",
+   "wikidata": "Q216173",
+   "codes": {},
+   "names": [
+    {
+     "name": "Freie Stadt Danzig",
+     "lang": "de",
+     "from": "1920-01-10",
+     "to": "1939-09-01"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Вольный город Данциг",
+     "locative": "в Вольном городе Данциге",
+     "from": "1920-01-10",
+     "to": "1939-09-01"
+    }
+   ],
+   "alt_names": [
+    "Wolne Miasto Gdańsk",
+    "Free City of Danzig"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1920-01-10",
+     "to": "1939-09-01"
+    }
+   ],
+   "sovereignty_note": "Отделён от Германии с вступлением в силу Версальского договора 10.01.1920; формально учреждён как Вольный город 15.11.1920 (до этого союзническая администрация). Таможенный союз с Польшей, внешняя политика Польши. Аннексирован Германией 1–2.09.1939.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_en_wikipedia"
+   ],
+   "valid_from": "1920-01-10",
+   "valid_to": "1939-09-01"
+  },
+  {
+   "id": "state-de-reich",
+   "type": "state",
+   "country": "DE",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Deutsches Reich",
+     "lang": "de",
+     "from": "1918-11-09",
+     "to": "1945-05-23"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Германия",
+     "locative": "в Германии",
+     "from": "1918-11-09",
+     "to": "1945-05-23"
+    }
+   ],
+   "alt_names": [
+    "Веймарская республика (Q41304)",
+    "Третий рейх (Q7318)"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1918-11-09",
+     "to": "1945-05-23"
+    }
+   ],
+   "sovereignty_note": "Германия 1918–1945 одним узлом: Веймарская республика (Q41304, с 9.11.1918) и нацистская Германия (Q7318, P576 23.05.1945). Для этой базы важна как суверен Данцига 1918–1920 и 1939–1945.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1918-11-09",
+   "valid_to": "1945-05-23"
+  },
+  {
+   "id": "pl-gub-warszawa",
+   "type": "governorate",
+   "country": "PL",
+   "wikidata": "Q2520566",
+   "codes": {},
+   "names": [
+    {
+     "name": "Губерния Варшавская",
+     "lang": "ru",
+     "from": null,
+     "to": "1916-11-04"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Варшавская губерния",
+     "locative": "в Варшавской губернии",
+     "from": null,
+     "to": "1916-11-04"
+    }
+   ],
+   "alt_names": [
+    "gubernia warszawska"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "ru-empire",
+     "from": null,
+     "to": "1916-11-04"
+    }
+   ],
+   "sovereignty_note": "Губерния Царства Польского в составе Российской империи; с августа 1915 г. под германской оккупацией. Здесь закрыта датой акта 5.11.1916 (Wikidata: упразднена в 1916).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_to": "1916-11-04"
+  },
+  {
+   "id": "pl-gub-piotrkow",
+   "type": "governorate",
+   "country": "PL",
+   "wikidata": "Q2532730",
+   "codes": {},
+   "names": [
+    {
+     "name": "Губерния Петроковская",
+     "lang": "ru",
+     "from": "1867",
+     "to": "1916-11-04"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Петроковская губерния",
+     "locative": "в Петроковской губернии",
+     "from": "1867",
+     "to": "1916-11-04"
+    }
+   ],
+   "alt_names": [
+    "gubernia piotrkowska"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "ru-empire",
+     "from": "1867",
+     "to": "1916-11-04"
+    }
+   ],
+   "sovereignty_note": "Создана в 1867 г.; Лодзь — центр Лодзинского уезда губернии. С конца 1914 г. под германской оккупацией; здесь закрыта датой акта 5.11.1916.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_wikipedia"
+   ],
+   "valid_from": "1867",
+   "valid_to": "1916-11-04"
+  },
+  {
+   "id": "pl-galicia",
+   "type": "region",
+   "country": "PL",
+   "wikidata": "Q2396442",
+   "codes": {},
+   "names": [
+    {
+     "name": "Królestwo Galicji i Lodomerii",
+     "lang": "pl",
+     "from": null,
+     "to": "1918-10-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Галиция",
+     "locative": "в Галиции",
+     "from": null,
+     "to": "1918-10-31"
+    }
+   ],
+   "alt_names": [
+    "Galizien",
+    "Галиция и Лодомерия"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-at-hu",
+     "from": null,
+     "to": "1918-10-31"
+    }
+   ],
+   "sovereignty_note": "Коронный край Австрийской части монархии с автономией с 1860-х; 31.10.1918 власть в Кракове взяла Польская ликвидационная комиссия.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_wikipedia"
+   ],
+   "valid_to": "1918-10-31"
+  },
+  {
+   "id": "pl-prov-westpreussen",
+   "type": "region",
+   "country": "PL",
+   "wikidata": "Q161947",
+   "codes": {},
+   "names": [
+    {
+     "name": "Westpreußen",
+     "lang": "de",
+     "from": null,
+     "to": "1920-01-09"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Западная Пруссия",
+     "locative": "в Западной Пруссии",
+     "from": null,
+     "to": "1920-01-09"
+    }
+   ],
+   "alt_names": [
+    "Prusy Zachodnie"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-empire",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1918-11-10",
+     "to": "1920-01-09"
+    }
+   ],
+   "sovereignty_note": "Прусская провинция; здесь закрыта 9.01.1920, когда по Версальскому договору Данциг отделён, а большая часть провинции отошла Польше (узел нужен только как родитель Данцига).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_en_wikipedia"
+   ],
+   "valid_to": "1920-01-09"
+  },
+  {
+   "id": "pl-woj-lodzkie-1919",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo łódzkie",
+     "lang": "pl",
+     "from": "1919-08-14",
+     "to": "1975-05-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лодзинское воеводство",
+     "locative": "в Лодзинском воеводстве",
+     "from": "1919-08-14",
+     "to": "1975-05-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1919-08-14",
+     "to": "1975-05-31"
+    }
+   ],
+   "sovereignty_note": "Создано 14.08.1919 по временному закону от 2.08.1919. С 20.09.1944 сам город Лодзь выделен в город на правах воеводства. Упразднено реформой 1.06.1975.",
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "valid_from": "1919-08-14",
+   "valid_to": "1975-05-31"
+  },
+  {
+   "id": "pl-woj-krakowskie-1920",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo krakowskie",
+     "lang": "pl",
+     "from": "1920-12-23",
+     "to": "1975-05-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Краковское воеводство",
+     "locative": "в Краковском воеводстве",
+     "from": "1920-12-23",
+     "to": "1975-05-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1920-12-23",
+     "to": "1975-05-31"
+    }
+   ],
+   "sovereignty_note": "Создано 23.12.1920 после унификации устройства Галиции (закон 3.12.1920). Сохранялось после 1945 г. до реформы 1975 г. Статус Кракова как отдельного города на правах воеводства в 1957–1975 гг. не проверен.",
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "valid_from": "1920-12-23",
+   "valid_to": "1975-05-31"
+  },
+  {
+   "id": "pl-woj-gdanskie-1945",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo gdańskie",
+     "lang": "pl",
+     "from": "1945-03-30",
+     "to": "1975-05-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Гданьское воеводство",
+     "locative": "в Гданьском воеводстве",
+     "from": "1945-03-30",
+     "to": "1975-05-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1945-03-30",
+     "to": "1975-05-31"
+    }
+   ],
+   "sovereignty_note": "Создано президиумом КРН 30.03.1945 (по другой статье — 7.04.1945) из территории Вольного города и шести поветов Поморского воеводства. Окончательно граница признана Потсдамским соглашением (1.08.1945).",
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "valid_from": "1945-03-30",
+   "valid_to": "1975-05-31"
+  },
+  {
+   "id": "pl-woj-stoleczne-warszawskie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo stołeczne warszawskie",
+     "lang": "pl",
+     "from": "1975-06-01",
+     "to": "1990-05-26"
+    },
+    {
+     "name": "województwo warszawskie",
+     "lang": "pl",
+     "from": "1990-05-27",
+     "to": "1998-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Столичное Варшавское воеводство",
+     "locative": "в Столичном Варшавском воеводстве",
+     "from": "1975-06-01",
+     "to": "1990-05-26"
+    },
+    {
+     "name": "Варшавское воеводство",
+     "locative": "в Варшавском воеводстве",
+     "from": "1990-05-27",
+     "to": "1998-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1975-06-01",
+   "valid_to": "1998-12-31"
+  },
+  {
+   "id": "pl-woj-miejskie-lodzkie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo miejskie łódzkie",
+     "lang": "pl",
+     "from": "1975-06-01",
+     "to": "1984-06-30"
+    },
+    {
+     "name": "województwo łódzkie",
+     "lang": "pl",
+     "from": "1984-07-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лодзинское воеводство (городское)",
+     "locative": "в Лодзинском воеводстве",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1975-06-01",
+   "valid_to": "1998-12-31"
+  },
+  {
+   "id": "pl-woj-miejskie-krakowskie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo miejskie krakowskie",
+     "lang": "pl",
+     "from": "1975-06-01",
+     "to": "1984-06-30"
+    },
+    {
+     "name": "województwo krakowskie",
+     "lang": "pl",
+     "from": "1984-07-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Краковское воеводство (городское)",
+     "locative": "в Краковском воеводстве",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1975-06-01",
+   "valid_to": "1998-12-31"
+  },
+  {
+   "id": "pl-woj-gdanskie-1975",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo gdańskie",
+     "lang": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Гданьское воеводство",
+     "locative": "в Гданьском воеводстве",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1975-06-01",
+   "valid_to": "1998-12-31"
+  },
+  {
+   "id": "pl-woj-tarnowskie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "województwo tarnowskie",
+     "lang": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Тарновское воеводство",
+     "locative": "в Тарновском воеводстве",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1975-06-01",
+   "valid_to": "1998-12-31"
+  },
+  {
+   "id": "pl-woj-mazowieckie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {
+    "teryt_terc": "14"
+   },
+   "names": [
+    {
+     "name": "województwo mazowieckie",
+     "lang": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Мазовецкое воеводство",
+     "locative": "в Мазовецком воеводстве",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Одно из 16 воеводств реформы, действующей с 1.01.1999 (закон от 24.07.1998). Код TERC выведен из кода города-центра в Wikidata.",
+   "occupations": [],
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1999-01-01"
+  },
+  {
+   "id": "pl-woj-lodzkie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {
+    "teryt_terc": "10"
+   },
+   "names": [
+    {
+     "name": "województwo łódzkie",
+     "lang": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лодзинское воеводство",
+     "locative": "в Лодзинском воеводстве",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Одно из 16 воеводств реформы, действующей с 1.01.1999 (закон от 24.07.1998). Код TERC выведен из кода города-центра в Wikidata.",
+   "occupations": [],
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1999-01-01"
+  },
+  {
+   "id": "pl-woj-malopolskie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {
+    "teryt_terc": "12"
+   },
+   "names": [
+    {
+     "name": "województwo małopolskie",
+     "lang": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Малопольское воеводство",
+     "locative": "в Малопольском воеводстве",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Одно из 16 воеводств реформы, действующей с 1.01.1999 (закон от 24.07.1998). Код TERC выведен из кода города-центра в Wikidata.",
+   "occupations": [],
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1999-01-01"
+  },
+  {
+   "id": "pl-woj-pomorskie",
+   "type": "voivodeship",
+   "country": "PL",
+   "wikidata": null,
+   "codes": {
+    "teryt_terc": "22"
+   },
+   "names": [
+    {
+     "name": "województwo pomorskie",
+     "lang": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Поморское воеводство",
+     "locative": "в Поморском воеводстве",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "pl",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Одно из 16 воеводств реформы, действующей с 1.01.1999 (закон от 24.07.1998). Код TERC выведен из кода города-центра в Wikidata.",
+   "occupations": [],
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "valid_from": "1999-01-01"
+  },
+  {
+   "id": "pl-warszawa",
+   "type": "city",
+   "country": "PL",
+   "wikidata": "Q270",
+   "codes": {
+    "teryt_terc": "1465011",
+    "simc": "0918123"
+   },
+   "names": [
+    {
+     "name": "Warszawa",
+     "lang": "pl",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Варшава",
+     "locative": "в Варшаве",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Warsaw"
+   ],
+   "coordinates": {
+    "lat": 52.23,
+    "lon": 21.011111,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "pl-gub-warszawa",
+     "from": null,
+     "to": "1916-11-04"
+    },
+    {
+     "id": "state-pl-regency",
+     "from": "1916-11-05",
+     "to": "1918-11-10"
+    },
+    {
+     "id": "pl",
+     "from": "1918-11-11",
+     "to": "1975-05-31"
+    },
+    {
+     "id": "pl-woj-stoleczne-warszawskie",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    },
+    {
+     "id": "pl-woj-mazowieckie",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "В 1918–1975 гг. столица была отдельной административной единицей (miasto stołeczne Warszawa), вне Варшавского воеводства, поэтому родитель — государство. Под германской оккупацией 1915–1918 гг. (немецкое генерал-губернаторство Варшава) и 1939–1945 гг. (Варшавский дистрикт Генерал-губернаторства).",
+   "occupations": [
+    {
+     "by_ru": "Германия",
+     "from": "1915-08",
+     "to": "1918-11-11",
+     "source_id": "pl_en_wikipedia"
+    },
+    {
+     "by_ru": "Германия (Генерал-губернаторство)",
+     "from": "1939-09-28",
+     "to": "1945-01-17",
+     "source_id": "pl_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "settlement_class": "capital"
+  },
+  {
+   "id": "pl-lodz",
+   "type": "city",
+   "country": "PL",
+   "wikidata": "Q580",
+   "codes": {
+    "teryt_terc": "1061011",
+    "simc": "0957650"
+   },
+   "names": [
+    {
+     "name": "Łódź",
+     "lang": "pl",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Litzmannstadt",
+     "lang": "de",
+     "from": "1940-04-11",
+     "to": "1945-01-19"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лодзь",
+     "locative": "в Лодзи",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Lodz",
+    "Litzmannstadt (1940–1945, нем. оккупационное название)"
+   ],
+   "coordinates": {
+    "lat": 51.75,
+    "lon": 19.466667,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "pl-gub-piotrkow",
+     "from": null,
+     "to": "1916-11-04"
+    },
+    {
+     "id": "state-pl-regency",
+     "from": "1916-11-05",
+     "to": "1918-11-10"
+    },
+    {
+     "id": "pl",
+     "from": "1918-11-11",
+     "to": "1919-08-13"
+    },
+    {
+     "id": "pl-woj-lodzkie-1919",
+     "from": "1919-08-14",
+     "to": "1944-09-19"
+    },
+    {
+     "id": "pl",
+     "from": "1944-09-20",
+     "to": "1975-05-31"
+    },
+    {
+     "id": "pl-woj-miejskie-lodzkie",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    },
+    {
+     "id": "pl-woj-lodzkie",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "В 1939 г. Германия включила Лодзь непосредственно в рейх (рейхсгау Вартеланд, 9.11.1939), а не в Генерал-губернаторство; аннексия международно не признана, поэтому здесь записана как оккупация без смены суверенитета. С 20.09.1944 (фактически после освобождения 19.01.1945) — город на правах воеводства.",
+   "occupations": [
+    {
+     "by_ru": "Германия",
+     "from": "1914-12-06",
+     "to": "1918-11-11",
+     "source_id": "pl_en_wikipedia"
+    },
+    {
+     "by_ru": "Германия (город включён в рейхсгау Вартеланд)",
+     "from": "1939-09-09",
+     "to": "1945-01-19",
+     "source_id": "pl_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "pl-krakow",
+   "type": "city",
+   "country": "PL",
+   "wikidata": "Q31487",
+   "codes": {
+    "teryt_terc": "1261011",
+    "simc": "0950463"
+   },
+   "names": [
+    {
+     "name": "Kraków",
+     "lang": "pl",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Krakau",
+     "lang": "de",
+     "from": null,
+     "to": "1918-10-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Краков",
+     "locative": "в Кракове",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Cracow"
+   ],
+   "coordinates": {
+    "lat": 50.061389,
+    "lon": 19.937222,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "pl-galicia",
+     "from": null,
+     "to": "1918-10-31"
+    },
+    {
+     "id": "pl",
+     "from": "1918-11-11",
+     "to": "1920-12-22"
+    },
+    {
+     "id": "pl-woj-krakowskie-1920",
+     "from": "1920-12-23",
+     "to": "1975-05-31"
+    },
+    {
+     "id": "pl-woj-miejskie-krakowskie",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    },
+    {
+     "id": "pl-woj-malopolskie",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "31.10.1918 власть в городе взяла Польская ликвидационная комиссия; 1–10.11.1918 в иерархии оставлен разрыв (переходный период до общепольской даты 11.11.1918). До 23.12.1920 действовали переходные галицийские органы. 1939–1945: столица Генерал-губернаторства. Дата вступления Красной армии расходится по источникам (17 или 18.01.1945), поэтому конец оккупации указан с точностью до месяца.",
+   "occupations": [
+    {
+     "by_ru": "Германия (столица Генерал-губернаторства)",
+     "from": "1939-09-06",
+     "to": "1945-01",
+     "source_id": "pl_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "pl-gdansk",
+   "type": "city",
+   "country": "PL",
+   "wikidata": "Q1792",
+   "codes": {
+    "teryt_terc": "2261011",
+    "simc": "0933016"
+   },
+   "names": [
+    {
+     "name": "Danzig",
+     "lang": "de",
+     "from": null,
+     "to": "1945-03-29"
+    },
+    {
+     "name": "Gdańsk",
+     "lang": "pl",
+     "from": "1945-03-30",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Данциг",
+     "locative": "в Данциге",
+     "from": null,
+     "to": "1945-03-29"
+    },
+    {
+     "name": "Гданьск",
+     "locative": "в Гданьске",
+     "from": "1945-03-30",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Danzig",
+    "Gedanum"
+   ],
+   "coordinates": {
+    "lat": 54.348291,
+    "lon": 18.654023,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "pl-prov-westpreussen",
+     "from": null,
+     "to": "1920-01-09"
+    },
+    {
+     "id": "state-danzig",
+     "from": "1920-01-10",
+     "to": "1939-09-01"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1939-09-02",
+     "to": "1945-03-29"
+    },
+    {
+     "id": "pl-woj-gdanskie-1945",
+     "from": "1945-03-30",
+     "to": "1975-05-31"
+    },
+    {
+     "id": "pl-woj-gdanskie-1975",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    },
+    {
+     "id": "pl-woj-pomorskie",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Столица провинции Западная Пруссия Германской империи; с 10.01.1920 Вольный город (формально с 15.11.1920); 1–2.09.1939 аннексирован Германией (с октября 1939 — рейхсгау Данциг — Западная Пруссия); 30.03.1945 взят Красной армией, учреждена польская администрация; передача Польше подтверждена Потсдамским соглашением (1.08.1945).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "pl-zalipie",
+   "type": "village",
+   "country": "PL",
+   "wikidata": "Q1394010",
+   "codes": {
+    "simc": "0825686",
+    "gmina": "Olesno (powiat dąbrowski)"
+   },
+   "names": [
+    {
+     "name": "Zalipie",
+     "lang": "pl",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Залипье",
+     "locative": "в Залипье",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Залипе"
+   ],
+   "coordinates": {
+    "lat": 50.236389,
+    "lon": 20.863889,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "pl-galicia",
+     "from": null,
+     "to": "1918-10-31"
+    },
+    {
+     "id": "pl",
+     "from": "1918-11-11",
+     "to": "1920-12-22"
+    },
+    {
+     "id": "pl-woj-krakowskie-1920",
+     "from": "1920-12-23",
+     "to": "1975-05-31"
+    },
+    {
+     "id": "pl-woj-tarnowskie",
+     "from": "1975-06-01",
+     "to": "1998-12-31"
+    },
+    {
+     "id": "pl-woj-malopolskie",
+     "from": "1999-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Деревня в сельской гмине Олесно (Домбровский повят). Промежуточные уровни (повят/гмина, громада 1954–1972) не смоделированы. Принадлежность к Галиции выведена из положения в Малопольше к востоку от Кракова — требует сверки.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "pl_wikipedia"
+   ],
+   "settlement_class": "rural"
+  }
+ ]
+}

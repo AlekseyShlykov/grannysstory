@@ -1,0 +1,35 @@
+{
+  "name": "babushka-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:data": "node scripts/build-data.mjs",
+    "validate:data": "node scripts/verify/historical-data.mjs",
+    "simulate": "vitest run tests/simulation.test.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run build:data && npm run validate:data && npm run validate:world && tsc --noEmit && vite build",
+    "build:pages": "npm run build:data && npm run validate:data && npm run validate:world && tsc --noEmit && vite build --base=/grannysstory/",
+    "data:world": "python3 scripts/historical-data/run_pipeline.py",
+    "data:world:collect": "python3 scripts/historical-data/run_pipeline.py --collect",
+    "validate:world": "python3 scripts/historical-data/validate/validate.py --quiet-warnings"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "jsdom": "^26.1.0",
+    "vitest": "latest"
+  }
+}

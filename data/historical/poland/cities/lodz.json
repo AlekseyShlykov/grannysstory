@@ -1,0 +1,1018 @@
+{
+ "records": [
+  {
+   "id": "pl-lodz-1905-insurrection",
+   "title": "Лодзинское восстание 1905 года",
+   "start_date": "1905",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1905 г., в ходе революции в Российской империи, в Лодзи произошло вооружённое восстание рабочих.",
+   "affected_groups": [
+    "textile_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1905: Лодзинское восстание"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1905-june-days",
+   "title": "«Июньские дни» в Лодзи",
+   "start_date": "1905-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "labor",
+   "historical_summary": "В июне 1905 г. около 100 тыс. безработных и бастующих рабочих Лодзи вступили в столкновения с войсками; по официальным данным, погиб 151 демонстрант.",
+   "affected_groups": [
+    "textile_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "June Days 1905: ~100 000, 151 погибший официально"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1906-lockout",
+   "title": "Локаут лодзинских фабрикантов",
+   "start_date": "1906-12",
+   "end_date": "1907-03",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "labor",
+   "historical_summary": "С декабря 1906 г. по март 1907 г. фабриканты Лодзи провели локаут, лишивший заработка десятки тысяч людей.",
+   "affected_groups": [
+    "textile_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Rewolucja_1905_roku_w_Królestwie_Polskim",
+     "accessed": "2026-10-29",
+     "supports": "локаут декабрь 1906 – март 1907"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1913-strikes",
+   "title": "Забастовки на хлопчатобумажных фабриках",
+   "start_date": "1913",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1913 г. забастовки на хлопчатобумажных фабриках Лодзи привели к закрытию фабрик.",
+   "affected_groups": [
+    "textile_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1913 забастовки и закрытие фабрик"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1913-population",
+   "title": "Многонациональная Лодзь накануне войны",
+   "start_date": "1913",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1913 г. в Лодзи жили около 506 тыс. человек: примерно 49,7% поляков, 34% евреев, 14,8% немцев и 1,3% русских.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities",
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "neighbours_spoke_german_and_yiddish"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1913: ~506 100; 49,7/34/14,8/1,3%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1914-german-occupation",
+   "title": "Германская оккупация Лодзи",
+   "start_date": "1914-12-06",
+   "end_date": "1918-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "occupation",
+   "historical_summary": "После Лодзинской операции осени 1914 г. германские войска 6 декабря 1914 г. заняли Лодзь; в ноябре 1918 г. жители разоружили германский гарнизон.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortages",
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "6.12.1914 начало оккупации; ноябрь 1918 разоружение"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1925-lublinek-airport",
+   "title": "Аэропорт Люблинек",
+   "start_date": "1925-09-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "13 сентября 1925 г. начал работу аэропорт Люблинек — нынешний аэропорт Лодзи имени Реймонта.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "13.09.1925 Lublinek"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1930-radio",
+   "title": "Первая передача лодзинской радиостанции",
+   "start_date": "1930",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В 1930 г. вышла первая передача новой радиовещательной станции в Лодзи.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_radio_in_flat"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1930 первая радиопередача"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1930-sewage-plant",
+   "title": "Очистная станция канализации",
+   "start_date": "1930-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Строительство станции очистки сточных вод в Лодзи началось в 1928 г.; в декабре 1930 г. она начала работать.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1928 стройка, декабрь 1930 работа"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1931-muzeum-sztuki",
+   "title": "Основан Музей искусства в Лодзи",
+   "start_date": "1931",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1931 г. в Лодзи основан Muzeum Sztuki — один из первых в Европе музеев, собиравших современное искусство; перепись того же года насчитала в городе 604 тыс. жителей.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1931 Muzeum Sztuki; перепись 604 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1939-german-entry",
+   "title": "Германские войска в Лодзи",
+   "start_date": "1939-09-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "occupation",
+   "historical_summary": "8 сентября 1939 г. в Лодзь вошёл первый германский патруль, 9 сентября — основные силы; 9 ноября 1939 г. город формально включён в состав Германии (рейхсгау Вартеланд). Начались аресты и казни.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "germanisation_pressure",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "city_renamed_by_occupier"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "8–9.09.1939; 9.11.1939 включение в Германию; аресты 9–11.11, казнь 12.11 в Брусе; лагерь Радогощ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1940-litzmannstadt-ghetto",
+   "title": "Гетто «Лицманштадт» и переименование города",
+   "start_date": "1940-04-11",
+   "end_date": "1944-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "repression",
+   "historical_summary": "11 апреля 1940 г. германские власти переименовали Лодзь в Лицманштадт; 30 апреля – 1 мая 1940 г. закрыто гетто, где оказались около 164 тыс. евреев. С декабря 1941 г. людей вывозили на смерть в Хелмно, летом 1944 г. гетто ликвидировали; к приходу Красной армии в нём оставались живы 877 человек.",
+   "affected_groups": [
+    "jewish_population",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "neighbours_disappeared"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź_Ghetto",
+     "accessed": "2026-10-29",
+     "supports": "30.04/1.05.1940 закрытие, 163 777; Хелмно с 8.12.1941; ликвидация лето 1944; 877 выживших"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "11.04.1940 Litzmannstadt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1942-children-camp",
+   "title": "Лагерь для похищенных польских детей",
+   "start_date": "1942",
+   "end_date": "1945",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1942–1945 гг. германская полиция безопасности держала в Лодзи лагерь для похищенных польских детей.",
+   "affected_groups": [
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1942–1945 лагерь для детей"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1944-ghetto-liquidation",
+   "title": "Ликвидация Лодзинского гетто",
+   "start_date": "1944-06",
+   "end_date": "1944-08",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "repression",
+   "historical_summary": "В июне–августе 1944 г. германские власти ликвидировали Лодзинское гетто — последнее и самое большое гетто на польских землях.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Okupacja_niemiecka_ziem_polskich_(1939–1945)",
+     "accessed": "2026-10-29",
+     "supports": "июнь–август 1944 ликвидация гетто в Лодзи, последнего и крупнейшего"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1945-university",
+   "title": "Основание Лодзинского университета и Политехники",
+   "start_date": "1945",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "education",
+   "historical_summary": "В 1945 г. в Лодзи основаны Лодзинский университет и Лодзинская политехника; в 1945–1948 гг. город был неформальной столицей страны.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 17
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1945 университет и политехника; 1945–1948 неформальная столица"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1945-liberation",
+   "title": "Освобождение Лодзи",
+   "start_date": "1945-01-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "19 января 1945 г. советские войска вошли в Лодзь; почти неразрушенный город временно стал фактическим местом работы правительства, 24 мая 1945 г. открылся Лодзинский университет.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "moved_to_lodz_after_war"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "19.01.1945; временная столица; 24.05.1945 университет"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź_Ghetto",
+     "accessed": "2026-10-29",
+     "supports": "19.01.1945"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1948-film-school",
+   "title": "Государственная киношкола в Лодзи",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1948 г. в Лодзи основана Государственная высшая киношкола.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1948 Państwowa Wyższa Szkoła Filmowa"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1951-baluty-estate",
+   "title": "Начало строительства жилого массива Балуты I",
+   "start_date": "1951",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1951 г. население Лодзи достигло 646 тыс., началось строительство жилого массива Балуты I.",
+   "affected_groups": [
+    "tenants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1951: 646 тыс. жителей, стройка Балуты I"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1960-panel-estates",
+   "title": "Панельные жилые массивы Лодзи",
+   "start_date": "1960",
+   "end_date": "1990",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1960–1990 гг. в Лодзи выросли панельные жилые массивы общей площадью почти 30 км².",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1960–1990 ~30 км² панельных массивов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1971-textile-strike",
+   "title": "Забастовка лодзинских ткачих",
+   "start_date": "1971-02-10",
+   "end_date": "1971-02-17",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "labor",
+   "historical_summary": "10 февраля 1971 г. забастовали хлопчатобумажный комбинат имени Мархлевского (около 9 тыс. работников) и фабрика «Стомиль»; к 15 февраля бастовали около 55 тыс. человек, в основном женщины. Работницы требовали прибавки и возврата цен на продукты до декабря 1970 г.; после ночных переговоров с премьером Ярошевичем 15 февраля правительство отменило повышение цен. Позже часть участниц была вынуждена уволиться.",
+   "affected_groups": [
+    "textile_workers",
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "employer_reprisal"
+   ],
+   "narrative_hooks": [
+    "mother_at_the_loom",
+    "women_won_the_strike"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1971_%C5%81%C3%B3d%C5%BA_strikes",
+     "accessed": "2026-10-29",
+     "supports": "10–17.02.1971; ~55 тыс.; 80% женщин среди первых 12 тыс.; отмена повышения цен 15.02; увольнения к 5.03"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1981-hunger-march",
+   "title": "Голодный марш матерей с детьми",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "Летом 1981 г. массовая «голодная» демонстрация лодзинских матерей с детьми привлекла внимание всей страны.",
+   "affected_groups": [
+    "mothers",
+    "homemakers",
+    "textile_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "marched_with_children"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "mid-1981 hunger demonstration of mothers and children"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1988-population-peak",
+   "title": "Пик населения Лодзи",
+   "start_date": "1988",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1988 г. население Лодзи достигло максимума — около 854 тыс.; к 2021 г. оно сократилось до 670 тыс., а к концу 2025 г. — до 640 тыс.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "1988 ~854 000; 2021 670 642; 31.12.2025 639 890"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-1990-textile-collapse",
+   "title": "Крах лодзинской текстильной промышленности",
+   "start_date": "1990",
+   "end_date": "1991",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "local_economy",
+   "historical_summary": "После 1989 г. текстильная промышленность Лодзи рухнула, особенно резко в 1990–1991 гг.; к 2004 г. безработица в городе достигала около 20%, к декабрю 2008 г. упала до 6,5%.",
+   "affected_groups": [
+    "textile_workers",
+    "women",
+    "unemployed"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "factory_closed",
+    "mill_turned_into_mall"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "коллапс 1990–1991; безработица 20% → 6,5% к 12.2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-2009-dell",
+   "title": "Dell переносит производство в Лодзь",
+   "start_date": "2009-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В январе 2009 г. Dell объявил о переносе производства из ирландского Лимерика в Лодзь; безработица в городе упала с около 20% (2004) до 6,5% (декабрь 2008).",
+   "affected_groups": [
+    "industrial_workers",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "January 2009 Dell; unemployment 20%→6.5%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-2010-fabryczna",
+   "title": "Реконструкция центра у вокзала Лодзь-Фабрична",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2010 г. началась перестройка центра Лодзи вокруг вокзала Лодзь-Фабрична.",
+   "affected_groups": [
+    "urban_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
+     "accessed": "2026-10-29",
+     "supports": "2010 начало реконструкции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-lodz-2017-unesco-film",
+   "title": "Лодзь — город кино ЮНЕСКО",
+   "start_date": "2017",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2017 г. Лодзь получила статус креативного города кино ЮНЕСКО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Łódź",
+     "accessed": "2026-10-29",
+     "supports": "2017 UNESCO City of Film"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,1615 @@
+{
+  "generated": true,
+  "note": "Временные связи «место → родитель»; суверенитет — верхнее государство цепочки на дату.",
+  "relations": {
+    "world": {
+      "parents": [],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-eng": {
+      "parents": [
+        {
+          "id": "gb",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "pl": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-11-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1918-11-11",
+      "valid_to": null
+    },
+    "ru-empire": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1917-11-07"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1917-11-07"
+    },
+    "ru": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1917-11-08",
+          "to": "1922-12-29"
+        },
+        {
+          "id": "su",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        },
+        {
+          "id": "world",
+          "from": "1991-12-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1917-11-08",
+      "valid_to": null
+    },
+    "su": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1922-12-30",
+      "valid_to": "1991-12-26"
+    },
+    "fr-reg-idf": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-06-02",
+      "valid_to": null
+    },
+    "fr-reg-rhone-alpes": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-06-02",
+      "valid_to": "2015-12-31"
+    },
+    "fr-reg-ara": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "2016-01-01",
+      "valid_to": null
+    },
+    "fr-reg-npdc": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-06-02",
+      "valid_to": "2015-12-31"
+    },
+    "fr-reg-hdf": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "2016-01-01",
+      "valid_to": null
+    },
+    "fr-reg-paca": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-06-02",
+      "valid_to": null
+    },
+    "fr-reg-bretagne": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-06-02",
+      "valid_to": null
+    },
+    "fr-reg-bourgogne": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-06-02",
+      "valid_to": "2015-12-31"
+    },
+    "fr-reg-bfc": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "2016-01-01",
+      "valid_to": null
+    },
+    "fr-dep-seine": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-idf",
+          "from": "1960-06-02",
+          "to": "1967-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1967-12-31"
+    },
+    "fr-dep-75": {
+      "parents": [
+        {
+          "id": "fr-reg-idf",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1968-01-01",
+      "valid_to": null
+    },
+    "fr-dep-69": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-rhone-alpes",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        },
+        {
+          "id": "fr-reg-ara",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-dep-13": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-paca",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-dep-59": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-npdc",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        },
+        {
+          "id": "fr-reg-hdf",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-dep-29": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-bretagne",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-dep-71": {
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-bourgogne",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        },
+        {
+          "id": "fr-reg-bfc",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-paris": {
+      "parents": [
+        {
+          "id": "fr-dep-seine",
+          "from": null,
+          "to": "1967-12-31"
+        },
+        {
+          "id": "fr-dep-75",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1940-06-14",
+          "to": "1944-08-25",
+          "source_id": "fr_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-lyon": {
+      "parents": [
+        {
+          "id": "fr-dep-69",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1940-06-19",
+          "to": "1940-07-07",
+          "source_id": "fr_wikipedia"
+        },
+        {
+          "by_ru": "Германия",
+          "from": "1942-11",
+          "to": "1944-09-03",
+          "source_id": "fr_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-marseille": {
+      "parents": [
+        {
+          "id": "fr-dep-13",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1942-11-12",
+          "to": "1944-08-28",
+          "source_id": "fr_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-lille": {
+      "parents": [
+        {
+          "id": "fr-dep-59",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германская империя",
+          "from": "1914-10-13",
+          "to": "1918-10-17",
+          "source_id": "fr_wikipedia"
+        },
+        {
+          "by_ru": "Германия (военная администрация в Брюсселе)",
+          "from": "1940-05-31",
+          "to": "1944-09-03",
+          "source_id": "fr_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-le-creusot": {
+      "parents": [
+        {
+          "id": "fr-dep-71",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1940-06-17",
+          "to": "1944-09-07",
+          "source_id": "fr_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fr-plozevet": {
+      "parents": [
+        {
+          "id": "fr-dep-29",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-county-of-london": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": "1965-03-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1965-03-31"
+    },
+    "gb-greater-london": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1965-04-01",
+      "valid_to": null
+    },
+    "gb-london": {
+      "parents": [
+        {
+          "id": "gb-county-of-london",
+          "from": null,
+          "to": "1965-03-31"
+        },
+        {
+          "id": "gb-greater-london",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-lancashire": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-greater-manchester": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1974-04-01",
+      "valid_to": null
+    },
+    "gb-manchester": {
+      "parents": [
+        {
+          "id": "gb-lancashire",
+          "from": null,
+          "to": "1974-03-31"
+        },
+        {
+          "id": "gb-greater-manchester",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-warwickshire": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-west-midlands": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1974-04-01",
+      "valid_to": null
+    },
+    "gb-birmingham": {
+      "parents": [
+        {
+          "id": "gb-warwickshire",
+          "from": null,
+          "to": "1974-03-31"
+        },
+        {
+          "id": "gb-west-midlands",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-northamptonshire": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-corby": {
+      "parents": [
+        {
+          "id": "gb-northamptonshire",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-leicestershire": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "gb-rutland": {
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": "1974-03-31"
+        },
+        {
+          "id": "gb-leicestershire",
+          "from": "1974-04-01",
+          "to": "1997-03-31"
+        },
+        {
+          "id": "gb-eng",
+          "from": "1997-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "state-de-empire": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1871",
+      "valid_to": "1918-11-09"
+    },
+    "state-at-hu": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1867",
+      "valid_to": "1918-11-11"
+    },
+    "state-pl-regency": {
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": "1916-11-05",
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1918-11-10"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1918-11-14"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1916-11-05",
+      "valid_to": "1918-11-14"
+    },
+    "state-danzig": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1920-01-10",
+      "valid_to": "1939-09-01"
+    },
+    "state-de-reich": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-11-09",
+          "to": "1945-05-23"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1918-11-09",
+      "valid_to": "1945-05-23"
+    },
+    "pl-gub-warszawa": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1916-11-04"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1916-11-04"
+    },
+    "pl-gub-piotrkow": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": "1867",
+          "to": "1916-11-04"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1867",
+      "valid_to": "1916-11-04"
+    },
+    "pl-galicia": {
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-10-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1918-10-31"
+    },
+    "pl-prov-westpreussen": {
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1920-01-09"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1920-01-09"
+    },
+    "pl-woj-lodzkie-1919": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1919-08-14",
+          "to": "1975-05-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1919-08-14",
+      "valid_to": "1975-05-31"
+    },
+    "pl-woj-krakowskie-1920": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1920-12-23",
+      "valid_to": "1975-05-31"
+    },
+    "pl-woj-gdanskie-1945": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1945-03-30",
+      "valid_to": "1975-05-31"
+    },
+    "pl-woj-stoleczne-warszawskie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1975-06-01",
+      "valid_to": "1998-12-31"
+    },
+    "pl-woj-miejskie-lodzkie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1975-06-01",
+      "valid_to": "1998-12-31"
+    },
+    "pl-woj-miejskie-krakowskie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1975-06-01",
+      "valid_to": "1998-12-31"
+    },
+    "pl-woj-gdanskie-1975": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1975-06-01",
+      "valid_to": "1998-12-31"
+    },
+    "pl-woj-tarnowskie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1975-06-01",
+      "valid_to": "1998-12-31"
+    },
+    "pl-woj-mazowieckie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1999-01-01",
+      "valid_to": null
+    },
+    "pl-woj-lodzkie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1999-01-01",
+      "valid_to": null
+    },
+    "pl-woj-malopolskie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1999-01-01",
+      "valid_to": null
+    },
+    "pl-woj-pomorskie": {
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1999-01-01",
+      "valid_to": null
+    },
+    "pl-warszawa": {
+      "parents": [
+        {
+          "id": "pl-gub-warszawa",
+          "from": null,
+          "to": "1916-11-04"
+        },
+        {
+          "id": "state-pl-regency",
+          "from": "1916-11-05",
+          "to": "1918-11-10"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-stoleczne-warszawskie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-mazowieckie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1915-08",
+          "to": "1918-11-11",
+          "source_id": "pl_en_wikipedia"
+        },
+        {
+          "by_ru": "Германия (Генерал-губернаторство)",
+          "from": "1939-09-28",
+          "to": "1945-01-17",
+          "source_id": "pl_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "pl-lodz": {
+      "parents": [
+        {
+          "id": "pl-gub-piotrkow",
+          "from": null,
+          "to": "1916-11-04"
+        },
+        {
+          "id": "state-pl-regency",
+          "from": "1916-11-05",
+          "to": "1918-11-10"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1919-08-13"
+        },
+        {
+          "id": "pl-woj-lodzkie-1919",
+          "from": "1919-08-14",
+          "to": "1944-09-19"
+        },
+        {
+          "id": "pl",
+          "from": "1944-09-20",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-miejskie-lodzkie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-lodzkie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1914-12-06",
+          "to": "1918-11-11",
+          "source_id": "pl_en_wikipedia"
+        },
+        {
+          "by_ru": "Германия (город включён в рейхсгау Вартеланд)",
+          "from": "1939-09-09",
+          "to": "1945-01-19",
+          "source_id": "pl_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "pl-krakow": {
+      "parents": [
+        {
+          "id": "pl-galicia",
+          "from": null,
+          "to": "1918-10-31"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1920-12-22"
+        },
+        {
+          "id": "pl-woj-krakowskie-1920",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-miejskie-krakowskie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-malopolskie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия (столица Генерал-губернаторства)",
+          "from": "1939-09-06",
+          "to": "1945-01",
+          "source_id": "pl_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "pl-gdansk": {
+      "parents": [
+        {
+          "id": "pl-prov-westpreussen",
+          "from": null,
+          "to": "1920-01-09"
+        },
+        {
+          "id": "state-danzig",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1939-09-02",
+          "to": "1945-03-29"
+        },
+        {
+          "id": "pl-woj-gdanskie-1945",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-gdanskie-1975",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-pomorskie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "pl-zalipie": {
+      "parents": [
+        {
+          "id": "pl-galicia",
+          "from": null,
+          "to": "1918-10-31"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1920-12-22"
+        },
+        {
+          "id": "pl-woj-krakowskie-1920",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-tarnowskie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-malopolskie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-gub-moskovskaya": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1929-09-30"
+    },
+    "ru-gub-peterburgskaya": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1927-07-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1927-07-31"
+    },
+    "ru-gub-novgorodskaya": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1927-07-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1927-07-31"
+    },
+    "ru-gub-tverskaya": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1929-09-30"
+    },
+    "ru-gub-smolenskaya": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1929-09-30"
+    },
+    "ru-moscow-oblast": {
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1929-01-14",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1929-01-14",
+      "valid_to": null
+    },
+    "ru-leningrad-oblast": {
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1927-08-01",
+      "valid_to": null
+    },
+    "ru-novgorod-oblast": {
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1944-07-05",
+      "valid_to": null
+    },
+    "ru-western-oblast": {
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1929-10-01",
+      "valid_to": "1937-09-26"
+    },
+    "ru-smolensk-oblast": {
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1937-09-27",
+      "valid_to": null
+    },
+    "ru-tver-oblast": {
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия (западные и южные районы, частично)",
+          "from": "1941-07",
+          "to": "1944-07-19",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "valid_from": "1935-01-29",
+      "valid_to": null
+    },
+    "ru-moscow": {
+      "parents": [
+        {
+          "id": "ru-gub-moskovskaya",
+          "from": null,
+          "to": "1929-09-30"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-saint-petersburg": {
+      "parents": [
+        {
+          "id": "ru-gub-peterburgskaya",
+          "from": null,
+          "to": "1927-07-31"
+        },
+        {
+          "id": "ru-leningrad-oblast",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-tver": {
+      "parents": [
+        {
+          "id": "ru-gub-tverskaya",
+          "from": null,
+          "to": "1929-07-11"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1941-10-17",
+          "to": "1941-12-16",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-veliky-novgorod": {
+      "parents": [
+        {
+          "id": "ru-gub-novgorodskaya",
+          "from": null,
+          "to": "1927-07-31"
+        },
+        {
+          "id": "ru-leningrad-oblast",
+          "from": "1927-08-01",
+          "to": "1944-07-04"
+        },
+        {
+          "id": "ru-novgorod-oblast",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия (с участием испанской «Голубой дивизии»)",
+          "from": "1941-08-15",
+          "to": "1944-01-20",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-smolensk": {
+      "parents": [
+        {
+          "id": "ru-gub-smolenskaya",
+          "from": null,
+          "to": "1929-09-30"
+        },
+        {
+          "id": "ru-western-oblast",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        },
+        {
+          "id": "ru-smolensk-oblast",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1941-07-16",
+          "to": "1943-09-25",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-torzhok": {
+      "parents": [
+        {
+          "id": "ru-gub-tverskaya",
+          "from": null,
+          "to": "1929-07-11"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "ru-konakovsky-raion": {
+      "parents": [
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1929-07-12",
+      "valid_to": null
+    },
+    "us-ny": {
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-il": {
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-mi": {
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-oh": {
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-new-york-city": {
+      "parents": [
+        {
+          "id": "us-ny",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-il-cook": {
+      "parents": [
+        {
+          "id": "us-il",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-chicago": {
+      "parents": [
+        {
+          "id": "us-il-cook",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-mi-wayne": {
+      "parents": [
+        {
+          "id": "us-mi",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-detroit": {
+      "parents": [
+        {
+          "id": "us-mi-wayne",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-oh-washington": {
+      "parents": [
+        {
+          "id": "us-oh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-marietta": {
+      "parents": [
+        {
+          "id": "us-oh-washington",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-oh-holmes": {
+      "parents": [
+        {
+          "id": "us-oh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "us-holmes-county-rural": {
+      "parents": [
+        {
+          "id": "us-oh-holmes",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    }
+  }
+}

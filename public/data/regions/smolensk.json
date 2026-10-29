@@ -1,0 +1,22 @@
+{
+  "regionId": "smolensk",
+  "version": "0.5.0",
+  "label": "Смоленская область",
+  "coverage": "Город Смоленск; область пока не представлена во всей полноте",
+  "birthPlaces": ["smolensk"],
+  "events": [
+    {
+      "id": "smolensk_liberated_1943",
+      "title": "Освобождение Смоленска",
+      "locationId": "smolensk",
+      "startDate": "1943-09-25",
+      "endDate": "1943-09-25",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "prlib_smolensk_liberation",
+      "verificationStatus": "verified",
+      "historicalContext": "25 сентября 1943 года соединения 31-й и 5-й армий освободили Смоленск; источник отдельно перечисляет освобождение Рославля в тот же день.",
+      "applicability": { "residentPlaceIds": ["smolensk"], "minAge": 2, "maxAge": 110 },
+      "confidence": "high"
+    }
+  ]
+}

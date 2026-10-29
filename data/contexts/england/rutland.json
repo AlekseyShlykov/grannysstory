@@ -1,0 +1,87 @@
+{
+ "records": [
+  {
+   "id": "gb-ctx-rutland-population",
+   "country_code": "GB",
+   "location_id": "gb-rutland",
+   "period_start": 1901,
+   "period_end": 2021,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Ратленд: маленькое и стареющее графство",
+   "description": "В 1901 г. в Ратленде жило 19 709 человек, в 1991 г. — 33 228, в 2021 г. — около 41 000. Медианный возраст вырос с 43 (2011) до 46 лет (2021); 15,5% домохозяйств — одинокие люди 66+; около 71% домохозяйств владеют жильём.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 19709,
+     "unit": "человек",
+     "year": 1901,
+     "area_id": "gb-rutland",
+     "population": "графство Ратленд",
+     "method_note": "перепись",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 41000,
+     "unit": "человек (около)",
+     "year": 2021,
+     "area_id": "gb-rutland",
+     "population": "Rutland (E06000017)",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "median_age",
+     "value": 46,
+     "unit": "лет",
+     "year": 2021,
+     "area_id": "gb-rutland",
+     "population": "жители Rutland",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "one_person_households_66plus",
+     "value": 15.5,
+     "unit": "% домохозяйств",
+     "year": 2021,
+     "area_id": "gb-rutland",
+     "population": "домохозяйства Rutland",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "owner_occupied",
+     "value": 70.9,
+     "unit": "% домохозяйств",
+     "year": 2021,
+     "area_id": "gb-rutland",
+     "population": "домохозяйства Rutland",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia",
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "население 1901, 1991"
+    },
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E06000017/",
+     "accessed": "2026-10-29",
+     "supports": "перепись 2011/2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

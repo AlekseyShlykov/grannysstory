@@ -1,0 +1,35 @@
+{
+  "regionId": "tver",
+  "version": "0.5.0",
+  "label": "Тверь / Калинин",
+  "coverage": "Тверь / Калинин; городское ядро, область пока не представлена во всей полноте",
+  "birthPlaces": ["tver"],
+  "events": [
+    {
+      "id": "kalinin_liberated_1941",
+      "title": "Освобождение Калинина",
+      "locationId": "tver",
+      "startDate": "1941-12-16",
+      "endDate": "1941-12-16",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "prlib_kalinin_liberation_report",
+      "verificationStatus": "verified",
+      "historicalContext": "Боевое донесение штаба Калининского фронта зафиксировало освобождение города Калинина 16 декабря 1941 года.",
+      "applicability": { "residentPlaceIds": ["tver"], "minAge": 1, "maxAge": 110 },
+      "confidence": "high"
+    },
+    {
+      "id": "tver_names_1931_1990",
+      "title": "Город носил имя Калинин",
+      "locationId": "tver",
+      "startDate": "1931-11-20",
+      "endDate": "1990-07-16",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "prlib_tver_names",
+      "verificationStatus": "verified",
+      "historicalContext": "С 1931 по 1990 год Тверь называлась Калинином; в 1990 году городу вернули историческое название.",
+      "applicability": { "residentPlaceIds": ["tver"], "minAge": 0, "maxAge": 115 },
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,850 @@
+{
+ "records": [
+  {
+   "id": "fr-ctx-1900s-women-labour-force",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1900,
+   "period_end": 1939,
+   "context_type": "women_employment",
+   "attribute": "women_employment",
+   "title": "Женщины в активном населении, 1901–1936",
+   "description": "По переписям, в 1901–1936 годах женщины составляли около 35–40% активного населения Франции (6,8–8,6 млн человек), значительная часть — в сельском хозяйстве и мелких семейных предприятиях. Пик пришёлся на 1921 год, когда многие женщины заменили погибших мужчин.",
+   "statistics": [
+    {
+     "indicator": "active_women_millions",
+     "value": 6.8,
+     "unit": "million persons",
+     "year": 1901,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 34.5,
+     "unit": "%",
+     "year": 1901,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "active_women_millions",
+     "value": 8.61,
+     "unit": "million persons",
+     "year": 1921,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 39.6,
+     "unit": "%",
+     "year": 1921,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "active_women_millions",
+     "value": 7.32,
+     "unit": "million persons",
+     "year": 1936,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 36.1,
+     "unit": "%",
+     "year": 1936,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/2405570/maruani-meron_presentation.pdf",
+     "accessed": "2026-10-29",
+     "supports": "таблица «La population active en France de 1901 à 2008»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-1940s-1960s-women-labour-force",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1940,
+   "period_end": 1969,
+   "context_type": "women_employment",
+   "attribute": "women_employment",
+   "title": "Женщины в активном населении, 1946–1968",
+   "description": "После войны доля женщин в активном населении снизилась: 38,3% в 1946 году и около 33–35% в 1954–1968 годах. При сравнении с довоенными данными важно, что в 1954 году изменилось определение «активности», из-за чего из подсчёта выпало почти миллион женщин.",
+   "statistics": [
+    {
+     "indicator": "active_women_millions",
+     "value": 7.85,
+     "unit": "million persons",
+     "year": 1946,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 38.3,
+     "unit": "%",
+     "year": 1946,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "active_women_millions",
+     "value": 6.59,
+     "unit": "million persons",
+     "year": 1962,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 33.4,
+     "unit": "%",
+     "year": 1962,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "active_women_millions",
+     "value": 7.14,
+     "unit": "million persons",
+     "year": 1968,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 34.5,
+     "unit": "%",
+     "year": 1968,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись; ряд Маруани — Мерон (Insee)",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/2405570/maruani-meron_presentation.pdf",
+     "accessed": "2026-10-29",
+     "supports": "таблица 1901-2008; «La rupture de 1954»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-1970s-2020s-women-activity",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1970,
+   "period_end": 2025,
+   "context_type": "women_employment",
+   "attribute": "women_employment",
+   "title": "Рост женской занятости с 1975 года",
+   "description": "Доля экономически активных среди женщин 15–64 лет выросла с 54,4% в 1975 году до 72,3% в 2025 году, тогда как у мужчин снизилась с 83,9% до 78,0%; разрыв сократился с почти 30 пунктов до менее 10 к середине 2000-х.",
+   "statistics": [
+    {
+     "indicator": "activity_rate_women_15_64",
+     "value": 54.4,
+     "unit": "%",
+     "year": 1975,
+     "area_id": "fr",
+     "population": "женщины 15–64 лет, Франция",
+     "method_note": "обследование Emploi (Insee), ретроспективный ряд",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "activity_rate_women_15_64",
+     "value": 59.6,
+     "unit": "%",
+     "year": 1990,
+     "area_id": "fr",
+     "population": "женщины 15–64 лет, Франция",
+     "method_note": "обследование Emploi (Insee), ретроспективный ряд",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "activity_rate_women_15_64",
+     "value": 64.0,
+     "unit": "%",
+     "year": 2000,
+     "area_id": "fr",
+     "population": "женщины 15–64 лет, Франция",
+     "method_note": "обследование Emploi (Insee), ретроспективный ряд",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "activity_rate_women_15_64",
+     "value": 67.0,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "fr",
+     "population": "женщины 15–64 лет, Франция",
+     "method_note": "обследование Emploi (Insee), ретроспективный ряд",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "activity_rate_women_15_64",
+     "value": 69.1,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "fr",
+     "population": "женщины 15–64 лет, Франция",
+     "method_note": "обследование Emploi (Insee), ретроспективный ряд",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "activity_rate_women_15_64",
+     "value": 72.3,
+     "unit": "%",
+     "year": 2025,
+     "area_id": "fr",
+     "population": "женщины 15–64 лет, Франция",
+     "method_note": "обследование Emploi (Insee), ретроспективный ряд",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 47.6,
+     "unit": "%",
+     "year": 2008,
+     "area_id": "fr",
+     "population": "активное население по переписи (занятые и безработные), Франция",
+     "method_note": "перепись 2006–2010",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/8733063",
+     "accessed": "2026-10-29",
+     "supports": "taux d'activité femmes/hommes 15-64 ans 1975-2025"
+    },
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/2405570/maruani-meron_presentation.pdf",
+     "accessed": "2026-10-29",
+     "supports": "part des femmes 1975-2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-cohorts-1931-1965-childlessness",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1931,
+   "period_end": 1965,
+   "context_type": "fertility_childlessness",
+   "attribute": "childlessness_by_cohort",
+   "title": "Бездетность и число детей у женщин поколений 1931–1965",
+   "description": "Среди женщин, родившихся в 1931–1965 годах, около 12–13% не имели детей; рост до 13,5% заметен лишь у поколения 1961–1965 и связан в основном с тем, что больше женщин никогда не жили в паре. В начале XX века доля бездетных женщин превышала 20%. Среднее число детей снизилось с 2,48 (поколение 1931–1935) до 1,99 (1961–1965). Это средние по поколению, а не правило для отдельной судьбы.",
+   "statistics": [
+    {
+     "indicator": "women_childless_cohort_1931-1935",
+     "value": 12.7,
+     "unit": "%",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1931-1935 гг., живущие во Франции в 2011 г.",
+     "method_note": "обследование Famille et logements 2011 (Insee), бездетность к 45–49 годам и старше",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_childless_cohort_1941-1945",
+     "value": 11.6,
+     "unit": "%",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1941-1945 гг., живущие во Франции в 2011 г.",
+     "method_note": "обследование Famille et logements 2011 (Insee), бездетность к 45–49 годам и старше",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_childless_cohort_1956-1960",
+     "value": 12.0,
+     "unit": "%",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1956-1960 гг., живущие во Франции в 2011 г.",
+     "method_note": "обследование Famille et logements 2011 (Insee), бездетность к 45–49 годам и старше",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "women_childless_cohort_1961-1965",
+     "value": 13.5,
+     "unit": "%",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1961-1965 гг., живущие во Франции в 2011 г.",
+     "method_note": "обследование Famille et logements 2011 (Insee), бездетность к 45–49 годам и старше",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mean_children_cohort_1931-1935",
+     "value": 2.48,
+     "unit": "children per woman",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1931-1935 гг.",
+     "method_note": "обследование Famille et logements 2011 (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mean_children_cohort_1941-1945",
+     "value": 2.17,
+     "unit": "children per woman",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1941-1945 гг.",
+     "method_note": "обследование Famille et logements 2011 (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mean_children_cohort_1961-1965",
+     "value": 1.99,
+     "unit": "children per woman",
+     "year": 2011,
+     "area_id": "fr",
+     "population": "женщины, родившиеся в 1961-1965 гг.",
+     "method_note": "обследование Famille et logements 2011 (Insee)",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/1288287/FPORSOC13g_D1_fecondite.pdf",
+     "accessed": "2026-10-29",
+     "supports": "Masson, «Avez-vous eu des enfants ? Si oui, combien ?», France portrait social 2013, annexe 1"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-1996-2019-household-equipment",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1996,
+   "period_end": 2019,
+   "context_type": "appliances",
+   "attribute": "appliances",
+   "title": "Бытовая техника и связь в домохозяйствах, 1996–2019",
+   "description": "С конца 1990-х посудомоечная машина, микроволновка, мобильный телефон, компьютер и интернет быстро распространились: мобильный телефон был у 50,9% домохозяйств в 2000 году и у 95,7% в 2019-м, интернет — у 14,8% и 85,6%. Домохозяйства, где старшему 75 лет и больше, отставали: в 2019 году интернет был у 49,9% из них, а стационарный телефон — у 91,1%.",
+   "statistics": [
+    {
+     "indicator": "dishwasher",
+     "value": 42.6,
+     "unit": "% of households",
+     "year": 1996,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "dishwasher",
+     "value": 59.6,
+     "unit": "% of households",
+     "year": 2015,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "microwave",
+     "value": 54.2,
+     "unit": "% of households",
+     "year": 1996,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "microwave",
+     "value": 88.6,
+     "unit": "% of households",
+     "year": 2015,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mobile_phone",
+     "value": 50.9,
+     "unit": "% of households",
+     "year": 2000,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mobile_phone",
+     "value": 95.7,
+     "unit": "% of households",
+     "year": 2019,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "computer",
+     "value": 18.7,
+     "unit": "% of households",
+     "year": 1996,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "computer",
+     "value": 82.8,
+     "unit": "% of households",
+     "year": 2019,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "internet",
+     "value": 14.8,
+     "unit": "% of households",
+     "year": 2000,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "internet",
+     "value": 64.6,
+     "unit": "% of households",
+     "year": 2010,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "internet",
+     "value": 85.6,
+     "unit": "% of households",
+     "year": 2019,
+     "area_id": "fr",
+     "population": "все домохозяйства, метрополия",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "internet_75plus",
+     "value": 49.9,
+     "unit": "% of households",
+     "year": 2019,
+     "area_id": "fr",
+     "population": "домохозяйства, где референтному лицу 75+",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "landline_75plus",
+     "value": 91.1,
+     "unit": "% of households",
+     "year": 2019,
+     "area_id": "fr",
+     "population": "домохозяйства, где референтному лицу 75+",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mobile_phone_75plus",
+     "value": 80.1,
+     "unit": "% of households",
+     "year": 2019,
+     "area_id": "fr",
+     "population": "домохозяйства, где референтному лицу 75+",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/5017395",
+     "accessed": "2026-10-29",
+     "supports": "Insee Résultats, Équipement des ménages 1996-2019"
+    },
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/5017395/TAB1.csv",
+     "accessed": "2026-10-29",
+     "supports": "TAB1: ensemble et 75 ans ou plus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-2000s-communication-elderly",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 2000,
+   "period_end": 2019,
+   "context_type": "communication",
+   "attribute": "communication",
+   "title": "Связь у пожилых: телефон и интернет",
+   "description": "В домохозяйствах, где старшему 75 лет и больше, мобильный телефон в 2000 году был лишь у 12%, а интернет — у 2,1%; к 2019 году — у 80,1% и 49,9%. Стационарный телефон оставался почти у всех (97,4% в 2005 году, 91,1% в 2019).",
+   "statistics": [
+    {
+     "indicator": "mobile_phone_75plus",
+     "value": 12.0,
+     "unit": "% of households",
+     "year": 2000,
+     "area_id": "fr",
+     "population": "домохозяйства, где референтному лицу 75+",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "internet_75plus",
+     "value": 2.1,
+     "unit": "% of households",
+     "year": 2000,
+     "area_id": "fr",
+     "population": "домохозяйства, где референтному лицу 75+",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "landline_75plus",
+     "value": 97.4,
+     "unit": "% of households",
+     "year": 2005,
+     "area_id": "fr",
+     "population": "домохозяйства, где референтному лицу 75+",
+     "method_note": "обследования EPCV (1996–2004) и SRCV (с 2004), Insee; в 2004 г. разрыв ряда",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/5017395/TAB1.csv",
+     "accessed": "2026-10-29",
+     "supports": "TAB1 AGE_PR=5 (75 ans ou plus)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-1978-2013-housing-comfort",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1970,
+   "period_end": 2013,
+   "context_type": "housing",
+   "attribute": "housing",
+   "title": "Санитарные удобства в жилье",
+   "description": "В 1978 году 26,9% основных жилищ не имели хотя бы одного из базовых удобств (водопровод, ванна или душ, туалет внутри), а 22,9% — ни ванны, ни душа. К 2013 году базовый санитарный комфорт стал почти всеобщим. Средняя площадь жилья выросла с 82 м² в 1984 году до 90,9 м² в 2013-м, а среднее число жильцов снизилось с 2,7 до 2,3.",
+   "statistics": [
+    {
+     "indicator": "no_basic_sanitary_comfort",
+     "value": 26.9,
+     "unit": "% of dwellings",
+     "year": 1978,
+     "area_id": "fr",
+     "population": "основные жилища, метрополия",
+     "method_note": "обследования Logement (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "no_bath_or_shower",
+     "value": 22.9,
+     "unit": "% of dwellings",
+     "year": 1978,
+     "area_id": "fr",
+     "population": "основные жилища, метрополия",
+     "method_note": "обследования Logement (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mean_floor_area",
+     "value": 82.0,
+     "unit": "m2",
+     "year": 1984,
+     "area_id": "fr",
+     "population": "основные жилища, метрополия",
+     "method_note": "обследования Logement (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "mean_floor_area",
+     "value": 90.9,
+     "unit": "m2",
+     "year": 2013,
+     "area_id": "fr",
+     "population": "основные жилища, метрополия",
+     "method_note": "обследования Logement (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "persons_per_dwelling",
+     "value": 2.7,
+     "unit": "persons",
+     "year": 1984,
+     "area_id": "fr",
+     "population": "основные жилища, метрополия",
+     "method_note": "обследования Logement (Insee)",
+     "source_id": "fr_insee"
+    },
+    {
+     "indicator": "persons_per_dwelling",
+     "value": 2.3,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "fr",
+     "population": "основные жилища, метрополия",
+     "method_note": "обследования Logement (Insee)",
+     "source_id": "fr_insee"
+    }
+   ],
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/2586024/LOGFRA17k_FL6_confort.pdf",
+     "accessed": "2026-10-29",
+     "supports": "Les conditions de logement en France, éd. 2017, fiches 6.1 et 6.2"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-ctx-1949-1995-television-households",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 1949,
+   "period_end": 1995,
+   "context_type": "appliances",
+   "attribute": "appliances",
+   "title": "Телевизор входит в дом",
+   "description": "В 1949 году телевизор был лишь примерно у трёхсот домохозяйств, в 1958 году — у миллиона, в 1970-м — почти у 11 миллионов, а в 1990 году — у 20 миллионов из примерно 22 миллионов домохозяйств. Цветные телевизоры распространялись медленнее, с середины 1970-х.",
+   "statistics": [
+    {
+     "indicator": "households_with_tv",
+     "value": 297,
+     "unit": "households",
+     "year": 1949,
+     "area_id": "fr",
+     "population": "домохозяйства Франции",
+     "method_note": "оценка в таблице статьи Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 1000000,
+     "unit": "households",
+     "year": 1958,
+     "area_id": "fr",
+     "population": "домохозяйства Франции",
+     "method_note": "оценка в таблице статьи Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 1900000,
+     "unit": "households",
+     "year": 1960,
+     "area_id": "fr",
+     "population": "домохозяйства Франции",
+     "method_note": "оценка в таблице статьи Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 10970000,
+     "unit": "households",
+     "year": 1970,
+     "area_id": "fr",
+     "population": "домохозяйства Франции",
+     "method_note": "оценка в таблице статьи Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 17400000,
+     "unit": "households",
+     "year": 1980,
+     "area_id": "fr",
+     "population": "домохозяйства Франции",
+     "method_note": "оценка в таблице статьи Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 20000000,
+     "unit": "households",
+     "year": 1990,
+     "area_id": "fr",
+     "population": "домохозяйства Франции",
+     "method_note": "оценка в таблице статьи Wikipédia",
+     "source_id": "fr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "tableau de l'équipement des foyers"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-ctx-2000s-pacs-marriage",
+   "country_code": "FR",
+   "location_id": "fr",
+   "period_start": 2000,
+   "period_end": 2022,
+   "context_type": "family_marriage",
+   "attribute": "family_marriage",
+   "title": "Браки и PACS",
+   "description": "После введения PACS в 1999 году число таких союзов быстро росло: 22 276 в 2000 году, 205 550 в 2010-м — около трёх PACS на четыре брака (251 654 брака). В 2022 году — 209 тысяч PACS и 244 тысячи браков.",
+   "statistics": [
+    {
+     "indicator": "pacs",
+     "value": 22276,
+     "unit": "per year",
+     "year": 2000,
+     "area_id": "fr",
+     "population": "Франция",
+     "method_note": "государственная регистрация; по статье Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "pacs",
+     "value": 205550,
+     "unit": "per year",
+     "year": 2010,
+     "area_id": "fr",
+     "population": "Франция",
+     "method_note": "государственная регистрация; по статье Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "marriages",
+     "value": 251654,
+     "unit": "per year",
+     "year": 2010,
+     "area_id": "fr",
+     "population": "Франция",
+     "method_note": "государственная регистрация; по статье Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "pacs",
+     "value": 209000,
+     "unit": "per year",
+     "year": 2022,
+     "area_id": "fr",
+     "population": "Франция",
+     "method_note": "государственная регистрация; по статье Wikipédia",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "marriages",
+     "value": 244000,
+     "unit": "per year",
+     "year": 2022,
+     "area_id": "fr",
+     "population": "Франция",
+     "method_note": "государственная регистрация; по статье Wikipédia",
+     "source_id": "fr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Pacte_civil_de_solidarit%C3%A9",
+     "accessed": "2026-10-29",
+     "supports": "chiffres 2000, 2010, 2022"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

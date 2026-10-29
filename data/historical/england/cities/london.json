@@ -1,0 +1,1218 @@
+{
+ "records": [
+  {
+   "id": "gb-london-1900-boundary-estate",
+   "title": "Открыт первый муниципальный жилой квартал",
+   "start_date": "1900-03-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В Шордиче официально открыли Boundary Estate, первый в Британии жилой массив, построенный местной властью.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1900-central-london-railway",
+   "title": "Открыта Центральная лондонская железная дорога",
+   "start_date": "1900-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открылась подземная Central London Railway, основа нынешней линии Central; в 1906–1907 гг. открылись будущие линии Bakerloo, Piccadilly и часть Northern.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты 1900, 1906, 1907"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1901-electric-trams",
+   "title": "Электрические трамваи в Лондоне",
+   "start_date": "1901-04-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В Лондоне появились электрические трамваи; последние конные трамваи LCC прошли в 1913 г.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты 1901 и 1913"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1915-zeppelin-raids",
+   "title": "Налёты цеппелинов на Лондон",
+   "start_date": "1915-05-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Начались бомбардировки Лондона с дирижаблей; 13 июня 1917 г. дневной налёт самолётов убил 162 человека, в том числе детей в школе в Попларе.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты 1915 и 1917, число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1940-blitz",
+   "title": "Блиц в Лондоне",
+   "start_date": "1940-09-07",
+   "end_date": "1941-05-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "С 7 сентября 1940 г. город бомбили 57 ночей подряд; интенсивная фаза закончилась налётами 10–11 мая 1941 г. Погибло около 25 тыс. лондонцев.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "home_destroyed",
+    "bereavement",
+    "evacuation"
+   ],
+   "narrative_hooks": [
+    "air_raid_memory",
+    "shelter_night"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты начала и конца, 57 ночей, около 25 000 погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1944-v-weapons",
+   "title": "Удары Фау-1 и Фау-2 по Лондону",
+   "start_date": "1944-06-13",
+   "end_date": "1945-03-27",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "С 13 июня 1944 г. на Лондон падали самолёты-снаряды V-1, с 8 сентября — ракеты V-2; 25 ноября ракета разрушила магазин Woolworths в Нью-Кроссе (168 погибших). Последние удары — 27 марта 1945 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты V-1, V-2, Нью-Кросс, последние удары"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1946-heathrow",
+   "title": "Аэропорт Хитроу открыт для гражданских рейсов",
+   "start_date": "1946-05-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "После первого международного рейса 1 января 1946 г. Хитроу полностью открылся для гражданской авиации 31 мая.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты 1 января и 31 мая 1946"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1948-olympics",
+   "title": "Олимпийские игры в Лондоне",
+   "start_date": "1948-07-29",
+   "end_date": "1948-08-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "sport",
+   "historical_summary": "Летние Олимпийские игры прошли с центром на стадионе Уэмбли.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты Игр"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1951-festival-of-britain",
+   "title": "Фестиваль Британии",
+   "title_original": "Festival of Britain",
+   "start_date": "1951-05-03",
+   "end_date": "1951-09-30",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "На Южном берегу Темзы прошёл Festival of Britain.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты фестиваля"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1952-last-trams",
+   "title": "Последние лондонские трамваи",
+   "start_date": "1952-07-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "После поэтапного закрытия с 1950 г. прошёл последний трамвай первого поколения; горожане вышли его провожать.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты 1950 и 1952"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1952-great-smog",
+   "title": "Великий смог",
+   "start_date": "1952-12-04",
+   "end_date": "1952-12-09",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "environment",
+   "historical_summary": "4–9 декабря 1952 г. Лондон накрыл густой смог; транспорт был парализован, по оценкам, погибли около 4 тыс. человек.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "children"
+   ],
+   "potential_impacts": [
+    "illness"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты и оценка смертности"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1958-notting-hill-riots",
+   "title": "Расовые беспорядки в Ноттинг-Хилле",
+   "start_date": "1958-08-30",
+   "end_date": "1958-09-05",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "political_change",
+   "historical_summary": "30 августа — 5 сентября 1958 г. в Ноттинг-Хилле прошли расовые беспорядки.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1959-caribbean-carnival-routemaster",
+   "title": "Карибский карнавал и автобус Routemaster",
+   "start_date": "1959",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В ратуше Сент-Панкрас прошёл первый в Британии карибский карнавал; 11 ноября в регулярную работу вышел автобус Routemaster. В 1966 г. в Ноттинг-Хилле открылся праздник — предшественник Ноттинг-Хиллского карнавала.",
+   "affected_groups": [
+    "all_residents",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "1959 карнавал, 11.11.1959 Routemaster, 18.09.1966 Notting Hill Fayre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1968-ronan-point",
+   "title": "Обрушение башни Ронан-Пойнт",
+   "start_date": "1968-05-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "После взрыва газа обрушилась часть жилой башни Ronan Point в Ньюхэме; погибли 4 человека.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1968-ford-dagenham-machinists",
+   "title": "Забастовка швей на заводе Форд в Дагенеме",
+   "start_date": "1968-06-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Швеи, шившие чехлы для сидений на заводе Ford в Дагенеме, бастовали около трёх недель, требуя справедливой оценки своей квалификации; производство остановилось. Забастовка стала одним из поводов для закона о равной оплате 1970 г.",
+   "affected_groups": [
+    "women",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "strike"
+   ],
+   "narrative_hooks": [
+    "equal_pay_conversation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ford_sewing_machinists_strike_of_1968",
+     "accessed": "2026-10-29",
+     "supports": "дата, место, итог, связь с Equal Pay Act"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1968-st-katharine-docks",
+   "title": "Закрытие доков Св. Екатерины",
+   "start_date": "1968-09-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Доки Св. Екатерины закрылись для коммерческого судоходства; в ноябре 1981 г. Управление порта закрыло для грузов Королевские доки, а в июле 1981 г. создана London Docklands Development Corporation.",
+   "affected_groups": [
+    "dock_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты закрытия доков и создания LDDC"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1969-victoria-line",
+   "title": "Линия Виктория",
+   "start_date": "1969-03-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Линия метро Victoria открылась от Уолтемстоу до вокзала Виктория (первый участок — 1 сентября 1968 г.), в 1971 г. продлена до Брикстона.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты 1968, 1969, 1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1973-ira-bombs",
+   "title": "Взрывы ИРА в Лондоне",
+   "start_date": "1973-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В марте 1973 г. бомбы ИРА взорвались в Лондоне, в том числе у здания суда Олд-Бейли: один погибший, около 250 раненых. Взрывы в городе продолжались и в последующие годы.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "март 1973: взрывы, 1 погибший, ~250 раненых; последующие взрывы 1974–1975"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1977-piccadilly-heathrow",
+   "title": "Метро до Хитроу",
+   "start_date": "1977-12-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Линию Piccadilly продлили до аэропорта Хитроу.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1979-jubilee-line",
+   "title": "Открыта линия Jubilee",
+   "start_date": "1979-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открыта новая линия метро Jubilee.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1981-brixton-riot",
+   "title": "Беспорядки в Брикстоне",
+   "start_date": "1981-04-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "political_change",
+   "historical_summary": "В Брикстоне вспыхнули массовые беспорядки.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1982-thames-barrier",
+   "title": "Темзенский барьер",
+   "start_date": "1982-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Начал работать защитный барьер на Темзе против нагонных наводнений; официально открыт 8 мая 1984 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "октябрь 1982, открытие 8 мая 1984"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1986-big-bang",
+   "title": "«Большой взрыв» в Сити",
+   "start_date": "1986-10-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Лондонская фондовая биржа была дерегулирована (Big Bang).",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1987-docklands-light-railway",
+   "title": "Открыт Docklands Light Railway",
+   "start_date": "1987-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В бывших доках начала работу автоматическая лёгкая железная дорога DLR; в октябре заработал аэропорт London City.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты DLR и London City Airport"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-1987-kings-cross-fire",
+   "title": "Пожар на станции Кингс-Кросс",
+   "start_date": "1987-11-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "disaster",
+   "historical_summary": "Пожар на станции метро King's Cross St Pancras унёс жизни 31 человека.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2003-congestion-charge",
+   "title": "Плата за въезд в центр",
+   "start_date": "2003-02-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Введена плата за въезд автомобилей в центр Лондона (Congestion Charge).",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2005-7-july-bombings",
+   "title": "Теракты 7 июля 2005 года",
+   "start_date": "2005-07-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Четыре взрыва смертников в лондонском транспорте унесли 56 жизней.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2007-overground",
+   "title": "Запуск London Overground",
+   "start_date": "2007-11-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Сеть London Overground начала обслуживать Северолондонскую линию.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2010-cycle-hire",
+   "title": "Городской прокат велосипедов",
+   "start_date": "2010-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В Лондоне запущена система проката велосипедов.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2011-riots",
+   "title": "Беспорядки 2011 года",
+   "start_date": "2011-08-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "political_change",
+   "historical_summary": "Гибель Марка Даггана при задержании полицией в Тоттенхэме стала поводом для беспорядков, перекинувшихся на другие города Англии.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата и распространение"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2012-olympics",
+   "title": "Олимпийские игры 2012 года",
+   "start_date": "2012-07-27",
+   "end_date": "2012-08-12",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "sport",
+   "historical_summary": "Летние Олимпийские игры прошли в Олимпийском парке в Стратфорде с 27 июля по 12 августа.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "даты"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2017-grenfell",
+   "title": "Пожар в башне Гренфелл",
+   "start_date": "2017-06-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "disaster",
+   "historical_summary": "Пожар охватил жилую башню Grenfell Tower в Северном Кенсингтоне; погибли 71 человек.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-london-2022-elizabeth-line",
+   "title": "Открыта линия Элизабет",
+   "start_date": "2022-05-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-london"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открыт центральный участок Crossrail — линии Elizabeth — между Паддингтоном и Эбби-Вудом.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

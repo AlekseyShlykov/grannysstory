@@ -1,0 +1,445 @@
+{
+ "sources": [
+  {
+   "source_id": "fr_wikipedia",
+   "name": "Wikipédia (fr)",
+   "publisher": "Wikimedia Foundation",
+   "country": "FR",
+   "url": "https://fr.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "general",
+    "local_history",
+    "administrative"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Вторичный источник; использован для административной истории, оккупации, местной истории Лилля, Лиона, Марселя, Ле-Крёзо, Плозеве. Записи только на нём — confidence medium."
+  },
+  {
+   "source_id": "en_wikipedia",
+   "name": "Wikipedia (en)",
+   "publisher": "Wikimedia Foundation",
+   "country": "FR",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "general",
+    "administrative"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Вторичный источник; даты слияния регионов 2016 и названий."
+  },
+  {
+   "source_id": "fr_legifrance",
+   "name": "Légifrance",
+   "publisher": "Direction de l'information légale et administrative (DILA)",
+   "country": "FR",
+   "url": "https://www.legifrance.gouv.fr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "law",
+    "family_law",
+    "administrative"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "Licence Ouverte / Etalab 2.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Официальные тексты законов (JORF). Использованы страницы конкретных законов."
+  },
+  {
+   "source_id": "fr_insee",
+   "name": "INSEE",
+   "publisher": "Institut national de la statistique et des études économiques",
+   "country": "FR",
+   "url": "https://www.insee.fr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "demography",
+    "statistics",
+    "chronology"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "Licence Ouverte / Etalab 2.0 (réutilisation libre avec mention de la source)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Использована хронология прав женщин (Insee Références, Femmes et hommes 2022, annexe) и статистические публикации."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-10-29",
+   "source_id": "fr_vie_publique",
+   "name": "Vie-publique.fr",
+   "publisher": "Direction de l'information légale et administrative (DILA)",
+   "url": "https://www.vie-publique.fr/",
+   "categories": [
+    "law",
+    "policy",
+    "chronology"
+   ],
+   "access_method": "website",
+   "license": "Licence Ouverte / Etalab 2.0",
+   "status": "catalogued",
+   "notes": "Страница eclairage/20136 (история регионов) вернула пустое содержимое при загрузке; в записях не используется."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_ined",
+   "name": "Ined — Institut national d'études démographiques",
+   "publisher": "Ined",
+   "url": "https://www.ined.fr/",
+   "categories": [
+    "demography",
+    "fertility"
+   ],
+   "access_method": "not_accessible",
+   "license": "Условия сайта Ined (не проверены)",
+   "status": "inaccessible",
+   "notes": "DNS-ошибка (ENOTFOUND www.ined.fr) при попытке открыть страницы о бездетности; данные по бездетности взяты из Insee (France portrait social 2013)."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-10-29",
+   "source_id": "fr_gallica",
+   "name": "Gallica",
+   "publisher": "Bibliothèque nationale de France",
+   "url": "https://gallica.bnf.fr/",
+   "categories": [
+    "press",
+    "archives"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "accessed",
+   "notes": "Открыты тематические страницы Gallica с историей и региональной прессой. В игре показывается ссылка на каталог; тексты и изображения не воспроизводятся."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_bnf_api",
+   "name": "api.bnf.fr",
+   "publisher": "Bibliothèque nationale de France",
+   "url": "https://api.bnf.fr/",
+   "categories": [
+    "catalogue",
+    "api"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовалась."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-10-29",
+   "source_id": "fr_archives_nationales",
+   "name": "Archives nationales",
+   "publisher": "Ministère de la Culture",
+   "url": "https://www.archives-nationales.culture.gouv.fr/",
+   "categories": [
+    "archives"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "accessed",
+   "notes": "Открыт официальный портал и виртуальный читальный зал. В игре показывается ссылка на каталог; архивные материалы не воспроизводятся."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_data_gouv",
+   "name": "data.gouv.fr",
+   "publisher": "Etalab",
+   "url": "https://www.data.gouv.fr/",
+   "categories": [
+    "open_data"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовался; кандидат для COG/исторических наборов."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_ad_rhone",
+   "name": "Archives départementales et métropolitaines du Rhône",
+   "publisher": "Département du Rhône / Métropole de Lyon",
+   "url": "https://archives.rhone.fr/",
+   "categories": [
+    "archives",
+    "local_history"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовались."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_ad_nord",
+   "name": "Archives départementales du Nord",
+   "publisher": "Département du Nord",
+   "url": "https://archivesdepartementales.lenord.fr/",
+   "categories": [
+    "archives",
+    "local_history"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовались."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_ad_13",
+   "name": "Archives départementales des Bouches-du-Rhône",
+   "publisher": "Département des Bouches-du-Rhône",
+   "url": "https://www.archives13.fr/",
+   "categories": [
+    "archives",
+    "local_history"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовались."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_archives_paris",
+   "name": "Archives de Paris",
+   "publisher": "Ville de Paris",
+   "url": "https://archives.paris.fr/",
+   "categories": [
+    "archives",
+    "local_history"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовались."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_larousse",
+   "name": "Encyclopédie Larousse",
+   "publisher": "Larousse",
+   "url": "https://www.larousse.fr/encyclopedie",
+   "categories": [
+    "encyclopedia"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовалась в этой сессии."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_britannica",
+   "name": "Encyclopaedia Britannica",
+   "publisher": "Encyclopaedia Britannica, Inc.",
+   "url": "https://www.britannica.com/",
+   "categories": [
+    "encyclopedia"
+   ],
+   "access_method": "catalogue",
+   "license": "не проверялась",
+   "status": "catalogued",
+   "notes": "Не использовалась в этой сессии."
+  },
+  {
+   "country": "FR",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": null,
+   "source_id": "fr_unesco_whc",
+   "name": "UNESCO World Heritage Centre",
+   "publisher": "UNESCO",
+   "url": "https://whc.unesco.org/",
+   "categories": [
+    "heritage"
+   ],
+   "access_method": "not_accessible",
+   "license": "не проверялась",
+   "status": "inaccessible",
+   "notes": "Страница whc.unesco.org/fr/list/872 (Лион) вернула HTTP 403; дата внесения Лиона в список не проверена."
+  }
+ ]
+}

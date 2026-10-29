@@ -1,0 +1,448 @@
+{
+  "records": [
+    {
+      "id": "ru-ctx-tverobl-population-1959-1989",
+      "country_code": "RU",
+      "location_id": "ru-tver-oblast",
+      "period_start": 1959,
+      "period_end": 1989,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Население Калининской области сокращается",
+      "description": "Даже в советские десятилетия население области медленно уменьшалось: 1,81 млн по переписи 1959 года, 1,72 млн в 1970-м, 1,65 млн в 1979-м и 1,67 млн в 1989-м.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 1806787,
+          "unit": "чел.",
+          "year": 1959,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 1717237,
+          "unit": "чел.",
+          "year": 1970,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 1649022,
+          "unit": "чел.",
+          "year": 1979,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 1670117,
+          "unit": "чел.",
+          "year": 1989,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Тверской_области",
+          "accessed": "2026-10-29",
+          "supports": "переписи 1959–1989"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-tverobl-population-2002-2021",
+      "country_code": "RU",
+      "location_id": "ru-tver-oblast",
+      "period_start": 2002,
+      "period_end": 2021,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Тверская область после 1990-х",
+      "description": "Население области быстро сокращалось: 1,47 млн по переписи 2002 года, 1,35 млн в 2010-м, 1,23 млн в 2021-м.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 1471459,
+          "unit": "чел.",
+          "year": 2002,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 1353392,
+          "unit": "чел.",
+          "year": 2010,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 1230171,
+          "unit": "чел.",
+          "year": 2021,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Тверской_области",
+          "accessed": "2026-10-29",
+          "supports": "переписи 2002–2021"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-tverobl-vital-1970s-80s",
+      "country_code": "RU",
+      "location_id": "ru-tver-oblast",
+      "period_start": 1970,
+      "period_end": 1989,
+      "context_type": "demography",
+      "attribute": "births_deaths",
+      "title": "Рождаемость и смертность в Калининской области",
+      "description": "Уже в 1970 году смертность в области превышала рождаемость (12 против 11 на 1000 жителей), в 1985 году — 15,5 против 13,4.",
+      "statistics": [
+        {
+          "indicator": "crude_birth_rate",
+          "value": 11,
+          "unit": "на 1000",
+          "year": 1970,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "текущий учёт; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "crude_death_rate",
+          "value": 12,
+          "unit": "на 1000",
+          "year": 1970,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "crude_birth_rate",
+          "value": 13.4,
+          "unit": "на 1000",
+          "year": 1985,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "crude_death_rate",
+          "value": 15.5,
+          "unit": "на 1000",
+          "year": 1985,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Тверской_области",
+          "accessed": "2026-10-29",
+          "supports": "коэффициенты рождаемости и смертности"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-tverobl-vital-1990s-2000s",
+      "country_code": "RU",
+      "location_id": "ru-tver-oblast",
+      "period_start": 1990,
+      "period_end": 2013,
+      "context_type": "demography",
+      "attribute": "births_deaths",
+      "title": "Демографический кризис в Тверской области",
+      "description": "В 1990-е и 2000-е смертность в области была почти втрое выше рождаемости: в 2003 году 9,2 рождения и 24,1 смерти на 1000. Ожидаемая продолжительность жизни упала с 68,3 года (1990) до 61 года (2002) и вернулась к 68 к 2013 году.",
+      "statistics": [
+        {
+          "indicator": "crude_birth_rate",
+          "value": 9.2,
+          "unit": "на 1000",
+          "year": 2003,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "текущий учёт; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "crude_death_rate",
+          "value": 24.1,
+          "unit": "на 1000",
+          "year": 2003,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy",
+          "value": 68.3,
+          "unit": "лет",
+          "year": 1990,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "при рождении; то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy",
+          "value": 61.0,
+          "unit": "лет",
+          "year": 2002,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy",
+          "value": 68.1,
+          "unit": "лет",
+          "year": 2013,
+          "area_id": "ru-tver-oblast",
+          "population": "всё население области",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Тверской_области",
+          "accessed": "2026-10-29",
+          "supports": "коэффициенты и ОПЖ"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-tver-healthcare-1990-2006",
+      "country_code": "RU",
+      "location_id": "ru-tver",
+      "period_start": 1990,
+      "period_end": 2006,
+      "context_type": "healthcare",
+      "attribute": "facilities",
+      "title": "Больницы и поликлиники Твери",
+      "description": "По данным городской администрации, с 1990 по 2006 год число больничных учреждений в Твери уменьшилось с 26 до 24, коек — с 6860 до 6203, а число поликлиник выросло с 44 до 94; врачей на 10 тысяч жителей стало больше — 114 вместо 81.",
+      "statistics": [
+        {
+          "indicator": "doctors_per_10000",
+          "value": 80.6,
+          "unit": "на 10 000 жителей",
+          "year": 1990,
+          "area_id": "ru-tver",
+          "population": "население города",
+          "method_note": "данные администрации города, по вторичному источнику",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "doctors_per_10000",
+          "value": 114.3,
+          "unit": "на 10 000 жителей",
+          "year": 2006,
+          "area_id": "ru-tver",
+          "population": "население города",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "данные администрации 1990–2006"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-tver-education-2006",
+      "country_code": "RU",
+      "location_id": "ru-tver",
+      "period_start": 2000,
+      "period_end": 2009,
+      "context_type": "education",
+      "attribute": "institutions",
+      "title": "Студенческая Тверь",
+      "description": "В 2006 году в Твери было 12 государственных и 7 частных вузов, где училось более 49 тысяч студентов, 13 техникумов и училищ и 74 школы.",
+      "statistics": [
+        {
+          "indicator": "students_higher_ed",
+          "value": 49000,
+          "unit": "чел.",
+          "year": 2006,
+          "area_id": "ru-tver",
+          "population": "студенты вузов города",
+          "method_note": "данные города по вторичному источнику; «более»",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "2006: вузы, студенты, школы"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-torzhok-population",
+      "country_code": "RU",
+      "location_id": "ru-torzhok",
+      "period_start": 1939,
+      "period_end": 2020,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Торжок: рост и убыль",
+      "description": "Население Торжка выросло с 29 тысяч в 1939 году до 47 тысяч в 1979-м и около 51 тысячи в конце 1980-х; по переписи 2020 года — 41 тысяча.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 29309,
+          "unit": "чел.",
+          "year": 1939,
+          "area_id": "ru-torzhok",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 47214,
+          "unit": "чел.",
+          "year": 1979,
+          "area_id": "ru-torzhok",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 41116,
+          "unit": "чел.",
+          "year": 2020,
+          "area_id": "ru-torzhok",
+          "population": "население города",
+          "method_note": "перепись 2020–2021; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Торжок",
+          "accessed": "2026-10-29",
+          "supports": "таблица населения"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-tver-1990s-deindustrialisation",
+      "country_code": "RU",
+      "location_id": "ru-tver",
+      "period_start": 1991,
+      "period_end": 2014,
+      "context_type": "work",
+      "attribute": "industrial_decline",
+      "title": "Тверь после закрытия фабрик",
+      "description": "После распада СССР остановились крупнейшие текстильные и химические предприятия Твери — «Пролетарка», хлопчатобумажный комбинат, «Химволокно», «Искож»; число занятых в промышленности сократилось примерно вдвое, лёгкая промышленность опустилась с первого на четвёртое место. Опорой города остался вагоностроительный завод (около 29% промышленного выпуска).",
+      "statistics": [
+        {
+          "indicator": "wagon_works_share_output",
+          "value": 29.1,
+          "unit": "% промышленного выпуска города",
+          "year": 2014,
+          "area_id": "ru-tver",
+          "population": "промышленность города",
+          "method_note": "год структуры в источнике не указан явно; ближайшая дата в статье — 2014",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Экономика_Твери",
+          "accessed": "2026-10-29",
+          "supports": "бывшие предприятия, сокращение занятых, структура"
+        },
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "остановка Пролетарки и др."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

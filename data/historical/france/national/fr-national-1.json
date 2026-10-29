@@ -1,0 +1,1684 @@
+{
+ "records": [
+  {
+   "id": "fr-nat-1907-married-women-salary",
+   "title": "Замужние женщины получили право распоряжаться своим заработком",
+   "start_date": "1907",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон 1907 года позволил замужним женщинам свободно распоряжаться собственной зарплатой, без согласия мужа.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 14
+   },
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "own_money",
+    "work_outside_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1907: les femmes mariées peuvent disposer librement de leur salaire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1909-maternity-leave",
+   "title": "Восьминедельный отпуск по беременности без увольнения",
+   "start_date": "1909",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон 1909 года ввёл отпуск по беременности и родам продолжительностью восемь недель без разрыва трудового договора.",
+   "affected_groups": [
+    "women",
+    "mothers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "pregnancy_at_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1909: congé de maternité de huit semaines sans rupture du contrat"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1920-women-unions",
+   "title": "Женщины могут вступать в профсоюз без разрешения мужа",
+   "start_date": "1920",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "С 1920 года замужние женщины могли вступать в профсоюз без разрешения мужа.",
+   "affected_groups": [
+    "women",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1920: adhérer à un syndicat sans l'autorisation de leur mari"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1924-equal-secondary-curriculum",
+   "title": "Одинаковые программы средней школы для девочек и мальчиков",
+   "start_date": "1924",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "education",
+   "historical_summary": "С 1924 года программы среднего образования стали одинаковыми для мальчиков и девочек, что уравняло женский и мужской бакалавриат.",
+   "affected_groups": [
+    "school_pupils",
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 10,
+    "max_age": 20
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "schooling_ambition"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1924: programmes identiques, équivalence des baccalauréats"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1936-first-women-ministers",
+   "title": "Первые женщины в правительстве",
+   "start_date": "1936",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "В 1936 году в правительство Народного фронта вошли три женщины — Сесиль Брюншвиг, Сюзанна Лакор и Ирен Жолио-Кюри, хотя права голоса у женщин ещё не было.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1936: premières femmes au Gouvernement"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1938-married-women-capacity",
+   "title": "Отмена юридической недееспособности замужней женщины",
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Реформа 1938 года отменила юридическую недееспособность замужней женщины, но муж сохранил право выбирать место жительства, разрешать или запрещать жене работать и отцовскую власть над детьми.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "permission_to_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1938: suppression de l'incapacité juridique; l'époux conserve le droit d'imposer la résidence et d'autoriser la profession"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1942-abortion-capital-crime",
+   "title": "Аборт объявлен преступлением против государства",
+   "start_date": "1942",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "В 1942 году режим Виши объявил аборт, уголовно наказуемый с 1923 года, «преступлением против безопасности государства», за которое грозила смертная казнь.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1942: l'avortement redevient un crime contre la sûreté de l'État; puni de mort"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1944-women-vote",
+   "title": "Женщины получили право голоса",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "В 1944 году женщины во Франции получили право голосовать и избираться.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1944: les femmes obtiennent le droit de vote et l'éligibilité"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1946-constitution-equality",
+   "title": "Преамбула Конституции закрепила равенство прав женщин и мужчин",
+   "start_date": "1946",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Преамбула Конституции 1946 года провозгласила принцип равенства прав женщин и мужчин во всех областях.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1946: préambule, égalité des droits entre femmes et hommes"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1965-matrimonial-reform",
+   "title": "Женщина может работать и открыть счёт без согласия мужа",
+   "title_original": "Loi portant réforme des régimes matrimoniaux",
+   "start_date": "1965-07-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон о реформе брачных имущественных режимов 1965 года позволил жене работать без разрешения мужа и открывать банковский счёт на своё имя.",
+   "affected_groups": [
+    "women",
+    "office_workers"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "own_bank_account",
+    "work_outside_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1965: exercer une activité professionnelle sans l'autorisation de son mari; compte en banque à son nom"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1967-neuwirth-contraception",
+   "title": "Закон Нёвирта разрешил контрацепцию",
+   "title_original": "Loi Neuwirth",
+   "start_date": "1967-12-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон Нёвирта 1967 года разрешил контрацепцию, сохранив запрет на её рекламу вне медицинских журналов. Применительные декреты вышли лишь в 1971 году.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "max_age": 50
+   },
+   "potential_impacts": [
+    "fertility_choice"
+   ],
+   "narrative_hooks": [
+    "family_planning"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1967: loi Neuwirth autorise la contraception; 1971: décrets d'application après quatre ans d'attente"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1970-parental-authority",
+   "title": "Отцовская власть заменена родительской",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон 1970 года заменил «отцовскую власть» «родительской властью» и упразднил понятие главы семьи: супруги вместе руководят семьёй.",
+   "affected_groups": [
+    "parents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1970: remplacement de l'autorité paternelle par l'autorité parentale; notion de chef de famille supprimée"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1972-equal-pay-law",
+   "title": "Закон о равной оплате труда женщин и мужчин",
+   "start_date": "1972-12-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон от 22 декабря 1972 года закрепил равенство оплаты труда женщин и мужчин.",
+   "affected_groups": [
+    "women",
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1972: loi du 22 décembre relative à l'égalité de rémunération"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1975-veil-law",
+   "title": "Закон Вейль декриминализовал прерывание беременности",
+   "title_original": "Loi Veil",
+   "start_date": "1975-01-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон от 17 января 1975 года, принятый на пять лет, декриминализовал добровольное прерывание беременности; окончательно закон утверждён в 1979 году, возмещение расходов Соцстрахом — с 1982 года.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_planning"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1975: loi du 17 janvier (votée pour cinq ans) dite loi Simone Veil; 1979 vote définitif; 1982 remboursement"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1975-divorce-mutual-consent",
+   "title": "Развод по взаимному согласию",
+   "start_date": "1975-07-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 11 июля 1975 года о реформе развода ввёл развод по взаимному согласию супругов.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "divorce_decision"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1975: loi du 11 juillet portant réforme du divorce, divorce par consentement mutuel"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1983-roudy-law",
+   "title": "Закон Руди о профессиональном равенстве",
+   "start_date": "1983-07-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон от 13 июля 1983 года («закон Руди») изменил трудовой и уголовный кодексы ради профессионального равенства мужчин и женщин.",
+   "affected_groups": [
+    "women",
+    "office_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1983: loi du 13 juillet dite loi Roudy"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1991-first-woman-pm",
+   "title": "Эдит Крессон — первая женщина-премьер",
+   "start_date": "1991",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1991 году Эдит Крессон стала первой женщиной, назначенной премьер-министром Франции.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "1991: Édith Cresson première femme nommée Premier ministre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-2000-parity-law",
+   "title": "Закон о паритете на выборах",
+   "start_date": "2000-06-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон от 6 июня 2000 года ввёл принцип равного доступа женщин и мужчин к выборным мандатам.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "2000: loi du 6 juin sur l'égal accès aux mandats électoraux"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-2002-paternity-leave",
+   "title": "Введён отпуск по отцовству",
+   "start_date": "2002",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон о финансировании социального страхования на 2002 год ввёл отпуск по отцовству.",
+   "affected_groups": [
+    "parents",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "Loi de financement de la Sécurité sociale pour 2002 instaurant le congé paternité"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-2004-divorce-reform",
+   "title": "Реформа развода 2004 года",
+   "start_date": "2004-05-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 26 мая 2004 года, вступивший в силу 1 января 2005 года, упростил процедуру и перечень оснований для развода.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_insee"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_insee",
+     "url": "https://www.insee.fr/fr/statistiques/fichier/6047803/IREF_FH22-ANX.pdf",
+     "accessed": "2026-10-29",
+     "supports": "Loi du 26 mai relative au divorce, en vigueur le 1er janvier 2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fr-nat-1936-strikes-occupations",
+   "title": "Забастовки с занятием заводов весной 1936 года",
+   "start_date": "1936-05",
+   "end_date": "1936-06",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "В мае–июне 1936 года по стране прошло около 12 тысяч забастовок, большинство — с занятием предприятий; бастовали около 2 миллионов человек. 28 мая к движению присоединились 30 тысяч рабочих Renault в Бийанкуре.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "min_age": 14
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_strike"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Front_populaire_(France)",
+     "accessed": "2026-10-29",
+     "supports": "12 000 grèves, 9 000 avec occupation, 2 millions de grévistes; Renault 28 mai"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1936-matignon-agreements",
+   "title": "Матиньонские соглашения",
+   "start_date": "1936-06-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "Соглашения между профсоюзом ВКТ и работодателями при посредничестве правительства Блюма признали профсоюзные права и подняли зарплаты на 7–15%, в среднем примерно на 12%.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "wage_increase"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Front_populaire_(France)",
+     "accessed": "2026-10-29",
+     "supports": "accords de Matignon 7 juin 1936, hausse 7 à 15 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1936-paid-holidays",
+   "title": "Первые оплачиваемые отпуска",
+   "start_date": "1936-06-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон от 20 июня 1936 года ввёл оплачиваемый отпуск в 15 дней. Летом того же года министр Лео Лагранж ввёл билеты со скидкой 40% для отдыхающих рабочих.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "leisure_change"
+   ],
+   "narrative_hooks": [
+    "first_seaside_trip",
+    "family_holiday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
+     "accessed": "2026-10-29",
+     "supports": "loi du 20 juin 1936: 15 jours"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Front_populaire_(France)",
+     "accessed": "2026-10-29",
+     "supports": "billets Lagrange 40 % de réduction"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1956-third-week-leave",
+   "title": "Третья неделя оплачиваемого отпуска",
+   "start_date": "1956-03-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон, принятый единогласно и промульгированный 27 марта 1956 года, увеличил оплачиваемый отпуск до трёх недель.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_holiday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
+     "accessed": "2026-10-29",
+     "supports": "loi du 28 février 1956 promulguée le 27 mars"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1969-fourth-week-leave",
+   "title": "Четвёртая неделя оплачиваемого отпуска",
+   "start_date": "1969-05-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон от 16 мая 1969 года установил четырёхнедельный оплачиваемый отпуск.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
+     "accessed": "2026-10-29",
+     "supports": "loi 69-434 du 16 mai 1969"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1982-fifth-week-leave",
+   "title": "Пятая неделя оплачиваемого отпуска",
+   "start_date": "1982-01-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "Ордонанс от 16 января 1982 года правительства Моруа ввёл пятинедельный оплачиваемый отпуск.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
+     "accessed": "2026-10-29",
+     "supports": "ordonnance du 16 janvier 1982"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1910-workers-pensions",
+   "title": "Закон о рабочих и крестьянских пенсиях",
+   "start_date": "1910-04-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон от 5 апреля 1910 года ввёл обязательное пенсионное страхование наёмных работников; пенсии были очень малы, возраст выхода — 65 лет.",
+   "affected_groups": [
+    "industrial_workers",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "5 avril 1910 retraites ouvrières et paysannes, 65 ans"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1928-social-insurance",
+   "title": "Законы о социальном страховании",
+   "start_date": "1928-04-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон 1928 года ввёл для наёмных работников страхование на случай болезни, материнства, инвалидности, старости и смерти; закон 1930 года создал отдельный режим для сельского хозяйства.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "5 avril 1928; loi du 30 avril 1930 régime agricole"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1932-family-allowances",
+   "title": "Обязательные семейные пособия",
+   "start_date": "1932-03-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон от 11 марта 1932 года ввёл семейные пособия для наёмных работников, финансируемые взносами работодателей.",
+   "affected_groups": [
+    "parents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "11 mars 1932 allocations familiales"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1945-securite-sociale",
+   "title": "Создание Социального страхования (Sécurité sociale)",
+   "start_date": "1945-10-04",
+   "end_date": "1945-10-19",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Ордонансы 4 и 19 октября 1945 года создали систему Sécurité sociale по программе Национального совета Сопротивления.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "access_to_healthcare"
+   ],
+   "narrative_hooks": [
+    "first_carte_vitale_like_document",
+    "doctor_visit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "ordonnances des 4 et 19 octobre 1945"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1967-jeanneney-ordinances",
+   "title": "Ордонансы Жаннене разделили соцстрах на ветви",
+   "start_date": "1967-08-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Ордонансы 21 августа 1967 года разделили систему социального страхования на отдельные национальные кассы для здоровья, семьи и пенсий.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "21 août 1967 ordonnances Jeanneney"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1991-csg",
+   "title": "Введён всеобщий социальный взнос (CSG)",
+   "start_date": "1991",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "В 1991 году введён всеобщий социальный взнос CSG по ставке 1,1%, впоследствии выросшей до 9,2%.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "CSG 1991 1,1 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1999-cmu",
+   "title": "Всеобщее медицинское покрытие (CMU)",
+   "start_date": "1999-07-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Закон от 28 июля 1999 года создал всеобщее медицинское покрытие CMU для людей без иной страховки.",
+   "affected_groups": [
+    "unemployed",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+     "accessed": "2026-10-29",
+     "supports": "28 juillet 1999 CMU"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1968-may-events",
+   "title": "Май 68: студенческие волнения и всеобщая забастовка",
+   "start_date": "1968-05-03",
+   "end_date": "1968-06-30",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "С захвата Сорбонны 3 мая и «ночи баррикад» 10–11 мая студенческий протест перерос во всеобщую забастовку с 13 мая; бастовали около 10 миллионов человек. Гренельские соглашения 27 мая подняли минимальную зарплату SMIG на 35%.",
+   "affected_groups": [
+    "students",
+    "industrial_workers",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 15
+   },
+   "potential_impacts": [
+    "wage_increase"
+   ],
+   "narrative_hooks": [
+    "strike_at_work",
+    "student_protest",
+    "petrol_shortage_rumor"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Mai_68",
+     "accessed": "2026-10-29",
+     "supports": "3 mai Sorbonne; 10-11 mai barricades; 13 mai grève générale; près de dix millions; Grenelle 27 mai SMIG +35 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1960-new-franc",
+   "title": "Новый франк: сто старых франков за один",
+   "start_date": "1960-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "1 января 1960 года введён «новый франк», равный 100 старым; в обращение поступили новые монеты и банкноты. Многие ещё долго считали в старых франках.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "counting_in_old_francs"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Franc_fran%C3%A7ais",
+     "accessed": "2026-10-29",
+     "supports": "1er janvier 1960, 100 anciens francs = 1 nouveau franc"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2002-euro-cash",
+   "title": "Евро в кошельках: прощание с франком",
+   "start_date": "2002-01-01",
+   "end_date": "2002-02-17",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "1 января 2002 года во Франции в обращение вошли наличные евро; франк перестал быть законным платёжным средством 17 февраля 2002 года. Курс пересчёта — 6,55957 франка за евро.",
+   "affected_groups": [
+    "consumers",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "converting_prices_in_head"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Franc_fran%C3%A7ais",
+     "accessed": "2026-10-29",
+     "supports": "1er janvier 2002; 17 février 2002; 6,55957"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1982-minitel",
+   "title": "Минитель приходит в дома",
+   "start_date": "1982",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "После опытов 1980–1981 годов (Велизи, Иль-и-Вилен) с 1982 года телефонная служба PTT стала бесплатно раздавать терминалы Минитель. Пик пришёлся на 1993 год — 6,5 млн домохозяйств; сеть закрыта 30 июня 2012 года.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "minitel_at_home",
+    "3615_services"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Minitel",
+     "accessed": "2026-10-29",
+     "supports": "lancé 1982; terminaux gratuits; 6,5 millions en 1993; fermeture 30 juin 2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2012-minitel-shutdown",
+   "title": "Отключение Минителя",
+   "start_date": "2012-06-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "30 июня 2012 года France Télécom – Orange закрыла сеть Télétel, на которой работал Минитель.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Minitel",
+     "accessed": "2026-10-29",
+     "supports": "fermé le 30 juin 2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2003-heatwave",
+   "title": "Жара августа 2003 года",
+   "start_date": "2003-08-01",
+   "end_date": "2003-08-15",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "disaster",
+   "historical_summary": "Волна жары 1–15 августа 2003 года (пик 11–12 августа) привела, по оценке Inserm, примерно к 15 тысячам избыточных смертей во Франции, прежде всего среди пожилых. После неё создан национальный «план жары», а с 2004 года — «день солидарности».",
+   "affected_groups": [
+    "elderly",
+    "pensioners",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "checking_on_neighbours",
+    "heat_in_apartment"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Canicule_europ%C3%A9enne_de_2003",
+     "accessed": "2026-10-29",
+     "supports": "1-15 août; environ 15 000 décès Inserm; plan canicule; journée de solidarité 2004"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2020-first-lockdown",
+   "title": "Первый карантин COVID-19",
+   "start_date": "2020-03-17",
+   "end_date": "2020-05-10",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "public_health",
+   "historical_summary": "С 17 марта по 10 мая 2020 года действовал общенациональный режим самоизоляции: выходить можно было только с заполненной «справкой», для прогулок — не дальше 1 км и не дольше часа. Школы закрылись с 16 марта.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "phone_calls_during_lockdown",
+    "isolation",
+    "attestation_form"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Confinements_li%C3%A9s_%C3%A0_la_pand%C3%A9mie_de_Covid-19_en_France",
+     "accessed": "2026-10-29",
+     "supports": "17 mars – 11 mai 2020 non inclus; 1 km; écoles 16 mars"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2020-second-lockdown",
+   "title": "Второй карантин COVID-19",
+   "start_date": "2020-10-30",
+   "end_date": "2020-12-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "public_health",
+   "historical_summary": "С 30 октября по 14 декабря 2020 года действовал второй общенациональный карантин, школы при этом оставались открытыми.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "isolation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Confinements_li%C3%A9s_%C3%A0_la_pand%C3%A9mie_de_Covid-19_en_France",
+     "accessed": "2026-10-29",
+     "supports": "30 octobre au 15 décembre 2020 non inclus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2021-third-lockdown",
+   "title": "Третий карантин COVID-19",
+   "start_date": "2021-04-03",
+   "end_date": "2021-05-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "public_health",
+   "historical_summary": "С 3 апреля по 2 мая 2021 года действовал третий общенациональный карантин; комендантский час окончательно отменён 30 июня 2021 года.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Confinements_li%C3%A9s_%C3%A0_la_pand%C3%A9mie_de_Covid-19_en_France",
+     "accessed": "2026-10-29",
+     "supports": "du 3 avril au 3 mai 2021 non inclus; couvre-feu levé 30 juin 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1981-tgv-paris-lyon",
+   "title": "Первый TGV Париж — Лион",
+   "start_date": "1981-09-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "22 сентября 1981 года Франсуа Миттеран открыл первый участок высокоскоростной линии Париж — Юго-Восток, коммерческие поезда TGV пошли 27 сентября. Полностью линия до Парижа открылась 25 сентября 1983 года.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tgv_trip"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/LGV_Sud-Est",
+     "accessed": "2026-10-29",
+     "supports": "inauguration 22 septembre 1981; service commercial 27 septembre 1981; section nord 25 septembre 1983"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

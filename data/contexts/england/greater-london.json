@@ -1,0 +1,80 @@
+{
+ "records": [
+  {
+   "id": "gb-ctx-greater-london-population",
+   "country_code": "GB",
+   "location_id": "gb-greater-london",
+   "period_start": 1901,
+   "period_end": 2021,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Лондона за век",
+   "description": "В границах нынешнего Большого Лондона население выросло с 6,2 млн (1901) до 8,2 млн (1951), затем сокращалось до 6,6 млн (1981) и снова выросло до 8,8 млн (2021). Доля родившихся за границей — 21,7% в 1991 г. и 36,7% в 2011 г.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 6226494,
+     "unit": "человек",
+     "year": 1901,
+     "area_id": "gb-greater-london",
+     "population": "территория Большого Лондона (ретроспективно)",
+     "method_note": "перепись",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 8164416,
+     "unit": "человек",
+     "year": 1951,
+     "area_id": "gb-greater-london",
+     "population": "территория Большого Лондона",
+     "method_note": "перепись",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 6608513,
+     "unit": "человек",
+     "year": 1981,
+     "area_id": "gb-greater-london",
+     "population": "территория Большого Лондона",
+     "method_note": "перепись",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 8799800,
+     "unit": "человек",
+     "year": 2021,
+     "area_id": "gb-greater-london",
+     "population": "Большой Лондон",
+     "method_note": "перепись",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "foreign_born_share",
+     "value": 36.7,
+     "unit": "% жителей",
+     "year": 2011,
+     "area_id": "gb-greater-london",
+     "population": "жители Большого Лондона",
+     "method_note": "перепись",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demography_of_London",
+     "accessed": "2026-10-29",
+     "supports": "переписи 1901–2021, доля родившихся за рубежом"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

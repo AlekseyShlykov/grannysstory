@@ -1,0 +1,302 @@
+{
+ "sources": [
+  {
+   "source_id": "gb_wikipedia",
+   "name": "Wikipedia (English)",
+   "publisher": "Wikimedia Foundation",
+   "country": "GB",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "history",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Вторичный источник; использованы статьи о городах (Timeline of …), законах и событиях. Записи только на нём имеют confidence medium. Тексты не копировались, только краткий пересказ."
+  },
+  {
+   "source_id": "gb_legislation",
+   "name": "legislation.gov.uk",
+   "publisher": "The National Archives",
+   "country": "GB",
+   "url": "https://www.legislation.gov.uk/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "law"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "Open Government Licence v3.0",
+   "attribution_required": true,
+   "access_restrictions": [
+    "Старые акты часто доступны только как PDF-скан; HTML-тексты есть не для всех"
+   ],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Тексты актов парламента (as enacted): даты, вступление в силу, территориальное действие."
+  },
+  {
+   "source_id": "gb_parliament",
+   "name": "UK Parliament — Living Heritage",
+   "publisher": "UK Parliament",
+   "country": "GB",
+   "url": "https://www.parliament.uk/about/living-heritage/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "law",
+    "politics",
+    "women_rights"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Open Parliament Licence",
+   "attribution_required": true,
+   "access_restrictions": [
+    "HTTP 403 при запросе страниц Living Heritage из этой сессии"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Приоритетный источник по избирательным правам, Equal Pay Act, разводам; страницы www.parliament.uk вернули 403. Не использован."
+  },
+  {
+   "source_id": "gb_bna",
+   "name": "British Newspaper Archive",
+   "publisher": "Findmypast / British Library",
+   "country": "GB",
+   "url": "https://www.britishnewspaperarchive.co.uk/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "press"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Коммерческая подписка",
+   "attribution_required": true,
+   "access_restrictions": [
+    "Платный доступ, требуется учётная запись"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Paywall; не обходился. Газетные тексты не использовались."
+  },
+  {
+   "source_id": "gb_ukds",
+   "name": "UK Data Service",
+   "publisher": "University of Essex и партнёры",
+   "country": "GB",
+   "url": "https://ukdataservice.ac.uk/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "microdata",
+    "surveys"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Различные лицензии; End User Licence, часть данных Safeguarded/Controlled",
+   "attribution_required": true,
+   "access_restrictions": [
+    "Для большинства наборов нужна регистрация и согласие с End User Licence"
+   ],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Микроданные переписей и обследований; не извлекались (требуется регистрация)."
+  },
+  {
+   "source_id": "gb_bl",
+   "name": "British Library — National Life Stories",
+   "publisher": "British Library",
+   "country": "GB",
+   "url": "https://www.bl.uk/about/projects/national-life-stories",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "library",
+    "archives",
+    "oral_history"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Различные условия; материалы под авторским правом",
+   "attribution_required": true,
+   "access_restrictions": [
+    "Каталог доступен, большинство материалов — в читальном зале"
+   ],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Открыта официальная страница National Life Stories, описывающая коллекцию полных биографических интервью. В игре используется как редакционный ориентир и ссылка; цитаты и транскрипты не копируются."
+  },
+  {
+   "source_id": "gb_tna_discovery",
+   "name": "The National Archives — Discovery",
+   "publisher": "The National Archives",
+   "country": "GB",
+   "url": "https://discovery.nationalarchives.gov.uk/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "archives"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Open Government Licence v3.0 (описания каталога)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Каталог описаний (например, LAB 27 о забастовке 1926 г.). Описания не использованы как доказательство событий."
+  },
+  {
+   "source_id": "gb_ons",
+   "name": "Office for National Statistics",
+   "publisher": "Office for National Statistics",
+   "country": "GB",
+   "url": "https://www.ons.gov.uk/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "demography",
+    "family",
+    "labour",
+    "households",
+    "internet"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "Open Government Licence v3.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Статистические бюллетени ONS: когорты рождаемости, браки, разводы, домохозяйства, интернет, занятость. Многие исторические ряды есть только в графиках/таблицах для скачивания; использованы лишь числа из текста."
+  },
+  {
+   "source_id": "gb_vision_of_britain",
+   "name": "A Vision of Britain through Time",
+   "publisher": "University of Portsmouth",
+   "country": "GB",
+   "url": "https://www.visionofbritain.org.uk/",
+   "historical_coverage": {
+    "from": 1801,
+    "to": 2001
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "demography",
+    "administrative_history"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Условия сайта; некоммерческое использование",
+   "attribution_required": true,
+   "access_restrictions": [
+    "Ошибка TLS-сертификата при запросе из этой сессии"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Исторические переписи по единицам; не удалось открыть (certificate error)."
+  },
+  {
+   "source_id": "gb_dft_nts",
+   "name": "National Travel Survey statistics",
+   "publisher": "Department for Transport",
+   "country": "GB",
+   "url": "https://www.gov.uk/government/statistical-data-sets/nts02-driving-licence-holders",
+   "historical_coverage": {
+    "from": 1951,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "transport"
+   ],
+   "access_method": "open_dataset",
+   "bulk_download": true,
+   "license": "Open Government Licence v3.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Таблицы NTS0201 (права по полу и возрасту, Англия с 1975) и NTS0205 (машины в домохозяйствах с 1951; до 1989 — Великобритания). Файлы ODS скачаны и прочитаны."
+  },
+  {
+   "source_id": "gb_ehs",
+   "name": "English Housing Survey — tenure trends",
+   "publisher": "Ministry of Housing, Communities and Local Government",
+   "country": "GB",
+   "url": "https://www.gov.uk/government/statistical-data-sets/tenure-trends-and-cross-tenure-analysis",
+   "historical_coverage": {
+    "from": 1918,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "housing"
+   ],
+   "access_method": "open_dataset",
+   "bulk_download": true,
+   "license": "Open Government Licence v3.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Таблица FT1101 Trends in tenure: ранние годы — оценки Holmans по Англии и Уэльсу."
+  }
+ ]
+}

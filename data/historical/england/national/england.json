@@ -1,0 +1,541 @@
+{
+ "records": [
+  {
+   "id": "gb-eng-1930-slum-clearance-act",
+   "title": "Закон о расчистке трущоб",
+   "start_date": "1930-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Housing Act 1930 для Англии и Уэльса побудил местные советы сносить негодное жильё и строить новое; субсидии рассчитывались по числу переселённых людей.",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "move_to_new_estate"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Housing_Act_1930",
+     "accessed": "2026-10-29",
+     "supports": "дата, территория, механизм субсидий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1938-divorce-grounds-widened",
+   "title": "Новые основания для развода",
+   "start_date": "1938-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "family_law",
+   "historical_summary": "Вступил в силу Matrimonial Causes Act 1937 для Англии и Уэльса: кроме измены, основаниями развода стали оставление супруга, жестокость и неизлечимая душевная болезнь.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Matrimonial_Causes_Act_1937",
+     "accessed": "2026-10-29",
+     "supports": "даты, территория, основания"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1939-evacuation",
+   "title": "Эвакуация детей из городов",
+   "start_date": "1939-09-01",
+   "end_date": "1939-09-04",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "За четыре дня из опасных районов Англии вывезли почти 1,5 млн человек: около 827 тыс. детей без родителей, 524 тыс. матерей с маленькими детьми, беременных женщин. К февралю 1940 г. многие вернулись; новые волны эвакуации прошли в 1940 г. и летом 1944 г. из-за самолётов-снарядов.",
+   "affected_groups": [
+    "children",
+    "mothers",
+    "school_pupils",
+    "rural_residents"
+   ],
+   "eligibility": {
+    "max_age": 16
+   },
+   "potential_impacts": [
+    "evacuation",
+    "separation_from_family"
+   ],
+   "narrative_hooks": [
+    "evacuee_childhood",
+    "host_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Evacuations_of_civilians_in_Britain_during_the_Second_World_War",
+     "accessed": "2026-10-29",
+     "supports": "даты и численность эвакуации 1939, возвращения, волны 1940 и 1944"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1944-education-act",
+   "title": "Закон об образовании 1944 года",
+   "title_original": "Education Act 1944",
+   "start_date": "1944-08-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "education",
+   "historical_summary": "Закон для Англии и Уэльса отменил плату за обучение в государственных средних школах и разделил образование на начальное (5–11 лет) и среднее; школьный возраст был поднят до 15 лет с 1 апреля 1947 г.",
+   "affected_groups": [
+    "school_pupils",
+    "children",
+    "parents"
+   ],
+   "eligibility": {
+    "max_age": 15
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_Act_1944",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, отмена платы, деление 5–11 / 11–15"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Raising_of_school_leaving_age_in_England_and_Wales",
+     "accessed": "2026-10-29",
+     "supports": "1 апреля 1947 — возраст 15"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1959-m1-motorway",
+   "title": "Открыта первая часть автострады M1",
+   "start_date": "1959-11-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открылся первый участок M1 между Уотфордом и Регби; годом раньше в Ланкашире открыли первую автостраду страны — обход Престона.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/M1_motorway",
+     "accessed": "2026-10-29",
+     "supports": "дата, участок, Preston Bypass 1958"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1966-world-cup",
+   "title": "Англия выиграла чемпионат мира по футболу",
+   "start_date": "1966-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "sport",
+   "historical_summary": "На стадионе Уэмбли сборная Англии обыграла ФРГ 4:2 в дополнительное время; финал смотрели до 32,3 млн телезрителей.",
+   "affected_groups": [
+    "all_residents",
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_final",
+     "accessed": "2026-10-29",
+     "supports": "дата, счёт, аудитория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1971-no-fault-divorce",
+   "title": "Развод без поиска виновного",
+   "start_date": "1971-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "family_law",
+   "historical_summary": "В Англии и Уэльсе вступил в силу Divorce Reform Act 1969: основанием развода стал «непоправимый распад брака»; пары могли развестись после двух лет раздельной жизни по согласию или пяти лет без согласия.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "divorce_possible"
+   ],
+   "narrative_hooks": [
+    "leaving_a_marriage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Divorce_Reform_Act_1969",
+     "accessed": "2026-10-29",
+     "supports": "дата вступления в силу, территория, условия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1972-school-leaving-age-16",
+   "title": "Школьный возраст поднят до 16 лет",
+   "start_date": "1972-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "education",
+   "historical_summary": "В Англии и Уэльсе минимальный возраст окончания школы стал 16 лет; многие школы пристроили временные корпуса для лишнего года.",
+   "affected_groups": [
+    "school_pupils"
+   ],
+   "eligibility": {
+    "max_age": 16
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Raising_of_school_leaving_age_in_England_and_Wales",
+     "accessed": "2026-10-29",
+     "supports": "дата и территория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-1990-poll-tax",
+   "title": "Подушный налог в Англии и Уэльсе",
+   "start_date": "1990",
+   "end_date": "1993",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "political_change",
+   "historical_summary": "Community Charge — фиксированный местный налог на каждого взрослого вместо налога на жильё — введён в Англии и Уэльсе в 1990 г. (в Шотландии в 1989 г.); 31 марта 1990 г. демонстрация в Лондоне переросла в беспорядки. В 1993 г. его заменил Council Tax.",
+   "affected_groups": [
+    "all_residents",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Community_Charge",
+     "accessed": "2026-10-29",
+     "supports": "годы введения и отмены, протест 31 марта 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-2007-summer-floods",
+   "title": "Летние наводнения 2007 года",
+   "start_date": "2007-06",
+   "end_date": "2007-07",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "disaster",
+   "historical_summary": "С июня по конец июля 2007 г. ливни затопили большую часть Англии: в Халле пострадали около 7800 домов, в Глостершире около 420 тыс. человек остались без водопровода; погибли 13 человек.",
+   "affected_groups": [
+    "homeowners",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "home_damaged"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2007_United_Kingdom_floods",
+     "accessed": "2026-10-29",
+     "supports": "даты, Халл, Глостершир, погибшие"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-2007-smoking-ban",
+   "title": "Запрет курения в закрытых общественных местах",
+   "start_date": "2007-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "public_health",
+   "historical_summary": "В Англии запрещено курить в закрытых общественных местах и на рабочих местах, включая пабы; в том же году минимальный возраст покупки табака поднят до 18 лет.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_legislation",
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/uksi/2006/3368/made",
+     "accessed": "2026-10-29",
+     "supports": "вступление в силу 1 июля 2007, только Англия"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Smoking_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "возраст 18 с 2007 в Англии"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-eng-2013-same-sex-marriage",
+   "title": "Однополые браки в Англии и Уэльсе",
+   "start_date": "2013-07-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон Marriage (Same Sex Couples) Act 2013 разрешил однополые браки в Англии и Уэльсе; первые такие браки заключены в 2014 г. Гражданские партнёрства существовали с 2004 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marriage_(Same_Sex_Couples)_Act_2013",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, территория, 2014, партнёрства 2004"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-eng-2020-covid-lockdown",
+   "title": "Первый локдаун COVID-19 в Англии",
+   "start_date": "2020-03-23",
+   "end_date": "2021-07-19",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "gb-eng"
+   ],
+   "category": "public_health",
+   "historical_summary": "С 23 марта 2020 г. жителям Англии предписали оставаться дома, кроме необходимых случаев; 26 марта ограничения закреплены постановлением: закрыты непродовольственные магазины, пабы, кафе, кинотеатры, запрещены собрания больше двух человек. Второй локдаун — 5 ноября–2 декабря 2020 г., третий — с января 2021 г.; вакцинация началась 8 декабря 2020 г., последние ограничения сняты 19 июля 2021 г.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "isolation",
+    "bereavement"
+   ],
+   "narrative_hooks": [
+    "phone_calls_in_lockdown"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_legislation",
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/uksi/2020/350/made",
+     "accessed": "2026-10-29",
+     "supports": "SI 2020/350: 26 марта 2020, Англия, закрытия, запрет выходить без причины"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_England",
+     "accessed": "2026-10-29",
+     "supports": "даты локдаунов, вакцинации и снятия ограничений"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

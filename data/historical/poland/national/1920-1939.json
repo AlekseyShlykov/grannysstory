@@ -1,0 +1,426 @@
+{
+ "records": [
+  {
+   "id": "pl-nat-1924-zloty",
+   "title": "Денежная реформа Грабского: введён злотый",
+   "start_date": "1924-04",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "currency",
+   "historical_summary": "После гиперинфляции польской марки правительство Владислава Грабского провело денежную реформу: с апреля 1924 г. в обращении злотый, 15 апреля 1924 г. создан эмиссионный Банк Польши.",
+   "affected_groups": [
+    "all_residents",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "savings_lost_or_restored"
+   ],
+   "narrative_hooks": [
+    "memory_of_new_money"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
+     "accessed": "2026-10-29",
+     "supports": "злотый с апреля 1924, реформа Грабского, Bank Polski S.A. 15.04.1924"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1926-may-coup",
+   "title": "Майский переворот Пилсудского",
+   "start_date": "1926-05-12",
+   "end_date": "1926-05-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "12–14 мая 1926 г. верные Пилсудскому части заняли варшавские мосты и вынудили правительство Витоса уйти в отставку; погибли 379 человек, в том числе 164 мирных жителя. Начался период «санации».",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_fighting_heard_in_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
+     "accessed": "2026-10-29",
+     "supports": "12.05 мосты, 14.05 отставка Витоса; 379 погибших, из них 164 гражданских"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1929-great-depression",
+   "title": "Великая депрессия в Польше",
+   "start_date": "1929-10",
+   "end_date": "1935",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "После краха нью-йоркской биржи в октябре 1929 г. Польша пережила тяжёлый кризис: к 1935 г. ВВП упал примерно на 52%, цены на сельхозпродукты — на 65%; правительство, защищая золотой паритет злотого, проводило дефляционную политику. Рост возобновился только в 1936–1938 гг.",
+   "affected_groups": [
+    "agricultural_workers",
+    "industrial_workers",
+    "unemployed",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "hungry_years_in_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Wielki_kryzys_w_Polsce",
+     "accessed": "2026-10-29",
+     "supports": "1929–1935; ВВП −52%; агроцены −65%; дефляция; рост 1936–1938"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1932-school-reform",
+   "title": "Школьная реформа Енджеевича",
+   "title_original": "Ustawa o ustroju szkolnictwa",
+   "start_date": "1932-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "education",
+   "historical_summary": "Закон от 11 марта 1932 г. о строе школьного образования (в силе с 1 июля 1932 г.) перестроил систему: семилетняя общая школа, четырёхлетняя гимназия и двухлетний лицей.",
+   "affected_groups": [
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1932/389",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 11.03.1932 o ustroju szkolnictwa, в силе 1.07.1932"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1932-criminal-code-abortion",
+   "title": "Уголовный кодекс 1932 г.: аборт разрешён лишь по медицинским показаниям или после преступления",
+   "title_original": "Kodeks karny 1932",
+   "start_date": "1932-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "Кодекс 1932 г. (в силе с 1 сентября 1932 г.) наказывал прерывание беременности, но не считал преступлением аборт, сделанный врачом, если он был необходим по здоровью женщины или беременность была результатом преступления.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 14,
+    "groups_any": [
+     "women"
+    ]
+   },
+   "potential_impacts": [
+    "reproductive_choice_restricted"
+   ],
+   "narrative_hooks": [
+    "unspoken_pregnancy_story"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1932/571",
+     "accessed": "2026-10-29",
+     "supports": "Dz.U. 1932 nr 60 poz. 571, ст. 231–233; вступление в силу 1.09.1932"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1939-expulsions-to-gg",
+   "title": "Выселения поляков с присоединённых к рейху земель",
+   "start_date": "1939",
+   "end_date": "1940",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1939–1940 гг. около 750 тыс. поляков были выселены с Силезии, Великопольши и Поморья в Генерал-губернаторство; всего за войну, по данным статьи, выселено около 2,48 млн человек.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "family_expelled_from_home"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Okupacja_niemiecka_ziem_polskich_(1939–1945)",
+     "accessed": "2026-10-29",
+     "supports": "около 750 тыс. выселенных в 1939–1940; 2 478 тыс. выселенных за войну"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1939-forced-labour",
+   "title": "Принудительный труд в Германии",
+   "start_date": "1939",
+   "end_date": "1945",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "occupation",
+   "historical_summary": "Оккупанты ввели обязательную трудовую повинность для поляков 18–60 лет, позже — с 14 лет; около 3 млн человек были вывезены на принудительные работы в рейх или другие оккупированные страны.",
+   "affected_groups": [
+    "young_adults",
+    "women",
+    "men"
+   ],
+   "eligibility": {
+    "min_age": 14,
+    "max_age": 60
+   },
+   "potential_impacts": [
+    "forced_labour",
+    "separation_from_family"
+   ],
+   "narrative_hooks": [
+    "taken_to_germany_for_work"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Okupacja_niemiecka_ziem_polskich_(1939–1945)",
+     "accessed": "2026-10-29",
+     "supports": "повинность 18–60, затем с 14 лет; 3 млн вывезенных"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1939-german-invasion",
+   "title": "Нападение Германии на Польшу",
+   "start_date": "1939-09-01",
+   "end_date": "1939-10-06",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "1 сентября 1939 г. Германия напала на Польшу; 17 сентября с востока вторглись войска СССР. Регулярные бои закончились 6 октября капитуляцией группы «Полесье» под Коцком.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_member_mobilised",
+    "displacement",
+    "loss_of_relative"
+   ],
+   "narrative_hooks": [
+    "september_1939_flight",
+    "father_mobilised"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Kampania_wrześniowa",
+     "accessed": "2026-10-29",
+     "supports": "начало 1.09.1939, агрессия СССР 17.09.1939, конец 6.10.1939 под Коцком"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1939-annexation-decree",
+   "title": "Аннексия западных земель Германией",
+   "start_date": "1939-10-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "occupation",
+   "historical_summary": "Декретом Гитлера от 8 октября 1939 г. Поморье, Познанское воеводство, часть Лодзинского и другие земли (около 93 тыс. км² и 10 млн жителей) включены непосредственно в рейх.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "germanisation_pressure",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "family_expelled_from_home"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Okupacja_niemiecka_ziem_polskich_(1939–1945)",
+     "accessed": "2026-10-29",
+     "supports": "декрет 8.10.1939, около 93 тыс. км² и 10 млн жителей"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1939-general-government",
+   "title": "Создание Генерал-губернаторства",
+   "start_date": "1939-10-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "occupation",
+   "historical_summary": "12 октября 1939 г. на остальной оккупированной Германией польской территории (около 96 тыс. км², 12 млн человек) создано Генерал-губернаторство во главе с Гансом Франком; в 1941 г. оно расширено до 145 тыс. км² и около 17 млн жителей.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "forced_labour_risk",
+    "food_rationing"
+   ],
+   "narrative_hooks": [
+    "life_under_occupation"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Okupacja_niemiecka_ziem_polskich_(1939–1945)",
+     "accessed": "2026-10-29",
+     "supports": "12.10.1939 GG, 96 тыс. км², 12 млн; 1941 — 145 тыс. км², 17 млн"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

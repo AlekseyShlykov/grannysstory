@@ -1,0 +1,730 @@
+{
+ "records": [
+  {
+   "id": "fr-nat-1905-church-state-separation",
+   "title": "Закон об отделении церквей от государства",
+   "start_date": "1905-12-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "religion",
+   "historical_summary": "Закон от 9 декабря 1905 года, вступивший в силу 1 января 1906 года, гарантировал свободу совести, но лишил все религии государственного признания и финансирования. Описи церковного имущества в 1906 году вызвали столкновения в Бретани, Фландрии и других областях.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "parish_life"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Loi_de_s%C3%A9paration_des_%C3%89glises_et_de_l%27%C3%89tat",
+     "accessed": "2026-10-29",
+     "supports": "9 décembre 1905; 1er janvier 1906; inventaires 1906"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1914-general-mobilisation",
+   "title": "Всеобщая мобилизация 1914 года",
+   "start_date": "1914-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "1 августа 1914 года объявлена всеобщая мобилизация, начавшаяся 2 августа; в августе призвано 3 780 000 мужчин.",
+   "affected_groups": [
+    "men",
+    "soldiers_families",
+    "women"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "father_goes_to_war",
+    "women_take_over_farm"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Mobilisation_fran%C3%A7aise_de_1914",
+     "accessed": "2026-10-29",
+     "supports": "1er août 1914; 3 780 000 hommes"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1918-spanish-flu",
+   "title": "Испанский грипп",
+   "start_date": "1918-10",
+   "end_date": "1919-05",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "public_health",
+   "historical_summary": "Пандемия гриппа достигла пика во Франции осенью 1918 года, с самой высокой смертностью в ноябре; новые волны шли до весны 1919 года. Во Франции умерли около 240 тысяч человек, в том числе 33 тысячи военных.",
+   "affected_groups": [
+    "all_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_loss_to_illness"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Grippe_espagnole",
+     "accessed": "2026-10-29",
+     "supports": "environ 240 000 décès dont 33 000 militaires; octobre-novembre 1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1935-first-tv-channel",
+   "title": "Первые телепередачи",
+   "start_date": "1935-04-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "26 апреля 1935 года из Парижа начались первые регулярные телепередачи (Radio-PTT Vision). В 1949 году телевизоров было лишь около трёхсот.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "26 avril 1935; 1949 environ 297 foyers"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1940-exodus",
+   "title": "Исход 1940 года",
+   "start_date": "1940-05",
+   "end_date": "1940-06",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "migration",
+   "historical_summary": "В мае–июне 1940 года, при германском наступлении, на дороги вышли от 8 до 10 миллионов мирных жителей — около четверти населения. К ноябрю 1940 года вернулись 5–6 миллионов.",
+   "affected_groups": [
+    "all_residents",
+    "children",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flight_on_the_roads",
+    "lost_relatives"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Exode_de_1940_en_France",
+     "accessed": "2026-10-29",
+     "supports": "8 à 10 millions; retour 5 à 6 millions en novembre 1940"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1940-armistice",
+   "title": "Перемирие 22 июня 1940 года и демаркационная линия",
+   "start_date": "1940-06-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "occupation",
+   "historical_summary": "22 июня 1940 года подписано перемирие: страна разделена на оккупированную зону на севере и западе и свободную зону на юге; Нор и Па-де-Кале отделены как «запретная зона».",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "crossing_demarcation_line"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Exode_de_1940_en_France",
+     "accessed": "2026-10-29",
+     "supports": "armistice 22 juin 1940; ligne de démarcation; zone interdite Nord Pas-de-Calais"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1942-southern-zone-invasion",
+   "title": "Оккупация южной зоны",
+   "start_date": "1942-11-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "occupation",
+   "historical_summary": "11 ноября 1942 года германские войска вторглись в бывшую свободную зону и вечером вышли к Средиземному морю; 27 ноября в Тулоне был затоплен французский флот.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Invasion_de_la_zone_libre",
+     "accessed": "2026-10-29",
+     "supports": "soir du 11 novembre; Marseille le 12; sabordage 27 novembre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1954-abbe-pierre-winter",
+   "title": "Холодная зима 1954 года и призыв аббата Пьера",
+   "start_date": "1954-01",
+   "end_date": "1954-02",
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "disaster",
+   "historical_summary": "Зимой 1954 года страну накрыли две волны сильных морозов (в Париже до −13 °C). Радиопризыв аббата Пьера помочь бездомным вызвал массовый поток пожертвований и сделал известным движение «Эммаус».",
+   "affected_groups": [
+    "all_residents",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "cold_room",
+    "housing_shortage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Hiver_1954",
+     "accessed": "2026-10-29",
+     "supports": "vagues de froid janvier-février 1954; Paris −13 °C; appel radio, afflux de dons, Emmaüs"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1958-millionth-tv",
+   "title": "Миллион телевизоров",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В 1958 году во Франции насчитывался миллион телевизоров в домохозяйствах; к 1970 году — почти 11 миллионов.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "1958 environ 1 000 000; 1970 environ 10 970 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1962-evian-accords",
+   "title": "Эвианские соглашения и независимость Алжира",
+   "start_date": "1962-03-18",
+   "end_date": "1962-07-05",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "18 марта 1962 года подписаны Эвианские соглашения, 19 марта вступило в силу прекращение огня, 5 июля Алжир стал независимым. С апреля по август 1962 года европейцы Алжира спешно уезжали во Францию.",
+   "affected_groups": [
+    "soldiers_families",
+    "migrants",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "brother_back_from_algeria",
+    "repatriated_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Accords_d%27%C3%89vian",
+     "accessed": "2026-10-29",
+     "supports": "18 mars 1962; cessez-le-feu 19 mars; indépendance 5 juillet; exode avril-août 1962"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1963-second-channel",
+   "title": "Вторая телепрограмма",
+   "start_date": "1963-12-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Вторая телепрограмма начала вещание в Париже 16 мая 1963 года и по всей стране 21 декабря 1963 года.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "16 mai 1963 Paris; 21 décembre 1963 national"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1967-colour-tv",
+   "title": "Цветное телевидение",
+   "start_date": "1967-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "1 октября 1967 года вторая программа перешла на цветное вещание в системе SECAM; цветные телевизоры распространялись медленно, быстрее — с середины 1970-х.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "1er octobre 1967 SECAM; diffusion lente"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1973-oil-shock",
+   "title": "Первый нефтяной шок",
+   "start_date": "1973-10",
+   "end_date": "1974-03",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С октября 1973 по март 1974 года цена нефти выросла вчетверо; Франция ответила масштабной программой строительства АЭС и переводом отопления с мазута на электричество.",
+   "affected_groups": [
+    "industrial_workers",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "petrol_price_talk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Premier_choc_p%C3%A9trolier",
+     "accessed": "2026-10-29",
+     "supports": "octobre 1973; baril de 2,59 à 11,65 $; programme nucléaire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1972-third-channel",
+   "title": "Третья телепрограмма",
+   "start_date": "1972-12-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "31 декабря 1972 года создана третья телепрограмма; в 1975 году ORTF расформировано.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "31 décembre 1972; 1975 l'ORTF est démantelé"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1981-death-penalty-abolished",
+   "title": "Отмена смертной казни",
+   "start_date": "1981-10-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "political_change",
+   "historical_summary": "Закон от 9 октября 1981 года отменил смертную казнь; Национальное собрание проголосовало за него 18 сентября 1981 года.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Abolition_de_la_peine_de_mort_en_France",
+     "accessed": "2026-10-29",
+     "supports": "loi 81-908 du 9 octobre 1981; vote 18 septembre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1984-canal-plus",
+   "title": "Платный телеканал Canal+",
+   "start_date": "1984-11-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "4 ноября 1984 года начал вещание Canal+; в 1986 году появились La Cinq и TV6, в 1987 году приватизирован TF1.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "Canal+ 4 novembre 1984; La Cinq, TV6 1986; TF1 privatisée 1987"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1999-pacs",
+   "title": "Гражданский договор солидарности (PACS)",
+   "start_date": "1999-11-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 15 ноября 1999 года ввёл PACS — договор совместной жизни двух совершеннолетних любого пола. В 2000 году заключено 22 276 PACS, в 2010 — 205 550 при 251 654 браках.",
+   "affected_groups": [
+    "young_adults",
+    "men",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_pacsed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Pacte_civil_de_solidarit%C3%A9",
+     "accessed": "2026-10-29",
+     "supports": "loi 99-944 du 15 novembre 1999; 22 276 en 2000; 205 550 en 2010"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2005-tnt",
+   "title": "Цифровое эфирное телевидение (TNT)",
+   "start_date": "2005-03-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "media_communication",
+   "historical_summary": "31 марта 2005 года во Франции запущено цифровое эфирное телевидение TNT с новыми бесплатными каналами.",
+   "affected_groups": [
+    "television_owners",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
+     "accessed": "2026-10-29",
+     "supports": "TNT 31 mars 2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2013-same-sex-marriage",
+   "title": "Брак для однополых пар",
+   "start_date": "2013-05-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 17 мая 2013 года открыл брак для пар одного пола; первая такая свадьба прошла 29 мая 2013 года в Монпелье. Закон встретил в стране сильную оппозицию.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Mariage_homosexuel_en_France",
+     "accessed": "2026-10-29",
+     "supports": "loi 2013-404 du 17 mai 2013; premier mariage 29 mai 2013 Montpellier"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+  "countries": {
+    "russia": {
+      "label": "Россия",
+      "sourceIds": [
+        "prlib_ussr_formation",
+        "rosstat_census_history",
+        "cbr_financial_crises"
+      ]
+    },
+    "france": {
+      "label": "Франция",
+      "sourceIds": [
+        "fr_archives_nationales",
+        "fr_gallica",
+        "fr_insee"
+      ]
+    },
+    "united-kingdom": {
+      "label": "Великобритания",
+      "sourceIds": [
+        "gb_bl",
+        "gb_legislation",
+        "gb_ons"
+      ]
+    },
+    "poland": {
+      "label": "Польша",
+      "sourceIds": [
+        "pl_szukajwarchiwach",
+        "pl_nac",
+        "pl_gus"
+      ]
+    },
+    "united-states": {
+      "label": "США",
+      "sourceIds": [
+        "us_nara",
+        "us_census",
+        "us_detroit_historical"
+      ]
+    }
+  },
+  "regions": {
+    "moscow": [
+      "prlib_moscow_air_raid_1941",
+      "mosmetro_history"
+    ],
+    "leningrad": [
+      "prlib_leningrad_blockade",
+      "spb_archives_city_names"
+    ],
+    "tver": [
+      "prlib_kalinin_liberation_report",
+      "prlib_tver_names"
+    ],
+    "novgorod": [
+      "prlib_novgorod_liberation"
+    ],
+    "smolensk": [
+      "prlib_smolensk_liberation"
+    ]
+  }
+}

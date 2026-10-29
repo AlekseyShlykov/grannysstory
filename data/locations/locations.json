@@ -1,0 +1,3440 @@
+{
+  "generated": true,
+  "locations": [
+    {
+      "id": "fr",
+      "type": "state",
+      "level": "national",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q142",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Франция",
+          "locative": "во Франции",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-13",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q3240",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Буш-дю-Рон",
+          "locative": "в департаменте Буш-дю-Рон",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-paca",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-29",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q3389",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Финистер",
+          "locative": "в департаменте Финистер",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-bretagne",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-59",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q12661",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Нор",
+          "locative": "в департаменте Нор",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-npdc",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        },
+        {
+          "id": "fr-reg-hdf",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-69",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q46130",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Рона",
+          "locative": "в департаменте Рона",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-rhone-alpes",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        },
+        {
+          "id": "fr-reg-ara",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-71",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q12736",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сона и Луара",
+          "locative": "в департаменте Сона и Луара",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-bourgogne",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        },
+        {
+          "id": "fr-reg-bfc",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-75",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Париж (департамент)",
+          "locative": "в департаменте Париж",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-reg-idf",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1968-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-dep-seine",
+      "type": "department",
+      "level": "district",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q1142326",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сена",
+          "locative": "в департаменте Сена",
+          "from": null,
+          "to": "1967-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": null,
+          "to": "1960-06-01"
+        },
+        {
+          "id": "fr-reg-idf",
+          "from": "1960-06-02",
+          "to": "1967-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1967-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "fr-le-creusot",
+      "type": "town",
+      "level": "municipal",
+      "country": "FR",
+      "settlementClass": "small_town",
+      "wikidata": "Q329664",
+      "coordinates": {
+        "lat": 46.80056,
+        "lon": 4.44028
+      },
+      "names": [
+        {
+          "name": "Ле-Крёзо",
+          "locative": "в Ле-Крёзо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-dep-71",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1940-06-17",
+          "to": "1944-09-07"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-lille",
+      "type": "city",
+      "level": "municipal",
+      "country": "FR",
+      "settlementClass": "large_city",
+      "wikidata": "Q648",
+      "coordinates": {
+        "lat": 50.63194,
+        "lon": 3.0575
+      },
+      "names": [
+        {
+          "name": "Лилль",
+          "locative": "в Лилле",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-dep-59",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германская империя",
+          "from": "1914-10-13",
+          "to": "1918-10-17"
+        },
+        {
+          "by": "Германия (военная администрация в Брюсселе)",
+          "from": "1940-05-31",
+          "to": "1944-09-03"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-lyon",
+      "type": "city",
+      "level": "municipal",
+      "country": "FR",
+      "settlementClass": "large_city",
+      "wikidata": "Q456",
+      "coordinates": {
+        "lat": 45.7675,
+        "lon": 4.835
+      },
+      "names": [
+        {
+          "name": "Лион",
+          "locative": "в Лионе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-dep-69",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1940-06-19",
+          "to": "1940-07-07"
+        },
+        {
+          "by": "Германия",
+          "from": "1942-11",
+          "to": "1944-09-03"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-marseille",
+      "type": "city",
+      "level": "municipal",
+      "country": "FR",
+      "settlementClass": "large_city",
+      "wikidata": "Q23482",
+      "coordinates": {
+        "lat": 43.29667,
+        "lon": 5.37639
+      },
+      "names": [
+        {
+          "name": "Марсель",
+          "locative": "в Марселе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-dep-13",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1942-11-12",
+          "to": "1944-08-28"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-paris",
+      "type": "city",
+      "level": "municipal",
+      "country": "FR",
+      "settlementClass": "capital",
+      "wikidata": "Q90",
+      "coordinates": {
+        "lat": 48.85667,
+        "lon": 2.35222
+      },
+      "names": [
+        {
+          "name": "Париж",
+          "locative": "в Париже",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-dep-seine",
+          "from": null,
+          "to": "1967-12-31"
+        },
+        {
+          "id": "fr-dep-75",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1940-06-14",
+          "to": "1944-08-25"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-plozevet",
+      "type": "village",
+      "level": "municipal",
+      "country": "FR",
+      "settlementClass": "rural",
+      "wikidata": "Q474680",
+      "coordinates": {
+        "lat": 47.98667,
+        "lon": -4.42528
+      },
+      "names": [
+        {
+          "name": "Плозеве",
+          "locative": "в Плозеве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr-dep-29",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-ara",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q18338206",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Овернь — Рона — Альпы",
+          "locative": "в регионе Овернь — Рона — Альпы",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "2016-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-bfc",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q18578267",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Бургундия — Франш-Конте",
+          "locative": "в регионе Бургундия — Франш-Конте",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "2016-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-bourgogne",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q1173",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Бургундия",
+          "locative": "в Бургундии",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-06-02",
+      "validTo": "2015-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-bretagne",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q12130",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Бретань",
+          "locative": "в Бретани",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-06-02",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-hdf",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q18677767",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Нор — Па-де-Кале — Пикардия",
+          "locative": "в регионе Нор — Па-де-Кале — Пикардия",
+          "from": "2016-01-01",
+          "to": "2016-09-29"
+        },
+        {
+          "name": "О-де-Франс",
+          "locative": "в регионе О-де-Франс",
+          "from": "2016-09-30",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "2016-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-idf",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q13917",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Парижский район",
+          "locative": "в Парижском районе",
+          "from": "1960-06-02",
+          "to": "1975"
+        },
+        {
+          "name": "Иль-де-Франс",
+          "locative": "в Иль-де-Франс",
+          "from": "1976",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-06-02",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-npdc",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q16987",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Нор — Па-де-Кале",
+          "locative": "в регионе Нор — Па-де-Кале",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-06-02",
+      "validTo": "2015-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-paca",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q15104",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Прованс — Лазурный Берег — Корсика",
+          "locative": "в регионе Прованс — Лазурный Берег — Корсика",
+          "from": "1960-06-02",
+          "to": "1970-01-11"
+        },
+        {
+          "name": "Прованс — Лазурный Берег",
+          "locative": "в регионе Прованс — Лазурный Берег",
+          "from": "1970-01-12",
+          "to": "1975"
+        },
+        {
+          "name": "Прованс — Альпы — Лазурный Берег",
+          "locative": "в регионе Прованс — Альпы — Лазурный Берег",
+          "from": "1976",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-06-02",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "fr-reg-rhone-alpes",
+      "type": "region",
+      "level": "regional",
+      "country": "FR",
+      "settlementClass": null,
+      "wikidata": "Q463",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Рона — Альпы",
+          "locative": "в регионе Рона — Альпы",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-06-02",
+      "validTo": "2015-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "gb",
+      "type": "state",
+      "level": "national",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": "Q145",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Великобритания",
+          "locative": "в Великобритании",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-birmingham",
+      "type": "city",
+      "level": "municipal",
+      "country": "GB",
+      "settlementClass": "large_city",
+      "wikidata": "Q2256",
+      "coordinates": {
+        "lat": 52.48,
+        "lon": -1.9025
+      },
+      "names": [
+        {
+          "name": "Бирмингем",
+          "locative": "в Бирмингеме",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-warwickshire",
+          "from": null,
+          "to": "1974-03-31"
+        },
+        {
+          "id": "gb-west-midlands",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-corby",
+      "type": "town",
+      "level": "municipal",
+      "country": "GB",
+      "settlementClass": "small_town",
+      "wikidata": "Q994925",
+      "coordinates": {
+        "lat": 52.491389,
+        "lon": -0.696389
+      },
+      "names": [
+        {
+          "name": "Корби",
+          "locative": "в Корби",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-northamptonshire",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-county-of-london",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": "Q1137312",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Графство Лондон",
+          "locative": "в графстве Лондон",
+          "from": "1889",
+          "to": "1965-03-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": "1965-03-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1965-03-31",
+      "legacyIds": []
+    },
+    {
+      "id": "gb-eng",
+      "type": "constituent_country",
+      "level": "constituent",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": "Q21",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Англия",
+          "locative": "в Англии",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-greater-london",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": "Q23306",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Большой Лондон",
+          "locative": "в Большом Лондоне",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1965-04-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-greater-manchester",
+      "type": "metropolitan_county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": "Q23099",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Большой Манчестер",
+          "locative": "в Большом Манчестере",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1974-04-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-lancashire",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Ланкашир",
+          "locative": "в Ланкашире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-leicestershire",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Лестершир",
+          "locative": "в Лестершире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-london",
+      "type": "city",
+      "level": "municipal",
+      "country": "GB",
+      "settlementClass": "capital",
+      "wikidata": "Q84",
+      "coordinates": {
+        "lat": 51.507222,
+        "lon": -0.1275
+      },
+      "names": [
+        {
+          "name": "Лондон",
+          "locative": "в Лондоне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-county-of-london",
+          "from": null,
+          "to": "1965-03-31"
+        },
+        {
+          "id": "gb-greater-london",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-manchester",
+      "type": "city",
+      "level": "municipal",
+      "country": "GB",
+      "settlementClass": "large_city",
+      "wikidata": "Q18125",
+      "coordinates": {
+        "lat": 53.479444,
+        "lon": -2.245278
+      },
+      "names": [
+        {
+          "name": "Манчестер",
+          "locative": "в Манчестере",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-lancashire",
+          "from": null,
+          "to": "1974-03-31"
+        },
+        {
+          "id": "gb-greater-manchester",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-northamptonshire",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Нортгемптоншир",
+          "locative": "в Нортгемптоншире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-rutland",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Ратленд",
+          "locative": "в Ратленде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": "1974-03-31"
+        },
+        {
+          "id": "gb-leicestershire",
+          "from": "1974-04-01",
+          "to": "1997-03-31"
+        },
+        {
+          "id": "gb-eng",
+          "from": "1997-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-warwickshire",
+      "type": "county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Уорикшир",
+          "locative": "в Уорикшире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "gb-west-midlands",
+      "type": "metropolitan_county",
+      "level": "district",
+      "country": "GB",
+      "settlementClass": null,
+      "wikidata": "Q23124",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Уэст-Мидлендс",
+          "locative": "в графстве Уэст-Мидлендс",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gb-eng",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1974-04-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl",
+      "type": "state",
+      "level": "national",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q36",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Польша",
+          "locative": "в Польше",
+          "from": "1918-11-11",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-11-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1918-11-11",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-galicia",
+      "type": "region",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q2396442",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Галиция",
+          "locative": "в Галиции",
+          "from": null,
+          "to": "1918-10-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-10-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1918-10-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-gdansk",
+      "type": "city",
+      "level": "municipal",
+      "country": "PL",
+      "settlementClass": "large_city",
+      "wikidata": "Q1792",
+      "coordinates": {
+        "lat": 54.348291,
+        "lon": 18.654023
+      },
+      "names": [
+        {
+          "name": "Данциг",
+          "locative": "в Данциге",
+          "from": null,
+          "to": "1945-03-29"
+        },
+        {
+          "name": "Гданьск",
+          "locative": "в Гданьске",
+          "from": "1945-03-30",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl-prov-westpreussen",
+          "from": null,
+          "to": "1920-01-09"
+        },
+        {
+          "id": "state-danzig",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1939-09-02",
+          "to": "1945-03-29"
+        },
+        {
+          "id": "pl-woj-gdanskie-1945",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-gdanskie-1975",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-pomorskie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-gub-piotrkow",
+      "type": "governorate",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q2532730",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Петроковская губерния",
+          "locative": "в Петроковской губернии",
+          "from": "1867",
+          "to": "1916-11-04"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": "1867",
+          "to": "1916-11-04"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1867",
+      "validTo": "1916-11-04",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-gub-warszawa",
+      "type": "governorate",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q2520566",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Варшавская губерния",
+          "locative": "в Варшавской губернии",
+          "from": null,
+          "to": "1916-11-04"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1916-11-04"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1916-11-04",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-krakow",
+      "type": "city",
+      "level": "municipal",
+      "country": "PL",
+      "settlementClass": "large_city",
+      "wikidata": "Q31487",
+      "coordinates": {
+        "lat": 50.061389,
+        "lon": 19.937222
+      },
+      "names": [
+        {
+          "name": "Краков",
+          "locative": "в Кракове",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl-galicia",
+          "from": null,
+          "to": "1918-10-31"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1920-12-22"
+        },
+        {
+          "id": "pl-woj-krakowskie-1920",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-miejskie-krakowskie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-malopolskie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия (столица Генерал-губернаторства)",
+          "from": "1939-09-06",
+          "to": "1945-01"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-lodz",
+      "type": "city",
+      "level": "municipal",
+      "country": "PL",
+      "settlementClass": "large_city",
+      "wikidata": "Q580",
+      "coordinates": {
+        "lat": 51.75,
+        "lon": 19.466667
+      },
+      "names": [
+        {
+          "name": "Лодзь",
+          "locative": "в Лодзи",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl-gub-piotrkow",
+          "from": null,
+          "to": "1916-11-04"
+        },
+        {
+          "id": "state-pl-regency",
+          "from": "1916-11-05",
+          "to": "1918-11-10"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1919-08-13"
+        },
+        {
+          "id": "pl-woj-lodzkie-1919",
+          "from": "1919-08-14",
+          "to": "1944-09-19"
+        },
+        {
+          "id": "pl",
+          "from": "1944-09-20",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-miejskie-lodzkie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-lodzkie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1914-12-06",
+          "to": "1918-11-11"
+        },
+        {
+          "by": "Германия (город включён в рейхсгау Вартеланд)",
+          "from": "1939-09-09",
+          "to": "1945-01-19"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-prov-westpreussen",
+      "type": "region",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q161947",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Западная Пруссия",
+          "locative": "в Западной Пруссии",
+          "from": null,
+          "to": "1920-01-09"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1920-01-09"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1920-01-09",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-warszawa",
+      "type": "city",
+      "level": "municipal",
+      "country": "PL",
+      "settlementClass": "capital",
+      "wikidata": "Q270",
+      "coordinates": {
+        "lat": 52.23,
+        "lon": 21.011111
+      },
+      "names": [
+        {
+          "name": "Варшава",
+          "locative": "в Варшаве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl-gub-warszawa",
+          "from": null,
+          "to": "1916-11-04"
+        },
+        {
+          "id": "state-pl-regency",
+          "from": "1916-11-05",
+          "to": "1918-11-10"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-stoleczne-warszawskie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-mazowieckie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1915-08",
+          "to": "1918-11-11"
+        },
+        {
+          "by": "Германия (Генерал-губернаторство)",
+          "from": "1939-09-28",
+          "to": "1945-01-17"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-gdanskie-1945",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Гданьское воеводство",
+          "locative": "в Гданьском воеводстве",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1945-03-30",
+      "validTo": "1975-05-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-gdanskie-1975",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Гданьское воеводство",
+          "locative": "в Гданьском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1975-06-01",
+      "validTo": "1998-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-krakowskie-1920",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Краковское воеводство",
+          "locative": "в Краковском воеводстве",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1920-12-23",
+      "validTo": "1975-05-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-lodzkie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Лодзинское воеводство",
+          "locative": "в Лодзинском воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1999-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-lodzkie-1919",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Лодзинское воеводство",
+          "locative": "в Лодзинском воеводстве",
+          "from": "1919-08-14",
+          "to": "1975-05-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1919-08-14",
+          "to": "1975-05-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1919-08-14",
+      "validTo": "1975-05-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-malopolskie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Малопольское воеводство",
+          "locative": "в Малопольском воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1999-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-mazowieckie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Мазовецкое воеводство",
+          "locative": "в Мазовецком воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1999-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-miejskie-krakowskie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Краковское воеводство (городское)",
+          "locative": "в Краковском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1975-06-01",
+      "validTo": "1998-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-miejskie-lodzkie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Лодзинское воеводство (городское)",
+          "locative": "в Лодзинском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1975-06-01",
+      "validTo": "1998-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-pomorskie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Поморское воеводство",
+          "locative": "в Поморском воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1999-01-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-stoleczne-warszawskie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Столичное Варшавское воеводство",
+          "locative": "в Столичном Варшавском воеводстве",
+          "from": "1975-06-01",
+          "to": "1990-05-26"
+        },
+        {
+          "name": "Варшавское воеводство",
+          "locative": "в Варшавском воеводстве",
+          "from": "1990-05-27",
+          "to": "1998-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1975-06-01",
+      "validTo": "1998-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-woj-tarnowskie",
+      "type": "voivodeship",
+      "level": "regional",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Тарновское воеводство",
+          "locative": "в Тарновском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1975-06-01",
+      "validTo": "1998-12-31",
+      "legacyIds": []
+    },
+    {
+      "id": "pl-zalipie",
+      "type": "village",
+      "level": "municipal",
+      "country": "PL",
+      "settlementClass": "rural",
+      "wikidata": "Q1394010",
+      "coordinates": {
+        "lat": 50.236389,
+        "lon": 20.863889
+      },
+      "names": [
+        {
+          "name": "Залипье",
+          "locative": "в Залипье",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "pl-galicia",
+          "from": null,
+          "to": "1918-10-31"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1920-12-22"
+        },
+        {
+          "id": "pl-woj-krakowskie-1920",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        },
+        {
+          "id": "pl-woj-tarnowskie",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        },
+        {
+          "id": "pl-woj-malopolskie",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru",
+      "type": "state",
+      "level": "national",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": "Q159",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "РСФСР",
+          "locative": "в РСФСР",
+          "from": "1917-11-08",
+          "to": "1991-12-24"
+        },
+        {
+          "name": "Россия",
+          "locative": "в России",
+          "from": "1991-12-25",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1917-11-08",
+          "to": "1922-12-29"
+        },
+        {
+          "id": "su",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        },
+        {
+          "id": "world",
+          "from": "1991-12-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1917-11-08",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-empire",
+      "type": "state",
+      "level": "national",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": "Q34266",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Российская империя",
+          "locative": "в Российской империи",
+          "from": null,
+          "to": "1917-09-13"
+        },
+        {
+          "name": "Российская республика",
+          "locative": "в Российской республике",
+          "from": "1917-09-14",
+          "to": "1917-11-07"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1917-11-07"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1917-11-07",
+      "legacyIds": []
+    },
+    {
+      "id": "ru-gub-moskovskaya",
+      "type": "governorate",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Московская губерния",
+          "locative": "в Московской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1929-09-30",
+      "legacyIds": []
+    },
+    {
+      "id": "ru-gub-novgorodskaya",
+      "type": "governorate",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Новгородская губерния",
+          "locative": "в Новгородской губернии",
+          "from": null,
+          "to": "1927-07-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1927-07-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1927-07-31",
+      "legacyIds": []
+    },
+    {
+      "id": "ru-gub-peterburgskaya",
+      "type": "governorate",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Санкт-Петербургская губерния",
+          "locative": "в Санкт-Петербургской губернии",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроградская губерния",
+          "locative": "в Петроградской губернии",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинградская губерния",
+          "locative": "в Ленинградской губернии",
+          "from": "1924-01-26",
+          "to": "1927-07-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1927-07-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1927-07-31",
+      "legacyIds": []
+    },
+    {
+      "id": "ru-gub-smolenskaya",
+      "type": "governorate",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Смоленская губерния",
+          "locative": "в Смоленской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1929-09-30",
+      "legacyIds": []
+    },
+    {
+      "id": "ru-gub-tverskaya",
+      "type": "governorate",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Тверская губерния",
+          "locative": "в Тверской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1929-09-30",
+      "legacyIds": []
+    },
+    {
+      "id": "ru-konakovsky-raion",
+      "type": "raion",
+      "level": "district",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": "Q394616",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Кузнецовский район",
+          "locative": "в Кузнецовском районе",
+          "from": "1929-07-12",
+          "to": "1930-02-25"
+        },
+        {
+          "name": "Конаковский район",
+          "locative": "в Конаковском районе",
+          "from": "1930-02-26",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-07-12",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-leningrad-oblast",
+      "type": "oblast",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Ленинградская область",
+          "locative": "в Ленинградской области",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1927-08-01",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-moscow",
+      "type": "city",
+      "level": "municipal",
+      "country": "RU",
+      "settlementClass": "capital",
+      "wikidata": "Q649",
+      "coordinates": {
+        "lat": 55.7506,
+        "lon": 37.6175
+      },
+      "names": [
+        {
+          "name": "Москва",
+          "locative": "в Москве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-gub-moskovskaya",
+          "from": null,
+          "to": "1929-09-30"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [
+        "moscow"
+      ]
+    },
+    {
+      "id": "ru-moscow-oblast",
+      "type": "oblast",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Центрально-Промышленная область",
+          "locative": "в Центрально-Промышленной области",
+          "from": "1929-01-14",
+          "to": "1929-06-02"
+        },
+        {
+          "name": "Московская область",
+          "locative": "в Московской области",
+          "from": "1929-06-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1929-01-14",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-01-14",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-novgorod-oblast",
+      "type": "oblast",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": "Q2240",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Новгородская область",
+          "locative": "в Новгородской области",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1944-07-05",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-saint-petersburg",
+      "type": "city",
+      "level": "municipal",
+      "country": "RU",
+      "settlementClass": "large_city",
+      "wikidata": "Q656",
+      "coordinates": {
+        "lat": 59.95,
+        "lon": 30.3167
+      },
+      "names": [
+        {
+          "name": "Санкт-Петербург",
+          "locative": "в Санкт-Петербурге",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроград",
+          "locative": "в Петрограде",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинград",
+          "locative": "в Ленинграде",
+          "from": "1924-01-26",
+          "to": "1991-09-05"
+        },
+        {
+          "name": "Санкт-Петербург",
+          "locative": "в Санкт-Петербурге",
+          "from": "1991-09-06",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-gub-peterburgskaya",
+          "from": null,
+          "to": "1927-07-31"
+        },
+        {
+          "id": "ru-leningrad-oblast",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [
+        "saint-petersburg"
+      ]
+    },
+    {
+      "id": "ru-smolensk",
+      "type": "city",
+      "level": "municipal",
+      "country": "RU",
+      "settlementClass": "medium_city",
+      "wikidata": "Q2337",
+      "coordinates": {
+        "lat": 54.782778,
+        "lon": 32.045278
+      },
+      "names": [
+        {
+          "name": "Смоленск",
+          "locative": "в Смоленске",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-gub-smolenskaya",
+          "from": null,
+          "to": "1929-09-30"
+        },
+        {
+          "id": "ru-western-oblast",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        },
+        {
+          "id": "ru-smolensk-oblast",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1941-07-16",
+          "to": "1943-09-25"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [
+        "smolensk"
+      ]
+    },
+    {
+      "id": "ru-smolensk-oblast",
+      "type": "oblast",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": "Q2347",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Смоленская область",
+          "locative": "в Смоленской области",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1937-09-27",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-torzhok",
+      "type": "town",
+      "level": "municipal",
+      "country": "RU",
+      "settlementClass": "small_town",
+      "wikidata": null,
+      "coordinates": {
+        "lat": 57.0333,
+        "lon": 34.9667
+      },
+      "names": [
+        {
+          "name": "Торжок",
+          "locative": "в Торжке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-gub-tverskaya",
+          "from": null,
+          "to": "1929-07-11"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-tver",
+      "type": "city",
+      "level": "municipal",
+      "country": "RU",
+      "settlementClass": "large_city",
+      "wikidata": "Q2288",
+      "coordinates": {
+        "lat": 56.8578,
+        "lon": 35.9219
+      },
+      "names": [
+        {
+          "name": "Тверь",
+          "locative": "в Твери",
+          "from": null,
+          "to": "1931-11-19"
+        },
+        {
+          "name": "Калинин",
+          "locative": "в Калинине",
+          "from": "1931-11-20",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверь",
+          "locative": "в Твери",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-gub-tverskaya",
+          "from": null,
+          "to": "1929-07-11"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1941-10-17",
+          "to": "1941-12-16"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [
+        "tver"
+      ]
+    },
+    {
+      "id": "ru-tver-oblast",
+      "type": "oblast",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Калининская область",
+          "locative": "в Калининской области",
+          "from": "1935-01-29",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверская область",
+          "locative": "в Тверской области",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия (западные и южные районы, частично)",
+          "from": "1941-07",
+          "to": "1944-07-19"
+        }
+      ],
+      "validFrom": "1935-01-29",
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "ru-veliky-novgorod",
+      "type": "city",
+      "level": "municipal",
+      "country": "RU",
+      "settlementClass": "medium_city",
+      "wikidata": "Q2235",
+      "coordinates": {
+        "lat": 58.52099,
+        "lon": 31.27579
+      },
+      "names": [
+        {
+          "name": "Новгород",
+          "locative": "в Новгороде",
+          "from": null,
+          "to": "1999-06-10"
+        },
+        {
+          "name": "Великий Новгород",
+          "locative": "в Великом Новгороде",
+          "from": "1999-06-11",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-gub-novgorodskaya",
+          "from": null,
+          "to": "1927-07-31"
+        },
+        {
+          "id": "ru-leningrad-oblast",
+          "from": "1927-08-01",
+          "to": "1944-07-04"
+        },
+        {
+          "id": "ru-novgorod-oblast",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия (с участием испанской «Голубой дивизии»)",
+          "from": "1941-08-15",
+          "to": "1944-01-20"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [
+        "veliky-novgorod"
+      ]
+    },
+    {
+      "id": "ru-western-oblast",
+      "type": "oblast",
+      "level": "regional",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Западная область",
+          "locative": "в Западной области",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-10-01",
+      "validTo": "1937-09-26",
+      "legacyIds": []
+    },
+    {
+      "id": "state-at-hu",
+      "type": "state",
+      "level": "national",
+      "country": "AT",
+      "settlementClass": null,
+      "wikidata": "Q28513",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Австро-Венгрия",
+          "locative": "в Австро-Венгрии",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1867",
+      "validTo": "1918-11-11",
+      "legacyIds": []
+    },
+    {
+      "id": "state-danzig",
+      "type": "state",
+      "level": "national",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q216173",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Вольный город Данциг",
+          "locative": "в Вольном городе Данциге",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1920-01-10",
+      "validTo": "1939-09-01",
+      "legacyIds": []
+    },
+    {
+      "id": "state-de-empire",
+      "type": "state",
+      "level": "national",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q43287",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Германская империя",
+          "locative": "в Германской империи",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1871",
+      "validTo": "1918-11-09",
+      "legacyIds": []
+    },
+    {
+      "id": "state-de-reich",
+      "type": "state",
+      "level": "national",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Германия",
+          "locative": "в Германии",
+          "from": "1918-11-09",
+          "to": "1945-05-23"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-11-09",
+          "to": "1945-05-23"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1918-11-09",
+      "validTo": "1945-05-23",
+      "legacyIds": []
+    },
+    {
+      "id": "state-pl-regency",
+      "type": "transitional_administration",
+      "level": "national",
+      "country": "PL",
+      "settlementClass": null,
+      "wikidata": "Q696908",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Польское (регентское)",
+          "locative": "в Королевстве Польском",
+          "from": "1916-11-05",
+          "to": "1918-11-14"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": "1916-11-05",
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1918-11-10"
+        },
+        {
+          "id": "pl",
+          "from": "1918-11-11",
+          "to": "1918-11-14"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1916-11-05",
+      "validTo": "1918-11-14",
+      "legacyIds": []
+    },
+    {
+      "id": "su",
+      "type": "state",
+      "level": "national",
+      "country": "RU",
+      "settlementClass": null,
+      "wikidata": "Q15180",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "СССР",
+          "locative": "в СССР",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1922-12-30",
+      "validTo": "1991-12-26",
+      "legacyIds": []
+    },
+    {
+      "id": "us",
+      "type": "state",
+      "level": "national",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q30",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "США",
+          "locative": "в США",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-chicago",
+      "type": "city",
+      "level": "municipal",
+      "country": "US",
+      "settlementClass": "large_city",
+      "wikidata": "Q1297",
+      "coordinates": {
+        "lat": 41.8819,
+        "lon": -87.6278
+      },
+      "names": [
+        {
+          "name": "Чикаго",
+          "locative": "в Чикаго",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-il-cook",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-detroit",
+      "type": "city",
+      "level": "municipal",
+      "country": "US",
+      "settlementClass": "large_city",
+      "wikidata": "Q12439",
+      "coordinates": {
+        "lat": 42.3317,
+        "lon": -83.0475
+      },
+      "names": [
+        {
+          "name": "Детройт",
+          "locative": "в Детройте",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-mi-wayne",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-holmes-county-rural",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "US",
+      "settlementClass": "rural",
+      "wikidata": null,
+      "coordinates": {
+        "lat": 40.56,
+        "lon": -81.93
+      },
+      "names": [
+        {
+          "name": "сельская местность округа Холмс",
+          "locative": "в сельской местности округа Холмс",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-oh-holmes",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-il",
+      "type": "us_state",
+      "level": "regional",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q1204",
+      "coordinates": {
+        "lat": 40.0003,
+        "lon": -89.2503
+      },
+      "names": [
+        {
+          "name": "Иллинойс",
+          "locative": "в Иллинойсе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-il-cook",
+      "type": "county",
+      "level": "district",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q108418",
+      "coordinates": {
+        "lat": 41.8,
+        "lon": -87.7167
+      },
+      "names": [
+        {
+          "name": "округ Кук",
+          "locative": "в округе Кук",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-il",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-marietta",
+      "type": "town",
+      "level": "municipal",
+      "country": "US",
+      "settlementClass": "small_town",
+      "wikidata": "Q985482",
+      "coordinates": {
+        "lat": 39.4206,
+        "lon": -81.4503
+      },
+      "names": [
+        {
+          "name": "Мариетта",
+          "locative": "в Мариетте",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-oh-washington",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-mi",
+      "type": "us_state",
+      "level": "regional",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q1166",
+      "coordinates": {
+        "lat": 44.34,
+        "lon": -85.58
+      },
+      "names": [
+        {
+          "name": "Мичиган",
+          "locative": "в Мичигане",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-mi-wayne",
+      "type": "county",
+      "level": "district",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q195664",
+      "coordinates": {
+        "lat": 42.28,
+        "lon": -83.26
+      },
+      "names": [
+        {
+          "name": "округ Уэйн",
+          "locative": "в округе Уэйн",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-mi",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-new-york-city",
+      "type": "city",
+      "level": "municipal",
+      "country": "US",
+      "settlementClass": "large_city",
+      "wikidata": "Q60",
+      "coordinates": {
+        "lat": 40.7128,
+        "lon": -74.0061
+      },
+      "names": [
+        {
+          "name": "Нью-Йорк",
+          "locative": "в Нью-Йорке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-ny",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-ny",
+      "type": "us_state",
+      "level": "regional",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q1384",
+      "coordinates": {
+        "lat": 43.0,
+        "lon": -75.0
+      },
+      "names": [
+        {
+          "name": "штат Нью-Йорк",
+          "locative": "в штате Нью-Йорк",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-oh",
+      "type": "us_state",
+      "level": "regional",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q1397",
+      "coordinates": {
+        "lat": 40.5,
+        "lon": -82.5
+      },
+      "names": [
+        {
+          "name": "Огайо",
+          "locative": "в Огайо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-oh-holmes",
+      "type": "county",
+      "level": "district",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q485650",
+      "coordinates": {
+        "lat": 40.56,
+        "lon": -81.93
+      },
+      "names": [
+        {
+          "name": "округ Холмс",
+          "locative": "в округе Холмс",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-oh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "us-oh-washington",
+      "type": "county",
+      "level": "district",
+      "country": "US",
+      "settlementClass": null,
+      "wikidata": "Q489571",
+      "coordinates": {
+        "lat": 39.46,
+        "lon": -81.49
+      },
+      "names": [
+        {
+          "name": "округ Вашингтон (Огайо)",
+          "locative": "в округе Вашингтон",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "us-oh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    },
+    {
+      "id": "world",
+      "type": "world",
+      "level": "international",
+      "country": null,
+      "settlementClass": null,
+      "wikidata": "Q2",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Мир",
+          "locative": "в мире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": []
+    }
+  ]
+}

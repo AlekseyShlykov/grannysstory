@@ -1,0 +1,2260 @@
+{
+  "generated": true,
+  "names": {
+    "world": {
+      "local": [
+        {
+          "name": "World",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Мир",
+          "locative": "в мире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr": {
+      "local": [
+        {
+          "name": "France",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Франция",
+          "locative": "во Франции",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "République française"
+      ]
+    },
+    "us": {
+      "local": [
+        {
+          "name": "United States",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "США",
+          "locative": "в США",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "United States of America"
+      ]
+    },
+    "gb": {
+      "local": [
+        {
+          "name": "United Kingdom of Great Britain and Ireland",
+          "lang": "en",
+          "from": null,
+          "to": "1922-12-05"
+        },
+        {
+          "name": "United Kingdom of Great Britain and Northern Ireland",
+          "lang": "en",
+          "from": "1922-12-06",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Великобритания",
+          "locative": "в Великобритании",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "UK",
+        "Britain"
+      ]
+    },
+    "gb-eng": {
+      "local": [
+        {
+          "name": "England",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Англия",
+          "locative": "в Англии",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "pl": {
+      "local": [
+        {
+          "name": "Rzeczpospolita Polska",
+          "lang": "pl",
+          "from": "1918-11-11",
+          "to": "1952-07-21"
+        },
+        {
+          "name": "Polska Rzeczpospolita Ludowa",
+          "lang": "pl",
+          "from": "1952-07-22",
+          "to": "1989-12-30"
+        },
+        {
+          "name": "Rzeczpospolita Polska",
+          "lang": "pl",
+          "from": "1989-12-31",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Польша",
+          "locative": "в Польше",
+          "from": "1918-11-11",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Polska",
+        "PRL"
+      ]
+    },
+    "ru-empire": {
+      "local": [
+        {
+          "name": "Российская империя",
+          "lang": "ru",
+          "from": null,
+          "to": "1917-09-13"
+        },
+        {
+          "name": "Российская республика",
+          "lang": "ru",
+          "from": "1917-09-14",
+          "to": "1917-11-07"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Российская империя",
+          "locative": "в Российской империи",
+          "from": null,
+          "to": "1917-09-13"
+        },
+        {
+          "name": "Российская республика",
+          "locative": "в Российской республике",
+          "from": "1917-09-14",
+          "to": "1917-11-07"
+        }
+      ],
+      "alt": []
+    },
+    "ru": {
+      "local": [
+        {
+          "name": "РСФСР",
+          "lang": "ru",
+          "from": "1917-11-08",
+          "to": "1991-12-24"
+        },
+        {
+          "name": "Российская Федерация",
+          "lang": "ru",
+          "from": "1991-12-25",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "РСФСР",
+          "locative": "в РСФСР",
+          "from": "1917-11-08",
+          "to": "1991-12-24"
+        },
+        {
+          "name": "Россия",
+          "locative": "в России",
+          "from": "1991-12-25",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Советская Россия",
+        "Russian SFSR",
+        "Russian Federation"
+      ]
+    },
+    "su": {
+      "local": [
+        {
+          "name": "Союз Советских Социалистических Республик",
+          "lang": "ru",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        }
+      ],
+      "ru": [
+        {
+          "name": "СССР",
+          "locative": "в СССР",
+          "from": "1922-12-30",
+          "to": "1991-12-26"
+        }
+      ],
+      "alt": [
+        "Советский Союз"
+      ]
+    },
+    "fr-reg-idf": {
+      "local": [
+        {
+          "name": "Région parisienne",
+          "lang": "fr",
+          "from": "1960-06-02",
+          "to": "1975"
+        },
+        {
+          "name": "Île-de-France",
+          "lang": "fr",
+          "from": "1976",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Парижский район",
+          "locative": "в Парижском районе",
+          "from": "1960-06-02",
+          "to": "1975"
+        },
+        {
+          "name": "Иль-де-Франс",
+          "locative": "в Иль-де-Франс",
+          "from": "1976",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-rhone-alpes": {
+      "local": [
+        {
+          "name": "Rhône-Alpes",
+          "lang": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Рона — Альпы",
+          "locative": "в регионе Рона — Альпы",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-ara": {
+      "local": [
+        {
+          "name": "Auvergne-Rhône-Alpes",
+          "lang": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Овернь — Рона — Альпы",
+          "locative": "в регионе Овернь — Рона — Альпы",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-npdc": {
+      "local": [
+        {
+          "name": "Nord-Pas-de-Calais",
+          "lang": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нор — Па-де-Кале",
+          "locative": "в регионе Нор — Па-де-Кале",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-hdf": {
+      "local": [
+        {
+          "name": "Nord-Pas-de-Calais-Picardie",
+          "lang": "fr",
+          "from": "2016-01-01",
+          "to": "2016-09-29"
+        },
+        {
+          "name": "Hauts-de-France",
+          "lang": "fr",
+          "from": "2016-09-30",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нор — Па-де-Кале — Пикардия",
+          "locative": "в регионе Нор — Па-де-Кале — Пикардия",
+          "from": "2016-01-01",
+          "to": "2016-09-29"
+        },
+        {
+          "name": "О-де-Франс",
+          "locative": "в регионе О-де-Франс",
+          "from": "2016-09-30",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-paca": {
+      "local": [
+        {
+          "name": "Provence-Côte d'Azur-Corse",
+          "lang": "fr",
+          "from": "1960-06-02",
+          "to": "1970-01-11"
+        },
+        {
+          "name": "Provence-Côte d'Azur",
+          "lang": "fr",
+          "from": "1970-01-12",
+          "to": "1975"
+        },
+        {
+          "name": "Provence-Alpes-Côte d'Azur",
+          "lang": "fr",
+          "from": "1976",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Прованс — Лазурный Берег — Корсика",
+          "locative": "в регионе Прованс — Лазурный Берег — Корсика",
+          "from": "1960-06-02",
+          "to": "1970-01-11"
+        },
+        {
+          "name": "Прованс — Лазурный Берег",
+          "locative": "в регионе Прованс — Лазурный Берег",
+          "from": "1970-01-12",
+          "to": "1975"
+        },
+        {
+          "name": "Прованс — Альпы — Лазурный Берег",
+          "locative": "в регионе Прованс — Альпы — Лазурный Берег",
+          "from": "1976",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Région Sud (с 2017, только коммуникационное название)"
+      ]
+    },
+    "fr-reg-bretagne": {
+      "local": [
+        {
+          "name": "Bretagne",
+          "lang": "fr",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бретань",
+          "locative": "в Бретани",
+          "from": "1960-06-02",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-bourgogne": {
+      "local": [
+        {
+          "name": "Bourgogne",
+          "lang": "fr",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бургундия",
+          "locative": "в Бургундии",
+          "from": "1960-06-02",
+          "to": "2015-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fr-reg-bfc": {
+      "local": [
+        {
+          "name": "Bourgogne-Franche-Comté",
+          "lang": "fr",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бургундия — Франш-Конте",
+          "locative": "в регионе Бургундия — Франш-Конте",
+          "from": "2016-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-seine": {
+      "local": [
+        {
+          "name": "Seine",
+          "lang": "fr",
+          "from": null,
+          "to": "1967-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сена",
+          "locative": "в департаменте Сена",
+          "from": null,
+          "to": "1967-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-75": {
+      "local": [
+        {
+          "name": "Paris",
+          "lang": "fr",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Париж (департамент)",
+          "locative": "в департаменте Париж",
+          "from": "1968-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-69": {
+      "local": [
+        {
+          "name": "Rhône",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Рона",
+          "locative": "в департаменте Рона",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-13": {
+      "local": [
+        {
+          "name": "Bouches-du-Rhône",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Буш-дю-Рон",
+          "locative": "в департаменте Буш-дю-Рон",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-59": {
+      "local": [
+        {
+          "name": "Nord",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нор",
+          "locative": "в департаменте Нор",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-29": {
+      "local": [
+        {
+          "name": "Finistère",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Финистер",
+          "locative": "в департаменте Финистер",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-dep-71": {
+      "local": [
+        {
+          "name": "Saône-et-Loire",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сона и Луара",
+          "locative": "в департаменте Сона и Луара",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-paris": {
+      "local": [
+        {
+          "name": "Paris",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Париж",
+          "locative": "в Париже",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-lyon": {
+      "local": [
+        {
+          "name": "Lyon",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лион",
+          "locative": "в Лионе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-marseille": {
+      "local": [
+        {
+          "name": "Marseille",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Марсель",
+          "locative": "в Марселе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-lille": {
+      "local": [
+        {
+          "name": "Lille",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лилль",
+          "locative": "в Лилле",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-le-creusot": {
+      "local": [
+        {
+          "name": "Le Creusot",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ле-Крёзо",
+          "locative": "в Ле-Крёзо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fr-plozevet": {
+      "local": [
+        {
+          "name": "Plozévet",
+          "lang": "fr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Плозеве",
+          "locative": "в Плозеве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-county-of-london": {
+      "local": [
+        {
+          "name": "County of London",
+          "lang": "en",
+          "from": "1889",
+          "to": "1965-03-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Графство Лондон",
+          "locative": "в графстве Лондон",
+          "from": "1889",
+          "to": "1965-03-31"
+        }
+      ],
+      "alt": []
+    },
+    "gb-greater-london": {
+      "local": [
+        {
+          "name": "Greater London",
+          "lang": "en",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Большой Лондон",
+          "locative": "в Большом Лондоне",
+          "from": "1965-04-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-london": {
+      "local": [
+        {
+          "name": "London",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лондон",
+          "locative": "в Лондоне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-lancashire": {
+      "local": [
+        {
+          "name": "Lancashire",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ланкашир",
+          "locative": "в Ланкашире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-greater-manchester": {
+      "local": [
+        {
+          "name": "Greater Manchester",
+          "lang": "en",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Большой Манчестер",
+          "locative": "в Большом Манчестере",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-manchester": {
+      "local": [
+        {
+          "name": "Manchester",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Манчестер",
+          "locative": "в Манчестере",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-warwickshire": {
+      "local": [
+        {
+          "name": "Warwickshire",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Уорикшир",
+          "locative": "в Уорикшире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-west-midlands": {
+      "local": [
+        {
+          "name": "West Midlands",
+          "lang": "en",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Уэст-Мидлендс",
+          "locative": "в графстве Уэст-Мидлендс",
+          "from": "1974-04-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-birmingham": {
+      "local": [
+        {
+          "name": "Birmingham",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бирмингем",
+          "locative": "в Бирмингеме",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-northamptonshire": {
+      "local": [
+        {
+          "name": "Northamptonshire",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нортгемптоншир",
+          "locative": "в Нортгемптоншире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-corby": {
+      "local": [
+        {
+          "name": "Corby",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Корби",
+          "locative": "в Корби",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-leicestershire": {
+      "local": [
+        {
+          "name": "Leicestershire",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лестершир",
+          "locative": "в Лестершире",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "gb-rutland": {
+      "local": [
+        {
+          "name": "Rutland",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ратленд",
+          "locative": "в Ратленде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "state-de-empire": {
+      "local": [
+        {
+          "name": "Deutsches Reich",
+          "lang": "de",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Германская империя",
+          "locative": "в Германской империи",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "alt": [
+        "Kaiserreich",
+        "Германская империя"
+      ]
+    },
+    "state-at-hu": {
+      "local": [
+        {
+          "name": "Österreich-Ungarn",
+          "lang": "de",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Австро-Венгрия",
+          "locative": "в Австро-Венгрии",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "alt": [
+        "Austria-Hungary",
+        "Austro-Węgry"
+      ]
+    },
+    "state-pl-regency": {
+      "local": [
+        {
+          "name": "Królestwo Polskie",
+          "lang": "pl",
+          "from": "1916-11-05",
+          "to": "1918-11-14"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Польское (регентское)",
+          "locative": "в Королевстве Польском",
+          "from": "1916-11-05",
+          "to": "1918-11-14"
+        }
+      ],
+      "alt": [
+        "Regency Kingdom of Poland",
+        "Królestwo Regencyjne"
+      ]
+    },
+    "state-danzig": {
+      "local": [
+        {
+          "name": "Freie Stadt Danzig",
+          "lang": "de",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Вольный город Данциг",
+          "locative": "в Вольном городе Данциге",
+          "from": "1920-01-10",
+          "to": "1939-09-01"
+        }
+      ],
+      "alt": [
+        "Wolne Miasto Gdańsk",
+        "Free City of Danzig"
+      ]
+    },
+    "state-de-reich": {
+      "local": [
+        {
+          "name": "Deutsches Reich",
+          "lang": "de",
+          "from": "1918-11-09",
+          "to": "1945-05-23"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Германия",
+          "locative": "в Германии",
+          "from": "1918-11-09",
+          "to": "1945-05-23"
+        }
+      ],
+      "alt": [
+        "Веймарская республика (Q41304)",
+        "Третий рейх (Q7318)"
+      ]
+    },
+    "pl-gub-warszawa": {
+      "local": [
+        {
+          "name": "Губерния Варшавская",
+          "lang": "ru",
+          "from": null,
+          "to": "1916-11-04"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Варшавская губерния",
+          "locative": "в Варшавской губернии",
+          "from": null,
+          "to": "1916-11-04"
+        }
+      ],
+      "alt": [
+        "gubernia warszawska"
+      ]
+    },
+    "pl-gub-piotrkow": {
+      "local": [
+        {
+          "name": "Губерния Петроковская",
+          "lang": "ru",
+          "from": "1867",
+          "to": "1916-11-04"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Петроковская губерния",
+          "locative": "в Петроковской губернии",
+          "from": "1867",
+          "to": "1916-11-04"
+        }
+      ],
+      "alt": [
+        "gubernia piotrkowska"
+      ]
+    },
+    "pl-galicia": {
+      "local": [
+        {
+          "name": "Królestwo Galicji i Lodomerii",
+          "lang": "pl",
+          "from": null,
+          "to": "1918-10-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Галиция",
+          "locative": "в Галиции",
+          "from": null,
+          "to": "1918-10-31"
+        }
+      ],
+      "alt": [
+        "Galizien",
+        "Галиция и Лодомерия"
+      ]
+    },
+    "pl-prov-westpreussen": {
+      "local": [
+        {
+          "name": "Westpreußen",
+          "lang": "de",
+          "from": null,
+          "to": "1920-01-09"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Западная Пруссия",
+          "locative": "в Западной Пруссии",
+          "from": null,
+          "to": "1920-01-09"
+        }
+      ],
+      "alt": [
+        "Prusy Zachodnie"
+      ]
+    },
+    "pl-woj-lodzkie-1919": {
+      "local": [
+        {
+          "name": "województwo łódzkie",
+          "lang": "pl",
+          "from": "1919-08-14",
+          "to": "1975-05-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лодзинское воеводство",
+          "locative": "в Лодзинском воеводстве",
+          "from": "1919-08-14",
+          "to": "1975-05-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-krakowskie-1920": {
+      "local": [
+        {
+          "name": "województwo krakowskie",
+          "lang": "pl",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Краковское воеводство",
+          "locative": "в Краковском воеводстве",
+          "from": "1920-12-23",
+          "to": "1975-05-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-gdanskie-1945": {
+      "local": [
+        {
+          "name": "województwo gdańskie",
+          "lang": "pl",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Гданьское воеводство",
+          "locative": "в Гданьском воеводстве",
+          "from": "1945-03-30",
+          "to": "1975-05-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-stoleczne-warszawskie": {
+      "local": [
+        {
+          "name": "województwo stołeczne warszawskie",
+          "lang": "pl",
+          "from": "1975-06-01",
+          "to": "1990-05-26"
+        },
+        {
+          "name": "województwo warszawskie",
+          "lang": "pl",
+          "from": "1990-05-27",
+          "to": "1998-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Столичное Варшавское воеводство",
+          "locative": "в Столичном Варшавском воеводстве",
+          "from": "1975-06-01",
+          "to": "1990-05-26"
+        },
+        {
+          "name": "Варшавское воеводство",
+          "locative": "в Варшавском воеводстве",
+          "from": "1990-05-27",
+          "to": "1998-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-miejskie-lodzkie": {
+      "local": [
+        {
+          "name": "województwo miejskie łódzkie",
+          "lang": "pl",
+          "from": "1975-06-01",
+          "to": "1984-06-30"
+        },
+        {
+          "name": "województwo łódzkie",
+          "lang": "pl",
+          "from": "1984-07-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лодзинское воеводство (городское)",
+          "locative": "в Лодзинском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-miejskie-krakowskie": {
+      "local": [
+        {
+          "name": "województwo miejskie krakowskie",
+          "lang": "pl",
+          "from": "1975-06-01",
+          "to": "1984-06-30"
+        },
+        {
+          "name": "województwo krakowskie",
+          "lang": "pl",
+          "from": "1984-07-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Краковское воеводство (городское)",
+          "locative": "в Краковском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-gdanskie-1975": {
+      "local": [
+        {
+          "name": "województwo gdańskie",
+          "lang": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Гданьское воеводство",
+          "locative": "в Гданьском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-tarnowskie": {
+      "local": [
+        {
+          "name": "województwo tarnowskie",
+          "lang": "pl",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Тарновское воеводство",
+          "locative": "в Тарновском воеводстве",
+          "from": "1975-06-01",
+          "to": "1998-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-mazowieckie": {
+      "local": [
+        {
+          "name": "województwo mazowieckie",
+          "lang": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Мазовецкое воеводство",
+          "locative": "в Мазовецком воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-lodzkie": {
+      "local": [
+        {
+          "name": "województwo łódzkie",
+          "lang": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лодзинское воеводство",
+          "locative": "в Лодзинском воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-malopolskie": {
+      "local": [
+        {
+          "name": "województwo małopolskie",
+          "lang": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Малопольское воеводство",
+          "locative": "в Малопольском воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "pl-woj-pomorskie": {
+      "local": [
+        {
+          "name": "województwo pomorskie",
+          "lang": "pl",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Поморское воеводство",
+          "locative": "в Поморском воеводстве",
+          "from": "1999-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "pl-warszawa": {
+      "local": [
+        {
+          "name": "Warszawa",
+          "lang": "pl",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Варшава",
+          "locative": "в Варшаве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Warsaw"
+      ]
+    },
+    "pl-lodz": {
+      "local": [
+        {
+          "name": "Łódź",
+          "lang": "pl",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Litzmannstadt",
+          "lang": "de",
+          "from": "1940-04-11",
+          "to": "1945-01-19"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лодзь",
+          "locative": "в Лодзи",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Lodz",
+        "Litzmannstadt (1940–1945, нем. оккупационное название)"
+      ]
+    },
+    "pl-krakow": {
+      "local": [
+        {
+          "name": "Kraków",
+          "lang": "pl",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Krakau",
+          "lang": "de",
+          "from": null,
+          "to": "1918-10-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Краков",
+          "locative": "в Кракове",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Cracow"
+      ]
+    },
+    "pl-gdansk": {
+      "local": [
+        {
+          "name": "Danzig",
+          "lang": "de",
+          "from": null,
+          "to": "1945-03-29"
+        },
+        {
+          "name": "Gdańsk",
+          "lang": "pl",
+          "from": "1945-03-30",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Данциг",
+          "locative": "в Данциге",
+          "from": null,
+          "to": "1945-03-29"
+        },
+        {
+          "name": "Гданьск",
+          "locative": "в Гданьске",
+          "from": "1945-03-30",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Danzig",
+        "Gedanum"
+      ]
+    },
+    "pl-zalipie": {
+      "local": [
+        {
+          "name": "Zalipie",
+          "lang": "pl",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Залипье",
+          "locative": "в Залипье",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Залипе"
+      ]
+    },
+    "ru-gub-moskovskaya": {
+      "local": [
+        {
+          "name": "Московская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Московская губерния",
+          "locative": "в Московской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "alt": []
+    },
+    "ru-gub-peterburgskaya": {
+      "local": [
+        {
+          "name": "Санкт-Петербургская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроградская губерния",
+          "lang": "ru",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинградская губерния",
+          "lang": "ru",
+          "from": "1924-01-26",
+          "to": "1927-07-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Санкт-Петербургская губерния",
+          "locative": "в Санкт-Петербургской губернии",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроградская губерния",
+          "locative": "в Петроградской губернии",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинградская губерния",
+          "locative": "в Ленинградской губернии",
+          "from": "1924-01-26",
+          "to": "1927-07-31"
+        }
+      ],
+      "alt": []
+    },
+    "ru-gub-novgorodskaya": {
+      "local": [
+        {
+          "name": "Новгородская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1927-07-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Новгородская губерния",
+          "locative": "в Новгородской губернии",
+          "from": null,
+          "to": "1927-07-31"
+        }
+      ],
+      "alt": []
+    },
+    "ru-gub-tverskaya": {
+      "local": [
+        {
+          "name": "Тверская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Тверская губерния",
+          "locative": "в Тверской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "alt": []
+    },
+    "ru-gub-smolenskaya": {
+      "local": [
+        {
+          "name": "Смоленская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Смоленская губерния",
+          "locative": "в Смоленской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "alt": []
+    },
+    "ru-moscow-oblast": {
+      "local": [
+        {
+          "name": "Центрально-Промышленная область",
+          "lang": "ru",
+          "from": "1929-01-14",
+          "to": "1929-06-02"
+        },
+        {
+          "name": "Московская область",
+          "lang": "ru",
+          "from": "1929-06-03",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Центрально-Промышленная область",
+          "locative": "в Центрально-Промышленной области",
+          "from": "1929-01-14",
+          "to": "1929-06-02"
+        },
+        {
+          "name": "Московская область",
+          "locative": "в Московской области",
+          "from": "1929-06-03",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-leningrad-oblast": {
+      "local": [
+        {
+          "name": "Ленинградская область",
+          "lang": "ru",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ленинградская область",
+          "locative": "в Ленинградской области",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-novgorod-oblast": {
+      "local": [
+        {
+          "name": "Новгородская область",
+          "lang": "ru",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Новгородская область",
+          "locative": "в Новгородской области",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-western-oblast": {
+      "local": [
+        {
+          "name": "Западная область",
+          "lang": "ru",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Западная область",
+          "locative": "в Западной области",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "alt": []
+    },
+    "ru-smolensk-oblast": {
+      "local": [
+        {
+          "name": "Смоленская область",
+          "lang": "ru",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Смоленская область",
+          "locative": "в Смоленской области",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-tver-oblast": {
+      "local": [
+        {
+          "name": "Калининская область",
+          "lang": "ru",
+          "from": "1935-01-29",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверская область",
+          "lang": "ru",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Калининская область",
+          "locative": "в Калининской области",
+          "from": "1935-01-29",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверская область",
+          "locative": "в Тверской области",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-moscow": {
+      "local": [
+        {
+          "name": "Москва",
+          "lang": "ru",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Москва",
+          "locative": "в Москве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-saint-petersburg": {
+      "local": [
+        {
+          "name": "Санкт-Петербург",
+          "lang": "ru",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроград",
+          "lang": "ru",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинград",
+          "lang": "ru",
+          "from": "1924-01-26",
+          "to": "1991-09-05"
+        },
+        {
+          "name": "Санкт-Петербург",
+          "lang": "ru",
+          "from": "1991-09-06",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Санкт-Петербург",
+          "locative": "в Санкт-Петербурге",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроград",
+          "locative": "в Петрограде",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинград",
+          "locative": "в Ленинграде",
+          "from": "1924-01-26",
+          "to": "1991-09-05"
+        },
+        {
+          "name": "Санкт-Петербург",
+          "locative": "в Санкт-Петербурге",
+          "from": "1991-09-06",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-tver": {
+      "local": [
+        {
+          "name": "Тверь",
+          "lang": "ru",
+          "from": null,
+          "to": "1931-11-19"
+        },
+        {
+          "name": "Калинин",
+          "lang": "ru",
+          "from": "1931-11-20",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверь",
+          "lang": "ru",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Тверь",
+          "locative": "в Твери",
+          "from": null,
+          "to": "1931-11-19"
+        },
+        {
+          "name": "Калинин",
+          "locative": "в Калинине",
+          "from": "1931-11-20",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверь",
+          "locative": "в Твери",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-veliky-novgorod": {
+      "local": [
+        {
+          "name": "Новгород",
+          "lang": "ru",
+          "from": null,
+          "to": "1999-06-10"
+        },
+        {
+          "name": "Великий Новгород",
+          "lang": "ru",
+          "from": "1999-06-11",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Новгород",
+          "locative": "в Новгороде",
+          "from": null,
+          "to": "1999-06-10"
+        },
+        {
+          "name": "Великий Новгород",
+          "locative": "в Великом Новгороде",
+          "from": "1999-06-11",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-smolensk": {
+      "local": [
+        {
+          "name": "Смоленск",
+          "lang": "ru",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Смоленск",
+          "locative": "в Смоленске",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "ru-torzhok": {
+      "local": [
+        {
+          "name": "Торжок",
+          "lang": "ru",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Торжок",
+          "locative": "в Торжке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Новоторжок"
+      ]
+    },
+    "ru-konakovsky-raion": {
+      "local": [
+        {
+          "name": "Кузнецовский район",
+          "lang": "ru",
+          "from": "1929-07-12",
+          "to": "1930-02-25"
+        },
+        {
+          "name": "Конаковский район",
+          "lang": "ru",
+          "from": "1930-02-26",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Кузнецовский район",
+          "locative": "в Кузнецовском районе",
+          "from": "1929-07-12",
+          "to": "1930-02-25"
+        },
+        {
+          "name": "Конаковский район",
+          "locative": "в Конаковском районе",
+          "from": "1930-02-26",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-ny": {
+      "local": [
+        {
+          "name": "New York",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "штат Нью-Йорк",
+          "locative": "в штате Нью-Йорк",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "New York State"
+      ]
+    },
+    "us-il": {
+      "local": [
+        {
+          "name": "Illinois",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Иллинойс",
+          "locative": "в Иллинойсе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-mi": {
+      "local": [
+        {
+          "name": "Michigan",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Мичиган",
+          "locative": "в Мичигане",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-oh": {
+      "local": [
+        {
+          "name": "Ohio",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Огайо",
+          "locative": "в Огайо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-new-york-city": {
+      "local": [
+        {
+          "name": "New York",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нью-Йорк",
+          "locative": "в Нью-Йорке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "New York City",
+        "City of New York",
+        "Greater New York"
+      ]
+    },
+    "us-il-cook": {
+      "local": [
+        {
+          "name": "Cook County",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "округ Кук",
+          "locative": "в округе Кук",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-chicago": {
+      "local": [
+        {
+          "name": "Chicago",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Чикаго",
+          "locative": "в Чикаго",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-mi-wayne": {
+      "local": [
+        {
+          "name": "Wayne County",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "округ Уэйн",
+          "locative": "в округе Уэйн",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-detroit": {
+      "local": [
+        {
+          "name": "Detroit",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Детройт",
+          "locative": "в Детройте",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Motor City"
+      ]
+    },
+    "us-oh-washington": {
+      "local": [
+        {
+          "name": "Washington County",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "округ Вашингтон (Огайо)",
+          "locative": "в округе Вашингтон",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-marietta": {
+      "local": [
+        {
+          "name": "Marietta",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Мариетта",
+          "locative": "в Мариетте",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Marietta, Ohio"
+      ]
+    },
+    "us-oh-holmes": {
+      "local": [
+        {
+          "name": "Holmes County",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "округ Холмс",
+          "locative": "в округе Холмс",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "us-holmes-county-rural": {
+      "local": [
+        {
+          "name": "rural Holmes County",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "сельская местность округа Холмс",
+          "locative": "в сельской местности округа Холмс",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    }
+  }
+}

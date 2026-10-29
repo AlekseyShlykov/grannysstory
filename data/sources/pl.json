@@ -1,0 +1,573 @@
+{
+ "sources": [
+  {
+   "source_id": "pl_wikipedia",
+   "name": "Wikipedia (польская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "PL",
+   "url": "https://pl.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Вторичный источник; использован через WebFetch для административных делений и местной истории; confidence: medium."
+  },
+  {
+   "source_id": "pl_en_wikipedia",
+   "name": "Wikipedia (английская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "PL",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Вторичный источник (WebFetch, статьи History of Warsaw/Łódź/Kraków/Gdańsk, Free City of Danzig и др.); confidence: medium."
+  },
+  {
+   "source_id": "pl_sejm_eli",
+   "name": "Sejm RP — API ELI (метаданные актов Dziennik Ustaw)",
+   "publisher": "Kancelaria Sejmu RP",
+   "country": "PL",
+   "url": "https://api.sejm.gov.pl/eli/",
+   "historical_coverage": {
+    "from": 1918,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "law",
+    "family_law",
+    "administrative_divisions"
+   ],
+   "access_method": "api",
+   "bulk_download": false,
+   "license": "Открытые данные Сейма; тексты актов — официальные документы, не охраняются авторским правом (art. 4 ustawy o prawie autorskim)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Использованы только метаданные: название акта, дата, дата вступления в силу. Содержание статей по метаданным не проверяется."
+  },
+  {
+   "source_id": "pl_isap",
+   "name": "ISAP — Internetowy System Aktów Prawnych",
+   "publisher": "Kancelaria Sejmu RP",
+   "country": "PL",
+   "url": "https://isap.sejm.gov.pl/",
+   "historical_coverage": {
+    "from": 1918,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "law"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Официальные документы",
+   "attribution_required": true,
+   "access_restrictions": [
+    "CAPTCHA"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Страницы DocDetails при запросе выдали CAPTCHA (проверка человеком); не обходилась. Вместо этого использовано API ELI."
+  },
+  {
+   "source_id": "pl_britannica",
+   "name": "Encyclopaedia Britannica",
+   "publisher": "Encyclopaedia Britannica, Inc.",
+   "country": "PL",
+   "url": "https://www.britannica.com/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Proprietary",
+   "attribution_required": true,
+   "access_restrictions": [
+    "HTTP 403 для автоматического доступа"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Запрос статьи Gdansk вернул HTTP 403."
+  },
+  {
+   "source_id": "pl_mpw",
+   "name": "Muzeum Powstania Warszawskiego",
+   "publisher": "Muzeum Powstania Warszawskiego (instytucja kultury m.st. Warszawy)",
+   "country": "PL",
+   "url": "https://www.1944.pl/",
+   "historical_coverage": {
+    "from": 1939,
+    "to": 1945
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "war",
+    "warsaw_uprising"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта музея; тексты охраняются авторским правом",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Страница «Powstanie Warszawskie» содержит в основном календарь и биограммы; дата начала 1.08.1944 подтверждена, итоговые цифры потерь на этой странице не найдены."
+  },
+  {
+   "source_id": "pl_ecs",
+   "name": "Europejskie Centrum Solidarności",
+   "publisher": "Europejskie Centrum Solidarności, Gdańsk",
+   "country": "PL",
+   "url": "https://ecs.gda.pl/",
+   "historical_coverage": {
+    "from": 1945,
+    "to": 1989
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "labor",
+    "political_change"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта ECS; тексты охраняются авторским правом",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Описания разделов постоянной экспозиции (залы B–D): декабрь 1970, Август 1980, военное положение."
+  },
+  {
+   "source_id": "pl_gus",
+   "name": "Główny Urząd Statystyczny (GUS)",
+   "publisher": "Główny Urząd Statystyczny",
+   "country": "PL",
+   "url": "https://stat.gov.pl/",
+   "historical_coverage": {
+    "from": 1946,
+    "to": 2024
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "demography",
+    "marriage",
+    "fertility",
+    "life_expectancy",
+    "migration"
+   ],
+   "access_method": "bulk_download",
+   "bulk_download": true,
+   "license": "Открытые данные GUS: разрешено использование с указанием источника",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Использованы «Rocznik Demograficzny 2024» (PDF и таблицы XLSX, публикация 26.11.2024): ряды 1946–2023 и таблицы за 1970–2023."
+  },
+  {
+   "source_id": "pl_ipn",
+   "name": "Instytut Pamięci Narodowej — portal «Przystanek Historia»",
+   "publisher": "Instytut Pamięci Narodowej",
+   "country": "PL",
+   "url": "https://przystanekhistoria.pl/",
+   "historical_coverage": {
+    "from": 1939,
+    "to": 1990
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "repression",
+    "migration"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия IPN; тексты охраняются авторским правом",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Статья Г. Хайко «Ekspatriacja» (20.02.2021): PUR, переселения 1944–1951. Чувствительные темы помечены sensitive. Основной сайт ipn.gov.pl отдельно не запрашивался."
+  },
+  {
+   "source_id": "pl_dzieje",
+   "name": "Dzieje.pl — portal historyczny",
+   "publisher": "Muzeum Historii Polski i Polska Agencja Prasowa",
+   "country": "PL",
+   "url": "https://dzieje.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history",
+    "consumer_life"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© PAP; тексты охраняются авторским правом",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Портал MHP/PAP; статья А. Завистовского (IPN) о распределении товаров в ПНР."
+  },
+  {
+   "source_id": "pl_dom_malarek",
+   "name": "Dom Malarek w Zalipiu — сайт",
+   "publisher": "Dom Malarek w Zalipiu (Gminny Ośrodek Kultury, gmina Olesno)",
+   "country": "PL",
+   "url": "http://dommalarek.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "folk_art",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта; текст Я. Платы охраняется авторским правом",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Страница «Zalipie»: статья Хикеля 1905, конкурс с 1948 (с 1965 в Залипье), краски на молоке до 1970-х."
+  },
+  {
+   "source_id": "pl_culture_pl",
+   "name": "Culture.pl",
+   "publisher": "Instytut Adama Mickiewicza",
+   "country": "PL",
+   "url": "https://culture.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Условия сайта",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Статья о Залипье вернула HTTP 403."
+  },
+  {
+   "source_id": "pl_muzeum_tarnow",
+   "name": "Muzeum Okręgowe w Tarnowie",
+   "publisher": "Muzeum Okręgowe w Tarnowie",
+   "country": "PL",
+   "url": "https://muzeum.tarnow.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "folk_art"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Условия сайта",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Предполагаемая страница филиала «Zagroda Felicji Curyłowej» вернула 404; не найдена."
+  },
+  {
+   "source_id": "pl_radio_krakow",
+   "name": "Radio Kraków",
+   "publisher": "Radio Kraków S.A. (региональное общественное радио)",
+   "country": "PL",
+   "url": "https://www.radiokrakow.pl/",
+   "historical_coverage": {
+    "from": 2015,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "environment",
+    "local_news"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта; материал с пометкой PAP",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Новость о вступлении в силу запрета отопления углём и дровами 1.09.2019."
+  },
+  {
+   "source_id": "pl_gus_bdl",
+   "name": "GUS — Bank Danych Lokalnych (API)",
+   "publisher": "Główny Urząd Statystyczny",
+   "country": "PL",
+   "url": "https://bdl.stat.gov.pl/",
+   "historical_coverage": {
+    "from": 1995,
+    "to": 2024
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "demography",
+    "labour_market"
+   ],
+   "access_method": "api",
+   "bulk_download": true,
+   "license": "Открытые данные GUS, использование с указанием источника",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "API v1 (без ключа, с ограничением частоты): численность населения (72305) и регистрируемая безработица (60270) для городов-повятов и гмины Олесно."
+  },
+  {
+   "source_id": "pl_pwn",
+   "name": "Encyklopedia PWN",
+   "publisher": "Wydawnictwo Naukowe PWN",
+   "country": "PL",
+   "url": "https://encyklopedia.pwn.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "encyclopedia"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Proprietary",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "Страница поиска вернула «Serwis Nieaktywny»; статьи не открылись."
+  },
+  {
+   "source_id": "pl_polona",
+   "name": "Polona",
+   "publisher": "Biblioteka Narodowa",
+   "country": "PL",
+   "url": "https://polona.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "digitised_library"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Разные: общественное достояние и охраняемые объекты",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Сайт доступен (HTTP 200), но в этой сессии материалы не извлекались — нужен ручной поиск по сканам (статистические ежегодники, прессa)."
+  },
+  {
+   "source_id": "pl_szukajwarchiwach",
+   "name": "Szukaj w Archiwach",
+   "publisher": "Naczelna Dyrekcja Archiwów Państwowych",
+   "country": "PL",
+   "url": "https://www.szukajwarchiwach.gov.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "archives"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия архивов; персональные данные",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Открыт официальный каталог государственных архивов с актами, картами, фотографиями, фильмами и звукозаписями. В игре используется ссылка на каталог; персональные записи и сканы не копируются."
+  },
+  {
+   "source_id": "pl_fbc",
+   "name": "Federacja Bibliotek Cyfrowych",
+   "publisher": "PCSS / Poznańskie Centrum Superkomputerowo-Sieciowe",
+   "country": "PL",
+   "url": "https://fbc.pionier.net.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "digitised_library"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Разные",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Сайт доступен, не использован."
+  },
+  {
+   "source_id": "pl_nac",
+   "name": "Narodowe Archiwum Cyfrowe",
+   "publisher": "Narodowe Archiwum Cyfrowe",
+   "country": "PL",
+   "url": "https://www.nac.gov.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "photographs",
+    "audiovisual"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Разные; изображения не копировать",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Открыт официальный сайт и описание цифрового фонда. В игре используется ссылка на архив; фотографии и другие материалы не воспроизводятся."
+  },
+  {
+   "source_id": "pl_ipn_main",
+   "name": "Instytut Pamięci Narodowej — ipn.gov.pl",
+   "publisher": "Instytut Pamięci Narodowej",
+   "country": "PL",
+   "url": "https://ipn.gov.pl/",
+   "historical_coverage": {
+    "from": 1939,
+    "to": 1990
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "repression"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия IPN",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Главный сайт доступен; использован только портал przystanekhistoria.pl (pl_ipn)."
+  },
+  {
+   "source_id": "pl_muzhp",
+   "name": "Muzeum Historii Polski",
+   "publisher": "Muzeum Historii Polski",
+   "country": "PL",
+   "url": "https://muzhp.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия музея",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Главный сайт доступен; использован портал dzieje.pl (pl_dzieje)."
+  }
+ ]
+}

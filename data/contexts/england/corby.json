@@ -1,0 +1,96 @@
+{
+ "records": [
+  {
+   "id": "gb-ctx-corby-scottish-town",
+   "country_code": "GB",
+   "location_id": "gb-corby",
+   "period_start": 1931,
+   "period_end": 2021,
+   "context_type": "migration",
+   "attribute": "internal_migration",
+   "title": "«Маленькая Шотландия»",
+   "description": "Сталелитейный завод превратил посёлок примерно в 1500 жителей (1931) в город: 12 тыс. в 1939 г., 18 тыс. в 1950 г., 61 255 в районе в 2011 г. По переписи 2001 г. 18,9% жителей городской зоны родились в Шотландии; в городе были шотландские церкви и клубы, последняя служба в церкви Шотландии Св. Андрея прошла в 2023 г.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1500,
+     "unit": "человек (около)",
+     "year": 1931,
+     "area_id": "gb-corby",
+     "population": "Корби",
+     "method_note": "по вторичному источнику",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 18000,
+     "unit": "человек (около)",
+     "year": 1950,
+     "area_id": "gb-corby",
+     "population": "Корби",
+     "method_note": "по вторичному источнику",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "scottish_born_share",
+     "value": 18.9,
+     "unit": "% жителей",
+     "year": 2001,
+     "area_id": "gb-corby",
+     "population": "городская зона Корби",
+     "method_note": "перепись 2001",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Corby",
+     "accessed": "2026-10-29",
+     "supports": "население 1931–2011, 18,9% уроженцев Шотландии, St Andrew's 2023"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-corby-1980s-unemployment",
+   "country_code": "GB",
+   "location_id": "gb-corby",
+   "period_start": 1979,
+   "period_end": 1991,
+   "context_type": "work",
+   "attribute": "unemployment",
+   "title": "Корби после закрытия завода",
+   "description": "После решения 1979 г. о закрытии сталеплавильного производства к концу 1981 г. исчезло более 5 тыс. рабочих мест, затем около 11 тыс.; безработица в городе превысила 30%. Зона предпринимательства привлекла новые фирмы, и к 1991 г. безработица вернулась к среднему по стране уровню.",
+   "statistics": [
+    {
+     "indicator": "unemployment_rate",
+     "value": 30,
+     "unit": "% (более)",
+     "year": 1981,
+     "area_id": "gb-corby",
+     "population": "экономически активные жители Корби",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Corby",
+     "accessed": "2026-10-29",
+     "supports": "потери мест, >30%, 1991"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

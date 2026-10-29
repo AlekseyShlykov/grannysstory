@@ -1,0 +1,256 @@
+{
+ "records": [
+  {
+   "id": "us-wayne-1913-highland-park-assembly-line",
+   "title": "Конвейер на заводе Ford в Хайленд-Парке",
+   "start_date": "1913",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-mi-wayne"
+   ],
+   "category": "technology",
+   "historical_summary": "Завод Ford в Хайленд-Парке, анклаве внутри Детройта, открылся 1 января 1910 г.; в 1913 г. здесь впервые стали собирать автомобили на движущемся конвейере. Модель T собирали за полтора часа, её цена упала с 825 долл. в 1908 г. до 260 долл. к 1925 г.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "father_on_the_line",
+    "first_car_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical",
+    "us_ford"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-highland-park-plant",
+     "accessed": "2026-10-29",
+     "supports": "открытие 1910, конвейер 1913"
+    },
+    {
+     "source_id": "us_ford",
+     "url": "https://corporate.ford.com/articles/history/moving-assembly-line/",
+     "accessed": "2026-10-29",
+     "supports": "90 минут, цены Model T 1908–1925"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-wayne-1914-five-dollar-day",
+   "title": "«Пятидолларовый день» на заводах Ford",
+   "start_date": "1914",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-mi-wayne"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1914 г. Ford начал платить 5 долл. за восьмичасовой рабочий день — примерно вдвое больше прежнего; сотни тысяч людей потянулись в Детройт за работой.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "decision_to_move",
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "family_moved_for_ford_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-highland-park-plant",
+     "accessed": "2026-10-29",
+     "supports": "1914 пять долларов за 8-часовой день"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-wayne-1928-rouge-complex",
+   "title": "Завершение комплекса Ford River Rouge в Дирборне",
+   "start_date": "1928",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-mi-wayne"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Строительство комплекса Ford River Rouge в Дирборне началось в 1918 г. и завершилось в 1928 г.: 93 здания и более 90 миль внутренних железных дорог; Model T собирали в Хайленд-Парке до 1927 г.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "worked_at_the_rouge"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-rouge-complex",
+     "accessed": "2026-10-29",
+     "supports": "1918 начало, 1928 завершение, масштаб"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-highland-park-plant",
+     "accessed": "2026-10-29",
+     "supports": "Model T в Хайленд-Парке до 1927"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-wayne-1937-battle-of-the-overpass",
+   "title": "«Битва на эстакаде» у завода Rouge",
+   "start_date": "1937",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-mi-wayne"
+   ],
+   "category": "labor",
+   "subcategory": "union_conflict",
+   "historical_summary": "В 1937 г. у завода River Rouge охрана Ford под командой Гарри Беннета избила профсоюзных организаторов, в том числе Уолтера Рейтера.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "union_fear_at_ford"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-rouge-complex",
+     "accessed": "2026-10-29",
+     "supports": "1937 Battle of the Overpass"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-wayne-1974-highland-park-plant-closes",
+   "title": "Прекращение производства на заводе Ford в Хайленд-Парке",
+   "start_date": "1974",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-mi-wayne"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1974 г. полностью прекратилось производство на старом заводе Ford в Хайленд-Парке; в годы Второй мировой там делали танки и детали авиадвигателей.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-highland-park-plant",
+     "accessed": "2026-10-29",
+     "supports": "1974 all production ceased; WWII"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-wayne-1997-rouge-explosion",
+   "title": "Взрыв на электростанции завода Rouge",
+   "start_date": "1997",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-mi-wayne"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1997 г., вскоре после начала модернизации, взрыв на электростанции комплекса Rouge убил шестерых рабочих; в 2004 г. им поставили памятник.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-rouge-complex",
+     "accessed": "2026-10-29",
+     "supports": "1997 explosion six workers"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

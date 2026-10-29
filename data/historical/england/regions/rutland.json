@@ -1,0 +1,406 @@
+{
+ "records": [
+  {
+   "id": "gb-rutland-1938-mallard",
+   "title": "Рекорд «Малларда» у Эссендайна",
+   "start_date": "1938-07-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "technology",
+   "historical_summary": "Паровоз Mallard установил мировой рекорд скорости для паровой тяги (125,55 миль/ч) на линии у Эссендайна.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "дата и скорость"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1963-merger-dropped",
+   "title": "Слияние Ратленда с Лестерширом отменено",
+   "start_date": "1963-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Министр Кит Джозеф объявил, что предложенное слияние Ратленда с Лестерширом не состоится.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "дата объявления"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1971-rutland-water",
+   "title": "Строительство водохранилища Ратленд-Уотер",
+   "start_date": "1971",
+   "end_date": "1975",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Началось строительство водохранилища Empingham (Ратленд-Уотер), завершённое в 1975 г.; заполнение заняло ещё четыре года. На момент постройки оно описывалось как крупнейшее искусственное озеро Европы.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "1971–1975 строительство, 4 года заполнения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1974-district-of-leicestershire",
+   "title": "Ратленд стал районом Лестершира",
+   "start_date": "1974-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "По Local Government Act 1972 Ратленд утратил статус графства и стал неметрополитенским районом Лестершира.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "дата и закон"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1976-reservoir-flooded",
+   "title": "Ратленд-Уотер заполнили водой",
+   "start_date": "1976",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Водохранилище впервые наполнили в 1976 г.; деревня Низер-Хамблтон и большая часть Мидл-Хамблтона были снесены, церковь Нормантона оказалась у воды и сохранена как музей.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "home_lost",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "village_under_water"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland_Water",
+     "accessed": "2026-10-29",
+     "supports": "1976 первое заполнение, снос деревень, церковь Нормантона"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1996-ospreys",
+   "title": "Возвращение скоп",
+   "start_date": "1996",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "environment",
+   "historical_summary": "На Ратленд-Уотер реинтродуцировали скоп; к 2021 г. в окрестностях жили 26 птиц, водохранилище стало местом наблюдения за птицами и отдыха.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland_Water",
+     "accessed": "2026-10-29",
+     "supports": "1996 скопы, 26 к 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1997-ruddles-closed",
+   "title": "Закрыта пивоварня Ruddles",
+   "start_date": "1997",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Закрылась пивоварня Ruddles в Лэнгеме.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "год закрытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-1997-unitary-authority",
+   "title": "Ратленд снова самостоятелен",
+   "start_date": "1997-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Совет графства Ратленд стал унитарной властью; полиция и пожарная служба остались общими с Лестерширом и Лестером.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-2009-oakham-london-train",
+   "title": "Прямой поезд из Окема в Лондон",
+   "start_date": "2009-04-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "East Midlands Trains пустила ежедневный поезд из Окема в Лондон (Сент-Панкрас) через Корби.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-2011-ashwell-prison-closed",
+   "title": "Закрыта тюрьма Эшвелл",
+   "start_date": "2011-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В конце марта 2011 г. закрылась тюрьма HMP Ashwell.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "конец марта 2011"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-rutland-2020-first-mcdonalds",
+   "title": "Первый «Макдоналдс» в Ратленде",
+   "start_date": "2020-11-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-rutland"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "В графстве открылся первый ресторан McDonald's; разрешение на строительство дали в январе 2020 г.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rutland",
+     "accessed": "2026-10-29",
+     "supports": "даты"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,535 @@
+{
+ "locations": [
+  {
+   "id": "gb-county-of-london",
+   "type": "county",
+   "country": "GB",
+   "wikidata": "Q1137312",
+   "codes": {},
+   "names": [
+    {
+     "name": "County of London",
+     "lang": "en",
+     "from": "1889",
+     "to": "1965-03-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Графство Лондон",
+     "locative": "в графстве Лондон",
+     "from": "1889",
+     "to": "1965-03-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": null,
+     "to": "1965-03-31"
+    }
+   ],
+   "sovereignty_note": "Административное графство, созданное Local Government Act 1888 (действовало с 1889); упразднено 1 апреля 1965 г. при создании Большого Лондона.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ],
+   "valid_to": "1965-03-31"
+  },
+  {
+   "id": "gb-greater-london",
+   "type": "county",
+   "country": "GB",
+   "wikidata": "Q23306",
+   "codes": {},
+   "names": [
+    {
+     "name": "Greater London",
+     "lang": "en",
+     "from": "1965-04-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Большой Лондон",
+     "locative": "в Большом Лондоне",
+     "from": "1965-04-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": "1965-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Административная область, созданная London Government Act 1963 с 1 апреля 1965 г. Совет Большого Лондона (GLC) упразднён 31 марта 1986 г.; Greater London Authority с 3 июля 2000 г.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ],
+   "valid_from": "1965-04-01"
+  },
+  {
+   "id": "gb-london",
+   "type": "city",
+   "country": "GB",
+   "wikidata": "Q84",
+   "codes": {},
+   "settlement_class": "capital",
+   "names": [
+    {
+     "name": "London",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лондон",
+     "locative": "в Лондоне",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-county-of-london",
+     "from": null,
+     "to": "1965-03-31"
+    },
+    {
+     "id": "gb-greater-london",
+     "from": "1965-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Узел обозначает Лондон в границах графства Лондон (до 31.03.1965), затем в границах Большого Лондона (более широкая территория).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-lancashire",
+   "type": "county",
+   "country": "GB",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Lancashire",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Ланкашир",
+     "locative": "в Ланкашире",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Графство; до 1974 г. Манчестер как county borough был вне ведения совета графства, но географически в Ланкашире.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-greater-manchester",
+   "type": "metropolitan_county",
+   "country": "GB",
+   "wikidata": "Q23099",
+   "codes": {
+    "gss": "E11000001"
+   },
+   "names": [
+    {
+     "name": "Greater Manchester",
+     "lang": "en",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Большой Манчестер",
+     "locative": "в Большом Манчестере",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Метрополитенское графство с 1 апреля 1974 г. (Local Government Act 1972); совет графства упразднён 31 марта 1986 г. (Local Government Act 1985), графство сохраняется как территория.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ],
+   "valid_from": "1974-04-01"
+  },
+  {
+   "id": "gb-manchester",
+   "type": "city",
+   "country": "GB",
+   "wikidata": "Q18125",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Manchester",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Манчестер",
+     "locative": "в Манчестере",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-lancashire",
+     "from": null,
+     "to": "1974-03-31"
+    },
+    {
+     "id": "gb-greater-manchester",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-warwickshire",
+   "type": "county",
+   "country": "GB",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Warwickshire",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Уорикшир",
+     "locative": "в Уорикшире",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-west-midlands",
+   "type": "metropolitan_county",
+   "country": "GB",
+   "wikidata": "Q23124",
+   "codes": {
+    "gss": "E11000005"
+   },
+   "names": [
+    {
+     "name": "West Midlands",
+     "lang": "en",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Уэст-Мидлендс",
+     "locative": "в графстве Уэст-Мидлендс",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Метрополитенское графство с 1 апреля 1974 г. (из частей Уорикшира, Стаффордшира и Вустершира); совет графства упразднён 31 марта 1986 г.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ],
+   "valid_from": "1974-04-01"
+  },
+  {
+   "id": "gb-birmingham",
+   "type": "city",
+   "country": "GB",
+   "wikidata": "Q2256",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Birmingham",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Бирмингем",
+     "locative": "в Бирмингеме",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-warwickshire",
+     "from": null,
+     "to": "1974-03-31"
+    },
+    {
+     "id": "gb-west-midlands",
+     "from": "1974-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-northamptonshire",
+   "type": "county",
+   "country": "GB",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Northamptonshire",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Нортгемптоншир",
+     "locative": "в Нортгемптоншире",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "С 1 апреля 2021 г. совет графства заменён унитарными властями North и West Northamptonshire; графство сохраняется как церемониальное.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-corby",
+   "type": "town",
+   "country": "GB",
+   "wikidata": "Q994925",
+   "codes": {},
+   "settlement_class": "small_town",
+   "names": [
+    {
+     "name": "Corby",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Корби",
+     "locative": "в Корби",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-northamptonshire",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Приход в Kettering Rural District до 1939 г., затем Corby Urban District; с 1974 — район (district) Корби; с 1.04.2021 в North Northamptonshire. Новый город (New Town) с 1950 г.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-leicestershire",
+   "type": "county",
+   "country": "GB",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Leicestershire",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лестершир",
+     "locative": "в Лестершире",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  },
+  {
+   "id": "gb-rutland",
+   "type": "county",
+   "country": "GB",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Rutland",
+     "lang": "en",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Ратленд",
+     "locative": "в Ратленде",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "gb-eng",
+     "from": null,
+     "to": "1974-03-31"
+    },
+    {
+     "id": "gb-leicestershire",
+     "from": "1974-04-01",
+     "to": "1997-03-31"
+    },
+    {
+     "id": "gb-eng",
+     "from": "1997-04-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Сельское графство; с 1.04.1974 по 31.03.1997 — район (district) в составе Лестершира, с 1.04.1997 — унитарная власть. Центр — Окем (Oakham).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "gb_wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1013 @@
+{
+ "records": [
+  {
+   "id": "pl-gdansk-1920-free-city",
+   "title": "Учреждение Вольного города Данцига",
+   "start_date": "1920-11-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "По статье 100 Версальского договора Данциг отделён от Германии и 15 ноября 1920 г. стал Вольным городом под надзором Лиги Наций, в таможенном союзе с Польшей; Польша вела его внешнюю политику, железные дороги и почту.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [
+    "border_at_the_city_edge"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "15.11.1920 учреждение по ст. 100; таможенный союз, внешняя политика, железные дороги и почта у Польши"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1923-census",
+   "title": "Перепись Вольного города 1923 года",
+   "start_date": "1923",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "По переписи 1923 г. в Вольном городе жили 366 730 человек; 95% назвали родным языком немецкий, около 3,3% — польский, кашубский или мазурский.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "перепись 1923: 366 730, 95,03% немцы, 3,28% польский/кашубский"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1925-westerplatte",
+   "title": "Польская военная станция на Вестерплатте",
+   "start_date": "1925-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В декабре 1925 г. Лига Наций согласилась на размещение на Вестерплатте польской охраны из 88 человек при польском военном складе.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "декабрь 1925: 88-человек гарнизон"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1932-gdynia-overtakes",
+   "title": "Гдыня обгоняет Данциг по грузообороту",
+   "start_date": "1932-05",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Польша с 1921 г. строила порт в Гдыне на своём побережье; в мае 1932 г. её внешнеторговый оборот превысил оборот Данцига, через который прежде шёл почти весь польский экспорт.",
+   "affected_groups": [
+    "dock_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "port_work_moves_to_gdynia"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "Гдыня с 1921; май 1932 обогнала Данциг; прежде почти весь экспорт через Данциг"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1933-nazi-majority",
+   "title": "Нацисты получают большинство в Данциге",
+   "start_date": "1933-05",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "political_change",
+   "historical_summary": "На выборах в фольксваг в мае 1933 г. национал-социалисты получили абсолютное большинство.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities",
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "май 1933 абсолютное большинство на выборах"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1939-westerplatte",
+   "title": "Бой за Вестерплатте и аннексия Данцига",
+   "start_date": "1939-09-01",
+   "end_date": "1939-09-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "1 сентября 1939 г. германское нападение на польскую станцию Вестерплатте стало началом Второй мировой войны; гарнизон сдался после семи дней боёв. 2 сентября Германия аннексировала Вольный город, в октябре он включён в рейхсгау Данциг — Западная Пруссия.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_day_of_war"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "1.09 Вестерплатте, семь дней; 2.09 аннексия; октябрь — рейхсгау"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "23.08.1939 сенат проголосовал за воссоединение с Германией"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1945-ruins",
+   "title": "Разрушенный центр Гданьска",
+   "start_date": "1945-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "К концу войны около 90% центра Гданьска лежало в руинах; население упало примерно с 250 тыс. (1939) до 118 тыс. (1946).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "arrived_in_ruined_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "~90% центра разрушено"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "население 1939 250 000; 1946 118 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1945-capture",
+   "title": "Взятие Данцига и польская администрация",
+   "start_date": "1945-03-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В марте 1945 г. советские и польские войска взяли разрушенный город; 30 марта 1945 г. создана польская администрация. Решение о передаче города Польше было принято в Ялте и подтверждено в Потсдаме.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "arrived_in_ruined_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "март 1945, 30.03 польская администрация, Ялта/Потсдам"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "30.03.1945 взятие Красной армией"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1945-expulsion-of-germans",
+   "title": "Выселение немецкого населения Гданьска",
+   "start_date": "1945-07",
+   "end_date": "1947",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "migration",
+   "historical_summary": "С июля 1945 г. началась депортация немецкого населения города; в июне 1945 г. в нём оставались 124 тыс. немцев и 8 тыс. поляков, к 1947 г. выселено более 126 тыс. данцигских немцев.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "took_over_german_flat"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "июнь 1945: 124 тыс. немцев, 8 тыс. поляков; июль 1945 начало депортации"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "к 1947 выселено 126 472"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1946-inka-execution",
+   "title": "Казнь Данюты Седзиковны «Инки»",
+   "start_date": "1946",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1946 г. в гданьской тюрьме коммунистические власти казнили участницу подполья 17-летнюю Данюту Седзиковну и Феликса Сельмановича; их останки найдены в 2014 г., в 2016 г. их торжественно похоронили.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "1946 казнь; 2014 найдены; 2016 похороны"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1947-shipyard",
+   "title": "Создание Гданьской верфи",
+   "start_date": "1947",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1947 г. из верфей №1 и №2 на месте бывших немецких верфей создана Гданьская верфь; в 1948 г. спущено первое послевоенное морское судно «Солдек». 15 апреля 1967 г. верфь получила имя Ленина.",
+   "affected_groups": [
+    "industrial_workers",
+    "dock_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Stocznia_Gdańska",
+     "accessed": "2026-10-29",
+     "supports": "1947 создание; 1948 «Sołdek»; 15.04.1967 имени Ленина"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1948-new-settlers",
+   "title": "Гданьск заселяют переселенцы",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "migration",
+   "historical_summary": "К 1948 г. в Гданьске жили около 150 тыс. человек, более двух третей — выходцы из центральной Польши; к декабрю 1950 г. не менее 85% жителей были послевоенными новосёлами.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [
+    "new_home_after_move"
+   ],
+   "narrative_hooks": [
+    "family_arrived_after_war"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "к 1948: ~150 тыс., >2/3 из центральной Польши"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "декабрь 1950: ≥85% новосёлы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1949-greek-refugees",
+   "title": "Греческие беженцы в порту Гданьска",
+   "start_date": "1949",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1949 г. в гданьский порт пришли четыре транспорта беженцев из Греции и Македонии после гражданской войны; их расселили по Польше.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "1949 four transports Greek/Macedonian refugees"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1952-main-town-reconstruction",
+   "title": "Восстановление Главного города",
+   "start_date": "1952",
+   "end_date": "1969",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "С 1952 г. до конца 1960-х гг. восстанавливался исторический центр Гданьска, разрушенный в 1945 г.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "1952 – конец 1960-х восстановление центра"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1970-december",
+   "title": "Декабрь 1970 года на Побережье",
+   "start_date": "1970-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "repression",
+   "historical_summary": "В декабре 1970 г. протесты рабочих против повышения цен на Балтийском побережье (Гданьск, Гдыня, Щецин) были подавлены; по данным Европейского центра Солидарности, от пуль милиции погибли 45 человек.",
+   "affected_groups": [
+    "industrial_workers",
+    "dock_workers"
+   ],
+   "potential_impacts": [
+    "loss_of_relative"
+   ],
+   "narrative_hooks": [
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_ecs",
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_ecs",
+     "url": "https://ecs.gda.pl/wystawa-stala/#segment_b",
+     "accessed": "2026-10-29",
+     "supports": "декабрь 1970: 45 погибших на Побережье"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "декабрь 1970 протесты в Гданьске, Гдыне, Щецине"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-gdansk-1980-august-strike",
+   "title": "Августовская забастовка и Августовские соглашения",
+   "start_date": "1980-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "labor",
+   "historical_summary": "В августе 1980 г. забастовки в Гданьске завершились Августовскими соглашениями, которые позволили создать независимый массовый профсоюз «Солидарность»; в него вступили около 10 млн человек.",
+   "affected_groups": [
+    "industrial_workers",
+    "dock_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "joined_solidarity",
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_ecs"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_ecs",
+     "url": "https://ecs.gda.pl/wystawa-stala/#segment_c",
+     "accessed": "2026-10-29",
+     "supports": "Августовские соглашения 1980, ~10 млн членов «Солидарности»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-gdansk-1980-gdansk-agreement",
+   "title": "Подписание Гданьского соглашения",
+   "start_date": "1980-08-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "political_change",
+   "historical_summary": "31 августа 1980 г. на Гданьской верфи подписано соглашение бастующих с правительством; забастовка на верфи переросла в общенациональный протест, из неё выросла «Солидарность».",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "joined_solidarity"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Stocznia_Gdańska",
+     "accessed": "2026-10-29",
+     "supports": "31.08.1980 Porozumienia Gdańskie на верфи"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1981-solidarity-congress",
+   "title": "Первый съезд «Солидарности» в Олива-холле",
+   "start_date": "1981-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "political_change",
+   "historical_summary": "В сентябре 1981 г. в гданьском зале «Оливия» прошёл первый общенациональный съезд «Солидарности».",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "сентябрь 1981 Hala Olivia"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1988-shipyard-liquidation",
+   "title": "Решение о ликвидации Гданьской верфи",
+   "start_date": "1988-11-01",
+   "end_date": "1996-08-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "1 ноября 1988 г. правительство постановило ликвидировать Гданьскую верфь, несмотря на её хорошие экономические показатели; в 1990 г. она стала акционерным обществом, 8 августа 1996 г. объявлена банкротом.",
+   "affected_groups": [
+    "industrial_workers",
+    "dock_workers",
+    "unemployed"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "shipyard_closure"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Stocznia_Gdańska",
+     "accessed": "2026-10-29",
+     "supports": "1.11.1988 ликвидация; 1990 АО; 8.08.1996 банкротство"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1989-shipbuilding-decline",
+   "title": "Упадок судостроения после 1989 года",
+   "start_date": "1989",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "После падения коммунизма город столкнулся с бедностью и безработицей, большая часть судостроения закрылась.",
+   "affected_groups": [
+    "industrial_workers",
+    "dock_workers",
+    "unemployed"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "shipyard_closure"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "после 1989 бедность, безработица, закрытие большей части судостроения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-1994-shipyard-hall-fire",
+   "title": "Пожар в зале Гданьской верфи",
+   "start_date": "1994-11-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "disaster",
+   "historical_summary": "24 ноября 1994 г. во время концерта в зале верфи вспыхнул пожар: погибли 7 человек, 282 пострадали.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Stocznia_Gdańska",
+     "accessed": "2026-10-29",
+     "supports": "24.11.1994: 7 погибших, 282 пострадавших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-2001-flood",
+   "title": "Наводнение в Гданьске",
+   "start_date": "2001-07-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "disaster",
+   "historical_summary": "9 июля 2001 г. после ливня Гданьск пострадал от наводнения: 4 погибших, 304 эвакуированных, ущерб около 200 млн зл.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "9.07.2001: 4 погибших, 304 эвакуации, 200 млн зл"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-2012-euro",
+   "title": "Гданьск — город Евро-2012",
+   "start_date": "2012",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "sport",
+   "historical_summary": "Гданьск в 2009–2023 гг. принимал крупные международные соревнования, в том числе матчи чемпионата Европы по футболу 2012 г. (вместе с Варшавой).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "2009–2023 sports events incl. Euro 2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-2014-ecs",
+   "title": "Открыт Европейский центр Солидарности",
+   "start_date": "2014",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2014 г. рядом с исторической верфью открылся Европейский центр Солидарности; 10 декабря 2018 г. Гданьская верфь признана памятником истории.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "2014 ECS"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Stocznia_Gdańska",
+     "accessed": "2026-10-29",
+     "supports": "10.12.2018 pomnik historii"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-gdansk-2019-adamowicz",
+   "title": "Убийство мэра Павла Адамовича",
+   "start_date": "2019-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "category": "political_change",
+   "historical_summary": "В январе 2019 г. был убит мэр Гданьска Павел Адамович.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "January 2019"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

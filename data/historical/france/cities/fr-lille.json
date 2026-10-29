@@ -1,0 +1,813 @@
+{
+ "records": [
+  {
+   "id": "fr-lille-1909-grand-boulevard-tram",
+   "title": "Трамвай Гран-Бульвара",
+   "start_date": "1909",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1909 году начал работу трамвай по Гран-Бульвару, связавший Лилль с Рубе и Туркуэном.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1909: tramway du Grand Boulevard"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1914-siege",
+   "title": "Осада и обстрел Лилля",
+   "start_date": "1914-10-10",
+   "end_date": "1914-10-13",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "10–12 октября 1914 года германская артиллерия обстреливала Лилль; пожары уничтожили около 900 домов в квартале вокзала. 12–13 октября город сдался.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "burned_home",
+    "refugees"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Lille_(1914)",
+     "accessed": "2026-10-29",
+     "supports": "siège 11-12 octobre; 900 maisons détruites; 13 octobre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1914-occupation",
+   "title": "Германская оккупация Лилля в Первую мировую",
+   "start_date": "1914-10-13",
+   "end_date": "1918-10-17",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "occupation",
+   "historical_summary": "С октября 1914 по 17 октября 1918 года Лилль находился под германской оккупацией, с реквизициями и нехваткой продовольствия. 17 октября 1918 года город освободили британские войска.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "childhood_under_occupation",
+    "hunger"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Lille_(1914)",
+     "accessed": "2026-10-29",
+     "supports": "occupé jusqu'au 17 octobre 1918"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "occupation 12 octobre 1914 - 17 octobre 1918; libération par les Britanniques"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1916-dix-huit-ponts-explosion",
+   "title": "Взрыв склада боеприпасов «Восемнадцать мостов»",
+   "start_date": "1916-01-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "disaster",
+   "historical_summary": "11 января 1916 года взорвался германский склад боеприпасов «Dix-huit ponts»; погибли 104 мирных жителя.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "11 janvier 1916, 104 civils tués"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1916-deportation-women",
+   "title": "Угон женщин и девушек на работы на Пасху 1916 года",
+   "start_date": "1916-04",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "occupation",
+   "historical_summary": "На Пасху 1916 года оккупационные власти вывезли из Лилля на принудительные работы тысячи женщин и девушек.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "Pâques 1916: déportation de milliers de femmes et jeunes filles"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1921-bcg",
+   "title": "В Лилле создана вакцина БЦЖ",
+   "start_date": "1921",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "healthcare",
+   "historical_summary": "В 1921 году Кальметт и Герен в лилльском Институте Пастера разработали вакцину БЦЖ против туберкулёза.",
+   "affected_groups": [
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1921: BCG Calmette et Guérin, Institut Pasteur de Lille"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1925-first-fair",
+   "title": "Первая Лилльская ярмарка",
+   "start_date": "1925-04-10",
+   "end_date": "1925-04-26",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "С 10 по 26 апреля 1925 года прошла первая Лилльская ярмарка.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "outing_to_the_fair"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1925: première foire de Lille 10-26 avril"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1927-regional-radio",
+   "title": "Первый региональный радиопередатчик",
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В 1927 году в Лилле заработал первый во Франции региональный радиопередатчик за пределами Парижа.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_radio"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1927: premier émetteur régional de radio hors Paris"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1940-siege",
+   "title": "Окружение Лилля в мае 1940 года",
+   "start_date": "1940-05-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В конце мая 1940 года германские войска окружили Лилль; последние очаги сопротивления сдались 31 мая, бои унесли 174 жизни, в том числе 15 мирных жителей.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lille_pendant_la_Seconde_Guerre_mondiale",
+     "accessed": "2026-10-29",
+     "supports": "31 mai 1940; 1er juin défilé; 174 morts dont 15 civils"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1940-brussels-command",
+   "title": "Лилль подчинён германской военной администрации в Брюсселе",
+   "start_date": "1940-06",
+   "end_date": "1944-09-03",
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "occupation",
+   "historical_summary": "В 1940–1944 годах Лилль и департаменты Нор и Па-де-Кале были подчинены германской военной администрации Бельгии и Северной Франции с центром в Брюсселе, отдельно от остальной оккупированной Франции.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lille_pendant_la_Seconde_Guerre_mondiale",
+     "accessed": "2026-10-29",
+     "supports": "rattaché au commandement militaire de Bruxelles"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1944-liberation",
+   "title": "Освобождение Лилля",
+   "start_date": "1944-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "2 сентября 1944 года участники Сопротивления заняли цитадель, а 3 сентября британские танки вошли в город, окончательно освобождённый к вечеру.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "liberation_day_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lille_pendant_la_Seconde_Guerre_mondiale",
+     "accessed": "2026-10-29",
+     "supports": "2 septembre citadelle; 3 septembre libération définitive"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "chars britanniques 3 septembre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1947-lesquin-airport",
+   "title": "Аэропорт Лилль-Лескен открыт для гражданских рейсов",
+   "start_date": "1947",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1947 году аэропорт Лилль-Лескен открылся для гражданских перевозок.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1947: aéroport de Lille-Lesquin trafic civil"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1950-regional-tv",
+   "title": "Региональное телевидение из беффруа",
+   "start_date": "1950-04-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "media_communication",
+   "historical_summary": "25 апреля 1950 года из лилльской беффруа начались передачи регионального телевидения.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_seen"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "25 avril 1950: télévision régionale depuis le beffroi"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1962-printemps",
+   "title": "Открытие универмага Printemps",
+   "start_date": "1962-10-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "25 октября 1962 года в Лилле открылся универмаг Printemps.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "25 octobre 1962 Printemps"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1960s-textile-decline",
+   "title": "Упадок текстильной и машиностроительной промышленности",
+   "start_date": "1960",
+   "end_date": "1999",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С 1960-х годов текстильная и механическая промышленность Лилля пришла в упадок, начался долгий кризис; переход к сфере услуг и обновление кварталов развернулись в 1990-е.",
+   "affected_groups": [
+    "textile_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "mill_closure",
+    "job_loss"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lille",
+     "accessed": "2026-10-29",
+     "supports": "déclin des industries textiles et mécaniques à partir des années 1960"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1968-communaute-urbaine",
+   "title": "Создана Городская община Лилля",
+   "start_date": "1968",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1968 году создана Городская община Лилля, объединившая 85 коммун агломерации.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1968: communauté urbaine 85 communes"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1983-val-metro",
+   "title": "Автоматическое метро VAL",
+   "start_date": "1983",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1983 году в Лилле открыли первую линию автоматического метро VAL без машинистов.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "driverless_metro"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1983: VAL inauguré"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lille",
+     "accessed": "2026-10-29",
+     "supports": "métro automatique 1983"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-1993-tgv-nord",
+   "title": "TGV и Евростар приходят в Лилль",
+   "start_date": "1993",
+   "end_date": "1994",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1993 году открыта линия TGV Nord, в 1994 году через туннель под Ла-Маншем на вокзал Лилль-Европа пришёл Eurostar; тогда же открылись торговый центр Euralille, Лилль Гран-Пале и Зенит.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_to_london"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "1993 TGV-Nord; 1994 Eurostar Lille-Europe, Euralille, Grand Palais, Zénith"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-2004-capital-of-culture",
+   "title": "Лилль — культурная столица Европы",
+   "start_date": "2004",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2004 году Лилль был культурной столицей Европы.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_festival"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "2004 capitale européenne de la culture"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lille",
+     "accessed": "2026-10-29",
+     "supports": "Lille 2004"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-2005-belfry-unesco",
+   "title": "Беффруа Лилля в списке ЮНЕСКО",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2005 году беффруа лилльской ратуши внесена в список всемирного наследия ЮНЕСКО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "2005 beffroi UNESCO"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-lille-2000-lomme-association",
+   "title": "Ломм становится ассоциированной коммуной Лилля",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-lille"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Эллем в 1976 году и Ломм в 2000 году стали ассоциированными коммунами Лилля.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Lille",
+     "accessed": "2026-10-29",
+     "supports": "Hellemmes 1976, Lomme 2000 communes associées"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

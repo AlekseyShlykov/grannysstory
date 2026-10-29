@@ -1,0 +1,2073 @@
+{
+ "records": [
+  {
+   "id": "us-ctx-population-marietta",
+   "country_code": "US",
+   "location_id": "us-marietta",
+   "period_start": 1900,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Мариетты, 1900–2020",
+   "description": "Население Мариетты почти не менялось весь век: 13–17 тыс. человек, пик около 1970 г., затем медленное сокращение.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 13348,
+     "unit": "persons",
+     "year": 1900,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 15140,
+     "unit": "persons",
+     "year": 1920,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 14543,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 16847,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 16861,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 15026,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 14085,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 13385,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "us-marietta",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "население по переписям"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-ctx-population-holmes",
+   "country_code": "US",
+   "location_id": "us-oh-holmes",
+   "period_start": 1900,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население округа Холмс, 1900–2020",
+   "description": "Сельский округ Холмс терял жителей до 1930 г., а со второй половины века быстро рос (вдвое с 1960 по 2010 г.), во многом за счёт больших амишских семей.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 19511,
+     "unit": "persons",
+     "year": 1900,
+     "area_id": "us-oh-holmes",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 16726,
+     "unit": "persons",
+     "year": 1930,
+     "area_id": "us-oh-holmes",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 21591,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "us-oh-holmes",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 29416,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "us-oh-holmes",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 38943,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "us-oh-holmes",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 44223,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "us-oh-holmes",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Holmes_County,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "население по переписям"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-ctx-population-washington-oh",
+   "country_code": "US",
+   "location_id": "us-oh-washington",
+   "period_start": 1900,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население округа Вашингтон (Огайо), 1900–2020",
+   "description": "Население округа колебалось около 42–64 тыс.; рост 1960–1980 гг. сменился медленным спадом.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 48245,
+     "unit": "persons",
+     "year": 1900,
+     "area_id": "us-oh-washington",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 42437,
+     "unit": "persons",
+     "year": 1930,
+     "area_id": "us-oh-washington",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 51689,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "us-oh-washington",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 64266,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "us-oh-washington",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 63251,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "us-oh-washington",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 59771,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "us-oh-washington",
+     "population": "всё население в границах на дату переписи",
+     "method_note": "десятилетние переписи США (по таблице в статье)",
+     "source_id": "us_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Washington_County,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "население по переписям"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-ctx-amish-holmes",
+   "country_code": "US",
+   "location_id": "us-oh-holmes",
+   "period_start": 1900,
+   "period_end": 2024,
+   "context_type": "demography",
+   "attribute": "amish_population",
+   "title": "Амишская община округа Холмс",
+   "description": "Поселение амишей в округе Холмс и соседних округах — одно из двух крупнейших в мире: по оценке Young Center (Elizabethtown College) около 40 тыс. человек и 323 церковных округа в 2024 г. Около 2010 г. амиши составляли примерно 42% населения округа; у общины сотни собственных школ (более 200 в 2009 г.), обучение обычно заканчивается после 8-го класса.",
+   "statistics": [
+    {
+     "indicator": "amish_settlement_population",
+     "value": 40435,
+     "unit": "persons",
+     "year": 2024,
+     "area_id": "us-oh-holmes",
+     "population": "поселение Holmes County (выходит за границы округа)",
+     "method_note": "оценка Young Center по числу церковных округов",
+     "source_id": "us_young_center"
+    },
+    {
+     "indicator": "amish_share_of_population",
+     "value": 41.7,
+     "unit": "percent",
+     "year": 2010,
+     "area_id": "us-oh-holmes",
+     "population": "жители округа",
+     "method_note": "ARDA через Wikipedia",
+     "source_id": "us_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "us_young_center",
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_young_center",
+     "url": "https://groups.etown.edu/amishstudies/statistics/twelve-largest-settlements-2024/",
+     "accessed": "2026-10-29",
+     "supports": "население поселения 2024"
+    },
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Holmes_County,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "доля амишей 2010"
+    },
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
+     "accessed": "2026-10-29",
+     "supports": "более 200 приходских школ в 2009"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-ctx-homeownership-us-il",
+   "country_code": "US",
+   "location_id": "us-il",
+   "period_start": 1900,
+   "period_end": 2000,
+   "context_type": "housing",
+   "attribute": "homeownership_rate",
+   "title": "Доля домохозяйств-собственников: Иллинойс",
+   "description": "В Иллинойсе доля собственников жилья была ниже средней до войны (40,3% в 1940 г.) и превысила 60% только к 1980 г.",
+   "statistics": [
+    {
+     "indicator": "homeownership_rate",
+     "value": 45.0,
+     "unit": "percent of occupied housing units",
+     "year": 1900,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 44.1,
+     "unit": "percent of occupied housing units",
+     "year": 1910,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 43.8,
+     "unit": "percent of occupied housing units",
+     "year": 1920,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 46.5,
+     "unit": "percent of occupied housing units",
+     "year": 1930,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 40.3,
+     "unit": "percent of occupied housing units",
+     "year": 1940,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 50.1,
+     "unit": "percent of occupied housing units",
+     "year": 1950,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 57.8,
+     "unit": "percent of occupied housing units",
+     "year": 1960,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 59.4,
+     "unit": "percent of occupied housing units",
+     "year": 1970,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 62.6,
+     "unit": "percent of occupied housing units",
+     "year": 1980,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 64.2,
+     "unit": "percent of occupied housing units",
+     "year": 1990,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 67.3,
+     "unit": "percent of occupied housing units",
+     "year": 2000,
+     "area_id": "us-il",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-owner/owner-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли собственников по переписям 1900–2000"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-owner.html",
+     "accessed": "2026-10-29",
+     "supports": "пояснения к таблице"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-homeownership-us-mi",
+   "country_code": "US",
+   "location_id": "us-mi",
+   "period_start": 1900,
+   "period_end": 2000,
+   "context_type": "housing",
+   "attribute": "homeownership_rate",
+   "title": "Доля домохозяйств-собственников: Мичиган",
+   "description": "Мичиган всегда отличался высокой долей собственников жилья — более 50% уже в 1900 г. и около 74% в 1960–1970 гг.",
+   "statistics": [
+    {
+     "indicator": "homeownership_rate",
+     "value": 62.3,
+     "unit": "percent of occupied housing units",
+     "year": 1900,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 61.7,
+     "unit": "percent of occupied housing units",
+     "year": 1910,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 58.9,
+     "unit": "percent of occupied housing units",
+     "year": 1920,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 59.0,
+     "unit": "percent of occupied housing units",
+     "year": 1930,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 55.4,
+     "unit": "percent of occupied housing units",
+     "year": 1940,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 67.5,
+     "unit": "percent of occupied housing units",
+     "year": 1950,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 74.4,
+     "unit": "percent of occupied housing units",
+     "year": 1960,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 74.4,
+     "unit": "percent of occupied housing units",
+     "year": 1970,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 72.7,
+     "unit": "percent of occupied housing units",
+     "year": 1980,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 71.0,
+     "unit": "percent of occupied housing units",
+     "year": 1990,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 73.8,
+     "unit": "percent of occupied housing units",
+     "year": 2000,
+     "area_id": "us-mi",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-owner/owner-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли собственников по переписям 1900–2000"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-owner.html",
+     "accessed": "2026-10-29",
+     "supports": "пояснения к таблице"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-homeownership-us-ny",
+   "country_code": "US",
+   "location_id": "us-ny",
+   "period_start": 1900,
+   "period_end": 2000,
+   "context_type": "housing",
+   "attribute": "homeownership_rate",
+   "title": "Доля домохозяйств-собственников: штат Нью-Йорк",
+   "description": "Штат Нью-Йорк — штат арендаторов: доля собственников до 1990 г. оставалась ниже половины (30,3% в 1940 г.), большинство жителей Нью-Йорка снимали квартиры.",
+   "statistics": [
+    {
+     "indicator": "homeownership_rate",
+     "value": 33.2,
+     "unit": "percent of occupied housing units",
+     "year": 1900,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 31.0,
+     "unit": "percent of occupied housing units",
+     "year": 1910,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 30.7,
+     "unit": "percent of occupied housing units",
+     "year": 1920,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 37.1,
+     "unit": "percent of occupied housing units",
+     "year": 1930,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 30.3,
+     "unit": "percent of occupied housing units",
+     "year": 1940,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 37.9,
+     "unit": "percent of occupied housing units",
+     "year": 1950,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 44.8,
+     "unit": "percent of occupied housing units",
+     "year": 1960,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 47.3,
+     "unit": "percent of occupied housing units",
+     "year": 1970,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 48.6,
+     "unit": "percent of occupied housing units",
+     "year": 1980,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 52.2,
+     "unit": "percent of occupied housing units",
+     "year": 1990,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 53.0,
+     "unit": "percent of occupied housing units",
+     "year": 2000,
+     "area_id": "us-ny",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-owner/owner-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли собственников по переписям 1900–2000"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-owner.html",
+     "accessed": "2026-10-29",
+     "supports": "пояснения к таблице"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-homeownership-us-oh",
+   "country_code": "US",
+   "location_id": "us-oh",
+   "period_start": 1900,
+   "period_end": 2000,
+   "context_type": "housing",
+   "attribute": "homeownership_rate",
+   "title": "Доля домохозяйств-собственников: Огайо",
+   "description": "В Огайо доля собственников жилья выше средней по стране: около половины до войны и более двух третей с 1960 г.",
+   "statistics": [
+    {
+     "indicator": "homeownership_rate",
+     "value": 52.5,
+     "unit": "percent of occupied housing units",
+     "year": 1900,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 51.3,
+     "unit": "percent of occupied housing units",
+     "year": 1910,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 51.6,
+     "unit": "percent of occupied housing units",
+     "year": 1920,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 54.4,
+     "unit": "percent of occupied housing units",
+     "year": 1930,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 50.0,
+     "unit": "percent of occupied housing units",
+     "year": 1940,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 61.1,
+     "unit": "percent of occupied housing units",
+     "year": 1950,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 67.4,
+     "unit": "percent of occupied housing units",
+     "year": 1960,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 67.7,
+     "unit": "percent of occupied housing units",
+     "year": 1970,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 68.4,
+     "unit": "percent of occupied housing units",
+     "year": 1980,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 67.5,
+     "unit": "percent of occupied housing units",
+     "year": 1990,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 69.1,
+     "unit": "percent of occupied housing units",
+     "year": 2000,
+     "area_id": "us-oh",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-owner/owner-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли собственников по переписям 1900–2000"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-owner.html",
+     "accessed": "2026-10-29",
+     "supports": "пояснения к таблице"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-plumbing-us-il",
+   "country_code": "US",
+   "location_id": "us-il",
+   "period_start": 1940,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "lacking_complete_plumbing",
+   "title": "Жильё без полного водопровода и канализации: Иллинойс",
+   "description": "Доля жилья без полного водопровода и канализации (Иллинойс) по переписям 1940–1990 гг. Средние по штату скрывают разрыв между городом и сельской местностью.",
+   "statistics": [
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 36.2,
+     "unit": "percent of housing units",
+     "year": 1940,
+     "area_id": "us-il",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 31.7,
+     "unit": "percent of housing units",
+     "year": 1950,
+     "area_id": "us-il",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 13.4,
+     "unit": "percent of housing units",
+     "year": 1960,
+     "area_id": "us-il",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 4.8,
+     "unit": "percent of housing units",
+     "year": 1970,
+     "area_id": "us-il",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 2.0,
+     "unit": "percent of housing units",
+     "year": 1980,
+     "area_id": "us-il",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 0.7,
+     "unit": "percent of housing units",
+     "year": 1990,
+     "area_id": "us-il",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-plumbing/plumbing-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли жилья без полного водопровода 1940–1990"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-plumbing.html",
+     "accessed": "2026-10-29",
+     "supports": "определение полного водопровода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-plumbing-us-mi",
+   "country_code": "US",
+   "location_id": "us-mi",
+   "period_start": 1940,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "lacking_complete_plumbing",
+   "title": "Жильё без полного водопровода и канализации: Мичиган",
+   "description": "Доля жилья без полного водопровода и канализации (Мичиган) по переписям 1940–1990 гг. Средние по штату скрывают разрыв между городом и сельской местностью.",
+   "statistics": [
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 37.5,
+     "unit": "percent of housing units",
+     "year": 1940,
+     "area_id": "us-mi",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 28.0,
+     "unit": "percent of housing units",
+     "year": 1950,
+     "area_id": "us-mi",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 11.7,
+     "unit": "percent of housing units",
+     "year": 1960,
+     "area_id": "us-mi",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 4.4,
+     "unit": "percent of housing units",
+     "year": 1970,
+     "area_id": "us-mi",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 1.8,
+     "unit": "percent of housing units",
+     "year": 1980,
+     "area_id": "us-mi",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 0.8,
+     "unit": "percent of housing units",
+     "year": 1990,
+     "area_id": "us-mi",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-plumbing/plumbing-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли жилья без полного водопровода 1940–1990"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-plumbing.html",
+     "accessed": "2026-10-29",
+     "supports": "определение полного водопровода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-plumbing-us-ny",
+   "country_code": "US",
+   "location_id": "us-ny",
+   "period_start": 1940,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "lacking_complete_plumbing",
+   "title": "Жильё без полного водопровода и канализации: штат Нью-Йорк",
+   "description": "Доля жилья без полного водопровода и канализации (штат Нью-Йорк) по переписям 1940–1990 гг. Средние по штату скрывают разрыв между городом и сельской местностью.",
+   "statistics": [
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 17.8,
+     "unit": "percent of housing units",
+     "year": 1940,
+     "area_id": "us-ny",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 14.0,
+     "unit": "percent of housing units",
+     "year": 1950,
+     "area_id": "us-ny",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 8.0,
+     "unit": "percent of housing units",
+     "year": 1960,
+     "area_id": "us-ny",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 3.2,
+     "unit": "percent of housing units",
+     "year": 1970,
+     "area_id": "us-ny",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 2.9,
+     "unit": "percent of housing units",
+     "year": 1980,
+     "area_id": "us-ny",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 0.9,
+     "unit": "percent of housing units",
+     "year": 1990,
+     "area_id": "us-ny",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-plumbing/plumbing-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли жилья без полного водопровода 1940–1990"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-plumbing.html",
+     "accessed": "2026-10-29",
+     "supports": "определение полного водопровода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-plumbing-us-oh",
+   "country_code": "US",
+   "location_id": "us-oh",
+   "period_start": 1940,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "lacking_complete_plumbing",
+   "title": "Жильё без полного водопровода и канализации: Огайо",
+   "description": "Доля жилья без полного водопровода и канализации (Огайо) по переписям 1940–1990 гг. Средние по штату скрывают разрыв между городом и сельской местностью.",
+   "statistics": [
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 38.1,
+     "unit": "percent of housing units",
+     "year": 1940,
+     "area_id": "us-oh",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 28.9,
+     "unit": "percent of housing units",
+     "year": 1950,
+     "area_id": "us-oh",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 12.8,
+     "unit": "percent of housing units",
+     "year": 1960,
+     "area_id": "us-oh",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 5.2,
+     "unit": "percent of housing units",
+     "year": 1970,
+     "area_id": "us-oh",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 2.0,
+     "unit": "percent of housing units",
+     "year": 1980,
+     "area_id": "us-oh",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 0.8,
+     "unit": "percent of housing units",
+     "year": 1990,
+     "area_id": "us-oh",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-plumbing/plumbing-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли жилья без полного водопровода 1940–1990"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-plumbing.html",
+     "accessed": "2026-10-29",
+     "supports": "определение полного водопровода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-population-new-york-city",
+   "country_code": "US",
+   "location_id": "us-new-york-city",
+   "period_start": 1900,
+   "period_end": 1990,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население: Нью-Йорк, 1900–1990",
+   "description": "Население консолидированного Нью-Йорка выросло с 3,4 млн в 1900 г. до почти 7,9 млн к 1950 г., сократилось в 1970-е и снова росло после 1980 г.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 3437202,
+     "unit": "persons",
+     "year": 1900,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 4766883,
+     "unit": "persons",
+     "year": 1910,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 5620048,
+     "unit": "persons",
+     "year": 1920,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 6930446,
+     "unit": "persons",
+     "year": 1930,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 7454995,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 7891957,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 7781984,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 7894862,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 7071639,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 7322564,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "us-new-york-city",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/library/working-papers/1998/demo/POP-twps0027.html",
+     "accessed": "2026-10-29",
+     "supports": "рабочий документ POP-WP027 (Gibson 1998)"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab13.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1900"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab14.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1910"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab15.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1920"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab16.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1930"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab17.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1940"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab18.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1950"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab19.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1960"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab20.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1970"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab21.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1980"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab22.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-population-chicago",
+   "country_code": "US",
+   "location_id": "us-chicago",
+   "period_start": 1900,
+   "period_end": 1990,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население: Чикаго, 1900–1990",
+   "description": "Чикаго — второй город страны большую часть века: рост до пика 3,62 млн в 1950 г., затем отток в пригороды.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1698575,
+     "unit": "persons",
+     "year": 1900,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 2185283,
+     "unit": "persons",
+     "year": 1910,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 2701705,
+     "unit": "persons",
+     "year": 1920,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 3376438,
+     "unit": "persons",
+     "year": 1930,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 3396808,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 3620962,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 3550404,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 3366957,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 3005072,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 2783726,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "us-chicago",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/library/working-papers/1998/demo/POP-twps0027.html",
+     "accessed": "2026-10-29",
+     "supports": "рабочий документ POP-WP027 (Gibson 1998)"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab13.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1900"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab14.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1910"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab15.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1920"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab16.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1930"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab17.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1940"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab18.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1950"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab19.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1960"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab20.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1970"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab21.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1980"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab22.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-population-detroit",
+   "country_code": "US",
+   "location_id": "us-detroit",
+   "period_start": 1900,
+   "period_end": 1990,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население: Детройт, 1900–1990",
+   "description": "Автомобильный бум увеличил население Детройта в 6,5 раза за 1900–1950 гг. (с 286 тыс. до 1,85 млн); после 1950 г. город непрерывно терял жителей.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 285704,
+     "unit": "persons",
+     "year": 1900,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 465766,
+     "unit": "persons",
+     "year": 1910,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 993078,
+     "unit": "persons",
+     "year": 1920,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1568662,
+     "unit": "persons",
+     "year": 1930,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1623452,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1849568,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1670144,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1511482,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1203339,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "population",
+     "value": 1027974,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "us-detroit",
+     "population": "всё население города в границах на дату переписи",
+     "method_note": "десятилетняя перепись (Gibson 1998, POP-WP027)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/library/working-papers/1998/demo/POP-twps0027.html",
+     "accessed": "2026-10-29",
+     "supports": "рабочий документ POP-WP027 (Gibson 1998)"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab13.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1900"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab14.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1910"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab15.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1920"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab16.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1930"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab17.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1940"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab18.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1950"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab19.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1960"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab20.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1970"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab21.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1980"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab22.txt",
+     "accessed": "2026-10-29",
+     "supports": "население 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-nyc-everyday-1930s-1970s",
+   "country_code": "US",
+   "location_id": "us-new-york-city",
+   "period_start": 1934,
+   "period_end": 1973,
+   "context_type": "appliances",
+   "attribute": "household_amenities",
+   "title": "Нью-Йорк: удобства и автомобили, 1930–1970-е",
+   "description": "В 1934–36 гг. в арендуемых нью-йоркских квартирах ванная была в 91%, горячая вода — в 94%, телефон — лишь в 12%; машина была у 15% семей. В 1950 г. своим жильём владели 18% семей, машиной — 39%. В 1960–61 гг. телевизор был у 88% домохозяйств, телефон — у 76%, стиральная машина — у 38%, кондиционер — у 13%, машина — у половины. В 1972–73 гг. телефон был у 82%, кондиционер — у 38%, собственное жильё — у 37%.",
+   "statistics": [
+    {
+     "indicator": "rented_apartments_with_telephone",
+     "value": 12.1,
+     "unit": "percent",
+     "year": 1935,
+     "area_id": "us-new-york-city",
+     "population": "арендуемые квартиры обследованных семей",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_owning_car",
+     "value": 15.2,
+     "unit": "percent",
+     "year": 1935,
+     "area_id": "us-new-york-city",
+     "population": "обследованные семьи",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_owning_car",
+     "value": 39.0,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us-new-york-city",
+     "population": "обследованные семьи",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 18.0,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us-new-york-city",
+     "population": "обследованные семьи",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 88.1,
+     "unit": "percent",
+     "year": 1961,
+     "area_id": "us-new-york-city",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_telephone",
+     "value": 76.0,
+     "unit": "percent",
+     "year": 1961,
+     "area_id": "us-new-york-city",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_clothes_washer",
+     "value": 37.6,
+     "unit": "percent",
+     "year": 1961,
+     "area_id": "us-new-york-city",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_air_conditioner",
+     "value": 13.4,
+     "unit": "percent",
+     "year": 1961,
+     "area_id": "us-new-york-city",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_telephone",
+     "value": 82.3,
+     "unit": "percent",
+     "year": 1973,
+     "area_id": "us-new-york-city",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 37.3,
+     "unit": "percent",
+     "year": 1973,
+     "area_id": "us-new-york-city",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    }
+   ],
+   "source_ids": [
+    "us_bls"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/100-years-of-u-s-consumer-spending.pdf",
+     "accessed": "2026-10-29",
+     "supports": "BLS Report 991 (2006), 100 Years of U.S. Consumer Spending: Data for the Nation, New York City, and Boston"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-population-2000-2020-detroit",
+   "country_code": "US",
+   "location_id": "us-detroit",
+   "period_start": 2000,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Детройта, 2000–2020",
+   "description": "После 1990 г. Детройт продолжал терять жителей: 951 тыс. в 2000 г., 714 тыс. в 2010 г., 639 тыс. в 2020 г. — около трети от пика 1950 г.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 951270,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "us-detroit",
+     "population": "всё население города",
+     "method_note": "десятилетняя перепись (по Wikipedia)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 713777,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "us-detroit",
+     "population": "всё население города",
+     "method_note": "десятилетняя перепись (по Wikipedia)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 639111,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "us-detroit",
+     "population": "всё население города",
+     "method_note": "десятилетняя перепись (по Wikipedia)",
+     "source_id": "us_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "население 2000, 2010, 2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-ctx-population-2000-2020-chicago",
+   "country_code": "US",
+   "location_id": "us-chicago",
+   "period_start": 2000,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Чикаго, 2000–2020",
+   "description": "В 2000–2020 гг. население Чикаго держалось около 2,7–2,9 млн: 2 895 671 в 2000 г., 2 695 598 в 2010 г., 2 741 730 в 2020 г.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 2895671,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "us-chicago",
+     "population": "всё население города",
+     "method_note": "десятилетняя перепись (по Wikipedia)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 2695598,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "us-chicago",
+     "population": "всё население города",
+     "method_note": "десятилетняя перепись (по Wikipedia)",
+     "source_id": "us_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 2741730,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "us-chicago",
+     "population": "всё население города",
+     "method_note": "десятилетняя перепись (по Wikipedia)",
+     "source_id": "us_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "население 2000, 2010, 2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

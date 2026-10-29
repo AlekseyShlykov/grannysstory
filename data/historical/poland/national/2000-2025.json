@@ -1,0 +1,598 @@
+{
+ "records": [
+  {
+   "id": "pl-nat-2003-eu-referendum",
+   "title": "Референдум о вступлении в ЕС",
+   "start_date": "2003-06-07",
+   "end_date": "2003-06-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "7–8 июня 2003 г. граждане на референдуме согласились на вступление Польши в Европейский союз.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "voted_in_eu_referendum"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "7–8.06.2003"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2004-eu-accession",
+   "title": "Вступление в Европейский союз и трудовая эмиграция",
+   "start_date": "2004-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "migration",
+   "historical_summary": "1 мая 2004 г. Польша вступила в ЕС. Сразу легально работать поляки могли, в частности, в Ирландии; большинство стран ЕС ввели переходные периоды на 2–7 лет. Началась массовая трудовая эмиграция.",
+   "affected_groups": [
+    "young_adults",
+    "migrants",
+    "all_residents"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "emigration",
+    "family_separated_by_work_abroad"
+   ],
+   "narrative_hooks": [
+    "grandchild_works_abroad",
+    "went_to_uk_or_ireland"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "1.05.2004; Ирландия; переходные периоды 2–7 лет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2007-schengen",
+   "title": "Польша в Шенгенской зоне",
+   "start_date": "2007-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2007–2008 гг. Польша присоединилась к Шенгенскому соглашению: исчезли паспортные проверки на границах с соседями по ЕС.",
+   "affected_groups": [
+    "all_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "Шенген 2007–2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2010-smolensk",
+   "title": "Смоленская катастрофа",
+   "start_date": "2010-04-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "disaster",
+   "historical_summary": "10 апреля 2010 г. под Смоленском разбился самолёт польской делегации; погибли 96 человек, в том числе президент Лех Качиньский.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "national_mourning_on_tv"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "10.04.2010, 96 погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2013-retirement-age-67",
+   "title": "Повышение пенсионного возраста до 67 лет",
+   "start_date": "2013-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон от 11 мая 2012 г. (в силе с 1 января 2013 г.) постепенно повышал пенсионный возраст до 67 лет для женщин и мужчин; в 2017 г. он был возвращён к 60 и 65 годам.",
+   "affected_groups": [
+    "women",
+    "men",
+    "office_workers",
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "min_age": 45
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "retirement_postponed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2012/637",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 11.05.2012, в силе 1.01.2013; 67 лет"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "возврат 60/65 в 2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-2013-parental-leave",
+   "title": "Родительский отпуск («родительский год»)",
+   "start_date": "2013-06-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "Поправки к Кодексу труда от 28 мая 2013 г. (в силе с 17 июня 2013 г.) ввели родительский отпуск после материнского, который могут делить между собой мать и отец.",
+   "affected_groups": [
+    "parents",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_father_on_leave"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2013/675",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 28.05.2013 o zmianie Kodeksu pracy; urlop rodzicielski"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2015-infertility-treatment",
+   "title": "Закон о лечении бесплодия",
+   "start_date": "2015-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Закон от 25 июня 2015 г. о лечении бесплодия (в силе с 1 ноября 2015 г.) впервые урегулировал в Польше процедуры медицинской помощи при бесплодии, включая экстракорпоральное оплодотворение.",
+   "affected_groups": [
+    "women",
+    "men",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "childlessness_and_medicine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2015/1087",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 25.06.2015 o leczeniu niepłodności, в силе 1.11.2015"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2016-family-500",
+   "title": "Программа «Семья 500+»",
+   "title_original": "Rodzina 500 plus",
+   "start_date": "2016-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон от 11 февраля 2016 г. о государственной помощи в воспитании детей (в силе с 1 апреля 2016 г.) ввёл ежемесячное пособие 500 зл на ребёнка («Rodzina 500 plus»).",
+   "affected_groups": [
+    "parents",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "child_benefit_for_grandchildren"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2016/195",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 11.02.2016, в силе 1.04.2016"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "2016 программа Rodzina 500 plus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-2017-education-pension-reversal",
+   "title": "Ликвидация гимназий и возврат пенсионного возраста 60/65",
+   "start_date": "2017",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "social_policy",
+   "historical_summary": "В 2017 г. началась школьная реформа с ликвидацией гимназий, а пенсионный возраст вернули к 60 годам для женщин и 65 для мужчин (реформа 2012 г. его повышала).",
+   "affected_groups": [
+    "school_pupils",
+    "pensioners",
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 55
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "retired_at_sixty"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "2017 ликвидация гимназий; возврат 60/65"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2019-mama-4plus",
+   "title": "Пенсия «Мама 4+» для родителей четырёх детей",
+   "title_original": "Mama 4+",
+   "start_date": "2019-03-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "social_policy",
+   "historical_summary": "С 1 марта 2019 г. мать, родившая и воспитавшая (или воспитавшая) не менее четырёх детей, может получить дополнительную родительскую пенсию; отцу она полагается в особых случаях.",
+   "affected_groups": [
+    "mothers",
+    "pensioners",
+    "elderly"
+   ],
+   "eligibility": {
+    "min_age": 55
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "pension_for_raising_children"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2019/303",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 31.01.2019 o rodzicielskim świadczeniu uzupełniającym, ст. 3"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-2020-covid",
+   "title": "Пандемия COVID-19 в Польше",
+   "start_date": "2020-03-04",
+   "end_date": "2022-05-16",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "public_health",
+   "historical_summary": "Первый случай заражения выявлен 4 марта 2020 г. в Зелёна-Гуре; с 15 марта введён санитарный кордон на границах, с 20 марта 2020 г. по 16 мая 2022 г. действовало состояние эпидемии с ограничениями прав и свобод. В 2020–2021 гг. смертность резко выросла, продолжительность жизни мужчин упала с 73,6 (2015) до 71,8 года (2021).",
+   "affected_groups": [
+    "elderly",
+    "pensioners",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "isolation",
+    "loss_of_relative"
+   ],
+   "narrative_hooks": [
+    "phone_calls_during_lockdown"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_gus"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "4.03.2020; 15.03 кордон; 20.03.2020–16.05.2022 эпидемия"
+    },
+    {
+     "source_id": "pl_gus",
+     "url": "https://stat.gov.pl/obszary-tematyczne/roczniki-statystyczne/roczniki-statystyczne/rocznik-demograficzny-2024,3,18.html",
+     "accessed": "2026-10-29",
+     "supports": "смертей 477,4 тыс. (2020), 519,5 тыс. (2021); e0 мужчин 71,75 в 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-2020-tribunal-ruling",
+   "title": "Решение Конституционного трибунала об абортах и протесты",
+   "start_date": "2020-10-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "women_rights",
+   "historical_summary": "22 октября 2020 г. Конституционный трибунал признал неконституционным прерывание беременности по эмбриопатологическим показаниям; решение вызвало волну протестов в 2020–2021 гг.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "granddaughter_at_protest"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "22.10.2020; протесты 2020–2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2022-ukrainian-refugees",
+   "title": "Беженцы из Украины",
+   "start_date": "2022-02-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "migration",
+   "historical_summary": "После вторжения России в Украину 24 февраля 2022 г. к 6 марта 2022 г., по данным Пограничной стражи, в Польшу въехали более 1 млн человек; закон о помощи гражданам Украины вступил в силу 12 марта 2022 г.",
+   "affected_groups": [
+    "migrants",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "hosted_refugees"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "24.02.2022; >1 млн к 6.03.2022; закон 9.03, в силе 12.03.2022"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-2024-flood",
+   "title": "Наводнение сентября 2024 года",
+   "start_date": "2024-09-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "disaster",
+   "historical_summary": "С 12 сентября 2024 г. юг Польши пострадал от наводнения; 16 сентября на 30 дней введено состояние стихийного бедствия.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "12.09.2024; 16.09 стихийное бедствие на 30 дней"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "records": [
+  {
+   "id": "gb-ctx-manchester-population",
+   "country_code": "GB",
+   "location_id": "gb-manchester",
+   "period_start": 1931,
+   "period_end": 2021,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Манчестера: пик, спад и рост",
+   "description": "После пика 1931 г. (766 311) население города долго сокращалось на фоне упадка текстильной промышленности и расселения трущоб: 543 868 в 1971 г., 422 302 в 2001 г. По переписи 2021 г. — около 551 900; медианный возраст 31 год, почти треть домохозяйств (32,3%) снимает жильё у частных владельцев, в Англии родились 66,1% жителей.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 766311,
+     "unit": "человек",
+     "year": 1931,
+     "area_id": "gb-manchester",
+     "population": "город Манчестер (county borough)",
+     "method_note": "перепись, по вторичному источнику",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 543868,
+     "unit": "человек",
+     "year": 1971,
+     "area_id": "gb-manchester",
+     "population": "город Манчестер",
+     "method_note": "перепись, по вторичному источнику",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 422302,
+     "unit": "человек",
+     "year": 2001,
+     "area_id": "gb-manchester",
+     "population": "город Манчестер",
+     "method_note": "перепись, по вторичному источнику",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 551900,
+     "unit": "человек",
+     "year": 2021,
+     "area_id": "gb-manchester",
+     "population": "местная власть Manchester (E08000003)",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "private_rented_households",
+     "value": 32.3,
+     "unit": "% домохозяйств",
+     "year": 2021,
+     "area_id": "gb-manchester",
+     "population": "домохозяйства, Manchester",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "born_in_england",
+     "value": 66.1,
+     "unit": "% жителей",
+     "year": 2021,
+     "area_id": "gb-manchester",
+     "population": "жители, Manchester",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia",
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Manchester",
+     "accessed": "2026-10-29",
+     "supports": "1931, 1971, 2001"
+    },
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000003/",
+     "accessed": "2026-10-29",
+     "supports": "перепись 2011/2021: население, возраст, жильё"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-manchester-2021-households",
+   "country_code": "GB",
+   "location_id": "gb-manchester",
+   "period_start": 2011,
+   "period_end": 2021,
+   "context_type": "housing",
+   "attribute": "tenure",
+   "title": "Как живут в Манчестере по переписи 2021",
+   "description": "В 2021 г. 37,2% домохозяйств Манчестера владели жильём, 29,5% снимали социальное и 32,3% — частное жильё; одинокие люди 66+ — 8,7% домохозяйств. Это молодой город: медианный возраст 31 год против 40 по Англии.",
+   "statistics": [
+    {
+     "indicator": "owner_occupied",
+     "value": 37.2,
+     "unit": "% домохозяйств",
+     "year": 2021,
+     "area_id": "gb-manchester",
+     "population": "домохозяйства Manchester",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "social_rented",
+     "value": 29.5,
+     "unit": "% домохозяйств",
+     "year": 2021,
+     "area_id": "gb-manchester",
+     "population": "домохозяйства Manchester",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000003/",
+     "accessed": "2026-10-29",
+     "supports": "структура жилья и домохозяйств 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

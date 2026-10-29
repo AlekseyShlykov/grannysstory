@@ -1,0 +1,2610 @@
+{
+ "records": [
+  {
+   "id": "us-nat-1920-19th-amendment",
+   "title": "Женщины получают право голоса (19-я поправка)",
+   "title_original": "19th Amendment",
+   "start_date": "1920-08-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "women_rights",
+   "historical_summary": "18 августа 1920 г. Теннесси стал 36-м штатом, ратифицировавшим 19-ю поправку, запрещающую лишать права голоса по признаку пола; 26 августа её удостоверил госсекретарь. Многие чернокожие и другие женщины из меньшинств ещё долго не могли голосовать из-за дискриминационных законов штатов.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "first_vote"
+   ],
+   "narrative_hooks": [
+    "mother_first_vote",
+    "first_election"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/19th-amendment",
+     "accessed": "2026-10-29",
+     "supports": "даты принятия Конгрессом, ратификации и удостоверения; оговорка о дискриминационных законах штатов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1935-social-security-act",
+   "title": "Закон о социальном обеспечении",
+   "title_original": "Social Security Act",
+   "start_date": "1935-08-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Подписанный 14 августа 1935 г. закон ввёл федеральные пенсии по старости за счёт налога на зарплату, страхование по безработице через программы штатов и помощь нуждающимся детям-иждивенцам.",
+   "affected_groups": [
+    "elderly",
+    "unemployed",
+    "parents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "old_age_pension",
+    "unemployment_benefit"
+   ],
+   "narrative_hooks": [
+    "first_social_security_card",
+    "parents_pension"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/social-security-act",
+     "accessed": "2026-10-29",
+     "supports": "дата подписания и основные разделы закона"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1944-gi-bill",
+   "title": "«Билль о правах военнослужащих» (GI Bill)",
+   "title_original": "Servicemen's Readjustment Act",
+   "start_date": "1944-06-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "22 июня 1944 г. подписан закон, оплачивавший ветеранам учёбу и содержание и гарантировавший кредиты на дома и бизнес. Около 2,3 млн ветеранов пошли в колледжи и университеты, к 1955 г. выдано 4,3 млн жилищных кредитов.",
+   "affected_groups": [
+    "veterans",
+    "students",
+    "homeowners"
+   ],
+   "eligibility": {
+    "min_age": 17
+   },
+   "potential_impacts": [
+    "college_access",
+    "home_purchase"
+   ],
+   "narrative_hooks": [
+    "husband_college_on_gi_bill",
+    "first_own_house",
+    "brother_veteran_studies"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/servicemens-readjustment-act",
+     "accessed": "2026-10-29",
+     "supports": "дата подписания, льготы на обучение и жильё, численность"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1964-civil-rights-act",
+   "title": "Закон о гражданских правах: запрет дискриминации при найме, в том числе по полу",
+   "title_original": "Civil Rights Act of 1964",
+   "start_date": "1964-07-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "women_rights",
+   "subcategory": "anti_discrimination",
+   "historical_summary": "2 июля 1964 г. подписан Закон о гражданских правах. Его раздел VII запретил работодателям отказывать в найме, увольнять или дискриминировать в оплате по признаку расы, цвета кожи, религии, пола или национального происхождения и создал Комиссию по равным возможностям трудоустройства (EEOC).",
+   "affected_groups": [
+    "women",
+    "ethnic_minorities",
+    "office_workers",
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "employment_rights"
+   ],
+   "narrative_hooks": [
+    "job_ad_by_sex_ends",
+    "complaint_at_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/civil-rights-act",
+     "accessed": "2026-10-29",
+     "supports": "дата подписания, раздел VII с запретом дискриминации по полу, создание EEOC"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1956-interstate-highways",
+   "title": "Закон о системе межштатных автомагистралей",
+   "title_original": "Federal-Aid Highway Act of 1956",
+   "start_date": "1956-06-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "29 июня 1956 г. Эйзенхауэр подписал закон, расширивший систему межштатных шоссе до 41 тыс. миль и выделивший 25 млрд долл. на 1957–1969 финансовые годы.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "commute_change",
+    "suburban_move"
+   ],
+   "narrative_hooks": [
+    "road_trip",
+    "new_highway_through_neighborhood"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/national-interstate-and-defense-highways-act",
+     "accessed": "2026-10-29",
+     "supports": "дата, протяжённость и финансирование"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1941-executive-order-8802",
+   "title": "Указ 8802: запрет дискриминации в оборонной промышленности",
+   "title_original": "Executive Order 8802",
+   "start_date": "1941-06-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "labor",
+   "historical_summary": "25 июня 1941 г. Рузвельт запретил дискриминацию по расе, вероисповеданию, цвету кожи и национальному происхождению при найме в оборонной промышленности и на госслужбе и создал Комитет по справедливой практике найма.",
+   "affected_groups": [
+    "industrial_workers",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "defense_plant_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/executive-order-8802",
+     "accessed": "2026-10-29",
+     "supports": "дата и содержание указа, создание FEPC"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1942-executive-order-9066",
+   "title": "Указ 9066 и принудительное выселение японских американцев",
+   "title_original": "Executive Order 9066",
+   "start_date": "1942-02-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "repression",
+   "historical_summary": "19 февраля 1942 г. Рузвельт подписал указ, разрешивший военным объявлять зоны исключения. На его основании около 122 тыс. человек японского происхождения, почти 70 тыс. из них граждане США, были принудительно вывезены с Западного побережья в лагеря.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "neighbor_disappeared"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/executive-order-9066",
+     "accessed": "2026-10-29",
+     "supports": "дата, содержание и число выселенных"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1941-pearl-harbor-war",
+   "title": "Нападение на Пёрл-Харбор и вступление США во Вторую мировую войну",
+   "start_date": "1941-12-07",
+   "end_date": "1941-12-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "7 декабря 1941 г. Япония атаковала Пёрл-Харбор на Оаху; 8 декабря Конгресс объявил войну Японии, и Рузвельт подписал декларацию в тот же день.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "family_member_drafted"
+   ],
+   "narrative_hooks": [
+    "radio_news_sunday",
+    "brother_enlists"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/joint-address-to-congress-declaration-of-war-against-japan",
+     "accessed": "2026-10-29",
+     "supports": "даты нападения и объявления войны"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1954-brown-v-board",
+   "title": "Решение «Браун против Совета по образованию»",
+   "start_date": "1954-05-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "education",
+   "historical_summary": "17 мая 1954 г. Верховный суд признал раздельное по расе обучение в государственных школах неконституционным: раздельные школы по своей сути неравны.",
+   "affected_groups": [
+    "school_pupils",
+    "ethnic_minorities",
+    "parents"
+   ],
+   "potential_impacts": [
+    "school_change"
+   ],
+   "narrative_hooks": [
+    "school_desegregation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+     "accessed": "2026-10-29",
+     "supports": "дата и суть решения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1965-voting-rights-act",
+   "title": "Закон об избирательных правах",
+   "start_date": "1965-08-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "political_change",
+   "historical_summary": "6 августа 1965 г. подписан закон, запретивший тесты на грамотность для избирателей и расовую дискриминацию при голосовании и введший федеральный контроль над изменением правил голосования в ряде юрисдикций.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote_relatives_south"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/voting-rights-act",
+     "accessed": "2026-10-29",
+     "supports": "дата и основные положения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1929-stock-market-crash",
+   "title": "Биржевой крах 1929 года",
+   "title_original": "Stock Market Crash of 1929",
+   "start_date": "1929-10-28",
+   "end_date": "1929-10-29",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "28 и 29 октября 1929 г. индекс Доу-Джонса упал почти на 13% и 12%; к середине ноября он потерял почти половину стоимости, а к июлю 1932 г. — 89% от пика. Уровень 1929 г. был восстановлен лишь в ноябре 1954 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "father_lost_savings"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+     "accessed": "2026-10-29",
+     "supports": "даты Чёрного понедельника/вторника и масштаб падения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1933-banking-holiday",
+   "title": "Банковские паники и национальные банковские каникулы",
+   "start_date": "1933-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "После региональных банковских паник 1930–1931 гг. и общенационального кризиса 1931–1933 гг. в марте 1933 г. коммерческая банковская система рухнула, и президент Рузвельт объявил общенациональные банковские каникулы. Это была нижняя точка Великой депрессии.",
+   "affected_groups": [
+    "all_residents",
+    "homeowners"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [
+    "bank_closed_savings",
+    "family_cash_hidden_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/great-depression",
+     "accessed": "2026-10-29",
+     "supports": "паники 1930–1933, банковские каникулы в марте 1933 как дно спада"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-2007-great-recession",
+   "title": "Великая рецессия",
+   "title_original": "Great Recession",
+   "start_date": "2007-12",
+   "end_date": "2009-06",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "Рецессия длилась с декабря 2007 по июнь 2009 г. — самая долгая после Второй мировой войны. Безработица выросла с 5% до пика 10% в октябре 2009 г., цены на жильё в среднем упали примерно на 30% с середины 2006 до середины 2009 г.",
+   "affected_groups": [
+    "all_residents",
+    "homeowners",
+    "unemployed"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "home_value_loss"
+   ],
+   "narrative_hooks": [
+    "grandchild_lost_job",
+    "house_underwater"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/great-recession-of-200709",
+     "accessed": "2026-10-29",
+     "supports": "даты рецессии, безработица, падение цен на жильё"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1918-influenza-pandemic",
+   "title": "Пандемия гриппа 1918–1919 годов",
+   "title_original": "1918 influenza pandemic",
+   "start_date": "1918",
+   "end_date": "1919",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "public_health",
+   "historical_summary": "Новый грипп H1N1 впервые выявили у военнослужащих в США весной 1918 г.; в США умерли около 675 тыс. человек, в мире — не менее 50 млн. Особенно высокой смертность была у детей до 5 лет, взрослых 20–40 лет и людей старше 65.",
+   "affected_groups": [
+    "all_residents",
+    "children",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "family_bereavement"
+   ],
+   "narrative_hooks": [
+    "parent_lost_sibling_to_flu",
+    "school_closed"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_cdc"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_cdc",
+     "url": "https://archive.cdc.gov/www_cdc_gov/flu/pandemic-resources/1918-pandemic-h1n1.html",
+     "accessed": "2026-10-29",
+     "supports": "годы, число умерших, возрастные группы, первое выявление весной 1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1965-griswold-v-connecticut",
+   "title": "Решение «Грисволд против Коннектикута» о контрацепции в браке",
+   "title_original": "Griswold v. Connecticut",
+   "start_date": "1965-06-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "family_law",
+   "historical_summary": "7 июня 1965 г. Верховный суд отменил приговоры по закону Коннектикута, запрещавшему использование контрацептивов, признав, что закон нарушает право супругов на частную жизнь.",
+   "affected_groups": [
+    "women",
+    "parents"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "family_planning"
+   ],
+   "narrative_hooks": [
+    "talk_about_family_planning"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_lii"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_lii",
+     "url": "https://www.law.cornell.edu/supremecourt/text/381/479",
+     "accessed": "2026-10-29",
+     "supports": "дата решения, отменённый закон и суть решения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1972-wisconsin-v-yoder",
+   "title": "Решение «Висконсин против Йодера» об обучении детей амишей",
+   "title_original": "Wisconsin v. Yoder",
+   "start_date": "1972-05-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "education",
+   "historical_summary": "15 мая 1972 г. Верховный суд постановил, что штат не может обязывать родителей-амишей отдавать детей в старшую школу до 16 лет, поскольку это нарушает свободу вероисповедания.",
+   "affected_groups": [
+    "school_pupils",
+    "parents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "school_change"
+   ],
+   "narrative_hooks": [
+    "schooling_ended_after_eighth_grade"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_lii"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_lii",
+     "url": "https://www.law.cornell.edu/supremecourt/text/406/205",
+     "accessed": "2026-10-29",
+     "supports": "дата и суть решения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1916-keating-owen-child-labor",
+   "title": "Первый федеральный закон о детском труде",
+   "start_date": "1916-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "labor",
+   "historical_summary": "1 сентября 1916 г. принят закон Китинга — Оуэна, запретивший межштатную торговлю товарами шахт, где работали дети до 16 лет, и фабрик, где работали дети до 14 лет. В 1918 г. Верховный суд признал его неконституционным.",
+   "affected_groups": [
+    "children",
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "max_age": 16
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "child_work_in_mill"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/keating-owen-child-labor-act",
+     "accessed": "2026-10-29",
+     "supports": "дата, содержание и отмена в 1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1917-entry-into-wwi",
+   "title": "Вступление США в Первую мировую войну",
+   "start_date": "1917-04-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "2 апреля 1917 г. президент Вильсон попросил Конгресс объявить войну Германии и предложил увеличить армию как минимум на 500 тыс. человек на основе всеобщей воинской обязанности; голосование Конгресса ввело страну в войну.",
+   "affected_groups": [
+    "young_adults",
+    "soldiers_families",
+    "men"
+   ],
+   "potential_impacts": [
+    "family_member_drafted"
+   ],
+   "narrative_hooks": [
+    "father_in_france"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/address-to-congress-declaration-of-war-against-germany",
+     "accessed": "2026-10-29",
+     "supports": "дата обращения, призыв"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1924-immigration-act",
+   "title": "Закон об иммиграции 1924 года: национальные квоты",
+   "title_original": "Immigration Act of 1924 (Johnson-Reed Act)",
+   "start_date": "1924",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "migration",
+   "historical_summary": "Закон 1924 г. ограничил въезд квотами в 2% от численности каждой национальности по переписи 1890 г., что резко сократило иммиграцию из Южной и Восточной Европы, и запретил въезд тем, кто по расе не мог получить гражданство, прежде всего японцам.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "relatives_could_not_come"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_state_historian"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_state_historian",
+     "url": "https://history.state.gov/milestones/1921-1936/immigration-act",
+     "accessed": "2026-10-29",
+     "supports": "год и положения закона"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1933-tva",
+   "title": "Создание Администрации долины Теннесси",
+   "start_date": "1933-05-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "18 мая 1933 г. одобрен закон о создании Администрации долины Теннесси — одной из программ «Нового курса».",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/tennessee-valley-authority-act",
+     "accessed": "2026-10-29",
+     "supports": "дата одобрения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1935-wagner-act",
+   "title": "Закон Вагнера о трудовых отношениях",
+   "title_original": "National Labor Relations Act",
+   "start_date": "1935-07-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "labor",
+   "historical_summary": "5 июля 1935 г. закон о национальных трудовых отношениях гарантировал работникам частного сектора право создавать профсоюзы и вести коллективные переговоры и создал Национальное управление по трудовым отношениям; на сельское хозяйство, железные дороги и госслужбу он не распространялся.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "union_membership"
+   ],
+   "narrative_hooks": [
+    "father_union_card"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/national-labor-relations-act",
+     "accessed": "2026-10-29",
+     "supports": "дата и содержание"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1945-end-of-wwii",
+   "title": "Капитуляция Японии и конец Второй мировой войны",
+   "start_date": "1945-09-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "2 сентября 1945 г. на борту линкора «Миссури» в Токийском заливе был подписан акт о капитуляции Японии.",
+   "affected_groups": [
+    "all_residents",
+    "veterans",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "soldier_returns_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/surrender-of-japan",
+     "accessed": "2026-10-29",
+     "supports": "дата подписания"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1964-tonkin-gulf-resolution",
+   "title": "Тонкинская резолюция и расширение войны во Вьетнаме",
+   "start_date": "1964-08-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "7 августа 1964 г. Конгресс принял Тонкинскую резолюцию, давшую президенту широкие полномочия для военных действий в Юго-Восточной Азии; в январе 1971 г. её отменили.",
+   "affected_groups": [
+    "young_adults",
+    "soldiers_families",
+    "men"
+   ],
+   "potential_impacts": [
+    "family_member_drafted"
+   ],
+   "narrative_hooks": [
+    "brother_drafted_vietnam"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/tonkin-gulf-resolution",
+     "accessed": "2026-10-29",
+     "supports": "дата и отмена"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1965-medicare-medicaid",
+   "title": "Medicare и Medicaid",
+   "start_date": "1965-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "healthcare",
+   "historical_summary": "30 июля 1965 г. Джонсон подписал закон, создавший Medicare — медицинскую страховку для людей 65 лет и старше — и Medicaid для людей с низким доходом.",
+   "affected_groups": [
+    "elderly",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "parents_hospital_bills"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/medicare-and-medicaid-act",
+     "accessed": "2026-10-29",
+     "supports": "дата и программы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1963-equal-pay-act",
+   "title": "Закон о равной оплате труда",
+   "title_original": "Equal Pay Act of 1963",
+   "start_date": "1963-06-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "women_rights",
+   "historical_summary": "10 июня 1963 г. принят закон, запретивший платить работникам одного пола меньше, чем другого, за равную по квалификации, усилиям и ответственности работу в той же организации.",
+   "affected_groups": [
+    "women",
+    "office_workers",
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "paid_less_than_male_colleague"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_eeoc"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_eeoc",
+     "url": "https://www.eeoc.gov/statutes/equal-pay-act-1963",
+     "accessed": "2026-10-29",
+     "supports": "дата и требования"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1978-pregnancy-discrimination-act",
+   "title": "Закон о запрете дискриминации по беременности",
+   "start_date": "1978-10-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "women_rights",
+   "historical_summary": "31 октября 1978 г. закон дополнил Закон о гражданских правах: дискриминация из-за беременности, родов и связанных с ними состояний признана дискриминацией по полу; беременных работниц нужно трактовать наравне с другими.",
+   "affected_groups": [
+    "women",
+    "mothers"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "max_age": 50
+   },
+   "potential_impacts": [
+    "employment_rights"
+   ],
+   "narrative_hooks": [
+    "kept_job_during_pregnancy",
+    "fired_for_pregnancy_before_law"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_eeoc"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_eeoc",
+     "url": "https://www.eeoc.gov/statutes/pregnancy-discrimination-act-1978",
+     "accessed": "2026-10-29",
+     "supports": "дата и содержание"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1973-roe-v-wade",
+   "title": "Решение «Роу против Уэйда»",
+   "start_date": "1973-01-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "family_law",
+   "historical_summary": "22 января 1973 г. Верховный суд признал, что право на частную жизнь распространяется на решение женщины прервать беременность, и ограничил запреты штатов в зависимости от срока.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 14
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_lii"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_lii",
+     "url": "https://www.law.cornell.edu/supremecourt/text/410/113",
+     "accessed": "2026-10-29",
+     "supports": "дата и суть решения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-2022-dobbs",
+   "title": "Решение по делу Доббса: отмена «Роу против Уэйда»",
+   "start_date": "2022-06-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "family_law",
+   "historical_summary": "24 июня 2022 г. Верховный суд постановил, что Конституция не даёт права на аборт, отменил решения «Роу против Уэйда» и «Планированное родительство против Кейси» и вернул регулирование штатам.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "granddaughter_talk_politics"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_lii"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_lii",
+     "url": "https://www.law.cornell.edu/supremecourt/text/19-1392",
+     "accessed": "2026-10-29",
+     "supports": "дата и суть решения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-2015-obergefell",
+   "title": "Однополые браки по всей стране",
+   "title_original": "Obergefell v. Hodges",
+   "start_date": "2015-06-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "family_law",
+   "historical_summary": "26 июня 2015 г. Верховный суд 5 голосами против 4 постановил, что штаты обязаны регистрировать и признавать браки однополых пар.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_wedding"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_lii"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_lii",
+     "url": "https://www.law.cornell.edu/supremecourt/text/14-556",
+     "accessed": "2026-10-29",
+     "supports": "дата и суть решения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1973-oil-embargo",
+   "title": "Нефтяное эмбарго и очереди за бензином",
+   "start_date": "1973-10",
+   "end_date": "1974-03",
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "Осенью 1973 г., во время арабо-израильской войны, арабские страны ввели нефтяное эмбарго против США; цена нефти выросла вдвое, а затем вчетверо, на заправках выстраивались очереди. Эмбарго сняли в марте 1974 г.; ответом стали ограничение скорости 55 миль/ч и стратегический нефтяной резерв.",
+   "affected_groups": [
+    "consumers",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "gas_line",
+    "odd_even_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_state_historian"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_state_historian",
+     "url": "https://history.state.gov/milestones/1969-1976/oil-embargo",
+     "accessed": "2026-10-29",
+     "supports": "период, рост цен, очереди, ответные меры"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1910-great-migration",
+   "title": "Великая миграция афроамериканцев",
+   "start_date": "1910",
+   "end_date": "1970",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "migration",
+   "historical_summary": "С 1910-х по 1970-е гг. около 6 млн афроамериканцев переселились с Юга в северные, среднезападные и западные штаты, спасаясь от насилия и законов Джима Кроу и ища работу; в первой волне главными направлениями были Чикаго, Детройт, Нью-Йорк и Питтсбург.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "family_came_from_south",
+    "relatives_left_behind"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nara"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+     "accessed": "2026-10-29",
+     "supports": "периоды, численность, направления, причины"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-2020-covid-emergency",
+   "title": "Пандемия COVID-19: общенациональное чрезвычайное положение",
+   "start_date": "2020-03-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "public_health",
+   "historical_summary": "Первый подтверждённый случай COVID-19 в США выявлен 20 января 2020 г.; 13 марта объявлено общенациональное чрезвычайное положение. 11 декабря FDA разрешило вакцину Pfizer-BioNTech, а 12 мая 2022 г. число умерших в стране превысило миллион.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "isolation",
+    "family_bereavement"
+   ],
+   "narrative_hooks": [
+    "calls_instead_of_visits",
+    "first_video_call"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_cdc"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_cdc",
+     "url": "https://www.cdc.gov/museum/timeline/covid19.html",
+     "accessed": "2026-10-29",
+     "supports": "даты первого случая, ЧП, вакцины, рубеж в 1 млн умерших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1920-prohibition",
+   "title": "Сухой закон",
+   "title_original": "Prohibition",
+   "start_date": "1920-01-17",
+   "end_date": "1933-12-05",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "17 января 1920 г. вступил в силу закон Волстеда, запретивший производство и продажу алкоголя по 18-й поправке. В марте 1933 г. разрешили слабое пиво, а 5 декабря 1933 г. 21-я поправка отменила сухой закон.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "bootleg_stories",
+    "speakeasy"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Prohibition_in_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "даты вступления в силу, закона Каллена — Харрисона и 21-й поправки"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1920-kdka-radio",
+   "title": "Первая регулярная радиопередача",
+   "start_date": "1920-11-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "media_communication",
+   "historical_summary": "2 ноября 1920 г. питтсбургская станция Westinghouse (позже KDKA) передала результаты президентских выборов — одна из первых регулярных радиопередач; к концу 1921 г. появились новые станции, и радиоприёмник стал входить в дома.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_radio_evenings"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/KDKA_(AM)",
+     "accessed": "2026-10-29",
+     "supports": "дата, значение, рост станций"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1942-rationing",
+   "title": "Карточки военного времени",
+   "start_date": "1942-05-04",
+   "end_date": "1945-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "4 мая 1942 г. выдана первая продовольственная книжка (сахарная), её получал каждый член семьи, включая младенцев; с ноября 1942 г. по карточкам продавали кофе, к концу года — бензин и обувь, к 1943 г. — мясо, масло и сыр. Большинство ограничений сняли в августе 1945 г.",
+   "affected_groups": [
+    "all_residents",
+    "homemakers",
+    "mothers"
+   ],
+   "potential_impacts": [
+    "household_budget"
+   ],
+   "narrative_hooks": [
+    "ration_book_memories",
+    "sugar_saved_for_birthday_cake"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "даты нормирования сахара, кофе, бензина, мяса; книжки; отмена"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1955-tv-in-most-homes",
+   "title": "Телевизор в большинстве домов",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В 1948 г. телевизор был лишь у 1% домохозяйств, а к 1955 г. — у 75%; к концу 1990-х — почти у всех (98%).",
+   "affected_groups": [
+    "all_residents",
+    "television_owners",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_set",
+    "neighbors_came_to_watch"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Television_in_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "доли домохозяйств с ТВ 1948, 1955, 1996–97"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1958-jet-age",
+   "title": "Начало эпохи реактивных пассажирских перелётов",
+   "start_date": "1958-10-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "26 октября 1958 г. Pan Am выполнила первый коммерческий рейс на Boeing 707 из нью-йоркского аэропорта Айдлуайлд в Париж с посадкой в Гандере.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Boeing_707",
+     "accessed": "2026-10-29",
+     "supports": "дата и маршрут первого рейса 707"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1969-moon-landing",
+   "title": "Высадка на Луну",
+   "start_date": "1969-07-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "technology",
+   "historical_summary": "20 июля 1969 г. экипаж «Аполлона-11» высадился на Луне; телевизионную картинку выхода Армстронга смотрели, по оценкам, 650 млн человек.",
+   "affected_groups": [
+    "all_residents",
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watched_moon_landing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_nasa"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nasa",
+     "url": "https://www.nasa.gov/history/apollo-11-mission-overview/",
+     "accessed": "2026-10-29",
+     "supports": "дата посадки и выхода, телеаудитория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1974-equal-credit-opportunity",
+   "title": "Закон о равных возможностях кредитования",
+   "title_original": "Equal Credit Opportunity Act",
+   "start_date": "1974-10-28",
+   "end_date": "1975-10-28",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "women_rights",
+   "historical_summary": "28 октября 1974 г. подписан закон, запретивший кредиторам дискриминировать по полу и семейному положению; он вступил в силу через год. Нельзя стало спрашивать о планах завести детей или игнорировать доход женщины, хотя на практике требование поручительства мужчины ещё какое-то время сохранялось.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "credit_card_own_name",
+    "loan_needed_husband_signature"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Equal_Credit_Opportunity_Act",
+     "accessed": "2026-10-29",
+     "supports": "дата, запреты, сохранение практик"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1983-first-cellular-service",
+   "title": "Первая коммерческая сотовая связь",
+   "start_date": "1983-10-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "media_communication",
+   "historical_summary": "13 октября 1983 г. в США официально запущена аналоговая сотовая связь AMPS; первым переносным коммерческим телефоном стал Motorola DynaTAC 8000x.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_mobile_phone"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Advanced_Mobile_Phone_System",
+     "accessed": "2026-10-29",
+     "supports": "дата ввода AMPS и первый телефон"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1993-fmla",
+   "title": "Закон об отпуске по семейным обстоятельствам",
+   "start_date": "1993-02-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "5 февраля 1993 г. подписан закон, дающий работникам крупных работодателей (от 50 человек) до 12 недель неоплачиваемого отпуска с сохранением места — по рождению или усыновлению ребёнка, для ухода за больным супругом, ребёнком или родителем или по собственной болезни.",
+   "affected_groups": [
+    "parents",
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "caregiving"
+   ],
+   "narrative_hooks": [
+    "leave_to_care_for_parent"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Family_and_Medical_Leave_Act_of_1993",
+     "accessed": "2026-10-29",
+     "supports": "дата подписания и условия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1995-commercial-internet",
+   "title": "Интернет переходит в коммерческие сети",
+   "start_date": "1995-04-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "technology",
+   "historical_summary": "30 апреля 1995 г. отключён государственный магистральный канал NSFNET: трафик перешёл к коммерческим провайдерам, и доступ в интернет стал платной услугой для всех.",
+   "affected_groups": [
+    "internet_users",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "dial_up_sound",
+    "first_email_from_grandchild"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Science_Foundation_Network",
+     "accessed": "2026-10-29",
+     "supports": "дата и значение вывода NSFNET"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2007-iphone",
+   "title": "Первый iPhone",
+   "start_date": "2007-06-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "technology",
+   "historical_summary": "29 июня 2007 г. в США начались продажи первого iPhone, анонсированного в январе.",
+   "affected_groups": [
+    "internet_users",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_shows_phone_photos"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/IPhone_(1st_generation)",
+     "accessed": "2026-10-29",
+     "supports": "дата анонса и продажи"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2010-affordable-care-act",
+   "title": "Закон о доступном медицинском обслуживании",
+   "start_date": "2010-03-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "healthcare",
+   "historical_summary": "23 марта 2010 г. подписан закон о реформе здравоохранения: с сентября 2010 г. дети могли оставаться в полисах родителей до 26 лет, с 2014 г. заработали биржи страховок. К 2016 г. доля незастрахованных примерно вдвое снизилась.",
+   "affected_groups": [
+    "all_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Affordable_Care_Act",
+     "accessed": "2026-10-29",
+     "supports": "дата, положения, снижение доли незастрахованных"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1906-pure-food-and-drug-act",
+   "title": "Закон о чистоте пищевых продуктов и лекарств",
+   "start_date": "1906-06-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "30 июня 1906 г. подписаны закон о чистоте пищевых продуктов и лекарств и закон об инспекции мяса: запрещена торговля фальсифицированными и неправильно маркированными продуктами и лекарствами, на этикетках обязали указывать опасные вещества. Возмущение вызвал роман Эптона Синклера «Джунгли» о чикагских бойнях.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pure_Food_and_Drug_Act",
+     "accessed": "2026-10-29",
+     "supports": "дата, содержание, связь с «Джунглями»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1938-fair-labor-standards-act",
+   "title": "Закон о справедливых условиях труда",
+   "title_original": "Fair Labor Standards Act",
+   "start_date": "1938-06-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "labor",
+   "historical_summary": "25 июня 1938 г. Рузвельт подписал закон, введший федеральную минимальную зарплату, 40-часовую неделю с полуторной оплатой сверхурочных и запрет на работу детей до 16 лет в промышленности и горном деле. Домашние работники получили защиту только в 1974 г., часть сельскохозяйственных — в 1966 г.",
+   "affected_groups": [
+    "industrial_workers",
+    "children",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938",
+     "accessed": "2026-10-29",
+     "supports": "дата, часы, детский труд, поздний охват"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1935-rural-electrification",
+   "title": "Электрификация сельской Америки",
+   "start_date": "1935-05-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "11 мая 1935 г. указом создана Администрация электрификации сельских районов, 20 мая 1936 г. принят закон о федеральных займах на сельские электросети. В начале 1930-х электричество было лишь примерно у 10% сельских домов (оценки расходятся), к 1950-м — у большинства ферм.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_electric_light_on_farm",
+    "kerosene_lamps"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rural_Electrification_Act",
+     "accessed": "2026-10-29",
+     "supports": "даты указа и закона, оценки доли электрифицированных домов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1950-korean-war",
+   "title": "Корейская война",
+   "start_date": "1950-06-25",
+   "end_date": "1953-07-27",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Война в Корее шла с 25 июня 1950 г. до перемирия 27 июля 1953 г.; 36 515 американских военных погибли или пропали без вести.",
+   "affected_groups": [
+    "young_adults",
+    "soldiers_families",
+    "men"
+   ],
+   "potential_impacts": [
+    "family_member_drafted"
+   ],
+   "narrative_hooks": [
+    "brother_in_korea"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Korean_War",
+     "accessed": "2026-10-29",
+     "supports": "даты и потери США"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1965-great-inflation",
+   "title": "Великая инфляция",
+   "start_date": "1965",
+   "end_date": "1982",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С 1965 по 1982 г. в США держалась высокая инфляция: в 1974 г. цены росли более чем на 12% в год, в 1980 г. — почти на 15%, при безработице 7% и выше.",
+   "affected_groups": [
+    "consumers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "prices_doubled"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/great-inflation",
+     "accessed": "2026-10-29",
+     "supports": "период, пиковые темпы инфляции, безработица"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1981-recession",
+   "title": "Рецессия 1981–1982 годов",
+   "start_date": "1981-07",
+   "end_date": "1982-11",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С июля 1981 по ноябрь 1982 г. длилась тяжёлая рецессия, вызванная борьбой с инфляцией высокими ставками: безработица достигла почти 11% — максимума после войны; к концу 1982 г. без работы были 24% рабочих автопрома и 22% строителей.",
+   "affected_groups": [
+    "industrial_workers",
+    "unemployed"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "husband_laid_off",
+    "mortgage_rate_shock"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/recession-of-1981-82",
+     "accessed": "2026-10-29",
+     "supports": "даты, безработица, автопром и строительство"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1987-black-monday",
+   "title": "«Чёрный понедельник» 1987 года",
+   "start_date": "1987-10-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "19 октября 1987 г. индекс Доу-Джонса упал за день на 22,6% — крупнейшее однодневное падение в истории биржи.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987",
+     "accessed": "2026-10-29",
+     "supports": "дата и масштаб"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1990-ada",
+   "title": "Закон об американцах с инвалидностью",
+   "start_date": "1990-07-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "26 июля 1990 г. подписан закон, запретивший дискриминацию людей с инвалидностью в работе, госуслугах, транспорте и общественных местах и обязавший обеспечивать разумные приспособления и доступность новых зданий.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "ramp_at_the_store"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Americans_with_Disabilities_Act_of_1990",
+     "accessed": "2026-10-29",
+     "supports": "дата и основные разделы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1996-welfare-reform",
+   "title": "Реформа социальной помощи 1996 года",
+   "start_date": "1996-08-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "22 августа 1996 г. подписан закон, заменивший программу помощи семьям с детьми (AFDC) блок-грантами TANF: получатели должны были начать работать через два года, а федеральная помощь ограничивалась пятью годами за всю жизнь.",
+   "affected_groups": [
+    "mothers",
+    "unemployed",
+    "parents"
+   ],
+   "potential_impacts": [
+    "benefit_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Personal_Responsibility_and_Work_Opportunity_Act",
+     "accessed": "2026-10-29",
+     "supports": "дата, TANF, сроки и требования"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2001-september-11",
+   "title": "Теракты 11 сентября 2001 года",
+   "start_date": "2001-09-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "11 сентября 2001 г. угнанные самолёты врезались в башни Всемирного торгового центра в Нью-Йорке и в Пентагон, ещё один разбился в Пенсильвании; погибли 2977 человек из 90 стран, из них 2753 — в Нью-Йорке.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "family_bereavement"
+   ],
+   "narrative_hooks": [
+    "where_were_you",
+    "call_to_check_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_911_memorial"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_911_memorial",
+     "url": "https://www.911memorial.org/911-faqs",
+     "accessed": "2026-10-29",
+     "supports": "дата, число погибших, в т.ч. в Нью-Йорке"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nat-1952-polio-epidemic",
+   "title": "Эпидемия полиомиелита 1952 года",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "public_health",
+   "historical_summary": "В 1952 г. в США зарегистрировали около 58 тыс. случаев полиомиелита и 3200 смертей при обычных примерно 20 тыс. случаев в год; в 1953 г. — 35 тыс. случаев.",
+   "affected_groups": [
+    "children",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "classmate_with_polio",
+    "fear_of_summer_swimming"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
+     "accessed": "2026-10-29",
+     "supports": "число случаев и смертей 1952–1953"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1955-salk-vaccine",
+   "title": "Вакцина Солка против полиомиелита",
+   "start_date": "1955-04-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "public_health",
+   "historical_summary": "12 апреля 1955 г. объявили об успехе испытаний вакцины Солка, и её вскоре одобрили; благодаря массовой вакцинации число случаев упало с 35 тыс. в 1953 г. до 5600 в 1957 г. и 161 в 1961 г. С 1961–1962 гг. применяли и оральную вакцину Сэбина.",
+   "affected_groups": [
+    "children",
+    "parents",
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "vaccine_line_at_school",
+    "sugar_cube_vaccine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
+     "accessed": "2026-10-29",
+     "supports": "дата объявления результатов, снижение заболеваемости, вакцина Сэбина"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1940-peacetime-draft",
+   "title": "Первый в истории США призыв в мирное время",
+   "start_date": "1940-09-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "16 сентября 1940 г. подписан закон о выборочной подготовке и службе — первый призыв в мирное время. За Вторую мировую на учёт встали около 49 млн мужчин, призваны около 10 млн.",
+   "affected_groups": [
+    "men",
+    "young_adults",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_member_drafted"
+   ],
+   "narrative_hooks": [
+    "brother_drafted"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Conscription_in_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "дата закона, число зарегистрированных и призванных"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1969-draft-lottery",
+   "title": "Призывная лотерея эпохи Вьетнама",
+   "start_date": "1969-12-01",
+   "end_date": "1972-12-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "1 декабря 1969 г. прошла призывная лотерея по датам рождения. За 1964–1973 гг. призвали около 1,77 млн человек; последний призыв объявили 7 декабря 1972 г., после чего армия перешла на добровольный набор.",
+   "affected_groups": [
+    "men",
+    "young_adults",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_member_drafted"
+   ],
+   "narrative_hooks": [
+    "watching_lottery_on_tv",
+    "brother_drafted_vietnam"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Conscription_in_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "дата лотереи, число призванных, последний призыв"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-1964-surgeon-general-smoking",
+   "title": "Доклад главного хирурга о вреде курения",
+   "start_date": "1964-01-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "public_health",
+   "historical_summary": "11 января 1964 г. вышел доклад главного хирурга США, связавший курение с раком лёгких, болезнями сердца, бронхитом и эмфиземой; закон 1969 г. ввёл предупреждения на пачках и запретил рекламу сигарет на радио и ТВ.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "father_quit_smoking"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Smoking_and_Health:_Report_of_the_Advisory_Committee_to_the_Surgeon_General_of_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "дата и выводы доклада, закон 1969"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2020-cares-act",
+   "title": "Закон CARES: чеки и пособия в пандемию",
+   "start_date": "2020-03-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "social_policy",
+   "historical_summary": "27 марта 2020 г. подписан пакет помощи на 2,2 трлн долл.: выплаты по 1200 долл. на взрослого и 500 на ребёнка, надбавка 600 долл. в неделю к пособию по безработице до конца июля и временный запрет выселений из жилья с федеральной поддержкой.",
+   "affected_groups": [
+    "all_residents",
+    "unemployed",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "income_support"
+   ],
+   "narrative_hooks": [
+    "stimulus_check"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/CARES_Act",
+     "accessed": "2026-10-29",
+     "supports": "дата, объём, выплаты, надбавка, мораторий на выселения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2008-tarp",
+   "title": "Закон о стабилизации экономики и программа TARP",
+   "start_date": "2008-10-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "3 октября 2008 г., в разгар финансового кризиса, подписан закон о программе выкупа проблемных активов (TARP) объёмом 700 млрд долл.",
+   "affected_groups": [
+    "all_residents",
+    "homeowners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_news_about_banks"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Emergency_Economic_Stabilization_Act_of_2008",
+     "accessed": "2026-10-29",
+     "supports": "дата и объём"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2009-digital-tv-transition",
+   "title": "Переход на цифровое телевидение",
+   "start_date": "2009-06-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "media_communication",
+   "historical_summary": "12 июня 2009 г. основные телестанции прекратили аналоговое вещание. С 2008 г. семьи могли получить до двух купонов по 40 долл. на приставки-конвертеры; в день перехода около 2,5 млн домохозяйств оказались не готовы.",
+   "affected_groups": [
+    "television_owners",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_set_up_converter_box"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Digital_television_transition_in_the_United_States",
+     "accessed": "2026-10-29",
+     "supports": "дата, купоны, неготовые домохозяйства"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nat-2022-inflation-peak",
+   "title": "Инфляция 2022 года",
+   "start_date": "2022-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "us"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В июне 2022 г. годовая инфляция в США достигла 9,1% — максимума с 1981 г.; бензин подорожал почти наполовину с начала года.",
+   "affected_groups": [
+    "consumers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "prices_at_the_store"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge",
+     "accessed": "2026-10-29",
+     "supports": "пик 9,1% в июне 2022, бензин"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,1380 @@
+{
+ "records": [
+  {
+   "id": "gb-ctx-childlessness-cohorts-ew",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1965,
+   "period_end": 2020,
+   "context_type": "fertility_childlessness",
+   "attribute": "childlessness_at_45",
+   "title": "Бездетность и размер семьи по поколениям (Англия и Уэльс)",
+   "description": "У женщин 1949 г. рождения к 45 годам не было детей у 13%, у родившихся в 1975 г. — у 18%; доля бездетных примерно стабильна с поколений конца 1950-х. Среднее итоговое число детей снизилось с 2,08 (1949) до 1,92 (1975) и ниже 2 у всех поколений с конца 1950-х; самой частой оставалась семья с двумя детьми (44% и 37%). Это статистика поколений, а не правило для отдельной женщины.",
+   "statistics": [
+    {
+     "indicator": "childless_at_45_share",
+     "value": 13,
+     "unit": "%",
+     "year": 1994,
+     "area_id": "gb-eng",
+     "population": "женщины, проживающие в Англии и Уэльсе 1949 г. рождения (доля без детей к 45 годам; данные по Англии и Уэльсу)",
+     "method_note": "регистрация рождений, когортный анализ ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "childless_at_45_share",
+     "value": 18.1,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "gb-eng",
+     "population": "женщины, проживающие в Англии и Уэльсе 1975 г. рождения (к 45 годам; Англия и Уэльс)",
+     "method_note": "регистрация рождений, когортный анализ ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "completed_family_size",
+     "value": 2.08,
+     "unit": "детей на женщину",
+     "year": 1994,
+     "area_id": "gb-eng",
+     "population": "женщины, проживающие в Англии и Уэльсе 1949 г. рождения",
+     "method_note": "когортный анализ ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "completed_family_size",
+     "value": 1.92,
+     "unit": "детей на женщину",
+     "year": 2020,
+     "area_id": "gb-eng",
+     "population": "женщины, проживающие в Англии и Уэльсе 1975 г. рождения",
+     "method_note": "когортный анализ ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/conceptionandfertilityrates/bulletins/childbearingforwomenbornindifferentyearsenglandandwales/2020",
+     "accessed": "2026-10-29",
+     "supports": "доли бездетных и итоговый размер семьи по когортам 1949 и 1975"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-divorce-trends-ew",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1971,
+   "period_end": 2019,
+   "context_type": "family_marriage",
+   "attribute": "divorce",
+   "title": "Разводы после реформы 1969 года (Англия и Уэльс)",
+   "description": "Закон о реформе развода вступил в силу 1 января 1971 г., и в 1972 г. число разводов резко выросло. С 1949 г. большинство заявлений о разводе подавали жёны; их доля достигла максимума 72% в 1992 г. Последний пик числа разводов пришёлся на 2003 г.; в 2018 г. их было меньше всего с 1971 г. Медианная продолжительность расторгнутого брака за полвека колебалась от 8,9 до 12,5 года.",
+   "statistics": [
+    {
+     "indicator": "divorce_petitions_by_wives_share",
+     "value": 72,
+     "unit": "%",
+     "year": 1992,
+     "area_id": "gb-eng",
+     "population": "разводы разнополых пар в Англии и Уэльсе",
+     "method_note": "статистика судов о разводах, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "divorces_opposite_sex",
+     "value": 107599,
+     "unit": "разводов",
+     "year": 2019,
+     "area_id": "gb-eng",
+     "population": "разнополые пары, Англия и Уэльс",
+     "method_note": "статистика судов, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "divorce_rate",
+     "value": 8.9,
+     "unit": "на 1000 состоящих в браке 16+",
+     "year": 2019,
+     "area_id": "gb-eng",
+     "population": "состоящие в браке лица 16+, Англия и Уэльс",
+     "method_note": "ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "median_marriage_duration_at_divorce",
+     "value": 12.2,
+     "unit": "лет",
+     "year": 1972,
+     "area_id": "gb-eng",
+     "population": "разводы, Англия и Уэльс",
+     "method_note": "ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/divorce/bulletins/divorcesinenglandandwales/2019",
+     "accessed": "2026-10-29",
+     "supports": "рост 1972, доля жён, пик 2003, минимум 2018, медианная длительность"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-marriage-trends-ew",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1972,
+   "period_end": 2019,
+   "context_type": "family_marriage",
+   "attribute": "marriage",
+   "title": "Брак: меньше, позже, чаще гражданский (Англия и Уэльс)",
+   "description": "Число разнополых браков достигло пика в 1972 г. и к 2019 г. сократилось вдвое; уровень брачности в 2019 г. был самым низким с 1862 г. Медианный возраст первого брака женщин вырос с 29,4 года (1999) до 32,3 (2019). Гражданские церемонии превосходят церковные по числу с 1992 г.; в 2019 г. религиозными были лишь 18% браков.",
+   "statistics": [
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 29.4,
+     "unit": "лет",
+     "year": 1999,
+     "area_id": "gb-eng",
+     "population": "женщины, вступившие в первый разнополый брак, Англия и Уэльс",
+     "method_note": "регистрация браков, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 32.3,
+     "unit": "лет",
+     "year": 2019,
+     "area_id": "gb-eng",
+     "population": "женщины, вступившие в первый разнополый брак, Англия и Уэльс",
+     "method_note": "регистрация браков, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "religious_ceremony_share",
+     "value": 18.2,
+     "unit": "%",
+     "year": 2019,
+     "area_id": "gb-eng",
+     "population": "все браки, Англия и Уэльс",
+     "method_note": "регистрация браков, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/marriagecohabitationandcivilpartnerships/bulletins/marriagesinenglandandwalesprovisional/2019",
+     "accessed": "2026-10-29",
+     "supports": "пик 1972, падение на 50%, возраст первого брака, гражданские церемонии с 1992"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-internet-households",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 2006,
+   "period_end": 2020,
+   "context_type": "communication",
+   "attribute": "home_internet",
+   "title": "Интернет дома",
+   "description": "Доля домохозяйств Великобритании (без Северной Ирландии) с доступом в интернет выросла с 57% в 2006 г. до 96% в 2020 г. Среди одиноко живущих людей 65+ подключены были 80% (2020). Онлайн-покупки среди людей 65+ выросли с 16% (2008) до 65% (2020).",
+   "statistics": [
+    {
+     "indicator": "households_with_internet",
+     "value": 57,
+     "unit": "%",
+     "year": 2006,
+     "area_id": "gb",
+     "population": "домохозяйства Великобритании (Great Britain, без Северной Ирландии)",
+     "method_note": "Opinions and Lifestyle Survey, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "households_with_internet",
+     "value": 96,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "gb",
+     "population": "домохозяйства Great Britain",
+     "method_note": "Opinions and Lifestyle Survey, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "single_65plus_households_with_internet",
+     "value": 80,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "gb",
+     "population": "домохозяйства из одного взрослого 65+, Great Britain",
+     "method_note": "Opinions and Lifestyle Survey, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "online_shopping_65plus",
+     "value": 65,
+     "unit": "% за 12 месяцев",
+     "year": 2020,
+     "area_id": "gb",
+     "population": "взрослые 65+, Great Britain",
+     "method_note": "Opinions and Lifestyle Survey, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/householdcharacteristics/homeinternetandsocialmediausage/bulletins/internetaccesshouseholdsandindividuals/2020",
+     "accessed": "2026-10-29",
+     "supports": "доли домохозяйств 2006/2020, одинокие 65+, онлайн-покупки 65+"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-women-labour-participation",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1972,
+   "period_end": 2018,
+   "context_type": "women_employment",
+   "attribute": "participation_rate",
+   "title": "Женщины на рынке труда",
+   "description": "Экономическая активность женщин 16–64 лет выросла с 55,5% в 1972 г. до рекордных 74,2% в 2018 г., у мужчин она снизилась с 94,9% (1971) до 83,7%. В 1984 г. женщины составляли 87,3% работающих неполный день; их доля среди занятых полный день выросла с 29% (1984) до 37,6% (2018).",
+   "statistics": [
+    {
+     "indicator": "female_participation_16_64",
+     "value": 55.5,
+     "unit": "%",
+     "year": 1972,
+     "area_id": "gb",
+     "population": "женщины 16–64 лет, Великобритания",
+     "method_note": "Labour Force Survey и ретроспективные ряды ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "female_participation_16_64",
+     "value": 74.2,
+     "unit": "%",
+     "year": 2018,
+     "area_id": "gb",
+     "population": "женщины 16–64 лет, Великобритания",
+     "method_note": "Labour Force Survey, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "women_share_of_part_time",
+     "value": 87.3,
+     "unit": "%",
+     "year": 1984,
+     "area_id": "gb",
+     "population": "занятые неполный день, Великобритания",
+     "method_note": "Labour Force Survey, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/compendium/economicreview/april2019/longtermtrendsinukemployment1861to2018",
+     "accessed": "2026-10-29",
+     "supports": "активность женщин и мужчин, неполный день 1984–2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-employment-by-sector",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1920,
+   "period_end": 2016,
+   "context_type": "work",
+   "attribute": "sector_structure",
+   "title": "От фабрик к услугам",
+   "description": "В 1920 г. в первичном секторе (сельское хозяйство и добыча) работали 14,3% занятых, в промышленности и строительстве — 34,2%; к 2016 г. — 1,3% и 15,1%, а сфера услуг выросла с 51,5% до 83,6%. В межвоенные годы в обрабатывающей промышленности было около четверти занятых.",
+   "statistics": [
+    {
+     "indicator": "primary_sector_share",
+     "value": 14.3,
+     "unit": "% занятых",
+     "year": 1920,
+     "area_id": "gb",
+     "population": "все занятые, Великобритания",
+     "method_note": "исторические ряды ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "secondary_sector_share",
+     "value": 34.2,
+     "unit": "% занятых",
+     "year": 1920,
+     "area_id": "gb",
+     "population": "все занятые, Великобритания",
+     "method_note": "исторические ряды ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "services_share",
+     "value": 83.6,
+     "unit": "% занятых",
+     "year": 2016,
+     "area_id": "gb",
+     "population": "все занятые, Великобритания",
+     "method_note": "исторические ряды ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/economy/nationalaccounts/uksectoraccounts/compendium/economicreview/april2019/longtermtrendsinukemployment1861to2018",
+     "accessed": "2026-10-29",
+     "supports": "доли секторов 1920 и 2016, межвоенная доля промышленности"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-living-alone",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1999,
+   "period_end": 2019,
+   "context_type": "family_marriage",
+   "attribute": "household_composition",
+   "title": "Жизнь в одиночку и сожительство",
+   "description": "Число живущих в одиночку в Великобритании выросло с 6,8 млн (1999) до 8,2 млн (2019); почти в половине таких домохозяйств (49,1%) живёт человек 65+. Доля семей-сожительств без брака выросла с 15,3% (2009) до 18,4% (2019).",
+   "statistics": [
+    {
+     "indicator": "people_living_alone",
+     "value": 8.2,
+     "unit": "млн человек",
+     "year": 2019,
+     "area_id": "gb",
+     "population": "частные домохозяйства Великобритании",
+     "method_note": "Labour Force Survey, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "one_person_households_aged65plus_share",
+     "value": 49.1,
+     "unit": "%",
+     "year": 2019,
+     "area_id": "gb",
+     "population": "домохозяйства из одного человека",
+     "method_note": "Labour Force Survey, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/families/bulletins/familiesandhouseholds/2019",
+     "accessed": "2026-10-29",
+     "supports": "живущие одни 1999/2019, 65+, сожительства"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-home-ownership-right-to-buy",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1979,
+   "period_end": 2003,
+   "context_type": "housing",
+   "attribute": "tenure",
+   "title": "Рост домовладения",
+   "description": "Доля домохозяйств-владельцев жилья выросла с 55% в 1979 г. до максимума 71% в 2003 г., чему во многом способствовало право выкупа муниципального жилья; социальный жилой фонд сокращался.",
+   "statistics": [
+    {
+     "indicator": "home_ownership_share",
+     "value": 55,
+     "unit": "% домохозяйств",
+     "year": 1979,
+     "area_id": "gb",
+     "population": "домохозяйства (по данным статьи)",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "home_ownership_share",
+     "value": 71,
+     "unit": "% домохозяйств",
+     "year": 2003,
+     "area_id": "gb",
+     "population": "домохозяйства (по данным статьи)",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Right_to_Buy",
+     "accessed": "2026-10-29",
+     "supports": "доли домовладельцев 1979 и 2003"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-smoking-prevalence",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1962,
+   "period_end": 2018,
+   "context_type": "healthcare",
+   "attribute": "smoking",
+   "title": "Курение: от большинства мужчин к меньшинству",
+   "description": "В 1962 г. курили более 70% мужчин и 40% женщин; к 2018 г. доля курящих в населении снизилась до 14,4%.",
+   "statistics": [
+    {
+     "indicator": "smoking_prevalence_men",
+     "value": 70,
+     "unit": "%",
+     "year": 1962,
+     "area_id": "gb",
+     "population": "взрослые мужчины (более 70%)",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "smoking_prevalence",
+     "value": 14.4,
+     "unit": "%",
+     "year": 2018,
+     "area_id": "gb",
+     "population": "население Великобритании",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Smoking_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "доли курящих 1962 и 2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-1930s-unemployment",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1930,
+   "period_end": 1939,
+   "context_type": "work",
+   "attribute": "unemployment",
+   "title": "Безработица 1930-х и разрыв между Севером и Югом",
+   "description": "Летом 1932 г. зарегистрированная безработица достигла около 3,5 млн. Сильнее всего пострадали Север Англии, Уэльс и Шотландия; в отдельных городах северо-востока без работы было до 70%, тогда как почти половина новых фабрик 1932–1937 гг. открылась в Большом Лондоне.",
+   "statistics": [
+    {
+     "indicator": "registered_unemployed",
+     "value": 3.5,
+     "unit": "млн человек",
+     "year": 1932,
+     "area_id": "gb",
+     "population": "зарегистрированные безработные",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Depression_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "3,5 млн, региональные различия, новые фабрики в Лондоне"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-1950s-television-spread",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1950,
+   "period_end": 1959,
+   "context_type": "appliances",
+   "attribute": "television",
+   "title": "Телевизор приходит в дома",
+   "description": "Перед коронацией 1953 г. многие семьи купили или взяли напрокат телевизор: число телелицензий выросло примерно с 1,5 до 3 млн; трансляцию смотрели около 27 млн человек, часто у соседей.",
+   "statistics": [
+    {
+     "indicator": "tv_licences",
+     "value": 3,
+     "unit": "млн",
+     "year": 1953,
+     "area_id": "gb",
+     "population": "лицензии на телевизор",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
+     "accessed": "2026-10-29",
+     "supports": "рост лицензий и аудитория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-2022-cost-of-living",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 2021,
+   "period_end": 2023,
+   "context_type": "prices_spending",
+   "attribute": "inflation",
+   "title": "Кризис стоимости жизни",
+   "description": "В апреле 2022 г. потолок цен на энергию для домохозяйств подняли на 54%, в октябре 2022 г. инфляция по RPI достигла 11,1%; правительство ограничило типичный счёт за энергию 2500 фунтами в год. Весной 2022 г. 77% взрослых беспокоились о росте цен; у людей старше 80 лет эффективная инфляция в ноябре 2022 г. оценивалась в 15,3% из-за отопления.",
+   "statistics": [
+    {
+     "indicator": "rpi_inflation",
+     "value": 11.1,
+     "unit": "% за 12 месяцев",
+     "year": 2022,
+     "area_id": "gb",
+     "population": "индекс розничных цен",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2021–present_United_Kingdom_cost-of-living_crisis",
+     "accessed": "2026-10-29",
+     "supports": "даты и показатели 2022 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-1946-47-winter",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1946,
+   "period_end": 1947,
+   "context_type": "housing",
+   "attribute": "fuel_shortage",
+   "title": "Зима 1946/47: холод и нехватка угля",
+   "description": "Суровая зима при низких запасах угля привела к отключениям электричества (бытовое — до 19 часов в сутки), закрытию фабрик, приостановке телевидения и урезанию пайков; впервые нормировали картофель. В марте 1947 г. таяние снега затопило более 100 тыс. домов.",
+   "statistics": [],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Winter_of_1946–1947_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "ограничения, последствия, паводки"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-car-availability",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1951,
+   "period_end": 2025,
+   "context_type": "transport",
+   "attribute": "household_car",
+   "title": "Машина в семье",
+   "description": "В 1951 г. машины не было у 86% домохозяйств, в 1961 г. — у 69%, в 1971 г. — уже меньше чем у половины (48%). К 2000 г. без машины оставалось около 27% домохозяйств, с 2000-х — около четверти; доля семей с двумя и более машинами выросла с 1% до трети.",
+   "statistics": [
+    {
+     "indicator": "households_without_car",
+     "value": 86,
+     "unit": "% домохозяйств",
+     "year": 1951,
+     "area_id": "gb",
+     "population": "все домохозяйства; до 1989 г. — Великобритания, с 1989 г. — Англия",
+     "method_note": "до 1985 г. — данные других обследований домохозяйств; NTS",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "households_without_car",
+     "value": 48,
+     "unit": "% домохозяйств",
+     "year": 1971,
+     "area_id": "gb",
+     "population": "все домохозяйства; до 1989 г. — Великобритания, с 1989 г. — Англия",
+     "method_note": "обследования домохозяйств, DfT",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "households_without_car",
+     "value": 32,
+     "unit": "% домохозяйств",
+     "year": 1990,
+     "area_id": "gb-eng",
+     "population": "домохозяйства Англии (1989–1991)",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "households_two_plus_cars",
+     "value": 33,
+     "unit": "% домохозяйств",
+     "year": 2025,
+     "area_id": "gb-eng",
+     "population": "домохозяйства Англии",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    }
+   ],
+   "source_ids": [
+    "gb_dft_nts"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_dft_nts",
+     "url": "https://assets.publishing.service.gov.uk/media/6a9ec6e92f184e71435555d3/nts0205.ods",
+     "accessed": "2026-10-29",
+     "supports": "таблица NTS0205a, 1951–2025"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-women-driving-licences",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1975,
+   "period_end": 2025,
+   "context_type": "transport",
+   "attribute": "driving_licence",
+   "title": "Женщины за рулём",
+   "description": "В 1975–1976 гг. водительские права имели лишь 29% женщин 17+ (и 4% женщин 70+) против 69% мужчин. К 2005 г. — 64% женщин, к 2025 г. — 69%; среди женщин 70+ доля выросла до 66%. Многие женщины старших поколений никогда не водили машину.",
+   "statistics": [
+    {
+     "indicator": "full_licence_holders_women_17plus",
+     "value": 29,
+     "unit": "%",
+     "year": 1975,
+     "area_id": "gb-eng",
+     "population": "женщины 17+, Англия (1975–1976)",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "full_licence_holders_women_70plus",
+     "value": 4,
+     "unit": "%",
+     "year": 1975,
+     "area_id": "gb-eng",
+     "population": "женщины 70+, Англия (1975–1976)",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "full_licence_holders_men_17plus",
+     "value": 69,
+     "unit": "%",
+     "year": 1975,
+     "area_id": "gb-eng",
+     "population": "мужчины 17+, Англия (1975–1976)",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "full_licence_holders_women_17plus",
+     "value": 64,
+     "unit": "%",
+     "year": 2005,
+     "area_id": "gb-eng",
+     "population": "женщины 17+, Англия",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    },
+    {
+     "indicator": "full_licence_holders_women_70plus",
+     "value": 66,
+     "unit": "%",
+     "year": 2025,
+     "area_id": "gb-eng",
+     "population": "женщины 70+, Англия",
+     "method_note": "National Travel Survey",
+     "source_id": "gb_dft_nts"
+    }
+   ],
+   "source_ids": [
+    "gb_dft_nts"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_dft_nts",
+     "url": "https://assets.publishing.service.gov.uk/media/6a9ec6e9474b8101ece46428/nts0201.ods",
+     "accessed": "2026-10-29",
+     "supports": "таблица NTS0201a по полу и возрасту"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-housing-tenure-century",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1918,
+   "period_end": 2025,
+   "context_type": "housing",
+   "attribute": "tenure",
+   "title": "Кто владеет жильём: век перемен",
+   "description": "В 1918 г. около трёх четвертей домохозяйств Англии (76%) снимали жильё у частных владельцев, своим жильём владели 23%, муниципальное жильё почти отсутствовало (1%). К 1971 г. владельцев стало 51%, социального жилья — 29%. Пик доли социальной аренды — около трети в 1981 г.; затем она сокращалась, а частная аренда снова выросла до 17–19% в 2010–2020-х.",
+   "statistics": [
+    {
+     "indicator": "private_rented_share",
+     "value": 76,
+     "unit": "% домохозяйств",
+     "year": 1918,
+     "area_id": "gb-eng",
+     "population": "домохозяйства (оценка по Англии и Уэльсу, Holmans)",
+     "method_note": "историческая оценка, English Housing Survey FT1101",
+     "source_id": "gb_ehs"
+    },
+    {
+     "indicator": "owner_occupied_share",
+     "value": 23,
+     "unit": "% домохозяйств",
+     "year": 1918,
+     "area_id": "gb-eng",
+     "population": "домохозяйства (оценка по Англии и Уэльсу)",
+     "method_note": "историческая оценка",
+     "source_id": "gb_ehs"
+    },
+    {
+     "indicator": "owner_occupied_share",
+     "value": 51,
+     "unit": "% домохозяйств",
+     "year": 1971,
+     "area_id": "gb-eng",
+     "population": "домохозяйства Англии (по данным Англии и Уэльса)",
+     "method_note": "Holmans, Housing Policy in Britain",
+     "source_id": "gb_ehs"
+    },
+    {
+     "indicator": "social_rented_share",
+     "value": 31.7,
+     "unit": "% домохозяйств",
+     "year": 1981,
+     "area_id": "gb-eng",
+     "population": "домохозяйства Англии",
+     "method_note": "Labour Force Survey Housing Trailer",
+     "source_id": "gb_ehs"
+    },
+    {
+     "indicator": "owner_occupied_share",
+     "value": 70.4,
+     "unit": "% домохозяйств",
+     "year": 2001,
+     "area_id": "gb-eng",
+     "population": "домохозяйства Англии",
+     "method_note": "обследования, FT1101",
+     "source_id": "gb_ehs"
+    },
+    {
+     "indicator": "private_rented_share",
+     "value": 18.9,
+     "unit": "% домохозяйств",
+     "year": 2024,
+     "area_id": "gb-eng",
+     "population": "домохозяйства Англии (2024-25)",
+     "method_note": "English Housing Survey",
+     "source_id": "gb_ehs"
+    }
+   ],
+   "source_ids": [
+    "gb_ehs"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ehs",
+     "url": "https://assets.publishing.service.gov.uk/media/6a4d9a8892f65594cb02999e/FT1101_Trends_in_tenure.ods",
+     "accessed": "2026-10-29",
+     "supports": "таблица FT1101, доли по годам 1918–2024-25"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-life-expectancy",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1900,
+   "period_end": 2011,
+   "context_type": "healthcare",
+   "attribute": "life_expectancy",
+   "title": "Продолжительность жизни",
+   "description": "В Англии и Уэльсе ожидаемая продолжительность жизни при рождении выросла с 42,2 года у женщин и 40,2 у мужчин (1841) до 82,8 и 79,0 (2011). Женщина в 65 лет в 2011 г. могла ожидать ещё около 21 года жизни. Разрыв между полами был наибольшим (6,3 года) в 1971 г.",
+   "statistics": [
+    {
+     "indicator": "life_expectancy_birth_women",
+     "value": 82.8,
+     "unit": "лет",
+     "year": 2011,
+     "area_id": "gb-eng",
+     "population": "женщины, Англия и Уэльс",
+     "method_note": "периодные таблицы смертности ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "life_expectancy_65_women",
+     "value": 20.9,
+     "unit": "лет",
+     "year": 2011,
+     "area_id": "gb-eng",
+     "population": "женщины в 65 лет, Англия и Уэльс",
+     "method_note": "периодные таблицы смертности ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "life_expectancy_birth_men",
+     "value": 79.0,
+     "unit": "лет",
+     "year": 2011,
+     "area_id": "gb-eng",
+     "population": "мужчины, Англия и Уэльс",
+     "method_note": "периодные таблицы смертности ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies/articles/howhaslifeexpectancychangedovertime/2015-09-09",
+     "accessed": "2026-10-29",
+     "supports": "значения 1841 и 2011, разрыв 1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-household-size",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1911,
+   "period_end": 2011,
+   "context_type": "family_marriage",
+   "attribute": "household_size",
+   "title": "Семьи становятся меньше",
+   "description": "Средний размер домохозяйства в Англии и Уэльсе сократился примерно с 4,3 человека в 1911 г. до 2,36 в 2001 и 2011 гг.; к 2011 г. почти треть домохозяйств (30,2%) состояла из одного человека.",
+   "statistics": [
+    {
+     "indicator": "average_household_size",
+     "value": 4.3,
+     "unit": "человек",
+     "year": 1911,
+     "area_id": "gb-eng",
+     "population": "частные домохозяйства, Англия и Уэльс",
+     "method_note": "перепись",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.36,
+     "unit": "человек",
+     "year": 2011,
+     "area_id": "gb-eng",
+     "population": "частные домохозяйства, Англия и Уэльс",
+     "method_note": "перепись",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "one_person_households_share",
+     "value": 30.2,
+     "unit": "% домохозяйств",
+     "year": 2011,
+     "area_id": "gb-eng",
+     "population": "домохозяйства, Англия и Уэльс",
+     "method_note": "перепись",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/families/articles/householdsandhouseholdcompositioninenglandandwales/2014-05-29",
+     "accessed": "2026-10-29",
+     "supports": "4,3 → 2,36; доля одиночных 2001/2011"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-births-baby-boom",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1945,
+   "period_end": 1977,
+   "context_type": "fertility_childlessness",
+   "attribute": "births",
+   "title": "Беби-бум и спад рождаемости",
+   "description": "После обеих мировых войн рождаемость резко подскакивала; новый пик пришёлся на 1964 г. — 875 972 рождения в Англии и Уэльсе. Затем число рождений упало до минимума века в 1977 г. — 569 259. Наибольшее число смертей за столетие пришлось на 1918 г. (война и «испанка»).",
+   "statistics": [
+    {
+     "indicator": "live_births",
+     "value": 875972,
+     "unit": "рождений",
+     "year": 1964,
+     "area_id": "gb-eng",
+     "population": "живорождения, Англия и Уэльс",
+     "method_note": "регистрация рождений",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "live_births",
+     "value": 569259,
+     "unit": "рождений",
+     "year": 1977,
+     "area_id": "gb-eng",
+     "population": "живорождения, Англия и Уэльс",
+     "method_note": "регистрация рождений",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/articles/trendsinbirthsanddeathsoverthelastcentury/2015-07-15",
+     "accessed": "2026-10-29",
+     "supports": "пики после войн, 1964, 1977, 1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-ctx-ww1-food-control",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1914,
+   "period_end": 1921,
+   "context_type": "food",
+   "attribute": "rationing",
+   "title": "Продовольствие в Первую мировую",
+   "description": "В 1917 г. сначала просили добровольно ограничивать потребление, хлеб субсидировали с сентября 1917 г.; с декабря 1917 по февраль 1918 г. ввели обязательное нормирование, с июля 1918 г. — книжки на масло, маргарин, жир, мясо и сахар. Полностью контроль сняли к 1921 г.",
+   "statistics": [],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "этапы нормирования 1917–1921"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-ww2-rationing",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1940,
+   "period_end": 1954,
+   "context_type": "food",
+   "attribute": "rationing",
+   "title": "Карточки 1940–1954",
+   "description": "С января 1940 г. нормировали бекон, масло, сахар, затем почти всё, кроме овощей и хлеба; одежду — с июня 1941 г. После войны карточки не исчезли: хлеб нормировали в 1946–1948 гг., сладости освободили лишь в феврале 1953 г., мясо — 4 июля 1954 г.; уголь — до 1958 г. Бензин нормировали в 1939–1950 гг. и снова во время Суэцкого кризиса.",
+   "statistics": [],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "даты введения и отмены по продуктам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-1900s-old-age-pension",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1909,
+   "period_end": 1925,
+   "context_type": "retirement",
+   "attribute": "state_pension",
+   "title": "Первая пенсия: 5 шиллингов в 70 лет",
+   "description": "С 1909 г. люди старше 70 лет с небольшими доходами (не более 31 фунта 10 шиллингов в год) и «хорошей репутацией» могли получать 5 шиллингов в неделю; к концу 1908 г. было назначено около 596 тыс. пенсий. Получавшие помощь для бедных исключались.",
+   "statistics": [
+    {
+     "indicator": "pensions_granted",
+     "value": 596038,
+     "unit": "пенсий",
+     "year": 1908,
+     "area_id": "gb",
+     "population": "назначенные пенсии по старости",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Old-Age_Pensions_Act_1908",
+     "accessed": "2026-10-29",
+     "supports": "условия и сумма"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
+     "accessed": "2026-10-29",
+     "supports": "596 038 пенсий к концу 1908"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-school-leaving-age",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1900,
+   "period_end": 2015,
+   "context_type": "education",
+   "attribute": "school_leaving_age",
+   "title": "До какого возраста учились",
+   "description": "В начале века в Англии и Уэльсе можно было уйти из школы в 12 лет; с 1921 г. — в 14, с 1 апреля 1947 г. — в 15, с 1 сентября 1972 г. — в 16 лет. С 2013–2015 гг. в Англии (но не в Уэльсе) молодёжь обязана учиться или проходить обучение до 18 лет.",
+   "statistics": [],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Raising_of_school_leaving_age_in_England_and_Wales",
+     "accessed": "2026-10-29",
+     "supports": "хронология возраста окончания школы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-divorce-before-1971",
+   "country_code": "GB",
+   "location_id": "gb-eng",
+   "period_start": 1900,
+   "period_end": 1970,
+   "context_type": "family_marriage",
+   "attribute": "divorce_law",
+   "title": "Развод до реформы 1969 года",
+   "description": "До 1938 г. основанием развода была главным образом измена; Matrimonial Causes Act 1937 (с 1 января 1938 г.) добавил оставление супруга, жестокость и неизлечимую душевную болезнь. Развод без доказательства вины стал возможен только с 1971 г.",
+   "statistics": [],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Matrimonial_Causes_Act_1937",
+     "accessed": "2026-10-29",
+     "supports": "основания до и после 1938"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Divorce_Reform_Act_1969",
+     "accessed": "2026-10-29",
+     "supports": "1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-womens-land-army",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1939,
+   "period_end": 1950,
+   "context_type": "women_employment",
+   "attribute": "land_army",
+   "title": "Женщины на полях",
+   "description": "Во Вторую мировую Женская земледельческая армия собирала урожай и работала на фермах вместо ушедших мужчин; к 1944 г. в ней было более 80 тыс. женщин, больше трети — из Лондона и промышленных городов Севера. В 2008 г. бывшим участницам начали вручать памятный знак.",
+   "statistics": [
+    {
+     "indicator": "land_army_members",
+     "value": 80000,
+     "unit": "человек (более)",
+     "year": 1944,
+     "area_id": "gb",
+     "population": "члены Women's Land Army",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women%27s_Land_Army",
+     "accessed": "2026-10-29",
+     "supports": "численность, происхождение, 2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-state-pension-age-women",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1950,
+   "period_end": 2020,
+   "context_type": "retirement",
+   "attribute": "state_pension_age",
+   "title": "Пенсия в 60 у женщин",
+   "description": "Женщины долго получали государственную пенсию в 60 лет, мужчины — в 65. Закон 1995 г. предусмотрел поэтапное выравнивание с 2010 г. для родившихся в 1950–1955 гг., закон 2011 г. его ускорил; около 3,6 млн женщин 1950-х годов рождения ждали пенсию до шести лет дольше.",
+   "statistics": [],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+     "accessed": "2026-10-29",
+     "supports": "60/65, выравнивание, 3,6 млн"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/State_Pension_(United_Kingdom)",
+     "accessed": "2026-10-29",
+     "supports": "исторически 60 и 65, затем 66"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-early-radio",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1922,
+   "period_end": 1939,
+   "context_type": "communication",
+   "attribute": "radio",
+   "title": "Радио в каждом доме",
+   "description": "Число радиолицензий выросло с 35 774 в конце 1922 г. до более миллиона к концу 1924 г. и 2,25 млн к концу 1926 г.",
+   "statistics": [
+    {
+     "indicator": "radio_licences",
+     "value": 2250000,
+     "unit": "лицензий",
+     "year": 1926,
+     "area_id": "gb",
+     "population": "радиолицензии GPO",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/British_Broadcasting_Company",
+     "accessed": "2026-10-29",
+     "supports": "лицензии 1922, 1924, 1926"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-minimum-wage",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1999,
+   "period_end": 2025,
+   "context_type": "wages_income",
+   "attribute": "minimum_wage",
+   "title": "Минимальная оплата труда",
+   "description": "С 1 апреля 1999 г. действует национальная минимальная зарплата: вначале 3,60 фунта в час для работников 22+ и 3,00 для 18–21-летних.",
+   "statistics": [
+    {
+     "indicator": "minimum_wage_adult",
+     "value": 3.6,
+     "unit": "фунтов в час",
+     "year": 1999,
+     "area_id": "gb",
+     "population": "работники 22+",
+     "method_note": "закон",
+     "source_id": "gb_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Minimum_Wage_Act_1998",
+     "accessed": "2026-10-29",
+     "supports": "ставки 1999"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-ctx-household-spending-1957-2017",
+   "country_code": "GB",
+   "location_id": "gb",
+   "period_start": 1957,
+   "period_end": 2017,
+   "context_type": "prices_spending",
+   "attribute": "spending_shares",
+   "title": "На что уходят деньги семьи",
+   "description": "В 1957 г. треть расходов домохозяйства (33%) шла на еду, 10% — на одежду, 6% — на табак и лишь 9% — на жильё. К 2016/17 г. на еду уходило 16%, на одежду 5%, на табак 1%, а на жильё — 18%. Доля алкоголя росла до 5% в 1970–80-х и вернулась к 3%.",
+   "statistics": [
+    {
+     "indicator": "food_share_of_spending",
+     "value": 33,
+     "unit": "% расходов",
+     "year": 1957,
+     "area_id": "gb",
+     "population": "домохозяйства Великобритании",
+     "method_note": "Family Expenditure Survey, классификация FES",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "food_share_of_spending",
+     "value": 16,
+     "unit": "% расходов",
+     "year": 2016,
+     "area_id": "gb",
+     "population": "домохозяйства Великобритании (2016/17 фин. год)",
+     "method_note": "Living Costs and Food Survey, классификация FES",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "housing_share_of_spending",
+     "value": 9,
+     "unit": "% расходов",
+     "year": 1957,
+     "area_id": "gb",
+     "population": "домохозяйства Великобритании",
+     "method_note": "FES",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "tobacco_share_of_spending",
+     "value": 6,
+     "unit": "% расходов",
+     "year": 1957,
+     "area_id": "gb",
+     "population": "домохозяйства Великобритании",
+     "method_note": "FES",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/financialyearending2017",
+     "accessed": "2026-10-29",
+     "supports": "60-летнее сравнение долей расходов по классификации FES"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

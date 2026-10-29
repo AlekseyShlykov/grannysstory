@@ -1,0 +1,308 @@
+{
+ "records": [
+  {
+   "id": "pl-ctx-1990-2023-family-warszawa",
+   "country_code": "PL",
+   "location_id": "pl-warszawa",
+   "period_start": 1990,
+   "period_end": 2023,
+   "context_type": "family_marriage",
+   "attribute": "marriage_divorce_fertility",
+   "title": "Варшава: браки, разводы и рождаемость 1990–2023",
+   "description": "Городская статистика GUS для города Варшава: браки на 1000 жителей 15+ и разводы на 10 тыс. жителей в 1990–2023 гг., суммарная рождаемость и доля внебрачных рождений в 2023 г.",
+   "statistics": [
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 6.6,
+     "unit": "per 1000 population aged 15+",
+     "year": 1990,
+     "area_id": "pl-warszawa",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 5.8,
+     "unit": "per 1000 population aged 15+",
+     "year": 2000,
+     "area_id": "pl-warszawa",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 6.06,
+     "unit": "per 1000 population aged 15+",
+     "year": 2010,
+     "area_id": "pl-warszawa",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 4.6,
+     "unit": "per 1000 population aged 15+",
+     "year": 2020,
+     "area_id": "pl-warszawa",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 5.3,
+     "unit": "per 1000 population aged 15+",
+     "year": 2023,
+     "area_id": "pl-warszawa",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 13.4,
+     "unit": "per 10000 population",
+     "year": 1990,
+     "area_id": "pl-warszawa",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 20.1,
+     "unit": "per 10000 population",
+     "year": 2000,
+     "area_id": "pl-warszawa",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 20.0,
+     "unit": "per 10000 population",
+     "year": 2010,
+     "area_id": "pl-warszawa",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 17.6,
+     "unit": "per 10000 population",
+     "year": 2020,
+     "area_id": "pl-warszawa",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 18.1,
+     "unit": "per 10000 population",
+     "year": 2023,
+     "area_id": "pl-warszawa",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.012,
+     "unit": "children per woman",
+     "year": 2023,
+     "area_id": "pl-warszawa",
+     "population": "женщины 15–49 лет, жительницы города",
+     "method_note": "GUS табл. 78(102)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "extramarital_births_share",
+     "value": 26.4,
+     "unit": "% of births",
+     "year": 2023,
+     "area_id": "pl-warszawa",
+     "population": "рождения у жительниц города",
+     "method_note": "GUS табл. 55(79)",
+     "source_id": "pl_gus"
+    }
+   ],
+   "source_ids": [
+    "pl_gus"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_gus",
+     "url": "https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5515/3/18/1/rocznik_demograficzny_2024_tablice.zip",
+     "accessed": "2026-10-29",
+     "supports": "табл. 16(40), 35(59), 55(79), 78(102) — города 100 тыс.+"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-ctx-1925-2022-warsaw-population",
+   "country_code": "PL",
+   "location_id": "pl-warszawa",
+   "period_start": 1925,
+   "period_end": 2022,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Варшавы",
+   "description": "Варшава достигла миллиона жителей к 1925 г.; во время войны погибли сотни тысяч жителей и было разрушено около 85% зданий. В 1951 г. площадь города выросла со 118 до 411 км²; в 2022 г. в нём жили около 1,8 млн человек, включая около 180 тыс. беженцев из Украины.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1000000,
+     "unit": "persons (approx.)",
+     "year": 1925,
+     "area_id": "pl-warszawa",
+     "population": "всё население города",
+     "method_note": "оценка",
+     "source_id": "pl_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1800000,
+     "unit": "persons (approx.)",
+     "year": 2022,
+     "area_id": "pl-warszawa",
+     "population": "всё население города, включая беженцев",
+     "method_note": "оценка на август 2022",
+     "source_id": "pl_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1925 1 млн; 85%; 1951 118→411 км²; 2022 1,8 млн, 180 тыс. беженцев"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-ctx-1995-2024-labour-warszawa",
+   "country_code": "PL",
+   "location_id": "pl-warszawa",
+   "period_start": 1995,
+   "period_end": 2024,
+   "context_type": "work",
+   "attribute": "population_unemployment",
+   "title": "Варшава: население и безработица 1995–2024",
+   "description": "По данным Банка местных данных GUS, регистрируемая безработица в городе Варшава колебалась от 6.2% (2004) до 1.3% (2019); численность населения — см. ряды. Популяционная статистика, не правило для отдельного человека.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1692854,
+     "unit": "persons",
+     "year": 2004,
+     "area_id": "pl-warszawa",
+     "population": "все жители города (powiat grodzki)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "population",
+     "value": 1724404,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "pl-warszawa",
+     "population": "все жители города (powiat grodzki)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "population",
+     "value": 1863845,
+     "unit": "persons",
+     "year": 2024,
+     "area_id": "pl-warszawa",
+     "population": "все жители города (powiat grodzki)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 6.2,
+     "unit": "%",
+     "year": 2004,
+     "area_id": "pl-warszawa",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 1.9,
+     "unit": "%",
+     "year": 2008,
+     "area_id": "pl-warszawa",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 4.8,
+     "unit": "%",
+     "year": 2013,
+     "area_id": "pl-warszawa",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 1.3,
+     "unit": "%",
+     "year": 2019,
+     "area_id": "pl-warszawa",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 1.4,
+     "unit": "%",
+     "year": 2024,
+     "area_id": "pl-warszawa",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    }
+   ],
+   "source_ids": [
+    "pl_gus_bdl"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/071412865000?var-id=72305&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "численность населения"
+    },
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/071412865000?var-id=60270&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "уровень регистрируемой безработицы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+  "regionId": "moscow",
+  "version": "0.5.0",
+  "label": "Москва",
+  "coverage": "Москва; проверенное ядро содержит только два городских события",
+  "birthPlaces": ["moscow"],
+  "events": [
+    {
+      "id": "moscow_metro_opening_1935",
+      "title": "Открылась первая очередь Московского метрополитена",
+      "locationId": "moscow",
+      "startDate": "1935-05-15",
+      "endDate": "1935-05-15",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "mosmetro_history",
+      "verificationStatus": "verified",
+      "historicalContext": "15 мая 1935 года открылась первая очередь метро от «Сокольников» до «Парка культуры» с ответвлением до «Смоленской».",
+      "applicability": { "residentPlaceIds": ["moscow"], "minAge": 0, "maxAge": 115 },
+      "confidence": "high"
+    },
+    {
+      "id": "moscow_first_air_raid_1941",
+      "title": "Первый крупный воздушный налёт на Москву",
+      "locationId": "moscow",
+      "startDate": "1941-07-21",
+      "endDate": "1941-07-22",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "prlib_moscow_air_raid_1941",
+      "verificationStatus": "verified",
+      "historicalContext": "Архивная сводка МПВО фиксирует последствия налёта на Москву в ночь с 21 на 22 июля 1941 года.",
+      "applicability": { "residentPlaceIds": ["moscow"], "minAge": 1, "maxAge": 110 },
+      "confidence": "high"
+    }
+  ]
+}

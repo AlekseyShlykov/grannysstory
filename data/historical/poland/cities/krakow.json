@@ -1,0 +1,963 @@
+{
+ "records": [
+  {
+   "id": "pl-krakow-1901-water-trams",
+   "title": "Водопровод и электрический трамвай в Кракове",
+   "start_date": "1901",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1901 г. Краков получил водопровод и первые электрические трамваи.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "1901 водопровод и электрические трамваи"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1910-greater-krakow",
+   "title": "«Большой Краков»: присоединение пригородов",
+   "start_date": "1910",
+   "end_date": "1915",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1910–1915 гг. к Кракову присоединили окрестные общины; население выросло примерно с 91 тыс. до 183 тыс. человек.",
+   "affected_groups": [
+    "urban_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "1910–1915 присоединения, ~91 тыс. → 183 тыс."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1914-first-cadre",
+   "title": "Первая кадровая рота Пилсудского",
+   "start_date": "1914-08-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "3 августа 1914 г. в Кракове Юзеф Пилсудский сформировал Первую кадровую роту — предшественницу Польских легионов; в ноябре 1914 г. русские войска ненадолго осадили город.",
+   "affected_groups": [
+    "young_adults",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "relative_in_legions"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "3.08.1914 First Cadre Company; ноябрь 1914 осада"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1915-podgorze",
+   "title": "Подгуже присоединён к Кракову",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1915 г. отдельный до тех пор город Подгуже на правом берегу Вислы был включён в состав Кракова.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "1915 Podgórze incorporated"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1918-liquidation-commission",
+   "title": "Польская ликвидационная комиссия берёт власть в Кракове",
+   "start_date": "1918-10-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "political_change",
+   "historical_summary": "Созданная 28 октября 1918 г. в Кракове Польская ликвидационная комиссия 31 октября взяла власть в городе, положив конец австрийскому управлению; распущена декретом 10 января 1919 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_austrian_rule"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Polska_Komisja_Likwidacyjna",
+     "accessed": "2026-10-29",
+     "supports": "28.10.1918 создание, 31.10.1918 власть в Кракове, 10.01.1919 роспуск"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1919-agh",
+   "title": "Основана Горная академия (AGH)",
+   "start_date": "1919",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "education",
+   "historical_summary": "В 1919 г. в Кракове основана Горная академия (ныне AGH), в 1925 г. — Высшая торговая школа (ныне Экономический университет).",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 17
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "1919 AGH; 1925 University of Economics"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1939-german-entry",
+   "title": "Германские войска в Кракове; столица Генерал-губернаторства",
+   "start_date": "1939-09-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "occupation",
+   "historical_summary": "6 сентября 1939 г. германские войска вошли в Краков; 4 ноября 1939 г. город стал столицей Генерал-губернаторства во главе с Гансом Франком.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "life_under_occupation"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "6.09.1939 вход, 4.11.1939 столица GG"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1939-sonderaktion",
+   "title": "Sonderaktion Krakau: арест профессоров",
+   "start_date": "1939-11-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "repression",
+   "historical_summary": "6 ноября 1939 г. германские власти арестовали 184 профессора и сотрудника Ягеллонского университета; 9–10 ноября последовали ещё около 120 арестов.",
+   "affected_groups": [
+    "teachers",
+    "scientists_engineers",
+    "students"
+   ],
+   "potential_impacts": [
+    "education_interrupted"
+   ],
+   "narrative_hooks": [
+    "teacher_arrested"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "6.11.1939 184 арестованных; 9–10.11 ещё ~120"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1941-ghetto",
+   "title": "Краковское гетто в Подгуже",
+   "start_date": "1941-03",
+   "end_date": "1943-03",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "repression",
+   "historical_summary": "В марте 1941 г. германские власти создали гетто в районе Подгуже; в начале июня 1942 г. прошла массовая депортация, в марте 1943 г. гетто ликвидировано.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "март 1941 Подгуже; июнь 1942 депортация; март 1943 ликвидация"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1943-ghetto-liquidation",
+   "title": "Ликвидация Краковского гетто",
+   "start_date": "1943",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1943 г. германские власти ликвидировали Краковское гетто.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "1943 ликвидация гетто"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1945-liberation",
+   "title": "Красная армия входит в Краков",
+   "start_date": "1945-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В январе 1945 г. в Краков вошли советские войска (английская Википедия называет 18, польская — 17 января); бомба советской авиации повредила собор на Вавеле, около 450 зданий разрушено или повреждено.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "18.01.1945"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Krakowa",
+     "accessed": "2026-10-29",
+     "supports": "17.01.1945; бомба на Вавель; ~450 зданий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1946-student-protests",
+   "title": "Студенческие протесты 3 мая 1946 года",
+   "start_date": "1946-05-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "political_change",
+   "historical_summary": "3 мая 1946 г. краковские студенты вышли на протест; студенческие выступления повторялись в марте 1968 г. и 15 мая 1977 г., когда в Кракове возник первый в стране Студенческий комитет солидарности.",
+   "affected_groups": [
+    "students"
+   ],
+   "eligibility": {
+    "min_age": 17
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "student_protest"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Krakowa",
+     "accessed": "2026-10-29",
+     "supports": "3.05.1946, март 1968, 15.05.1977, первый SKS"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1949-nowa-huta",
+   "title": "Начало строительства Новой Гуты",
+   "start_date": "1949-06-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Решение о строительстве металлургического комбината принято 17 мая 1947 г., площадку у Могилы утвердили 1 февраля 1949 г., а 23 июня 1949 г. началось строительство первых жилых домов нового рабочего города Новая Гута.",
+   "affected_groups": [
+    "industrial_workers",
+    "young_adults",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "new_home_after_move",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "came_to_build_nowa_huta"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
+     "accessed": "2026-10-29",
+     "supports": "17.05.1947 решение; 1.02.1949 площадка; 23.06.1949 первые дома"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1951-nowa-huta-incorporated",
+   "title": "Новая Гута включена в Краков",
+   "start_date": "1951-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "1 января 1951 г. Новая Гута стала районом Кракова; в 1952 г. туда пустили трамвай от Рондо Могильского до комбината.",
+   "affected_groups": [
+    "urban_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
+     "accessed": "2026-10-29",
+     "supports": "1.01.1951 включение; 1952 трамвай"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1954-lenin-steelworks",
+   "title": "Пуск металлургического комбината имени Ленина",
+   "start_date": "1954-07-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "local_economy",
+   "historical_summary": "22 июля 1954 г. официально запущен металлургический комбинат имени Ленина в Новой Гуте; в 1990 г. его переименовали в честь Тадеуша Сендзимира, в 2005–2007 гг. он перешёл к Mittal Steel и ArcelorMittal Poland.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "worked_at_the_steelworks"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
+     "accessed": "2026-10-29",
+     "supports": "22.07.1954 пуск; 1990 Сендзимир; 2005–2007 Mittal/ArcelorMittal"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1960-cross-defence",
+   "title": "Защита креста в Новой Гуте",
+   "start_date": "1960-04-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "religion",
+   "historical_summary": "27 апреля 1960 г. в Новой Гуте вспыхнули массовые беспорядки в защиту креста на месте обещанного, но не построенного костёла; милиция их подавила. Строительство первого костёла района, «Ковчега Господня», началось в 1967 г.",
+   "affected_groups": [
+    "industrial_workers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "church_built_by_residents"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
+     "accessed": "2026-10-29",
+     "supports": "27.04.1960 Obrona Krzyża; 1967 начало строительства Arka Pana"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1978-unesco",
+   "title": "Исторический центр Кракова в списке ЮНЕСКО",
+   "start_date": "1978",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1978 г. исторический центр Кракова включён в первый список Всемирного наследия ЮНЕСКО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "1978 ЮНЕСКО"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-1978-pope",
+   "title": "Краковский архиепископ избран папой",
+   "start_date": "1978-10-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "religion",
+   "historical_summary": "16 октября 1978 г. архиепископ Краковский Кароль Войтыла избран папой римским и принял имя Иоанн Павел II.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "news_of_polish_pope"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "16.10.1978 избрание Войтылы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-2000-capital-of-culture",
+   "title": "Краков — культурная столица Европы",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2000 г. Краков был одной из культурных столиц Европы; в 2013 г. получил статус города литературы ЮНЕСКО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "2000 European Capital of Culture; 2013 City of Literature"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-2004-nowa-huta-monument",
+   "title": "Планировка Новой Гуты внесена в реестр памятников",
+   "start_date": "2004-12-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "30 декабря 2004 г. градостроительная планировка Новой Гуты внесена в реестр памятников; в январе 2023 г. ансамбль признан памятником истории.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
+     "accessed": "2026-10-29",
+     "supports": "30.12.2004 реестр A-1132; январь 2023 pomnik historii"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-2011-bpo",
+   "title": "Краков — центр аутсорсинга услуг",
+   "start_date": "2011",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2011 г. доклад ЮНКТАД назвал Краков самым быстрорастущим городом мира для инвестиций в аутсорсинг бизнес-процессов; в городе росли офисные рабочие места для молодёжи с языками.",
+   "affected_groups": [
+    "office_workers",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_office_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "2011 UNCTAD BPO"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-2014-olympic-referendum",
+   "title": "Референдум против зимней Олимпиады",
+   "start_date": "2014-05",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "political_change",
+   "historical_summary": "На референдуме в мае 2014 г. 69,72% проголосовавших жителей Кракова высказались против заявки на зимние Олимпийские игры 2022 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "May 2014 referendum, 69.72% against"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-2016-world-youth-day",
+   "title": "Всемирные дни молодёжи в Кракове",
+   "start_date": "2016",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "religion",
+   "historical_summary": "В 2016 г. Краков принимал Всемирные дни молодёжи.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kraków",
+     "accessed": "2026-10-29",
+     "supports": "2016 World Youth Day"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-krakow-2019-coal-ban",
+   "title": "Запрет отопления углём и дровами в Кракове",
+   "start_date": "2019-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "environment",
+   "historical_summary": "С 1 сентября 2019 г. в Кракове действует полный запрет сжигать уголь, дрова и другое твёрдое топливо в котлах, печах и каминах (постановление сеймика Малопольши, январь 2016 г.). С 1995 г. в городе ликвидировали свыше 45 тыс. угольных печей; к началу запрета оставалось около 4 тыс.",
+   "affected_groups": [
+    "homeowners",
+    "tenants",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "heating_change"
+   ],
+   "narrative_hooks": [
+    "tiled_stove_removed",
+    "smog_winters"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_radio_krakow"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_radio_krakow",
+     "url": "https://www.radiokrakow.pl/aktualnosci/krakow/od-niedzieli-calkowity-zakaz-palenia-weglem-i-drewnem",
+     "accessed": "2026-10-29",
+     "supports": "1.09.2019 запрет; январь 2016 постановление; 45 тыс. печей с 1995; ~4 тыс. остаётся"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-krakow-2023-european-games",
+   "title": "Европейские игры 2023",
+   "start_date": "2023",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "category": "sport",
+   "historical_summary": "В 2023 г. Краков вместе с Малопольшей принимал Европейские игры.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
+     "accessed": "2026-10-29",
+     "supports": "2023 European Games"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

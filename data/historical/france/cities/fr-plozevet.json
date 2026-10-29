@@ -1,0 +1,526 @@
+{
+ "records": [
+  {
+   "id": "fr-plozevet-1903-girls-school-secular",
+   "title": "Светская школа для девочек",
+   "start_date": "1903",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "education",
+   "historical_summary": "В 1903 году школа для девочек в Плозеве стала светской; позднее, в 1928 году, открылась частная католическая школа для девочек.",
+   "affected_groups": [
+    "school_pupils",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "school_choice_church_or_state"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1903 laïcisation école de filles; 1928 école privée Sainte-Jeanne-d'Arc"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1912-train-carottes",
+   "title": "Узкоколейка «морковный поезд»",
+   "start_date": "1912-10-01",
+   "end_date": "1935-06-30",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 октября 1912 года открылась узкоколейная железная дорога, прозванная «морковным поездом»; закрыта 30 июня 1935 года.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_to_market"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1er octobre 1912 train carottes; fermé 30 juin 1935"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1910-rural-exodus",
+   "title": "Сельский исход около 1910 года",
+   "start_date": "1910",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "migration",
+   "historical_summary": "Около 1910 года сельское хозяйство давало работу примерно 635 людям при более чем 1300 желающих — отсюда массовый отток населения; в 1870–1925 годах многие уезжали на заводы Шантене под Нантом.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "vers 1910 635 emplois pour plus de 1 300; émigration vers Chantenay 1870-1925"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1922-war-memorial",
+   "title": "Памятник погибшим работы Рене Килливика",
+   "start_date": "1922-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В сентябре 1922 года открыт памятник 215 уроженцам Плозеве, погибшим в Первой мировой; коммуна потеряла около 30% мужчин 18–48 лет.",
+   "affected_groups": [
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "215 morts; 30 % des hommes de 18 à 48 ans; monument inauguré septembre 1922"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1926-lifeboat-station",
+   "title": "Спасательная станция в Порс-Пульане",
+   "start_date": "1926-07-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "11 июля 1926 года в порту Порс-Пульан открыли спасательную станцию с лодкой; в том же году там же построили хуторскую школу, работавшую до 1968 года.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "11 juillet 1926 station de sauvetage; école de hameau 1926-1968"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1933-ecole-le-bail",
+   "title": "Новая школа для мальчиков",
+   "start_date": "1933",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "education",
+   "historical_summary": "В 1933 году открыта школа имени Жоржа Ле Байля для мальчиков.",
+   "affected_groups": [
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1933 inauguration école Georges-Le Bail"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1944-killings",
+   "title": "Расстрелы накануне освобождения",
+   "start_date": "1944-08-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "4 августа 1944 года, когда жители начали праздновать приближающееся освобождение, оккупационные войска убили четырёх жителей Плозеве.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "4 août 1944 quatre habitants tués"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1961-interdisciplinary-study",
+   "title": "Плозеве под взглядом исследователей",
+   "start_date": "1961",
+   "end_date": "1965",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1961–1965 годах около сотни исследователей изучали Плозеве в рамках большой междисциплинарной программы; Эдгар Морен жил там около года с весны 1965 года и в 1967 году выпустил книгу «Commune en France: la métamorphose de Plodémet».",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "researchers_in_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1961-1965 une centaine de chercheurs; Morin printemps 1965; livre 1967"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1965-remembrement",
+   "title": "Укрупнение земельных участков",
+   "start_date": "1965-09-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Проведённое в 1961–1963 годах переустройство земель вступило в силу 29 сентября 1965 года: число участков сократилось с 8260 до 2390.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_land_changed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "remembrement 1961-1963, effectif 29 septembre 1965, 8 260 à 2 390 parcelles"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1962-pea-crisis",
+   "title": "Гороховый кризис",
+   "start_date": "1962",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1962 году местные фермеры вступили в конфликт с переработчиком Hanff из-за кризиса выращивания гороха.",
+   "affected_groups": [
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1962 crise des petits pois avec Hanff"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1968-running-water",
+   "title": "Водопровод доходит до деревень",
+   "start_date": "1968",
+   "end_date": "1975",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "С 1968 года и примерно до 1975 года водопровод провели сначала в центр коммуны, затем в окрестные деревни.",
+   "affected_groups": [
+    "rural_residents",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tap_water"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1968-vers 1975 eau courante bourg puis villages"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1968-ces-college",
+   "title": "Строительство коллежа",
+   "start_date": "1968",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "education",
+   "historical_summary": "В 1968 году началось строительство коллежа (CES), ныне коллеж Анри-Ле-Моаль; в 1960-е школы стали смешанными.",
+   "affected_groups": [
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1968 construction du CES; années 1960 mixité"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1984-capitaine-cook-cannery",
+   "title": "Консервный завод Capitaine Cook",
+   "start_date": "1984",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1984 году группа Ларзюля открыла в Плозеве современный консервный завод под маркой «Capitaine Cook»; в 1988 году заводы проданы Intermarché.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "1984 conserverie moderne Capitaine Cook; 1988 vendues à Intermarché"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-plozevet-1982-mondial-folk",
+   "title": "Фестиваль Mondial'Folk",
+   "start_date": "1982",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-plozevet"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "С 1982 года каждое лето в Плозеве проходит фестиваль фольклора Mondial'Folk.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_festival"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "à partir de 1982 Mondial'Folk"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

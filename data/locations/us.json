@@ -1,0 +1,110 @@
+{
+  "locations": [
+    {
+      "id": "us-ny", "type": "us_state", "country": "US", "wikidata": "Q1384", "codes": { "fips_state": "36", "usps": "NY" },
+      "names": [{ "name": "New York", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "штат Нью-Йорк", "locative": "в штате Нью-Йорк", "from": null, "to": null }],
+      "alt_names": ["New York State"], "coordinates": { "lat": 43.0, "lon": -75.0, "source_id": "wikidata" },
+      "parents": [{ "id": "us", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-il", "type": "us_state", "country": "US", "wikidata": "Q1204", "codes": { "fips_state": "17", "usps": "IL" },
+      "names": [{ "name": "Illinois", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Иллинойс", "locative": "в Иллинойсе", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 40.0003, "lon": -89.2503, "source_id": "wikidata" },
+      "parents": [{ "id": "us", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-mi", "type": "us_state", "country": "US", "wikidata": "Q1166", "codes": { "fips_state": "26", "usps": "MI" },
+      "names": [{ "name": "Michigan", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Мичиган", "locative": "в Мичигане", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 44.34, "lon": -85.58, "source_id": "wikidata" },
+      "parents": [{ "id": "us", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-oh", "type": "us_state", "country": "US", "wikidata": "Q1397", "codes": { "fips_state": "39", "usps": "OH" },
+      "names": [{ "name": "Ohio", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Огайо", "locative": "в Огайо", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 40.5, "lon": -82.5, "source_id": "wikidata" },
+      "parents": [{ "id": "us", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-new-york-city", "type": "city", "country": "US", "wikidata": "Q60", "codes": { "fips_place": "3651000", "gnis": "975772" },
+      "settlement_class": "large_city",
+      "names": [
+        { "name": "New York", "lang": "en", "from": null, "to": null }
+      ],
+      "names_ru": [{ "name": "Нью-Йорк", "locative": "в Нью-Йорке", "from": null, "to": null }],
+      "alt_names": ["New York City", "City of New York", "Greater New York"],
+      "coordinates": { "lat": 40.7128, "lon": -74.0061, "source_id": "wikidata" },
+      "parents": [{ "id": "us-ny", "from": null, "to": null }],
+      "sovereignty_note": null,
+      "admin_note": "Город в нынешних границах пяти боро (Manhattan, Bronx, Brooklyn, Queens, Staten Island) образован консолидацией 1 января 1898 г.; узел моделирует город целиком без уровня графств (город охватывает пять графств штата). Весь период игры 1900–2025 приходится на консолидированный город.",
+      "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-il-cook", "type": "county", "country": "US", "wikidata": "Q108418", "codes": { "fips_county": "17031", "gnis": "1784766" },
+      "names": [{ "name": "Cook County", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "округ Кук", "locative": "в округе Кук", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 41.8, "lon": -87.7167, "source_id": "wikidata" },
+      "parents": [{ "id": "us-il", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-chicago", "type": "city", "country": "US", "wikidata": "Q1297", "codes": { "fips_place": "17-14000", "gnis": "428803" },
+      "settlement_class": "large_city",
+      "names": [{ "name": "Chicago", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Чикаго", "locative": "в Чикаго", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 41.8819, "lon": -87.6278, "source_id": "wikidata" },
+      "parents": [{ "id": "us-il-cook", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-mi-wayne", "type": "county", "country": "US", "wikidata": "Q195664", "codes": { "fips_county": "26163", "gnis": "1623022" },
+      "names": [{ "name": "Wayne County", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "округ Уэйн", "locative": "в округе Уэйн", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 42.28, "lon": -83.26, "source_id": "wikidata" },
+      "parents": [{ "id": "us-mi", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-detroit", "type": "city", "country": "US", "wikidata": "Q12439", "codes": { "fips_place": "26-22000", "gnis": "1617959" },
+      "settlement_class": "large_city",
+      "names": [{ "name": "Detroit", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Детройт", "locative": "в Детройте", "from": null, "to": null }],
+      "alt_names": ["Motor City"], "coordinates": { "lat": 42.3317, "lon": -83.0475, "source_id": "wikidata" },
+      "parents": [{ "id": "us-mi-wayne", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-oh-washington", "type": "county", "country": "US", "wikidata": "Q489571", "codes": { "fips_county": "39167", "gnis": "1074095" },
+      "names": [{ "name": "Washington County", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "округ Вашингтон (Огайо)", "locative": "в округе Вашингтон", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 39.46, "lon": -81.49, "source_id": "wikidata" },
+      "parents": [{ "id": "us-oh", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-marietta", "type": "town", "country": "US", "wikidata": "Q985482", "codes": { "fips_place": "39-47628", "gnis": "1076339" },
+      "settlement_class": "small_town",
+      "names": [{ "name": "Marietta", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Мариетта", "locative": "в Мариетте", "from": null, "to": null }],
+      "alt_names": ["Marietta, Ohio"], "coordinates": { "lat": 39.4206, "lon": -81.4503, "source_id": "wikidata" },
+      "parents": [{ "id": "us-oh-washington", "from": null, "to": null }], "sovereignty_note": null,
+      "admin_note": "Юридически city (административный центр округа), по размеру малый город при слиянии рек Огайо и Маскингам; type=town выбран как игровой класс поселения.",
+      "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-oh-holmes", "type": "county", "country": "US", "wikidata": "Q485650", "codes": { "fips_county": "39075", "gnis": "1074050" },
+      "names": [{ "name": "Holmes County", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "округ Холмс", "locative": "в округе Холмс", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 40.56, "lon": -81.93, "source_id": "wikidata" },
+      "parents": [{ "id": "us-oh", "from": null, "to": null }], "sovereignty_note": null, "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us-holmes-county-rural", "type": "rural_area", "country": "US", "wikidata": null, "codes": {},
+      "settlement_class": "rural",
+      "names": [{ "name": "rural Holmes County", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "сельская местность округа Холмс", "locative": "в сельской местности округа Холмс", "from": null, "to": null }],
+      "alt_names": [], "coordinates": { "lat": 40.56, "lon": -81.93, "source_id": "wikidata" },
+      "parents": [{ "id": "us-oh-holmes", "from": null, "to": null }], "sovereignty_note": null,
+      "admin_note": "Игровой узел: фермы и тауншипы округа Холмс вне Миллерсберга. Собственного QID нет; координаты — центроид округа по Wikidata Q485650.",
+      "occupations": [], "source_ids": ["wikidata"]
+    }
+  ]
+}

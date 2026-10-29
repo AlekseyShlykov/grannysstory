@@ -1,0 +1,398 @@
+{
+  "records": [
+    {
+      "id": "ru-novgorod-1941-occupation",
+      "title": "Оккупация Новгорода",
+      "title_original": null,
+      "start_date": "1941-08-15",
+      "end_date": "1944-01-20",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "15 августа 1941 года Новгород заняли немецкие и испанские части; оккупация продлилась до 20 января 1944 года, город был почти полностью разрушен.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "displacement",
+        "housing_loss"
+      ],
+      "narrative_hooks": [
+        "evacuation",
+        "loss_of_home"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "15.08.1941 – 20.01.1944; разрушение"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1944-millennium-monument",
+      "title": "Памятник «Тысячелетие России» восстановлен",
+      "title_original": null,
+      "start_date": "1944-11-05",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "5 ноября 1944 года в освобождённом Новгороде вновь открыли памятник «Тысячелетие России», разобранный при оккупации.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "05.11.1944"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1945-priority-restoration",
+      "title": "Новгород — среди 15 городов первоочередного восстановления",
+      "title_original": null,
+      "start_date": "1945-11-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "1 ноября 1945 года Новгород включили в список 15 городов, подлежащих первоочередному восстановлению; 22 декабря 1945 года утвердили послевоенный генеральный план.",
+      "affected_groups": [
+        "all_residents",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "rebuilding_city"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "01.11.1945; 22.12.1945"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1947-war-crimes-trial",
+      "title": "Новгородский процесс над военными преступниками",
+      "title_original": null,
+      "start_date": "1947-12",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "В декабре 1947 года в Новгороде прошёл последний открытый советский судебный процесс над нацистскими военными преступниками.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "декабрь 1947"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1951-birch-bark",
+      "title": "Найдена первая берестяная грамота",
+      "title_original": null,
+      "start_date": "1951-07-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "26 июля 1951 года археологическая экспедиция нашла в Новгороде первую берестяную грамоту.",
+      "affected_groups": [
+        "scientists_engineers",
+        "school_pupils"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "26.07.1951"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1967-chemical-plant",
+      "title": "Первая продукция химкомбината",
+      "title_original": null,
+      "start_date": "1967",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1967 году новгородский химический комбинат (ныне «Акрон») выпустил первую продукцию.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [
+        "employment_change"
+      ],
+      "narrative_hooks": [
+        "construction_site_job"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "1967"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1975-yak40-crash",
+      "title": "Самолёт упал на жилой дом",
+      "title_original": null,
+      "start_date": "1975-10-22",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "22 октября 1975 года самолёт Як-40 упал на жилой дом в Новгороде; погибли 11 человек.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "22.10.1975, 11 погибших"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1992-unesco",
+      "title": "Памятники Новгорода — всемирное наследие",
+      "title_original": null,
+      "start_date": "1992",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В 1992 году исторические памятники Новгорода и окрестностей внесли в список всемирного наследия ЮНЕСКО.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "1992"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-1999-veliky-novgorod",
+      "title": "Новгород стал Великим Новгородом",
+      "title_original": null,
+      "start_date": "1999-06-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "11 июня 1999 года подписан федеральный закон о переименовании Новгорода в Великий Новгород.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "11.06.1999"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-novgorod-2016-derevyanitsky-bridge",
+      "title": "Третий автомобильный мост через Волхов",
+      "title_original": null,
+      "start_date": "2016",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 2016 году в Великом Новгороде открылся Деревяницкий мост — третий автомобильный мост через Волхов.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
+          "accessed": "2026-10-29",
+          "supports": "2016"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

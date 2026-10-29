@@ -1,0 +1,1093 @@
+{
+  "records": [
+    {
+      "id": "ru-tver-1901-electric-tram",
+      "title": "В Твери пущен электрический трамвай",
+      "title_original": null,
+      "start_date": "1901-08-28",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "28 августа 1901 года в Твери открылось движение электрического трамвая; в том же году в городе появилось электрическое уличное освещение.",
+      "affected_groups": [
+        "urban_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_трамвай",
+          "accessed": "2026-10-29",
+          "supports": "дата открытия трамвая"
+        },
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "1901: трамвай и уличное освещение"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1900-volga-bridge",
+      "title": "Постоянный мост через Волгу в Твери",
+      "title_original": null,
+      "start_date": "1900",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1900 году в Твери построили постоянный мост через Волгу по проекту чешского инженера Л. Машека.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "1900: постоянный мост через Волгу"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1898-wagon-works",
+      "title": "Основан вагоностроительный завод в Твери",
+      "title_original": null,
+      "start_date": "1898",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1898 году франко-бельгийское акционерное общество основало в Твери Верхневолжский завод железнодорожных материалов, будущий Тверской вагоностроительный завод.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [
+        "employment_change"
+      ],
+      "narrative_hooks": [
+        "family_member_at_factory"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_вагоностроительный_завод",
+          "accessed": "2026-10-29",
+          "supports": "основание завода в 1898 году"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1918-wagon-works-nationalised",
+      "title": "Вагонный завод национализирован",
+      "title_original": null,
+      "start_date": "1918",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1918 году после национализации предприятие получило название Тверской вагоностроительный завод; в 1931 году, вслед за городом, оно стало Калининским вагоностроительным заводом и носило это имя до 1990-х годов.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_вагоностроительный_завод",
+          "accessed": "2026-10-29",
+          "supports": "переименования 1918 и 1931"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1916-radio-tube",
+      "title": "Первые отечественные радиолампы в Твери",
+      "title_original": null,
+      "start_date": "1916",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "technology",
+      "subcategory": null,
+      "historical_summary": "В 1916 году М. А. Бонч-Бруевич изготовил в Твери первые отечественные радиолампы для местной радиостанции.",
+      "affected_groups": [
+        "scientists_engineers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "1916: радиолампы Бонч-Бруевича"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1917-teachers-institute",
+      "title": "Учреждён Тверской учительский институт",
+      "title_original": null,
+      "start_date": "1917-06",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В июне 1917 года распоряжением Временного правительства был учреждён Тверской учительский институт; занятия начались в ноябре 1917 года, первый набор составил 37 студентов.",
+      "affected_groups": [
+        "students",
+        "teachers",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "education_opportunity"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_университет",
+          "accessed": "2026-10-29",
+          "supports": "июнь 1917, первый набор 37 студентов"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1935-cathedral-demolished",
+      "title": "Взорван Спасо-Преображенский собор",
+      "title_original": null,
+      "start_date": "1935",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "religion",
+      "subcategory": null,
+      "historical_summary": "В 1935 году в Калинине был взорван Спасо-Преображенский собор; в 1920–1930-е годы в городе закрыли и разрушили десятки церквей.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "1935 взрыв собора; закрытие церквей"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1941-occupation",
+      "title": "Оккупация Калинина",
+      "title_original": null,
+      "start_date": "1941-10",
+      "end_date": "1941-12-16",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В октябре 1941 года Калинин заняли немецкие войска; город был освобождён 16 декабря 1941 года. Источники расходятся в дате захвата (14 или 17 октября). За время оккупации было разрушено больше половины жилых домов и около семидесяти предприятий были повреждены.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "displacement",
+        "housing_loss"
+      ],
+      "narrative_hooks": [
+        "evacuation",
+        "loss_of_home"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "14 октября, разрушения"
+        },
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "17 октября – 16 декабря"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1942-tram-restarted",
+      "title": "Трамвай снова пошёл после освобождения",
+      "title_original": null,
+      "start_date": "1942-02-05",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "После освобождения города 5 февраля 1942 года в Калинине частично возобновили трамвайное движение; полностью сеть восстановили только к 1945 году.",
+      "affected_groups": [
+        "urban_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_трамвай",
+          "accessed": "2026-10-29",
+          "supports": "5 февраля 1942, 1945"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1950s-reconstruction",
+      "title": "Послевоенная застройка центра Калинина",
+      "title_original": null,
+      "start_date": "1950",
+      "end_date": "1959",
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В 1950-е годы в Калинине построили здание драматического театра, Дворец культуры, библиотеку имени Горького и второй, Нововолжский, мост, для которого использовали пролёты ленинградского моста Лейтенанта Шмидта.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "1950-е: театр, ДК, библиотека, мост"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1961-river-port-ring-road",
+      "title": "Речной порт и объездная дорога",
+      "title_original": null,
+      "start_date": "1961",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1961 году в Калинине открылись речной порт и кольцевая автодорога, связавшая трассы на Москву, Ленинград, Ржев и Волоколамск.",
+      "affected_groups": [
+        "commuters",
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "1961"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1971-kalinin-university",
+      "title": "Открыт Калининский государственный университет",
+      "title_original": null,
+      "start_date": "1971-09-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "1 сентября 1971 года педагогический институт преобразовали в Калининский государственный университет; в 1990 году он стал Тверским государственным университетом.",
+      "affected_groups": [
+        "students",
+        "young_adults",
+        "teachers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "education_opportunity"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_университет",
+          "accessed": "2026-10-29",
+          "supports": "1 сентября 1971; 1990 переименование"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1971-order-red-banner",
+      "title": "Город награждён орденом Трудового Красного Знамени",
+      "title_original": null,
+      "start_date": "1971-02-04",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "4 февраля 1971 года Калинин наградили орденом Трудового Красного Знамени за выполнение промышленных планов.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "4 февраля 1971"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-2011-city-military-glory",
+      "title": "Тверь — город воинской славы",
+      "title_original": null,
+      "start_date": "2011-11-04",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "4 ноября 2011 года Твери присвоено почётное звание «Город воинской славы».",
+      "affected_groups": [
+        "all_residents",
+        "veterans"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/История_Твери",
+          "accessed": "2026-10-29",
+          "supports": "4 ноября 2011"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-2015-city-star-trams",
+      "title": "Новые трамваи тверской сборки",
+      "title_original": null,
+      "start_date": "2015-06-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Тверской вагоностроительный завод в 2015 году начал выпуск трамваев 71-911 «City Star»; первые пять вагонов вышли на линии в Твери 27 июня 2015 года.",
+      "affected_groups": [
+        "commuters",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_вагоностроительный_завод",
+          "accessed": "2026-10-29",
+          "supports": "27 июня 2015"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-2018-tram-closed",
+      "title": "Закрытие тверского трамвая",
+      "title_original": null,
+      "start_date": "2018-11-14",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "14 ноября 2018 года движение трамваев в Твери прекратили, объявив это временной мерой; в 2019 году пути разобрали, а водителей уволили. Троллейбусное движение прекратилось в 2020 году.",
+      "affected_groups": [
+        "commuters",
+        "elderly",
+        "urban_residents"
+      ],
+      "potential_impacts": [
+        "commute_change"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_трамвай",
+          "accessed": "2026-10-29",
+          "supports": "14 ноября 2018; 2019; троллейбус 2020"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1929-textile-competition",
+      "title": "Соревнование девяти текстильных фабрик",
+      "title_original": null,
+      "start_date": "1929",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "В 1929 году девять текстильных предприятий Твери, где работали около 58 тысяч человек, объявили социалистическое соревнование; в 1982 году в память о нём поставили памятник «Договор тысяч».",
+      "affected_groups": [
+        "textile_workers",
+        "women",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "mill_work"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "1929, 58 000, памятник 1982"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1936-migalovo-airfield",
+      "title": "Строится аэродром Мигалово",
+      "title_original": null,
+      "start_date": "1936",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1936 году под Калинином начали строить аэродром Мигалово, ныне крупный военно-транспортный аэродром.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "1936"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1954-medical-institute",
+      "title": "В Калинине открыт медицинский институт",
+      "title_original": null,
+      "start_date": "1954",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В 1954 году в Калинин перевели из Ленинграда стоматологический институт, на базе которого создали Калининский медицинский институт.",
+      "affected_groups": [
+        "students",
+        "medical_workers",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "education_opportunity"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_медицинский_университет",
+          "accessed": "2026-10-29",
+          "supports": "1954 перевод из Ленинграда"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1958-peat-institute",
+      "title": "Торфяной институт переехал в Калинин",
+      "title_original": null,
+      "start_date": "1958",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В 1958 году Московский торфяной институт перевели в Калинин; позднее он стал Калининским политехническим институтом, а в 1994 году — Тверским государственным техническим университетом.",
+      "affected_groups": [
+        "students",
+        "young_adults",
+        "scientists_engineers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "education_opportunity"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_технический_университет",
+          "accessed": "2026-10-29",
+          "supports": "1958; 1994"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1967-trolleybus",
+      "title": "В Калинине пошёл троллейбус",
+      "title_original": null,
+      "start_date": "1967-05-05",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "5 мая 1967 года в Калинине открылось троллейбусное движение; в начале 1990-х по 10 маршрутам ежедневно ездили около 135 тысяч пассажиров. Троллейбус закрыли 13 апреля 2020 года.",
+      "affected_groups": [
+        "commuters",
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверской_троллейбус",
+          "accessed": "2026-10-29",
+          "supports": "05.05.1967; 1992; 13.04.2020"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1968-zmeevo-airport",
+      "title": "Аэропорт Змеёво: рейсы из Калинина",
+      "title_original": null,
+      "start_date": "1968",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1968 году на аэродроме Змеёво построили аэровокзал; в 1970-е отсюда летали самолёты во многие города, а в 1990-е пассажирские рейсы прекратились.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_flight"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "1968; 1970-е; 1990-е"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1994-first-mobile-network",
+      "title": "Первая сотовая связь в Твери",
+      "title_original": null,
+      "start_date": "1994-04-18",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "18 апреля 1994 года в Твери заработала первая сотовая сеть стандарта NMT-450; массовые операторы пришли в 1999–2003 годах.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_mobile_phone"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "18.04.1994; операторы"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1892-telephone",
+      "title": "Первая телефонная станция",
+      "title_original": null,
+      "start_date": "1892",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "В 1892 году в Твери открылась ручная телефонная станция на 200 номеров; в 1970 году город перешёл на пятизначные номера.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "1892; 1970"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-2009-sapsan",
+      "title": "«Сапсан» через Тверь",
+      "title_original": null,
+      "start_date": "2009-12-17",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "17 декабря 2009 года начал ходить скоростной поезд «Сапсан» Москва — Санкт-Петербург с остановкой в Твери; дорога до Москвы стала заметно короче.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "commuting_to_moscow"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Сапсан_(поезд)",
+          "accessed": "2026-10-29",
+          "supports": "17.12.2009, остановки"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-1947-flood",
+      "title": "Большое половодье 1947 года",
+      "title_original": null,
+      "start_date": "1947",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "Весеннее половодье 1947 года на Волге у Калинина было одним из сильнейших в XX веке: вода поднялась до отметки 11 м. Крупные половодья случались также в 1908 и 1926 годах.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "housing_loss"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Тверь",
+          "accessed": "2026-10-29",
+          "supports": "1947: 11 м; 1908, 1926"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tver-2010-smog",
+      "title": "Дым над Волгой",
+      "title_original": null,
+      "start_date": "2010-08-08",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-tver"
+      ],
+      "category": "environment",
+      "subcategory": null,
+      "historical_summary": "В начале августа 2010 года, во время аномальной жары, Тверь окутал густой смог: 8 августа из центра города не было видно противоположного берега Волги.",
+      "affected_groups": [
+        "all_residents",
+        "elderly"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "summer_of_smoke"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Аномальная_жара_в_России_(2010)",
+          "accessed": "2026-10-29",
+          "supports": "смог в Твери 8 августа"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

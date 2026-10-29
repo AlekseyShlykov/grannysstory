@@ -1,0 +1,1342 @@
+{
+ "records": [
+  {
+   "id": "us-detroit-1967-uprising",
+   "title": "Восстание 1967 года в Детройте",
+   "title_original": "Uprising of 1967 / 12th Street Riot",
+   "start_date": "1967-07-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "war_conflict",
+   "subcategory": "civil_unrest",
+   "historical_summary": "23 июля 1967 г. после полицейского рейда на нелегальный бар на углу 12-й улицы и Клермонт начались пятидневные беспорядки: 43 погибших, сотни раненых, почти 1700 пожаров, более 7 тыс. арестов; 25 июля порядок восстановили федеральные войска. Отток белых жителей из города в 1967 г. удвоился до более чем 40 тыс. человек.",
+   "affected_groups": [
+    "urban_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "neighborhood_change"
+   ],
+   "narrative_hooks": [
+    "family_moves_to_suburbs",
+    "curfew_memories"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/uprising-1967",
+     "accessed": "2026-10-29",
+     "supports": "дата, жертвы, пожары, аресты, войска, отток населения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1943-race-riot",
+   "title": "Расовые беспорядки 1943 года в Детройте",
+   "start_date": "1943-06-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "war_conflict",
+   "subcategory": "civil_unrest",
+   "historical_summary": "20 июня 1943 г. драка на острове Белл-Айл переросла в беспорядки в районах Парадайз-Вэлли и вдоль Вудворд-авеню: 34 погибших (25 афроамериканцев и 9 белых), около 675 раненых; прибыли более 3500 федеральных солдат. Предпосылками были военная миграция рабочих, нехватка жилья и сегрегация.",
+   "affected_groups": [
+    "urban_residents",
+    "ethnic_minorities",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "wartime_housing_shortage"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/race-riot-1943",
+     "accessed": "2026-10-29",
+     "supports": "дата, жертвы, причины (жильё, миграция), федеральные войска"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1942-sojourner-truth-housing",
+   "title": "Протесты вокруг жилого комплекса Соджорнер-Трут",
+   "start_date": "1942",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1942 г. толпа из более чем тысячи белых, часть из которых была вооружена, протестовала против заселения чернокожих семей в новый жилой проект в белом районе Детройта.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "public_housing_waitlist"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_detroit_historical",
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/race-riot-1943",
+     "accessed": "2026-10-29",
+     "supports": "протест более 1000 белых против жилого проекта в 1942 г."
+    },
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "пикеты у Sojourner Truth Housing, 1942"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1903-ford-motor-company",
+   "title": "Основание Ford Motor Company",
+   "start_date": "1903",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1903 г. в Детройте начала работу Ford Motor Company; годом раньше открылась Cadillac Automobile Company. Город становился центром автомобильной промышленности.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "first_car_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "Ford Motor Company и Pewabic Pottery начинают работу в 1903; Cadillac — 1902"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1911-chevrolet-factory",
+   "title": "Первый завод Chevrolet в Детройте",
+   "start_date": "1911",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1911 г. Chevrolet открыла свой первый завод в Детройте.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1911: Chevrolet opens first Detroit factory"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1916-great-migration",
+   "title": "Великая миграция: массовый приезд афроамериканцев",
+   "start_date": "1916",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "migration",
+   "historical_summary": "С 1916 г. в Детройт в ходе Великой миграции переселялось большое число афроамериканцев с Юга, привлечённых работой на заводах.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "family_came_from_south"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1916: large influx of African Americans during the Great Migration"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1920-fourth-largest-city",
+   "title": "Детройт — четвёртый по величине город США",
+   "start_date": "1920",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "По переписи 1920 г. население Детройта составило 993 078 человек, он стал четвёртым по величине городом страны (в 1900 г. — 285 704 жителя).",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "crowded_boarding_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "население 1900 и 1920, 4-е место"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1929-ambassador-bridge",
+   "title": "Открытие моста Амбассадор в Канаду",
+   "start_date": "1929",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1929 г. завершено строительство моста Амбассадор между Детройтом и канадским Виндзором; в 1930 г. открылся туннель Детройт — Виндзор.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "trip_to_windsor"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1929 Ambassador Bridge completed; 1930 Detroit–Windsor Tunnel completed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1935-uaw-founded",
+   "title": "Создание профсоюза автомобилестроителей UAW",
+   "title_original": "United Auto Workers",
+   "start_date": "1935",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1935 г. был основан профсоюз United Auto Workers, ставший главной организацией рабочих автозаводов.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "groups_any": [
+     "industrial_workers"
+    ]
+   },
+   "potential_impacts": [
+    "union_membership"
+   ],
+   "narrative_hooks": [
+    "father_union_card"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1935: United Auto Workers founded"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1950-population-peak",
+   "title": "Пик населения Детройта",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Около 1950 г. население Детройта достигло пика примерно в 1,85 млн человек; в том же году UAW и General Motors заключили крупный коллективный договор.",
+   "affected_groups": [
+    "urban_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1950: population peak 1.85 million; UAW–GM agreement"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1956-last-streetcar",
+   "title": "Конец трамвая на Вудворд-авеню",
+   "start_date": "1956",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1956 г. закрыта последняя электрическая трамвайная линия по Вудворд-авеню; в 1930 г. трамвайная сеть насчитывала до 30 линий.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "last_streetcar_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1956 last Woodward streetcar discontinued; 1930 30 lines"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1973-coleman-young",
+   "title": "Колман Янг — первый чернокожий мэр Детройта",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1973 г. мэром Детройта был избран Колман Янг, первый афроамериканец на этом посту.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia",
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1973 Coleman Young elected"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/uprising-1967",
+     "accessed": "2026-10-29",
+     "supports": "Колман Янг — первый чернокожий мэр"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1977-renaissance-center",
+   "title": "Открытие Renaissance Center",
+   "start_date": "1977",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1977 г. в центре Детройта построен комплекс небоскрёбов Renaissance Center — попытка оживить деловой центр города.",
+   "affected_groups": [
+    "urban_residents",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1977 Renaissance Center built"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1978-blizzard",
+   "title": "Великая метель 1978 года",
+   "start_date": "1978-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "disaster",
+   "historical_summary": "В январе 1978 г. Детройт парализовала сильная метель (Great Blizzard of 1978).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "snowed_in_for_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "January 1978 Great Blizzard"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1987-people-mover",
+   "title": "Запуск монорельса People Mover",
+   "start_date": "1987",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1987 г. в центре Детройта начала работу автоматическая кольцевая надземная линия Detroit People Mover.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1987 Detroit People Mover begins operations"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1995-newspaper-strike",
+   "title": "Забастовка в детройтских газетах",
+   "start_date": "1995-07",
+   "end_date": "1997",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "labor",
+   "historical_summary": "В июле 1995 г. началась забастовка работников двух крупнейших детройтских газет, продолжавшаяся до 1997 г.",
+   "affected_groups": [
+    "office_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "July 1995 newspaper strike 1995–97"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1996-casinos-vote",
+   "title": "Разрешение казино в Детройте",
+   "start_date": "1996-11",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В ноябре 1996 г. избиратели Мичигана одобрили открытие трёх казино в Детройте.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "November 1996 Michigan votes for three Detroit casinos"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-2003-northeast-blackout",
+   "title": "Блэкаут 14 августа 2003 года",
+   "start_date": "2003-08-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "disaster",
+   "historical_summary": "14 августа 2003 г. Детройт, как и большая часть северо-востока США и Онтарио, остался без электричества (Northeast blackout).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_without_power"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "2003-08-14 Northeast blackout"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-2013-bankruptcy",
+   "title": "Банкротство Детройта",
+   "start_date": "2013",
+   "end_date": "2014-12",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В 2013 г. губернатор Мичигана объявил финансовое чрезвычайное положение и назначил внешнего управляющего; Детройт подал на банкротство — крупнейшее муниципальное банкротство в истории США. В декабре 2014 г. город вышел из процедуры.",
+   "affected_groups": [
+    "pensioners",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "pension_cut"
+   ],
+   "narrative_hooks": [
+    "city_pension_worries"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "2013 emergency manager and bankruptcy; December 2014 emergence"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-2017-qline",
+   "title": "Возвращение трамвая: линия QLine",
+   "start_date": "2017-05",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В мае 2017 г. по Вудворд-авеню открылась трамвайная линия QLine — впервые с 1956 г. в Детройте снова ходит трамвай.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "May 2017 QLine opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-2010-population-decline",
+   "title": "Население Детройта сократилось до 714 тысяч",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "По переписи 2010 г. в Детройте жили 713 777 человек — менее 40% от пика 1950 г.; к 2020 г. население упало до 639 111.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "empty_houses_on_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "population 2010 и 2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1960-motown",
+   "title": "Основание студии Motown",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Около 1960 г. в Детройте начала работу звукозаписывающая компания Motown Records, давшая имя целому направлению соул-музыки.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "dancing_to_motown"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
+     "accessed": "2026-10-29",
+     "supports": "1960: Motown Records in business"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-detroit-1942-arsenal-of-democracy",
+   "title": "Детройт — «арсенал демократии»",
+   "start_date": "1942",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "После Пёрл-Харбора автозаводы Детройта перешли на выпуск джипов, танков, бомбардировщиков, боеприпасов и касок. За первые полтора года войны в город приехали около 350 тыс. рабочих, более 700 тыс. человек были заняты на военном производстве, женщин массово нанимали на заводы; жильё было переполнено.",
+   "affected_groups": [
+    "industrial_workers",
+    "women",
+    "migrants"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "mother_worked_in_war_plant",
+    "boarding_with_strangers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/arsenal-democracy",
+     "accessed": "2026-10-29",
+     "supports": "конверсия, 350 тыс. приезжих, 700 тыс. занятых, женщины на заводах, нехватка жилья"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1954-hudsons-northland",
+   "title": "Первый пригородный Hudson's и упадок даунтауна",
+   "start_date": "1954-03",
+   "end_date": "1983",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "В марте 1954 г. универмаг Hudson's открыл первый пригородный магазин в торговом центре Northland в Саутфилде — тогда крупнейшем в стране. Знаменитый магазин в центре Детройта закрылся в 1983 г., а здание взорвали 24 октября 1998 г.",
+   "affected_groups": [
+    "consumers",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shopping_at_hudsons",
+    "santa_at_hudsons"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/hudsons",
+     "accessed": "2026-10-29",
+     "supports": "Northland 1954, закрытие 1983, снос 1998"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1924-thanksgiving-parade",
+   "title": "Первый парад на День благодарения в Детройте",
+   "start_date": "1924",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1924 г. универмаг Hudson's провёл первый в Детройте парад на День благодарения, завершавшийся появлением Санта-Клауса.",
+   "affected_groups": [
+    "children",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "parade_with_father"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/hudsons",
+     "accessed": "2026-10-29",
+     "supports": "1924 first Thanksgiving Day Parade"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1954-packard-plant-ends",
+   "title": "Конец производства на заводе Packard",
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Последний Packard на заводе на Ист-Гранд-бульваре выпустили в 1954 г.; в 1956 г. компания перенесла производство в Саут-Бенд (Индиана). Во время войны Packard выпустил 55 тыс. авиадвигателей.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "plant_closed_father_unemployed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/packard-motor-car-company",
+     "accessed": "2026-10-29",
+     "supports": "1954 последний автомобиль, 1956 переезд, 55 тыс. двигателей"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1959-paradise-valley-demolition",
+   "title": "Снос Блэк-Боттома и Парадайз-Вэлли",
+   "start_date": "1959",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "С 1946 г. власти изымали дома в Блэк-Боттоме под городскую реконструкцию; в 1959 г. начался снос Парадайз-Вэлли — делового и развлекательного центра чернокожего Детройта с более чем 300 предприятиями — ради автострады I-375 и жилого района Лафайет-Парк.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "forced_move"
+   ],
+   "narrative_hooks": [
+    "old_neighborhood_gone",
+    "jazz_clubs_on_hastings"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/paradise-valley",
+     "accessed": "2026-10-29",
+     "supports": "1959 начало сноса, 300 предприятий"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/black-bottom-neighborhood",
+     "accessed": "2026-10-29",
+     "supports": "1946 начало изъятий, Lafayette Park"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1980-dodge-main-poletown",
+   "title": "Закрытие Dodge Main и снос Поултауна",
+   "start_date": "1980",
+   "end_date": "1985",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1980 г. закрылся завод Dodge Main на границе Детройта и Хамтрамка, а в 1981 г. район Поултаун снесли под новый завод GM: 1500 домов, 144 предприятия и 16 церквей; жители получили в среднем 13 тыс. долл. Открытый в 1985 г. завод дал лишь около половины обещанных 6 тыс. рабочих мест.",
+   "affected_groups": [
+    "industrial_workers",
+    "homeowners",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "forced_move",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "parish_church_demolished"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/poletown",
+     "accessed": "2026-10-29",
+     "supports": "1980 сделка и закрытие Dodge Main, 1981 снос, масштаб, 1985 открытие"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/hamtramck",
+     "accessed": "2026-10-29",
+     "supports": "Dodge Main открыт 1914, закрыт 1980"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1979-chrysler-loan-guarantee",
+   "title": "Государственные гарантии для Chrysler",
+   "start_date": "1979-12-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "7 сентября 1979 г. Chrysler попросил у правительства гарантий по займам на 1,5 млрд долл., чтобы избежать банкротства; 21 декабря Конгресс их неохотно одобрил.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_insecurity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/chrysler-corporation",
+     "accessed": "2026-10-29",
+     "supports": "даты запроса и одобрения гарантий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-2009-auto-bankruptcies",
+   "title": "Банкротства Chrysler и General Motors",
+   "start_date": "2009-04-30",
+   "end_date": "2009-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "30 апреля 2009 г. Chrysler подал на банкротство и был реорганизован при участии Fiat; 1 июня 2009 г. обанкротилась General Motors и при государственной поддержке вышла из процедуры менее чем за 40 дней.",
+   "affected_groups": [
+    "industrial_workers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "pension_cut"
+   ],
+   "narrative_hooks": [
+    "buyout_offer",
+    "grandchild_lost_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/chrysler-corporation",
+     "accessed": "2026-10-29",
+     "supports": "Chrysler 30 апреля 2009"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/general-motors",
+     "accessed": "2026-10-29",
+     "supports": "GM 1 июня 2009, менее 40 дней, стоимость помощи"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1921-main-library",
+   "title": "Открытие Главной библиотеки Детройта",
+   "start_date": "1921-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "education",
+   "historical_summary": "В марте 1921 г., после задержек из-за войны, на Вудворд-авеню открылась Главная библиотека Детройта, построенная на деньги Карнеги по проекту Касса Гилберта.",
+   "affected_groups": [
+    "all_residents",
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "library_card"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/detroit-public-library",
+     "accessed": "2026-10-29",
+     "supports": "открытие март 1921"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1927-city-airport",
+   "title": "Открытие Городского аэропорта Детройта",
+   "start_date": "1927-10-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "14 октября 1927 г. на Городской аэропорт Детройта приземлился первый самолёт. В 1947 г. большинство авиакомпаний перешли в аэропорт Уиллоу-Ран, затем в окружной Метрополитен.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/detroit-city-airport",
+     "accessed": "2026-10-29",
+     "supports": "даты открытия, переход авиакомпаний 1947"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-detroit-1920s-black-population-growth",
+   "title": "Рост чернокожего населения Детройта в 1920-е",
+   "start_date": "1920",
+   "end_date": "1929",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-detroit"
+   ],
+   "category": "migration",
+   "historical_summary": "За 1920-е гг. чернокожее население Детройта выросло примерно с 41 тыс. до 120 тыс. человек: мигранты с Юга ехали на автозаводы и селились в основном в Блэк-Боттоме и Парадайз-Вэлли.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "family_came_from_south"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_detroit_historical"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/paradise-valley",
+     "accessed": "2026-10-29",
+     "supports": "рост с 41 до 120 тыс. в 1920-е"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

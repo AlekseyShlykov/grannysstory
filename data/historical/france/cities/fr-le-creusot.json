@@ -1,0 +1,448 @@
+{
+ "records": [
+  {
+   "id": "fr-le-creusot-1899-general-strike",
+   "title": "Всеобщая забастовка на заводах Шнейдера",
+   "start_date": "1899",
+   "end_date": "1900",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1899 году на заводах Шнейдера прошла тяжёлая всеобщая забастовка; Эжен II Шнейдер вызвал армию и арбитраж премьера Вальдек-Руссо. Последовавшие репрессии в 1900 году вынудили уехать более 1200 рабочих.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "grève générale de 1899; départ de plus de 1 200 ouvriers 1900"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1914-war-production",
+   "title": "Ле-Крёзо — арсенал Первой мировой",
+   "start_date": "1914",
+   "end_date": "1918",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В Первую мировую заводы Шнейдера достигли максимума — около 20 тысяч рабочих — и выпустили тысячи пушек и миллионы снарядов.",
+   "affected_groups": [
+    "industrial_workers",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shell_factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "près de 20 000 ouvriers; milliers de canons, millions d'obus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1940-occupation",
+   "title": "Оккупация Ле-Крёзо",
+   "start_date": "1940-06-17",
+   "end_date": "1944-09-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "occupation",
+   "historical_summary": "17 июня 1940 года Ле-Крёзо заняла германская дивизия «Гросдойчланд».",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "occupée le 17 juin 1940"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1942-raf-bombing",
+   "title": "Бомбардировка Ле-Крёзо 17 октября 1942 года",
+   "start_date": "1942-10-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "17 октября 1942 года британская авиация бомбила заводы Ле-Крёзо: 63 погибших и более 250 раненых.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "17 octobre 1942, 63 morts, plus de 250 blessés"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1943-bombing",
+   "title": "Ночная бомбардировка 20–21 июня 1943 года",
+   "start_date": "1943-06-20",
+   "end_date": "1943-06-21",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В ночь с 20 на 21 июня 1943 года бомбардировка Ле-Крёзо убила более 300 человек и ранила около тысячи.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_in_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "nuit du 20 au 21 juin 1943, plus de 300 morts, un millier de blessés"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1944-liberation",
+   "title": "Освобождение Ле-Крёзо",
+   "start_date": "1944-09-06",
+   "end_date": "1944-09-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "6–7 сентября 1944 года Ле-Крёзо освободил 2-й полк алжирских спаги.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "libérée les 6 et 7 septembre 1944"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1945-reconstruction",
+   "title": "Восстановление города-пилота",
+   "start_date": "1945",
+   "end_date": "1950",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1945–1950 годах разбомблённый Ле-Крёзо восстанавливали как «город-пилот», наравне с Орлеаном.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_apartment"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "reconstruction 1945-1950, cité pilote avec Orléans"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1970-creusot-loire",
+   "title": "Создание Creusot-Loire и городской общины",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1970 году основана Городская община Ле-Крёзо — Монсо, а местная компания SFAC слилась с CAFL в концерн Creusot-Loire.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "1970 Communauté urbaine; SFAC + CAFL = Creusot-Loire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1973-ecomusee",
+   "title": "Открытие экомузея",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "С 1973 года в Ле-Крёзо работает экомузей, посвящённый промышленному прошлому города.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "écomusée depuis 1973"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1984-creusot-loire-bankruptcy",
+   "title": "Банкротство Creusot-Loire",
+   "start_date": "1984-12-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "local_economy",
+   "historical_summary": "После нефтяного шока 1973 года Creusot-Loire оказался в тяжёлом положении и 12 декабря 1984 года объявил о банкротстве; сталелитейные активы перешли к Usinor, ядерное машиностроение — к Framatome.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "job_loss",
+    "plant_closure"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "dépôt de bilan 12 décembre 1984; Usinor; Framatome"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1987-snecma-plant",
+   "title": "Открытие завода Snecma",
+   "start_date": "1987-12-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "local_economy",
+   "historical_summary": "8 декабря 1987 года в Ле-Крёзо открылся завод Snecma.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "8 décembre 1987 usine Snecma"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-le-creusot-1998-university-library",
+   "title": "Университетская библиотека в бывших паровозных цехах",
+   "start_date": "1998",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-le-creusot"
+   ],
+   "category": "education",
+   "historical_summary": "В 1998 году бывшие локомотивные цеха перестроены в университетскую библиотеку.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "1998 bibliothèque universitaire anciennes halles des locomotives"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

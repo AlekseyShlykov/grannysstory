@@ -1,0 +1,182 @@
+{
+ "records": [
+  {
+   "id": "fr-ctx-plozevet-population",
+   "country_code": "FR",
+   "location_id": "fr-plozevet",
+   "period_start": 1901,
+   "period_end": 2023,
+   "context_type": "demography",
+   "attribute": "demography",
+   "title": "Население Плозеве: век убыли",
+   "description": "Население сельской коммуны Плозеве сокращалось почти весь XX век — с 4699 жителей в 1911 году до 2748 в 1999-м — из-за ухода молодёжи в города и на заводы; с 2000-х держится около 2950–2990 человек.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 4390,
+     "unit": "persons",
+     "year": 1901,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 4699,
+     "unit": "persons",
+     "year": 1911,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 4323,
+     "unit": "persons",
+     "year": 1936,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 3804,
+     "unit": "persons",
+     "year": 1954,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 3541,
+     "unit": "persons",
+     "year": 1968,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 3102,
+     "unit": "persons",
+     "year": 1982,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 2748,
+     "unit": "persons",
+     "year": 1999,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 2984,
+     "unit": "persons",
+     "year": 2023,
+     "area_id": "fr-plozevet",
+     "population": "население коммуны",
+     "method_note": "перепись (таблица статьи Wikipédia по данным Insee/Cassini)",
+     "source_id": "fr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "tableau démographique 1901-2023"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-ctx-plozevet-agriculture-1910",
+   "country_code": "FR",
+   "location_id": "fr-plozevet",
+   "period_start": 1900,
+   "period_end": 1925,
+   "context_type": "work",
+   "attribute": "work",
+   "title": "Земля не кормит всех: Плозеве около 1910 года",
+   "description": "Около 1910 года сельское хозяйство Плозеве давало примерно 635 рабочих мест при более чем 1300 трудоспособных; многие уезжали, в том числе на заводы Шантене под Нантом.",
+   "statistics": [
+    {
+     "indicator": "agricultural_jobs",
+     "value": 635,
+     "unit": "jobs",
+     "year": 1910,
+     "area_id": "fr-plozevet",
+     "population": "сельскохозяйственные рабочие места коммуны",
+     "method_note": "оценка, приведённая в статье",
+     "source_id": "fr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Plozévet",
+     "accessed": "2026-10-29",
+     "supports": "vers 1910 635 emplois agricoles; émigration Chantenay"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-ctx-le-creusot-schneider-work",
+   "country_code": "FR",
+   "location_id": "fr-le-creusot",
+   "period_start": 1900,
+   "period_end": 1984,
+   "context_type": "work",
+   "attribute": "work",
+   "title": "Город одного работодателя",
+   "description": "Жизнь Ле-Крёзо была подчинена заводам Шнейдера, а с 1970 года — Creusot-Loire: в Первую мировую там работали около 20 тысяч человек. Банкротство концерна в 1984 году стало ударом по занятости города.",
+   "statistics": [
+    {
+     "indicator": "schneider_workers",
+     "value": 20000,
+     "unit": "workers",
+     "year": 1918,
+     "area_id": "fr-le-creusot",
+     "population": "рабочие заводов Шнейдера",
+     "method_note": "приблизительная цифра из статьи («près de»)",
+     "source_id": "fr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
+     "accessed": "2026-10-29",
+     "supports": "près de 20 000 ouvriers; dépôt de bilan 1984"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

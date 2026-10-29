@@ -1,0 +1,725 @@
+{
+  "records": [
+    {
+      "id": "ru-moscow-1916-amo-plant",
+      "title": "Заложен автозавод АМО",
+      "title_original": null,
+      "start_date": "1916-08-02",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "2 августа 1916 года в Тюфелевой роще началось строительство завода АМО, будущего ЗИСа и ЗИЛа; 1 ноября 1924 года здесь собрали первый советский грузовик АМО-Ф-15.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "family_member_at_factory"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Завод_имени_Лихачёва",
+          "accessed": "2026-10-29",
+          "supports": "02.08.1916; 01.11.1924"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-1931-metro-decision",
+      "title": "Решение строить московское метро",
+      "title_original": null,
+      "start_date": "1931-06-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "15 июня 1931 года было принято решение о строительстве метрополитена в Москве.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_mosmetro"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "даты по официальной хронологии"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-1938-gorky-radius",
+      "title": "Открыт Горьковский радиус метро",
+      "title_original": null,
+      "start_date": "1938-09-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "11 сентября 1938 года открылся Горьковский радиус метро длиной 8,5 км, завершив вторую очередь строительства; весной того же года линии Сокольническая и Арбатско-Покровская начали работать раздельно.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_mosmetro"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "даты по официальной хронологии"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-1941-metro-day-closed",
+      "title": "День, когда метро не открылось",
+      "title_original": null,
+      "start_date": "1941-10-16",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "15 октября 1941 года, при угрозе захвата Москвы, было приказано закрыть метро и готовить его к уничтожению; 16 октября метро не открылось — единственный такой день в его истории, — но решение отменили, и вечером пошёл первый поезд. Всю войну станции служили бомбоубежищем.",
+      "affected_groups": [
+        "all_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "air_raid_shelter"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_mosmetro",
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Московский_метрополитен",
+          "accessed": "2026-10-29",
+          "supports": "15–16 октября 1941"
+        },
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "метро как убежище"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-1943-metro-wartime-sections",
+      "title": "Метро строили и во время войны",
+      "title_original": null,
+      "start_date": "1943-01-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "1 января 1943 года Горьковский радиус продлили до «Автозаводской», в ноябре 1943-го открылись «Новокузнецкая» и «Павелецкая», в 1944 году — участок до Измайловской.",
+      "affected_groups": [
+        "commuters",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_mosmetro"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "даты по официальной хронологии"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-1954-ring-line",
+      "title": "Кольцевая линия метро замкнулась",
+      "title_original": null,
+      "start_date": "1954-03-14",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Кольцевую линию открывали по частям с 1950 года; 14 марта 1954 года она замкнулась в кольцо длиной 20 км.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_mosmetro"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "даты по официальной хронологии"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-1957-youth-festival",
+      "title": "Всемирный фестиваль молодёжи и студентов в Москве",
+      "title_original": null,
+      "start_date": "1957-07-28",
+      "end_date": "1957-08-11",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "С 28 июля по 11 августа 1957 года в Москве прошёл VI Всемирный фестиваль молодёжи и студентов: около 34 тысяч участников из 131 страны.",
+      "affected_groups": [
+        "young_adults",
+        "students"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_foreigners_met"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/VI_Всемирный_фестиваль_молодёжи_и_студентов",
+          "accessed": "2026-10-29",
+          "supports": "даты, 34 000, 131 страна"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-1958-cheryomushki",
+      "title": "Черёмушки вошли в Москву",
+      "title_original": null,
+      "start_date": "1958-03-14",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "14 марта 1958 года посёлок Черёмушки включили в состав Москвы; здесь поднялись первые хрущёвки, и название «Новые Черёмушки» стало нарицательным для новых районов массовой застройки.",
+      "affected_groups": [
+        "tenants",
+        "urban_residents",
+        "parents"
+      ],
+      "potential_impacts": [
+        "housing_improvement"
+      ],
+      "narrative_hooks": [
+        "moving_from_communal_flat"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Черёмушки_(район_Москвы)",
+          "accessed": "2026-10-29",
+          "supports": "14.03.1958, первые хрущёвки"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-1960-mkad-boundary",
+      "title": "Граница Москвы прошла по МКАД",
+      "title_original": null,
+      "start_date": "1960-08-17",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Первый участок МКАД открыли 22 ноября 1960 года, всё кольцо — 6 ноября 1962 года. С 17 августа 1960 года трасса служила административной границей города, и в Москву вошли окрестные посёлки.",
+      "affected_groups": [
+        "commuters",
+        "rural_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Московская_кольцевая_автомобильная_дорога",
+          "accessed": "2026-10-29",
+          "supports": "17.08.1960, 22.11.1960, 06.11.1962"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-1961-metro-turnstiles",
+      "title": "Пятачок за проезд",
+      "title_original": null,
+      "start_date": "1961-07-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "1 июля 1961 года на всех станциях метро установили автоматические контрольные пункты: проход стоил монету в пять копеек.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_mosmetro"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "даты по официальной хронологии"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-1967-ostankino-tower",
+      "title": "Останкинская башня начала вещание",
+      "title_original": null,
+      "start_date": "1967-11-04",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "4 ноября 1967 года Останкинская телебашня впервые передала телевизионный сигнал; смотровая площадка и ресторан «Седьмое небо» открылись в 1969 году.",
+      "affected_groups": [
+        "television_owners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Останкинская_телебашня",
+          "accessed": "2026-10-29",
+          "supports": "04.11.1967; 1969"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-1998-mkad-reconstructed",
+      "title": "Реконструированная МКАД",
+      "title_original": null,
+      "start_date": "1998-09-05",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "5 сентября 1998 года официально открыли реконструированную МКАД: в 1993–1998 годах дорогу расширили, осветили и разделили отбойником.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Московская_кольцевая_автомобильная_дорога",
+          "accessed": "2026-10-29",
+          "supports": "1993–1998; 05.09.1998"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-2000-ostankino-fire",
+      "title": "Пожар на Останкинской башне",
+      "title_original": null,
+      "start_date": "2000-08-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "27 августа 2000 года в Останкинской башне загорелись кабели; на несколько дней московские телеканалы прервали или сократили вещание, полностью его восстановили к 5 сентября.",
+      "affected_groups": [
+        "television_owners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Останкинская_телебашня",
+          "accessed": "2026-10-29",
+          "supports": "27.08.2000; 4–5 сентября"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-2013-zil-production-stopped",
+      "title": "Остановлено производство на ЗИЛе",
+      "title_original": null,
+      "start_date": "2013",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 2013 году производство на заводе имени Лихачёва остановили; большую часть цехов снесли в 2015 году, а на освободившейся территории начали строить жилой квартал «Зиларт».",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [
+        "job_loss"
+      ],
+      "narrative_hooks": [
+        "factory_closure"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Завод_имени_Лихачёва",
+          "accessed": "2026-10-29",
+          "supports": "2013; 2015; Зиларт"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-2016-mcc",
+      "title": "Открылось Московское центральное кольцо",
+      "title_original": null,
+      "start_date": "2016-09-10",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "10 сентября 2016 года по бывшей Малой окружной железной дороге пустили пассажирские поезда МЦК; первый месяц проезд был бесплатным.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Московское_центральное_кольцо",
+          "accessed": "2026-10-29",
+          "supports": "10.09.2016"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-2017-renovation",
+      "title": "Программа реновации пятиэтажек",
+      "title_original": null,
+      "start_date": "2017-08-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "1 августа 2017 года правительство Москвы утвердило программу реновации: в неё вошли более 5 тысяч домов, в основном пятиэтажек 1950–1960-х годов. Первую хрущёвку по программе снесли в августе 2018 года.",
+      "affected_groups": [
+        "tenants",
+        "elderly",
+        "pensioners"
+      ],
+      "potential_impacts": [
+        "forced_relocation",
+        "housing_improvement"
+      ],
+      "narrative_hooks": [
+        "leaving_old_flat"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Программа_реновации_жилья_в_Москве",
+          "accessed": "2026-10-29",
+          "supports": "01.08.2017; 5171 дом; август 2018"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-moscow-2023-big-circle-line",
+      "title": "Замкнулась Большая кольцевая линия",
+      "title_original": null,
+      "start_date": "2023-03-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "1 марта 2023 года полностью открылась Большая кольцевая линия метро, первый участок которой заработал в феврале 2018 года.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_mosmetro"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_mosmetro",
+          "url": "https://mosmetro.ru/about/history",
+          "accessed": "2026-10-29",
+          "supports": "даты по официальной хронологии"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-moscow-2010-heat-smog",
+      "title": "Жара и смог лета 2010 года",
+      "title_original": null,
+      "start_date": "2010-07-14",
+      "end_date": "2010-08-15",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-moscow"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "С 14 июля по 15 августа 2010 года в Москве держалась жара выше 30 °C (рекорд — 38,2 °C 29 июля), с конца июля город на две недели накрыл дым лесных и торфяных пожаров. Смертность в Москве в июле выросла на 50,7% к июлю 2009 года.",
+      "affected_groups": [
+        "elderly",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "summer_of_smoke"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Аномальная_жара_в_России_(2010)",
+          "accessed": "2026-10-29",
+          "supports": "даты, рекорд, смертность"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

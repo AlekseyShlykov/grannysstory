@@ -1,0 +1,165 @@
+{
+ "records": [
+  {
+   "id": "pl-zalipie-1905-hickel",
+   "title": "Первое описание росписей Залипья",
+   "start_date": "1905-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-zalipie"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Первая статья о росписях Залипья, написанная Владиславом Хикелем, вышла в журнале «Lud» в декабре 1905 г. (польская Википедия датирует описание 1906 годом); в 1911 г. его коллекция поступила в Этнографический музей в Кракове. Девушки сочиняли цветочные узоры уже в первое десятилетие XX в.",
+   "affected_groups": [
+    "rural_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_dom_malarek",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dom_malarek",
+     "url": "http://dommalarek.pl/zalipie/",
+     "accessed": "2026-10-29",
+     "supports": "статья Хикеля в «Lud», декабрь 1905; узоры в первое десятилетие XX в."
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Zalipie_(województwo_małopolskie)",
+     "accessed": "2026-10-29",
+     "supports": "1906 Хикель; 1911 коллекция в Этнографическом музее"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-zalipie-1948-painted-cottage-contest",
+   "title": "Первый конкурс «Расписная хата»",
+   "title_original": "Malowana Chata",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-zalipie"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1948 г. в Залипье прошёл первый конкурс росписей; с тех пор конкурс «Malowana Chata» проводится ежегодно по инициативе Тарновского музея, а в 1948–1978 гг. государство опекало центр народного искусства.",
+   "affected_groups": [
+    "rural_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "painted_the_house_for_contest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Zalipie_(województwo_małopolskie)",
+     "accessed": "2026-10-29",
+     "supports": "1948 первый конкурс; ежегодно; 1948–1978 государственный меценат"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-zalipie-1965-contest-moves",
+   "title": "Конкурс «Расписная хата» переезжает в Залипье",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-zalipie"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Первый конкурс 1948 г. прошёл в Народном доме в соседнем Подлипье, а с 1965 г. он проводится в самом Залипье; сейчас его ведут Тарновский окружной музей и Дом художниц в выходные после Праздника Тела Господня.",
+   "affected_groups": [
+    "rural_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "painted_the_house_for_contest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_dom_malarek"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dom_malarek",
+     "url": "http://dommalarek.pl/zalipie/",
+     "accessed": "2026-10-29",
+     "supports": "1948 Подлипье; с 1965 в Залипье; организаторы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-zalipie-1978-dom-malarek",
+   "title": "Открыт «Дом художниц» в Залипье",
+   "title_original": "Dom Malarek",
+   "start_date": "1978",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-zalipie"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1978 г. в Залипье создан гминный дом культуры «Дом художниц» (Dom Malarek).",
+   "affected_groups": [
+    "rural_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Zalipie_(województwo_małopolskie)",
+     "accessed": "2026-10-29",
+     "supports": "1978 GOK Dom Malarek"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

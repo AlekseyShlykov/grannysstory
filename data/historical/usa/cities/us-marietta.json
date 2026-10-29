@@ -1,0 +1,243 @@
+{
+ "records": [
+  {
+   "id": "us-marietta-1913-great-flood",
+   "title": "Великое наводнение 1913 года в Мариетте",
+   "start_date": "1913-03-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-marietta"
+   ],
+   "category": "disaster",
+   "historical_summary": "29 марта 1913 г. Огайо у Мариетты поднялась до рекордных 58,3 фута, более чем на 23 фута выше уровня затопления; Маскингам подпирал реку. Лодки ходили по Фронт-стрит, товары спасали на крышах, мост Патнэм сорвало с опор.",
+   "affected_groups": [
+    "all_residents",
+    "homeowners"
+   ],
+   "potential_impacts": [
+    "home_damage"
+   ],
+   "narrative_hooks": [
+    "family_story_flood",
+    "boat_on_main_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_marietta_times",
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_marietta_times",
+     "url": "https://www.mariettatimes.com/news/2023/03/a-flood-for-the-ages-rivers-reached-record-heights-in-1913/",
+     "accessed": "2026-10-29",
+     "supports": "дата и высота гребня, последствия по фото Marietta College"
+    },
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "Великое наводнение 1913 г. затронуло Мариетту"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-marietta-1917-college-ambulance-unit",
+   "title": "Санитарный отряд Мариеттского колледжа во Франции",
+   "start_date": "1917",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-marietta"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1917 г. 23 молодых человека создали санитарный отряд Marietta College и служили во Франции; четверо погибли. В 1939 г. Франция подарила городу памятную доску.",
+   "affected_groups": [
+    "young_adults",
+    "soldiers_families",
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "1917 ambulance unit, 23 men, 4 died; 1939 plaque"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-marietta-1941-ohio-river-museum",
+   "title": "Открытие Музея реки Огайо",
+   "start_date": "1941",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-marietta"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1941 г. в Мариетте открылся Музей реки Огайо; в 1939 г. здесь было основано общество речников-пионеров.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "1941 Ohio River Museum; 1939 Sons and Daughters of Pioneer Rivermen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-marietta-1953-last-passenger-train",
+   "title": "Последний пассажирский поезд из Мариетты",
+   "start_date": "1953",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-marietta"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1953 г. прекратилось пассажирское железнодорожное сообщение с Мариеттой.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "last_train_trip"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "1953 last rail passenger service ended"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-marietta-1967-interstate-77",
+   "title": "Межштатная магистраль I-77 у Мариетты",
+   "start_date": "1967",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-marietta"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1967 г. открылась автомагистраль I-77 с удобным выездом к Мариетте.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "1967 I-77 opened"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-marietta-1976-sternwheel-festival",
+   "title": "Первый фестиваль колёсных пароходов",
+   "start_date": "1976",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-marietta"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1976 г. в Мариетте основан ежегодный фестиваль колёсных пароходов на реке Огайо (Ohio River Sternwheel Festival).",
+   "affected_groups": [
+    "all_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_boats_on_river"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "1976 Sternwheel Festival founded"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

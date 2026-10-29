@@ -1,0 +1,996 @@
+{
+ "records": [
+  {
+   "id": "pl-warszawa-1905-january-shootings",
+   "title": "Расстрел демонстраций в Варшаве после Кровавого воскресенья",
+   "start_date": "1905-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "repression",
+   "historical_summary": "В январе 1905 г., после петербургского Кровавого воскресенья, казаки и полиция стреляли по демонстрантам в Варшаве.",
+   "affected_groups": [
+    "industrial_workers",
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "январь 1905: стрельба по демонстрантам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1905-general-strike",
+   "title": "Всеобщая забастовка и школьная забастовка 1905 года",
+   "start_date": "1905-01-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa",
+    "pl-lodz"
+   ],
+   "category": "labor",
+   "historical_summary": "28 января 1905 г., после петербургского Кровавого воскресенья, в Царстве Польском забастовали более 400 тыс. рабочих, к ним присоединились служащие и интеллигенция; началась школьная забастовка против русской школы, длившаяся более трёх лет. Итогом стало, в частности, разрешение частных польских школ.",
+   "affected_groups": [
+    "industrial_workers",
+    "school_pupils",
+    "students"
+   ],
+   "eligibility": {
+    "min_age": 10
+   },
+   "potential_impacts": [
+    "education_interrupted"
+   ],
+   "narrative_hooks": [
+    "boycotted_russian_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Rewolucja_1905_roku_w_Królestwie_Polskim",
+     "accessed": "2026-10-29",
+     "supports": "28.01.1905 >400 тыс.; школьная забастовка >3 лет; польские частные школы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1908-electric-tram",
+   "title": "Первая линия электрического трамвая в Варшаве",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1908 г. в Варшаве открылась первая линия электрического трамвая, сменившего конку.",
+   "affected_groups": [
+    "urban_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tram_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1908: первая электрическая трамвайная линия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1915-higher-education",
+   "title": "Открытие польских высших школ в Варшаве при германской оккупации",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "education",
+   "historical_summary": "В 1915 г. при германских властях в Варшаве открылись польскоязычные высшие учебные заведения, в том числе Политехника.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 17,
+    "max_age": 30
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1915: открытие Политехники, Высшей торговой и сельскохозяйственной школ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1915-german-entry",
+   "title": "Германская армия входит в Варшаву",
+   "start_date": "1915-08",
+   "end_date": "1918-11",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "occupation",
+   "historical_summary": "В начале августа 1915 г., после отступления русской армии, в Варшаву вошли германские войска; началась германская оккупация, продолжавшаяся до ноября 1918 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortages"
+   ],
+   "narrative_hooks": [
+    "russian_evacuation_and_german_arrival"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "август 1915: вступление германской армии; 8.11.1918 уход германских властей"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1922-narutowicz",
+   "title": "Убийство президента Нарутовича",
+   "start_date": "1922-12-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "political_change",
+   "historical_summary": "16 декабря 1922 г. в Варшаве был убит первый президент Польши Габриэль Нарутович, через несколько дней после избрания.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "16.12.1922 убийство президента Нарутовича"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1925-million",
+   "title": "Население Варшавы достигает миллиона",
+   "start_date": "1925",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "К 1925 г. население Варшавы достигло около 1 млн человек.",
+   "affected_groups": [
+    "urban_residents",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "moved_to_capital"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1925: 1 000 000 жителей"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1939-siege",
+   "title": "Осада и капитуляция Варшавы",
+   "start_date": "1939-09-01",
+   "end_date": "1939-09-27",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "С 1 сентября 1939 г. Варшаву бомбили, 9 сентября германские танки подошли к Охоте, 17 сентября горел Королевский замок; 27 сентября город капитулировал. Погибли около 31 тыс. человек, из них 25 тыс. мирных жителей.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "loss_of_relative"
+   ],
+   "narrative_hooks": [
+    "cellar_during_bombing"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1.09 бомбы, 9.09 Охота, 17.09 замок, 27.09 капитуляция, ~31 тыс. погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1940-ghetto",
+   "title": "Варшавское гетто",
+   "start_date": "1940-10",
+   "end_date": "1943-05",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "repression",
+   "historical_summary": "С октября 1940 г. германские власти сгоняли евреев Варшавы в гетто; 19 апреля 1943 г. в гетто началось восстание, продолжавшееся почти месяц.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [
+    "loss_of_neighbours"
+   ],
+   "narrative_hooks": [
+    "neighbours_disappeared"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "октябрь 1940 начало депортаций в гетто; 19.04.1943 восстание, почти месяц"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1943-ghetto-uprising",
+   "title": "Восстание в Варшавском гетто",
+   "start_date": "1943-04-19",
+   "end_date": "1943-05",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "19 апреля 1943 г. узники Варшавского гетто подняли вооружённое восстание против депортаций в лагеря смерти; сопротивление длилось почти месяц.",
+   "affected_groups": [
+    "jewish_population",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "19.04.1943, почти месяц"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1944-uprising",
+   "title": "Варшавское восстание",
+   "start_date": "1944-08-01",
+   "end_date": "1944-10-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "1 августа 1944 г. Армия Крайова подняла восстание в Варшаве; оно длилось 63 дня до 2 октября. Погибли около 170 тыс. человек, в том числе около 16 тыс. повстанцев; около 650 тыс. мирных жителей были выселены из города.",
+   "affected_groups": [
+    "all_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "loss_of_relative",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "expelled_after_uprising",
+    "relative_in_home_army"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_mpw"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1.08–2.10.1944, 63 дня, ~170 тыс. погибших, 16 тыс. повстанцев, ~650 тыс. выселенных"
+    },
+    {
+     "source_id": "pl_mpw",
+     "url": "https://www.1944.pl/historia/powstanie-warszawskie",
+     "accessed": "2026-10-29",
+     "supports": "1 августа 1944 — первый день восстания; повстанцы после капитуляции в лагерях военнопленных"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1945-destruction",
+   "title": "Разрушение Варшавы и вступление советских войск",
+   "start_date": "1945-01-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "К концу войны было разрушено около 85% зданий Варшавы; 17 января 1945 г. в руины города вошли советские войска вместе с польскими частями.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "return_to_ruins"
+   ],
+   "narrative_hooks": [
+    "returning_to_ruined_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "85% разрушений; 17.01.1945 советские войска в руинах"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1951-boundaries",
+   "title": "Расширение границ Варшавы",
+   "start_date": "1951",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1951 г. площадь Варшавы увеличена со 118 до 411 км² за счёт присоединения пригородов.",
+   "affected_groups": [
+    "urban_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1951: 118 → 411 км²"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1952-mdm",
+   "title": "Жилой район MDM",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1952 г. в центре Варшавы построен жилой район Маршалковской (MDM) в стиле социалистического реализма.",
+   "affected_groups": [
+    "urban_residents",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1952: MDM"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1953-old-town",
+   "title": "Восстановление Старого города",
+   "start_date": "1953",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "К 1953 г. были восстановлены Старый город и Королевский тракт Варшавы, разрушенные во время войны.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "volunteered_clearing_rubble"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1953: восстановлены Старый город и Королевский тракт"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1955-palace-of-culture",
+   "title": "Дворец культуры и науки",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1955 г. завершено строительство Дворца культуры и науки — высотного здания, подаренного СССР.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_visit_to_palace"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1955: завершён Дворец культуры и науки"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1968-dziady",
+   "title": "Запрет «Дзядов» и студенческие протесты",
+   "start_date": "1968-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "political_change",
+   "historical_summary": "В январе 1968 г. власти сняли с репертуара Национального театра спектакль «Дзяды» по Мицкевичу; за этим последовали студенческие протесты.",
+   "affected_groups": [
+    "students"
+   ],
+   "eligibility": {
+    "min_age": 17,
+    "max_age": 30
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "student_protest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "январь 1968 — запрет «Дзядов», затем студенческие протесты"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1971-royal-castle",
+   "title": "Восстановление Королевского замка",
+   "start_date": "1971",
+   "end_date": "1974",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1971–1974 гг. был заново отстроен Королевский замок, сожжённый в 1939 г. и взорванный во время войны.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1971–1974 восстановление замка"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1979-papal-mass",
+   "title": "Месса Иоанна Павла II на площади Победы",
+   "start_date": "1979",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "religion",
+   "historical_summary": "В 1979 г., во время первого паломничества Иоанна Павла II на родину, на варшавской площади Победы прошла папская месса.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "went_to_papal_mass"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1979: месса на площади Победы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1980-unesco",
+   "title": "Старый город Варшавы в списке ЮНЕСКО",
+   "start_date": "1980",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1980 г. восстановленный Старый город Варшавы включён в список Всемирного наследия ЮНЕСКО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1980: ЮНЕСКО"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-1995-metro",
+   "title": "Открытие варшавского метро",
+   "start_date": "1995",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1995 г. открылась первая линия варшавского метро; в 2022 г. сеть насчитывала 36 станций и 38,3 км.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "1995 открытие; 28.09.2022 — 36 станций, 38,3 км"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-2004-boom",
+   "title": "Экономический подъём Варшавы после вступления в ЕС",
+   "start_date": "2004",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Со вступлением Польши в ЕС в 2004 г. в Варшаве начался крупный экономический подъём; к 2008 г. регистрируемая безработица в городе упала до 1,9%.",
+   "affected_groups": [
+    "office_workers",
+    "young_adults",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_moved_to_warsaw"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_gus_bdl"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "2004 EU, start of major economic boom"
+    },
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/071412865000?var-id=60270&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "безработица 6,2% (2004) → 1,9% (2008)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-2012-euro",
+   "title": "Матчи Евро-2012 в Варшаве",
+   "start_date": "2012",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "sport",
+   "historical_summary": "В 2012 г. Варшава принимала матчи чемпионата Европы по футболу, который Польша проводила вместе с Украиной.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "2012 Euro matches in Warsaw"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-2013-climate-conference",
+   "title": "Климатическая конференция ООН в Варшаве",
+   "start_date": "2013-11",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "environment",
+   "historical_summary": "В ноябре 2013 г. в Варшаве прошла конференция ООН по изменению климата (COP19); в июле 2016 г. город принимал саммит НАТО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "November 2013 COP; 8–9 July 2016 NATO summit"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-warszawa-2022-ukrainian-refugees",
+   "title": "Беженцы из Украины в Варшаве",
+   "start_date": "2022",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "category": "migration",
+   "historical_summary": "После начала полномасштабной войны России против Украины к августу 2022 г. в Варшаве находилось около 180 тыс. украинских беженцев при населении около 1,8 млн.",
+   "affected_groups": [
+    "migrants",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "hosted_refugees"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "август 2022: ~1,8 млн жителей, ~180 тыс. украинских беженцев"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

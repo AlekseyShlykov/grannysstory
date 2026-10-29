@@ -1,0 +1,204 @@
+{
+  "records": [
+    {
+      "id": "ru-tverobl-1935-kalinin-oblast-formed",
+      "title": "Образована Калининская область",
+      "title_original": null,
+      "start_date": "1935-01-29",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-tver-oblast"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "29 января 1935 года постановлением ВЦИК образована Калининская область из 51 района, переданных из Московской, Западной и Ленинградской областей.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Калининская_область",
+          "accessed": "2026-10-29",
+          "supports": "29.01.1935, 51 район"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tverobl-1941-occupation-west",
+      "title": "Оккупация западных и южных районов Калининской области",
+      "title_original": null,
+      "start_date": "1941-07",
+      "end_date": "1944-07-19",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-tver-oblast"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В начале июля 1941 года немецкие войска вошли в западные районы будущей Калининской области; к ноябрю они полностью заняли 38 из 69 районов и ещё 7 частично, областные органы временно работали в Кашине. Полностью область освободили 19 июля 1944 года.",
+      "affected_groups": [
+        "all_residents",
+        "rural_residents"
+      ],
+      "potential_impacts": [
+        "displacement"
+      ],
+      "narrative_hooks": [
+        "evacuation"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Калининская_область",
+          "accessed": "2026-10-29",
+          "supports": "38 из 69 районов, Кашин, 19.07.1944"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tverobl-1944-velikiye-luki-oblast",
+      "title": "Западные районы переданы в Великолукскую область",
+      "title_original": null,
+      "start_date": "1944-08",
+      "end_date": "1957",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-tver-oblast"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "В августе 1944 года из западных районов Калининской области образовали Великолукскую область; после её упразднения в 1957 году восточная часть вернулась в Калининскую область.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Калининская_область",
+          "accessed": "2026-10-29",
+          "supports": "август 1944, 1957"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tverobl-1984-kalinin-npp",
+      "title": "Первый блок Калининской АЭС",
+      "title_original": null,
+      "start_date": "1984-05-09",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-tver-oblast"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "9 мая 1984 года первый энергоблок Калининской АЭС под Удомлей на севере области подключили к сети; второй блок дал ток в декабре 1986 года, третий — в 2004-м, четвёртый — в 2011 году.",
+      "affected_groups": [
+        "industrial_workers",
+        "scientists_engineers"
+      ],
+      "potential_impacts": [
+        "employment_change"
+      ],
+      "narrative_hooks": [
+        "construction_site_job"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Калининская_АЭС",
+          "accessed": "2026-10-29",
+          "supports": "даты подключения блоков"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-tverobl-1990-tver-oblast-renamed",
+      "title": "Калининская область стала Тверской",
+      "title_original": null,
+      "start_date": "1990-07-17",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-tver-oblast"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "17 июля 1990 года указом Президиума Верховного Совета РСФСР Калининскую область переименовали в Тверскую одновременно с возвращением имени областному центру.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Калининская_область",
+          "accessed": "2026-10-29",
+          "supports": "17.07.1990"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

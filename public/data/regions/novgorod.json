@@ -1,0 +1,22 @@
+{
+  "regionId": "novgorod",
+  "version": "0.5.0",
+  "label": "Новгородская область",
+  "coverage": "Город Новгород; сельские районы и другие населённые пункты ещё не опубликованы",
+  "birthPlaces": ["veliky-novgorod"],
+  "events": [
+    {
+      "id": "novgorod_liberated_1944",
+      "title": "Освобождение Новгорода",
+      "locationId": "veliky-novgorod",
+      "startDate": "1944-01-20",
+      "endDate": "1944-01-20",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "prlib_novgorod_liberation",
+      "verificationStatus": "verified",
+      "historicalContext": "20 января 1944 года Новгород был освобождён войсками Волховского фронта после 883 дней оккупации.",
+      "applicability": { "residentPlaceIds": ["veliky-novgorod"], "minAge": 3, "maxAge": 110 },
+      "confidence": "high"
+    }
+  ]
+}

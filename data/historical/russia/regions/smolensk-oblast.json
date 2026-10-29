@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "id": "ru-smolobl-1940-katyn",
+      "title": "Катынский расстрел",
+      "title_original": null,
+      "start_date": "1940-04",
+      "end_date": "1940-05",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-smolensk-oblast"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "С начала апреля до середины мая 1940 года НКВД расстреливал польских военнопленных — в основном офицеров — и других граждан Польши; из 21 857 расстрелянных 4421 человек погибли в Катынском лесу под Смоленском. Ответственность НКВД СССР официально признал в 1990 году.",
+      "affected_groups": [
+        "ethnic_minorities"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Катынский_расстрел",
+          "accessed": "2026-10-29",
+          "supports": "апрель–май 1940; 4421; 1990"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolobl-1982-smolensk-npp",
+      "title": "Заработала Смоленская АЭС",
+      "title_original": null,
+      "start_date": "1982",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "ru-smolensk-oblast"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1982 году начала работу Смоленская атомная электростанция.",
+      "affected_groups": [
+        "industrial_workers",
+        "scientists_engineers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "1982"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

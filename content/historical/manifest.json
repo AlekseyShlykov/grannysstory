@@ -1,0 +1,14 @@
+{
+  "datasetVersion": "0.5.0",
+  "saveFormatVersion": 2,
+  "conversationYear": 2026,
+  "allowedBirthYears": { "from": 1900, "to": 1940 },
+  "provisional": false,
+  "regions": [
+    { "id": "moscow", "countryId": "russia", "label": "Москва", "pack": "moscow.json", "enabled": true, "coverage": "Город Москва; проверенное ядро содержит два события." },
+    { "id": "leningrad", "countryId": "russia", "label": "Ленинград", "pack": "leningrad.json", "enabled": true, "coverage": "Ленинград / Санкт-Петербург; присутствие в блокадном городе определяется отдельно." },
+    { "id": "tver", "countryId": "russia", "label": "Тверь / Калинин", "pack": "tver.json", "enabled": true, "coverage": "Город Тверь / Калинин; область пока не представлена во всей полноте." },
+    { "id": "novgorod", "countryId": "russia", "label": "Новгородская область", "pack": "novgorod.json", "enabled": true, "coverage": "Пока только город Новгород / Великий Новгород." },
+    { "id": "smolensk", "countryId": "russia", "label": "Смоленская область", "pack": "smolensk.json", "enabled": true, "coverage": "Пока только город Смоленск." }
+  ]
+}

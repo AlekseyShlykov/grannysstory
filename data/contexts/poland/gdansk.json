@@ -1,0 +1,370 @@
+{
+ "records": [
+  {
+   "id": "pl-ctx-1990-2023-family-gdansk",
+   "country_code": "PL",
+   "location_id": "pl-gdansk",
+   "period_start": 1990,
+   "period_end": 2023,
+   "context_type": "family_marriage",
+   "attribute": "marriage_divorce_fertility",
+   "title": "Гданьск: браки, разводы и рождаемость 1990–2023",
+   "description": "Городская статистика GUS для города Гданьск: браки на 1000 жителей 15+ и разводы на 10 тыс. жителей в 1990–2023 гг., суммарная рождаемость и доля внебрачных рождений в 2023 г.",
+   "statistics": [
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 7.9,
+     "unit": "per 1000 population aged 15+",
+     "year": 1990,
+     "area_id": "pl-gdansk",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 6.9,
+     "unit": "per 1000 population aged 15+",
+     "year": 2000,
+     "area_id": "pl-gdansk",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 6.25,
+     "unit": "per 1000 population aged 15+",
+     "year": 2010,
+     "area_id": "pl-gdansk",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 5.0,
+     "unit": "per 1000 population aged 15+",
+     "year": 2020,
+     "area_id": "pl-gdansk",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "marriages_per_1000_aged_15plus",
+     "value": 5.8,
+     "unit": "per 1000 population aged 15+",
+     "year": 2023,
+     "area_id": "pl-gdansk",
+     "population": "жители города 15 лет и старше",
+     "method_note": "GUS табл. 16(40)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 12.0,
+     "unit": "per 10000 population",
+     "year": 1990,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 19.9,
+     "unit": "per 10000 population",
+     "year": 2000,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 21.9,
+     "unit": "per 10000 population",
+     "year": 2010,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 12.7,
+     "unit": "per 10000 population",
+     "year": 2020,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "divorces_per_10000",
+     "value": 15.6,
+     "unit": "per 10000 population",
+     "year": 2023,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "GUS табл. 35(59)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.063,
+     "unit": "children per woman",
+     "year": 2023,
+     "area_id": "pl-gdansk",
+     "population": "женщины 15–49 лет, жительницы города",
+     "method_note": "GUS табл. 78(102)",
+     "source_id": "pl_gus"
+    },
+    {
+     "indicator": "extramarital_births_share",
+     "value": 30.6,
+     "unit": "% of births",
+     "year": 2023,
+     "area_id": "pl-gdansk",
+     "population": "рождения у жительниц города",
+     "method_note": "GUS табл. 55(79)",
+     "source_id": "pl_gus"
+    }
+   ],
+   "source_ids": [
+    "pl_gus"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_gus",
+     "url": "https://stat.gov.pl/download/gfx/portalinformacyjny/pl/defaultaktualnosci/5515/3/18/1/rocznik_demograficzny_2024_tablice.zip",
+     "accessed": "2026-10-29",
+     "supports": "табл. 16(40), 35(59), 55(79), 78(102) — города 100 тыс.+"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-ctx-1920-1939-danzig-population",
+   "country_code": "PL",
+   "location_id": "pl-gdansk",
+   "period_start": 1920,
+   "period_end": 1939,
+   "context_type": "demography",
+   "attribute": "ethnic_composition",
+   "title": "Население Вольного города",
+   "description": "По переписи 1923 г. в Вольном городе жили 366 730 человек, 95% — немецкоязычные; доля поляков, по разным польским оценкам, от 9 до 25%. В 1924 г. 54,7% жителей были протестантами, 34,5% — католиками, 2,4% — иудеями.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 366730,
+     "unit": "persons",
+     "year": 1923,
+     "area_id": "pl-gdansk",
+     "population": "вся территория Вольного города",
+     "method_note": "перепись 1923",
+     "source_id": "pl_en_wikipedia"
+    },
+    {
+     "indicator": "german_speakers_share",
+     "value": 95.03,
+     "unit": "%",
+     "year": 1923,
+     "area_id": "pl-gdansk",
+     "population": "вся территория Вольного города",
+     "method_note": "перепись 1923, родной язык",
+     "source_id": "pl_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "перепись 1923; оценки доли поляков; конфессии 1924"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-ctx-1946-1980-gdansk-population",
+   "country_code": "PL",
+   "location_id": "pl-gdansk",
+   "period_start": 1946,
+   "period_end": 1980,
+   "context_type": "migration",
+   "attribute": "postwar_resettlement",
+   "title": "Новый Гданьск переселенцев",
+   "description": "Послевоенный Гданьск заселили приезжие: в 1946 г. в городе было 118 тыс. жителей против 250 тыс. в 1939 г., к декабрю 1950 г. не менее 85% населения составляли новосёлы; к 1980 г. население выросло до 456,7 тыс.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 118000,
+     "unit": "persons",
+     "year": 1946,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "оценка (по статье)",
+     "source_id": "pl_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 286900,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "оценка",
+     "source_id": "pl_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 456700,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "pl-gdansk",
+     "population": "всё население города",
+     "method_note": "оценка",
+     "source_id": "pl_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "1939 250 000; 1946 118 000; 1960 286 900; 1970 365 600; 1980 456 700"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Free_City_of_Danzig",
+     "accessed": "2026-10-29",
+     "supports": "≥85% новосёлов в 1950"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-ctx-1995-2024-labour-gdansk",
+   "country_code": "PL",
+   "location_id": "pl-gdansk",
+   "period_start": 1995,
+   "period_end": 2024,
+   "context_type": "work",
+   "attribute": "population_unemployment",
+   "title": "Гданьск: население и безработица 1995–2024",
+   "description": "По данным Банка местных данных GUS, регистрируемая безработица в городе Гданьск колебалась от 11.5% (2004) до 2.4% (2019); численность населения — см. ряды. Популяционная статистика, не правило для отдельного человека.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 463019,
+     "unit": "persons",
+     "year": 1995,
+     "area_id": "pl-gdansk",
+     "population": "все жители города (powiat grodzki)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "population",
+     "value": 455581,
+     "unit": "persons",
+     "year": 2008,
+     "area_id": "pl-gdansk",
+     "population": "все жители города (powiat grodzki)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "population",
+     "value": 488651,
+     "unit": "persons",
+     "year": 2024,
+     "area_id": "pl-gdansk",
+     "population": "все жители города (powiat grodzki)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 11.5,
+     "unit": "%",
+     "year": 2004,
+     "area_id": "pl-gdansk",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 2.6,
+     "unit": "%",
+     "year": 2008,
+     "area_id": "pl-gdansk",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 6.5,
+     "unit": "%",
+     "year": 2013,
+     "area_id": "pl-gdansk",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 2.4,
+     "unit": "%",
+     "year": 2019,
+     "area_id": "pl-gdansk",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 2.5,
+     "unit": "%",
+     "year": 2024,
+     "area_id": "pl-gdansk",
+     "population": "экономически активные жители города",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    }
+   ],
+   "source_ids": [
+    "pl_gus_bdl"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/042214361000?var-id=72305&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "численность населения"
+    },
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/042214361000?var-id=60270&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "уровень регистрируемой безработицы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

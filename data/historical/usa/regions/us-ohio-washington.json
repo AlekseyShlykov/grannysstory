@@ -1,0 +1,120 @@
+{
+ "records": [
+  {
+   "id": "us-washington-oh-1961-belpre-shell-plant",
+   "title": "Химический завод Shell в Белпре",
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-washington"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1961 г. в Белпре, ниже Мариетты по реке Огайо, открылся завод Shell Chemical по производству синтетического каучука и латекса; в 1968 г. рядом Ashland Chemical построила завод технического углерода. Химические заводы вдоль шоссе Ohio 7 стали основой занятости округа.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "husband_at_the_plant"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_marietta_times"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_marietta_times",
+     "url": "https://www.mariettatimes.com/news/local-news/2023/04/ohio-7-plants-form-core-of-community/",
+     "accessed": "2026-10-29",
+     "supports": "1961 Shell, 1968 Ashland, продукция"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-washington-oh-1981-union-carbide-alloy-sold",
+   "title": "Продажа ферросплавного завода Union Carbide под Мариеттой",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-washington"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1981 г. норвежская Elkem купила у Union Carbide завод ферросплавов под Мариеттой (с 1999 г. — французская Eramet). Бывший комплекс Union Carbide распался на несколько предприятий.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_insecurity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_marietta_times"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_marietta_times",
+     "url": "https://www.mariettatimes.com/news/local-news/2023/04/ohio-7-plants-form-core-of-community/",
+     "accessed": "2026-10-29",
+     "supports": "1981 Elkem, 1999 французский владелец, общее происхождение предприятий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-washington-oh-2010-gorsuch-station-closes",
+   "title": "Закрытие электростанции Горсач",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-washington"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В конце 2010 г. закрылась угольная электростанция Richard H. Gorsuch на шоссе Ohio 7 у Мариетты; позже её снесли.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_marietta_times"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_marietta_times",
+     "url": "https://www.mariettatimes.com/news/local-news/2023/04/ohio-7-plants-form-core-of-community/",
+     "accessed": "2026-10-29",
+     "supports": "конец 2010 закрытие, снос"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

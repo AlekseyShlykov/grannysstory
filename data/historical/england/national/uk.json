@@ -1,0 +1,2508 @@
+{
+ "records": [
+  {
+   "id": "gb-nat-1906-school-meals",
+   "title": "Бесплатные школьные обеды",
+   "start_date": "1906",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон Education (Provision of Meals) Act разрешил местным властям кормить детей в школах бесплатно; обязательным это стало лишь в 1914 г. С 1907 г. ввели медицинские осмотры школьников.",
+   "affected_groups": [
+    "children",
+    "school_pupils",
+    "parents"
+   ],
+   "eligibility": {
+    "max_age": 14
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
+     "accessed": "2026-10-29",
+     "supports": "1906 обеды, обязательность 1914, осмотры 1907"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1908-childrens-charter",
+   "title": "«Хартия детей»",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Children Act 1908 запретил продавать детям табак, алкоголь и фейерверки и посылать их попрошайничать; появились суды по делам несовершеннолетних.",
+   "affected_groups": [
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
+     "accessed": "2026-10-29",
+     "supports": "содержание закона 1908"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1908-old-age-pensions",
+   "title": "Закон о пенсиях по старости",
+   "title_original": "Old-Age Pensions Act 1908",
+   "start_date": "1908-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Закон ввёл государственную пенсию для людей старше 70 лет с проверкой нуждаемости: 5 шиллингов в неделю на одного. Первые выплаты начались 1 января 1909 г.",
+   "affected_groups": [
+    "elderly",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Old-Age_Pensions_Act_1908",
+     "accessed": "2026-10-29",
+     "supports": "дата королевской санкции, возраст, сумма, первая выплата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1909-labour-exchanges",
+   "title": "Биржи труда",
+   "start_date": "1909",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон о биржах труда создал государственные конторы, где работодатели размещали вакансии, а безработные искали работу; к февралю 1910 г. открылось 83 биржи.",
+   "affected_groups": [
+    "unemployed",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
+     "accessed": "2026-10-29",
+     "supports": "1909, 83 биржи к февралю 1910"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1911-national-insurance",
+   "title": "Закон о национальном страховании",
+   "title_original": "National Insurance Act 1911",
+   "start_date": "1911-12-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Работающие по найму с низким заработком получили страхование по болезни (врач, больничные, пособие по родам), а рабочие ряда циклических отраслей — страхование по безработице. Взносы собирались с июля 1912 г., выплаты начались 15 января 1913 г.; семьи работников не были застрахованы.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Insurance_Act_1911",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, начало взносов и выплат, охват"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1914-war-declared",
+   "title": "Британия вступила в Первую мировую войну",
+   "start_date": "1914-08-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Британский ультиматум Германии истёк в 23:00 по лондонскому времени, и король Георг V объявил войну.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_member_at_war"
+   ],
+   "narrative_hooks": [
+    "brother_or_father_at_front"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/United_Kingdom_declaration_of_war_on_Germany_(1914)",
+     "accessed": "2026-10-29",
+     "supports": "дата и время"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1916-conscription",
+   "title": "Введение всеобщей воинской обязанности",
+   "start_date": "1916-01-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Military Service Act ввёл призыв холостых мужчин 18–41 года, проживавших в Великобритании (Ирландия не входила); в мае 1916 г. призыв распространён на женатых.",
+   "affected_groups": [
+    "men",
+    "soldiers_families"
+   ],
+   "eligibility": {
+    "min_age": 18,
+    "max_age": 41,
+    "groups_any": [
+     "men"
+    ]
+   },
+   "potential_impacts": [
+    "family_member_conscripted"
+   ],
+   "narrative_hooks": [
+    "brother_or_father_at_front"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Military_Service_Act_1916",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, возраст, исключение Ирландии, расширение на женатых"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1917-womens-land-army",
+   "title": "Женская земледельческая армия",
+   "start_date": "1917",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Министерство сельского хозяйства привлекло женщин к работе на фермах вместо призванных мужчин: около 23 тыс. работниц, армию распустили в 1919 г. Во Вторую мировую её воссоздали в 1939 г.; к 1944 г. в ней было более 80 тыс. женщин, больше трети — из Лондона и промышленных городов Севера. Окончательно распущена 30 ноября 1950 г.",
+   "affected_groups": [
+    "women",
+    "agricultural_workers",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 17,
+    "groups_any": [
+     "women"
+    ]
+   },
+   "potential_impacts": [
+    "wartime_work",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "land_girl"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women%27s_Land_Army",
+     "accessed": "2026-10-29",
+     "supports": "1917–1919, 23 000; 1939–1950, 80 000 к 1944, происхождение"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1917-food-rationing",
+   "title": "Продовольственные карточки Первой мировой",
+   "start_date": "1917-12",
+   "end_date": "1918-07",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "После добровольного ограничения (февраль 1917 г.) с декабря 1917 по февраль 1918 г. поэтапно ввели обязательное нормирование; в июле 1918 г. появились продовольственные книжки на масло, маргарин, жир, мясо и сахар. Контроль полностью сняли к 1921 г.",
+   "affected_groups": [
+    "all_residents",
+    "homemakers"
+   ],
+   "potential_impacts": [
+    "shortages"
+   ],
+   "narrative_hooks": [
+    "queue_for_food"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "этапы 1917–1918, книжки июль 1918, отмена к 1921"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1918-representation-of-the-people",
+   "title": "Женщины старше 30 лет получили право голоса",
+   "title_original": "Representation of the People Act 1918",
+   "start_date": "1918-02-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Representation of the People Act дал право голоса почти всем мужчинам старше 21 года и женщинам старше 30 с имущественным цензом; электорат вырос примерно втрое. Первые выборы по новым правилам прошли 14 декабря 1918 г.; в ноябре женщинам разрешили избираться в парламент.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1918",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, условия, рост электората, дата выборов, Qualification of Women Act"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1918-armistice",
+   "title": "Перемирие",
+   "start_date": "1918-11-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 11 часов утра вступило в силу перемирие, прекратившее боевые действия Первой мировой войны.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_celebration"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
+     "accessed": "2026-10-29",
+     "supports": "дата и время"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1919-sex-disqualification-removal",
+   "title": "Женщинам открыли профессии и суды присяжных",
+   "title_original": "Sex Disqualification (Removal) Act 1919",
+   "start_date": "1919-12-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон запретил отстранять от профессий и гражданских должностей по признаку пола или брака: женщины смогли быть присяжными, мировыми судьями, юристами, получать университетские степени.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sex_Disqualification_(Removal)_Act_1919",
+     "accessed": "2026-10-29",
+     "supports": "дата, содержание, территория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1922-bbc-radio",
+   "title": "Начало регулярного радиовещания",
+   "start_date": "1922-11-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Станция 2LO British Broadcasting Company начала ежедневные передачи из Лондона. Число радиолицензий выросло с 36 тыс. в конце 1922 г. до 2,25 млн к концу 1926 г.; 1 января 1927 г. компанию сменила корпорация BBC.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_wireless"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/British_Broadcasting_Company",
+     "accessed": "2026-10-29",
+     "supports": "дата, лицензии, BBC 1927"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1926-general-strike",
+   "title": "Всеобщая забастовка",
+   "start_date": "1926-05-04",
+   "end_date": "1926-05-12",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "labor",
+   "historical_summary": "В поддержку шахтёров, которым грозили снижение зарплаты и удлинение смены, Конгресс тред-юнионов объявил забастовку: вышли около 1,7 млн рабочих транспорта и тяжёлой промышленности. 12 мая её прекратили без гарантий; шахтёры держались до конца ноября.",
+   "affected_groups": [
+    "industrial_workers",
+    "miners",
+    "dock_workers"
+   ],
+   "potential_impacts": [
+    "strike",
+    "lost_wages"
+   ],
+   "narrative_hooks": [
+    "family_on_strike"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1926_United_Kingdom_general_strike",
+     "accessed": "2026-10-29",
+     "supports": "даты, число участников, причины, итог"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1928-equal-franchise",
+   "title": "Равное избирательное право для женщин",
+   "title_original": "Representation of the People (Equal Franchise) Act 1928",
+   "start_date": "1928-07-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Женщины получили право голоса с 21 года наравне с мужчинами, около 5 млн новых избирательниц. На выборах 1929 г. женщины составили 52,7% электората.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Representation_of_the_People_(Equal_Franchise)_Act_1928",
+     "accessed": "2026-10-29",
+     "supports": "дата, возраст 21, 5 млн, 52,7%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1931-depression-means-test",
+   "title": "Великая депрессия и проверка нуждаемости",
+   "start_date": "1931-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С августа 1931 г. пособие по безработице стало выплачиваться после строгой проверки доходов семьи (means test); в сентябре страна отказалась от золотого стандарта. Летом 1932 г. зарегистрированная безработица достигла около 3,5 млн; сильнее всего пострадали Север, Уэльс и Шотландия, тогда как Лондон и Юго-Восток к концу 1930-х процветали.",
+   "affected_groups": [
+    "unemployed",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "unemployment",
+    "poverty"
+   ],
+   "narrative_hooks": [
+    "means_test_visit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Depression_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "means test август 1931, золотой стандарт сентябрь 1931, пик 3,5 млн летом 1932, региональные различия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1936-bbc-television",
+   "title": "Начало телевещания BBC",
+   "start_date": "1936-11-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Из Александра-палас в Лондоне началось регулярное телевещание BBC. 1 сентября 1939 г. его прервали из-за войны и возобновили 7 июня 1946 г.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/BBC_Television",
+     "accessed": "2026-10-29",
+     "supports": "даты начала, прекращения и возобновления"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1938-holidays-with-pay",
+   "title": "Закон об оплачиваемом отпуске",
+   "start_date": "1938-07-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон позволил органам, регулирующим зарплаты, устанавливать оплачиваемые отпуска для рабочих.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_seaside_holiday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Holidays_with_Pay_Act_1938",
+     "accessed": "2026-10-29",
+     "supports": "дата, суть"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1939-war-and-conscription",
+   "title": "Начало Второй мировой войны и призыв",
+   "start_date": "1939-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В день объявления войны Германии закон о национальной службе ввёл призыв мужчин 18–41 года, находившихся в Великобритании.",
+   "affected_groups": [
+    "men",
+    "soldiers_families"
+   ],
+   "eligibility": {
+    "min_age": 18,
+    "max_age": 41,
+    "groups_any": [
+     "men"
+    ]
+   },
+   "potential_impacts": [
+    "family_member_at_war"
+   ],
+   "narrative_hooks": [
+    "brother_or_father_at_front"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Service_Act_1941",
+     "accessed": "2026-10-29",
+     "supports": "3 сентября 1939, 18–41, Великобритания"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1940-food-rationing",
+   "title": "Карточная система Второй мировой",
+   "start_date": "1940-01-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "8 января 1940 г. по карточкам стали выдавать бекон, масло и сахар; с июня 1941 г. — одежду; к августу 1942 г. нормировалось почти всё, кроме овощей и хлеба. Хлеб нормировали уже после войны, в 1946–1948 гг.",
+   "affected_groups": [
+    "all_residents",
+    "homemakers"
+   ],
+   "potential_impacts": [
+    "shortages"
+   ],
+   "narrative_hooks": [
+    "ration_book",
+    "make_do_and_mend"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "даты введения карточек, одежда, хлеб 1946–1948"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1942-beveridge-report",
+   "title": "Доклад Бевериджа",
+   "start_date": "1942-12-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Опубликован доклад о социальном страховании, назвавший пять «гигантов» — нужду, болезнь, невежество, нищету жилья и праздность. Его одобрило абсолютное большинство населения; на нём основаны законы о национальном страховании и NHS 1946 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Beveridge_Report",
+     "accessed": "2026-10-29",
+     "supports": "дата публикации, пять гигантов, реакция, законы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1945-ve-day",
+   "title": "День Победы в Европе",
+   "start_date": "1945-05-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Союзники приняли капитуляцию Германии; толпы праздновали на Трафальгарской площади и у Букингемского дворца, по всей стране на улицы вышли более миллиона человек.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_party"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day",
+     "accessed": "2026-10-29",
+     "supports": "дата и празднования"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1946-new-towns-act",
+   "title": "Закон о новых городах",
+   "start_date": "1946-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Государство получило право объявлять «новые города» и строить их через государственные корпорации развития; первым стал Стивенидж (1946), позже — Корби (1950).",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "rehousing",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "move_to_new_town"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/New_Towns_Act_1946",
+     "accessed": "2026-10-29",
+     "supports": "дата, суть, Стивенидж, Корби 1950"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1946-family-allowance",
+   "title": "Первые семейные пособия",
+   "start_date": "1946-08-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "По Family Allowances Act 1945 матерям начали выплачивать 5 шиллингов в неделю на каждого ребёнка, кроме старшего. В 1977 г. пособие заменил Child Benefit.",
+   "affected_groups": [
+    "mothers",
+    "parents"
+   ],
+   "eligibility": {
+    "groups_any": [
+     "mothers"
+    ]
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Family_Allowances_Act_1945",
+     "accessed": "2026-10-29",
+     "supports": "даты, сумма, выплата матери, замена 1977"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1948-windrush",
+   "title": "Прибытие «Эмпайр Уиндраш»",
+   "start_date": "1948-06-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "migration",
+   "historical_summary": "Судно HMT Empire Windrush пришло в Тилбери с 1027 пассажирами, большинство из Карибского бассейна. До 1962 г. для граждан Соединённого Королевства и колоний не было иммиграционного контроля.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/HMT_Empire_Windrush",
+     "accessed": "2026-10-29",
+     "supports": "дата, число пассажиров, отсутствие контроля до 1962"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1948-nhs",
+   "title": "Создание Национальной службы здравоохранения",
+   "start_date": "1948-07-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Начала работу NHS — государственная медицина, бесплатная в момент обращения. Её символически открыли в больнице Парк в Дэвихалме под Манчестером. Платы за зубные протезы (1951) и другое стоматологическое лечение (1952) вводились позже.",
+   "affected_groups": [
+    "all_residents",
+    "mothers",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "access_to_doctor"
+   ],
+   "narrative_hooks": [
+    "first_free_doctor"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Health_Service_(England)",
+     "accessed": "2026-10-29",
+     "supports": "дата запуска, место открытия, принцип бесплатности, платы 1951–1952"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1950-first-package-holiday",
+   "title": "Первые массовые турпакеты за границу",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Компания Horizon Владимира Райца отправила чартерные рейсы из Гатвика на Корсику, положив начало массовым пакетным турам; в 1950–60-х дешёвые туры впервые сделали поездку за границу доступной для многих британцев.",
+   "affected_groups": [
+    "consumers",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_trip_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Package_holiday",
+     "accessed": "2026-10-29",
+     "supports": "1950 Корсика, доступность в конце 1950-х и 1960-х"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1953-coronation-tv",
+   "title": "Коронация на телеэкране",
+   "start_date": "1953-06-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Коронацию Елизаветы II в прямом эфире BBC смотрели около 27 млн человек в Британии; многие специально купили или взяли напрокат телевизоры, число телелицензий выросло примерно с 1,5 до 3 млн.",
+   "affected_groups": [
+    "all_residents",
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_tv_at_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
+     "accessed": "2026-10-29",
+     "supports": "дата, 27 млн зрителей, рост лицензий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1954-rationing-ends",
+   "title": "Конец продовольственных карточек",
+   "start_date": "1954-07-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "С отменой нормирования мяса закончилось продовольственное нормирование, длившееся с 1940 г.; сладости освободили от карточек в феврале 1953 г., сахар — в сентябре 1953 г. Уголь нормировали до 1958 г.",
+   "affected_groups": [
+    "all_residents",
+    "homemakers",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_sweets"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "4 июля 1954 мясо; сладости, сахар 1953; уголь 1958"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1956-clean-air-act",
+   "title": "Закон о чистом воздухе",
+   "title_original": "Clean Air Act 1956",
+   "start_date": "1956-07-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "environment",
+   "historical_summary": "После лондонского смога 1952 г. закон позволил вводить зоны, где можно жечь только бездымное топливо, запретил чёрный дым из труб и подтолкнул переход домашнего отопления к газу, электричеству и бездымному углю.",
+   "affected_groups": [
+    "urban_residents",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Clean_Air_Act_1956",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, меры, связь со смогом 1952"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1956-suez-petrol-rationing",
+   "title": "Бензиновые талоны во время Суэцкого кризиса",
+   "start_date": "1956-12-17",
+   "end_date": "1957-05-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "Из-за Суэцкого кризиса снова ввели нормирование бензина, продержавшееся до 14 мая 1957 г.",
+   "affected_groups": [
+    "commuters",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "даты Суэцкого нормирования"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1961-pill-on-nhs",
+   "title": "Противозачаточная таблетка на NHS",
+   "start_date": "1961-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Министр здравоохранения Энок Пауэлл объявил, что таблетку Conovid можно выписывать через NHS по льготной цене 2 шиллинга в месяц.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "groups_any": [
+     "women"
+    ]
+   },
+   "potential_impacts": [
+    "family_planning"
+   ],
+   "narrative_hooks": [
+    "family_planning_choice"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill",
+     "accessed": "2026-10-29",
+     "supports": "декабрь 1961, Conovid, 2 шиллинга"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1962-commonwealth-immigrants-act",
+   "title": "Ограничение иммиграции из Содружества",
+   "start_date": "1962-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "migration",
+   "historical_summary": "Вступил в силу закон, по которому граждане стран Содружества без тесной связи с Британией могли поселиться только по ограниченным разрешениям на работу; въезд из колоний и Содружества резко сократился.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Commonwealth_Immigrants_Act_1962",
+     "accessed": "2026-10-29",
+     "supports": "даты, ваучеры, сокращение въезда"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1963-beeching-report",
+   "title": "Доклад Бичинга о закрытии железных дорог",
+   "start_date": "1963-03-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Доклад «Перестройка британских железных дорог» предложил закрыть 2363 станции и тысячи миль линий; пик закрытий пришёлся на 1964 г., к началу 1970-х они почти прекратились.",
+   "affected_groups": [
+    "rural_residents",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "lost_rail_link"
+   ],
+   "narrative_hooks": [
+    "last_train_from_station"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Beeching_cuts",
+     "accessed": "2026-10-29",
+     "supports": "дата, число станций, динамика закрытий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1963-robbins-report",
+   "title": "Доклад Роббинса о расширении университетов",
+   "start_date": "1963-09-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "education",
+   "historical_summary": "Доклад рекомендовал немедленно расширить университеты, дать статус университетов колледжам передовых технологий и открыть места всем, кто к ним готов по способностям; правительство приняло выводы 24 октября 1963 г.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 17,
+    "max_age": 25
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Robbins_Report",
+     "accessed": "2026-10-29",
+     "supports": "дата, рекомендации, принятие"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1967-colour-tv",
+   "title": "Цветное телевидение",
+   "start_date": "1967-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "media_communication",
+   "historical_summary": "BBC Two первым в Европе начал регулярное цветное вещание (система PAL). Сам канал BBC2 открылся в 1964 г.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/BBC_Television",
+     "accessed": "2026-10-29",
+     "supports": "1 июля 1967, BBC2 1964"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1967-abortion-act",
+   "title": "Закон об абортах",
+   "title_original": "Abortion Act 1967",
+   "start_date": "1967-10-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон, вступивший в силу 27 апреля 1968 г. в Великобритании (без Северной Ирландии), разрешил врачам прерывать беременность по заключению двух врачей при угрозе жизни или здоровью женщины или её семьи.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Abortion_Act_1967",
+     "accessed": "2026-10-29",
+     "supports": "даты, территория, условия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1969-voting-age-18",
+   "title": "Право голоса с 18 лет",
+   "start_date": "1969-04-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "political_change",
+   "historical_summary": "Закон снизил избирательный возраст с 21 до 18 лет; новые правила применялись к спискам избирателей 1970 г.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 18,
+    "max_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1969",
+     "accessed": "2026-10-29",
+     "supports": "дата, 21→18, списки 1970"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1970-equal-pay-act",
+   "title": "Закон о равной оплате труда",
+   "title_original": "Equal Pay Act 1970",
+   "start_date": "1970-05-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон потребовал равной оплаты мужчин и женщин за одинаковую работу; основные положения вступили в силу 29 декабря 1975 г. На Северную Ирландию закон не распространялся.",
+   "affected_groups": [
+    "women",
+    "office_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "equal_pay_conversation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_legislation"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1970/41/enacted",
+     "accessed": "2026-10-29",
+     "supports": "дата 29 мая 1970, вступление в силу 29.12.1975 (s.9), без Северной Ирландии (s.11(3))"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "gb-nat-1971-open-university",
+   "title": "Открытый университет принял первых студентов",
+   "start_date": "1971-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "education",
+   "historical_summary": "Открытый университет, получивший хартию в 1969 г., принял первых студентов; учебные телепередачи на BBC начались 3 января 1971 г.",
+   "affected_groups": [
+    "women",
+    "office_workers",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "study_as_adult"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Open_University",
+     "accessed": "2026-10-29",
+     "supports": "хартия 1969, январь 1971, передачи BBC"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1971-decimal-day",
+   "title": "Переход на десятичные деньги",
+   "start_date": "1971-02-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "Шиллинг был отменён, фунт разделён на 100 новых пенсов вместо 240 старых; цены пересчитывались по таблицам.",
+   "affected_groups": [
+    "all_residents",
+    "consumers",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "confusion_with_new_money"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Decimal_Day",
+     "accessed": "2026-10-29",
+     "supports": "дата и суть перехода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1974-three-day-week",
+   "title": "Трёхдневная рабочая неделя",
+   "start_date": "1974-01-01",
+   "end_date": "1974-03-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "Из-за ограничения работы шахтёров электроснабжение сократили: предприятиям разрешили потреблять электричество три дня в неделю, телевидение с декабря 1973 г. заканчивало вещание в 22:30. Ограничения сняли 7 марта 1974 г.",
+   "affected_groups": [
+    "all_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "lost_wages"
+   ],
+   "narrative_hooks": [
+    "candlelit_evenings"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Three-Day_Week",
+     "accessed": "2026-10-29",
+     "supports": "даты, причины, ТВ-ограничения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1975-sex-discrimination-act",
+   "title": "Закон о запрете дискриминации по полу",
+   "title_original": "Sex Discrimination Act 1975",
+   "start_date": "1975-11-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "women_rights",
+   "historical_summary": "С 29 декабря 1975 г. в Англии, Уэльсе и Шотландии запрещена дискриминация по полу и семейному положению в найме, обучении, образовании, услугах и жилье; создана Комиссия по равным возможностям.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sex_Discrimination_Act_1975",
+     "accessed": "2026-10-29",
+     "supports": "даты, территория, сфера, EOC"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1978-winter-of-discontent",
+   "title": "«Зима недовольства»",
+   "start_date": "1978-09",
+   "end_date": "1979-02",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "labor",
+   "historical_summary": "С осени 1978 по февраль 1979 г. против ограничения роста зарплат в 5% бастовали рабочие Ford, водители грузовиков, работники государственного сектора; в Лондоне копился невывезенный мусор. В мае 1979 г. консерваторы во главе с Маргарет Тэтчер выиграли выборы.",
+   "affected_groups": [
+    "industrial_workers",
+    "medical_workers"
+   ],
+   "potential_impacts": [
+    "strike"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
+     "accessed": "2026-10-29",
+     "supports": "даты, забастовки, итог"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1980-right-to-buy",
+   "title": "Право выкупа муниципального жилья",
+   "start_date": "1980",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Housing Act 1980 позволил квартиросъёмщикам муниципального жилья выкупать дома со скидкой 33–50% (до 70% для квартир). К 1987 г. было продано более миллиона домов; доля домовладельцев выросла с 55% в 1979 г. до 71% в 2003 г.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "became_homeowner"
+   ],
+   "narrative_hooks": [
+    "buying_the_council_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Right_to_Buy",
+     "accessed": "2026-10-29",
+     "supports": "закон 1980, скидки, число продаж, доля домовладельцев"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1982-falklands",
+   "title": "Фолклендская война",
+   "start_date": "1982-04-02",
+   "end_date": "1982-06-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "После вторжения Аргентины на Фолклендские острова британские силы вернули их; война закончилась 14 июня 1982 г., погибли 255 британских военнослужащих.",
+   "affected_groups": [
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Falklands_War",
+     "accessed": "2026-10-29",
+     "supports": "даты, британские потери"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1984-miners-strike",
+   "title": "Забастовка шахтёров",
+   "start_date": "1984-03-06",
+   "end_date": "1985-03-03",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "labor",
+   "historical_summary": "Почти год, до 3 марта 1985 г., шахтёры бастовали против закрытия шахт; 18 июня 1984 г. произошли столкновения у коксохимического завода Оргрив. Забастовка закончилась поражением профсоюза; из 175 шахт, работавших в 1983 г., к концу 2015 г. не осталось ни одной.",
+   "affected_groups": [
+    "miners",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "strike",
+    "job_loss",
+    "poverty"
+   ],
+   "narrative_hooks": [
+    "family_on_strike"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/UK_miners'_strike_(1984–1985)",
+     "accessed": "2026-10-29",
+     "supports": "даты, Оргрив, итог, закрытие шахт"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1994-channel-tunnel",
+   "title": "Открыт тоннель под Ла-Маншем",
+   "start_date": "1994-05-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Официально открылся железнодорожный тоннель между Фолкстоном и Кокелем; пассажирские поезда пошли в ноябре 1994 г., скоростная линия до лондонского вокзала Сент-Панкрас — в 2007 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_trip_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Channel_Tunnel",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия, начало пассажирских перевозок, HS1 2007"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1994-national-lottery",
+   "title": "Первый тираж Национальной лотереи",
+   "start_date": "1994-11-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Прошёл первый тираж National Lottery; билет стоил 1 фунт.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Lottery_(United_Kingdom)",
+     "accessed": "2026-10-29",
+     "supports": "дата и цена"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1995-pensions-act",
+   "title": "Выравнивание пенсионного возраста женщин",
+   "start_date": "1995-07-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Pensions Act 1995 предусмотрел подъём пенсионного возраста женщин с 60 до 65 лет, как у мужчин, поэтапно с 2010 г. для родившихся в 1950–1955 гг.; Pensions Act 2011 ускорил переход. Изменения затронули около 3,6 млн женщин.",
+   "affected_groups": [
+    "women",
+    "pensioners"
+   ],
+   "eligibility": {
+    "groups_any": [
+     "women"
+    ]
+   },
+   "potential_impacts": [
+    "later_pension"
+   ],
+   "narrative_hooks": [
+    "pension_delayed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pensions_Act_1995",
+     "accessed": "2026-10-29",
+     "supports": "дата санкции, выравнивание"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
+     "accessed": "2026-10-29",
+     "supports": "60 → 65, поэтапно с 2010, когорты 1950–1955, 3,6 млн"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1997-winter-fuel-payment",
+   "title": "Зимняя доплата на отопление пенсионерам",
+   "start_date": "1997",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Канцлер Гордон Браун ввёл всеобщую ежегодную выплату на отопление людям от 60 лет (сначала 20 фунтов). В 2024 г. её ограничили получателями пособий по бедности, но в 2025 г. снова расширили.",
+   "affected_groups": [
+    "pensioners",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Winter_Fuel_Payment",
+     "accessed": "2026-10-29",
+     "supports": "1997, 20 фунтов, 60+, изменения 2024–2025"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-1999-minimum-wage",
+   "title": "Национальная минимальная заработная плата",
+   "start_date": "1999-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "labor",
+   "historical_summary": "Впервые введена общенациональная минимальная оплата: 3,60 фунта в час для работников от 22 лет, 3 фунта для 18–21-летних.",
+   "affected_groups": [
+    "industrial_workers",
+    "young_adults",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/National_Minimum_Wage_Act_1998",
+     "accessed": "2026-10-29",
+     "supports": "дата, ставки, территория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2004-eu-enlargement",
+   "title": "Расширение ЕС на восток",
+   "start_date": "2004-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "migration",
+   "historical_summary": "В ЕС вступили Польша и ещё девять стран; Великобритания не стала ограничивать работу граждан новых членов, введя лишь регистрацию и ограничения на пособия.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union",
+     "accessed": "2026-10-29",
+     "supports": "дата; для Великобритании — только регистрация и ограничения пособий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2005-civil-partnerships",
+   "title": "Гражданские партнёрства",
+   "start_date": "2005-12-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "family_law",
+   "historical_summary": "Вступил в силу Civil Partnership Act 2004: однополые пары смогли регистрировать партнёрство; первые регистрации в Англии и Уэльсе прошли 21 декабря 2005 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Civil_Partnership_Act_2004",
+     "accessed": "2026-10-29",
+     "supports": "даты, территория"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2007-digital-switchover",
+   "title": "Отключение аналогового телевидения",
+   "start_date": "2007",
+   "end_date": "2012-10-24",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Поэтапное отключение аналогового эфирного ТВ началось в 2007 г. в Уайтхейвене и завершилось 24 октября 2012 г. в Северной Ирландии; зрителям понадобились цифровые приставки или новые телевизоры.",
+   "affected_groups": [
+    "television_owners",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Digital_switchover_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "2007 начало, 24.10.2012 конец"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2007-northern-rock",
+   "title": "Набег вкладчиков на Northern Rock",
+   "start_date": "2007-09-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "После получения банком экстренной поддержки Банка Англии вкладчики выстроились в очереди за деньгами — первый подобный набег на британский банк за 150 лет. 22 февраля 2008 г. банк национализировали.",
+   "affected_groups": [
+    "homeowners",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "savings_worry"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Northern_Rock",
+     "accessed": "2026-10-29",
+     "supports": "дата набега, национализация"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2010-austerity",
+   "title": "Политика жёсткой экономии",
+   "start_date": "2010-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "Бюджет коалиции в июне 2010 г. открыл долгую программу сокращения расходов: финансирование местных властей Англии и Уэльса из центра к 2020 г. сократилось почти на 60%, пособия трудоспособным заморозили на 2016–2020 гг., в 2013 г. введён потолок пособий.",
+   "affected_groups": [
+    "unemployed",
+    "parents",
+    "tenants",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "service_cuts"
+   ],
+   "narrative_hooks": [
+    "library_closed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Austerity_in_the_United_Kingdom",
+     "accessed": "2026-10-29",
+     "supports": "2010 бюджет, сокращения местных властей, заморозка, потолок"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2013-universal-credit",
+   "title": "Универсальный кредит",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Universal Credit, заменивший шесть пособий для людей трудоспособного возраста (от пособия по безработице до жилищного), начали вводить в 2013 г. с пилота в Эштон-андер-Лайне; переход растянулся до 2020-х.",
+   "affected_groups": [
+    "unemployed",
+    "parents",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Universal_Credit",
+     "accessed": "2026-10-29",
+     "supports": "Welfare Reform Act 2012, пилот 2013, заменённые пособия, сроки"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2016-eu-referendum",
+   "title": "Референдум о членстве в ЕС",
+   "start_date": "2016-06-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "political_change",
+   "historical_summary": "51,89% проголосовавших высказались за выход из Европейского союза при явке 72,2%; большинство районов Англии проголосовали за выход, Большой Лондон — за то, чтобы остаться.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum",
+     "accessed": "2026-10-29",
+     "supports": "дата, результат, явка, Лондон"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2020-brexit",
+   "title": "Выход из Европейского союза",
+   "start_date": "2020-01-31",
+   "end_date": "2020-12-31",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 23:00 по Гринвичу Великобритания вышла из ЕС; переходный период закончился 31 декабря 2020 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Brexit",
+     "accessed": "2026-10-29",
+     "supports": "дата и время выхода, конец переходного периода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2022-energy-price-shock",
+   "title": "Скачок цен на энергию",
+   "start_date": "2022-04",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В апреле 2022 г. потолок цен на газ и электричество для домохозяйств вырос на 54%; к октябрю инфляция по RPI достигла 11,1%, и правительство ограничило типичный годовой счёт 2500 фунтами.",
+   "affected_groups": [
+    "all_residents",
+    "pensioners",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "poverty"
+   ],
+   "narrative_hooks": [
+    "cold_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2021–present_United_Kingdom_cost-of-living_crisis",
+     "accessed": "2026-10-29",
+     "supports": "рост потолка 54%, инфляция 11,1%, гарантия 2500"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2022-heatwave-40c",
+   "title": "Впервые +40 °C",
+   "start_date": "2022-07-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "environment",
+   "historical_summary": "В Конингсби (Линкольншир) зафиксировано 40,3 °C — рекорд для страны; 18–19 июля для большей части Англии действовало первое «красное» предупреждение о жаре. Летние волны жары 2022 г. связывают почти с 3 тыс. избыточных смертей, в основном людей старше 65 лет.",
+   "affected_groups": [
+    "elderly",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2022_United_Kingdom_heatwaves",
+     "accessed": "2026-10-29",
+     "supports": "дата, рекорд, предупреждение, избыточные смерти"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-nat-2022-queen-death",
+   "title": "Смерть королевы Елизаветы II",
+   "start_date": "2022-09-08",
+   "end_date": "2022-09-19",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "gb"
+   ],
+   "category": "political_change",
+   "historical_summary": "Королева Елизавета II умерла в Балморале в 96 лет после 70 лет правления; день похорон, 19 сентября 2022 г., стал выходным.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Elizabeth_II",
+     "accessed": "2026-10-29",
+     "supports": "дата смерти, похороны, выходной"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

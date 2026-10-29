@@ -1,0 +1,1101 @@
+{
+  "records": [
+    {
+      "id": "su-nat-1932-internal-passports",
+      "title": "Единая паспортная система и прописка",
+      "title_original": null,
+      "start_date": "1932-12-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "27 декабря 1932 года в СССР ввели внутренние паспорта и обязательную прописку. Колхозники паспортов, как правило, не получали: чтобы уехать из деревни, им нужна была справка колхоза.",
+      "affected_groups": [
+        "rural_residents",
+        "agricultural_workers",
+        "migrants"
+      ],
+      "potential_impacts": [
+        "mobility_restriction"
+      ],
+      "narrative_hooks": [
+        "leaving_the_village"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Паспорт_гражданина_СССР",
+          "accessed": "2026-10-29",
+          "supports": "27.12.1932; колхозники"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1936-abortion-ban",
+      "title": "Запрет абортов и помощь многодетным",
+      "title_original": null,
+      "start_date": "1936-06-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "family_law",
+      "subcategory": null,
+      "historical_summary": "27 июня 1936 года постановлением ЦИК и СНК СССР аборты, кроме медицинских показаний, были запрещены под угрозой уголовного наказания; одновременно увеличили пособия роженицам и многодетным, ужесточили ответственность за неуплату алиментов и усложнили развод.",
+      "affected_groups": [
+        "women",
+        "mothers",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "unplanned_pregnancy"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Аборты_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "27.06.1936, состав постановления"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1940-seven-day-week",
+      "title": "Семидневная неделя и запрет ухода с работы",
+      "title_original": null,
+      "start_date": "1940-06-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "Указом от 26 июня 1940 года страна вернулась к семидневной неделе с воскресным выходным и восьмичасовому дню (48 часов в неделю); самовольный уход с предприятия запрещался, а прогулы и опоздания наказывались по суду. Ответственность отменили в 1956 году.",
+      "affected_groups": [
+        "industrial_workers",
+        "office_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
+          "accessed": "2026-10-29",
+          "supports": "26.06.1940"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1944-mother-heroine",
+      "title": "Звание «Мать-героиня»",
+      "title_original": null,
+      "start_date": "1944-07-08",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "family_law",
+      "subcategory": null,
+      "historical_summary": "8 июля 1944 года указом Президиума Верховного Совета СССР учреждено высшее почётное звание для женщин, родивших и воспитавших десять и более детей; к 1995 году его получили около 431 тысячи женщин.",
+      "affected_groups": [
+        "mothers",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Мать-героиня_(СССР)",
+          "accessed": "2026-10-29",
+          "supports": "08.07.1944; ~431 000"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1955-abortion-relegalised",
+      "title": "Аборт снова разрешён",
+      "title_original": null,
+      "start_date": "1955-11-23",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "women_rights",
+      "subcategory": null,
+      "historical_summary": "Указом Президиума Верховного Совета СССР от 23 ноября 1955 года запрет абортов отменили; уголовная ответственность сохранилась только за операции вне медицинских учреждений.",
+      "affected_groups": [
+        "women"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Аборты_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "23.11.1955"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1956-short-saturday",
+      "title": "Короткая суббота",
+      "title_original": null,
+      "start_date": "1956-03-10",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "Указом от 8 марта 1956 года рабочие дни перед выходными и праздниками сократили на два часа; первая короткая суббота пришлась на 10 марта 1956 года, неделя уменьшилась до 46 часов.",
+      "affected_groups": [
+        "industrial_workers",
+        "office_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
+          "accessed": "2026-10-29",
+          "supports": "08.03.1956; 10.03.1956"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1960-seven-hour-day",
+      "title": "Семичасовой рабочий день",
+      "title_original": null,
+      "start_date": "1960-05-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "Закон от 7 мая 1960 года установил для большинства работников рабочий день не длиннее семи часов, для подземных работ — шесть.",
+      "affected_groups": [
+        "industrial_workers",
+        "miners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
+          "accessed": "2026-10-29",
+          "supports": "07.05.1960"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1961-monetary-reform",
+      "title": "Денежная реформа 1961 года",
+      "title_original": null,
+      "start_date": "1961-01-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "С 1 января 1961 года в обращение вошли новые деньги; старые меняли в пропорции 10:1, так же пересчитали цены, зарплаты и вклады. Рыночные цены на продукты при этом выросли заметно сильнее официального пересчёта.",
+      "affected_groups": [
+        "all_residents",
+        "consumers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "new_money"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Денежная_реформа_в_СССР_1961_года",
+          "accessed": "2026-10-29",
+          "supports": "01.01.1961; 10:1; рынки"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1967-five-day-week",
+      "title": "Пятидневка с двумя выходными",
+      "title_original": null,
+      "start_date": "1967-03-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "С 7 марта 1967 года в СССР перешли на пятидневную рабочую неделю с двумя выходными днями (до 42 часов в неделю); в 1971 году КЗоТ РСФСР установил 41 час.",
+      "affected_groups": [
+        "industrial_workers",
+        "office_workers",
+        "parents"
+      ],
+      "potential_impacts": [
+        "more_leisure"
+      ],
+      "narrative_hooks": [
+        "weekend_at_dacha"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
+          "accessed": "2026-10-29",
+          "supports": "07.03.1967; 1971"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1974-passports-rural",
+      "title": "Паспорта для сельских жителей",
+      "title_original": null,
+      "start_date": "1974-08-28",
+      "end_date": "1981-12-31",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "Постановлением Совмина СССР от 28 августа 1974 года утвердили новое положение о паспортной системе; паспорта нового образца выдавали с 1976 по 1981 год, и их стали получать и сельские жители, в том числе колхозники.",
+      "affected_groups": [
+        "rural_residents",
+        "agricultural_workers"
+      ],
+      "potential_impacts": [
+        "mobility_increase"
+      ],
+      "narrative_hooks": [
+        "leaving_the_village"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Паспорт_гражданина_СССР",
+          "accessed": "2026-10-29",
+          "supports": "28.08.1974; 1976–1981"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1985-anti-alcohol",
+      "title": "Антиалкогольная кампания",
+      "title_original": null,
+      "start_date": "1985-05-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "public_health",
+      "subcategory": null,
+      "historical_summary": "7 мая 1985 года ЦК КПСС и Совмин СССР приняли постановления о борьбе с пьянством; винные магазины работали с 14 до 19 часов, водка подорожала, а официальные продажи спиртного за 1985–1987 годы упали более чем в 2,5 раза. Росло самогоноварение, исчез из продажи сахар.",
+      "affected_groups": [
+        "all_residents",
+        "men",
+        "consumers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "queues_and_shortages",
+        "family_drinking"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Антиалкогольные_кампании_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "07.05.1985, 14–19, итоги"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1929-collectivisation",
+      "title": "Сплошная коллективизация",
+      "title_original": null,
+      "start_date": "1929-11-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "Статья Сталина «Год великого перелома» 7 ноября 1929 года открыла кампанию сплошной коллективизации и «ликвидации кулачества как класса»; постановление ЦК от 5 января 1930 года требовало в основном завершить её к 1932 году. Крестьянские хозяйства принудительно объединяли в колхозы, раскулаченных выселяли.",
+      "affected_groups": [
+        "agricultural_workers",
+        "rural_residents"
+      ],
+      "potential_impacts": [
+        "forced_relocation",
+        "property_loss"
+      ],
+      "narrative_hooks": [
+        "family_dekulakised",
+        "joining_kolkhoz"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Коллективизация_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "07.11.1929; 05.01.1930; 02.03.1930"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1932-three-ears-law",
+      "title": "«Закон о трёх колосках»",
+      "title_original": null,
+      "start_date": "1932-08-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "Постановление от 7 августа 1932 года ввело за хищение колхозной и государственной собственности до десяти лет лагерей или расстрел; только за август–декабрь 1932 года по нему осудили более 22 тысяч человек.",
+      "affected_groups": [
+        "agricultural_workers",
+        "rural_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Голод_в_СССР_(1932—1933)",
+          "accessed": "2026-10-29",
+          "supports": "07.08.1932; 22 347 осуждённых"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1932-famine",
+      "title": "Голод 1932–1933 годов",
+      "title_original": null,
+      "start_date": "1932",
+      "end_date": "1933",
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "В 1932–1933 годах массовый голод охватил Украинскую ССР, Казахстан, Северный Кавказ, Поволжье, Центрально-Чернозёмный район, Урал и юг Сибири; оценки числа жертв — от 3 до 8,8 млн человек. С января 1933 года крестьянам запрещали уходить из голодающих районов.",
+      "affected_groups": [
+        "rural_residents",
+        "agricultural_workers",
+        "children"
+      ],
+      "potential_impacts": [
+        "food_shortage",
+        "family_loss"
+      ],
+      "narrative_hooks": [
+        "hunger_memory"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Голод_в_СССР_(1932—1933)",
+          "accessed": "2026-10-29",
+          "supports": "районы, оценки жертв, директива 22.01.1933"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1937-great-terror",
+      "title": "Большой террор",
+      "title_original": null,
+      "start_date": "1937-07-30",
+      "end_date": "1938-11-17",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "Приказом НКВД № 00447 от 30 июля 1937 года начались массовые операции: за 1937–1938 годы по политическим обвинениям арестовали более 1,7 млн человек, не менее 725 тысяч расстреляли. Массовые операции прекратили постановлением от 17 ноября 1938 года.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "family_loss"
+      ],
+      "narrative_hooks": [
+        "arrested_relative",
+        "silence_in_family"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Большой_террор",
+          "accessed": "2026-10-29",
+          "supports": "30.07.1937; 17.11.1938; оценки"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1955-against-excesses",
+      "title": "Конец сталинской архитектуры",
+      "title_original": null,
+      "start_date": "1955-11-04",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Постановление ЦК КПСС и Совмина СССР от 4 ноября 1955 года «Об устранении излишеств в проектировании и строительстве» повернуло строительство к простым типовым домам.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Хрущёвка",
+          "accessed": "2026-10-29",
+          "supports": "04.11.1955"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1957-housing-programme",
+      "title": "Массовое жилищное строительство",
+      "title_original": null,
+      "start_date": "1957-07-31",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Постановление от 31 июля 1957 года «О развитии жилищного строительства в СССР» открыло массовое строительство панельных пятиэтажек — хрущёвок. В них 95% семей получали отдельную квартиру, тогда как в домах старого типа — лишь 36%.",
+      "affected_groups": [
+        "tenants",
+        "parents",
+        "urban_residents"
+      ],
+      "potential_impacts": [
+        "housing_improvement"
+      ],
+      "narrative_hooks": [
+        "moving_from_communal_flat",
+        "own_kitchen"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Хрущёвка",
+          "accessed": "2026-10-29",
+          "supports": "31.07.1957; 95% / 36%"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1991-august-coup",
+      "title": "Августовский путч",
+      "title_original": null,
+      "start_date": "1991-08-19",
+      "end_date": "1991-08-22",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "19 августа 1991 года ГКЧП объявил о введении чрезвычайного положения; по телевидению между заявлениями показывали «Лебединое озеро», в Москву вошли танки. Горожане строили баррикады у Белого дома; 21 августа войска вывели, 22 августа ГКЧП самораспустился.",
+      "affected_groups": [
+        "all_residents",
+        "television_owners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "watching_tv_crisis"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Августовский_путч",
+          "accessed": "2026-10-29",
+          "supports": "19–22.08.1991; Лебединое озеро"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1956-state-pensions",
+      "title": "Закон о государственных пенсиях",
+      "title_original": null,
+      "start_date": "1956",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "В 1956 году закон «О государственных пенсиях» ввёл единые правила назначения пенсий рабочим и служащим; средний размер пенсий вырос на 81%.",
+      "affected_groups": [
+        "pensioners",
+        "elderly",
+        "industrial_workers",
+        "office_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "retirement"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Пенсионное_обеспечение_в_России",
+          "accessed": "2026-10-29",
+          "supports": "1956, +81%"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1964-kolkhoz-pensions",
+      "title": "Пенсии колхозникам",
+      "title_original": null,
+      "start_date": "1964-07-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "Закон от 15 июля 1964 года «О пенсиях и пособиях членам колхозов» впервые дал колхозникам государственные пенсии с 1 января 1965 года. С 1968 года пенсионный возраст колхозников сравняли с рабочими (55 лет для женщин, 60 для мужчин), но пенсии оставались намного ниже: в 1975 году — 40% «городской».",
+      "affected_groups": [
+        "agricultural_workers",
+        "rural_residents",
+        "pensioners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "retirement"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Пенсионное_обеспечение_в_России",
+          "accessed": "2026-10-29",
+          "supports": "15.07.1964; 01.01.1965; 1968; 40%/58%"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1966-kolkhoz-guaranteed-pay",
+      "title": "Колхозникам — деньги вместо трудодней",
+      "title_original": null,
+      "start_date": "1966-05-18",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "Постановлением от 18 мая 1966 года трудодни заменили гарантированной денежной оплатой труда колхозников. До этого с 1930 года колхозники получали раз в год долю урожая по выработанным трудодням, часто очень небольшую.",
+      "affected_groups": [
+        "agricultural_workers",
+        "rural_residents"
+      ],
+      "potential_impacts": [
+        "income_change"
+      ],
+      "narrative_hooks": [
+        "kolkhoz_life"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Трудодень",
+          "accessed": "2026-10-29",
+          "supports": "1930; 18.05.1966; оплата трудодней"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1946-famine",
+      "title": "Голод 1946–1947 годов",
+      "title_original": null,
+      "start_date": "1946-09",
+      "end_date": "1947",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "После засухи 1946 года в сентябре вдвое подняли цены на хлеб по карточкам и сократили число получавших карточки; пик голода пришёлся на февраль–май 1947 года. Сильнее всего пострадали Украина, Молдавия, Чернозёмный центр и Поволжье; число жертв оценивается до 1–1,5 млн человек.",
+      "affected_groups": [
+        "rural_residents",
+        "children",
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "food_shortage"
+      ],
+      "narrative_hooks": [
+        "hunger_memory"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Голод_в_СССР_(1946—1947)",
+          "accessed": "2026-10-29",
+          "supports": "сентябрь 1946; пик 1947; регионы; оценки"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1990-relcom-su-domain",
+      "title": "Советская сеть «Релком» вышла в интернет",
+      "title_original": null,
+      "start_date": "1990-09-19",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "technology",
+      "subcategory": null,
+      "historical_summary": "19 сентября 1990 года, когда сеть «Релком» подключилась к зарубежным сетям, появился домен .su — начало интернета в стране.",
+      "affected_groups": [
+        "scientists_engineers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Интернет_в_России",
+          "accessed": "2026-10-29",
+          "supports": "19.09.1990"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1991-first-cellular",
+      "title": "Первая сотовая сеть",
+      "title_original": null,
+      "start_date": "1991-09-09",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "technology",
+      "subcategory": null,
+      "historical_summary": "9 сентября 1991 года в Ленинграде (вскоре — Санкт-Петербурге) компания «Дельта Телеком» запустила первую в СССР сотовую сеть стандарта NMT-450.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_mobile_phone"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Сотовая_связь_в_России",
+          "accessed": "2026-10-29",
+          "supports": "09.09.1991"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-nat-1954-virgin-lands",
+      "title": "Освоение целины",
+      "title_original": null,
+      "start_date": "1954-03-27",
+      "end_date": "1960",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "migration",
+      "subcategory": null,
+      "historical_summary": "После февральско-мартовского пленума ЦК 1954 года и постановления от 27 марта 1954 года началась распашка целинных земель в Казахстане, Сибири, на Алтае и в Поволжье; более миллиона молодых людей стали целинниками, свыше 350 тысяч поехали по комсомольским путёвкам в 1954–1955 годах.",
+      "affected_groups": [
+        "young_adults",
+        "agricultural_workers",
+        "migrants"
+      ],
+      "potential_impacts": [
+        "relocation"
+      ],
+      "narrative_hooks": [
+        "komsomol_voucher",
+        "decision_to_move"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Освоение_целины",
+          "accessed": "2026-10-29",
+          "supports": "27.03.1954; >1 млн; 350 тыс."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "eligibility": {
+        "min_age": 17,
+        "max_age": 35,
+        "groups_any": [
+          "young_adults"
+        ]
+      }
+    },
+    {
+      "id": "su-nat-1970-first-zhiguli",
+      "title": "Первые «Жигули»",
+      "title_original": null,
+      "start_date": "1970-04-19",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "su"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "19 апреля 1970 года с конвейера Волжского автозавода в Тольятти сошли первые шесть автомобилей ВАЗ-2101; к концу 1973 года выпустили миллионный автомобиль. Завод строили, чтобы удовлетворить спрос на личные машины, хотя очередь на покупку растягивалась на годы.",
+      "affected_groups": [
+        "consumers",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "family_car",
+        "waiting_list"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/АвтоВАЗ",
+          "accessed": "2026-10-29",
+          "supports": "19.04.1970; 1973; цель завода"
+        },
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Товарный_дефицит_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "очереди на автомобили"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

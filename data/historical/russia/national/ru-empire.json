@@ -1,0 +1,203 @@
+{
+  "records": [
+    {
+      "id": "ru-nat-1905-october-manifesto",
+      "title": "Манифест 17 октября",
+      "title_original": null,
+      "start_date": "1905-10-30",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru-empire"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "17 (30) октября 1905 года Николай II подписал манифест «Об усовершенствовании государственного порядка»: провозглашались свобода слова, собраний и союзов, создавалась законодательная Государственная дума. Вскоре появились легальные партии и профсоюзы.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619674",
+          "accessed": "2026-10-29",
+          "supports": "дата и содержание"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-nat-1906-stolypin-reform",
+      "title": "Столыпинская аграрная реформа",
+      "title_original": null,
+      "start_date": "1906-11-22",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru-empire"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "Указ от 9 (22) ноября 1906 года разрешил крестьянам выходить из общины и закреплять надельную землю в собственность. В 1906–1916 годах за Урал переселились более 3,1 млн человек, около 17% из них вернулись.",
+      "affected_groups": [
+        "agricultural_workers",
+        "rural_residents",
+        "migrants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "move_to_siberia"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Столыпинская_аграрная_реформа",
+          "accessed": "2026-10-29",
+          "supports": "указ 9 ноября 1906; переселение"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1914-war-declared",
+      "title": "Начало Первой мировой войны для России",
+      "title_original": null,
+      "start_date": "1914-08-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru-empire"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "17 (30) июля 1914 года в России началась всеобщая мобилизация, а 19 июля (1 августа) Германия объявила России войну. За годы войны армия потеряла убитыми, ранеными и пленными около 3,5 млн человек.",
+      "affected_groups": [
+        "men",
+        "soldiers_families"
+      ],
+      "potential_impacts": [
+        "family_separation"
+      ],
+      "narrative_hooks": [
+        "father_at_front"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619424",
+          "accessed": "2026-10-29",
+          "supports": "даты, потери"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-nat-1917-abdication",
+      "title": "Отречение Николая II",
+      "title_original": null,
+      "start_date": "1917-03-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru-empire"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "После массовых забастовок и демонстраций в Петрограде в конце февраля 1917 года Николай II в ночь на 2 (15) марта подписал отречение за себя и сына; на следующий день от престола отказался и великий князь Михаил.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619096",
+          "accessed": "2026-10-29",
+          "supports": "2 (15) марта 1917"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-nat-1917-october-revolution",
+      "title": "Октябрьская революция",
+      "title_original": null,
+      "start_date": "1917-11-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru-empire"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "25 октября (7 ноября) 1917 года большевики захватили власть в Петрограде; II съезд Советов принял декреты о мире и о земле и образовал Совнарком.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619694",
+          "accessed": "2026-10-29",
+          "supports": "25 октября (7 ноября) 1917"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    }
+  ]
+}

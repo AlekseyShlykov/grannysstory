@@ -1,0 +1,1834 @@
+{
+ "records": [
+  {
+   "id": "us-ctx-women-lfp-1950-1998",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1950,
+   "period_end": 1998,
+   "context_type": "women_employment",
+   "attribute": "labor_force_participation",
+   "title": "Участие женщин в рабочей силе: 1950 и 1998",
+   "description": "По данным BLS доля женщин 16 лет и старше в рабочей силе выросла с 33,9% в 1950 г. до 59,8% в 1998 г.; в возрасте 25–34 лет она более чем удвоилась (с 34,0% до 76,3%). Это средние по стране, а не правило для отдельной женщины.",
+   "statistics": [
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 33.9,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "гражданское неинституциональное население, женщины 16+",
+     "method_note": "CPS, годовые средние (BLS TED 2000)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 59.8,
+     "unit": "percent",
+     "year": 1998,
+     "area_id": "us",
+     "population": "гражданское неинституциональное население, женщины 16+",
+     "method_note": "CPS, годовые средние (BLS TED 2000)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate_25_34",
+     "value": 34.0,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "женщины 25–34 лет",
+     "method_note": "CPS (BLS TED 2000)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate_25_34",
+     "value": 76.3,
+     "unit": "percent",
+     "year": 1998,
+     "area_id": "us",
+     "population": "женщины 25–34 лет",
+     "method_note": "CPS (BLS TED 2000)",
+     "source_id": "us_bls"
+    }
+   ],
+   "source_ids": [
+    "us_bls"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/ted/2000/feb/wk3/art03.htm",
+     "accessed": "2026-10-29",
+     "supports": "показатели участия женщин в рабочей силе 1950 и 1998"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-homeownership-us",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1900,
+   "period_end": 2000,
+   "context_type": "housing",
+   "attribute": "homeownership_rate",
+   "title": "Доля домохозяйств-собственников: США",
+   "description": "В 1900–1940 гг. своим жильём владели менее половины домохозяйств (минимум века — 43,6% в 1940 г.); после войны, с ипотекой FHA/VA и пригородами, доля превысила 60% и к 2000 г. достигла двух третей.",
+   "statistics": [
+    {
+     "indicator": "homeownership_rate",
+     "value": 46.5,
+     "unit": "percent of occupied housing units",
+     "year": 1900,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 45.9,
+     "unit": "percent of occupied housing units",
+     "year": 1910,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 45.6,
+     "unit": "percent of occupied housing units",
+     "year": 1920,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 47.8,
+     "unit": "percent of occupied housing units",
+     "year": 1930,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 43.6,
+     "unit": "percent of occupied housing units",
+     "year": 1940,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 55.0,
+     "unit": "percent of occupied housing units",
+     "year": 1950,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 61.9,
+     "unit": "percent of occupied housing units",
+     "year": 1960,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 62.9,
+     "unit": "percent of occupied housing units",
+     "year": 1970,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 64.4,
+     "unit": "percent of occupied housing units",
+     "year": 1980,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 64.2,
+     "unit": "percent of occupied housing units",
+     "year": 1990,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "homeownership_rate",
+     "value": 66.2,
+     "unit": "percent of occupied housing units",
+     "year": 2000,
+     "area_id": "us",
+     "population": "занятые жилые единицы (домохозяйства)",
+     "method_note": "десятилетняя перепись, Historical Census of Housing Tables",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-owner/owner-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли собственников по переписям 1900–2000"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-owner.html",
+     "accessed": "2026-10-29",
+     "supports": "пояснения к таблице"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-plumbing-us",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1940,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "lacking_complete_plumbing",
+   "title": "Жильё без полного водопровода и канализации: США",
+   "description": "В 1940 г. почти половина жилья в США не имела полного набора удобств (горячая и холодная вода в доме, ванна или душ, смывной унитаз); к 1960 г. — одна шестая, к 1990 г. — около 1%.",
+   "statistics": [
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 45.3,
+     "unit": "percent of housing units",
+     "year": 1940,
+     "area_id": "us",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 35.5,
+     "unit": "percent of housing units",
+     "year": 1950,
+     "area_id": "us",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 16.8,
+     "unit": "percent of housing units",
+     "year": 1960,
+     "area_id": "us",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 6.9,
+     "unit": "percent of housing units",
+     "year": 1970,
+     "area_id": "us",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 2.7,
+     "unit": "percent of housing units",
+     "year": 1980,
+     "area_id": "us",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "housing_units_lacking_complete_plumbing",
+     "value": 1.1,
+     "unit": "percent of housing units",
+     "year": 1990,
+     "area_id": "us",
+     "population": "все жилые единицы (до 1990 — удобства для исключительного пользования)",
+     "method_note": "десятилетняя перепись",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/decennial/tables/time-series/coh-plumbing/plumbing-tab.txt",
+     "accessed": "2026-10-29",
+     "supports": "доли жилья без полного водопровода 1940–1990"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/data/tables/time-series/dec/coh-plumbing.html",
+     "accessed": "2026-10-29",
+     "supports": "определение полного водопровода"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-median-age-first-marriage",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1900,
+   "period_end": 2024,
+   "context_type": "family_marriage",
+   "attribute": "median_age_first_marriage",
+   "title": "Средний возраст первого брака",
+   "description": "Медианный возраст первого брака у женщин держался около 21–22 лет в 1900–1940 гг., опустился до 20,3 года в 1950–1960 гг. (послевоенный «брачный бум») и затем неуклонно рос — до 25 лет в 2000 г. и 28,6 в 2024 г. Это медиана: многие выходили замуж намного раньше или позже, а часть не выходила вовсе.",
+   "statistics": [
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 21.9,
+     "unit": "years",
+     "year": 1900,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 21.6,
+     "unit": "years",
+     "year": 1910,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 21.2,
+     "unit": "years",
+     "year": 1920,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 21.3,
+     "unit": "years",
+     "year": 1930,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 21.5,
+     "unit": "years",
+     "year": 1940,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 20.3,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 20.3,
+     "unit": "years",
+     "year": 1960,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 20.8,
+     "unit": "years",
+     "year": 1970,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 22.0,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 23.9,
+     "unit": "years",
+     "year": 1990,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 25.1,
+     "unit": "years",
+     "year": 2000,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 26.1,
+     "unit": "years",
+     "year": 2010,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 28.1,
+     "unit": "years",
+     "year": 2020,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_women",
+     "value": 28.6,
+     "unit": "years",
+     "year": 2024,
+     "area_id": "us",
+     "population": "женщины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_men",
+     "value": 25.9,
+     "unit": "years",
+     "year": 1900,
+     "area_id": "us",
+     "population": "мужчины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_men",
+     "value": 22.8,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "us",
+     "population": "мужчины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_men",
+     "value": 24.7,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "us",
+     "population": "мужчины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_men",
+     "value": 26.8,
+     "unit": "years",
+     "year": 2000,
+     "area_id": "us",
+     "population": "мужчины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "median_age_first_marriage_men",
+     "value": 30.2,
+     "unit": "years",
+     "year": 2024,
+     "area_id": "us",
+     "population": "мужчины, впервые вступающие в брак",
+     "method_note": "до 1940 — переписи, с 1947 — CPS ASEC (таблица MS-2)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls",
+     "accessed": "2026-10-29",
+     "supports": "таблица MS-2, медианный возраст первого брака по полу 1890–2025"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-household-size",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1940,
+   "period_end": 2024,
+   "context_type": "family_marriage",
+   "attribute": "average_household_size",
+   "title": "Средний размер домохозяйства",
+   "description": "Среднее домохозяйство сократилось с 3,67 человека в 1940 г. до 3,14 в 1970 г. и около 2,5 в 2020-е: меньше детей, больше людей живут одни.",
+   "statistics": [
+    {
+     "indicator": "average_household_size",
+     "value": 3.67,
+     "unit": "persons per household",
+     "year": 1940,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 3.37,
+     "unit": "persons per household",
+     "year": 1950,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 3.33,
+     "unit": "persons per household",
+     "year": 1960,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 3.14,
+     "unit": "persons per household",
+     "year": 1970,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.76,
+     "unit": "persons per household",
+     "year": 1980,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.63,
+     "unit": "persons per household",
+     "year": 1990,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.62,
+     "unit": "persons per household",
+     "year": 2000,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.59,
+     "unit": "persons per household",
+     "year": 2010,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.53,
+     "unit": "persons per household",
+     "year": 2020,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "average_household_size",
+     "value": 2.51,
+     "unit": "persons per household",
+     "year": 2024,
+     "area_id": "us",
+     "population": "все домохозяйства",
+     "method_note": "1940 — перепись, далее CPS ASEC (HH-6)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/households/hh6.xls",
+     "accessed": "2026-10-29",
+     "supports": "таблица HH-6, средний размер домохозяйства 1940–2025"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-childlessness-women-40-44",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1976,
+   "period_end": 2024,
+   "context_type": "fertility_childlessness",
+   "attribute": "childless_share_women_40_44",
+   "title": "Бездетность женщин 40–44 лет",
+   "description": "Среди женщин 40–44 лет доля не имевших детей выросла с 10% в 1976–1980 гг. до 19–20% около 2000–2006 гг., затем колебалась в пределах 14–19%. В 1976 г. у 36% женщин этого возраста было четверо и больше детей, в 2024 г. — около 13%. Бездетность — не исключение и не редкость; статистика не говорит о причинах и о том, как к этому относились сами женщины.",
+   "statistics": [
+    {
+     "indicator": "childless_women_40_44",
+     "value": 10.2,
+     "unit": "percent",
+     "year": 1976,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 10.1,
+     "unit": "percent",
+     "year": 1980,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 16.0,
+     "unit": "percent",
+     "year": 1990,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 19.0,
+     "unit": "percent",
+     "year": 2000,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 20.4,
+     "unit": "percent",
+     "year": 2006,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 18.8,
+     "unit": "percent",
+     "year": 2010,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 14.4,
+     "unit": "percent",
+     "year": 2016,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 16.5,
+     "unit": "percent",
+     "year": 2020,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_women_40_44",
+     "value": 18.8,
+     "unit": "percent",
+     "year": 2024,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет независимо от брачного статуса",
+     "method_note": "CPS, июньское приложение о рождаемости (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "women_40_44_with_4plus_children",
+     "value": 35.9,
+     "unit": "percent",
+     "year": 1976,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет",
+     "method_note": "CPS June 1976 (сумма категорий 4, 5–6, 7+)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "women_40_44_with_4plus_children",
+     "value": 12.6,
+     "unit": "percent",
+     "year": 2024,
+     "area_id": "us",
+     "population": "все женщины 40–44 лет",
+     "method_note": "CPS June 2024 (сумма категорий 4 и 5–6; 7+ не опубликовано)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/demo/tables/fertility/time-series/his-cps/h2.xlsx",
+     "accessed": "2026-10-29",
+     "supports": "Historical Table 2, распределение женщин 40–50 лет по числу рождённых детей 1976–2024"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-childlessness-never-married-40-44",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1976,
+   "period_end": 2024,
+   "context_type": "fertility_childlessness",
+   "attribute": "childless_share_never_married_40_44",
+   "title": "Бездетность среди никогда не состоявших в браке женщин 40–44 лет",
+   "description": "Среди никогда не бывших замужем женщин 40–44 лет в 1976 г. 89% не имели детей, в 2000 г. — 60%, в 2024 г. — 46%: рождение детей вне брака стало заметно чаще. При этом сама доля таких женщин в 1976 г. была мала (около 255 тыс. из 5,7 млн).",
+   "statistics": [
+    {
+     "indicator": "childless_never_married_women_40_44",
+     "value": 89.0,
+     "unit": "percent",
+     "year": 1976,
+     "area_id": "us",
+     "population": "никогда не состоявшие в браке женщины 40–44 лет",
+     "method_note": "CPS June (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_never_married_women_40_44",
+     "value": 78.8,
+     "unit": "percent",
+     "year": 1980,
+     "area_id": "us",
+     "population": "никогда не состоявшие в браке женщины 40–44 лет",
+     "method_note": "CPS June (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_never_married_women_40_44",
+     "value": 70.0,
+     "unit": "percent",
+     "year": 1990,
+     "area_id": "us",
+     "population": "никогда не состоявшие в браке женщины 40–44 лет",
+     "method_note": "CPS June (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_never_married_women_40_44",
+     "value": 59.6,
+     "unit": "percent",
+     "year": 2000,
+     "area_id": "us",
+     "population": "никогда не состоявшие в браке женщины 40–44 лет",
+     "method_note": "CPS June (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_never_married_women_40_44",
+     "value": 51.4,
+     "unit": "percent",
+     "year": 2010,
+     "area_id": "us",
+     "population": "никогда не состоявшие в браке женщины 40–44 лет",
+     "method_note": "CPS June (Historical Table 2)",
+     "source_id": "us_census"
+    },
+    {
+     "indicator": "childless_never_married_women_40_44",
+     "value": 46.0,
+     "unit": "percent",
+     "year": 2024,
+     "area_id": "us",
+     "population": "никогда не состоявшие в браке женщины 40–44 лет",
+     "method_note": "CPS June (Historical Table 2)",
+     "source_id": "us_census"
+    }
+   ],
+   "source_ids": [
+    "us_census"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/programs-surveys/demo/tables/fertility/time-series/his-cps/h2.xlsx",
+     "accessed": "2026-10-29",
+     "supports": "блок Women Never Married, 40–44"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-food-share-of-spending",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1901,
+   "period_end": 2003,
+   "context_type": "prices_spending",
+   "attribute": "food_share_of_expenditures",
+   "title": "Доля расходов на еду",
+   "description": "В 1901 г. средняя обследованная семья тратила на еду 42,5% расходов, в 1918–19 гг. — 38,2%, в 1950 г. — 29,7%, к 2002–03 гг. — 13,2%. В 1970-е еда вне дома составляла около четверти расходов на питание, в 2000-е — более 40%.",
+   "statistics": [
+    {
+     "indicator": "food_share_of_expenditures",
+     "value": 42.5,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "food_share_of_expenditures",
+     "value": 38.2,
+     "unit": "percent",
+     "year": 1918,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "food_share_of_expenditures",
+     "value": 29.7,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "food_share_of_expenditures",
+     "value": 13.2,
+     "unit": "percent",
+     "year": 2003,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "food_away_from_home_share_of_food_spending",
+     "value": 26.4,
+     "unit": "percent",
+     "year": 1973,
+     "area_id": "us",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "food_away_from_home_share_of_food_spending",
+     "value": 41.9,
+     "unit": "percent",
+     "year": 2003,
+     "area_id": "us",
+     "population": "домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    }
+   ],
+   "source_ids": [
+    "us_bls"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/100-years-of-u-s-consumer-spending.pdf",
+     "accessed": "2026-10-29",
+     "supports": "BLS Report 991 (2006), 100 Years of U.S. Consumer Spending: Data for the Nation, New York City, and Boston"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-household-economy-1901",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1900,
+   "period_end": 1909,
+   "context_type": "wages_income",
+   "attribute": "family_income_earners",
+   "title": "Семейный бюджет около 1901 года",
+   "description": "В обследовании 1901 г. средняя семья состояла почти из пяти человек и имела доход около 750 долл. в год. Заработок жены был лишь в 8,5% семей, детей — в 22%, ещё в 23% семей держали жильцов или пансионеров. Женщины составляли 18% рабочей силы.",
+   "statistics": [
+    {
+     "indicator": "average_family_income",
+     "value": 750,
+     "unit": "USD per year",
+     "year": 1901,
+     "area_id": "us",
+     "population": "обследованные семьи рабочих",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_wife_earnings",
+     "value": 8.5,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "обследованные семьи рабочих",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_child_earnings",
+     "value": 22.2,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "обследованные семьи рабочих",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_with_boarder_income",
+     "value": 23.3,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "обследованные семьи рабочих",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 20.6,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "женщины (по данным, сведённым в отчёте BLS)",
+     "method_note": "BLS Report 991, Statistical Abstract",
+     "source_id": "us_bls"
+    }
+   ],
+   "source_ids": [
+    "us_bls"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/100-years-of-u-s-consumer-spending.pdf",
+     "accessed": "2026-10-29",
+     "supports": "BLS Report 991 (2006), 100 Years of U.S. Consumer Spending: Data for the Nation, New York City, and Boston"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-car-ownership",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1934,
+   "period_end": 2003,
+   "context_type": "transport",
+   "attribute": "household_car_ownership",
+   "title": "Автомобиль в семье",
+   "description": "В 1934–36 гг. автомобиль был у 44% американских семей (в Нью-Йорке — у 15%), почти всегда купленный подержанным; в 1950 г. — у 59%, в 1960–61 гг. — у 73%, в 1972–73 гг. — у 80%, в начале 2000-х — у 85–88% домохозяйств.",
+   "statistics": [
+    {
+     "indicator": "households_owning_car",
+     "value": 44.4,
+     "unit": "percent",
+     "year": 1935,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_owning_car",
+     "value": 59.0,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_owning_car",
+     "value": 73.0,
+     "unit": "percent",
+     "year": 1961,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_owning_car",
+     "value": 80.1,
+     "unit": "percent",
+     "year": 1973,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "households_owning_car",
+     "value": 85.0,
+     "unit": "percent",
+     "year": 2003,
+     "area_id": "us",
+     "population": "обследованные семьи/домохозяйства",
+     "method_note": "обследования потребительских расходов BLS (выборки семей; в ранних годах — городские семьи рабочих и служащих)",
+     "source_id": "us_bls"
+    }
+   ],
+   "source_ids": [
+    "us_bls"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/100-years-of-u-s-consumer-spending.pdf",
+     "accessed": "2026-10-29",
+     "supports": "BLS Report 991 (2006), 100 Years of U.S. Consumer Spending: Data for the Nation, New York City, and Boston"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-educational-attainment",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1940,
+   "period_end": 2022,
+   "context_type": "education",
+   "attribute": "educational_attainment_25plus",
+   "title": "Образование взрослых: школа и колледж",
+   "description": "В 1940 г. лишь около четверти взрослых женщин окончили старшую школу и менее 4% — колледж; к 1970 г. школу окончили больше половины, к 2000 г. — 84%. Женщины догнали мужчин по высшему образованию к 2010 г. и затем обогнали их.",
+   "statistics": [
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 26.3,
+     "unit": "percent",
+     "year": 1940,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 36.0,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 42.5,
+     "unit": "percent",
+     "year": 1960,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 55.4,
+     "unit": "percent",
+     "year": 1970,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 68.1,
+     "unit": "percent",
+     "year": 1980,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 77.5,
+     "unit": "percent",
+     "year": 1990,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 84.0,
+     "unit": "percent",
+     "year": 2000,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 87.6,
+     "unit": "percent",
+     "year": 2010,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_completed_high_school",
+     "value": 91.3,
+     "unit": "percent",
+     "year": 2020,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись (1940–1950), CPS; до 1992 — 4+ года старшей школы",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 3.8,
+     "unit": "percent",
+     "year": 1940,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 5.2,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 5.8,
+     "unit": "percent",
+     "year": 1960,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 8.2,
+     "unit": "percent",
+     "year": 1970,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 13.6,
+     "unit": "percent",
+     "year": 1980,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 18.4,
+     "unit": "percent",
+     "year": 1990,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 23.6,
+     "unit": "percent",
+     "year": 2000,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 29.6,
+     "unit": "percent",
+     "year": 2010,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "women_25plus_bachelors_or_more",
+     "value": 38.3,
+     "unit": "percent",
+     "year": 2020,
+     "area_id": "us",
+     "population": "женщины 25 лет и старше",
+     "method_note": "перепись/CPS; до 1992 — 4+ года колледжа",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "men_25plus_bachelors_or_more",
+     "value": 5.5,
+     "unit": "percent",
+     "year": 1940,
+     "area_id": "us",
+     "population": "мужчины 25 лет и старше",
+     "method_note": "перепись/CPS",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "men_25plus_bachelors_or_more",
+     "value": 14.1,
+     "unit": "percent",
+     "year": 1970,
+     "area_id": "us",
+     "population": "мужчины 25 лет и старше",
+     "method_note": "перепись/CPS",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "men_25plus_bachelors_or_more",
+     "value": 27.8,
+     "unit": "percent",
+     "year": 2000,
+     "area_id": "us",
+     "population": "мужчины 25 лет и старше",
+     "method_note": "перепись/CPS",
+     "source_id": "us_nces"
+    },
+    {
+     "indicator": "men_25plus_bachelors_or_more",
+     "value": 36.7,
+     "unit": "percent",
+     "year": 2020,
+     "area_id": "us",
+     "population": "мужчины 25 лет и старше",
+     "method_note": "перепись/CPS",
+     "source_id": "us_nces"
+    }
+   ],
+   "source_ids": [
+    "us_nces"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_nces",
+     "url": "https://nces.ed.gov/programs/digest/d22/tables/dt22_104.10.asp",
+     "accessed": "2026-10-29",
+     "supports": "Digest of Education Statistics, табл. 104.10: доля окончивших школу и колледж среди 25+ по полу"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-life-expectancy",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1900,
+   "period_end": 2016,
+   "context_type": "healthcare",
+   "attribute": "life_expectancy",
+   "title": "Ожидаемая продолжительность жизни",
+   "description": "Ожидаемая продолжительность жизни при рождении у женщин выросла с 48 лет в 1900 г. до 71 года в 1950 г. и 81 года в 2010-е; у мужчин — с 46 до 76 лет. Разрыв между белыми и чернокожими американцами в 1900 г. составлял около 15 лет и к 2010 г. сократился до 3–4 лет. В 65 лет женщине в 1950 г. оставалось в среднем 15 лет жизни, в 2016 г. — почти 21.",
+   "statistics": [
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 48.3,
+     "unit": "years",
+     "year": 1900,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 71.1,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 73.1,
+     "unit": "years",
+     "year": 1960,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 74.7,
+     "unit": "years",
+     "year": 1970,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 77.4,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 78.8,
+     "unit": "years",
+     "year": 1990,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 79.3,
+     "unit": "years",
+     "year": 2000,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 81.0,
+     "unit": "years",
+     "year": 2010,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_female",
+     "value": 81.1,
+     "unit": "years",
+     "year": 2016,
+     "area_id": "us",
+     "population": "все расы, женщины",
+     "method_note": "таблицы смертности NCHS по свидетельствам о смерти",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 46.3,
+     "unit": "years",
+     "year": 1900,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 65.6,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 66.6,
+     "unit": "years",
+     "year": 1960,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 67.1,
+     "unit": "years",
+     "year": 1970,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 70.0,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 71.8,
+     "unit": "years",
+     "year": 1990,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 74.1,
+     "unit": "years",
+     "year": 2000,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 76.2,
+     "unit": "years",
+     "year": 2010,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_birth_male",
+     "value": 76.1,
+     "unit": "years",
+     "year": 2016,
+     "area_id": "us",
+     "population": "все расы, мужчины",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_65_female",
+     "value": 15.0,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "us",
+     "population": "женщины в возрасте 65 лет",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_65_female",
+     "value": 18.3,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "us",
+     "population": "женщины в возрасте 65 лет",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_65_female",
+     "value": 19.0,
+     "unit": "years",
+     "year": 2000,
+     "area_id": "us",
+     "population": "женщины в возрасте 65 лет",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    },
+    {
+     "indicator": "life_expectancy_at_65_female",
+     "value": 20.6,
+     "unit": "years",
+     "year": 2016,
+     "area_id": "us",
+     "population": "женщины в возрасте 65 лет",
+     "method_note": "таблицы смертности NCHS",
+     "source_id": "us_cdc"
+    }
+   ],
+   "source_ids": [
+    "us_cdc"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_cdc",
+     "url": "https://www.cdc.gov/nchs/data/hus/2017/015.pdf",
+     "accessed": "2026-10-29",
+     "supports": "Health, United States 2017, табл. 15: ожидаемая продолжительность жизни 1900–2016"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-ctx-women-share-workforce-century",
+   "country_code": "US",
+   "location_id": "us",
+   "period_start": 1901,
+   "period_end": 2002,
+   "context_type": "women_employment",
+   "attribute": "women_share_of_workforce",
+   "title": "Женщины в рабочей силе за столетие",
+   "description": "Доля женщин среди всех работающих медленно росла с 18% в 1901 г. до 22% в 1930-е, затем быстро: 29% в 1950 г., 37% в 1973 г., 42% в 1984 г., около 46% в начале 2000-х. Участие женщин в рабочей силе: 20,6% в 1901 г., 33,9% в 1950 г., 37,7% в 1960 г., 44,7% в 1973 г., 53,6% в 1984 г., пик 60% в 1991 г. Безработица в 1932 г. достигала 23,6%.",
+   "statistics": [
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 18.0,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 20.4,
+     "unit": "percent",
+     "year": 1918,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 21.9,
+     "unit": "percent",
+     "year": 1935,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 28.8,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 32.3,
+     "unit": "percent",
+     "year": 1960,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 36.7,
+     "unit": "percent",
+     "year": 1973,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 42.1,
+     "unit": "percent",
+     "year": 1984,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 45.3,
+     "unit": "percent",
+     "year": 1996,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_share_of_workforce",
+     "value": 46.5,
+     "unit": "percent",
+     "year": 2002,
+     "area_id": "us",
+     "population": "вся рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 20.6,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 33.9,
+     "unit": "percent",
+     "year": 1950,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 37.7,
+     "unit": "percent",
+     "year": 1960,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 44.7,
+     "unit": "percent",
+     "year": 1973,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 53.6,
+     "unit": "percent",
+     "year": 1984,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 60.0,
+     "unit": "percent",
+     "year": 1991,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 59.3,
+     "unit": "percent",
+     "year": 1996,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "women_labor_force_participation_rate",
+     "value": 59.6,
+     "unit": "percent",
+     "year": 2002,
+     "area_id": "us",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "unemployment_rate",
+     "value": 4.0,
+     "unit": "percent",
+     "year": 1901,
+     "area_id": "us",
+     "population": "гражданская рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "unemployment_rate",
+     "value": 1.4,
+     "unit": "percent",
+     "year": 1918,
+     "area_id": "us",
+     "population": "гражданская рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "unemployment_rate",
+     "value": 15.9,
+     "unit": "percent",
+     "year": 1931,
+     "area_id": "us",
+     "population": "гражданская рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    },
+    {
+     "indicator": "unemployment_rate",
+     "value": 23.6,
+     "unit": "percent",
+     "year": 1932,
+     "area_id": "us",
+     "population": "гражданская рабочая сила",
+     "method_note": "BLS Report 991 по данным CPS и Statistical Abstract",
+     "source_id": "us_bls"
+    }
+   ],
+   "source_ids": [
+    "us_bls"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/100-years-of-u-s-consumer-spending.pdf",
+     "accessed": "2026-10-29",
+     "supports": "доли женщин в рабочей силе и уровни участия по периодам; безработица 1931–1936"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

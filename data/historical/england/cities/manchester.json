@@ -1,0 +1,961 @@
+{
+ "records": [
+  {
+   "id": "gb-manchester-1901-electric-trams",
+   "title": "В Манчестере пошли электрические трамваи",
+   "start_date": "1901-06-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Муниципальная компания Manchester Corporation Tramways начала регулярное движение электрических трамваев.",
+   "affected_groups": [
+    "urban_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата начала электрического трамвая"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1910-royal-infirmary-oxford-road",
+   "title": "Королевская больница переехала на Оксфорд-роуд",
+   "start_date": "1910",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Manchester Royal Infirmary перенесла работу с площади Пикадилли в новые здания на Оксфорд-роуд.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "год переезда больницы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1929-wythenshawe-aerodrome",
+   "title": "Открылся муниципальный аэродром Уитеншо",
+   "start_date": "1929-04-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Аэродром в Уитеншо стал первым муниципальным аэропортом Великобритании.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия аэродрома"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1931-wythenshawe-parishes",
+   "title": "Земли для Уитеншо",
+   "start_date": "1931",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "К Манчестеру присоединили три прихода (Нортенден, Багули, Нортен-Этчеллс), где вырос муниципальный жилой массив Уитеншо. В том же году население города достигло исторического максимума — 766 311 человек.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "move_to_new_estate"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Manchester",
+     "accessed": "2026-10-29",
+     "supports": "1931 присоединение, Уитеншо, пик населения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1934-central-library",
+   "title": "Открылась Центральная библиотека Манчестера",
+   "start_date": "1934-07-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В центре города открылось круглое здание Центральной библиотеки.",
+   "affected_groups": [
+    "all_residents",
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия Central Library"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1938-ringway-airport",
+   "title": "Открылся аэропорт Манчестера в Рингуэе",
+   "start_date": "1938-06-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Городской аэропорт в Рингуэе начал работу; в 1938 г. в городе также появились троллейбусы. Территория Рингуэя вошла в состав города только в 1974 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "даты открытия аэропорта (25 июня) и троллейбусов (1 марта) 1938 г.; включение Рингуэя в 1974 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1940-christmas-blitz",
+   "title": "Рождественский блиц в Манчестере",
+   "start_date": "1940-12-22",
+   "end_date": "1940-12-24",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "22–24 декабря 1940 г. самые тяжёлые налёты на город унесли 363 жизни, 1183 человека были ранены. Пострадали собор, Королевская биржа, Free Trade Hall.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "home_destroyed",
+    "bereavement"
+   ],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "даты, число погибших и раненых, разрушенные здания"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1949-manchester-mark1",
+   "title": "Компьютер Manchester Mark 1",
+   "start_date": "1949",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "technology",
+   "historical_summary": "В университете Манчестера заработал один из первых электронных компьютеров с хранимой программой; в 1951 г. фирма Ferranti поставила свою серийную версию.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "период 1949–1951, Ferranti Mark 1"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1949-last-trams",
+   "title": "Последний трамвай Манчестера",
+   "start_date": "1949-01-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Городской трамвай совершил последний регулярный рейс; его заменили автобусы и троллейбусы.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата последнего регулярного трамвая"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1956-granada-tv",
+   "title": "Начало вещания Granada Television",
+   "start_date": "1956-05-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Из Манчестера начала вещание коммерческая телекомпания Granada для севера Англии.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата запуска Granada"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1960-coronation-street",
+   "title": "Первая серия «Улицы Коронации»",
+   "title_original": "Coronation Street",
+   "start_date": "1960-12-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Granada показала первую серию сериала Coronation Street о жизни рабочей улицы Северной Англии.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата первой серии"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1966-mancunian-way",
+   "title": "Открылась эстакада Mancunian Way",
+   "start_date": "1966-05-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1966 г. открылась городская скоростная эстакада Mancunian Way, начались полностью электрифицированные поезда до лондонского Юстона (3 января), а в конце года прекратили работу троллейбусы.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "даты 1966 г.: Euston 3 янв., Mancunian Way 5 мая, троллейбусы 31 дек."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1968-royal-exchange-cotton-ends",
+   "title": "Конец торговли хлопком на Королевской бирже",
+   "start_date": "1968-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "local_economy",
+   "historical_summary": "На манчестерской Royal Exchange прекратилась торговля хлопком — символ упадка ланкаширской текстильной промышленности.",
+   "affected_groups": [
+    "textile_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "месяц прекращения торговли"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1972-hulme-crescents",
+   "title": "Завершены дома-полумесяцы в Хьюме",
+   "start_date": "1972",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В районе Хьюм закончено строительство крупных панельных жилых домов Hulme Crescents на месте снесённых трущоб.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_flat"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "год завершения Hulme Crescents"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1974-metropolitan-borough",
+   "title": "Манчестер вошёл в Большой Манчестер",
+   "start_date": "1974-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Город стал метрополитенским округом нового графства Большой Манчестер; полиции объединились в Greater Manchester Police, к городу отошёл Рингуэй с аэропортом.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата реорганизации 1974 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1979-woolworths-fire",
+   "title": "Пожар в универмаге Woolworths",
+   "start_date": "1979-05-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "disaster",
+   "historical_summary": "Пожар в магазине Woolworths у Пикадилли-Гарденс унёс жизни 11 человек.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1982-hacienda",
+   "title": "Открылся клуб «Асьенда»",
+   "start_date": "1982-05-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Открылся ночной клуб The Haçienda, ставший центром манчестерской музыкальной сцены.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1985-airtours-fire",
+   "title": "Пожар самолёта в аэропорту Манчестера",
+   "start_date": "1985-08-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "disaster",
+   "historical_summary": "Самолёт British Airtours загорелся на взлётной полосе аэропорта; погибли 55 человек.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1992-metrolink",
+   "title": "Открылась система Metrolink",
+   "start_date": "1992-04-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В Манчестер вернулся рельсовый городской транспорт: открылась система лёгкого метро и трамвая Metrolink.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия Metrolink"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1996-ira-bomb",
+   "title": "Взрыв бомбы ИРА в центре Манчестера",
+   "start_date": "1996-06-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Грузовик с бомбой ИРА разрушил часть центра города; район успели эвакуировать, погибших не было. После взрыва центр был перестроен.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "city_centre_rebuilt"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата, эвакуация, отсутствие погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-1996-bridgewater-hall",
+   "title": "Открылся концертный зал Bridgewater Hall",
+   "start_date": "1996-09-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Открылся новый концертный зал, ставший домом оркестра Халле.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-2002-commonwealth-games",
+   "title": "Игры Содружества в Манчестере",
+   "start_date": "2002-07-25",
+   "end_date": "2002-08-04",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "sport",
+   "historical_summary": "Для Игр Содружества (25 июля — 4 августа) в Ист-Манчестере открылся стадион City of Manchester.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "даты Игр и стадиона"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-2004-university-merger",
+   "title": "Создан Манчестерский университет в нынешнем виде",
+   "start_date": "2004-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "education",
+   "historical_summary": "Университет Виктории и UMIST объединились в University of Manchester.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата слияния"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-2007-international-festival",
+   "title": "Первый Манчестерский международный фестиваль",
+   "start_date": "2007-06-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Прошёл первый Manchester International Festival — регулярный фестиваль новых произведений искусства.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-2014-metrolink-airport",
+   "title": "Метролинк дошёл до аэропорта",
+   "start_date": "2014-11-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открылась линия Metrolink до аэропорта Манчестера; в 2017 г. открыты второй трамвайный путь через центр (февраль) и железнодорожная связка Ordsall Chord (декабрь).",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "даты 2014 и 2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-manchester-2017-arena-bombing",
+   "title": "Теракт на «Манчестер Арене»",
+   "start_date": "2017-05-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-manchester"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Взрыв после концерта на Manchester Arena убил 22 человека.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и число погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

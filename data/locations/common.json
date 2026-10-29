@@ -1,0 +1,97 @@
+{
+  "locations": [
+    {
+      "id": "world", "type": "world", "country": null, "wikidata": "Q2", "codes": {},
+      "names": [{ "name": "World", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Мир", "locative": "в мире", "from": null, "to": null }],
+      "alt_names": [], "coordinates": null, "parents": [], "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "fr", "type": "state", "country": "FR", "wikidata": "Q142", "codes": { "iso3166": "FR" },
+      "names": [{ "name": "France", "lang": "fr", "from": null, "to": null }],
+      "names_ru": [{ "name": "Франция", "locative": "во Франции", "from": null, "to": null }],
+      "alt_names": ["République française"], "coordinates": null,
+      "parents": [{ "id": "world", "from": null, "to": null }], "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "us", "type": "state", "country": "US", "wikidata": "Q30", "codes": { "iso3166": "US" },
+      "names": [{ "name": "United States", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "США", "locative": "в США", "from": null, "to": null }],
+      "alt_names": ["United States of America"], "coordinates": null,
+      "parents": [{ "id": "world", "from": null, "to": null }], "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "gb", "type": "state", "country": "GB", "wikidata": "Q145", "codes": { "iso3166": "GB" },
+      "names": [
+        { "name": "United Kingdom of Great Britain and Ireland", "lang": "en", "from": null, "to": "1922-12-05" },
+        { "name": "United Kingdom of Great Britain and Northern Ireland", "lang": "en", "from": "1922-12-06", "to": null }
+      ],
+      "names_ru": [{ "name": "Великобритания", "locative": "в Великобритании", "from": null, "to": null }],
+      "alt_names": ["UK", "Britain"], "coordinates": null,
+      "parents": [{ "id": "world", "from": null, "to": null }], "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "gb-eng", "type": "constituent_country", "country": "GB", "wikidata": "Q21", "codes": { "gss": "E92000001" },
+      "names": [{ "name": "England", "lang": "en", "from": null, "to": null }],
+      "names_ru": [{ "name": "Англия", "locative": "в Англии", "from": null, "to": null }],
+      "alt_names": [], "coordinates": null,
+      "parents": [{ "id": "gb", "from": null, "to": null }], "occupations": [], "source_ids": ["wikidata"]
+    },
+    {
+      "id": "pl", "type": "state", "country": "PL", "wikidata": "Q36", "codes": { "iso3166": "PL" },
+      "names": [
+        { "name": "Rzeczpospolita Polska", "lang": "pl", "from": "1918-11-11", "to": "1952-07-21" },
+        { "name": "Polska Rzeczpospolita Ludowa", "lang": "pl", "from": "1952-07-22", "to": "1989-12-30" },
+        { "name": "Rzeczpospolita Polska", "lang": "pl", "from": "1989-12-31", "to": null }
+      ],
+      "names_ru": [
+        { "name": "Польша", "locative": "в Польше", "from": "1918-11-11", "to": null }
+      ],
+      "alt_names": ["Polska", "PRL"], "coordinates": null,
+      "parents": [{ "id": "world", "from": "1918-11-11", "to": null }], "occupations": [], "source_ids": ["wikidata"],
+      "valid_from": "1918-11-11"
+    },
+    {
+      "id": "ru-empire", "type": "state", "country": "RU", "wikidata": "Q34266", "codes": {},
+      "names": [
+        { "name": "Российская империя", "lang": "ru", "from": null, "to": "1917-09-13" },
+        { "name": "Российская республика", "lang": "ru", "from": "1917-09-14", "to": "1917-11-07" }
+      ],
+      "names_ru": [
+        { "name": "Российская империя", "locative": "в Российской империи", "from": null, "to": "1917-09-13" },
+        { "name": "Российская республика", "locative": "в Российской республике", "from": "1917-09-14", "to": "1917-11-07" }
+      ],
+      "alt_names": [], "coordinates": null,
+      "parents": [{ "id": "world", "from": null, "to": "1917-11-07" }], "occupations": [], "source_ids": ["wikidata"],
+      "valid_to": "1917-11-07"
+    },
+    {
+      "id": "ru", "type": "state", "country": "RU", "wikidata": "Q159", "codes": { "iso3166": "RU" },
+      "names": [
+        { "name": "РСФСР", "lang": "ru", "from": "1917-11-08", "to": "1991-12-24" },
+        { "name": "Российская Федерация", "lang": "ru", "from": "1991-12-25", "to": null }
+      ],
+      "names_ru": [
+        { "name": "РСФСР", "locative": "в РСФСР", "from": "1917-11-08", "to": "1991-12-24" },
+        { "name": "Россия", "locative": "в России", "from": "1991-12-25", "to": null }
+      ],
+      "alt_names": ["Советская Россия", "Russian SFSR", "Russian Federation"], "coordinates": null,
+      "parents": [
+        { "id": "world", "from": "1917-11-08", "to": "1922-12-29" },
+        { "id": "su", "from": "1922-12-30", "to": "1991-12-26" },
+        { "id": "world", "from": "1991-12-27", "to": null }
+      ],
+      "occupations": [], "source_ids": ["wikidata"],
+      "valid_from": "1917-11-08",
+      "sovereignty_note": "Республика в составе СССР с 30.12.1922 по 26.12.1991; суверенитет определяется верхним государством цепочки."
+    },
+    {
+      "id": "su", "type": "state", "country": "RU", "wikidata": "Q15180", "codes": {},
+      "names": [{ "name": "Союз Советских Социалистических Республик", "lang": "ru", "from": "1922-12-30", "to": "1991-12-26" }],
+      "names_ru": [{ "name": "СССР", "locative": "в СССР", "from": "1922-12-30", "to": "1991-12-26" }],
+      "alt_names": ["Советский Союз"], "coordinates": null,
+      "parents": [{ "id": "world", "from": "1922-12-30", "to": "1991-12-26" }], "occupations": [], "source_ids": ["wikidata"],
+      "valid_from": "1922-12-30", "valid_to": "1991-12-26"
+    }
+  ]
+}

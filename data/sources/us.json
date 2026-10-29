@@ -1,0 +1,766 @@
+{
+ "sources": [
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_nara",
+   "name": "National Archives: Milestone Documents",
+   "publisher": "U.S. National Archives and Records Administration",
+   "url": "https://www.archives.gov/milestone-documents",
+   "historical_coverage": {
+    "from": 1776,
+    "to": 2000
+   },
+   "categories": [
+    "law",
+    "politics",
+    "social_policy"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work); some images third-party",
+   "notes": "Страницы milestone-documents с датами и пересказом законов. Страница Volstead Act (/milestone-documents/volstead-act) — 404; урок /education/lessons/volstead-act дат не содержит."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_wikipedia",
+   "name": "Wikipedia (English)",
+   "publisher": "Wikimedia Foundation",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "categories": [
+    "secondary"
+   ],
+   "access_method": "website",
+   "license": "CC BY-SA 4.0",
+   "notes": "Только вторичный источник, confidence=medium. Использованы Timeline of Detroit, Timeline of Chicago history и др. (WebFetch-резюме страниц)."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US-MI"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_detroit_historical",
+   "name": "Encyclopedia of Detroit",
+   "publisher": "Detroit Historical Society",
+   "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit",
+   "historical_coverage": {
+    "from": 1701,
+    "to": 2020
+   },
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "license": "© Detroit Historical Society; краткий пересказ фактов, тексты не копируются",
+   "notes": "Статьи энциклопедии открываются; страница Timeline of Detroit показывает записи только до 1901 г."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US-IL"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "inaccessible",
+   "accessed": "2026-10-29",
+   "source_id": "us_chicago_encyclopedia",
+   "name": "Encyclopedia of Chicago",
+   "publisher": "Chicago Historical Society / Newberry Library",
+   "url": "http://www.encyclopedia.chicagohistory.org/",
+   "historical_coverage": {
+    "from": 1673,
+    "to": 2005
+   },
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "not_accessible",
+   "license": "© Chicago Historical Society",
+   "notes": "2026-10-29: соединение отклонено (ECONNREFUSED) для http и https; хронология pages/2427.html не получена."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_fed_history",
+   "name": "Federal Reserve History",
+   "publisher": "Federal Reserve System",
+   "url": "https://www.federalreservehistory.org/",
+   "historical_coverage": {
+    "from": 1913,
+    "to": 2020
+   },
+   "categories": [
+    "economy"
+   ],
+   "access_method": "website",
+   "license": "Federal Reserve History terms; краткий пересказ",
+   "notes": "Эссе о крахе 1929, Великой депрессии, Великой рецессии."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_cdc",
+   "name": "CDC (Centers for Disease Control and Prevention)",
+   "publisher": "U.S. Department of Health and Human Services",
+   "url": "https://www.cdc.gov/",
+   "historical_coverage": {
+    "from": 1918,
+    "to": 2025
+   },
+   "categories": [
+    "public_health"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "notes": "Страница о пандемии 1918 на cdc.gov даёт 404; использована архивная копия archive.cdc.gov."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_lii",
+   "name": "Legal Information Institute (Cornell Law School)",
+   "publisher": "Cornell Law School",
+   "url": "https://www.law.cornell.edu/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "categories": [
+    "law"
+   ],
+   "access_method": "website",
+   "license": "Тексты решений Верховного суда — public domain",
+   "notes": "Тексты решений Верховного суда США. Oyez (oyez.org) отдаёт шаблон без контента — не используется."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_bls",
+   "name": "U.S. Bureau of Labor Statistics",
+   "publisher": "U.S. Department of Labor",
+   "url": "https://www.bls.gov/",
+   "historical_coverage": {
+    "from": 1913,
+    "to": 2025
+   },
+   "categories": [
+    "labor",
+    "prices"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "notes": "The Economics Daily и др. Страница DOL об истории FLSA (/agencies/whd/minimum-wage/history/flsa) — 404."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_fda",
+   "name": "FDA History",
+   "publisher": "U.S. Food and Drug Administration",
+   "url": "https://www.fda.gov/",
+   "historical_coverage": {
+    "from": 1906,
+    "to": 2025
+   },
+   "categories": [
+    "healthcare"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "notes": "PDF fda.gov/media/110456 (Junod, 1998) о Эновиде: подача на одобрение как контрацептива в 1960 г.; точная дата одобрения на странице не указана."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_cornell_ilr",
+   "name": "Remembering the 1911 Triangle Factory Fire",
+   "publisher": "Kheel Center, Cornell University ILR School",
+   "url": "https://trianglefire.ilr.cornell.edu/",
+   "historical_coverage": {
+    "from": 1909,
+    "to": 1913
+   },
+   "geographic_coverage": [
+    "US-NY"
+   ],
+   "categories": [
+    "labor"
+   ],
+   "access_method": "website",
+   "license": "© Cornell University; первичные документы частично public domain",
+   "notes": "Использована страница story/fire.html."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_911_memorial",
+   "name": "9/11 Memorial & Museum FAQ",
+   "publisher": "National September 11 Memorial & Museum",
+   "url": "https://www.911memorial.org/",
+   "historical_coverage": {
+    "from": 1993,
+    "to": 2001
+   },
+   "geographic_coverage": [
+    "US-NY"
+   ],
+   "categories": [
+    "disaster"
+   ],
+   "access_method": "website",
+   "license": "© 9/11 Memorial & Museum",
+   "notes": "FAQ с числом погибших."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": "2026-10-29",
+   "source_id": "us_nyc_gov",
+   "name": "NYC Department of Records & Information Services",
+   "publisher": "City of New York",
+   "url": "https://www.nyc.gov/site/records/index.page",
+   "historical_coverage": {
+    "from": 1898,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US-NY"
+   ],
+   "categories": [
+    "municipal_history"
+   ],
+   "access_method": "website",
+   "license": "NYC.gov terms of use",
+   "notes": "Страница истории /site/records/about/history.page вернула 404; данные не извлекались."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_marietta_times",
+   "name": "The Marietta Times",
+   "publisher": "Ogden Newspapers",
+   "url": "https://www.mariettatimes.com/",
+   "historical_coverage": {
+    "from": 1913,
+    "to": 2023
+   },
+   "geographic_coverage": [
+    "US-OH"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "license": "© Marietta Times; только пересказ",
+   "notes": "Статья 2023 г. к годовщине наводнения 1913 г. с фото Marietta College Legacy Library; вторичный местный источник."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_young_center",
+   "name": "Amish Studies — Young Center for Anabaptist and Pietist Studies",
+   "publisher": "Elizabethtown College",
+   "url": "https://groups.etown.edu/amishstudies/",
+   "historical_coverage": {
+    "from": 1991,
+    "to": 2024
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "demography",
+    "religion"
+   ],
+   "access_method": "website",
+   "license": "© Elizabethtown College; статистика с атрибуцией",
+   "notes": "Таблица крупнейших поселений 2024."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "inaccessible",
+   "accessed": "2026-10-29",
+   "source_id": "us_ohio_history",
+   "name": "Ohio History Connection (Ohio History Central, Ohio Memory)",
+   "publisher": "Ohio History Connection",
+   "url": "https://www.ohiohistory.org/",
+   "historical_coverage": {
+    "from": 1800,
+    "to": 2000
+   },
+   "geographic_coverage": [
+    "US-OH"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "not_accessible",
+   "license": "© Ohio History Connection",
+   "notes": "ohiomemory.ohiohistory.org/archives/249 — 403; ohiohistorycentral.org/w/Great_Flood_of_1913 и /w/Marietta,_Ohio — 404."
+  },
+  {
+   "country": "US",
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_nws",
+   "name": "National Weather Service (Wilmington OH office)",
+   "publisher": "NOAA",
+   "url": "https://www.weather.gov/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "disaster"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "notes": "Страница о наводнении 1937 г. на Огайо; Мариетта там не упомянута, поэтому городская запись не создана."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_state_historian",
+   "name": "Office of the Historian — Milestones",
+   "publisher": "U.S. Department of State",
+   "url": "https://history.state.gov/milestones",
+   "historical_coverage": {
+    "from": 1776,
+    "to": 2008
+   },
+   "categories": [
+    "politics",
+    "migration"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "notes": "Страница об иммиграционном законе 1965 г. (/milestones/1961-1968/immigration-act) — 404."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "source_id": "us_eeoc",
+   "name": "U.S. Equal Employment Opportunity Commission — Statutes",
+   "publisher": "EEOC",
+   "url": "https://www.eeoc.gov/",
+   "historical_coverage": {
+    "from": 1963,
+    "to": 2025
+   },
+   "categories": [
+    "labor",
+    "women_rights"
+   ],
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "notes": "Тексты Equal Pay Act 1963 и Pregnancy Discrimination Act 1978."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "inaccessible",
+   "accessed": "2026-10-29",
+   "source_id": "us_ssa",
+   "name": "Social Security Administration History",
+   "publisher": "SSA",
+   "url": "https://www.ssa.gov/history/",
+   "historical_coverage": {
+    "from": 1935,
+    "to": 2025
+   },
+   "categories": [
+    "social_policy"
+   ],
+   "access_method": "not_accessible",
+   "license": "Public domain",
+   "notes": "ssa.gov/history/1stcheck.html вернул 403."
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": "2026-10-29",
+   "source_id": "us_dol",
+   "name": "U.S. Department of Labor",
+   "publisher": "DOL",
+   "url": "https://www.dol.gov/",
+   "historical_coverage": {
+    "from": 1913,
+    "to": 2025
+   },
+   "categories": [
+    "labor"
+   ],
+   "access_method": "website",
+   "license": "Public domain",
+   "notes": "Страница FMLA открылась, но без даты принятия закона; страницы истории FLSA и Title IX — 404. В записях не используется."
+  },
+  {
+   "source_id": "us_census",
+   "name": "U.S. Census Bureau (historical decennial tables)",
+   "publisher": "U.S. Census Bureau",
+   "country": "US",
+   "url": "https://www.census.gov/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2020
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "demography",
+    "housing"
+   ],
+   "access_method": "bulk_download",
+   "bulk_download": true,
+   "license": "Public domain (U.S. federal government work)",
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Historical Census of Housing Tables (homeownership, plumbing — .txt на www2.census.gov); POP-WP027 (Gibson 1998) — население 100 крупнейших городов 1790–1990. Таблицы heating/fuels по угаданным URL не найдены."
+  },
+  {
+   "source_id": "us_nasa",
+   "name": "NASA History",
+   "publisher": "NASA",
+   "country": "US",
+   "url": "https://www.nasa.gov/history/",
+   "historical_coverage": {
+    "from": 1958,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "technology"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Public domain (NASA media guidelines)",
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Apollo 11 mission overview."
+  },
+  {
+   "source_id": "us_britannica",
+   "name": "Encyclopaedia Britannica",
+   "publisher": "Encyclopaedia Britannica, Inc.",
+   "country": "US",
+   "url": "https://www.britannica.com/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "encyclopedia"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "© Britannica",
+   "attribution_required": true,
+   "access_restrictions": [
+    "403 для автоматизированного доступа"
+   ],
+   "status": "inaccessible",
+   "accessed": "2026-10-29",
+   "notes": "Все запрошенные статьи (Prohibition, ECOA, ADA, FMLA, ACA, no-fault divorce) вернули 403."
+  },
+  {
+   "source_id": "us_loc",
+   "name": "Library of Congress (Chronicling America и др.)",
+   "publisher": "Library of Congress",
+   "country": "US",
+   "url": "https://www.loc.gov/collections/chronicling-america/",
+   "historical_coverage": {
+    "from": 1770,
+    "to": 1963
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "newspapers",
+    "archives"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": true,
+   "license": "Большинство материалов без известных ограничений; проверять по коллекции",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": "2026-10-29",
+   "notes": "Не использовался для записей: газетные полосы дают дату публикации, а не события; ограниченный бюджет сессии ушёл на справочные страницы."
+  },
+  {
+   "source_id": "us_ipums",
+   "name": "IPUMS USA",
+   "publisher": "University of Minnesota",
+   "country": "US",
+   "url": "https://usa.ipums.org/",
+   "historical_coverage": {
+    "from": 1850,
+    "to": 2023
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "microdata"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": true,
+   "license": "Требуется регистрация и согласие с условиями; только агрегаты",
+   "attribution_required": true,
+   "access_restrictions": [
+    "registration required"
+   ],
+   "status": "catalogued",
+   "accessed": "2026-10-29",
+   "notes": "Не использовался: регистрация не выполнялась."
+  },
+  {
+   "source_id": "us_smithsonian",
+   "name": "Smithsonian Open Access",
+   "publisher": "Smithsonian Institution",
+   "country": "US",
+   "url": "https://www.si.edu/openaccess",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "museum_objects"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": true,
+   "license": "CC0 для материалов Open Access",
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": "2026-10-29",
+   "notes": "Не использовался в этой сессии; кандидат для артефактов (билеты, бытовые предметы)."
+  },
+  {
+   "source_id": "us_ford",
+   "name": "Ford Motor Company — corporate history",
+   "publisher": "Ford Motor Company",
+   "country": "US",
+   "url": "https://corporate.ford.com/",
+   "historical_coverage": {
+    "from": 1903,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US-MI"
+   ],
+   "categories": [
+    "industry"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Ford; корпоративный источник, использовать с осторожностью",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Статья о движущемся конвейере (цены Model T, время сборки)."
+  },
+  {
+   "source_id": "us_connected_world",
+   "name": "Connected World — «Riding the former rails»",
+   "publisher": "Peggy Smedley Media",
+   "country": "US",
+   "url": "https://connectedworld.com/",
+   "historical_coverage": {
+    "from": 1850,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US-OH"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© владельца сайта; только пересказ",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Популярная статья о Holmes County Trail; слабый источник, использован с confidence low/medium."
+  },
+  {
+   "source_id": "us_west2k_stations",
+   "name": "Ohio Railroad Stations Past & Present — Holmes County",
+   "publisher": "west2k.com (любительский сайт)",
+   "country": "US",
+   "url": "https://west2k.com/ohstations/holmes.shtml",
+   "historical_coverage": {
+    "from": 1850,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "US-OH"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© владельца сайта; только пересказ",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Любительская база станций с ссылками на оценочные записи PRR и газеты; вторичный."
+  },
+  {
+   "source_id": "us_nces",
+   "name": "Digest of Education Statistics",
+   "publisher": "National Center for Education Statistics",
+   "country": "US",
+   "url": "https://nces.ed.gov/programs/digest/",
+   "historical_coverage": {
+    "from": 1940,
+    "to": 2022
+   },
+   "geographic_coverage": [
+    "US"
+   ],
+   "categories": [
+    "education"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "Public domain (U.S. federal government work)",
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-10-29",
+   "notes": "Таблица 104.10 (2022)."
+  }
+ ]
+}

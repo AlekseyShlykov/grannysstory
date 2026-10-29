@@ -1,0 +1,85 @@
+{
+ "records": [
+  {
+   "id": "gb-lancashire-1911-ford-trafford-park",
+   "title": "Форд начал сборку автомобилей в Траффорд-парке",
+   "start_date": "1911-10-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-lancashire"
+   ],
+   "category": "local_economy",
+   "subcategory": "manufacturing",
+   "historical_summary": "В промышленном районе Траффорд-парк рядом с Манчестером компания Ford собрала первую модель T на британском заводе.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "дата сборки первой Model T в Траффорд-парке"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-lancashire-1941-merlin-trafford",
+   "title": "Производство моторов «Мерлин» в Траффорд-парке",
+   "start_date": "1941",
+   "end_date": "1946",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-lancashire"
+   ],
+   "category": "war_conflict",
+   "subcategory": "war_production",
+   "historical_summary": "В 1941–1946 гг. на теневых заводах Ford в Траффорд-парке было изготовлено около 30 400 авиамоторов Rolls-Royce Merlin.",
+   "affected_groups": [
+    "industrial_workers",
+    "women"
+   ],
+   "potential_impacts": [
+    "wartime_work"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
+     "accessed": "2026-10-29",
+     "supports": "период и число моторов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

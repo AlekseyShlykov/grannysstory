@@ -1,0 +1,35 @@
+{
+  "regionId": "leningrad",
+  "version": "0.5.0",
+  "label": "Ленинград",
+  "coverage": "Ленинград / Санкт-Петербург; блокада применяется только к оставшейся в городе героине",
+  "birthPlaces": ["saint-petersburg"],
+  "events": [
+    {
+      "id": "leningrad_blockade_1941_1944",
+      "title": "Блокада Ленинграда",
+      "locationId": "saint-petersburg",
+      "startDate": "1941-09-08",
+      "endDate": "1944-01-27",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "prlib_leningrad_blockade",
+      "verificationStatus": "verified",
+      "historicalContext": "Блокада Ленинграда продолжалась с 8 сентября 1941 года до 27 января 1944 года. Игра не предполагает автоматически, что героиня находилась в городе весь этот период.",
+      "applicability": { "residentPlaceIds": ["saint-petersburg"], "minAge": 1, "maxAge": 110, "requiresFlag": "in_city_during_blockade" },
+      "confidence": "high"
+    },
+    {
+      "id": "leningrad_renamed_1991",
+      "title": "Ленинграду возвращено название Санкт-Петербург",
+      "locationId": "saint-petersburg",
+      "startDate": "1991-09-06",
+      "endDate": "1991-09-06",
+      "classification": "VERIFIED_HISTORICAL",
+      "sourceId": "spb_archives_city_names",
+      "verificationStatus": "verified",
+      "historicalContext": "6 сентября 1991 года городу Ленинграду было возвращено историческое название Санкт-Петербург.",
+      "applicability": { "residentPlaceIds": ["saint-petersburg"], "minAge": 1, "maxAge": 115 },
+      "confidence": "high"
+    }
+  ]
+}

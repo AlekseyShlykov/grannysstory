@@ -1,0 +1,1755 @@
+{
+  "records": [
+    {
+      "id": "ru-ctx-1920s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1920,
+      "period_end": 1929,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1920-е",
+      "description": "Очень высокая рождаемость и высокая смертность: в 1927 году в среднем более шести детей на женщину при ожидаемой продолжительности жизни около 34 лет у мужчин и 38 у женщин.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 6.653,
+          "unit": "детей на женщину",
+          "year": 1927,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 33.7,
+          "unit": "лет",
+          "year": 1927,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 37.9,
+          "unit": "лет",
+          "year": 1927,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": 22.7,
+          "unit": "на 1000 жителей",
+          "year": 1926,
+          "area_id": "ru",
+          "population": "всё население РСФСР",
+          "method_note": "Народное хозяйство РСФСР, по вторичной таблице",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1930s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1930,
+      "period_end": 1939,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1930-е",
+      "description": "Рождаемость быстро падает (около пяти детей на женщину к концу десятилетия), продолжительность жизни остаётся низкой, особенно у мужчин.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 4.881,
+          "unit": "детей на женщину",
+          "year": 1939,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 31.7,
+          "unit": "лет",
+          "year": 1938,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 42.5,
+          "unit": "лет",
+          "year": 1938,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1950s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1950,
+      "period_end": 1959,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1950-е",
+      "description": "После войны семьи стали заметно меньше (менее трёх детей на женщину), а продолжительность жизни резко выросла: к 1959 году около 63 лет у мужчин и 71 у женщин. Женщин значительно больше, чем мужчин.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 2.889,
+          "unit": "детей на женщину",
+          "year": 1950,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "tfr",
+          "value": 2.58,
+          "unit": "детей на женщину",
+          "year": 1959,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 62.84,
+          "unit": "лет",
+          "year": 1959,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 71.14,
+          "unit": "лет",
+          "year": 1959,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": 16.7,
+          "unit": "на 1000 жителей",
+          "year": 1950,
+          "area_id": "ru",
+          "population": "всё население РСФСР",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1960s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1960,
+      "period_end": 1969,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1960-е",
+      "description": "Рождаемость в РСФСР опускается к двум детям на женщину; естественный прирост за пять лет сократился почти вдвое.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 2.56,
+          "unit": "детей на женщину",
+          "year": 1960,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 63.67,
+          "unit": "лет",
+          "year": 1960,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 72.31,
+          "unit": "лет",
+          "year": 1960,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": 8.1,
+          "unit": "на 1000 жителей",
+          "year": 1965,
+          "area_id": "ru",
+          "population": "всё население РСФСР",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1970s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1970,
+      "period_end": 1979,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1970-е",
+      "description": "Два ребёнка на женщину становятся нормой; разрыв в продолжительности жизни мужчин и женщин превышает десять лет.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 2.0,
+          "unit": "детей на женщину",
+          "year": 1970,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 63.07,
+          "unit": "лет",
+          "year": 1970,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 73.44,
+          "unit": "лет",
+          "year": 1970,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": 5.9,
+          "unit": "на 1000 жителей",
+          "year": 1970,
+          "area_id": "ru",
+          "population": "всё население РСФСР",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1980s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1980,
+      "period_end": 1989,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1980-е",
+      "description": "В середине 1980-х рождаемость и продолжительность жизни мужчин временно выросли (в те же годы шли антиалкогольная кампания и меры поддержки семей).",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 1.87,
+          "unit": "детей на женщину",
+          "year": 1980,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "tfr",
+          "value": 2.23,
+          "unit": "детей на женщину",
+          "year": 1987,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 61.38,
+          "unit": "лет",
+          "year": 1980,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 64.83,
+          "unit": "лет",
+          "year": 1987,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 74.26,
+          "unit": "лет",
+          "year": 1987,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1990s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1990,
+      "period_end": 1999,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 1990-е",
+      "description": "Демографический обвал 1990-х: рождаемость упала почти до 1,2 ребёнка на женщину, продолжительность жизни мужчин в 1993 году — меньше 59 лет; смертность превысила рождаемость с 1992 года.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 1.892,
+          "unit": "детей на женщину",
+          "year": 1990,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "tfr",
+          "value": 1.157,
+          "unit": "детей на женщину",
+          "year": 1999,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 58.8,
+          "unit": "лет",
+          "year": 1993,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 71.85,
+          "unit": "лет",
+          "year": 1993,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": -5.7,
+          "unit": "на 1000 жителей",
+          "year": 1995,
+          "area_id": "ru",
+          "population": "всё население России",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-2000s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 2000,
+      "period_end": 2009,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 2000-е",
+      "description": "Низкая рождаемость и высокая смертность мужчин; население продолжает сокращаться.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 1.294,
+          "unit": "детей на женщину",
+          "year": 2005,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 58.92,
+          "unit": "лет",
+          "year": 2005,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 72.47,
+          "unit": "лет",
+          "year": 2005,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": -5.9,
+          "unit": "на 1000 жителей",
+          "year": 2005,
+          "area_id": "ru",
+          "population": "всё население России",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-2010s-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 2010,
+      "period_end": 2019,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 2010-е",
+      "description": "Рождаемость и продолжительность жизни растут; в 2013 году естественный прирост ненадолго стал положительным.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 1.567,
+          "unit": "детей на женщину",
+          "year": 2010,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "tfr",
+          "value": 1.777,
+          "unit": "детей на женщину",
+          "year": 2015,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 65.92,
+          "unit": "лет",
+          "year": 2015,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 76.71,
+          "unit": "лет",
+          "year": 2015,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "natural_increase",
+          "value": 0.2,
+          "unit": "на 1000 жителей",
+          "year": 2013,
+          "area_id": "ru",
+          "population": "всё население России",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-2020-2025-demography",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 2020,
+      "period_end": 2025,
+      "context_type": "demography",
+      "attribute": "fertility_mortality",
+      "title": "Рождаемость и продолжительность жизни, 2020–2025",
+      "description": "После пандемии рождаемость снова снижается; продолжительность жизни женщин почти на 11 лет выше, чем у мужчин.",
+      "statistics": [
+        {
+          "indicator": "tfr",
+          "value": 1.505,
+          "unit": "детей на женщину",
+          "year": 2020,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "tfr",
+          "value": 1.41,
+          "unit": "детей на женщину",
+          "year": 2023,
+          "area_id": "ru",
+          "population": "все женщины РСФСР/России; суммарный коэффициент рождаемости",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_men",
+          "value": 68.04,
+          "unit": "лет",
+          "year": 2023,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "life_expectancy_women",
+          "value": 78.74,
+          "unit": "лет",
+          "year": 2023,
+          "area_id": "ru",
+          "population": "всё население РСФСР/России, при рождении",
+          "method_note": "вторичная таблица Википедии по Андрееву–Дарскому–Харьковой (до 1941) и Госкомстату/Росстату",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_России",
+          "accessed": "2026-10-29",
+          "supports": "таблицы СКР, ОПЖ, естественного прироста"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-ctx-abortion-trends",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1936,
+      "period_end": 1991,
+      "context_type": "fertility_childlessness",
+      "attribute": "abortion",
+      "title": "Аборты как основной способ контроля рождаемости",
+      "description": "Запрет 1936–1955 годов не остановил аборты: в 1937–1940 годах зарегистрировано более миллиона нелегальных. После разрешения в 1955 году аборт стал массовым способом регулирования рождаемости: в середине 1960-х около 5,6 млн в год в РСФСР и 7 млн по СССР.",
+      "statistics": [
+        {
+          "indicator": "abortions",
+          "value": 5600000,
+          "unit": "в год",
+          "year": 1965,
+          "area_id": "ru",
+          "population": "женщины РСФСР",
+          "method_note": "приблизительная оценка пика середины 1960-х; вторичный источник",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "abortions",
+          "value": 3920000,
+          "unit": "в год",
+          "year": 1990,
+          "area_id": "ru",
+          "population": "женщины РСФСР",
+          "method_note": "данные Минздрава по вторичному источнику",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Аборты_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "статистика абортов"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-ctx-1940s-wages",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1940,
+      "period_end": 1949,
+      "context_type": "wages_income",
+      "attribute": "average_monthly_wage",
+      "title": "Средняя зарплата накануне войны",
+      "description": "В 1940 году среднемесячная денежная зарплата рабочих и служащих в народном хозяйстве СССР составляла 33,1 рубля (в ценах до реформы 1961 года, в пересчёте сборника).",
+      "statistics": [
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 33.1,
+          "unit": "руб./мес.",
+          "year": 1940,
+          "area_id": "su",
+          "population": "рабочие и служащие, всё народное хозяйство",
+          "method_note": "денежная заработная плата; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9304",
+          "accessed": "2026-10-29",
+          "supports": "таблица среднемесячной зарплаты"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1960s-wages",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1960,
+      "period_end": 1969,
+      "context_type": "wages_income",
+      "attribute": "average_monthly_wage",
+      "title": "Зарплата в 1960-е",
+      "description": "В 1960 году средняя денежная зарплата рабочих и служащих — 80,6 рубля в месяц (новыми деньгами), в 1970 году — 122 рубля. Колхозники до 1966 года получали оплату трудоднями, их доходы были заметно ниже.",
+      "statistics": [
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 80.6,
+          "unit": "руб./мес.",
+          "year": 1960,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "денежная зарплата; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 122.0,
+          "unit": "руб./мес.",
+          "year": 1970,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "денежная зарплата; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9304",
+          "accessed": "2026-10-29",
+          "supports": "1960, 1970"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-ctx-1970s-wages",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1970,
+      "period_end": 1979,
+      "context_type": "wages_income",
+      "attribute": "average_monthly_wage",
+      "title": "Зарплата рабочих, служащих и колхозников в 1970-е",
+      "description": "В 1970 году рабочие и служащие получали в среднем 122 рубля в месяц, колхозники за работу в общественном хозяйстве — 74,9 рубля; к 1980 году — 168,9 и 118,5 рубля соответственно.",
+      "statistics": [
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 122.0,
+          "unit": "руб./мес.",
+          "year": 1970,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "денежная зарплата; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "kolkhoz_monthly_pay",
+          "value": 74.9,
+          "unit": "руб./мес.",
+          "year": 1970,
+          "area_id": "su",
+          "population": "колхозники, общественное хозяйство",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 168.9,
+          "unit": "руб./мес.",
+          "year": 1980,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "kolkhoz_monthly_pay",
+          "value": 118.5,
+          "unit": "руб./мес.",
+          "year": 1980,
+          "area_id": "su",
+          "population": "колхозники, общественное хозяйство",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9304",
+          "accessed": "2026-10-29",
+          "supports": "таблицы зарплаты и оплаты колхозников"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1980s-wages",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1980,
+      "period_end": 1989,
+      "context_type": "wages_income",
+      "attribute": "average_monthly_wage",
+      "title": "Зарплата в 1980-е",
+      "description": "Средняя денежная зарплата рабочих и служащих выросла со 168,9 рубля в 1980 году до 195,6 рубля в 1986-м; колхозники получали в 1986 году 163 рубля.",
+      "statistics": [
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 190.1,
+          "unit": "руб./мес.",
+          "year": 1985,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "avg_monthly_wage",
+          "value": 195.6,
+          "unit": "руб./мес.",
+          "year": 1986,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "kolkhoz_monthly_pay",
+          "value": 163.0,
+          "unit": "руб./мес.",
+          "year": 1986,
+          "area_id": "su",
+          "population": "колхозники, общественное хозяйство",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9304",
+          "accessed": "2026-10-29",
+          "supports": "1980–1986"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1950s-housing-construction",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1956,
+      "period_end": 1960,
+      "context_type": "housing",
+      "attribute": "housing_construction",
+      "title": "Новоселья второй половины 1950-х",
+      "description": "В шестой пятилетке (1956–1960) было построено 474 млн м² жилья — больше, чем за 1918–1941 годы вместе (409 млн м²); улучшили жилищные условия 54 млн человек, в 1960 году — 12 млн.",
+      "statistics": [
+        {
+          "indicator": "housing_built",
+          "value": 474.1,
+          "unit": "млн м² общей площади",
+          "year": 1960,
+          "area_id": "su",
+          "population": "весь жилищный фонд, за 1956–1960",
+          "method_note": "сумма за пятилетку; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "people_improved_housing",
+          "value": 12.0,
+          "unit": "млн человек",
+          "year": 1960,
+          "area_id": "su",
+          "population": "всё население",
+          "method_note": "за год; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9308",
+          "accessed": "2026-10-29",
+          "supports": "ввод жилья и улучшившие условия"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1960s-housing-construction",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1961,
+      "period_end": 1970,
+      "context_type": "housing",
+      "attribute": "housing_construction",
+      "title": "Массовое жилищное строительство 1960-х",
+      "description": "В 1961–1970 годах ежегодно вводили около 100 млн м² жилья; каждый год улучшали жилищные условия примерно 11 млн человек.",
+      "statistics": [
+        {
+          "indicator": "housing_built",
+          "value": 97.6,
+          "unit": "млн м²",
+          "year": 1965,
+          "area_id": "su",
+          "population": "весь жилищный фонд",
+          "method_note": "за год; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "people_improved_housing",
+          "value": 11.2,
+          "unit": "млн человек",
+          "year": 1970,
+          "area_id": "su",
+          "population": "всё население",
+          "method_note": "за год; «Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9308",
+          "accessed": "2026-10-29",
+          "supports": "1965, 1970"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1970s-urban-amenities",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1970,
+      "period_end": 1979,
+      "context_type": "housing",
+      "attribute": "amenities",
+      "title": "Удобства в городском жилье, 1970-е",
+      "description": "В 1970 году водопровод имели 79% площади городского государственного и кооперативного жилья, газ — 65%; к 1980 году водопровод — 90%, центральное отопление — 87%. В 1975 году горячая вода была лишь у 46% городской жилой площади.",
+      "statistics": [
+        {
+          "indicator": "water_supply_share",
+          "value": 78.9,
+          "unit": "% площади",
+          "year": 1970,
+          "area_id": "su",
+          "population": "городской государственный, общественный и кооперативный фонд",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "gas_share",
+          "value": 64.6,
+          "unit": "% площади",
+          "year": 1970,
+          "area_id": "su",
+          "population": "то же",
+          "method_note": "«Народное хозяйство СССР за 70 лет», 1987",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "hot_water_share",
+          "value": 46,
+          "unit": "% жилой площади",
+          "year": 1975,
+          "area_id": "su",
+          "population": "весь городской жилищный фонд",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9308",
+          "accessed": "2026-10-29",
+          "supports": "благоустройство 1970, 1980"
+        },
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/20562",
+          "accessed": "2026-10-29",
+          "supports": "горячая вода 1975"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1980s-housing-space",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1980,
+      "period_end": 1989,
+      "context_type": "housing",
+      "attribute": "living_space",
+      "title": "Жильё в 1980-е: метры, очередь, дачи",
+      "description": "В 1988 году на городского жителя СССР приходилось 14,7 м² общей площади (9,4 м² жилой), на сельского — 17 м². Норма для постановки в очередь в РСФСР — 13 м²; в 1989 году почти треть очередников ждали 5–10 лет, ещё 17,5% — больше десяти. Около 6,3 млн семей имели садовые домики и дачи.",
+      "statistics": [
+        {
+          "indicator": "living_area_total_per_capita",
+          "value": 14.7,
+          "unit": "м²/чел.",
+          "year": 1988,
+          "area_id": "su",
+          "population": "городское население",
+          "method_note": "общая площадь; «Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "living_area_total_per_capita",
+          "value": 17.0,
+          "unit": "м²/чел.",
+          "year": 1988,
+          "area_id": "su",
+          "population": "сельское население",
+          "method_note": "общая площадь; «Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "living_area_total_per_capita",
+          "value": 15.0,
+          "unit": "м²/чел.",
+          "year": 1988,
+          "area_id": "ru",
+          "population": "городское население РСФСР",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "waiting_list_households",
+          "value": 1214000,
+          "unit": "семей и одиночек",
+          "year": 1989,
+          "area_id": "ru",
+          "population": "состоящие на учёте на 1 января",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "garden_house_families",
+          "value": 6.3,
+          "unit": "млн семей",
+          "year": 1988,
+          "area_id": "su",
+          "population": "семьи с садовым домиком, дачей или домом",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/20562",
+          "accessed": "2026-10-29",
+          "supports": "площадь, очередь, садовые домики"
+        },
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/9308",
+          "accessed": "2026-10-29",
+          "supports": "1980–1986"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1980s-rural-amenities",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1980,
+      "period_end": 1988,
+      "context_type": "housing",
+      "attribute": "amenities",
+      "title": "Удобства в сельском жилье",
+      "description": "В сельском жилье удобств было гораздо меньше: в 1988 году водопровод был у 44% жилой площади, канализация — у 33%, горячая вода — у 16%, газ — у 77%.",
+      "statistics": [
+        {
+          "indicator": "water_supply_share",
+          "value": 44,
+          "unit": "% жилой площади",
+          "year": 1988,
+          "area_id": "su",
+          "population": "сельский жилищный фонд",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "hot_water_share",
+          "value": 16,
+          "unit": "% жилой площади",
+          "year": 1988,
+          "area_id": "su",
+          "population": "сельский жилищный фонд",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "gas_share",
+          "value": 77,
+          "unit": "% жилой площади",
+          "year": 1988,
+          "area_id": "su",
+          "population": "сельский жилищный фонд",
+          "method_note": "«Социальное развитие СССР», стат. сборник, ок. 1989",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/20562",
+          "accessed": "2026-10-29",
+          "supports": "благоустройство сельского фонда"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1970s-urbanisation",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1970,
+      "period_end": 1979,
+      "context_type": "demography",
+      "attribute": "urban_share",
+      "title": "Страна становится городской",
+      "description": "По переписи 1970 года в городах жили 56,3% населения СССР, по переписи 1979 года — 62,3%. На 1000 женщин приходилось 854 мужчины (1970) — следствие войны.",
+      "statistics": [
+        {
+          "indicator": "urban_share",
+          "value": 56.3,
+          "unit": "%",
+          "year": 1970,
+          "area_id": "su",
+          "population": "всё население СССР, перепись",
+          "method_note": "«Народное хозяйство СССР в 1990 г.»",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "urban_share",
+          "value": 62.3,
+          "unit": "%",
+          "year": 1979,
+          "area_id": "su",
+          "population": "всё население СССР, перепись",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "men_per_1000_women",
+          "value": 854,
+          "unit": "мужчин на 1000 женщин",
+          "year": 1970,
+          "area_id": "su",
+          "population": "всё население",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/443",
+          "accessed": "2026-10-29",
+          "supports": "городское население и соотношение полов"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1980s-urbanisation",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1980,
+      "period_end": 1991,
+      "context_type": "demography",
+      "attribute": "urban_share",
+      "title": "Город и село в конце СССР",
+      "description": "По переписи 1989 года 65,9% населения СССР жили в городах; в РСФСР на начало 1991 года — 73,9%. Женщин по-прежнему больше: 892 мужчины на 1000 женщин (1989).",
+      "statistics": [
+        {
+          "indicator": "urban_share",
+          "value": 65.9,
+          "unit": "%",
+          "year": 1989,
+          "area_id": "su",
+          "population": "всё население СССР, перепись",
+          "method_note": "«Народное хозяйство СССР в 1990 г.»",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "urban_share",
+          "value": 73.9,
+          "unit": "%",
+          "year": 1991,
+          "area_id": "ru",
+          "population": "население РСФСР на 1 января",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "men_per_1000_women",
+          "value": 892,
+          "unit": "мужчин на 1000 женщин",
+          "year": 1989,
+          "area_id": "su",
+          "population": "всё население",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/443",
+          "accessed": "2026-10-29",
+          "supports": "1989, 1991, РСФСР"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "su-ctx-1940s-women-employment",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1940,
+      "period_end": 1960,
+      "context_type": "women_employment",
+      "attribute": "women_share_of_workforce",
+      "title": "Женщины на работе",
+      "description": "Доля женщин среди рабочих и служащих СССР выросла с 38% в 1940 году до 47% в 1950-м и оставалась на этом уровне в 1960 году. В просвещении женщины составляли 69%, в здравоохранении — 85% работающих (1960).",
+      "statistics": [
+        {
+          "indicator": "women_share_workers",
+          "value": 38,
+          "unit": "%",
+          "year": 1940,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "«Народное хозяйство СССР в 1960 году»",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "women_share_workers",
+          "value": 47,
+          "unit": "%",
+          "year": 1950,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "women_share_workers",
+          "value": 47,
+          "unit": "%",
+          "year": 1960,
+          "area_id": "su",
+          "population": "рабочие и служащие",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "women_share_health_sector",
+          "value": 85,
+          "unit": "%",
+          "year": 1960,
+          "area_id": "su",
+          "population": "работающие в здравоохранении",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        },
+        {
+          "indicator": "women_share_education_sector",
+          "value": 69,
+          "unit": "%",
+          "year": 1960,
+          "area_id": "su",
+          "population": "работающие в просвещении",
+          "method_note": "то же",
+          "source_id": "ru_istmat"
+        }
+      ],
+      "source_ids": [
+        "ru_istmat"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_istmat",
+          "url": "https://istmat.org/node/422",
+          "accessed": "2026-10-29",
+          "supports": "доли женщин 1940–1960"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-ctx-2000s-mobile",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 2000,
+      "period_end": 2009,
+      "context_type": "communication",
+      "attribute": "mobile_phones",
+      "title": "Мобильный телефон становится обычным",
+      "description": "В 2000-е мобильная связь распространилась стремительно: к концу 2004 года в России было 73,9 млн абонентов, в декабре 2008-го — 187,8 млн SIM-карт (129% к населению), хотя реальных пользователей было меньше: по оценкам, около 70% жителей в 2006 году.",
+      "statistics": [
+        {
+          "indicator": "mobile_subscriptions",
+          "value": 73.9,
+          "unit": "млн",
+          "year": 2004,
+          "area_id": "ru",
+          "population": "SIM-карты/абоненты",
+          "method_note": "данные операторов по вторичному источнику",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "mobile_penetration",
+          "value": 129.4,
+          "unit": "% SIM-карт к населению",
+          "year": 2008,
+          "area_id": "ru",
+          "population": "всё население",
+          "method_note": "номинальное проникновение; одна персона может иметь несколько SIM",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Сотовая_связь_в_России",
+          "accessed": "2026-10-29",
+          "supports": "абоненты и проникновение"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-2010s-internet",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 2010,
+      "period_end": 2019,
+      "context_type": "communication",
+      "attribute": "internet_use",
+      "title": "Интернет в повседневной жизни",
+      "description": "В конце 2010 года интернетом пользовались около 42% населения России; к 2018 году, по опросу ВЦИОМ, — 80% взрослых. Особенно быстро рос мобильный доступ.",
+      "statistics": [
+        {
+          "indicator": "internet_users_share",
+          "value": 42,
+          "unit": "% населения",
+          "year": 2010,
+          "area_id": "ru",
+          "population": "всё население",
+          "method_note": "оценка Яндекса",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "internet_users_share",
+          "value": 80,
+          "unit": "% взрослых",
+          "year": 2018,
+          "area_id": "ru",
+          "population": "взрослые",
+          "method_note": "опрос ВЦИОМ",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Интернет_в_России",
+          "accessed": "2026-10-29",
+          "supports": "Яндекс 2010; ВЦИОМ 2018"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-2020s-internet",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 2020,
+      "period_end": 2025,
+      "context_type": "communication",
+      "attribute": "internet_use",
+      "title": "Почти все онлайн",
+      "description": "В 2024 году интернетом пользовались 85% жителей старше 12 лет (около 103 млн человек), широкополосный доступ имели 86% домохозяйств.",
+      "statistics": [
+        {
+          "indicator": "internet_users_share",
+          "value": 85,
+          "unit": "% населения 12+",
+          "year": 2024,
+          "area_id": "ru",
+          "population": "население старше 12 лет",
+          "method_note": "по данным Интерфакса",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "broadband_households",
+          "value": 86.4,
+          "unit": "% домохозяйств",
+          "year": 2024,
+          "area_id": "ru",
+          "population": "домохозяйства",
+          "method_note": "вторичный источник",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Интернет_в_России",
+          "accessed": "2026-10-29",
+          "supports": "2024 Интерфакс"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1900s-literacy",
+      "country_code": "RU",
+      "location_id": "ru-empire",
+      "period_start": 1897,
+      "period_end": 1913,
+      "context_type": "education",
+      "attribute": "literacy",
+      "title": "Грамотность в Российской империи",
+      "description": "По переписи 1897 года грамотными были 21,1% жителей империи: 29,3% мужчин и лишь 13,1% женщин; в деревне и среди женщин грамотность была особенно низкой.",
+      "statistics": [
+        {
+          "indicator": "literacy_rate",
+          "value": 21.1,
+          "unit": "%",
+          "year": 1897,
+          "area_id": "ru-empire",
+          "population": "всё население империи (возрастная база в источнике не указана)",
+          "method_note": "перепись 1897; вторичный источник",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "literacy_rate_women",
+          "value": 13.1,
+          "unit": "%",
+          "year": 1897,
+          "area_id": "ru-empire",
+          "population": "женщины",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Ликбез",
+          "accessed": "2026-10-29",
+          "supports": "перепись 1897"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1920s-literacy",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1919,
+      "period_end": 1929,
+      "context_type": "education",
+      "attribute": "literacy",
+      "title": "Ликбез",
+      "description": "Декрет от 26 декабря 1919 года обязал учиться грамоте всех неграмотных от 8 до 50 лет. По переписи 1926 года в городах грамотными были 80,9% жителей, в деревне — 50,6%; среди сельских женщин — только 35,4%.",
+      "statistics": [
+        {
+          "indicator": "literacy_rate_urban",
+          "value": 80.9,
+          "unit": "%",
+          "year": 1926,
+          "area_id": "su",
+          "population": "городское население",
+          "method_note": "перепись 1926; возрастная база не указана во вторичном источнике",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "literacy_rate_rural",
+          "value": 50.6,
+          "unit": "%",
+          "year": 1926,
+          "area_id": "su",
+          "population": "сельское население",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "literacy_rate_rural_women",
+          "value": 35.4,
+          "unit": "%",
+          "year": 1926,
+          "area_id": "su",
+          "population": "сельские женщины",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Ликбез",
+          "accessed": "2026-10-29",
+          "supports": "декрет 1919; перепись 1926"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "su-ctx-1980s-shortages",
+      "country_code": "RU",
+      "location_id": "su",
+      "period_start": 1980,
+      "period_end": 1991,
+      "context_type": "consumer_goods",
+      "attribute": "shortages",
+      "title": "Дефицит и талоны",
+      "description": "В начале 1980-х в ряде областей появились талоны на масло и мясо; с 1985 года во многих регионах по талонам продавали спиртное, к 1989 году мясо, колбасу и масло отпускали по талонам примерно в каждом пятом городе. В 1990 году Москва ввела «визитную карточку покупателя». Очередь на автомобиль на предприятии могла длиться от 2–3 до 10–12 лет.",
+      "statistics": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Товарный_дефицит_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "талоны, очереди"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-car-ownership",
+      "country_code": "RU",
+      "location_id": "ru",
+      "period_start": 1970,
+      "period_end": 2016,
+      "context_type": "transport",
+      "attribute": "private_cars",
+      "title": "Личный автомобиль: от редкости к норме",
+      "description": "По данным, приводимым без указания первоисточника, на 1000 жителей приходилось 5,5 легковых автомобиля в 1970 году, 44,5 — в 1985-м, 132 — в 2000-м и 285 — в 2016-м.",
+      "statistics": [
+        {
+          "indicator": "cars_per_1000",
+          "value": 5.5,
+          "unit": "на 1000 жителей",
+          "year": 1970,
+          "area_id": "ru",
+          "population": "всё население",
+          "method_note": "таблица без указания первоисточника",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "cars_per_1000",
+          "value": 44.5,
+          "unit": "на 1000 жителей",
+          "year": 1985,
+          "area_id": "ru",
+          "population": "всё население",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "cars_per_1000",
+          "value": 132.4,
+          "unit": "на 1000 жителей",
+          "year": 2000,
+          "area_id": "ru",
+          "population": "всё население",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "cars_per_1000",
+          "value": 285,
+          "unit": "на 1000 жителей",
+          "year": 2016,
+          "area_id": "ru",
+          "population": "всё население",
+          "method_note": "то же",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Товарный_дефицит_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "таблица автомобилизации (без источника)"
+        }
+      ],
+      "verification_status": "needs_review",
+      "confidence": "low"
+    }
+  ]
+}

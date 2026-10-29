@@ -1,0 +1,621 @@
+{
+  "records": [
+    {
+      "id": "ru-nat-1917-eight-hour-day",
+      "title": "Декрет о восьмичасовом рабочем дне",
+      "title_original": null,
+      "start_date": "1917-11-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "29 октября (11 ноября) 1917 года советский декрет ограничил рабочий день восемью часами, а неделю — 48 часами.",
+      "affected_groups": [
+        "industrial_workers",
+        "office_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
+          "accessed": "2026-10-29",
+          "supports": "29.10 (11.11).1917"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1920-abortion-legalised",
+      "title": "Аборт разрешён законом",
+      "title_original": null,
+      "start_date": "1920-11-16",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "women_rights",
+      "subcategory": null,
+      "historical_summary": "16 ноября 1920 года постановлением наркоматов здравоохранения и юстиции «Об охране здоровья женщин» в Советской России разрешили искусственное прерывание беременности в больницах.",
+      "affected_groups": [
+        "women"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Аборты_в_СССР",
+          "accessed": "2026-10-29",
+          "supports": "16.11.1920"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1991-forty-hour-week",
+      "title": "40-часовая рабочая неделя",
+      "title_original": null,
+      "start_date": "1991-04-19",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "19 апреля 1991 года закон РСФСР ограничил рабочую неделю 40 часами; норма вошла в Кодекс законов о труде.",
+      "affected_groups": [
+        "industrial_workers",
+        "office_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
+          "accessed": "2026-10-29",
+          "supports": "19.04.1991"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1992-price-liberalisation",
+      "title": "Отпуск цен",
+      "title_original": null,
+      "start_date": "1992-01-02",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "economic_crisis",
+      "subcategory": null,
+      "historical_summary": "2 января 1992 года большая часть розничных и оптовых цен была освобождена от государственного регулирования. За 1992 год цены выросли примерно в 26 раз, советские сбережения на сберкнижках обесценились.",
+      "affected_groups": [
+        "all_residents",
+        "pensioners",
+        "consumers"
+      ],
+      "potential_impacts": [
+        "savings_loss",
+        "income_drop"
+      ],
+      "narrative_hooks": [
+        "lost_savings",
+        "queues_and_shortages"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Либерализация_цен_в_России",
+          "accessed": "2026-10-29",
+          "supports": "02.01.1992, ~2600%, сбережения"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1992-vouchers",
+      "title": "Приватизационные чеки",
+      "title_original": null,
+      "start_date": "1992-08-14",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "economic_crisis",
+      "subcategory": null,
+      "historical_summary": "Указом от 14 августа 1992 года в России ввели приватизационные чеки (ваучеры) номиналом 10 тысяч рублей; за получение каждого платили 25 рублей. Ваучеры можно было обменять на акции приватизируемых предприятий.",
+      "affected_groups": [
+        "all_residents",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "what_happened_to_the_voucher"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Ваучерная_приватизация_в_России",
+          "accessed": "2026-10-29",
+          "supports": "14.08.1992; 10 000; 25 руб."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1921-nep",
+      "title": "Продналог вместо продразвёрстки: начало нэпа",
+      "title_original": null,
+      "start_date": "1921-03-21",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "economic_crisis",
+      "subcategory": null,
+      "historical_summary": "Декретом ВЦИК от 21 марта 1921 года продразвёрстку заменили продовольственным налогом; крестьяне смогли продавать излишки на рынках, разрешили мелкую частную торговлю и предприятия. Нэп продолжался примерно до 1928 года.",
+      "affected_groups": [
+        "agricultural_workers",
+        "rural_residents",
+        "consumers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "market_trading"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Новая_экономическая_политика",
+          "accessed": "2026-10-29",
+          "supports": "21.03.1921; 1921–1928; рынки, частная торговля"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-2005-benefits-monetisation",
+      "title": "Монетизация льгот",
+      "title_original": null,
+      "start_date": "2005-01",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "Федеральный закон № 122-ФЗ от 22 августа 2004 года заменил многие натуральные льготы — бесплатный проезд, лекарства, санаторное лечение — денежными выплатами. В январе 2005 года, когда реформа начала действовать, по стране прошли протесты пенсионеров.",
+      "affected_groups": [
+        "pensioners",
+        "veterans",
+        "elderly"
+      ],
+      "potential_impacts": [
+        "income_change"
+      ],
+      "narrative_hooks": [
+        "pensioner_protest"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Монетизация_льгот",
+          "accessed": "2026-10-29",
+          "supports": "122-ФЗ от 22.08.2004; январь 2005; протесты"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-2018-pension-age-raised",
+      "title": "Повышение пенсионного возраста",
+      "title_original": null,
+      "start_date": "2018-10-03",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "3 октября 2018 года подписан закон о постепенном повышении пенсионного возраста: для мужчин с 60 до 65 лет, для женщин с 55 до 60 лет, с переходным периодом с 2019 до 2028 года. Против реформы прошли массовые протесты.",
+      "affected_groups": [
+        "pensioners",
+        "women",
+        "men",
+        "elderly"
+      ],
+      "potential_impacts": [
+        "later_retirement"
+      ],
+      "narrative_hooks": [
+        "retirement_postponed"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Пенсионная_реформа_в_России_(2018)",
+          "accessed": "2026-10-29",
+          "supports": "03.10.2018; возраст; 2019–2028"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1918-new-orthography",
+      "title": "Новая орфография",
+      "title_original": null,
+      "start_date": "1918-01-05",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "5 января 1918 года (23 декабря 1917 по старому стилю) опубликован декрет о новом правописании: из алфавита исчезли ять, фита и «и десятеричное», твёрдый знак на концах слов отменили. С октября 1918 года реформа стала обязательной для всех изданий.",
+      "affected_groups": [
+        "school_pupils",
+        "teachers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/618920",
+          "accessed": "2026-10-29",
+          "supports": "5 января 1918; изменения"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-nat-1918-gregorian-calendar",
+      "title": "Переход на григорианский календарь",
+      "title_original": null,
+      "start_date": "1918-02-14",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "everyday_life",
+      "subcategory": null,
+      "historical_summary": "Декретом Совнаркома от 24 января (6 февраля) 1918 года Россия перешла на западноевропейский календарь: после 31 января сразу наступило 14 февраля.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_prlib"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619010",
+          "accessed": "2026-10-29",
+          "supports": "декрет, 31 января → 14 февраля"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high"
+    },
+    {
+      "id": "ru-nat-1998-redenomination",
+      "title": "Деноминация рубля",
+      "title_original": null,
+      "start_date": "1998-01-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "С 1 января 1998 года по указу от 4 августа 1997 года рубль деноминировали в 1000 раз: тысяча старых рублей стала одним новым. Старые купюры можно было обменять до 2003 года.",
+      "affected_groups": [
+        "all_residents",
+        "consumers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "new_money"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Денежная_реформа_в_России_1998_года",
+          "accessed": "2026-10-29",
+          "supports": "указ 04.08.1997; 01.01.1998; 1000:1"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-2001-funded-pension",
+      "title": "Новая пенсионная система",
+      "title_original": null,
+      "start_date": "2001-12-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "Закон от 15 декабря 2001 года «Об обязательном пенсионном страховании» разделил пенсию на базовую, страховую и накопительную части.",
+      "affected_groups": [
+        "office_workers",
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Пенсионное_обеспечение_в_России",
+          "accessed": "2026-10-29",
+          "supports": "15.12.2001"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-2006-free-incoming-calls",
+      "title": "Входящие звонки стали бесплатными",
+      "title_original": null,
+      "start_date": "2006-07-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "С 1 июля 2006 года в России действует принцип «платит звонящий»: входящие звонки на мобильный телефон стали бесплатными. К этому времени число SIM-карт превысило численность населения.",
+      "affected_groups": [
+        "consumers",
+        "pensioners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_mobile_phone"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Сотовая_связь_в_России",
+          "accessed": "2026-10-29",
+          "supports": "01.07.2006; проникновение >100% в августе 2006"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1994-first-chechen-war",
+      "title": "Первая чеченская война",
+      "title_original": null,
+      "start_date": "1994-12-11",
+      "end_date": "1996-08-31",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "С 11 декабря 1994 по 31 августа 1996 года шла война в Чечне. По официальным данным погибли 5732 военнослужащих и сотрудника МВД, по данным Комитета солдатских матерей — более 14 тысяч; гибель мирных жителей оценивается от 30 до 120 тысяч человек.",
+      "affected_groups": [
+        "men",
+        "young_adults",
+        "soldiers_families"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "son_in_army"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Первая_чеченская_война",
+          "accessed": "2026-10-29",
+          "supports": "даты, потери"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-2022-mobilisation",
+      "title": "Частичная мобилизация",
+      "title_original": null,
+      "start_date": "2022-09-21",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "21 сентября 2022 года указом президента объявлена «частичная мобилизация»; 28 октября министр обороны доложил о призыве 300 тысяч человек, хотя указа о её завершении не было. Мобилизация вызвала массовый выезд мужчин из страны.",
+      "affected_groups": [
+        "men",
+        "soldiers_families",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "son_in_army",
+        "family_emigration"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Мобилизация_в_России_(2022)",
+          "accessed": "2026-10-29",
+          "supports": "21.09.2022; 28.10.2022; выезд"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

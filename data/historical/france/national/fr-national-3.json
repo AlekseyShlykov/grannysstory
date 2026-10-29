@@ -1,0 +1,280 @@
+{
+ "records": [
+  {
+   "id": "fr-nat-1958-fifth-republic",
+   "title": "Конституция Пятой республики",
+   "start_date": "1958-09-28",
+   "end_date": "1958-10-04",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "political_change",
+   "historical_summary": "28 сентября 1958 года на референдуме 82,6% голосов одобрили новую конституцию, промульгированную 4 октября 1958 года; с поправки 1962 года президента избирают всеобщим голосованием.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "eligibility": {
+    "min_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "referendum_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Constitution_fran%C3%A7aise_du_4_octobre_1958",
+     "accessed": "2026-10-29",
+     "supports": "28 septembre 1958, 82,60 %; promulgation 4 octobre; 1962"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1974-majority-18",
+   "title": "Совершеннолетие с 18 лет",
+   "start_date": "1974-07-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 5 июля 1974 года снизил возраст гражданского совершеннолетия с 21 года до 18 лет.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "max_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Majorit%C3%A9_civile_en_France",
+     "accessed": "2026-10-29",
+     "supports": "loi n° 74-631 du 5 juillet 1974; 21 ans depuis 1792"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1995-strikes",
+   "title": "Забастовки ноября–декабря 1995 года",
+   "start_date": "1995-11-24",
+   "end_date": "1995-12-15",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "После объявления 15 ноября 1995 года «плана Жюппе» по пенсиям и соцстраху с 24 ноября по 15 декабря продолжались забастовки; поезда SNCF и транспорт RATP стояли больше трёх недель, на крупнейшие манифестации, по данным профсоюзов, выходило до 2 млн человек.",
+   "affected_groups": [
+    "commuters",
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "walking_to_work_in_strike"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ves_de_1995_en_France",
+     "accessed": "2026-10-29",
+     "supports": "plan Juppé 15 novembre; 24 novembre au 15 décembre; SNCF et RATP plus de trois semaines; 2 millions selon syndicats"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1998-world-cup",
+   "title": "Победа на чемпионате мира по футболу",
+   "start_date": "1998-07-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "sport",
+   "historical_summary": "Франция принимала чемпионат мира 10 июня — 12 июля 1998 года и выиграла финал у Бразилии 3:0; вечером около 1,5 млн человек праздновали на Елисейских Полях.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_the_final_together"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Coupe_du_monde_de_football_1998",
+     "accessed": "2026-10-29",
+     "supports": "10 juin - 12 juillet 1998; 3-0 Brésil; 1,5 million Champs-Élysées"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2000-35-hours",
+   "title": "35-часовая рабочая неделя",
+   "start_date": "2000-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "labor",
+   "historical_summary": "По законам Обри (1998 и 2000 годов) 35-часовая неделя вступила в силу 1 января 2000 года на предприятиях с более чем 20 работниками и 1 января 2002 года — для остальных и госсектора.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "rtt_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lois_Aubry",
+     "accessed": "2026-10-29",
+     "supports": "Aubry I 13 juin 1998; Aubry II 19 janvier 2000; 1er janvier 2000 et 2002"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2005-banlieue-riots",
+   "title": "Беспорядки в пригородах осенью 2005 года",
+   "start_date": "2005-10-27",
+   "end_date": "2005-11-17",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "political_change",
+   "historical_summary": "27 октября 2005 года после гибели двух подростков в Клиши-су-Буа начались беспорядки в пригородах по всей стране, продолжавшиеся до 17 ноября; 8 ноября объявлено чрезвычайное положение, сожжено около 9 тысяч автомобилей.",
+   "affected_groups": [
+    "young_adults",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/%C3%89meutes_de_2005_dans_les_banlieues_fran%C3%A7aises",
+     "accessed": "2026-10-29",
+     "supports": "27 octobre - 17 novembre 2005; état d'urgence 8 novembre; environ 9 000 véhicules"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-2018-gilets-jaunes",
+   "title": "Движение «жёлтых жилетов»",
+   "start_date": "2018-11-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "political_change",
+   "historical_summary": "С 17 ноября 2018 года протест против роста цен на топливо вылился в блокаду дорог и многомесячное занятие кольцевых развязок; в первый день, по разным оценкам, участвовало от 290 тысяч до 1,3 млн человек.",
+   "affected_groups": [
+    "rural_residents",
+    "commuters",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "roundabout_protest",
+    "fuel_prices"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes",
+     "accessed": "2026-10-29",
+     "supports": "17 novembre 2018; ronds-points; 287 700 à 1,3 million"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

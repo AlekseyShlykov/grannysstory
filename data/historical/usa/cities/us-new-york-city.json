@@ -1,0 +1,1509 @@
+{
+ "records": [
+  {
+   "id": "us-nyc-1904-subway-opens",
+   "title": "Открытие нью-йоркского метро",
+   "start_date": "1904",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1904 г. начало работу нью-йоркское метро (линия IRT).",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_subway_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1904 subway begins operating"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1904-general-slocum",
+   "title": "Гибель парохода «Генерал Слокам»",
+   "start_date": "1904-06-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "disaster",
+   "historical_summary": "15 июня 1904 г. на Ист-Ривер загорелся и затонул экскурсионный пароход «Генерал Слокам»; погибли более тысячи пассажиров.",
+   "affected_groups": [
+    "migrants",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1904-06-15 General Slocum >1000 dead"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1911-triangle-fire",
+   "title": "Пожар на фабрике «Трайэнгл Шёртвейст»",
+   "title_original": "Triangle Shirtwaist Factory fire",
+   "start_date": "1911-03-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "labor",
+   "historical_summary": "25 марта 1911 г. пожар на швейной фабрике в Манхэттене унёс жизни 146 из примерно 500 работников. Большинство были молодыми женщинами, недавними итальянскими и еврейскими иммигрантками; пожар показал полную негодность противопожарного надзора.",
+   "affected_groups": [
+    "textile_workers",
+    "women",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "workplace_safety"
+   ],
+   "narrative_hooks": [
+    "garment_work",
+    "mother_sewing_trade"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_cornell_ilr"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_cornell_ilr",
+     "url": "https://trianglefire.ilr.cornell.edu/story/fire.html",
+     "accessed": "2026-10-29",
+     "supports": "дата, число погибших, состав работников"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "us-nyc-1916-sanger-clinic",
+   "title": "Первая клиника контроля рождаемости Маргарет Сэнгер",
+   "start_date": "1916-10-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "healthcare",
+   "historical_summary": "16 октября 1916 г. Маргарет Сэнгер открыла в Бруклине первую в стране клинику контроля рождаемости.",
+   "affected_groups": [
+    "women",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1916-10-16 first birth control clinic in Brooklyn"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1916-zoning",
+   "title": "Первое в стране постановление о зонировании",
+   "start_date": "1916",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1916 г. Нью-Йорк принял постановление о зонировании, регулирующее высоту и назначение зданий.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1916 Zoning Resolution adopted"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1918-influenza",
+   "title": "Испанский грипп в Нью-Йорке",
+   "start_date": "1918-10",
+   "end_date": "1919-02",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "public_health",
+   "historical_summary": "Осенью 1918 г. в городе свирепствовала пандемия гриппа: в один из октябрьских дней умерли 851 человек; к февралю 1919 г. число умерших достигло около 30 тыс.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "family_bereavement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1918 October 851 in one day; Feb 1919 30,000 deaths"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1918-malbone-street-wreck",
+   "title": "Крушение на Малбон-стрит",
+   "start_date": "1918-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 ноября 1918 г. в Флэтбуше поезд под управлением неопытного машиниста, подменявшего бастующих, сошёл с рельсов; погибли 97 человек.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1918-11-01 Malbone Street Wreck 97 killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1927-holland-tunnel",
+   "title": "Открытие тоннеля Холланд",
+   "start_date": "1927-11-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "13 ноября 1927 г. открылся для автомобилей тоннель Холланд под Гудзоном.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1927-11-13 Holland Tunnel opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1931-bank-of-united-states",
+   "title": "Крах Bank of United States",
+   "start_date": "1931-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В декабре 1931 г. закрылся Bank of United States — крупный нью-йоркский банк с множеством мелких вкладчиков.",
+   "affected_groups": [
+    "all_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [
+    "bank_closed_savings"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1931 Dec Bank of United States closes"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1930-unemployment-day",
+   "title": "День безработных 6 марта 1930 года",
+   "start_date": "1930-03-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "labor",
+   "historical_summary": "6 марта 1930 г. в Международный день безработных в Нью-Йорке собрались около 35 тыс. человек; произошли столкновения с полицией.",
+   "affected_groups": [
+    "unemployed"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1930-03-06 35,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1936-triborough-bridge",
+   "title": "Открытие моста Трайборо",
+   "start_date": "1936-07-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "11 июля 1936 г. открылся мост Трайборо, связавший Манхэттен, Бронкс и Куинс.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1936-07-11 Triborough Bridge opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1939-worlds-fair",
+   "title": "Всемирная выставка 1939 года",
+   "start_date": "1939-04",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В апреле 1939 г. в Куинсе открылась Всемирная выставка; в том же году открылся городской аэропорт (ныне Ла-Гуардия).",
+   "affected_groups": [
+    "all_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visited_worlds_fair"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1939 April World's Fair opens; Municipal Airport (LaGuardia) opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1943-harlem-riot",
+   "title": "Беспорядки в Гарлеме 1943 года",
+   "start_date": "1943-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "war_conflict",
+   "subcategory": "civil_unrest",
+   "historical_summary": "1 августа 1943 г. в Гарлеме начались беспорядки: около 500 раненых и 500 арестованных.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1943-08-01 Harlem riot"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1947-smallpox-vaccination",
+   "title": "Массовая вакцинация от оспы",
+   "start_date": "1947",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "public_health",
+   "historical_summary": "В 1947 г., чтобы остановить вспышку оспы, в Нью-Йорке привили более шести миллионов человек.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "queue_for_vaccination"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1947 >6 million vaccinated vs smallpox"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1947-blizzard",
+   "title": "Метель на Рождество 1947 года",
+   "start_date": "1947-12-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "disaster",
+   "historical_summary": "25 декабря 1947 г. метель парализовала город; погибли 77 человек.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "snowed_in_for_days"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1947-12-25 blizzard 77 killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1948-stuyvesant-town",
+   "title": "Заселение Стайвесант-Тауна",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1948 г. первые жильцы въехали в большой жилой комплекс Стайвесант-Таун — Питер-Купер-Виллидж в Манхэттене.",
+   "affected_groups": [
+    "tenants",
+    "veterans"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_apartment_after_war"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1948 first tenants Stuyvesant Town"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1951-rent-control",
+   "title": "Закон штата о контроле арендной платы",
+   "start_date": "1951",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1951 г. закон штата Нью-Йорк о контроле арендной платы заменил федеральные военные правила; он затронул более двух миллионов квартир.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_cost"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1951 NY rent control >2 million units"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1950-port-authority-bus-terminal",
+   "title": "Открытие автовокзала Порт-Оторити",
+   "start_date": "1950-12-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "15 декабря 1950 г. открылся автовокзал Порт-Оторити; в мае того же года — тоннель Бруклин — Бэттери.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1950 Brooklyn-Battery Tunnel May 25; Port Authority Bus Terminal Dec 15"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1958-puerto-rican-day-parade",
+   "title": "Первый Пуэрто-риканский парад",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1958 г. в Нью-Йорке впервые прошёл Пуэрто-риканский парад.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1958 Puerto Rican Day Parade begins"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1964-verrazzano-bridge",
+   "title": "Открытие моста Верразано-Нэрроуз",
+   "start_date": "1964-11-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "21 ноября 1964 г. открылся мост Верразано-Нэрроуз между Бруклином и Статен-Айлендом.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1964-11-21 Verrazzano bridge"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1964-school-boycott",
+   "title": "Бойкот государственных школ",
+   "start_date": "1964-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "education",
+   "historical_summary": "В феврале 1964 г. прошёл массовый бойкот государственных школ Нью-Йорка.",
+   "affected_groups": [
+    "school_pupils",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "Feb 1964 public school boycott"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1965-northeast-blackout",
+   "title": "Блэкаут 9 ноября 1965 года",
+   "start_date": "1965-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "disaster",
+   "historical_summary": "9 ноября 1965 г. Нью-Йорк, как и весь северо-восток, остался без электричества.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_without_power"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1965-11-09 Northeast Blackout"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1966-transit-strike",
+   "title": "Двенадцатидневная забастовка транспортников",
+   "start_date": "1966-01-01",
+   "end_date": "1966-01-12",
+   "date_precision": "day",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "labor",
+   "historical_summary": "С 1 января 1966 г. работники городского транспорта бастовали 12 дней.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "walked_to_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1966-01-01 transit workers strike 12 days"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1968-teachers-strike",
+   "title": "Забастовка учителей 1968 года",
+   "start_date": "1968",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "education",
+   "historical_summary": "В 1968 г. в Нью-Йорке прошла забастовка учителей.",
+   "affected_groups": [
+    "teachers",
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1968 NYC teachers' strike"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1973-co-op-city",
+   "title": "Открытие Ко-оп-Сити",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1973 г. в Бронксе открылся Ко-оп-Сити — крупнейший в мире кооперативный жилой комплекс.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1973 Co-op City opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1973-hip-hop-party",
+   "title": "Вечеринка на Седжвик-авеню, 1520",
+   "start_date": "1973-08-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "11 августа 1973 г. вечеринка в доме 1520 по Седжвик-авеню в Бронксе считается точкой рождения хип-хопа.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1973-08-11 hip-hop party"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1975-fiscal-crisis",
+   "title": "Финансовый кризис Нью-Йорка",
+   "start_date": "1975",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В 1975 г. город оказался на грани дефолта; 30 октября газетный заголовок «Форд — городу: сдохни» передал отказ президента поддержать спасение.",
+   "affected_groups": [
+    "all_residents",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "city_layoffs"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1975 fiscal crisis; Oct 30 headline"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1977-blackout",
+   "title": "Блэкаут 13–14 июля 1977 года",
+   "start_date": "1977-07-13",
+   "end_date": "1977-07-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "disaster",
+   "historical_summary": "13–14 июля 1977 г. город остался без электричества; отключение сопровождалось массовыми поджогами и грабежами.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_without_power"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1977-07-13..14 blackout and looting"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1980-transit-strike",
+   "title": "Забастовка транспортников 1980 года",
+   "start_date": "1980-04-01",
+   "end_date": "1980-04-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "labor",
+   "historical_summary": "1–11 апреля 1980 г. работники городского транспорта Нью-Йорка бастовали 11 дней.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "walked_to_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1980-04-01..11 transit strike"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1981-aids",
+   "title": "Начало эпидемии СПИДа в Нью-Йорке",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "public_health",
+   "historical_summary": "В 1981 г. в Нью-Йорке, ставшем первым в стране по числу случаев, появились сообщения о болезни, позже названной СПИДом; к 1999 г. в городе от неё умерли более 75 тыс. человек.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "family_bereavement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1981 AIDS reported, NYC first in cases; 1999 >75,000 deaths"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1993-wtc-bombing",
+   "title": "Взрыв в гараже Всемирного торгового центра",
+   "start_date": "1993-02-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "26 февраля 1993 г. бомба в подземном гараже ВТЦ убила шестерых и ранила более тысячи человек.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "1993-02-26 WTC bombing"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2000-population-8-million",
+   "title": "Население Нью-Йорка достигло 8 миллионов",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "migration",
+   "historical_summary": "К 2000 г. население города достигло примерно 8 млн человек; в 1990-е гг. приехали более 1,2 млн иммигрантов.",
+   "affected_groups": [
+    "migrants",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2000 population 8.0 million; 1.2 million foreign-born in 1990s"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2005-transit-strike",
+   "title": "Трёхдневная забастовка транспорта 2005 года",
+   "start_date": "2005-12-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "labor",
+   "historical_summary": "20 декабря 2005 г. началась трёхдневная забастовка городского транспорта.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2005-12-20 three-day transit strike"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2012-hurricane-sandy",
+   "title": "Ураган «Сэнди»",
+   "start_date": "2012-10-29",
+   "end_date": "2012-10-30",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "disaster",
+   "historical_summary": "29–30 октября 2012 г. ураган «Сэнди» вызвал наводнения и отключения электричества; закрылись биржа, школы и весь общественный транспорт, в городе погибли не менее 43 человек.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "flooded_basement",
+    "stairs_without_elevator"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2012-10-29..30 Sandy"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2017-second-avenue-subway",
+   "title": "Открытие линии метро на Второй авеню",
+   "start_date": "2017-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 января 2017 г. после десятилетий задержек открылся первый участок линии метро на Второй авеню.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2017-01-01 Second Avenue Subway"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2020-covid-lockdown",
+   "title": "COVID-19: закрытие школ и локдаун в Нью-Йорке",
+   "start_date": "2020-03-15",
+   "end_date": "2020-03-22",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "public_health",
+   "historical_summary": "1 марта 2020 г. в Нью-Йорке подтверждён первый случай COVID-19; 15 марта закрыты все государственные школы, 22 марта город перешёл на локдаун. 14 декабря первую прививку в городе получила медсестра.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "calls_instead_of_visits"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2020-03-01, 03-15, 03-22, 12-14"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2021-hurricane-ida",
+   "title": "Наводнение от урагана «Ида»",
+   "start_date": "2021-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "disaster",
+   "historical_summary": "1 сентября 2021 г. остатки урагана «Ида» затопили город, парализовав метро и пригородные поезда.",
+   "affected_groups": [
+    "all_residents",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "flooded_basement"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2021-09-01 Ida"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2023-migrant-arrivals",
+   "title": "Прибытие мигрантов 2023 года",
+   "start_date": "2023",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "migration",
+   "historical_summary": "В 2023 г. в Нью-Йорк прибыли более 95 тыс. мигрантов, которых размещали по всем боро.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2023 >95,000 migrants"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-2025-congestion-pricing",
+   "title": "Плата за въезд в центр Манхэттена",
+   "start_date": "2025-01-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "5 января 2025 г. в Манхэттене введена плата за въезд в зону заторов.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
+     "accessed": "2026-10-29",
+     "supports": "2025-01-05 congestion pricing"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-nyc-1907-panic",
+   "title": "Банковская паника 1907 года в Нью-Йорке",
+   "start_date": "1907-10-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "22 октября 1907 г., после неудачной спекуляции акциями и бегства вкладчиков, приостановил работу трастовый банк Knickerbocker Trust, из которого за несколько дней забрали почти 8 млн долл.; паника охватила Нью-Йорк. Кризис дал толчок реформе, приведшей к созданию Федеральной резервной системы.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_fed_history"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_fed_history",
+     "url": "https://www.federalreservehistory.org/essays/panic-of-1907",
+     "accessed": "2026-10-29",
+     "supports": "хронология паники, Knickerbocker Trust, последствия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

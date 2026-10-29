@@ -1,0 +1,202 @@
+{
+  "records": [
+    {
+      "id": "ru-torzhok-1931-flax-institute",
+      "title": "В Торжке создан институт льна",
+      "title_original": null,
+      "start_date": "1931",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-torzhok"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В 1931 году в Торжке был создан Всесоюзный научно-исследовательский институт льна.",
+      "affected_groups": [
+        "scientists_engineers",
+        "agricultural_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Торжок",
+          "accessed": "2026-10-29",
+          "supports": "1931 институт льна"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-torzhok-1941-advance-stopped",
+      "title": "Бои на подступах к Торжку",
+      "title_original": null,
+      "start_date": "1941-10-14",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": true,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-torzhok"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "После взятия Калинина в октябре 1941 года немецкие части пытались наступать на Торжок; их остановила оперативная группа Северо-Западного фронта под командованием Н. Ф. Ватутина.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Торжок",
+          "accessed": "2026-10-29",
+          "supports": "14 октября 1941, группа Ватутина"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-torzhok-2012-shell-plant",
+      "title": "В Торжке открыт завод смазочных масел",
+      "title_original": null,
+      "start_date": "2012",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-torzhok"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 2012 году в Торжке открылся завод смазочных материалов компании Royal Dutch Shell; ранее, в 2009 году, здесь заработал завод дымоходов и вентиляции немецкой фирмы Schiedel.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [
+        "employment_change"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Торжок",
+          "accessed": "2026-10-29",
+          "supports": "2009, 2012"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-torzhok-2016-torvz-bankrupt",
+      "title": "Банкротство Торжокского вагоностроительного завода",
+      "title_original": null,
+      "start_date": "2016",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-torzhok"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 2016 году Торжокский вагоностроительный завод, выпускавший электропоезда, был признан банкротом; в декабре 2018 года предприятие перешло к новому владельцу, планировавшему возобновить производство.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [
+        "job_loss"
+      ],
+      "narrative_hooks": [
+        "factory_closure"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Торжок",
+          "accessed": "2026-10-29",
+          "supports": "2016, декабрь 2018"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-torzhok-2015-solblago-train-ended",
+      "title": "Прекращено пассажирское движение Торжок — Соблаго",
+      "title_original": null,
+      "start_date": "2015",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-torzhok"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 2015 году прекратилось пассажирское сообщение по железнодорожной линии Торжок — Соблаго.",
+      "affected_groups": [
+        "rural_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Торжок",
+          "accessed": "2026-10-29",
+          "supports": "2015"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

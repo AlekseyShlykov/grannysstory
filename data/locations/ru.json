@@ -1,0 +1,976 @@
+{
+  "locations": [
+    {
+      "id": "ru-gub-moskovskaya",
+      "type": "governorate",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Московская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Московская губерния",
+          "locative": "в Московской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_to": "1929-09-30"
+    },
+    {
+      "id": "ru-gub-peterburgskaya",
+      "type": "governorate",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Санкт-Петербургская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроградская губерния",
+          "lang": "ru",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинградская губерния",
+          "lang": "ru",
+          "from": "1924-01-26",
+          "to": "1927-07-31"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Санкт-Петербургская губерния",
+          "locative": "в Санкт-Петербургской губернии",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроградская губерния",
+          "locative": "в Петроградской губернии",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинградская губерния",
+          "locative": "в Ленинградской губернии",
+          "from": "1924-01-26",
+          "to": "1927-07-31"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1927-07-31"
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia",
+        "ru_prlib"
+      ],
+      "valid_to": "1927-07-31"
+    },
+    {
+      "id": "ru-gub-novgorodskaya",
+      "type": "governorate",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Новгородская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1927-07-31"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Новгородская губерния",
+          "locative": "в Новгородской губернии",
+          "from": null,
+          "to": "1927-07-31"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1927-07-31"
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_to": "1927-07-31"
+    },
+    {
+      "id": "ru-gub-tverskaya",
+      "type": "governorate",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Тверская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Тверская губерния",
+          "locative": "в Тверской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_to": "1929-09-30"
+    },
+    {
+      "id": "ru-gub-smolenskaya",
+      "type": "governorate",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Смоленская губерния",
+          "lang": "ru",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Смоленская губерния",
+          "locative": "в Смоленской губернии",
+          "from": null,
+          "to": "1929-09-30"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": null,
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1929-09-30"
+        }
+      ],
+      "sovereignty_note": "В январе 1919 года губерния кратковременно входила в провозглашённую ССР Белоруссии; в иерархии не отражено (упрощение).",
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_to": "1929-09-30"
+    },
+    {
+      "id": "ru-moscow-oblast",
+      "type": "oblast",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Центрально-Промышленная область",
+          "lang": "ru",
+          "from": "1929-01-14",
+          "to": "1929-06-02"
+        },
+        {
+          "name": "Московская область",
+          "lang": "ru",
+          "from": "1929-06-03",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Центрально-Промышленная область",
+          "locative": "в Центрально-Промышленной области",
+          "from": "1929-01-14",
+          "to": "1929-06-02"
+        },
+        {
+          "name": "Московская область",
+          "locative": "в Московской области",
+          "from": "1929-06-03",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1929-01-14",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_from": "1929-01-14"
+    },
+    {
+      "id": "ru-leningrad-oblast",
+      "type": "oblast",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Ленинградская область",
+          "lang": "ru",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Ленинградская область",
+          "locative": "в Ленинградской области",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_from": "1927-08-01"
+    },
+    {
+      "id": "ru-novgorod-oblast",
+      "type": "oblast",
+      "country": "RU",
+      "wikidata": "Q2240",
+      "codes": {},
+      "names": [
+        {
+          "name": "Новгородская область",
+          "lang": "ru",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Новгородская область",
+          "locative": "в Новгородской области",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia",
+        "wikidata"
+      ],
+      "valid_from": "1944-07-05"
+    },
+    {
+      "id": "ru-western-oblast",
+      "type": "oblast",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Западная область",
+          "lang": "ru",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Западная область",
+          "locative": "в Западной области",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_from": "1929-10-01",
+      "valid_to": "1937-09-26"
+    },
+    {
+      "id": "ru-smolensk-oblast",
+      "type": "oblast",
+      "country": "RU",
+      "wikidata": "Q2347",
+      "codes": {},
+      "names": [
+        {
+          "name": "Смоленская область",
+          "lang": "ru",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Смоленская область",
+          "locative": "в Смоленской области",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia",
+        "wikidata"
+      ],
+      "valid_from": "1937-09-27"
+    },
+    {
+      "id": "ru-tver-oblast",
+      "type": "oblast",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Калининская область",
+          "lang": "ru",
+          "from": "1935-01-29",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверская область",
+          "lang": "ru",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Калининская область",
+          "locative": "в Калининской области",
+          "from": "1935-01-29",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверская область",
+          "locative": "в Тверской области",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [
+        {
+          "by_ru": "Германия (западные и южные районы, частично)",
+          "from": "1941-07",
+          "to": "1944-07-19",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "valid_from": "1935-01-29"
+    },
+    {
+      "id": "ru-moscow",
+      "type": "city",
+      "country": "RU",
+      "wikidata": "Q649",
+      "codes": {},
+      "names": [
+        {
+          "name": "Москва",
+          "lang": "ru",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Москва",
+          "locative": "в Москве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 55.7506,
+        "lon": 37.6175,
+        "source_id": "wikidata"
+      },
+      "parents": [
+        {
+          "id": "ru-gub-moskovskaya",
+          "from": null,
+          "to": "1929-09-30"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-10-01",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia",
+        "wikidata"
+      ],
+      "settlement_class": "capital",
+      "legacy_ids": [
+        "moscow"
+      ]
+    },
+    {
+      "id": "ru-saint-petersburg",
+      "type": "city",
+      "country": "RU",
+      "wikidata": "Q656",
+      "codes": {},
+      "names": [
+        {
+          "name": "Санкт-Петербург",
+          "lang": "ru",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроград",
+          "lang": "ru",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинград",
+          "lang": "ru",
+          "from": "1924-01-26",
+          "to": "1991-09-05"
+        },
+        {
+          "name": "Санкт-Петербург",
+          "lang": "ru",
+          "from": "1991-09-06",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Санкт-Петербург",
+          "locative": "в Санкт-Петербурге",
+          "from": null,
+          "to": "1914-08-30"
+        },
+        {
+          "name": "Петроград",
+          "locative": "в Петрограде",
+          "from": "1914-08-31",
+          "to": "1924-01-25"
+        },
+        {
+          "name": "Ленинград",
+          "locative": "в Ленинграде",
+          "from": "1924-01-26",
+          "to": "1991-09-05"
+        },
+        {
+          "name": "Санкт-Петербург",
+          "locative": "в Санкт-Петербурге",
+          "from": "1991-09-06",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 59.95,
+        "lon": 30.3167,
+        "source_id": "wikidata"
+      },
+      "parents": [
+        {
+          "id": "ru-gub-peterburgskaya",
+          "from": null,
+          "to": "1927-07-31"
+        },
+        {
+          "id": "ru-leningrad-oblast",
+          "from": "1927-08-01",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia",
+        "ru_prlib",
+        "ru_encspb",
+        "wikidata"
+      ],
+      "settlement_class": "large_city",
+      "legacy_ids": [
+        "saint-petersburg"
+      ]
+    },
+    {
+      "id": "ru-tver",
+      "type": "city",
+      "country": "RU",
+      "wikidata": "Q2288",
+      "codes": {},
+      "names": [
+        {
+          "name": "Тверь",
+          "lang": "ru",
+          "from": null,
+          "to": "1931-11-19"
+        },
+        {
+          "name": "Калинин",
+          "lang": "ru",
+          "from": "1931-11-20",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверь",
+          "lang": "ru",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Тверь",
+          "locative": "в Твери",
+          "from": null,
+          "to": "1931-11-19"
+        },
+        {
+          "name": "Калинин",
+          "locative": "в Калинине",
+          "from": "1931-11-20",
+          "to": "1990-07-16"
+        },
+        {
+          "name": "Тверь",
+          "locative": "в Твери",
+          "from": "1990-07-17",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 56.8578,
+        "lon": 35.9219,
+        "source_id": "wikidata"
+      },
+      "parents": [
+        {
+          "id": "ru-gub-tverskaya",
+          "from": null,
+          "to": "1929-07-11"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1941-10-17",
+          "to": "1941-12-16",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia",
+        "wikidata"
+      ],
+      "settlement_class": "large_city",
+      "legacy_ids": [
+        "tver"
+      ]
+    },
+    {
+      "id": "ru-veliky-novgorod",
+      "type": "city",
+      "country": "RU",
+      "wikidata": "Q2235",
+      "codes": {},
+      "names": [
+        {
+          "name": "Новгород",
+          "lang": "ru",
+          "from": null,
+          "to": "1999-06-10"
+        },
+        {
+          "name": "Великий Новгород",
+          "lang": "ru",
+          "from": "1999-06-11",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Новгород",
+          "locative": "в Новгороде",
+          "from": null,
+          "to": "1999-06-10"
+        },
+        {
+          "name": "Великий Новгород",
+          "locative": "в Великом Новгороде",
+          "from": "1999-06-11",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-gub-novgorodskaya",
+          "from": null,
+          "to": "1927-07-31"
+        },
+        {
+          "id": "ru-leningrad-oblast",
+          "from": "1927-08-01",
+          "to": "1944-07-04"
+        },
+        {
+          "id": "ru-novgorod-oblast",
+          "from": "1944-07-05",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [
+        {
+          "by_ru": "Германия (с участием испанской «Голубой дивизии»)",
+          "from": "1941-08-15",
+          "to": "1944-01-20",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia",
+        "ru_prlib",
+        "wikidata"
+      ],
+      "settlement_class": "medium_city",
+      "legacy_ids": [
+        "veliky-novgorod"
+      ]
+    },
+    {
+      "id": "ru-smolensk",
+      "type": "city",
+      "country": "RU",
+      "wikidata": "Q2337",
+      "codes": {},
+      "names": [
+        {
+          "name": "Смоленск",
+          "lang": "ru",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Смоленск",
+          "locative": "в Смоленске",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-gub-smolenskaya",
+          "from": null,
+          "to": "1929-09-30"
+        },
+        {
+          "id": "ru-western-oblast",
+          "from": "1929-10-01",
+          "to": "1937-09-26"
+        },
+        {
+          "id": "ru-smolensk-oblast",
+          "from": "1937-09-27",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [
+        {
+          "by_ru": "Германия",
+          "from": "1941-07-16",
+          "to": "1943-09-25",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia",
+        "wikidata"
+      ],
+      "settlement_class": "medium_city",
+      "legacy_ids": [
+        "smolensk"
+      ]
+    },
+    {
+      "id": "ru-torzhok",
+      "type": "town",
+      "country": "RU",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Торжок",
+          "lang": "ru",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Торжок",
+          "locative": "в Торжке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [
+        "Новоторжок"
+      ],
+      "coordinates": {
+        "lat": 57.0333,
+        "lon": 34.9667,
+        "source_id": "wikidata"
+      },
+      "parents": [
+        {
+          "id": "ru-gub-tverskaya",
+          "from": null,
+          "to": "1929-07-11"
+        },
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "settlement_class": "small_town",
+      "notes_ru": "Центр Новоторжского уезда; с 12.07.1929 в Тверском округе Московской области; Q196678 в Wikidata — городской округ, QID самого города не проверен."
+    },
+    {
+      "id": "ru-konakovsky-raion",
+      "type": "raion",
+      "country": "RU",
+      "wikidata": "Q394616",
+      "codes": {},
+      "names": [
+        {
+          "name": "Кузнецовский район",
+          "lang": "ru",
+          "from": "1929-07-12",
+          "to": "1930-02-25"
+        },
+        {
+          "name": "Конаковский район",
+          "lang": "ru",
+          "from": "1930-02-26",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Кузнецовский район",
+          "locative": "в Кузнецовском районе",
+          "from": "1929-07-12",
+          "to": "1930-02-25"
+        },
+        {
+          "name": "Конаковский район",
+          "locative": "в Конаковском районе",
+          "from": "1930-02-26",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "ru-moscow-oblast",
+          "from": "1929-07-12",
+          "to": "1935-01-28"
+        },
+        {
+          "id": "ru-tver-oblast",
+          "from": "1935-01-29",
+          "to": null
+        }
+      ],
+      "sovereignty_note": null,
+      "occupations": [],
+      "source_ids": [
+        "ru_wikipedia",
+        "wikidata"
+      ],
+      "valid_from": "1929-07-12",
+      "notes_ru": "Сельский район с городом Конаково и посёлками; с 2020-х годов муниципальный округ (упрощено как raion)."
+    }
+  ]
+}

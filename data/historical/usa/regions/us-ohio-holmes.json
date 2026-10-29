@@ -1,0 +1,286 @@
+{
+ "records": [
+  {
+   "id": "us-holmes-1950s-tourism-begins",
+   "title": "Начало туризма в «амишской стране»",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С 1950-х гг. округ Холмс начали продвигать как туристическое направление; бродвейский мюзикл «Plain and Fancy» (1955) подогрел интерес к амишам, в 1960-е появились автобусные туры.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "tourists_on_farm_road"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
+     "accessed": "2026-10-29",
+     "supports": "1950s promotion; 1955 Plain and Fancy; 1960s bus tours"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-holmes-1990s-organic-dairy",
+   "title": "Переход амишских ферм на органическое молоко",
+   "start_date": "1997",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1990-е гг. амишские фермеры стали переходить на органические методы: в 1997 г. в Огайо не было ни одной сертифицированной органической молочной фермы, а через несколько лет их стало больше сотни.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
+     "accessed": "2026-10-29",
+     "supports": "1997 no certified organic dairies; >100 within a few years"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-holmes-2012-four-million-tourists",
+   "title": "Четыре миллиона туристов в год",
+   "start_date": "2012",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "local_economy",
+   "historical_summary": "К 2012 г. амишскую страну ежегодно посещали около четырёх миллионов туристов с прямым экономическим эффектом около 154 млн долл.; в 2017 г. округ Холмс был вторым по посещаемости направлением в Огайо.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
+     "accessed": "2026-10-29",
+     "supports": "2012 4 million tourists, $154 million; 2017 second most visited"
+    },
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Holmes_County,_Ohio",
+     "accessed": "2026-10-29",
+     "supports": "2017 second most popular tourist destination"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-holmes-2014-measles-outbreak",
+   "title": "Вспышка кори в округах Холмс и Нокс",
+   "start_date": "2014",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "public_health",
+   "historical_summary": "В 2014 г. в округах Холмс и Нокс произошла вспышка кори после возвращения участников миссионерской поездки на Филиппины.",
+   "affected_groups": [
+    "children",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
+     "accessed": "2026-10-29",
+     "supports": "2014 measles outbreak Holmes and Knox"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-holmes-2020-covid-masks",
+   "title": "Пандемия COVID-19 в округе Холмс",
+   "start_date": "2020-04",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "public_health",
+   "historical_summary": "В апреле 2020 г. амишские швеи шили маски для Cleveland Clinic, местные мастерские выпускали защитное снаряжение; в 2021 г. в округе Холмс был самый низкий в Огайо уровень вакцинации от COVID-19.",
+   "affected_groups": [
+    "rural_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
+     "accessed": "2026-10-29",
+     "supports": "April 2020 masks for Cleveland Clinic; 2021 lowest vaccination rate"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-holmes-1969-flood-railroad",
+   "title": "Наводнение 1969 года и конец железной дороги в округе Холмс",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1969 г. сильное наводнение размыло железнодорожное полотно ветки, доходившей до Миллерсберга с 1854 г., и движение по ней прекратилось. В 2005 г. на её месте открыли Holmes County Trail — первую в США тропу с отдельной полосой для амишских повозок.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "last_train_through_town"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_connected_world",
+    "us_west2k_stations"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_connected_world",
+     "url": "https://connectedworld.com/riding-the-former-rails/",
+     "accessed": "2026-10-29",
+     "supports": "1854, наводнение 1969, тропа 2005, полоса для повозок"
+    },
+    {
+     "source_id": "us_west2k_stations",
+     "url": "https://west2k.com/ohstations/holmes.shtml",
+     "accessed": "2026-10-29",
+     "supports": "разрушение ветки B&O паводком в конце 1960-х"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "low"
+  },
+  {
+   "id": "us-holmes-2005-holmes-county-trail",
+   "title": "Открытие тропы Holmes County Trail",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2005 г. на месте бывшей железной дороги открылась тропа Holmes County Trail с полосой для конных повозок амишей; в Миллерсберге в том же году перенесли и отреставрировали вокзал 1853 г.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_connected_world",
+    "us_west2k_stations"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_connected_world",
+     "url": "https://connectedworld.com/riding-the-former-rails/",
+     "accessed": "2026-10-29",
+     "supports": "открытие 2005, полоса для повозок"
+    },
+    {
+     "source_id": "us_west2k_stations",
+     "url": "https://west2k.com/ohstations/holmes.shtml",
+     "accessed": "2026-10-29",
+     "supports": "перенос и реставрация вокзала в 2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

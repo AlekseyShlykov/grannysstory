@@ -1,0 +1,395 @@
+{
+  "records": [
+    {
+      "id": "ru-smolensk-1901-tram",
+      "title": "В Смоленске пущен трамвай",
+      "title_original": null,
+      "start_date": "1901-10-20",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "7 (20) октября 1901 года в Смоленске открылось трамвайное движение.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленский_трамвай",
+          "accessed": "2026-10-29",
+          "supports": "7 (20) октября 1901"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1926-aviation-plant",
+      "title": "Основан Смоленский авиазавод",
+      "title_original": null,
+      "start_date": "1926",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1926 году в Смоленске был основан авиационный завод.",
+      "affected_groups": [
+        "industrial_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "1926"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1941-occupation",
+      "title": "Оккупация Смоленска",
+      "title_original": null,
+      "start_date": "1941-07-16",
+      "end_date": "1943-09-25",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "После боёв 15–28 июля 1941 года Смоленск был занят немецкими войсками 16 июля 1941 года и находился под оккупацией более двух лет; трамвай не ходил с 15 июля 1941 до 6 ноября 1947 года.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "displacement"
+      ],
+      "narrative_hooks": [
+        "evacuation"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "16.07.1941"
+        },
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленский_трамвай",
+          "accessed": "2026-10-29",
+          "supports": "перерыв трамвая 1941–1947"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1947-tram-resumed",
+      "title": "Трамвай вернулся в Смоленск",
+      "title_original": null,
+      "start_date": "1947-11-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "6 ноября 1947 года в восстановленном Смоленске возобновили трамвайное движение.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленский_трамвай",
+          "accessed": "2026-10-29",
+          "supports": "06.11.1947"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1951-railway-station",
+      "title": "Новый вокзал",
+      "title_original": null,
+      "start_date": "1951",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1951 году в Смоленске завершили строительство нового железнодорожного вокзала (1949–1951).",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "1949–1951"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1952-birch-bark",
+      "title": "Первая смоленская берестяная грамота",
+      "title_original": null,
+      "start_date": "1952-07-30",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "30 июля 1952 года при раскопках на улице Соболева нашли первую в Смоленске берестяную грамоту.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "30.07.1952"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1963-kristall",
+      "title": "Основан завод «Кристалл»",
+      "title_original": null,
+      "start_date": "1963",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1963 году в Смоленске появилось предприятие по огранке алмазов «Кристалл».",
+      "affected_groups": [
+        "industrial_workers",
+        "women"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "1963"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1985-hero-city",
+      "title": "Смоленск — город-герой",
+      "title_original": null,
+      "start_date": "1985-05-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "6 мая 1985 года Смоленску присвоено звание «Город-герой».",
+      "affected_groups": [
+        "veterans"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "06.05.1985"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-1991-trolleybus",
+      "title": "В Смоленске пошёл троллейбус",
+      "title_original": null,
+      "start_date": "1991-04-08",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "8 апреля 1991 года в Смоленске открылось троллейбусное движение.",
+      "affected_groups": [
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "08.04.1991"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-smolensk-2010-polish-air-crash",
+      "title": "Катастрофа польского самолёта под Смоленском",
+      "title_original": null,
+      "start_date": "2010-04-10",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "10 апреля 2010 года при заходе на посадку на аэродром Северный в тумане разбился Ту-154 с польской делегацией во главе с президентом Лехом Качиньским, летевшей на мемориал в Катыни.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Смоленск",
+          "accessed": "2026-10-29",
+          "supports": "10.04.2010"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

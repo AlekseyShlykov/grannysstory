@@ -1,0 +1,239 @@
+{
+ "records": [
+  {
+   "id": "pl-nat-1918-independence",
+   "title": "Восстановление независимости Польши",
+   "start_date": "1918-11-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "После поражения Центральных держав Юзеф Пилсудский, прибывший в Варшаву 10 ноября, 11 ноября 1918 г. получил командование войском; эта дата отмечается как начало независимости. Регентский совет вскоре передал ему всю власть.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "national_identity_change",
+    "school_language_change"
+   ],
+   "narrative_hooks": [
+    "family_memory_of_independence_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "11.11.1918 Пилсудский получил военную власть; дата празднуется как начало независимости"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
+     "accessed": "2026-10-29",
+     "supports": "приезд Пилсудского 10.11, власть над войском 11.11.1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1918-electoral-decree",
+   "title": "Избирательный закон: голосуют все граждане с 21 года, без различия пола",
+   "title_original": "Dekret o ordynacji wyborczej do Sejmu Ustawodawczego",
+   "start_date": "1918-11-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Декрет Начальника государства от 28 ноября 1918 г. об избирательном праве в Учредительный сейм признал избирателем каждого гражданина без различия пола, достигшего 21 года; так польские женщины получили право голоса.",
+   "affected_groups": [
+    "women",
+    "all_residents"
+   ],
+   "eligibility": {
+    "min_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "mother_first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1918/46",
+     "accessed": "2026-10-29",
+     "supports": "Dz.P.P.P. 1918 poz. 46, ст. 1: каждый гражданин без различия пола, 21 год"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1919-sejm-elections",
+   "title": "Выборы в Учредительный сейм",
+   "start_date": "1919-01-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "Правительство Падеревского провело 26 января 1919 г. выборы в Учредительный сейм по демократическому избирательному закону от 28 ноября 1918 г.; сейм открылся 10 февраля 1919 г.",
+   "affected_groups": [
+    "all_residents",
+    "women",
+    "men"
+   ],
+   "eligibility": {
+    "min_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_time_voting"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
+     "accessed": "2026-10-29",
+     "supports": "ордонанс 28.11.1918, выборы 26.01.1919, открытие сейма 10.02.1919"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1919-compulsory-schooling",
+   "title": "Декрет об обязательном школьном обучении",
+   "title_original": "Dekret o obowiązku szkolnym",
+   "start_date": "1919-02-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "education",
+   "historical_summary": "Декрет от 7 февраля 1919 г. сделал обучение в объёме общей (повшехной) школы обязательным для всех детей школьного возраста; гмина обязана открыть школу там, где не меньше 40 детей 7–14 лет.",
+   "affected_groups": [
+    "children",
+    "school_pupils",
+    "rural_residents"
+   ],
+   "eligibility": {
+    "max_age": 14
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_school_in_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1919/147",
+     "accessed": "2026-10-29",
+     "supports": "Dz.P.P.P. 1919 nr 14 poz. 147, ст. 1–3: обязательность, 40 детей 7–14 лет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1919-polish-soviet-war",
+   "title": "Польско-советская война",
+   "start_date": "1919-02-14",
+   "end_date": "1921-03",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Война с Советской Россией началась столкновением под Мостами 14 февраля 1919 г. и завершилась Рижским миром в марте 1921 г.; в августе 1920 г. под Варшавой произошло решающее сражение (15 августа ныне День Войска Польского).",
+   "affected_groups": [
+    "men",
+    "soldiers_families",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "groups_any": [
+     "men",
+     "soldiers_families"
+    ]
+   },
+   "potential_impacts": [
+    "family_member_mobilised",
+    "loss_of_relative"
+   ],
+   "narrative_hooks": [
+    "father_or_brother_at_front"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
+     "accessed": "2026-10-29",
+     "supports": "начало 14.02.1919 под Мостами, конец — Рижский договор март 1921"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "Варшавская битва 1920, 15 августа — День Войска Польского"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

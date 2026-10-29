@@ -1,0 +1,48 @@
+[
+  {
+    "id": "moscow",
+    "regionId": "moscow",
+    "coordinates": { "lat": 55.750556, "lon": 37.6175 },
+    "sourceId": "wikidata_places",
+    "names": [{ "from": 1147, "to": 9999, "name": "Москва" }]
+  },
+  {
+    "id": "saint-petersburg",
+    "regionId": "leningrad",
+    "coordinates": { "lat": 59.95, "lon": 30.316667 },
+    "sourceId": "wikidata_places",
+    "names": [
+      { "from": 1914, "to": 1923, "name": "Петроград" },
+      { "from": 1924, "to": 1990, "name": "Ленинград" },
+      { "from": 1991, "to": 9999, "name": "Санкт-Петербург" }
+    ]
+  },
+  {
+    "id": "tver",
+    "regionId": "tver",
+    "coordinates": { "lat": 56.857828, "lon": 35.921928 },
+    "sourceId": "wikidata_places",
+    "names": [
+      { "from": 1135, "to": 1930, "name": "Тверь" },
+      { "from": 1931, "to": 1989, "name": "Калинин" },
+      { "from": 1990, "to": 9999, "name": "Тверь" }
+    ]
+  },
+  {
+    "id": "veliky-novgorod",
+    "regionId": "novgorod",
+    "coordinates": { "lat": 58.520989, "lon": 31.275789 },
+    "sourceId": "wikidata_places",
+    "names": [
+      { "from": 859, "to": 1998, "name": "Новгород" },
+      { "from": 1999, "to": 9999, "name": "Великий Новгород" }
+    ]
+  },
+  {
+    "id": "smolensk",
+    "regionId": "smolensk",
+    "coordinates": { "lat": 54.782778, "lon": 32.045278 },
+    "sourceId": "wikidata_places",
+    "names": [{ "from": 863, "to": 9999, "name": "Смоленск" }]
+  }
+]

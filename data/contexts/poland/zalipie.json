@@ -1,0 +1,129 @@
+{
+ "records": [
+  {
+   "id": "pl-ctx-1945-1979-zalipie-painting",
+   "country_code": "PL",
+   "location_id": "pl-zalipie",
+   "period_start": 1945,
+   "period_end": 1979,
+   "context_type": "leisure_culture",
+   "attribute": "folk_painting",
+   "title": "Как расписывали хаты в Залипье",
+   "description": "После Второй мировой в Залипье деревянные дома постепенно сменялись кирпичными, и старая роспись вокруг печей уходила; порошковые краски, замешанные на молоке, использовались до 1970-х, потом их сменили плакатные краски и темпера. Конкурс «Расписная хата» проводится с 1948 г. В 2011 г. в деревне жили 739 человек.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 739,
+     "unit": "persons",
+     "year": 2011,
+     "area_id": "pl-zalipie",
+     "population": "все жители деревни",
+     "method_note": "перепись 2011 (по статье)",
+     "source_id": "pl_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "pl_dom_malarek",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dom_malarek",
+     "url": "http://dommalarek.pl/zalipie/",
+     "accessed": "2026-10-29",
+     "supports": "кирпичные дома после войны; краски на молоке до 1970-х"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Zalipie_(województwo_małopolskie)",
+     "accessed": "2026-10-29",
+     "supports": "739 жителей (2011); конкурс 1948"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-ctx-1995-2024-olesno-dabrowski",
+   "country_code": "PL",
+   "location_id": "pl-zalipie",
+   "period_start": 1995,
+   "period_end": 2024,
+   "context_type": "work",
+   "attribute": "rural_labour_market",
+   "title": "Окрестности Залипья: гмина Олесно и Домбровский повят",
+   "description": "Статистика доступна только на уровне гмины Олесно (куда входит Залипье) и Домбровского повята: население гмины почти не менялось (7670 в 1995 г., 7618 в 2024 г.), а безработица в повяте была высокой — 21,2% в 2004 г., 20,3% в 2013 г., 11,3% в 2024 г. Данные по самой деревне не выделены.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 7670,
+     "unit": "persons",
+     "year": 1995,
+     "area_id": "pl-zalipie",
+     "population": "все жители гмины Олесно (Залипье — одна из её деревень)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "population",
+     "value": 7618,
+     "unit": "persons",
+     "year": 2024,
+     "area_id": "pl-zalipie",
+     "population": "все жители гмины Олесно (Залипье — одна из её деревень)",
+     "method_note": "ludność ogółem, stan na 31 XII (BDL, zmienna 72305)",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 21.2,
+     "unit": "%",
+     "year": 2004,
+     "area_id": "pl-zalipie",
+     "population": "экономически активные жители Домбровского повята",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 20.3,
+     "unit": "%",
+     "year": 2013,
+     "area_id": "pl-zalipie",
+     "population": "экономически активные жители Домбровского повята",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    },
+    {
+     "indicator": "registered_unemployment_rate",
+     "value": 11.3,
+     "unit": "%",
+     "year": 2024,
+     "area_id": "pl-zalipie",
+     "population": "экономически активные жители Домбровского повята",
+     "method_note": "stopa bezrobocia rejestrowanego, stan na 31 XII (BDL, zmienna 60270); с 2020 г. знаменатель пересчитан по новым данным, ряды не вполне сопоставимы",
+     "source_id": "pl_gus_bdl"
+    }
+   ],
+   "source_ids": [
+    "pl_gus_bdl"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/011212404052?var-id=72305&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "население гмины Олесно"
+    },
+    {
+     "source_id": "pl_gus_bdl",
+     "url": "https://bdl.stat.gov.pl/api/v1/data/by-unit/011212404000?var-id=60270&format=json&lang=pl",
+     "accessed": "2026-10-29",
+     "supports": "безработица в Домбровском повяте"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

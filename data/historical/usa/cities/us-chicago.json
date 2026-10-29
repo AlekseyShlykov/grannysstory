@@ -1,0 +1,1352 @@
+{
+ "records": [
+  {
+   "id": "us-chicago-1900-sanitary-canal",
+   "title": "Открытие Санитарного судоходного канала",
+   "start_date": "1900",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1900 г. открылся Санитарный и судоходный канал, повернувший течение реки Чикаго от озера Мичиган, откуда город брал питьевую воду.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1900 Sanitary and Ship Canal opens, reversing the river"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1903-iroquois-theater-fire",
+   "title": "Пожар в театре «Ирокез»",
+   "start_date": "1903-12-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "disaster",
+   "historical_summary": "30 декабря 1903 г. в чикагском театре «Ирокез» произошёл пожар во время дневного спектакля.",
+   "affected_groups": [
+    "all_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1903-12-30 Iroquois Theater Fire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1915-eastland-disaster",
+   "title": "Катастрофа парохода «Истленд»",
+   "start_date": "1915-07-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "disaster",
+   "historical_summary": "24 июля 1915 г. на реке Чикаго у причала опрокинулся пассажирский пароход «Истленд», зафрахтованный для заводского пикника.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "company_picnic"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1915-07-24 SS Eastland disaster"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1915-great-migration",
+   "title": "Начало Великой миграции в Чикаго",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "migration",
+   "historical_summary": "Около 1915 г. в Чикаго начался массовый приезд афроамериканцев с Юга (Великая миграция).",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "family_came_from_south"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1915 Great Migration begins"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1918-influenza",
+   "title": "Испанский грипп в Чикаго",
+   "start_date": "1918-09",
+   "end_date": "1918-11",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "public_health",
+   "historical_summary": "С сентября по ноябрь 1918 г. испанский грипп унёс в Чикаго более 8500 жизней.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "family_bereavement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1918 Spanish flu kills over 8,500 Sept–Nov"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1919-race-riot",
+   "title": "Расовые беспорядки 1919 года в Чикаго",
+   "start_date": "1919-07-27",
+   "end_date": "1919-08-03",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "war_conflict",
+   "subcategory": "civil_unrest",
+   "historical_summary": "27 июля — 3 августа 1919 г. на Саут-Сайде после гибели чернокожего подростка Юджина Уильямса на сегрегированном пляже начались беспорядки: 38 погибших (23 чернокожих и 15 белых), 537 раненых, около тысячи оставшихся без крова.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chicago_race_riot_of_1919",
+     "accessed": "2026-10-29",
+     "supports": "даты, жертвы, причина"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1923-first-zoning",
+   "title": "Первое постановление о зонировании",
+   "start_date": "1923",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1923 г. Чикаго принял первое постановление о зонировании, разделившее город на жилые, торговые и промышленные зоны.",
+   "affected_groups": [
+    "homeowners",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1923 first zoning ordinance"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1927-municipal-airport",
+   "title": "Открытие Муниципального аэропорта (Мидуэй)",
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1927 г. открылся Муниципальный аэропорт Чикаго, позже названный Мидуэй.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1927 Chicago Municipal Airport (later Midway) opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1930-unemployment-rally",
+   "title": "Митинг безработных 6 марта 1930 года",
+   "start_date": "1930-03-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "labor",
+   "historical_summary": "6 марта 1930 г., в Международный день безработных, на митинг в Чикаго вышли около 50 тыс. человек.",
+   "affected_groups": [
+    "unemployed",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1930-03-06 rally 50,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1933-century-of-progress",
+   "title": "Всемирная выставка «Век прогресса»",
+   "title_original": "A Century of Progress International Exposition",
+   "start_date": "1933",
+   "end_date": "1934",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1933–1934 гг. в Чикаго проходила Всемирная выставка «Век прогресса»; в 1933 г. открылся Музей науки и промышленности.",
+   "affected_groups": [
+    "all_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visited_worlds_fair"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1933–34 Century of Progress; Museum of Science and Industry opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1937-memorial-day-massacre",
+   "title": "Расстрел на День памяти 1937 года",
+   "start_date": "1937",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1937 г. во время забастовки сталелитейщиков полиция расстреляла демонстрацию рабочих (Memorial Day massacre).",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1937 steelworkers strike and Memorial Day massacre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1950-population-peak",
+   "title": "Пик населения Чикаго",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "По переписи 1950 г. в Чикаго жили 3 620 962 человека — исторический максимум; к 1980 г. население опустилось до 3 005 072.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "population 1950 peak and 1980"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1955-emmett-till-funeral",
+   "title": "Прощание с Эмметом Тиллом",
+   "start_date": "1955-09-03",
+   "end_date": "1955-09-06",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "political_change",
+   "historical_summary": "3–6 сентября 1955 г. тысячи людей пришли в Чикаго на прощание с убитым в Миссисипи 14-летним Эмметом Тиллом.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1955-09-03..06 thousands attend visitation"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1955-expressways",
+   "title": "Строительство скоростных автомагистралей",
+   "start_date": "1955-12-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "15 декабря 1955 г. открылась автомагистраль Эйзенхауэра; в 1951 г. — Эденс, в 1960 г. — Кеннеди, в 1961 г. — Дэн Райан.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "suburban_move"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "даты открытия Edens 1951, Eisenhower 1955, Kennedy 1960, Dan Ryan 1961"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1958-our-lady-of-angels-fire",
+   "title": "Пожар в школе Богоматери Ангелов",
+   "start_date": "1958-12-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "disaster",
+   "historical_summary": "1 декабря 1958 г. пожар в католической школе Our Lady of the Angels в Чикаго.",
+   "affected_groups": [
+    "school_pupils",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1958-12-01 school fire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1958-last-streetcar",
+   "title": "Последний трамвай Чикаго",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1958 г. в Чикаго прошёл последний трамвай.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1958 last streetcar"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1966-freedom-movement",
+   "title": "Чикагское движение за свободу",
+   "start_date": "1965",
+   "end_date": "1966",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1965–1966 гг. Чикагское движение за свободу добивалось открытого доступа к жилью для афроамериканцев.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1965–66 Chicago Freedom Movement (open housing)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1968-king-riots-dnc",
+   "title": "Беспорядки апреля 1968 г. и съезд демократов",
+   "start_date": "1968-04-05",
+   "end_date": "1968-08-29",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "war_conflict",
+   "subcategory": "civil_unrest",
+   "historical_summary": "5–7 апреля 1968 г., после убийства Мартина Лютера Кинга, в Чикаго прошли беспорядки; 26–29 августа съезд Демократической партии сопровождался протестами против войны во Вьетнаме.",
+   "affected_groups": [
+    "urban_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "April 5–7 riots; August 26–29 DNC protests"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1973-sears-tower",
+   "title": "Завершение Sears Tower",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1973 г. завершено строительство небоскрёба Sears Tower.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1973 Sears Tower completed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1979-blizzard-byrne",
+   "title": "Метель 1979 года и первый мэр-женщина",
+   "start_date": "1979",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "political_change",
+   "historical_summary": "Медленная реакция городских властей на метель 1979 г. привела к поражению действующего мэра; Джейн Бирн стала первой женщиной — мэром Чикаго.",
+   "affected_groups": [
+    "all_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "snowed_in_for_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1979 blizzard; Jane Byrne first female mayor"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1983-harold-washington",
+   "title": "Гарольд Вашингтон — первый чернокожий мэр Чикаго",
+   "start_date": "1983",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1983 г. Гарольд Вашингтон стал первым афроамериканцем на посту мэра Чикаго.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1983 Harold Washington first African-American mayor"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1992-chicago-flood",
+   "title": "Затопление тоннелей Лупа",
+   "start_date": "1992-04-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "disaster",
+   "historical_summary": "13 апреля 1992 г. вода из реки Чикаго прорвалась в старые грузовые тоннели под деловым центром (Chicago Flood).",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "1992-04-13 Chicago Flood"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1995-heat-wave",
+   "title": "Жара 1995 года в Чикаго",
+   "start_date": "1995-07-12",
+   "end_date": "1995-07-16",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "disaster",
+   "historical_summary": "12–16 июля 1995 г. Чикаго пережил смертоносную жару (до 41 °C 13 июля): от неё умерли 739 человек сверх обычного, в основном пожилые и бедные жители без кондиционеров, боявшиеся открывать окна на ночь.",
+   "affected_groups": [
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "checking_on_old_neighbors"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1995_Chicago_heat_wave",
+     "accessed": "2026-10-29",
+     "supports": "даты, число умерших, уязвимые группы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-2004-millennium-park",
+   "title": "Открытие парка Миллениум",
+   "start_date": "2004-07-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "16 июля 2004 г. открылся парк Миллениум; в 2006 г. в нём установили скульптуру Cloud Gate.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "2004-07-16 Millennium Park opens; 2006 Cloud Gate"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-2006-immigration-march",
+   "title": "Марш за иммиграционную реформу",
+   "start_date": "2006-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "migration",
+   "historical_summary": "1 мая 2006 г. на протесты за иммиграционную реформу в Чикаго вышли более 400 тыс. человек.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "2006-05-01 400,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-2011-cabrini-green",
+   "title": "Снос последнего дома Кабрини-Грин",
+   "start_date": "2011-03-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "30 марта 2011 г. снесена последняя башня муниципального жилого комплекса Кабрини-Грин.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "2011-03-30 last Cabrini–Green tower demolished"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-2020-covid-stay-at-home",
+   "title": "COVID-19 в Чикаго: первая смерть и режим самоизоляции",
+   "start_date": "2020-03-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "public_health",
+   "historical_summary": "16 марта 2020 г. в Чикаго зарегистрирована первая смерть от COVID-19 и введён режим самоизоляции.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "calls_instead_of_visits"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
+     "accessed": "2026-10-29",
+     "supports": "2020-03-16 first death, stay-at-home"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1921-stockyards-peak-employment",
+   "title": "Скотобойни Чикаго на пике",
+   "start_date": "1921",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Около 1900 г. на Юнион-Стокъярдс работали около 25 тыс. человек, в 1921 г. — около 40 тыс.; в 1924 г. мясопереработка Чикаго, крупнейшего центра отрасли в мире, достигла пика.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "smell_of_the_yards",
+    "father_at_packinghouse"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Union_Stock_Yards",
+     "accessed": "2026-10-29",
+     "supports": "занятость 1900 и 1921, пик 1924"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1934-stockyards-fire",
+   "title": "Пожар на скотобойнях 1934 года",
+   "start_date": "1934-05-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "disaster",
+   "historical_summary": "19 мая 1934 г. пожар уничтожил почти 90% скотобоен Чикаго; ущерб составил около 6 млн долл.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Union_Stock_Yards",
+     "accessed": "2026-10-29",
+     "supports": "дата и масштаб пожара"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1971-stockyards-close",
+   "title": "Закрытие Юнион-Стокъярдс",
+   "start_date": "1971-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1950-е гг. Swift и Armour ушли со скотобоен, перейдя на грузовики и прямые продажи; 30 июля 1971 г. Юнион-Стокъярдс закрылись, территорию превратили в промышленный парк.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Union_Stock_Yards",
+     "accessed": "2026-10-29",
+     "supports": "уход Swift/Armour в 1950-е, закрытие 30.07.1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1992-south-works-closes",
+   "title": "Закрытие сталелитейного завода South Works",
+   "start_date": "1992-04-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1951 г. на заводе U.S. Steel South Works работали около 15 тыс. человек, в конце 1970-х — около 10 тыс.; 10 апреля 1992 г. завод окончательно закрылся, к тому времени там оставалось менее 700 работников.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "mill_closed_neighborhood_emptied"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/South_Works",
+     "accessed": "2026-10-29",
+     "supports": "занятость 1951, конец 1970-х, закрытие 1992"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1962-robert-taylor-homes",
+   "title": "Завершение комплекса Роберт-Тейлор-Хоумс",
+   "start_date": "1962",
+   "end_date": "2007-03-08",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1962 г. завершён муниципальный комплекс Роберт-Тейлор-Хоумс — 28 шестнадцатиэтажных домов на 4415 квартир; рассчитанный на 11 тыс. жителей, он вмещал до 27 тыс. Последний корпус снесли 8 марта 2007 г.",
+   "affected_groups": [
+    "tenants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "public_housing_waitlist"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Robert_Taylor_Homes",
+     "accessed": "2026-10-29",
+     "supports": "1962, размеры, снос 2007"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1955-ohare-opens",
+   "title": "Открытие аэропорта О’Хара для пассажиров",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1955 г. аэропорт О’Хара начал регулярные пассажирские перевозки; с появлением реактивных самолётов (первый рейс Boeing 707 — 22 марта 1959 г.) авиакомпании перешли сюда из Мидуэя, и в 1963–1998 гг. О’Хара был самым загруженным аэропортом мира.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/O%27Hare_International_Airport",
+     "accessed": "2026-10-29",
+     "supports": "1955, 1959, 1963–1998"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1947-cta-begins",
+   "title": "Начало работы Чикагского транспортного управления",
+   "start_date": "1947-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 октября 1947 г. начало работу Чикагское транспортное управление (CTA), объединившее частные компании надземки и трамваев; в 1952 г. к нему перешли автобусы Chicago Motor Coach, а к 1960 г. все трамваи заменили автобусами.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chicago_Transit_Authority",
+     "accessed": "2026-10-29",
+     "supports": "даты создания и начала работы, 1952, замена трамваев к 1960"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1937-housing-authority",
+   "title": "Создание Чикагского жилищного управления",
+   "start_date": "1937",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1937 г. создано Чикагское жилищное управление (CHA); первыми муниципальными комплексами стали Julia C. Lathrop Homes (1937–38) и Jane Addams Homes (1938–39), Кабрини-Грин строили в 1942–1945 и 1957–1962 гг. В 2000 г. принят план сноса всех высотных домов.",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "public_housing_waitlist",
+    "moved_into_new_project"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chicago_Housing_Authority",
+     "accessed": "2026-10-29",
+     "supports": "1937, ранние проекты, Кабрини-Грин, план 2000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-chicago-1966-gautreaux-lawsuit",
+   "title": "Иск Готро против Чикагского жилищного управления",
+   "start_date": "1966",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1966 г. жительница муниципального жилья Дороти Готро и другие подали иск против CHA о расовой сегрегации при размещении домов; в 1987 г. по итогам дела управление на два десятилетия перешло под контроль HUD.",
+   "affected_groups": [
+    "tenants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chicago_Housing_Authority",
+     "accessed": "2026-10-29",
+     "supports": "иск 1966 (в статье также 1965), 1987 внешнее управление"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

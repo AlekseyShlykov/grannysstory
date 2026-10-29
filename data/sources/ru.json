@@ -1,0 +1,383 @@
+{
+  "sources": [
+    {
+      "source_id": "ru_wikipedia",
+      "name": "Русская Википедия",
+      "publisher": "Wikimedia Foundation",
+      "url": "https://ru.wikipedia.org/",
+      "categories": [
+        "general",
+        "administrative_history"
+      ],
+      "access_method": "website",
+      "license": "CC BY-SA 4.0 (текст); используется только как вторичный источник для фактов, тексты не копируются",
+      "status": "accessed",
+      "notes": "Вторичный источник, confidence не выше medium.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_prlib",
+      "name": "Президентская библиотека имени Б. Н. Ельцина",
+      "publisher": "Президентская библиотека имени Б. Н. Ельцина",
+      "url": "https://www.prlib.ru/",
+      "categories": [
+        "archives",
+        "history"
+      ],
+      "access_method": "website",
+      "license": "Материалы сайта охраняются; используются только даты и собственный пересказ, сканы и тексты не воспроизводятся",
+      "status": "accessed",
+      "notes": "Раздел «День в истории» и электронные копии архивных документов. Наследие v0.4.0 использует отдельные ID prlib_*.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_encspb",
+      "name": "Энциклопедия «Санкт-Петербург»",
+      "publisher": "Администрация Санкт-Петербурга / энциклопедия encspb.ru",
+      "url": "https://encspb.ru/",
+      "historical_coverage": {
+        "from": 1703,
+        "to": 2005
+      },
+      "geographic_coverage": [
+        "ru-saint-petersburg"
+      ],
+      "categories": [
+        "city_history"
+      ],
+      "access_method": "website",
+      "license": "Условия использования не указаны явно; только факты и пересказ",
+      "status": "accessed",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true
+    },
+    {
+      "source_id": "ru_tverlib",
+      "name": "Тверская ОУНБ им. А. М. Горького: краеведческие ресурсы (Тверские памятные даты, энциклопедия «Тверская область»)",
+      "publisher": "Тверская областная универсальная научная библиотека им. А. М. Горького",
+      "url": "https://kray.tverlib.ru/",
+      "geographic_coverage": [
+        "ru-tver-oblast"
+      ],
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "catalogue",
+      "license": "Условия использования не указаны; только ссылочно",
+      "status": "catalogued",
+      "notes": "Ежегодники «Тверские памятные даты» доступны только как FlippingBook без текстового слоя; энциклопедия region.tverlib.ru в устаревшей кодировке. Данные не извлечены.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_gato",
+      "name": "Тверской городской архив / архивы Тверской области",
+      "publisher": "МКУК «Тверской городской архив»",
+      "url": "https://archive.tver.ru/",
+      "geographic_coverage": [
+        "ru-tver"
+      ],
+      "categories": [
+        "archives"
+      ],
+      "access_method": "catalogue",
+      "license": "Не указана",
+      "status": "catalogued",
+      "notes": "Сайт открылся: список фондов и поиск документов, проект «Вести архива». Хронологии нет; данные в этой сессии не извлекались. Государственный архив Тверской области (ГАТО) отдельно не проверялся.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_mosmetro",
+      "name": "Московский метрополитен: история",
+      "publisher": "ГУП «Московский метрополитен»",
+      "url": "https://mosmetro.ru/about/history",
+      "historical_coverage": {
+        "from": 1931,
+        "to": 2025
+      },
+      "geographic_coverage": [
+        "ru-moscow"
+      ],
+      "categories": [
+        "transport"
+      ],
+      "access_method": "website",
+      "license": "Материалы сайта не воспроизводятся; используются даты и собственный пересказ",
+      "status": "accessed",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true
+    },
+    {
+      "source_id": "ru_rosstat",
+      "name": "Росстат (Федеральная служба государственной статистики)",
+      "publisher": "Росстат",
+      "url": "https://rosstat.gov.ru/",
+      "historical_coverage": {
+        "from": 1992,
+        "to": 2025
+      },
+      "categories": [
+        "demography",
+        "census"
+      ],
+      "access_method": "not_accessible",
+      "license": "Официальные статистические данные; условия использования сайта не проверены",
+      "status": "inaccessible",
+      "notes": "WebFetch 2026-10-29: ошибка TLS (unable to verify the first certificate) для https и http. Данные Росстата использованы только опосредованно через вторичные таблицы Википедии (confidence medium).",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ]
+    },
+    {
+      "source_id": "ru_demoscope",
+      "name": "Демоскоп Weekly",
+      "publisher": "Институт демографии НИУ ВШЭ",
+      "url": "https://www.demoscope.ru/weekly/",
+      "historical_coverage": {
+        "from": 1897,
+        "to": 2023
+      },
+      "categories": [
+        "demography",
+        "census"
+      ],
+      "access_method": "not_accessible",
+      "license": "Материалы с указанием источника; условия не проверены",
+      "status": "inaccessible",
+      "notes": "WebFetch 2026-10-29: DNS не разрешается (ENOTFOUND) для www.demoscope.ru и demoscope.ru. Переписные таблицы 1897–1989 не использованы.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ]
+    },
+    {
+      "source_id": "ru_istmat",
+      "name": "Istmat — Исторические материалы (транскрипции советских статистических сборников)",
+      "publisher": "istmat.org (частный проект); первоисточники — ЦСУ/Госкомстат СССР",
+      "url": "http://istmat.org/",
+      "historical_coverage": {
+        "from": 1897,
+        "to": 1991
+      },
+      "categories": [
+        "statistics",
+        "documents"
+      ],
+      "access_method": "website",
+      "license": "Официальные статистические сборники (ст. 1259 ГК РФ: официальные документы не охраняются); сайт частный, используются только цифры с указанием сборника",
+      "status": "accessed",
+      "notes": "Использованы страницы node/9304, 9308 («Народное хозяйство СССР за 70 лет», 1987) и node/20562 («Социальное развитие СССР», ок. 1989). Тексты — OCR, возможны ошибки распознавания; цифры сверены по смыслу.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ]
+    },
+    {
+      "source_id": "ru_prozhito",
+      "name": "Прожито — электронный корпус дневников",
+      "publisher": "Центр «Прожито» (Европейский университет в Санкт-Петербурге)",
+      "url": "https://prozhito.org/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "categories": [
+        "diaries",
+        "everyday_life"
+      ],
+      "access_method": "catalogue",
+      "license": "Тексты дневников охраняются авторским правом и правами публикаторов; допустимо только тематическое/агрегатное использование, без цитат в игре",
+      "status": "catalogued",
+      "notes": "В этой сессии не открывался; зарегистрирован как источник тем повседневности. Цитаты не использовать.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ]
+    },
+    {
+      "source_id": "ru_rgakfd",
+      "name": "РГАКФД — Российский государственный архив кинофотодокументов",
+      "publisher": "Росархив",
+      "url": "https://photo.rgakfd.ru/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1991
+      },
+      "categories": [
+        "photo_archive"
+      ],
+      "access_method": "catalogue",
+      "license": "Изображения не воспроизводятся; допустимы только метаданные",
+      "status": "catalogued",
+      "notes": "В этой сессии не открывался; только для будущего использования метаданных.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ]
+    },
+    {
+      "source_id": "ru_historyrussia_docs",
+      "name": "Исторические материалы РИО (docs.historyrussia.org)",
+      "publisher": "Российское историческое общество",
+      "url": "https://docs.historyrussia.org/",
+      "categories": [
+        "documents"
+      ],
+      "access_method": "catalogue",
+      "license": "Не проверялась",
+      "status": "catalogued",
+      "notes": "В этой сессии не открывался из-за ограничения времени; приоритетный кандидат для сверки законов и постановлений, сейчас подтверждённых по Википедии.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_bigenc",
+      "name": "Большая российская энциклопедия (bigenc.ru)",
+      "publisher": "Научное издательство «Большая российская энциклопедия»",
+      "url": "https://bigenc.ru/",
+      "categories": [
+        "encyclopedia"
+      ],
+      "access_method": "catalogue",
+      "license": "Тексты охраняются; только факты",
+      "status": "catalogued",
+      "notes": "Поиск по сайту через веб-поиск не дал результатов; статьи не открывались.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_spbarchives",
+      "name": "Архивы Санкт-Петербурга (ЦГА СПб)",
+      "publisher": "Архивный комитет Санкт-Петербурга",
+      "url": "https://spbarchives.ru/",
+      "geographic_coverage": [
+        "ru-saint-petersburg"
+      ],
+      "categories": [
+        "archives"
+      ],
+      "access_method": "not_accessible",
+      "license": "Не проверялась",
+      "status": "inaccessible",
+      "notes": "WebFetch путеводителя ЦГА (spbarchives.ru/infres/-/archive/cga/guide/187) 2026-10-29 завершился ошибкой без ответа. Наследие v0.4.0 ссылается на него отдельно (spb_archives_city_names).",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_glavarchiv",
+      "name": "Главархив Москвы",
+      "publisher": "Главное архивное управление города Москвы",
+      "url": "https://www.mos.ru/glavarchiv/",
+      "geographic_coverage": [
+        "ru-moscow"
+      ],
+      "categories": [
+        "archives"
+      ],
+      "access_method": "catalogue",
+      "license": "Не проверялась",
+      "status": "catalogued",
+      "notes": "В этой сессии не открывался.",
+      "country": "RU",
+      "accessed": "2026-10-29",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2025
+      }
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+ "records": [
+  {
+   "id": "pl-nat-1980-solidarity",
+   "title": "Забастовки лета 1980 года и «Солидарность»",
+   "start_date": "1980-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "labor",
+   "historical_summary": "Массовые забастовки в июле–августе 1980 г. закончились соглашениями с властью; возник независимый профсоюз «Солидарность», в который вступили около 10 млн человек.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers",
+    "teachers"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "joined_solidarity"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_ecs"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "июль–август 1980, соглашения, Солидарность"
+    },
+    {
+     "source_id": "pl_ecs",
+     "url": "https://ecs.gda.pl/wystawa-stala/#segment_c",
+     "accessed": "2026-10-29",
+     "supports": "~10 млн членов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1981-meat-rationing",
+   "title": "Карточки на мясо",
+   "start_date": "1981-04-01",
+   "end_date": "1989-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "С 1 апреля 1981 г. мясо продавалось по карточкам (девять норм); в апреле добавились масло, мука, крупы, рис, с января 1982 г. — около 16 позиций, примерно половина продовольственных расходов. Последние карточки — на мясо — отменены в конце июля 1989 г.",
+   "affected_groups": [
+    "consumers",
+    "homemakers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "queue_for_meat",
+    "ration_cards_in_drawer"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_dzieje"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/content/reglamentacja-towar%C3%B3w-w-prl",
+     "accessed": "2026-10-29",
+     "supports": "1.04.1981 мясо; апрель 1981 масло, мука...; январь 1982 ~16 позиций; отмена мяса конец июля 1989"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1981-martial-law",
+   "title": "Военное положение",
+   "start_date": "1981-12-13",
+   "end_date": "1983-07-22",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "repression",
+   "historical_summary": "13 декабря 1981 г. по постановлению Государственного совета от 12 декабря введено военное положение: массовые интернирования, «Солидарность» запрещена. Положение приостановлено в декабре 1982 г. и отменено 22 июля 1983 г.",
+   "affected_groups": [
+    "all_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "relative_interned"
+   ],
+   "narrative_hooks": [
+    "tanks_in_the_snow",
+    "phones_cut_off"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "pl_sejm_eli",
+    "pl_ecs",
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1981/155",
+     "accessed": "2026-10-29",
+     "supports": "Uchwała Rady Państwa z 12.12.1981 o wprowadzeniu stanu wojennego"
+    },
+    {
+     "source_id": "pl_ecs",
+     "url": "https://ecs.gda.pl/wystawa-stala/#segment_d",
+     "accessed": "2026-10-29",
+     "supports": "13.12.1981 военное положение, аресты, делегализация Солидарности"
+    },
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "приостановлено декабрь 1982, отменено 22.07.1983"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1981-martial-law-labour-duty",
+   "title": "Всеобщая трудовая повинность при военном положении",
+   "start_date": "1981-12-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "labor",
+   "historical_summary": "Постановление Совета министров от 30 декабря 1981 г. ввело на время военного положения всеобщую обязанность выполнять работу; другим постановлением приостановлено рабочее самоуправление на госпредприятиях.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1981/187",
+     "accessed": "2026-10-29",
+     "supports": "Rozporządzenie RM z 30.12.1981 o powszechnym obowiązku wykonywania pracy"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1981/185",
+     "accessed": "2026-10-29",
+     "supports": "zawieszenie samorządu załóg"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1989-round-table-elections",
+   "title": "Круглый стол и выборы июня 1989 года",
+   "start_date": "1989-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "В феврале–апреле 1989 г. власть и оппозиция вели переговоры за Круглым столом; в июне 1989 г. прошли частично свободные выборы, после которых коммунистическая монополия власти закончилась.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
+     "accessed": "2026-10-29",
+     "supports": "Круглый стол февраль–апрель 1989, выборы июнь 1989"
+    },
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
+     "accessed": "2026-10-29",
+     "supports": "Feb–Apr 1989 Round Table; 4 June 1989 elections"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1990-walesa-president",
+   "title": "Лех Валенса избран президентом",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1990 г. лидер «Солидарности» Лех Валенса стал первым всенародно избранным президентом Польши.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
+     "accessed": "2026-10-29",
+     "supports": "1990 Wałęsa first directly elected president"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1990-balcerowicz-plan",
+   "title": "План Бальцеровича: шоковая терапия",
+   "start_date": "1990-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С 1 января 1990 г. началась экономическая реформа Бальцеровича: фиксированный курс злотого, налог на сверхнормативные зарплаты. В январе 1990 г. цены выросли на 76%, промышленное производство за год упало на 23%, к концу 1990 г. безработных было около 1 млн.",
+   "affected_groups": [
+    "industrial_workers",
+    "pensioners",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "savings_lost_or_restored"
+   ],
+   "narrative_hooks": [
+    "prices_overnight",
+    "state_farm_closed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "1.01.1990; +76% январь; −23% производство; ~1 млн безработных в конце 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1991-internet",
+   "title": "Первое подключение Польши к интернету",
+   "start_date": "1991-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "technology",
+   "historical_summary": "Первая аналоговая линия связи заработала 26 сентября 1990 г., первый польский IP-адрес получил краковский Институт ядерной физики в ноябре 1990 г.; в декабре 1991 г. компьютеры в Варшаве, Кракове, Торуни и Катовице подключились к интернету. Первый польский портал «Wirtualna Polska» появился в 1995 г.",
+   "affected_groups": [
+    "scientists_engineers",
+    "internet_users"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Internet_w_Polsce",
+     "accessed": "2026-10-29",
+     "supports": "26.09.1990, ноябрь 1990 IP, декабрь 1991 подключение, 1995 WP"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1992-polsat",
+   "title": "Первая частная общенациональная телестанция Polsat",
+   "start_date": "1992-12-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "media_communication",
+   "historical_summary": "5 декабря 1992 г. начал вещание Polsat; монополию ТВП нарушила ещё в 1987 г. частная станция Ursynat.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Telewizja_Polska",
+     "accessed": "2026-10-29",
+     "supports": "5.12.1992 Polsat; 1987 Ursynat"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1993-abortion-law",
+   "title": "Закон 1993 г. о планировании семьи: ограничение абортов",
+   "title_original": "Ustawa o planowaniu rodziny, ochronie płodu ludzkiego i warunkach dopuszczalności przerywania ciąży",
+   "start_date": "1993-03-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон от 7 января 1993 г. разрешил прерывание беременности только в государственной больнице и лишь при угрозе жизни или здоровью матери, тяжёлом необратимом повреждении плода или если беременность возникла в результате преступления; аборт по социальным причинам больше не допускался.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 14,
+    "groups_any": [
+     "women"
+    ]
+   },
+   "potential_impacts": [
+    "reproductive_choice_restricted"
+   ],
+   "narrative_hooks": [
+    "unspoken_pregnancy_story"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1993/78",
+     "accessed": "2026-10-29",
+     "supports": "Dz.U. 1993 nr 17 poz. 78, ст. 149a: перечень допустимых случаев"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1997-flood",
+   "title": "Наводнение тысячелетия",
+   "start_date": "1997-07-05",
+   "end_date": "1997-08-06",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "disaster",
+   "historical_summary": "С 5 июля по 6 августа 1997 г. на юге и западе Польши было катастрофическое наводнение; погибли 56 человек, ущерб оценён примерно в 3,5 млрд долларов.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "5.07–6.08.1997, 56 погибших, ~3,5 млрд USD"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1997-constitution",
+   "title": "Конституция Республики Польша 1997 года",
+   "start_date": "1997-10-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "Конституция от 2 апреля 1997 г. вступила в силу 17 октября 1997 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1997/483",
+     "accessed": "2026-10-29",
+     "supports": "Konstytucja RP z 2.04.1997, в силе 17.10.1997"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1998-concordat-marriage",
+   "title": "Церковный брак с гражданскими последствиями и единый брачный возраст",
+   "start_date": "1998-11-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "family_law",
+   "historical_summary": "С 15 ноября 1998 г. брак, заключённый в церкви по внутреннему праву церкви, может иметь гражданские последствия без отдельной церемонии в загсе; брачный возраст — 18 лет для обоих полов (женщине суд может разрешить с 16).",
+   "affected_groups": [
+    "women",
+    "men",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": 16
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "church_wedding_counts"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1998/757",
+     "accessed": "2026-10-29",
+     "supports": "нов. ст. 1 § 2 и ст. 10 КРО; в силе 15.11.1998"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1999-reforms",
+   "title": "Четыре реформы 1999 года",
+   "start_date": "1999-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "social_policy",
+   "historical_summary": "С 1 января 1999 г. вступили в силу административная реформа (16 воеводств, возвращены поветы), реформа здравоохранения (больничные кассы) и пенсионная реформа (три столпа: ZUS, открытые пенсионные фонды, добровольные накопления); с 1 сентября 1999 г. введены трёхлетние гимназии.",
+   "affected_groups": [
+    "all_residents",
+    "school_pupils",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "children_in_new_gimnazjum",
+    "pension_choice"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia",
+    "pl_sejm_eli"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "1.01.1999 админ., кассы, пенсии; 1.09.1999 гимназии"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1998/603",
+     "accessed": "2026-10-29",
+     "supports": "Ustawa z 24.07.1998 o trójstopniowym podziale"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "pl-nat-1999-nato",
+   "title": "Польша вступает в НАТО",
+   "start_date": "1999-03-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "political_change",
+   "historical_summary": "12 марта 1999 г. Польша стала членом НАТО.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_wikipedia",
+     "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
+     "accessed": "2026-10-29",
+     "supports": "12.03.1999 НАТО"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

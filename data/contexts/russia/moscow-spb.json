@@ -1,0 +1,330 @@
+{
+  "records": [
+    {
+      "id": "ru-ctx-1920s-communal-petrograd",
+      "country_code": "RU",
+      "location_id": "ru-saint-petersburg",
+      "period_start": 1918,
+      "period_end": 1931,
+      "context_type": "housing",
+      "attribute": "communal_flats",
+      "title": "Уплотнение и коммуналки в Петрограде–Ленинграде",
+      "description": "После отмены частной собственности на городскую недвижимость (август 1918 года) квартиры «уплотняли». Санитарная норма в Ленинграде снизилась с 13,5 м² на человека в 1926 году до 9 м² в 1931-м.",
+      "statistics": [
+        {
+          "indicator": "living_space_norm",
+          "value": 9,
+          "unit": "м²/чел.",
+          "year": 1931,
+          "area_id": "ru-saint-petersburg",
+          "population": "санитарная норма жилой площади",
+          "method_note": "нормативная величина, не фактическая обеспеченность",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Коммунальная_квартира",
+          "accessed": "2026-10-29",
+          "supports": "1918, нормы 1926 и 1931"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-1990s-communal-spb",
+      "country_code": "RU",
+      "location_id": "ru-saint-petersburg",
+      "period_start": 1990,
+      "period_end": 2017,
+      "context_type": "housing",
+      "attribute": "communal_flats",
+      "title": "Коммуналки в постсоветском Петербурге",
+      "description": "В 1996 году в Петербурге было около 200 тысяч коммунальных квартир (14% жилого фонда), где жили 587 тысяч человек; к 2017 году осталось около 77 тысяч, в них жили 245 тысяч семей.",
+      "statistics": [
+        {
+          "indicator": "communal_flats",
+          "value": 200025,
+          "unit": "квартир",
+          "year": 1996,
+          "area_id": "ru-saint-petersburg",
+          "population": "коммунальные квартиры города",
+          "method_note": "городская статистика по вторичному источнику",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "communal_flats",
+          "value": 76658,
+          "unit": "квартир",
+          "year": 2017,
+          "area_id": "ru-saint-petersburg",
+          "population": "коммунальные квартиры на 1 июля",
+          "method_note": "городская программа расселения",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Коммунальная_квартира",
+          "accessed": "2026-10-29",
+          "supports": "1996, 2011, 2017"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-moscow-population-1926-1959",
+      "country_code": "RU",
+      "location_id": "ru-moscow",
+      "period_start": 1926,
+      "period_end": 1959,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Москва растёт вдвое и ещё раз",
+      "description": "По переписям, население Москвы выросло с 2,0 млн в 1926 году до 4,1 млн в 1939-м и 5,1 млн в 1959-м — за счёт переселенцев из деревни.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 2017141,
+          "unit": "чел.",
+          "year": 1926,
+          "area_id": "ru-moscow",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 4137018,
+          "unit": "чел.",
+          "year": 1939,
+          "area_id": "ru-moscow",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 5085581,
+          "unit": "чел.",
+          "year": 1959,
+          "area_id": "ru-moscow",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Москвы",
+          "accessed": "2026-10-29",
+          "supports": "переписи 1926, 1939, 1959"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-moscow-population-1979-2021",
+      "country_code": "RU",
+      "location_id": "ru-moscow",
+      "period_start": 1979,
+      "period_end": 2021,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Москва: от 8 до 13 миллионов",
+      "description": "По переписям: 7,9 млн жителей в 1979 году, 8,9 млн в 1989-м, 10,4 млн в 2002-м, 11,5 млн в 2010-м, 13,0 млн в 2021-м (с учётом присоединённых в 2012 году территорий).",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 7931602,
+          "unit": "чел.",
+          "year": 1979,
+          "area_id": "ru-moscow",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 8875579,
+          "unit": "чел.",
+          "year": 1989,
+          "area_id": "ru-moscow",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 10382754,
+          "unit": "чел.",
+          "year": 2002,
+          "area_id": "ru-moscow",
+          "population": "население города",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 13010112,
+          "unit": "чел.",
+          "year": 2021,
+          "area_id": "ru-moscow",
+          "population": "население города в границах на дату переписи",
+          "method_note": "перепись; вторичная таблица Википедии",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Москвы",
+          "accessed": "2026-10-29",
+          "supports": "переписи 1979–2021"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-spb-population-1917-1945",
+      "country_code": "RU",
+      "location_id": "ru-saint-petersburg",
+      "period_start": 1917,
+      "period_end": 1945,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Население Петрограда–Ленинграда: обвалы и подъёмы",
+      "description": "Население города упало примерно с 2,3 млн в 1917 году до 740 тысяч в 1920-м, к 1939 году выросло до 3,2 млн, а в блокаду сократилось до 622 тысяч в 1943 году (эвакуация и гибель жителей); в 1945 году в городе было 927 тысяч человек.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 740000,
+          "unit": "чел.",
+          "year": 1920,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "оценка; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 3191304,
+          "unit": "чел.",
+          "year": 1939,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "перепись 1939; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 622000,
+          "unit": "чел.",
+          "year": 1943,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "оценка военного времени; вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Санкт-Петербурга",
+          "accessed": "2026-10-29",
+          "supports": "таблица численности"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    },
+    {
+      "id": "ru-ctx-spb-population-1959-2021",
+      "country_code": "RU",
+      "location_id": "ru-saint-petersburg",
+      "period_start": 1959,
+      "period_end": 2021,
+      "context_type": "demography",
+      "attribute": "population",
+      "title": "Ленинград — пятимиллионный город",
+      "description": "Население выросло с 3,3 млн в 1959 году до 5,0 млн в 1989-м, сократилось до 4,7 млн к 2002 году и снова выросло до 5,6 млн в 2021-м.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 3321196,
+          "unit": "чел.",
+          "year": 1959,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 5023506,
+          "unit": "чел.",
+          "year": 1989,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 4661219,
+          "unit": "чел.",
+          "year": 2002,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "перепись 2002",
+          "source_id": "ru_wikipedia"
+        },
+        {
+          "indicator": "population",
+          "value": 5601911,
+          "unit": "чел.",
+          "year": 2021,
+          "area_id": "ru-saint-petersburg",
+          "population": "население города",
+          "method_note": "вторичная таблица",
+          "source_id": "ru_wikipedia"
+        }
+      ],
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://ru.wikipedia.org/wiki/Население_Санкт-Петербурга",
+          "accessed": "2026-10-29",
+          "supports": "таблица численности"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,535 @@
+{
+ "records": [
+  {
+   "id": "fr-marseille-1906-colonial-exhibition",
+   "title": "Колониальная выставка в Марселе",
+   "start_date": "1906",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1906 году (и повторно в 1922 году) в Марселе прошли колониальные выставки, имевшие большой успех.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "expositions coloniales 1906 et 1922"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1922-colonial-exhibition",
+   "title": "Вторая колониальная выставка",
+   "start_date": "1922",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1922 году Марсель вновь принял колониальную выставку.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "1922"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1938-nouvelles-galeries-fire",
+   "title": "Пожар в универмаге Nouvelles Galeries",
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1938 году пожар в универмаге Nouvelles Galeries унёс 73 жизни; после него город был передан под управление чрезвычайного администратора до Освобождения, а в 1939 году создан батальон морских пожарных.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "incendie 73 morts; administrateur extraordinaire; marins-pompiers 1939"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1940-bombing",
+   "title": "Германская бомбардировка 1 июня 1940 года",
+   "start_date": "1940-06-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "1 июня 1940 года германская бомбардировка Марселя убила 32 человека.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "1er juin 1940, 32 morts"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1942-occupation",
+   "title": "Германские войска входят в Марсель",
+   "start_date": "1942-11-12",
+   "end_date": "1944-08-28",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "occupation",
+   "historical_summary": "12 ноября 1942 года, после вторжения в южную зону, германские войска вошли в Марсель.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Invasion_de_la_zone_libre",
+     "accessed": "2026-10-29",
+     "supports": "Le 12, ils entrent à Marseille"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "12 novembre 1942"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1943-vieux-port-destruction",
+   "title": "Облавы и разрушение кварталов Старого порта",
+   "start_date": "1943-01-22",
+   "end_date": "1943-02-18",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "repression",
+   "historical_summary": "22–23 января 1943 года прошли облавы, 24 января около 30 тысяч жителей выселены из кварталов Старого порта, а с 1 по 18 февраля германские сапёры взорвали около 1500 домов.",
+   "affected_groups": [
+    "urban_residents",
+    "jewish_population",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "lost_home",
+    "eviction"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "rafles 22-23 janvier; 30 000 expulsés 24 janvier; 1 500 immeubles 1-18 février"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1944-allied-bombing",
+   "title": "Бомбардировка 27 мая 1944 года",
+   "start_date": "1944-05-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "27 мая 1944 года американская бомбардировка Марселя убила, по оценкам, 2–3 тысячи человек и ранила около 6 тысяч.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "27 mai 1944, 2 000 à 3 000 morts, 6 000 blessés"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1944-liberation",
+   "title": "Освобождение Марселя",
+   "start_date": "1944-08-21",
+   "end_date": "1944-08-28",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "21 августа 1944 года началось восстание ФФИ, 23-го в город вошли войска генерала Монсабера, 28 августа германский гарнизон капитулировал. Отступая, немцы взорвали портовые сооружения и мост-транспортёр.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "liberation_day_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Lib%C3%A9ration_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "21 août insurrection; 23 août; capitulation 28 août; pont transbordeur"
+    },
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "21-29 août 1944"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1947-vieux-port-reconstruction",
+   "title": "Восстановление Старого порта",
+   "start_date": "1947",
+   "end_date": "1960",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "С 1947 по 1960 год шла реконструкция разрушенных кварталов Старого порта.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_apartment"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "reconstruction du Vieux-Port 1947-1960"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1947-cite-radieuse",
+   "title": "«Лучезарный город» Ле Корбюзье",
+   "start_date": "1947",
+   "end_date": "1952",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1947–1952 годах в Марселе построен жилой дом Ле Корбюзье — Unité d'habitation («Лучезарный город»).",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "Unité d'habitation 1947-1952"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1962-pieds-noirs-arrival",
+   "title": "Прибытие репатриантов из Алжира",
+   "start_date": "1962",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1962 году через Марсель прибыли десятки тысяч «черноногих» — европейцев, покинувших ставший независимым Алжир.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_neighbours",
+    "repatriated_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "1962 des dizaines de milliers de Pieds-Noirs"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1973-racist-violence",
+   "title": "Волна расистского насилия 1973 года",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1973 году в Марселе прокатилась волна расистского насилия против алжирцев.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "ratonnade de 1973"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-2013-capital-of-culture",
+   "title": "Марсель — культурная столица Европы",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2013 году Марсель был культурной столицей Европы; с 1990-х в городе шёл проект обновления Euroméditerranée.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "2013 capitale européenne de la culture; Euroméditerranée années 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-marseille-1977-metro",
+   "title": "Открытие марсельского метро",
+   "start_date": "1977-11-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fr-marseille"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "26 ноября 1977 года открылась первая линия марсельского метро (Ла-Роз — Сен-Шарль), 3 марта 1984 года — вторая.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fr_wikipedia",
+     "url": "https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Marseille",
+     "accessed": "2026-10-29",
+     "supports": "ligne 1 26 novembre 1977; ligne 2 3 mars 1984"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,363 @@
+{
+ "records": [
+  {
+   "id": "us-ny-2010-no-fault-divorce",
+   "title": "Нью-Йорк — последний штат, разрешивший развод без вины",
+   "start_date": "2010-08-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-ny"
+   ],
+   "category": "family_law",
+   "historical_summary": "15 августа 2010 г. губернатор штата Нью-Йорк подписал закон о разводе без установления вины; Нью-Йорк стал последним штатом, где это ввели (первой в 1970 г. была Калифорния).",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "eligibility": {
+    "min_age": 18
+   },
+   "potential_impacts": [
+    "divorce_possible"
+   ],
+   "narrative_hooks": [
+    "divorce_story"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/No-fault_divorce",
+     "accessed": "2026-10-29",
+     "supports": "дата в Нью-Йорке, последний штат; Калифорния 1970"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-oh-1913-great-flood",
+   "title": "Великое наводнение 1913 года в Огайо",
+   "start_date": "1913-03-23",
+   "end_date": "1913-03-26",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-oh"
+   ],
+   "category": "disaster",
+   "historical_summary": "23–26 марта 1913 г. ливни вызвали крупнейшее в истории Огайо стихийное бедствие: погибли 422–470 человек, больше всего пострадали Дейтон, Колумбус и Гамильтон. В 1914 г. принят закон штата о создании округов по борьбе с паводками.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_story_flood"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Flood_of_1913",
+     "accessed": "2026-10-29",
+     "supports": "даты, число погибших, города, закон 1914"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-oh-1970-kent-state",
+   "title": "Расстрел в Кентском университете",
+   "start_date": "1970-05-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-oh"
+   ],
+   "category": "political_change",
+   "historical_summary": "4 мая 1970 г. Национальная гвардия Огайо открыла огонь по студентам Кентского университета, протестовавшим против расширения войны во Вьетнаме на Камбоджу: четверо убиты, девять ранены.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "son_at_college_protests"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kent_State_shootings",
+     "accessed": "2026-10-29",
+     "supports": "дата, жертвы, контекст"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-oh-1978-great-blizzard",
+   "title": "Великая метель 1978 года в Огайо",
+   "start_date": "1978-01-26",
+   "end_date": "1978-01-27",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-oh"
+   ],
+   "category": "disaster",
+   "historical_summary": "25–27 января 1978 г. метель стала худшей в истории Огайо: 51 погибший, ветро-холодовой индекс до −51 °C; на спасение вызвали более 5 тыс. гвардейцев, впервые полностью закрыли платную автомагистраль Ohio Turnpike.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "snowed_in_for_days",
+    "neighbors_with_snowmobiles"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Blizzard_of_1978",
+     "accessed": "2026-10-29",
+     "supports": "даты, жертвы в Огайо, гвардия, закрытие магистрали"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-mi-1978-great-blizzard",
+   "title": "Великая метель 1978 года в Мичигане",
+   "start_date": "1978-01-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-mi"
+   ],
+   "category": "disaster",
+   "historical_summary": "26 января 1978 г. метель накрыла Мичиган: около 20 погибших, около 100 тыс. машин брошены на шоссе, губернатор объявил чрезвычайное положение и вызвал Национальную гвардию.",
+   "affected_groups": [
+    "all_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "snowed_in_for_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Blizzard_of_1978",
+     "accessed": "2026-10-29",
+     "supports": "Мичиган: жертвы, брошенные машины, ЧП"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-mi-1937-flint-sit-down-strike",
+   "title": "Сидячая забастовка во Флинте",
+   "start_date": "1936-12-30",
+   "end_date": "1937-02-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-mi"
+   ],
+   "category": "labor",
+   "historical_summary": "С 30 декабря 1936 г. по 11 февраля 1937 г. рабочие заводов GM во Флинте 44 дня удерживали цеха; GM признала профсоюз UAW, и за год его численность выросла примерно с 30 тыс. до 500 тыс.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "union_membership"
+   ],
+   "narrative_hooks": [
+    "father_union_card",
+    "strike_food_from_wives"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Flint_sit-down_strike",
+     "accessed": "2026-10-29",
+     "supports": "даты, итог, рост UAW"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-mi-1957-mackinac-bridge",
+   "title": "Открытие моста Макино",
+   "start_date": "1957-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-mi"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 ноября 1957 г. открылся мост Макино, соединивший Верхний и Нижний полуострова Мичигана; паромы, у которых очереди машин растягивались до 16 миль, в тот же день прекратили работу.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_trip_up_north"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mackinac_Bridge",
+     "accessed": "2026-10-29",
+     "supports": "дата и значение"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-il-1913-women-presidential-vote",
+   "title": "Женщины Иллинойса получают право голосовать за президента",
+   "start_date": "1913-06-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-il"
+   ],
+   "category": "women_rights",
+   "historical_summary": "26 июня 1913 г. губернатор Иллинойса подписал закон, разрешивший женщинам голосовать за выборщиков президента и на местных выборах; Иллинойс стал первым штатом к востоку от Миссисипи с таким правом. 19-ю поправку штат ратифицировал 10 июня 1919 г.",
+   "affected_groups": [
+    "women"
+   ],
+   "eligibility": {
+    "min_age": 21
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "mother_first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women%27s_suffrage_in_Illinois",
+     "accessed": "2026-10-29",
+     "supports": "дата, объём права, ратификация 1919"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "us-mi-2014-flint-water-crisis",
+   "title": "Кризис с питьевой водой во Флинте",
+   "start_date": "2014-04-25",
+   "end_date": "2016-01-16",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "US"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "us-mi"
+   ],
+   "category": "public_health",
+   "historical_summary": "25 апреля 2014 г. Флинт перешёл с детройтского водопровода на воду из реки Флинт; в воде оказался свинец, около 100 тыс. жителей подверглись воздействию, вспышка легионеллёза унесла 12 жизней. В январе 2016 г. объявлено чрезвычайное положение штата и федеральное.",
+   "affected_groups": [
+    "children",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "bottled_water"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "us_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Flint_water_crisis",
+     "accessed": "2026-10-29",
+     "supports": "даты, число затронутых, легионеллёз"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,1190 @@
+{
+ "records": [
+  {
+   "id": "gb-birmingham-1900-university-charter",
+   "title": "Бирмингемский университет получил хартию",
+   "start_date": "1900-03-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "education",
+   "historical_summary": "Университет Бирмингема получил королевскую хартию как преемник Mason Science College; кампус в Эджбастоне официально открыли в 1909 г.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата хартии, открытие кампуса 7 июля 1909"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1904-corporation-trams",
+   "title": "Первый муниципальный трамвай Бирмингема",
+   "start_date": "1904-01-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открылся первый трамвайный маршрут Birmingham Corporation по Aston Road North.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата первого маршрута"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1905-austin-longbridge",
+   "title": "Остин основал завод в Лонгбридже",
+   "start_date": "1905",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "local_economy",
+   "subcategory": "car_industry",
+   "historical_summary": "Компания Austin Motor была зарегистрирована и купила участок для завода в Лонгбридже, тогда ещё за городской чертой.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "год основания и покупки участка"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1911-greater-birmingham",
+   "title": "Расширение Бирмингема",
+   "start_date": "1911-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Хэндсворт, Астон-Манор, Ярдли и часть Кингс-Нортона вошли в состав Бирмингема, что почти утроило площадь города.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и состав расширения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1917-fort-dunlop",
+   "title": "Открыт шинный завод Fort Dunlop",
+   "start_date": "1917",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Компания Dunlop открыла в Эрдингтоне крупный завод по производству шин.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "год открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1922-austin-seven",
+   "title": "Представлен «Остин Севен»",
+   "start_date": "1922-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "В Лонгбридже анонсирован малолитражный автомобиль Austin 7; в ноябре того же года в городе начались радиопередачи BBC.",
+   "affected_groups": [
+    "industrial_workers",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "Austin 7 (июль), BBC Birmingham (15 нояб.)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1930-first-odeon",
+   "title": "Первый кинотеатр «Одеон»",
+   "start_date": "1930-08-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В районе Перри-Барр открылся первый в Британии кинотеатр сети Odeon.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1933-weoley-castle",
+   "title": "Сорокатысячный муниципальный дом",
+   "start_date": "1933-10-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "На новом жилом массиве Уэоли-Касл открыт 40-тысячный муниципальный дом, построенный городским советом.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_flat"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и номер дома"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1939-elmdon-airport",
+   "title": "Открыт аэропорт Элмдон",
+   "start_date": "1939-07-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открылся аэропорт Элмдон, предшественник нынешнего аэропорта Бирмингема.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1940-castle-bromwich-spitfire",
+   "title": "Спитфайры из Касл-Бромвича",
+   "start_date": "1940-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Авиазавод в Касл-Бромвиче выпустил первые истребители Spitfire Mk II.",
+   "affected_groups": [
+    "industrial_workers",
+    "women"
+   ],
+   "potential_impacts": [
+    "wartime_work"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "месяц первого Spitfire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1940-blitz",
+   "title": "Бомбардировки Бирмингема",
+   "start_date": "1940-08-09",
+   "end_date": "1943-04-23",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Первый налёт пришёлся на Эрдингтон; в ноябре 1940 г. была выжжена церковь Св. Филиппа, на заводе BSA в Смолл-Хите погибли 53 человека. Тяжёлые налёты продолжались до 1942 г., последний — 23 апреля 1943 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "home_destroyed",
+    "bereavement"
+   ],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "даты начала, ключевых налётов и последнего налёта"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1953-last-trams",
+   "title": "Последний трамвай Бирмингема",
+   "start_date": "1953-07-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Прекратили работу последние трамвайные маршруты; троллейбусы исчезли ещё в 1951 г. Уличный трамвай вернулся в центр только в 2015 г.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "даты 1951, 1953, 2015"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1956-atv",
+   "title": "Начало вещания ATV",
+   "start_date": "1956-02-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "media_communication",
+   "historical_summary": "Коммерческая телекомпания ATV начала вещание из Бирмингема; с 1964 г. она снимала здесь сериал «Перекрёстки».",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "даты ATV и Crossroads"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1964-bull-ring",
+   "title": "Открылся торговый центр Bull Ring",
+   "start_date": "1964-05-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "Открылся крытый торговый центр Bull Ring на месте старого рынка, перестраивавшегося с середины 1950-х.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1967-new-street",
+   "title": "Перестроенный вокзал Нью-Стрит",
+   "start_date": "1967-05-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Официально открыт перестроенный вокзал New Street; в 1966 г. до него дошла электрификация.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "даты 1966 и 1967"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1971-inner-ring-road",
+   "title": "Открыто Внутреннее кольцо",
+   "start_date": "1971-04-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Королева открыла Внутреннюю кольцевую дорогу вокруг центра города.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1972-spaghetti-junction",
+   "title": "Развязка «Спагетти»",
+   "start_date": "1972-05-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открыты A38(M) и развязка Gravelly Hill, прозванная «Спагетти-джанкшн».",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1974-west-midlands",
+   "title": "Бирмингем вошёл в графство Уэст-Мидлендс",
+   "start_date": "1974-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Бирмингем вышел из Уорикшира и стал частью нового метрополитенского графства Уэст-Мидлендс; в его состав вошёл Саттон-Колдфилд.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и изменения 1974 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1974-pub-bombings",
+   "title": "Взрывы в пабах Бирмингема",
+   "start_date": "1974-11-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Две бомбы ИРА в пабах центра убили 21 человека и ранили 182. Осуждённые «Бирмингемские шестеро» позже были признаны жертвами судебной ошибки.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата, жертвы, судебная ошибка"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1977-longbridge-toolmakers",
+   "title": "Конфликт инструментальщиков на Лонгбридже",
+   "start_date": "1977-03-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "labor",
+   "historical_summary": "Руководство British Leyland пригрозило увольнением бастующим инструментальщикам Лонгбриджа.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "strike"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1985-handsworth-riots",
+   "title": "Беспорядки в Хэндсворте",
+   "start_date": "1985-09-09",
+   "end_date": "1985-09-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "political_change",
+   "historical_summary": "9–11 сентября 1985 г. в районе Хэндсворт прошли масштабные беспорядки; волнения случались здесь и в 1981 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "даты 1981 и 1985"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-1991-icc-symphony-hall",
+   "title": "Открылись ICC и Симфонический зал",
+   "start_date": "1991-06-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Открылись Международный конференц-центр и Symphony Hall — часть обновления центра города.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2003-new-bull-ring",
+   "title": "Новый Bull Ring и Selfridges",
+   "start_date": "2003-09-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "Открыт перестроенный торговый центр Bull Ring со зданием универмага Selfridges.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2005-mg-rover-collapse",
+   "title": "Банкротство MG Rover и закрытие Лонгбриджа",
+   "start_date": "2005-04-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "local_economy",
+   "historical_summary": "MG Rover с долгами более 1,4 млрд фунтов ввела внешнее управление; работу потеряли более 6 тыс. человек на заводе в Лонгбридже и, по оценкам, до 25 тыс. у поставщиков. В июле активы продали Nanjing Automobile; выпуск MG на Лонгбридже возобновили в 2008 г.",
+   "affected_groups": [
+    "industrial_workers",
+    "unemployed"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "unemployment"
+   ],
+   "narrative_hooks": [
+    "family_job_loss"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/MG_Rover_Group",
+     "accessed": "2026-10-29",
+     "supports": "дата, долги, потери рабочих мест, продажа"
+    },
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "возобновление производства MG TF в 2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2005-tornado",
+   "title": "Торнадо в Бирмингеме",
+   "start_date": "2005-07-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "disaster",
+   "historical_summary": "Торнадо ранил около 30 человек и причинил ущерб примерно на 40 млн фунтов.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и ущерб"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2006-hp-sauce",
+   "title": "Закрыт завод соуса HP",
+   "start_date": "2006-03-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Последний соус HP был произведён в Астоне; выпуск перенесли в Нидерланды.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата закрытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2010-queen-elizabeth-hospital",
+   "title": "Новая больница королевы Елизаветы",
+   "start_date": "2010-06-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Начала работу новая больница Queen Elizabeth Hospital.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2013-library",
+   "title": "Открылась Библиотека Бирмингема",
+   "start_date": "2013-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Открылось новое здание Library of Birmingham.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2015-trams-return",
+   "title": "Трамвай вернулся на улицы Бирмингема",
+   "start_date": "2015-12-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Линия Midland Metro продлена до Булл-стрит: впервые с 1953 г. по улицам центра пошли трамваи.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата и 1953"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2017-commonwealth-games-host",
+   "title": "Бирмингем выбран столицей Игр Содружества 2022",
+   "start_date": "2017-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "sport",
+   "historical_summary": "Бирмингем получил право провести Игры Содружества 2022 г.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "декабрь 2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2023-section-114",
+   "title": "Финансовый крах городского совета",
+   "start_date": "2023-09-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "political_change",
+   "historical_summary": "Городской совет Бирмингема выпустил уведомление по статье 114, фактически объявив о неспособности сбалансировать бюджет.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-birmingham-2025-bin-strike",
+   "title": "Забастовка мусорщиков",
+   "start_date": "2025-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "category": "labor",
+   "historical_summary": "Работники вывоза мусора начали забастовку.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "strike"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "месяц начала"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

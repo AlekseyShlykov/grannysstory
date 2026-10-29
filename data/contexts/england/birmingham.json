@@ -1,0 +1,87 @@
+{
+ "records": [
+  {
+   "id": "gb-ctx-birmingham-postwar",
+   "country_code": "GB",
+   "location_id": "gb-birmingham",
+   "period_start": 1945,
+   "period_end": 2021,
+   "context_type": "demography",
+   "attribute": "population_economy",
+   "title": "Бирмингем: полная занятость, спад и новый рост",
+   "description": "Население достигло пика около 1 113 000 в 1951 г. С 1948 по 1966 г. безработица редко превышала 1%, а экономика всё сильнее зависела от автопрома. Расчистка трущоб заменила дома «спина к спине» высотками: к 1970 г. городской совет построил более 80 тыс. домов. В 1971–1981 гг. город потерял 200 тыс. рабочих мест, к 1982 г. безработица приблизилась к 20%. Население упало до 977 087 (2001), затем выросло до 1 144 900 (2021).",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1113000,
+     "unit": "человек",
+     "year": 1951,
+     "area_id": "gb-birmingham",
+     "population": "город Бирмингем",
+     "method_note": "оценка/перепись, вторичный источник",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "unemployment_rate",
+     "value": 20,
+     "unit": "% (приблизительно)",
+     "year": 1982,
+     "area_id": "gb-birmingham",
+     "population": "экономически активные жители",
+     "method_note": "вторичный источник",
+     "source_id": "gb_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1144900,
+     "unit": "человек",
+     "year": 2021,
+     "area_id": "gb-birmingham",
+     "population": "местная власть Birmingham (E08000025)",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "born_in_england",
+     "value": 72.0,
+     "unit": "% жителей",
+     "year": 2021,
+     "area_id": "gb-birmingham",
+     "population": "жители, Birmingham",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    },
+    {
+     "indicator": "muslim_share",
+     "value": 29.9,
+     "unit": "% жителей",
+     "year": 2021,
+     "area_id": "gb-birmingham",
+     "population": "жители, Birmingham",
+     "method_note": "перепись 2021, ONS",
+     "source_id": "gb_ons"
+    }
+   ],
+   "source_ids": [
+    "gb_wikipedia",
+    "gb_ons"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Birmingham",
+     "accessed": "2026-10-29",
+     "supports": "пик 1951, безработица 1948–66, 80 000 домов, потери 1971–81, 20% в 1982, население 2001"
+    },
+    {
+     "source_id": "gb_ons",
+     "url": "https://www.ons.gov.uk/visualisations/censusareachanges/E08000025/",
+     "accessed": "2026-10-29",
+     "supports": "перепись 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

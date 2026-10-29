@@ -1,0 +1,76 @@
+{
+ "records": [
+  {
+   "id": "gb-west-midlands-1976-nec",
+   "title": "Открылся Национальный выставочный центр",
+   "start_date": "1976-02-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-west-midlands"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В Бикенхилле у Бирмингема открылся National Exhibition Centre.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "gb-west-midlands-1999-midland-metro",
+   "title": "Открылся трамвай Midland Metro",
+   "start_date": "1999-05-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "GB"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "gb-west-midlands"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Открыта линия скоростного трамвая между Сноу-Хиллом в Бирмингеме и Вулвергемптоном.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "gb_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "gb_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
+     "accessed": "2026-10-29",
+     "supports": "дата открытия"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}
