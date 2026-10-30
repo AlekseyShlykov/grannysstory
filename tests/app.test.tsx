@@ -15,6 +15,12 @@ const packs: Record<string, unknown> = {
   tver: tverPack
 };
 
+/** The start screen opens on a random place and year; tests that need Tver choose it like a player would. */
+function renderInTver() {
+  render(<App />);
+  fireEvent.change(screen.getByLabelText("Где она родилась?"), { target: { value: "tver" } });
+}
+
 beforeEach(() => {
   vi.stubGlobal("fetch", vi.fn(async (url: string) => {
     const regionId = url.match(/regions\/(\w+)\.json/)?.[1] ?? "";
@@ -27,10 +33,11 @@ beforeEach(() => {
 
 describe("accessible vertical slice", () => {
   it("opens with manual birthplace and year controls plus a random option", () => {
-    render(<App />);
-    expect(screen.getByRole("heading", { name: "Бабушка" })).toBeInTheDocument();
-    expect(screen.getByText("Вы решили поговорить с бабушкой о её жизни.")).toBeInTheDocument();
-    expect(screen.getByText(/Каждая история генерируется случайным образом, но исторический фон и события опираются на архивные данные/)).toBeInTheDocument();
+    renderInTver();
+    expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
+    expect(screen.queryByText("короткая история о долгой жизни")).not.toBeInTheDocument();
+    expect(screen.getByText(/Посмотрите на историю глазами простых людей\. Каждая история генерируется случайным образом\. Исторический фон и события опираются на архивные данные\./)).toBeInTheDocument();
+    expect(screen.getByText("Выберите место и год рождения или доверьте выбор случаю.")).toBeInTheDocument();
     expect(screen.getByLabelText("Где она родилась?")).toBeInTheDocument();
     expect(screen.getByLabelText("В каком году?")).toBeInTheDocument();
     expect(screen.getByRole("option", { name: "1900" })).toBeInTheDocument();
@@ -99,8 +106,26 @@ describe("accessible vertical slice", () => {
     expect(fetch).toHaveBeenCalledWith(expect.stringMatching(/^\/data\/(regions\/\w+|world\/packs\/[\w-]+)\.json$/));
   });
 
-  it("can be completed using buttons only", async () => {
+  it("opens on a random place and year on each load", () => {
+    const random = vi.spyOn(crypto, "getRandomValues");
+    const pick = (values: number[]) => {
+      random.mockImplementationOnce(((array: Uint32Array) => { array[0] = values[0]!; return array; }) as never);
+      random.mockImplementationOnce(((array: Uint32Array) => { array[0] = values[1]!; return array; }) as never);
+    };
+    pick([0, 0]);
+    const first = render(<App />);
+    const firstPlace = (screen.getByLabelText("Где она родилась?") as HTMLSelectElement).value;
+    expect(screen.getByLabelText("В каком году?")).toHaveValue("1900");
+    first.unmount();
+    pick([1, 7]);
     render(<App />);
+    expect((screen.getByLabelText("Где она родилась?") as HTMLSelectElement).value).not.toBe(firstPlace);
+    expect(screen.getByLabelText("В каком году?")).toHaveValue("1907");
+    random.mockRestore();
+  });
+
+  it("can be completed using buttons only", async () => {
+    renderInTver();
     fireEvent.click(screen.getByRole("button", { name: "Начать с выбранными данными" }));
     await screen.findByRole("group", { name: "Что спросить" });
     const exchange = screen.getByLabelText("Последний вопрос и ответ");
@@ -126,7 +151,7 @@ describe("accessible vertical slice", () => {
 
   it("keeps the start screen usable when a regional pack is missing", async () => {
     vi.stubGlobal("fetch", vi.fn(async () => new Response("missing", { status: 404 })));
-    render(<App />);
+    renderInTver();
     fireEvent.click(screen.getByRole("button", { name: "Начать с выбранными данными" }));
     expect(await screen.findByRole("alert")).toHaveTextContent("Не удалось загрузить локальный пакет региона");
     expect(screen.getByRole("button", { name: "Начать с выбранными данными" })).toBeInTheDocument();

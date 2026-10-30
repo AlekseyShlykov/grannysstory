@@ -52,8 +52,9 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
   const regions = menuRegions();
   const years = allowedYears();
   const [saved] = useState(() => loadGame());
-  const [birthRegionId, setBirthRegionId] = useState<RegionId>(regions.some((region) => region.id === "tver") ? "tver" : regions[0]!.id as RegionId);
-  const [birthYear, setBirthYear] = useState(Math.max(years[0]!, Math.min(manifest.conversationYear - 100, years.at(-1)!)));
+  // Each visit opens on a different supported place and year, so the first choice already feels open.
+  const [birthRegionId, setBirthRegionId] = useState<RegionId>(() => regions[cryptoIndex(regions.length)]!.id as RegionId);
+  const [birthYear, setBirthYear] = useState(() => years[cryptoIndex(years.length)]!);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -104,10 +105,9 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
   return (
     <main id="main" className="start-shell">
       <section className="start-card" aria-labelledby="game-title">
-        <p className="kicker">короткая история о долгой жизни</p>
-        <h1 id="game-title">Бабушка</h1>
-        <p className="lede">Вы решили поговорить с бабушкой о её жизни.</p>
-        <p className="lede">Выберите место и год рождения или доверьте выбор случаю. Каждая история генерируется случайным образом, но исторический фон и события опираются на архивные данные.</p>
+        <h1 id="game-title">История бабушки</h1>
+        <p className="lede">Посмотрите на историю глазами простых людей. Каждая история генерируется случайным образом. Исторический фон и события опираются на архивные данные.</p>
+        <p className="lede">Выберите место и год рождения или доверьте выбор случаю.</p>
 
         {saved && (
           <button className="resume" type="button" onClick={() => void onStart(saved.selection)} data-testid="resume">
@@ -140,34 +140,36 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
           <button className="primary" type="button" onClick={() => void startSelection(birthRegionId, birthYear)} disabled={loading}>{loading ? "Загружаем местный пакет…" : "Начать с выбранными данными"}</button>
           <button className="secondary" type="button" onClick={startRandom} disabled={loading}>Случайная история</button>
         </div>
-        <section className="archive-note" aria-labelledby="archive-note-title">
-          <p className="archive-note-title" id="archive-note-title">История создается на основании архивов</p>
-          <details className="archive-disclosure">
-            <summary>Архивы и официальные источники: {selectedCountry?.label ?? "страна не указана"}</summary>
-            <ul className="archive-links">
-              {archiveSources.map((source) => (
-                <li key={source.id}>
-                  <a href={source.url} target="_blank" rel="noreferrer">{source.publisher}: {source.title}</a>
-                </li>
-              ))}
-            </ul>
-          </details>
-        </section>
-        <section className="archive-note" aria-labelledby="memory-sources-title">
-          <p className="archive-note-title" id="memory-sources-title">{memorySources.title}</p>
-          <details className="archive-disclosure">
-            <summary>{memorySources.summary}</summary>
-            <p className="archive-text">{memorySources.intro}</p>
-            <ul className="archive-links">
-              {memorySources.sources.map((source) => (
-                <li key={source.id}>
-                  <a href={source.url} target="_blank" rel="noreferrer">{source.name}, {source.description}</a>
-                </li>
-              ))}
-            </ul>
-            <p className="archive-text">{memorySources.closing}</p>
-          </details>
-        </section>
+        <footer className="start-footer">
+          <section className="archive-note" aria-labelledby="archive-note-title">
+            <p className="archive-note-title" id="archive-note-title">История создается на основании архивов</p>
+            <details className="archive-disclosure">
+              <summary>Архивы и официальные источники: {selectedCountry?.label ?? "страна не указана"}</summary>
+              <ul className="archive-links">
+                {archiveSources.map((source) => (
+                  <li key={source.id}>
+                    <a href={source.url} target="_blank" rel="noreferrer">{source.publisher}: {source.title}</a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+          </section>
+          <section className="archive-note" aria-labelledby="memory-sources-title">
+            <p className="archive-note-title" id="memory-sources-title">{memorySources.title}</p>
+            <details className="archive-disclosure">
+              <summary>{memorySources.summary}</summary>
+              <p className="archive-text">{memorySources.intro}</p>
+              <ul className="archive-links">
+                {memorySources.sources.map((source) => (
+                  <li key={source.id}>
+                    <a href={source.url} target="_blank" rel="noreferrer">{source.name}, {source.description}</a>
+                  </li>
+                ))}
+              </ul>
+              <p className="archive-text">{memorySources.closing}</p>
+            </details>
+          </section>
+        </footer>
       </section>
     </main>
   );
