@@ -105,7 +105,7 @@ function workCountry(state: GameSessionState): string {
 }
 
 /** The year her working life ends: retirement, or the verified closure that came before it. */
-function workEndYear(state: GameSessionState, occupation: Occupation): number {
+export function workEndYear(state: GameSessionState, occupation: Occupation): number {
   const retiredBy = state.selection.birthYear + retirementAge(workCountry(state));
   return occupation.closure && occupation.closure.year <= retiredBy ? occupation.closure.year : retiredBy;
 }

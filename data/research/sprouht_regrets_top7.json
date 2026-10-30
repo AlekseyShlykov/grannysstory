@@ -1,0 +1,135 @@
+{
+  "status": "provisional",
+  "source_channel": "https://www.youtube.com/@Sprouht",
+  "generated": "2026-10-30",
+  "method": "NOT MEASURED. Labelling vocabulary copied from BABUSHKA_REGRETS_PROMPT.md §3 (provisional candidate clusters). No transcripts were retrieved, coded or counted; see docs/SPROUHT_REGRETS_REPORT.md.",
+  "sample": {
+    "videos_reviewed": 0,
+    "respondents_coded": 0,
+    "respondents_expressing_any_regret": null,
+    "respondents_no_regret": null,
+    "respondents_mixed": null
+  },
+  "denominators_note": "Counts are null because no sample exists. Do not replace them with estimates.",
+  "clusters": [
+    {
+      "cluster_id": "time_with_loved_ones",
+      "label_ru": "Недостаточно времени с близкими",
+      "label_en": "Not spending enough time with loved ones",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "близость",
+        "присутствие"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    },
+    {
+      "cluster_id": "others_expectations",
+      "label_ru": "Жизнь по чужим ожиданиям, страх осуждения",
+      "label_en": "Living by others' expectations or fear of judgment",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "самостоятельность",
+        "честность с собой"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    },
+    {
+      "cluster_id": "work_over_life",
+      "label_ru": "Слишком много работы ради достижений или денег",
+      "label_en": "Working too much / achievement or money over life outside work",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "баланс",
+        "присутствие"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    },
+    {
+      "cluster_id": "not_taking_a_chance",
+      "label_ru": "Не решилась: поездка, переезд, учёба, мечта",
+      "label_en": "Not taking a chance: travel, moving, learning, a dream",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "смелость",
+        "любопытство"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    },
+    {
+      "cluster_id": "relationship_decision",
+      "label_ru": "Решение в отношениях: рано, долго, ушла, не сказала",
+      "label_en": "A relationship decision: married too early, stayed too long, left, not speaking honestly",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "близость",
+        "честность"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    },
+    {
+      "cluster_id": "postponing",
+      "label_ru": "Откладывание важного: дети, примирение, творчество, новое начало",
+      "label_en": "Postponing meaningful decisions: children, reconciliation, creative work, a new beginning",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "время",
+        "инициатива"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    },
+    {
+      "cluster_id": "own_needs",
+      "label_ru": "Пренебрежение здоровьем, отдыхом, своими нуждами",
+      "label_en": "Neglecting health, rest or one's own needs",
+      "rank": null,
+      "respondent_count": null,
+      "share_of_regret_respondents": null,
+      "share_of_all_respondents": null,
+      "uncertainty": null,
+      "exemplar_paraphrases": [],
+      "related_values_ru": [
+        "забота о себе"
+      ],
+      "counterexamples": [],
+      "evidence_status": "provisional_label_only"
+    }
+  ],
+  "game_use": "content/scenes/regretArchetypes.ts uses these ids with EQUAL weights until a coded sample replaces them."
+}

@@ -1,0 +1,2253 @@
+{
+  "description": "Сценарный атлас возможных эмоциональных воспоминаний по возрасту; это НЕ статистический рейтинг и НЕ извлечение индивидуальных ответов из корпусов.",
+  "age_bands": 20,
+  "records": 140,
+  "sources": {
+    "reminiscence_bump_review": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289446/",
+    "sharelife_domains": "https://share-eric.eu/data/data-documentation/waves-overview/wave-3",
+    "cosowell_narratives": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12164187/",
+    "storycorps_topics": "https://archive.storycorps.org/search/interviews/"
+  },
+  "records_data": [
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 1,
+      "memory_pattern_ru": "Тепло близкого взрослого",
+      "emotional_frame_ru": "безопасность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 2,
+      "memory_pattern_ru": "Разлука с родителем",
+      "emotional_frame_ru": "тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 3,
+      "memory_pattern_ru": "Голос, запах или песня из дома",
+      "emotional_frame_ru": "нежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 4,
+      "memory_pattern_ru": "Рождение младшего ребёнка в семье",
+      "emotional_frame_ru": "ревность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 5,
+      "memory_pattern_ru": "Переезд в незнакомый дом",
+      "emotional_frame_ru": "растерянность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 6,
+      "memory_pattern_ru": "Болезнь или больница",
+      "emotional_frame_ru": "страх",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 0,
+      "age_to": 4,
+      "life_stage": "Раннее детство",
+      "item": 7,
+      "memory_pattern_ru": "Семейный праздник, известный по фотографиям",
+      "emotional_frame_ru": "принадлежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 1,
+      "memory_pattern_ru": "Первый школьный день",
+      "emotional_frame_ru": "страх и гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 2,
+      "memory_pattern_ru": "Дружба с соседским ребёнком",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 3,
+      "memory_pattern_ru": "Несправедливое наказание",
+      "emotional_frame_ru": "обида",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 4,
+      "memory_pattern_ru": "Похвала значимого взрослого",
+      "emotional_frame_ru": "признание",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 5,
+      "memory_pattern_ru": "Потеря домашнего животного",
+      "emotional_frame_ru": "горе",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 6,
+      "memory_pattern_ru": "Особенный день с родителем или родственником",
+      "emotional_frame_ru": "тепло",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 5,
+      "age_to": 9,
+      "life_stage": "Первый самостоятельный мир",
+      "item": 7,
+      "memory_pattern_ru": "Смена школы или города",
+      "emotional_frame_ru": "одиночество и любопытство",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 1,
+      "memory_pattern_ru": "Первый секрет от родителей",
+      "emotional_frame_ru": "свобода и вина",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 2,
+      "memory_pattern_ru": "Подруга, которой можно доверять всё",
+      "emotional_frame_ru": "близость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 3,
+      "memory_pattern_ru": "Стыд из-за бедности или внешности",
+      "emotional_frame_ru": "уязвимость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 4,
+      "memory_pattern_ru": "Первое серьёзное увлечение",
+      "emotional_frame_ru": "воодушевление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 5,
+      "memory_pattern_ru": "Смерть или болезнь родственника",
+      "emotional_frame_ru": "страх потери",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 6,
+      "memory_pattern_ru": "Конфликт с учителем или родителем",
+      "emotional_frame_ru": "несправедливость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 10,
+      "age_to": 14,
+      "life_stage": "Появление своего голоса",
+      "item": 7,
+      "memory_pattern_ru": "Летние каникулы, которые кажутся бесконечными",
+      "emotional_frame_ru": "радость и ностальгия",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 1,
+      "memory_pattern_ru": "Первая влюблённость",
+      "emotional_frame_ru": "восторг",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 2,
+      "memory_pattern_ru": "Первое расставание",
+      "emotional_frame_ru": "боль",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 3,
+      "memory_pattern_ru": "Решение учиться или работать",
+      "emotional_frame_ru": "надежда и страх",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 4,
+      "memory_pattern_ru": "Подруга, с которой расходятся пути",
+      "emotional_frame_ru": "печаль",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 5,
+      "memory_pattern_ru": "Публичная неудача или успех",
+      "emotional_frame_ru": "стыд или гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 6,
+      "memory_pattern_ru": "Первая поездка без семьи",
+      "emotional_frame_ru": "свобода",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 15,
+      "age_to": 19,
+      "life_stage": "Юность и возможные жизни",
+      "item": 7,
+      "memory_pattern_ru": "Спор с семьёй о будущем",
+      "emotional_frame_ru": "упрямство и сомнение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 1,
+      "memory_pattern_ru": "Первая настоящая работа",
+      "emotional_frame_ru": "гордость и тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 2,
+      "memory_pattern_ru": "Любовь и совместные планы",
+      "emotional_frame_ru": "нежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 3,
+      "memory_pattern_ru": "Уход из родного дома",
+      "emotional_frame_ru": "свобода и тоска",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 4,
+      "memory_pattern_ru": "Неожиданное предложение переехать",
+      "emotional_frame_ru": "надежда и неопределённость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 5,
+      "memory_pattern_ru": "Отказ от образования или мечты",
+      "emotional_frame_ru": "сожаление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 6,
+      "memory_pattern_ru": "Выбор между отношениями и независимостью",
+      "emotional_frame_ru": "внутренний конфликт",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 20,
+      "age_to": 24,
+      "life_stage": "Начало самостоятельной жизни",
+      "item": 7,
+      "memory_pattern_ru": "Первое ощущение, что взрослая жизнь совсем не такая",
+      "emotional_frame_ru": "растерянность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 1,
+      "memory_pattern_ru": "Брак, расставание или сознательный отказ от брака",
+      "emotional_frame_ru": "определённость и сомнение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 2,
+      "memory_pattern_ru": "Рождение ребёнка или выбор жизни без детей",
+      "emotional_frame_ru": "любовь или свобода",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 3,
+      "memory_pattern_ru": "Первое серьёзное карьерное достижение",
+      "emotional_frame_ru": "гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 4,
+      "memory_pattern_ru": "Финансовая неустойчивость",
+      "emotional_frame_ru": "тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 5,
+      "memory_pattern_ru": "Смена города ради работы или любви",
+      "emotional_frame_ru": "риск",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 6,
+      "memory_pattern_ru": "Отдаление от старых друзей",
+      "emotional_frame_ru": "грусть",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 25,
+      "age_to": 29,
+      "life_stage": "Первые большие последствия",
+      "item": 7,
+      "memory_pattern_ru": "Сомнение в выбранном пути",
+      "emotional_frame_ru": "тревога и надежда",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 1,
+      "memory_pattern_ru": "Жизнь, заполненная работой и заботой",
+      "emotional_frame_ru": "усталость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 2,
+      "memory_pattern_ru": "Неожиданная радость обычного выходного",
+      "emotional_frame_ru": "благодарность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 3,
+      "memory_pattern_ru": "Выбор между повышением и близкими",
+      "emotional_frame_ru": "раздвоенность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 4,
+      "memory_pattern_ru": "Расставание или обновление отношений",
+      "emotional_frame_ru": "боль и облегчение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 5,
+      "memory_pattern_ru": "Сравнение себя с ровесниками",
+      "emotional_frame_ru": "зависть или стыд",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 6,
+      "memory_pattern_ru": "Переезд в собственное жильё",
+      "emotional_frame_ru": "спокойствие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 30,
+      "age_to": 34,
+      "life_stage": "Собственный уклад",
+      "item": 7,
+      "memory_pattern_ru": "Осознание, что родители стареют",
+      "emotional_frame_ru": "нежность и тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 1,
+      "memory_pattern_ru": "Несбывшаяся юношеская мечта",
+      "emotional_frame_ru": "сожаление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 2,
+      "memory_pattern_ru": "Удовлетворение от ремесла или профессии",
+      "emotional_frame_ru": "гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 3,
+      "memory_pattern_ru": "Серьёзная болезнь близкого",
+      "emotional_frame_ru": "беспомощность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 4,
+      "memory_pattern_ru": "Потерянная дружба или примирение",
+      "emotional_frame_ru": "печаль и облегчение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 5,
+      "memory_pattern_ru": "Решение начать всё заново",
+      "emotional_frame_ru": "смелость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 6,
+      "memory_pattern_ru": "Важный успех ребёнка или другого близкого человека",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 35,
+      "age_to": 39,
+      "life_stage": "Проверка прежних выборов",
+      "item": 7,
+      "memory_pattern_ru": "Обычный семейный вечер, ставший дорогим",
+      "emotional_frame_ru": "тепло",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 1,
+      "memory_pattern_ru": "Встреча со старой любовью или другом",
+      "emotional_frame_ru": "ностальгия",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 2,
+      "memory_pattern_ru": "Переоценка брака или одиночества",
+      "emotional_frame_ru": "честность и тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 3,
+      "memory_pattern_ru": "Усталость от обязанностей",
+      "emotional_frame_ru": "раздражение и вина",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 4,
+      "memory_pattern_ru": "Рождение новой мечты",
+      "emotional_frame_ru": "надежда",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 5,
+      "memory_pattern_ru": "Смерть или тяжёлая болезнь родителя",
+      "emotional_frame_ru": "горе",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 6,
+      "memory_pattern_ru": "Профессиональный поворот",
+      "emotional_frame_ru": "страх и оживление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 40,
+      "age_to": 44,
+      "life_stage": "Середина пути",
+      "item": 7,
+      "memory_pattern_ru": "Понимание собственной силы и ограничений",
+      "emotional_frame_ru": "принятие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 1,
+      "memory_pattern_ru": "Дети взрослеют или племянники отдаляются",
+      "emotional_frame_ru": "гордость и тоска",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 2,
+      "memory_pattern_ru": "Помощь стареющим родителям",
+      "emotional_frame_ru": "ответственность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 3,
+      "memory_pattern_ru": "Давняя обида, которую пора отпустить или сохранить границы",
+      "emotional_frame_ru": "облегчение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 4,
+      "memory_pattern_ru": "Разрыв длительных отношений",
+      "emotional_frame_ru": "печаль и свобода",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 5,
+      "memory_pattern_ru": "Финансовый удар или потеря работы",
+      "emotional_frame_ru": "страх",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 6,
+      "memory_pattern_ru": "Долгожданная поездка",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 45,
+      "age_to": 49,
+      "life_stage": "Меняется семейный круг",
+      "item": 7,
+      "memory_pattern_ru": "Неожиданная новая дружба",
+      "emotional_frame_ru": "удивление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 1,
+      "memory_pattern_ru": "Позднее обучение или новая профессия",
+      "emotional_frame_ru": "азарт",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 2,
+      "memory_pattern_ru": "Пустота после перемен в семье",
+      "emotional_frame_ru": "одиночество",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 3,
+      "memory_pattern_ru": "Новая любовь или доверительная близость",
+      "emotional_frame_ru": "надежда",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 4,
+      "memory_pattern_ru": "Переосмысление отношений с матерью",
+      "emotional_frame_ru": "нежность и сложность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 5,
+      "memory_pattern_ru": "Уход за больным партнёром или другом",
+      "emotional_frame_ru": "забота и истощение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 6,
+      "memory_pattern_ru": "Возвращение старого увлечения",
+      "emotional_frame_ru": "оживление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 50,
+      "age_to": 54,
+      "life_stage": "Другие возможности",
+      "item": 7,
+      "memory_pattern_ru": "Первое заметное физическое ограничение",
+      "emotional_frame_ru": "страх",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 1,
+      "memory_pattern_ru": "Мысль о скорой пенсии",
+      "emotional_frame_ru": "свобода и тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 2,
+      "memory_pattern_ru": "Последние годы на привычной работе",
+      "emotional_frame_ru": "гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 3,
+      "memory_pattern_ru": "Утрата друга ровесника",
+      "emotional_frame_ru": "неверие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 4,
+      "memory_pattern_ru": "Новая роль наставника",
+      "emotional_frame_ru": "значимость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 5,
+      "memory_pattern_ru": "Изменение отношений со взрослыми детьми или роднёй",
+      "emotional_frame_ru": "тепло и дистанция",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 6,
+      "memory_pattern_ru": "Путешествие, которое наконец состоялось",
+      "emotional_frame_ru": "благодарность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 55,
+      "age_to": 59,
+      "life_stage": "Порог новой главы",
+      "item": 7,
+      "memory_pattern_ru": "Сожаление о времени, проведённом в ожидании",
+      "emotional_frame_ru": "печаль",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 1,
+      "memory_pattern_ru": "Выход на пенсию или продолжение работы",
+      "emotional_frame_ru": "облегчение и потеря роли",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 2,
+      "memory_pattern_ru": "Утренние ритуалы без расписания",
+      "emotional_frame_ru": "спокойствие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 3,
+      "memory_pattern_ru": "Забота о внуках, племянниках или соседях",
+      "emotional_frame_ru": "нежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 4,
+      "memory_pattern_ru": "Переезд поближе к близким",
+      "emotional_frame_ru": "надежда и потеря привычного",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 5,
+      "memory_pattern_ru": "Изменение здоровья или подвижности",
+      "emotional_frame_ru": "тревога",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 6,
+      "memory_pattern_ru": "Восстановление старой дружбы",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 60,
+      "age_to": 64,
+      "life_stage": "Свобода и неопределённость",
+      "item": 7,
+      "memory_pattern_ru": "Переоценка успеха и денег",
+      "emotional_frame_ru": "ясность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 1,
+      "memory_pattern_ru": "Привычная компания друзей редеет",
+      "emotional_frame_ru": "грусть",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 2,
+      "memory_pattern_ru": "Передача кому-то своего умения",
+      "emotional_frame_ru": "гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 3,
+      "memory_pattern_ru": "Вдовство или расставание в позднем возрасте",
+      "emotional_frame_ru": "утрата",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 4,
+      "memory_pattern_ru": "Новая поездка или первый опыт поздней самостоятельности",
+      "emotional_frame_ru": "свобода",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 5,
+      "memory_pattern_ru": "Знакомый дом становится слишком большим",
+      "emotional_frame_ru": "ностальгия",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 6,
+      "memory_pattern_ru": "Примирение с братом, сестрой или другом",
+      "emotional_frame_ru": "облегчение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 65,
+      "age_to": 69,
+      "life_stage": "Связи важнее статуса",
+      "item": 7,
+      "memory_pattern_ru": "Наслаждение тихим повторяющимся днём",
+      "emotional_frame_ru": "благодарность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 1,
+      "memory_pattern_ru": "Потеря старого друга",
+      "emotional_frame_ru": "горе",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 2,
+      "memory_pattern_ru": "Праздник, когда собрались несколько поколений или друзей",
+      "emotional_frame_ru": "полнота",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 3,
+      "memory_pattern_ru": "Давнее письмо неожиданно найдено",
+      "emotional_frame_ru": "ностальгия",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 4,
+      "memory_pattern_ru": "Решение отказаться от вождения или тяжёлой работы",
+      "emotional_frame_ru": "уязвимость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 5,
+      "memory_pattern_ru": "Рассказы о собственной молодости младшим",
+      "emotional_frame_ru": "тепло",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 6,
+      "memory_pattern_ru": "Ощущение, что мир сильно изменился",
+      "emotional_frame_ru": "чуждость и любопытство",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 70,
+      "age_to": 74,
+      "life_stage": "Время становится ощутимым",
+      "item": 7,
+      "memory_pattern_ru": "Поздняя дружба или любовь",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 1,
+      "memory_pattern_ru": "Уход партнёра или близкого родственника",
+      "emotional_frame_ru": "печаль",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 2,
+      "memory_pattern_ru": "Разбор старых фотографий",
+      "emotional_frame_ru": "нежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 3,
+      "memory_pattern_ru": "Сохранение своего дома и уклада",
+      "emotional_frame_ru": "достоинство",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 4,
+      "memory_pattern_ru": "Потеря самостоятельности в мелочах",
+      "emotional_frame_ru": "раздражение",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 5,
+      "memory_pattern_ru": "Неожиданный знак внимания от давнего знакомого",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 6,
+      "memory_pattern_ru": "Семейная история, которую раньше не рассказывали",
+      "emotional_frame_ru": "доверие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 75,
+      "age_to": 79,
+      "life_stage": "Что хочется сохранить",
+      "item": 7,
+      "memory_pattern_ru": "Принятие несбывшегося",
+      "emotional_frame_ru": "светлая грусть",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 1,
+      "memory_pattern_ru": "Вспоминается голос умершего человека",
+      "emotional_frame_ru": "тоска",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 2,
+      "memory_pattern_ru": "Письмо, которое так и не было отправлено",
+      "emotional_frame_ru": "сожаление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 3,
+      "memory_pattern_ru": "Повторная встреча с местом детства",
+      "emotional_frame_ru": "удивление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 4,
+      "memory_pattern_ru": "Помощь от младшего человека",
+      "emotional_frame_ru": "благодарность и неловкость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 5,
+      "memory_pattern_ru": "Юмор по поводу своего возраста",
+      "emotional_frame_ru": "ирония",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 6,
+      "memory_pattern_ru": "Страх стать обузой",
+      "emotional_frame_ru": "уязвимость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 80,
+      "age_to": 84,
+      "life_stage": "Память о людях",
+      "item": 7,
+      "memory_pattern_ru": "Осознание, кому удалось передать заботу",
+      "emotional_frame_ru": "тихая гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 1,
+      "memory_pattern_ru": "Череда имён тех, кого уже нет рядом",
+      "emotional_frame_ru": "горе и нежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 2,
+      "memory_pattern_ru": "Один ничем не примечательный счастливый день",
+      "emotional_frame_ru": "благодарность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 3,
+      "memory_pattern_ru": "Сомнение: стоило ли уезжать или оставаться?",
+      "emotional_frame_ru": "сожаление и принятие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 4,
+      "memory_pattern_ru": "Просьба не выбрасывать дорогую вещь",
+      "emotional_frame_ru": "привязанность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 5,
+      "memory_pattern_ru": "Радость от короткого визита",
+      "emotional_frame_ru": "тепло",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 6,
+      "memory_pattern_ru": "Желание самой решать бытовые вопросы",
+      "emotional_frame_ru": "достоинство",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 85,
+      "age_to": 89,
+      "life_stage": "Жизнь как целое",
+      "item": 7,
+      "memory_pattern_ru": "Неожиданное понимание старой семейной ссоры",
+      "emotional_frame_ru": "ясность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 1,
+      "memory_pattern_ru": "Утро, когда удалось самому сделать привычное дело",
+      "emotional_frame_ru": "гордость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 2,
+      "memory_pattern_ru": "Сон или воспоминание о родителях",
+      "emotional_frame_ru": "нежность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 3,
+      "memory_pattern_ru": "Случайное слово, вызвавшее давний эпизод",
+      "emotional_frame_ru": "удивление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 4,
+      "memory_pattern_ru": "Прикосновение или присутствие близкого человека",
+      "emotional_frame_ru": "спокойствие",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 5,
+      "memory_pattern_ru": "История, которую хочется ещё раз рассказать",
+      "emotional_frame_ru": "значимость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 6,
+      "memory_pattern_ru": "Разговор о смерти без готовой мудрости",
+      "emotional_frame_ru": "уязвимость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 90,
+      "age_to": 94,
+      "life_stage": "Важность настоящего",
+      "item": 7,
+      "memory_pattern_ru": "Радость от маленького события сегодня",
+      "emotional_frame_ru": "благодарность",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 1,
+      "memory_pattern_ru": "Новый знакомый или неожиданный гость",
+      "emotional_frame_ru": "радость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 2,
+      "memory_pattern_ru": "Память о запахе дома, которого давно нет",
+      "emotional_frame_ru": "ностальгия",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 3,
+      "memory_pattern_ru": "Осознание прожитых исторических эпох",
+      "emotional_frame_ru": "изумление",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 4,
+      "memory_pattern_ru": "Вопрос о том, что удалось передать другим",
+      "emotional_frame_ru": "смысл",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 5,
+      "memory_pattern_ru": "Неохота говорить о болезнях и потерях",
+      "emotional_frame_ru": "усталость",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 6,
+      "memory_pattern_ru": "Желание сохранить независимость в малом",
+      "emotional_frame_ru": "достоинство",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    },
+    {
+      "age_from": 95,
+      "age_to": 99,
+      "life_stage": "Всё ещё продолжающаяся жизнь",
+      "item": 7,
+      "memory_pattern_ru": "Интерес к завтрашнему дню",
+      "emotional_frame_ru": "надежда",
+      "evidence_level": "scenario_synthesis_not_measured_frequency",
+      "source_basis": [
+        "reminiscence_bump_review",
+        "sharelife_domains",
+        "cosowell_narratives",
+        "storycorps_topics"
+      ],
+      "historical_context_required": true
+    }
+  ]
+}

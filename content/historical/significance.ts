@@ -123,6 +123,11 @@ export function historicalSignificance(id: string, title: string, category?: str
   return base;
 }
 
+/** Acts, codes, censuses and portals: true records, but not what a person brings up herself. */
+export function isPaperwork(title: string): boolean {
+  return PAPERWORK.test(title);
+}
+
 export function isSpokenSignificant(id: string, title: string, category?: string): boolean {
   return historicalSignificance(id, title, category) >= MIN_SPOKEN_SIGNIFICANCE;
 }

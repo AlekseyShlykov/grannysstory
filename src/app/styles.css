@@ -98,6 +98,8 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .timeline a { color: var(--accent-dark); font-size: .75rem; }
 .event-historical { background: linear-gradient(90deg, rgba(80,96,91,.07), transparent 62%); }
 .event-quiet { background: linear-gradient(90deg, rgba(147,103,64,.08), transparent 62%); }
+.event-backdrop { opacity: .78; }
+.event-backdrop h3 { font-weight: 400; }
 .gaps, .quiet-memory, .last-note { width: min(850px, 100%); margin: 82px auto 0; }
 .gaps { border-top: 1px solid var(--line); }
 .gaps h2 { font-size: 1.65rem; }

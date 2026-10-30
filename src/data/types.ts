@@ -97,6 +97,63 @@ export interface Person {
   parentIds: string[];
   /** Absent in older saves, where the family was described as «бабушка или дедушка». */
   sex?: "female" | "male";
+  /** Hidden canon for the people of her own childhood; null when alive at the conversation. */
+  deathYear?: number | null;
+}
+
+/**
+ * A life with or without a partner. Lives whose turning point is about love or marriage take the branch outcome
+ * instead of `plannedStart`; the plan only fills lives where the conversation never decides it.
+ */
+export interface PartnershipPlan {
+  /** Year a lasting partnership begins when no turning point decides it; null: she lives without one. */
+  plannedStart: number | null;
+  /**
+   * How it may end: a partner's death at her age `offset`, or a separation `offset` years after it began.
+   * Applied to whichever start the life actually has; an end after the conversation means it did not end.
+   */
+  end: { kind: "death" | "separation"; offset: number } | null;
+}
+
+export interface LifeCanon {
+  partnership: PartnershipPlan;
+  /** Five-year age bands (age_from) and how many atlas memories she carries from each; most bands carry none. */
+  memoryPlan: { ageFrom: number; slots: number }[];
+}
+
+export type LifeImpact = "slight" | "notable" | "reshaping" | "defining";
+export type PersonalSignificance = "passing" | "kept" | "treasured" | "central";
+export type MemoryVividness = "reconstructed" | "faint" | "clear" | "vivid";
+
+/** The separate dimensions of one remembered episode; none is shown to the player as a value. */
+export interface AtlasMemoryProperties {
+  patternKey: string;
+  ageFrom: number;
+  lifeImpact: LifeImpact;
+  personalSignificance: PersonalSignificance;
+  memoryVividness: MemoryVividness;
+  emotionalTone: string[];
+  currentInterpretation: string;
+  relatedPeople: string[];
+  relatedChoices: string[];
+}
+
+export type RegretStance = "regret" | "mixed" | "grief_without_regret" | "no_major_regret" | "rejects_the_word";
+
+/** The locked answer of the late-life conversation (saved as `lateLifeReflection`). */
+export interface LateLifeReflection {
+  archetypeId: string;
+  /** Provisional cluster id; see data/research/sprouht_regrets_top7.json. Null for no-regret answers. */
+  clusterId: string | null;
+  stance: RegretStance;
+  year: number;
+  age: number;
+  relatedEventIds: string[];
+  qualities: EmotionalQualities;
+  /** What she said, for the atlas; the spoken answer can be longer. */
+  summary: string;
+  /** Set when no 80–90 point exists in the conversation and an earlier reflection was used. */
+  omittedReason?: string;
 }
 
 export interface RelationshipEdge {
@@ -172,6 +229,8 @@ export interface MemoryState {
   recalled: boolean;
   interpretation: string;
   qualities: EmotionalQualities;
+  /** Present for memories drawn from the memory atlas. */
+  atlas?: AtlasMemoryProperties;
 }
 
 export interface ConversationFact {
@@ -193,6 +252,10 @@ export interface BiographyState {
   flags: string[];
   /** Canonical work; absent in older saves. With a work-shaping branch the job depends on its outcome. */
   work?: WorkState;
+  /** Partnership and memory plan; absent in older saves, which keep the earlier life-course fragments. */
+  canon?: LifeCanon;
+  /** Locked once spoken; later answers and the atlas must agree with it. */
+  lateLifeReflection?: LateLifeReflection;
 }
 
 export interface WorkState {

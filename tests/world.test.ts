@@ -277,25 +277,21 @@ describe("history inside generated lives", () => {
     throw new Error("no childless marriage-branch life found");
   });
 
-  it("uses world background in every five-year step and keeps it after a save round-trip", () => {
+  it("keeps the spoken history of a life after a save round-trip, at most one aside per interval", () => {
     const state = generated("tver", 1932, "world-save");
     const before = [...timelineBackgrounds(state).entries()];
-    expect(before.map(([year]) => year)).toEqual(lifeTimelinePoints(state.selection).filter((point) => !point.final).map((point) => point.year));
+    const points = lifeTimelinePoints(state.selection).filter((point) => !point.final).map((point) => point.year);
+    expect(before.every(([year]) => points.includes(year))).toBe(true);
     expect(before.some(([, background]) => background.id.startsWith("context:world:"))).toBe(true);
     const restored = parseSave(serializeSave(state))!;
     expect([...timelineBackgrounds(restored).entries()]).toEqual(before);
   });
 
-  it("mixes local and country-or-world background across one life", () => {
-    const backgrounds = [...timelineBackgrounds(generated("tver", 1900, "balanced-scales")).values()];
-    expect(backgrounds.some((background) => ["local", "municipal", "district", "regional"].includes(background.level ?? ""))).toBe(true);
-    expect(backgrounds.some((background) => ["constituent", "national", "international"].includes(background.level ?? ""))).toBe(true);
-  });
-
-  it("never voices unreviewed sensitive records", () => {
+  it("voices sensitive records only through a milestone's hand-written lines", () => {
     const sensitive = new Set([...world.packs.values()].flatMap((pack) => pack.events.filter((event) => event.sensitive && !event.legacy).map((event) => event.id)));
     for (let index = 0; index < 30; index += 1) {
       for (const background of timelineBackgrounds(generated("leningrad", 1925, `sensitive-${index}`)).values()) {
+        if (background.milestoneId) continue;
         expect(sensitive.has(background.id.replace(/^context:(national:|world:)?/, ""))).toBe(false);
       }
     }
@@ -319,7 +315,8 @@ describe("offline data and fallbacks", () => {
     clearWorldPacks();
     const state = generateSession(selection("tver", 1932, "offline"), regionPacks.tver!);
     const backgrounds = [...timelineBackgrounds(state).values()];
-    expect(backgrounds.length).toBeGreaterThan(lifeTimelinePoints(state.selection).filter((point) => !point.final).length * 0.75);
+    // Offline she still talks about history in a good share of her years, without an aside in every one.
+    expect(backgrounds.length).toBeGreaterThan(lifeTimelinePoints(state.selection).filter((point) => !point.final).length * 0.35);
     expect(backgrounds.every((background) => !background.id.startsWith("context:world:"))).toBe(true);
     world = loadWholeWorld();
     expect(worldData().packs.size).toBeGreaterThan(0);
@@ -379,9 +376,10 @@ describe("world-dataset birthplaces in the main menu", () => {
 
 describe("spoken history", () => {
   it("keeps reference-book abbreviations out of her speech", async () => {
-    const { spokenFact } = await import("../content/scenes/historicalVoice");
-    expect(spokenFact("4 мая 1942 г. выдана первая продовольственная книжка (сахарная). Потом ещё.", "Карточки военного времени")).toBe("Карточки военного времени.");
-    expect(spokenFact("Город получил трамвай. Подробности позже.", "Трамвай")).toBe("Город получил трамвай.");
+    const { spokenFactSentence } = await import("../content/scenes/historicalNarration");
+    // A record she cannot say as a sentence is not reduced to its title; it simply is not spoken.
+    expect(spokenFactSentence("4 мая 1942 г. выдана первая продовольственная книжка (сахарная). Потом ещё.")).toBeNull();
+    expect(spokenFactSentence("Город получил трамвай. Подробности позже.")).toBe("Город получил трамвай.");
   });
 });
 

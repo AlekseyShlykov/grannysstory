@@ -725,6 +725,82 @@
    ],
    "verification_status": "verified",
    "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1944-liberation",
+   "title": "Освобождение Франции",
+   "title_original": null,
+   "start_date": "1944-06-06",
+   "end_date": "1945-05-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Летом 1944 года союзники высадились в Нормандии, и в конце августа был освобождён Париж. До весны 1945 года страна постепенно выходила из-под оккупации.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberation_of_France",
+     "accessed": "2026-10-30",
+     "supports": "высадка 6 июня 1944, освобождение Парижа 25 августа 1944, период до 8 мая 1945"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1945-ve-day",
+   "title": "Конец войны в Европе",
+   "title_original": null,
+   "start_date": "1945-05-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Восьмого мая 1945 года вступила в силу капитуляция Германии, и война в Европе закончилась. Во Франции этот день празднуют как День Победы.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
+     "accessed": "2026-10-30",
+     "supports": "вступление капитуляции в силу 8 мая 1945 года"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
   }
  ]
 }

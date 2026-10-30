@@ -1679,6 +1679,82 @@
    ],
    "verification_status": "verified",
    "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1918-armistice",
+   "title": "Перемирие 11 ноября 1918 года",
+   "title_original": null,
+   "start_date": "1918-11-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Утром 11 ноября 1918 года в Компьенском лесу подписали перемирие с Германией, и в одиннадцать часов стрельба на фронте прекратилась. Так закончились бои Первой мировой войны.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
+     "accessed": "2026-10-30",
+     "supports": "дата, место подписания и время вступления в силу"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fr-nat-1939-war-declared",
+   "title": "Франция объявила войну Германии",
+   "title_original": null,
+   "start_date": "1939-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fr"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Через два дня после нападения Германии на Польшу, 3 сентября 1939 года, Франция объявила Германии войну. Началась Вторая мировая война для Франции.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/French_declaration_of_war_on_Germany_(1939)",
+     "accessed": "2026-10-30",
+     "supports": "дата объявления войны"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
   }
  ]
 }

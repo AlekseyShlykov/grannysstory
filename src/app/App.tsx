@@ -6,7 +6,7 @@ import { ensureWorldPacks } from "../data/worldStore";
 import { manifest } from "../data/world";
 import { loadRegionPack } from "../data/regionStore";
 import type { GameSessionState, RegionId, StartSelection } from "../data/types";
-import { atlasRoute, knownAtlasEvents, unknownPeriods } from "../engine/atlas";
+import { atlasRoute, historicalBackdrop, knownAtlasEvents, laterInterpretation, unknownPeriods } from "../engine/atlas";
 import { generateSession } from "../engine/biography";
 import { chooseOption, currentScene } from "../engine/dialogue";
 import { clearSave, loadGame, saveGame } from "../engine/persistence";
@@ -218,7 +218,14 @@ function AtlasMap({ state }: { state: GameSessionState }) {
 function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void }) {
   const events = knownAtlasEvents(state);
   const gaps = unknownPeriods(state);
-  const quiet = events.find((event) => event.salience === "quiet");
+  const backdrop = historicalBackdrop(state);
+  // The memory she holds dearest need not be the one that changed her life most.
+  const dearest = state.memories.find((memory) => memory.recalled && memory.atlas?.personalSignificance === "central" && (memory.atlas.lifeImpact === "slight" || memory.atlas.lifeImpact === "notable"));
+  const quiet = events.find((event) => event.id === dearest?.lifeEventId) ?? events.find((event) => event.salience === "quiet");
+  const rows = [
+    ...events.map((event) => ({ year: event.year, key: event.id, event, entry: null })),
+    ...backdrop.map((entry) => ({ year: entry.year, key: entry.id, event: null, entry }))
+  ].sort((a, b) => a.year - b.year || Number(Boolean(a.entry)) - Number(Boolean(b.entry)));
   const familyKnown = events.some((event) => event.id === "life:family-connection");
   return (
     <main id="main" className="atlas-shell">
@@ -240,13 +247,28 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       <section className="timeline" aria-labelledby="timeline-title">
         <h2 id="timeline-title">Хронология</h2>
         <ol>
-          {events.map((event) => (
-            <li key={event.id} className={`event-${event.salience}`}>
+          {rows.map(({ key, event, entry }) => entry ? (
+            <li key={key} className="event-backdrop">
+              <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? "рождение" : `${entry.age} лет`}</span></div>
+              <div>
+                <p className="event-kind">фон эпохи · {entry.placeName}</p>
+                <h3>{entry.title}</h3>
+                <p>{entry.summary}</p>
+                <p className="event-framing">{entry.placeOccupied ? "Её город в это время был под оккупацией. " : ""}Об этом она сегодня не рассказывала.</p>
+                {entry.sourceIds.map((sourceId) => {
+                  const source = sourceRecords.find((candidate) => candidate.id === sourceId);
+                  return source ? <a key={sourceId} href={source.url} target="_blank" rel="noreferrer">Источник: {source.publisher}</a> : null;
+                })}
+              </div>
+            </li>
+          ) : event && (
+            <li key={key} className={`event-${event.salience}`}>
               <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? "рождение" : `${event.age} лет`}</span></div>
               <div>
                 <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "исторический контекст" : event.salience === "quiet" ? "личная память" : "её жизнь"} · {event.placeName}</p>
                 <h3>{event.title}</h3>
                 <p>{event.text}</p>
+                {laterInterpretation(state, event.id) && <p className="event-framing">Спустя годы: {laterInterpretation(state, event.id)}</p>}
                 {event.historicalContextIds?.map((contextId) => {
                   const framing = events.find((candidate) => candidate.id === `context:world:${contextId}`);
                   return framing ? <p key={contextId} className="event-framing">Тогда же: {framing.title.toLocaleLowerCase("ru")}</p> : null;

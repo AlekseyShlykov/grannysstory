@@ -1,11 +1,13 @@
 import { birthAfterwords, birthStatements } from "../../content/scenes/birthVoice";
-import { framingVoice, voiceFor } from "../../content/scenes/historicalVoice";
+import { milestoneFollowUpQuestion, narrateFraming, narrateMilestone, narrateRecord } from "../../content/scenes/historicalNarration";
+import { reflectionQuestions } from "../../content/scenes/regretArchetypes";
 import { spokenChildren, spokenRelationship } from "../../content/scenes/kinshipVoice";
 import type { Sex } from "../../content/scenes/kinshipVoice";
 import type { ReflectionAngle } from "../../content/scenes/lifeCourse";
 import { placeLocative } from "../../content/scenes/regions";
 import { placeLocativeAt, placeNameAt } from "../data/world";
-import type { EmotionalQualities, GameSessionState, LifeEvent } from "../data/types";
+import type { EmotionalQualities, GameSessionState, LifeEvent, MemoryState } from "../data/types";
+import { hasWorldPacks, worldData } from "../data/worldStore";
 import { activeBranchDefinition, anchorAsLifeEvent, commitBranch } from "./biography";
 import {
   backgroundAsLifeEvent,
@@ -16,7 +18,13 @@ import {
   questionsForPoint,
   timelineBackgrounds
 } from "./lifeTimeline";
-import { threadClosingFor, threadEchoFor } from "./earlyLifeThread";
+import type { TimelineBackground } from "./lifeTimeline";
+import { earlyBeatForState, threadClosingFor, threadEchoFor } from "./earlyLifeThread";
+import { milestoneById, occupiedAfter } from "./history/milestones";
+import { atlasMemoriesForBand, atlasMemorySpeech } from "./memory/atlas";
+import type { AtlasMemory } from "./memory/atlas";
+import { isReflectionPoint, tellReflection } from "./regrets";
+import { resolveLocationId } from "./world/geography";
 import { seededRandom } from "./random";
 import { currentOccupation, nextWorkStage, workFactId, workLifeEvent, workLine } from "./work";
 import type { WorkStage } from "./work";
@@ -146,6 +154,8 @@ function specialEventsInPoint(state: GameSessionState): LifeEvent[] {
     && event.year >= point.year
     && event.year <= point.endYear
     && !event.id.startsWith("life:timeline:")
+    // Atlas memories she keeps to herself stay untold; they are not announcements of the interval.
+    && !event.id.startsWith("life:memory:")
   );
 }
 
@@ -207,7 +217,75 @@ export function currentScene(state: GameSessionState): DialogueSceneView {
     const branch = activeBranchDefinition(state);
     return { options: [{ id: "pathA", text: branch.questionA }, { id: "pathB", text: branch.questionB }] };
   }
-  return { options: questionsForPoint(state, point) };
+  if (isReflectionPoint(state, point)) {
+    return { options: reflectionQuestions.map((text, index) => ({ id: `reflect-${index}`, text })) };
+  }
+  const followUp = pendingMilestoneFollowUp(state);
+  return { options: [...questionsForPoint(state, point), ...(followUp ? [{ id: "history-more", text: milestoneFollowUpQuestion }] : [])] };
+}
+
+const milestoneFactPrefix = "fact:milestone:";
+
+/** A milestone voiced in her last answer can be explored once more before the conversation moves on. */
+function pendingMilestoneFollowUp(state: GameSessionState): string | null {
+  const fact = state.discovery.facts.find((candidate) => candidate.id.startsWith(milestoneFactPrefix) && candidate.learnedAtStep === state.dialogue.step);
+  const id = fact?.id.slice(milestoneFactPrefix.length);
+  if (!id || state.discovery.facts.some((candidate) => candidate.id === `fact:milestone-more:${id}`)) return null;
+  const voice = milestoneById.get(id)?.voice;
+  const lastAnswer = state.dialogue.transcript.at(-1)?.text ?? "";
+  return voice && [voice.heard, voice.young, voice.lived].some((line) => lastAnswer.includes(line)) ? id : null;
+}
+
+function addAtlasMemory(state: GameSessionState, memory: AtlasMemory, year: number, told: boolean): { state: GameSessionState; eventId: string } {
+  const eventId = `life:memory:${memory.properties.patternKey}`;
+  const ordinary = memory.properties.lifeImpact === "slight" || memory.properties.lifeImpact === "notable";
+  const event: LifeEvent = {
+    id: eventId,
+    year,
+    title: memory.record.memory_pattern_ru,
+    text: memory.scene,
+    placeId: residenceAt(state, year),
+    peopleIds: ["grandmother", ...memory.properties.relatedPeople],
+    provenance: "FICTIONAL_PERSONAL",
+    sourceIds: [],
+    salience: ordinary ? "quiet" : "personal",
+    known: told
+  };
+  const tones = memory.properties.emotionalTone.join(" ");
+  const qualities: EmotionalQualities = {
+    pride: /гордост|признани|смелост|достоинств|значимост/.test(tones),
+    regret: /сожален|вин|стыд|печал/.test(tones),
+    gratitude: /благодарн|тепл|радост|нежност|полнот/.test(tones),
+    acceptance: /принят|ясност|спокойств|облегчен/.test(tones)
+  };
+  const stored: MemoryState = { id: `memory:${eventId}`, lifeEventId: eventId, recalled: told, interpretation: memory.now, qualities, atlas: memory.properties };
+  let next: GameSessionState = {
+    ...state,
+    biography: { ...state.biography, lifeEvents: [...state.biography.lifeEvents.filter((candidate) => candidate.id !== eventId), event] },
+    memories: [...state.memories.filter((candidate) => candidate.lifeEventId !== eventId), stored]
+  };
+  if (told) next = { ...next, discovery: { facts: [...next.discovery.facts, { id: `fact:${eventId}`, learnedAtStep: state.dialogue.step + 1, lifeEventIds: [eventId] }] } };
+  return { state: next, eventId };
+}
+
+const secondMemoryLeads = ["А ещё из тех лет вот что осталось.", "И ещё одно вспомнилось.", "Знаешь, что ещё было?"];
+
+function placeOccupied(state: GameSessionState, background: TimelineBackground): boolean {
+  if (!hasWorldPacks()) return false;
+  const world = worldData();
+  const id = resolveLocationId(world, residenceAt(state, background.year));
+  const eventId = background.id.replace(/^context:(national:|world:)?/, "");
+  const start = [...world.packs.values()].flatMap((pack) => pack.events).find((event) => event.id === eventId)?.start ?? String(background.year);
+  return Boolean(id && occupiedAfter(world, id, start));
+}
+
+/** One historical passage: a milestone in her own words, or a composed passage around a verified record. */
+function historySpeech(state: GameSessionState, background: TimelineBackground, wasPresent: boolean, order: number): string | null {
+  const age = Math.max(0, background.year - state.selection.birthYear);
+  const ctx = { age, wasPresent, placeOccupied: placeOccupied(state, background), runSeed: state.selection.runSeed, order };
+  const milestone = background.milestoneId ? milestoneById.get(background.milestoneId) : undefined;
+  if (milestone) return narrateMilestone(milestone, ctx);
+  return narrateRecord({ eventId: background.id.replace(/^context:(national:|world:)?/, ""), summary: background.text, category: background.category }, ctx);
 }
 
 export function chooseOption(state: GameSessionState, optionId: string): GameSessionState {
@@ -216,6 +294,24 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   if (!option) throw new Error(`Option ${optionId} is not available at timeline step ${state.dialogue.step}`);
 
   const point = activePoint(state);
+  if (optionId === "history-more") {
+    const milestoneId = pendingMilestoneFollowUp(state)!;
+    const answered: GameSessionState = {
+      ...state,
+      discovery: { facts: [...state.discovery.facts, { id: `fact:milestone-more:${milestoneId}`, learnedAtStep: state.dialogue.step, lifeEventIds: [] }] }
+    };
+    return withTurn(answered, option.text, milestoneById.get(milestoneId)!.voice.deeper, false, false);
+  }
+  if (optionId.startsWith("reflect-")) {
+    const told = tellReflection(state, Number(optionId.slice(8)), point);
+    let next = told.state;
+    const speech = [told.speech];
+    const specials = specialEventsInPoint(next);
+    speech.push(...specialSpeech(next, specials));
+    for (const event of specials) next = addKnownEvent(next, { ...event, known: true }, { pride: false, regret: false, gratitude: true, acceptance: true });
+    if (point.final) speech.push(`Вот и дошли до ${point.year} года. Давай лучше поставим чайник.`);
+    return withTurn(next, option.text, speech.filter(Boolean).join("\n\n"), point.final);
+  }
   const fragment = fragmentForPoint(state, point);
   const branchChoice = isBranchChoiceReady(state);
   const introducesBranch = hasBranchInPoint(state) && !branchChoice;
@@ -233,28 +329,45 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   }
 
   const angle = optionId as ReflectionAngle;
+  // Atlas memories of this band: the plan gives most bands none, a few bands several. The coherent childhood
+  // thread keeps the first answers; there an atlas memory follows it instead of replacing it.
+  const atlasMemories = point.age % 5 === 0 && !point.final ? atlasMemoriesForBand(next, point.age) : [];
+  const keepsFragment = point.age === 0 || Boolean(earlyBeatForState(next, point.age)) || !atlasMemories.length;
+  const primaryAtlas = keepsFragment ? undefined : atlasMemories[0];
   const mainAnswer = point.age === 0
     ? `${birthAnswer(next, angle)} ${fragment.detail}`
-    : personalAnswer(fragment, angle);
+    : primaryAtlas ? atlasMemorySpeech(primaryAtlas, angle, state.selection.runSeed) : personalAnswer(fragment, angle);
   const threadEcho = threadEchoFor(next, point.age, phaseAtAge(point.age));
   const linkedAnswer = threadEcho ? `${threadEcho} ${mainAnswer}` : mainAnswer;
 
-  const personalEvent: LifeEvent = {
-    id: `life:timeline:${point.year}`,
-    year: point.year,
-    title: fragment.title,
-    text: linkedAnswer,
-    placeId: residenceAt(next, point.year),
-    peopleIds: ["grandmother"],
-    provenance: "FICTIONAL_PERSONAL",
-    sourceIds: [],
-    salience: fragment.salience,
-    known: true
-  };
-  next = addKnownEvent(next, personalEvent, qualitiesFor(angle));
+  if (primaryAtlas) {
+    next = addAtlasMemory(next, primaryAtlas, point.year, true).state;
+  } else {
+    const personalEvent: LifeEvent = {
+      id: `life:timeline:${point.year}`,
+      year: point.year,
+      title: fragment.title,
+      text: linkedAnswer,
+      placeId: residenceAt(next, point.year),
+      peopleIds: ["grandmother"],
+      provenance: "FICTIONAL_PERSONAL",
+      sourceIds: [],
+      salience: fragment.salience,
+      known: true
+    };
+    next = addKnownEvent(next, personalEvent, qualitiesFor(angle));
+  }
+  const speech = [linkedAnswer];
+  // One more memory of the band may be told briefly; the rest stays in her memory, untold (characterMemory).
+  const rest = atlasMemories.filter((memory) => memory !== primaryAtlas);
+  rest.forEach((memory, index) => {
+    const told = index === 0;
+    next = addAtlasMemory(next, memory, point.year, told).state;
+    if (told) speech.push(`${secondMemoryLeads[point.age % secondMemoryLeads.length]} ${atlasMemorySpeech(memory, "detail", state.selection.runSeed)}`);
+  });
 
   const specials = specialEventsInPoint(next);
-  const speech = [linkedAnswer, ...specialSpeech(next, specials)];
+  speech.push(...specialSpeech(next, specials));
   for (const event of specials) next = addKnownEvent(next, { ...event, known: true }, { pride: false, regret: false, gratitude: true, acceptance: true });
 
   const workStage = nextWorkStage(next, point.age, point.endYear);
@@ -266,16 +379,20 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
 
   const backgrounds = timelineBackgrounds(next);
   const background = backgrounds.get(point.year);
-  if (background) {
-    const historicalEvent = background.existingLifeEventId
-      ? next.biography.lifeEvents.find((event) => event.id === background.existingLifeEventId)
-      : backgroundAsLifeEvent(background);
+  // The order of this aside among all asides of the life keeps phrases from repeating.
+  const order = [...backgrounds.keys()].sort((a, b) => a - b).indexOf(point.year);
+  for (const item of background ? [background, background.companion].filter((entry): entry is TimelineBackground => Boolean(entry)) : []) {
+    const historicalEvent = item.existingLifeEventId
+      ? next.biography.lifeEvents.find((event) => event.id === item.existingLifeEventId)
+      : backgroundAsLifeEvent(item);
+    const wasPresent = !item.existingLifeEventId || Boolean(historicalEvent?.peopleIds.includes("grandmother"));
+    const passage = historySpeech(state, item, wasPresent, order * 2 + (item === background ? 0 : 1));
+    if (!passage) continue;
     if (historicalEvent) next = addKnownEvent(next, { ...historicalEvent, known: true }, { pride: false, regret: false, gratitude: false, acceptance: false });
-    const eventId = background.id.replace(/^context:(national:|world:)?/, "");
-    const wasPresent = !background.existingLifeEventId || Boolean(historicalEvent?.peopleIds.includes("grandmother"));
-    // The order of this aside among all asides of the life keeps lead-in phrases from repeating.
-    const order = [...backgrounds.keys()].sort((a, b) => a - b).indexOf(point.year);
-    speech.push(voiceFor(eventId, Math.max(0, background.year - state.selection.birthYear), wasPresent, background.text, background.level, background.title, state.selection.runSeed, order));
+    if (item.milestoneId) {
+      next = { ...next, discovery: { facts: [...next.discovery.facts, { id: `${milestoneFactPrefix}${item.milestoneId}`, learnedAtStep: next.dialogue.step + 1, lifeEventIds: [] }] } };
+    }
+    speech.push(passage);
   }
 
   if (isPointBeforeBranch(next)) {
@@ -287,7 +404,7 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
     const anchor = next.biography.branches[0]?.historicalAnchor;
     if (anchor) {
       next = addKnownEvent(next, anchorAsLifeEvent(anchor, residenceAt(next, anchor.year)), { pride: false, regret: false, gratitude: false, acceptance: false });
-      const framing = framingVoice(anchor.year - state.selection.birthYear, anchor.summary, anchor.title, state.selection.runSeed, anchor.kind);
+      const framing = narrateFraming(anchor.year - state.selection.birthYear, anchor.summary, state.selection.runSeed);
       if (framing) speech.push(framing);
     }
     speech.push(branch.setup);

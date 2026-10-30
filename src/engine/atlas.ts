@@ -1,5 +1,6 @@
 import { getPlace, placeNameAt } from "../data/world";
 import type { GameSessionState, LifeEvent } from "../data/types";
+import { lifeMilestones } from "./history/milestones";
 
 export interface AtlasEvent extends LifeEvent {
   age: number;
@@ -58,4 +59,42 @@ export function unknownPeriods(state: GameSessionState): string[] {
     if (previous && current && current.year - previous.year >= 16) periods.push(`${previous.year + 1}–${current.year - 1}`);
   }
   return periods.slice(0, 3);
+}
+
+export interface BackdropEntry {
+  id: string;
+  year: number;
+  age: number;
+  title: string;
+  summary: string;
+  placeName: string;
+  sourceIds: string[];
+  /** Her place was under military occupation then (registry fact); says nothing about what happened to her. */
+  placeOccupied: boolean;
+}
+
+/**
+ * Essential national milestones of her lifetime and country that she did not talk about. They are world
+ * truth, not hidden canon of her life, so the atlas shows them, labelled as the background of the era and
+ * never as her experience. Milestones she did talk about are already in the known chronology.
+ */
+export function historicalBackdrop(state: GameSessionState): BackdropEntry[] {
+  return lifeMilestones(state)
+    .filter((milestone) => !milestone.told)
+    .map((milestone) => ({
+      id: `backdrop:${milestone.eventId}`,
+      year: milestone.year,
+      age: milestone.age,
+      title: milestone.title,
+      summary: milestone.summary,
+      placeName: placeNameAt(milestone.placeId, milestone.year),
+      sourceIds: milestone.sourceIds,
+      placeOccupied: milestone.placeOccupied
+    }));
+}
+
+/** Her late-life view of an event, once she has said it; never shown for an untold reflection. */
+export function laterInterpretation(state: GameSessionState, eventId: string): string | null {
+  const reflection = state.biography.lateLifeReflection;
+  return reflection && reflection.relatedEventIds.includes(eventId) ? reflection.summary : null;
 }

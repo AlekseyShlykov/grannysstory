@@ -616,6 +616,45 @@
       ],
       "verification_status": "verified",
       "confidence": "medium"
+    },
+    {
+      "id": "ru-nat-1917-civil-war",
+      "title": "Гражданская война",
+      "title_original": null,
+      "start_date": "1917-11-07",
+      "end_date": "1922-10-25",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "RU"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "ru-empire",
+        "ru"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "После Октябрьской революции в стране началась Гражданская война между красными, белыми и другими силами. Она продолжалась до осени 1922 года и закончилась победой большевиков.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "ru_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "ru_wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Russian_Civil_War",
+          "accessed": "2026-10-30",
+          "supports": "даты 7 ноября 1917 – 25 октября 1922 (карточка статьи)"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium"
     }
   ]
 }

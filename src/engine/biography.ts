@@ -23,6 +23,7 @@ import { chooseBranchWithHistory, lifeProfile } from "./world/biographyLink";
 import { getLocation, resolveLocationId } from "./world/geography";
 import { checkMove, pickDestination } from "./world/migration";
 import { planWork } from "./work";
+import { childhoodFamily, planCanon } from "./memory/lifeFacts";
 
 const traits = ["отвечает не сразу", "любит точные бытовые подробности", "смеётся над собственными ошибками", "не любит говорить торжественно"] as const;
 const childlessStatuses = [
@@ -242,7 +243,7 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
   const birthPlaceId = random.pick(pack.birthPlaces);
   const country = getLocation(worldData(), birthPlaceId)?.country ?? "RU";
   const family = createFamily(selection, random, country);
-  const people = family.people;
+  const people = [...family.people, ...childhoodFamily(selection, family.relationship, family.people)];
   const branch = random.pick(branchCatalog);
   const branchYear = Math.min(selection.birthYear + random.int(19, 27), 1965);
   const flags: string[] = [];
@@ -303,6 +304,7 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
   return {
     ...draft,
     ...(work ? { work } : {}),
+    canon: planCanon(selection, draft),
     themes: [...new Set([...plan.branch.themes, "healthAgingAndIndependence", "smallJoysAndGratitude", "meaningAndLegacy"])] as BiographyState["themes"],
     branches: [{
       id: `branch:${plan.branch.type}`,

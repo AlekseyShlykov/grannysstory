@@ -538,6 +538,44 @@
    ],
    "verification_status": "verified",
    "confidence": "medium"
+  },
+  {
+   "id": "pl-nat-1945-war-ends",
+   "title": "Конец войны в Европе",
+   "title_original": null,
+   "start_date": "1945-05-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "PL"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "pl"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В мае 1945 года Германия капитулировала, и война в Европе закончилась. Для Польши после почти шести лет оккупации начиналась жизнь в новых границах и при новой власти.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "pl_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "pl_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
+     "accessed": "2026-10-30",
+     "supports": "вступление капитуляции в силу 8 мая 1945 года"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
   }
  ]
 }

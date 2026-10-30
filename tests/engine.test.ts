@@ -15,7 +15,7 @@ import { earlyLifeThreads } from "../content/scenes/earlyLifeThreads";
 import { earlyLifeThreadForSeed, threadEchoFor } from "../src/engine/earlyLifeThread";
 import nationalHistory from "../content/historical/national.json";
 import { historicalSignificance, MIN_FALLBACK_SIGNIFICANCE } from "../content/historical/significance";
-import { heardLeadIns, livedLeadIns, voiceFor } from "../content/scenes/historicalVoice";
+import { narrateRecord } from "../content/scenes/historicalNarration";
 import { occupations } from "../content/scenes/occupations";
 import { currentOccupation, workLine } from "../src/engine/work";
 
@@ -168,7 +168,7 @@ describe("conversation and atlas", () => {
     expect(points.at(-1)!.year - points.at(-2)!.year).toBeLessThanOrEqual(5);
   });
 
-  it.each([1900, 1920, 1930, 1940])("voices only significant history and covers most five-year intervals from %i", (birthYear) => {
+  it.each([1900, 1920, 1930, 1940])("voices only significant history, without an aside in every interval, from %i", (birthYear) => {
     const state = generated(selection("tver", birthYear, `backgrounds-${birthYear}`));
     const backgrounds = timelineBackgrounds(state);
     const intervals = lifeTimelinePoints(state.selection).filter((point) => !point.final);
@@ -177,11 +177,12 @@ describe("conversation and atlas", () => {
       expect(intervalYears.has(year)).toBe(true);
       if (background.existingLifeEventId) continue;
       const id = background.id.replace(/^context:(national:|world:)?/, "");
-      expect(historicalSignificance(id, background.title), background.title).toBeGreaterThanOrEqual(MIN_FALLBACK_SIGNIFICANCE);
+      if (!background.milestoneId) expect(historicalSignificance(id, background.title), background.title).toBeGreaterThanOrEqual(MIN_FALLBACK_SIGNIFICANCE);
       expect(background.title).not.toMatch(/закон|конституц|перепис|домен/i);
     }
-    // Years that hold only acts, censuses or paperwork are left without an aside instead of voicing them.
-    expect(backgrounds.size / intervals.length).toBeGreaterThanOrEqual(0.75);
+    // History follows her story: weighty or relevant years get an aside, years of paperwork stay quiet.
+    expect(backgrounds.size / intervals.length).toBeGreaterThanOrEqual(0.4);
+    expect(backgrounds.size).toBeLessThan(intervals.length);
   });
 
   it("selects historical background deterministically from a varied event pool", () => {
@@ -189,15 +190,17 @@ describe("conversation and atlas", () => {
     const sameB = generated(selection("tver", 1920, "same-history-pool"));
     expect([...timelineBackgrounds(sameA).entries()]).toEqual([...timelineBackgrounds(sameB).entries()]);
 
+    // Essential milestones now come first, so women of one place and year share their national history;
+    // what differs is when she was born, where she lived, and her own life.
     const lives = new Set<string>();
-    for (let index = 0; index < 80; index += 1) {
-      const state = generated(selection("tver", 1920, `history-pool-${index}`));
+    for (let index = 0; index < 20; index += 1) {
+      const state = generated(selection("tver", 1900 + index * 2, `history-pool-${index}`));
       const backgrounds = timelineBackgrounds(state);
       const ids = [...backgrounds.values()].map((background) => background.id);
       expect(new Set(ids).size).toBe(ids.length);
       lives.add(ids.join("|"));
     }
-    expect(lives.size).toBeGreaterThanOrEqual(2);
+    expect(lives.size).toBeGreaterThanOrEqual(10);
     expect(nationalHistory.events.filter((event) => "scale" in event && event.scale !== "major").length).toBeGreaterThanOrEqual(14);
   });
 
@@ -275,13 +278,11 @@ describe("conversation and atlas", () => {
     expect(workLine(late, occupation, "late")).toBe(occupation.closure!.after);
   });
 
-  it("never repeats a historical lead-in within one life", () => {
-    expect(livedLeadIns.length).toBeGreaterThanOrEqual(20);
+  it("never repeats a historical perspective phrase within one life", () => {
     for (const seed of ["lead-a", "lead-b", "lead-c"]) {
-      const lived = Array.from({ length: livedLeadIns.length }, (_, order) => voiceFor("no-voice", 30, true, "Факт.", "national", "Факт", seed, order));
-      expect(new Set(lived).size).toBe(livedLeadIns.length);
-      const heard = Array.from({ length: heardLeadIns.length }, (_, order) => voiceFor("no-voice", 2, true, "Факт.", "national", "Факт", seed, order));
-      expect(new Set(heard).size).toBe(heardLeadIns.length);
+      const openers = Array.from({ length: 6 }, (_, order) =>
+        narrateRecord({ eventId: "no-voice", summary: "Открылась новая линия трамвая через весь город.", category: "infrastructure_transport" }, { age: 30, wasPresent: true, runSeed: seed, order })!.split(". ")[0]);
+      expect(new Set(openers).size).toBe(openers.length);
     }
   });
 
@@ -390,8 +391,12 @@ describe("conversation and atlas", () => {
       expect(knownAtlasEvents(state).some((event) => event.id.includes(":consequence"))).toBe(true);
       expect(knownAtlasEvents(state).some((event) => event.salience === "quiet")).toBe(true);
       expect(state.dialogue.transcript.at(-1)?.text).toContain(String(state.selection.conversationYear));
-      expect(state.biography.lifeEvents.filter((event) => event.id.startsWith("life:timeline:")).map((event) => event.year))
-        .toEqual(lifeTimelinePoints(state.selection).map((point) => point.year));
+      // Every interval leaves one told personal episode: a life-course fragment, an atlas memory or the reflection.
+      const personalYears = new Set(state.biography.lifeEvents
+        .filter((event) => event.known && /^life:(timeline:|memory:|late-reflection)/.test(event.id))
+        .map((event) => event.year));
+      expect([...personalYears].sort()).toEqual(lifeTimelinePoints(state.selection).map((point) => point.year));
+      expect(state.biography.lateLifeReflection?.age).toBeGreaterThanOrEqual(80);
       expect(state.biography.lifeEvents.every((event) => event.year <= state.selection.conversationYear)).toBe(true);
       // One story from beginning to end: the turning point is foreshadowed, recalled at the end next to the
       // childhood object, and the final words return to that object.
