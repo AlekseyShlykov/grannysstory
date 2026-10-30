@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import archiveCatalogJson from "../../content/historical/archiveCatalog.json";
 import sourcesJson from "../../content/historical/sources.json";
+import memorySources from "../../content/memory/memorySources.json";
 import worldSourcesJson from "../../public/data/world/sources.json";
 import { ensureWorldPacks } from "../data/worldStore";
 import { manifest } from "../data/world";
@@ -150,6 +151,21 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
                 </li>
               ))}
             </ul>
+          </details>
+        </section>
+        <section className="archive-note" aria-labelledby="memory-sources-title">
+          <p className="archive-note-title" id="memory-sources-title">{memorySources.title}</p>
+          <details className="archive-disclosure">
+            <summary>{memorySources.summary}</summary>
+            <p className="archive-text">{memorySources.intro}</p>
+            <ul className="archive-links">
+              {memorySources.sources.map((source) => (
+                <li key={source.id}>
+                  <a href={source.url} target="_blank" rel="noreferrer">{source.name}, {source.description}</a>
+                </li>
+              ))}
+            </ul>
+            <p className="archive-text">{memorySources.closing}</p>
           </details>
         </section>
       </section>

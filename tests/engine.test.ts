@@ -281,7 +281,8 @@ describe("conversation and atlas", () => {
   it("never repeats a historical perspective phrase within one life", () => {
     for (const seed of ["lead-a", "lead-b", "lead-c"]) {
       const openers = Array.from({ length: 6 }, (_, order) =>
-        narrateRecord({ eventId: "no-voice", summary: "Открылась новая линия трамвая через весь город.", category: "infrastructure_transport" }, { age: 30, wasPresent: true, runSeed: seed, order })!.split(". ")[0]);
+        narrateRecord({ eventId: "no-voice", summary: "Открылась новая линия трамвая через весь город.", category: "infrastructure_transport" }, { age: 30, wasPresent: true, runSeed: seed, order })!
+          .replace("Открылась новая линия трамвая через весь город.", "").trim().split(". ")[0]);
       expect(new Set(openers).size).toBe(openers.length);
     }
   });

@@ -342,10 +342,9 @@ export function timelineBackgrounds(state: GameSessionState): Map<number, Timeli
 /** Milestones that are spoken even right after another aside. */
 const URGENT_KINDS = new Set(["war", "war_end", "revolution", "civil_war", "occupation", "state_change"]);
 
+/** What happened always comes first; the question decides whether she adds how it felt or what it meant. */
 export function personalAnswer(fragment: LifeCourseFragment, angle: ReflectionAngle): string {
-  if (angle === "detail") return `${fragment.detail} ${fragment.feeling}`;
-  if (angle === "feeling") return `${fragment.feeling} ${fragment.detail}`;
-  return `${fragment.meaning} ${fragment.detail}`;
+  return angle === "meaning" ? `${fragment.detail} ${fragment.meaning}` : `${fragment.detail} ${fragment.feeling}`;
 }
 
 export function backgroundAsLifeEvent(background: TimelineBackground): LifeEvent {

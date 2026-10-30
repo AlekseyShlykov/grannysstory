@@ -271,10 +271,10 @@ const reconstructedHedges = [
 /** Her words for one atlas memory, shaped by the question asked and by how clearly she remembers it. */
 export function atlasMemorySpeech(memory: AtlasMemory, angle: "detail" | "feeling" | "meaning", runSeed: string): string {
   const vividness = memory.properties.memoryVividness;
-  const body = angle === "detail" ? `${memory.scene} ${memory.feeling}`
-    : angle === "feeling" ? `${memory.feeling} ${memory.scene}`
-    : `${memory.scene} ${memory.now}`;
-  if (vividness === "reconstructed") {
+  // The scene comes first, so a feeling or a later thought is never heard before what it is about.
+  const body = angle === "meaning" ? `${memory.scene} ${memory.now}` : `${memory.scene} ${memory.feeling}`;
+  // A scene that already says it is known from others' words needs no second hedge.
+  if (vividness === "reconstructed" && !/рассказыва|не помню|говорят|со слов/i.test(memory.scene)) {
     const hedge = reconstructedHedges[seededRandom(`${runSeed}:hedge:${memory.properties.patternKey}`).int(0, reconstructedHedges.length - 1)]!;
     return `${hedge} ${body}`;
   }

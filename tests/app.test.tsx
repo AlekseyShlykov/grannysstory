@@ -46,6 +46,20 @@ describe("accessible vertical slice", () => {
     expect(screen.getByRole("link", { name: /Боевое донесение штаба Калининского фронта/ })).toHaveAttribute("href", "https://www.prlib.ru/item/1864605");
   });
 
+  it("lists the sources behind the memories in a closed disclosure", () => {
+    render(<App />);
+    expect(screen.getByText("Вдохновлено настоящими жизнями")).toBeInTheDocument();
+    const disclosure = screen.getByText("Откуда берутся воспоминания").closest("details");
+    expect(disclosure).not.toHaveAttribute("open");
+    fireEvent.click(screen.getByText("Откуда берутся воспоминания"));
+    expect(disclosure).toHaveAttribute("open");
+    expect(screen.getByRole("link", { name: /^SHARELIFE,/ })).toHaveAttribute("href", "https://share-eric.eu/data/data-documentation/waves-overview/wave-3");
+    expect(screen.getByRole("link", { name: /^StoryCorps,/ })).toBeInTheDocument();
+    expect(screen.getByText(/Сама бабушка вымышлена/)).toBeInTheDocument();
+    // Prozhito has not been researched (docs/DATA_SOURCES.md), so it is not claimed as a source.
+    expect(screen.queryByText(/Прожито|Prozhito/)).not.toBeInTheDocument();
+  });
+
   it("changes the archive list with the selected location", () => {
     render(<App />);
     const location = screen.getByLabelText("Где она родилась?");

@@ -52,6 +52,9 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .archive-links { display: grid; gap: 5px; margin: 0; padding: 0 0 0 18px; }
 .archive-links a { color: var(--muted); font-size: .75rem; line-height: 1.45; text-decoration-thickness: 1px; text-underline-offset: 2px; }
 .archive-links a:hover { color: var(--accent-dark); }
+.archive-links li { line-height: 1.45; }
+.archive-text { margin: 0 0 10px; max-width: 620px; line-height: 1.55; }
+.archive-links + .archive-text { margin-top: 10px; }
 .resume { width: 100%; display: flex; justify-content: space-between; gap: 20px; min-height: 58px; margin: 0 0 26px; padding: 15px 18px; border: 1px solid var(--accent); background: rgba(255,255,255,.25); color: var(--ink); cursor: pointer; text-align: left; }
 .resume span { color: var(--muted); }
 

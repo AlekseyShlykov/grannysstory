@@ -19,7 +19,7 @@ export interface NarrationContext {
 }
 
 /** Per-run permutation: distinct `order` values never repeat while order < pool size. */
-function pickInOrder(pool: readonly string[], seed: string, order: number): string {
+function pickInOrder<T>(pool: readonly T[], seed: string, order: number): T {
   let hash = 2166136261;
   for (const char of seed) hash = Math.imul(hash ^ char.charCodeAt(0), 16777619) >>> 0;
   const indexes = pool.map((_, index) => index);
@@ -72,40 +72,93 @@ export function expandYearAbbreviations(text: string): string {
 /** The verified fact as she can say it, or null: then the record stays in the atlas and is not spoken. */
 export function spokenFactSentence(summary: string): string | null {
   const sentence = speakableSentence(expandYearAbbreviations(summary));
-  return sentence ? softenDates(sentence) : null;
+  // «ныне» is reference-book Russian; she says «сейчас».
+  return sentence ? softenDates(sentence.replace(/(^|\s)ныне(?=\s)/g, "$1сейчас")) : null;
 }
 
-const perspective = {
-  heard: [
-    "Сама я этого помнить не могу, мне потом рассказывали.",
-    "Это я знаю уже со слов взрослых.",
-    "Я была совсем маленькая, так что знаю по рассказам.",
-    "Мама моя потом не раз к этому возвращалась."
-  ],
-  child: [
-    "Я была ещё девчонкой и понимала не всё, но взрослые говорили об этом за ужином.",
-    "Мне тогда было не до того, а взрослые обсуждали это вполголоса.",
-    "Я слушала, как об этом говорят старшие, и делала вид, что понимаю.",
-    "Я помню, что взрослые читали об этом и спорили."
-  ],
-  adult: [
-    "У нас об этом тогда говорили и на работе, и в очередях.",
-    "Новость эту я узнала, как все, из газет и от соседей.",
-    "Мимо этого и мы не прошли, хоть и жили своими делами.",
-    "Тогда об этом спорили в каждом доме, и у нас тоже.",
-    "Я хорошо помню, как об этом заговорили.",
-    "Это было при мне, и я это помню без всяких книжек."
-  ],
-  elderly: [
-    "В моём возрасте новости уже не так пугают, но это я запомнила.",
-    "Я тогда была уже немолодая и на многое смотрела спокойнее, а это задело.",
-    "Казалось бы, чем меня в мои годы удивишь, а вот удивили."
-  ],
-  away: [
-    "Меня там тогда не было, но знали об этом все.",
-    "Я жила далеко от тех мест, а новости доходили и до нас."
-  ]
+// How she places herself next to a fact. `lead` takes the fact as its own clause («…, что тогда открылся
+// трамвай»), so it is used only when the fact can be lowercased safely; `after` follows the stated fact and
+// refers back to it. A reaction never comes before the listener knows what it is about.
+interface Perspective {
+  lead: string[];
+  after: string[];
+}
+
+const perspective: Record<"heard" | "child" | "adult" | "elderly" | "away", Perspective> = {
+  heard: {
+    lead: [
+      "Мне потом рассказывали, что",
+      "Мама моя потом не раз вспоминала, что",
+      "Сама я этого помнить не могу, но взрослые потом говорили, что"
+    ],
+    after: [
+      "Сама я этого не помню, знаю по рассказам.",
+      "Это я знаю уже со слов взрослых.",
+      "Мама моя потом не раз к этому возвращалась."
+    ]
+  },
+  child: {
+    lead: [
+      "Я помню, взрослые за ужином говорили, что",
+      "Я слышала, как старшие вполголоса обсуждали, что"
+    ],
+    after: [
+      "Я была ещё девчонкой и понимала не всё, но взрослые говорили об этом за ужином.",
+      "Я слушала, как об этом говорят старшие, и делала вид, что понимаю.",
+      "Я помню, как взрослые читали об этом в газетах и спорили."
+    ]
+  },
+  adult: {
+    lead: [],
+    after: [
+      "У нас тогда только об этом и говорили.",
+      "Об этом говорили у нас и на работе, и в очередях.",
+      "Я узнала об этом, как все, из газет и от соседей.",
+      "Мимо этого и мы не прошли, хоть и жили своими делами.",
+      "Об этом тогда спорили в каждом доме, и у нас тоже.",
+      "Это было при мне, я это помню без всяких книжек."
+    ]
+  },
+  elderly: {
+    lead: [],
+    after: [
+      "В моём возрасте новости уже не так пугают, а это я запомнила.",
+      "Я была уже немолодая и на многое смотрела спокойнее, а это задело.",
+      "Казалось бы, чем меня в мои годы удивишь, а вот удивили."
+    ]
+  },
+  away: {
+    lead: ["Меня там тогда не было, но все знали, что"],
+    after: [
+      "Меня там тогда не было, но знали об этом все.",
+      "Я жила далеко от тех мест, но новости доходили и до нас."
+    ]
+  }
 };
+
+// First words after which a fact reads naturally inside «…, что»: prepositions and adverbs, or a verb or
+// participle followed by a lowercase word («Открылся новый…», «Подписан договор…»). A name stays capitalised,
+// so «Юрий Гагарин…» or «Калинин…» is never embedded.
+const embeddableStarts = new Set([
+  "тогда", "в", "во", "на", "после", "из", "когда", "при", "с", "со", "по", "у", "для", "за", "под", "над",
+  "через", "к", "от", "до", "о", "об", "это", "все", "многие", "полностью", "официально", "впервые"
+]);
+const VERB_ENDING = /(?:лся|лась|лось|лись|ла|ло|ли|ал|ил|ел|ыл|ан|ана|ано|аны|ен|ена|ено|ены|ыт|ыта|ыто|ыты|ит|ита|ито|иты)$/;
+
+/** The fact lowercased to follow «…, что», or null when its first word may be a name. */
+export function embeddableFact(fact: string): string | null {
+  const [first = "", second = ""] = fact.split(/[\s,]+/);
+  const word = first.toLocaleLowerCase("ru");
+  const safe = embeddableStarts.has(word) || (VERB_ENDING.test(word) && /^[а-яё]/.test(second));
+  return safe ? word + fact.slice(first.length) : null;
+}
+
+/** The fact with her relation to it: embedded after a lead, or stated first with her reaction after it. */
+function tellFact(fact: string, pool: Perspective, seed: string, order: number): string {
+  const embedded = embeddableFact(fact);
+  const choices = [...(embedded ? pool.lead.map((lead) => `${lead} ${embedded}`) : []), ...pool.after.map((after) => `${fact} ${after}`)];
+  return pickInOrder(choices, seed, order);
+}
 
 /** What became different in ordinary days, by kind of record; deliberately general, it adds no new facts. */
 const changeByCategory: Record<string, string[]> = {
@@ -156,13 +209,12 @@ const ties = [
   "Это я к тому, что время было такое, а жили мы всё равно каждый своей жизнью."
 ];
 
-function perspectiveFor(ctx: NarrationContext): string {
-  const pool = !ctx.wasPresent ? perspective.away
-    : ctx.age < 6 ? perspective.heard
-    : ctx.age < 14 ? perspective.child
-    : ctx.age >= 65 ? perspective.elderly
-    : perspective.adult;
-  return pickInOrder(pool, `${ctx.runSeed}:perspective:${pool === perspective.adult ? "adult" : pool.length}`, ctx.order);
+function perspectiveFor(ctx: NarrationContext): keyof typeof perspective {
+  return !ctx.wasPresent ? "away"
+    : ctx.age < 6 ? "heard"
+    : ctx.age < 14 ? "child"
+    : ctx.age >= 65 ? "elderly"
+    : "adult";
 }
 
 function changeFor(category: string | undefined, ctx: NarrationContext): string | null {
@@ -195,22 +247,29 @@ export function narrateRecord(record: NarratableRecord, ctx: NarrationContext): 
   }
   const fact = spokenFactSentence(record.summary);
   if (!fact) return null;
-  const opener = perspectiveFor(ctx);
-  return [`${opener} ${fact}`, changeFor(record.category, ctx), pickInOrder(ties, `${ctx.runSeed}:tie`, ctx.order)].filter(Boolean).join(" ");
+  const kind = perspectiveFor(ctx);
+  return [tellFact(fact, perspective[kind], `${ctx.runSeed}:perspective:${kind}`, ctx.order), changeFor(record.category, ctx), pickInOrder(ties, `${ctx.runSeed}:tie`, ctx.order)].filter(Boolean).join(" ");
 }
 
-const framingLeadIns = {
-  young: [
-    "Взрослые тогда часто говорили об одном.",
-    "Дома тогда разговоры всё время возвращались к одному.",
-    "Я ещё мало что понимала, но слышала, о чём говорят старшие."
-  ],
-  adult: [
-    "А вокруг как раз многое менялось.",
-    "И время ещё было такое, что всё сдвигалось.",
-    "Решать пришлось не в пустоте, вокруг было вот что.",
-    "А в те же годы вокруг происходило вот что."
-  ]
+const framing: Record<"young" | "adult", Perspective> = {
+  young: {
+    lead: [
+      "Взрослые тогда часто говорили о том, что",
+      "Дома тогда разговоры всё время возвращались к тому, что"
+    ],
+    after: [
+      "Я ещё мало что понимала, но слышала, как об этом говорят старшие.",
+      "Взрослые тогда часто об этом говорили."
+    ]
+  },
+  adult: {
+    lead: [],
+    after: [
+      "Вокруг как раз многое менялось.",
+      "Время было такое, что всё сдвигалось.",
+      "Так что решать пришлось не в пустоте."
+    ]
+  }
 };
 
 /**
@@ -220,7 +279,7 @@ const framingLeadIns = {
 export function narrateFraming(age: number, summary: string, runSeed: string): string | null {
   const fact = spokenFactSentence(summary);
   if (!fact) return null;
-  return `${pickInOrder(age < 16 ? framingLeadIns.young : framingLeadIns.adult, `${runSeed}:framing`, 0)} ${fact}`;
+  return tellFact(fact, age < 16 ? framing.young : framing.adult, `${runSeed}:framing`, 0);
 }
 
 /** The single prompt that lets the player stay with a milestone a little longer. */
