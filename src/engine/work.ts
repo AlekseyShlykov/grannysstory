@@ -84,7 +84,7 @@ export function currentOccupation(state: GameSessionState): Occupation | null {
   if (!work) return null;
   let id = work.occupationId;
   if (work.byOutcome) {
-    const branch = state.biography.branches[0];
+    const branch = state.biography.branches.find((candidate) => candidate.type === "profession" || candidate.type === "education");
     if (!branch?.resolved || !branch.outcome) return null;
     id = work.byOutcome[branch.outcome.id];
   }

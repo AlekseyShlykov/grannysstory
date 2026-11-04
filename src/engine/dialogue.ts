@@ -8,7 +8,7 @@ import { placeLocative } from "../../content/scenes/regions";
 import { placeLocativeAt, placeNameAt } from "../data/world";
 import type { EmotionalQualities, GameSessionState, LifeEvent, MemoryState } from "../data/types";
 import { hasWorldPacks, worldData } from "../data/worldStore";
-import { activeBranchDefinition, anchorAsLifeEvent, commitBranch } from "./biography";
+import { activeBranchDefinition, anchorAsLifeEvent, branchDefinition, branchOutcomeLock, commitBranch, nextUnresolvedBranch } from "./biography";
 import {
   backgroundAsLifeEvent,
   fragmentForPoint,
@@ -44,14 +44,14 @@ function activePoint(state: GameSessionState) {
 }
 
 function hasBranchInPoint(state: GameSessionState): boolean {
-  const branch = state.biography.branches[0];
+  const branch = nextUnresolvedBranch(state);
   const point = activePoint(state);
   return Boolean(branch && !branch.resolved && branch.year >= point.year && branch.year <= point.endYear);
 }
 
 function branchSetupFactId(state: GameSessionState): string {
-  const branch = state.biography.branches[0];
-  return `fact:branch-setup:${branch?.type ?? "unknown"}:${branch?.year ?? 0}`;
+  const branch = nextUnresolvedBranch(state);
+  return `fact:branch-setup:${branch?.id ?? "unknown"}:${branch?.year ?? 0}`;
 }
 
 function isBranchChoiceReady(state: GameSessionState): boolean {
@@ -206,7 +206,7 @@ function tellWork(state: GameSessionState, stage: WorkStage): { state: GameSessi
 }
 
 function isPointBeforeBranch(state: GameSessionState): boolean {
-  const branch = state.biography.branches[0];
+  const branch = nextUnresolvedBranch(state);
   const point = activePoint(state);
   return Boolean(branch && !branch.resolved && branch.year > point.endYear && branch.year <= point.endYear + 5);
 }
@@ -214,8 +214,14 @@ function isPointBeforeBranch(state: GameSessionState): boolean {
 export function currentScene(state: GameSessionState): DialogueSceneView {
   const point = activePoint(state);
   if (isBranchChoiceReady(state)) {
-    const branch = activeBranchDefinition(state);
-    return { options: [{ id: "pathA", text: branch.questionA }, { id: "pathB", text: branch.questionB }] };
+    const active = nextUnresolvedBranch(state)!;
+    const branch = branchDefinition(active.type);
+    return {
+      options: [
+        { id: "pathA", text: branch.questionA },
+        { id: "pathB", text: branch.questionB }
+      ].filter((option) => !branchOutcomeLock(state, active.id, option.id as "pathA" | "pathB"))
+    };
   }
   if (isReflectionPoint(state, point)) {
     return { options: reflectionQuestions.map((text, index) => ({ id: `reflect-${index}`, text })) };
@@ -316,15 +322,17 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   const fragment = fragmentForPoint(state, point);
   const branchChoice = isBranchChoiceReady(state);
   const introducesBranch = hasBranchInPoint(state) && !branchChoice;
-  let next = branchChoice ? commitBranch(state, optionId as "pathA" | "pathB") : state;
+  const choosingBranch = branchChoice ? nextUnresolvedBranch(state) : undefined;
+  const choosingDefinition = choosingBranch ? branchDefinition(choosingBranch.type) : undefined;
+  let next = branchChoice && choosingBranch ? commitBranch(state, optionId as "pathA" | "pathB", choosingBranch.id) : state;
 
-  if (branchChoice) {
-    const branch = activeBranchDefinition(next);
+  if (branchChoice && choosingBranch && choosingDefinition) {
+    const branch = choosingDefinition;
     const answer = optionId === "pathA" ? branch.answerA : branch.answerB;
     const decision = next.biography.lifeEvents.find((event) => event.id === `life:${branch.type}:decision`);
     if (decision) next = addKnownEvent(next, decision, { pride: true, regret: true, gratitude: false, acceptance: false });
     // When the turning point decides her work, the concrete job follows the decision in the same answer.
-    const work = nextWorkStage(next, point.age, Math.max(point.endYear, next.biography.branches[0]?.year ?? 0)) === "start" ? tellWork(next, "start") : null;
+    const work = nextWorkStage(next, point.age, Math.max(point.endYear, choosingBranch.year)) === "start" ? tellWork(next, "start") : null;
     if (work?.line) next = work.state;
     return withTurn(next, option.text, [answer, work?.line].filter(Boolean).join(" "), point.final);
   }
@@ -402,7 +410,7 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
 
   if (introducesBranch) {
     const branch = activeBranchDefinition(next);
-    const anchor = next.biography.branches[0]?.historicalAnchor;
+    const anchor = nextUnresolvedBranch(next)?.historicalAnchor;
     if (anchor) {
       next = addKnownEvent(next, anchorAsLifeEvent(anchor, residenceAt(next, anchor.year)), { pride: false, regret: false, gratitude: false, acceptance: false });
       const framing = narrateFraming(anchor.year - state.selection.birthYear, anchor.summary, state.selection.runSeed);
@@ -414,10 +422,13 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   }
 
   if (point.final) {
-    const resolved = next.biography.branches[0];
-    if (resolved?.resolved && resolved.outcome) {
-      const definition = activeBranchDefinition(next);
-      speech.push(resolved.outcome.id === "pathA" ? definition.lateA : definition.lateB);
+    const resolved = [...next.biography.branches].filter((branch) => branch.resolved && branch.outcome).sort((a, b) => b.year - a.year);
+    const remembered = [next.biography.branches[0], resolved[0]]
+      .filter((branch): branch is NonNullable<typeof branch> => Boolean(branch?.resolved && branch.outcome))
+      .filter((branch, index, all) => all.findIndex((candidate) => candidate.id === branch.id) === index);
+    for (const branch of remembered) {
+      const definition = branchDefinition(branch.type);
+      speech.push(branch.outcome!.id === "pathA" ? definition.lateA : definition.lateB);
     }
     const closing = threadClosingFor(next);
     if (closing) speech.push(closing);

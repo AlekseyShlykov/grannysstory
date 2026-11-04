@@ -1,7 +1,8 @@
 import type { GameSessionState } from "../data/types";
-import { activeBranchDefinition } from "./biography";
+import { branchDefinition, branchOutcomeLock } from "./biography";
 
-export type LifePathNodeKind = "birth" | "turning" | "choice" | "consequence" | "conversation";
+export type LifePathNodeKind = "birth" | "turning" | "choice" | "conversation";
+export type LifePathStatus = "selected" | "alternative" | "locked";
 
 export interface LifePathNode {
   id: string;
@@ -12,6 +13,7 @@ export interface LifePathNode {
   x: number;
   y: number;
   selected: boolean;
+  status: LifePathStatus;
 }
 
 export interface LifePathEdge {
@@ -19,122 +21,104 @@ export interface LifePathEdge {
   from: string;
   to: string;
   selected: boolean;
+  status: LifePathStatus;
 }
 
 export interface LifePathGraph {
-  branchLabel: string;
-  selectedOutcome: "pathA" | "pathB";
+  branchCount: number;
   nodes: LifePathNode[];
   edges: LifePathEdge[];
+  height: number;
 }
 
 /**
- * A final-screen view of the one unresolved turning point this generated life contained.
- * Alternative nodes describe possibilities from reviewed branch copy, never hidden facts from canon.
+ * The selected life is a vertical spine. Every disclosed turning point keeps both reviewed possibilities:
+ * the chosen road, the road that was not taken, and (when earlier canon closed it) an explicitly locked road.
  */
 export function lifePathGraph(state: GameSessionState): LifePathGraph | null {
-  const branch = state.biography.branches[0];
-  if (!branch?.resolved || !branch.outcome) return null;
-  const definition = activeBranchDefinition(state);
-  const selectedOutcome = branch.outcome.id;
-  const consequenceYear = state.biography.lifeEvents.find((event) => event.id === `life:${branch.type}:consequence`)?.year
-    ?? Math.min(branch.year + 18, state.selection.conversationYear - 10);
-  const pathASelected = selectedOutcome === "pathA";
-  const pathBSelected = selectedOutcome === "pathB";
+  const branches = [...state.biography.branches]
+    .filter((branch) => branch.resolved && branch.outcome)
+    .sort((a, b) => a.year - b.year);
+  if (!branches.length) return null;
 
-  const nodes: LifePathNode[] = [
-    {
-      id: "birth",
-      kind: "birth",
-      year: state.selection.birthYear,
-      label: "Рождение",
-      summary: "Начало этой сгенерированной жизни.",
-      x: 80,
-      y: 150,
-      selected: true
-    },
-    {
-      id: "turning",
+  const nodes: LifePathNode[] = [{
+    id: "birth",
+    kind: "birth",
+    year: state.selection.birthYear,
+    label: "Рождение",
+    summary: "Начало этой сгенерированной жизни.",
+    x: 450,
+    y: 58,
+    selected: true,
+    status: "selected"
+  }];
+  const edges: LifePathEdge[] = [];
+  let previousSelectedId = "birth";
+  const firstY = 190;
+  const rowHeight = 205;
+
+  branches.forEach((branch, index) => {
+    const definition = branchDefinition(branch.type);
+    const y = firstY + index * rowHeight;
+    const turningId = `${branch.id}:turning`;
+    const pathAId = `${branch.id}:pathA`;
+    const pathBId = `${branch.id}:pathB`;
+    const selectedOutcome = branch.outcome!.id;
+    nodes.push({
+      id: turningId,
       kind: "turning",
       year: branch.year,
       label: definition.label,
       summary: `Поворотная точка. ${definition.setup}`,
-      x: 285,
-      y: 150,
-      selected: true
-    },
-    {
-      id: "pathA",
-      kind: "choice",
-      year: branch.year,
-      label: definition.titleA,
-      summary: pathASelected
-        ? `Вы спросили: «${definition.questionA}» Она ответила: «${definition.answerA}»`
-        : `Другая возможная дорога. Вопрос: «${definition.questionA}» Возможный ответ: «${definition.answerA}»`,
-      x: 505,
-      y: 70,
-      selected: pathASelected
-    },
-    {
-      id: "pathB",
-      kind: "choice",
-      year: branch.year,
-      label: definition.titleB,
-      summary: pathBSelected
-        ? `Вы спросили: «${definition.questionB}» Она ответила: «${definition.answerB}»`
-        : `Другая возможная дорога. Вопрос: «${definition.questionB}» Возможный ответ: «${definition.answerB}»`,
-      x: 505,
-      y: 230,
-      selected: pathBSelected
-    },
-    {
-      id: "consequenceA",
-      kind: "consequence",
-      year: consequenceYear,
-      label: "Позднее последствие",
-      summary: pathASelected
-        ? `Так продолжился выбранный путь. ${definition.consequenceA}`
-        : `Так могла продолжиться другая дорога. ${definition.consequenceA}`,
-      x: 730,
-      y: 70,
-      selected: pathASelected
-    },
-    {
-      id: "consequenceB",
-      kind: "consequence",
-      year: consequenceYear,
-      label: "Позднее последствие",
-      summary: pathBSelected
-        ? `Так продолжился выбранный путь. ${definition.consequenceB}`
-        : `Так могла продолжиться другая дорога. ${definition.consequenceB}`,
-      x: 730,
-      y: 230,
-      selected: pathBSelected
-    },
-    {
-      id: "conversation",
-      kind: "conversation",
-      year: state.selection.conversationYear,
-      label: "Этот разговор",
-      summary: "Здесь выбранная дорога стала известной вам частью её истории.",
-      x: 940,
-      y: 150,
-      selected: true
-    }
-  ];
+      x: 450,
+      y,
+      selected: true,
+      status: "selected"
+    });
+    edges.push({ id: `${previousSelectedId}:${turningId}`, from: previousSelectedId, to: turningId, selected: true, status: "selected" });
 
-  return {
-    branchLabel: definition.label,
-    selectedOutcome,
-    nodes,
-    edges: [
-      { id: "birth-turning", from: "birth", to: "turning", selected: true },
-      { id: "turning-a", from: "turning", to: "pathA", selected: pathASelected },
-      { id: "turning-b", from: "turning", to: "pathB", selected: pathBSelected },
-      { id: "a-consequence", from: "pathA", to: "consequenceA", selected: pathASelected },
-      { id: "b-consequence", from: "pathB", to: "consequenceB", selected: pathBSelected },
-      { id: "a-conversation", from: "consequenceA", to: "conversation", selected: pathASelected },
-      { id: "b-conversation", from: "consequenceB", to: "conversation", selected: pathBSelected }
-    ]
-  };
+    for (const outcomeId of ["pathA", "pathB"] as const) {
+      const selected = selectedOutcome === outcomeId;
+      const lockedReason = selected ? null : branchOutcomeLock(state, branch.id, outcomeId);
+      const status: LifePathStatus = selected ? "selected" : lockedReason ? "locked" : "alternative";
+      const title = outcomeId === "pathA" ? definition.titleA : definition.titleB;
+      const question = outcomeId === "pathA" ? definition.questionA : definition.questionB;
+      const answer = outcomeId === "pathA" ? definition.answerA : definition.answerB;
+      const consequence = outcomeId === "pathA" ? definition.consequenceA : definition.consequenceB;
+      const id = outcomeId === "pathA" ? pathAId : pathBId;
+      nodes.push({
+        id,
+        kind: "choice",
+        year: branch.year,
+        label: title,
+        summary: selected
+          ? `Вы спросили: «${question}» Она ответила: «${answer}» Позднее: ${consequence}`
+          : lockedReason
+            ? `Эта дорога стала недоступна. ${lockedReason} Возможный поворот был бы таким: ${title}.`
+            : `Другая возможная дорога. Вопрос: «${question}» Возможный ответ: «${answer}» Позднее: ${consequence}`,
+        x: outcomeId === "pathA" ? 245 : 655,
+        y: y + 92,
+        selected,
+        status
+      });
+      edges.push({ id: `${turningId}:${id}`, from: turningId, to: id, selected, status });
+    }
+    previousSelectedId = selectedOutcome === "pathA" ? pathAId : pathBId;
+  });
+
+  const conversationY = firstY + branches.length * rowHeight + 22;
+  nodes.push({
+    id: "conversation",
+    kind: "conversation",
+    year: state.selection.conversationYear,
+    label: "Этот разговор",
+    summary: "Здесь выбранные дороги стали известной вам частью её истории.",
+    x: 450,
+    y: conversationY,
+    selected: true,
+    status: "selected"
+  });
+  edges.push({ id: `${previousSelectedId}:conversation`, from: previousSelectedId, to: "conversation", selected: true, status: "selected" });
+
+  return { branchCount: branches.length, nodes, edges, height: conversationY + 80 };
 }

@@ -105,12 +105,11 @@ export function requirementHolds(state: GameSessionState, requirement: MemoryReq
   const partnership = partnershipSpan(state);
   const known = partnership !== "undetermined";
   const work = workSpan(state);
-  const branch = state.biography.branches[0];
   if (requirement.startsWith("outcome:")) {
     const [, type, path] = requirement.split(":");
-    return Boolean(branch?.type === type && branch.resolved && branch.outcome?.id === path && branch.year <= toYear);
+    return state.biography.branches.some((branch) => branch.type === type && branch.resolved && branch.outcome?.id === path && branch.year <= toYear);
   }
-  if (requirement.startsWith("branch:")) return Boolean(branch?.type === requirement.slice(7) && branch.resolved && branch.year <= toYear);
+  if (requirement.startsWith("branch:")) return state.biography.branches.some((branch) => branch.type === requirement.slice(7) && branch.resolved && branch.year <= toYear);
   switch (requirement) {
     case "attended_school": return attendedSchool(state);
     case "has_sibling": return Boolean(sibling && sibling.birthYear <= toYear && aliveIn(sibling, fromYear));
@@ -124,7 +123,8 @@ export function requirementHolds(state: GameSessionState, requirement: MemoryReq
     case "moved_in_band": return movedBetween(state, fromYear, toYear);
     case "moved_before_band_end": return movedBetween(state, state.selection.birthYear, toYear);
     // A claim about the whole life: false while a turning point that could still move her is open.
-    case "never_moved": return state.biography.residenceHistory.length === 1 && !(branch && !branch.resolved && branchCanMove(branch.type));
+    case "never_moved": return state.biography.residenceHistory.length === 1
+      && !state.biography.branches.some((branch) => !branch.resolved && branchCanMove(branch.type));
     case "working_in_band": return Boolean(work && work.start <= toYear && work.end >= fromYear);
     case "work_starts_in_band": return Boolean(work && work.start >= fromYear && work.start <= toYear);
     case "retires_in_band": return Boolean(work && work.end >= fromYear && work.end <= toYear);
@@ -208,7 +208,9 @@ export interface AtlasMemory {
 function realise(state: GameSessionState, record: AtlasRecord, annotation: AtlasPatternAnnotation, variant: MemoryVariant, band: BandWindow): AtlasMemory {
   const random = seededRandom(`${state.selection.runSeed}:atlas-memory:${recordKey(record)}`);
   const branchRequirement = variant.when.find((requirement) => requirement.startsWith("outcome:") || requirement.startsWith("branch:"));
-  const relatedChoices = branchRequirement ? [state.biography.branches[0]!.id] : [];
+  const branchType = branchRequirement?.split(":")[1];
+  const relatedBranch = branchType ? state.biography.branches.find((branch) => branch.type === branchType) : undefined;
+  const relatedChoices = relatedBranch ? [relatedBranch.id] : [];
   const thread = earlyLifeThreadForState(state);
   const bump = band.ageFrom >= 10 && band.ageFrom < 30 ? 1 : 0;
   const affinity = annotation.themes.some((theme) => thread?.themes.includes(theme) || state.biography.themes.includes(theme)) ? 1 : 0;

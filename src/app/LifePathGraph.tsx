@@ -19,10 +19,10 @@ function labelLines(label: string): string[] {
 }
 
 function edgePath(from: LifePathNode, to: LifePathNode): string {
-  const startX = from.x + 76;
-  const endX = to.x - 76;
-  const control = (startX + endX) / 2;
-  return `M ${startX} ${from.y} C ${control} ${from.y}, ${control} ${to.y}, ${endX} ${to.y}`;
+  const startY = from.y + 40;
+  const endY = to.y - 40;
+  const control = (startY + endY) / 2;
+  return `M ${from.x} ${startY} C ${from.x} ${control}, ${to.x} ${control}, ${to.x} ${endY}`;
 }
 
 export function LifePathGraph({ state }: { state: GameSessionState }) {
@@ -36,19 +36,20 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
     <section className="life-path" aria-labelledby="life-path-title">
       <header className="life-path-heading">
         <h2 id="life-path-title">Как могла повернуть жизнь</h2>
-        <p>В этой истории была поворотная точка: {graph.branchLabel.toLocaleLowerCase("ru")}. Показаны обе возможные дороги, выбранный в разговоре путь выделен.</p>
+        <p>В этой истории было {graph.branchCount} поворотных точек. У каждой показаны выбранная дорога, другая возможность и пути, которые закрылись после прежних решений.</p>
       </header>
       <div className="life-path-legend" aria-hidden="true">
         <span><i className="legend-selected" />Выбранный путь</span>
         <span><i className="legend-alternative" />Другая возможность</span>
+        <span><i className="legend-locked" />Уже недоступно</span>
       </div>
       <div className="life-path-viewport">
-        <svg viewBox="0 0 1020 300" role="img" aria-label="Схема возможных дорог жизни и выбранного пути">
+        <svg viewBox={`0 0 900 ${graph.height}`} role="img" aria-label="Схема возможных дорог жизни и выбранного пути">
           <g className="life-path-edges" aria-hidden="true">
             {graph.edges.map((edge) => {
               const from = nodes.get(edge.from)!;
               const to = nodes.get(edge.to)!;
-              return <path key={edge.id} className={edge.selected ? "selected" : "alternative"} d={edgePath(from, to)} />;
+              return <path key={edge.id} className={edge.status} d={edgePath(from, to)} />;
             })}
           </g>
           <g className="life-path-nodes">
@@ -57,7 +58,7 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
               return (
                 <g
                   key={node.id}
-                  className={`life-path-node ${node.selected ? "selected" : "alternative"}`}
+                  className={`life-path-node ${node.status}`}
                   transform={`translate(${node.x} ${node.y})`}
                   role="button"
                   tabIndex={0}

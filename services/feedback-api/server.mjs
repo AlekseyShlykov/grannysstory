@@ -6,7 +6,7 @@ const databaseUrl = process.env.DATABASE_URL;
 if (!databaseUrl) throw new Error("DATABASE_URL is required");
 
 const allowedOrigins = new Set((process.env.ALLOWED_ORIGINS
-  ?? "https://alekseyshlykov.github.io,http://localhost:5173,http://127.0.0.1:5173,http://127.0.0.1:4173")
+  ?? "https://buildtounderstand.dev,https://www.buildtounderstand.dev,https://alekseyshlykov.github.io,http://localhost:5173,http://127.0.0.1:5173,http://127.0.0.1:4173")
   .split(",")
   .map((origin) => origin.trim())
   .filter(Boolean));

@@ -130,19 +130,23 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .life-path-legend span { display: inline-flex; align-items: center; gap: 7px; }
 .life-path-legend i { width: 22px; height: 3px; display: inline-block; background: var(--accent); }
 .life-path-legend .legend-alternative { height: 0; border-top: 2px dashed #aaa08e; background: transparent; }
+.life-path-legend .legend-locked { height: 0; border-top: 2px dotted #c9c2b5; background: transparent; opacity: .7; }
 .life-path-viewport { overflow-x: auto; overscroll-behavior-inline: contain; padding: 4px 0 10px; }
 .life-path-viewport svg { display: block; width: 100%; min-width: 760px; height: auto; }
 .life-path-edges path { fill: none; stroke-width: 4; }
 .life-path-edges .selected { stroke: var(--accent); }
 .life-path-edges .alternative { stroke: #b8af9e; stroke-width: 2; stroke-dasharray: 8 7; }
+.life-path-edges .locked { stroke: #cbc4b8; stroke-width: 2; stroke-dasharray: 2 8; opacity: .75; }
 .life-path-node { cursor: help; outline: none; }
 .life-path-node rect { fill: var(--paper); stroke-width: 2; }
 .life-path-node.selected rect { fill: #e9ddd0; stroke: var(--accent); }
 .life-path-node.alternative rect { fill: #f2eee5; stroke: #b8af9e; stroke-dasharray: 5 4; }
+.life-path-node.locked rect { fill: #f4f1ea; stroke: #c8c0b2; stroke-dasharray: 2 5; opacity: .72; }
 .life-path-node:focus-visible rect, .life-path-node:hover rect { stroke: #2f5f80; stroke-width: 3; }
 .life-path-year { fill: var(--muted); font-size: 13px; font-weight: 700; }
 .life-path-label { fill: var(--ink); font-size: 13px; }
 .life-path-node.alternative .life-path-label { fill: var(--muted); }
+.life-path-node.locked .life-path-label { fill: #8d887f; }
 .life-path-tooltip { min-height: 86px; width: min(720px, 100%); display: flex; flex-direction: column; justify-content: center; gap: 4px; margin: 8px auto 0; padding: 14px 18px; border: 1px solid transparent; color: var(--muted); font-size: .88rem; text-align: center; }
 .life-path-tooltip.visible { border-color: var(--line); background: rgba(255,255,255,.3); color: var(--ink); }
 .life-path-tooltip strong { color: var(--accent-dark); }

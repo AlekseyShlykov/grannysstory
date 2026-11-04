@@ -221,6 +221,8 @@ export interface BranchState {
   historicalAnchor?: HistoricalAnchor | null;
   /** Planned destination when the branch can move her; older saves fall back to the region narrative. */
   destinationPlaceId?: string | null;
+  /** Outcomes may become unavailable after an earlier disclosed decision. Older saves allow both. */
+  lockedOutcomes?: Partial<Record<"pathA" | "pathB", string>>;
 }
 
 export interface MemoryState {

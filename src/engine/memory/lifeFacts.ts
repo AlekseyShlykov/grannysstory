@@ -105,7 +105,7 @@ export interface PartnershipSpan {
 export function partnershipSpan(state: GameSessionState): PartnershipSpan | null | "undetermined" {
   const canon = state.biography.canon;
   if (!canon) return "undetermined";
-  const branch = state.biography.branches[0];
+  const branch = state.biography.branches.find((candidate) => candidate.type === "love" || candidate.type === "marriage");
   let start = canon.partnership.plannedStart;
   if (branch && (branch.type === "love" || branch.type === "marriage")) {
     if (!branch.resolved || !branch.outcome) return "undetermined";

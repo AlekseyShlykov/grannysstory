@@ -62,10 +62,35 @@ export function anchorAsLifeEvent(anchor: HistoricalAnchor, placeId: string): Li
 }
 
 export function activeBranchDefinition(state: GameSessionState): BranchDefinition {
-  const active = state.biography.branches[0];
+  const active = nextUnresolvedBranch(state) ?? state.biography.branches.at(-1);
   const definition = branchCatalog.find((candidate) => candidate.type === active?.type);
   if (!definition) throw new Error("Active branch definition is missing");
   return definition;
+}
+
+export function branchDefinition(type: BranchDefinition["type"]): BranchDefinition {
+  const definition = branchCatalog.find((candidate) => candidate.type === type);
+  if (!definition) throw new Error(`Branch definition is missing: ${type}`);
+  return definition;
+}
+
+export function nextUnresolvedBranch(state: GameSessionState) {
+  return [...state.biography.branches]
+    .filter((branch) => !branch.resolved)
+    .sort((a, b) => a.year - b.year)[0];
+}
+
+export function branchOutcomeLock(state: GameSessionState, branchId: string, outcomeId: "pathA" | "pathB"): string | null {
+  const branch = state.biography.branches.find((candidate) => candidate.id === branchId);
+  if (!branch) return "Этой развилки нет в биографии.";
+  if (branch.lockedOutcomes?.[outcomeId]) return branch.lockedOutcomes[outcomeId]!;
+  if (branch.type === "marriage" && outcomeId === "pathA") {
+    const earlierLove = state.biography.branches.find((candidate) => candidate.type === "love" && candidate.year < branch.year);
+    if (earlierLove?.resolved && earlierLove.outcome?.id === "pathB") {
+      return "Этот брак уже не мог состояться: раньше они решили не уезжать вместе, и отношения закончились.";
+    }
+  }
+  return null;
 }
 
 function warEventForRegion(pack: RegionPack): HistoricalEvent | null {
@@ -298,20 +323,41 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
   };
   const plan = planWithHistory(selection, draft, branch, branchYear);
   const work = planWork(selection, birthPlaceId, plan.branch, branchYear, plan.destinationPlaceId);
+  const remaining = branchCatalog.filter((definition) => definition.type !== plan.branch.type);
+  const branchRandom = seededRandom(`${selection.runSeed}:later-branches`);
+  const coreOrder: BranchDefinition["type"][] = ["migration", "love", "marriage", "friendship", "dream"];
+  const laterDefinitions: BranchDefinition[] = coreOrder
+    .filter((type) => type !== plan.branch.type && !(plan.branch.type === "marriage" && type === "love"))
+    .map((type) => remaining.find((definition) => definition.type === type)!)
+    .filter(Boolean)
+    .slice(0, 5);
+  for (const definition of laterDefinitions) remaining.splice(remaining.indexOf(definition), 1);
+  while (remaining.length && laterDefinitions.length < 5) {
+    laterDefinitions.push(remaining.splice(branchRandom.int(0, remaining.length - 1), 1)[0]!);
+  }
+  const branchPlans = [plan.branch, ...laterDefinitions].map((definition, index) => ({
+    definition,
+    year: Math.min(branchYear + index * 10, selection.conversationYear - (5 - index)),
+    destinationPlaceId: index === 0
+      ? plan.destinationPlaceId
+      : (definition.movesOnA || definition.movesOnB ? plan.destinationPlaceId : null),
+    historicalAnchor: index === 0 ? plan.anchor : null
+  }));
+  branchPlans.sort((a, b) => a.year - b.year);
   return {
     ...draft,
     ...(work ? { work } : {}),
     canon: planCanon(selection, draft),
-    themes: [...new Set([...plan.branch.themes, "healthAgingAndIndependence", "smallJoysAndGratitude", "meaningAndLegacy"])] as BiographyState["themes"],
-    branches: [{
-      id: `branch:${plan.branch.type}`,
-      type: plan.branch.type,
-      year: branchYear,
+    themes: [...new Set([...branchPlans.flatMap(({ definition }) => definition.themes), "healthAgingAndIndependence", "smallJoysAndGratitude", "meaningAndLegacy"])] as BiographyState["themes"],
+    branches: branchPlans.map(({ definition, year, historicalAnchor, destinationPlaceId }) => ({
+      id: `branch:${definition.type}`,
+      type: definition.type,
+      year,
       resolved: false,
       outcome: null,
-      historicalAnchor: plan.anchor,
-      destinationPlaceId: plan.destinationPlaceId
-    }]
+      historicalAnchor,
+      destinationPlaceId
+    }))
   };
 }
 
@@ -347,20 +393,27 @@ export function generateSession(selection: StartSelection, pack: RegionPack): Ga
   };
 }
 
-export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "pathB"): GameSessionState {
-  const active = state.biography.branches[0];
+export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "pathB", branchId?: string): GameSessionState {
+  const active = branchId
+    ? state.biography.branches.find((branch) => branch.id === branchId)
+    : state.biography.branches[0];
   if (!active) throw new Error("No active branch");
   if (active.resolved) {
     if (active.outcome?.id !== outcomeId) throw new Error("A disclosed branch cannot be rewritten");
     return state;
   }
-  const definition = activeBranchDefinition(state);
+  const lockedReason = branchOutcomeLock(state, active.id, outcomeId);
+  if (lockedReason) throw new Error(`Branch outcome is unavailable: ${lockedReason}`);
+  const definition = branchDefinition(active.type);
   const birthPlaceId = state.biography.residenceHistory[0]?.placeId;
   if (!birthPlaceId) throw new Error("Birth residence is missing");
   const destination = active.destinationPlaceId === undefined ? regionNarratives[state.selection.birthRegionId]?.destinationPlaceId ?? null : active.destinationPlaceId;
   // Without a reachable destination she stays: the decision text still holds, but no move is invented.
   const moves = Boolean((outcomeId === "pathA" ? definition.movesOnA : definition.movesOnB) && destination);
-  const placeId = moves && destination ? destination : birthPlaceId;
+  const currentResidence = state.biography.residenceHistory.find((period) => active.year >= period.fromYear && active.year <= period.toYear)
+    ?? state.biography.residenceHistory.at(-1);
+  const currentPlaceId = currentResidence?.placeId ?? birthPlaceId;
+  const placeId = moves && destination ? destination : currentPlaceId;
   const branchEvent: LifeEvent = {
     id: `life:${active.type}:decision`,
     year: active.year,
@@ -374,7 +427,8 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
     known: true,
     ...(active.historicalAnchor ? { historicalContextIds: [active.historicalAnchor.id] } : {})
   };
-  const consequenceYear = Math.min(active.year + 18, state.selection.conversationYear - 10);
+  // Later branches still need a consequence after the decision, even when the conversation is close.
+  const consequenceYear = Math.min(active.year + 8, state.selection.conversationYear);
   const consequenceEvent: LifeEvent = {
     id: `life:${active.type}:consequence`,
     year: consequenceYear,
@@ -387,9 +441,11 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
     salience: "personal",
     known: false
   };
-  const residenceHistory = moves
+  const residenceHistory = moves && placeId !== currentPlaceId
     ? [
-        { placeId: birthPlaceId, fromYear: state.selection.birthYear, toYear: active.year - 1 },
+        ...state.biography.residenceHistory
+          .filter((period) => period.fromYear < active.year)
+          .map((period) => period.toYear >= active.year ? { ...period, toYear: active.year - 1 } : period),
         { placeId, fromYear: active.year, toYear: state.selection.conversationYear }
       ]
     : state.biography.residenceHistory;
@@ -401,7 +457,9 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
       ...state.biography,
       residenceHistory,
       flags,
-      branches: [{ ...active, resolved: true, outcome: { id: outcomeId, committedAtStep: state.dialogue.step } }],
+      branches: state.biography.branches.map((branch) => branch.id === active.id
+        ? { ...branch, resolved: true, outcome: { id: outcomeId, committedAtStep: state.dialogue.step } }
+        : branch),
       lifeEvents: [...state.biography.lifeEvents, branchEvent, consequenceEvent]
     },
     memories: [
