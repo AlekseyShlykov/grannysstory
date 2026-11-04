@@ -1,6 +1,7 @@
 import nationalJson from "../../../content/historical/national.json";
 import { milestones } from "../../../content/historical/milestones";
 import type { MilestoneDefinition } from "../../../content/historical/milestoneSchema";
+import { isNarrativeHistoricalEvent } from "../../../content/historical/significance";
 import type { GameSessionState, NationalHistoricalEvent } from "../../data/types";
 import type { WorldData } from "../../data/worldTypes";
 import { worldData } from "../../data/worldStore";
@@ -63,6 +64,7 @@ export function lifeMilestones(state: GameSessionState, definitions: MilestoneDe
     for (const definition of definitions) {
       const item = definition.eventIds.map((id) => reached.get(id)).find(Boolean);
       if (!item) continue;
+      if (!isNarrativeHistoricalEvent(item.event.title)) continue;
       result.push({
         definition,
         eventId: item.event.id,
@@ -84,6 +86,7 @@ export function lifeMilestones(state: GameSessionState, definitions: MilestoneDe
   for (const definition of definitions.filter((candidate) => candidate.country === "RU")) {
     const event = legacyNational.find((candidate) => definition.eventIds.includes(candidate.id));
     if (!event) continue;
+    if (!isNarrativeHistoricalEvent(event.title)) continue;
     const year = Number(event.startDate.slice(0, 4));
     if (year < birth || year > last) continue;
     result.push({

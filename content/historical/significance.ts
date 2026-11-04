@@ -112,7 +112,8 @@ const overrides: Record<string, number> = {
 // Mass upheavals named in the title outweigh a modest category (a strike filed under labor, a flood under disaster).
 const MAJOR = /войн|революц|забастов|стачк|кризис|депресс|дефолт|освобожд|оккупац|блокад|побед|распад|путч|пандеми|карантин|covid|катастроф|авари|голод|наводнен|половод|перестройк|целин|мобилизац|референдум|отпуск цен|денежная реформа|карточн|закрыти[ея] (завод|сталел|шахт|комбинат|верф)|банкротств|упадок|смерть|космос|спутник|май 68|зима недовольства/i;
 // Acts, codes and paperwork: voiced only when an editor raised them above in `overrides`.
-const PAPERWORK = /закон|декрет|указ|кодекс|конституц|перепис|домен|портал|хартия|постановлени|регистрац|пособи|программы средней школы/i;
+const PAPERWORK = /закон|декрет|указ|кодекс|конституц|резолюц|перепис|домен|портал|хартия|постановлени|регистрац|пособи|программы средней школы|\b(?:act|law|resolution|decree|statute|constitution)\b|\b(?:loi|décret|ustawa|dekret|gesetz)\b/i;
+const STATISTICAL_TREND = /ожидаемая продолжительность жизни|продолжительность жизни|рождаемост|смертност|демографическ|уровень брачности|средний размер домохозяйства|доля домохозяйств/i;
 
 export function historicalSignificance(id: string, title: string, category?: string): number {
   const override = overrides[id];
@@ -126,6 +127,15 @@ export function historicalSignificance(id: string, title: string, category?: str
 /** Acts, codes, censuses and portals: true records, but not what a person brings up herself. */
 export function isPaperwork(title: string): boolean {
   return PAPERWORK.test(title);
+}
+
+/**
+ * Editorial boundary for what the game may present as historical action. Source packs retain laws and
+ * statistical series for research and eligibility checks, but conversation and atlas background use dated
+ * occurrences: wars, crashes, strikes, disasters, openings, protests and comparable public events.
+ */
+export function isNarrativeHistoricalEvent(title: string): boolean {
+  return !PAPERWORK.test(title) && !STATISTICAL_TREND.test(title);
 }
 
 export function isSpokenSignificant(id: string, title: string, category?: string): boolean {

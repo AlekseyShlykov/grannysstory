@@ -58,6 +58,18 @@ describe("essential national milestones", () => {
     expect(found.some((milestone) => milestone.eventId === "first_world_war_russia_1914")).toBe(false);
   });
 
+  it("uses dated public events, not legislation or statistical trends, as narrative background", () => {
+    for (let index = 0; index < 20; index += 1) {
+      const state = generated("us-chicago", 1900 + index, `events-only-${index}`);
+      const titles = [
+        ...lifeMilestones(state).map((milestone) => milestone.title),
+        ...spokenItems(state).map((item) => item.title),
+        ...historicalBackdrop(state).map((item) => item.title)
+      ];
+      expect(titles.join(" | ")).not.toMatch(/Тонкин|резолюц|ожидаемая продолжительность жизни|\b(?:act|law|resolution)\b/i);
+    }
+  });
+
   it("separates the four statements: lifetime, country, her place, and what she told", () => {
     const state = generated("fr-lille", 1925, "lille-occupied");
     const armistice = lifeMilestones(state).find((milestone) => milestone.eventId === "fr-nat-1940-armistice")!;

@@ -51,7 +51,7 @@ export function anchorAsLifeEvent(anchor: HistoricalAnchor, placeId: string): Li
     id: `context:world:${anchor.id}`,
     year: anchor.year,
     title: anchor.title,
-    text: `${anchor.summary} Это проверенный исторический фон поворотной ситуации, а не её единственная причина.`,
+    text: anchor.summary,
     placeId,
     peopleIds: [],
     provenance: "VERIFIED_HISTORICAL",
@@ -220,14 +220,11 @@ function createFamily(selection: StartSelection, random: ReturnType<typeof seede
 function historicalLifeEvent(selection: StartSelection, event: HistoricalEvent, flags: string[]): LifeEvent {
   const year = Number(event.startDate.slice(0, 4));
   const present = !event.applicability.requiresFlag || flags.includes(event.applicability.requiresFlag);
-  const personalSuffix = present
-    ? "В этой биографии она находилась в городе; личная деталь рассказа художественная, дата и контекст проверены."
-    : "В этой биографии она не находилась в городе в этот период; событие показано как исторический фон, а не личный опыт.";
   return {
     id: `context:${event.id}`,
     year,
     title: event.title,
-    text: `${event.historicalContext} ${personalSuffix}`,
+    text: event.historicalContext,
     placeId: event.locationId,
     peopleIds: present ? ["grandmother"] : [],
     provenance: "VERIFIED_HISTORICAL",

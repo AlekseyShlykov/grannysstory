@@ -222,18 +222,22 @@ describe("history inside generated lives", () => {
     expect(anchored).toBeGreaterThan(0);
   });
 
-  it("lets the education or career decision carry its historical framing into the atlas", () => {
-    for (let index = 0; index < 400; index += 1) {
-      const state = generated("tver", 1932, `career-${index}`);
-      const branch = state.biography.branches[0]!;
-      if (!["education", "profession"].includes(branch.type) || !branch.historicalAnchor) continue;
-      const finished = play("tver", `career-${index}`, "pathA");
-      const decision = finished.biography.lifeEvents.find((event) => event.id === `life:${branch.type}:decision`)!;
-      expect(decision.historicalContextIds).toEqual([branch.historicalAnchor.id]);
-      expect(knownAtlasEvents(finished).some((event) => event.id === `context:world:${branch.historicalAnchor!.id}`)).toBe(true);
-      return;
+  it("carries an event-framed decision into the atlas", () => {
+    for (const region of ["tver", "fr-lyon", "us-chicago"] as const) {
+      for (let index = 0; index < 400; index += 1) {
+        const seed = `event-anchor-${region}-${index}`;
+        const state = generated(region, 1932, seed);
+        const branch = state.biography.branches[0]!;
+        if (!branch.historicalAnchor) continue;
+        expect(branch.historicalAnchor.kind).toBe("event");
+        const finished = play(region, seed, "pathA");
+        const decision = finished.biography.lifeEvents.find((event) => event.id === `life:${branch.type}:decision`)!;
+        expect(decision.historicalContextIds).toEqual([branch.historicalAnchor.id]);
+        expect(knownAtlasEvents(finished).some((event) => event.id === `context:world:${branch.historicalAnchor!.id}`)).toBe(true);
+        return;
+      }
     }
-    throw new Error("no anchored education/profession branch found");
+    throw new Error("no event-anchored branch found");
   });
 
   it("a migration decision moves her to a reachable place and the atlas shows the route", () => {

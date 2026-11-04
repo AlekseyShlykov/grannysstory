@@ -157,29 +157,38 @@ describe("accessible vertical slice", () => {
       }
     }
     expect(turns).toBeGreaterThan(12);
-    expect(screen.getByRole("heading", { name: "Её жизнь" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
+    expect(screen.getByText("Вы можете помочь и улучшить эту игру. Если какое-то событие вам сильно запомнилось, поставьте палец вверх, а если какое-то показалось лишним, поставьте палец вниз.")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Хронология" })).toBeInTheDocument();
     expect(screen.queryByText("после разговора")).not.toBeInTheDocument();
     expect(screen.queryByText("Кем вы друг другу")).not.toBeInTheDocument();
     expect(screen.queryByText("О чём она сегодня не рассказала")).not.toBeInTheDocument();
     expect(screen.queryByText("Даже между названными датами осталось многое, чего нет на этой странице.")).not.toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Сайт Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
-    expect(screen.getByRole("link", { name: "Блог Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.substack.com/");
+    expect(screen.getByRole("link", { name: "Другие мои игры" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
+    expect(screen.getByRole("link", { name: "Подписаться на мои обновления" })).toHaveAttribute("href", "https://buildtounderstand.substack.com/");
     expect(screen.getByRole("link", { name: "buildtounderstand@gmail.com" })).toHaveAttribute("href", "mailto:buildtounderstand@gmail.com");
     expect(screen.getByText(/оставить фидбек или обратить внимание на неточность/)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Поделиться игрой" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Послушать другую жизнь" })).toBeInTheDocument();
 
     const quietMemory = document.querySelector(".quiet-memory")!;
-    const atlasHeading = screen.getByRole("heading", { name: "Её жизнь" });
+    const atlasHeading = screen.getByRole("heading", { name: "История бабушки" });
     expect(quietMemory.compareDocumentPosition(atlasHeading) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
     expect(document.querySelector(".atlas-map")).toBeNull();
     const eventKinds = [...document.querySelectorAll(".event-kind")].map((node) => node.textContent ?? "");
     expect(eventKinds.length).toBeGreaterThan(0);
     expect(eventKinds.every((kind) => /^(Личная жизнь|Исторический контекст) · .+/.test(kind))).toBe(true);
+    const timelineRows = [...document.querySelectorAll(".timeline li")];
+    expect(timelineRows.every((row) => row.querySelectorAll(".event-vote button").length === 2)).toBe(true);
+    const liked = screen.getAllByRole("button", { name: /^Понравилось событие/ })[0]!;
+    fireEvent.click(liked);
+    expect(liked).toHaveAttribute("aria-pressed", "true");
+    expect(localStorage.getItem("babushka-event-votes-v1")).toContain(":1");
 
+    Object.defineProperty(navigator, "clipboard", { configurable: true, value: { writeText: vi.fn(async () => undefined) } });
     fireEvent.click(screen.getByRole("button", { name: "Поделиться игрой" }));
-    expect(await screen.findByRole("status")).toHaveTextContent(/Ссылка на игру/);
+    expect(await screen.findByRole("status")).toHaveTextContent("ссылка на игру добавлена в буфер обмена.");
+    expect(navigator.clipboard.writeText).toHaveBeenCalledWith(expect.stringContaining("/"));
   });
 
   it("keeps the start screen usable when a regional pack is missing", async () => {

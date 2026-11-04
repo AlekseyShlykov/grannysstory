@@ -1,8 +1,7 @@
-import { isSpokenSignificant } from "../../../content/historical/significance";
+import { isNarrativeHistoricalEvent, isSpokenSignificant } from "../../../content/historical/significance";
 import type { BiographyState, BranchType, HistoricalAnchor } from "../../data/types";
 import type { WorldData } from "../../data/worldTypes";
 import type { RandomSource } from "../random";
-import { bestContext } from "./contexts";
 import { relevantEvents, type LifeProfile, type RelevantEvent, type ResidencePeriod } from "./events";
 import { getLocation, resolveLocationId } from "./geography";
 
@@ -17,17 +16,6 @@ const anchorCategories: Record<BranchType, string[]> = {
   familyResponsibility: ["healthcare", "social_policy", "public_health", "housing_urban"],
   friendship: ["culture_leisure", "sport", "media_communication", "everyday_life"],
   dream: ["culture_leisure", "technology", "media_communication", "education"]
-};
-
-const anchorContextTypes: Record<BranchType, string[]> = {
-  education: ["education"],
-  profession: ["work", "women_employment", "wages_income"],
-  migration: ["transport", "housing", "migration"],
-  love: ["leisure_culture", "communication"],
-  marriage: ["family_marriage", "housing"],
-  familyResponsibility: ["healthcare", "social_policy", "housing"],
-  friendship: ["leisure_culture"],
-  dream: ["leisure_culture", "education"]
 };
 
 export function lifeResidences(biography: Pick<BiographyState, "residenceHistory">): ResidencePeriod[] {
@@ -59,30 +47,15 @@ function anchorFromEvent(item: RelevantEvent): HistoricalAnchor {
   };
 }
 
-/** Verified circumstances near a turning point at the place she lived then (events first, then everyday context). */
+/** Verified dated events near a turning point at the place she lived then. */
 export function branchAnchorCandidates(world: WorldData, residences: ResidencePeriod[], profile: LifeProfile, type: BranchType, year: number): HistoricalAnchor[] {
-  const events = relevantEvents(world, residences, profile, year - 4, year)
+  return relevantEvents(world, residences, profile, year - 4, year)
     .filter((item) => !item.event.sensitive
       && anchorCategories[type].includes(item.event.category)
+      && isNarrativeHistoricalEvent(item.event.title)
       && isSpokenSignificant(item.event.id, item.event.title, item.event.category)
       && !NOT_A_FRAMING.test(`${item.event.title} ${item.event.summary}`))
     .map(anchorFromEvent);
-  if (events.length) return events;
-  const residence = residences.find((period) => year >= period.fromYear && year <= period.toYear);
-  const placeId = residence ? resolveLocationId(world, residence.placeId) : null;
-  if (!placeId) return [];
-  return anchorContextTypes[type]
-    .map((contextType) => bestContext(world, placeId, year, contextType))
-    .filter((answer): answer is NonNullable<typeof answer> => Boolean(answer))
-    .map((answer) => ({
-      kind: "context" as const,
-      id: answer.context.id,
-      title: answer.context.title ?? answer.context.type,
-      summary: answer.context.description,
-      year,
-      level: answer.level,
-      sourceIds: answer.context.sourceIds
-    }));
 }
 
 /**

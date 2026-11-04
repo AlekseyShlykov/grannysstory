@@ -1,5 +1,5 @@
 import nationalJson from "../../content/historical/national.json";
-import { historicalSignificance, isPaperwork, MIN_SPOKEN_SIGNIFICANCE } from "../../content/historical/significance";
+import { historicalSignificance, isNarrativeHistoricalEvent, isPaperwork, MIN_SPOKEN_SIGNIFICANCE } from "../../content/historical/significance";
 import { spokenFactSentence } from "../../content/scenes/historicalNarration";
 import { historicalVoice } from "../../content/scenes/historicalVoice";
 import { finalQuestionForms, lifeCourseFragments, questionFormForPoint } from "../../content/scenes/lifeCourse";
@@ -160,7 +160,10 @@ function worldCandidates(state: GameSessionState): BackgroundCandidate[] | null 
   const candidates = relevantEvents(world, lifeResidences(state.biography), profile, state.selection.birthYear, state.selection.conversationYear)
     .map((item) => ({ item, milestone: milestoneByEventId.get(item.event.id) }))
     // Sensitive records are spoken only through a milestone's hand-written lines, never from their summary.
-    .filter(({ item, milestone }) => (!item.event.sensitive || item.event.legacy || milestone) && !reserved.has(item.event.id) && !ownLifeEvents.has(`context:${item.event.id}`))
+    .filter(({ item, milestone }) => isNarrativeHistoricalEvent(item.event.title)
+      && (!item.event.sensitive || item.event.legacy || milestone)
+      && !reserved.has(item.event.id)
+      && !ownLifeEvents.has(`context:${item.event.id}`))
     .map(({ item, milestone }) => {
       const key = item.event.legacy && item.level === "national" ? `context:national:${item.event.id}` : `context:world:${item.event.id}`;
       return {

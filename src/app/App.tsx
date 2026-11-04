@@ -15,6 +15,7 @@ import { clearSave, loadGame, saveGame } from "../engine/persistence";
 import { freshSeed } from "../engine/random";
 import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/setup";
 import { storyAudio } from "./audio";
+import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
 
 interface SourceRecord {
   id: string;
@@ -58,16 +59,16 @@ function SiteFooter({ soundEnabled, onToggleSound }: { soundEnabled: boolean; on
   const iconRoot = `${import.meta.env.BASE_URL}assets/icons/`;
   return (
     <footer className="site-footer">
+      <button className="footer-icon-button" type="button" onClick={onToggleSound} aria-label={soundLabel} title={soundLabel}>
+        <img src={`${iconRoot}${soundEnabled ? "sound-on.png" : "sound-off.png"}`} alt="" aria-hidden="true" />
+      </button>
+      <a className="footer-credit" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Created by Alex Shlykov</a>
       <a className="footer-mail-link" href="mailto:buildtounderstand@gmail.com" aria-label="Написать Алексу Шлыкову" title="Написать Алексу Шлыкову">
         <svg viewBox="0 0 32 32" aria-hidden="true">
           <rect x="4.5" y="7" width="23" height="18" rx="2" />
           <path d="M6 9l10 8 10-8M6 23l7.5-7M26 23l-7.5-7" />
         </svg>
       </a>
-      <a className="footer-credit" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Created by Alex Shlykov</a>
-      <button className="footer-icon-button" type="button" onClick={onToggleSound} aria-label={soundLabel} title={soundLabel}>
-        <img src={`${iconRoot}${soundEnabled ? "sound-on.png" : "sound-off.png"}`} alt="" aria-hidden="true" />
-      </button>
     </footer>
   );
 }
@@ -223,29 +224,47 @@ function Conversation({ state, onChange }: { state: GameSessionState; onChange: 
   );
 }
 
+function EventVoteButtons({ eventId, title, value, onVote }: { eventId: string; title: string; value?: EventVote; onVote: (eventId: string, vote: EventVote) => void }) {
+  return (
+    <div className="event-vote" role="group" aria-label={`Оценить событие «${title}»`}>
+      <button type="button" className={value === 1 ? "selected" : ""} aria-pressed={value === 1} aria-label={`Понравилось событие «${title}»`} title="Понравилось" onClick={() => onVote(eventId, 1)}>👍</button>
+      <button type="button" className={value === -1 ? "selected" : ""} aria-pressed={value === -1} aria-label={`Не понравилось событие «${title}»`} title="Не понравилось" onClick={() => onVote(eventId, -1)}>👎</button>
+    </div>
+  );
+}
+
 function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void }) {
   const [shareMessage, setShareMessage] = useState("");
+  const [eventVotes, setEventVotes] = useState<Record<string, EventVote>>(() => loadEventVotes());
   const events = knownAtlasEvents(state);
   const backdrop = historicalBackdrop(state);
   // The memory she holds dearest need not be the one that changed her life most.
   const dearest = state.memories.find((memory) => memory.recalled && memory.atlas?.personalSignificance === "central" && (memory.atlas.lifeImpact === "slight" || memory.atlas.lifeImpact === "notable"));
   const quiet = events.find((event) => event.id === dearest?.lifeEventId) ?? events.find((event) => event.salience === "quiet");
   const rows = [
-    ...events.map((event) => ({ year: event.year, key: event.id, event, entry: null })),
-    ...backdrop.map((entry) => ({ year: entry.year, key: entry.id, event: null, entry }))
+    ...events.map((event) => ({ year: event.year, key: event.id, feedbackId: eventFeedbackId(event.id, event.title, event.text), event, entry: null })),
+    ...backdrop.map((entry) => ({ year: entry.year, key: entry.id, feedbackId: eventFeedbackId(entry.id, entry.title, entry.summary), event: null, entry }))
   ].sort((a, b) => a.year - b.year || Number(Boolean(a.entry)) - Number(Boolean(b.entry)));
+
+  useEffect(() => {
+    void syncEventFeedback();
+    const retry = () => void syncEventFeedback();
+    window.addEventListener("online", retry);
+    return () => window.removeEventListener("online", retry);
+  }, []);
+
+  const voteFor = (eventId: string, vote: EventVote) => {
+    setEventVotes((current) => ({ ...current, [eventId]: vote }));
+    recordEventVote(eventId, vote, state.selection.datasetVersion);
+    void syncEventFeedback();
+  };
+
   const shareGame = async () => {
     const url = new URL(import.meta.env.BASE_URL, window.location.origin).toString();
-    const payload = { title: "История бабушки", text: "Послушайте одну из историй бабушки.", url };
     try {
-      if (navigator.share) {
-        await navigator.share(payload);
-        setShareMessage("Спасибо, что поделились игрой.");
-        return;
-      }
       if (navigator.clipboard?.writeText) {
         await navigator.clipboard.writeText(url);
-        setShareMessage("Ссылка на игру скопирована.");
+        setShareMessage("ссылка на игру добавлена в буфер обмена.");
         return;
       }
       const field = document.createElement("textarea");
@@ -257,10 +276,9 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       field.select();
       const copied = typeof document.execCommand === "function" && document.execCommand("copy");
       field.remove();
-      setShareMessage(copied ? "Ссылка на игру скопирована." : `Ссылка на игру: ${url}`);
-    } catch (error) {
-      if (error instanceof DOMException && error.name === "AbortError") return;
-      setShareMessage(`Ссылка на игру: ${url}`);
+      setShareMessage(copied ? "ссылка на игру добавлена в буфер обмена." : "Не удалось скопировать ссылку.");
+    } catch {
+      setShareMessage("Не удалось скопировать ссылку.");
     }
   };
 
@@ -274,18 +292,21 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       )}
 
       <header className="atlas-heading">
-        <h1>Её жизнь</h1>
-        <p>Не вся, только та часть, которой она сегодня поделилась.</p>
+        <h1>История бабушки</h1>
+        <p>Вы можете помочь и улучшить эту игру. Если какое-то событие вам сильно запомнилось, поставьте палец вверх, а если какое-то показалось лишним, поставьте палец вниз.</p>
       </header>
 
       <section className="timeline" aria-labelledby="timeline-title">
         <h2 id="timeline-title">Хронология</h2>
         <ol>
-          {rows.map(({ key, event, entry }) => entry ? (
+          {rows.map(({ key, feedbackId, event, entry }) => entry ? (
             <li key={key} className="event-backdrop">
               <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? "рождение" : yearsCount(entry.age)}</span></div>
               <div>
-                <p className="event-kind">Исторический контекст · {entry.placeName}</p>
+                <div className="event-meta-row">
+                  <p className="event-kind">Исторический контекст · {entry.placeName}</p>
+                  <EventVoteButtons eventId={feedbackId} title={entry.title} value={eventVotes[feedbackId]} onVote={voteFor} />
+                </div>
                 <h3>{entry.title}</h3>
                 <p>{entry.summary}</p>
                 <p className="event-framing">{entry.placeOccupied ? "Её город в это время был под оккупацией. " : ""}Об этом она сегодня не рассказывала.</p>
@@ -299,7 +320,10 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
             <li key={key} className={`event-${event.salience}`}>
               <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? "рождение" : yearsCount(event.age)}</span></div>
               <div>
-                <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "Исторический контекст" : "Личная жизнь"} · {event.placeName}</p>
+                <div className="event-meta-row">
+                  <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "Исторический контекст" : "Личная жизнь"} · {event.placeName}</p>
+                  <EventVoteButtons eventId={feedbackId} title={event.title} value={eventVotes[feedbackId]} onVote={voteFor} />
+                </div>
                 <h3>{event.title}</h3>
                 <p>{event.text}</p>
                 {laterInterpretation(state, event.id) && <p className="event-framing">Спустя годы: {laterInterpretation(state, event.id)}</p>}
@@ -321,11 +345,14 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
         <p>На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.</p>
         <p className="feedback-note">Если хотите оставить фидбек или обратить внимание на неточность, пишите мне на <a href="mailto:buildtounderstand@gmail.com">buildtounderstand@gmail.com</a>.</p>
         <nav className="creator-links" aria-label="Ссылки автора">
-          <a href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Сайт Build to Understand</a>
-          <a href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Блог Build to Understand</a>
+          <a href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Другие мои игры</a>
+          <a href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Подписаться на мои обновления</a>
         </nav>
         <div className="final-actions">
-          <button className="secondary" type="button" onClick={() => void shareGame()}>Поделиться игрой</button>
+          <button className="secondary share-button" type="button" onClick={() => void shareGame()}>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="1" /><path d="M16 8V5H5v11h3" /></svg>
+            Поделиться игрой
+          </button>
           <button className="primary" type="button" onClick={onNew}>Послушать другую жизнь</button>
         </div>
         {shareMessage && <p className="share-status" role="status">{shareMessage}</p>}
@@ -380,6 +407,7 @@ export function App() {
   };
 
   const changeSession = (next: GameSessionState) => {
+    if (session) storyAudio.playStageTransition(session, next);
     setSession(next);
     if (scrollViewport.current) scrollViewport.current.scrollTop = 0;
   };

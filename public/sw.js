@@ -1,12 +1,17 @@
-const CACHE = "babushka-v0.8";
+const CACHE = "babushka-v0.9";
 const scopedUrl = (path) => new URL(path, self.registration.scope).toString();
 const SHELL = [
   scopedUrl("./"),
   scopedUrl("index.html"),
   scopedUrl("data/manifest.json"),
   scopedUrl("data/world/manifest.json"),
-  scopedUrl("assets/music/tea.wav"),
+  scopedUrl("assets/music/tea.mp3"),
   scopedUrl("assets/music/music.mp3"),
+  ...[
+    "chair.mp3", "countryside.mp3", "cup.mp3", "fluorescent_light.mp3", "fridge.mp3", "keys.mp3",
+    "kitchen_sounds.mp3", "oil_lamp.mp3", "old_car.mp3", "old_tram.mp3", "papers.mp3", "plate.mp3",
+    "rain_window.mp3", "tea2.mp3", "wardrobe.mp3", "water_sink.mp3", "window_close.mp3", "writing.mp3"
+  ].map((name) => scopedUrl(`assets/music/${name}`)),
   scopedUrl("assets/icons/sound-on.png"),
   scopedUrl("assets/icons/sound-off.png")
 ];

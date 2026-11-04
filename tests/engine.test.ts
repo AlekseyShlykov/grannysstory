@@ -206,7 +206,7 @@ describe("conversation and atlas", () => {
       if (background.existingLifeEventId) continue;
       const id = background.id.replace(/^context:(national:|world:)?/, "");
       if (!background.milestoneId) expect(historicalSignificance(id, background.title), background.title).toBeGreaterThanOrEqual(MIN_FALLBACK_SIGNIFICANCE);
-      expect(background.title).not.toMatch(/закон|конституц|перепис|домен/i);
+      expect(background.title).not.toMatch(/закон|конституц|резолюц|перепис|домен|продолжительность жизни|рождаемост|смертност/i);
     }
     // History follows her story: weighty or relevant years get an aside, years of paperwork stay quiet.
     expect(backgrounds.size / intervals.length).toBeGreaterThanOrEqual(0.4);

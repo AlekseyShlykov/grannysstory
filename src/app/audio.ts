@@ -1,3 +1,6 @@
+import type { GameSessionState } from "../data/types";
+import { stageCueForTransition, STAGE_CUES, type StageCueName } from "./stageSounds";
+
 const SOUND_PREFERENCE_KEY = "babushka-sound-enabled";
 
 type WindowWithWebkitAudio = Window & typeof globalThis & {
@@ -18,17 +21,20 @@ function assetUrl(path: string): string {
 
 /**
  * One audio session for the whole application. The tea cue starts directly from the user's click, while
- * story data may continue loading. Music enters only after that cue and is coloured in Web Audio rather
- * than shipping a second derivative recording.
+ * story data may continue loading. Music enters two seconds later, while the longer tea sound is still
+ * playing, and is coloured in Web Audio rather than shipping a second derivative recording.
  */
 export class StoryAudioController {
   private enabled = storedSoundPreference();
   private tea: HTMLAudioElement | null = null;
   private music: HTMLAudioElement | null = null;
+  private cue: HTMLAudioElement | null = null;
   private context: AudioContext | null = null;
   private masterGain: GainNode | null = null;
   private noise: AudioBufferSourceNode | null = null;
   private musicConnected = false;
+  private musicStartTimer: ReturnType<typeof setTimeout> | null = null;
+  private playedStageCues = new Set<StageCueName>();
 
   isEnabled(): boolean {
     return this.enabled;
@@ -43,6 +49,7 @@ export class StoryAudioController {
     }
     if (this.tea) this.tea.muted = !enabled;
     if (this.music) this.music.muted = !enabled;
+    if (this.cue) this.cue.muted = !enabled;
     if (this.masterGain && this.context) {
       this.masterGain.gain.setTargetAtTime(enabled ? 1 : 0, this.context.currentTime, 0.025);
     }
@@ -61,6 +68,9 @@ export class StoryAudioController {
     if (!this.tea || !this.music) return;
 
     this.stopSurfaceNoise();
+    this.playedStageCues.clear();
+    if (this.musicStartTimer !== null) clearTimeout(this.musicStartTimer);
+    this.musicStartTimer = null;
     this.music.pause();
     this.music.currentTime = 0;
     this.tea.pause();
@@ -68,6 +78,7 @@ export class StoryAudioController {
     this.tea.muted = !this.enabled;
     this.tea.onended = () => this.startMusic();
     this.tea.onerror = () => this.startMusic();
+    this.musicStartTimer = setTimeout(() => this.startMusic(), 2_000);
 
     try {
       const playback = this.tea.play();
@@ -79,8 +90,9 @@ export class StoryAudioController {
 
   private ensureMedia(): void {
     if (!this.tea) {
-      this.tea = new Audio(assetUrl("assets/music/tea.wav"));
+      this.tea = new Audio(assetUrl("assets/music/tea.mp3"));
       this.tea.preload = "auto";
+      this.tea.volume = 0.85;
     }
     if (!this.music) {
       this.music = new Audio(assetUrl("assets/music/music.mp3"));
@@ -90,6 +102,25 @@ export class StoryAudioController {
     }
     this.tea.muted = !this.enabled;
     this.music.muted = !this.enabled;
+  }
+
+  playStageTransition(previous: GameSessionState, next: GameSessionState): void {
+    if (typeof Audio === "undefined") return;
+    const cueName = stageCueForTransition(previous, next, this.playedStageCues);
+    if (!cueName) return;
+    this.playedStageCues.add(cueName);
+    this.cue?.pause();
+    const cue = new Audio(assetUrl(`assets/music/${STAGE_CUES[cueName]}`));
+    cue.preload = "auto";
+    cue.volume = 0.85;
+    cue.muted = !this.enabled;
+    this.cue = cue;
+    try {
+      const playback = cue.play();
+      void playback?.catch(() => undefined);
+    } catch {
+      // A missed ambient cue never blocks the conversation.
+    }
   }
 
   private ensureRecordChain(): void {
@@ -138,6 +169,9 @@ export class StoryAudioController {
 
   private startMusic(): void {
     if (!this.music) return;
+    if (this.musicStartTimer !== null) clearTimeout(this.musicStartTimer);
+    this.musicStartTimer = null;
+    if (!this.music.paused) return;
     this.music.muted = !this.enabled;
     if (this.context?.state === "suspended") void this.context.resume().catch(() => undefined);
     this.startSurfaceNoise();
