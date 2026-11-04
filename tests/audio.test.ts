@@ -41,6 +41,8 @@ describe("story audio", () => {
     expect(tea!.play).toHaveBeenCalledOnce();
     expect(music!.play).not.toHaveBeenCalled();
     expect(music!.loop).toBe(true);
+    expect(music!.volume).toBeCloseTo(0.42 * 0.8);
+    expect(tea!.volume).toBeCloseTo(0.85 * 0.6);
 
     await vi.advanceTimersByTimeAsync(1_999);
     expect(music!.play).not.toHaveBeenCalled();

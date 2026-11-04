@@ -115,14 +115,38 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .last-note > p:first-child { margin: 0 auto 26px; max-width: 550px; font-family: "PT Sans", system-ui, sans-serif; font-size: 1.25rem; }
 .feedback-note { max-width: 620px; margin: 0 auto 22px; color: var(--muted); font-size: .9rem; }
 .feedback-note a { color: var(--accent-dark); }
-.creator-links { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 0 auto 26px; }
-.creator-links a { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; padding: 10px 18px; border: 1px solid var(--accent-dark); color: var(--accent-dark); background: transparent; font-size: .86rem; text-decoration: none; }
-.creator-links a:hover { background: rgba(255,255,255,.45); }
-.final-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: min(620px, 100%); margin: 0 auto; }
-.final-actions button { width: 100%; }
+.final-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; width: min(620px, 100%); margin: 0 auto; }
+.final-actions > * { width: 100%; height: 64px; min-height: 64px; display: flex; align-items: center; justify-content: center; padding: 8px 14px; font-size: .86rem; line-height: 1.25; text-align: center; text-decoration: none; }
+.final-actions a:hover { background: rgba(255,255,255,.45); }
 .share-button { display: flex; align-items: center; justify-content: center; gap: 9px; }
 .share-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 .share-status { margin: 14px auto 0; color: var(--muted); font-size: .8rem; }
+
+.life-path { width: min(1080px, 100%); margin: 88px auto 0; padding-top: 54px; border-top: 1px solid var(--line); }
+.life-path-heading { width: min(720px, 100%); margin: 0 auto 24px; text-align: center; }
+.life-path-heading h2 { margin: 0 0 12px; }
+.life-path-heading p { margin: 0; color: var(--muted); }
+.life-path-legend { display: flex; justify-content: center; gap: 22px; margin: 0 0 16px; color: var(--muted); font-size: .78rem; }
+.life-path-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.life-path-legend i { width: 22px; height: 3px; display: inline-block; background: var(--accent); }
+.life-path-legend .legend-alternative { height: 0; border-top: 2px dashed #aaa08e; background: transparent; }
+.life-path-viewport { overflow-x: auto; overscroll-behavior-inline: contain; padding: 4px 0 10px; }
+.life-path-viewport svg { display: block; width: 100%; min-width: 760px; height: auto; }
+.life-path-edges path { fill: none; stroke-width: 4; }
+.life-path-edges .selected { stroke: var(--accent); }
+.life-path-edges .alternative { stroke: #b8af9e; stroke-width: 2; stroke-dasharray: 8 7; }
+.life-path-node { cursor: help; outline: none; }
+.life-path-node rect { fill: var(--paper); stroke-width: 2; }
+.life-path-node.selected rect { fill: #e9ddd0; stroke: var(--accent); }
+.life-path-node.alternative rect { fill: #f2eee5; stroke: #b8af9e; stroke-dasharray: 5 4; }
+.life-path-node:focus-visible rect, .life-path-node:hover rect { stroke: #2f5f80; stroke-width: 3; }
+.life-path-year { fill: var(--muted); font-size: 13px; font-weight: 700; }
+.life-path-label { fill: var(--ink); font-size: 13px; }
+.life-path-node.alternative .life-path-label { fill: var(--muted); }
+.life-path-tooltip { min-height: 86px; width: min(720px, 100%); display: flex; flex-direction: column; justify-content: center; gap: 4px; margin: 8px auto 0; padding: 14px 18px; border: 1px solid transparent; color: var(--muted); font-size: .88rem; text-align: center; }
+.life-path-tooltip.visible { border-color: var(--line); background: rgba(255,255,255,.3); color: var(--ink); }
+.life-path-tooltip strong { color: var(--accent-dark); }
+.life-path-tooltip span { line-height: 1.55; }
 
 @media (max-width: 620px) {
   .picker-grid { grid-template-columns: 1fr; }
@@ -135,7 +159,10 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
   .atlas-shell { padding-top: 48px; }
   .timeline li { grid-template-columns: 70px 1fr; gap: 16px; }
   .event-meta-row { gap: 8px; }
-  .final-actions { grid-template-columns: 1fr; gap: 8px; }
+  .final-actions { gap: 8px; }
+  .final-actions > * { height: 70px; min-height: 70px; padding: 7px 9px; font-size: .78rem; }
+  .life-path { margin-top: 64px; padding-top: 40px; }
+  .life-path-legend { gap: 12px; }
 }
 
 @media (prefers-reduced-motion: no-preference) {

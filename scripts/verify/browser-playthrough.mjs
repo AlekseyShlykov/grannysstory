@@ -101,6 +101,14 @@ const summary = await evaluate(`({
   years: [...document.querySelectorAll(".event-date strong")].map((node) => Number(node.textContent)),
   historicalTitles: [...document.querySelectorAll(".event-historical h3")].map((node) => node.textContent),
   hasQuietMemory: Boolean(document.querySelector(".quiet-memory")),
+  hasLifePath: Boolean(document.querySelector(".life-path svg")),
+  selectedPathNodes: document.querySelectorAll(".life-path-node.selected").length,
+  alternativePathNodes: document.querySelectorAll(".life-path-node.alternative").length,
+  finalActions: document.querySelectorAll(".final-actions > *").length,
+  equalFinalActionHeights: (() => {
+    const heights = [...document.querySelectorAll(".final-actions > *")].map((node) => Math.round(node.getBoundingClientRect().height));
+    return heights.length === 4 && new Set(heights).size === 1;
+  })(),
   bodyFont: getComputedStyle(document.body).fontFamily,
   headingFont: getComputedStyle(document.querySelector("h1")).fontFamily,
   bodyOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
@@ -135,10 +143,15 @@ if (
   || conversationSummary.questions < 2
   || conversationSummary.hasCommentaryLayer
   || turns <= 12
-  || summary.title !== "Её жизнь"
+  || summary.title !== "История бабушки"
   || summary.events < 5
   || summary.hasMap
   || !summary.hasQuietMemory
+  || !summary.hasLifePath
+  || summary.selectedPathNodes < 5
+  || summary.alternativePathNodes !== 2
+  || summary.finalActions !== 4
+  || !summary.equalFinalActionHeights
   || summary.latestYear !== summary.expectedLatestYear
   || !summary.bodyFont.includes("PT Sans")
   || !summary.headingFont.includes("PT Sans")

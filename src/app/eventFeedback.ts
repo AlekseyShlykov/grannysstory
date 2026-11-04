@@ -11,7 +11,7 @@ const VOTES_KEY = "babushka-event-votes-v1";
 const QUEUE_KEY = "babushka-event-feedback-queue-v1";
 const VOTER_KEY = "babushka-feedback-voter-v1";
 const endpoint = (import.meta.env.VITE_EVENT_FEEDBACK_URL ?? "https://feedback-api-production-5596.up.railway.app/event-feedback").trim();
-let syncing = false;
+let syncPromise: Promise<void> | null = null;
 
 /** Stable across runs for identical content, but distinct when a generated personal memory uses the same slot id. */
 export function eventFeedbackId(id: string, title: string, text: string): string {
@@ -73,29 +73,39 @@ export function recordEventVote(eventId: string, vote: EventVote, datasetVersion
 
 /** Best-effort anonymous sync. Failed requests remain queued for a later visit or an `online` event. */
 export async function syncEventFeedback(): Promise<void> {
-  if (!endpoint || syncing || (typeof navigator !== "undefined" && navigator.onLine === false)) return;
-  syncing = true;
-  try {
-    const queue = readObject<EventFeedbackRecord>(QUEUE_KEY);
-    for (const [eventId, record] of Object.entries(queue)) {
-      try {
-        const response = await fetch(endpoint, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(record),
-          keepalive: true
-        });
-        if (!response.ok) continue;
-        const current = readObject<EventFeedbackRecord>(QUEUE_KEY);
-        if (current[eventId]?.vote === record.vote) {
-          delete current[eventId];
-          writeObject(QUEUE_KEY, current);
+  if (!endpoint || (typeof navigator !== "undefined" && navigator.onLine === false)) return;
+  if (syncPromise) return syncPromise;
+  syncPromise = (async () => {
+    // Keep draining: votes added while an earlier request is in flight must not wait for another page visit.
+    while (true) {
+      const queue = readObject<EventFeedbackRecord>(QUEUE_KEY);
+      const entries = Object.entries(queue);
+      if (entries.length === 0) return;
+      let delivered = false;
+      for (const [eventId, record] of entries) {
+        try {
+          const response = await fetch(endpoint, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(record),
+            keepalive: true
+          });
+          if (!response.ok) continue;
+          delivered = true;
+          const current = readObject<EventFeedbackRecord>(QUEUE_KEY);
+          if (current[eventId]?.vote === record.vote) {
+            delete current[eventId];
+            writeObject(QUEUE_KEY, current);
+          }
+        } catch {
+          // Offline and transient server errors are intentionally silent; the local vote is already safe.
         }
-      } catch {
-        // Offline and transient server errors are intentionally silent; the local vote is already safe.
       }
+      // Avoid a tight retry loop when the server is unavailable. A later visit or `online` event retries it.
+      if (!delivered) return;
     }
-  } finally {
-    syncing = false;
-  }
+  })().finally(() => {
+    syncPromise = null;
+  });
+  return syncPromise;
 }

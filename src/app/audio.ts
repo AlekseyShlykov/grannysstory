@@ -2,6 +2,8 @@ import type { GameSessionState } from "../data/types";
 import { stageCueForTransition, STAGE_CUES, type StageCueName } from "./stageSounds";
 
 const SOUND_PREFERENCE_KEY = "babushka-sound-enabled";
+const MUSIC_VOLUME = 0.42 * 0.8;
+const AMBIENT_VOLUME = 0.85 * 0.6;
 
 type WindowWithWebkitAudio = Window & typeof globalThis & {
   webkitAudioContext?: typeof AudioContext;
@@ -92,13 +94,13 @@ export class StoryAudioController {
     if (!this.tea) {
       this.tea = new Audio(assetUrl("assets/music/tea.mp3"));
       this.tea.preload = "auto";
-      this.tea.volume = 0.85;
+      this.tea.volume = AMBIENT_VOLUME;
     }
     if (!this.music) {
       this.music = new Audio(assetUrl("assets/music/music.mp3"));
       this.music.preload = "auto";
       this.music.loop = true;
-      this.music.volume = 0.42;
+      this.music.volume = MUSIC_VOLUME;
     }
     this.tea.muted = !this.enabled;
     this.music.muted = !this.enabled;
@@ -112,7 +114,7 @@ export class StoryAudioController {
     this.cue?.pause();
     const cue = new Audio(assetUrl(`assets/music/${STAGE_CUES[cueName]}`));
     cue.preload = "auto";
-    cue.volume = 0.85;
+    cue.volume = AMBIENT_VOLUME;
     cue.muted = !this.enabled;
     this.cue = cue;
     try {
@@ -212,7 +214,7 @@ export class StoryAudioController {
     lowPass.type = "lowpass";
     lowPass.frequency.value = 5_800;
     const gain = this.context.createGain();
-    gain.gain.value = 0.055;
+    gain.gain.value = 0.055 * 0.6;
     source.connect(highPass).connect(lowPass).connect(gain).connect(this.masterGain);
     source.start();
     this.noise = source;

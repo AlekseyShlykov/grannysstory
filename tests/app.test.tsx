@@ -170,6 +170,13 @@ describe("accessible vertical slice", () => {
     expect(screen.getByText(/оставить фидбек или обратить внимание на неточность/)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Поделиться игрой" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Послушать другую жизнь" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Как могла повернуть жизнь" })).toBeInTheDocument();
+    expect(screen.getByRole("img", { name: "Схема возможных дорог жизни и выбранного пути" })).toBeInTheDocument();
+    expect(document.querySelectorAll(".final-actions > *")).toHaveLength(4);
+
+    const selectedPathNode = document.querySelector<SVGGElement>(".life-path-node.selected[role='button']")!;
+    fireEvent.mouseEnter(selectedPathNode);
+    expect(screen.getByRole("status")).toHaveTextContent(/Начало этой сгенерированной жизни|Поворотная точка|Вы спросили|Так продолжился|стала известной/);
 
     const quietMemory = document.querySelector(".quiet-memory")!;
     const atlasHeading = screen.getByRole("heading", { name: "История бабушки" });
@@ -187,7 +194,7 @@ describe("accessible vertical slice", () => {
 
     Object.defineProperty(navigator, "clipboard", { configurable: true, value: { writeText: vi.fn(async () => undefined) } });
     fireEvent.click(screen.getByRole("button", { name: "Поделиться игрой" }));
-    expect(await screen.findByRole("status")).toHaveTextContent("ссылка на игру добавлена в буфер обмена.");
+    expect(await screen.findByText("ссылка на игру добавлена в буфер обмена.")).toBeInTheDocument();
     expect(navigator.clipboard.writeText).toHaveBeenCalledWith(expect.stringContaining("/"));
   });
 

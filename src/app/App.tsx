@@ -16,6 +16,7 @@ import { freshSeed } from "../engine/random";
 import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/setup";
 import { storyAudio } from "./audio";
 import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
+import { LifePathGraph } from "./LifePathGraph";
 
 interface SourceRecord {
   id: string;
@@ -341,20 +342,20 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
         </ol>
       </section>
 
+      <LifePathGraph state={state} />
+
       <section className="last-note">
         <p>На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.</p>
         <p className="feedback-note">Если хотите оставить фидбек или обратить внимание на неточность, пишите мне на <a href="mailto:buildtounderstand@gmail.com">buildtounderstand@gmail.com</a>.</p>
-        <nav className="creator-links" aria-label="Ссылки автора">
-          <a href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Другие мои игры</a>
-          <a href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Подписаться на мои обновления</a>
-        </nav>
-        <div className="final-actions">
+        <nav className="final-actions" aria-label="Действия и ссылки автора">
+          <a className="secondary" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Другие мои игры</a>
+          <a className="secondary" href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Подписаться на мои обновления</a>
           <button className="secondary share-button" type="button" onClick={() => void shareGame()}>
             <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="1" /><path d="M16 8V5H5v11h3" /></svg>
             Поделиться игрой
           </button>
           <button className="primary" type="button" onClick={onNew}>Послушать другую жизнь</button>
-        </div>
+        </nav>
         {shareMessage && <p className="share-status" role="status">{shareMessage}</p>}
       </section>
 
