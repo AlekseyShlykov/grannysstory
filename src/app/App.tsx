@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import archiveCatalogJson from "../../content/historical/archiveCatalog.json";
 import sourcesJson from "../../content/historical/sources.json";
 import memorySources from "../../content/memory/memorySources.json";
@@ -8,7 +8,7 @@ import { ensureWorldPacks } from "../data/worldStore";
 import { manifest } from "../data/world";
 import { loadRegionPack } from "../data/regionStore";
 import type { GameSessionState, RegionId, StartSelection } from "../data/types";
-import { atlasRoute, historicalBackdrop, knownAtlasEvents, laterInterpretation, unknownPeriods } from "../engine/atlas";
+import { atlasRoute, historicalBackdrop, knownAtlasEvents, laterInterpretation } from "../engine/atlas";
 import { generateSession } from "../engine/biography";
 import { chooseOption, currentScene } from "../engine/dialogue";
 import { clearSave, loadGame, saveGame } from "../engine/persistence";
@@ -43,6 +43,15 @@ interface ArchiveCatalog {
 }
 
 const archiveCatalog = archiveCatalogJson as ArchiveCatalog;
+
+function SiteHeader({ onNew }: { onNew?: () => void }) {
+  return (
+    <header className="site-header">
+      <span className="site-title">История бабушки</span>
+      {onNew && <button className="text-button" type="button" onClick={onNew}>Другая история</button>}
+    </header>
+  );
+}
 
 function SiteFooter({ soundEnabled, onToggleSound }: { soundEnabled: boolean; onToggleSound: () => void }) {
   const soundLabel = soundEnabled ? "Выключить звук" : "Включить звук";
@@ -103,7 +112,6 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
     void startSelection(region.id as RegionId, year);
   };
 
-  const interviewYear = interviewYearForBirthYear(birthYear);
   const selectedRegion = regions.find((region) => region.id === birthRegionId);
   const selectedCountry = selectedRegion?.countryId ? archiveCatalog.countries[selectedRegion.countryId as keyof typeof archiveCatalog.countries] : undefined;
   const archiveSources = [
@@ -124,7 +132,7 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
     <main id="main" className="start-shell">
       <section className="start-card" aria-labelledby="game-title">
         <h1 id="game-title">История бабушки</h1>
-        <p className="lede">Посмотрите на историю глазами простых людей. Каждая история генерируется случайным образом. Исторический фон и события опираются на архивные данные.</p>
+        <p className="lede">Посмотрите на историю глазами простых людей. Каждая история генерируется случайным образом. Исторический фон и события опираются на архивные данные и воспоминания людей.</p>
         <p className="lede">Выберите место и год рождения или доверьте выбор случаю.</p>
 
         {saved && (
@@ -152,8 +160,6 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
             </select>
           </label>
         </div>
-        <p className="coverage-note">{selectedRegion?.coverage}</p>
-        <p className="interview-note">Год разговора: {interviewYear}. Бабушке {yearsCount(interviewYear - birthYear)}.</p>
         <div className="start-actions">
           <button className="primary" type="button" onClick={() => void startSelection(birthRegionId, birthYear)} disabled={loading}>{loading ? "Загружаем местный пакет…" : "Начать с выбранными данными"}</button>
           <button className="secondary" type="button" onClick={startRandom} disabled={loading}>Случайная история</button>
@@ -193,15 +199,11 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
   );
 }
 
-function Conversation({ state, onChange, onNew }: { state: GameSessionState; onChange: (next: GameSessionState) => void; onNew: () => void }) {
+function Conversation({ state, onChange }: { state: GameSessionState; onChange: (next: GameSessionState) => void }) {
   const scene = currentScene(state);
   const recent = state.dialogue.transcript.length === 1 ? state.dialogue.transcript : state.dialogue.transcript.slice(-2);
   return (
     <main id="main" className="conversation-shell">
-      <header className="conversation-header">
-        <span>Бабушка</span>
-        <button className="text-button" type="button" onClick={onNew}>Другая история</button>
-      </header>
       <section className="conversation" aria-live="polite" aria-atomic="false">
         <div className="exchange" aria-label="Последний вопрос и ответ">
           {recent.map((line, index) => (
@@ -214,7 +216,6 @@ function Conversation({ state, onChange, onNew }: { state: GameSessionState; onC
           ))}
         </div>
       </section>
-      <footer className="conversation-footer">Разговор сохраняется после каждого ответа</footer>
     </main>
   );
 }
@@ -252,8 +253,8 @@ function AtlasMap({ state }: { state: GameSessionState }) {
 }
 
 function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void }) {
+  const [shareMessage, setShareMessage] = useState("");
   const events = knownAtlasEvents(state);
-  const gaps = unknownPeriods(state);
   const backdrop = historicalBackdrop(state);
   // The memory she holds dearest need not be the one that changed her life most.
   const dearest = state.memories.find((memory) => memory.recalled && memory.atlas?.personalSignificance === "central" && (memory.atlas.lifeImpact === "slight" || memory.atlas.lifeImpact === "notable"));
@@ -262,23 +263,49 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
     ...events.map((event) => ({ year: event.year, key: event.id, event, entry: null })),
     ...backdrop.map((entry) => ({ year: entry.year, key: entry.id, event: null, entry }))
   ].sort((a, b) => a.year - b.year || Number(Boolean(a.entry)) - Number(Boolean(b.entry)));
-  const familyKnown = events.some((event) => event.id === "life:family-connection");
+  const shareGame = async () => {
+    const url = new URL(import.meta.env.BASE_URL, window.location.origin).toString();
+    const payload = { title: "История бабушки", text: "Послушайте одну из историй бабушки.", url };
+    try {
+      if (navigator.share) {
+        await navigator.share(payload);
+        setShareMessage("Спасибо, что поделились игрой.");
+        return;
+      }
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url);
+        setShareMessage("Ссылка на игру скопирована.");
+        return;
+      }
+      const field = document.createElement("textarea");
+      field.value = url;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.opacity = "0";
+      document.body.append(field);
+      field.select();
+      const copied = typeof document.execCommand === "function" && document.execCommand("copy");
+      field.remove();
+      setShareMessage(copied ? "Ссылка на игру скопирована." : `Ссылка на игру: ${url}`);
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      setShareMessage(`Ссылка на игру: ${url}`);
+    }
+  };
+
   return (
     <main id="main" className="atlas-shell">
+      {quiet && (
+        <blockquote className="quiet-memory">
+          <p>{quiet.text}</p>
+          <footer>Почему-то именно это она вспомнила без подсказки.</footer>
+        </blockquote>
+      )}
+
       <header className="atlas-heading">
-        <p className="kicker">после разговора</p>
         <h1>Её жизнь</h1>
         <p>Не вся, только та часть, которой она сегодня поделилась.</p>
       </header>
-
-      <section className="relationship-summary" aria-labelledby="relationship-title">
-        <p className="kicker">Кем вы друг другу</p>
-        <h2 id="relationship-title">{state.biography.relationship.playerRelationLabel}</h2>
-        <p>{state.biography.relationship.introduction}</p>
-        <p>{familyKnown ? state.biography.relationship.childrenText : "О собственных детях она сегодня не рассказала."}</p>
-      </section>
-
-      <AtlasMap state={state} />
 
       <section className="timeline" aria-labelledby="timeline-title">
         <h2 id="timeline-title">Хронология</h2>
@@ -319,27 +346,26 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
         </ol>
       </section>
 
-      <section className="gaps" aria-labelledby="gaps-title">
-        <h2 id="gaps-title">О чём она сегодня не рассказала</h2>
-        <p>{gaps.length ? `Между известными эпизодами остаются годы: ${gaps.join(", ")}.` : "Даже между названными датами осталось многое, чего нет на этой странице."}</p>
-      </section>
-
-      {quiet && (
-        <blockquote className="quiet-memory">
-          <p>{quiet.text}</p>
-          <footer>Почему-то именно это она вспомнила без подсказки.</footer>
-        </blockquote>
-      )}
-
       <section className="last-note">
         <p>На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.</p>
-        <button className="primary" type="button" onClick={onNew}>Послушать другую жизнь</button>
+        <nav className="creator-links" aria-label="Ссылки автора">
+          <a href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Сайт Build to Understand</a>
+          <a href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Блог Build to Understand</a>
+        </nav>
+        <div className="final-actions">
+          <button className="secondary" type="button" onClick={() => void shareGame()}>Поделиться игрой</button>
+          <button className="primary" type="button" onClick={onNew}>Послушать другую жизнь</button>
+        </div>
+        {shareMessage && <p className="share-status" role="status">{shareMessage}</p>}
       </section>
+
+      <AtlasMap state={state} />
     </main>
   );
 }
 
 export function App() {
+  const scrollViewport = useRef<HTMLDivElement>(null);
   const [session, setSession] = useState<GameSessionState | null>(() => loadGame());
   const [showStart, setShowStart] = useState(() => !loadGame());
   const [historyReady, setHistoryReady] = useState(() => !loadGame());
@@ -372,25 +398,33 @@ export function App() {
     }
     setHistoryReady(true);
     setShowStart(false);
+    if (scrollViewport.current) scrollViewport.current.scrollTop = 0;
   };
 
   const newStory = () => {
     clearSave();
     setSession(null);
     setShowStart(true);
+    if (scrollViewport.current) scrollViewport.current.scrollTop = 0;
+  };
+
+  const changeSession = (next: GameSessionState) => {
+    setSession(next);
+    if (scrollViewport.current) scrollViewport.current.scrollTop = 0;
   };
 
   const screen = useMemo(() => {
     if (showStart || !session) return <StartScreen onStart={start} />;
     if (!historyReady) return <main id="main" className="conversation-shell"><p className="grandmother-answer" role="status">Сейчас, только очки найду…</p></main>;
     if (session.screen === "atlas") return <Atlas state={session} onNew={newStory} />;
-    return <Conversation state={session} onChange={setSession} onNew={newStory} />;
+    return <Conversation state={session} onChange={changeSession} />;
   }, [session, showStart, historyReady]);
 
   return (
     <div className="app-shell">
       <a className="skip-link" href="#main">К содержанию</a>
-      <div className="app-screen">{screen}</div>
+      <SiteHeader onNew={!showStart && session ? newStory : undefined} />
+      <div className="app-screen" ref={scrollViewport}>{screen}</div>
       <SiteFooter soundEnabled={soundEnabled} onToggleSound={() => setSoundEnabled(storyAudio.toggle())} />
     </div>
   );

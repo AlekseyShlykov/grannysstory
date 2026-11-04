@@ -38,7 +38,7 @@ describe("accessible vertical slice", () => {
     renderInTver();
     expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
     expect(screen.queryByText("короткая история о долгой жизни")).not.toBeInTheDocument();
-    expect(screen.getByText(/Посмотрите на историю глазами простых людей\. Каждая история генерируется случайным образом\. Исторический фон и события опираются на архивные данные\./)).toBeInTheDocument();
+    expect(screen.getByText("Посмотрите на историю глазами простых людей. Каждая история генерируется случайным образом. Исторический фон и события опираются на архивные данные и воспоминания людей.")).toBeInTheDocument();
     expect(screen.getByText("Выберите место и год рождения или доверьте выбор случаю.")).toBeInTheDocument();
     expect(screen.getByLabelText("Где она родилась?")).toBeInTheDocument();
     expect(screen.getByLabelText("В каком году?")).toBeInTheDocument();
@@ -46,6 +46,8 @@ describe("accessible vertical slice", () => {
     expect(screen.getByRole("option", { name: "Лион" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Начать с выбранными данными" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Случайная история" })).toBeInTheDocument();
+    expect(document.querySelector(".coverage-note, .interview-note")).toBeNull();
+    expect(document.querySelector(".site-header")).toHaveTextContent("История бабушки");
     expect(screen.getByText("Created by Alex Shlykov")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
     fireEvent.click(screen.getByRole("button", { name: "Выключить звук" }));
@@ -96,13 +98,16 @@ describe("accessible vertical slice", () => {
     render(<App />);
     fireEvent.change(screen.getByLabelText("Где она родилась?"), { target: { value: "moscow" } });
     fireEvent.change(screen.getByLabelText("В каком году?"), { target: { value: "1927" } });
-    expect(screen.getByText(/Год разговора: 2020\. Бабушке 93 года/)).toBeInTheDocument();
+    expect(screen.queryByText(/Год разговора: 2020/)).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Начать с выбранными данными" }));
     const group = await screen.findByRole("group", { name: "Что спросить" });
     expect(screen.getByText("Created by Alex Shlykov")).toBeInTheDocument();
     expect(fetch).toHaveBeenCalledWith("/data/regions/moscow.json");
     expect(group.textContent).toContain("Где и когда ты родилась?");
+    const viewport = document.querySelector<HTMLElement>(".app-screen")!;
+    viewport.scrollTop = 240;
     fireEvent.click(screen.getByRole("button", { name: "Где и когда ты родилась?" }));
+    expect(viewport.scrollTop).toBe(0);
     expect(screen.getByLabelText("Последний вопрос и ответ").textContent).toMatch(/1927/);
   });
 
@@ -154,6 +159,24 @@ describe("accessible vertical slice", () => {
     expect(turns).toBeGreaterThan(12);
     expect(screen.getByRole("heading", { name: "Её жизнь" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Хронология" })).toBeInTheDocument();
+    expect(screen.queryByText("после разговора")).not.toBeInTheDocument();
+    expect(screen.queryByText("Кем вы друг другу")).not.toBeInTheDocument();
+    expect(screen.queryByText("О чём она сегодня не рассказала")).not.toBeInTheDocument();
+    expect(screen.queryByText("Даже между названными датами осталось многое, чего нет на этой странице.")).not.toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Сайт Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
+    expect(screen.getByRole("link", { name: "Блог Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.substack.com/");
+    expect(screen.getByRole("button", { name: "Поделиться игрой" })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Послушать другую жизнь" })).toBeInTheDocument();
+
+    const quietMemory = document.querySelector(".quiet-memory")!;
+    const atlasHeading = screen.getByRole("heading", { name: "Её жизнь" });
+    const finalActions = document.querySelector(".last-note")!;
+    const map = document.querySelector(".atlas-map")!;
+    expect(quietMemory.compareDocumentPosition(atlasHeading) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(finalActions.compareDocumentPosition(map) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+
+    fireEvent.click(screen.getByRole("button", { name: "Поделиться игрой" }));
+    expect(await screen.findByRole("status")).toHaveTextContent(/Ссылка на игру/);
   });
 
   it("keeps the start screen usable when a regional pack is missing", async () => {

@@ -98,12 +98,27 @@ const summary = await evaluate(`({
   events: document.querySelectorAll(".timeline li").length,
   routePoints: document.querySelectorAll(".atlas-map circle").length,
   sourceLinks: document.querySelectorAll(".timeline a").length,
-  relationship: document.querySelector(".relationship-summary h2")?.textContent,
-  familyDetail: [...document.querySelectorAll(".relationship-summary p")].at(-1)?.textContent,
   years: [...document.querySelectorAll(".event-date strong")].map((node) => Number(node.textContent)),
   historicalTitles: [...document.querySelectorAll(".event-historical h3")].map((node) => node.textContent),
   hasQuietMemory: Boolean(document.querySelector(".quiet-memory")),
-  bodyOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth
+  bodyOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
+  layout: (() => {
+    const viewport = document.querySelector(".app-screen");
+    const header = document.querySelector(".site-header");
+    const footer = document.querySelector(".site-footer");
+    const main = document.querySelector(".atlas-shell");
+    if (!viewport || !header || !footer || !main) return null;
+    viewport.scrollTop = viewport.scrollHeight;
+    return {
+      bodyScrollable: document.documentElement.scrollHeight > document.documentElement.clientHeight,
+      centralOverflow: getComputedStyle(viewport).overflowY,
+      centralScrollable: viewport.scrollHeight > viewport.clientHeight,
+      headerVisible: Math.abs(header.getBoundingClientRect().top) < 2,
+      footerVisible: Math.abs(footer.getBoundingClientRect().bottom - window.innerHeight) < 2,
+      quietFirst: main.firstElementChild?.classList.contains("quiet-memory"),
+      mapLast: main.lastElementChild?.classList.contains("atlas-map")
+    };
+  })()
 })`);
 socket.close();
 
@@ -123,6 +138,13 @@ if (
   || !summary.hasQuietMemory
   || summary.latestYear !== summary.expectedLatestYear
   || summary.bodyOverflow
+  || summary.layout?.bodyScrollable
+  || summary.layout?.centralOverflow !== "auto"
+  || !summary.layout?.centralScrollable
+  || !summary.layout?.headerVisible
+  || !summary.layout?.footerVisible
+  || !summary.layout?.quietFirst
+  || !summary.layout?.mapLast
 ) {
   throw new Error(`Browser playthrough failed: ${JSON.stringify({ startSummary, conversationSummary, summary })}`);
 }
