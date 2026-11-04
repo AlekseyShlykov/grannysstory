@@ -46,7 +46,7 @@ export function worldRegionOptions(): RegionOption[] {
     .filter((location): location is NonNullable<typeof location> => Boolean(location && isSettlement(location) && location.coordinates))
     .map((location) => ({
       id: location.id,
-      label: worldNameAt(world, location.id, "2025-07-01"),
+      label: worldNameAt(world, location.id, "2020-12-31"),
       coverage: `${worldManifest.coverage[location.id]!.localEvents} проверенных местных записей; вступление и бытовые воспоминания вычитаны для этой локации.`,
       enabled: true,
       countryId: location.country ? COUNTRY_IDS[location.country] : undefined,
@@ -75,7 +75,7 @@ export function validateSelection(selection: StartSelection): string[] {
   }
   if (!allowedYears().includes(selection.birthYear)) errors.push("Этот год не входит в проверенное покрытие.");
   if (selection.conversationYear !== interviewYearForBirthYear(selection.birthYear)) {
-    errors.push("Год разговора должен совпадать со столетием героини или текущим годом, если столетие ещё не наступило.");
+    errors.push("Год разговора должен совпадать со столетием героини или 2020 годом, если к нему ей ещё нет ста лет.");
   }
   if (selection.datasetVersion !== manifest.datasetVersion) errors.push("Версия набора данных не поддерживается.");
   return errors;

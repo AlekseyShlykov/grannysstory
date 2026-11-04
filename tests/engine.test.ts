@@ -3,19 +3,19 @@ import { manifest, placeNameAt, regionPacks } from "../src/data/catalog";
 import { atlasRoute, knownAtlasEvents } from "../src/engine/atlas";
 import { biographyIssues, commitBranch, generateSession } from "../src/engine/biography";
 import { chooseOption, currentScene } from "../src/engine/dialogue";
-import { fragmentForPoint, lifeTimelinePoints, phaseAtAge, timelineBackgrounds } from "../src/engine/lifeTimeline";
+import { fragmentForPoint, lifeTimelinePoints, phaseAtAge, questionsForPoint, timelineBackgrounds } from "../src/engine/lifeTimeline";
 import { parseSave, serializeSave } from "../src/engine/persistence";
 import { interviewYearForBirthYear, validateSelection } from "../src/engine/setup";
 import { selection } from "./helpers";
 import type { RegionId } from "../src/data/types";
 import type { StartSelection, ThemeId } from "../src/data/types";
 import { branchCatalog } from "../content/scenes/branchCatalog";
-import { lifeCourseFragments } from "../content/scenes/lifeCourse";
+import { finalQuestionForms, lifeCourseFragments, questionForms } from "../content/scenes/lifeCourse";
 import { earlyLifeThreads } from "../content/scenes/earlyLifeThreads";
 import { earlyLifeThreadForSeed, threadEchoFor } from "../src/engine/earlyLifeThread";
 import nationalHistory from "../content/historical/national.json";
 import { historicalSignificance, MIN_FALLBACK_SIGNIFICANCE } from "../content/historical/significance";
-import { narrateRecord } from "../content/scenes/historicalNarration";
+import { milestoneFollowUpQuestions, narrateRecord } from "../content/scenes/historicalNarration";
 import { occupations } from "../content/scenes/occupations";
 import { currentOccupation, workLine } from "../src/engine/work";
 
@@ -36,22 +36,50 @@ describe("start selection", () => {
     expect(validateSelection(selection("tver", 1899))).not.toHaveLength(0);
     expect(validateSelection(selection("tver", 1900))).toHaveLength(0);
     expect(validateSelection({ ...selection("tver", 1927), conversationYear: 2027 })).toContain(
-      "Год разговора должен совпадать со столетием героини или текущим годом, если столетие ещё не наступило."
+      "Год разговора должен совпадать со столетием героини или 2020 годом, если к нему ей ещё нет ста лет."
     );
   });
 
-  it("holds the interview at age 100, capped by the current year", () => {
+  it("holds the interview at age 100, capped by 2020", () => {
     expect(interviewYearForBirthYear(1900)).toBe(2000);
     expect(interviewYearForBirthYear(1920)).toBe(2020);
-    expect(interviewYearForBirthYear(1926)).toBe(2026);
-    expect(interviewYearForBirthYear(1927)).toBe(2026);
-    expect(interviewYearForBirthYear(1940)).toBe(2026);
+    expect(interviewYearForBirthYear(1921)).toBe(2020);
+    expect(interviewYearForBirthYear(1926)).toBe(2020);
+    expect(interviewYearForBirthYear(1927)).toBe(2020);
+    expect(interviewYearForBirthYear(1940)).toBe(2020);
   });
 
   it("offers exactly the five ratified regional packs", () => {
     expect(manifest.regions.filter((region) => region.enabled).map((region) => region.id)).toEqual([
       "moscow", "leningrad", "tver", "novgorod", "smolensk"
     ]);
+  });
+});
+
+describe("timeline questions", () => {
+  it("never repeats a visible question formulation within a life", () => {
+    const allForms = Object.values(questionForms).flat();
+    const shortenedFinalForms = Object.values(finalQuestionForms);
+    expect(allForms).toHaveLength(60);
+    expect(new Set(allForms).size).toBe(allForms.length);
+    expect(shortenedFinalForms).toHaveLength(3);
+    expect(new Set([...allForms, ...shortenedFinalForms]).size).toBe(allForms.length + shortenedFinalForms.length);
+    expect(milestoneFollowUpQuestions).toHaveLength(21);
+    expect(new Set([...allForms, ...shortenedFinalForms, ...milestoneFollowUpQuestions]).size).toBe(allForms.length + shortenedFinalForms.length + milestoneFollowUpQuestions.length);
+
+    for (const birthYear of [1900, 1927, 1932, 1937, 1940]) {
+      const state = generated(selection("tver", birthYear, `questions-${birthYear}`));
+      const visible = lifeTimelinePoints(state.selection)
+        .filter((point) => point.age > 0 && point.age !== 80)
+        .flatMap((point) => questionsForPoint(state, point).map((option) => option.text.replace(/^(?:В|Сейчас) .*? лет\. /, "")));
+      expect(new Set(visible).size, String(birthYear)).toBe(visible.length);
+    }
+
+    const shortened = generated(selection("tver", 1936, "shortened-final"));
+    const lastPoint = lifeTimelinePoints(shortened.selection).at(-1)!;
+    const lastQuestions = questionsForPoint(shortened, lastPoint).map((option) => option.text);
+    expect(lastQuestions.every((question) => question.includes("84 года"))).toBe(true);
+    expect(lastQuestions.join(" ")).not.toMatch(/85 лет|девяност/);
   });
 });
 
@@ -452,12 +480,12 @@ describe("save format", () => {
     expect(parseSave(JSON.stringify({ saveFormatVersion: 99 }))).toBeNull();
   });
 
-  it("migrates an older save to its own centenary year and removes future events", () => {
-    const state = generated(selection("tver", 1920, "old-future-save"));
+  it("migrates an older save to the 2020 cap and removes future events", () => {
+    const state = generated(selection("tver", 1927, "old-future-save"));
     const old = JSON.parse(serializeSave(state));
     old.selection.datasetVersion = "0.2.0";
-    old.selection.conversationYear = 2025;
-    old.biography.residenceHistory.at(-1).toYear = 2025;
+    old.selection.conversationYear = 2026;
+    old.biography.residenceHistory.at(-1).toYear = 2026;
     old.biography.lifeEvents.push({
       ...old.biography.lifeEvents[0],
       id: "life:future-that-must-be-removed",

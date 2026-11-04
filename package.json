@@ -15,7 +15,8 @@
     "build:pages": "npm run build:data && npm run validate:data && npm run validate:world && tsc --noEmit && vite build --base=/grannysstory/",
     "data:world": "python3 scripts/historical-data/run_pipeline.py",
     "data:world:collect": "python3 scripts/historical-data/run_pipeline.py --collect",
-    "validate:world": "python3 scripts/historical-data/validate/validate.py --quiet-warnings"
+    "validate:world": "python3 scripts/historical-data/validate/validate.py --quiet-warnings",
+    "review:first-ten": "node scripts/generate-first-ten-review.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

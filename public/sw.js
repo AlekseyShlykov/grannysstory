@@ -1,6 +1,16 @@
-const CACHE = "babushka-v0.3";
+const CACHE = "babushka-v0.4";
 const scopedUrl = (path) => new URL(path, self.registration.scope).toString();
-const SHELL = [scopedUrl("./"), scopedUrl("index.html"), scopedUrl("data/manifest.json"), scopedUrl("data/world/manifest.json")];
+const SHELL = [
+  scopedUrl("./"),
+  scopedUrl("index.html"),
+  scopedUrl("data/manifest.json"),
+  scopedUrl("data/world/manifest.json"),
+  scopedUrl("assets/music/tea.wav"),
+  scopedUrl("assets/music/music.mp3"),
+  scopedUrl("assets/icons/sound-on.png"),
+  scopedUrl("assets/icons/sound-off.png"),
+  scopedUrl("assets/icons/site.png")
+];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

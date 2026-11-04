@@ -82,7 +82,7 @@ if ((national.events ?? []).filter((event) => event.scale === "cultural" || even
   errors.push("В историческом пуле недостаточно культурных и повседневных событий");
 }
 
-if (manifest.conversationYear !== 2026) errors.push("Текущий предельный год разговора не соответствует последнему решению");
+if (manifest.conversationYear !== 2020) errors.push("Предельный год разговора не соответствует последнему решению");
 if (manifest.allowedBirthYears.from !== 1900 || manifest.allowedBirthYears.to !== 1940) errors.push("Диапазон годов не соответствует уточнению меню");
 
 if (errors.length) {

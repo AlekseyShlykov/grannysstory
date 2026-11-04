@@ -15,7 +15,7 @@ Product decisions (ratified)
 - A new grandmother is generated on every new playthrough, not a predefined woman with only alternative plot lines. Use a fresh seed for each new run, and persist it along with canonical facts.
 - The player is a younger relative who calls her “бабушка”, not a neutral interviewer. Kinship may be direct, adoptive, or cousin/grandaunt-like (двоюродная бабушка). She may have no children of her own. Build a consistent family graph without fabricating descendants for a childless character. Do not assume player gender.
 - The opening screen asks for the grandmother's birth region and birth year. Both must materially influence eligibility, historical context, biographical generation, and potential later movements. Kalinin is the first fully covered region, other options must be gated by real available packs, not invented.
-- The year range, conversation year, additional supported regions and kinship variants are not yet signed off. Read allowed options from a dataset manifest and label provisional assumptions as such.
+- The current release supports birth years 1900–1940. The conversation year is `min(birthYear + 100, 2020)`; no generated or displayed life event may occur after 2020. Read these limits from the dataset manifest. Additional supported regions and kinship variants remain subject to their own coverage and review requirements.
 Non-negotiables
 - No face, body, or detailed room for the grandmother. The player should be free to imagine their own.
 - No visible scores for happiness, success, morality, trust, or story completion.
@@ -146,7 +146,6 @@ Definition of done — first vertical slice
 - No grandmother portrait, score, moralizing ending, mandatory cloud service or external history API call.
 - Automated core state tests pass; mobile and keyboard interactions are usable.
 Open questions — do not silently decide
-- Allowed birth-year range and year of the conversation (must be age-consistent).
 - Which other regions have reviewed packs and can be enabled alongside first-supported Kalinin (Tver).
 - Which precise kinship variants beyond direct/adoptive/cousin-grandmother will be implemented first, and when to reveal the relation during dialogue.
 - Session duration, voice/audio, editorial scope and use of commercially licensed archival materials.

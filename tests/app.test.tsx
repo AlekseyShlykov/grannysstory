@@ -1,6 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { App } from "../src/app/App";
+import { storyAudio } from "../src/app/audio";
 import leningradPack from "../content/historical/leningrad.json";
 import moscowPack from "../content/historical/moscow.json";
 import novgorodPack from "../content/historical/novgorod.json";
@@ -22,6 +23,7 @@ function renderInTver() {
 }
 
 beforeEach(() => {
+  storyAudio.setEnabled(true);
   vi.stubGlobal("fetch", vi.fn(async (url: string) => {
     const regionId = url.match(/regions\/(\w+)\.json/)?.[1] ?? "";
     const pack = packs[regionId];
@@ -44,6 +46,10 @@ describe("accessible vertical slice", () => {
     expect(screen.getByRole("option", { name: "Лион" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Начать с выбранными данными" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Случайная история" })).toBeInTheDocument();
+    expect(screen.getByText("Created by Alex Shlykov")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
+    fireEvent.click(screen.getByRole("button", { name: "Выключить звук" }));
+    expect(screen.getByRole("button", { name: "Включить звук" })).toBeInTheDocument();
     expect(screen.getByText("История создается на основании архивов")).toBeInTheDocument();
     expect(screen.queryByText(/История хранится только в этом браузере/)).not.toBeInTheDocument();
     const archiveDisclosure = screen.getByText("Архивы и официальные источники: Россия").closest("details");
@@ -86,13 +92,14 @@ describe("accessible vertical slice", () => {
     expect(screen.queryByRole("link", { name: /Боевое донесение штаба Калининского фронта/ })).not.toBeInTheDocument();
   });
 
-  it("uses the selected place and caps a 1927 interview at the current year", async () => {
+  it("uses the selected place and caps a 1927 interview at 2020", async () => {
     render(<App />);
     fireEvent.change(screen.getByLabelText("Где она родилась?"), { target: { value: "moscow" } });
     fireEvent.change(screen.getByLabelText("В каком году?"), { target: { value: "1927" } });
-    expect(screen.getByText(/Год разговора: 2026\. Бабушке 99 лет/)).toBeInTheDocument();
+    expect(screen.getByText(/Год разговора: 2020\. Бабушке 93 года/)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Начать с выбранными данными" }));
     const group = await screen.findByRole("group", { name: "Что спросить" });
+    expect(screen.getByText("Created by Alex Shlykov")).toBeInTheDocument();
     expect(fetch).toHaveBeenCalledWith("/data/regions/moscow.json");
     expect(group.textContent).toContain("Где и когда ты родилась?");
     fireEvent.click(screen.getByRole("button", { name: "Где и когда ты родилась?" }));

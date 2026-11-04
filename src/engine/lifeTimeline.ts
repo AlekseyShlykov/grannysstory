@@ -2,8 +2,9 @@ import nationalJson from "../../content/historical/national.json";
 import { historicalSignificance, isPaperwork, MIN_SPOKEN_SIGNIFICANCE } from "../../content/historical/significance";
 import { spokenFactSentence } from "../../content/scenes/historicalNarration";
 import { historicalVoice } from "../../content/scenes/historicalVoice";
-import { lifeCourseFragments, questionForms } from "../../content/scenes/lifeCourse";
+import { finalQuestionForms, lifeCourseFragments, questionFormForPoint } from "../../content/scenes/lifeCourse";
 import type { LifeCourseFragment, LifePhase, ReflectionAngle } from "../../content/scenes/lifeCourse";
+import { yearsCount } from "../../content/language/russian";
 import type { GameSessionState, LifeEvent, NationalHistoricalEvent, StartSelection, ThemeId } from "../data/types";
 import { hasWorldPacks, worldData } from "../data/worldStore";
 import { seededRandom } from "./random";
@@ -109,13 +110,13 @@ export function questionsForPoint(state: GameSessionState, point: LifeTimelinePo
   }
   const pointIndex = lifeTimelinePoints(state.selection).findIndex((candidate) => candidate.year === point.year);
   const lead = point.final
-    ? `Сейчас ${point.year} год, тебе ${point.age} лет.`
-    : `В ${point.year} году тебе было ${point.age} лет.`;
-  return angles.map((angle, angleIndex) => {
-    const forms = questionForms[angle];
-    const form = forms[(pointIndex + angleIndex * 3) % forms.length]!;
-    return { id: angle, text: `${lead} ${form}` };
-  });
+    ? `Сейчас ${point.year} год, тебе ${yearsCount(point.age)}.`
+    : `В ${point.year} году тебе было ${yearsCount(point.age)}.`;
+  const shortenedFinal = point.final && point.age % 5 !== 0;
+  return angles.map((angle) => ({
+    id: angle,
+    text: `${lead} ${shortenedFinal ? finalQuestionForms[angle] : questionFormForPoint(angle, pointIndex)}`
+  }));
 }
 
 function residenceAt(state: GameSessionState, year: number): string {

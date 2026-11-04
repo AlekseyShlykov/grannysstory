@@ -1,7 +1,7 @@
 import { beforeAll, describe, expect, it } from "vitest";
 import { milestones } from "../content/historical/milestones";
 import type { MilestoneDefinition } from "../content/historical/milestoneSchema";
-import { narrateMilestone, narrateRecord, softenDates, spokenFactSentence } from "../content/scenes/historicalNarration";
+import { historicalAgeLine, narrateFraming, narrateMilestone, narrateRecord, softenDates, spokenFactSentence } from "../content/scenes/historicalNarration";
 import { historicalVoice } from "../content/scenes/historicalVoice";
 import type { GameSessionState } from "../src/data/types";
 import type { WorldData, WorldEvent, WorldLocation } from "../src/data/worldTypes";
@@ -195,6 +195,19 @@ const sentences = (text: string) => text.split(/(?<=[.!?…])\s+/).map((sentence
 const FIRST_PERSON = /(^|[^а-яё])(я|мы|мне|меня|нас|нам|мой|моя|моё|мои|у нас|сама)([^а-яё]|$)/i;
 
 describe("historical narration", () => {
+  it("states her age naturally in every kind of spoken historical passage", () => {
+    expect(historicalAgeLine(0)).toBe("Мне тогда ещё не было года.");
+    expect(historicalAgeLine(1)).toBe("Мне тогда был год.");
+    expect(historicalAgeLine(2)).toBe("Мне тогда было 2 года.");
+    expect(historicalAgeLine(21)).toBe("Мне тогда был 21 год.");
+    expect(historicalAgeLine(25)).toBe("Мне тогда было 25 лет.");
+
+    const milestone = milestones[0]!;
+    expect(narrateMilestone(milestone, { age: 21, wasPresent: true, runSeed: "age", order: 0 })).toContain("Мне тогда был 21 год.");
+    expect(narrateRecord({ eventId: "no-voice", summary: "Открылась новая линия трамвая через весь город." }, { age: 22, wasPresent: true, runSeed: "age", order: 0 })).toContain("Мне тогда было 22 года.");
+    expect(narrateFraming(25, "Открылась новая линия трамвая через весь город.", "age")).toContain("Мне тогда было 25 лет.");
+  });
+
   it("turns verified records into first-person passages, never into a title", () => {
     let narrated = 0;
     // Records with legacy hand-written lines (historicalVoice) are checked by their editors; here: composed passages.

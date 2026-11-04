@@ -1,5 +1,5 @@
 import { birthAfterwords, birthStatements } from "../../content/scenes/birthVoice";
-import { milestoneFollowUpQuestion, narrateFraming, narrateMilestone, narrateRecord } from "../../content/scenes/historicalNarration";
+import { milestoneFollowUpQuestionAt, narrateFraming, narrateMilestone, narrateRecord } from "../../content/scenes/historicalNarration";
 import { reflectionQuestions } from "../../content/scenes/regretArchetypes";
 import { spokenChildren, spokenRelationship } from "../../content/scenes/kinshipVoice";
 import type { Sex } from "../../content/scenes/kinshipVoice";
@@ -221,7 +221,8 @@ export function currentScene(state: GameSessionState): DialogueSceneView {
     return { options: reflectionQuestions.map((text, index) => ({ id: `reflect-${index}`, text })) };
   }
   const followUp = pendingMilestoneFollowUp(state);
-  return { options: [...questionsForPoint(state, point), ...(followUp ? [{ id: "history-more", text: milestoneFollowUpQuestion }] : [])] };
+  const followUpOrder = state.discovery.facts.filter((fact) => fact.id.startsWith("fact:milestone-more:")).length;
+  return { options: [...questionsForPoint(state, point), ...(followUp ? [{ id: "history-more", text: milestoneFollowUpQuestionAt(followUpOrder) }] : [])] };
 }
 
 const milestoneFactPrefix = "fact:milestone:";
@@ -268,7 +269,7 @@ function addAtlasMemory(state: GameSessionState, memory: AtlasMemory, year: numb
   return { state: next, eventId };
 }
 
-const secondMemoryLeads = ["А ещё из тех лет вот что осталось.", "И ещё одно вспомнилось.", "Знаешь, что ещё было?"];
+export const secondMemoryLeads = ["А ещё из тех лет вот что осталось.", "И ещё одно вспомнилось.", "Знаешь, что ещё было?"];
 
 function placeOccupied(state: GameSessionState, background: TimelineBackground): boolean {
   if (!hasWorldPacks()) return false;

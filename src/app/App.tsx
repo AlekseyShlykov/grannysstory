@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import archiveCatalogJson from "../../content/historical/archiveCatalog.json";
 import sourcesJson from "../../content/historical/sources.json";
 import memorySources from "../../content/memory/memorySources.json";
+import { yearsCount } from "../../content/language/russian";
 import worldSourcesJson from "../../public/data/world/sources.json";
 import { ensureWorldPacks } from "../data/worldStore";
 import { manifest } from "../data/world";
@@ -13,6 +14,7 @@ import { chooseOption, currentScene } from "../engine/dialogue";
 import { clearSave, loadGame, saveGame } from "../engine/persistence";
 import { freshSeed } from "../engine/random";
 import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/setup";
+import { storyAudio } from "./audio";
 
 interface SourceRecord {
   id: string;
@@ -41,6 +43,22 @@ interface ArchiveCatalog {
 }
 
 const archiveCatalog = archiveCatalogJson as ArchiveCatalog;
+
+function SiteFooter({ soundEnabled, onToggleSound }: { soundEnabled: boolean; onToggleSound: () => void }) {
+  const soundLabel = soundEnabled ? "Выключить звук" : "Включить звук";
+  const iconRoot = `${import.meta.env.BASE_URL}assets/icons/`;
+  return (
+    <footer className="site-footer">
+      <button className="footer-icon-button" type="button" onClick={onToggleSound} aria-label={soundLabel} title={soundLabel}>
+        <img src={`${iconRoot}${soundEnabled ? "sound-on.png" : "sound-off.png"}`} alt="" aria-hidden="true" />
+      </button>
+      <p>Created by Alex Shlykov</p>
+      <a className="footer-site-link" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer" aria-label="Build to Understand" title="Build to Understand">
+        <img src={`${iconRoot}site.png`} alt="" aria-hidden="true" />
+      </a>
+    </footer>
+  );
+}
 
 function cryptoIndex(length: number): number {
   const value = new Uint32Array(1);
@@ -135,7 +153,7 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
           </label>
         </div>
         <p className="coverage-note">{selectedRegion?.coverage}</p>
-        <p className="interview-note">Год разговора: {interviewYear}. Бабушке {interviewYear - birthYear} лет.</p>
+        <p className="interview-note">Год разговора: {interviewYear}. Бабушке {yearsCount(interviewYear - birthYear)}.</p>
         <div className="start-actions">
           <button className="primary" type="button" onClick={() => void startSelection(birthRegionId, birthYear)} disabled={loading}>{loading ? "Загружаем местный пакет…" : "Начать с выбранными данными"}</button>
           <button className="secondary" type="button" onClick={startRandom} disabled={loading}>Случайная история</button>
@@ -267,7 +285,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
         <ol>
           {rows.map(({ key, event, entry }) => entry ? (
             <li key={key} className="event-backdrop">
-              <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? "рождение" : `${entry.age} лет`}</span></div>
+              <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? "рождение" : yearsCount(entry.age)}</span></div>
               <div>
                 <p className="event-kind">фон эпохи · {entry.placeName}</p>
                 <h3>{entry.title}</h3>
@@ -281,7 +299,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
             </li>
           ) : event && (
             <li key={key} className={`event-${event.salience}`}>
-              <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? "рождение" : `${event.age} лет`}</span></div>
+              <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? "рождение" : yearsCount(event.age)}</span></div>
               <div>
                 <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "исторический контекст" : event.salience === "quiet" ? "личная память" : "её жизнь"} · {event.placeName}</p>
                 <h3>{event.title}</h3>
@@ -325,6 +343,7 @@ export function App() {
   const [session, setSession] = useState<GameSessionState | null>(() => loadGame());
   const [showStart, setShowStart] = useState(() => !loadGame());
   const [historyReady, setHistoryReady] = useState(() => !loadGame());
+  const [soundEnabled, setSoundEnabled] = useState(() => storyAudio.isEnabled());
 
   useEffect(() => {
     if (session) saveGame(session);
@@ -337,6 +356,8 @@ export function App() {
   }, [historyReady, session]);
 
   const start = async (selection: StartSelection) => {
+    // Starts inside the click gesture; history loading continues independently while the tea cue plays.
+    storyAudio.startIntro();
     const saved = loadGame();
     if (saved && saved.selection.runSeed === selection.runSeed) {
       await prepareHistory(saved);
@@ -367,9 +388,10 @@ export function App() {
   }, [session, showStart, historyReady]);
 
   return (
-    <>
+    <div className="app-shell">
       <a className="skip-link" href="#main">К содержанию</a>
-      {screen}
-    </>
+      <div className="app-screen">{screen}</div>
+      <SiteFooter soundEnabled={soundEnabled} onToggleSound={() => setSoundEnabled(storyAudio.toggle())} />
+    </div>
   );
 }

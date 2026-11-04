@@ -1,4 +1,5 @@
 import type { MilestoneDefinition } from "../historical/milestoneSchema";
+import { yearsCount } from "../language/russian";
 import { historicalVoice, speakableSentence } from "./historicalVoice";
 
 // How verified history becomes her speech. The fact is the verified record (layer A); the life it is told
@@ -222,11 +223,20 @@ function changeFor(category: string | undefined, ctx: NarrationContext): string 
   return pool ? pickInOrder(pool, `${ctx.runSeed}:change:${category}`, ctx.order) : null;
 }
 
+/** Her age is stated in every spoken historical passage, with natural Russian number agreement. */
+export function historicalAgeLine(age: number): string {
+  const years = Math.max(0, Math.floor(age));
+  if (years === 0) return "Мне тогда ещё не было года.";
+  if (years === 1) return "Мне тогда был год.";
+  const count = yearsCount(years);
+  return `Мне тогда ${count.endsWith(" год") ? "был" : "было"} ${count}.`;
+}
+
 /** An essential milestone: hand-written lines, optionally with the occupation of her place and a change. */
 export function narrateMilestone(definition: MilestoneDefinition, ctx: NarrationContext): string {
   const voice = definition.voice;
   const main = ctx.age < 6 ? voice.heard : ctx.age < 16 ? voice.young : voice.lived;
-  return [main, ctx.placeOccupied && ctx.age >= 6 ? voice.occupied : null, voice.change].filter(Boolean).join(" ");
+  return [main, historicalAgeLine(ctx.age), ctx.placeOccupied && ctx.age >= 6 ? voice.occupied : null, voice.change].filter(Boolean).join(" ");
 }
 
 export interface NarratableRecord {
@@ -243,12 +253,13 @@ export function narrateRecord(record: NarratableRecord, ctx: NarrationContext): 
   const voice = historicalVoice[record.eventId];
   if (voice) {
     // Hand-written lines are complete passages; a generic line after them could contradict their detail.
-    return !ctx.wasPresent && voice.away ? voice.away : ctx.age < 6 ? voice.heard : voice.lived;
+    const main = !ctx.wasPresent && voice.away ? voice.away : ctx.age < 6 ? voice.heard : voice.lived;
+    return [main, historicalAgeLine(ctx.age)].join(" ");
   }
   const fact = spokenFactSentence(record.summary);
   if (!fact) return null;
   const kind = perspectiveFor(ctx);
-  return [tellFact(fact, perspective[kind], `${ctx.runSeed}:perspective:${kind}`, ctx.order), changeFor(record.category, ctx), pickInOrder(ties, `${ctx.runSeed}:tie`, ctx.order)].filter(Boolean).join(" ");
+  return [tellFact(fact, perspective[kind], `${ctx.runSeed}:perspective:${kind}`, ctx.order), historicalAgeLine(ctx.age), changeFor(record.category, ctx), pickInOrder(ties, `${ctx.runSeed}:tie`, ctx.order)].filter(Boolean).join(" ");
 }
 
 const framing: Record<"young" | "adult", Perspective> = {
@@ -272,6 +283,11 @@ const framing: Record<"young" | "adult", Perspective> = {
   }
 };
 
+/** Exact phrase pools for editorial review documents; verified event facts remain in the data packs. */
+export function historicalNarrationReviewPhrases() {
+  return { perspective, changeByCategory, ties, framing } as const;
+}
+
 /**
  * The verified circumstance she mentions just before a turning point («тогда же», never «поэтому»). Silent
  * when the record has no sentence she could say: a title or a statistic is atlas material, not speech.
@@ -279,8 +295,36 @@ const framing: Record<"young" | "adult", Perspective> = {
 export function narrateFraming(age: number, summary: string, runSeed: string): string | null {
   const fact = spokenFactSentence(summary);
   if (!fact) return null;
-  return tellFact(fact, age < 16 ? framing.young : framing.adult, `${runSeed}:framing`, 0);
+  return [tellFact(fact, age < 16 ? framing.young : framing.adult, `${runSeed}:framing`, 0), historicalAgeLine(age)].join(" ");
 }
 
-/** The single prompt that lets the player stay with a milestone a little longer. */
-export const milestoneFollowUpQuestion = "А как это было у вас, расскажи?";
+/** Sequential prompts let the player stay with milestones without seeing the same question twice. */
+export const milestoneFollowUpQuestions = [
+  "А что ты сама помнишь об этом?",
+  "А дома об этом говорили?",
+  "А как это было у вас, расскажи?",
+  "Что тогда рассказывали взрослые?",
+  "А ты сразу поняла, что происходит?",
+  "Как эта новость дошла до вас?",
+  "Что люди вокруг тебя тогда говорили?",
+  "А в вашей семье это обсуждали?",
+  "Что тебе запомнилось сильнее всего?",
+  "А в обычной жизни это было заметно?",
+  "Ты помнишь день, когда об этом узнала?",
+  "А что изменилось после этого?",
+  "Как на это смотрели твои близкие?",
+  "Тебе тогда объясняли, что случилось?",
+  "А на работе или в школе об этом говорили?",
+  "Что ты тогда чувствовала, помнишь?",
+  "А люди верили тому, что им сообщали?",
+  "Как долго об этом потом вспоминали?",
+  "Было ли понятно, что будет дальше?",
+  "А что из тех разговоров осталось в памяти?",
+  "Если не трудно, расскажи об этом ещё немного."
+] as const;
+
+export function milestoneFollowUpQuestionAt(order: number): string {
+  const question = milestoneFollowUpQuestions[order];
+  if (!question) throw new Error(`No historical follow-up question for order ${order}`);
+  return question;
+}

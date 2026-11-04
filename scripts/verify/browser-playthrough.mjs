@@ -109,7 +109,7 @@ socket.close();
 
 summary.birthYear = Math.min(...summary.years);
 summary.latestYear = Math.max(...summary.years);
-summary.expectedLatestYear = Math.min(summary.birthYear + 100, 2026);
+summary.expectedLatestYear = Math.min(summary.birthYear + 100, 2020);
 
 if (
   startSummary.selectors !== 2
