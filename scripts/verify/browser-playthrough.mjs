@@ -96,11 +96,13 @@ while (turns < 30 && await evaluate('Boolean(document.querySelector(".questions"
 const summary = await evaluate(`({
   title: document.querySelector("h1")?.textContent,
   events: document.querySelectorAll(".timeline li").length,
-  routePoints: document.querySelectorAll(".atlas-map circle").length,
+  hasMap: Boolean(document.querySelector(".atlas-map")),
   sourceLinks: document.querySelectorAll(".timeline a").length,
   years: [...document.querySelectorAll(".event-date strong")].map((node) => Number(node.textContent)),
   historicalTitles: [...document.querySelectorAll(".event-historical h3")].map((node) => node.textContent),
   hasQuietMemory: Boolean(document.querySelector(".quiet-memory")),
+  bodyFont: getComputedStyle(document.body).fontFamily,
+  headingFont: getComputedStyle(document.querySelector("h1")).fontFamily,
   bodyOverflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
   layout: (() => {
     const viewport = document.querySelector(".app-screen");
@@ -116,7 +118,7 @@ const summary = await evaluate(`({
       headerVisible: Math.abs(header.getBoundingClientRect().top) < 2,
       footerVisible: Math.abs(footer.getBoundingClientRect().bottom - window.innerHeight) < 2,
       quietFirst: main.firstElementChild?.classList.contains("quiet-memory"),
-      mapLast: main.lastElementChild?.classList.contains("atlas-map")
+      onlyTwoKinds: [...main.querySelectorAll(".event-kind")].every((node) => /^(Личная жизнь|Исторический контекст) · .+/.test(node.textContent ?? ""))
     };
   })()
 })`);
@@ -135,8 +137,11 @@ if (
   || turns <= 12
   || summary.title !== "Её жизнь"
   || summary.events < 5
+  || summary.hasMap
   || !summary.hasQuietMemory
   || summary.latestYear !== summary.expectedLatestYear
+  || !summary.bodyFont.includes("PT Sans")
+  || !summary.headingFont.includes("PT Sans")
   || summary.bodyOverflow
   || summary.layout?.bodyScrollable
   || summary.layout?.centralOverflow !== "auto"
@@ -144,7 +149,7 @@ if (
   || !summary.layout?.headerVisible
   || !summary.layout?.footerVisible
   || !summary.layout?.quietFirst
-  || !summary.layout?.mapLast
+  || !summary.layout?.onlyTwoKinds
 ) {
   throw new Error(`Browser playthrough failed: ${JSON.stringify({ startSummary, conversationSummary, summary })}`);
 }

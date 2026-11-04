@@ -48,8 +48,8 @@ describe("accessible vertical slice", () => {
     expect(screen.getByRole("button", { name: "Случайная история" })).toBeInTheDocument();
     expect(document.querySelector(".coverage-note, .interview-note")).toBeNull();
     expect(document.querySelector(".site-header")).toHaveTextContent("История бабушки");
-    expect(screen.getByText("Created by Alex Shlykov")).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
+    expect(screen.getByRole("link", { name: "Created by Alex Shlykov" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
+    expect(screen.getByRole("link", { name: "Написать Алексу Шлыкову" })).toHaveAttribute("href", "mailto:buildtounderstand@gmail.com");
     fireEvent.click(screen.getByRole("button", { name: "Выключить звук" }));
     expect(screen.getByRole("button", { name: "Включить звук" })).toBeInTheDocument();
     expect(screen.getByText("История создается на основании архивов")).toBeInTheDocument();
@@ -101,7 +101,7 @@ describe("accessible vertical slice", () => {
     expect(screen.queryByText(/Год разговора: 2020/)).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Начать с выбранными данными" }));
     const group = await screen.findByRole("group", { name: "Что спросить" });
-    expect(screen.getByText("Created by Alex Shlykov")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Created by Alex Shlykov" })).toBeInTheDocument();
     expect(fetch).toHaveBeenCalledWith("/data/regions/moscow.json");
     expect(group.textContent).toContain("Где и когда ты родилась?");
     const viewport = document.querySelector<HTMLElement>(".app-screen")!;
@@ -165,15 +165,18 @@ describe("accessible vertical slice", () => {
     expect(screen.queryByText("Даже между названными датами осталось многое, чего нет на этой странице.")).not.toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Сайт Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
     expect(screen.getByRole("link", { name: "Блог Build to Understand" })).toHaveAttribute("href", "https://buildtounderstand.substack.com/");
+    expect(screen.getByRole("link", { name: "buildtounderstand@gmail.com" })).toHaveAttribute("href", "mailto:buildtounderstand@gmail.com");
+    expect(screen.getByText(/оставить фидбек или обратить внимание на неточность/)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Поделиться игрой" })).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Послушать другую жизнь" })).toBeInTheDocument();
 
     const quietMemory = document.querySelector(".quiet-memory")!;
     const atlasHeading = screen.getByRole("heading", { name: "Её жизнь" });
-    const finalActions = document.querySelector(".last-note")!;
-    const map = document.querySelector(".atlas-map")!;
     expect(quietMemory.compareDocumentPosition(atlasHeading) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
-    expect(finalActions.compareDocumentPosition(map) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+    expect(document.querySelector(".atlas-map")).toBeNull();
+    const eventKinds = [...document.querySelectorAll(".event-kind")].map((node) => node.textContent ?? "");
+    expect(eventKinds.length).toBeGreaterThan(0);
+    expect(eventKinds.every((kind) => /^(Личная жизнь|Исторический контекст) · .+/.test(kind))).toBe(true);
 
     fireEvent.click(screen.getByRole("button", { name: "Поделиться игрой" }));
     expect(await screen.findByRole("status")).toHaveTextContent(/Ссылка на игру/);

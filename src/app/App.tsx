@@ -8,7 +8,7 @@ import { ensureWorldPacks } from "../data/worldStore";
 import { manifest } from "../data/world";
 import { loadRegionPack } from "../data/regionStore";
 import type { GameSessionState, RegionId, StartSelection } from "../data/types";
-import { atlasRoute, historicalBackdrop, knownAtlasEvents, laterInterpretation } from "../engine/atlas";
+import { historicalBackdrop, knownAtlasEvents, laterInterpretation } from "../engine/atlas";
 import { generateSession } from "../engine/biography";
 import { chooseOption, currentScene } from "../engine/dialogue";
 import { clearSave, loadGame, saveGame } from "../engine/persistence";
@@ -58,13 +58,16 @@ function SiteFooter({ soundEnabled, onToggleSound }: { soundEnabled: boolean; on
   const iconRoot = `${import.meta.env.BASE_URL}assets/icons/`;
   return (
     <footer className="site-footer">
+      <a className="footer-mail-link" href="mailto:buildtounderstand@gmail.com" aria-label="Написать Алексу Шлыкову" title="Написать Алексу Шлыкову">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <rect x="4.5" y="7" width="23" height="18" rx="2" />
+          <path d="M6 9l10 8 10-8M6 23l7.5-7M26 23l-7.5-7" />
+        </svg>
+      </a>
+      <a className="footer-credit" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Created by Alex Shlykov</a>
       <button className="footer-icon-button" type="button" onClick={onToggleSound} aria-label={soundLabel} title={soundLabel}>
         <img src={`${iconRoot}${soundEnabled ? "sound-on.png" : "sound-off.png"}`} alt="" aria-hidden="true" />
       </button>
-      <p>Created by Alex Shlykov</p>
-      <a className="footer-site-link" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer" aria-label="Build to Understand" title="Build to Understand">
-        <img src={`${iconRoot}site.png`} alt="" aria-hidden="true" />
-      </a>
     </footer>
   );
 }
@@ -220,38 +223,6 @@ function Conversation({ state, onChange }: { state: GameSessionState; onChange: 
   );
 }
 
-function AtlasMap({ state }: { state: GameSessionState }) {
-  const { points: route, bounds } = atlasRoute(state);
-  const polyline = route.map((point) => `${point.x},${point.y}`).join(" ");
-  const lonLabel = (value: number) => `${Math.abs(Math.round(value))}° ${value < 0 ? "з." : "в."} д.`;
-  const latLabel = (value: number) => `${Math.abs(Math.round(value))}° ${value < 0 ? "ю." : "с."} ш.`;
-  return (
-    <figure className="atlas-map">
-      <figcaption>
-        <span>Места жизни</span>
-        <small>Схема: точки построены по координатам, прямые линии не означают точный путь.</small>
-      </figcaption>
-      <svg viewBox="0 0 600 310" role="img" aria-label={`Схема мест жизни: ${route.map((point) => point.name).join(", ")}`}>
-        <g className="map-grid" aria-hidden="true">
-          <rect x="30" y="40" width="540" height="230" />
-          <line x1="210" y1="40" x2="210" y2="270" /><line x1="390" y1="40" x2="390" y2="270" />
-          <line x1="30" y1="117" x2="570" y2="117" /><line x1="30" y1="194" x2="570" y2="194" />
-          <text x="30" y="292">{lonLabel(bounds.minLon)}</text><text x="520" y="292">{lonLabel(bounds.maxLon)}</text>
-          <text x="4" y="45">{latLabel(bounds.maxLat)}</text><text x="4" y="274">{latLabel(bounds.minLat)}</text>
-        </g>
-        {route.length > 1 && <polyline className="route-line" points={polyline} />}
-        {route.map((point, index) => (
-          <g key={`${point.placeId}-${point.fromYear}`} transform={`translate(${point.x} ${point.y})`}>
-            <circle r="7" />
-            <text x={index % 2 ? -10 : 10} y={index % 2 ? -14 : 22} textAnchor={index % 2 ? "end" : "start"}>{point.name}</text>
-            <text className="map-year" x={index % 2 ? -10 : 10} y={index % 2 ? -1 : 38} textAnchor={index % 2 ? "end" : "start"}>{point.fromYear}–{point.toYear}</text>
-          </g>
-        ))}
-      </svg>
-    </figure>
-  );
-}
-
 function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void }) {
   const [shareMessage, setShareMessage] = useState("");
   const events = knownAtlasEvents(state);
@@ -314,7 +285,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
             <li key={key} className="event-backdrop">
               <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? "рождение" : yearsCount(entry.age)}</span></div>
               <div>
-                <p className="event-kind">фон эпохи · {entry.placeName}</p>
+                <p className="event-kind">Исторический контекст · {entry.placeName}</p>
                 <h3>{entry.title}</h3>
                 <p>{entry.summary}</p>
                 <p className="event-framing">{entry.placeOccupied ? "Её город в это время был под оккупацией. " : ""}Об этом она сегодня не рассказывала.</p>
@@ -328,7 +299,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
             <li key={key} className={`event-${event.salience}`}>
               <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? "рождение" : yearsCount(event.age)}</span></div>
               <div>
-                <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "исторический контекст" : event.salience === "quiet" ? "личная память" : "её жизнь"} · {event.placeName}</p>
+                <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "Исторический контекст" : "Личная жизнь"} · {event.placeName}</p>
                 <h3>{event.title}</h3>
                 <p>{event.text}</p>
                 {laterInterpretation(state, event.id) && <p className="event-framing">Спустя годы: {laterInterpretation(state, event.id)}</p>}
@@ -348,6 +319,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
 
       <section className="last-note">
         <p>На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.</p>
+        <p className="feedback-note">Если хотите оставить фидбек или обратить внимание на неточность, пишите мне на <a href="mailto:buildtounderstand@gmail.com">buildtounderstand@gmail.com</a>.</p>
         <nav className="creator-links" aria-label="Ссылки автора">
           <a href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Сайт Build to Understand</a>
           <a href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Блог Build to Understand</a>
@@ -359,7 +331,6 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
         {shareMessage && <p className="share-status" role="status">{shareMessage}</p>}
       </section>
 
-      <AtlasMap state={state} />
     </main>
   );
 }

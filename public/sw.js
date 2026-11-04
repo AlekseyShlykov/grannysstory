@@ -1,4 +1,4 @@
-const CACHE = "babushka-v0.5";
+const CACHE = "babushka-v0.8";
 const scopedUrl = (path) => new URL(path, self.registration.scope).toString();
 const SHELL = [
   scopedUrl("./"),
@@ -8,8 +8,7 @@ const SHELL = [
   scopedUrl("assets/music/tea.wav"),
   scopedUrl("assets/music/music.mp3"),
   scopedUrl("assets/icons/sound-on.png"),
-  scopedUrl("assets/icons/sound-off.png"),
-  scopedUrl("assets/icons/site.png")
+  scopedUrl("assets/icons/sound-off.png")
 ];
 
 self.addEventListener("install", (event) => {
