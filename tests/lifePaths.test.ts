@@ -42,6 +42,8 @@ describe("final life path graph", () => {
     expect(graph.nodes.filter((node) => node.kind === "choice").length).toBeGreaterThan(60);
     expect(graph.nodes.filter((node) => node.kind === "choice" && node.selected)).toHaveLength(6);
     expect(graph.nodes.some((node) => node.status === "locked" && node.id.endsWith(":pathA"))).toBe(true);
+    expect(graph.width).toBe(760);
+    expect(Math.max(...graph.nodes.map((node) => node.x))).toBeLessThanOrEqual(graph.width);
     for (const firstOutcome of graph.nodes.filter((node) => node.depth === 1)) {
       expect(graph.edges.filter((edge) => edge.from === firstOutcome.id)).toHaveLength(2);
     }

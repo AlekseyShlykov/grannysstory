@@ -1,5 +1,6 @@
 import { branchCatalog } from "../../content/scenes/branchCatalog";
 import { namePalettes } from "../../content/scenes/names";
+import { retirementAge } from "../../content/scenes/occupations";
 import { genericRegionNarrative, regionNarratives } from "../../content/scenes/regions";
 import { getPlace, placeNameAt } from "../data/world";
 import { hasWorldPacks, worldData } from "../data/worldStore";
@@ -34,6 +35,15 @@ const childlessStatuses = [
   "no_strong_preference",
   "mentor_without_children"
 ] as const;
+
+const workDecisionTypes = new Set<BranchDefinition["type"]>(["education", "profession", "familyResponsibility"]);
+
+function latestPlausibleBranchYear(type: BranchDefinition["type"], birthYear: number, country: string): number {
+  if (type === "education") return birthYear + 30;
+  if (type === "profession") return birthYear + 40;
+  if (type === "familyResponsibility") return birthYear + retirementAge(country) - 5;
+  return Number.POSITIVE_INFINITY;
+}
 
 const childlessDescriptions = {
   chose_no_children: "Она сознательно не хотела собственных детей и не считала свою жизнь неполной.",
@@ -344,11 +354,24 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
     .slice(0, 5);
   for (const definition of laterDefinitions) remaining.splice(remaining.indexOf(definition), 1);
   while (remaining.length && laterDefinitions.length < 5) {
-    laterDefinitions.push(remaining.splice(branchRandom.int(0, remaining.length - 1), 1)[0]!);
+    // The education setup explicitly follows school and belongs to the first adult turning point; never add it
+    // as a late filler after an unrelated initial decision.
+    const candidates = remaining.filter((definition) => definition.type !== "education");
+    if (!candidates.length) break;
+    const chosen = candidates[branchRandom.int(0, candidates.length - 1)]!;
+    remaining.splice(remaining.indexOf(chosen), 1);
+    laterDefinitions.push(chosen);
   }
+  // A work-related filler used to land in the last slot (sometimes after retirement). Put it near the start
+  // of adult life, then cap each such decision by its own plausible working-age window.
+  laterDefinitions.sort((a, b) => Number(workDecisionTypes.has(b.type)) - Number(workDecisionTypes.has(a.type)));
   const branchPlans = [plan.branch, ...laterDefinitions].map((definition, index) => ({
     definition,
-    year: Math.min(branchYear + index * 10, selection.conversationYear - (5 - index)),
+    year: Math.min(
+      branchYear + index * 10,
+      selection.conversationYear - (5 - index),
+      latestPlausibleBranchYear(definition.type, selection.birthYear, country)
+    ),
     destinationPlaceId: index === 0
       ? plan.destinationPlaceId
       : (definition.movesOnA || definition.movesOnB ? plan.destinationPlaceId : null),

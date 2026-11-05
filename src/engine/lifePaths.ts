@@ -137,9 +137,11 @@ export function lifePathGraph(state: GameSessionState): LifePathGraph | null {
   };
   collectTerminals(root);
 
-  const leafSpacing = 28;
+  // A fixed coordinate width lets the complete tree scale down as one picture on phones instead of becoming
+  // a horizontally scrolling diagram. Leaves remain separate but labels are intentionally absent.
+  const width = 760;
   const sidePadding = 30;
-  const width = Math.max(760, (terminalNodes.length - 1) * leafSpacing + sidePadding * 2);
+  const leafSpacing = terminalNodes.length > 1 ? (width - sidePadding * 2) / (terminalNodes.length - 1) : 0;
   terminalNodes.forEach((node, index) => { node.x = sidePadding + index * leafSpacing; });
   const placeParents = (node: DraftNode) => {
     node.children.forEach(placeParents);

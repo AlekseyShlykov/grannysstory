@@ -16,7 +16,7 @@ import { earlyLifeThreadForSeed, threadEchoFor } from "../src/engine/earlyLifeTh
 import nationalHistory from "../content/historical/national.json";
 import { historicalSignificance, MIN_FALLBACK_SIGNIFICANCE } from "../content/historical/significance";
 import { milestoneFollowUpQuestions, narrateRecord } from "../content/scenes/historicalNarration";
-import { occupations } from "../content/scenes/occupations";
+import { occupations, retirementAge } from "../content/scenes/occupations";
 import { currentOccupation, workLine } from "../src/engine/work";
 
 const residenceAtYear = (state: ReturnType<typeof generateSession>, year: number) =>
@@ -300,6 +300,20 @@ describe("conversation and atlas", () => {
       }
     }
     expect(titles.size).toBeGreaterThanOrEqual(6);
+  });
+
+  it("keeps education, profession and promotion choices inside working life", () => {
+    const workChoices = new Set(["education", "profession", "familyResponsibility"]);
+    for (const birthYear of [1900, 1920, 1940]) {
+      for (let index = 0; index < 160; index += 1) {
+        const state = generated(selection("tver", birthYear, `working-choice-${birthYear}-${index}`));
+        const retirementYear = birthYear + retirementAge("RU");
+        for (const branch of state.biography.branches.filter((candidate) => workChoices.has(candidate.type))) {
+          expect(branch.year, `${branch.type} ${birthYear} ${index}`).toBeLessThan(retirementYear);
+          if (branch.type === "education") expect(branch.year).toBeLessThanOrEqual(birthYear + 30);
+        }
+      }
+    }
   });
 
   it("chooses the late working line by whether she retired before a verified closure", () => {

@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import type { GameSessionState } from "../data/types";
 import { lifePathGraph, type LifePathNode } from "../engine/lifePaths";
 
@@ -9,11 +9,8 @@ function edgePath(from: LifePathNode, to: LifePathNode): string {
 
 export function LifePathGraph({ state }: { state: GameSessionState }) {
   const graph = useMemo(() => lifePathGraph(state), [state]);
-  const [hoveredNodeId, setHoveredNodeId] = useState<string | null>(null);
-  const [pinnedNodeId, setPinnedNodeId] = useState<string | null>(null);
   if (!graph) return null;
   const nodes = new Map(graph.nodes.map((node) => [node.id, node]));
-  const activeNode = nodes.get(hoveredNodeId ?? pinnedNodeId ?? "");
 
   return (
     <section className="life-path" aria-labelledby="life-path-title">
@@ -26,11 +23,6 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
         <span><i className="legend-alternative" />Другая возможность</span>
       </div>
       <div className="life-path-viewport">
-        {activeNode && (
-          <div className="life-path-popover" role="status" aria-live="polite">
-            <strong>{activeNode.year} · {activeNode.label}</strong>
-          </div>
-        )}
         <svg viewBox={`0 0 ${graph.width} ${graph.height}`} role="img" aria-label="Дерево всех возможных дорог жизни">
           <g className="life-path-edges" aria-hidden="true">
             {graph.edges.map((edge) => {
@@ -45,30 +37,14 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
                 key={node.id}
                 className={`life-path-node ${node.status}`}
                 transform={`translate(${node.x} ${node.y})`}
-                role="button"
-                tabIndex={0}
-                aria-label={`${node.year}. ${node.label}`}
-                onMouseEnter={() => setHoveredNodeId(node.id)}
-                onMouseLeave={() => setHoveredNodeId(null)}
-                onFocus={() => setHoveredNodeId(node.id)}
-                onBlur={() => setHoveredNodeId(null)}
-                onClick={() => setPinnedNodeId((current) => current === node.id ? null : node.id)}
-                onKeyDown={(event) => {
-                  if (event.key === "Enter" || event.key === " ") {
-                    event.preventDefault();
-                    setPinnedNodeId((current) => current === node.id ? null : node.id);
-                  }
-                }}
+                aria-hidden="true"
               >
-                <title>{node.year}. {node.label}</title>
-                <circle className="life-path-hit" r="15" />
                 <circle className="life-path-dot" r={node.selected ? 6 : 4.5} />
               </g>
             ))}
           </g>
         </svg>
       </div>
-      <p className="life-path-help">Наведите на точку или нажмите на неё, чтобы прочитать, что происходило в этот момент.</p>
     </section>
   );
 }

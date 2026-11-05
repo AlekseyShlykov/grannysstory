@@ -356,7 +356,7 @@ export function backgroundAsLifeEvent(background: TimelineBackground): LifeEvent
     id: background.id,
     year: background.year,
     title: background.title,
-    text: `${background.text} Это проверенный исторический фон, а не утверждение о её личном опыте.`,
+    text: background.text,
     placeId: background.placeId,
     peopleIds: [],
     provenance: "VERIFIED_HISTORICAL",

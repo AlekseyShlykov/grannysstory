@@ -166,6 +166,7 @@ describe("accessible vertical slice", () => {
     expect(screen.queryByText("Даже между названными датами осталось многое, чего нет на этой странице.")).not.toBeInTheDocument();
     expect(screen.queryByText("На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.")).not.toBeInTheDocument();
     expect(screen.queryByText("Почему-то именно это она вспомнила без подсказки.")).not.toBeInTheDocument();
+    expect(document.body).not.toHaveTextContent("Это проверенный исторический фон, а не утверждение о её личном опыте.");
     expect(screen.getByRole("heading", { name: "Самое сильное воспоминание бабушки" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Другие мои игры" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
     expect(screen.getByRole("link", { name: "Подписаться на мои обновления" })).toHaveAttribute("href", "https://buildtounderstand.substack.com/");
@@ -180,13 +181,9 @@ describe("accessible vertical slice", () => {
     expect(screen.getByRole("heading", { name: "Как могла повернуть жизнь" })).toBeInTheDocument();
     expect(screen.getByRole("img", { name: "Дерево всех возможных дорог жизни" })).toBeInTheDocument();
     expect(document.querySelectorAll(".final-actions > *")).toHaveLength(4);
-
-    const selectedPathNode = document.querySelector<SVGGElement>(".life-path-node.selected[role='button']")!;
-    fireEvent.mouseEnter(selectedPathNode);
-    const pathPopover = screen.getByRole("status");
-    expect(pathPopover).toHaveTextContent(/^\d{4} · .+/);
-    expect(pathPopover.querySelector("span")).toBeNull();
-    expect(pathPopover).not.toHaveTextContent(/Вы спросили|Она ответила|Возможная другая жизнь/);
+    expect(document.querySelector(".life-path-node[role='button']")).toBeNull();
+    expect(document.querySelector(".life-path-popover")).toBeNull();
+    expect(screen.queryByText("Наведите на точку или нажмите на неё, чтобы прочитать, что происходило в этот момент.")).not.toBeInTheDocument();
 
     const quietMemory = document.querySelector(".quiet-memory")!;
     const atlasHeading = screen.getByRole("heading", { name: "История бабушки" });
