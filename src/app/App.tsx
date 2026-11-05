@@ -2,7 +2,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import archiveCatalogJson from "../../content/historical/archiveCatalog.json";
 import sourcesJson from "../../content/historical/sources.json";
 import memorySources from "../../content/memory/memorySources.json";
-import { yearsCount } from "../../content/language/russian";
 import worldSourcesJson from "../../public/data/world/sources.json";
 import { ensureWorldPacks } from "../data/worldStore";
 import { manifest } from "../data/world";
@@ -14,6 +13,7 @@ import { chooseOption, currentScene } from "../engine/dialogue";
 import { clearSave, loadGame, saveGame } from "../engine/persistence";
 import { freshSeed } from "../engine/random";
 import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/setup";
+import { useI18n, yearsLabel } from "../i18n";
 import { storyAudio } from "./audio";
 import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
 import { LifePathGraph } from "./LifePathGraph";
@@ -48,16 +48,24 @@ interface ArchiveCatalog {
 const archiveCatalog = archiveCatalogJson as ArchiveCatalog;
 
 function SiteHeader({ onNew }: { onNew?: () => void }) {
+  const { locale, setLocale, t } = useI18n();
   return (
     <header className="site-header">
-      <span className="site-title">История бабушки</span>
-      {onNew && <button className="text-button" type="button" onClick={onNew}>Другая история</button>}
+      <span className="site-title">{t("История бабушки")}</span>
+      <nav className="site-nav" aria-label={locale === "en" ? "Game menu" : "Меню игры"}>
+        {onNew && <button className="text-button" type="button" onClick={onNew}>{t("Другая история")}</button>}
+        <div className="language-switch" role="group" aria-label={locale === "en" ? "Language" : "Язык"}>
+          <button type="button" className={locale === "ru" ? "active" : ""} aria-pressed={locale === "ru"} onClick={() => setLocale("ru")}>RU</button>
+          <button type="button" className={locale === "en" ? "active" : ""} aria-pressed={locale === "en"} onClick={() => setLocale("en")}>EN</button>
+        </div>
+      </nav>
     </header>
   );
 }
 
 function SiteFooter({ soundEnabled, onToggleSound }: { soundEnabled: boolean; onToggleSound: () => void }) {
-  const soundLabel = soundEnabled ? "Выключить звук" : "Включить звук";
+  const { t } = useI18n();
+  const soundLabel = t(soundEnabled ? "Выключить звук" : "Включить звук");
   const iconRoot = `${import.meta.env.BASE_URL}assets/icons/`;
   return (
     <footer className="site-footer">
@@ -65,7 +73,7 @@ function SiteFooter({ soundEnabled, onToggleSound }: { soundEnabled: boolean; on
         <img src={`${iconRoot}${soundEnabled ? "sound-on.png" : "sound-off.png"}`} alt="" aria-hidden="true" />
       </button>
       <a className="footer-credit" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Created by Alex Shlykov</a>
-      <a className="footer-mail-link" href="mailto:buildtounderstand@gmail.com" aria-label="Написать Алексу Шлыкову" title="Написать Алексу Шлыкову">
+      <a className="footer-mail-link" href="mailto:buildtounderstand@gmail.com" aria-label={t("Написать Алексу Шлыкову")} title={t("Написать Алексу Шлыкову")}>
         <svg viewBox="0 0 32 32" aria-hidden="true">
           <rect x="4.5" y="7" width="23" height="18" rx="2" />
           <path d="M6 9l10 8 10-8M6 23l7.5-7M26 23l-7.5-7" />
@@ -82,6 +90,7 @@ function cryptoIndex(length: number): number {
 }
 
 function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Promise<void> }) {
+  const { locale, t } = useI18n();
   const regions = menuRegions();
   const years = allowedYears();
   const [saved] = useState(() => loadGame());
@@ -131,72 +140,72 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
   }, {})).sort(([first], [second]) => {
     if (first === "russia") return -1;
     if (second === "russia") return 1;
-    return (archiveCatalog.countries[first]?.label ?? first).localeCompare(archiveCatalog.countries[second]?.label ?? second, "ru");
+    return t(archiveCatalog.countries[first]?.label ?? first).localeCompare(t(archiveCatalog.countries[second]?.label ?? second), locale);
   });
 
   return (
     <main id="main" className="start-shell">
       <section className="start-card" aria-labelledby="game-title">
-        <h1 id="game-title">История бабушки</h1>
-        <p className="lede">Посмотрите на историю глазами простых людей. Каждая история генерируется случайным образом. Исторический фон и события опираются на архивные данные и воспоминания людей.</p>
-        <p className="lede">Выберите место и год рождения или доверьте выбор случаю.</p>
+        <h1 id="game-title">{t("История бабушки")}</h1>
+        <p className="lede">{t("Посмотрите на историю глазами простых людей. Каждая история генерируется случайным образом. Исторический фон и события опираются на архивные данные и воспоминания людей.")}</p>
+        <p className="lede">{t("Выберите место и год рождения или доверьте выбор случаю.")}</p>
 
         {saved && (
           <button className="resume" type="button" onClick={() => void onStart(saved.selection)} data-testid="resume">
-            Продолжить разговор <span>{saved.selection.birthYear} · {menuRegions(true).find((region) => region.id === saved.selection.birthRegionId)?.label}</span>
+            {t("Продолжить разговор")} <span>{saved.selection.birthYear} · {t(menuRegions(true).find((region) => region.id === saved.selection.birthRegionId)?.label ?? "")}</span>
           </button>
         )}
 
-        {error && <p className="load-error" role="alert">{error}</p>}
+        {error && <p className="load-error" role="alert">{t(error)}</p>}
         <div className="picker-grid">
           <label>
-            <span>Где она родилась?</span>
+            <span>{t("Где она родилась?")}</span>
             <select value={birthRegionId} onChange={(event) => setBirthRegionId(event.target.value as RegionId)} disabled={loading}>
               {regionGroups.map(([countryId, countryRegions]) => (
-                <optgroup key={countryId} label={archiveCatalog.countries[countryId]?.label ?? "Другие места"}>
-                  {countryRegions.map((region) => <option key={region.id} value={region.id}>{region.label}</option>)}
+                <optgroup key={countryId} label={t(archiveCatalog.countries[countryId]?.label ?? "Другие места")}>
+                  {countryRegions.map((region) => <option key={region.id} value={region.id}>{t(region.label)}</option>)}
                 </optgroup>
               ))}
             </select>
           </label>
           <label>
-            <span>В каком году?</span>
+            <span>{t("В каком году?")}</span>
             <select value={birthYear} onChange={(event) => setBirthYear(Number(event.target.value))} disabled={loading}>
               {years.map((year) => <option key={year} value={year}>{year}</option>)}
             </select>
           </label>
         </div>
         <div className="start-actions">
-          <button className="primary" type="button" onClick={() => void startSelection(birthRegionId, birthYear)} disabled={loading}>{loading ? "Загружаем местный пакет…" : "Начать с выбранными данными"}</button>
-          <button className="secondary" type="button" onClick={startRandom} disabled={loading}>Случайная история</button>
+          <button className="primary" type="button" onClick={() => void startSelection(birthRegionId, birthYear)} disabled={loading}>{t(loading ? "Загружаем местный пакет…" : "Начать с выбранными данными")}</button>
+          <button className="secondary" type="button" onClick={startRandom} disabled={loading}>{t("Случайная история")}</button>
         </div>
         <footer className="start-footer">
           <section className="archive-note" aria-labelledby="archive-note-title">
-            <p className="archive-note-title" id="archive-note-title">История создается на основании архивов</p>
+            <p className="archive-note-title" id="archive-note-title">{t("История создается на основании архивов")}</p>
             <details className="archive-disclosure">
-              <summary>Архивы и официальные источники: {selectedCountry?.label ?? "страна не указана"}</summary>
+              <summary>{t("Архивы и официальные источники")}: {t(selectedCountry?.label ?? "страна не указана")}</summary>
               <ul className="archive-links">
                 {archiveSources.map((source) => (
                   <li key={source.id}>
-                    <a href={source.url} target="_blank" rel="noreferrer">{source.publisher}: {source.title}</a>
+                    <a href={source.url} target="_blank" rel="noreferrer">{t(source.publisher)}: {t(source.title)}</a>
                   </li>
                 ))}
               </ul>
             </details>
           </section>
           <section className="archive-note" aria-labelledby="memory-sources-title">
-            <p className="archive-note-title" id="memory-sources-title">{memorySources.title}</p>
+            <p className="archive-note-title" id="memory-sources-title">{t(memorySources.title)}</p>
             <details className="archive-disclosure">
-              <summary>{memorySources.summary}</summary>
-              <p className="archive-text">{memorySources.intro}</p>
+              <summary>{t(memorySources.summary)}</summary>
+              <p className="archive-text">{t(memorySources.intro)}</p>
               <ul className="archive-links">
                 {memorySources.sources.map((source) => (
                   <li key={source.id}>
-                    <a href={source.url} target="_blank" rel="noreferrer">{source.name}, {source.description}</a>
+                    <a href={source.url} target="_blank" rel="noreferrer">{t(source.name)}, {t(source.description)}</a>
                   </li>
                 ))}
               </ul>
-              <p className="archive-text">{memorySources.closing}</p>
+              <p className="archive-text">{t(memorySources.closing)}</p>
             </details>
           </section>
         </footer>
@@ -206,19 +215,20 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
 }
 
 function Conversation({ state, onChange }: { state: GameSessionState; onChange: (next: GameSessionState) => void }) {
+  const { t } = useI18n();
   const scene = currentScene(state);
   const recent = state.dialogue.transcript.length === 1 ? state.dialogue.transcript : state.dialogue.transcript.slice(-2);
   return (
     <main id="main" className="conversation-shell">
       <section className="conversation" aria-live="polite" aria-atomic="false">
-        <div className="exchange" aria-label="Последний вопрос и ответ">
+        <div className="exchange" aria-label={t("Последний вопрос и ответ")}>
           {recent.map((line, index) => (
-            <p className={line.speaker === "player" ? "player-question" : "grandmother-answer"} key={`${state.dialogue.step}-${index}-${line.text}`}>{line.text}</p>
+            <p className={line.speaker === "player" ? "player-question" : "grandmother-answer"} key={`${state.dialogue.step}-${index}-${line.text}`}>{t(line.text)}</p>
           ))}
         </div>
-        <div className="questions" role="group" aria-label="Что спросить">
+        <div className="questions" role="group" aria-label={t("Что спросить")}>
           {scene.options.map((option) => (
-            <button key={option.id} type="button" onClick={() => onChange(chooseOption(state, option.id))}>{option.text}</button>
+            <button key={option.id} type="button" onClick={() => onChange(chooseOption(state, option.id))}>{t(option.text)}</button>
           ))}
         </div>
       </section>
@@ -227,16 +237,19 @@ function Conversation({ state, onChange }: { state: GameSessionState; onChange: 
 }
 
 function EventVoteButtons({ eventId, title, value, onVote }: { eventId: string; title: string; value?: EventVote; onVote: (eventId: string, vote: EventVote) => void }) {
+  const { locale, t } = useI18n();
+  const translatedTitle = t(title);
   return (
-    <div className="event-vote" role="group" aria-label={`Оценить событие «${title}»`}>
-      <button type="button" className={value === 1 ? "selected" : ""} aria-pressed={value === 1} aria-label={`Понравилось событие «${title}»`} title="Понравилось" onClick={() => onVote(eventId, 1)}>👍</button>
-      <button type="button" className={value === -1 ? "selected" : ""} aria-pressed={value === -1} aria-label={`Не понравилось событие «${title}»`} title="Не понравилось" onClick={() => onVote(eventId, -1)}>👎</button>
+    <div className="event-vote" role="group" aria-label={locale === "en" ? `Rate “${translatedTitle}”` : `Оценить событие «${title}»`}>
+      <button type="button" className={value === 1 ? "selected" : ""} aria-pressed={value === 1} aria-label={locale === "en" ? `Relevant: “${translatedTitle}”` : `Понравилось событие «${title}»`} title={t("Понравилось")} onClick={() => onVote(eventId, 1)}>👍</button>
+      <button type="button" className={value === -1 ? "selected" : ""} aria-pressed={value === -1} aria-label={locale === "en" ? `Not relevant: “${translatedTitle}”` : `Не понравилось событие «${title}»`} title={t("Не понравилось")} onClick={() => onVote(eventId, -1)}>👎</button>
     </div>
   );
 }
 
 function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void }) {
-  const [shareMessage, setShareMessage] = useState("");
+  const { locale, t } = useI18n();
+  const [shareMessage, setShareMessage] = useState<"copied" | "failed" | "">("");
   const [eventVotes, setEventVotes] = useState<Record<string, EventVote>>(() => loadEventVotes());
   const events = knownAtlasEvents(state);
   const backdrop = historicalBackdrop(state);
@@ -266,7 +279,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
     try {
       if (navigator.clipboard?.writeText) {
         await navigator.clipboard.writeText(url);
-        setShareMessage("ссылка на игру добавлена в буфер обмена.");
+        setShareMessage("copied");
         return;
       }
       const field = document.createElement("textarea");
@@ -278,9 +291,9 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       field.select();
       const copied = typeof document.execCommand === "function" && document.execCommand("copy");
       field.remove();
-      setShareMessage(copied ? "ссылка на игру добавлена в буфер обмена." : "Не удалось скопировать ссылку.");
+      setShareMessage(copied ? "copied" : "failed");
     } catch {
-      setShareMessage("Не удалось скопировать ссылку.");
+      setShareMessage("failed");
     }
   };
 
@@ -290,54 +303,54 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
 
       {quiet && (
         <section className="quiet-memory" aria-labelledby="strongest-memory-title">
-          <h2 id="strongest-memory-title">Самое сильное воспоминание бабушки</h2>
-          <blockquote><p>{quiet.text}</p></blockquote>
+          <h2 id="strongest-memory-title">{t("Самое сильное воспоминание бабушки")}</h2>
+          <blockquote><p>{t(quiet.text)}</p></blockquote>
         </section>
       )}
 
       <header className="atlas-heading">
-        <h1>История бабушки</h1>
-        <p>Вы можете помочь и улучшить эту игру. Если какое-то событие вам сильно запомнилось, поставьте палец вверх, а если какое-то показалось лишним, поставьте палец вниз.</p>
+        <h1>{t("История бабушки")}</h1>
+        <p>{t("Вы можете помочь и улучшить эту игру. Если какое-то событие вам сильно запомнилось, поставьте палец вверх, а если какое-то показалось лишним, поставьте палец вниз.")}</p>
       </header>
 
       <section className="timeline" aria-labelledby="timeline-title">
-        <h2 id="timeline-title">Хронология</h2>
+        <h2 id="timeline-title">{t("Хронология")}</h2>
         <ol>
           {rows.map(({ key, feedbackId, event, entry }) => entry ? (
             <li key={key} className="event-backdrop">
-              <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? "рождение" : yearsCount(entry.age)}</span></div>
+              <div className="event-date"><strong>{entry.year}</strong><span>{entry.age === 0 ? t("рождение") : yearsLabel(entry.age, locale)}</span></div>
               <div>
                 <div className="event-meta-row">
-                  <p className="event-kind">Исторический контекст · {entry.placeName}</p>
+                  <p className="event-kind">{t("Исторический контекст")} · {t(entry.placeName)}</p>
                   <EventVoteButtons eventId={feedbackId} title={entry.title} value={eventVotes[feedbackId]} onVote={voteFor} />
                 </div>
-                <h3>{entry.title}</h3>
-                <p>{entry.summary}</p>
-                <p className="event-framing">{entry.placeOccupied ? "Её город в это время был под оккупацией. " : ""}Об этом она сегодня не рассказывала.</p>
+                <h3>{t(entry.title)}</h3>
+                <p>{t(entry.summary)}</p>
+                <p className="event-framing">{entry.placeOccupied ? `${t("Её город в это время был под оккупацией.")} ` : ""}{t("Об этом она сегодня не рассказывала.")}</p>
                 {entry.sourceIds.map((sourceId) => {
                   const source = sourceRecords.find((candidate) => candidate.id === sourceId);
-                  return source ? <a key={sourceId} href={source.url} target="_blank" rel="noreferrer">Источник: {source.publisher}</a> : null;
+                  return source ? <a key={sourceId} href={source.url} target="_blank" rel="noreferrer">{t("Источник")}: {t(source.publisher)}</a> : null;
                 })}
               </div>
             </li>
           ) : event && (
             <li key={key} className={`event-${event.salience}`}>
-              <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? "рождение" : yearsCount(event.age)}</span></div>
+              <div className="event-date"><strong>{event.year}</strong><span>{event.age === 0 ? t("рождение") : yearsLabel(event.age, locale)}</span></div>
               <div>
                 <div className="event-meta-row">
-                  <p className="event-kind">{event.provenance === "VERIFIED_HISTORICAL" ? "Исторический контекст" : "Личная жизнь"} · {event.placeName}</p>
+                  <p className="event-kind">{t(event.provenance === "VERIFIED_HISTORICAL" ? "Исторический контекст" : "Личная жизнь")} · {t(event.placeName)}</p>
                   <EventVoteButtons eventId={feedbackId} title={event.title} value={eventVotes[feedbackId]} onVote={voteFor} />
                 </div>
-                <h3>{event.title}</h3>
-                <p>{event.text}</p>
-                {laterInterpretation(state, event.id) && <p className="event-framing">Спустя годы: {laterInterpretation(state, event.id)}</p>}
+                <h3>{t(event.title)}</h3>
+                <p>{t(event.text)}</p>
+                {laterInterpretation(state, event.id) && <p className="event-framing">{t("Спустя годы")}: {t(laterInterpretation(state, event.id) ?? "")}</p>}
                 {event.historicalContextIds?.map((contextId) => {
                   const framing = events.find((candidate) => candidate.id === `context:world:${contextId}`);
-                  return framing ? <p key={contextId} className="event-framing">Тогда же: {framing.title.toLocaleLowerCase("ru")}</p> : null;
+                  return framing ? <p key={contextId} className="event-framing">{t("Тогда же")}: {t(framing.title).toLocaleLowerCase(locale)}</p> : null;
                 })}
                 {event.sourceIds.map((sourceId) => {
                   const source = sourceRecords.find((candidate) => candidate.id === sourceId);
-                  return source ? <a key={sourceId} href={source.url} target="_blank" rel="noreferrer">Источник: {source.publisher}</a> : null;
+                  return source ? <a key={sourceId} href={source.url} target="_blank" rel="noreferrer">{t("Источник")}: {t(source.publisher)}</a> : null;
                 })}
               </div>
             </li>
@@ -348,17 +361,17 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       <LifePathGraph state={state} />
 
       <section className="last-note">
-        <p className="feedback-note">Если хотите оставить фидбек или обратить внимание на неточность, пишите мне на <a href="mailto:buildtounderstand@gmail.com">buildtounderstand@gmail.com</a>.</p>
-        <nav className="final-actions" aria-label="Действия и ссылки автора">
-          <a className="secondary" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Другие мои игры</a>
-          <a className="secondary" href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">Подписаться на мои обновления</a>
+        <p className="feedback-note">{t("Если хотите оставить фидбек или обратить внимание на неточность, пишите мне на")} <a href="mailto:buildtounderstand@gmail.com">buildtounderstand@gmail.com</a>.</p>
+        <nav className="final-actions" aria-label={locale === "en" ? "Actions and author links" : "Действия и ссылки автора"}>
+          <a className="secondary" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">{t("Другие мои игры")}</a>
+          <a className="secondary" href="https://buildtounderstand.substack.com/" target="_blank" rel="noreferrer">{t("Подписаться на мои обновления")}</a>
           <button className="secondary share-button" type="button" onClick={() => void shareGame()}>
             <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="11" height="11" rx="1" /><path d="M16 8V5H5v11h3" /></svg>
-            Поделиться игрой
+            {t("Поделиться игрой")}
           </button>
-          <button className="primary" type="button" onClick={onNew}>Послушать другую жизнь</button>
+          <button className="primary" type="button" onClick={onNew}>{t("Послушать другую жизнь")}</button>
         </nav>
-        {shareMessage && <p className="share-status" role="status">{shareMessage}</p>}
+        {shareMessage && <p className="share-status" role="status">{t(shareMessage === "copied" ? "ссылка на игру добавлена в буфер обмена." : "Не удалось скопировать ссылку.")}</p>}
       </section>
 
     </main>
@@ -366,6 +379,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
 }
 
 export function App() {
+  const { t } = useI18n();
   const scrollViewport = useRef<HTMLDivElement>(null);
   const [session, setSession] = useState<GameSessionState | null>(() => loadGame());
   const [showStart, setShowStart] = useState(() => !loadGame());
@@ -417,14 +431,14 @@ export function App() {
 
   const screen = useMemo(() => {
     if (showStart || !session) return <StartScreen onStart={start} />;
-    if (!historyReady) return <main id="main" className="conversation-shell"><p className="grandmother-answer" role="status">Сейчас, только очки найду…</p></main>;
+    if (!historyReady) return <main id="main" className="conversation-shell"><p className="grandmother-answer" role="status">{t("Сейчас, только очки найду…")}</p></main>;
     if (session.screen === "atlas") return <Atlas state={session} onNew={newStory} />;
     return <Conversation state={session} onChange={changeSession} />;
-  }, [session, showStart, historyReady]);
+  }, [session, showStart, historyReady, t]);
 
   return (
     <div className="app-shell">
-      <a className="skip-link" href="#main">К содержанию</a>
+      <a className="skip-link" href="#main">{t("К содержанию")}</a>
       <SiteHeader onNew={!showStart && session ? newStory : undefined} />
       <div className="app-screen" ref={scrollViewport}>{screen}</div>
       <SiteFooter soundEnabled={soundEnabled} onToggleSound={() => setSoundEnabled(storyAudio.toggle())} />

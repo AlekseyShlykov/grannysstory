@@ -5,6 +5,7 @@ import { placeLocativeAt, placeNameAt } from "../data/world";
 import { knownAtlasEvents } from "../engine/atlas";
 import { branchDefinition } from "../engine/biography";
 import { concreteEventTitle } from "../engine/eventTitles";
+import { useI18n, yearsLabel, type Locale } from "../i18n";
 
 interface ReplayStep {
   id: string;
@@ -50,23 +51,21 @@ function edgePath(fromX: number, fromY: number, toX: number, toY: number): strin
   return `M ${fromX} ${fromY} C ${fromX} ${middle}, ${toX} ${middle}, ${toX} ${toY}`;
 }
 
-function movementTitle(type: ReplayDecision["type"], placeId: string, year: number): string {
+function movementTitle(type: ReplayDecision["type"], placeId: string, year: number, locale: Locale, t: (value: string) => string): string {
+  if (locale === "en") {
+    const place = t(placeNameAt(placeId, year));
+    if (type === "education") return `Moved to ${place} to study`;
+    if (type === "love") return `Moved to ${place} with the person she loved`;
+    return `Began a new life in ${place}`;
+  }
   const place = placeLocativeAt(placeId, year) ?? placeLocative(placeNameAt(placeId, year));
   if (type === "education") return `Уехала учиться ${place}`;
   if (type === "love") return `Уехала с любимым человеком ${place}`;
   return `Начала жить ${place}`;
 }
 
-function ageLabel(age: number): string {
-  const mod100 = Math.abs(age) % 100;
-  const mod10 = mod100 % 10;
-  if (mod100 >= 11 && mod100 <= 14) return `${age} лет`;
-  if (mod10 === 1) return `${age} год`;
-  if (mod10 >= 2 && mod10 <= 4) return `${age} года`;
-  return `${age} лет`;
-}
-
 export function LifeReplay({ state }: { state: GameSessionState }) {
+  const { locale, t } = useI18n();
   const decisions = useMemo(() => new Map<string, ReplayDecision>(state.biography.branches
     .filter((branch) => branch.resolved && branch.outcome)
     .map((branch) => {
@@ -75,21 +74,21 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
       const selectedMoves = selectedA ? definition.movesOnA : definition.movesOnB;
       const moved = Boolean(selectedMoves && state.biography.residenceHistory.some((residence) => residence.fromYear === branch.year));
       return [`life:${branch.type}:decision`, {
-        alternative: selectedA ? definition.titleB : definition.titleA,
+        alternative: t(selectedA ? definition.titleB : definition.titleA),
         moved,
         selectedSide: selectedA ? "left" : "right",
         type: branch.type
       }] as const;
-    })), [state.biography.branches, state.biography.residenceHistory]);
+    })), [state.biography.branches, state.biography.residenceHistory, t]);
   const steps = useMemo<ReplayStep[]>(() => [
     ...knownAtlasEvents(state)
       .filter((event) => event.provenance !== "VERIFIED_HISTORICAL" || event.peopleIds.includes("grandmother"))
       .sort((a, b) => Number(b.id === "life:birth") - Number(a.id === "life:birth") || a.year - b.year)
       .map((event) => {
         const decision = decisions.get(event.id);
-        const title = decision?.moved
-          ? movementTitle(decision.type, event.placeId, event.year)
-          : concreteEventTitle(event);
+        const title = t(decision?.moved
+          ? movementTitle(decision.type, event.placeId, event.year, locale, t)
+          : concreteEventTitle(event));
         return {
           id: event.id,
           year: event.year,
@@ -102,9 +101,9 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
       id: "conversation",
       year: state.selection.conversationYear,
       age: state.selection.conversationYear - state.selection.birthYear,
-      title: "Разговор завершился"
+      title: t("Разговор завершился")
     }
-  ], [decisions, state]);
+  ], [decisions, locale, state, t]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
@@ -168,21 +167,21 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
   return (
     <section className="life-replay" aria-labelledby="life-replay-title">
       <div className="life-replay-heading">
-        <h2 id="life-replay-title">Посмотреть жизнь снова</h2>
+        <h2 id="life-replay-title">{t("Посмотреть жизнь снова")}</h2>
         <div className="life-replay-controls">
           <button className="primary life-replay-play" type="button" onClick={play} aria-pressed={playing}>
             <span aria-hidden="true">{playing ? "Ⅱ" : "▶"}</span>
-            {playing ? "Пауза" : "Play"}
+            {playing ? t("Пауза") : "Play"}
           </button>
           <label className="life-replay-speed">
-            <span>Скорость</span>
+            <span>{t("Скорость")}</span>
             <input
               type="range"
               min="0.5"
               max="2"
               step="0.1"
               value={speed}
-              aria-label="Скорость воспроизведения"
+              aria-label={t("Скорость воспроизведения")}
               onChange={(event) => setSpeed(Number(event.target.value))}
             />
             <span className="life-replay-speed-value" aria-hidden="true">{speedLabel}×</span>
@@ -205,7 +204,7 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
                         <g className="life-replay-fork">
                           <path className="life-replay-edge alternative" d={edgePath(from.x, yAt(index - 1), to.alternativeX, yAt(index))} />
                           <circle className="life-replay-alternative-dot" cx={to.alternativeX} cy={yAt(index)} r="5">
-                            <title>Другой вариант: {step.alternative}</title>
+                            <title>{t("Другой вариант")}: {step.alternative}</title>
                           </circle>
                         </g>
                       )}
@@ -217,7 +216,7 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
                   <g className="life-replay-fork preview">
                     <path className="life-replay-edge alternative" d={edgePath(currentPosition.x, yAt(currentIndex), nextPosition.alternativeX, yAt(nextIndex))} />
                     <circle className="life-replay-alternative-dot" cx={nextPosition.alternativeX} cy={yAt(nextIndex)} r="5">
-                      <title>Другой вариант: {next.alternative}</title>
+                      <title>{t("Другой вариант")}: {next.alternative}</title>
                     </circle>
                   </g>
                 )}
@@ -255,9 +254,9 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
           </svg>
         </div>
         <div className="life-replay-copy" aria-live="polite" aria-atomic="true">
-          <p className="life-replay-date">{current.year}, {ageLabel(current.age)}</p>
+          <p className="life-replay-date">{current.year}, {yearsLabel(current.age, locale)}</p>
           <p className="life-replay-sentence">{current.title}</p>
-          <p className="life-replay-progress">{currentIndex + 1} из {steps.length}</p>
+          <p className="life-replay-progress">{locale === "en" ? `${currentIndex + 1} of ${steps.length}` : `${currentIndex + 1} из ${steps.length}`}</p>
         </div>
       </div>
     </section>

@@ -1,7 +1,8 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { App } from "../src/app/App";
 import { storyAudio } from "../src/app/audio";
+import { I18nProvider } from "../src/i18n";
 import leningradPack from "../content/historical/leningrad.json";
 import moscowPack from "../content/historical/moscow.json";
 import novgorodPack from "../content/historical/novgorod.json";
@@ -34,6 +35,44 @@ beforeEach(() => {
 });
 
 describe("accessible vertical slice", () => {
+  it("switches between Russian and English from the fixed menu and remembers the choice", () => {
+    const view = render(<I18nProvider><App /></I18nProvider>);
+    const english = screen.getByRole("button", { name: "EN" });
+    expect(english).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("heading", { name: "Grandmother's Story" })).toBeInTheDocument();
+    expect(screen.getByLabelText("Where was she born?")).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: "Start with these details" })).toBeInTheDocument();
+    expect(document.documentElement.lang).toBe("en");
+    expect(localStorage.getItem("babushka.locale")).toBe("en");
+
+    fireEvent.click(screen.getByRole("button", { name: "RU" }));
+    expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
+    expect(localStorage.getItem("babushka.locale")).toBe("ru");
+
+    view.unmount();
+    render(<I18nProvider><App /></I18nProvider>);
+    expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
+    fireEvent.click(screen.getByRole("button", { name: "EN" }));
+    expect(screen.getByRole("heading", { name: "Grandmother's Story" })).toBeInTheDocument();
+  });
+
+  it("switches an active conversation to English without starting it again", async () => {
+    localStorage.setItem("babushka.locale", "ru");
+    render(<I18nProvider><App /></I18nProvider>);
+    fireEvent.change(screen.getByLabelText("Где она родилась?"), { target: { value: "tver" } });
+    fireEvent.change(screen.getByLabelText("В каком году?"), { target: { value: "1932" } });
+    fireEvent.click(screen.getByRole("button", { name: "Начать с выбранными данными" }));
+    await waitFor(() => expect(screen.getByRole("group", { name: "Что спросить" })).toBeInTheDocument());
+
+    const firstQuestion = screen.getByRole("group", { name: "Что спросить" }).querySelector("button")?.textContent ?? "";
+    fireEvent.click(screen.getByRole("button", { name: "EN" }));
+    const translatedGroup = screen.getByRole("group", { name: "What to ask" });
+    expect(translatedGroup).toBeInTheDocument();
+    expect(translatedGroup.textContent).not.toContain(firstQuestion);
+    expect(translatedGroup.textContent).not.toMatch(/[А-Яа-яЁё]/u);
+    expect(screen.getByRole("button", { name: "Another story" })).toBeInTheDocument();
+  });
+
   it("opens with manual birthplace and year controls plus a random option", () => {
     renderInTver();
     expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
@@ -203,6 +242,30 @@ describe("accessible vertical slice", () => {
     fireEvent.click(screen.getByRole("button", { name: "Поделиться игрой" }));
     expect(await screen.findByText("ссылка на игру добавлена в буфер обмена.")).toBeInTheDocument();
     expect(navigator.clipboard.writeText).toHaveBeenCalledWith(expect.stringContaining("/"));
+  });
+
+  it("can be completed in English without Russian text leaking into the conversation or atlas", async () => {
+    render(<I18nProvider><App /></I18nProvider>);
+    fireEvent.change(screen.getByLabelText("Where was she born?"), { target: { value: "tver" } });
+    fireEvent.change(screen.getByLabelText("What year?"), { target: { value: "1932" } });
+    fireEvent.click(screen.getByRole("button", { name: "Start with these details" }));
+    await screen.findByRole("group", { name: "What to ask" });
+
+    let turns = 0;
+    while (screen.queryByRole("group", { name: "What to ask" }) && turns < 30) {
+      const group = screen.getByRole("group", { name: "What to ask" });
+      expect(group.textContent).not.toMatch(/[А-Яа-яЁё]/u);
+      const first = group.querySelector("button");
+      expect(first).not.toBeNull();
+      fireEvent.click(first!);
+      turns += 1;
+      const exchange = screen.queryByLabelText("Latest question and answer");
+      if (exchange) expect(exchange.textContent).not.toMatch(/[А-Яа-яЁё]/u);
+    }
+
+    expect(turns).toBeGreaterThan(12);
+    expect(screen.getByRole("heading", { name: "Grandmother's Story" })).toBeInTheDocument();
+    expect(document.querySelector(".atlas-shell")?.textContent).not.toMatch(/[А-Яа-яЁё]/u);
   });
 
   it("keeps the start screen usable when a regional pack is missing", async () => {

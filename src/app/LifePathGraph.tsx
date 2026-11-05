@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import type { GameSessionState } from "../data/types";
 import { lifePathGraph, type LifePathNode } from "../engine/lifePaths";
+import { useI18n } from "../i18n";
 
 function edgePath(from: LifePathNode, to: LifePathNode): string {
   const middle = (from.y + to.y) / 2;
@@ -8,6 +9,7 @@ function edgePath(from: LifePathNode, to: LifePathNode): string {
 }
 
 export function LifePathGraph({ state }: { state: GameSessionState }) {
+  const { locale, t } = useI18n();
   const graph = useMemo(() => lifePathGraph(state), [state]);
   if (!graph) return null;
   const nodes = new Map(graph.nodes.map((node) => [node.id, node]));
@@ -15,15 +17,17 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
   return (
     <section className="life-path" aria-labelledby="life-path-title">
       <header className="life-path-heading">
-        <h2 id="life-path-title">Как могла повернуть жизнь</h2>
-        <p>Все дороги, которые были возможны до первого вопроса: {graph.leafCount} вариантов жизни. Выбранная жизнь показана сплошной линией, остальные — пунктиром.</p>
+        <h2 id="life-path-title">{t("Как могла повернуть жизнь")}</h2>
+        <p>{locale === "en"
+          ? `Every path that was possible before the first question: ${graph.leafCount} possible lives. The chosen life is a solid line; the others are dashed.`
+          : `Все дороги, которые были возможны до первого вопроса: ${graph.leafCount} вариантов жизни. Выбранная жизнь показана сплошной линией, остальные — пунктиром.`}</p>
       </header>
       <div className="life-path-legend" aria-hidden="true">
-        <span><i className="legend-selected" />Выбранная жизнь</span>
-        <span><i className="legend-alternative" />Другая возможность</span>
+        <span><i className="legend-selected" />{t("Выбранная жизнь")}</span>
+        <span><i className="legend-alternative" />{t("Другая возможность")}</span>
       </div>
       <div className="life-path-viewport">
-        <svg viewBox={`0 0 ${graph.width} ${graph.height}`} role="img" aria-label="Дерево всех возможных дорог жизни">
+        <svg viewBox={`0 0 ${graph.width} ${graph.height}`} role="img" aria-label={t("Дерево всех возможных дорог жизни")}>
           <g className="life-path-edges" aria-hidden="true">
             {graph.edges.map((edge) => {
               const from = nodes.get(edge.from)!;

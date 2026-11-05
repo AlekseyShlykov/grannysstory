@@ -30,6 +30,10 @@ p { line-height: 1.7; }
 .site-header { z-index: 5; min-height: 44px; display: flex; align-items: center; justify-content: space-between; flex: 0 0 auto; padding: 4px clamp(12px, 3vw, 30px); border-bottom: 1px solid rgba(116,81,64,.2); background: #ece6d9; }
 .site-title { font-family: "PT Sans", system-ui, sans-serif; font-size: 1.05rem; }
 .site-header .text-button { min-height: 34px; padding: 3px 1px; font-size: .78rem; }
+.site-nav { display: flex; align-items: center; gap: clamp(12px, 2.5vw, 28px); }
+.language-switch { display: inline-grid; grid-template-columns: repeat(2, 1fr); padding: 2px; border: 1px solid rgba(116,81,64,.35); border-radius: 999px; }
+.language-switch button { min-width: 36px; min-height: 34px; padding: 1px 8px; border: 0; border-radius: 999px; background: transparent; color: var(--muted); font-size: .7rem; line-height: 1; cursor: pointer; }
+.language-switch button.active { background: var(--accent-dark); color: #fffaf0; }
 .app-screen { min-height: 0; flex: 1 1 auto; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; }
 .app-screen > main { min-height: 100%; }
 .site-footer { z-index: 5; min-height: 40px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; flex: 0 0 auto; padding: 3px 10px; border-top: 1px solid rgba(116,81,64,.22); background: #ece6d9; color: var(--muted); }
@@ -173,6 +177,11 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .life-path-node.locked .life-path-dot { fill: #d1c9bb; stroke: #aaa08e; opacity: .8; }
 
 @media (max-width: 620px) {
+  .site-header { gap: 10px; }
+  .site-title { min-width: 0; overflow: hidden; font-size: .94rem; text-overflow: ellipsis; white-space: nowrap; }
+  .site-nav { gap: 10px; flex: 0 0 auto; }
+  .site-header .text-button { max-width: 92px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .language-switch button { min-width: 34px; padding-inline: 6px; }
   .picker-grid { grid-template-columns: 1fr; }
   .start-footer { grid-template-columns: 1fr; gap: 10px; }
   .start-actions { grid-template-columns: 1fr; gap: 8px; }
