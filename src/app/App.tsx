@@ -289,10 +289,10 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       <LifeReplay state={state} />
 
       {quiet && (
-        <blockquote className="quiet-memory">
-          <p>{quiet.text}</p>
-          <footer>Почему-то именно это она вспомнила без подсказки.</footer>
-        </blockquote>
+        <section className="quiet-memory" aria-labelledby="strongest-memory-title">
+          <h2 id="strongest-memory-title">Самое сильное воспоминание бабушки</h2>
+          <blockquote><p>{quiet.text}</p></blockquote>
+        </section>
       )}
 
       <header className="atlas-heading">
@@ -348,7 +348,6 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
       <LifePathGraph state={state} />
 
       <section className="last-note">
-        <p>На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.</p>
         <p className="feedback-note">Если хотите оставить фидбек или обратить внимание на неточность, пишите мне на <a href="mailto:buildtounderstand@gmail.com">buildtounderstand@gmail.com</a>.</p>
         <nav className="final-actions" aria-label="Действия и ссылки автора">
           <a className="secondary" href="https://buildtounderstand.dev/" target="_blank" rel="noreferrer">Другие мои игры</a>

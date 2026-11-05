@@ -18,6 +18,7 @@ import type {
 } from "../data/types";
 import { seededRandom } from "./random";
 import { earlyLifeThreadForSeed } from "./earlyLifeThread";
+import { narrativeHeadline } from "./eventTitles";
 import { validateSelection } from "./setup";
 import { chooseBranchWithHistory, lifeProfile } from "./world/biographyLink";
 import { getLocation, resolveLocationId } from "./world/geography";
@@ -439,11 +440,12 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
   };
   // Later branches still need a consequence after the decision, even when the conversation is close.
   const consequenceYear = Math.min(active.year + 8, state.selection.conversationYear);
+  const consequenceText = outcomeId === "pathA" ? definition.consequenceA : definition.consequenceB;
   const consequenceEvent: LifeEvent = {
     id: `life:${active.type}:consequence`,
     year: consequenceYear,
-    title: `Позднее последствие: ${outcomeId === "pathA" ? definition.titleA.toLocaleLowerCase("ru") : definition.titleB.toLocaleLowerCase("ru")}`,
-    text: outcomeId === "pathA" ? definition.consequenceA : definition.consequenceB,
+    title: narrativeHeadline(consequenceText),
+    text: consequenceText,
     placeId,
     peopleIds: ["grandmother"],
     provenance: "FICTIONAL_PERSONAL",

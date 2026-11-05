@@ -2,6 +2,7 @@ import { getPlace, placeNameAt } from "../data/world";
 import type { GameSessionState, LifeEvent } from "../data/types";
 import { isNarrativeHistoricalEvent } from "../../content/historical/significance";
 import { lifeMilestones } from "./history/milestones";
+import { concreteEventTitle } from "./eventTitles";
 
 export interface AtlasEvent extends LifeEvent {
   age: number;
@@ -11,7 +12,12 @@ export interface AtlasEvent extends LifeEvent {
 export function knownAtlasEvents(state: GameSessionState): AtlasEvent[] {
   return state.biography.lifeEvents
     .filter((event) => event.known && (event.provenance !== "VERIFIED_HISTORICAL" || isNarrativeHistoricalEvent(event.title)))
-    .map((event) => ({ ...event, age: event.year - state.selection.birthYear, placeName: placeNameAt(event.placeId, event.year) }))
+    .map((event) => ({
+      ...event,
+      title: concreteEventTitle(event),
+      age: event.year - state.selection.birthYear,
+      placeName: placeNameAt(event.placeId, event.year)
+    }))
     .sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
 }
 

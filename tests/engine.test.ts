@@ -145,6 +145,10 @@ describe("biography generation", () => {
     const laterB = commitBranch(state, "pathB").biography.lifeEvents.find((event) => event.id === `life:${branchType}:consequence`);
     expect(laterA?.text).not.toBe(laterB?.text);
     expect(laterA?.year).toBeGreaterThan(state.biography.branches[0]!.year);
+    expect(laterA?.title).not.toMatch(/^Позднее последствие:/);
+    expect(laterB?.title).not.toMatch(/^Позднее последствие:/);
+    expect(laterA?.text.startsWith(laterA?.title ?? "")).toBe(true);
+    expect(laterB?.text.startsWith(laterB?.title ?? "")).toBe(true);
   });
 
   it("allows pride and regret to coexist about one decision", () => {

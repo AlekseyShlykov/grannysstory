@@ -4,10 +4,13 @@ import type { GameSessionState } from "../data/types";
 import { placeLocativeAt, placeNameAt } from "../data/world";
 import { knownAtlasEvents } from "../engine/atlas";
 import { branchDefinition } from "../engine/biography";
+import { concreteEventTitle } from "../engine/eventTitles";
 
 interface ReplayStep {
   id: string;
-  phrase: string;
+  year: number;
+  age: number;
+  title: string;
   alternative?: string;
   selectedSide?: "left" | "right";
 }
@@ -19,19 +22,27 @@ interface ReplayDecision {
   type: GameSessionState["biography"]["branches"][number]["type"];
 }
 
-const REPLAY_STEP_MS = 1900;
-const TRACK_CENTER = 60;
-const TRACK_LEFT = 30;
-const TRACK_RIGHT = 90;
-
-function selectedX(step: ReplayStep): number {
-  if (step.selectedSide === "left") return TRACK_LEFT;
-  if (step.selectedSide === "right") return TRACK_RIGHT;
-  return TRACK_CENTER;
+interface ReplayPosition {
+  x: number;
+  alternativeX?: number;
 }
 
-function alternativeX(step: ReplayStep): number {
-  return step.selectedSide === "right" ? TRACK_LEFT : TRACK_RIGHT;
+const REPLAY_POINT_MS = 420;
+const REPLAY_LINE_MS = 2100;
+const TRACK_CENTER = 60;
+const TRACK_BRANCH_OFFSET = 30;
+
+function layoutSteps(steps: ReplayStep[]): ReplayPosition[] {
+  let lane = TRACK_CENTER;
+  return steps.map((step) => {
+    if (!step.selectedSide) return { x: lane };
+    const origin = lane;
+    lane += step.selectedSide === "left" ? -TRACK_BRANCH_OFFSET : TRACK_BRANCH_OFFSET;
+    return {
+      x: lane,
+      alternativeX: origin + (step.selectedSide === "left" ? TRACK_BRANCH_OFFSET : -TRACK_BRANCH_OFFSET)
+    };
+  });
 }
 
 function edgePath(fromX: number, fromY: number, toX: number, toY: number): string {
@@ -39,15 +50,20 @@ function edgePath(fromX: number, fromY: number, toX: number, toY: number): strin
   return `M ${fromX} ${fromY} C ${fromX} ${middle}, ${toX} ${middle}, ${toX} ${toY}`;
 }
 
-function sentence(year: number, title: string): string {
-  return `${year}. ${title.trim().replace(/[.!?]+$/u, "")}.`;
-}
-
 function movementTitle(type: ReplayDecision["type"], placeId: string, year: number): string {
   const place = placeLocativeAt(placeId, year) ?? placeLocative(placeNameAt(placeId, year));
   if (type === "education") return `Уехала учиться ${place}`;
   if (type === "love") return `Уехала с любимым человеком ${place}`;
   return `Начала жить ${place}`;
+}
+
+function ageLabel(age: number): string {
+  const mod100 = Math.abs(age) % 100;
+  const mod10 = mod100 % 10;
+  if (mod100 >= 11 && mod100 <= 14) return `${age} лет`;
+  if (mod10 === 1) return `${age} год`;
+  if (mod10 >= 2 && mod10 <= 4) return `${age} года`;
+  return `${age} лет`;
 }
 
 export function LifeReplay({ state }: { state: GameSessionState }) {
@@ -64,7 +80,7 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
         selectedSide: selectedA ? "left" : "right",
         type: branch.type
       }] as const;
-    })), [state.biography.branches]);
+    })), [state.biography.branches, state.biography.residenceHistory]);
   const steps = useMemo<ReplayStep[]>(() => [
     ...knownAtlasEvents(state)
       .filter((event) => event.provenance !== "VERIFIED_HISTORICAL" || event.peopleIds.includes("grandmother"))
@@ -73,22 +89,27 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
         const decision = decisions.get(event.id);
         const title = decision?.moved
           ? movementTitle(decision.type, event.placeId, event.year)
-          : event.title;
+          : concreteEventTitle(event);
         return {
           id: event.id,
-          phrase: sentence(event.year, title),
+          year: event.year,
+          age: event.age,
+          title: title.trim().replace(/[.!?…]+$/u, ""),
           ...(decision ? { alternative: decision.alternative, selectedSide: decision.selectedSide } : {})
         };
       }),
     {
       id: "conversation",
-      phrase: sentence(state.selection.conversationYear, "Разговор завершился")
+      year: state.selection.conversationYear,
+      age: state.selection.conversationYear - state.selection.birthYear,
+      title: "Разговор завершился"
     }
   ], [decisions, state]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
   const trackRef = useRef<HTMLDivElement>(null);
+  const positions = useMemo(() => layoutSteps(steps), [steps]);
 
   useEffect(() => {
     setCurrentIndex(0);
@@ -97,15 +118,13 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
 
   useEffect(() => {
     if (!playing) return;
+    if (currentIndex >= steps.length - 1) {
+      setPlaying(false);
+      return;
+    }
     const timer = window.setTimeout(() => {
-      setCurrentIndex((current) => {
-        if (current >= steps.length - 1) {
-          setPlaying(false);
-          return current;
-        }
-        return current + 1;
-      });
-    }, REPLAY_STEP_MS / speed);
+      setCurrentIndex((current) => Math.min(current + 1, steps.length - 1));
+    }, (REPLAY_POINT_MS + REPLAY_LINE_MS) / speed);
     return () => window.clearTimeout(timer);
   }, [currentIndex, playing, speed, steps.length]);
 
@@ -121,16 +140,22 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
   const yAt = (index: number) => 24 + index * 46;
   const nextIndex = currentIndex + 1;
   const next = steps[nextIndex];
-  const duration = REPLAY_STEP_MS / speed;
-  const recenterDelay = current.selectedSide ? duration * .2 : duration * .08;
+  const currentPosition = positions[currentIndex]!;
+  const nextPosition = positions[nextIndex];
+  const pointDuration = REPLAY_POINT_MS / speed;
+  const lineDuration = REPLAY_LINE_MS / speed;
+  const cameraOffset = TRACK_CENTER - currentPosition.x;
   const animationStyle = {
     height,
-    "--replay-draw-duration": `${duration * .62}ms`,
-    "--replay-draw-delay": `${recenterDelay}ms`,
-    "--replay-arrive-delay": `${duration * .72}ms`,
-    "--replay-arrive-duration": `${duration * .24}ms`,
-    "--replay-recenter-duration": `${duration * .18}ms`
+    "--replay-draw-duration": `${lineDuration}ms`,
+    "--replay-draw-delay": `${pointDuration}ms`,
+    "--replay-arrive-duration": `${pointDuration}ms`,
+    "--replay-camera-duration": `${pointDuration}ms`
   } as CSSProperties;
+  const cameraStyle = {
+    transform: `translateX(${cameraOffset}px)`
+  } as CSSProperties;
+  const speedLabel = speed.toFixed(1).replace(/\.0$/u, "");
   const play = () => {
     if (playing) {
       setPlaying(false);
@@ -155,107 +180,83 @@ export function LifeReplay({ state }: { state: GameSessionState }) {
               type="range"
               min="0.5"
               max="2"
-              step="0.5"
+              step="0.1"
               value={speed}
               aria-label="Скорость воспроизведения"
               onChange={(event) => setSpeed(Number(event.target.value))}
             />
-            <span className="life-replay-speed-value" aria-hidden="true">{speed}×</span>
+            <span className="life-replay-speed-value" aria-hidden="true">{speedLabel}×</span>
           </label>
         </div>
       </div>
       <div className="life-replay-body">
         <div className="life-replay-track" aria-hidden="true" ref={trackRef}>
           <svg viewBox={`0 0 120 ${height}`} style={animationStyle}>
-            <g className="life-replay-edges">
-              {steps.slice(1, currentIndex + 1).map((step, offset) => {
-                const index = offset + 1;
-                return (
-                  <g key={`edge:${step.id}`}>
-                    <path
-                      className="life-replay-edge passed"
-                      d={edgePath(TRACK_CENTER, yAt(index - 1), selectedX(step), yAt(index))}
-                    />
-                    {step.alternative && (
-                      <g className="life-replay-fork">
-                        <path
-                          className="life-replay-edge alternative"
-                          d={edgePath(TRACK_CENTER, yAt(index - 1), alternativeX(step), yAt(index))}
-                        />
-                        <circle className="life-replay-alternative-dot" cx={alternativeX(step)} cy={yAt(index)} r="5">
-                          <title>Другой вариант: {step.alternative}</title>
-                        </circle>
-                      </g>
-                    )}
-                    {step.selectedSide && index < currentIndex && (
-                      <path className="life-replay-edge passed life-replay-recenter" d={`M ${selectedX(step)} ${yAt(index)} L ${TRACK_CENTER} ${yAt(index)}`} />
-                    )}
+            <g className="life-replay-camera" style={cameraStyle}>
+              <g className="life-replay-edges">
+                {steps.slice(1, currentIndex + 1).map((step, offset) => {
+                  const index = offset + 1;
+                  const from = positions[index - 1]!;
+                  const to = positions[index]!;
+                  return (
+                    <g key={`edge:${step.id}`}>
+                      <path className="life-replay-edge passed" d={edgePath(from.x, yAt(index - 1), to.x, yAt(index))} />
+                      {step.alternative && to.alternativeX !== undefined && (
+                        <g className="life-replay-fork">
+                          <path className="life-replay-edge alternative" d={edgePath(from.x, yAt(index - 1), to.alternativeX, yAt(index))} />
+                          <circle className="life-replay-alternative-dot" cx={to.alternativeX} cy={yAt(index)} r="5">
+                            <title>Другой вариант: {step.alternative}</title>
+                          </circle>
+                        </g>
+                      )}
+                    </g>
+                  );
+                })}
+
+                {next?.alternative && nextPosition?.alternativeX !== undefined && (
+                  <g className="life-replay-fork preview">
+                    <path className="life-replay-edge alternative" d={edgePath(currentPosition.x, yAt(currentIndex), nextPosition.alternativeX, yAt(nextIndex))} />
+                    <circle className="life-replay-alternative-dot" cx={nextPosition.alternativeX} cy={yAt(nextIndex)} r="5">
+                      <title>Другой вариант: {next.alternative}</title>
+                    </circle>
                   </g>
-                );
-              })}
+                )}
 
-              {current.selectedSide && playing && (
-                <path
-                  pathLength="1"
-                  className="life-replay-edge advancing life-replay-recenter"
-                  d={`M ${selectedX(current)} ${yAt(currentIndex)} L ${TRACK_CENTER} ${yAt(currentIndex)}`}
-                />
-              )}
+                {next?.alternative && nextPosition && !playing && (
+                  <path className="life-replay-edge alternative" d={edgePath(currentPosition.x, yAt(currentIndex), nextPosition.x, yAt(nextIndex))} />
+                )}
 
-              {next?.alternative && (
-                <g className="life-replay-fork preview">
+                {next && nextPosition && playing && (
                   <path
-                    className="life-replay-edge alternative"
-                    d={edgePath(TRACK_CENTER, yAt(currentIndex), alternativeX(next), yAt(nextIndex))}
+                    key={`advancing:${current.id}:${next.id}:${speed}`}
+                    pathLength="1"
+                    className="life-replay-edge advancing"
+                    d={edgePath(currentPosition.x, yAt(currentIndex), nextPosition.x, yAt(nextIndex))}
                   />
-                  <circle className="life-replay-alternative-dot" cx={alternativeX(next)} cy={yAt(nextIndex)} r="5">
-                    <title>Другой вариант: {next.alternative}</title>
-                  </circle>
-                </g>
-              )}
+                )}
+              </g>
 
-              {next?.alternative && !playing && (
-                <path
-                  className="life-replay-edge alternative"
-                  d={edgePath(TRACK_CENTER, yAt(currentIndex), selectedX(next), yAt(nextIndex))}
-                />
-              )}
-
-              {next && playing && (
-                <path
-                  key={`advancing:${current.id}:${next.id}:${speed}`}
-                  pathLength="1"
-                  className="life-replay-edge advancing"
-                  d={edgePath(TRACK_CENTER, yAt(currentIndex), selectedX(next), yAt(nextIndex))}
-                />
-              )}
-            </g>
-
-            <g className="life-replay-nodes">
-              {steps.slice(0, currentIndex).map((step, index) => (
-                <circle key={step.id} cx={TRACK_CENTER} cy={yAt(index)} r="4.5" className="passed" />
-              ))}
-              <circle
-                key={`current:${current.id}:${playing ? "playing" : "paused"}`}
-                cx={selectedX(current)}
-                cy={yAt(currentIndex)}
-                r="7"
-                className={`current${current.selectedSide && playing ? ` recentering recenter-${current.selectedSide}` : ""}`}
-              />
-              {next && (
+              <g className="life-replay-nodes">
+                {steps.slice(0, currentIndex).map((step, index) => (
+                  <circle key={step.id} cx={positions[index]!.x} cy={yAt(index)} r="4.5" className="passed" />
+                ))}
                 <circle
-                  key={`target:${current.id}:${next.id}:${playing ? speed : "paused"}`}
-                  cx={selectedX(next)}
-                  cy={yAt(nextIndex)}
-                  r="6"
-                  className={`life-replay-target${playing ? " arriving" : ""}`}
+                  key={`current:${current.id}`}
+                  cx={currentPosition.x}
+                  cy={yAt(currentIndex)}
+                  r="7"
+                  className="current arrived"
                 />
-              )}
+                {next && nextPosition && (
+                  <circle cx={nextPosition.x} cy={yAt(nextIndex)} r="6" className="life-replay-target" />
+                )}
+              </g>
             </g>
           </svg>
         </div>
         <div className="life-replay-copy" aria-live="polite" aria-atomic="true">
-          <p className="life-replay-sentence">{current.phrase}</p>
+          <p className="life-replay-date">{current.year}, {ageLabel(current.age)}</p>
+          <p className="life-replay-sentence">{current.title}</p>
           <p className="life-replay-progress">{currentIndex + 1} из {steps.length}</p>
         </div>
       </div>

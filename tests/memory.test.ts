@@ -56,6 +56,8 @@ describe("memories inside generated lives", () => {
         const atlas = memory.atlas!;
         const event = state.biography.lifeEvents.find((candidate) => candidate.id === memory.lifeEventId)!;
         expect(event.known).toBe(true);
+        expect(event.text.startsWith(event.title.replace(/…$/u, ""))).toBe(true);
+        expect(event.title).not.toBe(atlasRecords.find((record) => recordKey(record) === atlas.patternKey)?.memory_pattern_ru);
         expect(event.year - state.selection.birthYear).toBeGreaterThanOrEqual(atlas.ageFrom);
         expect(event.year - state.selection.birthYear).toBeLessThanOrEqual(atlas.ageFrom + 4);
         // Canon decided later (the turning point, a partner) never contradicts a memory already told.

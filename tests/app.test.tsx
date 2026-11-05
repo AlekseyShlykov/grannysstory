@@ -164,6 +164,9 @@ describe("accessible vertical slice", () => {
     expect(screen.queryByText("Кем вы друг другу")).not.toBeInTheDocument();
     expect(screen.queryByText("О чём она сегодня не рассказала")).not.toBeInTheDocument();
     expect(screen.queryByText("Даже между названными датами осталось многое, чего нет на этой странице.")).not.toBeInTheDocument();
+    expect(screen.queryByText("На кухне щёлкает выключатель чайника. Разговор можно было продолжить, но на сегодня достаточно.")).not.toBeInTheDocument();
+    expect(screen.queryByText("Почему-то именно это она вспомнила без подсказки.")).not.toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Самое сильное воспоминание бабушки" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Другие мои игры" })).toHaveAttribute("href", "https://buildtounderstand.dev/");
     expect(screen.getByRole("link", { name: "Подписаться на мои обновления" })).toHaveAttribute("href", "https://buildtounderstand.substack.com/");
     expect(screen.getByRole("link", { name: "buildtounderstand@gmail.com" })).toHaveAttribute("href", "mailto:buildtounderstand@gmail.com");

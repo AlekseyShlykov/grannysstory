@@ -109,10 +109,10 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .event-backdrop h3 { font-weight: 400; }
 .quiet-memory, .last-note { width: min(850px, 100%); margin: 82px auto 0; }
 .quiet-memory { margin: 0 auto 64px; padding: 40px clamp(25px, 6vw, 68px); background: #e8dfcf; border: 0; }
+.quiet-memory h2 { margin: 0 0 22px; font-size: clamp(1.25rem, 2.5vw, 1.65rem); font-weight: 400; }
+.quiet-memory blockquote { margin: 0; }
 .quiet-memory p { margin: 0; font-family: "PT Sans", system-ui, sans-serif; font-size: clamp(1.3rem, 3vw, 1.8rem); }
-.quiet-memory footer { margin-top: 22px; color: var(--muted); font-size: .75rem; }
 .last-note { text-align: center; }
-.last-note > p:first-child { margin: 0 auto 26px; max-width: 550px; font-family: "PT Sans", system-ui, sans-serif; font-size: 1.25rem; }
 .feedback-note { max-width: 620px; margin: 0 auto 22px; color: var(--muted); font-size: .9rem; }
 .feedback-note a { color: var(--accent-dark); }
 .final-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; width: min(620px, 100%); margin: 0 auto; }
@@ -135,27 +135,23 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .life-replay-track { height: 320px; overflow-x: hidden; overflow-y: auto; border-right: 1px solid rgba(116,81,64,.18); scrollbar-width: none; }
 .life-replay-track::-webkit-scrollbar { display: none; }
 .life-replay-track svg { display: block; width: 120px; height: auto; margin: 0 auto; }
+.life-replay-camera { transform-box: view-box; transform-origin: 0 0; transition: transform var(--replay-camera-duration) ease-in-out; }
 .life-replay-edge { fill: none; stroke: var(--accent); stroke-width: 4; stroke-linecap: round; }
 .life-replay-edge.advancing { stroke-dasharray: 1; stroke-dashoffset: 1; animation: replay-draw var(--replay-draw-duration) ease-in-out var(--replay-draw-delay) forwards; }
 .life-replay-edge.alternative { stroke: #aaa08e; stroke-width: 1.5; stroke-dasharray: 4 5; }
-.life-replay-edge.life-replay-recenter { stroke-width: 3; }
-.life-replay-edge.life-replay-recenter.advancing { animation-duration: var(--replay-recenter-duration); animation-delay: 0ms; }
 .life-replay-track circle { fill: var(--paper); stroke: var(--accent); stroke-width: 3; }
 .life-replay-track circle.current { fill: var(--accent); }
-.life-replay-track circle.current.recentering.recenter-left { animation: replay-recenter-left var(--replay-recenter-duration) ease-in-out forwards; }
-.life-replay-track circle.current.recentering.recenter-right { animation: replay-recenter-right var(--replay-recenter-duration) ease-in-out forwards; }
+.life-replay-track circle.current.arrived { transform-box: fill-box; transform-origin: center; animation: replay-arrive var(--replay-arrive-duration) ease-out; }
 .life-replay-track circle.life-replay-target { fill: var(--paper); stroke: #aaa08e; stroke-width: 1.6; stroke-dasharray: 2 3; }
-.life-replay-track circle.life-replay-target.arriving { transform-box: fill-box; transform-origin: center; animation: replay-arrive var(--replay-arrive-duration) ease-out var(--replay-arrive-delay) forwards; }
 .life-replay-fork circle { fill: var(--paper); stroke: #aaa08e; stroke-width: 1.5; stroke-dasharray: 2 3; }
 @keyframes replay-draw { to { stroke-dashoffset: 0; } }
 @keyframes replay-arrive {
   0% { fill: var(--paper); stroke: #aaa08e; transform: scale(.78); }
-  58% { fill: var(--accent); stroke: var(--accent-dark); transform: scale(1.35); }
-  100% { fill: var(--accent); stroke: var(--accent-dark); stroke-dasharray: 0; transform: scale(1.12); }
+  62% { fill: var(--accent); stroke: var(--accent-dark); transform: scale(1.32); }
+  100% { fill: var(--accent); stroke: var(--accent-dark); transform: scale(1); }
 }
-@keyframes replay-recenter-left { to { transform: translateX(30px); } }
-@keyframes replay-recenter-right { to { transform: translateX(-30px); } }
 .life-replay-copy { align-self: center; max-width: 620px; }
+.life-replay-date { margin: 0 0 8px; color: var(--muted); font-size: .88rem; font-variant-numeric: tabular-nums; }
 .life-replay-sentence { margin: 0; font-size: clamp(1.25rem, 2.8vw, 1.8rem); line-height: 1.45; }
 .life-replay-progress { margin: 22px 0 0; color: var(--muted); font-size: .78rem; }
 

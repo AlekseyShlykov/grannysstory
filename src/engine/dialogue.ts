@@ -20,6 +20,7 @@ import {
 } from "./lifeTimeline";
 import type { TimelineBackground } from "./lifeTimeline";
 import { earlyBeatForState, threadClosingFor, threadEchoFor } from "./earlyLifeThread";
+import { narrativeHeadline } from "./eventTitles";
 import { milestoneById, occupiedAfter } from "./history/milestones";
 import { atlasMemoriesForBand, atlasMemorySpeech } from "./memory/atlas";
 import type { AtlasMemory } from "./memory/atlas";
@@ -249,7 +250,7 @@ function addAtlasMemory(state: GameSessionState, memory: AtlasMemory, year: numb
   const event: LifeEvent = {
     id: eventId,
     year,
-    title: memory.record.memory_pattern_ru,
+    title: narrativeHeadline(memory.scene),
     text: memory.scene,
     placeId: residenceAt(state, year),
     peopleIds: ["grandmother", ...memory.properties.relatedPeople],
