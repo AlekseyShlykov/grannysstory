@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { generateSession, commitBranch } from "../src/engine/biography";
 import { chooseOption, currentScene } from "../src/engine/dialogue";
-import { lifePathGraph } from "../src/engine/lifePaths";
+import { lifePathGraph, selectedLifeSteps } from "../src/engine/lifePaths";
 import { selection } from "./helpers";
 import { packFor } from "./worldHelpers";
 
@@ -10,14 +10,15 @@ describe("final life path graph", () => {
     const start = selection("tver", 1920, `graph-${outcome}`);
     const state = commitBranch(generateSession(start, packFor("tver")), outcome);
     const graph = lifePathGraph(state)!;
-    const branchId = state.biography.branches[0]!.id;
+    const selected = graph.nodes.find((node) => node.depth === 1 && node.selected)!;
+    const alternative = graph.nodes.find((node) => node.depth === 1 && !node.selected)!;
 
     expect(graph).not.toBeNull();
-    expect(graph.nodes.find((node) => node.id === `${branchId}:${outcome}`)?.selected).toBe(true);
-    expect(graph.nodes.find((node) => node.id === `${branchId}:${outcome === "pathA" ? "pathB" : "pathA"}`)?.selected).toBe(false);
+    expect(selected.id).toContain(`:${outcome}`);
+    expect(alternative.id).toContain(`:${outcome === "pathA" ? "pathB" : "pathA"}`);
     expect(graph.nodes.filter((node) => node.kind === "choice")).toHaveLength(2);
-    expect(graph.edges.filter((edge) => edge.from === `${branchId}:turning` && edge.selected)).toHaveLength(1);
-    expect(graph.nodes.find((node) => node.id === `${branchId}:${outcome}`)?.summary).toContain("Вы спросили");
+    expect(graph.edges.filter((edge) => edge.selected)).toHaveLength(1);
+    expect(selected.summary).toContain("Вы спросили");
   });
 
   it("does not reveal a graph before the turning point is resolved", () => {
@@ -37,8 +38,14 @@ describe("final life path graph", () => {
     expect(state.biography.branches.filter((branch) => branch.resolved)).toHaveLength(6);
     const graph = lifePathGraph(state)!;
     expect(graph.branchCount).toBe(6);
-    expect(graph.nodes.filter((node) => node.kind === "choice")).toHaveLength(12);
+    expect(graph.leafCount).toBeGreaterThan(30);
+    expect(graph.nodes.filter((node) => node.kind === "choice").length).toBeGreaterThan(60);
+    expect(graph.nodes.filter((node) => node.kind === "choice" && node.selected)).toHaveLength(6);
     expect(graph.nodes.some((node) => node.status === "locked" && node.id.endsWith(":pathA"))).toBe(true);
+    for (const firstOutcome of graph.nodes.filter((node) => node.depth === 1)) {
+      expect(graph.edges.filter((edge) => edge.from === firstOutcome.id)).toHaveLength(2);
+    }
+    expect(selectedLifeSteps(state)).toHaveLength(7);
     for (const branch of state.biography.branches) {
       const consequence = state.biography.lifeEvents.find((event) => event.id === `life:${branch.type}:consequence`);
       expect(consequence?.year).toBeGreaterThan(branch.year);

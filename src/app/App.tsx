@@ -17,6 +17,7 @@ import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/
 import { storyAudio } from "./audio";
 import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
 import { LifePathGraph } from "./LifePathGraph";
+import { LifeReplay } from "./LifeReplay";
 
 interface SourceRecord {
   id: string;
@@ -285,6 +286,8 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
 
   return (
     <main id="main" className="atlas-shell">
+      <LifeReplay state={state} />
+
       {quiet && (
         <blockquote className="quiet-memory">
           <p>{quiet.text}</p>

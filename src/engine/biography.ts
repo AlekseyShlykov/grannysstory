@@ -83,12 +83,22 @@ export function nextUnresolvedBranch(state: GameSessionState) {
 export function branchOutcomeLock(state: GameSessionState, branchId: string, outcomeId: "pathA" | "pathB"): string | null {
   const branch = state.biography.branches.find((candidate) => candidate.id === branchId);
   if (!branch) return "Этой развилки нет в биографии.";
+  const priorOutcomes = new Map(
+    state.biography.branches
+      .filter((candidate) => candidate.year < branch.year && candidate.resolved && candidate.outcome)
+      .map((candidate) => [candidate.type, candidate.outcome!.id] as const)
+  );
+  return branchOutcomeLockForHistory(branch, outcomeId, priorOutcomes);
+}
+
+export function branchOutcomeLockForHistory(
+  branch: GameSessionState["biography"]["branches"][number],
+  outcomeId: "pathA" | "pathB",
+  priorOutcomes: ReadonlyMap<BranchDefinition["type"], "pathA" | "pathB">
+): string | null {
   if (branch.lockedOutcomes?.[outcomeId]) return branch.lockedOutcomes[outcomeId]!;
-  if (branch.type === "marriage" && outcomeId === "pathA") {
-    const earlierLove = state.biography.branches.find((candidate) => candidate.type === "love" && candidate.year < branch.year);
-    if (earlierLove?.resolved && earlierLove.outcome?.id === "pathB") {
-      return "Этот брак уже не мог состояться: раньше они решили не уезжать вместе, и отношения закончились.";
-    }
+  if (branch.type === "marriage" && outcomeId === "pathA" && priorOutcomes.get("love") === "pathB") {
+    return "Этот брак уже не мог состояться: раньше они решили не уезжать вместе, и отношения закончились.";
   }
   return null;
 }
