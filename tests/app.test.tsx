@@ -180,7 +180,10 @@ describe("accessible vertical slice", () => {
 
     const selectedPathNode = document.querySelector<SVGGElement>(".life-path-node.selected[role='button']")!;
     fireEvent.mouseEnter(selectedPathNode);
-    expect(screen.getByRole("status")).toHaveTextContent(/Начало этой сгенерированной жизни|Вы спросили|Возможная другая жизнь/);
+    const pathPopover = screen.getByRole("status");
+    expect(pathPopover).toHaveTextContent(/^\d{4} · .+/);
+    expect(pathPopover.querySelector("span")).toBeNull();
+    expect(pathPopover).not.toHaveTextContent(/Вы спросили|Она ответила|Возможная другая жизнь/);
 
     const quietMemory = document.querySelector(".quiet-memory")!;
     const atlasHeading = screen.getByRole("heading", { name: "История бабушки" });

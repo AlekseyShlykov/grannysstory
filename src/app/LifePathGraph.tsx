@@ -29,7 +29,6 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
         {activeNode && (
           <div className="life-path-popover" role="status" aria-live="polite">
             <strong>{activeNode.year} · {activeNode.label}</strong>
-            <span>{activeNode.summary}</span>
           </div>
         )}
         <svg viewBox={`0 0 ${graph.width} ${graph.height}`} role="img" aria-label="Дерево всех возможных дорог жизни">
@@ -48,7 +47,7 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
                 transform={`translate(${node.x} ${node.y})`}
                 role="button"
                 tabIndex={0}
-                aria-label={`${node.year}. ${node.label}. ${node.summary}`}
+                aria-label={`${node.year}. ${node.label}`}
                 onMouseEnter={() => setHoveredNodeId(node.id)}
                 onMouseLeave={() => setHoveredNodeId(null)}
                 onFocus={() => setHoveredNodeId(node.id)}
@@ -61,7 +60,7 @@ export function LifePathGraph({ state }: { state: GameSessionState }) {
                   }
                 }}
               >
-                <title>{node.summary}</title>
+                <title>{node.year}. {node.label}</title>
                 <circle className="life-path-hit" r="15" />
                 <circle className="life-path-dot" r={node.selected ? 6 : 4.5} />
               </g>

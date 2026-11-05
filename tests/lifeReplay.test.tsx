@@ -18,6 +18,9 @@ describe("life replay", () => {
     render(<LifeReplay state={state} />);
 
     expect(screen.getByText(/1 из \d+/)).toBeInTheDocument();
+    expect(document.querySelector(".life-replay-sentence")).toHaveTextContent(/^\d{4}\. .+\.$/);
+    expect(document.querySelector(".life-replay-target")).not.toBeNull();
+    expect(document.querySelector(".life-replay-edge.advancing")).toBeNull();
     expect(screen.queryByText("Выбранный путь")).not.toBeInTheDocument();
     expect(document.querySelector(".life-replay-copy h3")).toBeNull();
     const speed = screen.getByRole("slider", { name: "Скорость воспроизведения" });
@@ -25,12 +28,25 @@ describe("life replay", () => {
     expect(screen.getByText("2×")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Play" }));
     expect(screen.getByRole("button", { name: "Пауза" })).toHaveAttribute("aria-pressed", "true");
+    expect(document.querySelector(".life-replay-edge.advancing")).not.toBeNull();
+    expect(document.querySelector(".life-replay-target.arriving")).not.toBeNull();
     act(() => vi.advanceTimersByTime(950));
     expect(screen.getByText(/2 из \d+/)).toBeInTheDocument();
 
-    for (let guard = 0; !document.querySelector(".life-replay-fork") && guard < 40; guard += 1) {
+    for (let guard = 0; !document.querySelector(".life-replay-fork.preview") && guard < 40; guard += 1) {
       act(() => vi.advanceTimersByTime(950));
     }
-    expect(document.querySelector(".life-replay-fork")).not.toBeNull();
+    const fork = document.querySelector(".life-replay-fork.preview")!;
+    const alternative = fork.querySelector(".life-replay-alternative-dot")!;
+    const selected = document.querySelector(".life-replay-target")!;
+    expect(fork).not.toBeNull();
+    expect(alternative.getAttribute("cy")).toBe(selected.getAttribute("cy"));
+    expect(alternative.getAttribute("cx")).not.toBe(selected.getAttribute("cx"));
+
+    act(() => vi.advanceTimersByTime(950));
+    expect(document.querySelector("circle.current.recentering")).not.toBeNull();
+    expect(document.querySelector(".life-replay-recenter.advancing")).not.toBeNull();
+    expect(document.querySelector(".life-replay-sentence")).toHaveTextContent(/^\d{4}\. .+\.$/);
+    expect(document.querySelector(".life-replay-sentence")?.textContent).not.toContain(" — ");
   });
 });
