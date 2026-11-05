@@ -109,9 +109,9 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 .event-backdrop h3 { font-weight: 400; }
 .quiet-memory, .last-note { width: min(850px, 100%); margin: 82px auto 0; }
 .quiet-memory { margin: 0 auto 64px; padding: 40px clamp(25px, 6vw, 68px); background: #e8dfcf; border: 0; }
-.quiet-memory h2 { margin: 0 0 22px; font-size: clamp(1.25rem, 2.5vw, 1.65rem); font-weight: 400; }
+.quiet-memory h2 { margin: 0 0 24px; padding-bottom: 14px; border-bottom: 1px solid rgba(116,81,64,.28); color: var(--accent-dark); font-size: clamp(1.65rem, 3.4vw, 2.25rem); font-weight: 700; }
 .quiet-memory blockquote { margin: 0; }
-.quiet-memory p { margin: 0; font-family: "PT Sans", system-ui, sans-serif; font-size: clamp(1.3rem, 3vw, 1.8rem); }
+.quiet-memory p { margin: 0; font-family: "PT Sans", system-ui, sans-serif; font-size: clamp(1.1rem, 2.4vw, 1.45rem); line-height: 1.55; }
 .last-note { text-align: center; }
 .feedback-note { max-width: 620px; margin: 0 auto 22px; color: var(--muted); font-size: .9rem; }
 .feedback-note a { color: var(--accent-dark); }
@@ -124,7 +124,7 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
 
 .life-replay { width: min(980px, 100%); margin: 0 auto 70px; padding: clamp(24px, 5vw, 44px); border: 1px solid var(--line); background: #eee6d8; }
 .life-replay-heading { display: flex; align-items: center; justify-content: space-between; gap: 30px; margin-bottom: 28px; }
-.life-replay-heading h2 { margin: 0; font-size: clamp(2rem, 4.5vw, 3.4rem); }
+.life-replay-heading h2 { margin: 0; font-size: clamp(1.45rem, 3vw, 2.15rem); white-space: nowrap; }
 .life-replay-controls { display: flex; align-items: center; gap: 18px; flex: 0 0 auto; }
 .life-replay-play { min-width: 128px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; }
 .life-replay-speed { width: 142px; display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 8px; color: var(--muted); font-size: .75rem; }
@@ -187,6 +187,7 @@ select { width: 100%; min-height: 54px; padding: 0 42px 0 14px; border: 1px soli
   .final-actions > * { height: 70px; min-height: 70px; padding: 7px 9px; font-size: .78rem; }
   .life-replay { margin-bottom: 52px; padding: 24px 20px; }
   .life-replay-heading { align-items: stretch; flex-direction: column; gap: 18px; }
+  .life-replay-heading h2 { font-size: 1.4rem; }
   .life-replay-controls { display: grid; grid-template-columns: 1fr; gap: 14px; }
   .life-replay-play, .life-replay-speed { width: 100%; }
   .life-replay-body { min-height: 0; grid-template-columns: 1fr; gap: 18px; }
