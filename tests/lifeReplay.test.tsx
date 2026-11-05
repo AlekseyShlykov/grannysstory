@@ -18,9 +18,19 @@ describe("life replay", () => {
     render(<LifeReplay state={state} />);
 
     expect(screen.getByText(/1 из \d+/)).toBeInTheDocument();
+    expect(screen.queryByText("Выбранный путь")).not.toBeInTheDocument();
+    expect(document.querySelector(".life-replay-copy h3")).toBeNull();
+    const speed = screen.getByRole("slider", { name: "Скорость воспроизведения" });
+    fireEvent.change(speed, { target: { value: "2" } });
+    expect(screen.getByText("2×")).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Play" }));
     expect(screen.getByRole("button", { name: "Пауза" })).toHaveAttribute("aria-pressed", "true");
-    act(() => vi.advanceTimersByTime(1900));
+    act(() => vi.advanceTimersByTime(950));
     expect(screen.getByText(/2 из \d+/)).toBeInTheDocument();
+
+    for (let guard = 0; !document.querySelector(".life-replay-fork") && guard < 40; guard += 1) {
+      act(() => vi.advanceTimersByTime(950));
+    }
+    expect(document.querySelector(".life-replay-fork")).not.toBeNull();
   });
 });
