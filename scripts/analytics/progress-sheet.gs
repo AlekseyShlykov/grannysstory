@@ -5,13 +5,15 @@
  * («Выполнять от имени: меня», «Доступ: все»). Игра отправляет одну строку, когда прохождение доходит до
  * очередного пятилетнего этапа, и одну, когда открывается финальный экран.
  *
- * Лист «Прохождения» — все события подряд. Лист «Игроки» — сводка: один игрок, одна строка; обновляется при
+ * Лист «Playthroughs» — все события подряд. Лист «Players» — сводка: один игрок, одна строка; обновляется при
  * каждом событии. Чтобы пересчитать сводку по уже накопленным событиям, выполните rebuildPlayers()
- * (или меню «Granny's Story» → «Пересчитать лист „Игроки“»).
+ * (или меню «Granny's Story» → «Пересчитать лист Players»).
  */
 
-const SHEET_NAME = "Прохождения";
-const PLAYERS_SHEET_NAME = "Игроки";
+const SHEET_NAME = "Playthroughs";
+const PLAYERS_SHEET_NAME = "Players";
+// Earlier versions of this script used Russian sheet names; existing sheets are renamed, not duplicated.
+const LEGACY_SHEET_NAMES = { Playthroughs: "Прохождения", Players: "Игроки" };
 
 // [ключ в данных игры, заголовок столбца]
 const COLUMNS = [
@@ -77,11 +79,11 @@ function doGet() {
 function onOpen() {
   SpreadsheetApp.getUi()
     .createMenu("Granny's Story")
-    .addItem("Пересчитать лист „Игроки“", "rebuildPlayers")
+    .addItem("Пересчитать лист Players", "rebuildPlayers")
     .addToUi();
 }
 
-/** Пересчитывает лист «Игроки» целиком по листу «Прохождения». */
+/** Пересчитывает лист «Players» целиком по листу «Playthroughs». */
 function rebuildPlayers() {
   const lock = LockService.getScriptLock();
   lock.waitLock(30000);
@@ -233,9 +235,18 @@ function clean_(value) {
   return /^[=+\-@]/.test(text) ? "'" + text : text;
 }
 
-function sheet_() {
+/** The sheet by its English name; a sheet with the earlier Russian name is renamed in place. */
+function namedSheet_(name) {
   const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  const sheet = spreadsheet.getSheetByName(SHEET_NAME) || spreadsheet.insertSheet(SHEET_NAME);
+  const existing = spreadsheet.getSheetByName(name);
+  if (existing) return existing;
+  const legacy = LEGACY_SHEET_NAMES[name] && spreadsheet.getSheetByName(LEGACY_SHEET_NAMES[name]);
+  if (legacy) return legacy.setName(name);
+  return spreadsheet.insertSheet(name);
+}
+
+function sheet_() {
+  const sheet = namedSheet_(SHEET_NAME);
   if (sheet.getLastRow() === 0) {
     sheet.appendRow(COLUMNS.map(([, title]) => title));
     sheet.setFrozenRows(1);
@@ -244,8 +255,7 @@ function sheet_() {
 }
 
 function playersSheet_() {
-  const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
-  const sheet = spreadsheet.getSheetByName(PLAYERS_SHEET_NAME) || spreadsheet.insertSheet(PLAYERS_SHEET_NAME);
+  const sheet = namedSheet_(PLAYERS_SHEET_NAME);
   if (sheet.getLastRow() === 0) {
     sheet.appendRow(PLAYER_COLUMNS.map(([, title]) => title));
     sheet.setFrozenRows(1);
