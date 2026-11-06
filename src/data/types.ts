@@ -282,6 +282,8 @@ export interface DialogueState {
     | "legacy"
     | "ending";
   step: number;
+  /** Timeline period the latest answer belongs to; absent before the first answer and in older saves. */
+  answeredStep?: number;
   transcript: { speaker: "grandmother" | "player"; text: string }[];
 }
 

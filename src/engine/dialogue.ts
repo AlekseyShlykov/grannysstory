@@ -127,6 +127,7 @@ function withTurn(
     dialogue: {
       sceneId: "timeline",
       step: finished || !advanceTimeline ? state.dialogue.step : state.dialogue.step + 1,
+      answeredStep: state.dialogue.step,
       transcript: [
         ...state.dialogue.transcript,
         { speaker: "player", text: playerText },

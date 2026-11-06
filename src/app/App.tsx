@@ -18,6 +18,7 @@ import { storyAudio } from "./audio";
 import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
 import { reportProgress } from "./progressReport";
 import { LifePathGraph } from "./LifePathGraph";
+import { LifeProgress } from "./LifeProgress";
 import { LifeReplay } from "./LifeReplay";
 
 interface SourceRecord {
@@ -446,6 +447,7 @@ export function App() {
     <div className="app-shell">
       <a className="skip-link" href="#main">{t("К содержанию")}</a>
       <SiteHeader onNew={!showStart && session ? newStory : undefined} />
+      {!showStart && session && historyReady && session.screen === "conversation" && <LifeProgress state={session} />}
       <div className="app-screen" ref={scrollViewport}>{screen}</div>
       <SiteFooter soundEnabled={soundEnabled} onToggleSound={() => setSoundEnabled(storyAudio.toggle())} />
     </div>
