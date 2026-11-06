@@ -1,4 +1,4 @@
-const CACHE = "babushka-v0.24";
+const CACHE = "babushka-v0.25";
 const scopedUrl = (path) => new URL(path, self.registration.scope).toString();
 const SHELL = [
   scopedUrl("./"),
@@ -41,6 +41,8 @@ self.addEventListener("activate", (event) => {
 
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
+  // Third-party requests (analytics, external links) go straight to the network and are never cached.
+  if (new URL(event.request.url).origin !== self.location.origin) return;
   event.respondWith(
     caches.match(event.request).then((cached) => {
       const fresh = fetch(event.request)
