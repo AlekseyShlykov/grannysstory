@@ -50,4 +50,19 @@ describe("event feedback queue", () => {
     expect(sentVotes).toEqual([1, -1]);
     expect(localStorage.getItem("babushka-event-feedback-queue-v1")).toBe("{}");
   });
+
+  it("sends a vote cast while an empty sync is still finishing", async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(null, { status: 204 }));
+    vi.stubGlobal("fetch", fetchMock);
+
+    // The final screen starts a sync with an empty queue; a vote lands before that sync has settled.
+    const opening = syncEventFeedback();
+    recordEventVote("event:quick", 1, "test");
+    void syncEventFeedback();
+    await opening;
+
+    await vi.waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+    expect(JSON.parse(String(fetchMock.mock.calls[0]?.[1]?.body)).eventId).toBe("event:quick");
+    await vi.waitFor(() => expect(localStorage.getItem("babushka-event-feedback-queue-v1")).toBe("{}"));
+  });
 });

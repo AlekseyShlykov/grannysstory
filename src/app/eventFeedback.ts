@@ -12,6 +12,8 @@ const QUEUE_KEY = "babushka-event-feedback-queue-v1";
 const VOTER_KEY = "babushka-feedback-voter-v1";
 const endpoint = (import.meta.env.VITE_EVENT_FEEDBACK_URL ?? "https://feedback-api-production-5596.up.railway.app/event-feedback").trim();
 let syncPromise: Promise<void> | null = null;
+// A vote recorded while a sync is finishing may arrive after its last queue read; run once more afterwards.
+let resyncRequested = false;
 
 /** Stable across runs for identical content, but distinct when a generated personal memory uses the same slot id. */
 export function eventFeedbackId(id: string, title: string, text: string): string {
@@ -74,7 +76,10 @@ export function recordEventVote(eventId: string, vote: EventVote, datasetVersion
 /** Best-effort anonymous sync. Failed requests remain queued for a later visit or an `online` event. */
 export async function syncEventFeedback(): Promise<void> {
   if (!endpoint || (typeof navigator !== "undefined" && navigator.onLine === false)) return;
-  if (syncPromise) return syncPromise;
+  if (syncPromise) {
+    resyncRequested = true;
+    return syncPromise;
+  }
   syncPromise = (async () => {
     // Keep draining: votes added while an earlier request is in flight must not wait for another page visit.
     while (true) {
@@ -106,6 +111,10 @@ export async function syncEventFeedback(): Promise<void> {
     }
   })().finally(() => {
     syncPromise = null;
+    if (resyncRequested) {
+      resyncRequested = false;
+      void syncEventFeedback();
+    }
   });
   return syncPromise;
 }
