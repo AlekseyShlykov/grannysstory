@@ -298,7 +298,8 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
 /** Events she lived through as a conscious child or adult. Neutral to scope: they fit a city and a country alike. */
 /** The first sentence of a summary when it sounds like speech; null when it reads like a reference book. */
 export function speakableSentence(factText: string): string | null {
-  const first = factText.match(/^.+?[.!?](?=\s|$)/)?.[0] ?? factText;
+  // A single capital before the period is an initial or part of "U.S.", not the end of a sentence.
+  const first = factText.match(/^.+?(?<!(?:^|[\s.])[A-ZА-ЯЁ])[.!?](?=\s|$)/u)?.[0] ?? factText;
   const bookish = /\d+\s?(г|гг|тыс|млн|млрд|км|руб|долл)\.|\(|%|;/.test(first) || first.length > 150;
   return bookish ? null : first;
 }

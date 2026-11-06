@@ -27,7 +27,7 @@ from dataset import DATA, LEVEL_BY_TYPE, ROOT, Dataset, event_span  # noqa: E402
 
 DB_PATH = DATA / "research" / "historical.sqlite"
 OUT = ROOT / "public" / "data" / "world"
-WORLD_DATASET_VERSION = "world-1.1.0"
+WORLD_DATASET_VERSION = "world-1.1.1"
 DECADES = list(range(1900, 2030, 10))
 SETTLEMENT_TYPES = {"city", "town", "village", "rural_area", "gmina"}
 ERAS = [(1900, 1919), (1920, 1939), (1940, 1959), (1960, 1979), (1980, 1999), (2000, 2009), (2010, 2019), (2020, 2025)]

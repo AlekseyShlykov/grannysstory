@@ -220,7 +220,7 @@ export const regretArchetypes: RegretArchetype[] = [
     personalWeight: (facts) => 1 + told(facts, "30:3", "30:1", "40:3").length,
     relatedEventIds: (facts) => [...(facts.work ? [facts.work.eventId] : []), ...told(facts, "30:3", "30:1", "40:3")],
     speech: (facts) => facts.hasOwnChildren
-      ? `Работала я много, и мне это нравилось, врать не буду. Только когда ${childNom(facts)} была ${facts.childIsDaughter ? "маленькой" : "маленьким"}, я часто приходила, когда ${childPronoun(facts)} уже спал${facts.childIsDaughter ? "а" : ""}. Утром одно, вечером одно. Вот этих вечеров жалко. Работа без меня бы обошлась, а вечера без меня обошлись.`
+      ? `Работала я много, и мне это нравилось, врать не буду. Только когда ${childNom(facts)} был${facts.childIsDaughter ? "а маленькой" : " маленьким"}, я часто приходила, когда ${childPronoun(facts)} уже спал${facts.childIsDaughter ? "а" : ""}. Утром одно, вечером одно. Вот этих вечеров жалко. Работа без меня бы обошлась, а вечера без меня обошлись.`
       : "Работала я много, и мне это нравилось. Только сейчас понимаю, сколько раз говорила близким «потом», а потом работа заканчивалась, и я просто ложилась спать. Ничего страшного не случилось. Просто жалко этих вечеров.",
     summary: () => "Любила работу, но жалеет вечеров, которые отдала ей вместо близких.",
     qualities: { pride: true, regret: true, gratitude: false, acceptance: true }

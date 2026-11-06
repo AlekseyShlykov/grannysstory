@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { translateText, yearsLabel } from "../src/i18n";
 import catalog from "../src/i18n/en.generated.json";
+import { speakableSentence } from "../content/scenes/historicalVoice";
 
 const hasCyrillic = (value: string) => /[А-Яа-яЁё]/u.test(value);
 
@@ -24,6 +25,42 @@ describe("English localization", () => {
     const text = translateText("В 1948 г. в Лодзи основана Государственная высшая киношкола.", "en");
     expect(text).toContain("Łódź");
     expect(hasCyrillic(text)).toBe(false);
+  });
+
+  it("keeps paragraph breaks of multi-paragraph answers", () => {
+    const text = translateText("Мне тогда было 24 года.\n\nМне тогда был год.", "en");
+    expect(text).toMatch(/^I was 24 years old then\.\n\nI was [^\n]+$/u);
+  });
+
+  it("renders place names and locatives with correct English spelling and capitals", () => {
+    expect(translateText("Тверь", "en")).toBe("Tver");
+    expect(translateText("в Калинине", "en")).toBe("in Kalinin");
+    expect(translateText("Краков", "en")).toBe("Kraków");
+    expect(translateText("в Плозеве", "en")).toBe("in Plozévet");
+    expect(translateText("Ле-Крёзо", "en")).toBe("Le Creusot");
+    expect(translateText("Смоленская область", "en")).toBe("Smolensk Oblast");
+    const leaked = Object.values(catalog.exact).filter((value) => /\b(?:kalinin|tver|smolensk|novgorod|petrograd)\b|Łód(?!ź)|Le Croeso|Plozew/u.test(value));
+    expect(leaked).toEqual([]);
+  });
+
+  it("translates historical facts she retells without their date", () => {
+    const text = translateText("Польша стала членом НАТО.", "en");
+    expect(text).toMatch(/NATO/u);
+    expect(hasCyrillic(text)).toBe(false);
+    expect(text).not.toMatch(/\d/u);
+  });
+
+  it("translates truncated memory headlines and filled-in memory placeholders", () => {
+    const headline = translateText("После смерти мамы я долго не могла привыкнуть к свободным вечерам и пошла в библиотечный кружок просто потому, что там горел свет,…", "en");
+    expect(hasCyrillic(headline)).toBe(false);
+    const memory = translateText("Мы с моим родным человеком, брат, много лет были в обиде друг на друга, уже и не помню из-за чего", "en");
+    expect(memory).toMatch(/^My brother/u);
+    expect(translateText("Тогда не стало папы", "en")).toMatch(/my dad$/u);
+  });
+
+  it("does not cut a spoken fact at an initial or at U.S.", () => {
+    expect(speakableSentence("Мост построил инженер Л. И. Машек. Потом его перестроили.")).toBe("Мост построил инженер Л. И. Машек.");
+    expect(speakableSentence("На заводе U.S. Steel работали тысячи людей. Потом он закрылся.")).toBe("На заводе U.S. Steel работали тысячи людей.");
   });
 
   it("has an English rendering for every extracted Russian content string", () => {

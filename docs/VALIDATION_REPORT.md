@@ -1,6 +1,6 @@
 # Отчёт проверки исторических данных
 
-Сгенерирован `scripts/historical-data/validate/validate.py` 2026-10-30.
+Сгенерирован `scripts/historical-data/validate/validate.py` 2026-11-06.
 
 - Мест: 101; источников: 141; событий: 950; контекстных записей: 166.
 - Статусы событий: needs_review: 6, verified: 944.

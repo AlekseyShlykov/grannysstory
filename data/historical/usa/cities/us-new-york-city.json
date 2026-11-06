@@ -532,8 +532,8 @@
   },
   {
    "id": "us-nyc-1947-blizzard",
-   "title": "Метель на Рождество 1947 года",
-   "start_date": "1947-12-25",
+   "title": "Великая метель 1947 года",
+   "start_date": "1947-12-26",
    "end_date": null,
    "date_precision": "day",
    "approximate": false,
@@ -545,7 +545,7 @@
     "us-new-york-city"
    ],
    "category": "disaster",
-   "historical_summary": "25 декабря 1947 г. метель парализовала город; погибли 77 человек.",
+   "historical_summary": "26–27 декабря 1947 г. метель парализовала город: в Центральном парке выпало 67 см снега, с бураном связывают 77 смертей.",
    "affected_groups": [
     "all_residents"
    ],
@@ -563,6 +563,12 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "1947-12-25 blizzard 77 killed"
+    },
+    {
+     "source_id": "us_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/North_American_blizzard_of_1947",
+     "accessed": "2026-11-06",
+     "supports": "26–27.12.1947, 26,4 дюйма (67 см) в Центральном парке, 77 погибших"
     }
    ],
    "verification_status": "verified",
