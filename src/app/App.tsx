@@ -16,6 +16,7 @@ import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/
 import { useI18n, yearsLabel } from "../i18n";
 import { storyAudio } from "./audio";
 import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
+import { reportProgress } from "./progressReport";
 import { LifePathGraph } from "./LifePathGraph";
 import { LifeReplay } from "./LifeReplay";
 
@@ -379,7 +380,7 @@ function Atlas({ state, onNew }: { state: GameSessionState; onNew: () => void })
 }
 
 export function App() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const scrollViewport = useRef<HTMLDivElement>(null);
   const [session, setSession] = useState<GameSessionState | null>(() => loadGame());
   const [showStart, setShowStart] = useState(() => !loadGame());
@@ -389,6 +390,11 @@ export function App() {
   useEffect(() => {
     if (session) saveGame(session);
   }, [session]);
+
+  // Anonymous stage-by-stage progress for the owner's sheet; each stage of a run is reported once.
+  useEffect(() => {
+    if (session && !showStart && historyReady) reportProgress(session, locale);
+  }, [session, showStart, historyReady, locale]);
 
   // A resumed life needs its packs (IndexedDB or network) before the next answer picks historical background.
   useEffect(() => {
