@@ -28,7 +28,7 @@ export interface ProgressRecord {
 }
 
 // Google Apps Script web app URL from scripts/analytics/progress-sheet.gs; empty disables reporting.
-const PROGRESS_SHEET_URL = "https://script.google.com/macros/s/AKfycbw63qGH9Cl3LR8hWAlwcrMi7zJa1gPh2BEmFG-XVtAzBLY-G18oQxsEkiW2zdG3oWUNrA/exec";
+const PROGRESS_SHEET_URL = "https://script.google.com/macros/s/AKfycbwHoaWk-l41i6loNMF1f4b415VukcjPpDafXmEImTFFGyZOVhxREgpX655MJo7xMa2rkw/exec";
 // Only the published build reports: local development and tests never write rows into the owner's sheet.
 const configuredEndpoint = import.meta.env.PROD ? (import.meta.env.VITE_PROGRESS_SHEET_URL ?? PROGRESS_SHEET_URL).trim() : "";
 const SENT_KEY = "babushka-progress-sent-v1";
