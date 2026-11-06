@@ -7,7 +7,7 @@ const hasCyrillic = (value: string) => /[А-Яа-яЁё]/u.test(value);
 
 describe("English localization", () => {
   it("translates interface copy and Russian age forms", () => {
-    expect(translateText("История бабушки", "en")).toBe("Grandmother's Story");
+    expect(translateText("История бабушки", "en")).toBe("Granny's Story");
     expect(translateText("Мне тогда было 24 года.", "en")).toBe("I was 24 years old then.");
     expect(yearsLabel(1, "en")).toBe("1 year old");
     expect(yearsLabel(52, "en")).toBe("52 years old");

@@ -39,7 +39,7 @@ describe("accessible vertical slice", () => {
     const view = render(<I18nProvider><App /></I18nProvider>);
     const english = screen.getByRole("button", { name: "EN" });
     expect(english).toHaveAttribute("aria-pressed", "true");
-    expect(screen.getByRole("heading", { name: "Grandmother's Story" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Granny's Story" })).toBeInTheDocument();
     expect(screen.getByLabelText("Where was she born?")).toBeInTheDocument();
     expect(screen.getByRole("button", { name: "Start with these details" })).toBeInTheDocument();
     expect(document.documentElement.lang).toBe("en");
@@ -53,7 +53,7 @@ describe("accessible vertical slice", () => {
     render(<I18nProvider><App /></I18nProvider>);
     expect(screen.getByRole("heading", { name: "История бабушки" })).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "EN" }));
-    expect(screen.getByRole("heading", { name: "Grandmother's Story" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Granny's Story" })).toBeInTheDocument();
   });
 
   it("switches an active conversation to English without starting it again", async () => {
@@ -264,7 +264,7 @@ describe("accessible vertical slice", () => {
     }
 
     expect(turns).toBeGreaterThan(12);
-    expect(screen.getByRole("heading", { name: "Grandmother's Story" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Granny's Story" })).toBeInTheDocument();
     expect(document.querySelector(".atlas-shell")?.textContent).not.toMatch(/[А-Яа-яЁё]/u);
   });
 

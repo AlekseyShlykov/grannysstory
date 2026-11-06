@@ -19,7 +19,7 @@ const STORAGE_KEY = "babushka.locale";
 const russianText = /[А-Яа-яЁё]/u;
 
 const overrides: Record<string, string> = {
-  "История бабушки": "Grandmother's Story",
+  "История бабушки": "Granny's Story",
   "Другая история": "Another story",
   "К содержанию": "Skip to content",
   "Выключить звук": "Turn sound off",
@@ -42,7 +42,7 @@ const overrides: Record<string, string> = {
   "Последний вопрос и ответ": "Latest question and answer",
   "Что спросить": "What to ask",
   "Сейчас, только очки найду…": "Just a moment, let me find my glasses…",
-  "Самое сильное воспоминание бабушки": "Grandmother's strongest memory",
+  "Самое сильное воспоминание бабушки": "Granny's strongest memory",
   "Вы можете помочь и улучшить эту игру. Если какое-то событие вам сильно запомнилось, поставьте палец вверх, а если какое-то показалось лишним, поставьте палец вниз.": "You can help improve this game. Give a thumbs-up to an event that stayed with you, or a thumbs-down to one that felt unnecessary.",
   "Хронология": "Timeline",
   "Исторический контекст": "Historical context",
@@ -453,7 +453,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     localStorage.setItem(STORAGE_KEY, locale);
     document.documentElement.lang = locale;
-    document.title = locale === "en" ? "Grandmother's Story" : "История бабушки";
+    document.title = locale === "en" ? "Granny's Story" : "История бабушки";
     const description = document.querySelector<HTMLMetaElement>('meta[name="description"]');
     if (description) description.content = locale === "en"
       ? "A short interactive story of a long life, grounded in archival sources and people's memories."
