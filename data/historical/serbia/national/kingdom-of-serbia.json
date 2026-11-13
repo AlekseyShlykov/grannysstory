@@ -1,0 +1,243 @@
+{
+ "records": [
+  {
+   "id": "rs-nat-1903-may-coup",
+   "title": "Майский переворот 1903 года",
+   "title_en": "May Coup of 1903",
+   "title_original": null,
+   "start_date": "1903-06-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-rs-kingdom"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В ночь на 29 мая (11 июня по новому стилю) 1903 г. в Белграде заговорщики-офицеры убили короля Александра Обреновича и королеву Драгу. Новое правительство объявило о вступлении в силу конституции 1901 г. и созвало Народную скупщину.",
+   "historical_summary_en": "On the night of 29 May (11 June New Style) 1903, conspirator officers in Belgrade killed King Alexander Obrenović and Queen Draga. The new government declared the 1901 constitution in force and convened the National Assembly.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Прокламација_Краљевске_владе_од_11._јуна_1903.",
+     "accessed": "2026-11-13",
+     "supports": "прокламация правительства, «Српске новине» № 177, 29.05.1903: «Ноћас су погинули Краљ Александар и Краљица Драга»; устав 1901 вступает в силу",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "Прокламација Краљевске владе, Српске новине бр. 177, 29. мај 1903",
+     "document_date": "1903-06-11",
+     "archive_identifier": "Српске новине, бр. 177, 1903"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1903-constitution",
+   "title": "Конституция Королевства Сербия 1903 года",
+   "title_en": "Constitution of the Kingdom of Serbia, 1903",
+   "title_original": null,
+   "start_date": "1903-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-rs-kingdom"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В июне 1903 г. (5 июня по старому стилю) была провозглашена конституция: Сербия — наследственная конституционная монархия с народным представительством, печать свободна и без цензуры, депутаты избираются прямым тайным голосованием. Право голоса получили мужчины-сербы с 21 года, платившие не менее 15 динаров прямого налога; женщины избирательного права не имели.",
+   "historical_summary_en": "In June 1903 (5 June Old Style) a constitution was proclaimed: Serbia was a hereditary constitutional monarchy with a national representation, the press was free and uncensored, and deputies were elected by direct secret ballot. The vote went to Serbian men aged 21 and over who paid at least 15 dinars in direct tax; women had no vote.",
+   "affected_groups": [
+    "men",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "father_goes_to_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Краљевине_Србије_(1903)",
+     "accessed": "2026-11-13",
+     "supports": "«проглашен 5. јуна 1903»; Српске новине 7.06.1903; ст. 1, 22, 78, 84",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "Устав Краљевине Србије (1903)",
+     "document_date": "1903-06",
+     "archive_identifier": "Српске новине, 7. јун 1903 (Зборник LVIII, 552)"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1910-trade-treaty-austria-hungary",
+   "title": "Торговый договор Сербии с Австро-Венгрией",
+   "title_en": "Serbia's commercial treaty with Austria-Hungary",
+   "title_original": null,
+   "start_date": "1910-07-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-rs-kingdom"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "14/27 июля 1910 г. в Белграде Сербия и Австро-Венгрия заключили торговый договор о торговле, пошлинах, транзите и приграничном обмене, действовавший до конца 1917 г.; Венгрия включила его в свои законы в 1911 г.",
+   "historical_summary_en": "On 14/27 July 1910 in Belgrade Serbia and Austria-Hungary concluded a commercial treaty on trade, duties, transit and border exchange, valid until the end of 1917; Hungary enacted it into law in 1911.",
+   "affected_groups": [
+    "agricultural_workers",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_jogtar"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_jogtar",
+     "url": "https://net.jogtar.hu/ezer-ev-torveny?docid=91100002.TV",
+     "accessed": "2026-11-13",
+     "supports": "1911:II о договоре с Сербией 14–27.07.1910, ст. XIX — до 31.12.1917",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "1911. évi II. törvénycikk a Szerbiával 1910. évi julius hó 14-27-én kötött kereskedelmi szerződés beczikkelyezéséről",
+     "document_date": "1911",
+     "archive_identifier": "1911. évi II. tc."
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1914-war",
+   "title": "Начало Первой мировой войны для Сербии",
+   "title_en": "The First World War begins for Serbia",
+   "title_original": null,
+   "start_date": "1914-07-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-rs-kingdom"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "28 июля 1914 г., после отклонения Сербией ультиматума, Австро-Венгрия объявила ей войну. В 1914 г. сербская армия одержала победы при Цере и на Колубаре; за годы войны Сербия потеряла, по оценкам, до миллиона человек.",
+   "historical_summary_en": "On 28 July 1914, after Serbia rejected its ultimatum, Austria-Hungary declared war on Serbia. In 1914 the Serbian army won the battles of Cer and Kolubara; over the war Serbia lost, by estimates, up to a million people.",
+   "affected_groups": [
+    "men",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "father_at_the_front"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/prvi-svetski-rat.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 28.7.1914 Аустроугарска објавила рат; Церска и Колубарска битка; до милион жртава"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1915-occupation-and-retreat",
+   "title": "Оккупация Сербии и отступление через Албанию",
+   "title_en": "Occupation of Serbia and the retreat through Albania",
+   "title_original": null,
+   "start_date": "1915-10",
+   "end_date": "1918-11",
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-rs-kingdom"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Осенью 1915 г. германские, австро-венгерские и болгарские войска заняли Сербию; сербская армия отступила через Черногорию и Албанию на Корфу. В сентябре 1918 г. наступление на Салоникском фронте открыло путь к освобождению страны.",
+   "historical_summary_en": "In autumn 1915 German, Austro-Hungarian and Bulgarian forces overran Serbia; the Serbian army retreated through Montenegro and Albania to Corfu. In September 1918 the offensive on the Salonika front opened the way to the country's liberation.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "family_separation",
+    "food_shortage"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/prvi-svetski-rat.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: јесен 1915 напад Немачке, Аустроугарске и Бугарске, повлачење преко Црне Горе и Албаније на Крф; септембар 1918 офанзива"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

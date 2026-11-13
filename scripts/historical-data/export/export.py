@@ -210,7 +210,7 @@ def coverage(data: Dataset, events: list) -> dict:
     return result
 
 
-OFFICIAL_TYPES = {"archive", "government", "statistics", "municipal", "library", "museum", "academic", "gazetteer"}
+OFFICIAL_TYPES = {"archive", "government", "statistics", "municipal", "library", "museum", "academic", "gazetteer", "newspaper_archive"}
 OFFICIAL_HINT = ("archiv", "archive", "arsiv", "arkisto", ".gov", "gouv.", "stat.", "stats.", "istat", "destatis", "tuik", "insee",
                  "ons.gov", "census", "legislation", "normattiva", "gazzetta", "finlex", "resmigazete", "bundesregierung", "bundestag",
                  "senato.it", "camera.it", "eduskunta", "tbmm", "prlib", "bpb.de", "lemo", "museo", "museum", "biblio", "kutuphane",
@@ -409,8 +409,11 @@ def in_game_period(record: dict) -> bool:
     return int(record["period_start"]) <= STRICT_BATCH_LAST_YEAR
 
 
-def has_primary(event: dict) -> bool:
-    return any(item.get("primary") for item in event.get("evidence", []))
+def has_archive_link(event: dict, sources: dict) -> bool:
+    """An evidence link to an archive or official body (D-038 method): archive, library, newspaper archive,
+    government, statistics, municipal, museum, academic — or a document a researcher marked as primary."""
+    return any(item.get("primary") or evidence_kind(sources.get(item.get("source_id"), {}), item.get("url", "")) == "official"
+               for item in event.get("evidence", []))
 
 
 def wikipedia_only(event: dict) -> bool:
@@ -434,7 +437,7 @@ def readiness(data: Dataset, events: list, contexts: list, cover: dict) -> dict:
             continue
         own = [event for event in events if location["id"] in event["location_ids"]]
         review = [event for event in data.events if location["id"] in event.get("location_ids", []) and event.get("verification_status") == "needs_review"]
-        primary = [event for event in own if has_primary(event)]
+        primary = [event for event in own if has_archive_link(event, data.sources)]
         eras = {index for index, (first, last) in enumerate(ERAS_1_3) for event in own if first <= event_span(event)[0].year <= last}
         chain = set(data.ancestors_at(location["id"], dt.date(1970, 7, 1))) | set(data.ancestors_at(location["id"], dt.date(2010, 7, 1)))
         context_count = sum(1 for context in contexts if context["location_id"] in chain)
@@ -442,10 +445,9 @@ def readiness(data: Dataset, events: list, contexts: list, cover: dict) -> dict:
         checks = {
             "coordinates": bool(location.get("coordinates")),
             "coverageGate": bool(cover.get(location["id"], {}).get("meetsCoverageGate")),
-            "primaryShare": share >= READINESS_MIN_PRIMARY,
+            "archiveShare": share >= READINESS_MIN_PRIMARY,
             "eras": len(eras) >= READINESS_MIN_ERAS,
             "everydayContext": context_count > 0,
-            "noWikipediaOnly": not any(wikipedia_only(event) for event in own),
         }
         if not own:
             state = "registered"
@@ -464,16 +466,16 @@ def readiness(data: Dataset, events: list, contexts: list, cover: dict) -> dict:
 
 def archive_quality_report(data: Dataset, events: list, contexts: list, ready: dict) -> str:
     lines = [
-        "# Архивное качество и готовность городов (world-1.3)",
+        "# Архивные ссылки и готовность городов (world-1.3)",
         "",
         f"Сгенерирован `scripts/historical-data/export/export.py` {dt.date.today().isoformat()}, набор `{WORLD_DATASET_VERSION}`. "
-        "Охват 1900–2020. Доля первичных архивных подтверждений = события с хотя бы одним доказательством `primary: true` "
-        "(названный документ: газета, муниципальная запись, закон, перепись, ежегодник, фото с метаданными и т. п.) / все проверенные события; "
-        "считаются различные события, для города — только его собственные. Минимум 55%, цель 70%. Wikipedia в долю не входит и не может быть единственным источником.",
+        "Охват 1900–2020. Доля архивных ссылок = события, у которых есть ссылка на страницу архива или официального органа о том же событии "
+        "(государственный и муниципальный архив, библиотека и архив газет, правительство, парламент и официальный вестник, статистика, государственный музей, университет), "
+        "/ все проверенные события; считаются различные события, для города — только его собственные. Минимум 55% (решение владельца 13.11.2026). Wikipedia в долю не входит.",
         "",
         "## Страны",
         "",
-        "| Страна | События | С первичным источником | Доля | Только вторичные | Только Wikipedia |",
+        "| Страна | События | С архивной ссылкой | Доля | Без архивной ссылки | Только Wikipedia |",
         "|---|---:|---:|---:|---:|---:|",
     ]
     combined = []
@@ -482,13 +484,13 @@ def archive_quality_report(data: Dataset, events: list, contexts: list, ready: d
         if not rows:
             continue
         combined.extend(rows)
-        primary = sum(has_primary(event) for event in rows)
+        primary = sum(has_archive_link(event, data.sources) for event in rows)
         lines.append(f"| {country} | {len(rows)} | {primary} | {primary / len(rows):.0%} | {len(rows) - primary} | {sum(wikipedia_only(event) for event in rows)} |")
     if combined:
-        primary = sum(has_primary(event) for event in combined)
+        primary = sum(has_archive_link(event, data.sources) for event in combined)
         lines.append(f"| **всего** | {len(combined)} | {primary} | {primary / len(combined):.0%} | {len(combined) - primary} | {sum(wikipedia_only(event) for event in combined)} |")
     lines += ["", "## Города", "",
-              "| Место | Готовность | Свои события | С первичным | Доля | Контексты в цепочке | Периоды | Не выполнено |",
+              "| Место | Готовность | Свои события | С архивной ссылкой | Доля | Контексты в цепочке | Периоды | Не выполнено |",
               "|---|---|---:|---:|---:|---:|---|---|"]
     for location_id, item in sorted(ready.items()):
         missing = ", ".join(name for name, ok in item["checks"].items() if not ok) or "—"

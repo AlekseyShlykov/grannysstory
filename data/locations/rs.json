@@ -1,0 +1,665 @@
+{
+ "locations": [
+  {
+   "id": "state-rs-kingdom",
+   "type": "state",
+   "country": "RS",
+   "wikidata": "Q241748",
+   "codes": {},
+   "names": [
+    {
+     "name": "Kraljevina Srbija",
+     "lang": "sr",
+     "from": "1882",
+     "to": "1918-11-30"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Королевство Сербия",
+     "locative": "в Королевстве Сербия",
+     "name_en": "Kingdom of Serbia",
+     "from": "1882",
+     "to": "1918-11-30",
+     "locative_en": "in the Kingdom of Serbia"
+    }
+   ],
+   "alt_names": [
+    "Краљевина Србија",
+    "Kingdom of Serbia"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1882",
+     "to": "1918-11-30"
+    }
+   ],
+   "sovereignty_note": "Королевство Сербия до объединения 1.12.1918 (Wikidata: P571 1882, P576 1918-12-01). Белград — столица. Октябрь 1915 – 1.11.1918 большая часть страны, включая Белград, оккупирована Австро-Венгрией, Германией и Болгарией (см. `occupations` у Белграда); правительство и армия продолжали войну с острова Корфу и Салоникского фронта. С 12.11.1918 сюда же отнесены Нови-Сад и Суботица: Бачка с 9–13.11.1918 под контролем сербской армии, Великая народная скупштина в Нови-Саде 25.11.1918 провозгласила присоединение к Сербии; окончательная граница с Венгрией — Трианонский договор 4.06.1920. Узел только для Сербии, поэтому в rs.json.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1882",
+   "valid_to": "1918-11-30",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-republic",
+   "type": "republic",
+   "country": "RS",
+   "wikidata": "Q269864",
+   "codes": {},
+   "names": [
+    {
+     "name": "Narodna Republika Srbija",
+     "lang": "sr",
+     "from": "1946-01-31",
+     "to": "1963-04-06"
+    },
+    {
+     "name": "Socijalistička Republika Srbija",
+     "lang": "sr",
+     "from": "1963-04-07",
+     "to": "1990-09-27"
+    },
+    {
+     "name": "Republika Srbija",
+     "lang": "sr",
+     "from": "1990-09-28",
+     "to": "2006-06-04"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Народная Республика Сербия",
+     "locative": "в Народной Республике Сербии",
+     "name_en": "People's Republic of Serbia",
+     "from": "1946-01-31",
+     "to": "1963-04-06",
+     "locative_en": "in the People's Republic of Serbia"
+    },
+    {
+     "name": "Социалистическая Республика Сербия",
+     "locative": "в Социалистической Республике Сербии",
+     "name_en": "Socialist Republic of Serbia",
+     "from": "1963-04-07",
+     "to": "1990-09-27",
+     "locative_en": "in the Socialist Republic of Serbia"
+    },
+    {
+     "name": "Республика Сербия",
+     "locative": "в Республике Сербии",
+     "name_en": "Republic of Serbia",
+     "from": "1990-09-28",
+     "to": "2006-06-04",
+     "locative_en": "in the Republic of Serbia"
+    }
+   ],
+   "alt_names": [
+    "Србија",
+    "Serbia (federal unit)"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-yu",
+     "from": "1946-01-31",
+     "to": "1992-04-26"
+    },
+    {
+     "id": "state-yu-fr",
+     "from": "1992-04-27",
+     "to": "2006-06-04"
+    }
+   ],
+   "sovereignty_note": "Сербия как республика-член федерации: в СФРЮ до 26.04.1992, в СРЮ / Сербии и Черногории до 4.06.2006; с 5.06.2006 независимое государство — узел `rs`. Начало узла взято по Конституции ФНРЮ 31.01.1946, где Народная Республика Сербия названа в составе федерации вместе с автономным краем Воеводина; федеральная единица Сербия фактически образована в 1944–1945 гг., эти месяцы здесь не моделируются (города подчинены непосредственно `state-yu`). Конституция СР Сербии 1974 г. и новая Конституция Республики Сербии 28.09.1990 меняли название; дата 1990 г. взята из Википедии и требует сверки по «Службени гласник».",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "rs_sr_wikipedia",
+    "rs_wikisource"
+   ],
+   "valid_from": "1946-01-31",
+   "valid_to": "2006-06-04",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs",
+   "type": "state",
+   "country": "RS",
+   "wikidata": "Q403",
+   "codes": {
+    "iso3166": "RS"
+   },
+   "names": [
+    {
+     "name": "Republika Srbija",
+     "lang": "sr",
+     "from": "2006-06-05",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Сербия",
+     "locative": "в Сербии",
+     "name_en": "Serbia",
+     "from": "2006-06-05",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Република Србија",
+    "Republic of Serbia"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "2006-06-05",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Независимая Республика Сербия с 5.06.2006 как продолжательница государственного сообщества Сербия и Черногория. Статус Косово (провозгласившего независимость в 2008 г.) в записях не обсуждается; целевые города Сербии к нему не относятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "2006-06-05",
+   "valid_to": null,
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-bacs-bodrog",
+   "type": "county",
+   "country": "RS",
+   "wikidata": "Q852564",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bács-Bodrog vármegye",
+     "lang": "hu",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "name": "Bács-Bodrog vármegye",
+     "lang": "hu",
+     "from": "1941-04-11",
+     "to": "1944-10-23"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "медье Бач-Бодрог",
+     "locative": "в медье Бач-Бодрог",
+     "name_en": "Bács-Bodrog County",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "name": "медье Бач-Бодрог",
+     "locative": "в медье Бач-Бодрог",
+     "name_en": "Bács-Bodrog County",
+     "from": "1941-04-11",
+     "to": "1944-10-23"
+    }
+   ],
+   "alt_names": [
+    "Бачко-бодрошка жупанија",
+    "Bačka"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-at-hu",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "id": "state-yu",
+     "from": "1941-04-11",
+     "to": "1944-10-23"
+    }
+   ],
+   "abolished": [
+    {
+     "from": "1918-11-12",
+     "to": "1941-04-10",
+     "note": "После ноября 1918 г. венгерское медье на этой территории не действовало (короткий период Бачско-Бараньской жупании Королевства СХС до 1922 г. не моделируется); Бачка вошла в Королевство СХС, с 1929 г. — в Дунайскую бановину."
+    }
+   ],
+   "sovereignty_note": "Комитат (медье) Королевства Венгрия в составе Австро-Венгрии с центром в Зомборе. Суботица (Szabadka) и Нови-Сад (Újvidék) были городами с правами муниципия (törvényhatósági jogú város), формально вне власти комитата, но в его границах; здесь они подчинены медье для регионального слоя событий. 1941–1944: Бачка аннексирована Венгрией (закон 1941:XX, «Délvidék»), медье Бач-Бодрог восстановлено венгерской администрацией. Аннексия не была признана союзниками и отменена после войны, поэтому суверенитет на эти годы остаётся за `state-yu`, а венгерская власть отмечена в `occupations`. Конец узла — освобождение Нови-Сада 23.10.1944.",
+   "occupations": [
+    {
+     "by_ru": "Венгрия (аннексия Бачки, закон 1941:XX)",
+     "by_en": "Hungary (annexation of Bačka, Act XX of 1941)",
+     "from": "1941-04-11",
+     "to": "1944-10-23",
+     "source_id": "rs_jogtar"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "rs_jogtar"
+   ],
+   "valid_from": null,
+   "valid_to": "1944-10-23",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-danube-banovina",
+   "type": "region",
+   "country": "RS",
+   "wikidata": "Q1265318",
+   "codes": {},
+   "names": [
+    {
+     "name": "Dunavska banovina",
+     "lang": "sr",
+     "from": "1929-10-03",
+     "to": "1941-04-10"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Дунайская бановина",
+     "locative": "в Дунайской бановине",
+     "name_en": "Danube Banovina",
+     "from": "1929-10-03",
+     "to": "1941-04-10"
+    }
+   ],
+   "alt_names": [
+    "Дунавска бановина"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-yu",
+     "from": "1929-10-03",
+     "to": "1941-04-10"
+    }
+   ],
+   "sovereignty_note": "Бановина Королевства Югославия с центром в Нови-Саде (с 3.10.1929); включала Бачку, Банат, Срем и часть Шумадии. Белград с Земуном и Панчевом составлял отдельную Управу города Белграда и в бановину не входил. После апреля 1941 г. территория разделена оккупантами; здесь узел закрыт 10.04.1941.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "rs_sr_wikipedia"
+   ],
+   "valid_from": "1929-10-03",
+   "valid_to": "1941-04-10",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-vojvodina",
+   "type": "province",
+   "country": "RS",
+   "wikidata": "Q44749",
+   "codes": {},
+   "names": [
+    {
+     "name": "Vojvodina",
+     "lang": "sr",
+     "from": "1946-01-31",
+     "to": null
+    },
+    {
+     "name": "Vajdaság",
+     "lang": "hu",
+     "from": "1946-01-31",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Воеводина",
+     "locative": "в Воеводине",
+     "name_en": "Vojvodina",
+     "from": "1946-01-31",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Аутономна Покрајина Војводина",
+    "Социјалистичка Аутономна Покрајина Војводина"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "rs-republic",
+     "from": "1946-01-31",
+     "to": "2006-06-04"
+    },
+    {
+     "id": "rs",
+     "from": "2006-06-05",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Автономный край в составе Сербии (Конституция ФНРЮ 31.01.1946, ст. 2); фактически образован в 1945 г., эти месяцы не моделируются. Центр — Нови-Сад. Объём автономии менялся (конституции 1963, 1974, 1990; статут 2009), но край всегда оставался частью Сербии.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "rs_sr_wikipedia",
+    "rs_wikisource"
+   ],
+   "valid_from": "1946-01-31",
+   "valid_to": null,
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd",
+   "type": "city",
+   "country": "RS",
+   "wikidata": "Q3711",
+   "codes": {},
+   "settlement_class": "capital",
+   "names": [
+    {
+     "name": "Beograd",
+     "lang": "sr",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Београд",
+     "lang": "sr-Cyrl",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Белград",
+     "locative": "в Белграде",
+     "name_en": "Belgrade",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Београд",
+    "Belgrade",
+    "Belgrad",
+    "Nándorfehérvár"
+   ],
+   "coordinates": {
+    "lat": 44.817778,
+    "lon": 20.456944,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "state-rs-kingdom",
+     "from": null,
+     "to": "1918-11-30"
+    },
+    {
+     "id": "state-yu",
+     "from": "1918-12-01",
+     "to": "1946-01-30"
+    },
+    {
+     "id": "rs-republic",
+     "from": "1946-01-31",
+     "to": "2006-06-04"
+    },
+    {
+     "id": "rs",
+     "from": "2006-06-05",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Столица Королевства Сербия, Югославии (1918–1992), СРЮ / Сербии и Черногории и Сербии. В 1929–1941 гг. — отдельная Управа города Белграда вне бановин; Земун на левом берегу Савы до 1918 г. принадлежал Австро-Венгрии и позже вошёл в состав Белграда (здесь не моделируется). Оккупации: осенью 1915 г. город занят австро-германскими войсками, освобождён 1.11.1918 (Исторический архив Белграда); 12.04.1941 занят германскими войсками, освобождён 20.10.1944 (там же). Дата начала оккупации 1915 г. дана с точностью до месяца.",
+   "occupations": [
+    {
+     "by_ru": "Австро-Венгрия и Германия",
+     "by_en": "Austria-Hungary and Germany",
+     "from": "1915-10",
+     "to": "1918-10-31",
+     "source_id": "rs_iab"
+    },
+    {
+     "by_ru": "Германия (военная администрация в Сербии)",
+     "by_en": "Germany (Military Administration in Serbia)",
+     "from": "1941-04-12",
+     "to": "1944-10-19",
+     "source_id": "rs_iab"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "rs_iab"
+   ],
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad",
+   "type": "city",
+   "country": "RS",
+   "wikidata": "Q55630",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Újvidék",
+     "lang": "hu",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "name": "Novi Sad",
+     "lang": "sr",
+     "from": "1918-11-12",
+     "to": "1941-04-10"
+    },
+    {
+     "name": "Újvidék",
+     "lang": "hu",
+     "from": "1941-04-11",
+     "to": "1944-10-23"
+    },
+    {
+     "name": "Novi Sad",
+     "lang": "sr",
+     "from": "1944-10-24",
+     "to": null
+    },
+    {
+     "name": "Neusatz",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Нови-Сад",
+     "locative": "в Нови-Саде",
+     "name_en": "Novi Sad",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Нови Сад",
+    "Újvidék",
+    "Neusatz",
+    "Neoplanta"
+   ],
+   "coordinates": {
+    "lat": 45.264444,
+    "lon": 19.831667,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "rs-bacs-bodrog",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "id": "state-rs-kingdom",
+     "from": "1918-11-12",
+     "to": "1918-11-30"
+    },
+    {
+     "id": "state-yu",
+     "from": "1918-12-01",
+     "to": "1929-10-02"
+    },
+    {
+     "id": "rs-danube-banovina",
+     "from": "1929-10-03",
+     "to": "1941-04-10"
+    },
+    {
+     "id": "rs-bacs-bodrog",
+     "from": "1941-04-11",
+     "to": "1944-10-23"
+    },
+    {
+     "id": "state-yu",
+     "from": "1944-10-24",
+     "to": "1946-01-30"
+    },
+    {
+     "id": "rs-vojvodina",
+     "from": "1946-01-31",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "До 1918 г. свободный королевский город Újvidék в Венгрии (Австро-Венгрия), формально город с правами муниципия в границах медье Бач-Бодрог. 25.11.1918 здесь заседала Великая народная скупштина, провозгласившая присоединение Баната, Бачки и Бараньи к Сербии; 12–30.11.1918 город отнесён к Королевству Сербия по фактическому контролю сербской армии. 1929–1941 — центр Дунайской бановины. 1941–1944 — венгерская аннексия Бачки (`occupations`, закон 1941:XX); освобождён 23.10.1944 (Исторический архив города Нови-Сада). С 1946 г. — центр автономного края Воеводина.",
+   "occupations": [
+    {
+     "by_ru": "Венгрия (аннексия Бачки)",
+     "by_en": "Hungary (annexation of Bačka)",
+     "from": "1941-04-11",
+     "to": "1944-10-22",
+     "source_id": "rs_iagns"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "rs_iagns",
+    "rs_jogtar"
+   ],
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica",
+   "type": "city",
+   "country": "RS",
+   "wikidata": "Q170287",
+   "codes": {},
+   "settlement_class": "medium_city",
+   "names": [
+    {
+     "name": "Szabadka",
+     "lang": "hu",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "name": "Subotica",
+     "lang": "sr",
+     "from": "1918-11-12",
+     "to": "1941-04-10"
+    },
+    {
+     "name": "Szabadka",
+     "lang": "hu",
+     "from": "1941-04-11",
+     "to": "1944-10-10"
+    },
+    {
+     "name": "Subotica",
+     "lang": "sr",
+     "from": "1944-10-11",
+     "to": null
+    },
+    {
+     "name": "Maria-Theresiopel",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Суботица",
+     "locative": "в Суботице",
+     "name_en": "Subotica",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Суботица",
+    "Szabadka",
+    "Maria-Theresiopel"
+   ],
+   "coordinates": {
+    "lat": 46.100206,
+    "lon": 19.665327,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "rs-bacs-bodrog",
+     "from": null,
+     "to": "1918-11-11"
+    },
+    {
+     "id": "state-rs-kingdom",
+     "from": "1918-11-12",
+     "to": "1918-11-30"
+    },
+    {
+     "id": "state-yu",
+     "from": "1918-12-01",
+     "to": "1929-10-02"
+    },
+    {
+     "id": "rs-danube-banovina",
+     "from": "1929-10-03",
+     "to": "1941-04-10"
+    },
+    {
+     "id": "rs-bacs-bodrog",
+     "from": "1941-04-11",
+     "to": "1944-10-10"
+    },
+    {
+     "id": "state-yu",
+     "from": "1944-10-11",
+     "to": "1946-01-30"
+    },
+    {
+     "id": "rs-vojvodina",
+     "from": "1946-01-31",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Свободный королевский город Szabadka (с 1779 г.) в Венгрии, город с правами муниципия в границах медье Бач-Бодрог; венгерско-сербско-буневацкий город на границе. С ноября 1918 г. под сербской властью (Исторический архив Суботицы: смена власти 1918–1920; граница — Трианонский договор 1920 г.). 1941–1944 — венгерская аннексия Бачки; освобождён в октябре 1944 г. (дата 10.10.1944 по Википедии, требует архивной сверки). С 1946 г. — в Воеводине.",
+   "occupations": [
+    {
+     "by_ru": "Венгрия (аннексия Бачки)",
+     "by_en": "Hungary (annexation of Bačka)",
+     "from": "1941-04-11",
+     "to": "1944-10-10",
+     "source_id": "rs_jogtar"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "rs_ias",
+    "rs_jogtar"
+   ],
+   "batch": "world-1.3"
+  }
+ ]
+}

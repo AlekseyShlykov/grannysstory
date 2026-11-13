@@ -565,6 +565,30 @@
       "valid_from": null,
       "valid_to": "1922-11-01"
     },
+    "state-yu": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-12-01",
+          "to": "1992-04-26"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1918-12-01",
+      "valid_to": "1992-04-26"
+    },
+    "state-yu-fr": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1992-04-27",
+          "to": "2006-06-04"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1992-04-27",
+      "valid_to": "2006-06-04"
+    },
     "de": {
       "parents": [
         {
@@ -3204,6 +3228,243 @@
         }
       ],
       "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "state-rs-kingdom": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1882",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1882",
+      "valid_to": "1918-11-30"
+    },
+    "rs-republic": {
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1992-04-26"
+        },
+        {
+          "id": "state-yu-fr",
+          "from": "1992-04-27",
+          "to": "2006-06-04"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1946-01-31",
+      "valid_to": "2006-06-04"
+    },
+    "rs": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "2006-06-05",
+      "valid_to": null
+    },
+    "rs-bacs-bodrog": {
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "id": "state-yu",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Венгрия (аннексия Бачки, закон 1941:XX)",
+          "by_en": "Hungary (annexation of Bačka, Act XX of 1941)",
+          "from": "1941-04-11",
+          "to": "1944-10-23",
+          "source_id": "rs_jogtar"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": "1944-10-23"
+    },
+    "rs-danube-banovina": {
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1929-10-03",
+      "valid_to": "1941-04-10"
+    },
+    "rs-vojvodina": {
+      "parents": [
+        {
+          "id": "rs-republic",
+          "from": "1946-01-31",
+          "to": "2006-06-04"
+        },
+        {
+          "id": "rs",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1946-01-31",
+      "valid_to": null
+    },
+    "rs-beograd": {
+      "parents": [
+        {
+          "id": "state-rs-kingdom",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "rs-republic",
+          "from": "1946-01-31",
+          "to": "2006-06-04"
+        },
+        {
+          "id": "rs",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Австро-Венгрия и Германия",
+          "by_en": "Austria-Hungary and Germany",
+          "from": "1915-10",
+          "to": "1918-10-31",
+          "source_id": "rs_iab"
+        },
+        {
+          "by_ru": "Германия (военная администрация в Сербии)",
+          "by_en": "Germany (Military Administration in Serbia)",
+          "from": "1941-04-12",
+          "to": "1944-10-19",
+          "source_id": "rs_iab"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "rs-novi-sad": {
+      "parents": [
+        {
+          "id": "rs-bacs-bodrog",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "id": "state-rs-kingdom",
+          "from": "1918-11-12",
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "rs-danube-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        },
+        {
+          "id": "rs-bacs-bodrog",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        },
+        {
+          "id": "state-yu",
+          "from": "1944-10-24",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "rs-vojvodina",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Венгрия (аннексия Бачки)",
+          "by_en": "Hungary (annexation of Bačka)",
+          "from": "1941-04-11",
+          "to": "1944-10-22",
+          "source_id": "rs_iagns"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "rs-subotica": {
+      "parents": [
+        {
+          "id": "rs-bacs-bodrog",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "id": "state-rs-kingdom",
+          "from": "1918-11-12",
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "rs-danube-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        },
+        {
+          "id": "rs-bacs-bodrog",
+          "from": "1941-04-11",
+          "to": "1944-10-10"
+        },
+        {
+          "id": "state-yu",
+          "from": "1944-10-11",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "rs-vojvodina",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Венгрия (аннексия Бачки)",
+          "by_en": "Hungary (annexation of Bačka)",
+          "from": "1941-04-11",
+          "to": "1944-10-10",
+          "source_id": "rs_jogtar"
+        }
+      ],
       "valid_from": null,
       "valid_to": null
     },

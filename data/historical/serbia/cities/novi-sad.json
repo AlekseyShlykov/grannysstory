@@ -1,0 +1,746 @@
+{
+ "records": [
+  {
+   "id": "rs-novi-sad-1908-station-expansion",
+   "title": "Расширение станции Уйвидек",
+   "title_en": "Expansion of Újvidék railway station",
+   "title_original": null,
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "По венгерскому закону 1908:XXXI о вложениях в государственные железные дороги на расширение станций Уйвидек (Нови-Сад), Инджия, Стара-Пазова и Земун и строительство разъездов линии Будапешт — Земун выделялась вторая часть средств — 1,7 млн крон (в 1907 г. уже было выделено 889 400 крон).",
+   "historical_summary_en": "Under Hungarian Act XXXI of 1908 on state railway investment, a second instalment of 1.7 million crowns was allocated to enlarge the stations of Újvidék (Novi Sad), India, Ópázua and Zimony and to build passing loops on the Budapest–Zimony line (889,400 crowns had already been granted in 1907).",
+   "affected_groups": [
+    "commuters",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_to_budapest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_jogtar"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_jogtar",
+     "url": "https://net.jogtar.hu/ezer-ev-torveny?docid=90800031.TVI",
+     "accessed": "2026-11-13",
+     "supports": "обоснование закона 1908:XXXI: «Ujvidék, India, Ópázua, Zimony állomások bővitése … II. részlet», 1 700 000 K",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "1908. évi XXXI. törvénycikk indokolása (a m. kir. államvasutak hálózatán szükséges építkezési beruházások …)",
+     "document_date": "1908",
+     "archive_identifier": "1908. évi XXXI. tc."
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1909-synagogue",
+   "title": "Синагога Нови-Сада",
+   "title_en": "Novi Sad Synagogue",
+   "title_original": null,
+   "start_date": "1905",
+   "end_date": "1909",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "religion",
+   "subcategory": null,
+   "historical_summary": "В 1905–1909 гг. в Нови-Саде (Уйвидеке) по проекту будапештского архитектора Липота Баумхорна была построена новая синагога неологической общины.",
+   "historical_summary_en": "Between 1905 and 1909 a new synagogue of the Neolog community was built in Novi Sad (Újvidék) to designs by the Budapest architect Lipót Baumhorn.",
+   "affected_groups": [
+    "jewish_population",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "concert_in_synagogue"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_av"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_av",
+     "url": "https://archivum.arhivvojvodine.org.rs/?p=1313",
+     "accessed": "2026-11-13",
+     "supports": "Archivum (Архив Воеводины): синагоги Зренянина и Нови-Сада (Újvidék, 1905–1909) спроектированы Липотом Баумхорном"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-subotica-1912-city-development-grants",
+   "title": "Закон о развитии городов: ежегодные субсидии Суботице и Нови-Саду",
+   "title_en": "City Development Act: annual grants for Subotica and Novi Sad",
+   "title_original": null,
+   "start_date": "1912-08-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad",
+    "rs-subotica"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "Венгерский закон 1912:LVIII о развитии городов (обнародован 13 августа 1912 г.) назначил городам с правами муниципия ежегодную государственную помощь: Сабадке (Суботице) — 90 000 крон, Уйвидеку (Нови-Саду) — 67 000 крон.",
+   "historical_summary_en": "Hungarian Act LVIII of 1912 on the development of cities (promulgated on 13 August 1912) granted annual state aid to towns with municipal rights: 90,000 crowns to Szabadka (Subotica) and 67,000 crowns to Újvidék (Novi Sad).",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_school_building",
+    "paved_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_jogtar"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_jogtar",
+     "url": "https://net.jogtar.hu/ezer-ev-torveny?docid=91200058.TV",
+     "accessed": "2026-11-13",
+     "supports": "1912:LVIII, приложение A, I: Szabadka № 18 — 90 000 K, Ujvidék № 23 — 67 000 K ежегодно; санкционирован 8.08, обнародован 13.08.1912",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "1912. évi LVIII. törvénycikk a városok fejlesztéséről",
+     "document_date": "1912-08-13",
+     "archive_identifier": "1912. évi LVIII. tc."
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1918-great-national-assembly",
+   "title": "Великая народная скупщина в Нови-Саде",
+   "title_en": "Great National Assembly in Novi Sad",
+   "title_original": null,
+   "start_date": "1918-11-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "25 ноября 1918 г. в Нови-Саде по инициативе Центрального народного совета собралась Великая народная скупщина, провозгласившая отделение Баната, Бачки и Бараньи от Венгрии и их присоединение к Королевству Сербия; 1 декабря 1918 г. было провозглашено Королевство сербов, хорватов и словенцев.",
+   "historical_summary_en": "On 25 November 1918, on the initiative of the Central National Council, the Great National Assembly met in Novi Sad and proclaimed the separation of Banat, Bačka and Baranja from Hungary and their union with the Kingdom of Serbia; the Kingdom of Serbs, Croats and Slovenes was proclaimed on 1 December 1918.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [
+    "new_state_new_language"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_av"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_av",
+     "url": "https://archivum.arhivvojvodine.org.rs/prvi-svetski-rat-i-prisajedinjenje/Govor_na_promociji-Dejan.pdf",
+     "accessed": "2026-11-13",
+     "supports": "Archivum, «Први светски рат и присаједињење» (2018): 25.11.1918 в Нови-Саде Великая народная скупщина провозгласила отделение Баната, Бачки и Бараньи от Венгрии и присоединение к Королевству Сербия; 1.12.1918 новое государство"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1936-banovina-palace",
+   "title": "Строительство дворца Дунайской бановины",
+   "title_en": "Construction of the Danube Banovina Palace",
+   "title_original": null,
+   "start_date": "1936",
+   "end_date": "1939",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "Нови-Сад был назначен административным центром Дунайской бановины. Строительство дворца бановины, начатое в 1929 г. и прерванное экономическим кризисом, возобновилось в 1936 г. по замыслу архитектора Драгиши Брашована, и в 1939 г. администрация въехала в здание.",
+   "historical_summary_en": "Novi Sad was designated the administrative centre of the Danube Banovina. Construction of the Banovina palace, begun in 1929 and halted by the economic crisis, resumed in 1936 to the ideas of the architect Dragiša Brašovan, and the administration moved in in 1939.",
+   "affected_groups": [
+    "office_workers",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "office_job_in_banovina"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_kpolisa"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_kpolisa",
+     "url": "https://kpolisa.com/index.php/kp/article/view/339",
+     "accessed": "2026-11-13",
+     "supports": "П. Ваягич, «Изградња палате Дунавске бановине», Култура полиса 16 (39), 2019: строительство с 1929, остановка из-за кризиса до 1936, переезд в 1939, Брашован"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1941-hungarian-entry",
+   "title": "Вступление венгерской армии в Нови-Сад",
+   "title_en": "Hungarian army enters Novi Sad",
+   "title_original": null,
+   "start_date": "1941-04-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "occupation",
+   "subcategory": null,
+   "historical_summary": "В ночь на 11 апреля 1941 г. отступавшая югославская армия взорвала мост через Дунай у Нови-Сада, а 13 апреля мимо здания Бановины прошли парадом венгерские войска; Бачка была присоединена к Венгрии. Городские учреждения в 1941 г. фиксировали ущерб частной собственности от боевых действий.",
+   "historical_summary_en": "On the night of 10–11 April 1941 the retreating Yugoslav army blew up the Danube bridge at Novi Sad, and on 13 April Hungarian troops paraded past the Banovina building; Bačka was annexed to Hungary. In 1941 city offices recorded the damage to private property caused by the fighting.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [
+    "new_state_new_language",
+    "occupation_everyday"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iagns"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iagns",
+     "url": "http://www.arhivns.rs/wp-content/uploads/2018/08/Novi-Sad-u-ratnom-vihoru-katalog-izlozbe-1.pdf",
+     "accessed": "2026-11-13",
+     "supports": "каталог «Нови Сад у ратном вихору 1941–1944» (ИАГНС, 2011), пано I: дефиле мађарске војске поред зграде Бановине 13. априла 1941; мост дигнут у ваздух у ноћи 10/11. априла; ИАГНС Ф.259 34108/1941 — евиденција о штети"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1942-raid",
+   "title": "Новисадская «рация» (облава) в январе 1942 года",
+   "title_en": "The Novi Sad raid of January 1942",
+   "title_original": null,
+   "start_date": "1942-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "repression",
+   "subcategory": null,
+   "historical_summary": "В январе 1942 г. венгерские войска и жандармерия провели в Шайкашке и Нови-Саде карательную облаву («рацию»), в ходе которой были убиты многие мирные жители — сербы, евреи и другие; список убитых новисадцев с данными о национальности, поле, возрасте и профессии хранится в Историческом архиве города Нови-Сада. После войны годовщины облавы отмечались ежегодно.",
+   "historical_summary_en": "In January 1942 Hungarian troops and gendarmerie carried out a punitive raid in Šajkaška and Novi Sad in which many civilians — Serbs, Jews and others — were killed; a list of the Novi Sad victims with their nationality, sex, age and occupation is held by the Historical Archives of the City of Novi Sad. After the war the anniversary of the raid was commemorated every year.",
+   "affected_groups": [
+    "all_residents",
+    "jewish_population",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "rs_av",
+    "rs_iagns"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_av",
+     "url": "https://archivum.arhivvojvodine.org.rs/rezime-obelezavanje-novosadske-racij/",
+     "accessed": "2026-11-13",
+     "supports": "П. Ђурђев, Archivum: «Шајкашко-новосадска рација из јануара 1942»; первое публичное поминовение в январе 1945 в «Слободној Војводини»"
+    },
+    {
+     "source_id": "rs_iagns",
+     "url": "http://www.arhivns.rs/wp-content/uploads/2018/08/Novi-Sad-u-ratnom-vihoru-katalog-izlozbe-1.pdf",
+     "accessed": "2026-11-13",
+     "supports": "пано VI «Хладни дани»: Списак Новосађана убијених у Рацији, јануара 1942, ИАГНС Ф.259/1942"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1944-liberation",
+   "title": "Освобождение Нови-Сада",
+   "title_en": "Liberation of Novi Sad",
+   "title_original": null,
+   "start_date": "1944-10-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "23 октября 1944 г. Нови-Сад был освобождён; в тот же день Местный народно-освободительный комитет обратился к гражданам с воззванием, а газета «Слободна Војводина» сообщила об освобождении города. Годовщина позднее стала Днём города.",
+   "historical_summary_en": "Novi Sad was liberated on 23 October 1944; the same day the local People's Liberation Committee issued a proclamation to the citizens and the newspaper Slobodna Vojvodina reported the liberation of the city. The anniversary later became the City Day.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_occupation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iagns",
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iagns",
+     "url": "http://www.arhivns.rs/wp-content/uploads/2018/08/Novi-Sad-u-ratnom-vihoru-katalog-izlozbe-1.pdf",
+     "accessed": "2026-11-13",
+     "supports": "пано XIV «23. октобар 1944»: проглас Месног НОО за Нови Сад од 23.10.1944; извештај Слободне Војводине о ослобођењу града"
+    },
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/novi-sad/vesti/336567/pre-24-godine-u-nato-bombardovanju-srusen-most-slobode",
+     "accessed": "2026-11-13",
+     "supports": "Мост слободе открыт 23.10.1981 в годовщину освобождения Нови-Сада"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1960-university",
+   "title": "Основан Университет Нови-Сада",
+   "title_en": "University of Novi Sad founded",
+   "title_original": null,
+   "start_date": "1960-06-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "28 июня 1960 г. был основан Университет Нови-Сада, объединивший факультеты, созданные ранее в Воеводине; позднее на левом берегу Дуная вырос кампус площадью 260 000 м².",
+   "historical_summary_en": "The University of Novi Sad was founded on 28 June 1960, bringing together faculties previously established in Vojvodina; a 260,000 m² campus later grew up on the left bank of the Danube.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university",
+    "student_dormitory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_uns"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_uns",
+     "url": "https://stari.ftn.uns.ac.rs/n1243898708/university-of-novi-sad",
+     "accessed": "2026-11-13",
+     "supports": "University of Novi Sad was founded on 28th June 1960; campus 260,000 m² on the left bank of the Danube"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1961-zezelj-bridge",
+   "title": "Мост Жежеля",
+   "title_en": "Žeželj Bridge",
+   "title_original": null,
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1957–1961 гг. в Нови-Саде был построен железнодорожно-автомобильный арочный мост через Дунай по проекту Бранко Жежеля.",
+   "historical_summary_en": "Between 1957 and 1961 a rail and road arch bridge over the Danube was built in Novi Sad to a design by Branko Žeželj.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_over_the_danube"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_danas"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_danas",
+     "url": "https://www.danas.rs/ekonomija/otvara-se-zezeljev-most/",
+     "accessed": "2026-11-13",
+     "supports": "Danas/RTS, 1.09.2018: мост построен 1957–1961"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1981-liberty-bridge",
+   "title": "Мост Свободы",
+   "title_en": "Liberty Bridge",
+   "title_original": null,
+   "start_date": "1981-10-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "23 октября 1981 г., в годовщину освобождения города, в Нови-Саде открылся вантовый Мост Свободы через Дунай по проекту академика Николы Хайдина.",
+   "historical_summary_en": "On 23 October 1981, the anniversary of the city's liberation, the cable-stayed Liberty Bridge over the Danube, designed by academician Nikola Hajdin, opened in Novi Sad.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_bridge_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/novi-sad/vesti/336567/pre-24-godine-u-nato-bombardovanju-srusen-most-slobode",
+     "accessed": "2026-11-13",
+     "supports": "открыт 23.10.1981, проект Николы Хайдина"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-1999-bridges-destroyed",
+   "title": "Разрушение мостов Нови-Сада в 1999 году",
+   "title_en": "Destruction of Novi Sad's bridges in 1999",
+   "title_original": null,
+   "start_date": "1999-04-01",
+   "end_date": "1999-04-26",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В апреле 1999 г. удары НАТО разрушили все три моста Нови-Сада через Дунай: Мост Свободы рухнул 3 апреля, мост Жежеля, в который попадали многократно, был разрушен последним. Сводка сербского телевидения 26 апреля сообщила, что в Нови-Саде разрушен последний мост; город на годы остался с понтонной переправой.",
+   "historical_summary_en": "In April 1999 NATO strikes destroyed all three of Novi Sad's Danube bridges: the Liberty Bridge collapsed on 3 April, and the repeatedly hit Žeželj Bridge was the last to fall. Serbian television news on 26 April reported that the last bridge in Novi Sad had been destroyed; for years the city was left with a pontoon crossing.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "pontoon_bridge",
+    "sirens"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_ohr",
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ohr",
+     "url": "https://www.ohr.int/ohr_archive/ohr-srt-news-summary-26-april-1999/?print=pdf",
+     "accessed": "2026-11-13",
+     "supports": "OHR SRT News Summary 26 April 1999: «The last bridge in Novi Sad destroyed»",
+     "primary": true,
+     "primary_type": "administrative_report",
+     "document_title": "OHR SRT News Summary, 26 April 1999",
+     "document_date": "1999-04-26",
+     "archive_identifier": "ohr_archive/ohr-srt-news-summary-26-april-1999"
+    },
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/novi-sad/vesti/336567/pre-24-godine-u-nato-bombardovanju-srusen-most-slobode",
+     "accessed": "2026-11-13",
+     "supports": "Мост слободы разрушен 3.04.1999, семь раненых"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-2002-liberty-bridge-contract",
+   "title": "Контракт ЕС на восстановление Моста Свободы",
+   "title_en": "EU contract to rebuild the Liberty Bridge",
+   "title_original": null,
+   "start_date": "2002-07-23",
+   "end_date": "2005-10",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "23 июля 2002 г. в Нови-Саде был подписан контракт стоимостью 34 млн евро на восстановление Моста Свободы, серьёзно повреждённого в 1999 г.; работы финансировал Европейский союз через Европейское агентство по реконструкции. Восстановленный мост открылся для движения в октябре 2005 г.",
+   "historical_summary_en": "On 23 July 2002 a €34 million contract was signed in Novi Sad to rebuild the Liberty Bridge, seriously damaged in 1999; the work was funded by the European Union through the European Agency for Reconstruction. The rebuilt bridge reopened to traffic in October 2005.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_bridge_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ec",
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ec",
+     "url": "https://ec.europa.eu/commission/presscorner/api/documents?reference=IP/02/1123&language=en",
+     "accessed": "2026-11-13",
+     "supports": "IP/02/1123 «Reconstruction of the Sloboda Bridge at Novi Sad to begin»: контракт €34 млн подписывается 23.07.2002, управляет EAR",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "European Commission press release IP/02/1123",
+     "document_date": "2002-07-23",
+     "archive_identifier": "IP/02/1123"
+    },
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/novi-sad/vesti/336567/pre-24-godine-u-nato-bombardovanju-srusen-most-slobode",
+     "accessed": "2026-11-13",
+     "supports": "восстановленный мост открыт для движения в октябре 2005"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-2016-european-capital-of-culture",
+   "title": "Нови-Сад выбран Европейской столицей культуры",
+   "title_en": "Novi Sad chosen as a European Capital of Culture",
+   "title_original": null,
+   "start_date": "2016-10-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "13 октября 2016 г. в Брюсселе независимая комиссия рекомендовала Нови-Сад как Европейскую столицу культуры 2021 г. — впервые среди городов стран-кандидатов в ЕС; позднее год проведения был перенесён.",
+   "historical_summary_en": "On 13 October 2016 in Brussels an independent panel recommended Novi Sad as European Capital of Culture for 2021 — the first such title for a city in an EU candidate country; the title year was later postponed.",
+   "affected_groups": [
+    "urban_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "festival_in_the_city"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_novisad2022"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_novisad2022",
+     "url": "https://novisad2022.rs/wp-content/uploads/2021/06/Selection-Report-Novi-Sad.pdf",
+     "accessed": "2026-11-13",
+     "supports": "Selection Panel’s report, Brussels, November 2016: final selection meeting 13 October 2016; panel's decision — Novi Sad",
+     "primary": true,
+     "primary_type": "administrative_report",
+     "document_title": "The European Capital of Culture in 2021 in candidate countries and potential candidates: The Selection Panel's report, Final report",
+     "document_date": "2016-11",
+     "archive_identifier": "EC selection panel report, November 2016"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-novi-sad-2018-new-zezelj-bridge",
+   "title": "Открыт новый мост Жежеля",
+   "title_en": "New Žeželj Bridge opens",
+   "title_original": null,
+   "start_date": "2018-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-novi-sad"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "1 сентября 2018 г. новый мост Жежеля через Дунай открылся для автомобилей, пешеходов и велосипедистов; поезда пошли по нему в конце марта 2018 г., впервые за 19 лет. Мост стоил 54 млн евро, больше половины оплатил ЕС; с этого дня в Нови-Саде снова работали все три моста.",
+   "historical_summary_en": "On 1 September 2018 the new Žeželj Bridge over the Danube opened to cars, pedestrians and cyclists; trains had begun using it at the end of March 2018, for the first time in 19 years. The bridge cost €54 million, more than half paid by the EU; from that day all three of Novi Sad's bridges were in service again.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_bridge_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_danas"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_danas",
+     "url": "https://www.danas.rs/ekonomija/otvara-se-zezeljev-most/",
+     "accessed": "2026-11-13",
+     "supports": "Danas/RTS 1.09.2018: открытие для машин, поезда с конца марта 2018, 54 млн евро, ЕС > половины",
+     "primary": true,
+     "primary_type": "contemporary_newspaper",
+     "document_title": "Danas: «Otvara se Žeželjev most»",
+     "document_date": "2018-09-01",
+     "archive_identifier": "danas.rs/ekonomija/otvara-se-zezeljev-most"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

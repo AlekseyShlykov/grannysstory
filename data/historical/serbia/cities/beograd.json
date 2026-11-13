@@ -1,0 +1,1380 @@
+{
+ "records": [
+  {
+   "id": "rs-beograd-1904-school-plan-nacic",
+   "title": "Проект начальной школы у Соборной церкви",
+   "title_en": "Design of the primary school by the Cathedral",
+   "title_original": null,
+   "start_date": "1904",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "В 1904 г. архитектор Елисавета Начич подготовила проект здания начальной школы у Соборной церкви (ныне школа «Король Пётр I»). Чертёж хранится в Историческом архиве Белграда.",
+   "historical_summary_en": "In 1904 the architect Jelisaveta Načić drew up the design of the primary school building by the Cathedral (today the King Peter I school). The drawing is held by the Historical Archives of Belgrade.",
+   "affected_groups": [
+    "school_pupils",
+    "children",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_day_at_school",
+    "school_building"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/skolstvo-i-prosveta.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 170: План зграде основне школе код Саборне цркве, скица архитекте Јелисавете Начић, 1904",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "План зграде основне школе код Саборне цркве (данас ОШ „Краљ Петар I”), скица архитекте Јелисавете Начић",
+     "document_date": "1904",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 170"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1905-first-girls-gymnasium",
+   "title": "Первая женская гимназия в Белграде",
+   "title_en": "First girls' gymnasium in Belgrade",
+   "title_original": null,
+   "start_date": "1905",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "В 1905 г. в Белграде открылась первая женская гимназия.",
+   "historical_summary_en": "In 1905 the first girls' gymnasium opened in Belgrade.",
+   "affected_groups": [
+    "women",
+    "school_pupils",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "girls_education",
+    "first_in_family_at_gymnasium"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/skolstvo-i-prosveta.html",
+     "accessed": "2026-11-13",
+     "supports": "текст раздела «Школство и просвета»: 1905 — отворена прва женска гимназија"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1914-austro-hungarian-bombardment",
+   "title": "Австро-венгерские обстрелы Белграда",
+   "title_en": "Austro-Hungarian bombardment of Belgrade",
+   "title_original": null,
+   "start_date": "1914",
+   "end_date": "1915",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "После объявления Австро-Венгрией войны Сербии 28 июля 1914 г. пограничный Белград подвергся обстрелам; разрушения, в том числе на Кнез-Михайловом венце, запечатлены на фотографиях 1914 г. Последний австро-венгерский обстрел в 1915 г. разрушил паровую мельницу на Душановой улице.",
+   "historical_summary_en": "After Austria-Hungary declared war on Serbia on 28 July 1914, Belgrade on the border came under bombardment; the damage, including at Knez Mihailov Venac, was photographed in 1914. The last Austro-Hungarian bombardment in 1915 destroyed the steam mill in Dušanova Street.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "shelling_of_the_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/prvi-svetski-rat.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 207: Кнез Михаилов венац, аустро-угарско бомбардовање, Београд, 1914; кат. 208: Парни млин, последње аустро-угарско бомбардовање у Душановој улици, 1915",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Кнез Михаилов венац, аустро-угарско бомбардовање, Београд, 1914",
+     "document_date": "1914",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 207"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1918-liberation",
+   "title": "Освобождение Белграда в 1918 году",
+   "title_en": "Liberation of Belgrade, 1918",
+   "title_original": null,
+   "start_date": "1918-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "После прорыва Салоникского фронта в сентябре 1918 г. Дунайская дивизия сербской армии 1 ноября 1918 г. вошла в освобождённый Белград; оккупация города, начавшаяся осенью 1915 г., закончилась.",
+   "historical_summary_en": "After the breakthrough on the Salonika front in September 1918, the Danube Division of the Serbian army entered liberated Belgrade on 1 November 1918, ending the occupation that had begun in autumn 1915.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "return_home_after_war",
+    "family_reunion"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab",
+    "rs_av"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/prvi-svetski-rat.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1. новембра 1918. Дунавска дивизија ушла у ослобођени Београд; јесен 1915 — напад и повлачење"
+    },
+    {
+     "source_id": "rs_av",
+     "url": "https://archivum.arhivvojvodine.org.rs/prvi-svetski-rat-i-prisajedinjenje/Govor_na_promociji-Dejan.pdf",
+     "accessed": "2026-11-13",
+     "supports": "речь 2018 г.: сербская армия 1 ноября вошла в Белград"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1921-legion-of-honour",
+   "title": "Белград награждён орденом Почётного легиона",
+   "title_en": "Belgrade awarded the French Legion of Honour",
+   "title_original": null,
+   "start_date": "1921",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1921 г. Франция наградила Белград орденом Почётного легиона за оборону города в Первой мировой войне; выписка из торжественного протокола Общины города Белграда об этом хранится в городском архиве.",
+   "historical_summary_en": "In 1921 France awarded Belgrade the Legion of Honour for the city's defence in the First World War; an extract from the ceremonial minutes of the Belgrade Municipality recording this is held by the city archives.",
+   "affected_groups": [
+    "urban_residents",
+    "veterans"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/prvi-svetski-rat.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 210: Извод из свечаног записника Општине града Београда о додели Београду ордена Француске Легије части, 1921",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Извод из свечаног записника Општине града Београда о додели Београду ордена Француске Легије части",
+     "document_date": "1921",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 210"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1922-municipal-statute",
+   "title": "Статут Белградской общины",
+   "title_en": "Statute of the Belgrade Municipality",
+   "title_original": null,
+   "start_date": "1922",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1922 г. Белградская община приняла статут, определивший её организационную структуру; в 1926 г. начались крупные коммунальные работы.",
+   "historical_summary_en": "In 1922 the Belgrade Municipality adopted a statute setting out its organisational structure; major municipal works began in 1926.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/razvoj-institucija/2015-06-11-10-08-06.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 107: Извод из Статута Београдске општине, Београд, 1922; текст: 1926 — почетак великих комуналних радова",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Извод из Статута Београдске општине",
+     "document_date": "1922",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 107"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1927-art-pavilion-cvijeta-zuzoric",
+   "title": "Закладка Художественного павильона «Цвиета Зузорич»",
+   "title_en": "Foundation of the Cvijeta Zuzorić Art Pavilion",
+   "title_original": null,
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1927 г. в стены строящегося Художественного павильона общества друзей искусства «Цвиета Зузорич» была замурована памятная грамота; павильон затем принимал выставки, балы и концерты.",
+   "historical_summary_en": "In 1927 a commemorative charter was walled into the Art Pavilion being built by the Cvijeta Zuzorić Society of Friends of Art; the pavilion later hosted exhibitions, balls and concerts.",
+   "affected_groups": [
+    "urban_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_art_exhibition",
+    "dances_and_balls"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/kultura.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 178: Узиђивање повеље у зидове Уметничког павиљона, фотографија, Београд 1927; кат. 179: Павиљон, 1929, 1931",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Узиђивање повеље у зидове Уметничког павиљона",
+     "document_date": "1927",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 178"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1927-university-women-association",
+   "title": "Основано Общество женщин с университетским образованием",
+   "title_en": "Association of University-Educated Women founded",
+   "title_original": null,
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "women_rights",
+   "subcategory": null,
+   "historical_summary": "В 1927 г. в Белграде было основано Общество женщин с университетским образованием (в том же году — Женская партия); ещё в 1919 г. возникло Общество за просвещение женщин и защиту их прав.",
+   "historical_summary_en": "In 1927 the Association of University-Educated Women was founded in Belgrade (the Women's Party was founded the same year); the Society for the Enlightenment of Women and the Protection of Their Rights had appeared in 1919.",
+   "affected_groups": [
+    "women",
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "women_at_university",
+    "independent_woman"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/zena-modernizacija.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 202: Приступница Удружењу универзитетски образованих жена, 1927; текст: 1919, 1927",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Приступница Удружењу универзитетски образованих жена, др Мирјана Краљ",
+     "document_date": "1927",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 202"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1932-census-of-the-poor",
+   "title": "Перепись бедняков Белграда",
+   "title_en": "Census of the poor in Belgrade",
+   "title_original": null,
+   "start_date": "1932",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "social_policy",
+   "subcategory": null,
+   "historical_summary": "В 1932 г., в годы мирового экономического кризиса, Белградская община провела перепись бедных жителей города; отчёт о ней хранится в Историческом архиве Белграда.",
+   "historical_summary_en": "In 1932, during the world economic crisis, the Belgrade Municipality carried out a census of the city's poor; the report is held by the Historical Archives of Belgrade.",
+   "affected_groups": [
+    "urban_residents",
+    "unemployed",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "hard_times_family",
+    "municipal_relief"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/razvoj-institucija/2015-06-11-10-08-06.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 112: Извештај о попису сиротиње у Београду, 1932",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Извештај о попису сиротиње у Београду",
+     "document_date": "1932",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 112"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1934-king-alexander-bridge",
+   "title": "Мост короля Александра через Саву",
+   "title_en": "King Alexander I Bridge over the Sava",
+   "title_original": null,
+   "start_date": "1932",
+   "end_date": "1934",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1932 г. белградские муниципальные советники заложили первый камень моста короля Александра I через Саву, а в 1934 г. мост был построен и связал Белград с Земуном.",
+   "historical_summary_en": "In 1932 Belgrade municipal councillors laid the foundation stone of the King Alexander I Bridge over the Sava, and in 1934 the bridge was completed, linking Belgrade with Zemun.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "crossing_to_zemun",
+    "new_bridge_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/prestonica/glavni-grad-jugoslavije.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 75: Београдски општинари приликом полагања камена темељца за Мост Краља Александра I, 1932; кат. 74: Мост Краља Александра I, Београд 1934",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Београдски општинари приликом полагања камена темељца за Мост Краља Александра I",
+     "document_date": "1932",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 75"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1935-zoo",
+   "title": "Решение об основании белградского зоопарка",
+   "title_en": "Decision to found the Belgrade Zoo",
+   "title_original": null,
+   "start_date": "1935",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1935 г. городской совет Белградской общины решил основать зоологический сад с питомником у Калемегдана; карта зоопарка 1939 г. показывает его устройство.",
+   "historical_summary_en": "In 1935 the city council of the Belgrade Municipality decided to found a zoological garden with a nursery at Kalemegdan; a 1939 map of the zoo shows its layout.",
+   "affected_groups": [
+    "children",
+    "parents",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_at_the_zoo",
+    "walk_in_kalemegdan"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/razvoj-institucija/2015-06-11-10-08-06.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 114: Одлука Градског већа Општине града Београда о приступању оснивања Зоолошког врта – расадника, 1935; кат. 115: Мапа Зоолошког врта, 1939",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Одлука Градског већа Општине града Београда о приступању оснивања Зоолошког врта",
+     "document_date": "1935",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 114"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1937-belgrade-fair",
+   "title": "Белградская ярмарка на левом берегу Савы",
+   "title_en": "Belgrade Fair on the left bank of the Sava",
+   "title_original": null,
+   "start_date": "1937",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1937 г. на левом берегу Савы открылась Белградская ярмарка с выставочными павильонами; в 1938 г. там прошёл Первый международный автосалон.",
+   "historical_summary_en": "In 1937 the Belgrade Fair with its exhibition pavilions opened on the left bank of the Sava; in 1938 it hosted the First International Motor Show.",
+   "affected_groups": [
+    "urban_residents",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_car_seen",
+    "fair_visit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/privreda.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 77: Изглед Београдског Сајма на левој обали Саве, Београд 1937; кат. 144: Први међународни сајам аутомобила, фотографије, 1938",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Изглед Београдског Сајма на левој обали Саве",
+     "document_date": "1937",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 77"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1938-palace-albania",
+   "title": "Дворец «Албания» — первый белградский небоскрёб",
+   "title_en": "Albania Palace, Belgrade's first high-rise",
+   "title_original": null,
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "В 1938 г. на месте старой кафаны «Албания» на углу Кнез-Михайловой и Коларчевой улиц был разработан проект и начато строительство многоэтажного дворца «Албания».",
+   "historical_summary_en": "In 1938 the multi-storey Albania Palace was designed and begun on the site of the old Albania tavern at the corner of Knez Mihailova and Kolarčeva streets.",
+   "affected_groups": [
+    "urban_residents",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "meeting_under_the_clock",
+    "city_centre_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/prestonica/glavni-grad-jugoslavije.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 73: Кафана Албанија на углу Коларчеве и Кнез-Михаилове, после 1930; кат. 78: Ситуациони план за палату Албанија, 1938; кат. 79: Палата Албанија, изглед, 1938",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Ситуациони план за палату Албанија",
+     "document_date": "1938",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 78"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1938-new-belgrade-land-contract",
+   "title": "Договор о намыве территории будущего Нового Белграда",
+   "title_en": "Contract to reclaim the land of future New Belgrade",
+   "title_original": null,
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "В 1938 г. Белградская община заключила договор с датской группой фирм из Копенгагена о засыпке песком болотистой местности, укреплении берегов и строительстве набережной на левом берегу Савы; после войны здесь начали строить Новый Белград (здание СИВ с 1947 г.).",
+   "historical_summary_en": "In 1938 the Belgrade Municipality signed a contract with a Danish business group from Copenhagen to fill the marshy land with sand, reinforce the banks and build a quay on the left bank of the Sava; after the war New Belgrade began to be built there (the SIV building from 1947).",
+   "affected_groups": [
+    "urban_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_flat_allocation",
+    "youth_work_brigade"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/novi-beograd.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 272: Уговор између Београдске општине и Данске пословне групе за насипање и осигуравање терена, 1938; текст: 1947 — почетак изградње зграде СИВ-а",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Уговор између Београдске општине и Данске пословне групе за насипање и осигуравање терена",
+     "document_date": "1938",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 272"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1941-german-bombing",
+   "title": "Немецкие бомбардировки Белграда 6–12 апреля 1941 года",
+   "title_en": "German bombing of Belgrade, 6–12 April 1941",
+   "title_original": null,
+   "start_date": "1941-04-06",
+   "end_date": "1941-04-12",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "6 апреля 1941 г. в 7 часов утра без объявления войны германская авиация начала бомбить Белград, хотя он был объявлен открытым городом. По официальным данным погибли 2271 человек; разрушено или повреждено около половины жилого фонда, сгорела Народная библиотека с сотнями тысяч книг и средневековыми рукописями. В городе не было электричества, воды и продовольствия.",
+   "historical_summary_en": "At 7 a.m. on 6 April 1941, without a declaration of war, German aircraft began bombing Belgrade although it had been declared an open city. Official figures give 2,271 dead; about half of the housing stock was destroyed or damaged, and the National Library burned with hundreds of thousands of books and medieval manuscripts. The city was left without electricity, water or food.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter",
+    "leaving_the_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_frus",
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_frus",
+     "url": "https://history.state.gov/historicaldocuments/frus1941v02/d974",
+     "accessed": "2026-11-13",
+     "supports": "телеграмма Траверса (Будапешт, 12.04.1941) с сообщением посланника Лейна от 8.04: бомбардировка с 7 ч 6.04 без предупреждения, город объявлен открытым, нет света, воды, еды",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "The Chargé in Hungary (Travers) to the Secretary of State, telegram, Budapest, April 12, 1941 (FRUS 1941, vol. II, doc. 974)",
+     "document_date": "1941-04-12",
+     "archive_identifier": "File 740.0011 European War 1939/9915"
+    },
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/drgugi-svetski-rat-bombardovanje.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 6–12 апреля 1941, ~600 т бомб, 2271 погибший по официальным данным, 714 зданий уничтожено; Народная библиотека; кат. 219–220 фото 1941"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1941-german-occupation",
+   "title": "Германская оккупация Белграда",
+   "title_en": "German occupation of Belgrade",
+   "title_original": null,
+   "start_date": "1941-04-12",
+   "end_date": "1944-10-20",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "occupation",
+   "subcategory": null,
+   "historical_summary": "В ночь на 12 апреля 1941 г. германские части вошли в Белград, и утром город был оккупирован. 22 апреля в Белграде был сформирован штаб военного командующего в Сербии, обратившегося с первым воззванием к населению; начались репрессии и расстрелы заложников. Город оставался под оккупацией до 20 октября 1944 г.",
+   "historical_summary_en": "On the night of 11–12 April 1941 German units entered Belgrade and the city was occupied by morning. On 22 April the staff of the Military Commander in Serbia was set up in Belgrade and issued its first proclamation to the population; reprisals and shootings of hostages began. The city remained occupied until 20 October 1944.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "curfew",
+    "occupation_everyday"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/drugi-svetski-rat-okupaciona-vlast.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: ночь 11/12.04.1941 вход частей СС и полка «Великая Германия»; 22.04.1941 штаб военного командующего; кат. 225: Прво обраћање војног заповедника Хелмута Ферстера становницима Србије, 22. април 1941",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "Прво обраћање војног заповедника Хелмута Ферстера становницима Србије",
+     "document_date": "1941-04-22",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 225"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1941-anti-jewish-order",
+   "title": "Приказ гестапо о мерах против евреев Белграда",
+   "title_en": "Gestapo order on measures against the Jews of Belgrade",
+   "title_original": null,
+   "start_date": "1941-04-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "repression",
+   "subcategory": null,
+   "historical_summary": "16 апреля 1941 г., через несколько дней после занятия Белграда, гестапо издало приказ о мерах против евреев города; документ хранится в Историческом архиве Белграда.",
+   "historical_summary_en": "On 16 April 1941, a few days after Belgrade was occupied, the Gestapo issued an order on measures against the city's Jews; the document is held by the Historical Archives of Belgrade.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/drugi-svetski-rat-okupaciona-vlast.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 224: Наредба Гестапоа о спровођењу мера против Јевреја, Београд 16. април 1941",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "Наредба Гестапоа о спровођењу мера против Јевреја",
+     "document_date": "1941-04-16",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 224"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1944-allied-bombing",
+   "title": "Бомбардировки Белграда авиацией союзников в 1944 году",
+   "title_en": "Allied bombing of Belgrade in 1944",
+   "title_original": null,
+   "start_date": "1944-04-16",
+   "end_date": "1944-07-03",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "С 16 по 18 апреля 1944 г., начиная с православной Пасхи, авиация союзников бомбила оккупированный Белград: погибли 1267 человек, ранены 5758, разрушено более 1100 зданий, пострадали все шесть государственных больниц. Налёты продолжались и летом; 3 июля 1944 г. был поражён нефтяной склад «Шелл» на Чукарице.",
+   "historical_summary_en": "From 16 to 18 April 1944, beginning on Orthodox Easter, Allied aircraft bombed occupied Belgrade: 1,267 people were killed and 5,758 wounded, more than 1,100 buildings were destroyed and all six state hospitals were hit. Raids continued in the summer; on 3 July 1944 the Shell oil depot at Čukarica was hit.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "easter_bombing",
+    "night_in_the_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/drgugi-svetski-rat-bombardovanje.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 16–18.04.1944, 1267 погибших, 5758 раненых; кат. 222: Шелов магацин нафте на Чукарици, погођен од стране савезничке авијације, 3. јул 1944",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Шелов магацин нафте на Чукарици, погођен од стране савезничке авијације",
+     "document_date": "1944-07-03",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 222"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1944-liberation",
+   "title": "Освобождение Белграда 20 октября 1944 года",
+   "title_en": "Liberation of Belgrade, 20 October 1944",
+   "title_original": null,
+   "start_date": "1944-10-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "После боёв 11–20 октября 1944 г. советские и югославские войска освободили Белград; Земун был освобождён двумя днями позже. 26 октября был назначен Исполнительный народно-освободительный комитет города, начавший работу первым протоколом.",
+   "historical_summary_en": "After fighting from 11 to 20 October 1944, Soviet and Yugoslav forces liberated Belgrade; Zemun was liberated two days later. On 26 October the city's Executive People's Liberation Committee was appointed and began work with its first minutes.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_occupation",
+    "youth_work_brigade"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/drgugi-svetski-rat-oslobodjenje.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 11–14.10 окружение, 20.10.1944 освобождение, Земун через два дня; кат. 248: Београђани у ослобођеном граду, код Вуковог споменика, 1944",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Београђани у ослобођеном граду, код Вуковог споменика",
+     "document_date": "1944",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 248"
+    },
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/razvoj-institucija/2015-06-11-10-08-06.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 26.10.1944 назначен Извршни народноослободилачки одбор; кат. 116: Први записник Извршног народноослободилачког одбора града Београда, 1944"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1957-new-fair",
+   "title": "Новая Белградская ярмарка с большим куполом",
+   "title_en": "New Belgrade Fair with its great dome",
+   "title_original": null,
+   "start_date": "1957",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1957 г. на берегу Савы открылась новая Белградская ярмарка: первую выставку принял комплекс с большим куполом, проект и макеты которого готовились в 1955–1957 гг.",
+   "historical_summary_en": "In 1957 the new Belgrade Fair opened on the Sava: its first exhibition was held in the complex with the great dome, whose design and models were prepared in 1955–1957.",
+   "affected_groups": [
+    "urban_residents",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fair_visit",
+    "new_appliance"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/novi-beogradski-sajam.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1957 — открыт новый сайм, первая выставка; кат. 276: Попречни пресек велике куполе Београдског сајма, 1955/57; кат. 277: Макете велике куполе, 1955",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Попречни пресек велике куполе Београдског сајма",
+     "document_date": "1957",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 276"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1961-nonaligned-conference",
+   "title": "Первая конференция неприсоединившихся стран в Белграде",
+   "title_en": "First Conference of Non-Aligned Countries in Belgrade",
+   "title_original": null,
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В 1961 г. Белград принял первую конференцию «неприсоединившихся» стран; на неё прибыли, в частности, президент Ганы Кваме Нкрума. В 1950–1960-е гг. город стал местом многих международных встреч.",
+   "historical_summary_en": "In 1961 Belgrade hosted the first conference of the 'non-aligned' countries; among those arriving was Ghana's President Kwame Nkrumah. In the 1950s and 1960s the city became a venue for many international meetings.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "foreign_guests_in_city"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/nesvrstani.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1961 — први скуп несврстаних у Београду; кат. 265: Долазак председника Гане Кваме Нкрумаха на конференцију, Београд 1961",
+     "primary": true,
+     "primary_type": "photograph",
+     "document_title": "Долазак председника Гане Кваме Нкрумаха на конференцију",
+     "document_date": "1961",
+     "archive_identifier": "ИАБ, стална поставка «Векови Београда», кат. бр. 265"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1965-avala-tv-tower",
+   "title": "Телебашня на Авале",
+   "title_en": "Avala TV tower",
+   "title_original": null,
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "media_communication",
+   "subcategory": null,
+   "historical_summary": "В 1965 г. на горе Авала под Белградом был построен телевизионный передатчик — Авальская башня, ставшая символом города.",
+   "historical_summary_en": "In 1965 the television transmitter tower was built on Mount Avala outside Belgrade, becoming a symbol of the city.",
+   "affected_groups": [
+    "television_owners",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_in_family",
+    "trip_to_avala"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/tv-toranj-avala.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1965 — изграђен ТВ торањ на Авали"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1970-gazela-bridge",
+   "title": "Мост «Газела»",
+   "title_en": "Gazela Bridge",
+   "title_original": null,
+   "start_date": "1970-12-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "4 декабря 1970 г. в Белграде торжественно открыли мост «Газела» через Саву, связавший старый город с Новым Белградом; открытие планировали к 29 ноября, Дню Республики, но не успели из-за весеннего паводка на Саве.",
+   "historical_summary_en": "On 4 December 1970 the Gazela Bridge over the Sava, linking the old city with New Belgrade, was ceremonially opened; it had been planned for 29 November, Republic Day, but the spring flooding of the Sava delayed the work.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_car_in_family",
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_en_wikipedia",
+    "rs_novosti"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gazela_Bridge",
+     "accessed": "2026-11-13",
+     "supports": "открытие 4.12.1970, строительство 1966–1970"
+    },
+    {
+     "source_id": "rs_novosti",
+     "url": "https://www.novosti.rs/vesti/beograd.74.html:864365-Beogradske-price-Poplave-u-doba-nastanka-Gazele",
+     "accessed": "2026-11-13",
+     "supports": "«Вечерње новости», 13.05.2020: официальное открытие 4.12.1970 (план — 29 ноября)"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-1999-nato-strikes",
+   "title": "Удары НАТО по Белграду в 1999 году",
+   "title_en": "NATO strikes on Belgrade in 1999",
+   "title_original": null,
+   "start_date": "1999-03-24",
+   "end_date": "1999-06-10",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Во время воздушной кампании НАТО против СРЮ (24 марта – 10 июня 1999 г.) удары наносились и по Белграду; 3 апреля впервые был поражён центр города, а телебашня на Авале была разрушена.",
+   "historical_summary_en": "During NATO's air campaign against the FRY (24 March – 10 June 1999) Belgrade was also struck; on 3 April the city centre was hit for the first time, and the Avala TV tower was destroyed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter",
+    "sirens"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab",
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/tv-toranj-avala.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1999 — торањ срушен током НАТО бомбардовања СРЈ"
+    },
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/novi-sad/vesti/336567/pre-24-godine-u-nato-bombardovanju-srusen-most-slobode",
+     "accessed": "2026-11-13",
+     "supports": "3.04.1999 НАТО впервые с начала кампании 24 марта ударило по центру Белграда"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-2009-avala-tower-rebuilt",
+   "title": "Восстановленная Авальская башня открыта",
+   "title_en": "Rebuilt Avala tower reopens",
+   "title_original": null,
+   "start_date": "2009",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "media_communication",
+   "subcategory": null,
+   "historical_summary": "В 2009 г. телебашня на Авале, разрушенная в 1999 г., была восстановлена и вновь открыта для посетителей.",
+   "historical_summary_en": "In 2009 the Avala TV tower, destroyed in 1999, was rebuilt and reopened to visitors.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "trip_to_avala"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/tv-toranj-avala.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 2009 — обновљен и поново отворен"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-2012-ada-bridge",
+   "title": "Мост на Аде",
+   "title_en": "Ada Bridge",
+   "title_original": null,
+   "start_date": "2012-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": true,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "Вантовый мост на Аде через Саву с 200-метровым пилоном, строившийся с 2008 г., торжественно открыли в новогоднюю ночь с 2011 на 2012 г.; трамваи пошли по нему в 2019 г.",
+   "historical_summary_en": "The cable-stayed Ada Bridge over the Sava, with its 200-metre pylon, under construction since 2008, was ceremonially opened on New Year's night 2011–2012; trams began crossing it in 2019.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_bridge_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_beograd_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_beograd_city",
+     "url": "https://www.beograd.rs/lat/zivot-u-beogradu/beogradska-riznica/a86188/Most-na-Adi-najvisi-beogradski-most.html",
+     "accessed": "2026-11-13",
+     "supports": "строительство 2008–2011, открыт в новогоднюю ночь 2011/2012, пилон 200 м, трамваи с 2019"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-beograd-2014-obrenovac-flood",
+   "title": "Наводнение в Обреноваце",
+   "title_en": "Obrenovac flood",
+   "title_original": null,
+   "start_date": "2014-05-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-beograd"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "После ливней 14–16 мая 2014 г. Сава и её притоки вышли из берегов; вода дошла до ТЭС «Никола Тесла» в Обреноваце (городская община Белграда), 19 мая всем жителям Обреноваца приказали эвакуироваться.",
+   "historical_summary_en": "After torrential rain on 14–16 May 2014 the Sava and its tributaries burst their banks; floodwater reached the Nikola Tesla power plant in Obrenovac (a municipality of the City of Belgrade), and on 19 May the entire population of Obrenovac was ordered to evacuate.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flooded_house",
+    "evacuation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_disasters_charter"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_disasters_charter",
+     "url": "https://disasterscharter.org/activations/flood-in-serbia",
+     "accessed": "2026-11-13",
+     "supports": "ливни 14–16.05.2014, вода у ТЭС «Никола Тесла» в Обреноваце, приказ об эвакуации всего Обреноваца 19.05"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  }
+ ]
+}

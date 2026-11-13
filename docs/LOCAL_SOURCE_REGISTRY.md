@@ -2,6 +2,12 @@
 
 Сгенерирован `scripts/historical-data/export/export.py` 2026-11-13, набор `world-1.2.0`. Число записей посчитано по опубликованным (`verified`) событиям и контекстам, которые ссылаются на источник. API указан как доступный только там, где исследователь сам проверил документацию или ответ (`api.verified`).
 
+## AT
+
+| Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
+|---|---|---|---|---|---|---|---|---|---|---:|
+| [ANNO — AustriaN Newspapers Online](https://anno.onb.ac.at/) | `rs-novi-sad`, `rs-subotica`, `rs-beograd` | 1900–2020 | de | newspaper_archive | нет | нет | — | — | inaccessible | 0 |
+
 ## CN
 
 | Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
@@ -123,6 +129,7 @@
 | [RATP — patrimoine](https://www.ratp.fr/) | `fr-paris` | 1900–2025 | fr | government | не проверено | нет | Условия не проверялись | HTTP 403 for automated fetch | inaccessible | 0 |
 | [UNESCO World Heritage Centre](https://whc.unesco.org/) | — | 1900–2025 | — | other | не проверено | нет | не проверялась | — | inaccessible | 0 |
 | [Vie-publique.fr](https://www.vie-publique.fr/) | — | 1900–2025 | — | government | не проверено | нет | Licence Ouverte / Etalab 2.0 | — | catalogued | 0 |
+| [Gallica](https://gallica.bnf.fr/) | `rs-beograd` | 1900–2020 | fr | library | нет | нет | — | — | inaccessible | 0 |
 
 ## GB
 
@@ -149,6 +156,14 @@
 | [The National Archives — Discovery](https://discovery.nationalarchives.gov.uk/) | — | 1900–2025 | — | catalogue | не проверено | нет | Open Government Licence v3.0 (описания каталога) | — | catalogued | 0 |
 | [UK Data Service](https://ukdataservice.ac.uk/) | — | 1900–2025 | — | catalogue | не проверено | нет | Различные лицензии; End User Licence, часть данных Safeguarded/Controlled | Для большинства наборов нужна регистрация и согласие с End User Licence | catalogued | 0 |
 | [A Vision of Britain through Time](https://www.visionofbritain.org.uk/) | — | 1801–2001 | — | not_accessible | не проверено | нет | Условия сайта; некоммерческое использование | Ошибка TLS-сертификата при запросе из этой сессии | inaccessible | 0 |
+
+## HU
+
+| Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
+|---|---|---|---|---|---|---|---|---|---|---:|
+| [Канцелярия премьер-министра Венгрии (архив 2015–2022)](https://2015-2022.miniszterelnok.hu/) | `rs-subotica` | 2018–2018 | en, hu | government | нет | нет | © Government of Hungary | — | accessed | 1 |
+| [Arcanum Digitheca (ADT)](https://adt.arcanum.com/) | `rs-subotica`, `rs-novi-sad` | 1900–2020 | hu | newspaper_archive | нет | нет | платная подписка | — | inaccessible | 0 |
+| [Hungaricana](https://hungaricana.hu/) | `rs-subotica`, `rs-novi-sad` | 1900–2020 | hu | library | нет | нет | — | — | inaccessible | 0 |
 
 ## IT
 
@@ -236,6 +251,39 @@
 | [Polona](https://polona.pl/) | — | 1900–2025 | — | library | не проверено | нет | Разные: общественное достояние и охраняемые объекты | — | catalogued | 0 |
 | [Encyklopedia PWN](https://encyklopedia.pwn.pl/) | — | 1900–2025 | — | encyclopedia | не проверено | нет | Proprietary | — | inaccessible | 0 |
 | [Szukaj w Archiwach](https://www.szukajwarchiwach.gov.pl/) | — | 1900–2025 | — | archive | не проверено | нет | Условия архивов; персональные данные | — | accessed | 0 |
+
+## RS
+
+| Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
+|---|---|---|---|---|---|---|---|---|---|---:|
+| [Исторический архив Белграда — постоянная онлайн-экспозиция «Векови Београда»](https://www.stalnapostavka.arhiv-beograda.org/sr/postavka.html) | `rs-beograd` | 1900–1965 | sr | archive | нет | нет | © Историјски архив Београда 2015; документы показаны для просмотра, тексты не копируются | — | accessed | 34 |
+| [Исторический архив Суботицы — каталоги выставок](http://www.suarhiv.co.rs/ser/o_nama/izlozbe) | `rs-subotica` | 1900–2017 | sr, hu, hr | archive | нет | нет | © Историјски архив Суботица; PDF-каталоги в открытом доступе | — | accessed | 11 |
+| [Викитека на сербском (Викизворник)](https://sr.wikisource.org/) | `state-yu`, `state-rs-kingdom` | 1900–1992 | sr | other | нет | нет | CC BY-SA 4.0 (оформление); тексты законов — общественное достояние | — | accessed | 10 |
+| [021.rs — новосадский новостной портал](https://www.021.rs/) | `rs-novi-sad` | 1981–2023 | sr | newspaper | нет | нет | © 021.rs; только краткий пересказ | — | accessed | 9 |
+| [1000 év törvényei (Corpus Juris Hungarici) — net.jogtar.hu](https://net.jogtar.hu/ezer-ev-torvenyei) | `rs-bacs-bodrog`, `rs-subotica`, `rs-novi-sad` | 1900–1944 | hu | government | нет | нет | тексты законов — официальные документы; база доступна бесплатно | — | accessed | 9 |
+| [Народная скупштина Республики Сербии — история парламента](https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html) | `rs-republic`, `rs`, `state-yu` | 1944–2020 | en, sr | government | нет | нет | © Narodna skupština Republike Srbije | — | accessed | 8 |
+| [Архив Воеводины — портал Archivum](https://archivum.arhivvojvodine.org.rs/) | `rs-vojvodina`, `rs-novi-sad` | 1900–2020 | sr, hu, en | archive | да | нет | © Архив Војводине 2019; ISSN 2683-4405 | — | accessed | 5 |
+| [Исторический архив города Нови-Сада — каталог «Нови Сад у ратном вихору 1941–1944»](http://www.arhivns.rs/publikacije/) | `rs-novi-sad` | 1941–1944 | sr, hu | archive | нет | нет | © ИАГНС; PDF в открытом доступе | — | accessed | 4 |
+| [Республиканский статистический институт Сербии (РЗС)](https://www.stat.gov.rs/) | `rs`, `rs-beograd`, `rs-novi-sad`, `rs-subotica` | 1948–2020 | sr, en | statistics | нет | нет | обязательна ссылка на источник («Приликом коришћења података … обавезно је навођење извора») | — | accessed | 4 |
+| [Википедия (сербская)](https://sr.wikipedia.org/) | `rs` | 1900–2020 | sr | encyclopedia | нет | нет | CC BY-SA 4.0 | — | accessed | 3 |
+| [Danas (ежедневная газета, онлайн-архив)](https://www.danas.rs/) | `rs-novi-sad`, `rs-beograd` | 2000–2020 | sr | newspaper | нет | нет | © Danas; только краткий пересказ | — | accessed | 2 |
+| [Культура полиса (научный журнал)](https://kpolisa.com/) | `rs-novi-sad` | 1929–1940 | sr, en | academic | нет | нет | открытый доступ | — | accessed | 2 |
+| [Office of the High Representative — архив обзоров СМИ (SRT News Summary)](https://www.ohr.int/ohr_archive/) | `rs-novi-sad`, `state-yu-fr` | 1996–2006 | en | government | нет | нет | © OHR; общедоступный архив | — | accessed | 2 |
+| [Город Белград — официальный портал beograd.rs](https://www.beograd.rs/) | `rs-beograd` | 2000–2020 | sr | municipal | нет | нет | © Grad Beograd | — | accessed | 1 |
+| [International Charter Space and Major Disasters](https://disasterscharter.org/) | `rs-beograd` | 2014–2014 | en | government | нет | нет | © International Charter | — | accessed | 1 |
+| [European Commission — Press corner и отчёты комиссий](https://ec.europa.eu/commission/presscorner/) | `rs-novi-sad`, `rs` | 2000–2020 | en | government | да | нет | © European Union, повторное использование разрешено (Decision 2011/833/EU) | — | accessed | 1 |
+| [Wikipedia (английская)](https://en.wikipedia.org/) | `rs` | 1900–2020 | en | encyclopedia | нет | нет | CC BY-SA 4.0 | — | accessed | 1 |
+| [Министерство обороны Республики Сербии — новости](https://www.mod.gov.rs/) | `rs` | 2020–2020 | en, sr | government | нет | нет | © МО РС | — | accessed | 1 |
+| [Фонд «Нови Сад — Европейская столица культуры» (публикация официальных отчётов ЕС)](https://novisad2022.rs/) | `rs-novi-sad` | 2016–2022 | en, sr | municipal | нет | нет | условия не указаны; использованы только официальные отчёты ЕС | — | accessed | 1 |
+| [Вечерње новости (онлайн)](https://www.novosti.rs/) | `rs-beograd` | 1970–2020 | sr | newspaper | нет | нет | © Novosti; только краткий пересказ | — | accessed | 1 |
+| [Фестиваль европейского кино Палич](https://www.palicfilmfestival.com/en/profile) | `rs-subotica` | 1992–2020 | en, sr | municipal | нет | нет | © festival | — | accessed | 1 |
+| [Республиканская избирательная комиссия](https://www.rik.parlament.gov.rs/) | `rs` | 2000–2020 | sr | government | нет | нет | официальные документы | — | accessed | 1 |
+| [Университет Нови-Сада (сайт Факультета технических наук)](https://www.ftn.uns.ac.rs/) | `rs-novi-sad` | 1960–2013 | en, sr | academic | нет | нет | © UNS / FTN | — | accessed | 1 |
+| [Цифровая библиотека Матицы сербской (digital.bms.rs)](https://digital.bms.rs/ebiblioteka/) | `rs-novi-sad` | 1900–2020 | sr | library | нет | нет | условия не указаны | — | catalogued | 0 |
+| [Цифровая Народная библиотека Сербии (digitalna.nb.rs)](https://digitalna.nb.rs/) | `rs` | 1900–2020 | sr | library | нет | нет | «Сва права задржана», условия /Terms.jsp | — | catalogued | 0 |
+| [Город Нови-Сад — официальный портал novisad.rs](https://novisad.rs/) | `rs-novi-sad` | 2008–2020 | sr | municipal | нет | нет | © Grad Novi Sad | — | catalogued | 0 |
+| [Город Суботица — официальный портал subotica.rs](https://www.subotica.rs/) | `rs-subotica` | 1900–2020 | sr, hu, hr | municipal | нет | нет | — | — | inaccessible | 0 |
+| [Цифровая библиотека Городской библиотеки Суботицы](https://digitalna.subiblioteka.rs) | `rs-subotica` | 1900–2020 | sr, hu, hr | library | нет | нет | — | — | catalogued | 0 |
 
 ## RU
 
@@ -378,6 +426,7 @@
 | [CDC (Centers for Disease Control and Prevention)](https://www.cdc.gov/) | `us` | 1918–2025 | en | government | не проверено | нет | Public domain (U.S. federal government work) | — | accessed | 7 |
 | [Federal Reserve History](https://www.federalreservehistory.org/) | `us` | 1913–2020 | en | government | не проверено | нет | Federal Reserve History terms; краткий пересказ | — | accessed | 7 |
 | [Legal Information Institute (Cornell Law School)](https://www.law.cornell.edu/) | `us` | 1900–2025 | en | academic | не проверено | нет | Тексты решений Верховного суда — public domain | — | accessed | 5 |
+| [Foreign Relations of the United States (FRUS)](https://history.state.gov/historicaldocuments) | `rs-beograd`, `state-yu`, `rs-vojvodina` | 1900–1988 | en | government | нет | нет | public domain (US Government work) | — | accessed | 4 |
 | [The Marietta Times](https://www.mariettatimes.com/) | `us-marietta`, `us-oh-washington` | 1913–2023 | en | newspaper | не проверено | нет | © Marietta Times; только пересказ | — | accessed | 4 |
 | [U.S. Equal Employment Opportunity Commission — Statutes](https://www.eeoc.gov/) | `us` | 1963–2025 | en | government | не проверено | нет | Public domain (U.S. federal government work) | — | accessed | 2 |
 | [Chicago Department of Aviation: история аэропортов О’Хара и Мидуэй](https://www.flychicago.com/business/CDA/Pages/default.aspx) | `us-chicago` | 1926–2025 | en | municipal | не проверено | нет | Сайт городского департамента; только ссылка и собственный пересказ | — | accessed | 2 |
@@ -398,6 +447,7 @@
 | [Walter P. Reuther Library of Labor and Urban Affairs](https://reuther.wayne.edu/) | `us-detroit`, `us-mi` | 1900–2025 | en | archive | не проверено | нет | Описания фондов; права на материалы — по условиям библиотеки, только ссылка и собственный пересказ | — | accessed | 1 |
 | [Ohio Railroad Stations Past & Present — Holmes County](https://west2k.com/ohstations/holmes.shtml) | `us-oh-holmes` | 1850–2025 | en | other | не проверено | нет | © владельца сайта; только пересказ | — | accessed | 1 |
 | [Amish Studies — Young Center for Anabaptist and Pietist Studies](https://groups.etown.edu/amishstudies/) | `us-oh-holmes` | 1991–2024 | en | academic | не проверено | нет | © Elizabethtown College; статистика с атрибуцией | — | accessed | 1 |
+| [Chronicling America (Library of Congress)](https://www.loc.gov/collections/chronicling-america/) | `rs-beograd` | 1900–2020 | en | newspaper_archive | нет | нет | public domain | — | inaccessible | 0 |
 | [Encyclopaedia Britannica](https://www.britannica.com/) | `us` | 1900–2025 | en | encyclopedia | не проверено | нет | © Britannica | 403 для автоматизированного доступа | inaccessible | 0 |
 | [Encyclopedia of Chicago](http://www.encyclopedia.chicagohistory.org/) | `us-chicago` | 1673–2005 | en | encyclopedia | не проверено | нет | © Chicago Historical Society | — | inaccessible | 0 |
 | [U.S. Department of Labor](https://www.dol.gov/) | `us` | 1913–2025 | en | government | не проверено | нет | Public domain | — | catalogued | 0 |
@@ -411,4 +461,4 @@
 
 | Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
 |---|---|---|---|---|---|---|---|---|---|---:|
-| [Wikidata](https://www.wikidata.org/) | — | 1900–2025 | — | api | не проверено | да | CC0 1.0 | User-Agent policy and rate limits of the Wikidata Query Service | accessed | 0 |
+| [Wikidata](https://www.wikidata.org/) | — | 1900–2025 | — | api | не проверено | да | CC0 1.0 | User-Agent policy and rate limits of the Wikidata Query Service | accessed | 4 |

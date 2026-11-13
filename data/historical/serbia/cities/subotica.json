@@ -1,0 +1,689 @@
+{
+ "records": [
+  {
+   "id": "rs-subotica-1904-sandor-annexed",
+   "title": "Село Шандор (Александрово) присоединено к Суботице",
+   "title_en": "Sándor (Aleksandrovo) joined to Subotica",
+   "title_original": null,
+   "start_date": "1904-08-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "Венгерский закон 1904:XIX (обнародован 30 августа 1904 г.) передал село Шандор (ныне Александрово) из медье Бач-Бодрог в административное ведение свободного королевского города Сабадки (Суботицы), а с 1906 г. — и в его избирательный округ.",
+   "historical_summary_en": "Hungarian Act XIX of 1904 (promulgated on 30 August 1904) transferred the village of Sándor (today Aleksandrovo) from Bács-Bodrog County to the administration of the royal free city of Szabadka (Subotica), and from 1906 to its parliamentary constituency as well.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_jogtar"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_jogtar",
+     "url": "https://net.jogtar.hu/ezer-ev-torveny?docid=90400019.TV",
+     "accessed": "2026-11-13",
+     "supports": "1904:XIX §1 «Sándor község Bács-Bodrog vármegyéből Szabadka sz. kir. városba közigazgatásilag átkebeleztetik»; §2 с 1.01.1906; обнародован 30.08.1904",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "1904. évi XIX. törvénycikk Sándor község közigazgatási és országgyülési képviselő-választókerületi átkebelezéséről",
+     "document_date": "1904-08-30",
+     "archive_identifier": "1904. évi XIX. tc."
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1907-city-hall-competition",
+   "title": "Конкурс на новую ратушу Суботицы",
+   "title_en": "Competition for Subotica's new City Hall",
+   "title_original": null,
+   "start_date": "1907-01-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "21 января 1907 г. из десяти работ, поступивших на конкурс проекта новой ратуши Суботицы, лучшей была признана работа будапештских архитекторов Марцела Комора и Дежё Якаба; к октябрю 1908 г. старая ратуша и здание бывшей гимназии были снесены.",
+   "historical_summary_en": "On 21 January 1907, of the ten entries in the competition for Subotica's new City Hall, the design by the Budapest architects Marcell Komor and Dezső Jakab was chosen; by October 1908 the old city hall and the former gymnasium building had been demolished.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_hall_tower"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/suboticke-gradske-kuce.pdf",
+     "accessed": "2026-11-13",
+     "supports": "каталог «Суботичке градске куће» (2010), экспонаты 16–17: ИАС, Ф:2. XV-87/1906 и XV-164/1908",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Gradsko veće Subotica, predmet o izgradnji Gradske kuće (konkurs, 21. 1. 1907)",
+     "document_date": "1907-01-21",
+     "archive_identifier": "IAS, F:2. XV-87/1906; XV-164/1908"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1908-railway-licence",
+   "title": "Разрешение на дорогу Суботица — Гомбош — Паланка",
+   "title_en": "Licence for the Subotica–Gombos–Palánka railway",
+   "title_original": null,
+   "start_date": "1908-02-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "Закон 1908:IV (обнародован 5 февраля 1908 г.) разрешил местную паровую железную дорогу от станции Сабадка (Суботица) через Цервенку и Ходшаг до Уйгомбоша с ответвлением на Уйпаланку и подъездным путём к Дунаю.",
+   "historical_summary_en": "Act IV of 1908 (promulgated on 5 February 1908) licensed a local steam railway from Szabadka (Subotica) station via Cservenka and Hódság to Újgombos, with a branch to Újpalánka and a siding to the Danube bank.",
+   "affected_groups": [
+    "agricultural_workers",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_to_market"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_jogtar"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_jogtar",
+     "url": "https://net.jogtar.hu/ezer-ev-torveny?docid=90800004.TV",
+     "accessed": "2026-11-13",
+     "supports": "1908:IV a szabadka-gombos-palánkai helyi érdekü gőzüzemü vasut engedélyezéséről; санкц. 2.02.1908, обнар. 5.02.1908",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "1908. évi IV. törvénycikk a szabadka-gombos-palánkai helyi érdekü gőzüzemü vasut engedélyezéséről",
+     "document_date": "1908-02-05",
+     "archive_identifier": "1908. évi IV. tc."
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1908-gas-street-lighting",
+   "title": "План газового уличного освещения Суботицы",
+   "title_en": "Plan for gas street lighting in Subotica",
+   "title_original": null,
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1908 г. был составлен план общественного газового освещения улиц свободного королевского города Суботицы (автор А. Беринер); строившуюся ратушу дорисовали на карту позднее.",
+   "historical_summary_en": "In 1908 a plan for public gas lighting of the streets of the royal free city of Subotica was drawn up (by A. Beeriner); the City Hall then under construction was added to the map later.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "lamplighter_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "каталог «Суботица на старим картама и мапама» (2011): 1908. Plan javnog gasnog osvetljenja slobodnog kraljevskog grada Subotice, autor A. Beriner; IAS F:3.1.1.13",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Plan javnog gasnog osvetljenja slobodnog kraljevskog grada Subotice",
+     "document_date": "1908",
+     "archive_identifier": "IAS, F:3.1.1.13"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1912-city-hall-opened",
+   "title": "Торжественное открытие ратуши Суботицы",
+   "title_en": "Subotica City Hall inaugurated",
+   "title_original": null,
+   "start_date": "1912-09-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "Новая ратуша Суботицы в стиле венгерского сецессиона (длина 105 м, башня 76 м) была возведена в 1908–1910 гг., а 15 сентября 1912 г., после завершения отделки интерьеров, торжественным заседанием городской скупщины состоялось её открытие. Строительные работы получили местные мелкие предприниматели.",
+   "historical_summary_en": "Subotica's new City Hall in the Hungarian Secession style (105 m long, with a 76 m tower) was built in 1908–1910, and on 15 September 1912, once the interiors were finished, it was inaugurated with a ceremonial session of the city assembly. Local small businesses were given the building work.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_hall_tower",
+    "wedding_at_city_hall"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/suboticke-gradske-kuce.pdf",
+     "accessed": "2026-11-13",
+     "supports": "экспонат 30: Позив на свечану седницу Скупштине поводом отварања Градске куће (15. септембар 1912), IAS F:2 XV-87/1906; экспонат 31: фото освящения и открытия (стр. 27 каталога)",
+     "primary": true,
+     "primary_type": "municipal_record",
+     "document_title": "Meghívó a városi székház felavató-díszközgyűlésére, 1912. szeptember 15.",
+     "document_date": "1912-09-15",
+     "archive_identifier": "IAS, F:2. XV-87/1906"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1920-street-renaming",
+   "title": "Новые названия улиц и новая граница",
+   "title_en": "New street names and a new border",
+   "title_original": null,
+   "start_date": "1920",
+   "end_date": "1921",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1920 г., после перехода города в Королевство СХС и определения границы с Венгрией, все улицы восьми кварталов Суботицы получили новые названия; в 1921 г. инженеры Коста Петрович и Отон Томандл составили новую карту города с названиями улиц.",
+   "historical_summary_en": "In 1920, after the city passed to the Kingdom of Serbs, Croats and Slovenes and the border with Hungary was defined, all the streets of Subotica's eight quarters were given new names; in 1921 the engineers Kosta Petrović and Oton Tomandl drew a new city map with the street names.",
+   "affected_groups": [
+    "urban_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [
+    "new_state_new_language",
+    "street_names_changed"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "1920: Granični pojas između Mađarske i Kraljevine SHS; sve ulice od I–VIII kvarta dobile nove nazive; 1921: karta, Petrović i Tomandl, IAS F:003, 3.2.2.17",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Karta grada Subotice sa nazivima ulica i označenim kvartovima (inž. Petrović i inž. Tomandl)",
+     "document_date": "1921",
+     "archive_identifier": "IAS, F:003, 3.2.2.17"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1923-boundary-change",
+   "title": "Изменение городской границы Суботицы",
+   "title_en": "Change to Subotica's city boundary",
+   "title_original": null,
+   "start_date": "1923",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1923 г. на карту территории Суботицы были нанесены изменения граничной линии города, связанные с новой государственной границей.",
+   "historical_summary_en": "In 1923 changes to the city's boundary line, connected with the new state border, were entered on the map of Subotica's territory.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "Karta Subotice sa teritorijem na koju su naknadno unete promene granične linije u 1923. godini, IAS F:047, I-183/1923",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Karta Subotice sa teritorijem (promene granične linije 1923)",
+     "document_date": "1923",
+     "archive_identifier": "IAS, F:047, I-183/1923"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1934-building-zones",
+   "title": "Строительные зоны Суботицы",
+   "title_en": "Subotica building zones",
+   "title_original": null,
+   "start_date": "1934",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "В 1934 г. городское строительное управление Суботицы определило внутреннюю и внешнюю строительные зоны и защитный пояс города и составило план использования строительных материалов по зонам.",
+   "historical_summary_en": "In 1934 Subotica's municipal building department defined the inner and outer building zones and the protective belt of the city and drew up a plan for the use of building materials by zone.",
+   "affected_groups": [
+    "homeowners",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "building_a_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "1934: Plan o upotrebi građevinskog materijala po zonama; Karta užeg i šireg građevinskog reona i zaštitnog pojasa grada Subotica, inž. Petrović, inž. Tomandl, IAS F:003, 3.3.1.21",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Karta užeg i šireg građevinskog reona i zaštitnog pojasa grada Subotica",
+     "document_date": "1934",
+     "archive_identifier": "IAS, F:003, 3.3.1.21"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1944-allied-bombing",
+   "title": "Бомбардировки Суботицы в 1944 году",
+   "title_en": "Bombing of Subotica in 1944",
+   "title_original": null,
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "Летом и в начале осени 1944 г. Суботица подвергалась налётам авиации союзников; городские власти нанесли на карту места падения разорвавшихся и неразорвавшихся бомб и повреждённые кварталы.",
+   "historical_summary_en": "In the summer and early autumn of 1944 Subotica was bombed by Allied aircraft; the city authorities marked on a map where bombs had exploded or failed to explode and which blocks were damaged.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "1944: karta savezničkog bombardovanja Subotice u leto i početkom jeseni 1944; IAS F:003, 3.2.1.71",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Karta sa prikazom bačenih bombi iz aviona i oštećenih blokova zgrada u 1944.–1945.",
+     "document_date": "1944",
+     "archive_identifier": "IAS, F:003, 3.2.1.71"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1954-palic-resort",
+   "title": "Благоустройство курорта на озере Палич",
+   "title_en": "Improving the Palić lakeside resort",
+   "title_original": null,
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1950-е гг. на озере Палич благоустраивали берег, парки и спортивные площадки; в 1954 г. для Туристско-рыболовного общества «Палич-Суботица» был составлен план дачного посёлка вдоль берега озера.",
+   "historical_summary_en": "In the 1950s the shore, parks and sports grounds at Lake Palić were improved; in 1954 a plan for a holiday settlement along the lakeshore was drawn up for the Palić-Subotica Tourist and Fishing Association.",
+   "affected_groups": [
+    "urban_residents",
+    "children",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_at_the_lake",
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "1954: Situacija letovališta uz obalu Palićkog jezera za TRU „Palić-Subotica”, K. Hofman, IAS F:068, V-1968/1954; pedesetih godina uređuje se obala, parkovi i sportski tereni",
+     "primary": true,
+     "primary_type": "map",
+     "document_title": "Situacija letovališta projektovanog uz obalu Palićkog jezera",
+     "document_date": "1954",
+     "archive_identifier": "IAS, F:068, V-1968/1954"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1960-tito-visit",
+   "title": "Визит Тито в Суботицу",
+   "title_en": "Tito visits Subotica",
+   "title_original": null,
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В 1960 г. Суботицу посетил президент Югославии Иосип Броз Тито; горожане встречали его у ратуши, фотографии визита опубликовала газета «Суботичке новине».",
+   "historical_summary_en": "In 1960 Yugoslav President Josip Broz Tito visited Subotica; residents greeted him by the City Hall, and the newspaper Subotičke novine published photographs of the visit.",
+   "affected_groups": [
+    "urban_residents",
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "greeting_tito"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/suboticke-gradske-kuce.pdf",
+     "accessed": "2026-11-13",
+     "supports": "экспонат 47: Фотографије боравка Јосипа Броза Тита у Суботици („Суботичке новине“ бр. 22/1960 и 24/1960); текст: у Градске куће дочекују Тита"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1966-city-hall-monument",
+   "title": "Ратуша объявлена памятником культуры",
+   "title_en": "City Hall declared a cultural monument",
+   "title_original": null,
+   "start_date": "1966-10-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "15 октября 1966 г. ратуша Суботицы была объявлена памятником культуры актом Краевого института охраны памятников культуры в Нови-Саде; в 1967 г. для администрации построили новое здание, а историческая ратуша некоторое время служила Домом культуры.",
+   "historical_summary_en": "On 15 October 1966 Subotica's City Hall was declared a cultural monument by act of the Provincial Institute for the Protection of Cultural Monuments in Novi Sad; in 1967 a new building was built for the administration, and the historic City Hall served for a time as a House of Culture.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "concert_in_city_hall"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/suboticke-gradske-kuce.pdf",
+     "accessed": "2026-11-13",
+     "supports": "текст каталога: 15. октобар 1966 проглашена СПОМЕНИКОМ КУЛТУРЕ; экспонат 45: нова Градска кућа изграђена 1967, IAS F:468, F:180"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-1992-palic-film-festival",
+   "title": "Кинофестиваль на Паличе",
+   "title_en": "Palić film festival",
+   "title_original": null,
+   "start_date": "1992",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1992 г. муниципалитет Суботицы основал кинофестиваль на Паличе; с десятого фестиваля в 2003 г. он стал Фестивалем европейского кино.",
+   "historical_summary_en": "In 1992 the Municipality of Subotica founded the film festival at Palić; with its tenth edition in 2003 it became the European Film Festival.",
+   "affected_groups": [
+    "young_adults",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "open_air_cinema",
+    "summer_at_the_lake"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_palic_festival"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_palic_festival",
+     "url": "https://www.palicfilmfestival.com/en/profile",
+     "accessed": "2026-11-13",
+     "supports": "founded in 1992 by the Municipality of Subotica; 2003, 10th edition — European Film Festival"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-subotica-2018-synagogue-reopened",
+   "title": "Открытие отреставрированной синагоги Суботицы",
+   "title_en": "Restored Subotica synagogue inaugurated",
+   "title_original": null,
+   "start_date": "2018-03-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "rs-subotica"
+   ],
+   "category": "religion",
+   "subcategory": null,
+   "historical_summary": "26 марта 2018 г. в Суботице состоялось открытие отреставрированной синагоги в стиле сецессиона, восстановленной при финансировании правительств Венгрии и Сербии.",
+   "historical_summary_en": "On 26 March 2018 the restored Art Nouveau synagogue in Subotica was inaugurated after a restoration funded by the governments of Hungary and Serbia.",
+   "affected_groups": [
+    "jewish_population",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "concert_in_synagogue"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_hu_pm"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_hu_pm",
+     "url": "https://2015-2022.miniszterelnok.hu/?p=10229",
+     "accessed": "2026-11-13",
+     "supports": "Viktor Orbán's speech at the inauguration of the renovated synagogue in Subotica/Szabadka, 26 March 2018",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "Viktor Orbán's speech at the inauguration of the renovated synagogue in Subotica/Szabadka",
+     "document_date": "2018-03-26",
+     "archive_identifier": "miniszterelnok.hu ?p=10229"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

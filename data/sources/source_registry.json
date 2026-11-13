@@ -7488,6 +7488,1476 @@
       }
     },
     {
+      "source_id": "rs_iab",
+      "name": "Исторический архив Белграда — постоянная онлайн-экспозиция «Векови Београда»",
+      "publisher": "Историјски архив Београда",
+      "country": "RS",
+      "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka.html",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1965
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Историјски архив Београда 2015; документы показаны для просмотра, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Онлайн-версия постоянной выставки архива: тематические страницы с текстом архивистов (вторичный пересказ) и изображениями единиц хранения с каталожными номерами (кат. бр.) и датами. Изображения документов/фотографий эпохи считаются первичным доказательством; пояснительный текст страниц — вторичным. Цифровой репозиторий digitalni.arhiv-beograda.org не отдал содержимого через WebFetch.",
+      "source_type": "archive",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1965
+      }
+    },
+    {
+      "source_id": "rs_ias",
+      "name": "Исторический архив Суботицы — каталоги выставок",
+      "publisher": "Историјски архив Суботица / Szabadkai Történelmi Levéltár",
+      "country": "RS",
+      "url": "http://www.suarhiv.co.rs/ser/o_nama/izlozbe",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2017
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Историјски архив Суботица; PDF-каталоги в открытом доступе",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Каталоги «Суботичке градске куће» (2010) и «Суботица на старим картама и мапама» (2011) с репродукциями и перечнем экспонатов с шифрами (IAS, F:2, F:3, F:47, F:68, F:275 и др.). Текст извлечён pdftotext; страницы с репродукциями просмотрены. Виртуальная выставка «Наших првих 70 година» (2017).",
+      "source_type": "archive",
+      "languages": [
+        "sr",
+        "hu",
+        "hr"
+      ],
+      "location_ids": [
+        "rs-subotica"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2017
+      }
+    },
+    {
+      "source_id": "rs_iagns",
+      "name": "Исторический архив города Нови-Сада — каталог «Нови Сад у ратном вихору 1941–1944»",
+      "publisher": "Историјски архив Града Новог Сада",
+      "country": "RS",
+      "url": "http://www.arhivns.rs/publikacije/",
+      "historical_coverage": {
+        "from": 1941,
+        "to": 1944
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© ИАГНС; PDF в открытом доступе",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Каталог выставки 2011 г. с перечнем документов фондов Ф. 228, 259, 260, 148 (шифры ИАГНС) без репродукций; используется как архивное описание (вторичное), не как первичное доказательство. Другие каталоги (Нови Сад 1961. године и др.) онлайн не выложены.",
+      "source_type": "archive",
+      "languages": [
+        "sr",
+        "hu"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1941,
+        "to": 1944
+      }
+    },
+    {
+      "source_id": "rs_av",
+      "name": "Архив Воеводины — портал Archivum",
+      "publisher": "Архив Војводине",
+      "country": "RS",
+      "url": "https://archivum.arhivvojvodine.org.rs/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Архив Војводине 2019; ISSN 2683-4405",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Портал Архива Воеводины: статьи архивистов и историков, документы из фондов, материалы выставок (в т. ч. «Први светски рат и присаједињење» 2018). Поиск через WordPress REST API (/wp-json/wp/v2/posts?search=…) проверен. Основной сайт и онлайн-платформы (презентации, виртуальная тура) документов по целевым городам не дали.",
+      "source_type": "archive",
+      "languages": [
+        "sr",
+        "hu",
+        "en"
+      ],
+      "location_ids": [
+        "rs-vojvodina",
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": true,
+        "verified": true,
+        "note": "WordPress REST: /wp-json/wp/v2/posts?search="
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_jogtar",
+      "name": "1000 év törvényei (Corpus Juris Hungarici) — net.jogtar.hu",
+      "publisher": "Wolters Kluwer Hungary",
+      "country": "RS",
+      "url": "https://net.jogtar.hu/ezer-ev-torvenyei",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1944
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "тексты законов — официальные документы; база доступна бесплатно",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Полные тексты венгерских законов (törvénycikk) с датами санкционирования и обнародования; использованы законы 1904–1941 о Бачке, Суботице и Нови-Саде. Первичный источник: официальный текст закона.",
+      "source_type": "government",
+      "languages": [
+        "hu"
+      ],
+      "location_ids": [
+        "rs-bacs-bodrog",
+        "rs-subotica",
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1944
+      }
+    },
+    {
+      "source_id": "rs_frus",
+      "name": "Foreign Relations of the United States (FRUS)",
+      "publisher": "U.S. Department of State, Office of the Historian",
+      "country": "US",
+      "url": "https://history.state.gov/historicaldocuments",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1988
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "public domain (US Government work)",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Опубликованные дипломатические документы: телеграммы миссии в Белграде и др. с номерами файлов. Первичный источник (government_document).",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "rs-beograd",
+        "state-yu",
+        "rs-vojvodina"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1988
+      }
+    },
+    {
+      "source_id": "rs_wikisource",
+      "name": "Викитека на сербском (Викизворник)",
+      "publisher": "Wikimedia Foundation",
+      "country": "RS",
+      "url": "https://sr.wikisource.org/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1992
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA 4.0 (оформление); тексты законов — общественное достояние",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Транскрипции официальных текстов (конституции, прокламации) с указанием исходной публикации (Службене новине, Српске новине, Службени лист). Используются как воспроизведение первичного документа (legal_publication); исторические сочинения на Викитеке — как вторичные. 13.11.2026: тип изменён на other — вики-проект с перепечатками документов, а не архив; в долю архивных ссылок не входит.",
+      "source_type": "other",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "state-yu",
+        "state-rs-kingdom"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1992
+      }
+    },
+    {
+      "source_id": "rs_sr_wikipedia",
+      "name": "Википедия (сербская)",
+      "publisher": "Wikimedia Foundation",
+      "country": "RS",
+      "url": "https://sr.wikipedia.org/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA 4.0",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Только для поиска и как дополнительный вторичный источник; никогда не единственный.",
+      "source_type": "encyclopedia",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_en_wikipedia",
+      "name": "Wikipedia (английская)",
+      "publisher": "Wikimedia Foundation",
+      "country": "RS",
+      "url": "https://en.wikipedia.org/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA 4.0",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Только для поиска и как дополнительный вторичный источник; никогда не единственный.",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "rs"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_ohr",
+      "name": "Office of the High Representative — архив обзоров СМИ (SRT News Summary)",
+      "publisher": "Office of the High Representative (Sarajevo)",
+      "country": "RS",
+      "url": "https://www.ohr.int/ohr_archive/",
+      "historical_coverage": {
+        "from": 1996,
+        "to": 2006
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© OHR; общедоступный архив",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Ежедневные обзоры новостей сербского/боснийского ТВ 1996–2000-х, составлявшиеся в момент событий; используются как современный событиям документ (administrative_report).",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "rs-novi-sad",
+        "state-yu-fr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1996,
+        "to": 2006
+      }
+    },
+    {
+      "source_id": "rs_ec",
+      "name": "European Commission — Press corner и отчёты комиссий",
+      "publisher": "European Commission",
+      "country": "RS",
+      "url": "https://ec.europa.eu/commission/presscorner/",
+      "historical_coverage": {
+        "from": 2000,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© European Union, повторное использование разрешено (Decision 2011/833/EU)",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Пресс-релизы Комиссии (через api/documents) и официальные отчёты экспертных комиссий ЕС.",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "rs-novi-sad",
+        "rs"
+      ],
+      "api": {
+        "available": true,
+        "verified": true,
+        "note": "presscorner/api/documents?reference=… отдаёт текст пресс-релиза"
+      },
+      "years": {
+        "from": 2000,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_novisad2022",
+      "name": "Фонд «Нови Сад — Европейская столица культуры» (публикация официальных отчётов ЕС)",
+      "publisher": "Fondacija Novi Sad 2021/2022",
+      "country": "RS",
+      "url": "https://novisad2022.rs/",
+      "historical_coverage": {
+        "from": 2016,
+        "to": 2022
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "условия не указаны; использованы только официальные отчёты ЕС",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Сайт фонда города хранит PDF отчётов отборочной комиссии ЕС (Selection Panel report, ноябрь 2016).",
+      "source_type": "municipal",
+      "languages": [
+        "en",
+        "sr"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2016,
+        "to": 2022
+      }
+    },
+    {
+      "source_id": "rs_danas",
+      "name": "Danas (ежедневная газета, онлайн-архив)",
+      "publisher": "Dan Graf d.o.o., Beograd",
+      "country": "RS",
+      "url": "https://www.danas.rs/",
+      "historical_coverage": {
+        "from": 2000,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Danas; только краткий пересказ",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Современные событиям статьи (2000–2020) как contemporary_newspaper.",
+      "source_type": "newspaper",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-novi-sad",
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2000,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_rzs",
+      "name": "Республиканский статистический институт Сербии (РЗС)",
+      "publisher": "Републички завод за статистику",
+      "country": "RS",
+      "url": "https://www.stat.gov.rs/",
+      "historical_coverage": {
+        "from": 1948,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "обязательна ссылка на источник («Приликом коришћења података … обавезно је навођење извора»)",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Публикации переписей (publikacije.stat.gov.rs, pod2.stat.gov.rs), PDF. Книга 20 переписи 2011: сравнительный обзор численности населения 1948–2011 по населённым пунктам.",
+      "source_type": "statistics",
+      "languages": [
+        "sr",
+        "en"
+      ],
+      "location_ids": [
+        "rs",
+        "rs-beograd",
+        "rs-novi-sad",
+        "rs-subotica"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1948,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_beograd_city",
+      "name": "Город Белград — официальный портал beograd.rs",
+      "publisher": "Grad Beograd",
+      "country": "RS",
+      "url": "https://www.beograd.rs/",
+      "historical_coverage": {
+        "from": 2000,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Grad Beograd",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Новости городской администрации с датами (с 2000-х), рубрика «Београдска ризница» (ретроспективные статьи, вторичные).",
+      "source_type": "municipal",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2000,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_novisad_city",
+      "name": "Город Нови-Сад — официальный портал novisad.rs",
+      "publisher": "Grad Novi Sad",
+      "country": "RS",
+      "url": "https://novisad.rs/",
+      "historical_coverage": {
+        "from": 2008,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Grad Novi Sad",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "accessed": "2026-11-13",
+      "notes": "Портал с архивом новостей (/archive, /news/2012); отдельные материалы в этом раунде не использованы.",
+      "source_type": "municipal",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2008,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_subotica_city",
+      "name": "Город Суботица — официальный портал subotica.rs",
+      "publisher": "Grad Subotica",
+      "country": "RS",
+      "url": "https://www.subotica.rs/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "—",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "inaccessible",
+      "accessed": "2026-11-13",
+      "notes": "13.11.2026: сертификат сайта просрочен, WebFetch отказался открывать страницу; не обходилось.",
+      "source_type": "municipal",
+      "languages": [
+        "sr",
+        "hu",
+        "hr"
+      ],
+      "location_ids": [
+        "rs-subotica"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_nbs_digital",
+      "name": "Цифровая Народная библиотека Сербии (digitalna.nb.rs)",
+      "publisher": "Народна библиотека Србије",
+      "country": "RS",
+      "url": "https://digitalna.nb.rs/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "«Сва права задржана», условия /Terms.jsp",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "accessed": "2026-11-13",
+      "notes": "Главная страница открыта; раздел газет (Politika и др.) не ответил за 60 с. Оцифрованная «Политика» 1904–1941 временно снималась с доступа по требованию издателя (сообщения Danas). Страницы — изображения без текстового слоя для WebFetch.",
+      "source_type": "library",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_bms_digital",
+      "name": "Цифровая библиотека Матицы сербской (digital.bms.rs)",
+      "publisher": "Библиотека Матице српске",
+      "country": "RS",
+      "url": "https://digital.bms.rs/ebiblioteka/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "условия не указаны",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "accessed": "2026-11-13",
+      "notes": "Газеты «Застава» (Нови-Сад, 1866–1929), «Браник» (1885–1914) и др. доступны только в постраничном просмотрщике (изображения); в этом раунде не прочитаны.",
+      "source_type": "library",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_loc_chronam",
+      "name": "Chronicling America (Library of Congress)",
+      "publisher": "Library of Congress",
+      "country": "US",
+      "url": "https://www.loc.gov/collections/chronicling-america/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "public domain",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "inaccessible",
+      "accessed": "2026-11-13",
+      "notes": "13.11.2026: поиск вернул 403 Forbidden; не обходилось.",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_hungaricana",
+      "name": "Hungaricana",
+      "publisher": "Hungarian public collections portal",
+      "country": "HU",
+      "url": "https://hungaricana.hu/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "—",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "inaccessible",
+      "accessed": "2026-11-13",
+      "notes": "13.11.2026: 403 Forbidden на поиске; не обходилось.",
+      "source_type": "library",
+      "languages": [
+        "hu"
+      ],
+      "location_ids": [
+        "rs-subotica",
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_arcanum",
+      "name": "Arcanum Digitheca (ADT)",
+      "publisher": "Arcanum Adatbázis Kft.",
+      "country": "HU",
+      "url": "https://adt.arcanum.com/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "платная подписка",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "inaccessible",
+      "accessed": "2026-11-13",
+      "notes": "Платный доступ к венгерской прессе (Bácsmegyei Napló, Délmagyarország и др.); по условию задания не использовался.",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "hu"
+      ],
+      "location_ids": [
+        "rs-subotica",
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_anno",
+      "name": "ANNO — AustriaN Newspapers Online",
+      "publisher": "Österreichische Nationalbibliothek",
+      "country": "AT",
+      "url": "https://anno.onb.ac.at/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "—",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "inaccessible",
+      "accessed": "2026-11-13",
+      "notes": "13.11.2026: страница выдаёт проверку на бота (Sicherheitsüberprüfung); не обходилось.",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "de"
+      ],
+      "location_ids": [
+        "rs-novi-sad",
+        "rs-subotica",
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_gallica",
+      "name": "Gallica",
+      "publisher": "Bibliothèque nationale de France",
+      "country": "FR",
+      "url": "https://gallica.bnf.fr/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "—",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "inaccessible",
+      "accessed": "2026-11-13",
+      "notes": "13.11.2026: SRU-поиск вернул 403; не обходилось.",
+      "source_type": "library",
+      "languages": [
+        "fr"
+      ],
+      "location_ids": [
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_subotica_library",
+      "name": "Цифровая библиотека Городской библиотеки Суботицы",
+      "publisher": "Gradska biblioteka Subotica",
+      "country": "RS",
+      "url": "https://digitalna.subiblioteka.rs",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "—",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "accessed": "2026-11-13",
+      "notes": "Сайт-приложение на JavaScript, WebFetch видит только заголовок; оцифрованная местная периодика (в т. ч., вероятно, Bácsmegyei Napló, Neven) не проверена.",
+      "source_type": "library",
+      "languages": [
+        "sr",
+        "hu",
+        "hr"
+      ],
+      "location_ids": [
+        "rs-subotica"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_parlament",
+      "name": "Народная скупштина Республики Сербии — история парламента",
+      "publisher": "Народна скупштина Републике Србије",
+      "country": "RS",
+      "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+      "historical_coverage": {
+        "from": 1944,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Narodna skupština Republike Srbije",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Официальная история парламента после 1944 г.: даты конституций, выборов, созывов.",
+      "source_type": "government",
+      "languages": [
+        "en",
+        "sr"
+      ],
+      "location_ids": [
+        "rs-republic",
+        "rs",
+        "state-yu"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1944,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_rik",
+      "name": "Республиканская избирательная комиссия",
+      "publisher": "Републичка изборна комисија",
+      "country": "RS",
+      "url": "https://www.rik.parlament.gov.rs/",
+      "historical_coverage": {
+        "from": 2000,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "официальные документы",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Страницы о выборах с датами голосования.",
+      "source_type": "government",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2000,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_mod",
+      "name": "Министерство обороны Республики Сербии — новости",
+      "publisher": "Министарство одбране Републике Србије",
+      "country": "RS",
+      "url": "https://www.mod.gov.rs/",
+      "historical_coverage": {
+        "from": 2020,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© МО РС",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Официальная новость о введении чрезвычайного положения 15.03.2020.",
+      "source_type": "government",
+      "languages": [
+        "en",
+        "sr"
+      ],
+      "location_ids": [
+        "rs"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2020,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_uns",
+      "name": "Университет Нови-Сада (сайт Факультета технических наук)",
+      "publisher": "Универзитет у Новом Саду",
+      "country": "RS",
+      "url": "https://www.ftn.uns.ac.rs/",
+      "historical_coverage": {
+        "from": 1960,
+        "to": 2013
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© UNS / FTN",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Официальная справка о государственном университете (дата основания 28.06.1960, кампус).",
+      "source_type": "academic",
+      "languages": [
+        "en",
+        "sr"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1960,
+        "to": 2013
+      }
+    },
+    {
+      "source_id": "rs_kpolisa",
+      "name": "Культура полиса (научный журнал)",
+      "publisher": "Kultura – Akademska zajednica, Novi Sad",
+      "country": "RS",
+      "url": "https://kpolisa.com/",
+      "historical_coverage": {
+        "from": 1929,
+        "to": 1940
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "открытый доступ",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Научные статьи с рецензированием; использована аннотация статьи П. Ваягича о строительстве дворца Дунайской бановины (2019).",
+      "source_type": "academic",
+      "languages": [
+        "sr",
+        "en"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1929,
+        "to": 1940
+      }
+    },
+    {
+      "source_id": "rs_palic_festival",
+      "name": "Фестиваль европейского кино Палич",
+      "publisher": "Festival evropskog filma Palić (основатель — Город Суботица)",
+      "country": "RS",
+      "url": "https://www.palicfilmfestival.com/en/profile",
+      "historical_coverage": {
+        "from": 1992,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© festival",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Официальный профиль городского фестиваля: основан в 1992 г. муниципалитетом Суботицы.",
+      "source_type": "municipal",
+      "languages": [
+        "en",
+        "sr"
+      ],
+      "location_ids": [
+        "rs-subotica"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1992,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "rs_hu_pm",
+      "name": "Канцелярия премьер-министра Венгрии (архив 2015–2022)",
+      "publisher": "Miniszterelnöki Kabinetiroda",
+      "country": "HU",
+      "url": "https://2015-2022.miniszterelnok.hu/",
+      "historical_coverage": {
+        "from": 2018,
+        "to": 2018
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Government of Hungary",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Текст речи на открытии отреставрированной синагоги в Суботице 26.03.2018.",
+      "source_type": "government",
+      "languages": [
+        "en",
+        "hu"
+      ],
+      "location_ids": [
+        "rs-subotica"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2018,
+        "to": 2018
+      }
+    },
+    {
+      "source_id": "rs_disasters_charter",
+      "name": "International Charter Space and Major Disasters",
+      "publisher": "International Charter (космические агентства-участники)",
+      "country": "RS",
+      "url": "https://disasterscharter.org/",
+      "historical_coverage": {
+        "from": 2014,
+        "to": 2014
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© International Charter",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Карточка активации по наводнению в Сербии (май 2014).",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2014,
+        "to": 2014
+      }
+    },
+    {
+      "source_id": "rs_021",
+      "name": "021.rs — новосадский новостной портал",
+      "publisher": "021 d.o.o., Novi Sad",
+      "country": "RS",
+      "url": "https://www.021.rs/",
+      "historical_coverage": {
+        "from": 1981,
+        "to": 2023
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© 021.rs; только краткий пересказ",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Местные новости, в т. ч. перепечатки BBC News на сербском; ретроспективные статьи — вторичные.",
+      "source_type": "newspaper",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-novi-sad"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1981,
+        "to": 2023
+      }
+    },
+    {
+      "source_id": "rs_novosti",
+      "name": "Вечерње новости (онлайн)",
+      "publisher": "Novosti a.d., Beograd",
+      "country": "RS",
+      "url": "https://www.novosti.rs/",
+      "historical_coverage": {
+        "from": 1970,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "RS"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© Novosti; только краткий пересказ",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "accessed": "2026-11-13",
+      "notes": "Ретроспективные статьи о Белграде (вторичные).",
+      "source_type": "newspaper",
+      "languages": [
+        "sr"
+      ],
+      "location_ids": [
+        "rs-beograd"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1970,
+        "to": 2020
+      }
+    },
+    {
       "source_id": "ru_wikipedia",
       "name": "Русская Википедия",
       "publisher": "Wikimedia Foundation",

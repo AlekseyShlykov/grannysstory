@@ -923,6 +923,115 @@
         "Оттоманская Порта"
       ]
     },
+    "state-yu": {
+      "local": [
+        {
+          "name": "Kraljevstvo Srba, Hrvata i Slovenaca",
+          "lang": "sh",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "name": "Kraljevina Jugoslavija",
+          "lang": "sh",
+          "from": "1929-10-03",
+          "to": "1945-11-28"
+        },
+        {
+          "name": "Federativna Narodna Republika Jugoslavija",
+          "lang": "sh",
+          "from": "1945-11-29",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Socijalistička Federativna Republika Jugoslavija",
+          "lang": "sh",
+          "from": "1963-04-07",
+          "to": "1992-04-26"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство сербов, хорватов и словенцев",
+          "locative": "в Королевстве сербов, хорватов и словенцев",
+          "name_en": "Kingdom of Serbs, Croats and Slovenes",
+          "from": "1918-12-01",
+          "to": "1929-10-02",
+          "locative_en": "in the Kingdom of Serbs, Croats and Slovenes"
+        },
+        {
+          "name": "Королевство Югославия",
+          "locative": "в Королевстве Югославия",
+          "name_en": "Kingdom of Yugoslavia",
+          "from": "1929-10-03",
+          "to": "1945-11-28",
+          "locative_en": "in the Kingdom of Yugoslavia"
+        },
+        {
+          "name": "Федеративная Народная Республика Югославия",
+          "locative": "в Федеративной Народной Республике Югославии",
+          "name_en": "Federal People's Republic of Yugoslavia",
+          "from": "1945-11-29",
+          "to": "1963-04-06",
+          "locative_en": "in the Federal People's Republic of Yugoslavia"
+        },
+        {
+          "name": "Социалистическая Федеративная Республика Югославия",
+          "locative": "в Социалистической Федеративной Республике Югославии",
+          "name_en": "Socialist Federal Republic of Yugoslavia",
+          "from": "1963-04-07",
+          "to": "1992-04-26",
+          "locative_en": "in the Socialist Federal Republic of Yugoslavia"
+        }
+      ],
+      "alt": [
+        "Yugoslavia",
+        "Југославија",
+        "Kingdom of Yugoslavia (Q191077)",
+        "SFR Yugoslavia (Q83286)",
+        "Kingdom SCS (Q15102440)"
+      ]
+    },
+    "state-yu-fr": {
+      "local": [
+        {
+          "name": "Savezna Republika Jugoslavija",
+          "lang": "sr",
+          "from": "1992-04-27",
+          "to": "2003-02-03"
+        },
+        {
+          "name": "Srbija i Crna Gora",
+          "lang": "sr",
+          "from": "2003-02-04",
+          "to": "2006-06-04"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Союзная Республика Югославия",
+          "locative": "в Союзной Республике Югославии",
+          "name_en": "Federal Republic of Yugoslavia",
+          "from": "1992-04-27",
+          "to": "2003-02-03",
+          "locative_en": "in the Federal Republic of Yugoslavia"
+        },
+        {
+          "name": "Сербия и Черногория",
+          "locative": "в Сербии и Черногории",
+          "name_en": "Serbia and Montenegro",
+          "from": "2003-02-04",
+          "to": "2006-06-04",
+          "locative_en": "in Serbia and Montenegro"
+        }
+      ],
+      "alt": [
+        "СРЈ",
+        "FR Yugoslavia",
+        "Serbia and Montenegro (Q37024)",
+        "Државна заједница Србија и Црна Гора"
+      ]
+    },
     "de": {
       "local": [
         {
@@ -4685,6 +4794,320 @@
       ],
       "alt": [
         "Залипе"
+      ]
+    },
+    "state-rs-kingdom": {
+      "local": [
+        {
+          "name": "Kraljevina Srbija",
+          "lang": "sr",
+          "from": "1882",
+          "to": "1918-11-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Сербия",
+          "locative": "в Королевстве Сербия",
+          "name_en": "Kingdom of Serbia",
+          "from": "1882",
+          "to": "1918-11-30",
+          "locative_en": "in the Kingdom of Serbia"
+        }
+      ],
+      "alt": [
+        "Краљевина Србија",
+        "Kingdom of Serbia"
+      ]
+    },
+    "rs-republic": {
+      "local": [
+        {
+          "name": "Narodna Republika Srbija",
+          "lang": "sr",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Socijalistička Republika Srbija",
+          "lang": "sr",
+          "from": "1963-04-07",
+          "to": "1990-09-27"
+        },
+        {
+          "name": "Republika Srbija",
+          "lang": "sr",
+          "from": "1990-09-28",
+          "to": "2006-06-04"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Народная Республика Сербия",
+          "locative": "в Народной Республике Сербии",
+          "name_en": "People's Republic of Serbia",
+          "from": "1946-01-31",
+          "to": "1963-04-06",
+          "locative_en": "in the People's Republic of Serbia"
+        },
+        {
+          "name": "Социалистическая Республика Сербия",
+          "locative": "в Социалистической Республике Сербии",
+          "name_en": "Socialist Republic of Serbia",
+          "from": "1963-04-07",
+          "to": "1990-09-27",
+          "locative_en": "in the Socialist Republic of Serbia"
+        },
+        {
+          "name": "Республика Сербия",
+          "locative": "в Республике Сербии",
+          "name_en": "Republic of Serbia",
+          "from": "1990-09-28",
+          "to": "2006-06-04",
+          "locative_en": "in the Republic of Serbia"
+        }
+      ],
+      "alt": [
+        "Србија",
+        "Serbia (federal unit)"
+      ]
+    },
+    "rs": {
+      "local": [
+        {
+          "name": "Republika Srbija",
+          "lang": "sr",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сербия",
+          "locative": "в Сербии",
+          "name_en": "Serbia",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Република Србија",
+        "Republic of Serbia"
+      ]
+    },
+    "rs-bacs-bodrog": {
+      "local": [
+        {
+          "name": "Bács-Bodrog vármegye",
+          "lang": "hu",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "name": "Bács-Bodrog vármegye",
+          "lang": "hu",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        }
+      ],
+      "ru": [
+        {
+          "name": "медье Бач-Бодрог",
+          "locative": "в медье Бач-Бодрог",
+          "name_en": "Bács-Bodrog County",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "name": "медье Бач-Бодрог",
+          "locative": "в медье Бач-Бодрог",
+          "name_en": "Bács-Bodrog County",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        }
+      ],
+      "alt": [
+        "Бачко-бодрошка жупанија",
+        "Bačka"
+      ]
+    },
+    "rs-danube-banovina": {
+      "local": [
+        {
+          "name": "Dunavska banovina",
+          "lang": "sr",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Дунайская бановина",
+          "locative": "в Дунайской бановине",
+          "name_en": "Danube Banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        }
+      ],
+      "alt": [
+        "Дунавска бановина"
+      ]
+    },
+    "rs-vojvodina": {
+      "local": [
+        {
+          "name": "Vojvodina",
+          "lang": "sr",
+          "from": "1946-01-31",
+          "to": null
+        },
+        {
+          "name": "Vajdaság",
+          "lang": "hu",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Воеводина",
+          "locative": "в Воеводине",
+          "name_en": "Vojvodina",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Аутономна Покрајина Војводина",
+        "Социјалистичка Аутономна Покрајина Војводина"
+      ]
+    },
+    "rs-beograd": {
+      "local": [
+        {
+          "name": "Beograd",
+          "lang": "sr",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Београд",
+          "lang": "sr-Cyrl",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Белград",
+          "locative": "в Белграде",
+          "name_en": "Belgrade",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Београд",
+        "Belgrade",
+        "Belgrad",
+        "Nándorfehérvár"
+      ]
+    },
+    "rs-novi-sad": {
+      "local": [
+        {
+          "name": "Újvidék",
+          "lang": "hu",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "name": "Novi Sad",
+          "lang": "sr",
+          "from": "1918-11-12",
+          "to": "1941-04-10"
+        },
+        {
+          "name": "Újvidék",
+          "lang": "hu",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        },
+        {
+          "name": "Novi Sad",
+          "lang": "sr",
+          "from": "1944-10-24",
+          "to": null
+        },
+        {
+          "name": "Neusatz",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нови-Сад",
+          "locative": "в Нови-Саде",
+          "name_en": "Novi Sad",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Нови Сад",
+        "Újvidék",
+        "Neusatz",
+        "Neoplanta"
+      ]
+    },
+    "rs-subotica": {
+      "local": [
+        {
+          "name": "Szabadka",
+          "lang": "hu",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "name": "Subotica",
+          "lang": "sr",
+          "from": "1918-11-12",
+          "to": "1941-04-10"
+        },
+        {
+          "name": "Szabadka",
+          "lang": "hu",
+          "from": "1941-04-11",
+          "to": "1944-10-10"
+        },
+        {
+          "name": "Subotica",
+          "lang": "sr",
+          "from": "1944-10-11",
+          "to": null
+        },
+        {
+          "name": "Maria-Theresiopel",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Суботица",
+          "locative": "в Суботице",
+          "name_en": "Subotica",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Суботица",
+        "Szabadka",
+        "Maria-Theresiopel"
       ]
     },
     "ru-gub-moskovskaya": {

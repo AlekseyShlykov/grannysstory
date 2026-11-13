@@ -1,0 +1,308 @@
+{
+ "records": [
+  {
+   "id": "rs-nat-1992-federal-republic-of-yugoslavia",
+   "title": "Образование Союзной Республики Югославия",
+   "title_en": "Formation of the Federal Republic of Yugoslavia",
+   "title_original": null,
+   "start_date": "1992-04-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu-fr"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "27 апреля 1992 г. Сербия и Черногория, оставшиеся после распада СФРЮ, приняли конституцию Союзной Республики Югославия.",
+   "historical_summary_en": "On 27 April 1992 Serbia and Montenegro, the republics remaining after the break-up of the SFRY, adopted the constitution of the Federal Republic of Yugoslavia.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_wikisource",
+    "rs_sr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Савезне_Републике_Југославије_(1992)",
+     "accessed": "2026-11-13",
+     "supports": "конституция СРЮ, ст. 2: республики-члены Сербия и Черногория; вступает в силу в день провозглашения"
+    },
+    {
+     "source_id": "rs_sr_wikipedia",
+     "url": "https://sr.wikipedia.org/wiki/Савезна_Република_Југославија",
+     "accessed": "2026-11-13",
+     "supports": "провозглашение 27.04.1992"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1992-hyperinflation",
+   "title": "Гиперинфляция 1992–1994 годов",
+   "title_en": "Hyperinflation of 1992–1994",
+   "title_original": null,
+   "start_date": "1992-07",
+   "end_date": "1994-01-24",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu-fr"
+   ],
+   "category": "economic_crisis",
+   "subcategory": null,
+   "historical_summary": "С середины 1992 г. до января 1994 г. в СРЮ, находившейся под санкциями ООН, бушевала гиперинфляция: цены росли примерно на 65% в день, удваиваясь каждые 34 часа, в январе 1994 г. — до 113% в день. В 1993 г. выпустили купюру в 500 млрд динаров; с июля 1992 г. по январь 1994 г. динар деноминировали четыре раза.",
+   "historical_summary_en": "From mid-1992 to January 1994 the FRY, under UN sanctions, suffered hyperinflation: prices rose by about 65% a day, doubling every 34 hours, and by up to 113% a day in January 1994. A 500-billion-dinar note was issued in 1993; the dinar was redenominated four times between July 1992 and January 1994.",
+   "affected_groups": [
+    "all_residents",
+    "pensioners",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "savings_lost",
+    "price_shock",
+    "food_shortage",
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "queue_for_bread",
+    "pension_worthless"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/story/BBC/285499/Raspad-Jugoslavije-inflacija-i-dinar-Kada-su-stanovnici-Srbije-bili-milioneri.html",
+     "accessed": "2026-11-13",
+     "supports": "BBC на сербском (021.rs, 22.09.2021): гиперинфляция с середины 1992 до января 1994, ~65%/день, пик ~113%/день, купюра 500 млрд, четыре деноминации"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1994-novi-dinar",
+   "title": "Новый динар 24 января 1994 года",
+   "title_en": "The new dinar of 24 January 1994",
+   "title_original": null,
+   "start_date": "1994-01-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu-fr"
+   ],
+   "category": "economic_crisis",
+   "subcategory": null,
+   "historical_summary": "24 января 1994 г. был введён «новый динар», приравненный к немецкой марке (1:1); программу разработали экономисты во главе с Драгославом Авремовичем, ставшим затем управляющим Народного банка Югославии (1994–1996). Гиперинфляция прекратилась.",
+   "historical_summary_en": "On 24 January 1994 the 'new dinar' was introduced at par with the German mark (1:1); the programme was drawn up by economists led by Dragoslav Avramović, who then became governor of the National Bank of Yugoslavia (1994–1996). Hyperinflation stopped.",
+   "affected_groups": [
+    "all_residents",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "first_stable_salary"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/story/BBC/285499/Raspad-Jugoslavije-inflacija-i-dinar-Kada-su-stanovnici-Srbije-bili-milioneri.html",
+     "accessed": "2026-11-13",
+     "supports": "24.01.1994 «нови динар» 1:1 к марке; Авремович — управляющий НБЮ март 1994 – май 1996"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1999-nato-campaign",
+   "title": "Воздушная кампания НАТО против СРЮ",
+   "title_en": "NATO air campaign against the FRY",
+   "title_original": null,
+   "start_date": "1999-03-24",
+   "end_date": "1999-06-10",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu-fr"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "С 24 марта по 10 июня 1999 г. НАТО наносило авиаудары по военным и гражданским объектам СРЮ, в том числе по мостам, нефтеперерабатывающим заводам и электростанциям; были жертвы среди мирного населения.",
+   "historical_summary_en": "From 24 March to 10 June 1999 NATO carried out air strikes on military and civilian targets in the FRY, including bridges, oil refineries and power plants; there were civilian casualties.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter",
+    "sirens"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "rs_ohr",
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ohr",
+     "url": "https://www.ohr.int/ohr_archive/ohr-srt-news-summary-26-april-1999/?print=pdf",
+     "accessed": "2026-11-13",
+     "supports": "OHR SRT News Summary 26.04.1999: «Bombing of civil and military objectives, with casualties and material destruction, continued (Novi Sad, Pristina, Sombor, Valjevo)»",
+     "primary": true,
+     "primary_type": "administrative_report",
+     "document_title": "OHR SRT News Summary, 26 April 1999",
+     "document_date": "1999-04-26",
+     "archive_identifier": "ohr_archive/ohr-srt-news-summary-26-april-1999"
+    },
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/novi-sad/vesti/336567/pre-24-godine-u-nato-bombardovanju-srusen-most-slobode",
+     "accessed": "2026-11-13",
+     "supports": "кампания началась 24 марта 1999"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-2000-october-5",
+   "title": "События 5 октября 2000 года",
+   "title_en": "Events of 5 October 2000",
+   "title_original": null,
+   "start_date": "2000-10-05",
+   "end_date": "2000-12-23",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu-fr"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "После массовых протестов 5 октября 2000 г. была официально подтверждена победа Воислава Коштуницы над Слободаном Милошевичем на президентских выборах в СРЮ. 25 октября Скупщина Сербии была распущена, а на выборах 23 декабря 2000 г. (явка 55,91%) победила коалиция ДОС; премьер-министром стал Зоран Джинджич.",
+   "historical_summary_en": "After mass protests on 5 October 2000, Vojislav Koštunica's victory over Slobodan Milošević in the FRY presidential election was officially confirmed. On 25 October the Serbian Assembly was dissolved, and in the elections of 23 December 2000 (turnout 55.91%) the DOS coalition won; Zoran Đinđić became prime minister.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_demonstration",
+    "hope_for_change"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "5.10.2000 подтверждена победа Коштуницы; 25.10.2000 роспуск скупштины; 23.12.2000 выборы, явка 55,91%, ДОС 176 мест, Джинджич премьер"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-2003-serbia-and-montenegro",
+   "title": "Государственное сообщество Сербия и Черногория",
+   "title_en": "State Union of Serbia and Montenegro",
+   "title_original": null,
+   "start_date": "2003-02-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu-fr"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "4 февраля 2003 г. Союзная Республика Югославия была преобразована в государственное сообщество Сербия и Черногория; название «Югославия» исчезло с политической карты.",
+   "historical_summary_en": "On 4 February 2003 the Federal Republic of Yugoslavia was transformed into the State Union of Serbia and Montenegro; the name 'Yugoslavia' disappeared from the political map.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "wikidata",
+    "rs_sr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "wikidata",
+     "url": "https://www.wikidata.org/wiki/Q37024",
+     "accessed": "2026-11-13",
+     "supports": "Serbia and Montenegro, former political union (2003–2006)"
+    },
+    {
+     "source_id": "rs_sr_wikipedia",
+     "url": "https://sr.wikipedia.org/wiki/Србија_и_Црна_Гора",
+     "accessed": "2026-11-13",
+     "supports": "Конституционная хартия, 4.02.2003"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  }
+ ]
+}

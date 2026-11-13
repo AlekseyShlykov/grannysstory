@@ -1,0 +1,239 @@
+{
+ "records": [
+  {
+   "id": "rs-ctx-names-women-beograd",
+   "country_code": "RS",
+   "location_id": "rs-beograd",
+   "period_start": 1900,
+   "period_end": 2011,
+   "context_type": "family_marriage",
+   "attribute": "common_female_names_by_birth_cohort",
+   "title": "Белград: самые частые женские имена по году рождения",
+   "title_en": "Belgrade: most common women's names by year of birth",
+   "description": "По переписи 2011 г. у жительниц Белградской области, родившихся в 1940 г. и раньше, чаще всего встречались имена Радмила, Милица, Любица, Вера и Мария; у родившихся в 1941–1950 гг. — Лиляна, Мирьяна, Радмила, Милица, Слободанка; в 1951–1960 гг. — Лиляна, Гордана, Мирьяна, Снежана, Славица; в 1961–1970 гг. — Весна, Снежана, Гордана. Это частоты среди живших в 2011 г., а не среди всех родившихся.",
+   "description_en": "In the 2011 census the most common names among women of the Belgrade area born in 1940 or earlier were Radmila, Milica, Ljubica, Vera and Marija; for those born in 1941–1950, Ljiljana, Mirjana, Radmila, Milica and Slobodanka; for 1951–1960, Ljiljana, Gordana, Mirjana, Snežana and Slavica; for 1961–1970, Vesna, Snežana and Gordana. These are frequencies among women alive in 2011, not among everyone born.",
+   "statistics": [],
+   "source_ids": [
+    "rs_rzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_rzs",
+     "url": "https://publikacije.stat.gov.rs/G2012/Pdf/G20124004.pdf",
+     "accessed": "2026-11-13",
+     "supports": "РЗС, «Најчешћа имена и презимена», табл. 1: Београдска област, женские имена по годам рождения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-names-women-novi-sad",
+   "country_code": "RS",
+   "location_id": "rs-novi-sad",
+   "period_start": 1900,
+   "period_end": 2011,
+   "context_type": "family_marriage",
+   "attribute": "common_female_names_by_birth_cohort",
+   "title": "Нови-Сад: самые частые женские имена по году рождения",
+   "title_en": "Novi Sad: most common women's names by year of birth",
+   "description": "По переписи 2011 г. у жительниц Нови-Сада, родившихся в 1940 г. и раньше, чаще всего встречались имена Мария, Милица, Любица, Ана и Даница; у родившихся в 1941–1950 гг. — Мария, Мирьяна, Нада, Любица, Милица; в 1951–1960 гг. — Мирьяна, Нада, Лиляна; в 1961–1970 гг. — Снежана, Весна, Гордана. Самые частые фамилии города — Йованович, Николич, Попович, Петрович, Ковачевич.",
+   "description_en": "In the 2011 census the most common names among Novi Sad women born in 1940 or earlier were Marija, Milica, Ljubica, Ana and Danica; for those born in 1941–1950, Marija, Mirjana, Nada, Ljubica and Milica; for 1951–1960, Mirjana, Nada and Ljiljana; for 1961–1970, Snežana, Vesna and Gordana. The city's most common surnames were Jovanović, Nikolić, Popović, Petrović and Kovačević.",
+   "statistics": [],
+   "source_ids": [
+    "rs_rzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_rzs",
+     "url": "https://publikacije.stat.gov.rs/G2012/Pdf/G20124004.pdf",
+     "accessed": "2026-11-13",
+     "supports": "РЗС, «Најчешћа имена и презимена»: Нови Сад — женские имена по годам рождения; фамилии Град Нови Сад"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-names-women-subotica",
+   "country_code": "RS",
+   "location_id": "rs-subotica",
+   "period_start": 1900,
+   "period_end": 2011,
+   "context_type": "family_marriage",
+   "attribute": "common_female_names_by_birth_cohort",
+   "title": "Суботица: самые частые женские имена по году рождения",
+   "title_en": "Subotica: most common women's names by year of birth",
+   "description": "По переписи 2011 г. у жительниц Суботицы, родившихся в 1940 г. и раньше, чаще всего встречались имена Мария (в венгерской форме Мариа), Ана, Эржебет, Ката и Илона; у родившихся в 1941–1960 гг. — Мариа, Ана, Эржебет, Илона, Ирена или Ева; в 1961–1970 гг. к ним добавились Весна, Снежана и Гордана. Самые частые фамилии — Ковач, Хорват, Сабо, Надь и Вукович, что отражает венгерско-хорватско-буневацко-сербский состав города.",
+   "description_en": "In the 2011 census the most common names among Subotica women born in 1940 or earlier were Maria (in its Hungarian form), Ana, Erzsébet, Kata and Ilona; for those born in 1941–1960, Maria, Ana, Erzsébet, Ilona, and Irena or Éva; for 1961–1970 Vesna, Snežana and Gordana joined them. The most common surnames were Kovač, Horvat, Szabó, Nagy and Vuković, reflecting the city's Hungarian, Croat, Bunjevac and Serb mix.",
+   "statistics": [],
+   "source_ids": [
+    "rs_rzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_rzs",
+     "url": "https://publikacije.stat.gov.rs/G2012/Pdf/G20124004.pdf",
+     "accessed": "2026-11-13",
+     "supports": "РЗС, «Најчешћа имена и презимена»: Суботица — женские имена по годам рождения, фамилии Ковач, Хорват, Сабо, Нађ, Вуковић"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-1942-novi-sad-wartime-supply",
+   "country_code": "RS",
+   "location_id": "rs-novi-sad",
+   "period_start": 1941,
+   "period_end": 1944,
+   "context_type": "food",
+   "attribute": "wartime_rationing",
+   "title": "Нови-Сад 1941–1944: снабжение по карточкам и распоряжениям",
+   "title_en": "Novi Sad 1941–1944: supply by ration and decree",
+   "description": "При венгерской администрации городское Управление общественного снабжения вело учёт выдачи хлеба, молока, жира, обуви и топлива (отчёт за первый квартал 1942 г.), министерство в Будапеште утверждало цены на конфеты для новисадских кондитеров, городские власти регулировали часы работы магазинов и кондитерских, а в 1943 г. докладывали о нехватке молока. Часть лавок, в том числе еврейских, закрывалась по решениям властей; в 1944 г. рабочих-металлистов направляли на заводы под Будапештом.",
+   "description_en": "Under the Hungarian administration the city's Public Supply Office recorded the distribution of bread, milk, lard, footwear and fuel (report for the first quarter of 1942), the ministry in Budapest approved sweet prices for Novi Sad confectioners, the city regulated the opening hours of shops and pastry shops, and in 1943 it reported on milk shortages. Some shops, including Jewish ones, were closed by official decisions; in 1944 metalworkers were sent to factories near Budapest.",
+   "statistics": [],
+   "source_ids": [
+    "rs_iagns"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iagns",
+     "url": "http://www.arhivns.rs/wp-content/uploads/2018/08/Novi-Sad-u-ratnom-vihoru-katalog-izlozbe-1.pdf",
+     "accessed": "2026-11-13",
+     "supports": "панно VIII, IX, XI: ИАГНС Ф.259 2203/1942 (снабжение хлебом, молоком, маслом, обувью, топливом в I квартале 1942), 3594/1942 (цены на конфеты), 27575 и 27579/1941 (часы работы), 1103/1943 (молоко), 272/1944 (рабочие на Чепель)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-1930s-belgrade-poverty-relief",
+   "country_code": "RS",
+   "location_id": "rs-beograd",
+   "period_start": 1929,
+   "period_end": 1939,
+   "context_type": "social_policy",
+   "attribute": "municipal_poor_relief",
+   "title": "Белград 1930-х: учёт бедняков и городская помощь",
+   "title_en": "Belgrade in the 1930s: registering the poor and municipal relief",
+   "description": "В годы экономического кризиса Белградская община вела собственный учёт бедных жителей: в 1932 г. она провела перепись бедноты города. Бедность соседствовала с быстрым строительством 1930-х — мостом через Саву, ярмаркой, дворцом «Албания».",
+   "description_en": "During the economic crisis the Belgrade Municipality kept its own register of poor residents: in 1932 it carried out a census of the city's poor. Poverty coexisted with the rapid building of the 1930s — the bridge over the Sava, the fair and the Albania Palace.",
+   "statistics": [],
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/razvoj-institucija/2015-06-11-10-08-06.html",
+     "accessed": "2026-11-13",
+     "supports": "кат. 112: Извештај о попису сиротиње у Београду, 1932"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-1903-1918-serbia-voting-rights",
+   "country_code": "RS",
+   "location_id": "state-rs-kingdom",
+   "period_start": 1903,
+   "period_end": 1918,
+   "context_type": "social_policy",
+   "attribute": "franchise",
+   "title": "Королевство Сербия: кто мог голосовать",
+   "title_en": "Kingdom of Serbia: who could vote",
+   "description": "По конституции 1903 г. голосовать на выборах в Народную скупщину могли мужчины-сербы с 21 года, платившие не менее 15 динаров прямого налога в год; голосование было прямым и тайным (шариками). Женщины права голоса не имели.",
+   "description_en": "Under the 1903 constitution men of Serbian citizenship aged 21 and over who paid at least 15 dinars a year in direct tax could vote for the National Assembly; voting was direct and secret (with balls). Women had no vote.",
+   "statistics": [],
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Краљевине_Србије_(1903)",
+     "accessed": "2026-11-13",
+     "supports": "ст. 78, 84: прямые выборы, тайное голосование шариками; ценз 15 динаров, 21 год"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-1950s-subotica-palic-leisure",
+   "country_code": "RS",
+   "location_id": "rs-subotica",
+   "period_start": 1950,
+   "period_end": 1970,
+   "context_type": "leisure_culture",
+   "attribute": "lake_resort",
+   "title": "Суботица: отдых на озере Палич",
+   "title_en": "Subotica: leisure at Lake Palić",
+   "description": "В 1950-е гг. на озере Палич под Суботицей благоустраивали берег, парки и спортивные площадки, а в 1954 г. для туристско-рыболовного общества был спроектирован дачный посёлок у воды: Палич оставался главным местом летнего отдыха горожан.",
+   "description_en": "In the 1950s the shore, parks and sports grounds of Lake Palić near Subotica were improved, and in 1954 a lakeside holiday settlement was designed for the tourist and fishing association: Palić remained the townspeople's main summer resort.",
+   "statistics": [],
+   "source_ids": [
+    "rs_ias"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_ias",
+     "url": "http://www.suarhiv.co.rs/files/katalozi/subotica-na-starim-mapama.pdf",
+     "accessed": "2026-11-13",
+     "supports": "1954: uređenje terena TRU „Palić”; pedesetih godina uređuje se obala, parkovi i sportski tereni; IAS F:068, V-1968/1954"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-ctx-1993-hyperinflation-prices",
+   "country_code": "RS",
+   "location_id": "state-yu-fr",
+   "period_start": 1992,
+   "period_end": 1994,
+   "context_type": "prices_spending",
+   "attribute": "hyperinflation",
+   "title": "Гиперинфляция: цены удваивались каждые 34 часа",
+   "title_en": "Hyperinflation: prices doubling every 34 hours",
+   "description": "В 1992–1994 гг. цены в СРЮ росли в среднем примерно на 65% в день, удваиваясь каждые 34 часа, а в январе 1994 г. — до 113% в день; самая крупная купюра 1993 г. была в 500 млрд динаров и почти ничего не стоила. Зарплаты и пенсии обесценивались за дни; после 24 января 1994 г. новый динар приравняли к немецкой марке.",
+   "description_en": "In 1992–1994 prices in the FRY rose on average by about 65% a day, doubling every 34 hours, and by up to 113% a day in January 1994; the largest note of 1993, for 500 billion dinars, was almost worthless. Wages and pensions lost their value within days; after 24 January 1994 the new dinar was pegged to the German mark.",
+   "statistics": [
+    {
+     "indicator": "daily_inflation_peak",
+     "value": 113,
+     "unit": "percent per day",
+     "year": 1994,
+     "area_id": "state-yu-fr",
+     "population": "потребительские цены СРЮ",
+     "source_id": "rs_021",
+     "method_note": "оценка, приведённая BBC на сербском; январь 1994"
+    }
+   ],
+   "source_ids": [
+    "rs_021"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_021",
+     "url": "https://www.021.rs/story/BBC/285499/Raspad-Jugoslavije-inflacija-i-dinar-Kada-su-stanovnici-Srbije-bili-milioneri.html",
+     "accessed": "2026-11-13",
+     "supports": "BBC на сербском: ~65%/день, удвоение за 34 часа, пик ~113%/день в январе 1994, купюра 500 млрд"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  }
+ ]
+}

@@ -274,23 +274,11 @@ class Validator:
                 self.error(event, "evidence without accessed date")
 
     def _strict_evidence(self, event: dict, evidence: list) -> None:
-        """world-1.3: Wikipedia is never the only support; primary evidence names the document it rests on."""
-        if event.get("verification_status") == "verified" and evidence and all("wikipedia.org" in (item.get("url") or "") for item in evidence):
-            self.error(event, "world-1.3: Wikipedia must never be the only source of a verified event")
-        primary = [item for item in evidence if item.get("primary")]
-        for item in primary:
-            if "wikipedia.org" in (item.get("url") or ""):
-                self.error(event, "world-1.3: a Wikipedia page cannot be primary evidence")
-            if item.get("primary_type") not in PRIMARY_TYPES:
-                self.error(event, f"world-1.3: primary evidence needs primary_type in {sorted(PRIMARY_TYPES)}")
-            for field in ("document_title", "document_date"):
-                if not item.get(field):
-                    self.error(event, f"world-1.3: primary evidence without '{field}'")
-            if not (item.get("archive_identifier") or item.get("url")):
-                self.error(event, "world-1.3: primary evidence needs an archive identifier or record URL")
-        flagged = event.get("archival_primary_source_verified")
-        if flagged is not None and bool(flagged) != bool(primary):
-            self.error(event, "world-1.3: archival_primary_source_verified must match the presence of primary evidence")
+        """world-1.3: optional document fields, checked only when a researcher fills them in (owner relaxed the
+        document-level standard on 13.11.2026; what is required is the 55% archive-link share, counted by export)."""
+        for item in evidence:
+            if item.get("primary") and "wikipedia.org" in (item.get("url") or ""):
+                self.error(event, "world-1.3: a Wikipedia page cannot be marked as primary evidence")
 
     # -- contexts ------------------------------------------------------------------
     def contexts(self) -> None:

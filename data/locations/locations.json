@@ -6590,6 +6590,397 @@
       "abolished": []
     },
     {
+      "id": "rs",
+      "type": "state",
+      "level": "national",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q403",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сербия",
+          "locative": "в Сербии",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "2006-06-05",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "rs-bacs-bodrog",
+      "type": "county",
+      "level": "district",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q852564",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "медье Бач-Бодрог",
+          "locative": "в медье Бач-Бодрог",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "name": "медье Бач-Бодрог",
+          "locative": "в медье Бач-Бодрог",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "id": "state-yu",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Венгрия (аннексия Бачки, закон 1941:XX)",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        }
+      ],
+      "validFrom": null,
+      "validTo": "1944-10-23",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [
+        {
+          "from": "1918-11-12",
+          "to": "1941-04-10"
+        }
+      ]
+    },
+    {
+      "id": "rs-beograd",
+      "type": "city",
+      "level": "municipal",
+      "country": "RS",
+      "settlementClass": "capital",
+      "wikidata": "Q3711",
+      "coordinates": {
+        "lat": 44.817778,
+        "lon": 20.456944
+      },
+      "names": [
+        {
+          "name": "Белград",
+          "locative": "в Белграде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-rs-kingdom",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "rs-republic",
+          "from": "1946-01-31",
+          "to": "2006-06-04"
+        },
+        {
+          "id": "rs",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Австро-Венгрия и Германия",
+          "from": "1915-10",
+          "to": "1918-10-31"
+        },
+        {
+          "by": "Германия (военная администрация в Сербии)",
+          "from": "1941-04-12",
+          "to": "1944-10-19"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "rs-danube-banovina",
+      "type": "region",
+      "level": "regional",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q1265318",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Дунайская бановина",
+          "locative": "в Дунайской бановине",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-10-03",
+      "validTo": "1941-04-10",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "rs-novi-sad",
+      "type": "city",
+      "level": "municipal",
+      "country": "RS",
+      "settlementClass": "large_city",
+      "wikidata": "Q55630",
+      "coordinates": {
+        "lat": 45.264444,
+        "lon": 19.831667
+      },
+      "names": [
+        {
+          "name": "Нови-Сад",
+          "locative": "в Нови-Саде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "rs-bacs-bodrog",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "id": "state-rs-kingdom",
+          "from": "1918-11-12",
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "rs-danube-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        },
+        {
+          "id": "rs-bacs-bodrog",
+          "from": "1941-04-11",
+          "to": "1944-10-23"
+        },
+        {
+          "id": "state-yu",
+          "from": "1944-10-24",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "rs-vojvodina",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Венгрия (аннексия Бачки)",
+          "from": "1941-04-11",
+          "to": "1944-10-22"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "rs-republic",
+      "type": "republic",
+      "level": "constituent",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q269864",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Народная Республика Сербия",
+          "locative": "в Народной Республике Сербии",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Республика Сербия",
+          "locative": "в Социалистической Республике Сербии",
+          "from": "1963-04-07",
+          "to": "1990-09-27"
+        },
+        {
+          "name": "Республика Сербия",
+          "locative": "в Республике Сербии",
+          "from": "1990-09-28",
+          "to": "2006-06-04"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1992-04-26"
+        },
+        {
+          "id": "state-yu-fr",
+          "from": "1992-04-27",
+          "to": "2006-06-04"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-01-31",
+      "validTo": "2006-06-04",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "rs-subotica",
+      "type": "city",
+      "level": "municipal",
+      "country": "RS",
+      "settlementClass": "medium_city",
+      "wikidata": "Q170287",
+      "coordinates": {
+        "lat": 46.100206,
+        "lon": 19.665327
+      },
+      "names": [
+        {
+          "name": "Суботица",
+          "locative": "в Суботице",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "rs-bacs-bodrog",
+          "from": null,
+          "to": "1918-11-11"
+        },
+        {
+          "id": "state-rs-kingdom",
+          "from": "1918-11-12",
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "rs-danube-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-10"
+        },
+        {
+          "id": "rs-bacs-bodrog",
+          "from": "1941-04-11",
+          "to": "1944-10-10"
+        },
+        {
+          "id": "state-yu",
+          "from": "1944-10-11",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "rs-vojvodina",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Венгрия (аннексия Бачки)",
+          "from": "1941-04-11",
+          "to": "1944-10-10"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "rs-vojvodina",
+      "type": "province",
+      "level": "regional",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q44749",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Воеводина",
+          "locative": "в Воеводине",
+          "from": "1946-01-31",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "rs-republic",
+          "from": "1946-01-31",
+          "to": "2006-06-04"
+        },
+        {
+          "id": "rs",
+          "from": "2006-06-05",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-01-31",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "ru",
       "type": "state",
       "level": "national",
@@ -7685,6 +8076,120 @@
       "occupations": [],
       "validFrom": "1916-11-05",
       "validTo": "1918-11-14",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-rs-kingdom",
+      "type": "state",
+      "level": "national",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q241748",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Сербия",
+          "locative": "в Королевстве Сербия",
+          "from": "1882",
+          "to": "1918-11-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1882",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1882",
+      "validTo": "1918-11-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-yu",
+      "type": "state",
+      "level": "national",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q36704",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство сербов, хорватов и словенцев",
+          "locative": "в Королевстве сербов, хорватов и словенцев",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "name": "Королевство Югославия",
+          "locative": "в Королевстве Югославия",
+          "from": "1929-10-03",
+          "to": "1945-11-28"
+        },
+        {
+          "name": "Федеративная Народная Республика Югославия",
+          "locative": "в Федеративной Народной Республике Югославии",
+          "from": "1945-11-29",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Федеративная Республика Югославия",
+          "locative": "в Социалистической Федеративной Республике Югославии",
+          "from": "1963-04-07",
+          "to": "1992-04-26"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-12-01",
+          "to": "1992-04-26"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1918-12-01",
+      "validTo": "1992-04-26",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-yu-fr",
+      "type": "state",
+      "level": "national",
+      "country": "RS",
+      "settlementClass": null,
+      "wikidata": "Q838261",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Союзная Республика Югославия",
+          "locative": "в Союзной Республике Югославии",
+          "from": "1992-04-27",
+          "to": "2003-02-03"
+        },
+        {
+          "name": "Сербия и Черногория",
+          "locative": "в Сербии и Черногории",
+          "from": "2003-02-04",
+          "to": "2006-06-04"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1992-04-27",
+          "to": "2006-06-04"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1992-04-27",
+      "validTo": "2006-06-04",
       "legacyIds": [],
       "partitions": [],
       "abolished": []

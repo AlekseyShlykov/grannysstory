@@ -1,0 +1,213 @@
+{
+ "records": [
+  {
+   "id": "rs-nat-2006-independent-serbia",
+   "title": "Сербия — самостоятельное государство",
+   "title_en": "Serbia becomes an independent state",
+   "title_original": null,
+   "start_date": "2006-06-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "rs"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "После провозглашения независимости Черногории 3 июня 2006 г. Народная скупщина 5 июня 2006 г. объявила Республику Сербия продолжательницей государственного сообщества; 8 ноября 2006 г. была провозглашена новая конституция Сербии.",
+   "historical_summary_en": "After Montenegro declared independence on 3 June 2006, the National Assembly on 5 June 2006 declared the Republic of Serbia the continuator of the State Union; a new constitution of Serbia was proclaimed on 8 November 2006.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "wikidata",
+    "rs_sr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "wikidata",
+     "url": "https://www.wikidata.org/wiki/Q403",
+     "accessed": "2026-11-13",
+     "supports": "Serbia (Q403)"
+    },
+    {
+     "source_id": "rs_sr_wikipedia",
+     "url": "https://sr.wikipedia.org/wiki/Србија_и_Црна_Гора",
+     "accessed": "2026-11-13",
+     "supports": "распад сообщества в июне 2006"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-2011-census",
+   "title": "Перепись населения 2011 года",
+   "title_en": "2011 population census",
+   "title_original": null,
+   "start_date": "2011-10-01",
+   "end_date": "2011-10-15",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "rs"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "С 1 по 15 октября 2011 г. Республиканский статистический институт провёл перепись населения, домохозяйств и жилищ; в крае Косово и Метохия она не проводилась. По её данным население Сербии составило 7 186 862 человека.",
+   "historical_summary_en": "From 1 to 15 October 2011 the Statistical Office of the Republic of Serbia conducted the census of population, households and dwellings; it was not carried out in Kosovo and Metohija. The census counted 7,186,862 people in Serbia.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "census_taker_at_the_door"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_rzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_rzs",
+     "url": "https://publikacije.stat.gov.rs/G2012/Pdf/G20124004.pdf",
+     "accessed": "2026-11-13",
+     "supports": "РЗС, «Најчешћа имена и презимена» (2012), предисловие: перепись 1–15.10.2011, не проводилась в АП КиМ",
+     "primary": true,
+     "primary_type": "census",
+     "document_title": "Попис становништва, домаћинстава и станова 2011. у Републици Србији: Најчешћа имена и презимена",
+     "document_date": "2012-12",
+     "archive_identifier": "РЗС, ISBN-публикация 2012"
+    },
+    {
+     "source_id": "rs_rzs",
+     "url": "https://www.stat.gov.rs/en-us/vesti/20240222-uporedni-pregled-br-stanovnika-i-domacinstava/?a=0&s=1804",
+     "accessed": "2026-11-13",
+     "supports": "сравнительный обзор населения по всем девяти послевоенным переписям 1948–2022"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-2020-state-of-emergency",
+   "title": "Чрезвычайное положение из-за COVID-19",
+   "title_en": "State of emergency over COVID-19",
+   "title_original": null,
+   "start_date": "2020-03-15",
+   "end_date": "2020-05-06",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "rs"
+   ],
+   "category": "public_health",
+   "subcategory": null,
+   "historical_summary": "15 марта 2020 г. президент, председатель Народной скупщины и премьер-министр объявили чрезвычайное положение на всей территории Сербии из-за эпидемии COVID-19; армия охраняла больницы, со следующего дня закрылись школы и детские сады, уроки перешли на телевидение. Чрезвычайное положение действовало до 6 мая 2020 г.",
+   "historical_summary_en": "On 15 March 2020 the President, the Speaker of the National Assembly and the Prime Minister declared a state of emergency throughout Serbia over the COVID-19 epidemic; the army guarded hospitals, and from the next day schools and kindergartens closed and lessons moved to television. The state of emergency lasted until 6 May 2020.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "school_pupils",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "lockdown_at_home",
+    "school_on_tv",
+    "curfew"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_mod"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_mod",
+     "url": "https://www.mod.gov.rs/eng/15175/proglaseno-vanredno-stanje-u-srbiji-15175",
+     "accessed": "2026-11-13",
+     "supports": "Министерство обороны, 15.03.2020: объявлено чрезвычайное положение, армия охраняет больницы, школы закрываются, уроки по ТВ",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "State of emergency declared in Serbia (Ministry of Defence news)",
+     "document_date": "2020-03-15",
+     "archive_identifier": "mod.gov.rs/eng/15175"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-2020-parliamentary-elections",
+   "title": "Парламентские выборы 2020 года",
+   "title_en": "2020 parliamentary elections",
+   "title_original": null,
+   "start_date": "2020-06-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "rs"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "21 июня 2020 г., после отмены чрезвычайного положения, в Сербии прошли выборы в Народную скупщину; на 234 избирательных участках голосование повторили 1 июля.",
+   "historical_summary_en": "On 21 June 2020, after the state of emergency was lifted, Serbia held elections to the National Assembly; voting was repeated at 234 polling stations on 1 July.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "voting_with_masks"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_rik"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_rik",
+     "url": "https://www.rik.parlament.gov.rs/tekst/9386/izbori-za-narodne-poslanike-2020-godine.php",
+     "accessed": "2026-11-13",
+     "supports": "РИК: выборы 21.06.2020, повторены на 234 участках 1.07.2020",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "Избори за народне посланике 2020. године (РИК)",
+     "document_date": "2020-07",
+     "archive_identifier": "rik.parlament.gov.rs/tekst/9386"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

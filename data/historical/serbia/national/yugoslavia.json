@@ -1,0 +1,914 @@
+{
+ "records": [
+  {
+   "id": "rs-nat-1918-kingdom-scs",
+   "title": "Провозглашение Королевства сербов, хорватов и словенцев",
+   "title_en": "Proclamation of the Kingdom of Serbs, Croats and Slovenes",
+   "title_original": null,
+   "start_date": "1918-12-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "1 декабря 1918 г. в Белграде было провозглашено объединение Королевства Сербия с землями южных славян бывшей Австро-Венгрии в Королевство сербов, хорватов и словенцев; столицей стал Белград.",
+   "historical_summary_en": "On 1 December 1918 the union of the Kingdom of Serbia with the South Slav lands of former Austria-Hungary in the Kingdom of Serbs, Croats and Slovenes was proclaimed in Belgrade; Belgrade became the capital.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [
+    "new_state_new_language"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_av",
+    "rs_iab",
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_av",
+     "url": "https://archivum.arhivvojvodine.org.rs/prvi-svetski-rat-i-prisajedinjenje/Govor_na_promociji-Dejan.pdf",
+     "accessed": "2026-11-13",
+     "supports": "Archivum: новое государство образовано 1 декабря 1918"
+    },
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/prestonica/glavni-grad-jugoslavije.html",
+     "accessed": "2026-11-13",
+     "supports": "1918: Београд престоница новоформиране Краљевине СХС; кат. 65: зграда Протокола, где је проглашена Краљевина СХС"
+    },
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Историја_Југославије_(В._Ћоровић)_5.25",
+     "accessed": "2026-11-13",
+     "supports": "В. Ћоровић: с 1 декабря 1918 Народное вече перестало быть верховной властью"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1921-vidovdan-constitution",
+   "title": "Видовданская конституция",
+   "title_en": "Vidovdan Constitution",
+   "title_original": null,
+   "start_date": "1921-06-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "28 июня 1921 г. (Видовдан) Учредительное собрание приняло конституцию Королевства СХС: государство стало конституционной парламентской наследственной монархией.",
+   "historical_summary_en": "On 28 June 1921 (Vidovdan) the Constituent Assembly adopted the constitution of the Kingdom of Serbs, Croats and Slovenes, making the state a constitutional, parliamentary and hereditary monarchy.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Краљевине_Срба,_Хрвата_и_Словенаца_(1921)",
+     "accessed": "2026-11-13",
+     "supports": "28.06.1921, Службене новине КСХС бр. 142а; чл. 1",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "Устав Краљевине Срба, Хрвата и Словенаца",
+     "document_date": "1921-06-28",
+     "archive_identifier": "Службене новине КСХС, год. III, бр. 142а"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1929-royal-dictatorship",
+   "title": "Королевская прокламация 6 января 1929 года",
+   "title_en": "Royal proclamation of 6 January 1929",
+   "title_original": null,
+   "start_date": "1929-01-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "6 января 1929 г. король Александр I отменил Видовданскую конституцию и распустил Народную скупщину; законы с этого времени издавались королевскими указами.",
+   "historical_summary_en": "On 6 January 1929 King Alexander I abolished the Vidovdan Constitution and dissolved the National Assembly; from then on laws were issued by royal decree.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "censorship_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Краљевска_прокламација_од_6._јануара_1929.",
+     "accessed": "2026-11-13",
+     "supports": "«Политика» № 7430, 6.01.1929: устав 1921 престаје важити, скупштина распуштена",
+     "primary": true,
+     "primary_type": "contemporary_newspaper",
+     "document_title": "Краљевска прокламација, Политика бр. 7430, 6. јануар 1929",
+     "document_date": "1929-01-06",
+     "archive_identifier": "Политика, бр. 7430"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1929-kingdom-of-yugoslavia",
+   "title": "Королевство Югославия и бановины",
+   "title_en": "Kingdom of Yugoslavia and the banovinas",
+   "title_original": null,
+   "start_date": "1929-10-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "3 октября 1929 г. государство было переименовано в Королевство Югославия и разделено на бановины; Нови-Сад стал центром Дунайской бановины. В том же году в Белграде насчитывалось 107 промышленных предприятий.",
+   "historical_summary_en": "On 3 October 1929 the state was renamed the Kingdom of Yugoslavia and divided into banovinas; Novi Sad became the seat of the Danube Banovina. That year Belgrade had 107 industrial enterprises.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab",
+    "wikidata",
+    "rs_kpolisa"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/privreda.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1929 — држава постала Краљевина Југославија; у Београду 107 индустријских предузећа"
+    },
+    {
+     "source_id": "wikidata",
+     "url": "https://www.wikidata.org/wiki/Q191077",
+     "accessed": "2026-11-13",
+     "supports": "Kingdom of Yugoslavia, inception 1929-10-03"
+    },
+    {
+     "source_id": "rs_kpolisa",
+     "url": "https://kpolisa.com/index.php/kp/article/view/339",
+     "accessed": "2026-11-13",
+     "supports": "Нови-Сад назначен административным центром Дунайской бановины"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1931-constitution",
+   "title": "Октроированная конституция 1931 года",
+   "title_en": "Imposed Constitution of 1931",
+   "title_original": null,
+   "start_date": "1931-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "3 сентября 1931 г. король Александр I издал новую конституцию Королевства Югославия, восстановившую двухпалатный парламент.",
+   "historical_summary_en": "On 3 September 1931 King Alexander I issued a new constitution of the Kingdom of Yugoslavia, restoring a two-chamber parliament.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Краљевине_Југославије_(1931)",
+     "accessed": "2026-11-13",
+     "supports": "дата 3.09.1931, Службене новине КЈ бр. 200/1931",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "Устав Краљевине Југославије",
+     "document_date": "1931-09-03",
+     "archive_identifier": "Службене новине Краљевине Југославије, бр. 200/1931"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1941-march-27-coup",
+   "title": "Переворот 27 марта 1941 года",
+   "title_en": "Coup of 27 March 1941",
+   "title_original": null,
+   "start_date": "1941-03-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "27 марта 1941 г., через два дня после присоединения Югославии к Тройственному пакту, группа офицеров во главе с генералом Симовичем совершила в Белграде переворот: король Пётр II объявил о принятии власти, регенты ушли в отставку. Улицы Белграда заполнили ликующие толпы.",
+   "historical_summary_en": "On 27 March 1941, two days after Yugoslavia joined the Tripartite Pact, a group of officers led by General Simović staged a coup in Belgrade: King Peter II announced that he had assumed power and the regents resigned. Jubilant crowds filled the streets of Belgrade.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_demonstration"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_frus",
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_frus",
+     "url": "https://history.state.gov/historicaldocuments/frus1941v02/d963",
+     "accessed": "2026-11-13",
+     "supports": "телеграмма Лейна № 251, Белград 27.03.1941: переворот около 2:15, манифест короля Петра II, правительство Симовича, «wild enthusiasm» толп",
+     "primary": true,
+     "primary_type": "government_document",
+     "document_title": "The Minister in Yugoslavia (Lane) to the Secretary of State, telegram no. 251, Belgrade, March 27, 1941 (FRUS 1941, vol. II, doc. 963)",
+     "document_date": "1941-03-27",
+     "archive_identifier": "File 860H.00/1240"
+    },
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/prestonica/glavni-grad-jugoslavije.html",
+     "accessed": "2026-11-13",
+     "supports": "27. март 1941 — демонстрације против приступања Тројном пакту"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1941-invasion-and-capitulation",
+   "title": "Апрельская война и распад Королевства Югославия",
+   "title_en": "April War and the dismemberment of the Kingdom of Yugoslavia",
+   "title_original": null,
+   "start_date": "1941-04-06",
+   "end_date": "1941-04-17",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "6 апреля 1941 г. Германия и её союзники напали на Югославию; 17 апреля был подписан акт о капитуляции. Страна была разделена: Сербия попала под германскую военную администрацию, Бачка была аннексирована Венгрией, правительство и король ушли в эмиграцию.",
+   "historical_summary_en": "On 6 April 1941 Germany and its allies attacked Yugoslavia; the act of capitulation was signed on 17 April. The country was partitioned: Serbia came under German military administration, Bačka was annexed by Hungary, and the government and king went into exile.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change",
+    "family_separation"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "rs_iab",
+    "rs_jogtar"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/xx/drugi-svetski-rat-okupaciona-vlast.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 17. април 1941 — акт о капитулацији Краљевине Југославије; 22.04 штаб војног заповедника за Србију"
+    },
+    {
+     "source_id": "rs_jogtar",
+     "url": "https://net.jogtar.hu/ezer-ev-torveny?docid=94100020.TV",
+     "accessed": "2026-11-13",
+     "supports": "закон 1941:XX о присоединении «южных территорий» к Венгрии, гражданство с 11.04.1941"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1945-confiscation-nationalisation",
+   "title": "Законы о конфискации и национализации",
+   "title_en": "Confiscation and nationalisation laws",
+   "title_original": null,
+   "start_date": "1945",
+   "end_date": "1946",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "economic_crisis",
+   "subcategory": null,
+   "historical_summary": "В 1945–1946 гг. новая власть приняла законы о конфискации и национализации, узаконившие переход в государственную собственность имущества «врагов народа», а затем частных предприятий.",
+   "historical_summary_en": "In 1945–1946 the new authorities passed confiscation and nationalisation laws that legalised the transfer to the state of the property of 'enemies of the people' and then of private enterprises.",
+   "affected_groups": [
+    "homeowners",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "savings_lost",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "family_shop_taken"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/2015-03-17-12-27-08/srp-i-cekic.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: 1945. и 1946. донет Закон о конфискацији и национализацији"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1945-federal-peoples-republic",
+   "title": "Провозглашение Федеративной Народной Республики Югославия",
+   "title_en": "Proclamation of the Federal People's Republic of Yugoslavia",
+   "title_original": null,
+   "start_date": "1945-11-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "29 ноября 1945 г. Учредительная скупщина упразднила монархию и провозгласила Федеративную Народную Республику Югославия.",
+   "historical_summary_en": "On 29 November 1945 the Constituent Assembly abolished the monarchy and proclaimed the Federal People's Republic of Yugoslavia.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "wikidata"
+   ],
+   "evidence": [
+    {
+     "source_id": "wikidata",
+     "url": "https://www.wikidata.org/wiki/Q191077",
+     "accessed": "2026-11-13",
+     "supports": "Kingdom of Yugoslavia, dissolved 1945-11-29"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1946-constitution",
+   "title": "Конституция ФНРЮ 1946 года",
+   "title_en": "1946 Constitution of the FPRY",
+   "title_original": null,
+   "start_date": "1946-01-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "31 января 1946 г. была принята конституция ФНРЮ — федеративного народного государства из шести республик; в составе Народной Республики Сербия был автономный край Воеводина.",
+   "historical_summary_en": "On 31 January 1946 the constitution of the FPRY was adopted, establishing a federal people's state of six republics; the People's Republic of Serbia included the autonomous province of Vojvodina.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "citizenship_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Федеративне_Народне_Републике_Југославије_(1946)",
+     "accessed": "2026-11-13",
+     "supports": "31.01.1946; Службени лист ФНРЈ бр. 10, 1.02.1946; чл. 1–2",
+     "primary": true,
+     "primary_type": "legal_publication",
+     "document_title": "Устав Федеративне Народне Републике Југославије",
+     "document_date": "1946-01-31",
+     "archive_identifier": "Службени лист ФНРЈ, год. II, бр. 10"
+    }
+   ],
+   "archival_primary_source_verified": true,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1953-elections-ballots",
+   "title": "Выборы 1953 года и новое здание скупщины",
+   "title_en": "1953 elections and the new Assembly building",
+   "title_original": null,
+   "start_date": "1953-11",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "rs-republic"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "На выборах в ноябре 1953 г. впервые использовались бюллетени; в том же году было завершено здание на улице Српских владара, 14, ставшее местом заседаний Скупщины Сербии.",
+   "historical_summary_en": "In the November 1953 elections ballot papers were used for the first time; the same year the building at 14 Srpskih vladara Street, which became the seat of the Assembly of Serbia, was completed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "ноябрь 1953 — введены бюллетени; 1953 — завершено здание на ул. Српских владара 14"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1958-general-education-law",
+   "title": "Общий закон об образовании 1958 года",
+   "title_en": "General Law on Education, 1958",
+   "title_original": null,
+   "start_date": "1958-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "В июле 1958 г. Союзная народная скупщина приняла Общий закон об образовании, реформировавший школьную систему Югославии; началось быстрое расширение школ.",
+   "historical_summary_en": "In July 1958 the Federal People's Assembly passed the General Law on Education, reforming Yugoslavia's school system; a rapid expansion of schooling followed.",
+   "affected_groups": [
+    "school_pupils",
+    "teachers",
+    "parents"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "eight_year_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_iab"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/procesi-modernizacije/skolstvo-i-prosveta.html",
+     "accessed": "2026-11-13",
+     "supports": "текст: јул 1958 — Савезна народна скупштина донела Општи закон о школству"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1963-sfry-constitution",
+   "title": "Конституция 1963 года: СФРЮ",
+   "title_en": "1963 Constitution: the SFRY",
+   "title_original": null,
+   "start_date": "1963-04-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "Конституция 1963 г. переименовала государство в Социалистическую Федеративную Республику Югославия; в апреле 1963 г. республиканская скупщина стала Скупщиной Социалистической Республики Сербия, а народные комитеты городов — городскими скупщинами.",
+   "historical_summary_en": "The 1963 Constitution renamed the state the Socialist Federal Republic of Yugoslavia; in April 1963 the republican assembly became the Assembly of the Socialist Republic of Serbia, and city people's committees became city assemblies.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament",
+    "rs_iab",
+    "rs_wikisource"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "апрель 1963 — Скупщина СР Сербии, пять палат 1963–1974"
+    },
+    {
+     "source_id": "rs_iab",
+     "url": "https://www.stalnapostavka.arhiv-beograda.org/sr/postavka/razvoj-institucija/2015-06-11-10-08-06.html",
+     "accessed": "2026-11-13",
+     "supports": "1963 — нови Устав; Народни одбор преименован у Скупштину града Београда"
+    },
+    {
+     "source_id": "rs_wikisource",
+     "url": "https://sr.wikisource.org/wiki/Устав_Социјалистичке_Федеративне_Републике_Југославије_(1963)",
+     "accessed": "2026-11-13",
+     "supports": "чл. 1: «Социјалистичка Федеративна Република Југославија»"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1967-constitutional-amendments",
+   "title": "Конституционные поправки 1967–1972 годов",
+   "title_en": "Constitutional amendments of 1967–1972",
+   "title_original": null,
+   "start_date": "1967",
+   "end_date": "1972",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "rs-republic"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В 1967–1972 гг., в ходе реформы федеральной конституции, Скупщина Сербии приняла шестнадцать поправок к республиканской конституции, расширявших права республики и краёв.",
+   "historical_summary_en": "Between 1967 and 1972, as part of the federal constitutional reform, the Assembly of Serbia passed sixteen amendments to the republic's constitution, broadening the powers of the republic and the provinces.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "поправки 1967, 1969, 1972: «passed constitutional amendments from 1967 to 1972», шестнадцать поправок"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1974-constitution",
+   "title": "Конституция СФРЮ 1974 года",
+   "title_en": "1974 Constitution of the SFRY",
+   "title_original": null,
+   "start_date": "1974-02-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "21 февраля 1974 г. была принята новая конституция СФРЮ, расширившая права республик и автономных краёв; 25 февраля была провозглашена конституция СР Сербии, и скупщины стали «делегатскими».",
+   "historical_summary_en": "On 21 February 1974 a new SFRY constitution was adopted, broadening the powers of the republics and autonomous provinces; the constitution of the SR of Serbia was proclaimed on 25 February, and the assemblies became 'delegate' assemblies.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "федеральная конституция ратифицирована 21.02.1974, сербская провозглашена 25.02.1974; делегатская скупщина 1974–1990"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1980-death-of-tito",
+   "title": "Смерть Иосипа Броз Тито",
+   "title_en": "Death of Josip Broz Tito",
+   "title_original": null,
+   "start_date": "1980-05-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-yu"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "4 мая 1980 г. умер Иосип Броз Тито, руководивший Югославией с конца Второй мировой войны.",
+   "historical_summary_en": "Josip Broz Tito, who had led Yugoslavia since the end of the Second World War, died on 4 May 1980.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "funeral_on_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_frus"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_frus",
+     "url": "https://history.state.gov/historicaldocuments/frus1977-80v04/d215",
+     "accessed": "2026-11-13",
+     "supports": "FRUS 1977–80 vol. IV doc. 215 (24.11.1980): «Tito, who died on May 4»"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1989-constitutional-amendments",
+   "title": "Поправки к конституции Сербии 28 марта 1989 года",
+   "title_en": "Amendments to the Serbian constitution, 28 March 1989",
+   "title_original": null,
+   "start_date": "1989-03-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "rs-republic"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "Начатая в январе 1988 г. конституционная реформа завершилась 28 марта 1989 г. провозглашением поправок IX–XLIX к конституции СР Сербии, ограничивших самостоятельность автономных краёв; этот день объявили праздником.",
+   "historical_summary_en": "The constitutional reform begun in January 1988 ended on 28 March 1989 with the proclamation of amendments IX–XLIX to the constitution of the SR of Serbia, curbing the autonomy of the provinces; the day was declared a holiday.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "реформа с января 1988; 28.03.1989 провозглашены поправки IX–XLIX, день стал праздником"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1990-serbian-constitution",
+   "title": "Конституция Республики Сербия 1990 года",
+   "title_en": "1990 Constitution of the Republic of Serbia",
+   "title_original": null,
+   "start_date": "1990-09-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "rs-republic"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "28 сентября 1990 г. была принята новая конституция Республики Сербия; Скупщина стала называться Скупщиной Республики Сербия, а права автономных краёв были сокращены.",
+   "historical_summary_en": "On 28 September 1990 a new constitution of the Republic of Serbia was adopted; the Assembly was renamed the Assembly of the Republic of Serbia, and the powers of the autonomous provinces were reduced.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "конституция ратифицирована 28.09.1990; Скупштина Републике Србије с сентября 1990"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "medium",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "rs-nat-1990-multiparty-elections",
+   "title": "Первые многопартийные выборы в Сербии",
+   "title_en": "First multi-party elections in Serbia",
+   "title_original": null,
+   "start_date": "1990-12-09",
+   "end_date": "1990-12-23",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "RS"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "rs-republic"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "9 и 23 декабря 1990 г. в Сербии прошли первые после Второй мировой войны многопартийные парламентские выборы.",
+   "historical_summary_en": "On 9 and 23 December 1990 Serbia held its first multi-party parliamentary elections since the Second World War.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "rs_parlament"
+   ],
+   "evidence": [
+    {
+     "source_id": "rs_parlament",
+     "url": "https://www.parlament.gov.rs/national-assembly/history/after-second-world-war.534.html",
+     "accessed": "2026-11-13",
+     "supports": "выборы 9 и 23 декабря 1990"
+    }
+   ],
+   "archival_primary_source_verified": false,
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}
