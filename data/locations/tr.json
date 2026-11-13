@@ -1,50 +1,6 @@
 {
  "locations": [
   {
-   "id": "state-ottoman",
-   "type": "state",
-   "country": "TR",
-   "wikidata": "Q12560",
-   "codes": {},
-   "names": [
-    {
-     "name": "Devlet-i Âliye-i Osmâniyye",
-     "lang": "ota",
-     "from": null,
-     "to": "1922-11-01"
-    }
-   ],
-   "names_ru": [
-    {
-     "name": "Османская империя",
-     "locative": "в Османской империи",
-     "name_en": "Ottoman Empire",
-     "from": null,
-     "to": "1922-11-01"
-    }
-   ],
-   "alt_names": [
-    "Ottoman Empire",
-    "Osmanlı İmparatorluğu",
-    "Оттоманская Порта"
-   ],
-   "coordinates": null,
-   "parents": [
-    {
-     "id": "world",
-     "from": null,
-     "to": "1922-11-01"
-    }
-   ],
-   "sovereignty_note": "Конец узла — упразднение султаната Великим национальным собранием 1.11.1922. Территории, перешедшие под власть правительства ВНСТ раньше (Анкара, Конья, Эрзурум с 23.04.1920; Измир 9–10.09.1922; Бурса 11.09.1922; Антеп 25.12.1921), меняют родителя на state-tr-gna в дату фактического перехода. Стамбул остаётся в узле до 1.11.1922.",
-   "occupations": [],
-   "source_ids": [
-    "wikidata",
-    "tr_en_wikipedia"
-   ],
-   "valid_to": "1922-11-01"
-  },
-  {
    "id": "tr",
    "type": "state",
    "country": "TR",

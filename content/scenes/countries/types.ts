@@ -9,7 +9,8 @@ import type { RegionNarrative } from "../regions";
  * dialogue_bible.md. English for every Russian string lives in src/i18n/en/<country>.json.
  */
 export interface CountryContent {
-  country: "IT" | "DE" | "CN" | "FI" | "TR";
+  /** ISO country code (IT, ES, JP …). */
+  country: string;
   /** Keyed by world location id of a menu settlement; a place appears in the menu only with an entry here (D-010). */
   regionNarratives: Record<string, RegionNarrative>;
   /** Jobs of this country: named workplaces only where verified records place them. */
@@ -24,7 +25,7 @@ export interface CountryContent {
   historicalVoice: Record<string, HistoricalVoice>;
 }
 
-export function emptyCountryContent(country: CountryContent["country"], age = 60): CountryContent {
+export function emptyCountryContent(country: string, age = 60): CountryContent {
   return {
     country,
     regionNarratives: {},

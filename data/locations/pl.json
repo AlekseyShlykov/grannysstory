@@ -1,48 +1,6 @@
 {
  "locations": [
   {
-   "id": "state-at-hu",
-   "type": "state",
-   "country": "AT",
-   "wikidata": "Q28513",
-   "codes": {},
-   "names": [
-    {
-     "name": "Österreich-Ungarn",
-     "lang": "de",
-     "from": "1867",
-     "to": "1918-11-11"
-    }
-   ],
-   "names_ru": [
-    {
-     "name": "Австро-Венгрия",
-     "locative": "в Австро-Венгрии",
-     "from": "1867",
-     "to": "1918-11-11"
-    }
-   ],
-   "alt_names": [
-    "Austria-Hungary",
-    "Austro-Węgry"
-   ],
-   "coordinates": null,
-   "parents": [
-    {
-     "id": "world",
-     "from": "1867",
-     "to": "1918-11-11"
-    }
-   ],
-   "sovereignty_note": "Wikidata даёт несколько дат распада (28.10, 29.10, 11.11, 25.11.1918); здесь взята 11.11.1918. Фактически Краков перешёл под польскую власть 31.10.1918 (Польская ликвидационная комиссия).",
-   "occupations": [],
-   "source_ids": [
-    "wikidata"
-   ],
-   "valid_from": "1867",
-   "valid_to": "1918-11-11"
-  },
-  {
    "id": "state-pl-regency",
    "type": "transitional_administration",
    "country": "PL",

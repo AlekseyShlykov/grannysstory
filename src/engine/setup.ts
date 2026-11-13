@@ -52,7 +52,9 @@ export function worldRegionOptions(): RegionOption[] {
   if (cachedWorldRegions) return cachedWorldRegions.map((region) => ({ ...region }));
   const world = worldData();
   cachedWorldRegions = Object.entries(worldManifest.coverage)
-    .filter(([id, coverage]) => coverage.meetsCoverageGate && reviewedWorldRegionIds.has(id) && !LEGACY_LOCATIONS.has(id))
+    // world-1.3 places also need readiness «supported»: archival evidence, eras and everyday context, not just records.
+    .filter(([id, coverage]) => coverage.meetsCoverageGate && (coverage.readiness === undefined || coverage.readiness === "supported")
+      && reviewedWorldRegionIds.has(id) && !LEGACY_LOCATIONS.has(id))
     .map(([id]) => getLocation(world, id))
     .filter((location): location is NonNullable<typeof location> => Boolean(location && isSettlement(location) && location.coordinates))
     .map((location) => ({

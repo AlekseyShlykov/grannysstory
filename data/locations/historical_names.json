@@ -875,6 +875,54 @@
         "Третий рейх (Q7318)"
       ]
     },
+    "state-at-hu": {
+      "local": [
+        {
+          "name": "Österreich-Ungarn",
+          "lang": "de",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Австро-Венгрия",
+          "locative": "в Австро-Венгрии",
+          "from": "1867",
+          "to": "1918-11-11",
+          "name_en": "Austria-Hungary"
+        }
+      ],
+      "alt": [
+        "Austria-Hungary",
+        "Austro-Węgry"
+      ]
+    },
+    "state-ottoman": {
+      "local": [
+        {
+          "name": "Devlet-i Âliye-i Osmâniyye",
+          "lang": "ota",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Османская империя",
+          "locative": "в Османской империи",
+          "name_en": "Ottoman Empire",
+          "from": null,
+          "to": "1922-11-01",
+          "locative_en": "in the Ottoman Empire"
+        }
+      ],
+      "alt": [
+        "Ottoman Empire",
+        "Osmanlı İmparatorluğu",
+        "Оттоманская Порта"
+      ]
+    },
     "de": {
       "local": [
         {
@@ -4127,28 +4175,6 @@
       ],
       "alt": []
     },
-    "state-at-hu": {
-      "local": [
-        {
-          "name": "Österreich-Ungarn",
-          "lang": "de",
-          "from": "1867",
-          "to": "1918-11-11"
-        }
-      ],
-      "ru": [
-        {
-          "name": "Австро-Венгрия",
-          "locative": "в Австро-Венгрии",
-          "from": "1867",
-          "to": "1918-11-11"
-        }
-      ],
-      "alt": [
-        "Austria-Hungary",
-        "Austro-Węgry"
-      ]
-    },
     "state-pl-regency": {
       "local": [
         {
@@ -5136,30 +5162,6 @@
         }
       ],
       "alt": []
-    },
-    "state-ottoman": {
-      "local": [
-        {
-          "name": "Devlet-i Âliye-i Osmâniyye",
-          "lang": "ota",
-          "from": null,
-          "to": "1922-11-01"
-        }
-      ],
-      "ru": [
-        {
-          "name": "Османская империя",
-          "locative": "в Османской империи",
-          "name_en": "Ottoman Empire",
-          "from": null,
-          "to": "1922-11-01"
-        }
-      ],
-      "alt": [
-        "Ottoman Empire",
-        "Osmanlı İmparatorluğu",
-        "Оттоманская Порта"
-      ]
     },
     "tr": {
       "local": [

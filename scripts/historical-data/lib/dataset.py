@@ -16,10 +16,24 @@ DATA = ROOT / "data"
 LEGACY = ROOT / "content" / "historical"
 
 COUNTRY_DIRS = {"FR": "france", "US": "usa", "GB": "england", "PL": "poland", "RU": "russia",
-                "IT": "italy", "DE": "germany", "CN": "china", "FI": "finland", "TR": "turkey"}
+                "IT": "italy", "DE": "germany", "CN": "china", "FI": "finland", "TR": "turkey",
+                # world-1.3 (1900–2020, strict primary-source rules for records marked "batch": "world-1.3")
+                "RS": "serbia", "HR": "croatia", "SI": "slovenia", "BA": "bosnia", "ME": "montenegro", "GR": "greece",
+                "AT": "austria", "HU": "hungary", "CZ": "czechia", "SK": "slovakia", "PT": "portugal", "IE": "ireland",
+                "ES": "spain", "AR": "argentina", "CL": "chile", "BR": "brazil", "CU": "cuba", "CA": "canada",
+                "AU": "australia", "ZA": "south-africa", "CD": "congo-kinshasa", "NG": "nigeria", "EG": "egypt",
+                "MA": "morocco", "JP": "japan", "TH": "thailand", "VN": "vietnam", "SG": "singapore", "IN": "india"}
 COUNTRY_FILES = {code: code.lower() for code in COUNTRY_DIRS}
 # Countries added in world-1.2 carry English text next to the Russian (title_en, historical_summary_en, …).
-COUNTRIES_WITH_ENGLISH = {"IT", "DE", "CN", "FI", "TR"}
+COUNTRIES_WITH_ENGLISH = set(COUNTRY_DIRS) - {"FR", "US", "GB", "PL", "RU"}
+STRICT_BATCH = "world-1.3"
+# Records of this batch end with 2020: later ones may stay in the research data but are never exported to the game.
+STRICT_BATCH_LAST_YEAR = 2020
+PRIMARY_TYPES = {
+    "contemporary_newspaper", "municipal_record", "provincial_record", "government_document", "census",
+    "statistical_yearbook", "map", "administrative_report", "legal_publication", "diary_letter", "oral_testimony",
+    "photograph", "museum_record", "film_newsreel",
+}
 
 LEVEL_BY_TYPE = {
     "world": "international",
@@ -35,6 +49,8 @@ LEVEL_BY_TYPE = {
     "province": "regional",          # CN 省, TR il, FI lääni, Prussian Provinz, Ottoman vilayet
     "land": "regional",              # German Land / historical German state (Bavaria, Saxony, Prussia)
     "occupation_zone": "constituent",  # Allied occupation zone of Germany 1945–1949
+    "colony": "constituent",           # colony of a sovereign state (Belgian Congo, Colony of Lagos, Straits Settlements)
+    "protectorate": "constituent",     # protectorate or mandate administered by another state
     "department": "district",
     "county": "district",
     "metropolitan_county": "district",

@@ -541,6 +541,30 @@
       "valid_from": "1918-11-09",
       "valid_to": "1949-10-06"
     },
+    "state-at-hu": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1867",
+          "to": "1918-11-11"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1867",
+      "valid_to": "1918-11-11"
+    },
+    "state-ottoman": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1922-11-01"
+    },
     "de": {
       "parents": [
         {
@@ -2744,18 +2768,6 @@
       "valid_from": null,
       "valid_to": null
     },
-    "state-at-hu": {
-      "parents": [
-        {
-          "id": "world",
-          "from": "1867",
-          "to": "1918-11-11"
-        }
-      ],
-      "occupations": [],
-      "valid_from": "1867",
-      "valid_to": "1918-11-11"
-    },
     "state-pl-regency": {
       "parents": [
         {
@@ -3518,18 +3530,6 @@
       "occupations": [],
       "valid_from": "1929-07-12",
       "valid_to": null
-    },
-    "state-ottoman": {
-      "parents": [
-        {
-          "id": "world",
-          "from": null,
-          "to": "1922-11-01"
-        }
-      ],
-      "occupations": [],
-      "valid_from": null,
-      "valid_to": "1922-11-01"
     },
     "tr": {
       "parents": [

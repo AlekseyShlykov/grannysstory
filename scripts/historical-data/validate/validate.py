@@ -19,14 +19,14 @@ from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from dataset import (  # noqa: E402
-    COUNTRIES_WITH_ENGLISH, ACCESS_METHODS, CATEGORIES, CONFIDENCE, CONTEXT_TYPES, LEVEL_BY_TYPE, SCOPES, SETTLEMENT_CLASSES,
+    COUNTRY_DIRS, PRIMARY_TYPES, STRICT_BATCH, COUNTRIES_WITH_ENGLISH, ACCESS_METHODS, CATEGORIES, CONFIDENCE, CONTEXT_TYPES, LEVEL_BY_TYPE, SCOPES, SETTLEMENT_CLASSES,
     SETTLEMENT_TYPES, SOURCE_STATUSES, STATUSES, DateError, Dataset, Problem, event_span, parse_partial,
     period_end, period_start, ROOT,
 )
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:[-_][a-z0-9]+)*$")
-LOCATION_PREFIXES = ("fr-", "us-", "gb-", "pl-", "ru-", "it-", "de-", "cn-", "fi-", "tr-", "state-")
-COMMON_LOCATIONS = {"world", "fr", "us", "gb", "pl", "ru", "su", "ru-empire", "gb-eng", "it", "de", "cn", "fi", "tr"}
+LOCATION_PREFIXES = tuple(f"{code.lower()}-" for code in COUNTRY_DIRS) + ("state-",)
+COMMON_LOCATIONS = {"world", "su", "ru-empire", "gb-eng"} | {code.lower() for code in COUNTRY_DIRS}
 MIN_YEAR, MAX_YEAR = 1850, 2026
 SPECULATIVE_WORDS = ("она пережила", "бабушка", "героиня")
 
@@ -72,7 +72,7 @@ class Validator:
             if not ID_RE.match(location_id):
                 self.error(location, "location id must be lowercase kebab-case")
             if location_id not in COMMON_LOCATIONS and not location_id.startswith(LOCATION_PREFIXES):
-                self.error(location, "location id needs a country prefix (fr-, us-, gb-, pl-, ru-, it-, de-, cn-, fi-, tr-) or state-")
+                self.error(location, "location id needs a country prefix (<cc>-) or state-")
             if location.get("type") not in LEVEL_BY_TYPE:
                 self.error(location, f"unknown location type {location.get('type')}")
             if location.get("type") in SETTLEMENT_TYPES - {"neighborhood"} and location.get("settlement_class") not in SETTLEMENT_CLASSES:
@@ -260,6 +260,8 @@ class Validator:
         if event.get("_legacy"):
             return
         evidence = event.get("evidence") or []
+        if event.get("batch") == STRICT_BATCH:
+            self._strict_evidence(event, evidence)
         if event.get("verification_status") == "verified" and not evidence:
             self.error(event, "verified record without evidence URL")
         for item in evidence:
@@ -270,6 +272,25 @@ class Validator:
                 self.error(event, "evidence url is not absolute")
             if not item.get("accessed"):
                 self.error(event, "evidence without accessed date")
+
+    def _strict_evidence(self, event: dict, evidence: list) -> None:
+        """world-1.3: Wikipedia is never the only support; primary evidence names the document it rests on."""
+        if event.get("verification_status") == "verified" and evidence and all("wikipedia.org" in (item.get("url") or "") for item in evidence):
+            self.error(event, "world-1.3: Wikipedia must never be the only source of a verified event")
+        primary = [item for item in evidence if item.get("primary")]
+        for item in primary:
+            if "wikipedia.org" in (item.get("url") or ""):
+                self.error(event, "world-1.3: a Wikipedia page cannot be primary evidence")
+            if item.get("primary_type") not in PRIMARY_TYPES:
+                self.error(event, f"world-1.3: primary evidence needs primary_type in {sorted(PRIMARY_TYPES)}")
+            for field in ("document_title", "document_date"):
+                if not item.get(field):
+                    self.error(event, f"world-1.3: primary evidence without '{field}'")
+            if not (item.get("archive_identifier") or item.get("url")):
+                self.error(event, "world-1.3: primary evidence needs an archive identifier or record URL")
+        flagged = event.get("archival_primary_source_verified")
+        if flagged is not None and bool(flagged) != bool(primary):
+            self.error(event, "world-1.3: archival_primary_source_verified must match the presence of primary evidence")
 
     # -- contexts ------------------------------------------------------------------
     def contexts(self) -> None:
@@ -354,7 +375,7 @@ def write_report(path: Path, data: Dataset, problems: List[Problem]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--country", help="only report problems from files of this country (FR, US, GB, PL, RU, IT, DE, CN, FI, TR)")
+    parser.add_argument("--country", help="only report problems from files of this country (ISO code, e.g. ES)")
     parser.add_argument("--report", help="write a markdown report to this path")
     parser.add_argument("--quiet-warnings", action="store_true")
     args = parser.parse_args()

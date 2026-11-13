@@ -16,6 +16,35 @@
 | CN | 306 (300) | 43 (150) | municipal 191, national 86, regional 29 |
 | FI | 254 (300) | 90 (150) | constituent 11, municipal 157, national 81, regional 5 |
 | TR | 271 (300) | 96 (150) | municipal 174, national 89, regional 8 |
+| RS | 0 (250) | 0 (125) | — |
+| HR | 0 (250) | 0 (125) | — |
+| SI | 0 (250) | 0 (125) | — |
+| BA | 0 (250) | 0 (125) | — |
+| ME | 0 (250) | 0 (125) | — |
+| GR | 0 (250) | 0 (125) | — |
+| AT | 0 (250) | 0 (125) | — |
+| HU | 0 (250) | 0 (125) | — |
+| CZ | 0 (250) | 0 (125) | — |
+| SK | 0 (250) | 0 (125) | — |
+| PT | 0 (250) | 0 (125) | — |
+| IE | 0 (250) | 0 (125) | — |
+| ES | 0 (250) | 0 (125) | — |
+| AR | 0 (250) | 0 (125) | — |
+| CL | 0 (250) | 0 (125) | — |
+| BR | 0 (250) | 0 (125) | — |
+| CU | 0 (250) | 0 (125) | — |
+| CA | 0 (250) | 0 (125) | — |
+| AU | 0 (250) | 0 (125) | — |
+| ZA | 0 (250) | 0 (125) | — |
+| CD | 0 (250) | 0 (125) | — |
+| NG | 0 (250) | 0 (125) | — |
+| EG | 0 (250) | 0 (125) | — |
+| MA | 0 (250) | 0 (125) | — |
+| JP | 0 (250) | 0 (125) | — |
+| TH | 0 (250) | 0 (125) | — |
+| VN | 0 (250) | 0 (125) | — |
+| SG | 0 (250) | 0 (125) | — |
+| IN | 0 (250) | 0 (125) | — |
 
 Статусы всех авторских записей (включая неэкспортированные): CN:verified 306, DE:verified 333, FI:needs_review 1, FI:verified 254, FR:verified 173, GB:verified 199, IT:verified 290, PL:needs_review 5, PL:verified 170, RU:verified 200, TR:verified 271, US:needs_review 1, US:verified 202.
 
@@ -35,6 +64,35 @@
 | CN | 306 | 56% | 44% |
 | FI | 254 | 55% | 45% |
 | TR | 271 | 55% | 43% |
+| RS | 0 | 0% | 0% |
+| HR | 0 | 0% | 0% |
+| SI | 0 | 0% | 0% |
+| BA | 0 | 0% | 0% |
+| ME | 0 | 0% | 0% |
+| GR | 0 | 0% | 0% |
+| AT | 0 | 0% | 0% |
+| HU | 0 | 0% | 0% |
+| CZ | 0 | 0% | 0% |
+| SK | 0 | 0% | 0% |
+| PT | 0 | 0% | 0% |
+| IE | 0 | 0% | 0% |
+| ES | 0 | 0% | 0% |
+| AR | 0 | 0% | 0% |
+| CL | 0 | 0% | 0% |
+| BR | 0 | 0% | 0% |
+| CU | 0 | 0% | 0% |
+| CA | 0 | 0% | 0% |
+| AU | 0 | 0% | 0% |
+| ZA | 0 | 0% | 0% |
+| CD | 0 | 0% | 0% |
+| NG | 0 | 0% | 0% |
+| EG | 0 | 0% | 0% |
+| MA | 0 | 0% | 0% |
+| JP | 0 | 0% | 0% |
+| TH | 0 | 0% | 0% |
+| VN | 0 | 0% | 0% |
+| SG | 0 | 0% | 0% |
+| IN | 0 | 0% | 0% |
 
 ## События по десятилетиям
 
@@ -50,6 +108,35 @@
 | CN | 13 | 23 | 28 | 23 | 26 | 38 | 16 | 20 | 26 | 19 | 22 | 35 | 17 |
 | FI | 22 | 26 | 9 | 22 | 27 | 14 | 29 | 14 | 15 | 19 | 17 | 20 | 20 |
 | TR | 11 | 26 | 40 | 22 | 14 | 21 | 16 | 16 | 18 | 21 | 24 | 29 | 13 |
+| RS | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SI | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ME | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AT | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HU | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CZ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SK | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PT | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| IE | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ES | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CL | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CU | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AU | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ZA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CD | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| NG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| EG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| JP | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| TH | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| VN | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| IN | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## Контексты по десятилетиям (запись считается в каждом десятилетии своего периода)
 
@@ -65,6 +152,35 @@
 | CN | 0 | 1 | 1 | 2 | 5 | 14 | 12 | 14 | 13 | 13 | 15 | 29 | 23 |
 | FI | 12 | 12 | 13 | 14 | 14 | 13 | 13 | 32 | 41 | 68 | 75 | 75 | 79 |
 | TR | 0 | 1 | 8 | 8 | 9 | 9 | 16 | 17 | 16 | 17 | 18 | 32 | 14 |
+| RS | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SI | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ME | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| GR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AT | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HU | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CZ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SK | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| PT | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| IE | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ES | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CL | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| BR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CU | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| AU | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ZA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| CD | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| NG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| EG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| MA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| JP | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| TH | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| VN | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| IN | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## События по категориям
 
@@ -78,6 +194,35 @@
 - **CN**: political_change 61, local_economy 31, infrastructure_transport 28, border_administrative 27, disaster 22, war_conflict 21, culture_leisure 18, education 13, migration 13, public_health 12, repression 10, housing_urban 7, everyday_life 7, family_law 6, sport 6, technology 5, media_communication 4, occupation 4, labor 2, women_rights 2, environment 2, consumer_life 2, economic_crisis 2, healthcare 1
 - **FI**: border_administrative 31, culture_leisure 25, local_economy 23, infrastructure_transport 21, migration 17, social_policy 17, political_change 16, education 16, war_conflict 15, economic_crisis 14, housing_urban 7, consumer_life 7, media_communication 7, sport 6, healthcare 5, labor 4, disaster 4, technology 4, public_health 4, women_rights 3, everyday_life 3, repression 2, family_law 2, religion 1
 - **TR**: infrastructure_transport 38, political_change 30, local_economy 25, culture_leisure 24, border_administrative 23, education 23, everyday_life 13, war_conflict 12, migration 12, disaster 11, women_rights 10, repression 9, media_communication 8, economic_crisis 8, occupation 7, sport 4, family_law 3, labor 3, consumer_life 3, housing_urban 2, public_health 2, environment 1
+- **RS**: нет
+- **HR**: нет
+- **SI**: нет
+- **BA**: нет
+- **ME**: нет
+- **GR**: нет
+- **AT**: нет
+- **HU**: нет
+- **CZ**: нет
+- **SK**: нет
+- **PT**: нет
+- **IE**: нет
+- **ES**: нет
+- **AR**: нет
+- **CL**: нет
+- **BR**: нет
+- **CU**: нет
+- **CA**: нет
+- **AU**: нет
+- **ZA**: нет
+- **CD**: нет
+- **NG**: нет
+- **EG**: нет
+- **MA**: нет
+- **JP**: нет
+- **TH**: нет
+- **VN**: нет
+- **SG**: нет
+- **IN**: нет
 
 ## Контексты по типам
 
@@ -91,6 +236,35 @@
 - **CN**: demography 17, wages_income 4, housing 3, migration 3, communication 2, work 2, transport 2, appliances 1, food 1, prices_spending 1, women_employment 1, healthcare 1, retirement 1, consumer_goods 1, fertility_childlessness 1, education 1, family_marriage 1
 - **FI**: demography 33, work 11, fertility_childlessness 11, education 10, housing 9, healthcare 6, migration 3, social_policy 2, leisure_culture 2, food 1, family_marriage 1, transport 1
 - **TR**: demography 30, migration 11, education 9, fertility_childlessness 7, wages_income 7, prices_spending 7, healthcare 7, communication 7, work 5, women_employment 4, transport 1, family_marriage 1
+- **RS**: нет
+- **HR**: нет
+- **SI**: нет
+- **BA**: нет
+- **ME**: нет
+- **GR**: нет
+- **AT**: нет
+- **HU**: нет
+- **CZ**: нет
+- **SK**: нет
+- **PT**: нет
+- **IE**: нет
+- **ES**: нет
+- **AR**: нет
+- **CL**: нет
+- **BR**: нет
+- **CU**: нет
+- **CA**: нет
+- **AU**: нет
+- **ZA**: нет
+- **CD**: нет
+- **NG**: нет
+- **EG**: нет
+- **MA**: нет
+- **JP**: нет
+- **TH**: нет
+- **VN**: нет
+- **SG**: нет
+- **IN**: нет
 
 ## События, привязанные к узлу географии
 

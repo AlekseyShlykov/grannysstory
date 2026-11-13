@@ -24,7 +24,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
-from dataset import COUNTRY_DIRS, DATA, LEVEL_BY_TYPE, ROOT, Dataset, event_span, period_end, period_start  # noqa: E402
+from dataset import COUNTRY_DIRS, DATA, LEVEL_BY_TYPE, ROOT, STRICT_BATCH, STRICT_BATCH_LAST_YEAR, Dataset, event_span, period_end, period_start  # noqa: E402
 
 DB_PATH = DATA / "research" / "historical.sqlite"
 OUT = ROOT / "public" / "data" / "world"
@@ -395,10 +395,115 @@ def local_source_registry(data: Dataset, events: list, contexts: list) -> str:
     return "\n".join(lines)
 
 
+ERAS_1_3 = [(1900, 1919), (1920, 1939), (1940, 1959), (1960, 1979), (1980, 1999), (2000, 2009), (2010, 2020)]
+READINESS_MIN_PRIMARY = 0.55
+READINESS_MIN_ERAS = 4
+
+
+def in_game_period(record: dict) -> bool:
+    """world-1.3 records end with 2020; earlier batches keep their published range."""
+    if record.get("batch") != STRICT_BATCH:
+        return True
+    if "start_date" in record:
+        return event_span(record)[0].year <= STRICT_BATCH_LAST_YEAR
+    return int(record["period_start"]) <= STRICT_BATCH_LAST_YEAR
+
+
+def has_primary(event: dict) -> bool:
+    return any(item.get("primary") for item in event.get("evidence", []))
+
+
+def wikipedia_only(event: dict) -> bool:
+    urls = [item.get("url", "") for item in event.get("evidence", [])]
+    return bool(urls) and all("wikipedia.org" in url for url in urls)
+
+
+def is_batch_place(data: Dataset, location: dict) -> bool:
+    return location.get("batch") == STRICT_BATCH or (location.get("country") or "") in BATCH_COUNTRIES
+
+
+BATCH_COUNTRIES = {"RS", "HR", "SI", "BA", "ME", "GR", "AT", "HU", "CZ", "SK", "PT", "IE", "ES", "AR", "CL", "BR", "CU",
+                   "CA", "AU", "ZA", "CD", "NG", "EG", "MA", "JP", "TH", "VN", "SG", "IN"}
+
+
+def readiness(data: Dataset, events: list, contexts: list, cover: dict) -> dict:
+    """Per settlement of world-1.3: registered → researching → partially_supported → supported (or needs_review)."""
+    result = {}
+    for location in data.locations.values():
+        if location["type"] not in SETTLEMENT_TYPES or not is_batch_place(data, location):
+            continue
+        own = [event for event in events if location["id"] in event["location_ids"]]
+        review = [event for event in data.events if location["id"] in event.get("location_ids", []) and event.get("verification_status") == "needs_review"]
+        primary = [event for event in own if has_primary(event)]
+        eras = {index for index, (first, last) in enumerate(ERAS_1_3) for event in own if first <= event_span(event)[0].year <= last}
+        chain = set(data.ancestors_at(location["id"], dt.date(1970, 7, 1))) | set(data.ancestors_at(location["id"], dt.date(2010, 7, 1)))
+        context_count = sum(1 for context in contexts if context["location_id"] in chain)
+        share = len(primary) / len(own) if own else 0.0
+        checks = {
+            "coordinates": bool(location.get("coordinates")),
+            "coverageGate": bool(cover.get(location["id"], {}).get("meetsCoverageGate")),
+            "primaryShare": share >= READINESS_MIN_PRIMARY,
+            "eras": len(eras) >= READINESS_MIN_ERAS,
+            "everydayContext": context_count > 0,
+            "noWikipediaOnly": not any(wikipedia_only(event) for event in own),
+        }
+        if not own:
+            state = "registered"
+        elif review and len(review) >= max(3, len(own) // 4):
+            state = "needs_review"
+        elif len(own) < 8:
+            state = "researching"
+        elif all(checks.values()):
+            state = "supported"
+        else:
+            state = "partially_supported"
+        result[location["id"]] = {"state": state, "localEvents": len(own), "primaryEvents": len(primary), "primaryShare": round(share, 3),
+                                  "eras": sorted(eras), "contexts": context_count, "checks": checks}
+    return result
+
+
+def archive_quality_report(data: Dataset, events: list, contexts: list, ready: dict) -> str:
+    lines = [
+        "# Архивное качество и готовность городов (world-1.3)",
+        "",
+        f"Сгенерирован `scripts/historical-data/export/export.py` {dt.date.today().isoformat()}, набор `{WORLD_DATASET_VERSION}`. "
+        "Охват 1900–2020. Доля первичных архивных подтверждений = события с хотя бы одним доказательством `primary: true` "
+        "(названный документ: газета, муниципальная запись, закон, перепись, ежегодник, фото с метаданными и т. п.) / все проверенные события; "
+        "считаются различные события, для города — только его собственные. Минимум 55%, цель 70%. Wikipedia в долю не входит и не может быть единственным источником.",
+        "",
+        "## Страны",
+        "",
+        "| Страна | События | С первичным источником | Доля | Только вторичные | Только Wikipedia |",
+        "|---|---:|---:|---:|---:|---:|",
+    ]
+    combined = []
+    for country in sorted(BATCH_COUNTRIES | {"RU"}):
+        rows = [event for event in events if event.get("batch") == STRICT_BATCH and (event.get("country_codes") or ["?"])[0] == country]
+        if not rows:
+            continue
+        combined.extend(rows)
+        primary = sum(has_primary(event) for event in rows)
+        lines.append(f"| {country} | {len(rows)} | {primary} | {primary / len(rows):.0%} | {len(rows) - primary} | {sum(wikipedia_only(event) for event in rows)} |")
+    if combined:
+        primary = sum(has_primary(event) for event in combined)
+        lines.append(f"| **всего** | {len(combined)} | {primary} | {primary / len(combined):.0%} | {len(combined) - primary} | {sum(wikipedia_only(event) for event in combined)} |")
+    lines += ["", "## Города", "",
+              "| Место | Готовность | Свои события | С первичным | Доля | Контексты в цепочке | Периоды | Не выполнено |",
+              "|---|---|---:|---:|---:|---:|---|---|"]
+    for location_id, item in sorted(ready.items()):
+        missing = ", ".join(name for name, ok in item["checks"].items() if not ok) or "—"
+        periods = ", ".join(f"{ERAS_1_3[index][0]}–{ERAS_1_3[index][1]}" for index in item["eras"]) or "—"
+        lines.append(f"| `{location_id}` {data.name_ru_at(location_id, dt.date(2000, 1, 1))} | {item['state']} | {item['localEvents']} | {item['primaryEvents']} | {item['primaryShare']:.0%} | {item['contexts']} | {periods} | {missing} |")
+    inaccessible = sorted((source.get("country") or "?", source_id, (source.get("notes") or "")[:140]) for source_id, source in data.sources.items()
+                          if source.get("status") == "inaccessible" and (source.get("country") or "") in BATCH_COUNTRIES)
+    lines += ["", "## Недоступные архивы", ""] + ([f"- {country} `{source_id}` — {note}" for country, source_id, note in inaccessible] or ["Нет."])
+    return "\n".join(lines) + "\n"
+
+
 def main() -> int:
     data = load_from_db()
-    exported = [event for event in data.events if event.get("verification_status") == "verified"]
-    contexts = [context for context in data.contexts if context.get("verification_status") == "verified"]
+    exported = [event for event in data.events if event.get("verification_status") == "verified" and in_game_period(event)]
+    contexts = [context for context in data.contexts if context.get("verification_status") == "verified" and in_game_period(context)]
     if OUT.exists():
         shutil.rmtree(OUT)
     packs = defaultdict(lambda: {"events": [], "contexts": []})
@@ -418,6 +523,9 @@ def main() -> int:
                        "license": source.get("license")} for source_id, source in sorted(data.sources.items()) if source.get("status") == "accessed"]
     sources_checksum = dump(OUT / "sources.json", {"version": WORLD_DATASET_VERSION, "sources": public_sources})
     cover = coverage(data, exported)
+    ready = readiness(data, exported, contexts, cover)
+    for location_id, item in ready.items():
+        cover.setdefault(location_id, {})["readiness"] = item["state"]
     manifest = {
         "worldDatasetVersion": WORLD_DATASET_VERSION,
         "schema": "world-dataset-v1",
@@ -442,6 +550,7 @@ def main() -> int:
     pretty(DATA / "sources" / "source_registry.json", {"generated": True, "sources": [
         {key: value for key, value in source.items() if not key.startswith("_")} for source in data.sources.values()]})
     dump(ROOT / "src" / "i18n" / "en.world.generated.json", english_catalog(data, exported, contexts))
+    (ROOT / "docs" / "ARCHIVE_QUALITY_REPORT.md").write_text(archive_quality_report(data, exported, contexts, ready), encoding="utf-8")
     (ROOT / "docs" / "LOCAL_SOURCE_REGISTRY.md").write_text(local_source_registry(data, exported, contexts), encoding="utf-8")
     (ROOT / "docs" / "COVERAGE_REPORT.md").write_text(report(data, data.events, exported, contexts, cover, data.sources), encoding="utf-8")
     print(f"Exported {len(exported)} events, {len(contexts)} contexts, {len(pack_index)} packs, {len(locations)} locations to {OUT}")

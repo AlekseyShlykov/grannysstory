@@ -32,7 +32,8 @@ export interface MilestoneVoice {
 
 export interface MilestoneDefinition {
   id: string;
-  country: "RU" | "PL" | "FR" | "GB" | "US" | "IT" | "DE" | "CN" | "FI" | "TR";
+  /** ISO country code of the state whose history this is (RU, DE, ES …). */
+  country: string;
   /** Verified record ids (world dataset or legacy v0.4); the first one present in loaded data is used. */
   eventIds: string[];
   kind: MilestoneKind;

@@ -83,6 +83,8 @@ export interface WorldPack {
 export interface SettlementCoverage {
   localEvents: number;
   meetsCoverageGate: boolean;
+  /** world-1.3 places: registered | researching | partially_supported | supported | needs_review (docs/ARCHIVE_QUALITY_REPORT.md). */
+  readiness?: string;
   decades: Record<string, { events: number; usable: number; contexts: number; levels: Partial<Record<GeoLevel, number>> }>;
 }
 
