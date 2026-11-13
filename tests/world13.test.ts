@@ -8,12 +8,14 @@ import { loadWholeWorld } from "./worldHelpers";
 // world-1.3 (docs/WORLD_1_3_PROGRESS.md): each finished country adds its cities and comparisons here.
 const FINISHED: Record<string, string[]> = {
   RS: ["rs-beograd", "rs-novi-sad", "rs-subotica"],
-  HR: ["hr-zagreb"]
+  HR: ["hr-zagreb"],
+  SI: ["si-ljubljana"]
 };
 const COMPARISONS: string[][] = [
   ["rs-beograd", "rs-novi-sad", "rs-subotica"],
   ["rs-novi-sad", "rs-subotica"],
-  ["rs-beograd", "hr-zagreb"]
+  ["rs-beograd", "hr-zagreb"],
+  ["hr-zagreb", "si-ljubljana"]
 ];
 
 let world: WorldData;
@@ -86,5 +88,14 @@ describe("Croatia", () => {
     expect(sovereignAt(world, "hr-zagreb", "1943-07-01")).toBe("state-yu");
     expect(sovereignAt(world, "hr-zagreb", "1970-07-01")).toBe("state-yu");
     expect(sovereignAt(world, "hr-zagreb", "2000-07-01")).toBe("hr");
+  });
+});
+
+describe("Slovenia", () => {
+  it("follows Ljubljana from Austria-Hungary through Yugoslavia to independent Slovenia", () => {
+    expect(sovereignAt(world, "si-ljubljana", "1910-07-01")).toBe("state-at-hu");
+    expect(sovereignAt(world, "si-ljubljana", "1930-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "si-ljubljana", "1942-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "si-ljubljana", "2000-07-01")).toBe("si");
   });
 });

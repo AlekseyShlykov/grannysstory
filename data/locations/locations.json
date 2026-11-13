@@ -8078,6 +8078,258 @@
       "abolished": []
     },
     {
+      "id": "si",
+      "type": "state",
+      "level": "national",
+      "country": "SI",
+      "settlementClass": null,
+      "wikidata": "Q215",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Словения",
+          "locative": "в Словении",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1991-10-08",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "si-carniola",
+      "type": "land",
+      "level": "regional",
+      "country": "SI",
+      "settlementClass": null,
+      "wikidata": "Q2360973",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Герцогство Крайна",
+          "locative": "в Герцогстве Крайна",
+          "from": null,
+          "to": "1918-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1918-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "si-drava-banovina",
+      "type": "region",
+      "level": "regional",
+      "country": "SI",
+      "settlementClass": null,
+      "wikidata": "Q1256012",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Дравская бановина",
+          "locative": "в Дравской бановине",
+          "from": "1929-10-03",
+          "to": "1941-05-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-05-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-10-03",
+      "validTo": "1941-05-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "si-ljubljana",
+      "type": "city",
+      "level": "municipal",
+      "country": "SI",
+      "settlementClass": "capital",
+      "wikidata": "Q437",
+      "coordinates": {
+        "lat": 46.051389,
+        "lon": 14.506111
+      },
+      "names": [
+        {
+          "name": "Любляна",
+          "locative": "в Любляне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "si-carniola",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "id": "state-shs",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "si-drava-banovina",
+          "from": "1929-10-03",
+          "to": "1941-05-02"
+        },
+        {
+          "id": "si-ljubljana-province",
+          "from": "1941-05-03",
+          "to": "1945-05-08"
+        },
+        {
+          "id": "state-yu",
+          "from": "1945-05-09",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "si-republic",
+          "from": "1946-01-31",
+          "to": "1991-10-07"
+        },
+        {
+          "id": "si",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Италия",
+          "from": "1941-04-11",
+          "to": "1943-09-08"
+        },
+        {
+          "by": "Германия",
+          "from": "1943-09-09",
+          "to": "1945-05-08"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "si-ljubljana-province",
+      "type": "region",
+      "level": "regional",
+      "country": "SI",
+      "settlementClass": null,
+      "wikidata": "Q239755",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Люблянская провинция",
+          "locative": "в Люблянской провинции",
+          "from": "1941-05-03",
+          "to": "1945-05-08"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1941-05-03",
+          "to": "1945-05-08"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Италия",
+          "from": "1941-05-03",
+          "to": "1943-09-08"
+        },
+        {
+          "by": "Германия",
+          "from": "1943-09-09",
+          "to": "1945-05-08"
+        }
+      ],
+      "validFrom": "1941-05-03",
+      "validTo": "1945-05-08",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "si-republic",
+      "type": "republic",
+      "level": "constituent",
+      "country": "SI",
+      "settlementClass": null,
+      "wikidata": "Q211092",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Народная Республика Словения",
+          "locative": "в Народной Республике Словении",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Республика Словения",
+          "locative": "в Социалистической Республике Словении",
+          "from": "1963-04-07",
+          "to": "1990-03-06"
+        },
+        {
+          "name": "Республика Словения",
+          "locative": "в Республике Словении",
+          "from": "1990-03-07",
+          "to": "1991-10-07"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1991-10-07"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-01-31",
+      "validTo": "1991-10-07",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "state-at-hu",
       "type": "state",
       "level": "national",

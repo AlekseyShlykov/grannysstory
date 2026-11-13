@@ -39,6 +39,7 @@ const COUNTRY_IDS: Record<string, string> = {
   PL: "poland",
   RS: "serbia",
   RU: "russia",
+  SI: "slovenia",
   TR: "turkey",
   US: "united-states"
 };

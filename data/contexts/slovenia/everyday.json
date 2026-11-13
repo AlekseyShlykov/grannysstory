@@ -1,0 +1,974 @@
+{
+  "records": [
+    {
+      "id": "si-ctx-ljubljana-housing-1919-1940",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 1919,
+      "period_end": 1940,
+      "context_type": "housing",
+      "attribute": "housing_stock",
+      "title": "Жилой фонд Любляны между войнами",
+      "title_en": "Ljubljana's housing stock between the wars",
+      "description": "По данным, собранным при переписи жилья 1949 г., в 1919 г. в Любляне было 2222 здания и 5698 квартир, в 1931 г. — 2651 здание и 7609 квартир, в 1940 г. — 13 307 квартир; между войнами жильё строили примерно в ногу с ростом населения. По другому подсчёту (в расширенных границах), в конце 1940 г. в городе было 21 959 квартир, из них 4925 с ванной; преобладали одно- и двухкомнатные квартиры, а больше половины жилых домов были одноэтажными.",
+      "description_en": "According to data compiled for the 1949 housing census, Ljubljana had 2,222 buildings and 5,698 dwellings in 1919, 2,651 buildings and 7,609 dwellings in 1931, and 13,307 dwellings in 1940; between the wars housing was built roughly in step with population growth. By another count (within enlarged boundaries) the city had 21,959 dwellings at the end of 1940, of which 4,925 had a bathroom; one- and two-room flats predominated, and more than half of residential buildings were single-storey.",
+      "statistics": [
+        {
+          "indicator": "dwellings",
+          "value": 5698,
+          "unit": "dwellings",
+          "year": 1919,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры города",
+          "method_note": "обзор «Gradivo o razvoju Ljubljane» по переписи 1949 г.",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "dwellings",
+          "value": 7609,
+          "unit": "dwellings",
+          "year": 1931,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры города",
+          "method_note": "то же",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "dwellings_with_bathroom",
+          "value": 4925,
+          "unit": "dwellings",
+          "year": 1940,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры города в расширенных границах (21 959)",
+          "method_note": "«Ljubljana v številkah» (Slovenčev koledar 1942); иной подсчёт, чем выше",
+          "source_id": "si_kronika"
+        }
+      ],
+      "source_ids": [
+        "si_kronika"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_kronika",
+          "url": "https://ojs.inz.si/kronika/article/download/518/757/2577",
+          "accessed": "2026-11-13",
+          "supports": "1919: 2.222 zgradb, 5.698 stanovanj; 1931: 2.651, 7.609; 1940: 13.307 stanovanj; konec 1940: 21.959 stanovanj, 4.925 s kopalnico"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-population-1921-1961",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 1921,
+      "period_end": 1961,
+      "context_type": "demography",
+      "attribute": "census_population",
+      "title": "Население Любляны 1921–1961",
+      "title_en": "Ljubljana's population, 1921–1961",
+      "description": "По переписям в Любляне было 53 294 наличных жителя в 1921 г. и 59 765 в 1931 г., а после войны — 121 050 в 1948 г., 147 113 в 1953 г. и 170 505 в 1961 г. Значительная часть роста объясняется присоединением окрестных посёлков к городу, остальное — естественным приростом и переселением в город на фоне послевоенной индустриализации.",
+      "description_en": "According to the censuses Ljubljana had 53,294 residents present in 1921 and 59,765 in 1931, and after the war 121,050 in 1948, 147,113 in 1953 and 170,505 in 1961. Much of the growth came from attaching surrounding settlements to the city; the rest came from natural increase and migration into the city during post-war industrialisation.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 53294,
+          "unit": "persons",
+          "year": 1921,
+          "area_id": "si-ljubljana",
+          "population": "наличное население города",
+          "method_note": "перепись; в границах города на дату переписи",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "population",
+          "value": 59765,
+          "unit": "persons",
+          "year": 1931,
+          "area_id": "si-ljubljana",
+          "population": "наличное население города",
+          "method_note": "перепись; в границах города на дату переписи",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "population",
+          "value": 121050,
+          "unit": "persons",
+          "year": 1948,
+          "area_id": "si-ljubljana",
+          "population": "наличное население города",
+          "method_note": "перепись; границы расширены по сравнению с 1931 г.",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "population",
+          "value": 170505,
+          "unit": "persons",
+          "year": 1961,
+          "area_id": "si-ljubljana",
+          "population": "наличное население города",
+          "method_note": "перепись; границы расширены",
+          "source_id": "si_kronika"
+        }
+      ],
+      "source_ids": [
+        "si_kronika"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_kronika",
+          "url": "https://ojs.inz.si/kronika/article/download/518/757/2577",
+          "accessed": "2026-11-13",
+          "supports": "1921 53.294, 1931 59.765, 1948 121.050, 1953 147.113, 1961 170.505 prisotnih prebivalcev"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-wartime-movement-1942-1945",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 1942,
+      "period_end": 1945,
+      "context_type": "transport",
+      "attribute": "movement_restrictions",
+      "title": "Жизнь за проволокой: пропуска и заставы",
+      "title_en": "Life behind the wire: passes and checkpoints",
+      "description": "Пока город был окружён заграждением (1942–1945), в Любляну и из неё вели 11 дорожных проходов; чтобы пройти, нужен был пропуск, который могли получить жители старше 14 лет, особые разрешения требовались и вагоновожатым трамваев. Внутри города 34 деревянных заграждения делили его на зоны. В январе 1943 г. границу и заставы охраняли около 2500 солдат и 500 карабинеров; заставы открыли только 26 мая 1945 г.",
+      "description_en": "While the city was enclosed by the fence (1942–1945) there were 11 road crossings in and out of Ljubljana; passing required a permit, which residents over 14 could apply for, and tram drivers also needed special permits. Inside the city 34 wooden barriers divided it into zones. In January 1943 some 2,500 soldiers and 500 carabinieri guarded the boundary and checkpoints; the blocks were opened only on 26 May 1945.",
+      "statistics": [
+        {
+          "indicator": "road_crossings",
+          "value": 11,
+          "unit": "crossings",
+          "year": 1942,
+          "area_id": "si-ljubljana",
+          "population": "проходы через ограждение города",
+          "method_note": "онлайн-выставка проекта «Okupacijske meje»",
+          "source_id": "si_okupacijske_meje"
+        },
+        {
+          "indicator": "guards",
+          "value": 2500,
+          "unit": "soldiers",
+          "year": 1943,
+          "area_id": "si-ljubljana",
+          "population": "солдаты на границе и заставах, январь 1943",
+          "method_note": "то же",
+          "source_id": "si_okupacijske_meje"
+        }
+      ],
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh01-ch09.html",
+          "accessed": "2026-11-13",
+          "supports": "11 cestnih prehodov, dovolilnica za starejše od 14 let; 34 španskih jezdecev; jan. 1943 ~2.500 vojakov in 500 karabinjerjev; 26. 5. 1945 odprtje blokov"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-housing-shortage-1945-1965",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 1945,
+      "period_end": 1965,
+      "context_type": "housing",
+      "attribute": "housing_shortage",
+      "title": "Жилищный голод в послевоенной Любляне",
+      "title_en": "The housing shortage in post-war Ljubljana",
+      "description": "В конце войны Любляне не хватало около 2200 квартир; многие семьи жили в одной комнате или делили квартиру, на этаж нередко приходился один кран. По переписи жилья 24 октября 1949 г. водопровод был в 55,4% квартир, канализация в 57,3%, электричество в 97,3%; домохозяйств было на 11 000 больше, чем квартир, а к 1954 г. разрыв вырос до 15 500 (34 159 квартир на 49 748 домохозяйств). В 1955 г. без собственного жилья оставались 16 000 семей; с середины 1950-х гг. жильё строили жилищные кооперативы (35 в 1956 г., 177 в 1959 г.), а в одном 1964 г. построили почти столько же квартир, сколько за 1945–1954 гг.",
+      "description_en": "At the end of the war Ljubljana was about 2,200 flats short; many families lived in a single room or shared a flat, often with one tap per floor. In the housing census of 24 October 1949, 55.4% of dwellings had running water, 57.3% sewerage and 97.3% electricity; there were 11,000 more households than dwellings, and by 1954 the gap had grown to 15,500 (34,159 dwellings for 49,748 households). In 1955 some 16,000 families still had no flat of their own; from the mid-1950s housing cooperatives built homes (35 in 1956, 177 in 1959), and in 1964 alone nearly as many flats were built as in 1945–1954.",
+      "statistics": [
+        {
+          "indicator": "dwellings_with_running_water_share",
+          "value": 55.4,
+          "unit": "percent",
+          "year": 1949,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры города",
+          "method_note": "перепись зданий, квартир и помещений 24.10.1949",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "dwellings_with_electricity_share",
+          "value": 97.3,
+          "unit": "percent",
+          "year": 1949,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры города",
+          "method_note": "перепись 24.10.1949",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "households_minus_dwellings",
+          "value": 15500,
+          "unit": "households",
+          "year": 1954,
+          "area_id": "si-ljubljana",
+          "population": "домохозяйства города",
+          "method_note": "данные городского жилищного секретариата МЛО",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "families_without_dwelling",
+          "value": 16000,
+          "unit": "families",
+          "year": 1955,
+          "area_id": "si-ljubljana",
+          "population": "семьи в городе",
+          "method_note": "оценка по литературе",
+          "source_id": "si_kronika"
+        },
+        {
+          "indicator": "housing_cooperatives",
+          "value": 177,
+          "unit": "cooperatives",
+          "year": 1959,
+          "area_id": "si-ljubljana",
+          "population": "жилищные кооперативы города",
+          "method_note": "по литературе",
+          "source_id": "si_kronika"
+        }
+      ],
+      "source_ids": [
+        "si_kronika"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_kronika",
+          "url": "https://ojs.inz.si/kronika/article/download/518/757/2577",
+          "accessed": "2026-11-13",
+          "supports": "primanjkljaj 2.200 stanovanj; popis 24. 10. 1949 (55,4 % vodovod, 57,3 % kanalizacija, 97,3 % elektrika); 11.000/15.500; 1955 16.000 družin; zadruge 35/177; 1964"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-rep-births-1955-1990",
+      "country_code": "SI",
+      "location_id": "si-republic",
+      "period_start": 1955,
+      "period_end": 1990,
+      "context_type": "fertility_childlessness",
+      "attribute": "fertility",
+      "title": "Рождаемость в Словении 1955–1990",
+      "title_en": "Births in Slovenia, 1955–1990",
+      "description": "В 1955 г. в Словении родились 32 096 детей, суммарный коэффициент рождаемости составлял 2,58 ребёнка на женщину; к 1975 г. он снизился до 2,16, а к 1985 г. — до 1,72 (25 933 рождения). Первого ребёнка рожали рано: средний возраст матери снизился с 24,8 года в 1955 г. до 22,8 в 1975 г. Доля детей, рождённых вне брака, выросла с 10,7% в 1955 г. до 19,1% в 1985 г. Эти средние по республике не описывают выбор отдельной женщины.",
+      "description_en": "In 1955 Slovenia recorded 32,096 live births and a total fertility rate of 2.58 children per woman; by 1975 it had fallen to 2.16 and by 1985 to 1.72 (25,933 births). Women had their first child young: the mother's average age fell from 24.8 in 1955 to 22.8 in 1975. The share of children born outside marriage rose from 10.7% in 1955 to 19.1% in 1985. These republic-wide averages do not describe any individual woman's choices.",
+      "statistics": [
+        {
+          "indicator": "total_fertility_rate",
+          "value": 2.58,
+          "unit": "children per woman",
+          "year": 1955,
+          "area_id": "si-republic",
+          "population": "все женщины 15–49 лет, Словения",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "total_fertility_rate",
+          "value": 2.16,
+          "unit": "children per woman",
+          "year": 1975,
+          "area_id": "si-republic",
+          "population": "то же",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "total_fertility_rate",
+          "value": 1.72,
+          "unit": "children per woman",
+          "year": 1985,
+          "area_id": "si-republic",
+          "population": "то же",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "mean_age_mother_first_birth",
+          "value": 22.8,
+          "unit": "years",
+          "year": 1975,
+          "area_id": "si-republic",
+          "population": "первые рождения",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "births_outside_marriage_share",
+          "value": 19.1,
+          "unit": "percent",
+          "year": 1985,
+          "area_id": "si-republic",
+          "population": "живорождённые",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05J1002S.px",
+          "accessed": "2026-11-13",
+          "supports": "1955: 32.096, CSR 2,58, 24,8 let, 10,7 %; 1965: 2,45; 1975: 2,16, 22,8; 1985: 25.933, 1,72, 23,2, 19,1 %"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-rep-marriage-divorce-1955-1990",
+      "country_code": "SI",
+      "location_id": "si-republic",
+      "period_start": 1955,
+      "period_end": 1990,
+      "context_type": "family_marriage",
+      "attribute": "marriage_divorce",
+      "title": "Браки и разводы в Словении 1955–1990",
+      "title_en": "Marriages and divorces in Slovenia, 1955–1990",
+      "description": "В 1955 г. в Словении заключили 14 105 браков (9,2 на 1000 жителей), в 1975 г. — 15 379 (8,5), а к 1985 г. их число упало до 10 579. В 1975 г. невеста впервые выходила замуж в среднем в 22,5 года, жених — в 25,8. Разводов становилось больше: 82 на 1000 браков в 1955 г., 143 в 1975 г. и 240 в 1985 г.",
+      "description_en": "In 1955 Slovenia recorded 14,105 marriages (9.2 per 1,000 inhabitants) and in 1975 15,379 (8.5), but by 1985 the number had fallen to 10,579. In 1975 brides married for the first time at an average age of 22.5 and grooms at 25.8. Divorce became more common: 82 per 1,000 marriages in 1955, 143 in 1975 and 240 in 1985.",
+      "statistics": [
+        {
+          "indicator": "marriages",
+          "value": 14105,
+          "unit": "marriages",
+          "year": 1955,
+          "area_id": "si-republic",
+          "population": "все браки, Словения",
+          "method_note": "SURS 05M1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "mean_age_bride_first_marriage",
+          "value": 22.5,
+          "unit": "years",
+          "year": 1975,
+          "area_id": "si-republic",
+          "population": "первые браки невест",
+          "method_note": "SURS 05M1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "divorces_per_1000_marriages",
+          "value": 143.4,
+          "unit": "per 1000 marriages",
+          "year": 1975,
+          "area_id": "si-republic",
+          "population": "Словения",
+          "method_note": "SURS 05M3002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "divorces_per_1000_marriages",
+          "value": 239.8,
+          "unit": "per 1000 marriages",
+          "year": 1985,
+          "area_id": "si-republic",
+          "population": "Словения",
+          "method_note": "SURS 05M3002S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05M1002S.px",
+          "accessed": "2026-11-13",
+          "supports": "1955: 14.105, 9,2/1000; 1975: 15.379, 8,5; 22,5/25,8 let; 1985: 10.579"
+        },
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05M3002S.px",
+          "accessed": "2026-11-13",
+          "supports": "razveze na 1000 sklenitev: 81,9 (1955), 143,4 (1975), 239,8 (1985)"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-household-consumption-1960s",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 1960,
+      "period_end": 1970,
+      "context_type": "consumer_goods",
+      "attribute": "household_equipment",
+      "title": "Новые квартиры и бытовая техника 1960-х",
+      "title_en": "New flats and household appliances in the 1960s",
+      "description": "В новых квартирах 1960-х гг. появлялись ванная с горячей водой, гостиная и встроенная «шведская» кухня с газовой или электрической плитой; холодильник стал обычным, радио было почти в каждой семье, а телевизор в начале десятилетия часто смотрели коллективно. С 1960 по 1970 г. средние зарплаты выросли примерно вшестеро; в середине 1960-х гг. средняя семья тратила на еду около 40% доходов.",
+      "description_en": "New flats of the 1960s had a bathroom with hot water, a living room and a fitted 'Swedish' kitchen with a gas or electric cooker; the refrigerator became standard, nearly every family had a radio, and early in the decade television was often watched together with others. Between 1960 and 1970 average wages rose about sixfold, and in the mid-1960s the average family spent about 40% of its income on food.",
+      "statistics": [
+        {
+          "indicator": "food_share_of_household_spending",
+          "value": 40,
+          "unit": "percent",
+          "year": 1965,
+          "area_id": "si-ljubljana",
+          "population": "средняя семья",
+          "method_note": "оценка по литературе (около 40%); не официальная статистика города",
+          "source_id": "si_kronika"
+        }
+      ],
+      "source_ids": [
+        "si_kronika"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_kronika",
+          "url": "https://ojs.inz.si/kronika/article/download/518/757/2577",
+          "accessed": "2026-11-13",
+          "supports": "švedska kuhinja, hladilnik, radio, kolektivno gledanje TV; plače 1960–1970 ×6; sredi 60. let ~40 % za hrano"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-nat-births-1991-2020",
+      "country_code": "SI",
+      "location_id": "si",
+      "period_start": 1991,
+      "period_end": 2020,
+      "context_type": "fertility_childlessness",
+      "attribute": "fertility",
+      "title": "Рождаемость в независимой Словении 1991–2020",
+      "title_en": "Births in independent Slovenia, 1991–2020",
+      "description": "В 1990-е гг. рождаемость упала до одной из самых низких в Европе: суммарный коэффициент составлял 1,29 в 1995 г. и 1,26 в 2005 г., затем поднялся до 1,57 в 2015 г. и 1,60 в 2020 г. (18 767 рождений). Средний возраст матери при первых родах вырос с 25,0 года в 1995 г. до 29,6 в 2020 г., а доля детей, рождённых вне брака, — с 29,8% до 56,5%: большинство пар растили детей без регистрации брака.",
+      "description_en": "In the 1990s fertility fell to one of the lowest levels in Europe: the total fertility rate was 1.29 in 1995 and 1.26 in 2005, then rose to 1.57 in 2015 and 1.60 in 2020 (18,767 births). The mother's average age at first birth rose from 25.0 in 1995 to 29.6 in 2020, and the share of children born outside marriage from 29.8% to 56.5%: most couples raised children without registering a marriage.",
+      "statistics": [
+        {
+          "indicator": "total_fertility_rate",
+          "value": 1.26,
+          "unit": "children per woman",
+          "year": 2005,
+          "area_id": "si",
+          "population": "все женщины 15–49 лет, Словения",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "total_fertility_rate",
+          "value": 1.6,
+          "unit": "children per woman",
+          "year": 2020,
+          "area_id": "si",
+          "population": "то же",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "mean_age_mother_first_birth",
+          "value": 29.6,
+          "unit": "years",
+          "year": 2020,
+          "area_id": "si",
+          "population": "первые рождения",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "births_outside_marriage_share",
+          "value": 56.5,
+          "unit": "percent",
+          "year": 2020,
+          "area_id": "si",
+          "population": "живорождённые",
+          "method_note": "SURS 05J1002S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05J1002S.px",
+          "accessed": "2026-11-13",
+          "supports": "1995: 18.980, 1,29, 25,0, 29,8 %; 2005: 1,26, 27,8, 46,7 %; 2015: 1,57, 29,3, 57,9 %; 2020: 18.767, 1,60, 29,6, 56,5 %"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-nat-marriage-divorce-1991-2020",
+      "country_code": "SI",
+      "location_id": "si",
+      "period_start": 1991,
+      "period_end": 2020,
+      "context_type": "family_marriage",
+      "attribute": "marriage_divorce",
+      "title": "Браки и разводы в Словении 1991–2020",
+      "title_en": "Marriages and divorces in Slovenia, 1991–2020",
+      "description": "После 1990 г. браков стало заметно меньше: 8245 в 1995 г. (4,2 на 1000 жителей), 5769 в 2005 г. и 5214 в 2020 г. (2,5). Женились всё позже: средний возраст невесты при первом браке вырос с 25,2 года в 1995 г. до 30,5 в 2020 г., жениха — с 27,9 до 32,4. На 1000 браков приходилось 192 развода в 1995 г., 459 в 2005 г. и 340 в 2020 г.",
+      "description_en": "After 1990 the number of marriages fell markedly: 8,245 in 1995 (4.2 per 1,000 inhabitants), 5,769 in 2005 and 5,214 in 2020 (2.5). People married ever later: the average age of brides at first marriage rose from 25.2 in 1995 to 30.5 in 2020, and of grooms from 27.9 to 32.4. There were 192 divorces per 1,000 marriages in 1995, 459 in 2005 and 340 in 2020.",
+      "statistics": [
+        {
+          "indicator": "marriages_per_1000",
+          "value": 2.5,
+          "unit": "per 1000 inhabitants",
+          "year": 2020,
+          "area_id": "si",
+          "population": "Словения",
+          "method_note": "SURS 05M1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "mean_age_bride_first_marriage",
+          "value": 30.5,
+          "unit": "years",
+          "year": 2020,
+          "area_id": "si",
+          "population": "первые браки невест",
+          "method_note": "SURS 05M1002S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "divorces_per_1000_marriages",
+          "value": 458.8,
+          "unit": "per 1000 marriages",
+          "year": 2005,
+          "area_id": "si",
+          "population": "Словения",
+          "method_note": "SURS 05M3002S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05M1002S.px",
+          "accessed": "2026-11-13",
+          "supports": "1995: 8.245, 4,2; 2005: 5.769; 2020: 5.214, 2,5; nevesta 25,2→30,5, ženin 27,9→32,4"
+        },
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05M3002S.px",
+          "accessed": "2026-11-13",
+          "supports": "razveze na 1000 sklenitev: 192 (1995), 458,8 (2005), 340,2 (2020)"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-net-wages-2000-2020",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 2000,
+      "period_end": 2020,
+      "context_type": "wages_income",
+      "attribute": "average_net_wage",
+      "title": "Средняя зарплата жителей Любляны 2000–2020",
+      "title_en": "Average net pay of Ljubljana residents, 2000–2020",
+      "description": "Средняя месячная чистая зарплата жителей общины Любляна, работающих в юридических лицах, составляла 589 евро в 2000 г. (в пересчёте из толаров), 1156 евро в 2010 г. и 1408 евро в 2020 г., примерно на 12–18% выше средней по Словении (501, 996 и 1256 евро). Разрыв между мужчинами и женщинами в Любляне к 2020 г. практически исчез (1408 и 1407 евро), тогда как в 2000 г. он составлял 611 и 567 евро.",
+      "description_en": "The average monthly net pay of Ljubljana residents employed by legal entities was €589 in 2000 (converted from tolars), €1,156 in 2010 and €1,408 in 2020, roughly 12–18% above the Slovene average (€501, €996 and €1,256). By 2020 the gap between men and women in Ljubljana had practically disappeared (€1,408 and €1,407), whereas in 2000 it was €611 against €567.",
+      "statistics": [
+        {
+          "indicator": "average_net_monthly_wage",
+          "value": 589,
+          "unit": "EUR",
+          "year": 2000,
+          "area_id": "si-ljubljana",
+          "population": "работники юридических лиц, проживающие в общине",
+          "method_note": "SURS 0711344S, по общине проживания; суммы до 2007 г. пересчитаны в евро",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_net_monthly_wage",
+          "value": 1156,
+          "unit": "EUR",
+          "year": 2010,
+          "area_id": "si-ljubljana",
+          "population": "то же",
+          "method_note": "SURS 0711344S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_net_monthly_wage",
+          "value": 1408,
+          "unit": "EUR",
+          "year": 2020,
+          "area_id": "si-ljubljana",
+          "population": "то же",
+          "method_note": "SURS 0711344S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_net_monthly_wage",
+          "value": 1256,
+          "unit": "EUR",
+          "year": 2020,
+          "area_id": "si",
+          "population": "работники юридических лиц, Словения",
+          "method_note": "SURS 0711344S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/0711344S.px",
+          "accessed": "2026-11-13",
+          "supports": "neto povprečje Ljubljana 589/1156/1408, SLO 501/996/1256; moški/ženske Ljubljana 611/567 (2000), 1408/1407 (2020)"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-population-ageing-2000-2020",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 2000,
+      "period_end": 2020,
+      "context_type": "demography",
+      "attribute": "age_structure",
+      "title": "Любляна стареет: возраст жителей 2000–2020",
+      "title_en": "An ageing Ljubljana: residents' ages, 2000–2020",
+      "description": "Население городской общины Любляна выросло с 267 760 человек в начале 2008 г. до 295 504 в начале 2020 г. Средний возраст жителей поднялся с 39,9 года в 2000 г. до 42,6 года в 2020 г., доля людей 65 лет и старше — с 14,6% до 19,6%, а 80 лет и старше — с 2,7% до 5,7%. По Словении в целом в 2020 г. средний возраст составлял 43,5 года.",
+      "description_en": "The population of the City Municipality of Ljubljana grew from 267,760 at the start of 2008 to 295,504 at the start of 2020. Residents' average age rose from 39.9 years in 2000 to 42.6 in 2020, the share aged 65 and over from 14.6% to 19.6%, and the share aged 80 and over from 2.7% to 5.7%. For Slovenia as a whole the average age in 2020 was 43.5.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 267760,
+          "unit": "persons",
+          "year": 2008,
+          "area_id": "si-ljubljana",
+          "population": "население общины Любляна на 1 января",
+          "method_note": "SURS, табл. 05C4003S, 2008H1",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "population",
+          "value": 295504,
+          "unit": "persons",
+          "year": 2020,
+          "area_id": "si-ljubljana",
+          "population": "население общины Любляна на 1 января",
+          "method_note": "SURS, табл. 05C4003S, 2020H1",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_age",
+          "value": 39.9,
+          "unit": "years",
+          "year": 2000,
+          "area_id": "si-ljubljana",
+          "population": "население общины Любляна",
+          "method_note": "SURS, табл. 05C4008S, 2000H1",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_age",
+          "value": 42.6,
+          "unit": "years",
+          "year": 2020,
+          "area_id": "si-ljubljana",
+          "population": "население общины Любляна",
+          "method_note": "SURS, табл. 05C4008S, 2020H1",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "share_aged_65_plus",
+          "value": 19.6,
+          "unit": "percent",
+          "year": 2020,
+          "area_id": "si-ljubljana",
+          "population": "население общины Любляна",
+          "method_note": "SURS, табл. 05C4008S, 2020H1",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "share_aged_80_plus",
+          "value": 5.7,
+          "unit": "percent",
+          "year": 2020,
+          "area_id": "si-ljubljana",
+          "population": "население общины Любляна",
+          "method_note": "SURS, табл. 05C4008S, 2020H1",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05C4003S.px",
+          "accessed": "2026-11-13",
+          "supports": "Ljubljana 2008H1 267.760, 2020H1 295.504"
+        },
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05C4008S.px",
+          "accessed": "2026-11-13",
+          "supports": "Ljubljana povprečna starost 39,9 (2000H1), 41,8 (2010H1), 42,6 (2020H1); 65+ 14,6/17,0/19,6 %; 80+ 2,7/4,4/5,7 %"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-housing-2002",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 2002,
+      "period_end": 2002,
+      "context_type": "housing",
+      "attribute": "housing_tenure",
+      "title": "Жильё в Любляне по переписи 2002 г.",
+      "title_en": "Housing in Ljubljana in the 2002 census",
+      "description": "По переписи 2002 г. в общине Любляна было 112 541 квартира средней площадью 68,2 м² (по Словении — 74,6 м²); 92,6% из них находились в частной собственности граждан и лишь 6,2% — в собственности публичного сектора. В 98 581 заселённой квартире жили 262 474 человека, то есть в среднем около 2,7 человека на квартиру.",
+      "description_en": "The 2002 census counted 112,541 dwellings in the Ljubljana municipality with an average floor area of 68.2 m² (74.6 m² for Slovenia); 92.6% were privately owned by individuals and only 6.2% by the public sector. The 98,581 occupied dwellings housed 262,474 people, about 2.7 persons per dwelling on average.",
+      "statistics": [
+        {
+          "indicator": "dwellings",
+          "value": 112541,
+          "unit": "dwellings",
+          "year": 2002,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры общины (в границах на 1.01.2007)",
+          "method_note": "перепись 2002, SURS 05W1207S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_dwelling_area",
+          "value": 68.21,
+          "unit": "m2",
+          "year": 2002,
+          "area_id": "si-ljubljana",
+          "population": "все квартиры общины",
+          "method_note": "перепись 2002, SURS 05W1207S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "private_ownership_share",
+          "value": 92.6,
+          "unit": "percent",
+          "year": 2002,
+          "area_id": "si-ljubljana",
+          "population": "квартиры в собственности физических лиц",
+          "method_note": "расчёт: 104 224 / 112 541",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "persons_in_occupied_dwellings",
+          "value": 262474,
+          "unit": "persons",
+          "year": 2002,
+          "area_id": "si-ljubljana",
+          "population": "жители заселённых квартир",
+          "method_note": "перепись 2002, SURS 05W1212S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05W1207S.px",
+          "accessed": "2026-11-13",
+          "supports": "Ljubljana 2002: 112.541 stanovanj, 68,21 m²; zasebna last 104.224, javni sektor 6.981; SLO 777.772, 74,61 m²"
+        },
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05W1212S.px",
+          "accessed": "2026-11-13",
+          "supports": "Ljubljana 2002: 98.581 naseljenih stanovanj, 262.474 oseb"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-unemployment-2008-2016",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 2008,
+      "period_end": 2016,
+      "context_type": "work",
+      "attribute": "registered_unemployment",
+      "title": "Безработица в Любляне в годы кризиса 2008–2016",
+      "title_en": "Unemployment in Ljubljana during the 2008–2016 crisis",
+      "description": "В декабре 2008 г. в общине Любляна были зарегистрированы 7195 безработных (5,7%), а к декабрю 2013 г. — уже 16 531 (13,3%), почти как в среднем по Словении (13,5%). К декабрю 2016 г. уровень снизился до 11,2% (14 726 человек).",
+      "description_en": "In December 2008 the Ljubljana municipality had 7,195 registered unemployed (5.7%), and by December 2013 already 16,531 (13.3%), close to the Slovene average (13.5%). By December 2016 the rate had fallen to 11.2% (14,726 people).",
+      "statistics": [
+        {
+          "indicator": "registered_unemployment_rate",
+          "value": 5.7,
+          "unit": "percent",
+          "year": 2008,
+          "area_id": "si-ljubljana",
+          "population": "жители общины, декабрь",
+          "method_note": "SURS 0700960S, регистрируемая безработица",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "registered_unemployment_rate",
+          "value": 13.3,
+          "unit": "percent",
+          "year": 2013,
+          "area_id": "si-ljubljana",
+          "population": "жители общины, декабрь",
+          "method_note": "SURS 0700960S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "registered_unemployment_rate",
+          "value": 11.2,
+          "unit": "percent",
+          "year": 2016,
+          "area_id": "si-ljubljana",
+          "population": "жители общины, декабрь",
+          "method_note": "SURS 0700960S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "registered_unemployment_rate",
+          "value": 13.5,
+          "unit": "percent",
+          "year": 2013,
+          "area_id": "si",
+          "population": "Словения, декабрь",
+          "method_note": "SURS 0700960S",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/0700960S.px",
+          "accessed": "2026-11-13",
+          "supports": "Ljubljana dec. 2008 7.195 (5,7 %), dec. 2013 16.531 (13,3 %), dec. 2016 14.726 (11,2 %); SLO 7,0/13,5/10,8 %"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ctx-ljubljana-households-2011-2018",
+      "country_code": "SI",
+      "location_id": "si-ljubljana",
+      "period_start": 2011,
+      "period_end": 2018,
+      "context_type": "family_marriage",
+      "attribute": "household_composition",
+      "title": "Домохозяйства и семьи Любляны по регистровым переписям",
+      "title_en": "Ljubljana's households and families in the register-based censuses",
+      "description": "По регистровой переписи 2011 г. в общине Любляна было 119 281 домохозяйство со средним размером 2,3 человека; 40% из них составляли одиночки (47 676), тогда как по Словении — около трети. Из 72 923 семей 16 812 были парами без детей; в семьях с детьми в среднем было 1,52 ребёнка. К 2018 г. домохозяйств стало 124 998, средний размер снизился до 2,2, а доля одиночек выросла до 41%.",
+      "description_en": "In the 2011 register-based census the City Municipality of Ljubljana had 119,281 households with an average size of 2.3 persons; 40% of them (47,676) were one-person households, against about a third for Slovenia as a whole. Of 72,923 families, 16,812 were couples without children; families with children had on average 1.52 children. By 2018 there were 124,998 households, the average size had fallen to 2.2 and the share living alone had risen to 41%.",
+      "statistics": [
+        {
+          "indicator": "households",
+          "value": 119281,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "si-ljubljana",
+          "population": "частные домохозяйства общины",
+          "method_note": "регистровая перепись 2011, SURS 05F3005S",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "one_person_households",
+          "value": 47676,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "si-ljubljana",
+          "population": "частные домохозяйства общины",
+          "method_note": "регистровая перепись 2011",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "average_household_size",
+          "value": 2.2,
+          "unit": "persons",
+          "year": 2018,
+          "area_id": "si-ljubljana",
+          "population": "частные домохозяйства общины",
+          "method_note": "регистровая перепись 2018",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "one_person_households",
+          "value": 51194,
+          "unit": "households",
+          "year": 2018,
+          "area_id": "si-ljubljana",
+          "population": "частные домохозяйства общины",
+          "method_note": "регистровая перепись 2018",
+          "source_id": "si_surs"
+        },
+        {
+          "indicator": "families_without_children",
+          "value": 16812,
+          "unit": "families",
+          "year": 2011,
+          "area_id": "si-ljubljana",
+          "population": "семьи (пары без детей, проживающих с ними)",
+          "method_note": "регистровая перепись 2011; не равно бездетности: дети могут жить отдельно",
+          "source_id": "si_surs"
+        }
+      ],
+      "source_ids": [
+        "si_surs"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_surs",
+          "url": "https://pxweb.stat.si/SiStatData/api/v1/sl/Data/05F3005S.px",
+          "accessed": "2026-11-13",
+          "supports": "Ljubljana 2011: 119.281 gospodinjstev, 47.676 enočlanskih, 2,3; 72.923 družin, 16.812 brez otrok, 1,52; 2018: 124.998, 51.194, 2,2; SLO 2011 813.531/266.489"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

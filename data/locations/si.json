@@ -1,0 +1,170 @@
+{
+  "locations": [
+    {
+      "id": "si-carniola",
+      "type": "land",
+      "country": "SI",
+      "wikidata": "Q2360973",
+      "codes": {},
+      "names": [
+        {"name": "Herzogtum Krain", "lang": "de", "from": null, "to": "1918-10-28"},
+        {"name": "Vojvodina Kranjska", "lang": "sl", "from": null, "to": "1918-10-28"}
+      ],
+      "names_ru": [
+        {"name": "Герцогство Крайна", "locative": "в Герцогстве Крайна", "name_en": "Duchy of Carniola", "from": null, "to": "1918-10-28", "locative_en": "in the Duchy of Carniola"}
+      ],
+      "alt_names": ["Kranjska", "Krain", "Carniola"],
+      "coordinates": null,
+      "parents": [
+        {"id": "state-at-hu", "from": null, "to": "1918-10-28"}
+      ],
+      "sovereignty_note": "Коронная земля (Kronland) австрийской половины Австро-Венгрии (Цислейтании) со столицей в Лайбахе/Любляне, собственным ландтагом и земским правительством. Не государство, поэтому тип `land` (региональный уровень), родитель — общий узел `state-at-hu`. Конец узла — 28.10.1918, как у Хорватии-Славонии в hr.json: 29.10.1918 в Любляне на Конгресной площади было провозглашено Государство словенцев, хорватов и сербов (Исторический архив Любляны, выставка «Slovenci, začenjajo se novi časi…»), 31.10.1918 в Любляне начало работу Народное правительство. Цислейтания отдельным узлом не моделируется.",
+      "occupations": [],
+      "source_ids": ["wikidata", "si_zal"],
+      "valid_from": null,
+      "valid_to": "1918-10-28",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-drava-banovina",
+      "type": "region",
+      "country": "SI",
+      "wikidata": "Q1256012",
+      "codes": {},
+      "names": [
+        {"name": "Dravska banovina", "lang": "sl", "from": "1929-10-03", "to": "1941-05-02"}
+      ],
+      "names_ru": [
+        {"name": "Дравская бановина", "locative": "в Дравской бановине", "name_en": "Drava Banovina", "from": "1929-10-03", "to": "1941-05-02"}
+      ],
+      "alt_names": ["Dravska banovina", "Drava Banate"],
+      "coordinates": null,
+      "parents": [
+        {"id": "state-yu", "from": "1929-10-03", "to": "1941-05-02"}
+      ],
+      "sovereignty_note": "Бановина Королевства Югославия с центром в Любляне по закону о наименовании и делении королевства 3.10.1929 (как Дунайская и Савская бановины в rs.json и hr.json); примерно соответствовала словенским землям королевства. После вступления итальянских войск в Любляну (11.04.1941) высшая власть 18.04.1941 перешла от бана Марко Натлачена к итальянскому верховному комиссару; конец узла — 2.05.1941, накануне итальянского декрета о Люблянской провинции (проект «Okupacijske meje», Философский факультет Люблянского университета). Северная часть бановины в 1941 г. была занята Германией и Венгрией; эти земли здесь не моделируются.",
+      "occupations": [],
+      "source_ids": ["wikidata", "si_okupacijske_meje"],
+      "valid_from": "1929-10-03",
+      "valid_to": "1941-05-02",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-province",
+      "type": "region",
+      "country": "SI",
+      "wikidata": "Q239755",
+      "codes": {},
+      "names": [
+        {"name": "Ljubljanska pokrajina", "lang": "sl", "from": "1941-05-03", "to": "1945-05-08"},
+        {"name": "Provincia di Lubiana", "lang": "it", "from": "1941-05-03", "to": "1943-09-08"},
+        {"name": "Provinz Laibach", "lang": "de", "from": "1943-09-09", "to": "1945-05-08"}
+      ],
+      "names_ru": [
+        {"name": "Люблянская провинция", "locative": "в Люблянской провинции", "name_en": "Province of Ljubljana", "from": "1941-05-03", "to": "1945-05-08", "locative_en": "in the Province of Ljubljana"}
+      ],
+      "alt_names": ["Provincia di Lubiana", "Provinz Laibach", "Ljubljanska pokrajina"],
+      "coordinates": null,
+      "parents": [
+        {"id": "state-yu", "from": "1941-05-03", "to": "1945-05-08"}
+      ],
+      "sovereignty_note": "Оккупационная провинция, а не смена суверенитета. 3.05.1941 Италия королевским декретом аннексировала занятую ею часть словенских земель как Люблянскую провинцию (проект «Okupacijske meje»; Wikidata Q239755, P571 3.05.1941, P576 9.05.1945). Аннексия была совершена во время войны против Югославии и не признавалась союзниками и законным югославским правительством в эмиграции; после войны территория вернулась Югославии. Поэтому, как и НГХ в hr.json и как предписывает примечание к `state-yu`, узел подчинён `state-yu`, а итальянская и немецкая власть отмечены в `occupations` Любляны. После капитуляции Италии (8.09.1943) провинция перешла под германское управление (Оперативная зона Адриатическое побережье) и до мая 1945 г. сохранялась как «Provinz Laibach» с местной администрацией. Узел нужен, чтобы привязывать распоряжения, действовавшие во всей провинции; оценки режима здесь не даются.",
+      "occupations": [
+        {"by_ru": "Италия", "by_en": "Italy", "from": "1941-05-03", "to": "1943-09-08", "source_id": "si_okupacijske_meje"},
+        {"by_ru": "Германия", "by_en": "Germany", "from": "1943-09-09", "to": "1945-05-08", "source_id": "si_okupacijske_meje"}
+      ],
+      "source_ids": ["wikidata", "si_okupacijske_meje"],
+      "valid_from": "1941-05-03",
+      "valid_to": "1945-05-08",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-republic",
+      "type": "republic",
+      "country": "SI",
+      "wikidata": "Q211092",
+      "codes": {},
+      "names": [
+        {"name": "Ljudska republika Slovenija", "lang": "sl", "from": "1946-01-31", "to": "1963-04-06"},
+        {"name": "Socialistična republika Slovenija", "lang": "sl", "from": "1963-04-07", "to": "1990-03-06"},
+        {"name": "Republika Slovenija", "lang": "sl", "from": "1990-03-07", "to": "1991-10-07"}
+      ],
+      "names_ru": [
+        {"name": "Народная Республика Словения", "locative": "в Народной Республике Словении", "name_en": "People's Republic of Slovenia", "from": "1946-01-31", "to": "1963-04-06", "locative_en": "in the People's Republic of Slovenia"},
+        {"name": "Социалистическая Республика Словения", "locative": "в Социалистической Республике Словении", "name_en": "Socialist Republic of Slovenia", "from": "1963-04-07", "to": "1990-03-06", "locative_en": "in the Socialist Republic of Slovenia"},
+        {"name": "Республика Словения", "locative": "в Республике Словении", "name_en": "Republic of Slovenia", "from": "1990-03-07", "to": "1991-10-07", "locative_en": "in the Republic of Slovenia"}
+      ],
+      "alt_names": ["LR Slovenija", "SR Slovenija", "SRS"],
+      "coordinates": null,
+      "parents": [
+        {"id": "state-yu", "from": "1946-01-31", "to": "1991-10-07"}
+      ],
+      "sovereignty_note": "Словения как республика Югославской федерации. Начало узла — 31.01.1946 (Конституция ФНРЮ), как у `rs-republic` и `hr-republic`; месяцы 9.05.1945 – 30.01.1946 не моделируются (Любляна подчинена непосредственно `state-yu`). Название «Социалистическая Республика Словения» — с федеральной конституции 7.04.1963. Конституционные поправки XCI–XCV, принятые Скупщиной 7.03.1990 (Uradni list RS 8/90, перечень актов независимости на gov.si), исключили слово «социалистическая» из названия. Конец узла — 7.10.1991: в этот день истёк трёхмесячный мораторий Брионской декларации (7.07.1991) на исполнение актов о независимости от 25.06.1991; с 8.10.1991 Словения — независимое государство `si` (так же смоделирована Хорватия в hr.json).",
+      "occupations": [],
+      "source_ids": ["wikidata", "si_gov"],
+      "valid_from": "1946-01-31",
+      "valid_to": "1991-10-07",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si",
+      "type": "state",
+      "country": "SI",
+      "wikidata": "Q215",
+      "codes": {"iso3166": "SI"},
+      "names": [
+        {"name": "Republika Slovenija", "lang": "sl", "from": "1991-10-08", "to": null}
+      ],
+      "names_ru": [
+        {"name": "Словения", "locative": "в Словении", "name_en": "Slovenia", "from": "1991-10-08", "to": null}
+      ],
+      "alt_names": ["Republika Slovenija", "Slovenia", "Slovenija"],
+      "coordinates": null,
+      "parents": [
+        {"id": "world", "from": "1991-10-08", "to": null}
+      ],
+      "sovereignty_note": "Независимая Республика Словения с 8.10.1991. Выбор даты: 25.06.1991 Скупщина приняла Основную конституционную хартию о самостоятельности и независимости (Uradni list RS 1/91-I), 26.06.1991 независимость провозглашена на площади Республики в Любляне (gov.si). По Брионской декларации 7.07.1991 Словения согласилась на трёхмесячный мораторий на дальнейшее осуществление актов независимости; он истёк, и 8.10.1991 Скупщина приняла законы о денежной единице (толар), заработала собственная таможня (gov.si, «8. 10. 1991: Moratorij se je iztekel»). Для единообразия с Хорватией (hr.json, тоже 8.10.1991) смена родителя Любляны поставлена на 8.10.1991, а 25–26.06.1991 записаны событиями на `si-republic`. В Словении День государственности отмечается 25 июня; последний солдат ЮНА покинул Словению 25–26.10.1991 (День суверенитета 25 октября).",
+      "occupations": [],
+      "source_ids": ["wikidata", "si_gov"],
+      "valid_from": "1991-10-08",
+      "valid_to": null,
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana",
+      "type": "city",
+      "country": "SI",
+      "wikidata": "Q437",
+      "codes": {},
+      "settlement_class": "capital",
+      "names": [
+        {"name": "Ljubljana", "lang": "sl", "from": null, "to": null},
+        {"name": "Laibach", "lang": "de", "from": null, "to": "1918-10-28"},
+        {"name": "Lubiana", "lang": "it", "from": "1941-05-03", "to": "1943-09-08"},
+        {"name": "Laibach", "lang": "de", "from": "1943-09-09", "to": "1945-05-08"}
+      ],
+      "names_ru": [
+        {"name": "Любляна", "locative": "в Любляне", "name_en": "Ljubljana", "from": null, "to": null}
+      ],
+      "alt_names": ["Laibach", "Lubiana", "Emona"],
+      "coordinates": {"lat": 46.051389, "lon": 14.506111, "source_id": "wikidata"},
+      "parents": [
+        {"id": "si-carniola", "from": null, "to": "1918-10-28"},
+        {"id": "state-shs", "from": "1918-10-29", "to": "1918-11-30"},
+        {"id": "state-yu", "from": "1918-12-01", "to": "1929-10-02"},
+        {"id": "si-drava-banovina", "from": "1929-10-03", "to": "1941-05-02"},
+        {"id": "si-ljubljana-province", "from": "1941-05-03", "to": "1945-05-08"},
+        {"id": "state-yu", "from": "1945-05-09", "to": "1946-01-30"},
+        {"id": "si-republic", "from": "1946-01-31", "to": "1991-10-07"},
+        {"id": "si", "from": "1991-10-08", "to": null}
+      ],
+      "sovereignty_note": "Столица Крайны (до 1918), место провозглашения Государства СХС 29.10.1918 и резиденция Народного, затем Земского правительства для Словении, центр Дравской бановины (1929–1941), Люблянской провинции под итальянской (1941–1943) и германской (1943–1945) оккупацией, столица Народной/Социалистической Республики Словения и независимой Словении (с 8.10.1991). 11.04.1941 в город вошли итальянские войска, 3.05.1941 Италия аннексировала провинцию (аннексия не признана; суверенитет остаётся за `state-yu`), после 8.09.1943 город заняли германские войска, 9.05.1945 в город вошли части Югославской армии (проект «Okupacijske meje»). 1942–1945 город был окружён проволочным заграждением. В 1930-е годы к городу присоединены Вич, Шишка, Мосте и части соседних общин; современные границы Городской общины Любляна — по закону о местном самоуправлении 1994 г.; отдельными узлами не моделируются.",
+      "occupations": [
+        {"by_ru": "Италия", "by_en": "Italy", "from": "1941-04-11", "to": "1943-09-08", "source_id": "si_okupacijske_meje"},
+        {"by_ru": "Германия", "by_en": "Germany", "from": "1943-09-09", "to": "1945-05-08", "source_id": "si_okupacijske_meje"}
+      ],
+      "source_ids": ["wikidata", "si_okupacijske_meje", "si_zal"],
+      "batch": "world-1.3"
+    }
+  ]
+}

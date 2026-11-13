@@ -1,0 +1,398 @@
+{
+  "records": [
+    {
+      "id": "si-rep-1958-tv-ljubljana",
+      "title": "Телевидение Любляна — первые передачи на словенском",
+      "title_en": "Television Ljubljana: the first broadcasts in Slovene",
+      "title_original": null,
+      "start_date": "1958",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "В 1958 г. начало работу Телевидение Любляна — первая телестанция, вещавшая на словенском языке.",
+      "historical_summary_en": "In 1958 Television Ljubljana began operating as the first television broadcaster in the Slovene language.",
+      "affected_groups": [
+        "all_residents",
+        "television_owners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_tv_in_the_house"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "1958 Televizija Ljubljana, prva s programom v slovenščini"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-rep-1990-name-without-socialist",
+      "title": "Из названия Словении исчезает слово «социалистическая»",
+      "title_en": "Slovenia drops 'Socialist' from its name",
+      "title_original": null,
+      "start_date": "1990-03-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "7 марта 1990 г. Скупщина приняла поправки XCI–XCV к конституции 1974 г., которыми из названия республики было исключено слово «социалистическая»: она стала Республикой Словения.",
+      "historical_summary_en": "On 7 March 1990 the Assembly adopted Amendments XCI–XCV to the 1974 Constitution, which removed the word 'Socialist' from the republic's name; it became the Republic of Slovenia.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/osamosvojitveni-akti-republike-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "7. 3. 1990 Ustavni amandmaji XCI–XCV, Uradni list RS 8/90",
+          "primary": true,
+          "primary_type": "legal_publication",
+          "document_title": "Ustavni amandmaji XCI do XCV k Ustavi Socialistične Republike Slovenije",
+          "document_date": "1990-03-07",
+          "archive_identifier": "Uradni list RS, št. 8/1990"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-rep-1990-first-multiparty-elections",
+      "title": "Первые многопартийные выборы после войны",
+      "title_en": "The first multi-party elections since the war",
+      "title_original": null,
+      "start_date": "1990-04",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "В апреле 1990 г. в Словении прошли первые после Второй мировой войны многопартийные выборы; правительство сформировала коалиция DEMOS.",
+      "historical_summary_en": "In April 1990 Slovenia held its first multi-party elections since the Second World War, and the DEMOS coalition formed the government.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_free_vote"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "april 1990 prve večstrankarske volitve, vlado sestavi DEMOS"
+        },
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/osamosvojitveni-akti-republike-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "27. 12. 1989 Zakon o volitvah v skupščine, Zakon o političnem združevanju (Uradni list SRS 42/89)"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "eligibility": {
+        "min_age": 18
+      }
+    },
+    {
+      "id": "si-rep-1990-independence-plebiscite",
+      "title": "Плебисцит о независимости Словении",
+      "title_en": "Slovenia's independence plebiscite",
+      "title_original": null,
+      "start_date": "1990-12-23",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "23 декабря 1990 г. на плебисците о самостоятельности и независимости Республики Словения проголосовали более 93% избирателей; «за» высказались 1 289 369 человек, или 88,5% всех имеющих право голоса.",
+      "historical_summary_en": "In the plebiscite on the independence and sovereignty of the Republic of Slovenia on 23 December 1990 turnout exceeded 93%; 1,289,369 people, or 88.5% of all eligible voters, voted in favour.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "voted_in_plebiscite"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_ars",
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ars",
+          "url": "https://www.gov.si/novice/2019-12-23-milijon-289-tisoc-369-za-samostojno-slovenijo/",
+          "accessed": "2026-11-13",
+          "supports": "23. 12. 1990, udeležba nad 93 %, 1.289.369 ZA = 88,5 %"
+        },
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "23. 12. 1990 plebiscit, 88,5 % vseh volivcev"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "eligibility": {
+        "min_age": 18
+      }
+    },
+    {
+      "id": "si-rep-1991-independence-declared",
+      "title": "Словения провозглашает независимость",
+      "title_en": "Slovenia declares independence",
+      "title_original": null,
+      "start_date": "1991-06-25",
+      "end_date": "1991-06-26",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "25 июня 1991 г. Скупщина приняла Основную конституционную хартию о самостоятельности и независимости Республики Словения, конституционный закон к ней и Декларацию независимости. Вечером 26 июня на площади Республики в Любляне независимость торжественно провозгласили: под «Здравицу» прежний флаг сменили новым флагом и гербом, а над площадью низко пролетели самолёты югославских ВВС.",
+      "historical_summary_en": "On 25 June 1991 the Assembly adopted the Basic Constitutional Charter on the Sovereignty and Independence of the Republic of Slovenia, its implementing constitutional act and the Declaration of Independence. On the evening of 26 June independence was solemnly proclaimed on Republic Square in Ljubljana: to the anthem Zdravljica the old flag was replaced with the new flag and coat of arms, while Yugoslav air force jets flew low over the square.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "independence_night_on_square"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/osamosvojitveni-akti-republike-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "25. 6. 1991 Temeljna ustavna listina, ustavni zakon, Deklaracija ob neodvisnosti (Uradni list RS 1/91-I)",
+          "primary": true,
+          "primary_type": "legal_publication",
+          "document_title": "Temeljna ustavna listina o samostojnosti in neodvisnosti Republike Slovenije",
+          "document_date": "1991-06-25",
+          "archive_identifier": "Uradni list RS, št. 1/1991-I"
+        },
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/novice/2021-06-26-26-6-1991-zacetek-oborozene-agresije-na-neodvisno-slovenijo",
+          "accessed": "2026-11-13",
+          "supports": "26. 6. 1991 zvečer razglasitev pred parlamentom, nova zastava in grb ob Zdravljici; nizek prelet letal JA"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-rep-1991-ten-day-war",
+      "title": "Десятидневная война",
+      "title_en": "The Ten-Day War",
+      "title_original": null,
+      "start_date": "1991-06-27",
+      "end_date": "1991-07-07",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "26–27 июня 1991 г. части Югославской народной армии двинулись к новым границам Словении и аэропорту Брник; 27 июня Президиум Словении назвал это прямой вооружённой интервенцией, и территориальная оборона и полиция вступили в бои. В Любляне в тот вечер был сбит вертолёт над Рожной долиной. Бои закончились перемирием и Брионской декларацией 7 июля 1991 г.",
+      "historical_summary_en": "On 26–27 June 1991 units of the Yugoslav People's Army moved towards Slovenia's new borders and Brnik airport; on 27 June the Slovene Presidency called this a direct armed intervention, and the Territorial Defence and police went into action. That evening a helicopter was shot down over Rožna dolina in Ljubljana. The fighting ended with a ceasefire and the Brioni Declaration of 7 July 1991.",
+      "affected_groups": [
+        "all_residents",
+        "young_adults",
+        "soldiers_families"
+      ],
+      "potential_impacts": [
+        "fear_for_relatives"
+      ],
+      "narrative_hooks": [
+        "son_in_territorial_defence"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/novice/2021-06-27-27-6-1991-odlocen-odgovor-slovenije-na-agresijo/",
+          "accessed": "2026-11-13",
+          "supports": "27. 6. 1991 ultimat, ocena Predsedstva, boji TO; sestreljen helikopter nad Rožno dolino v Ljubljani"
+        },
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "7. 7. 1991 Brionska deklaracija konča desetdnevno vojno"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-rep-1991-air-raid-alarms",
+      "title": "Воздушная тревога по всей Словении",
+      "title_en": "Air-raid alarms across Slovenia",
+      "title_original": null,
+      "start_date": "1991-06-30",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "Рано утром в воскресенье 30 июня 1991 г. по всей Словении, в том числе в Любляне, завыли сирены воздушной тревоги, и жителей отправили в убежища; в убежище ушли и члены президиума и правительства. Поздно вечером того же дня руководители Словении и федеральный премьер договорились в Любляне о прекращении огня.",
+      "historical_summary_en": "Early on Sunday 30 June 1991 air-raid sirens sounded throughout Slovenia, including Ljubljana, and people were sent to shelters; members of the Presidency and government also went down to a shelter. Late that evening Slovenia's leaders and the federal prime minister agreed a ceasefire in Ljubljana.",
+      "affected_groups": [
+        "all_residents",
+        "children",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "night_in_the_shelter"
+      ],
+      "sensitive": true,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/novice/2021-06-30-30-6-1991-vojska-mocnejsa-od-politike",
+          "accessed": "2026-11-13",
+          "supports": "30. 6. 1991 sirene po vsej Sloveniji, zaklonišča; alarm v Ljubljani; dogovor o premirju v Ljubljani"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-rep-1991-brioni-declaration",
+      "title": "Брионская декларация и трёхмесячный мораторий",
+      "title_en": "The Brioni Declaration and a three-month moratorium",
+      "title_original": null,
+      "start_date": "1991-07-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "si-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "7 июля 1991 г. на Брионах при посредничестве Европейского сообщества была подписана Совместная декларация, завершившая войну в Словении; Словения согласилась на трёхмесячный мораторий на дальнейшее осуществление актов независимости. Скупщина утвердила декларацию 10 июля.",
+      "historical_summary_en": "On 7 July 1991 a Joint Declaration mediated by the European Community was signed on Brioni, ending the war in Slovenia; Slovenia agreed to a three-month moratorium on further implementing its independence acts. The Assembly approved the declaration on 10 July.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/osamosvojitveni-akti-republike-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "7. 7. 1991 Skupna deklaracija (Brionska), 10. 7. 1991 sklep o sprejetju"
+        },
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "7. 7. 1991 Brionska deklaracija po posredovanju ES"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

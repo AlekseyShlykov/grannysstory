@@ -1,0 +1,2402 @@
+{
+  "records": [
+    {
+      "id": "si-ljubljana-1901-dragon-bridge",
+      "title": "Юбилейный, он же Драконий мост",
+      "title_en": "The Jubilee Bridge, known as the Dragon Bridge",
+      "title_original": null,
+      "start_date": "1901",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1901 г., при городском голове Иване Хрибаре, вместо деревянного моста, повреждённого землетрясением 1895 г., открылся железобетонный мост с фигурами драконов — один из первых таких мостов в Европе. Официально его назвали Юбилейным в честь 40-летия правления Франца Иосифа, но в городе его быстро стали звать Драконьим.",
+      "historical_summary_en": "In 1901, under Mayor Ivan Hribar, a reinforced-concrete bridge decorated with dragon figures, one of the first of its kind in Europe, replaced a wooden bridge damaged in the 1895 earthquake. It was officially named the Jubilee Bridge for the 40th anniversary of Franz Joseph's reign, but people soon called it the Dragon Bridge.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/Static/upload/file/MOSTOVI%20V-LJ.pdf",
+          "accessed": "2026-11-13",
+          "supports": "Zmajski most: otvoritev 1901, Jubilejni most, nadomestilo za leseni most po potresu 1895, eden prvih železobetonskih mostov"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1901-tram-opens",
+      "title": "В Любляне пошёл трамвай",
+      "title_en": "Trams begin running in Ljubljana",
+      "title_original": null,
+      "start_date": "1901-09-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "6 сентября 1901 г. по улицам Любляны официально пошёл первый трамвай; в первый день продали 6400 билетов. К концу года у компании было 13 моторных вагонов и 64 работника, трамваи перевезли около 330 000 пассажиров.",
+      "historical_summary_en": "On 6 September 1901 the first tram officially ran through the streets of Ljubljana, and 6,400 tickets were sold on the first day. By the end of the year the company had 13 motor cars and 64 employees, and the trams had carried about 330,000 passengers.",
+      "affected_groups": [
+        "urban_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_tram_ride"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_lpp"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_lpp",
+          "url": "https://www.lpp.si/o-podjetju/zgodovina",
+          "accessed": "2026-11-13",
+          "supports": "6. 9. 1901 prvi tramvaj, 6.400 vozovnic; 13 motornih vozov, 64 zaposlenih, ok. 330.000 potnikov"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1905-city-buys-castle",
+      "title": "Город покупает Люблянский град",
+      "title_en": "The city buys Ljubljana Castle",
+      "title_original": null,
+      "start_date": "1905",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В 1905 г., при городском голове Иване Хрибаре, город Любляна купил замок на холме, чтобы разместить в нём культурные учреждения. Из-за нехватки жилья часть замка переделали в квартиры, где жили бедные семьи; последние жильцы получили квартиры в городе только после 1963 г.",
+      "historical_summary_en": "In 1905, under Mayor Ivan Hribar, the City of Ljubljana bought the castle on the hill to house cultural institutions. Because of the housing shortage part of the castle was converted into flats for poor families, and the last residents were rehoused in the city only after 1963.",
+      "affected_groups": [
+        "urban_residents",
+        "tenants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "grew_up_in_castle_flat"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_ars",
+        "si_ljgrad"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ljgrad",
+          "url": "https://www.ljubljanskigrad.si/sl/zakaj-na-grad/zgodovina-gradu/",
+          "accessed": "2026-11-13",
+          "supports": "1905 mesto kupi grad (župan Hribar); zaradi stanovanjske stiske stanovanja; po 1963 prenova po izselitvi"
+        },
+        {
+          "source_id": "si_ars",
+          "url": "https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Razstave-/Plecnik-/Pano-3-dostopno.pdf",
+          "accessed": "2026-11-13",
+          "supports": "1905 mesto kupilo grad kljub negodovanju meščanov; grad kot stanovanjski objekt revežev"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1905-preseren-monument",
+      "title": "Памятник Прешерну в центре Любляны",
+      "title_en": "The Prešeren monument in central Ljubljana",
+      "title_original": null,
+      "start_date": "1905",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "Осенью 1905 г. на площади у францисканской церкви открыли памятник поэту Франце Прешерну работы архитектора Макса Фабиани и скульптора Ивана Заеца; обнажённая муза над головой поэта сразу вызвала возражения люблянского епископа. Вокруг площади после землетрясения 1895 г. выросли новые дома, в том числе первый в городе универсальный магазин Урбанца.",
+      "historical_summary_en": "In autumn 1905 a monument to the poet France Prešeren by the architect Max Fabiani and the sculptor Ivan Zajec was unveiled on the square by the Franciscan church; the bare muse above the poet's head at once drew objections from the Bishop of Ljubljana. After the 1895 earthquake new buildings rose around the square, including the Urbanc house, the city's first department store.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "meeting_at_preseren_monument"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_rtv",
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/sl/poi/presernov-trg",
+          "accessed": "2026-11-13",
+          "supports": "jeseni 1905 odkritje spomenika (Fabiani, Zajc); po potresu 1895 nove palače, Urbanc prva veleblagovnica"
+        },
+        {
+          "source_id": "si_rtv",
+          "url": "https://www.rtvslo.si/kultura/razglednice-preteklosti/kam-prestaviti-presernov-spomenik/590648",
+          "accessed": "2026-11-13",
+          "supports": "od 1905 ob frančiškanski cerkvi; nasprotovanje škofa Jegliča razgaljeni muzi"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1907-first-cinema",
+      "title": "Первый кинотеатр Любляны",
+      "title_en": "Ljubljana's first cinema",
+      "title_original": null,
+      "start_date": "1907",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В 1907 г. в Любляне открылся первый кинотеатр; к этому времени в городе уже были водопровод (1890), электричество и современная канализация (1898) и трамвай (1901).",
+      "historical_summary_en": "In 1907 Ljubljana's first cinema opened; by then the city already had a water supply (1890), electricity and modern sewers (1898) and trams (1901).",
+      "affected_groups": [
+        "urban_residents",
+        "children",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_film_seen"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/nemirno-20-stoletje",
+          "accessed": "2026-11-13",
+          "supports": "1890 vodovod, 1898 elektrika in kanalizacija, 1901 tramvaj, 1907 prvi kino"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1908-september-events",
+      "title": "Сентябрьские события 1908 г.",
+      "title_en": "The September events of 1908",
+      "title_original": null,
+      "start_date": "1908-09-20",
+      "end_date": "1908-09-22",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "После нападений на словенское собрание в Птуе 18 сентября 1908 г. в Любляне прошёл митинг примерно 10 000 человек, после которого толпа била витрины немецких магазинов и учреждений. Вечером 20 сентября солдаты, патрулировавшие город, открыли огонь у собора: были убиты 22-летний печатник и 15-летний гимназист, несколько человек ранены. На похороны 22 сентября пришли более 20 000 человек; после этого немецкие и двуязычные вывески почти исчезли с люблянских магазинов.",
+      "historical_summary_en": "After attacks on a Slovene gathering in Ptuj, a rally of about 10,000 people was held in Ljubljana on 18 September 1908, after which crowds smashed the windows of German shops and institutions. On the evening of 20 September soldiers patrolling the city opened fire near the cathedral: a 22-year-old printer and a 15-year-old grammar-school pupil were killed and several people wounded. More than 20,000 people attended the funeral on 22 September; afterwards German and bilingual signs all but vanished from Ljubljana's shops.",
+      "affected_groups": [
+        "urban_residents",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "si_mol",
+        "si_rtv"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_rtv",
+          "url": "https://www.rtvslo.si/kultura/razglednice-preteklosti/pripoved-o-nabrezju-adamica-in-lundra/292109",
+          "accessed": "2026-11-13",
+          "supports": "18. 9. 1908 shod ~10.000; 20. 9. streli vojske, dva mrtva; 22. 9. pogreb >20.000; izginotje nemških napisov"
+        },
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/vsi-ljubljanski-zupani/ivan-hribar-1896",
+          "accessed": "2026-11-13",
+          "supports": "septembrski dogodki 1908, protinemške demonstracije"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1915-castle-pow-quarantine",
+      "title": "Люблянский замок — карантин для пленных",
+      "title_en": "Ljubljana Castle as a quarantine for prisoners of war",
+      "title_original": null,
+      "start_date": "1915",
+      "end_date": "1918",
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "В 1915–1918 гг. Люблянский замок служил карантинной станцией для итальянских военнопленных; ещё в 1914 г. в его политической тюрьме содержался писатель Иван Цанкар.",
+      "historical_summary_en": "In 1915–1918 Ljubljana Castle served as a quarantine station for Italian prisoners of war; in 1914 the writer Ivan Cankar had been held in its political prison.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_ljgrad"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ljgrad",
+          "url": "https://www.ljubljanskigrad.si/sl/zakaj-na-grad/zgodovina-gradu/",
+          "accessed": "2026-11-13",
+          "supports": "1914 Cankar v političnem zaporu; 1915–1918 karantena za italijanske vojne ujetnike"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1918-national-gallery",
+      "title": "В Любляне основана Национальная галерея",
+      "title_en": "The National Gallery is founded in Ljubljana",
+      "title_original": null,
+      "start_date": "1918",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В 1918 г., когда после распада Австро-Венгрии Любляна стала административным, политическим и культурным центром Словении в новом государстве, в городе была основана Национальная галерея.",
+      "historical_summary_en": "In 1918, as Ljubljana became the administrative, political and cultural centre of Slovenia within the new state after the collapse of Austria-Hungary, the National Gallery was founded in the city.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/nemirno-20-stoletje",
+          "accessed": "2026-11-13",
+          "supports": "1918 Ljubljana središče Slovenije; ustanovljena Narodna galerija"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1918-spanish-flu",
+      "title": "Испанка в Любляне",
+      "title_en": "Spanish flu in Ljubljana",
+      "title_original": null,
+      "start_date": "1918-07",
+      "end_date": "1919",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "public_health",
+      "subcategory": null,
+      "historical_summary": "В июле 1918 г. грипп-«испанка» появился в Любляне и других словенских местах, а в октябре эпидемия достигла пика: многие школы временно закрыли, земская больница была переполнена, многих больных лечили дома. К весне 1919 г. на словенской территории от гриппа умерли 6955 человек и ещё 3866 от воспаления лёгких.",
+      "historical_summary_en": "In July 1918 the 'Spanish' flu appeared in Ljubljana and other Slovene places, and in October the epidemic peaked: many schools were closed for a time, the provincial hospital was overcrowded and many patients were treated at home. By spring 1919 the flu had killed 6,955 people on Slovene territory and pneumonia another 3,866.",
+      "affected_groups": [
+        "all_residents",
+        "school_pupils",
+        "medical_workers"
+      ],
+      "potential_impacts": [
+        "bereavement"
+      ],
+      "narrative_hooks": [
+        "school_closed_by_epidemic",
+        "relative_died_of_flu"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=38149",
+          "accessed": "2026-11-13",
+          "supports": "julij 1918 v Ljubljani; vrhunec oktobra 1918, zaprte šole; 6.955 + 3.866 umrlih do pomladi 1919",
+          "primary": true,
+          "primary_type": "photograph",
+          "document_title": "Deželna bolnišnica v Ljubljani, polna bolnikov s špansko gripo",
+          "document_date": "1918",
+          "archive_identifier": "SI_ZAL_LJU/0342, Zbirka fotografij, G4-002-007"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1918-proclamation-state-shs",
+      "title": "Провозглашение Государства СХС на Конгресной площади",
+      "title_en": "State of SCS proclaimed on Congress Square",
+      "title_original": null,
+      "start_date": "1918-10-29",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "29 октября 1918 г. на Конгресной площади в Любляне прошла манифестация, на которой было провозглашено Государство словенцев, хорватов и сербов. Народный совет, объединивший словенские партии, был основан в Любляне ещё 16–17 августа 1918 г.",
+      "historical_summary_en": "On 29 October 1918 a mass gathering on Congress Square in Ljubljana proclaimed the State of Slovenes, Croats and Serbs. The National Council uniting the Slovene parties had been founded in Ljubljana on 16–17 August 1918.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "crowd_on_congress_square",
+        "end_of_monarchy"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=37347",
+          "accessed": "2026-11-13",
+          "supports": "16.–17. 8. 1918 Narodni svet; 29. 10. 1918 manifestacija na Kongresnem trgu",
+          "primary": true,
+          "primary_type": "photograph",
+          "document_title": "Manifestacija 29. oktobra 1918 v Ljubljani",
+          "document_date": "1918-10-29",
+          "archive_identifier": "SI_ZAL_LJU/0342, Zbirka fotografij, I1-013-001"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1918-national-government",
+      "title": "В Любляне начинает работу первое словенское правительство",
+      "title_en": "The first Slovene government begins work in Ljubljana",
+      "title_original": null,
+      "start_date": "1918-10-31",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "31 октября 1918 г. в Любляне было назначено и начало работу Народное правительство — первое словенское правительство; 4 ноября вышел первый номер его официального вестника. На первом заседании в ноябре оно сделало словенский язык официальным и единственным языком преподавания.",
+      "historical_summary_en": "On 31 October 1918 the National Government, the first Slovene government, was appointed in Ljubljana and began work; the first issue of its official gazette appeared on 4 November. At its first session in November it made Slovene the official language and the only language of instruction.",
+      "affected_groups": [
+        "all_residents",
+        "school_pupils",
+        "teachers",
+        "office_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "school_switched_language"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=37347",
+          "accessed": "2026-11-13",
+          "supports": "31. 10. 1918 prva slovenska vlada; 4. 11. 1918 Uradni list Narodne vlade SHS"
+        },
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=37961",
+          "accessed": "2026-11-13",
+          "supports": "november 1918: slovenščina uradni in edini učni jezik"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1918-refugee-office",
+      "title": "В Любляне открыто бюро помощи беженцам",
+      "title_en": "A refugee office opens in Ljubljana",
+      "title_original": null,
+      "start_date": "1918-11",
+      "end_date": "1920",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "migration",
+      "subcategory": null,
+      "historical_summary": "В ноябре 1918 г. в Любляне было создано посредническое бюро для беженцев, прежде всего из Приморья, занятого Италией. С января 1919 г. государство выплачивало беженцам пособие; в мае 1920 г. им разрешили свободное возвращение, 20 июня 1920 г. выплаты прекратились, и к концу года большинство вернулось домой.",
+      "historical_summary_en": "In November 1918 an office for refugees, chiefly from the Littoral occupied by Italy, was set up in Ljubljana. From January 1919 the state paid refugee benefits; in May 1920 refugees were allowed to return freely, payments ended on 20 June 1920 and by the end of the year most had gone home.",
+      "affected_groups": [
+        "migrants"
+      ],
+      "potential_impacts": [
+        "relocation"
+      ],
+      "narrative_hooks": [
+        "refugee_family_from_littoral"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=37905",
+          "accessed": "2026-11-13",
+          "supports": "november 1918 Posredovalni urad za begunce v Ljubljani; podpore od januarja 1919 do 20. 6. 1920; vrnitev maja 1920"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1919-smallpox-vaccination",
+      "title": "Бесплатная прививка от оспы в Любляне",
+      "title_en": "Free smallpox vaccination in Ljubljana",
+      "title_original": null,
+      "start_date": "1919-06",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "public_health",
+      "subcategory": null,
+      "historical_summary": "В июне 1919 г. город Любляна объявил бесплатную вакцинацию от оспы. Ещё в ноябре 1918 г. комиссариат здравоохранения Народного правительства издал ряд распоряжений, чтобы болезни не перекинулись от вернувшихся солдат на гражданское население.",
+      "historical_summary_en": "In June 1919 the City of Ljubljana announced free vaccination against smallpox. Back in November 1918 the National Government's health commissariat had issued several decrees to keep diseases from spreading to the civilian population.",
+      "affected_groups": [
+        "children",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "childhood_vaccination"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=38099",
+          "accessed": "2026-11-13",
+          "supports": "junij 1919 razglas o brezplačnem cepljenju proti kozam; november 1918 odredbe zdravstvenega poverjeništva",
+          "primary": true,
+          "primary_type": "municipal_record",
+          "document_title": "Razglas o brezplačnem cepljenju proti kozam",
+          "document_date": "1919-06",
+          "archive_identifier": "SI_ZAL_LJU/0489, Mesto Ljubljana, splošna registratura, fasc. 1857, fol. 384"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1919-university-first-lecture",
+      "title": "Первая лекция Люблянского университета",
+      "title_en": "The University of Ljubljana's first lecture",
+      "title_original": null,
+      "start_date": "1919-12-03",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "Закон об университете в Любляне был принят в июле 1919 г. в Белграде и подписан регентом 23 июля; 31 августа назначили первых 18 профессоров, а 3 декабря 1919 г. состоялась первая лекция. Университет получил здание бывшего Земского дворца.",
+      "historical_summary_en": "The law establishing the university in Ljubljana was passed in Belgrade in July 1919 and signed by the regent on 23 July; the first 18 professors were appointed on 31 August, and the first lecture was given on 3 December 1919. The university was given the former Provincial Palace as its building.",
+      "affected_groups": [
+        "students",
+        "young_adults",
+        "teachers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_in_family_at_university"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_unilj",
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_unilj",
+          "url": "https://www.uni-lj.si/univerza/o-nas/zgodovina-univerze",
+          "accessed": "2026-11-13",
+          "supports": "zakon julij 1919, podpis 23. 7.; 31. 8. 1919 prvih 18 profesorjev; 3. 12. 1919 prvo predavanje; Deželni dvorec"
+        },
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=37709",
+          "accessed": "2026-11-13",
+          "supports": "avgust 1919 zakon o slovenski univerzi"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "eligibility": {
+        "min_age": 17,
+        "groups_any": [
+          "students"
+        ]
+      }
+    },
+    {
+      "id": "si-ljubljana-1920-invalid-department",
+      "title": "Отдел помощи инвалидам войны в Любляне",
+      "title_en": "A war-invalids department in Ljubljana",
+      "title_original": null,
+      "start_date": "1920",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "В 1920 г. государство урегулировало положение инвалидов войны указом о временной помощи, а при люблянском комиссариате социального обеспечения был создан особый отдел для инвалидов во главе с доктором Антоном Брецелем.",
+      "historical_summary_en": "In 1920 the state regulated the position of war invalids with a decree on temporary aid, and a special invalids' department headed by Dr Anton Brecelj was set up at the Ljubljana commissariat for social welfare.",
+      "affected_groups": [
+        "veterans",
+        "soldiers_families"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "father_war_invalid"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=38217",
+          "accessed": "2026-11-13",
+          "supports": "1920 uredba o začasni podpori invalidom; invalidski oddelek pri Poverjeništvu za socialno skrbstvo v Ljubljani"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1920-regent-visit",
+      "title": "Регент Александр в Любляне",
+      "title_en": "Regent Alexander visits Ljubljana",
+      "title_original": null,
+      "start_date": "1920-06-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "26 июня 1920 г. регент Александр Карагеоргиевич прибыл придворным поездом в Любляну — это был его первый официальный визит в хорватские и словенские земли. Его встречали на вокзале и у здания Земского правительства, он побывал в университете.",
+      "historical_summary_en": "On 26 June 1920 Regent Alexander Karađorđević arrived in Ljubljana by court train on his first official visit to the Croatian and Slovene lands. He was welcomed at the station and in front of the Provincial Government building and visited the university.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "saw_the_regent"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zal",
+          "url": "http://zal-lj.splet.arnes.si/?p=37851",
+          "accessed": "2026-11-13",
+          "supports": "26. 6. 1920 prihod regenta Aleksandra v Ljubljano z dvornim vlakom",
+          "primary": true,
+          "primary_type": "photograph",
+          "document_title": "Sprejem regenta Aleksandra na peronu",
+          "document_date": "1920-06-26",
+          "archive_identifier": "SI_ZAL_LJU/0342, Zbirka fotografij, A5-075-021"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1921-ljubljana-fair",
+      "title": "Основан Люблянский велесейем — ярмарка в Тиволи",
+      "title_en": "The Ljubljana Grand Fair is founded in Tivoli",
+      "title_original": null,
+      "start_date": "1921",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1921 г. была основана компания «Люблянский велесейем» (Ljubljanski velesejem), и ярмарки стали проводиться в парке Тиволи на Целовской улице; в 1925 г. компания вошла в число основателей международной выставочной ассоциации UFI.",
+      "historical_summary_en": "In 1921 the Ljubljana Grand Fair company (Ljubljanski velesejem) was founded, and fairs began to be held in Tivoli Park on Celovška cesta; in 1925 the company was one of the founding members of the international exhibition association UFI.",
+      "affected_groups": [
+        "urban_residents",
+        "consumers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "trip_to_the_fair"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_culture"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_culture",
+          "url": "https://culture.gov.si/en/Gospodarsko_razstavišče,_Ljubljana_Exhibition_and_Convention_Centre",
+          "accessed": "2026-11-13",
+          "supports": "1921 Ljubljanski velesejem, sejmi v Tivoliju; 1925 UFI"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1921-plecnik-returns",
+      "title": "Плечник возвращается в Любляну",
+      "title_en": "Plečnik returns to Ljubljana",
+      "title_original": null,
+      "start_date": "1921",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В 1921 г. архитектор Йоже Плечник окончательно вернулся из Праги в Любляну, где ему предложили профессуру в новом университете. В последующие десятилетия по его проектам перестраивались набережные, мосты, площади и общественные здания города.",
+      "historical_summary_en": "In 1921 the architect Jože Plečnik returned for good from Prague to Ljubljana, where he had been offered a professorship at the new university. Over the following decades the city's embankments, bridges, squares and public buildings were reshaped to his designs.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_ars",
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/plecnikova-ljubljana",
+          "accessed": "2026-11-13",
+          "supports": "1921 vrnitev v Ljubljano, profesura na novi univerzi"
+        },
+        {
+          "source_id": "si_ars",
+          "url": "https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Razstave-/Plecnik-/Pano-1-dostopno.pdf",
+          "accessed": "2026-11-13",
+          "supports": "1921 se je dokončno vrnil v Ljubljano"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1926-siska-church",
+      "title": "Церковь Св. Франциска в Шишке по проекту Плечника",
+      "title_en": "Plečnik's Church of St Francis in Šiška",
+      "title_original": null,
+      "start_date": "1926-10-03",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "religion",
+      "subcategory": null,
+      "historical_summary": "Церковь Св. Франциска Ассизского в Сподней Шишке строилась по проекту Йоже Плечника с 1925 г.; разрешение на начало работ комиссия дала 14 мая 1925 г., а 3 октября 1926 г., к 700-летию смерти св. Франциска, церковь освятили. Колокольня была достроена в 1930–1932 гг.",
+      "historical_summary_en": "The Church of St Francis of Assisi in Spodnja Šiška was built to Jože Plečnik's design from 1925; a commission allowed work to begin on 14 May 1925, and on 3 October 1926, for the 700th anniversary of St Francis's death, the church was consecrated. The bell tower was added in 1930–1932.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "parish_church_in_siska"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_ars"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ars",
+          "url": "https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Razstave-/Plecnik-/Pano-6-dostopno.pdf",
+          "accessed": "2026-11-13",
+          "supports": "14. 5. 1925 dovoljenje za začetek del; 3. 10. 1926 prva maša in blagoslovitev; zvonik 1930–1932",
+          "primary": true,
+          "primary_type": "administrative_report",
+          "document_title": "Gradbena dokumentacija cerkve sv. Frančiška v Šiški (Gradbena direkcija v Ljubljani)",
+          "document_date": "1926",
+          "archive_identifier": "SI AS 73 Kraljevska banska uprava Dravske banovine, Tehnični oddelek"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1932-triple-bridge",
+      "title": "Тромостовье: Плечник добавляет два пешеходных моста",
+      "title_en": "The Triple Bridge: Plečnik adds two footbridges",
+      "title_original": null,
+      "start_date": "1932",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1932 г. рядом со старым мостом 1842 г. в центре Любляны открылись два пешеходных моста по проекту Плечника — так появилось Тромостовье.",
+      "historical_summary_en": "In 1932 two footbridges designed by Plečnik opened beside the old 1842 bridge in the centre of Ljubljana, creating the Triple Bridge.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "meeting_at_triple_bridge"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/en/visitors/art-and-culture/10-masterpieces-by-joze-plecnik",
+          "accessed": "2026-11-13",
+          "supports": "Tromostovje: osrednji most 1842, Plečnikova brvi odprti 1932"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1936-nuk-construction",
+      "title": "Строительство Национальной и университетской библиотеки",
+      "title_en": "Building the National and University Library",
+      "title_original": null,
+      "start_date": "1936",
+      "end_date": "1941-04",
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В 1936 г. бан Марко Натлачен заложил новую центральную библиотеку по проекту Плечника; после бурных публичных споров строительство завершилось накануне итальянской оккупации в апреле 1941 г. В январе 1944 г. на здание рухнул германский почтовый самолёт, повредив часть здания и фондов; восстановление закончили после войны.",
+      "historical_summary_en": "In 1936 Ban Marko Natlačen turned the first sod for a new central library designed by Plečnik; after heated public debate the building was finished just before the Italian occupation in April 1941. In January 1944 a German mail plane crashed into it, damaging part of the building and the collections; repairs were completed after the war.",
+      "affected_groups": [
+        "students",
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "reading_room_at_nuk"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_ars"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ars",
+          "url": "https://www.gov.si/assets/organi-v-sestavi/Arhiv-RS/Razstave-/Plecnik-/Pano-4-dostopno.pdf",
+          "accessed": "2026-11-13",
+          "supports": "gradnja 1936 (Natlačen) – april 1941; januar 1944 nemško poštno letalo; obnova od pomladi 1944"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1938-academy",
+      "title": "Основана Академия наук и искусств",
+      "title_en": "The Academy of Sciences and Arts is founded",
+      "title_original": null,
+      "start_date": "1938",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В 1938 г. в Любляне была основана Академия наук и искусств — после университета (1919) ещё одно высшее научное учреждение словенцев в своей столице. В середине 1930-х гг. в городе жили уже более 80 000 человек.",
+      "historical_summary_en": "In 1938 the Academy of Sciences and Arts was founded in Ljubljana, another leading Slovene scholarly institution in the capital after the university (1919). By the mid-1930s the city had more than 80,000 inhabitants.",
+      "affected_groups": [
+        "scientists_engineers",
+        "students"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/nemirno-20-stoletje",
+          "accessed": "2026-11-13",
+          "supports": "1938 Akademija znanosti in umetnosti; sredi 30. let več kot 80.000 prebivalcev"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1940-zale-cemetery",
+      "title": "Плечник строит новое кладбище Жале",
+      "title_en": "Plečnik builds the new Žale cemetery",
+      "title_original": null,
+      "start_date": "1940",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В 1940 г. Йоже Плечник взялся за строительство нового кладбища Жале в Любляне с комплексом прощальных часовен.",
+      "historical_summary_en": "In 1940 Jože Plečnik took on the construction of the new Žale cemetery in Ljubljana with its complex of farewell chapels.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "funeral_at_zale"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/en/visitors/art-and-culture/10-masterpieces-by-joze-plecnik",
+          "accessed": "2026-11-13",
+          "supports": "Žale: 1940 Plečnik prevzame gradnjo novega pokopališča"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1941-occupation-restrictions",
+      "title": "Комендантский час и запреты в оккупированной Любляне",
+      "title_en": "Curfew and bans in occupied Ljubljana",
+      "title_original": null,
+      "start_date": "1941",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В первый год оккупации итальянские власти ввели в Любляне комендантский час, изъяли радиоприёмники и автомобили и запретили езду на велосипедах.",
+      "historical_summary_en": "In the first year of the occupation the Italian authorities imposed a curfew in Ljubljana, confiscated radio sets and cars, and banned cycling.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "occupation_life"
+      ],
+      "narrative_hooks": [
+        "radio_confiscated",
+        "bicycle_banned"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch01.html",
+          "accessed": "2026-11-13",
+          "supports": "policijska ura, zaplemba radijskih aparatov, konfiskacija avtomobilov, prepoved vožnje s kolesi"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1941-italian-entry",
+      "title": "Итальянские войска входят в Любляну",
+      "title_en": "Italian troops enter Ljubljana",
+      "title_original": null,
+      "start_date": "1941-04-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "11 апреля 1941 г. в Любляну вошли итальянские войска; в 17:30 у церкви в Виче городской голова передал им ключи от города. 12 апреля командир дивизии объявил о военном и гражданском управлении городом, 18 апреля власть перешла от бана к итальянскому верховному комиссару, а 3 мая Италия аннексировала Люблянскую провинцию.",
+      "historical_summary_en": "On 11 April 1941 Italian troops entered Ljubljana; at 5.30 pm, in front of the church in Vič, the mayor handed them the keys of the city. On 12 April the divisional commander announced military and civil control of the city, on 18 April authority passed from the ban to the Italian High Commissioner, and on 3 May Italy annexed the Province of Ljubljana.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "occupation_life"
+      ],
+      "narrative_hooks": [
+        "occupation_begins"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/en-exh05-ch02.html",
+          "accessed": "2026-11-13",
+          "supports": "11. 4. 1941 vstop italijanske vojske, ključi mesta pred cerkvijo na Viču; 12. 4., 18. 4., 3. 5. 1941"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1941-liberation-front-founded",
+      "title": "В Любляне основан Освободительный фронт",
+      "title_en": "The Liberation Front is founded in Ljubljana",
+      "title_original": null,
+      "start_date": "1941-04-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": true,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "26–27 апреля 1941 г. в доме Видмара в Любляне был основан Освободительный фронт (OF), организация сопротивления оккупантам. С 17 ноября 1941 г. по 4 апреля 1942 г. жителей поддерживала подпольная радиостанция «Кричач», собранная студентами-электротехниками.",
+      "historical_summary_en": "On 26–27 April 1941 the Liberation Front (OF), a resistance organisation against the occupiers, was founded in Vidmar's house in Ljubljana. From 17 November 1941 to 4 April 1942 the clandestine radio station Kričač, built by electrical engineering students, kept up residents' spirits.",
+      "affected_groups": [
+        "all_residents",
+        "students",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "listened_to_secret_radio"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch01.html",
+          "accessed": "2026-11-13",
+          "supports": "26. oz. 27. 4. 1941 ustanovitev OF v Vidmarjevi hiši; radio Kričač 17. 11. 1941 – 4. 4. 1942"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1941-confinement-hostages",
+      "title": "Интернирование и расстрелы заложников в Любляне",
+      "title_en": "Internment and shooting of hostages in Ljubljana",
+      "title_original": null,
+      "start_date": "1941-09",
+      "end_date": "1943",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "С сентября 1941 г. итальянские власти отправляли политически подозрительных жителей в интернирование (конфинацию); с ноября 1941 г. действовал военный суд и стали систематическими расстрелы заложников. В 1942–1943 гг. заложников расстреливали, в частности, у гравийного карьера (Gramozna jama).",
+      "historical_summary_en": "From September 1941 the Italian authorities sent politically suspect residents into internment (confino); from November 1941 a military court operated and the shooting of hostages became systematic. In 1942–1943 hostages were shot, among other places, at the gravel pit (Gramozna jama).",
+      "affected_groups": [
+        "all_residents",
+        "men"
+      ],
+      "potential_impacts": [
+        "family_separation"
+      ],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "si_okupacijske_meje",
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch01.html",
+          "accessed": "2026-11-13",
+          "supports": "september 1941 konfinacija; november 1941 vojaško sodišče, sistematično streljanje talcev"
+        },
+        {
+          "source_id": "si_zal",
+          "url": "http://www.zal-lj.si/okupacija/",
+          "accessed": "2026-11-13",
+          "supports": "Gramozna jama, kjer so Italijani 1942–1943 streljali talce",
+          "primary": true,
+          "primary_type": "photograph",
+          "document_title": "Gramozna jama",
+          "document_date": "1940",
+          "archive_identifier": "SI_ZAL_LJU/0342, Zbirka fotografij, A5-033-013"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1941-tram-cut-at-border",
+      "title": "Трамвай упирается в оккупационную границу",
+      "title_en": "The tram stops at the occupation border",
+      "title_original": null,
+      "start_date": "1941-10",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "Граница между итальянской и германской зонами оккупации прошла по северной окраине Любляны, отрезав город от его сельскохозяйственной округи. В октябре 1941 г. немцы запретили трамваю пересекать границу на Целовской улице: он доходил лишь до последней остановки перед ней.",
+      "historical_summary_en": "The border between the Italian and German occupation zones ran along Ljubljana's northern edge, cutting the city off from its farming hinterland. In October 1941 the Germans banned the tram from crossing the border on Celovška cesta, so it ran only as far as the last stop before it.",
+      "affected_groups": [
+        "commuters",
+        "urban_residents"
+      ],
+      "potential_impacts": [
+        "occupation_life"
+      ],
+      "narrative_hooks": [
+        "relatives_beyond_the_border"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch05.html",
+          "accessed": "2026-11-13",
+          "supports": "oktobra 1941 Nemci prepovedali vožnjo tramvaja preko meje na Celovški"
+        },
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh01-ch09.html",
+          "accessed": "2026-11-13",
+          "supports": "meja ob Savi, nato na desnem bregu; odrezano kmetijsko zaledje"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1942-barbed-wire",
+      "title": "Любляну окружают колючей проволокой",
+      "title_en": "Ljubljana is ringed with barbed wire",
+      "title_original": null,
+      "start_date": "1942-02-23",
+      "end_date": "1945-05-09",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "23 февраля 1942 г. итальянская армия замкнула вокруг Любляны кольцо колючей проволоки длиной около 32 км: в 14 часов кольцо закрыли, с 15 часов въезд и выезд из города были официально ограничены. Летом 1942 г. ограждение укрепили бункерами и пулемётными гнёздами; для выхода за проволоку нужен был особый пропуск, и снабжение города из окрестностей резко сократилось.",
+      "historical_summary_en": "On 23 February 1942 the Italian army closed a ring of barbed wire about 32 km long around Ljubljana: the ring was closed at 2 pm and from 3 pm movement in and out of the city was officially restricted. In summer 1942 the fence was strengthened with bunkers and machine-gun posts; a special pass was needed to cross the wire, and supplies from the surrounding countryside dwindled sharply.",
+      "affected_groups": [
+        "all_residents",
+        "commuters"
+      ],
+      "potential_impacts": [
+        "occupation_life",
+        "food_shortage"
+      ],
+      "narrative_hooks": [
+        "pass_to_cross_the_wire",
+        "food_from_countryside"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/en-exh05-ch07.html",
+          "accessed": "2026-11-13",
+          "supports": "23. 2. 1942 zaprt obroč ob 14h, omejitev gibanja ob 15h; 32 km; dovolilnice; utrjevanje 1942"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1943-german-takeover",
+      "title": "Германские войска занимают Любляну",
+      "title_en": "German troops take over Ljubljana",
+      "title_original": null,
+      "start_date": "1943-09-08",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "После капитуляции Италии 8 сентября 1943 г. около 1600 германских солдат заняли итальянские посты, казармы и бункеры вдоль проволоки вокруг Любляны. Город остался центром Люблянской провинции, теперь под германским управлением; в 1945 г. немцы мобилизовали молодых жителей рыть окопы вокруг города.",
+      "historical_summary_en": "After Italy's capitulation on 8 September 1943 some 1,600 German soldiers took over the Italian posts, barracks and bunkers along the wire around Ljubljana. The city remained the centre of the Province of Ljubljana, now under German administration; in 1945 the Germans mobilised young residents to dig trenches around the city.",
+      "affected_groups": [
+        "all_residents",
+        "young_adults"
+      ],
+      "potential_impacts": [
+        "occupation_life"
+      ],
+      "narrative_hooks": [
+        "dug_trenches_1945"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch08.html",
+          "accessed": "2026-11-13",
+          "supports": "8. 9. 1943 1600 nemških vojakov zasede italijanske postojanke; 1945 mobilizacija mladih za kopanje jarkov"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1945-liberation",
+      "title": "Освобождение Любляны",
+      "title_en": "Liberation of Ljubljana",
+      "title_original": null,
+      "start_date": "1945-05-09",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "После боёв 7–9 мая 1945 г. германские части и домобранцы отступили из Любляны к Каринтии, и утром 9 мая в город вошли части Югославской армии; на вокзале завыла сирена, зазвонили колокола. 10 мая в Любляну прибыло Народное правительство Словении. Город провёл в оккупационном кольце 1170 дней; 9 мая с тех пор — праздник города.",
+      "historical_summary_en": "After fighting on 7–9 May 1945 the German units and the Home Guard withdrew from Ljubljana towards Carinthia, and on the morning of 9 May units of the Yugoslav Army entered the city; the siren sounded at the station and church bells rang. On 10 May the National Government of Slovenia arrived in Ljubljana. The city had spent 1,170 days inside the occupation ring, and 9 May has since been the city's holiday.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "liberation_day_bells",
+        "end_of_war"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje",
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch06.html",
+          "accessed": "2026-11-13",
+          "supports": "boji 7.–9. 5. 1945; 9. 5. vstop enot JA, sirena, zvonovi; 10. 5. Narodna vlada; 1170 dni"
+        },
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/sl/obiskovalci/aktualno/pisma-iz-ljubljane/april-2023/tradicionalno-po-poti-ki-je-nekoc-razmejevala-zdaj-pa-zdruzuje",
+          "accessed": "2026-11-13",
+          "supports": "osvoboditev 9. 5. 1945; pohod ob žici"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1951-zoo-rozhnik",
+      "title": "Зоопарк переезжает на Рожник",
+      "title_en": "The zoo moves to Rožnik",
+      "title_original": null,
+      "start_date": "1951",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "Люблянский зоопарк, основанный в 1949 г., первые два года держал животных в клетках в центре города, а в 1951 г. переехал на нынешнее место на юго-западном склоне холма Рожник (19,6 га).",
+      "historical_summary_en": "Ljubljana Zoo, founded in 1949, kept its animals in cages in the city centre for its first two years and in 1951 moved to its present site on the south-western slope of Rožnik hill (19.6 ha).",
+      "affected_groups": [
+        "children",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "sunday_at_the_zoo"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_zoo"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_zoo",
+          "url": "https://www.zoo.si/o-nas/zgodovina",
+          "accessed": "2026-11-13",
+          "supports": "ustanovljen 1949; prve kletke v središču; 1951 preselitev na Rožnik, 19,6 ha"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1955-fairground",
+      "title": "Новый выставочный комплекс Gospodarsko razstavišče",
+      "title_en": "The new Gospodarsko razstavišče exhibition grounds",
+      "title_original": null,
+      "start_date": "1955",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "local_economy",
+      "subcategory": null,
+      "historical_summary": "В 1954 г. было создано предприятие Gospodarsko razstavišče, а в 1955 г. на новой выставочной площадке прошли первые выставки; строительство ускорил VII съезд Союза коммунистов Югославии, проходивший здесь в апреле 1958 г. В 1960 г. всего за пять месяцев построили павильон «Юрчек».",
+      "historical_summary_en": "The Gospodarsko razstavišče company was set up in 1954, and the first exhibitions on the new fairground were held in 1955; construction was speeded up by the 7th Congress of the League of Communists of Yugoslavia, held there in April 1958. In 1960 the 'Jurček' hall was built in just five months.",
+      "affected_groups": [
+        "urban_residents",
+        "consumers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_culture"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_culture",
+          "url": "https://culture.gov.si/en/Gospodarsko_razstavišče,_Ljubljana_Exhibition_and_Convention_Centre",
+          "accessed": "2026-11-13",
+          "supports": "1954 GR, 1955 prve razstave, april 1958 7. kongres ZKJ, 1960 Jurček v petih mesecih"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1955-biennial-graphic-arts",
+      "title": "Первая международная выставка графики в Любляне",
+      "title_en": "The first International Exhibition of Graphic Arts in Ljubljana",
+      "title_original": null,
+      "start_date": "1955-07-03",
+      "end_date": "1955-09-04",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "С 3 июля по 4 сентября 1955 г. в Современной галерее Любляны прошла первая Международная выставка графики со 151 художником в основной экспозиции, включая авторов из Восточной и Западной Европы и «третьего мира». Так началась Люблянская биеннале графики.",
+      "historical_summary_en": "From 3 July to 4 September 1955 the Museum of Modern Art in Ljubljana held the first International Exhibition of Graphic Arts, with 151 artists in the main exhibition, including artists from Eastern and Western Europe and the 'Third World'. This was the start of the Ljubljana Biennial of Graphic Arts.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mglc"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mglc",
+          "url": "https://bienale.si/en/1",
+          "accessed": "2026-11-13",
+          "supports": "3. 7.–4. 9. 1955, Moderna galerija, 151 umetnikov"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1957-savsko-naselje-supply-centre",
+      "title": "Первый торговый центр микрорайона — Савско насеље",
+      "title_en": "The first neighbourhood supply centre in Savsko naselje",
+      "title_original": null,
+      "start_date": "1957",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В 1957 г. в новом жилом районе Савско насеље, застроенном блоками и пятью 14-этажными башнями у Линхартовой улицы, начал работать снабженческий центр — первый такой центр в Любляне.",
+      "historical_summary_en": "In 1957 a supply centre, the first of its kind in Ljubljana, opened in the new Savsko naselje housing estate, built with blocks of flats and five 14-storey towers along Linhartova cesta.",
+      "affected_groups": [
+        "urban_residents",
+        "tenants",
+        "homemakers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "moved_into_new_block",
+        "first_supermarket_visit"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_kronika"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_kronika",
+          "url": "https://ojs.inz.si/kronika/article/download/518/757/2577",
+          "accessed": "2026-11-13",
+          "supports": "Savsko naselje: 1957 preskrbovalni center kot prvi v Ljubljani; pet 14-nadstropnih stolpnic"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1958-last-tram",
+      "title": "Последний трамвай Любляны",
+      "title_en": "Ljubljana's last tram",
+      "title_original": null,
+      "start_date": "1958-12-20",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "20 декабря 1958 г. по Любляне прошёл последний трамвай; проводить его собралась большая толпа. Ещё в мае 1953 г. городской совет поручил комиссии заменить трамваи троллейбусами и автобусами, а предприятие получило название «Ljubljana-Transport».",
+      "historical_summary_en": "On 20 December 1958 the last tram ran in Ljubljana, seen off by a large crowd. In May 1953 the city council had set up a commission to replace trams with trolleybuses and buses, and the company was renamed Ljubljana-Transport.",
+      "affected_groups": [
+        "urban_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "last_tram_ride"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_lpp"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_lpp",
+          "url": "https://www.lpp.si/o-podjetju/zgodovina",
+          "accessed": "2026-11-13",
+          "supports": "20. 12. 1958 zadnja vožnja tramvaja; maj 1953 komisija; Ljubljana-Transport"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1963-castle-renovation",
+      "title": "Начинается реставрация Люблянского замка",
+      "title_en": "Renovation of Ljubljana Castle begins",
+      "title_original": null,
+      "start_date": "1963",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "После 1963 г., когда последние жильцы замка получили квартиры в других частях города, началась его полная реставрация; в 1980 г. отремонтировали и надстроили смотровую башню с часами.",
+      "historical_summary_en": "After 1963, once the castle's last residents had been given flats elsewhere in the city, its full renovation began; in 1980 the observation tower with its clock was restored and extended.",
+      "affected_groups": [
+        "urban_residents",
+        "tenants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "moved_out_of_castle"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_ljgrad"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ljgrad",
+          "url": "https://www.ljubljanskigrad.si/sl/zakaj-na-grad/zgodovina-gradu/",
+          "accessed": "2026-11-13",
+          "supports": "po 1963 celovita prenova po izselitvi zadnjih stanovalcev; 1980 razgledni stolp"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1965-hala-tivoli",
+      "title": "Открывается Hala Tivoli",
+      "title_en": "Hala Tivoli opens",
+      "title_original": null,
+      "start_date": "1965",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "sport",
+      "subcategory": null,
+      "historical_summary": "В 1965 г. в парке Тиволи открылся спортивный зал Hala Tivoli, построенный в 1963–1965 гг., — тогда крупнейший крытый спортивный комплекс Югославии; первым событием стал концерт Луи Армстронга. В 1970 г. на чемпионате мира по баскетболу победу Югославии над США здесь смотрели более 10 000 зрителей.",
+      "historical_summary_en": "In 1965 the Hala Tivoli sports hall, built in 1963–1965, opened in Tivoli Park as the largest covered sports complex in Yugoslavia at the time; its first event was a Louis Armstrong concert. In 1970 more than 10,000 spectators watched Yugoslavia beat the USA there at the basketball World Championship.",
+      "affected_groups": [
+        "urban_residents",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "concert_at_tivoli_hall",
+        "watched_1970_final"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_culture"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_culture",
+          "url": "https://culture.gov.si/en/Hala_Tivoli",
+          "accessed": "2026-11-13",
+          "supports": "zgrajena 1963–1965, otvoritev 1965 s koncertom Louisa Armstronga; 1970 SP v košarki, nad 10.000 gledalcev"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1969-radio-student",
+      "title": "В Любляне начинает вещание Радио Штудент",
+      "title_en": "Radio Študent starts broadcasting in Ljubljana",
+      "title_original": null,
+      "start_date": "1969",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "В 1969 г. студенческие организации Любляны основали Радио Штудент, и в том же году станция начала вещание; в начале 1980-х гг. она всё больше обращалась к острым общественным темам.",
+      "historical_summary_en": "In 1969 Ljubljana student organisations founded Radio Študent, and the station began broadcasting the same year; in the early 1980s it turned increasingly to controversial social issues.",
+      "affected_groups": [
+        "students",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "listening_to_radio_student"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_culture"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_culture",
+          "url": "https://culture.gov.si/en/Radio_%C5%A0tudent",
+          "accessed": "2026-11-13",
+          "supports": "ustanovljen 1969, oddajanje od 1969; v začetku 80. let kritične teme"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1971-last-trolleybus",
+      "title": "В Любляне исчезают троллейбусы",
+      "title_en": "Trolleybuses disappear from Ljubljana",
+      "title_original": null,
+      "start_date": "1971-09-04",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "4 сентября 1971 г. последний троллейбус проехал по линии Вижмарье — Вич, после чего городской транспорт Любляны полностью перешёл на автобусы.",
+      "historical_summary_en": "On 4 September 1971 the last trolleybus ran on the Vižmarje–Vič line, after which Ljubljana's public transport switched entirely to buses.",
+      "affected_groups": [
+        "urban_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_lpp"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_lpp",
+          "url": "https://www.lpp.si/o-podjetju/zgodovina",
+          "accessed": "2026-11-13",
+          "supports": "4. 9. 1971 zadnja vožnja trolejbusa Vižmarje–Vič"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1975-university-merger",
+      "title": "Академии и высшие школы входят в Люблянский университет",
+      "title_en": "Academies and colleges join the University of Ljubljana",
+      "title_original": null,
+      "start_date": "1975-11-24",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "После закона о высшем образовании 29 апреля 1975 г. десять высших школ и академий, в том числе Музыкальная академия, Академия изобразительных искусств, Педагогическая академия и Высшая морская школа в Пиране, 24 ноября 1975 г. по соглашению о самоуправлении вошли в Люблянский университет.",
+      "historical_summary_en": "Following the Higher Education Act of 29 April 1975, ten colleges and academies, including the Academy of Music, the Academy of Fine Arts, the Pedagogical Academy and the Higher Maritime School in Piran, joined the University of Ljubljana under a self-management agreement on 24 November 1975.",
+      "affected_groups": [
+        "students",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_unilj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_unilj",
+          "url": "https://www.uni-lj.si/univerza/o-nas/zgodovina-univerze",
+          "accessed": "2026-11-13",
+          "supports": "29. 4. 1975 zakon o visokem šolstvu; 24. 11. 1975 združitev 10 visokih šol in akademij"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1975-clinical-centre",
+      "title": "Открывается новое здание Клинического центра",
+      "title_en": "The new Clinical Centre building opens",
+      "title_original": null,
+      "start_date": "1975-11-29",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "healthcare",
+      "subcategory": null,
+      "historical_summary": "29 ноября 1975 г. в Любляне торжественно открыли главное здание Университетского клинического центра, строившееся с 1966 г.; тогда это было самое современное медицинское учреждение страны.",
+      "historical_summary_en": "On 29 November 1975 the main building of the University Medical Centre in Ljubljana, under construction since 1966, was formally opened; at the time it was the most modern healthcare institution in the country.",
+      "affected_groups": [
+        "all_residents",
+        "medical_workers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "born_at_the_new_clinic"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_rtv"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_rtv",
+          "url": "https://www.rtvslo.si/zdravje/ukc-ljubljana-je-50-let-po-odprtju-glavne-stavbe-pred-novimi-izzivi/763942",
+          "accessed": "2026-11-13",
+          "supports": "29. 11. 1975 slavnostno odprtje glavne stavbe UKC; gradnja od 1966"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1980-cankarjev-dom",
+      "title": "Открывается Цанкарьев дом",
+      "title_en": "Cankarjev dom opens",
+      "title_original": null,
+      "start_date": "1980",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "Национальный культурный и конгрессный центр Цанкарьев дом, строительство которого началось в январе 1978 г., весной 1980 г. провёл первые мероприятия в Линхартовом зале; полностью он заработал в 1982 г., когда стал и главным организатором Люблянского джазового фестиваля.",
+      "historical_summary_en": "Cankarjev dom, the national cultural and congress centre whose construction began in January 1978, held its first events in Linhart Hall in spring 1980; it became fully operational in 1982, when it also took over the Ljubljana Jazz Festival.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "evening_at_cankarjev_dom"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_culture"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_culture",
+          "url": "https://culture.gov.si/en/Cankarjev_dom",
+          "accessed": "2026-11-13",
+          "supports": "januar 1978 začetek gradnje; pomlad 1980 prve prireditve; 1982 polno delovanje, Jazz festival"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1984-tivoli-landscape-park",
+      "title": "Тиволи, Рожник и Шишенский холм становятся ландшафтным парком",
+      "title_en": "Tivoli, Rožnik and Šišenski hrib become a landscape park",
+      "title_original": null,
+      "start_date": "1984",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "environment",
+      "subcategory": null,
+      "historical_summary": "В 1984 г. Тиволи, Рожник и Шишенский холм объявили ландшафтным парком площадью около 460 га, на три четверти покрытым лесом; ещё раньше, в 1972 г., охраняемой территорией стала Заечья добрава.",
+      "historical_summary_en": "In 1984 Tivoli, Rožnik and Šišenski hrib were declared a landscape park of about 460 ha, three-quarters of it forest; earlier, in 1972, Zajčja dobrava had become a protected area.",
+      "affected_groups": [
+        "urban_residents",
+        "children"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "walks_in_tivoli"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/ljubljana/zelena",
+          "accessed": "2026-11-13",
+          "supports": "1984 krajinski park Tivoli, Rožnik in Šišenski hrib, ~460 ha, 74 % gozd; 1972 Zajčja dobrava"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1985-path-of-remembrance",
+      "title": "Тропа памяти и товарищества вокруг Любляны",
+      "title_en": "The Path of Remembrance and Comradeship around Ljubljana",
+      "title_original": null,
+      "start_date": "1985",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В 1985 г. Городская община Любляна обустроила Тропу памяти и товарищества по линии бывшего проволочного заграждения 1942–1945 гг. Ежегодно перед 9 мая по ней проходит массовый поход; первый такой поход состоялся в 1957 г.",
+      "historical_summary_en": "In 1985 the City of Ljubljana laid out the Path of Remembrance and Comradeship along the line of the former 1942–1945 wire fence. Every year before 9 May thousands walk it; the first such walk took place in 1957.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "walk_along_the_wire"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje",
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/en-exh05-ch07.html",
+          "accessed": "2026-11-13",
+          "supports": "1985 MOL uredi Pot spominov in tovarištva; vsakoletni pohod pred 9. majem"
+        },
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/sl/obiskovalci/aktualno/pisma-iz-ljubljane/april-2023/tradicionalno-po-poti-ki-je-nekoc-razmejevala-zdaj-pa-zdruzuje",
+          "accessed": "2026-11-13",
+          "supports": "prvi pohod 1957; 35 km"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1988-jbtz-trial",
+      "title": "Процесс против четверых и протесты на Рошкой улице",
+      "title_en": "The trial of the four and protests on Roška Street",
+      "title_original": null,
+      "start_date": "1988-05-31",
+      "end_date": "1988-07",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "31 мая 1988 г. в Любляне госбезопасность арестовала сотрудника журнала «Младина», затем ещё троих человек, в том числе военнослужащего; их судил военный суд в Любляне, а Комитет защиты прав человека организовал протесты на Рошкой улице. В конце июля 1988 г. суд приговорил четверых к срокам от пяти месяцев до четырёх лет; процесс стал символом конфликта армии и словенской общественности.",
+      "historical_summary_en": "On 31 May 1988 state security in Ljubljana arrested a contributor to the magazine Mladina, followed by three more people, including a serving soldier; they were tried by the military court in Ljubljana, and the Committee for the Defence of Human Rights organised protests on Roška Street. In late July 1988 the court sentenced the four to terms of five months to four years; the trial became a symbol of the conflict between the army and the Slovene public.",
+      "affected_groups": [
+        "all_residents",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "protest_on_roska"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_gov",
+        "si_rtv"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_rtv",
+          "url": "https://www.rtvslo.si/slovenija/spomin-na-proces-proti-cetverici/71763",
+          "accessed": "2026-11-13",
+          "supports": "31. 5. 1988 aretacija; protesti na Roški; konec julija 1988 obsodbe"
+        },
+        {
+          "source_id": "si_gov",
+          "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+          "accessed": "2026-11-13",
+          "supports": "1988 proces JBTZ kot simbol spopada vojaških struktur in javnosti"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-1993-metelkova-squat",
+      "title": "Активисты занимают бывшие казармы на Метелковой",
+      "title_en": "Activists occupy the former Metelkova barracks",
+      "title_original": null,
+      "start_date": "1993-09-10",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В ночь на 10–11 сентября 1993 г. около 200 представителей альтернативной культуры и активистов заняли бывшие казармы на Метелковой улице, которые ЮНА покинула в 1991 г., чтобы помешать их сносу. С 1995 г. Метелкова существует как самоуправляемая автономная зона; в 2005 г. часть комплекса внесли в реестр культурного наследия.",
+      "historical_summary_en": "On the night of 10–11 September 1993 about 200 alternative cultural producers and activists occupied the former barracks on Metelkova Street, vacated by the Yugoslav army in 1991, to stop their demolition. Since 1995 Metelkova has existed as a self-organised autonomous zone, and in 2005 part of the complex was entered in the heritage register.",
+      "affected_groups": [
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "concert_at_metelkova"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "si_culture"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_culture",
+          "url": "https://culture.gov.si/en/Metelkova_mesto_Autonomous_Cultural_Zone",
+          "accessed": "2026-11-13",
+          "supports": "10.–11. 9. 1993 zasedba (~200), JLA do junija 1991, od 1995 avtonomna cona, 2005 dediščina"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-2006-castle-funicular",
+      "title": "Фуникулёр на Люблянский замок",
+      "title_en": "The Ljubljana Castle funicular",
+      "title_original": null,
+      "start_date": "2006-12",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В конце декабря 2006 г. открылся фуникулёр на Люблянский замок — идея подъёмника на холм впервые прозвучала в письме городского головы ещё в 1897 г. Миллионного пассажира фуникулёр перевёз к концу 2010 г.",
+      "historical_summary_en": "At the end of December 2006 the funicular up to Ljubljana Castle opened; the idea of a lift up the hill had first been put forward in a mayor's letter back in 1897. It carried its millionth passenger by the end of 2010.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_ljgrad"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_ljgrad",
+          "url": "https://www.ljubljanskigrad.si/sl/nacrtovanje-obiska/vzpenjaca/",
+          "accessed": "2026-11-13",
+          "supports": "konec decembra 2006 prvi potniki; 1897 pismo župana; konec 2010 milijonti potnik"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-2007-barjanska-road",
+      "title": "Новый мост и Барьянская улица на юге города",
+      "title_en": "A new bridge completes Barjanska cesta in the south of the city",
+      "title_original": null,
+      "start_date": "2007-12",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В декабре 2007 г. открылся Барьянский мост через Градащицу, и недостающий участок Барьянской улицы соединил центр Любляны с южными кварталами напрямую; в июне 2007 г. после обновления снова открыли старый Карловский мост.",
+      "historical_summary_en": "In December 2007 the Barjanski bridge over the Gradaščica opened and the missing stretch of Barjanska cesta linked central Ljubljana directly with the southern districts; in June 2007 the old Karlovški bridge reopened after renovation.",
+      "affected_groups": [
+        "commuters",
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/Static/upload/file/MOSTOVI%20V-LJ.pdf",
+          "accessed": "2026-11-13",
+          "supports": "Barjanski most v javno rabo decembra 2007, manjkajoči odsek Barjanske ceste; Karlovški most znova junija 2007"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-2010-butchers-bridge",
+      "title": "Открыт Мясницкий мост",
+      "title_en": "The Butchers' Bridge opens",
+      "title_original": null,
+      "start_date": "2010-07-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "6 июля 2010 г. у Центрального рынка открылся Мясницкий мост, построенный с ноября 2009 г. на месте, где мост задумывал ещё Плечник; споры о его проекте шли десятилетиями. Мост украсили скульптуры Якова Брдара, а влюблённые стали вешать на него замки.",
+      "historical_summary_en": "On 6 July 2010 the Butchers' Bridge opened by the Central Market; built from November 2009, it stands where Plečnik had planned a bridge, and its design had been debated for decades. It was decorated with sculptures by Jakov Brdar, and couples began hanging padlocks on it.",
+      "affected_groups": [
+        "urban_residents",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol",
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/Static/upload/file/MOSTOVI%20V-LJ.pdf",
+          "accessed": "2026-11-13",
+          "supports": "gradnja nov. 2009 – jul. 2010, odprt 6. 7. 2010; polemike, natečaj 1990"
+        },
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/sl/poi/mesarski-most",
+          "accessed": "2026-11-13",
+          "supports": "zgrajen 2010, Plečnik predvidel most; kipi Jakova Brdarja; ključavnice"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-2010-stozice-stadium",
+      "title": "Открывается стадион Стожице",
+      "title_en": "Stožice Stadium opens",
+      "title_original": null,
+      "start_date": "2010-08-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "sport",
+      "subcategory": null,
+      "historical_summary": "11 августа 2010 г. матчем сборных Словении и Австралии официально открылся стадион Стожице на 16 038 мест — часть нового спортивного парка на севере Любляны.",
+      "historical_summary_en": "On 11 August 2010 Stožice Stadium, with 16,038 seats and part of a new sports park in the north of Ljubljana, officially opened with a match between the national teams of Slovenia and Australia.",
+      "affected_groups": [
+        "urban_residents",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_sport_lj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_sport_lj",
+          "url": "https://www.sport-ljubljana.si/en/stadion-stozice/",
+          "accessed": "2026-11-13",
+          "supports": "uradno odprt 11. 8. 2010, tekma Slovenija–Avstralija, 16.038 sedežev"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-ljubljana-2014-green-capital",
+      "title": "Любляна — «Зелёная столица Европы 2016»",
+      "title_en": "Ljubljana named European Green Capital 2016",
+      "title_original": null,
+      "start_date": "2014-06-24",
+      "end_date": "2016-12",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "category": "environment",
+      "subcategory": null,
+      "historical_summary": "24 июня 2014 г. в Копенгагене Еврокомиссия присудила Любляне звание «Зелёная столица Европы 2016» за выполнение стратегии устойчивого развития «Видение 2025», принятой в 2007 г. Год «зелёной столицы» открылся 13 января 2016 г., а в феврале 2016 г. город официально принял звание в Брюсселе.",
+      "historical_summary_en": "On 24 June 2014 in Copenhagen the European Commission awarded Ljubljana the title of European Green Capital 2016 for implementing its Vision 2025 sustainability strategy, adopted in 2007. The Green Capital year opened on 13 January 2016, and in February 2016 the city formally received the title in Brussels.",
+      "affected_groups": [
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_mol",
+        "si_visitlj"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/sl/obiskovalci/aktualno/pisma-iz-ljubljane/julij-2014/ljubljana-zmagala-med-petimi-finalistkami-in-prejela-naziv-zelena-prestolnica-evrope-2016",
+          "accessed": "2026-11-13",
+          "supports": "24. 6. 2014 Kopenhagen, Vizija 2025 iz 2007"
+        },
+        {
+          "source_id": "si_visitlj",
+          "url": "https://www.visitljubljana.com/sl/obiskovalci/aktualno/pisma-iz-ljubljane/januar-2017/pregled-leta-2016-izjemno-zeleno-in-vsebinsko-barvito-leto",
+          "accessed": "2026-11-13",
+          "supports": "13. 1. 2016 otvoritev leta; februar 2016 prevzem naziva v Bruslju"
+        },
+        {
+          "source_id": "si_mol",
+          "url": "https://www.ljubljana.si/sl/ljubljana/zelena",
+          "accessed": "2026-11-13",
+          "supports": "2016 Zelena prestolnica Evrope"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

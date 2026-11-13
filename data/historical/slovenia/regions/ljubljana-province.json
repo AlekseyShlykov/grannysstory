@@ -1,0 +1,102 @@
+{
+  "records": [
+    {
+      "id": "si-province-1941-annexation",
+      "title": "Италия аннексирует Люблянскую провинцию",
+      "title_en": "Italy annexes the Province of Ljubljana",
+      "title_original": null,
+      "start_date": "1941-05-03",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "si-ljubljana-province"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "3 мая 1941 г. Италия объявила занятую ею часть словенских земель с Любляной составной частью королевства — Люблянской провинцией. Аннексия не была признана союзниками и югославским правительством в эмиграции; итальянское гражданство жителям не предоставили, а высшая власть с 18 апреля принадлежала итальянскому верховному комиссару.",
+      "historical_summary_en": "On 3 May 1941 Italy declared the part of the Slovene lands it had occupied, including Ljubljana, an integral part of the kingdom as the Province of Ljubljana. The annexation was not recognised by the Allies or by the Yugoslav government in exile; residents were not granted Italian citizenship, and supreme authority had lain with an Italian High Commissioner since 18 April.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "occupation_life"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/en-exh05-ch02.html",
+          "accessed": "2026-11-13",
+          "supports": "3. 5. 1941 aneksija Ljubljanske pokrajine; 18. 4. visoki komisar; brez italijanskega državljanstva"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "si-province-1943-german-administration",
+      "title": "Провинция под германским управлением",
+      "title_en": "The province under German administration",
+      "title_original": null,
+      "start_date": "1943-09",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "SI"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "si-ljubljana-province"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "После капитуляции Италии в сентябре 1943 г. Люблянская провинция перешла под германское управление; в том же году во главе провинциальной администрации был поставлен словенский генерал. В конце сентября 1943 г. в Любляне был создан германский оперативный штаб по борьбе с партизанами.",
+      "historical_summary_en": "After Italy's capitulation in September 1943 the Province of Ljubljana passed under German administration; that year a Slovene general was put at the head of the provincial administration. At the end of September 1943 a German operational staff for fighting the partisans was set up in Ljubljana.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "occupation_life"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "si_okupacijske_meje",
+        "si_zal"
+      ],
+      "evidence": [
+        {
+          "source_id": "si_okupacijske_meje",
+          "url": "https://okupacijskemeje.si/exh05-ch08.html",
+          "accessed": "2026-11-13",
+          "supports": "8. 9. 1943 nemški prevzem; konec septembra 1943 Operativni štab za boj proti tolpam"
+        },
+        {
+          "source_id": "si_zal",
+          "url": "http://www.zal-lj.si/okupacija/",
+          "accessed": "2026-11-13",
+          "supports": "1943 Leon Rupnik prejme dekret o imenovanju za predsednika pokrajinske uprave",
+          "primary": true,
+          "primary_type": "photograph",
+          "document_title": "Rupnik prejme dekret o imenovanju za predsednika Pokrajinske uprave v Ljubljani",
+          "document_date": "1943",
+          "archive_identifier": "SI_ZAL_LJU/0342, Zbirka fotografij, A5-004-039"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

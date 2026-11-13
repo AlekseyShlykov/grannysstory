@@ -10565,6 +10565,994 @@
       }
     },
     {
+      "source_id": "si_zal",
+      "name": "Исторический архив Любляны (ZAL) — онлайн-выставки",
+      "publisher": "Zgodovinski arhiv Ljubljana",
+      "country": "SI",
+      "url": "https://www.zal-lj.si/spletne-razstave/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1945
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Региональный архив бывшей Крайны. Использованы онлайн-выставки «Slovenci, začenjajo se novi časi… (1918–1920)» (панели на zal-lj.splet.arnes.si) и «Okupacija» (1941–1945) с шифрами единиц хранения (SI_ZAL_LJU/0342 Zbirka fotografij и др.). Тексты не копируются.",
+      "source_type": "archive",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana",
+        "si-carniola"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1945
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_okupacijske_meje",
+      "name": "Проект «Okupacijske meje» — онлайн-выставки об оккупационных границах 1941–1945",
+      "publisher": "Filozofska fakulteta Univerze v Ljubljani, Inštitut za novejšo zgodovino и др. (проект ARRS, рук. Božo Repe)",
+      "country": "SI",
+      "url": "https://okupacijskemeje.si/",
+      "historical_coverage": {
+        "from": 1941,
+        "to": 1985
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Исследовательский проект, финансированный ARRS (Философский факультет Люблянского университета, Географический институт им. Антона Мелика, Педагогический факультет, Институт новейшей истории). На самом сайте издатель не указан; принадлежность проекту установлена по публикациям о нём. Выставка 5 «Okupirana Ljubljana: mesto ob meji». Фото с подписью MNZS.",
+      "source_type": "academic",
+      "languages": [
+        "sl",
+        "en"
+      ],
+      "location_ids": [
+        "si-ljubljana",
+        "si-ljubljana-province"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1941,
+        "to": 1985
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_gov",
+      "name": "Портал правительства Словении gov.si — «Zgodovina Slovenije», перечень актов независимости, серия «30 лет назад» (2021)",
+      "publisher": "Vlada Republike Slovenije, Urad vlade za komuniciranje",
+      "country": "SI",
+      "url": "https://www.gov.si/teme/zgodovina-slovenije/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальные страницы правительства: краткая история Словении, перечень актов независимости 1989–1991 с номерами Uradni list, ежедневная серия новостей 2021 г. о событиях 1991 г.",
+      "source_type": "government",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si",
+        "si-republic",
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_mol",
+      "name": "Городская община Любляна — официальный портал ljubljana.si",
+      "publisher": "Mestna občina Ljubljana",
+      "country": "SI",
+      "url": "https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/",
+      "historical_coverage": {
+        "from": 1895,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Раздел «Zgodovina Ljubljane» (в т. ч. «Nemirno 20. stoletje»), страницы городских голов, «Plečnikova Ljubljana», «Zelena Ljubljana», PDF «Mostovi v Ljubljani». Архив английских новостей (ljubljana.si/en/news/…, в т. ч. о BicikeLJ и Словенской улице) 13.11.2026 отдавал 404.",
+      "source_type": "municipal",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1895,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_lpp",
+      "name": "LPP — история общественного транспорта Любляны",
+      "publisher": "Javno podjetje Ljubljanski potniški promet d.o.o. (Javni holding Ljubljana)",
+      "country": "SI",
+      "url": "https://www.lpp.si/o-podjetju/zgodovina",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1994
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная страница городского транспортного предприятия, принадлежащего Городской общине Любляна через Javni holding Ljubljana.",
+      "source_type": "municipal",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1994
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_visitlj",
+      "name": "Turizem Ljubljana — портал visitljubljana.com",
+      "publisher": "Javni zavod Turizem Ljubljana (ustanovitelj Mestna občina Ljubljana)",
+      "country": "SI",
+      "url": "https://www.visitljubljana.com/sl/obiskovalci/",
+      "historical_coverage": {
+        "from": 1942,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Публичное учреждение, основанное Городской общиной Любляна; новости «Pisma iz Ljubljane». Использовано как муниципальный источник для дат городских традиций.",
+      "source_type": "municipal",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1942,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_unilj",
+      "name": "Люблянский университет — «Zgodovina univerze»",
+      "publisher": "Univerza v Ljubljani",
+      "country": "SI",
+      "url": "https://www.uni-lj.si/univerza/o-nas/zgodovina-univerze",
+      "historical_coverage": {
+        "from": 1918,
+        "to": 1993
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная страница истории государственного университета. Страницы /o-univerzi-v-ljubljani/zgodovina и английская версия отдали 404.",
+      "source_type": "academic",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1918,
+        "to": 1993
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_ars",
+      "name": "Архив Республики Словения — выставки (в т. ч. «Sledi mojstra Plečnika v Arhivu Republike Slovenije», 2022)",
+      "publisher": "Arhiv Republike Slovenije",
+      "country": "SI",
+      "url": "https://www.gov.si/drzavni-organi/organi-v-sestavi/arhiv/o-arhivu/razstave-arhiva-republike-slovenije/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Государственный архив. Панели выставки о Плечнике опубликованы как PDF на gov.si (Pano-1…8); текст извлечён из PDF, часть панелей содержит только изображения. Фонды: SI AS 73, SI AS 1068 и др.",
+      "source_type": "archive",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana",
+        "si"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_ljgrad",
+      "name": "Javni zavod Ljubljanski grad — история замка и фуникулёра",
+      "publisher": "Javni zavod Ljubljanski grad (ustanovitelj Mestna občina Ljubljana)",
+      "country": "SI",
+      "url": "https://www.ljubljanskigrad.si/sl/zakaj-na-grad/zgodovina-gradu/",
+      "historical_coverage": {
+        "from": 1895,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Муниципальное учреждение, управляющее Люблянским замком. Старый адрес /sl/ljubljanski-grad/zgodovina-gradu/ отдал 404.",
+      "source_type": "municipal",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1895,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_zoo",
+      "name": "Живалски врт Любляна — история",
+      "publisher": "Javni zavod Živalski vrt Ljubljana (ustanovitelj Mestna občina Ljubljana)",
+      "country": "SI",
+      "url": "https://www.zoo.si/o-nas/zgodovina",
+      "historical_coverage": {
+        "from": 1949,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная страница муниципального зоопарка.",
+      "source_type": "municipal",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1949,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_kronika",
+      "name": "Kronika, časopis za slovensko krajevno zgodovino (ojs.inz.si)",
+      "publisher": "Zveza zgodovinskih društev Slovenije; хостинг Inštitut za novejšo zgodovino",
+      "country": "SI",
+      "url": "https://ojs.inz.si/kronika/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1970
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Рецензируемый научный журнал по краеведению. Использована статья D. Petelin, «Stanovanjske razmere v Ljubljani v letih 1945–1965», Kronika 65 (2017), 77–94, со ссылками на фонды ZAL LJU 465/466 и издания городской статистики. PDF открыт и прочитан полностью.",
+      "source_type": "academic",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1970
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_culture",
+      "name": "Culture.si — портал о культуре Словении (culture.gov.si)",
+      "publisher": "Ministrstvo za kulturo Republike Slovenije (razvoj: Ljudmila)",
+      "country": "SI",
+      "url": "https://culture.gov.si/en/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Портал «принадлежит и финансируется Министерством культуры» (по подвалу сайта); адреса culture.si перенаправляют на culture.gov.si. Страницы учреждений Любляны (Hala Tivoli, Cankarjev dom, Radio Študent, Metelkova, Gospodarsko razstavišče, Ljubljana Festival). Часть страниц давно не обновлялась.",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_mglc",
+      "name": "MGLC — Международный центр графического искусства, сайт Биеннале графики bienale.si",
+      "publisher": "Mednarodni grafični likovni center (javni zavod MOL)",
+      "country": "SI",
+      "url": "https://bienale.si/en/",
+      "historical_coverage": {
+        "from": 1955,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Городское публичное учреждение; страницы каждой выставки Биеннале с датами.",
+      "source_type": "municipal",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1955,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_sport_lj",
+      "name": "Javni zavod Šport Ljubljana — спортивные объекты города",
+      "publisher": "Javni zavod Šport Ljubljana (ustanovitelj Mestna občina Ljubljana)",
+      "country": "SI",
+      "url": "https://www.sport-ljubljana.si/en/",
+      "historical_coverage": {
+        "from": 1965,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Муниципальное учреждение, управляющее стадионом Стожице и другими объектами. Страница Hala Tivoli по адресу /en/hala-tivoli/ отдала 404.",
+      "source_type": "municipal",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1965,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_rtv",
+      "name": "RTV Slovenija — rtvslo.si",
+      "publisher": "Radiotelevizija Slovenija (javni zavod)",
+      "country": "SI",
+      "url": "https://www.rtvslo.si/",
+      "historical_coverage": {
+        "from": 1958,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© RTV Slovenija; только просмотр",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Публичный вещатель; использован как вторичный источник новостей и юбилейных материалов. В долю архивных ссылок не засчитывается.",
+      "source_type": "newspaper",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si",
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1958,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_surs",
+      "name": "Статистический офис Республики Словения — база SiStat (PxWeb)",
+      "publisher": "Statistični urad Republike Slovenije",
+      "country": "SI",
+      "url": "https://pxweb.stat.si/SiStatData/pxweb/sl/Data/",
+      "historical_coverage": {
+        "from": 1991,
+        "to": 2022
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "api",
+      "bulk_download": false,
+      "license": "Открытые данные SURS; разрешено использование с указанием источника",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Таблицы по общинам: 05C4003S (население по полугодиям 2008–2026), 05C4008S (возрастные показатели 1999–2026), 05F3005S (население, домохозяйства и семьи по регистровым переписям 2011, 2015, 2018, 2021), 0711344S (средняя месячная зарплата по общине проживания 2000–2022). Запросы через открытый API PxWeb (POST, json-stat2), без массовой выгрузки.",
+      "source_type": "statistics",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si",
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": true,
+        "verified": true,
+        "note": "проверено: PxWeb API v1 https://pxweb.stat.si/SiStatData/api/v1/sl/Data, POST-запросы json-stat2 13.11.2026"
+      },
+      "years": {
+        "from": 1991,
+        "to": 2022
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_urszr",
+      "name": "Администрация по гражданской защите и стихийным бедствиям (URSZR) — оценки угроз",
+      "publisher": "Uprava Republike Slovenije za zaščito in reševanje",
+      "country": "SI",
+      "url": "https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-zascito-in-resevanje/",
+      "historical_coverage": {
+        "from": 1980,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная «Оценка угрозы ледяного дождя в Люблянском регионе» (2020, PDF на gov.si) с разделом о ледяном дожде 2014 г.",
+      "source_type": "government",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1980,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_mnz",
+      "name": "Министерство внутренних дел / Полиция — отчёты о миграции 2015",
+      "publisher": "Ministrstvo za notranje zadeve RS, Policija",
+      "country": "SI",
+      "url": "https://www.policija.si/",
+      "historical_coverage": {
+        "from": 2015,
+        "to": 2015
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Отчёт МВД правительству о прибытии мигрантов 15.10–8.12.2015 (PDF на policija.si) с данными до 15.12.2015.",
+      "source_type": "government",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2015,
+        "to": 2015
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "si_dlib",
+      "name": "dLib.si — Цифровая библиотека Словении (оцифрованные газеты Slovenec, Slovenski narod, Jutro и др.)",
+      "publisher": "Narodna in univerzitetna knjižnica",
+      "country": "SI",
+      "url": "https://www.dlib.si/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "notes": "Поиск работает (results/?query=…), но потоки TEXT/PDF отдельных статей через автоматический запрос возвращают HTML-обёртку вместо текста; в этой сессии в записи не использован. Главный резерв для 1900–1940-х гг.",
+      "source_type": "library",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si",
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "si_arsq",
+      "name": "Архив Республики Словения — онлайн-каталог scopeArchiv (arsq.gov.si)",
+      "publisher": "Arhiv Republike Slovenije",
+      "country": "SI",
+      "url": "https://arsq.gov.si/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [
+        "blocked"
+      ],
+      "status": "inaccessible",
+      "notes": "13.11.2026: соединение сброшено (ECONNRESET); не обходилось.",
+      "source_type": "archive",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "si_ukc",
+      "name": "UKC Ljubljana — kclj.si (пресс-релизы об истории центра)",
+      "publisher": "Univerzitetni klinični center Ljubljana",
+      "country": "SI",
+      "url": "https://www.kclj.si/",
+      "historical_coverage": {
+        "from": 1975,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [
+        "blocked"
+      ],
+      "status": "inaccessible",
+      "notes": "13.11.2026: ECONNREFUSED на PDF пресс-релиза о 50-летии здания; дата открытия 29.11.1975 взята из RTV Slovenija.",
+      "source_type": "government",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "years": {
+        "from": 1975,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "si_sta",
+      "name": "STA — Словенское агентство печати (english.sta.si)",
+      "publisher": "Slovenska tiskovna agencija",
+      "country": "SI",
+      "url": "https://english.sta.si/",
+      "historical_coverage": {
+        "from": 1991,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [
+        "blocked"
+      ],
+      "status": "inaccessible",
+      "notes": "13.11.2026: HTTP 403 на страницу о процессе JBTZ; не обходилось.",
+      "source_type": "newspaper",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "years": {
+        "from": 1991,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "si_sazu",
+      "name": "SAZU — Словенская академия наук и искусств",
+      "publisher": "Slovenska akademija znanosti in umetnosti",
+      "country": "SI",
+      "url": "https://www.sazu.si/",
+      "historical_coverage": {
+        "from": 1938,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "notes": "Страница /o-akademiji вернула пустое содержимое (вероятно, JavaScript-рендеринг); год основания 1938 взят со страницы Городской общины Любляна.",
+      "source_type": "academic",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "years": {
+        "from": 1938,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "si_mnzs",
+      "name": "Музей новейшей истории Словении (muzej-nz.si)",
+      "publisher": "Muzej novejše zgodovine Slovenije",
+      "country": "SI",
+      "url": "https://www.muzej-nz.si/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "SI"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "catalogued",
+      "notes": "Найдены страницы временных выставок (1955 г., «Up YU Go!»), в записи не использованы; фото музея цитируются в статье Kronika и на сайте проекта «Okupacijske meje».",
+      "source_type": "museum",
+      "languages": [
+        "sl"
+      ],
+      "location_ids": [
+        "si",
+        "si-ljubljana"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
       "source_id": "tr_en_wikipedia",
       "name": "Wikipedia (английская)",
       "publisher": "Wikimedia Foundation",

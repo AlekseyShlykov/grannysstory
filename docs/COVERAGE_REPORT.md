@@ -18,7 +18,7 @@
 | TR | 271 (300) | 96 (150) | municipal 174, national 89, regional 8 |
 | RS | 94 (250) | 8 (125) | constituent 5, district 3, municipal 56, national 29, regional 1 |
 | HR | 65 (250) | 11 (125) | constituent 12, municipal 44, national 9 |
-| SI | 0 (250) | 0 (125) | — |
+| SI | 72 (250) | 14 (125) | constituent 8, municipal 52, national 10, regional 2 |
 | BA | 0 (250) | 0 (125) | — |
 | ME | 0 (250) | 0 (125) | — |
 | GR | 0 (250) | 0 (125) | — |
@@ -46,7 +46,7 @@
 | SG | 0 (250) | 0 (125) | — |
 | IN | 0 (250) | 0 (125) | — |
 
-Статусы всех авторских записей (включая неэкспортированные): CN:verified 306, DE:verified 333, FI:needs_review 1, FI:verified 254, FR:verified 173, GB:verified 199, HR:verified 65, IT:verified 290, PL:needs_review 5, PL:verified 170, RS:verified 94, RU:verified 200, TR:verified 271, US:needs_review 1, US:verified 202.
+Статусы всех авторских записей (включая неэкспортированные): CN:verified 306, DE:verified 333, FI:needs_review 1, FI:verified 254, FR:verified 173, GB:verified 199, HR:verified 65, IT:verified 290, PL:needs_review 5, PL:verified 170, RS:verified 94, RU:verified 200, SI:verified 72, TR:verified 271, US:needs_review 1, US:verified 202.
 
 ## Чем подтверждены события
 
@@ -66,7 +66,7 @@
 | TR | 271 | 55% | 43% |
 | RS | 94 | 83% | 0% |
 | HR | 65 | 94% | 0% |
-| SI | 0 | 0% | 0% |
+| SI | 72 | 99% | 0% |
 | BA | 0 | 0% | 0% |
 | ME | 0 | 0% | 0% |
 | GR | 0 | 0% | 0% |
@@ -110,7 +110,7 @@
 | TR | 11 | 26 | 40 | 22 | 14 | 21 | 16 | 16 | 18 | 21 | 24 | 29 | 13 |
 | RS | 12 | 9 | 9 | 9 | 15 | 4 | 8 | 2 | 4 | 9 | 5 | 6 | 2 |
 | HR | 7 | 10 | 4 | 2 | 8 | 2 | 6 | 3 | 1 | 12 | 3 | 4 | 3 |
-| SI | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SI | 6 | 8 | 5 | 3 | 11 | 6 | 3 | 3 | 4 | 10 | 5 | 5 | 3 |
 | BA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ME | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | GR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -154,7 +154,7 @@
 | TR | 0 | 1 | 8 | 8 | 9 | 9 | 16 | 17 | 16 | 17 | 18 | 32 | 14 |
 | RS | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 4 | 3 | 3 | 0 |
 | HR | 2 | 2 | 2 | 3 | 4 | 4 | 4 | 4 | 4 | 4 | 3 | 9 | 0 |
-| SI | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| SI | 0 | 1 | 2 | 2 | 4 | 4 | 5 | 3 | 2 | 4 | 6 | 6 | 4 |
 | BA | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | ME | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | GR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -196,7 +196,7 @@
 - **TR**: infrastructure_transport 38, political_change 30, local_economy 25, culture_leisure 24, border_administrative 23, education 23, everyday_life 13, war_conflict 12, migration 12, disaster 11, women_rights 10, repression 9, media_communication 8, economic_crisis 8, occupation 7, sport 4, family_law 3, labor 3, consumer_life 3, housing_urban 2, public_health 2, environment 1
 - **RS**: political_change 26, war_conflict 13, infrastructure_transport 12, culture_leisure 7, border_administrative 6, housing_urban 6, education 4, local_economy 4, economic_crisis 3, religion 2, occupation 2, repression 2, media_communication 2, women_rights 1, social_policy 1, everyday_life 1, disaster 1, public_health 1
 - **HR**: political_change 12, culture_leisure 7, infrastructure_transport 6, media_communication 5, education 4, war_conflict 4, everyday_life 4, housing_urban 4, technology 3, local_economy 3, economic_crisis 3, disaster 2, public_health 2, women_rights 1, occupation 1, repression 1, sport 1, migration 1, border_administrative 1
-- **SI**: нет
+- **SI**: political_change 13, infrastructure_transport 8, culture_leisure 8, occupation 7, housing_urban 5, war_conflict 5, public_health 5, education 4, migration 2, local_economy 2, media_communication 2, sport 2, environment 2, consumer_life 2, social_policy 1, religion 1, repression 1, healthcare 1, disaster 1
 - **BA**: нет
 - **ME**: нет
 - **GR**: нет
@@ -238,7 +238,7 @@
 - **TR**: demography 30, migration 11, education 9, fertility_childlessness 7, wages_income 7, prices_spending 7, healthcare 7, communication 7, work 5, women_employment 4, transport 1, family_marriage 1
 - **RS**: family_marriage 3, social_policy 2, food 1, leisure_culture 1, prices_spending 1
 - **HR**: housing 3, family_marriage 2, fertility_childlessness 1, communication 1, wages_income 1, retirement 1, demography 1, education 1
-- **SI**: нет
+- **SI**: family_marriage 3, housing 3, demography 2, fertility_childlessness 2, consumer_goods 1, wages_income 1, work 1, transport 1
 - **BA**: нет
 - **ME**: нет
 - **GR**: нет
@@ -395,6 +395,10 @@
 | `ru-tver-oblast` Тверская область | oblast | 5 |
 | `ru-konakovsky-raion` Конаковский район | raion | 4 |
 | `ru-smolensk-oblast` Смоленская область | oblast | 2 |
+| `si-ljubljana` Любляна | city | 52 |
+| `si` Словения | state | 10 |
+| `si-republic` Республика Словения | republic | 8 |
+| `si-ljubljana-province` Люблянская провинция | region | 2 |
 | `state-de-reich` Германия | state | 29 |
 | `state-gdr` ГДР | state | 27 |
 | `state-cn-roc` Китайская Республика | state | 22 |
@@ -565,6 +569,10 @@
 | `ru-tver` | city | 2 | 3 | 1 | 3 | 4 | 4 | 3 | 2 | 0 | 1 | 1 | 4 | 0 |
 | `ru-tver-oblast` | oblast | 0 | 0 | 0 | 1 | 2 | 0 | 0 | 0 | 1 | 1 | 0 | 0 | 0 |
 | `ru-veliky-novgorod` | city | 0 | 0 | 0 | 0 | 5 | 1 | 1 | 1 | 0 | 2 | 0 | 1 | 0 |
+| `si` | state | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 3 | 2 | 3 |
+| `si-ljubljana` | city | 6 | 8 | 5 | 3 | 9 | 5 | 3 | 3 | 4 | 1 | 2 | 3 | 0 |
+| `si-ljubljana-province` | region | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `si-republic` | republic | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 7 | 0 | 0 | 0 |
 | `state-cn-qing` | state | 6 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `state-cn-roc` | state | 0 | 6 | 7 | 3 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `state-de-empire` | state | 4 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -677,6 +685,7 @@
 | `ru-torzhok` | 5 | 3 (3) | 9 (8) | 8 (7) | 12 (7) | 10 (6) | 9 (9) | 9 (9) | 7 (7) | 7 (7) | 13 (12) | 8 (8) | 8 (8) | 5 (4) | нет |
 | `ru-tver` | 30 | 5 (5) | 12 (11) | 9 (8) | 14 (8) | 14 (10) | 14 (14) | 13 (13) | 10 (10) | 8 (8) | 15 (14) | 9 (9) | 9 (9) | 5 (4) | да |
 | `ru-veliky-novgorod` | 11 | 3 (3) | 9 (8) | 8 (7) | 10 (5) | 12 (8) | 9 (9) | 10 (10) | 8 (7) | 6 (6) | 14 (13) | 8 (8) | 6 (6) | 5 (4) | да |
+| `si-ljubljana` | 52 | 6 (5) | 9 (9) | 9 (9) | 4 (4) | 17 (15) | 7 (7) | 4 (4) | 4 (4) | 5 (5) | 10 (8) | 5 (5) | 5 (5) | 3 (3) | да |
 | `tr-ankara` | 27 | 5 (5) | 9 (7) | 18 (16) | 12 (11) | 8 (7) | 10 (9) | 7 (6) | 8 (5) | 8 (6) | 8 (7) | 9 (9) | 10 (8) | 6 (5) | да |
 | `tr-bursa` | 18 | 5 (5) | 9 (6) | 16 (14) | 11 (10) | 5 (4) | 9 (8) | 8 (7) | 9 (7) | 7 (5) | 8 (7) | 7 (7) | 9 (8) | 7 (6) | да |
 | `tr-cumra` | 9 | 5 (5) | 10 (8) | 14 (12) | 10 (9) | 6 (5) | 8 (7) | 7 (6) | 6 (4) | 7 (5) | 9 (8) | 7 (7) | 11 (10) | 7 (6) | да |
@@ -753,6 +762,7 @@
   - `ru-torzhok`: 1900, 1910, 1920, 1960, 1970, 2000, 2020
   - `ru-tver`: 2020
   - `ru-veliky-novgorod`: 1900, 1910, 1920, 1930, 1980, 2000, 2020
+  - `si-ljubljana`: 2020
   - `tr-ankara`: 1900, 2020
   - `tr-bursa`: 1900, 1940
   - `tr-cumra`: 1900, 1970
@@ -769,5 +779,5 @@
 
 ## Источники
 
-- Использовано (`accessed`): 343.
-- Зарегистрировано, но не использовано: 69: cn_difangzhi (catalogued), cn_nbs_data (catalogued), cn_nlc (catalogued), cn_yearbooks (catalogued), fi_digi_kansalliskirjasto (catalogued), fi_finna (catalogued), fi_kansallisarkisto (catalogued), fr_ad_13 (catalogued), fr_ad_nord (catalogued), fr_ad_rhone (catalogued), fr_bnf_api (catalogued), fr_britannica (catalogued), fr_chemins_de_memoire (inaccessible), fr_data_gouv (catalogued), fr_francearchives (inaccessible), fr_ined (inaccessible), fr_larousse (catalogued), fr_ratp (inaccessible), fr_unesco_whc (inaccessible), fr_vie_publique (catalogued), gb_bna (inaccessible), gb_parliament (inaccessible), gb_tna_discovery (catalogued), gb_ukds (catalogued), gb_vision_of_britain (inaccessible), hr_daz (inaccessible), it_bncr (catalogued), it_internet_culturale (catalogued), it_lastampa_archivio (catalogued), it_san (catalogued), it_treccani (catalogued), pl_britannica (inaccessible), pl_culture_pl (inaccessible), pl_fbc (catalogued), pl_ipn_main (catalogued), pl_isap (inaccessible), pl_muzeum_tarnow (inaccessible), pl_polona (catalogued), pl_pwn (inaccessible), rs_anno (inaccessible), rs_arcanum (inaccessible), rs_bms_digital (catalogued), rs_gallica (inaccessible), rs_hungaricana (inaccessible), rs_loc_chronam (inaccessible), rs_nbs_digital (catalogued), rs_novisad_city (catalogued), rs_subotica_city (inaccessible), rs_subotica_library (catalogued), ru_bigenc (catalogued), ru_demoscope (inaccessible), ru_gato (catalogued), ru_glavarchiv (catalogued), ru_prozhito (catalogued), ru_rgakfd (catalogued), ru_rosstat (inaccessible), ru_spbarchives (inaccessible), tr_ataturk_kitapligi (catalogued), tr_devlet_arsivleri (catalogued), tr_milli_kutuphane (catalogued), tr_tuik (catalogued), us_britannica (inaccessible), us_chicago_encyclopedia (inaccessible), us_dol (catalogued), us_ipums (catalogued), us_loc (catalogued), us_ohio_history (inaccessible), us_smithsonian (catalogued), us_ssa (inaccessible).
+- Использовано (`accessed`): 361.
+- Зарегистрировано, но не использовано: 75: cn_difangzhi (catalogued), cn_nbs_data (catalogued), cn_nlc (catalogued), cn_yearbooks (catalogued), fi_digi_kansalliskirjasto (catalogued), fi_finna (catalogued), fi_kansallisarkisto (catalogued), fr_ad_13 (catalogued), fr_ad_nord (catalogued), fr_ad_rhone (catalogued), fr_bnf_api (catalogued), fr_britannica (catalogued), fr_chemins_de_memoire (inaccessible), fr_data_gouv (catalogued), fr_francearchives (inaccessible), fr_ined (inaccessible), fr_larousse (catalogued), fr_ratp (inaccessible), fr_unesco_whc (inaccessible), fr_vie_publique (catalogued), gb_bna (inaccessible), gb_parliament (inaccessible), gb_tna_discovery (catalogued), gb_ukds (catalogued), gb_vision_of_britain (inaccessible), hr_daz (inaccessible), it_bncr (catalogued), it_internet_culturale (catalogued), it_lastampa_archivio (catalogued), it_san (catalogued), it_treccani (catalogued), pl_britannica (inaccessible), pl_culture_pl (inaccessible), pl_fbc (catalogued), pl_ipn_main (catalogued), pl_isap (inaccessible), pl_muzeum_tarnow (inaccessible), pl_polona (catalogued), pl_pwn (inaccessible), rs_anno (inaccessible), rs_arcanum (inaccessible), rs_bms_digital (catalogued), rs_gallica (inaccessible), rs_hungaricana (inaccessible), rs_loc_chronam (inaccessible), rs_nbs_digital (catalogued), rs_novisad_city (catalogued), rs_subotica_city (inaccessible), rs_subotica_library (catalogued), ru_bigenc (catalogued), ru_demoscope (inaccessible), ru_gato (catalogued), ru_glavarchiv (catalogued), ru_prozhito (catalogued), ru_rgakfd (catalogued), ru_rosstat (inaccessible), ru_spbarchives (inaccessible), si_arsq (inaccessible), si_dlib (catalogued), si_mnzs (catalogued), si_sazu (catalogued), si_sta (inaccessible), si_ukc (inaccessible), tr_ataturk_kitapligi (catalogued), tr_devlet_arsivleri (catalogued), tr_milli_kutuphane (catalogued), tr_tuik (catalogued), us_britannica (inaccessible), us_chicago_encyclopedia (inaccessible), us_dol (catalogued), us_ipums (catalogued), us_loc (catalogued), us_ohio_history (inaccessible), us_smithsonian (catalogued), us_ssa (inaccessible).

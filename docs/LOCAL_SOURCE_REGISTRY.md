@@ -385,6 +385,35 @@
 | [Архивы Санкт-Петербурга (ЦГА СПб)](https://spbarchives.ru/) | — | 1900–2025 | — | not_accessible | не проверено | нет | Не проверялась | — | inaccessible | 0 |
 | [Wikidata: Moscow Q649, Saint Petersburg Q656, Tver Q2288, Veliky Novgorod Q2235, Smolensk Q2337](https://www.wikidata.org/) | — | — | — | website | не проверено | нет | Структурированные данные Wikidata доступны по CC0 | — | accessed | 0 |
 
+## SI
+
+| Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
+|---|---|---|---|---|---|---|---|---|---|---:|
+| [Портал правительства Словении gov.si — «Zgodovina Slovenije», перечень актов независимости, серия «30 лет назад» (2021)](https://www.gov.si/teme/zgodovina-slovenije/) | `si`, `si-republic`, `si-ljubljana` | 1900–2020 | sl | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 17 |
+| [Проект «Okupacijske meje» — онлайн-выставки об оккупационных границах 1941–1945](https://okupacijskemeje.si/) | `si-ljubljana`, `si-ljubljana-province` | 1941–1985 | sl, en | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 12 |
+| [Городская община Любляна — официальный портал ljubljana.si](https://www.ljubljana.si/sl/mestna-obcina/o-ljubljani/zgodovina-ljubljane/) | `si-ljubljana` | 1895–2020 | sl | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 10 |
+| [Исторический архив Любляны (ZAL) — онлайн-выставки](https://www.zal-lj.si/spletne-razstave/) | `si-ljubljana`, `si-carniola` | 1900–1945 | sl | archive | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 10 |
+| [Статистический офис Республики Словения — база SiStat (PxWeb)](https://pxweb.stat.si/SiStatData/pxweb/sl/Data/) | `si`, `si-ljubljana` | 1991–2022 | sl | statistics | да | нет | Открытые данные SURS; разрешено использование с указанием источника | — | accessed | 9 |
+| [Turizem Ljubljana — портал visitljubljana.com](https://www.visitljubljana.com/sl/obiskovalci/) | `si-ljubljana` | 1942–2020 | sl | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 7 |
+| [Culture.si — портал о культуре Словении (culture.gov.si)](https://culture.gov.si/en/) | `si-ljubljana` | 1900–2020 | en | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 6 |
+| [Архив Республики Словения — выставки (в т. ч. «Sledi mojstra Plečnika v Arhivu Republike Slovenije», 2022)](https://www.gov.si/drzavni-organi/organi-v-sestavi/arhiv/o-arhivu/razstave-arhiva-republike-slovenije/) | `si-ljubljana`, `si` | 1900–2020 | sl | archive | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [Kronika, časopis za slovensko krajevno zgodovino (ojs.inz.si)](https://ojs.inz.si/kronika/) | `si-ljubljana` | 1900–1970 | sl | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [Javni zavod Ljubljanski grad — история замка и фуникулёра](https://www.ljubljanskigrad.si/sl/zakaj-na-grad/zgodovina-gradu/) | `si-ljubljana` | 1895–2020 | sl | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 4 |
+| [RTV Slovenija — rtvslo.si](https://www.rtvslo.si/) | `si`, `si-ljubljana` | 1958–2020 | sl | newspaper | нет | нет | © RTV Slovenija; только просмотр | — | accessed | 4 |
+| [LPP — история общественного транспорта Любляны](https://www.lpp.si/o-podjetju/zgodovina) | `si-ljubljana` | 1900–1994 | sl | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 3 |
+| [Люблянский университет — «Zgodovina univerze»](https://www.uni-lj.si/univerza/o-nas/zgodovina-univerze) | `si-ljubljana` | 1918–1993 | sl | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [MGLC — Международный центр графического искусства, сайт Биеннале графики bienale.si](https://bienale.si/en/) | `si-ljubljana` | 1955–2020 | en | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Министерство внутренних дел / Полиция — отчёты о миграции 2015](https://www.policija.si/) | `si` | 2015–2015 | sl | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Javni zavod Šport Ljubljana — спортивные объекты города](https://www.sport-ljubljana.si/en/) | `si-ljubljana` | 1965–2020 | en | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Администрация по гражданской защите и стихийным бедствиям (URSZR) — оценки угроз](https://www.gov.si/drzavni-organi/organi-v-sestavi/uprava-za-zascito-in-resevanje/) | `si` | 1980–2020 | sl | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Живалски врт Любляна — история](https://www.zoo.si/o-nas/zgodovina) | `si-ljubljana` | 1949–2020 | sl | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Архив Республики Словения — онлайн-каталог scopeArchiv (arsq.gov.si)](https://arsq.gov.si/) | `si` | 1900–2020 | sl | archive | не проверено | нет | © издатель; только просмотр, тексты не копируются | blocked | inaccessible | 0 |
+| [dLib.si — Цифровая библиотека Словении (оцифрованные газеты Slovenec, Slovenski narod, Jutro и др.)](https://www.dlib.si/) | `si`, `si-ljubljana` | 1900–2020 | sl | library | не проверено | нет | © издатель; только просмотр, тексты не копируются | — | catalogued | 0 |
+| [Музей новейшей истории Словении (muzej-nz.si)](https://www.muzej-nz.si/) | `si`, `si-ljubljana` | 1900–2020 | sl | museum | не проверено | нет | © издатель; только просмотр, тексты не копируются | — | catalogued | 0 |
+| [SAZU — Словенская академия наук и искусств](https://www.sazu.si/) | `si-ljubljana` | 1938–2020 | sl | academic | не проверено | нет | © издатель; только просмотр, тексты не копируются | — | catalogued | 0 |
+| [STA — Словенское агентство печати (english.sta.si)](https://english.sta.si/) | `si` | 1991–2020 | sl | newspaper | не проверено | нет | © издатель; только просмотр, тексты не копируются | blocked | inaccessible | 0 |
+| [UKC Ljubljana — kclj.si (пресс-релизы об истории центра)](https://www.kclj.si/) | `si-ljubljana` | 1975–2020 | sl | government | не проверено | нет | © издатель; только просмотр, тексты не копируются | blocked | inaccessible | 0 |
+
 ## TR
 
 | Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
