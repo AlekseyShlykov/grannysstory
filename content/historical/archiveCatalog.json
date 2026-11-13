@@ -39,6 +39,44 @@
         "us_census",
         "us_detroit_historical"
       ]
+    },
+    "italy": {
+      "label": "Италия",
+      "sourceIds": [
+        "it_istat",
+        "it_museotorino",
+        "it_normattiva"
+      ]
+    },
+    "germany": {
+      "label": "Германия",
+      "sourceIds": [
+        "de_lemo",
+        "de_bpb",
+        "de_bundesregierung"
+      ]
+    },
+    "china": {
+      "label": "Китай",
+      "sourceIds": [
+        "cn_nbs",
+        "cn_xinhua"
+      ]
+    },
+    "finland": {
+      "label": "Финляндия",
+      "sourceIds": [
+        "fi_statfin",
+        "fi_kela"
+      ]
+    },
+    "turkey": {
+      "label": "Турция",
+      "sourceIds": [
+        "tr_tuik_tis2012",
+        "tr_tuba",
+        "tr_worldbank"
+      ]
     }
   },
   "regions": {

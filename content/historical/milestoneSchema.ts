@@ -32,9 +32,15 @@ export interface MilestoneVoice {
 
 export interface MilestoneDefinition {
   id: string;
-  country: "RU" | "PL" | "FR" | "GB" | "US";
+  country: "RU" | "PL" | "FR" | "GB" | "US" | "IT" | "DE" | "CN" | "FI" | "TR";
   /** Verified record ids (world dataset or legacy v0.4); the first one present in loaded data is used. */
   eventIds: string[];
   kind: MilestoneKind;
   voice: MilestoneVoice;
+  /**
+   * Places (world location ids) where the record is true but these lines are not: a resident whose chain on the
+   * event date contains one of them does not hear this milestone. Example: Finns lived in the Russian Empire but
+   * were not conscripted into the tsarist army, so the 1914 mobilisation lines do not fit a Finnish life.
+   */
+  notIn?: string[];
 }

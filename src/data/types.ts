@@ -80,6 +80,8 @@ export interface RegionPack {
   coverage: string;
   birthPlaces: string[];
   events: HistoricalEvent[];
+  /** For a divided city chosen on the opening screen (Berlin): the part she lives in during the division. */
+  partitionPart?: string;
 }
 
 export interface Place {
@@ -241,6 +243,14 @@ export interface ConversationFact {
   lifeEventIds: string[];
 }
 
+/** One period of permanent residence. `partitions` names the part of a divided city (Berlin 1949–1990) she lived in. */
+export interface Residence {
+  placeId: string;
+  fromYear: number;
+  toYear: number;
+  partitions?: { placeId: string; fromYear: number; toYear: number }[];
+}
+
 export interface BiographyState {
   people: Person[];
   relationship: RelationshipState;
@@ -248,7 +258,7 @@ export interface BiographyState {
   narrativeThreadId?: string;
   traits: string[];
   themes: ThemeId[];
-  residenceHistory: { placeId: string; fromYear: number; toYear: number }[];
+  residenceHistory: Residence[];
   lifeEvents: LifeEvent[];
   branches: BranchState[];
   flags: string[];

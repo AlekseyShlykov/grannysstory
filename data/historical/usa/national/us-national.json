@@ -1629,7 +1629,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -1637,10 +1638,16 @@
      "url": "https://en.wikipedia.org/wiki/Equal_Credit_Opportunity_Act",
      "accessed": "2026-10-29",
      "supports": "дата, запреты, сохранение практик"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/statement-signing-legislation-increasing-federal-deposit-insurance",
+     "accessed": "2026-11-13",
+     "supports": "H.R. 11221 одобрен 28 октября 1974 г. (P.L. 93-495); запрещает дискриминацию при выдаче кредита по полу и семейному положению"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1983-first-cellular-service",
@@ -1711,7 +1718,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -1719,10 +1727,16 @@
      "url": "https://en.wikipedia.org/wiki/Family_and_Medical_Leave_Act_of_1993",
      "accessed": "2026-10-29",
      "supports": "дата подписания и условия"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/statement-signing-the-family-and-medical-leave-act-1993",
+     "accessed": "2026-11-13",
+     "supports": "заявление о подписании 5 февраля 1993 г.: до 12 недель неоплачиваемого отпуска у работодателей от 50 человек, по рождению/усыновлению, уходу за больным родственником или по своей болезни"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1995-commercial-internet",
@@ -1751,7 +1765,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nsf"
    ],
    "evidence": [
     {
@@ -1759,10 +1774,16 @@
      "url": "https://en.wikipedia.org/wiki/National_Science_Foundation_Network",
      "accessed": "2026-10-29",
      "supports": "дата и значение вывода NSFNET"
+    },
+    {
+     "source_id": "us_nsf",
+     "url": "https://www.nsf.gov/impacts/internet",
+     "accessed": "2026-11-13",
+     "supports": "NSF закрыл магистраль NSFNET в 1995 г. на фоне роста коммерческих интернет-услуг; приватизация интернета"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-2007-iphone",
@@ -1829,7 +1850,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -1837,10 +1859,16 @@
      "url": "https://en.wikipedia.org/wiki/Affordable_Care_Act",
      "accessed": "2026-10-29",
      "supports": "дата, положения, снижение доли незастрахованных"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/remarks-signing-the-patient-protection-and-affordable-care-act",
+     "accessed": "2026-11-13",
+     "supports": "речь при подписании 23 марта 2010 г.; молодые люди могут оставаться в полисах родителей до 26 лет"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1906-pure-food-and-drug-act",
@@ -1865,7 +1893,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_fda"
    ],
    "evidence": [
     {
@@ -1873,10 +1902,16 @@
      "url": "https://en.wikipedia.org/wiki/Pure_Food_and_Drug_Act",
      "accessed": "2026-10-29",
      "supports": "дата, содержание, связь с «Джунглями»"
+    },
+    {
+     "source_id": "us_fda",
+     "url": "https://www.fda.gov/about-fda/fda-history/milestones-us-food-and-drug-law",
+     "accessed": "2026-11-13",
+     "supports": "1906: закон о пищевых продуктах и лекарствах подписан Т. Рузвельтом, запрет торговли фальсифицированными и неправильно маркированными продуктами; закон об инспекции мяса в тот же день"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1938-fair-labor-standards-act",
@@ -1906,7 +1941,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -1914,10 +1950,16 @@
      "url": "https://en.wikipedia.org/wiki/Fair_Labor_Standards_Act_of_1938",
      "accessed": "2026-10-29",
      "supports": "дата, часы, детский труд, поздний охват"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/franklin-delano-roosevelt-event-timeline",
+     "accessed": "2026-11-13",
+     "supports": "запись 25.06.1938: подписан закон о справедливых условиях труда — запрет детского труда, минимальная зарплата, максимальная рабочая неделя"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1935-rural-electrification",
@@ -1947,7 +1989,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -1955,10 +1998,16 @@
      "url": "https://en.wikipedia.org/wiki/Rural_Electrification_Act",
      "accessed": "2026-10-29",
      "supports": "даты указа и закона, оценки доли электрифицированных домов"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/franklin-delano-roosevelt-event-timeline",
+     "accessed": "2026-11-13",
+     "supports": "запись 11.05.1935: указ 7037 о создании Администрации электрификации сельских районов, федеральные займы на сельские электросети"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1950-korean-war",
@@ -1989,7 +2038,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nara"
    ],
    "evidence": [
     {
@@ -1997,10 +2047,16 @@
      "url": "https://en.wikipedia.org/wiki/Korean_War",
      "accessed": "2026-10-29",
      "supports": "даты и потери США"
+    },
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/milestone-documents/armistice-agreement-restoration-south-korean-state",
+     "accessed": "2026-11-13",
+     "supports": "война началась 25 июня 1950 г.; США и другие страны ООН послали войска; перемирие 27 июля 1953 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1965-great-inflation",
@@ -2147,7 +2203,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -2155,10 +2212,16 @@
      "url": "https://en.wikipedia.org/wiki/Americans_with_Disabilities_Act_of_1990",
      "accessed": "2026-10-29",
      "supports": "дата и основные разделы"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/statement-signing-the-americans-with-disabilities-act-1990",
+     "accessed": "2026-11-13",
+     "supports": "заявление о подписании закона (S. 933, P.L. 101-336) 26 июля 1990 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1996-welfare-reform",
@@ -2187,7 +2250,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -2195,10 +2259,16 @@
      "url": "https://en.wikipedia.org/wiki/Personal_Responsibility_and_Work_Opportunity_Act",
      "accessed": "2026-10-29",
      "supports": "дата, TANF, сроки и требования"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/statement-signing-the-personal-responsibility-and-work-opportunity-reconciliation-act-1996",
+     "accessed": "2026-11-13",
+     "supports": "заявление о подписании 22 августа 1996 г.: требования работы и пятилетний федеральный лимит помощи"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-2001-september-11",
@@ -2268,7 +2338,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nara"
    ],
    "evidence": [
     {
@@ -2276,10 +2347,16 @@
      "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
      "accessed": "2026-10-29",
      "supports": "число случаев и смертей 1952–1953"
+    },
+    {
+     "source_id": "us_nara",
+     "url": "https://prologue.blogs.archives.gov/2011/04/12/the-dimes-that-saved-lives/",
+     "accessed": "2026-11-13",
+     "supports": "в 1952 г. зарегистрировано 57 628 случаев полиомиелита"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1955-salk-vaccine",
@@ -2309,7 +2386,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nara"
    ],
    "evidence": [
     {
@@ -2317,10 +2395,16 @@
      "url": "https://en.wikipedia.org/wiki/Polio_vaccine",
      "accessed": "2026-10-29",
      "supports": "дата объявления результатов, снижение заболеваемости, вакцина Сэбина"
+    },
+    {
+     "source_id": "us_nara",
+     "url": "https://prologue.blogs.archives.gov/2011/04/12/the-dimes-that-saved-lives/",
+     "accessed": "2026-11-13",
+     "supports": "12 апреля 1955 г. вакцина против полиомиелита объявлена безопасной и эффективной"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1940-peacetime-draft",
@@ -2351,7 +2435,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -2359,10 +2444,16 @@
      "url": "https://en.wikipedia.org/wiki/Conscription_in_the_United_States",
      "accessed": "2026-10-29",
      "supports": "дата закона, число зарегистрированных и призванных"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/franklin-delano-roosevelt-event-timeline",
+     "accessed": "2026-11-13",
+     "supports": "запись 16.09.1940: подписан закон о выборочной подготовке и службе — первый призыв в мирное время"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1969-draft-lottery",
@@ -2394,7 +2485,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -2402,10 +2494,16 @@
      "url": "https://en.wikipedia.org/wiki/Conscription_in_the_United_States",
      "accessed": "2026-10-29",
      "supports": "дата лотереи, число призванных, последний призыв"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/proclamation-3945-random-selection-for-military-service",
+     "accessed": "2026-11-13",
+     "supports": "прокламация 26.11.1969: жеребьёвка по датам рождения в Вашингтоне 1 декабря 1969 г., действует по всей стране"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-1964-surgeon-general-smoking",
@@ -2432,7 +2530,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_cdc"
    ],
    "evidence": [
     {
@@ -2440,10 +2539,16 @@
      "url": "https://en.wikipedia.org/wiki/Smoking_and_Health:_Report_of_the_Advisory_Committee_to_the_Surgeon_General_of_the_United_States",
      "accessed": "2026-10-29",
      "supports": "дата и выводы доклада, закон 1969"
+    },
+    {
+     "source_id": "us_cdc",
+     "url": "https://www.cdc.gov/tobacco-surgeon-general-reports/about/history.html",
+     "accessed": "2026-11-13",
+     "supports": "11 января 1964 г. главный хирург Лютер Терри выпустил первый доклад; законы 1965 и 1969 гг. о предупреждениях на пачках и запрете рекламы в эфире"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-2020-cares-act",
@@ -2474,7 +2579,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -2482,10 +2588,16 @@
      "url": "https://en.wikipedia.org/wiki/CARES_Act",
      "accessed": "2026-10-29",
      "supports": "дата, объём, выплаты, надбавка, мораторий на выселения"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/statement-signing-the-coronavirus-aid-relief-and-economic-security-act",
+     "accessed": "2026-11-13",
+     "supports": "заявление о подписании H.R. 748 (P.L. 116-136) 27 марта 2020 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-2008-tarp",
@@ -2513,7 +2625,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_presidency_project"
    ],
    "evidence": [
     {
@@ -2521,10 +2634,16 @@
      "url": "https://en.wikipedia.org/wiki/Emergency_Economic_Stabilization_Act_of_2008",
      "accessed": "2026-10-29",
      "supports": "дата и объём"
+    },
+    {
+     "source_id": "us_presidency_project",
+     "url": "https://www.presidency.ucsb.edu/documents/george-w-bush-event-timeline",
+     "accessed": "2026-11-13",
+     "supports": "запись 03.10.2008: подписан закон о стабилизации экономики, созданы TARP"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-2009-digital-tv-transition",
@@ -2552,7 +2671,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_ntia"
    ],
    "evidence": [
     {
@@ -2560,10 +2680,16 @@
      "url": "https://en.wikipedia.org/wiki/Digital_television_transition_in_the_United_States",
      "accessed": "2026-10-29",
      "supports": "дата, купоны, неготовые домохозяйства"
+    },
+    {
+     "source_id": "us_ntia",
+     "url": "https://www.ntia.gov/press-release/2009/national-switch-digital-television-today",
+     "accessed": "2026-11-13",
+     "supports": "пресс-релиз 12 июня 2009 г.: страна переходит на цифровое ТВ сегодня; до двух купонов по 40 долл. на приставки"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nat-2022-inflation-peak",
@@ -2593,7 +2719,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_bls"
    ],
    "evidence": [
     {
@@ -2601,10 +2728,16 @@
      "url": "https://en.wikipedia.org/wiki/2021%E2%80%932023_inflation_surge",
      "accessed": "2026-10-29",
      "supports": "пик 9,1% в июне 2022, бензин"
+    },
+    {
+     "source_id": "us_bls",
+     "url": "https://www.bls.gov/opub/ted/2022/consumer-prices-up-9-1-percent-over-the-year-ended-june-2022-largest-increase-in-40-years.htm",
+     "accessed": "2026-11-13",
+     "supports": "ИПЦ вырос на 9,1% за год к июню 2022 г. — максимум с ноября 1981 г.; бензин +59,9% за год"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

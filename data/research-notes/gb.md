@@ -31,3 +31,17 @@ British Library National Life Stories открыта и зарегистриро
 - Манчестер 1900–1930: только транспорт и наука; нет данных о закрытиях хлопковых фабрик по годам.
 - Нет контекстов о зарплатах/ценах по десятилетиям, бытовой технике (холодильник, стиральная машина), телефоне, отпусках за границей в цифрах, высшем образовании женщин.
 - Нет записей о графствах Лестершир/Нортгемптоншир как регионах, кроме иерархии.
+
+## Архивные и официальные ссылки (12.11.2026)
+Метод владельца: к уже имеющимся событиям добавлены страницы официальных архивов и ведомств о том же событии (дата и место сверены, глубокой перепроверки не было). Итог: 3 → 110 из 199 проверенных событий (55,3%).
+
+Источники и число ссылок: legislation.gov.uk — 42 (тексты актов и приказов); Historic Hansard (api.parliament.uk) — 25 (заявления и прения в день события или вскоре после); GOV.UK — 13; TfL Corporate Archives, Research Guide No 4 — 8; The National Archives (Stories) — 6; BBC History timelines — 4; Met Office — 3; Birmingham City Council (новости и административная история фонда BCC в CalmView) — 4; Bank of England, Ofgem, London City Hall — по 1.
+
+Исправления:
+- `gb-london-1952-great-smog`: начало 4 → 5 декабря 1952 (Met Office: смог с пятницы 5 по вторник 9 декабря).
+- `gb-corby-1979-steelworks-closure`: дата 1979-05 → 1979-11-01 (день); по Hansard 1 ноября 1979 British Steel Corporation «сегодня» объявила о быстром свёртывании завода в Корби, а не новое правительство в мае. Реплика в `historicalVoice.ts` от даты не зависит.
+
+Сомнения и пропуски:
+- TfL Research Guide даёт открытие Central London Railway 01/07/1900 вместо общепринятого 30.07.1900 и DLR 31/08/1987 (пассажирское движение) вместо королевского открытия 30.07.1987; для этих записей хроника не использована, записи не менялись.
+- Часть ссылок подтверждает событие косвенно: `gb-london-1946-heathrow` (вопрос 30 мая 1946 об услугах для прибывающих в Хитроу), `gb-nat-1984-miners-strike` (прения 19 марта 1984), `gb-london-2011-riots` (статистика Home Office по 6–9 августа, запись начинается 4 августа), `gb-rutland-2011-ashwell-prison-closed` (объявление о закрытии в январе 2011), законы для записей о вступлении в силу или первых выплатах.
+- Недоступны из этой сессии (Cloudflare / проверка «не робот» / 403): Imperial War Museums, Electoral Commission, House of Commons Library, hansard.parliament.uk, UK Parliament Living Heritage, manchester.gov.uk, Historic England, National Railway Museum, Science and Industry Museum, Open University, TNA Discovery и UK Government Web Archive; старые страницы TfL «London's transport — a history» и TNA Cabinet Papers отдают 404. Historic Hansard не содержит заявления о взрыве в Манчестере 17.06.1996, поэтому `gb-manchester-1996-ira-bomb` без официальной ссылки.

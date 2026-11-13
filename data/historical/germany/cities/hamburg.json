@@ -1,0 +1,916 @@
+{
+ "records": [
+  {
+   "id": "de-hamburg-1906-hauptbahnhof",
+   "title": "Главный вокзал Гамбурга",
+   "title_en": "Hamburg Hauptbahnhof opens",
+   "start_date": "1906",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1906 г. открылся Главный вокзал Гамбурга и заработала железная дорога Альтона — Гамбург. В 1905 г. в городе жили 802 793 человека.",
+   "historical_summary_en": "In 1906 Hamburg Hauptbahnhof opened and the Altona–Hamburg railway began operating. In 1905 the city had 802,793 inhabitants.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1906 Hauptbahnhof, Altona–Hamburg railway; 1905 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1907-hagenbeck",
+   "title": "Зоопарк Хагенбека",
+   "title_en": "Hagenbeck's Tierpark",
+   "start_date": "1907",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1907 г. в Гамбурге открылся зоопарк Хагенбека, а в 1914 г. — Городской парк.",
+   "historical_summary_en": "In 1907 Hagenbeck's Tierpark opened in Hamburg, followed in 1914 by the Stadtpark.",
+   "affected_groups": [
+    "children",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1907 Hagenbeck; 1914 Stadtpark"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1911-elbe-tunnel",
+   "title": "Тоннель под Эльбой",
+   "title_en": "Elbe Tunnel opens",
+   "start_date": "1911-09-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "7 сентября 1911 г. был открыт тоннель под Эльбой, связавший центр Гамбурга с верфями и портом на южном берегу. В том же году открылся аэропорт.",
+   "historical_summary_en": "On 7 September 1911 the Elbe Tunnel was opened, linking central Hamburg with the shipyards and port on the south bank. The airport opened in the same year.",
+   "affected_groups": [
+    "dock_workers",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1911",
+     "accessed": "2026-11-11",
+     "supports": "07.09.1911 Elbtunnel"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1911 Airport and Elbe Tunnel"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-hamburg-1912-u-bahn",
+   "title": "Гамбургское метро",
+   "title_en": "Hamburg U-Bahn",
+   "start_date": "1912",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1912 г. в Гамбурге начало работать метро (Hochbahn).",
+   "historical_summary_en": "In 1912 the Hamburg U-Bahn (Hochbahn) began operating.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1912"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1919-university",
+   "title": "Основание Гамбургского университета",
+   "title_en": "University of Hamburg founded",
+   "start_date": "1919",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "education",
+   "historical_summary": "В 1919 г. был основан Гамбургский университет.",
+   "historical_summary_en": "In 1919 the University of Hamburg was founded.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1919"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1923-uprising",
+   "title": "Гамбургское восстание",
+   "title_en": "Hamburg Uprising",
+   "start_date": "1923-10-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "23 октября 1923 г. в Гамбурге было силой подавлено коммунистическое восстание.",
+   "historical_summary_en": "On 23 October 1923 a communist uprising in Hamburg was violently suppressed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1923",
+     "accessed": "2026-11-11",
+     "supports": "23.10.1923"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-hamburg-1924-chilehaus",
+   "title": "Чилихаус",
+   "title_en": "Chilehaus built",
+   "start_date": "1924",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1924 г. было построено конторское здание Чилихаус. В 1925 г. население Гамбурга превысило миллион (1 079 126 человек).",
+   "historical_summary_en": "In 1924 the Chilehaus office building was completed. In 1925 Hamburg's population passed one million (1,079,126).",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1924 Chilehaus; 1925 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1933-flying-hamburger",
+   "title": "«Летучий гамбуржец»",
+   "title_en": "The 'Flying Hamburger'",
+   "start_date": "1933-05-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "15 мая 1933 г. скоростной поезд «Летучий гамбуржец» начал ходить между Гамбургом и Берлином за 2 часа 18 минут — быстрее всех регулярных поездов мира.",
+   "historical_summary_en": "On 15 May 1933 the 'Flying Hamburger' express began running between Hamburg and Berlin in 2 hours 18 minutes, the fastest scheduled train in the world.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1933",
+     "accessed": "2026-11-11",
+     "supports": "15.05.1933"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-hamburg-1940-evacuation-of-children",
+   "title": "Эвакуация школьников",
+   "title_en": "Evacuation of schoolchildren",
+   "start_date": "1940-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "С октября 1940 г. гамбургских школьников начали вывозить из города в рамках «отправки детей в сельскую местность» (Kinderlandverschickung).",
+   "historical_summary_en": "From October 1940 Hamburg schoolchildren began to be sent out of the city under the Kinderlandverschickung evacuation scheme.",
+   "affected_groups": [
+    "children",
+    "school_pupils",
+    "mothers"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "evacuated_as_a_child"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "October 1940 Kinderlandverschickung"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1945-british-occupation",
+   "title": "Британские войска в Гамбурге",
+   "title_en": "British troops enter Hamburg",
+   "start_date": "1945-05-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "occupation",
+   "historical_summary": "3 мая 1945 г. британские части заняли объявленный «открытым городом» Гамбург; 4 мая Радио Гамбург первым в Германии начало вещание по оккупационному праву. В 1945 г. в городе жили 1 350 278 человек.",
+   "historical_summary_en": "On 3 May 1945 British units occupied Hamburg, which had been declared an 'open city', and on 4 May Radio Hamburg became the first German station to broadcast under occupation law. In 1945 the city had 1,350,278 inhabitants.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_war_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "03.05.1945; 04.05.1945 Radio Hamburg"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1945 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-hamburg-1948-press-city",
+   "title": "Гамбург — город прессы",
+   "title_en": "Hamburg becomes a press city",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В 1948 г. в Гамбурге начали выходить Hamburger Abendblatt и Stern, в 1952 г. сюда перебрался Der Spiegel и появилась газета Bild.",
+   "historical_summary_en": "In 1948 the Hamburger Abendblatt and Stern began publication in Hamburg, and in 1952 Der Spiegel moved there and Bild was launched.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "newspaper_every_morning"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1948 Abendblatt, Stern; 1952 Spiegel, Bild"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1953-volksparkstadion",
+   "title": "Фолькспарк-штадион",
+   "title_en": "Volksparkstadion opens",
+   "start_date": "1953-07-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "sport",
+   "historical_summary": "12 июля 1953 г. в Гамбурге открылся Фолькспарк-штадион — вторая по величине спортивная арена ФРГ. В 1955 г. открылось новое здание Государственной оперы.",
+   "historical_summary_en": "On 12 July 1953 the Volksparkstadion opened in Hamburg, the second-largest sports arena in the Federal Republic. In 1955 the new State Opera building opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "football_on_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "12.07.1953"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1955 State Opera"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-hamburg-1960-beatles",
+   "title": "«Битлз» в Гамбурге",
+   "title_en": "The Beatles in Hamburg",
+   "start_date": "1960-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В августе 1960 г. в клубах Гамбурга начали выступать «Битлз»; в 1959 г. открылся клуб «Кайзеркеллер».",
+   "historical_summary_en": "In August 1960 the Beatles began performing in Hamburg clubs, the Kaiserkeller club having opened in 1959.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "dance_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "August 1960; 1959 Kaiserkeller"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1962-storm-flood",
+   "title": "Штормовой нагон 1962 года",
+   "title_en": "North Sea flood of 1962",
+   "start_date": "1962",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1962 г. Гамбург пострадал от катастрофического штормового наводнения Северного моря. В 1961 г. в городе жили 1 840 543 человека.",
+   "historical_summary_en": "In 1962 Hamburg was hit by the catastrophic North Sea storm flood. In 1961 the city had 1,840,543 inhabitants.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1962 North Sea flood; 1961 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1965-hvv",
+   "title": "Гамбургский транспортный союз",
+   "title_en": "Hamburg Transport Association",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1965 г. был создан Гамбургский транспортный союз (HVV), объединивший тарифы городского транспорта.",
+   "historical_summary_en": "In 1965 the Hamburg Transport Association (HVV) was established, uniting public transport fares.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "monthly_pass"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1965 HVV"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1974-koehlbrand-bridge",
+   "title": "Мост Кёльбранд и новый тоннель под Эльбой",
+   "title_en": "Köhlbrand Bridge and New Elbe Tunnel",
+   "start_date": "1974",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1974 г. в порту был построен мост Кёльбранд, а в 1975 г. открылся Новый тоннель под Эльбой.",
+   "historical_summary_en": "In 1974 the Köhlbrand Bridge was built in the port, and in 1975 the New Elbe Tunnel opened.",
+   "affected_groups": [
+    "dock_workers",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_car_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1974 Köhlbrand Bridge; 1975 New Elbe Tunnel"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1978-technical-university",
+   "title": "Технический университет Гамбурга",
+   "title_en": "Hamburg University of Technology",
+   "start_date": "1978",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "education",
+   "historical_summary": "В 1978 г. был основан Технический университет Гамбурга; в 1970 г. открылась Высшая школа прикладных наук.",
+   "historical_summary_en": "In 1978 the Hamburg University of Technology was founded, and the University of Applied Sciences had opened in 1970.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1978 TU Hamburg; 1970 HAW"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1981-hafenstrasse-brokdorf",
+   "title": "Протесты против Брокдорфа и сквоты на Хафенштрассе",
+   "title_en": "Brokdorf protests and Hafenstraße squats",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "environment",
+   "historical_summary": "В 1981 г. гамбуржцы протестовали против строительства АЭС Брокдорф, а на Хафенштрассе начались самовольные заселения домов. АЭС была введена в строй в 1986 г.",
+   "historical_summary_en": "In 1981 people in Hamburg protested against the planned Brokdorf nuclear power plant, and squatting began on the Hafenstraße. The plant was commissioned in 1986.",
+   "affected_groups": [
+    "young_adults",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "protest_generation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1981 Brokdorf protest, Hafenstraße squat; 1986 commissioned"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-1988-population",
+   "title": "Население сокращается",
+   "title_en": "Population declines",
+   "start_date": "1988",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "К 1988 г. население Гамбурга снизилось до 1 603 070 человек против 1 840 543 в 1961 г.; к 2012 г. оно снова выросло до 1 813 587.",
+   "historical_summary_en": "By 1988 Hamburg's population had fallen to 1,603,070 from 1,840,543 in 1961, and by 2012 it had risen again to 1,813,587.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "moving_to_the_suburbs"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "1961, 1988, 2012 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-2001-altenwerder",
+   "title": "Контейнерный терминал Альтенвердер",
+   "title_en": "Altenwerder Container Terminal",
+   "start_date": "2001",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2001 г. в гамбургском порту открылся контейнерный терминал Альтенвердер, а в 2008 г. был образован новый район ХафенСити.",
+   "historical_summary_en": "In 2001 the Altenwerder Container Terminal opened in the port of Hamburg, and in 2008 the new HafenCity district was established.",
+   "affected_groups": [
+    "dock_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "2001 Altenwerder; 2008 HafenCity"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-2016-elbphilharmonie",
+   "title": "Эльбская филармония",
+   "title_en": "Elbphilharmonie completed",
+   "start_date": "2016-10-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "31 октября 2016 г. было официально завершено строительство концертного зала Эльбской филармонии, начатое в 2007 г.",
+   "historical_summary_en": "On 31 October 2016 the Elbphilharmonie concert hall, begun in 2007, was officially completed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "concert_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "2007 construction begins; 31.10.2016 completed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-hamburg-2017-g20",
+   "title": "Саммит G20 в Гамбурге",
+   "title_en": "G20 summit in Hamburg",
+   "start_date": "2017-07-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-hamburg"
+   ],
+   "category": "political_change",
+   "historical_summary": "7 июля 2017 г. в Гамбурге открылся саммит «Большой двадцатки». Уже в 2007 г. в городе проходили антиглобалистские протесты.",
+   "historical_summary_en": "On 7 July 2017 the G20 summit opened in Hamburg. Anti-globalisation protests had already taken place in the city in 2007.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "arguments_at_the_dinner_table"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Hamburg",
+     "accessed": "2026-11-11",
+     "supports": "07.07.2017 G20; 29.05.2007 anti-globalization protest"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,425 @@
+{
+ "records": [
+  {
+   "id": "tr-cumra-1912-irrigation-zone",
+   "title": "Оросительная зона Чумры",
+   "title_en": "Çumra irrigation zone",
+   "start_date": "1912",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1912 г. на Конийской равнине была создана оросительная зона Чумры площадью около 500 км²; это первая в стране оросительная система, построенная государством, и поля здесь поливают уже около ста лет.",
+   "historical_summary_en": "In 1912 the Çumra irrigation zone of about 500 km² was created on the Konya Plain; it was the country's first state-built irrigation scheme, and the fields have been irrigated for about a hundred years.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "irrigation_canal",
+    "harvest_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_derim"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "1912, 500 км²"
+    },
+    {
+     "source_id": "tr_derim",
+     "url": "https://dergipark.org.tr/tr/download/article-file/52975",
+     "accessed": "2026-11-11",
+     "supports": "первый государственный оросительный проект, около ста лет орошения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-cumra-1926-district",
+   "title": "Чумра становится районом",
+   "title_en": "Çumra becomes a district",
+   "start_date": "1926-06-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "26 июня 1926 г. по закону № 877 Чумра стала центром отдельного района (ильче); по преданию, решение связано с остановкой Ататюрка на станции Чумра, где он увидел оросительные сооружения.",
+   "historical_summary_en": "On 26 June 1926, under Law No. 877, Çumra became the centre of its own district (ilçe); tradition links the decision to Atatürk's stop at Çumra station, where he saw the irrigation works.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "закон 877, Resmî Gazete 30.05.1926, ильче 26.06.1926; остановка Ататюрка"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/tr/download/article-file/3287",
+     "accessed": "2026-11-12",
+     "supports": "Marmara Coğrafya Dergisi 25, 2012: Чумра стала центром района по закону 877 (1926); в статье дата публикации в Resmî Gazete — 30.05.1926"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-cumra-1936-balkan-settlers",
+   "title": "Переселенцы с Балкан",
+   "title_en": "Settlers from the Balkans",
+   "start_date": "1936",
+   "end_date": "1950",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1936 г. в Чумре поселились около 300 семей переселенцев с Балкан; приток из балканских стран продолжался до 1950 г.",
+   "historical_summary_en": "In 1936 about 300 migrant families from the Balkans settled in Çumra; arrivals from Balkan countries continued until 1950.",
+   "affected_groups": [
+    "migrants",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_neighbours_from_afar"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "1936 ~300 семей; 1936–1950"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/tr/download/article-file/3287",
+     "accessed": "2026-11-12",
+     "supports": "та же статья: в 1936 г. в Чумре поселились 300 семей переселенцев с Балкан; переселения 1936–1950"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-cumra-1961-catalhoyuk-excavations",
+   "title": "Раскопки Чаталхююка",
+   "title_en": "Çatalhöyük excavations",
+   "start_date": "1961",
+   "end_date": "1965",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1961–1965 гг. Джеймс Меллаарт провёл четыре сезона раскопок неолитического поселения Чаталхююк близ Чумры, открытого им в 1958 г.; поселение датируется примерно 8000 г. до н. э.",
+   "historical_summary_en": "In 1961–1965 James Mellaart carried out four seasons of excavation at the Neolithic settlement of Çatalhöyük near Çumra, which he had discovered in 1958; the settlement dates to about 8000 BC.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "diggers_from_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Çatalhöyük",
+     "accessed": "2026-11-11",
+     "supports": "1958 открытие; 1961–1965 четыре сезона"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "1961 раскопки Чаталхююка, ~8000 г. до н. э."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-cumra-1989-malt-factory",
+   "title": "Солодовый завод Anadolu Efes",
+   "title_en": "Anadolu Efes malt factory",
+   "start_date": "1989-05",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В мае 1989 г. в Чумре работал солодовый завод компании Anadolu Efes (по подписи к фотографии в статье о районе).",
+   "historical_summary_en": "By May 1989 the Anadolu Efes malt factory was operating in Çumra (according to a photo caption in the article on the district).",
+   "affected_groups": [
+    "agricultural_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "подпись к фото: Anadolu Efes Malt Fabrikası, май 1989"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/tr/download/article-file/3287",
+     "accessed": "2026-11-12",
+     "supports": "та же статья: солодовый завод Anadolu Efes в Чумре работает с 1985 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-cumra-1990-district-split",
+   "title": "Из района выделяются Акёрен и Гюнейсыныр",
+   "title_en": "Akören and Güneysınır split off",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1990 г. из района Чумра выделились новые районы Акёрен и Гюнейсыныр, поэтому население района по переписи 1990 г. перестало расти (74 040 человек).",
+   "historical_summary_en": "In 1990 the new districts of Akören and Güneysınır were carved out of Çumra, so the district's population stopped growing in the 1990 census (74,040 people).",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "1990 Akören, Güneysınır; 74 040"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-cumra-1993-catalhoyuk-resumed",
+   "title": "Возобновление раскопок Чаталхююка",
+   "title_en": "Çatalhöyük excavations resume",
+   "start_date": "1993",
+   "end_date": "2018",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1993 г. археолог Ян Ходдер возобновил работы в Чаталхююке; раскопки начались в 1995 г. и продолжались до 2018 г.",
+   "historical_summary_en": "In 1993 the archaeologist Ian Hodder resumed work at Çatalhöyük; digging began in 1995 and continued until 2018.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "diggers_from_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Çatalhöyük",
+     "accessed": "2026-11-11",
+     "supports": "1993, 1995, 2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-cumra-2012-catalhoyuk-unesco",
+   "title": "Чаталхююк в списке ЮНЕСКО",
+   "title_en": "Çatalhöyük on the UNESCO list",
+   "start_date": "2012-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В июле 2012 г. Чаталхююк был включён в список Всемирного наследия ЮНЕСКО.",
+   "historical_summary_en": "In July 2012 Çatalhöyük was inscribed on the UNESCO World Heritage List.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_tr_wikipedia",
+    "tr_ktb_kvmgm"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Çatalhöyük",
+     "accessed": "2026-11-11",
+     "supports": "июль 2012"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "2012 Чаталхююк ЮНЕСКО"
+    },
+    {
+     "source_id": "tr_ktb_kvmgm",
+     "url": "https://kvmgm.ktb.gov.tr/TR-44423/dunya-miras-listesi.html",
+     "accessed": "2026-11-12",
+     "supports": "Чаталхююк (Конья) включён в Список всемирного наследия в 2012 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-cumra-2013-villages-become-neighbourhoods",
+   "title": "Деревни становятся кварталами метрополии",
+   "title_en": "Villages become neighbourhoods of the metropolis",
+   "start_date": "2014",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "По закону о метрополиях 2012 г. с местных выборов 2014 г. деревни района Чумра стали кварталами муниципалитета Большой Коньи, и сельское население перестало учитываться отдельно.",
+   "historical_summary_en": "Under the 2012 metropolitan law, from the 2014 local elections the villages of Çumra district became neighbourhoods of the Greater Konya municipality, and the rural population was no longer counted separately.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "с 2013 деревни → махалле, сельское население не публикуется"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6360.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 6360 от 12.11.2012, ст. 1(2–3), ст. 36: деревни провинции Конья становятся кварталами с первых местных выборов (2014)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

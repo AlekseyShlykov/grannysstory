@@ -1,0 +1,522 @@
+{
+ "records": [
+  {
+   "id": "cn-sichuan-1904-sichuan-hankou-railway",
+   "title": "Компания железной дороги Сычуань — Ханькоу",
+   "title_en": "Sichuan–Hankou Railway Company",
+   "start_date": "1904",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1904 г. цинские власти учредили в Чэнду Компанию железной дороги Сычуань — Ханькоу; споры об инвестициях в неё позже вызвали Движение в защиту железных дорог.",
+   "historical_summary_en": "In 1904 the Qing authorities set up the Sichuan–Hankou Railway Company in Chengdu; disputes over investment in it later sparked the Railway Protection Movement.",
+   "affected_groups": [
+    "homeowners",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1904年 成都成立川汉铁路总公司; 投资纠纷引发保路运动"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1916-independence",
+   "title": "Сычуань выступает против монархии Юань Шикая",
+   "title_en": "Sichuan declares against Yuan Shikai's monarchy",
+   "start_date": "1916-05-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "22 мая 1916 г. военный губернатор Сычуани Чэнь И объявил независимость провинции в знак протеста против провозглашения Юань Шикая императором.",
+   "historical_summary_en": "On 22 May 1916 Sichuan's military governor Chen Yi declared the province independent in protest against Yuan Shikai's proclamation as emperor.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1916年5月22日 陈宧宣布四川独立"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1919-garrison-areas",
+   "title": "Система военных «гарнизонных районов»",
+   "title_en": "Garrison-area system of warlord rule",
+   "start_date": "1919-04",
+   "end_date": "1934-12",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "С апреля 1919 г. в Сычуани сложилась система «гарнизонных районов»: генералы делили провинцию и почти пятнадцать лет воевали между собой; в декабре 1934 г. Лю Сян стал председателем провинциального правительства.",
+   "historical_summary_en": "From April 1919 a 'garrison-area' system took shape in Sichuan, with generals dividing the province and fighting each other for nearly fifteen years; in December 1934 Liu Xiang became chairman of the provincial government.",
+   "affected_groups": [
+    "rural_residents",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "rumours_of_war"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1919年4月 防区制; 混战近十五年; 1934年12月 刘湘 省主席"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1937-rear-base",
+   "title": "Сычуань — тыловая база войны",
+   "title_en": "Sichuan becomes the wartime rear base",
+   "start_date": "1937",
+   "end_date": "1945",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "С началом войны в 1937 г. в Сычуань переехали заводы, шахты, университеты и культурные организации; в 1939 г. Чунцин стал запасной столицей, а в декабре 1940 г. — постоянной запасной столицей, выделенной из провинции.",
+   "historical_summary_en": "After war broke out in 1937, factories, mines, universities and cultural organisations moved to Sichuan; Chongqing became the auxiliary capital in 1939 and in December 1940 the permanent auxiliary capital, separated from the province.",
+   "affected_groups": [
+    "migrants",
+    "industrial_workers",
+    "students"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "refugees_from_the_east"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1937 内迁; 1939年9月 院辖市, 陪都; 1940年12月 永久陪都"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1952-province-restored",
+   "title": "Восстановление провинции Сычуань",
+   "title_en": "Sichuan province restored",
+   "start_date": "1952-08-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1950–1952 гг. территория Сычуани была разделена на четыре административных района; 7 августа 1952 г. они были упразднены и провинция Сычуань восстановлена. В 1955 г. к ней отошли земли упразднённой провинции Сикан к востоку от Цзиньшацзяна.",
+   "historical_summary_en": "From 1950 to 1952 Sichuan was divided into four administrative regions; on 7 August 1952 these were abolished and Sichuan province was restored. In 1955 the lands of the abolished Xikang province east of the Jinsha River were added to it.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1950–1952 四个行署区; 1952年8月7日 恢复四川省; 1955 撤销西康省"
+    },
+    {
+     "source_id": "cn_sc_gov",
+     "url": "https://www.sc.gov.cn/10462/10580/10587/2018/5/31/10313905.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1952年恢复四川省建制（成都为省会）"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-sichuan-1959-famine",
+   "title": "Голод 1959–1961 годов в Сычуани",
+   "title_en": "Famine of 1959–1961 in Sichuan",
+   "start_date": "1959",
+   "end_date": "1961",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "Во время голода 1959–1961 гг. число неестественных смертей в Сычуани оценивается примерно в 9,4 млн, особенно тяжело пострадали горные районы востока провинции; по другой оценке, умерло около 13% населения.",
+   "historical_summary_en": "During the famine of 1959–1961 unnatural deaths in Sichuan are estimated at about 9.4 million, with the eastern mountain districts hit especially hard; another estimate puts deaths at about 13% of the population.",
+   "affected_groups": [
+    "rural_residents",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "hunger_years"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "三年大饥荒 非正常死亡约940万; 川东山区"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+     "accessed": "2026-11-11",
+     "supports": "Sichuan 13%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1964-third-front",
+   "title": "«Третья линия» в Сычуани",
+   "title_en": "Third Front in Sichuan",
+   "start_date": "1964",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "С 1964 г. Сычуань стала одним из главных районов строительства «третьей линии» с центрами в Чунцине и Чэнду.",
+   "historical_summary_en": "From 1964 Sichuan was one of the main areas of Third Front construction, centred on Chongqing and Chengdu.",
+   "affected_groups": [
+    "industrial_workers",
+    "scientists_engineers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1964年起 三线建设重点地区; 重庆、成都 核心"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1964年5月15日－6月17日 中共中央工作会议讨论“三线”建设 (Сычуань в записи хроники не назван)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1981-flood",
+   "title": "Наводнение 1981 года в Сычуани",
+   "title_en": "Sichuan flood of 1981",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "Сильное наводнение 1981 г. затронуло около 20 млн жителей Сычуани; погибли 888 человек.",
+   "historical_summary_en": "The great flood of 1981 affected about 20 million people in Sichuan and killed 888.",
+   "affected_groups": [
+    "rural_residents",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1981年 受灾人口约2000万，888人死亡"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-1997-chongqing-separated",
+   "title": "Выделение Чунцина из Сычуани",
+   "title_en": "Chongqing separated from Sichuan",
+   "start_date": "1997-06-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "18 июня 1997 г. Чунцин, Ваньсянь, Фулин и округ Цяньцзян были выделены из Сычуани в новый город центрального подчинения Чунцин.",
+   "historical_summary_en": "On 18 June 1997 Chongqing, Wanxian, Fuling and Qianjiang prefecture were separated from Sichuan to form the new municipality of Chongqing.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "1997年6月18日 重庆直辖"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1997年3月14日 八届全国人大五次会议决定批准设立重庆直辖市 (дата учреждения 18 июня здесь не указана)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-2008-wenchuan-earthquake",
+   "title": "Вэньчуаньское землетрясение",
+   "title_en": "Wenchuan earthquake",
+   "start_date": "2008-05-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "12 мая 2008 г. в Сычуани произошло Вэньчуаньское землетрясение; по данным, приведённым в статье, погибли от 69 227 человек (оценки выше доходят до 300 тыс.), ранены 374 643, пропали без вести 17 923.",
+   "historical_summary_en": "On 12 May 2008 the Wenchuan earthquake struck Sichuan; according to the figures cited, at least 69,227 people died (higher estimates reach 300,000), 374,643 were injured and 17,923 went missing.",
+   "affected_groups": [
+    "all_residents",
+    "school_pupils",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "rehousing",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "earthquake_night"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "2008年5月12日 死亡69,227–300,000; 受伤374,643; 失踪17,923"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "2008年5月12日 四川汶川发生里氏8.0级特大地震 (число погибших не подтверждено)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-sichuan-2017-free-trade-zone",
+   "title": "Сычуаньская зона свободной торговли",
+   "title_en": "Sichuan pilot free-trade zone",
+   "start_date": "2017",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-sichuan"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 2017 г. была утверждена пилотная зона свободной торговли Китая (Сычуань); к 2018 г. протяжённость высокоскоростных дорог в провинции достигла около 1140 км.",
+   "historical_summary_en": "The China (Sichuan) pilot free-trade zone was approved in 2017; by 2018 the province had about 1,140 km of high-speed railway.",
+   "affected_groups": [
+    "office_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "2017年 自贸试验区; 2018 高铁约1140公里"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "к 2019 г. пилотные зоны свободной торговли расширены от Шанхая до ряда провинций, включая Сычуань (год 2017 здесь не указан)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

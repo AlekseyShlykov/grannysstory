@@ -1,0 +1,224 @@
+{
+ "table": "mkan/11ib.px",
+ "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/mkan/11ib.px",
+ "fetched": "2026-11-11",
+ "title": "Number of vehicles registered (31.12.)",
+ "response": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Number of vehicles registered (31.12.) by Year, Vehicle class and Information",
+  "source": "Motor vehicle stock, Statistics Finland",
+  "updated": "2026-03-02T06:00:00Z",
+  "note": [
+   "From 1990 onwards, the vehicles in Åland's separate register are not included in the following time series:#  - Motorcycles > 125 cm3\r\n  - Mopeds until 1997\r\n  - Snowmobiles\r\n  - Caravans, semitrailers and mass distribution groups of other trailers\r\n  - Three-wheel vehicle or quadricycles.",
+   " Moped registration began on 1 July 1995. The number of mopeds for 1958 to 1969 are estimates, for 1970 to 1994 based on the insurance portfolio.",
+   " Registration of snowmobiles began on 1 February 1995.",
+   " In Åland, classification between tractors and motor-driven working machines is partially estimated.",
+   " Semitrailers also include special transport semitrailers and tank semitrailers.",
+   "  Table includes vehicles temporarily decommissioned from traffic from 2007 onwards.",
+   "  .... = Data not available.\r\n<A HREF='http://www.stat.fi/til/mkan/meta_en.html' TARGET=_blank>Description of statistic</A>\r\n<A HREF='http://www.stat.fi/til/mkan/kas_en.html' TARGET=_blank>Concepts and definitions</A>"
+  ],
+  "role": {
+   "time": [
+    "timeperiod_y"
+   ],
+   "metric": [
+    "contentscode"
+   ]
+  },
+  "id": [
+   "timeperiod_y",
+   "ajoneuvolaji_2_20190101",
+   "contentscode"
+  ],
+  "size": [
+   12,
+   4,
+   1
+  ],
+  "dimension": {
+   "timeperiod_y": {
+    "label": "Year",
+    "category": {
+     "index": {
+      "1922": 0,
+      "1930": 1,
+      "1938": 2,
+      "1950": 3,
+      "1960": 4,
+      "1970": 5,
+      "1980": 6,
+      "1990": 7,
+      "2000": 8,
+      "2010": 9,
+      "2020": 10,
+      "2025": 11
+     },
+     "label": {
+      "1922": "1922",
+      "1930": "1930",
+      "1938": "1938",
+      "1950": "1950",
+      "1960": "1960",
+      "1970": "1970",
+      "1980": "1980",
+      "1990": "1990",
+      "2000": "2000",
+      "2010": "2010",
+      "2020": "2020",
+      "2025": "2025"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "ajoneuvolaji_2_20190101": {
+    "label": "Vehicle class",
+    "note": [
+     "Vehicle class"
+    ],
+    "category": {
+     "index": {
+      "01": 0,
+      "07": 1,
+      "08": 2,
+      "09": 3
+     },
+     "label": {
+      "01": "Passenger cars",
+      "07": "Mopeds",
+      "08": "Snow mobiles",
+      "09": "Tractors without road tractors"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "contentscode": {
+    "label": "Information",
+    "category": {
+     "index": {
+      "mkan-lkm": 0
+     },
+     "label": {
+      "mkan-lkm": "Number of the vehicles"
+     },
+     "note": {
+      "mkan-lkm": [
+       "Number of the vehicles"
+      ]
+     },
+     "unit": {
+      "mkan-lkm": {
+       "base": "number",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "tableid": "11ib",
+    "decimals": 0,
+    "official-statistics": true,
+    "aggregallowed": true,
+    "language": "fi",
+    "contents": "Number of vehicles registered (31.12.)",
+    "description": "11ib -- Number of vehicles registered (incl. Åland) , 1922-2025",
+    "descriptiondefault": false,
+    "heading": [
+     "ajoneuvolaji_2_20190101",
+     "contentscode"
+    ],
+    "stub": [
+     "timeperiod_y"
+    ],
+    "matrix": "11ib",
+    "subject-code": "mkan",
+    "subject-area": "Motor vehicle stock"
+   },
+   "contact": [
+    {
+     "raw": "liikenne.matkailu@tilastokeskus.fi#<A HREF='http://www.stat.fi/til/mkan/yht_en.html' TARGET=_blank>Further information</A>#<A HREF='http://www.stat.fi/til/mkan/index_en.html' TARGET=_blank>Statistics' homepage</A>"
+    }
+   ]
+  },
+  "value": [
+   1131,
+   null,
+   null,
+   null,
+   22888,
+   null,
+   null,
+   null,
+   26179,
+   null,
+   null,
+   null,
+   26814,
+   null,
+   null,
+   null,
+   183409,
+   88000,
+   null,
+   87077,
+   711968,
+   281620,
+   null,
+   169428,
+   1225931,
+   167763,
+   null,
+   241339,
+   1938856,
+   108619,
+   null,
+   316870,
+   2134728,
+   102545,
+   90511,
+   332584,
+   2877484,
+   259889,
+   121976,
+   376807,
+   3632851,
+   353243,
+   163318,
+   466551,
+   3819975,
+   373130,
+   184373,
+   522136
+  ],
+  "status": {
+   "1": "....",
+   "2": "....",
+   "3": "....",
+   "5": "....",
+   "6": "....",
+   "7": "....",
+   "9": "....",
+   "10": "....",
+   "11": "....",
+   "13": "....",
+   "14": "....",
+   "15": "....",
+   "18": "....",
+   "22": "....",
+   "26": "....",
+   "30": "...."
+  }
+ }
+}

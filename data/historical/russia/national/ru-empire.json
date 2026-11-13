@@ -67,7 +67,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -75,10 +76,16 @@
           "url": "https://ru.wikipedia.org/wiki/Столыпинская_аграрная_реформа",
           "accessed": "2026-10-29",
           "supports": "указ 9 ноября 1906; переселение"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619744",
+          "accessed": "2026-11-12",
+          "supports": "указ 9 (22) ноября 1906 о выходе крестьян из общины, начало аграрной реформы Столыпина"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-1914-war-declared",

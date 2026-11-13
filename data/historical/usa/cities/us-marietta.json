@@ -30,7 +30,8 @@
    "sensitive": false,
    "source_ids": [
     "us_marietta_times",
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -44,10 +45,16 @@
      "url": "https://en.wikipedia.org/wiki/Marietta,_Ohio",
      "accessed": "2026-10-29",
      "supports": "Великое наводнение 1913 г. затронуло Мариетту"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://api.water.noaa.gov/nwps/v1/gauges/mtao1",
+     "accessed": "2026-11-13",
+     "supports": "данные гидропоста NWS «Ohio River at Marietta Pumphouse»: исторический максимум 58,3 фута 29 марта 1913 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-marietta-1917-college-ambulance-unit",

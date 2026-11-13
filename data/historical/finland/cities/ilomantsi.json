@@ -1,0 +1,372 @@
+{
+ "records": [
+  {
+   "id": "fi-ilomantsi-1940-territory-ceded",
+   "title": "Иломантси теряет восточные деревни",
+   "title_en": "Ilomantsi loses its eastern villages",
+   "start_date": "1940-03-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "По Московскому миру 1940 г. СССР отошло 1489 км² территории Иломантси. В семи отошедших деревнях до Зимней войны жили около 1700 человек, в основном православных.",
+   "historical_summary_en": "Under the Moscow Peace of 1940, 1,489 km² of Ilomantsi was ceded to the Soviet Union. About 1,700 people, mostly Orthodox, had lived in the seven ceded villages before the Winter War.",
+   "affected_groups": [
+    "rural_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "evacuation",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "1940 ceded 1,489 km²; ~1,700 in seven villages, mostly Orthodox"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-ilomantsi-1908-mohko-ironworks-closed",
+   "title": "Закрытие железоделательного завода в Мёхкё",
+   "title_en": "Möhkö ironworks closes",
+   "start_date": "1907",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1907 г. после примерно 60 лет работы закрылся завод в деревне Мёхкё, в 1880–1890-е годы крупнейший в Финляндии завод на озёрной руде; около 1900 г. в деревне жили 532 человека. Лесные угодья завода были проданы Enso-Gutzeit, и мужчины деревни нашли работу на лесозаготовках.",
+   "historical_summary_en": "In 1907 the ironworks in the village of Möhkö, in the 1880s and 1890s the largest lake-ore plant in Finland, closed after about 60 years. Around 1900 the village had 532 residents. The works' forests were sold to Enso-Gutzeit, creating timber jobs for village men.",
+   "affected_groups": [
+    "industrial_workers",
+    "rural_residents",
+    "men"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "log_driving_on_the_river"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Möhkö",
+     "accessed": "2026-11-11",
+     "supports": "closed 1908 after ~60 years; largest lake-ore plant 1880s–1890s; 532 residents; forests to Enso-Gutzeit"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=905",
+     "accessed": "2026-11-12",
+     "supports": "RKY Möhkön ruukinalue: the ironworks started in summer 1849 and its operations ended in 1907"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-ilomantsi-1944-evacuation-to-savo",
+   "title": "Эвакуация восточного Иломантси в Саво",
+   "title_en": "Eastern Ilomantsi evacuated to Savo",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "В Войну-продолжение восточные части Иломантси эвакуировали в Саво; сотни людей лишились домов.",
+   "historical_summary_en": "During the Continuation War the eastern parts of Ilomantsi were evacuated to Savo, and hundreds lost their homes.",
+   "affected_groups": [
+    "rural_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "evacuation",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "eastern parts evacuated to Savo; hundreds lost homes"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-ilomantsi-1944-war-dead",
+   "title": "Иломантси в войнах 1939–1944 годов",
+   "title_en": "Ilomantsi in the wars of 1939–1944",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В Зимнюю войну и Войну-продолжение на территории Иломантси шли бои; во Второй мировой войне погибли почти 500 жителей муниципалитета.",
+   "historical_summary_en": "Battles were fought in Ilomantsi during the Winter War and the Continuation War; nearly 500 residents of the municipality died in the Second World War.",
+   "affected_groups": [
+    "rural_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_bereavement"
+   ],
+   "narrative_hooks": [
+    "brother_or_father_at_front"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "battles in both wars; nearly 500 residents died"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-ilomantsi-1967-railway",
+   "title": "Железная дорога Йоэнсуу — Иломантси",
+   "title_en": "Joensuu–Ilomantsi railway completed",
+   "start_date": "1967",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1967 г. была достроена железная дорога Йоэнсуу — Иломантси, но пассажирское движение по ней прекратилось уже в 1969 г.",
+   "historical_summary_en": "The Joensuu–Ilomantsi railway was completed in 1967, but passenger services on it ended as early as 1969.",
+   "affected_groups": [
+    "rural_residents",
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "last_train_through_town"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "1967 railway; 1969 passenger service ended"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-ilomantsi-1980-depopulation",
+   "title": "Отток населения из Иломантси",
+   "title_en": "Population decline in Ilomantsi",
+   "start_date": "1980",
+   "end_date": "2025",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "Население Иломантси сократилось с 8753 человек в 1980 г. до 5883 в 2010 г. и 4293 к концу 2025 г.",
+   "historical_summary_en": "Ilomantsi's population fell from 8,753 in 1980 to 5,883 in 2010 and 4,293 by the end of 2025.",
+   "affected_groups": [
+    "rural_residents",
+    "young_adults",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "leaving_the_village",
+    "empty_houses_on_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "population table 1980–2025"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-ilomantsi-2011-pampalo-gold-mine",
+   "title": "Золотой рудник Пампало",
+   "title_en": "Pampalo gold mine opens",
+   "start_date": "2011-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В феврале 2011 г. начал добычу золотой рудник Пампало; разведочное бурение компания Endomines вела с 2007 г.",
+   "historical_summary_en": "Production at the Pampalo gold mine began in February 2011; Endomines had started exploratory drilling in 2007.",
+   "affected_groups": [
+    "miners",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "new_jobs_at_the_mine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "2007 drilling; Feb 2011 production"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-ilomantsi-2020-village-schools-closed",
+   "title": "Закрытие деревенских школ",
+   "title_en": "Village schools closed",
+   "start_date": "2020-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-ilomantsi"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "К августу 2020 г. закрылись три деревенские школы Иломантси (Хатту, Икнонваара, Люлюкоски), и обучение сосредоточили в школе Погоста. В 2023 г. 46% жителей были старше 64 лет.",
+   "historical_summary_en": "By August 2020 three village schools in Ilomantsi (Hattu, Iknonvaara, Lylykoski) had closed and teaching was centralised at Pogosta school. In 2023, 46% of residents were over 64.",
+   "affected_groups": [
+    "school_pupils",
+    "parents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "school_change",
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "school_bus_long_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ilomantsi",
+     "accessed": "2026-11-11",
+     "supports": "2020 three village schools closed, Pogostan koulu; 2023 46% over 64"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

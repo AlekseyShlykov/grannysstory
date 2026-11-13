@@ -1,0 +1,419 @@
+{
+ "table": "ssaaty/121v.px",
+ "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ssaaty/121v.px",
+ "fetched": "2026-11-11",
+ "title": "Vital statistics",
+ "response": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Vital statistics by Year and Information",
+  "source": "Statistics Finland, changes in marital status",
+  "updated": "2026-05-27T05:00:00Z",
+  "note": [
+   "<A HREF='https://stat.fi/en/statistics/documentation/ssaaty' TARGET=_blank>Documentation of statistics</A>",
+   ". missing",
+   "1789 to 1791 War years \r\n 1808 to 1809 War of Finland \r\n 1833 Cholera year\r\n 1836 Cholera year\r\n 1866 to 1868 Great Famine \r\n 1918 Civil war\r\n 1940 World War II\r\n 1969 to 1970 Migration to Sweden \r\n \r\n The figures for the years 1891 to 1939 are based on the number of population resident in the country as corrected in 1949.\r\n Inter-municipal migration 1940 to 1944: Production of statistics deficient due to the war conditions. \r\n \r\n Starting from 1750 Population statistics have been digitised into PDF format:\r\n <A HREF=https://tilastokeskus.finna.fi/Search/Results?sort=main_date_str+desc%2Cid+asc&filter%5B%5D=%7Ebuilding%3A%221%2FSTAT%2Fdoria%2F%22&join=AND&bool0%5B%5D=OR&lookfor0%5B%5D=v%C3%A4est%C3%B6rakenne&lookfor0%5B%5D=v%C3%A4est%C3%B6nmuutokset&type0%5B%5D=Subject&type0%5B%5D=Subject&limit=50&filter%5B%5D=%7Ebuilding%3A%221%2FSTAT%2Fdoria%2F%22&bool0%5B%5D=OR&lookfor0%5B%5D=v%C3%A4est%C3%B6rakenne&lookfor0%5B%5D=v%C3%A4est%C3%B6nmuutokset&type0%5B%5D=Subject&type0%5B%5D=Subject TARGET=_blank>Publications on Population structure and Vital statistics (in Finnish) (Finna)</A>\r\n <A HREF=https://tilastokeskus.finna.fi/Search/Results?limit=50&filter%5B%5D=%7Ebuilding%3A%221%2FSTAT%2Fdoria%2F%22&join=AND&bool0%5B%5D=OR&lookfor0%5B%5D=v%C3%A4est%C3%B6laskenta&lookfor0%5B%5D=v%C3%A4est%C3%B6laskenta&type0%5B%5D=Subject&type0%5B%5D=Title&sort=main_date_str+desc%2Cid+asc&filter%5B%5D=%7Ebuilding%3A%221%2FSTAT%2Fdoria%2F%22&bool0%5B%5D=OR&lookfor0%5B%5D=v%C3%A4est%C3%B6laskenta&lookfor0%5B%5D=v%C3%A4est%C3%B6laskenta&type0%5B%5D=Subject&type0%5B%5D=Title TARGET=_blank>Publications on Population censuses (in Finnish) (Finna)</A>"
+  ],
+  "role": {
+   "time": [
+    "timeperiod_y"
+   ],
+   "metric": [
+    "contentscode"
+   ]
+  },
+  "id": [
+   "timeperiod_y",
+   "contentscode"
+  ],
+  "size": [
+   17,
+   11
+  ],
+  "dimension": {
+   "timeperiod_y": {
+    "label": "Year",
+    "category": {
+     "index": {
+      "1900": 0,
+      "1910": 1,
+      "1920": 2,
+      "1930": 3,
+      "1940": 4,
+      "1945": 5,
+      "1950": 6,
+      "1960": 7,
+      "1969": 8,
+      "1970": 9,
+      "1975": 10,
+      "1980": 11,
+      "1990": 12,
+      "2000": 13,
+      "2010": 14,
+      "2020": 15,
+      "2025": 16
+     },
+     "label": {
+      "1900": "1900",
+      "1910": "1910",
+      "1920": "1920",
+      "1930": "1930",
+      "1940": "1940",
+      "1945": "1945",
+      "1950": "1950",
+      "1960": "1960",
+      "1969": "1969",
+      "1970": "1970",
+      "1975": "1975",
+      "1980": "1980",
+      "1990": "1990",
+      "2000": "2000",
+      "2010": "2010",
+      "2020": "2020",
+      "2025": "2025"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "contentscode": {
+    "label": "Information",
+    "category": {
+     "index": {
+      "ssaaty-vm01": 0,
+      "ssaaty-vm11": 1,
+      "ssaaty-luonvalisays": 2,
+      "ssaaty-vm43_tilv": 3,
+      "ssaaty-vm41": 4,
+      "ssaaty-vm42": 5,
+      "ssaaty-vm4142": 6,
+      "ssaaty-vm2126_as": 7,
+      "ssaaty-vm3136_as": 8,
+      "ssaaty-kokmuutos": 9,
+      "ssaaty-vaesto": 10
+     },
+     "label": {
+      "ssaaty-vm01": "Live births",
+      "ssaaty-vm11": "Deaths",
+      "ssaaty-luonvalisays": "Natural increase",
+      "ssaaty-vm43_tilv": "Intermunicipal migration",
+      "ssaaty-vm41": "Immigration to Finland",
+      "ssaaty-vm42": "Emigration from Finland",
+      "ssaaty-vm4142": "Net migration",
+      "ssaaty-vm2126_as": "Marriages",
+      "ssaaty-vm3136_as": "Divorces",
+      "ssaaty-kokmuutos": "Total change",
+      "ssaaty-vaesto": "Population"
+     },
+     "note": {
+      "ssaaty-luonvalisays": [
+       "Natural increase, or excess of births is the difference between the number of live births and deaths. If the number of live births is lower than that of deaths, natural population increase is negative."
+      ],
+      "ssaaty-vm43_tilv": [
+       "Migration between municipalities according to the regional division of the statistical reference year. As concerns intermunicipal migration, the figures differ from regional vital statistics tables, because there intermunicipal migrations are changed to correspond to the latest regional division."
+      ],
+      "ssaaty-vm4142": [
+       "Net migration is the difference between immigration and emigration."
+      ],
+      "ssaaty-vm2126_as": [
+       "In 1749 to 1989: Marriages contracted by females permanently resident in Finland. Starting from 1990: Marriages where at least one of the spouses has resided permanently in Finland on the day the marriage was contracted. Includes also marriages of same-sex couples starting from 2017."
+      ],
+      "ssaaty-vm3136_as": [
+       "In 1878 to 1989: Divorces refer to the divorces of females permanently resident in Finland. Starting from 1990: Divorces where at least one of the spouses has resided permanently in Finland on the day the divorce was granted. Includes also divorces of same-sex couples starting from 2017."
+      ],
+      "ssaaty-kokmuutos": [
+       "Total change is the difference between the population of two consecutive statistical reference periods."
+      ],
+      "ssaaty-vaesto": [
+       "Population at the end of the statistical reference period."
+      ]
+     },
+     "unit": {
+      "ssaaty-vm01": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm11": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-luonvalisays": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm43_tilv": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm41": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm42": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm4142": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm2126_as": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vm3136_as": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-kokmuutos": {
+       "base": "number",
+       "decimals": 0
+      },
+      "ssaaty-vaesto": {
+       "base": "number",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "tableid": "121v",
+    "decimals": 0,
+    "official-statistics": true,
+    "aggregallowed": true,
+    "language": "fi",
+    "contents": "Vital statistics",
+    "description": "121v -- Vital statistics and population, 1749-2025",
+    "descriptiondefault": false,
+    "heading": [
+     "contentscode"
+    ],
+    "stub": [
+     "timeperiod_y"
+    ],
+    "matrix": "121v",
+    "subject-code": "ssaaty",
+    "subject-area": "Changes in marital status"
+   },
+   "contact": [
+    {
+     "raw": "<A HREF='https://stat.fi/en/statistics/ssaaty' TARGET=_blank>Statistics' homepage</A>"
+    }
+   ]
+  },
+  "value": [
+   86339,
+   57915,
+   28424,
+   73556,
+   null,
+   null,
+   null,
+   18295,
+   121,
+   20600,
+   2655900,
+   92984,
+   51007,
+   41977,
+   79009,
+   null,
+   null,
+   null,
+   18781,
+   184,
+   28600,
+   2943400,
+   84714,
+   53304,
+   31410,
+   84519,
+   null,
+   null,
+   null,
+   23604,
+   517,
+   29600,
+   3147600,
+   75236,
+   48240,
+   26996,
+   107700,
+   null,
+   null,
+   null,
+   24841,
+   1108,
+   27400,
+   3462700,
+   65849,
+   71846,
+   -5997,
+   136601,
+   null,
+   null,
+   null,
+   30778,
+   1325,
+   -4083,
+   3695617,
+   95758,
+   49046,
+   46712,
+   140710,
+   3202,
+   8120,
+   -4918,
+   44380,
+   5605,
+   41794,
+   3778890,
+   98065,
+   40681,
+   57384,
+   173163,
+   1634,
+   17211,
+   -15577,
+   34205,
+   3687,
+   41807,
+   4029803,
+   82129,
+   39797,
+   42332,
+   221177,
+   3396,
+   12552,
+   -9156,
+   32834,
+   3655,
+   33176,
+   4446222,
+   67450,
+   45966,
+   21484,
+   210580,
+   13608,
+   54107,
+   -40499,
+   40910,
+   5895,
+   -19015,
+   4614277,
+   64559,
+   44119,
+   20440,
+   218979,
+   16824,
+   53205,
+   -36381,
+   40730,
+   6044,
+   -15941,
+   4598336,
+   65719,
+   43828,
+   21891,
+   239599,
+   8307,
+   12237,
+   -3930,
+   31547,
+   9358,
+   18105,
+   4720492,
+   63064,
+   44398,
+   18666,
+   197626,
+   13626,
+   14824,
+   -1198,
+   29388,
+   9464,
+   16486,
+   4787778,
+   65549,
+   50058,
+   15491,
+   193845,
+   13558,
+   6477,
+   7081,
+   25815,
+   13170,
+   24095,
+   4998478,
+   56742,
+   49339,
+   7403,
+   260047,
+   16895,
+   14311,
+   2584,
+   27751,
+   14096,
+   9813,
+   5181115,
+   60980,
+   50887,
+   10093,
+   270688,
+   25636,
+   11905,
+   13731,
+   31925,
+   13807,
+   23849,
+   5375276,
+   46463,
+   55488,
+   -9025,
+   296852,
+   32898,
+   15084,
+   17814,
+   22082,
+   13478,
+   8501,
+   5533793,
+   45832,
+   59209,
+   -13377,
+   291391,
+   51121,
+   19888,
+   31233,
+   22082,
+   11795,
+   16910,
+   5652881
+  ],
+  "status": {
+   "4": ".",
+   "5": ".",
+   "6": ".",
+   "15": ".",
+   "16": ".",
+   "17": ".",
+   "26": ".",
+   "27": ".",
+   "28": ".",
+   "37": ".",
+   "38": ".",
+   "39": ".",
+   "48": ".",
+   "49": ".",
+   "50": "."
+  }
+ }
+}

@@ -7,7 +7,7 @@ import type { WorldData } from "../../data/worldTypes";
 import { worldData } from "../../data/worldStore";
 import { lifeProfile, lifeResidences } from "../world/biographyLink";
 import { eventEndYear, relevantEvents } from "../world/events";
-import { occupationAt, resolveLocationId } from "../world/geography";
+import { ancestorsAt, isoDay, occupationAt, resolveLocationId } from "../world/geography";
 
 /**
  * An essential national milestone placed against one life. Four separate statements, never merged:
@@ -65,6 +65,7 @@ export function lifeMilestones(state: GameSessionState, definitions: MilestoneDe
       const item = definition.eventIds.map((id) => reached.get(id)).find(Boolean);
       if (!item) continue;
       if (!isNarrativeHistoricalEvent(item.event.title)) continue;
+      if (definition.notIn?.length && ancestorsAt(world, item.residenceId, isoDay(item.year)).some((node) => definition.notIn!.includes(node))) continue;
       result.push({
         definition,
         eventId: item.event.id,

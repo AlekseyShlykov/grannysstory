@@ -134,7 +134,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_birmingham_council"
    ],
    "evidence": [
     {
@@ -142,10 +143,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "дата и состав расширения"
+    },
+    {
+     "source_id": "gb_birmingham_council",
+     "url": "https://calmview.birmingham.gov.uk/CalmView/Record.aspx?id=BCC",
+     "accessed": "2026-11-12",
+     "supports": "административная история фонда BCC: расширение города по Greater Birmingham Scheme 1911 г., 30 округов"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-birmingham-1917-fort-dunlop",
@@ -657,7 +664,9 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation",
+    "gb_birmingham_council"
    ],
    "evidence": [
     {
@@ -665,10 +674,22 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "дата и изменения 1974 г."
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1972/70/contents",
+     "accessed": "2026-11-12",
+     "supports": "Local Government Act 1972 (c. 70): метрополитенское графство West Midlands"
+    },
+    {
+     "source_id": "gb_birmingham_council",
+     "url": "https://calmview.birmingham.gov.uk/CalmView/Record.aspx?id=BCC",
+     "accessed": "2026-11-12",
+     "supports": "1 апреля 1974: Бирмингем стал метрополитенским районом West Midlands вместе с Саттон-Колдфилдом"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-birmingham-1974-pub-bombings",
@@ -693,7 +714,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -701,10 +723,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "дата, жертвы, судебная ошибка"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1974/nov/22/bomb-explosions-birmingham",
+     "accessed": "2026-11-12",
+     "supports": "заявление в Палате общин 22 ноября 1974 о взрывах в Бирмингеме"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-birmingham-1977-longbridge-toolmakers",
@@ -767,7 +795,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -775,10 +804,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "даты 1981 и 1985"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1985/oct/21/inner-city-disorders",
+     "accessed": "2026-11-12",
+     "supports": "21 октября 1985: заявление о городских беспорядках, включая Хэндсворт"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-birmingham-1991-icc-symphony-hall",
@@ -1105,7 +1140,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -1113,10 +1149,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "декабрь 2017"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/news/birmingham-selected-as-host-city-for-the-2022-commonwealth-games",
+     "accessed": "2026-11-12",
+     "supports": "21 декабря 2017: Бирмингем выбран городом Игр Содружества 2022"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-birmingham-2023-section-114",
@@ -1141,7 +1183,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_birmingham_council"
    ],
    "evidence": [
     {
@@ -1149,10 +1192,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_birmingham_council",
+     "url": "https://www.birmingham.gov.uk/news/article/1381/statement_regarding_section_114_notice",
+     "accessed": "2026-11-12",
+     "supports": "заявление совета о уведомлении по статье 114 (сентябрь 2023)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-birmingham-2025-bin-strike",
@@ -1179,7 +1228,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_birmingham_council"
    ],
    "evidence": [
     {
@@ -1187,10 +1237,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Birmingham_history",
      "accessed": "2026-10-29",
      "supports": "месяц начала"
+    },
+    {
+     "source_id": "gb_birmingham_council",
+     "url": "https://www.birmingham.gov.uk/news/article/1553/birmingham_city_council_declares_major_incident",
+     "accessed": "2026-11-12",
+     "supports": "совет объявил чрезвычайную ситуацию из-за забастовки службы вывоза мусора (март 2025)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

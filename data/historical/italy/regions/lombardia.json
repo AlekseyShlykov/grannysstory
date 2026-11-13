@@ -1,0 +1,56 @@
+{
+ "records": [
+  {
+   "id": "it-lombardia-2020-codogno",
+   "title": "Первый очаг COVID-19 в Кодоньо",
+   "title_en": "First COVID-19 cluster at Codogno",
+   "start_date": "2020-02-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "it-lombardia"
+   ],
+   "category": "public_health",
+   "historical_summary": "20 февраля 2020 г. в Кодоньо (провинция Лоди, Ломбардия) был выявлен первый в Италии очаг COVID-19 — 16 подтверждённых случаев. Первые смерти были зарегистрированы 22 февраля.",
+   "historical_summary_en": "On 20 February 2020 Italy's first COVID-19 cluster was detected at Codogno (province of Lodi, Lombardy), with 16 confirmed cases. The first deaths were reported on 22 February.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "medical_workers"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "red_zone_lockdown",
+    "phone_calls_in_lockdown"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_iss"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Pandemia_di_COVID-19_in_Italia",
+     "accessed": "2026-11-11",
+     "supports": "20.02.2020 Codogno, 16 casi; 22.02 primi decessi"
+    },
+    {
+     "source_id": "it_iss",
+     "url": "https://www.iss.it/coronavirus/-/asset_publisher/1SRKHcCJJQ7E/content/id/5269517",
+     "accessed": "2026-11-12",
+     "supports": "comunicato ISS: confermato il primo caso italiano, paziente dell'ospedale di Codogno (Lodi)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

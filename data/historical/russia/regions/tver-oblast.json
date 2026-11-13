@@ -25,7 +25,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -33,10 +34,22 @@
           "url": "https://ru.wikipedia.org/wiki/Калининская_область",
           "accessed": "2026-10-29",
           "supports": "29.01.1935, 51 район"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в 1935 образована Калининская область с центром в Калинине"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/2020.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2020 год»: 29 января 1935 образована Калининская область из 51 района Западной, Ленинградской и Московской областей"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tverobl-1941-occupation-west",
@@ -106,7 +119,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -114,10 +128,16 @@
           "url": "https://ru.wikipedia.org/wiki/Калининская_область",
           "accessed": "2026-10-29",
           "supports": "август 1944, 1957"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/no-db/es0-list02.htm",
+          "accessed": "2026-11-13",
+          "supports": "энциклопедия «Тверская область», ст. «Административно-территориальное деление»: указом от 23 августа 1944 из районов Калининской области образована Великолукская область; упразднена указом от 2 октября 1957"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tverobl-1984-kalinin-npp",
@@ -187,7 +207,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -195,10 +216,16 @@
           "url": "https://ru.wikipedia.org/wiki/Калининская_область",
           "accessed": "2026-10-29",
           "supports": "17.07.1990"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/2020.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2020 год»: 17 июля 1990 указом Президиума ВС РСФСР Калининская область переименована в Тверскую"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ]
 }

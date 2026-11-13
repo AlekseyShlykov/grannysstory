@@ -9,6 +9,8 @@
 // Workplaces are named only where those records place them; elsewhere the workplace is generic.
 // `from`/`to` bound the year she could START the job there; lines are first person, original fiction.
 
+import { countryContent } from "./countries";
+
 export type WorkKind = "craft" | "office" | "service";
 
 export interface Occupation {
@@ -33,7 +35,7 @@ export interface Occupation {
 
 const NON_SOVIET = ["FR", "GB", "PL", "US"] as const;
 
-export const occupations: readonly Occupation[] = [
+const baseOccupations: readonly Occupation[] = [
   // --- USSR / Russia, named places ---
   {
     id: "tver-proletarka-weaver",
@@ -464,7 +466,20 @@ export const occupations: readonly Occupation[] = [
   }
 ];
 
-/** Age at which she leaves work in the late line. Soviet and Russian women retired at 55; elsewhere a general 60. */
+// Countries added in world-1.2 bring their own jobs and say which neutral generic jobs fit them.
+export const occupations: readonly Occupation[] = [
+  ...baseOccupations.map((occupation) => {
+    const extra = countryContent.filter((country) => country.sharedGenericJobIds.includes(occupation.id)).map((country) => country.country);
+    return extra.length ? { ...occupation, countries: [...occupation.countries, ...extra] } : occupation;
+  }),
+  ...countryContent.flatMap((country) => country.occupations)
+];
+
+/**
+ * Age at which she leaves work in the late line. Soviet and Russian women retired at 55; a general 60 for the
+ * first western countries; countries added in world-1.2 give their own age with a source note.
+ */
 export function retirementAge(country: string): number {
-  return country === "RU" ? 55 : 60;
+  if (country === "RU") return 55;
+  return countryContent.find((entry) => entry.country === country)?.retirementAge.age ?? 60;
 }

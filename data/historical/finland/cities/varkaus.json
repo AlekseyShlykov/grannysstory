@@ -1,0 +1,398 @@
+{
+ "records": [
+  {
+   "id": "fi-varkaus-1913-town-plan",
+   "title": "A. Ahlström заказывает первый план посёлка",
+   "title_en": "A. Ahlström commissions the first town plan",
+   "start_date": "1913",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "В 1913 г. компания A. Ahlström, владевшая заводами Варкауса, заказала братьям-архитекторам Ивару и Вальтеру Томе первый план посёлка; он был утверждён в 1916 г.",
+   "historical_summary_en": "In 1913 A. Ahlström, owner of the Varkaus works, commissioned the first town plan from the architect brothers Ivar and Valter Thomé; it was confirmed in 1916.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "company_house",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1913 Thomé plan; 1916 confirmed"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=1052",
+     "accessed": "2026-11-12",
+     "supports": "RKY Päiviönsaari: Walter Ahlström commissioned the first town plan from Valter and Ivar Thomé in 1913; final plan completed 1916"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-varkaus-1918-civil-war",
+   "title": "Гражданская война в Варкаусе",
+   "title_en": "Civil War in Varkaus",
+   "start_date": "1918",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В 1918 г. Гражданская война затронула Варкаус, и вызванный ею раскол сохранялся в посёлке десятилетиями.",
+   "historical_summary_en": "The Civil War affected Varkaus in 1918, and the divisions it caused persisted for decades.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_silence_about_1918"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1918 civil war; divisions persisted"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-varkaus-1928-separate-community",
+   "title": "Варкаус отделяется от Леппявирты и Йороинена",
+   "title_en": "Varkaus separates from Leppävirta and Joroinen",
+   "start_date": "1928",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1928 г. Варкаус стал отдельной плотнонаселённой общиной, независимой от Леппявирты и Йороинена.",
+   "historical_summary_en": "In 1928 Varkaus became a separate densely populated community, independent of Leppävirta and Joroinen.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1928 taajaväkinen yhdyskunta"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-varkaus-1929-market-town",
+   "title": "Варкаус — торговый посёлок",
+   "title_en": "Varkaus becomes a market town",
+   "start_date": "1929",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1929 г. Варкаус получил статус торгового посёлка (kauppala), и написание названия изменилось с Warkaus на Varkaus.",
+   "historical_summary_en": "In 1929 Varkaus became a market town (kauppala), and the spelling changed from Warkaus to Varkaus.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1929 kauppala; name change"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=1052",
+     "accessed": "2026-11-12",
+     "supports": "RKY Päiviönsaari: Varkaus became an independent market town (kauppala) in 1929"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-varkaus-1946-klubi-hotel",
+   "title": "Дом Warkauden Klubi становится гостиницей",
+   "title_en": "Warkauden Klubi becomes a hotel",
+   "start_date": "1946",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "Здание Warkauden Klubi в 1909–1946 гг. служило резиденцией местного директора завода, а затем стало гостиницей, рестораном и клубом служащих.",
+   "historical_summary_en": "The Warkauden Klubi building served as the local works manager's residence in 1909–1946 and then became a hotel, restaurant and officials' club.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "dance_at_the_club"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1909–1946 manager residence; later hotel, restaurant, club"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-varkaus-1962-city",
+   "title": "Варкаус получает права города",
+   "title_en": "Varkaus becomes a town",
+   "start_date": "1962",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1962 г. Варкаус получил права города (kaupunki).",
+   "historical_summary_en": "Varkaus received town rights (kaupunki) in 1962.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1962 kaupunki"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=1052",
+     "accessed": "2026-11-12",
+     "supports": "RKY Päiviönsaari: Varkaus became a town (kaupunki) in 1962"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-varkaus-2005-kangaslampi",
+   "title": "Присоединение Кангаслампи",
+   "title_en": "Kangaslampi merged into Varkaus",
+   "start_date": "2005-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "1 января 2005 г. к Варкаусу присоединился сельский муниципалитет Кангаслампи. В 2000-е годы в городе в основном шла перестройка бумажной промышленности.",
+   "historical_summary_en": "On 1 January 2005 the rural municipality of Kangaslampi merged into Varkaus. Restructuring of the paper industry in the town took place mainly in the 2000s.",
+   "affected_groups": [
+    "rural_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_statfin"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "1.1.2005 Kangaslampi; paper industry restructuring mainly 2000s"
+    },
+    {
+     "source_id": "fi_statfin",
+     "url": "https://stat.fi/til/kvaa/2008/kvaa_2008_2008-09-30_luo_001_sv.html",
+     "accessed": "2026-11-12",
+     "supports": "Statistics Finland, municipal mergers 1981–2009: Kangaslampi merged into Varkaus on 1 January 2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-varkaus-2017-school-merger",
+   "title": "Слияние школ в Варкаусе",
+   "title_en": "Schools merged in Varkaus",
+   "start_date": "2017",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "В 2017 г. школы Пяйвиёнсаари и Куоппакангас объединились в школу Вальттери; 30 апреля 2019 г. было подтверждено закрытие шведской школы Варкауса.",
+   "historical_summary_en": "In 2017 the Päiviönsaari and Kuoppakangas schools merged into Waltterin koulu; on 30 April 2019 the closure of the Swedish school in Varkaus was confirmed.",
+   "affected_groups": [
+    "school_pupils",
+    "parents"
+   ],
+   "potential_impacts": [
+    "school_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "2017 merger; 30.4.2019 Swedish school closure"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-varkaus-2021-klubi-fire",
+   "title": "Пожар уничтожил Warkauden Klubi",
+   "title_en": "Fire destroys the Warkauden Klubi",
+   "start_date": "2021-02-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-varkaus"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "27 февраля 2021 г. пожар полностью уничтожил историческое здание Warkauden Klubi. Население Варкауса сократилось с 26 714 в 1985 г. до 20 278 в 2020 г.",
+   "historical_summary_en": "On 27 February 2021 fire completely destroyed the historic Warkauden Klubi building. The population of Varkaus fell from 26,714 in 1985 to 20,278 in 2020.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "dance_at_the_club"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Varkaus_(kaupunki)",
+     "accessed": "2026-11-11",
+     "supports": "27.2.2021 fire; population table"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

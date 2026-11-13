@@ -25,7 +25,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_spbmuseum"
       ],
       "evidence": [
         {
@@ -33,10 +34,16 @@
           "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
           "accessed": "2026-10-29",
           "supports": "25.11.1903, 269 см"
+        },
+        {
+          "source_id": "ru_spbmuseum",
+          "url": "https://spbmuseum.ru/exhibits_and_exhibitions/temporary_exhibitions/55306/",
+          "accessed": "2026-11-13",
+          "supports": "выставка «Непотопляемый»: крупное наводнение 12 ноября 1903 года (ст. ст.), впервые снятое на фото и кино"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-spb-1905-putilov-strike",
@@ -63,7 +70,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -71,10 +79,16 @@
           "url": "https://ru.wikipedia.org/wiki/Кировский_завод",
           "accessed": "2026-10-29",
           "supports": "январь 1905, 9 января"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/618968",
+          "accessed": "2026-11-13",
+          "supports": "в связи с остановкой Путиловского завода «Собрание» Гапона решило идти к царю с петицией; 9 января 1905 шествие расстреляно"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-spb-1914-renamed-petrograd",
@@ -189,7 +203,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_encspb"
+        "ru_encspb",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -197,6 +212,12 @@
           "url": "https://encspb.ru/object/2804017592",
           "accessed": "2026-10-29",
           "supports": "26 января 1924"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/news/658711",
+          "accessed": "2026-11-13",
+          "supports": "в 1924, сразу после смерти Ленина, город переименован в Ленинград"
         }
       ],
       "verification_status": "verified",
@@ -229,7 +250,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_spbmuseum"
       ],
       "evidence": [
         {
@@ -237,10 +259,16 @@
           "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
           "accessed": "2026-10-29",
           "supports": "23.09.1924, 380 см"
+        },
+        {
+          "source_id": "ru_spbmuseum",
+          "url": "https://spbmuseum.ru/exhibits_and_exhibitions/temporary_exhibitions/55306/",
+          "accessed": "2026-11-13",
+          "supports": "выставка ГМИ СПб «Непотопляемый»: катастрофическое наводнение 1924 года, карты затопления сентября 1924"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-spb-1924-fordson-putilovets",
@@ -308,7 +336,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -316,10 +345,16 @@
           "url": "https://ru.wikipedia.org/wiki/Кировский_завод",
           "accessed": "2026-10-29",
           "supports": "1941 эвакуация"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/news/1305280",
+          "accessed": "2026-11-13",
+          "supports": "осенью 1941 большая часть оборудования Кировского завода и около 15 тыс. человек эвакуированы на Урал, «Танкоград» в Челябинске"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-spb-1955-metro-opened",
@@ -346,7 +381,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -354,10 +390,16 @@
           "url": "https://ru.wikipedia.org/wiki/Петербургский_метрополитен",
           "accessed": "2026-10-29",
           "supports": "15.11.1955; 1941; 1947"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/news/2049784",
+          "accessed": "2026-11-13",
+          "supports": "в 1955 открыта первая линия Ленинградского метрополитена, «Автово» — «Площадь Восстания»"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-spb-1955-flood",
@@ -613,7 +655,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_government_archive"
       ],
       "evidence": [
         {
@@ -621,10 +664,16 @@
           "url": "https://ru.wikipedia.org/wiki/Наводнения_в_Санкт-Петербурге",
           "accessed": "2026-10-29",
           "supports": "12.08.2011; 28.11.2011"
+        },
+        {
+          "source_id": "ru_government_archive",
+          "url": "http://archive.government.ru/docs/16195/",
+          "accessed": "2026-11-13",
+          "supports": "12.08.2011: Председатель Правительства принял участие в церемонии открытия комплекса защитных сооружений Санкт-Петербурга от наводнений"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-spb-2008-frunzensko-primorskaya",

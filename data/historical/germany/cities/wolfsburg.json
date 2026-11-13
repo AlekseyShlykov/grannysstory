@@ -1,0 +1,449 @@
+{
+ "records": [
+  {
+   "id": "de-wolfsburg-1938-founded",
+   "title": "Основание города для рабочих Volkswagen",
+   "title_en": "Town founded for Volkswagen workers",
+   "start_date": "1938-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "1 июля 1938 г. был основан «Город автомобиля КдФ у Фаллерслебена» — плановый город для рабочих завода Volkswagen.",
+   "historical_summary_en": "On 1 July 1938 the 'Town of the KdF Car near Fallersleben' was founded as a planned town for Volkswagen workers.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "01.07.1938"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1945-liberation-forced-labourers",
+   "title": "Освобождение подневольных рабочих",
+   "title_en": "Forced labourers liberated",
+   "start_date": "1945-04-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "11 апреля 1945 г. американские войска заняли город и завод Volkswagen и освободили около 7700 подневольных рабочих. В 1942 г. в городе несколько месяцев существовал концлагерь Арбайтсдорф.",
+   "historical_summary_en": "On 11 April 1945 US troops captured the town and the Volkswagen works, liberating about 7,700 forced labourers. In 1942 the Arbeitsdorf concentration camp had existed in the town for a few months.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "11.04.1945 ~7700; 1942 Arbeitsdorf"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1945-renamed",
+   "title": "Город получает имя Вольфсбург",
+   "title_en": "Town renamed Wolfsburg",
+   "start_date": "1945-05-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "25 мая 1945 г. город переименовали в Вольфсбург по названию замка. В конце июня 1945 г. американскую оккупацию сменила британская зона, а в 1946 г. британская администрация ввела коммунальную конституцию.",
+   "historical_summary_en": "On 25 May 1945 the town was renamed Wolfsburg after the castle. In late June 1945 the US occupation ended and the area became part of the British zone, and in 1946 the British military government introduced a municipal constitution.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "25.05.1945; late June 1945 British zone; 1946 constitution"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1951-urban-district",
+   "title": "Вольфсбург — внерайонный город",
+   "title_en": "Wolfsburg becomes an urban district",
+   "start_date": "1951",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1951 г. Вольфсбург вышел из района Гифхорн и стал самостоятельным городским округом.",
+   "historical_summary_en": "In 1951 Wolfsburg left the District of Gifhorn and became an urban district.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "1951 kreisfreie Stadt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1955-millionth-beetle",
+   "title": "Миллионный «жук»",
+   "title_en": "One-millionth Beetle",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1955 г. в Вольфсбурге был собран миллионный автомобиль Volkswagen «Жук». В 1958–1960 гг. построили ратушу, а Volkswagenwerk из ООО превратился в акционерное общество.",
+   "historical_summary_en": "In 1955 the one-millionth Volkswagen Beetle was built in Wolfsburg. Between 1958 and 1960 the town hall was built and Volkswagenwerk changed from a limited company into a joint-stock company.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_work",
+    "first_car_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "1955 1 000 000 Beetle; 1958–1960 city hall, AG"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1960s-italian-workers",
+   "title": "Итальянские рабочие на заводе VW",
+   "title_en": "Italian workers at the VW plant",
+   "start_date": "1962",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "migration",
+   "historical_summary": "В годы «экономического чуда» в Вольфсбург приехали работать итальянцы; город быстро рос, и в 1973 г. его население достигло пика — 131 971 человек.",
+   "historical_summary_en": "During the economic miracle Italians came to work in Wolfsburg, the town grew quickly, and in 1973 its population peaked at 131,971.",
+   "affected_groups": [
+    "migrants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_colleagues_from_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "Italian workers during Wirtschaftswunder; 1973 peak"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1972-wolfsburg-act",
+   "title": "Закон о Вольфсбурге",
+   "title_en": "Wolfsburg Act",
+   "start_date": "1972",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1972 г. по «Закону о Вольфсбурге» к городу присоединили 20 населённых пунктов, его площадь выросла с 35 до примерно 204 км², а 1 июля население превысило 100 тыс. человек.",
+   "historical_summary_en": "In 1972 the 'Wolfsburg Act' added 20 localities to the town, its area grew from 35 to about 204 km², and on 1 July the population passed 100,000.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "1972 Wolfsburg-Gesetz; 1 July >100 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1974-beetle-ends",
+   "title": "Конец производства «жука» в Вольфсбурге",
+   "title_en": "Beetle production ends in Wolfsburg",
+   "start_date": "1974",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1974 г. в Вольфсбурге закончилось послевоенное производство «жука».",
+   "historical_summary_en": "In 1974 post-war Beetle production in Wolfsburg came to an end.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "1974"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-1988-university-town",
+   "title": "Вольфсбург — университетский город",
+   "title_en": "Wolfsburg becomes a university town",
+   "start_date": "1988",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "education",
+   "historical_summary": "В 1988 г. Вольфсбург стал университетским городом.",
+   "historical_summary_en": "In 1988 Wolfsburg became a university town.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "1988"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-2003-golfsburg",
+   "title": "Акция «Гольфсбург»",
+   "title_en": "'Golfsburg' campaign",
+   "start_date": "2003-08-25",
+   "end_date": "2003-10-10",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "С 25 августа по 10 октября 2003 г. город на время назывался «Гольфсбург» в рамках рекламной кампании нового Volkswagen Golf. В 2009 г. футбольный клуб «Вольфсбург» стал чемпионом Германии.",
+   "historical_summary_en": "From 25 August to 10 October 2003 the town was temporarily called 'Golfsburg' in a campaign for the new Volkswagen Golf. In 2009 VfL Wolfsburg won the German football championship.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "football_on_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wolfsburg",
+     "accessed": "2026-11-11",
+     "supports": "25.08–10.10.2003; 2009 VfL"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-wolfsburg-2015-diesel-scandal",
+   "title": "Дизельный скандал Volkswagen",
+   "title_en": "Volkswagen diesel scandal",
+   "start_date": "2015-09-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-wolfsburg"
+   ],
+   "category": "local_economy",
+   "historical_summary": "18 сентября 2015 г. Volkswagen признал манипуляции с выхлопом и отозвал 500 тыс. автомобилей в США; акции упали, а 23 сентября глава концерна Мартин Винтеркорн ушёл в отставку.",
+   "historical_summary_en": "On 18 September 2015 Volkswagen admitted to emissions manipulation and recalled 500,000 cars in the US, its share price fell, and on 23 September chief executive Martin Winterkorn resigned.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "worry_about_the_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/2015.html",
+     "accessed": "2026-11-11",
+     "supports": "18.09.2015; 23.09.2015"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

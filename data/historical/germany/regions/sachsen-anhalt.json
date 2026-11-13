@@ -1,0 +1,203 @@
+{
+ "records": [
+  {
+   "id": "de-prov-saxony-1944-split",
+   "title": "Раздел провинции Саксония",
+   "title_en": "Province of Saxony split",
+   "start_date": "1944-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-prov-halle-merseburg",
+    "de-prov-magdeburg"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В июле 1944 г. прусская провинция Саксония была упразднена: округа Магдебург и Мерзебург стали провинциями Магдебург и Галле-Мерзебург.",
+   "historical_summary_en": "In July 1944 the Prussian Province of Saxony was dissolved, the Magdeburg and Merseburg administrative regions becoming the provinces of Magdeburg and Halle-Merseburg.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Provinz_Sachsen-Anhalt",
+     "accessed": "2026-11-11",
+     "supports": "Juli 1944: Auflösung der Provinz Sachsen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-sachsen-anhalt-1945-new-province",
+   "title": "Новая провинция Саксония",
+   "title_en": "New Province of Saxony",
+   "start_date": "1945-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen-anhalt"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В июле 1945 г. советская военная администрация объединила провинции Магдебург и Галле-Мерзебург со Свободным государством Анхальт в новую провинцию Саксония во главе с Эрхардом Хюбенером.",
+   "historical_summary_en": "In July 1945 the Soviet military administration merged the provinces of Magdeburg and Halle-Merseburg with the Free State of Anhalt into a new Province of Saxony under Erhard Hübener.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Provinz_Sachsen-Anhalt",
+     "accessed": "2026-11-11",
+     "supports": "Juli 1945 SMAD, Hübener"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-sachsen-anhalt-1946-renamed",
+   "title": "Провинция становится Саксонией-Анхальт",
+   "title_en": "Province renamed Saxony-Anhalt",
+   "start_date": "1946-10-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen-anhalt"
+   ],
+   "category": "political_change",
+   "historical_summary": "20 октября 1946 г., в день первых свободных выборов в ландтаг, провинцию переименовали в Саксонию-Анхальт. С 10 января 1947 г. действовала первая конституция, и провинция юридически считалась землёй со столицей в Галле.",
+   "historical_summary_en": "On 20 October 1946, the day of the first free state election, the province was renamed Saxony-Anhalt. From 10 January 1947 its first constitution was in force and it legally counted as a state, with Halle as capital.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Provinz_Sachsen-Anhalt",
+     "accessed": "2026-11-11",
+     "supports": "20.10.1946; 10.01.1947; Halle Hauptstadt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-sachsen-anhalt-1952-dissolved",
+   "title": "Земля разделена на округа",
+   "title_en": "State divided into districts",
+   "start_date": "1952-06-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen-anhalt"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Решением ландтага от 23 июня 1952 г. Саксония-Анхальт де-факто была упразднена и в основном разделена на округа Галле и Магдебург.",
+   "historical_summary_en": "By a Landtag resolution of 23 June 1952 Saxony-Anhalt was de facto dissolved and largely divided into the Halle and Magdeburg districts.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Provinz_Sachsen-Anhalt",
+     "accessed": "2026-11-11",
+     "supports": "23.06.1952 Landtagsbeschluss"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-bezirk-halle-1958-chemistry-programme",
+   "title": "Химическая программа ГДР",
+   "title_en": "GDR chemistry programme",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-bezirk-halle"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1958 г. конференция ЦК СЕПГ по «Химической программе ГДР» решила расселить рабочих рядом с химическими комбинатами Буна-Шкопау и Лойна в округе Галле.",
+   "historical_summary_en": "In 1958 an SED Central Committee conference on the 'Chemistry Programme of the GDR' decided to settle workers near the Buna-Schkopau and Leuna chemical works in the Halle District.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "shift_work",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle-Neustadt",
+     "accessed": "2026-11-11",
+     "supports": "1958 Chemieprogramm"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,868 @@
+{
+ "records": [
+  {
+   "id": "fi-turku-1904-auransilta",
+   "title": "Мост Ауран­силта",
+   "title_en": "Auransilta bridge built",
+   "start_date": "1904",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1904 г. в Турку построен мост Ауран­силта — старейший из нынешних мостов через реку Аура.",
+   "historical_summary_en": "Auransilta, the oldest of the present bridges over the River Aura, was built in Turku in 1904.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "1904 Auransilta"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1908-electric-tram",
+   "title": "Электрический трамвай в Турку",
+   "title_en": "Electric tram network in Turku",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1908 г. в Турку была создана сеть электрического трамвая. В 1965 г. решили отказаться от трамвая, и в 1972 г. движение прекратилось.",
+   "historical_summary_en": "An electric tram network was established in Turku in 1908. In 1965 it was decided to phase trams out, and service ended in 1972.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tram_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Turun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1908 tram network; 1965 decision; 1972 discontinued"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1918-abo-akademi",
+   "title": "Основание Åbo Akademi",
+   "title_en": "Åbo Akademi founded",
+   "start_date": "1918",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "В 1918 г. в Турку была основана Åbo Akademi — единственный в Финляндии университет со шведским языком обучения.",
+   "historical_summary_en": "Åbo Akademi, Finland's only Swedish-language university, was founded in Turku in 1918.",
+   "affected_groups": [
+    "students",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_abo_akademi"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "1918 Åbo Akademi"
+    },
+    {
+     "source_id": "fi_abo_akademi",
+     "url": "https://www.abo.fi/en/history-of-abo-akademi-university/",
+     "accessed": "2026-11-12",
+     "supports": "University history: Åbo Akademi (Turku) was established in 1918; statutes approved 13 January 1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-turku-1918-red-control",
+   "title": "Турку под властью красных",
+   "title_en": "Turku under Red control",
+   "start_date": "1918",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В Гражданскую войну Турку находился под властью красных, которые оставили город весной 1918 г.",
+   "historical_summary_en": "During the Civil War Turku was under Red control; the Reds withdrew in spring 1918.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Turun_historia",
+     "accessed": "2026-11-11",
+     "supports": "Turku under Red control; Reds withdrew spring 1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1920-university",
+   "title": "Основание Университета Турку",
+   "title_en": "University of Turku founded",
+   "start_date": "1920",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "В 1920 г. был основан финноязычный Университет Турку.",
+   "historical_summary_en": "The University of Turku was founded in 1920.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "1920 University of Turku"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=1864",
+     "accessed": "2026-11-12",
+     "supports": "RKY Turun yliopisto: the private Finnish-language university of Turku was founded in 1920"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-turku-1939-kaarina-annexation",
+   "title": "Присоединение части Каарины",
+   "title_en": "Part of Kaarina annexed",
+   "start_date": "1939",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1939 г. к Турку присоединили часть муниципалитета Каарина, а в 1944 г. — часть Маарии.",
+   "historical_summary_en": "Part of Kaarina municipality was annexed to Turku in 1939, and part of Maaria in 1944.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Turun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1939 Kaarina part; 1944 Maaria part"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1939-bombing",
+   "title": "Бомбардировки Турку в Зимнюю войну",
+   "title_en": "Bombing of Turku in the Winter War",
+   "start_date": "1939",
+   "end_date": "1940",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В Зимнюю войну Турку был вторым после Выборга городом по числу бомбардировок: погибли 52 человека, 151 ранен. В 1941 г. зажигательная бомба повредила Турку­ский замок.",
+   "historical_summary_en": "During the Winter War Turku was the second most bombed city after Viipuri: 52 people were killed and 151 injured. In 1941 an incendiary bomb damaged Turku Castle.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Turun_historia",
+     "accessed": "2026-11-11",
+     "supports": "Winter War 52 killed, 151 injured; 1941 castle damaged"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=1844",
+     "accessed": "2026-11-12",
+     "supports": "RKY Turun linna: in summer 1941 the interior of the main castle was destroyed in an air raid"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-turku-1950-wooden-houses-demolished",
+   "title": "Снос деревянных домов в центре",
+   "title_en": "Wooden houses demolished in the centre",
+   "start_date": "1950",
+   "end_date": "1969",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "В 1950–1960-е годы в Турку снесли много деревянных домов ради новых зданий и движения транспорта.",
+   "historical_summary_en": "In the 1950s and 1960s many wooden houses in Turku were demolished to make way for new buildings and traffic.",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "old_neighborhood_gone"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "1950s–1960s wooden houses demolished"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1965-wartsila-yard",
+   "title": "Верфь Crichton-Vulcan становится верфью Wärtsilä",
+   "title_en": "Crichton-Vulcan becomes Wärtsilä's Turku yard",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1965 г. верфь Crichton-Vulcan в Турку получила название Wärtsilä Turun telakka; верфь в Пансио работала с 1945 по 1987 г.",
+   "historical_summary_en": "In 1965 the Crichton-Vulcan shipyard in Turku was renamed Wärtsilä Turun telakka; the Pansio yard operated from 1945 to 1987.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Turun_telakka",
+     "accessed": "2026-11-11",
+     "supports": "1965 name Wärtsilä; Pansio 1945–1987"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=4095",
+     "accessed": "2026-11-12",
+     "supports": "RKY Aurajokisuu: from 1965 the yard was called Wärtsilän Turun telakka"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-turku-1967-maaria-kakskerta",
+   "title": "Присоединение Маарии, Какскерты и Паттинена",
+   "title_en": "Maaria, Kakskerta and Paattinen annexed",
+   "start_date": "1967",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1967 г. к Турку присоединили остаток Маарии, в 1968 г. — островной муниципалитет Какскерта, в 1973 г. — Паттинен. Быстрый рост населения в 1960–1970-е годы привёл к строительству пригородов Вариссуо и Руносмяки.",
+   "historical_summary_en": "The rest of Maaria was annexed to Turku in 1967, the archipelago municipality of Kakskerta in 1968 and Paattinen in 1973. Rapid population growth in the 1960s and 1970s led to suburbs such as Varissuo and Runosmäki.",
+   "affected_groups": [
+    "rural_residents",
+    "tenants",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "move_to_new_estate"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Turun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1967 Maaria; 1968 Kakskerta; 1973 Paattinen; Varissuo, Runosmäki"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1970-ruisrock",
+   "title": "Первый фестиваль Ruisrock",
+   "title_en": "First Ruisrock festival",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1970 г. на острове Руиссало в Турку прошёл первый рок-фестиваль Ruisrock; в 1971 г. его посетили около 100 тыс. человек.",
+   "historical_summary_en": "The first Ruisrock festival was held on Ruissalo island in Turku in 1970; about 100,000 people attended in 1971.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_festival_youth"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ruisrock",
+     "accessed": "2026-11-11",
+     "supports": "1970 first at Saaronniemi, Ruissalo; 1971 ~100,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1974-perno-shipyard",
+   "title": "Строительство верфи Перно",
+   "title_en": "Construction of the Perno shipyard",
+   "start_date": "1974",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "8 апреля 1974 г. городской совет Турку продал Wärtsilä землю под новую верфь в Перно, а 16 мая президент Кекконен произвёл первый взрыв на стройке. Первое судно, газовоз, было сдано в 1978 г.",
+   "historical_summary_en": "On 8 April 1974 Turku city council sold Wärtsilä land for a new shipyard at Perno, and on 16 May President Kekkonen set off the first blast on the site. The first ship, a gas tanker, was delivered in 1978.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Pernon_telakka",
+     "accessed": "2026-11-11",
+     "supports": "8.4.1974 sale; 16.5.1974 first blast; 1978 first ship"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=4095",
+     "accessed": "2026-11-12",
+     "supports": "RKY Aurajokisuu: a new yard, still operating, was built at Perno in the 1970s"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-turku-1989-wartsila-marine-bankruptcy",
+   "title": "Банкротство Wärtsilä Meriteollisuus",
+   "title_en": "Wärtsilä Marine goes bankrupt",
+   "start_date": "1989-10-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "economic_crisis",
+   "subcategory": null,
+   "historical_summary": "23 октября 1989 г. обанкротилась судостроительная компания Wärtsilä Meriteollisuus, имевшая семь судов в портфеле заказов; в ноябре на её основе создана Masa-Yards. В 1986 г. на верфи работали около 3500 человек.",
+   "historical_summary_en": "On 23 October 1989 the shipbuilder Wärtsilä Meriteollisuus went bankrupt with seven ships on order; Masa-Yards was founded in its place in November. The yard had employed about 3,500 people in 1986.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "shipyard_closure",
+    "husband_laid_off"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Pernon_telakka",
+     "accessed": "2026-11-11",
+     "supports": "23.10.1989 bankruptcy; Nov 1989 Masa-Yards; 1986 ~3,500 employees"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1990-silja-serenade",
+   "title": "Спуск на воду парома Silja Serenade",
+   "title_en": "Silja Serenade launched",
+   "start_date": "1990-01-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "19 января 1990 г. на верфи в Турку спустили на воду паром Silja Serenade, сданный в ноябре того же года; Silja Symphony спущен в ноябре 1990 г.",
+   "historical_summary_en": "The ferry Silja Serenade was launched at the Turku yard on 19 January 1990 and delivered that November; Silja Symphony was launched in November 1990.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "ferry_trip_to_stockholm"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Pernon_telakka",
+     "accessed": "2026-11-11",
+     "supports": "19.1.1990 Silja Serenade; Nov 1990 Silja Symphony"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-1996-christmas-city",
+   "title": "Турку — «рождественский город» Финляндии",
+   "title_en": "Turku declared Finland's Christmas City",
+   "start_date": "1996",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1996 г. Турку был объявлен «рождественским городом» Финляндии.",
+   "historical_summary_en": "Turku was declared the Christmas City of Finland in 1996.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "christmas_peace_declaration"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "1996 Christmas City"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-2010-allure-of-the-seas",
+   "title": "Сдача Allure of the Seas и пустая верфь",
+   "title_en": "Allure of the Seas delivered, yard left empty",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "Осенью 2010 г. верфь в Турку сдала круизный лайнер Allure of the Seas, после чего осталась без заказов, пока в конце 2010 г. Viking Line не заказала паром Viking Grace.",
+   "historical_summary_en": "In autumn 2010 the Turku yard delivered the cruise ship Allure of the Seas and was left without work until Viking Line ordered Viking Grace at the end of 2010.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_insecurity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Pernon_telakka",
+     "accessed": "2026-11-11",
+     "supports": "autumn 2010 Allure; yard empty; late 2010 Viking Grace order"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-2011-capital-of-culture",
+   "title": "Турку — культурная столица Европы",
+   "title_en": "Turku European Capital of Culture",
+   "start_date": "2011",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 2011 г. Турку вместе с Таллином был культурной столицей Европы.",
+   "historical_summary_en": "In 2011 Turku was European Capital of Culture together with Tallinn.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_eu_commission"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "2011 ECoC with Tallinn"
+    },
+    {
+     "source_id": "fi_eu_commission",
+     "url": "https://culture.ec.europa.eu/el/tallinn-and-turku",
+     "accessed": "2026-11-12",
+     "supports": "European Commission: Tallinn and Turku were the 2011 European Capitals of Culture in Estonia and Finland"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-turku-2013-kirjastosilta",
+   "title": "Новый мост Кирьястосилта",
+   "title_en": "Kirjastosilta bridge built",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 2013 г. в Турку построен самый новый мост через Ауру — Кирьястосилта.",
+   "historical_summary_en": "Kirjastosilta, the newest bridge over the Aura, was built in Turku in 2013.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "2013 Kirjastosilta"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-2014-meyer-turku",
+   "title": "Верфь переходит к Meyer Turku",
+   "title_en": "Shipyard becomes Meyer Turku",
+   "start_date": "2014-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В сентябре 2014 г. Meyer Werft и государство Финляндии купили верфь в Турку (Meyer Turku Oy); в мае 2015 г. Meyer выкупил долю государства. В 2022 г. здесь спустили на воду лайнер Icon of the Seas.",
+   "historical_summary_en": "In September 2014 Meyer Werft and the Finnish state bought the Turku shipyard (Meyer Turku Oy); in May 2015 Meyer bought out the state's stake. Icon of the Seas was launched there in 2022.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Pernon_telakka",
+     "accessed": "2026-11-11",
+     "supports": "Sep 2014 purchase; May 2015 full ownership; 2022 Icon of the Seas"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-turku-2021-elected-mayor",
+   "title": "Первый избранный мэр Турку",
+   "title_en": "Turku's mayor becomes an elected post",
+   "start_date": "2021-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-turku"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "С августа 2021 г. мэр Турку стал выборной политической должностью, а не наёмным руководителем; летом 2022 г. впервые прошёл фестиваль Aura Fest. На конец 2025 г. в городе жили 209 633 человека.",
+   "historical_summary_en": "From August 2021 the mayor of Turku became an elected office rather than a hired position, and the Aura Fest festival debuted in summer 2022. Turku had 209,633 inhabitants at the end of 2025.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_turku_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turku",
+     "accessed": "2026-11-11",
+     "supports": "Aug 2021 elected mayor; 2022 Aura Fest; 31.12.2025 pop 209,633"
+    },
+    {
+     "source_id": "fi_turku_city",
+     "url": "https://www.turku.fi/sites/default/files/document/pormestariohjelman-raportti-2025.pdf",
+     "accessed": "2026-11-12",
+     "supports": "City of Turku mayoral programme report 2021–2025: Turku moved to the mayor model after the 2021 municipal elections; the first mayoral programme under mayor Minna Arve was approved by the council on 23 August 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

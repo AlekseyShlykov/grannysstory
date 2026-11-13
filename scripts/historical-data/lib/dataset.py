@@ -15,8 +15,11 @@ ROOT = Path(__file__).resolve().parents[3]
 DATA = ROOT / "data"
 LEGACY = ROOT / "content" / "historical"
 
-COUNTRY_DIRS = {"FR": "france", "US": "usa", "GB": "england", "PL": "poland", "RU": "russia"}
-COUNTRY_FILES = {"FR": "fr", "US": "us", "GB": "gb", "PL": "pl", "RU": "ru"}
+COUNTRY_DIRS = {"FR": "france", "US": "usa", "GB": "england", "PL": "poland", "RU": "russia",
+                "IT": "italy", "DE": "germany", "CN": "china", "FI": "finland", "TR": "turkey"}
+COUNTRY_FILES = {code: code.lower() for code in COUNTRY_DIRS}
+# Countries added in world-1.2 carry English text next to the Russian (title_en, historical_summary_en, …).
+COUNTRIES_WITH_ENGLISH = {"IT", "DE", "CN", "FI", "TR"}
 
 LEVEL_BY_TYPE = {
     "world": "international",
@@ -29,6 +32,9 @@ LEVEL_BY_TYPE = {
     "voivodeship": "regional",
     "oblast": "regional",
     "governorate": "regional",
+    "province": "regional",          # CN 省, TR il, FI lääni, Prussian Provinz, Ottoman vilayet
+    "land": "regional",              # German Land / historical German state (Bavaria, Saxony, Prussia)
+    "occupation_zone": "constituent",  # Allied occupation zone of Germany 1945–1949
     "department": "district",
     "county": "district",
     "metropolitan_county": "district",
@@ -36,6 +42,9 @@ LEVEL_BY_TYPE = {
     "district": "district",
     "powiat": "district",
     "raion": "district",
+    "provincia": "district",         # Italian provincia
+    "prefecture": "district",        # CN 地区 / 地级市, German Regierungsbezirk
+    "sanjak": "district",            # Ottoman sanjak / liva
     "city": "municipal",
     "town": "municipal",
     "village": "municipal",

@@ -1,0 +1,223 @@
+{
+ "table": "synt/14lh.px",
+ "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/synt/14lh.px",
+ "fetched": "2026-11-11",
+ "title": "Total fertility rate",
+ "response": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Total fertility rate by Year, Area and Information",
+  "source": "Statistics Finland, births",
+  "updated": "2026-04-24T05:00:00Z",
+  "note": [
+   "<A HREF='https://stat.fi/en/statistics/documentation/synt' TARGET=_blank>Documentation of statistics</A>",
+   "In municipalities with a small population, annual changes in the total fertility rate may be bigger."
+  ],
+  "role": {
+   "time": [
+    "timeperiod_y"
+   ],
+   "geo": [
+    "alue_23_20260101"
+   ],
+   "metric": [
+    "contentscode"
+   ]
+  },
+  "id": [
+   "timeperiod_y",
+   "alue_23_20260101",
+   "contentscode"
+  ],
+  "size": [
+   5,
+   10,
+   1
+  ],
+  "dimension": {
+   "timeperiod_y": {
+    "label": "Year",
+    "category": {
+     "index": {
+      "1993": 0,
+      "2000": 1,
+      "2010": 2,
+      "2020": 3,
+      "2025": 4
+     },
+     "label": {
+      "1993": "1990-1993",
+      "2000": "1997-2000",
+      "2010": "2007-2010",
+      "2020": "2017-2020",
+      "2025": "2022-2025"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    },
+    "link": {
+     "describedby": [
+      {
+       "extension": {
+        "timeperiod_y": "SCALE-TYPE=None"
+       }
+      }
+     ]
+    }
+   },
+   "alue_23_20260101": {
+    "label": "Area",
+    "note": [
+     "These statistics apply the regional division of 1 January 2026 to the whole time series. Data for merged municipalities have been combined."
+    ],
+    "category": {
+     "index": {
+      "SSS": 0,
+      "KU091": 1,
+      "KU146": 2,
+      "KU179": 3,
+      "KU564": 4,
+      "KU684": 5,
+      "KU837": 6,
+      "KU853": 7,
+      "KU859": 8,
+      "KU915": 9
+     },
+     "label": {
+      "SSS": "WHOLE COUNTRY",
+      "KU091": "Helsinki",
+      "KU146": "Ilomantsi",
+      "KU179": "Jyväskylä",
+      "KU564": "Oulu",
+      "KU684": "Rauma",
+      "KU837": "Tampere",
+      "KU853": "Turku",
+      "KU859": "Tyrnävä",
+      "KU915": "Varkaus"
+     }
+    },
+    "extension": {
+     "elimination": true,
+     "eliminationValueCode": "SSS",
+     "show": "value"
+    },
+    "link": {
+     "describedby": [
+      {
+       "extension": {
+        "alue_23_20260101": "SCALE-TYPE=nominal"
+       }
+      }
+     ]
+    }
+   },
+   "contentscode": {
+    "label": "Information",
+    "category": {
+     "index": {
+      "tfr4": 0
+     },
+     "label": {
+      "tfr4": "Tota fertility rate (4 years period)"
+     },
+     "note": {
+      "tfr4": [
+       "Total fertility rate refers to the sum of the fertility rates of age groups. The figure indicates how many children a woman would give birth to, on average, if the fertility rate of the reference period remained valid throughout the woman's fertility age. In the total fertility rate for four years, the fertility rates of age groups have been calculated from a four-year period. The calculation makes use of five-year age groups."
+      ]
+     },
+     "unit": {
+      "tfr4": {
+       "base": "ratio",
+       "decimals": 2
+      }
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "tableid": "14lh",
+    "decimals": 2,
+    "official-statistics": true,
+    "aggregallowed": true,
+    "language": "fi",
+    "contents": "Total fertility rate",
+    "description": "14lh -- Total fertily rate by municipality, 1990-1993 -- 2022-2025",
+    "descriptiondefault": false,
+    "heading": [
+     "contentscode"
+    ],
+    "stub": [
+     "timeperiod_y",
+     "alue_23_20260101"
+    ],
+    "matrix": "14lh",
+    "subject-code": "synt",
+    "subject-area": "Births"
+   },
+   "contact": [
+    {
+     "raw": "<A HREF='https://stat.fi/en/statistics/synt' TARGET=_blank>Statistics' homepage</A>"
+    }
+   ]
+  },
+  "value": [
+   1.81,
+   1.48,
+   1.54,
+   1.79,
+   1.97,
+   1.64,
+   1.67,
+   1.59,
+   2.67,
+   1.76,
+   1.72,
+   1.32,
+   1.9,
+   1.6,
+   1.94,
+   1.7,
+   1.52,
+   1.46,
+   3.23,
+   1.79,
+   1.85,
+   1.36,
+   1.7,
+   1.76,
+   2.08,
+   1.81,
+   1.53,
+   1.43,
+   4.19,
+   1.95,
+   1.41,
+   1.15,
+   1.49,
+   1.24,
+   1.45,
+   1.5,
+   1.16,
+   1.15,
+   2.76,
+   1.39,
+   1.29,
+   1.08,
+   1.32,
+   1.12,
+   1.29,
+   1.26,
+   1.03,
+   1.03,
+   2.51,
+   1.37
+  ]
+ }
+}

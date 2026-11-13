@@ -1,0 +1,445 @@
+{
+ "records": [
+  {
+   "id": "it-matera-1927-province",
+   "title": "Матера — центр новой провинции",
+   "title_en": "Matera becomes a provincial capital",
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1927 г. Матера стала центром новой провинции.",
+   "historical_summary_en": "In 1927 Matera became the capital of a new province.",
+   "affected_groups": [
+    "all_residents",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1927 capoluogo"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1927-01-02;1",
+     "accessed": "2026-11-12",
+     "supports": "RDL 2 gennaio 1927 n. 1, ст. 1 п. 7: учреждена провинция Матера с центром в Матере"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-matera-1943-insurrection",
+   "title": "Восстание 21 сентября 1943 года",
+   "title_en": "Uprising of 21 September 1943",
+   "start_date": "1943-09-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "21 сентября 1943 г. жители Матеры первыми на юге Италии восстали против нацистской оккупации; 11 человек погибли от пулемётного огня отступавших немцев, ещё 15 были убиты в ходе расправы.",
+   "historical_summary_en": "On 21 September 1943 the people of Matera were the first in southern Italy to rise against the Nazi occupation; 11 people were killed by machine-gun fire from the retreating Germans and 15 more in a reprisal.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "resistance_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "21.09.1943; 11 + 15 morti"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-matera-1948-sassi-question",
+   "title": "Вопрос о Сасси выходит на общенациональный уровень",
+   "title_en": "The Sassi question becomes national",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1948 г. проблему пещерных кварталов Сасси подняли сначала Пальмиро Тольятти, затем Альчиде Де Гаспери.",
+   "historical_summary_en": "In 1948 the problem of the Sassi cave districts was raised first by Palmiro Togliatti and then by Alcide De Gasperi.",
+   "affected_groups": [
+    "tenants",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "cave_house_childhood"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1948 Togliatti, De Gasperi"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-matera-1952-sassi-evacuation",
+   "title": "Закон о выселении из Сасси",
+   "title_en": "Law on evacuating the Sassi",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "migration",
+   "historical_summary": "Закон 1952 г. предписал выселить жителей Сасси и построить новые жилые кварталы; около 15 тыс. человек переехали в новый город.",
+   "historical_summary_en": "A 1952 national law ordered the evacuation of the Sassi and the construction of new residential districts; about 15,000 residents moved into the new town.",
+   "affected_groups": [
+    "tenants",
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [
+    "rehousing",
+    "housing_improvement",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_flat_allocation",
+    "cave_house_childhood"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1952 legge sfollamento; ~15 000 trasferiti"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1952-05-17;619",
+     "accessed": "2026-11-12",
+     "supports": "Legge 17 maggio 1952 n. 619 «Risanamento dei rioni dei Sassi» в Матере"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-matera-1966-silver-medal",
+   "title": "Серебряная медаль за воинскую доблесть",
+   "title_en": "Silver Medal of Military Valour",
+   "start_date": "1966-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "Матера была награждена серебряной медалью «За воинскую доблесть» указом от 1 сентября 1966 г.; вручение состоялось три года спустя.",
+   "historical_summary_en": "Matera was awarded the Silver Medal of Military Valour by a decree of 1 September 1966; it was presented three years later.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1.09.1966"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-matera-1980-earthquake-1980",
+   "title": "Землетрясение в Ирпинии повреждает Матеру",
+   "title_en": "Irpinia earthquake damages Matera",
+   "start_date": "1980",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "disaster",
+   "historical_summary": "Землетрясение в Ирпинии 1980 г. и его толчки частично повредили Матеру.",
+   "historical_summary_en": "The 1980 Irpinia earthquake and its aftershocks partially damaged Matera.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "earthquake_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1980 danneggiata parzialmente"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-matera-1986-sassi-recovery",
+   "title": "Закон о восстановлении Сасси",
+   "title_en": "Law on restoring the Sassi",
+   "start_date": "1986",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1986 г. новый национальный закон выделил средства на восстановление исторических кварталов, пришедших в упадок за более чем 30 лет запустения.",
+   "historical_summary_en": "In 1986 a new national law funded the restoration of the historic districts, degraded by more than 30 years of abandonment.",
+   "affected_groups": [
+    "homeowners"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "return_to_old_neighbourhood"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1986 legge recupero"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1986-11-11;771",
+     "accessed": "2026-11-12",
+     "supports": "Legge 11 novembre 1986 n. 771 «Conservazione e recupero dei rioni Sassi di Matera»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-matera-1993-unesco",
+   "title": "Сасси — объект ЮНЕСКО",
+   "title_en": "Sassi on UNESCO list",
+   "start_date": "1993-12-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "9 декабря 1993 г. ЮНЕСКО внесла Сасси Матеры в список Всемирного наследия — первым объектом на юге Италии.",
+   "historical_summary_en": "On 9 December 1993 UNESCO inscribed the Sassi of Matera on the World Heritage List, the first site in southern Italy.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "tourists_everywhere"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "9.12.1993 Cartagena"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://cultura.gov.it/articolo/siti-italiani-del-patrimonio-mondiale-unesco",
+     "accessed": "2026-11-12",
+     "supports": "перечень Минкультуры: № 12, 1993 — I Sassi e il Parco delle Chiese Rupestri di Matera"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-matera-2014-ecoc",
+   "title": "Матера выбрана культурной столицей Европы 2019",
+   "title_en": "Matera chosen as European Capital of Culture 2019",
+   "start_date": "2014",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2014 г. Матера была выбрана культурной столицей Европы на 2019 г. вместе с болгарским Пловдивом.",
+   "historical_summary_en": "In 2014 Matera was chosen as European Capital of Culture for 2019, jointly with Plovdiv in Bulgaria.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_proud_again"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "2014 designazione per 2019 con Plovdiv"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://cultura.gov.it/comunicato/pasolini-a-matera-il-vangelo-secondo-matteo-cinquant-anni-dopo-prorogata-fino-al-25-gennaio-2015",
+     "accessed": "2026-11-12",
+     "supports": "comunicato MiBACT: Matera e la Basilicata Capitale europea della cultura per il 2019 a partire dal 17 ottobre 2014"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-matera-2016-gold-medal",
+   "title": "Золотая медаль за гражданскую доблесть",
+   "title_en": "Gold Medal for Civil Valour",
+   "start_date": "2016-08-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-matera"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "19 августа 2016 г. Матера получила золотую медаль «За гражданскую доблесть», вручённую в Квиринале 17 ноября.",
+   "historical_summary_en": "On 19 August 2016 Matera was awarded the Gold Medal for Civil Valour, presented at the Quirinale on 17 November.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "19.08.2016; 17.11.2016"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

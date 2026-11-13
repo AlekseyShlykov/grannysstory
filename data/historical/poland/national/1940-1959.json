@@ -393,7 +393,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -401,10 +402,16 @@
      "url": "https://pl.wikipedia.org/wiki/Telewizja_Polska",
      "accessed": "2026-10-29",
      "supports": "25.10.1952 первая передача, 24 приёмника; 23.01.1953 регулярное вещание"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/poczatek-regularnego-nadawania-programu-przez-telewizje-polska",
+     "accessed": "2026-11-13",
+     "supports": "25.10.1952 первая экспериментальная передача перед выборами в Сейм; регулярное вещание с 23.01.1953"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1956-abortion-law",
@@ -478,7 +485,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -486,10 +494,16 @@
      "url": "https://pl.wikipedia.org/wiki/Poznański_Czerwiec",
      "accessed": "2026-10-29",
      "supports": "28–30.06.1956; 58 погибших по IPN, ~600 раненых, ~250 арестованных"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/poznanski-czerwiec-1956-r",
+     "accessed": "2026-11-13",
+     "supports": "28–30.06.1956 Познань, начало на заводе Цегельского, применение армии"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1956-october-thaw",
@@ -520,7 +534,8 @@
    "sensitive": false,
    "source_ids": [
     "pl_wikipedia",
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -534,10 +549,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "октябрь 1956 Гомулка первый секретарь"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/wladyslaw-gomulka-i-sekretarzem-kc-pzpr",
+     "accessed": "2026-11-13",
+     "supports": "21.10.1956 Гомулка первый секретарь ЦК ПОРП, «гомулковская оттепель», десталинизация"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1945-war-ends",
@@ -564,7 +585,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_dzieje"
    ],
    "evidence": [
     {
@@ -572,10 +594,16 @@
      "url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
      "accessed": "2026-10-30",
      "supports": "вступление капитуляции в силу 8 мая 1945 года"
+    },
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/wiadomosci/kalendarium-ii-wojny-swiatowej",
+     "accessed": "2026-11-13",
+     "supports": "8.05.1945 капитуляция Германии повторена в Карлсхорсте"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

@@ -1,0 +1,2396 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-nat-1900s-demography",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1900,
+   "period_end": 1919,
+   "context_type": "demography",
+   "attribute": "population_vital_rates",
+   "title": "Италия 1900–1910-х: высокая рождаемость и смертность",
+   "title_en": "Italy in the 1900s–1910s: high birth and death rates",
+   "description": "По переписям, население Италии выросло с 32,5 млн в 1901 г. до 34,7 млн в 1911 г. Рождаемость была около 31–32 на 1000, смертность — 21–22 на 1000.",
+   "description_en": "According to the censuses, Italy's population grew from 32.5 million in 1901 to 34.7 million in 1911. The birth rate was about 31–32 per 1,000 and the death rate 21–22 per 1,000.",
+   "statistics": [
+    {
+     "indicator": "census_population",
+     "value": 32475253,
+     "unit": "persons",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 34671377,
+     "unit": "persons",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 32550000,
+     "unit": "persons",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 1057763,
+     "unit": "births",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 715036,
+     "unit": "deaths",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 32.5,
+     "unit": "per 1000",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 22.0,
+     "unit": "per 1000",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 35033000,
+     "unit": "persons",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 1093545,
+     "unit": "births",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 742811,
+     "unit": "deaths",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 31.2,
+     "unit": "per 1000",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 21.2,
+     "unit": "per 1000",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "census 1901/1911; vital statistics 1901/1911"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1920s-1930s-demography",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1920,
+   "period_end": 1939,
+   "context_type": "demography",
+   "attribute": "population_vital_rates",
+   "title": "Италия 1920–1930-х: смертность падает",
+   "title_en": "Italy in the 1920s–1930s: falling mortality",
+   "description": "Население по переписям: 38,0 млн (1921), 41,2 млн (1931), 43,0 млн (1936). Смертность снизилась с 17,7 до 13,8 на 1000, рождаемость — с 30,7 до 22,4 на 1000.",
+   "description_en": "Census population: 38.0 million (1921), 41.2 million (1931), 43.0 million (1936). The death rate fell from 17.7 to 13.8 per 1,000 and the birth rate from 30.7 to 22.4 per 1,000.",
+   "statistics": [
+    {
+     "indicator": "census_population",
+     "value": 37973977,
+     "unit": "persons",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 41176671,
+     "unit": "persons",
+     "year": 1931,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 42993602,
+     "unit": "persons",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 37869000,
+     "unit": "persons",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 1118344,
+     "unit": "births",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 670234,
+     "unit": "deaths",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 30.7,
+     "unit": "per 1000",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 17.7,
+     "unit": "per 1000",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 42965000,
+     "unit": "persons",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 962686,
+     "unit": "births",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 593380,
+     "unit": "deaths",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 22.4,
+     "unit": "per 1000",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 13.8,
+     "unit": "per 1000",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "census 1921/1931/1936; vital statistics 1921/1936"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1950s-1960s-demography",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1950,
+   "period_end": 1969,
+   "context_type": "demography",
+   "attribute": "population_vital_rates",
+   "title": "Италия 1950–1960-х: беби-бум «чуда»",
+   "title_en": "Italy in the 1950s–1960s: the 'miracle' baby boom",
+   "description": "Население выросло с 47,5 млн (1951) до 50,6 млн (1961). Число рождений достигло пика около 1,04 млн в 1964 г.; смертность опустилась ниже 10 на 1000.",
+   "description_en": "The population grew from 47.5 million (1951) to 50.6 million (1961). Births peaked at about 1.04 million in 1964; the death rate fell below 10 per 1,000.",
+   "statistics": [
+    {
+     "indicator": "census_population",
+     "value": 47515537,
+     "unit": "persons",
+     "year": 1951,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 50623569,
+     "unit": "persons",
+     "year": 1961,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 47417000,
+     "unit": "persons",
+     "year": 1951,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 860998,
+     "unit": "births",
+     "year": 1951,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 485208,
+     "unit": "deaths",
+     "year": 1951,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 18.2,
+     "unit": "per 1000",
+     "year": 1951,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 10.2,
+     "unit": "per 1000",
+     "year": 1951,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 51675000,
+     "unit": "persons",
+     "year": 1964,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 1035207,
+     "unit": "births",
+     "year": 1964,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 488601,
+     "unit": "deaths",
+     "year": 1964,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 19.7,
+     "unit": "per 1000",
+     "year": 1964,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 9.5,
+     "unit": "per 1000",
+     "year": 1964,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "census 1951/1961; vital statistics 1951/1964"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1970s-1980s-demography",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "demography",
+   "attribute": "population_vital_rates",
+   "title": "Италия 1970–1980-х: рождений всё меньше",
+   "title_en": "Italy in the 1970s–1980s: fewer and fewer births",
+   "description": "Население по переписям: 54,1 млн (1971) и 56,6 млн (1981). Число рождений упало с 911 тыс. в 1971 г. до 628 тыс. в 1981 г.",
+   "description_en": "Census population: 54.1 million (1971) and 56.6 million (1981). Births fell from 911,000 in 1971 to 628,000 in 1981.",
+   "statistics": [
+    {
+     "indicator": "census_population",
+     "value": 54136547,
+     "unit": "persons",
+     "year": 1971,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 56556911,
+     "unit": "persons",
+     "year": 1981,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 54073000,
+     "unit": "persons",
+     "year": 1971,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 911084,
+     "unit": "births",
+     "year": 1971,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 515318,
+     "unit": "deaths",
+     "year": 1971,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 16.8,
+     "unit": "per 1000",
+     "year": 1971,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 9.7,
+     "unit": "per 1000",
+     "year": 1971,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 56502000,
+     "unit": "persons",
+     "year": 1981,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 628113,
+     "unit": "births",
+     "year": 1981,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 540764,
+     "unit": "deaths",
+     "year": 1981,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 11.0,
+     "unit": "per 1000",
+     "year": 1981,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 9.7,
+     "unit": "per 1000",
+     "year": 1981,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "census 1971/1981; vital statistics 1971/1981"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1990s-2000s-demography",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1990,
+   "period_end": 2009,
+   "context_type": "demography",
+   "attribute": "population_vital_rates",
+   "title": "Италия 1990–2000-х: смертей больше, чем рождений",
+   "title_en": "Italy in the 1990s–2000s: more deaths than births",
+   "description": "Население почти не менялось: 56,8 млн (1991) и 57,0 млн (2001). С середины 1990-х число смертей превышало число рождений (1995: 526 тыс. рождений и 555 тыс. смертей).",
+   "description_en": "The population barely changed: 56.8 million (1991) and 57.0 million (2001). From the mid-1990s deaths exceeded births (1995: 526,000 births and 555,000 deaths).",
+   "statistics": [
+    {
+     "indicator": "census_population",
+     "value": 56778031,
+     "unit": "persons",
+     "year": 1991,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 56995744,
+     "unit": "persons",
+     "year": 2001,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 56844000,
+     "unit": "persons",
+     "year": 1995,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 526064,
+     "unit": "births",
+     "year": 1995,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 555203,
+     "unit": "deaths",
+     "year": 1995,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 9.2,
+     "unit": "per 1000",
+     "year": 1995,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 9.8,
+     "unit": "per 1000",
+     "year": 1995,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 58827000,
+     "unit": "persons",
+     "year": 2008,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 576659,
+     "unit": "births",
+     "year": 2008,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 585126,
+     "unit": "deaths",
+     "year": 2008,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 9.8,
+     "unit": "per 1000",
+     "year": 2008,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 9.9,
+     "unit": "per 1000",
+     "year": 2008,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "census 1991/2001; vital statistics 1995/2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-2010s-2020s-demography",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 2010,
+   "period_end": 2023,
+   "context_type": "demography",
+   "attribute": "population_vital_rates",
+   "title": "Италия 2010–2020-х: убыль населения",
+   "title_en": "Italy in the 2010s–2020s: population decline",
+   "description": "Население по переписям: 59,4 млн (2011) и 59,2 млн (2021). В 2023 г. родились 380 тыс. детей и умерли 671 тыс. человек; медианный возраст в 2020 г. оценивался в 46,5 года.",
+   "description_en": "Census population: 59.4 million (2011) and 59.2 million (2021). In 2023, 380,000 children were born and 671,000 people died; the median age in 2020 was estimated at 46.5 years.",
+   "statistics": [
+    {
+     "indicator": "census_population",
+     "value": 59433744,
+     "unit": "persons",
+     "year": 2011,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "census_population",
+     "value": 59236213,
+     "unit": "persons",
+     "year": 2021,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "перепись населения",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 59816673,
+     "unit": "persons",
+     "year": 2019,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 420084,
+     "unit": "births",
+     "year": 2019,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 634417,
+     "unit": "deaths",
+     "year": 2019,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 7.0,
+     "unit": "per 1000",
+     "year": 2019,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 10.6,
+     "unit": "per 1000",
+     "year": 2019,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "average_population",
+     "value": 58997201,
+     "unit": "persons",
+     "year": 2023,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "среднегодовое население (таблица vital statistics)",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "live_births",
+     "value": 379890,
+     "unit": "births",
+     "year": 2023,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 671065,
+     "unit": "deaths",
+     "year": 2023,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 6.4,
+     "unit": "per 1000",
+     "year": 2023,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 11.2,
+     "unit": "per 1000",
+     "year": 2023,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "median_age",
+     "value": 46.5,
+     "unit": "years",
+     "year": 2020,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка 2020",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "census 2011/2021; vital statistics 2019/2023; median age 2020 est."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1900-1939-fertility",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1900,
+   "period_end": 1939,
+   "context_type": "fertility_childlessness",
+   "attribute": "total_fertility_rate",
+   "title": "Рождаемость 1900–1930-х: от 4,5 до 2,9 ребёнка",
+   "title_en": "Fertility 1900s–1930s: from 4.5 to 2.9 children",
+   "description": "Суммарный коэффициент рождаемости снизился с 4,49 ребёнка на женщину в 1901 г. до 3,57 в 1921 г. и 2,87 в 1936 г.",
+   "description_en": "The total fertility rate fell from 4.49 children per woman in 1901 to 3.57 in 1921 and 2.87 in 1936.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate",
+     "value": 4.49,
+     "unit": "children per woman",
+     "year": 1901,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 4.36,
+     "unit": "children per woman",
+     "year": 1911,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 3.57,
+     "unit": "children per woman",
+     "year": 1921,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 3.21,
+     "unit": "children per woman",
+     "year": 1931,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.87,
+     "unit": "children per woman",
+     "year": 1936,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "TFR 1901–1936"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1950-1979-fertility",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1950,
+   "period_end": 1979,
+   "context_type": "fertility_childlessness",
+   "attribute": "total_fertility_rate",
+   "title": "Рождаемость 1950–1970-х: около 2,4 ребёнка",
+   "title_en": "Fertility 1950s–1970s: about 2.4 children",
+   "description": "Суммарный коэффициент рождаемости держался около 2,35–2,41 ребёнка на женщину в 1951–1971 гг. с пиком 2,70 в 1964 г.",
+   "description_en": "The total fertility rate stayed at about 2.35–2.41 children per woman in 1951–1971, peaking at 2.70 in 1964.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.35,
+     "unit": "children per woman",
+     "year": 1951,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.41,
+     "unit": "children per woman",
+     "year": 1961,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.7,
+     "unit": "children per woman",
+     "year": 1964,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.41,
+     "unit": "children per woman",
+     "year": 1971,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "TFR 1951–1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1980-2023-fertility",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1980,
+   "period_end": 2023,
+   "context_type": "fertility_childlessness",
+   "attribute": "total_fertility_rate",
+   "title": "Рождаемость с 1980-х: одна из самых низких в мире",
+   "title_en": "Fertility since the 1980s: among the lowest in the world",
+   "description": "Суммарный коэффициент рождаемости упал до 1,60 в 1981 г. и 1,19 в 1995 г., немного вырос до 1,44 в 2008–2011 гг. и снова снизился до 1,20 в 2023 г. По данным ISTAT, с середины 1970-х рождаемость остаётся заметно ниже уровня воспроизводства.",
+   "description_en": "The total fertility rate fell to 1.60 in 1981 and 1.19 in 1995, rose slightly to 1.44 in 2008–2011 and fell again to 1.20 in 2023. According to ISTAT, fertility has remained well below replacement level since the mid-1970s.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.6,
+     "unit": "children per woman",
+     "year": 1981,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.32,
+     "unit": "children per woman",
+     "year": 1991,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.19,
+     "unit": "children per woman",
+     "year": 1995,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.25,
+     "unit": "children per woman",
+     "year": 2001,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.44,
+     "unit": "children per woman",
+     "year": 2008,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.44,
+     "unit": "children per woman",
+     "year": 2011,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.27,
+     "unit": "children per woman",
+     "year": 2019,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.25,
+     "unit": "children per woman",
+     "year": 2021,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.2,
+     "unit": "children per woman",
+     "year": 2023,
+     "area_id": "it",
+     "population": "женщины репродуктивного возраста",
+     "method_note": "vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_istat"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "TFR 1981–2023"
+    },
+    {
+     "source_id": "it_istat",
+     "url": "https://www.istat.it/comunicato-stampa/matrimoni-unioni-civili-separazioni-e-divorzi-anno-2023/",
+     "accessed": "2026-11-11",
+     "supports": "fecondità sotto il livello di sostituzione da metà anni '70"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1900-1950-life-expectancy",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1900,
+   "period_end": 1950,
+   "context_type": "healthcare",
+   "attribute": "life_expectancy",
+   "title": "Продолжительность жизни 1901–1950",
+   "title_en": "Life expectancy 1901–1950",
+   "description": "Ожидаемая продолжительность жизни при рождении выросла с 43,5 года в 1901 г. до 54,8 в 1931 г. и 65,8 в 1950 г.",
+   "description_en": "Life expectancy at birth rose from 43.5 years in 1901 to 54.8 in 1931 and 65.8 in 1950.",
+   "statistics": [
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 43.5,
+     "unit": "years",
+     "year": 1901,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "таблица vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 44.7,
+     "unit": "years",
+     "year": 1911,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "таблица vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 49.2,
+     "unit": "years",
+     "year": 1921,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "таблица vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 54.8,
+     "unit": "years",
+     "year": 1931,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "таблица vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 56.7,
+     "unit": "years",
+     "year": 1936,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "таблица vital statistics",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 65.8,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "таблица vital statistics",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "life expectancy 1901–1950"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1950-2020-life-expectancy",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1950,
+   "period_end": 2020,
+   "context_type": "healthcare",
+   "attribute": "life_expectancy",
+   "title": "Продолжительность жизни 1950–2020",
+   "title_en": "Life expectancy 1950–2020",
+   "description": "По оценкам ООН, ожидаемая продолжительность жизни выросла с 66,5 года в 1950–1955 гг. до 74,9 в 1980–1985 гг. и 83,3 в 2015–2020 гг.",
+   "description_en": "According to UN estimates, life expectancy rose from 66.5 years in 1950–1955 to 74.9 in 1980–1985 and 83.3 in 2015–2020.",
+   "statistics": [
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 66.5,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 1950",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 69.7,
+     "unit": "years",
+     "year": 1960,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 1960",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 72.2,
+     "unit": "years",
+     "year": 1970,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 1970",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 74.9,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 1980",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 77.5,
+     "unit": "years",
+     "year": 1990,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 1990",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 80.3,
+     "unit": "years",
+     "year": 2000,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 2000",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 82.4,
+     "unit": "years",
+     "year": 2010,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 2010",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 83.3,
+     "unit": "years",
+     "year": 2015,
+     "area_id": "it",
+     "population": "всё население Италии",
+     "method_note": "оценка ООН за пятилетие с 2015",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "UN 5-year life expectancy"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1955-1975-appliances",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1955,
+   "period_end": 1975,
+   "context_type": "appliances",
+   "attribute": "household_appliances",
+   "title": "Холодильник и стиральная машина приходят в дом",
+   "title_en": "The fridge and washing machine come home",
+   "description": "Доля семей с холодильником выросла с 3% в 1955 г. до 94% в 1975 г., со стиральной машиной — с 1% до 76%. Регулярное телевещание RAI началось 3 января 1954 г.",
+   "description_en": "The share of households with a refrigerator rose from 3% in 1955 to 94% in 1975, and with a washing machine from 1% to 76%. RAI's regular television service began on 3 January 1954.",
+   "statistics": [
+    {
+     "indicator": "households_with_refrigerator",
+     "value": 3,
+     "unit": "% of households",
+     "year": 1955,
+     "area_id": "it",
+     "population": "все домохозяйства",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "households_with_refrigerator",
+     "value": 94,
+     "unit": "% of households",
+     "year": 1975,
+     "area_id": "it",
+     "population": "все домохозяйства",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "households_with_washing_machine",
+     "value": 1,
+     "unit": "% of households",
+     "year": 1955,
+     "area_id": "it",
+     "population": "все домохозяйства",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "households_with_washing_machine",
+     "value": 76,
+     "unit": "% of households",
+     "year": 1975,
+     "area_id": "it",
+     "population": "все домохозяйства",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Italian_economic_miracle",
+     "accessed": "2026-11-11",
+     "supports": "fridges 3%→94%, washing machines 1%→76% (1955–1975); RAI 3 Jan 1954"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1950-1963-cars",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1950,
+   "period_end": 1963,
+   "context_type": "transport",
+   "attribute": "car_sales",
+   "title": "Автомобиль становится массовым",
+   "title_en": "The car becomes a mass product",
+   "description": "Продажи легковых автомобилей в Италии выросли со 100 тыс. в 1950 г. до 230 тыс. в 1955 г. и 877 тыс. в 1962 г., а в 1963 г. превысили миллион.",
+   "description_en": "Car sales in Italy rose from 100,000 in 1950 to 230,000 in 1955 and 877,000 in 1962, and passed one million in 1963.",
+   "statistics": [
+    {
+     "indicator": "car_sales",
+     "value": 100000,
+     "unit": "vehicles per year",
+     "year": 1950,
+     "area_id": "it",
+     "population": "внутренний рынок",
+     "method_note": "продажи отечественных автомобилей",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "car_sales",
+     "value": 230000,
+     "unit": "vehicles per year",
+     "year": 1955,
+     "area_id": "it",
+     "population": "внутренний рынок",
+     "method_note": "продажи отечественных автомобилей",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "car_sales",
+     "value": 877000,
+     "unit": "vehicles per year",
+     "year": 1962,
+     "area_id": "it",
+     "population": "внутренний рынок",
+     "method_note": "продажи отечественных автомобилей",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Italian_economic_miracle",
+     "accessed": "2026-11-11",
+     "supports": "car sales 1950–1963"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1951-1973-growth",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1951,
+   "period_end": 1973,
+   "context_type": "wages_income",
+   "attribute": "gdp_income_growth",
+   "title": "Годы «экономического чуда»",
+   "title_en": "The years of the 'economic miracle'",
+   "description": "ВВП Италии рос в среднем на 5,8% в год в 1951–1963 гг. и на 5,0% в 1964–1973 гг.; к 1962 г. он удвоился по сравнению с 1950 г. Средний реальный доход на душу населения с 1951 по 1971 г. вырос втрое.",
+   "description_en": "Italy's GDP grew by an average of 5.8% a year in 1951–1963 and 5.0% in 1964–1973; by 1962 it had doubled compared with 1950. Average real income per head trebled between 1951 and 1971.",
+   "statistics": [
+    {
+     "indicator": "gdp_growth_avg",
+     "value": 5.8,
+     "unit": "% per year",
+     "year": 1963,
+     "area_id": "it",
+     "population": "экономика страны",
+     "method_note": "среднее за 1951–1963",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "gdp_growth_avg",
+     "value": 5.0,
+     "unit": "% per year",
+     "year": 1973,
+     "area_id": "it",
+     "population": "экономика страны",
+     "method_note": "среднее за 1964–1973",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Italian_economic_miracle",
+     "accessed": "2026-11-11",
+     "supports": "GDP growth 5.8% / 5.0%; doubled 1950–62; income trebled 1951–71"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1955-1971-internal-migration",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1955,
+   "period_end": 1971,
+   "context_type": "migration",
+   "attribute": "internal_migration",
+   "title": "Великое внутреннее переселение",
+   "title_en": "The great internal migration",
+   "description": "В 1955–1971 гг. в межрегиональных переездах внутри Италии участвовали около 9 млн человек; источник не разделяет эти потоки по направлениям.",
+   "description_en": "Between 1955 and 1971 about 9 million people took part in inter-regional migration within Italy; the source does not break these flows down by direction.",
+   "statistics": [
+    {
+     "indicator": "interregional_migrants",
+     "value": 9000000,
+     "unit": "persons",
+     "year": 1971,
+     "area_id": "it",
+     "population": "участники межрегиональной миграции",
+     "method_note": "суммарно за 1955–1971, оценка",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Italian_economic_miracle",
+     "accessed": "2026-11-11",
+     "supports": "~9 million inter-regional migration 1955–1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "low"
+  },
+  {
+   "id": "it-ctx-nat-2001-2021-foreign-born",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 2001,
+   "period_end": 2021,
+   "context_type": "migration",
+   "attribute": "foreign_born_population",
+   "title": "Италия становится страной иммиграции",
+   "title_en": "Italy becomes a country of immigration",
+   "description": "Число жителей, родившихся за границей, выросло с 1,3 млн в 2001 г. до 4 млн в 2011 г. и 5,2 млн в 2021 г.",
+   "description_en": "The number of foreign-born residents rose from 1.3 million in 2001 to 4 million in 2011 and 5.2 million in 2021.",
+   "statistics": [
+    {
+     "indicator": "foreign_born_residents",
+     "value": 1300000,
+     "unit": "persons",
+     "year": 2001,
+     "area_id": "it",
+     "population": "родившиеся за границей жители",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "foreign_born_residents",
+     "value": 4000000,
+     "unit": "persons",
+     "year": 2011,
+     "area_id": "it",
+     "population": "родившиеся за границей жители",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "foreign_born_residents",
+     "value": 5200000,
+     "unit": "persons",
+     "year": 2021,
+     "area_id": "it",
+     "population": "родившиеся за границей жители",
+     "method_note": "по данным статьи",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Italy",
+     "accessed": "2026-11-11",
+     "supports": "foreign-born 2001/2011/2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-2019-2023-marriage",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 2019,
+   "period_end": 2023,
+   "context_type": "family_marriage",
+   "attribute": "marriage_patterns",
+   "title": "Браки 2020-х: позже, чаще гражданские",
+   "title_en": "Marriage in the 2020s: later and more often civil",
+   "description": "В 2023 г. в Италии заключено 184 207 браков, 58,9% из них — в гражданской форме. Средний возраст при первом браке — 34,7 года у мужчин и 32,7 у женщин; число пар, живущих вместе без брака, выросло примерно с 440 тыс. в 2000–2001 гг. до более 1,6 млн в 2022–2023 гг.",
+   "description_en": "In 2023 Italy recorded 184,207 marriages, 58.9% of them civil ceremonies. The mean age at first marriage was 34.7 for men and 32.7 for women; the number of unmarried cohabiting couples rose from about 440,000 in 2000–2001 to over 1.6 million in 2022–2023.",
+   "statistics": [
+    {
+     "indicator": "marriages",
+     "value": 184207,
+     "unit": "marriages",
+     "year": 2023,
+     "area_id": "it",
+     "population": "браки, заключённые в Италии",
+     "method_note": "ISTAT, Matrimoni 2023",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "civil_rite_share",
+     "value": 58.9,
+     "unit": "% of marriages",
+     "year": 2023,
+     "area_id": "it",
+     "population": "браки, заключённые в Италии",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "civil_rite_share_first_marriages_italians",
+     "value": 20.0,
+     "unit": "% of marriages",
+     "year": 2008,
+     "area_id": "it",
+     "population": "первые браки двух граждан Италии",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "civil_rite_share_first_marriages_italians",
+     "value": 41.0,
+     "unit": "% of marriages",
+     "year": 2023,
+     "area_id": "it",
+     "population": "первые браки двух граждан Италии",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "mean_age_first_marriage_men",
+     "value": 34.7,
+     "unit": "years",
+     "year": 2023,
+     "area_id": "it",
+     "population": "мужчины, вступившие в первый брак",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "mean_age_first_marriage_women",
+     "value": 32.7,
+     "unit": "years",
+     "year": 2023,
+     "area_id": "it",
+     "population": "женщины, вступившие в первый брак",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "cohabiting_couples",
+     "value": 1600000,
+     "unit": "couples",
+     "year": 2023,
+     "area_id": "it",
+     "population": "пары, живущие вместе без брака",
+     "method_note": "ISTAT, «более 1,6 млн» в 2022–2023",
+     "source_id": "it_istat"
+    }
+   ],
+   "source_ids": [
+    "it_istat"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_istat",
+     "url": "https://www.istat.it/comunicato-stampa/matrimoni-unioni-civili-separazioni-e-divorzi-anno-2023/",
+     "accessed": "2026-11-11",
+     "supports": "184 207; 58,9%; 34,7/32,7; 20,0%→41,0%; libere unioni 440 000→1,6 mln"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ctx-nat-1995-2023-property-regime",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1995,
+   "period_end": 2023,
+   "context_type": "family_marriage",
+   "attribute": "marital_property_regime",
+   "title": "Раздельная собственность супругов",
+   "title_en": "Separate property in marriage",
+   "description": "Доля пар, выбирающих при браке режим раздельной собственности, выросла с 40,9% в 1995 г. до 62,7% в 2008 г. и 74,3% в 2023 г. (по умолчанию после реформы 1975 г. действует общность имущества).",
+   "description_en": "The share of couples choosing separation of property at marriage rose from 40.9% in 1995 to 62.7% in 2008 and 74.3% in 2023 (since the 1975 reform community of property has been the default).",
+   "statistics": [
+    {
+     "indicator": "separation_of_property_share",
+     "value": 40.9,
+     "unit": "% of marriages",
+     "year": 1995,
+     "area_id": "it",
+     "population": "браки, заключённые в Италии",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "separation_of_property_share",
+     "value": 62.7,
+     "unit": "% of marriages",
+     "year": 2008,
+     "area_id": "it",
+     "population": "браки, заключённые в Италии",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    },
+    {
+     "indicator": "separation_of_property_share",
+     "value": 74.3,
+     "unit": "% of marriages",
+     "year": 2023,
+     "area_id": "it",
+     "population": "браки, заключённые в Италии",
+     "method_note": "ISTAT",
+     "source_id": "it_istat"
+    }
+   ],
+   "source_ids": [
+    "it_istat",
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_istat",
+     "url": "https://www.istat.it/comunicato-stampa/matrimoni-unioni-civili-separazioni-e-divorzi-anno-2023/",
+     "accessed": "2026-11-11",
+     "supports": "separazione dei beni 40,9% 1995, 62,7% 2008, 74,3% 2023"
+    },
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Riforma_del_diritto_di_famiglia",
+     "accessed": "2026-11-11",
+     "supports": "comunione dei beni regime legale dal 1975"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ctx-nat-1949-1963-ina-casa",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1949,
+   "period_end": 1963,
+   "context_type": "housing",
+   "attribute": "public_housing",
+   "title": "Квартиры INA-Casa",
+   "title_en": "INA-Casa flats",
+   "description": "По плану INA-Casa в 1949–1963 гг. построено около 355 тыс. квартир (около 2 млн комнат) более чем в 5 тыс. коммун; за первые семь лет — 147 тыс. квартир.",
+   "description_en": "Under the INA-Casa plan about 355,000 dwellings (about 2 million rooms) were built in more than 5,000 municipalities in 1949–1963; 147,000 of them in the first seven years.",
+   "statistics": [
+    {
+     "indicator": "dwellings_built",
+     "value": 147000,
+     "unit": "dwellings",
+     "year": 1956,
+     "area_id": "it",
+     "population": "жильё по плану INA-Casa",
+     "method_note": "первые 7 лет",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "dwellings_built",
+     "value": 355000,
+     "unit": "dwellings",
+     "year": 1963,
+     "area_id": "it",
+     "population": "жильё по плану INA-Casa",
+     "method_note": "итого за 14 лет",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Piano_INA-Casa",
+     "accessed": "2026-11-11",
+     "supports": "147 000 / 355 000 alloggi; >5000 comuni"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Неграмотность около 1950 года",
+   "title_en": "Illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными (не умеющими читать и писать) были 12,9% жителей Италии; на севере доля составляла 1–8%, на юге — 19–32%.",
+   "description_en": "Around 1950, 12.9% of Italy's inhabitants were illiterate (unable to read and write); in the North the share was 1–8%, in the South 19–32%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 12.9,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it",
+     "population": "население (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo»",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "12,9% nel 1950; regioni 1–32%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-piemonte-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-piemonte",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Пьемонт: неграмотность около 1950 года",
+   "title_en": "Piedmont: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 3% жителей области Пьемонт при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 3% of the inhabitants of Piedmont were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 3,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-piemonte",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Piedmont: 3% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-lombardia-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-lombardia",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Ломбардия: неграмотность около 1950 года",
+   "title_en": "Lombardy: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 2% жителей области Ломбардия при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 2% of the inhabitants of Lombardy were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 2,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-lombardia",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Lombardy: 2% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-toscana-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-toscana",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Тоскана: неграмотность около 1950 года",
+   "title_en": "Tuscany: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 11% жителей области Тоскана при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 11% of the inhabitants of Tuscany were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 11,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-toscana",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Tuscany: 11% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-lazio-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-lazio",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Лацио: неграмотность около 1950 года",
+   "title_en": "Lazio: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 10% жителей области Лацио при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 10% of the inhabitants of Lazio were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 10,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-lazio",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Lazio: 10% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-campania-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-campania",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Кампания: неграмотность около 1950 года",
+   "title_en": "Campania: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 23% жителей области Кампания при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 23% of the inhabitants of Campania were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 23,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-campania",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Campania: 23% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-basilicata-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-basilicata",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Базиликата: неграмотность около 1950 года",
+   "title_en": "Basilicata: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 29% жителей области Базиликата при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 29% of the inhabitants of Basilicata were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 29,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-basilicata",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Basilicata: 29% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-sicilia-1950-illiteracy",
+   "country_code": "IT",
+   "location_id": "it-sicilia",
+   "period_start": 1950,
+   "period_end": 1951,
+   "context_type": "education",
+   "attribute": "illiteracy",
+   "title": "Сицилия: неграмотность около 1950 года",
+   "title_en": "Sicily: illiteracy around 1950",
+   "description": "Около 1950 г. неграмотными были около 24% жителей области Сицилия при среднем по Италии 12,9%.",
+   "description_en": "Around 1950 about 24% of the inhabitants of Sicily were illiterate, against an Italian average of 12.9%.",
+   "statistics": [
+    {
+     "indicator": "illiteracy_rate",
+     "value": 24,
+     "unit": "% of population",
+     "year": 1950,
+     "area_id": "it-sicilia",
+     "population": "население области (возраст по источнику не указан)",
+     "method_note": "статья «Analfabetismo», таблица по регионам",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Analfabetismo",
+     "accessed": "2026-11-11",
+     "supports": "Sicily: 24% (1950)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1997-tv-radio",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1995,
+   "period_end": 1999,
+   "context_type": "communication",
+   "attribute": "tv_radio_sets",
+   "title": "Телевизоры и радиоприёмники в 1990-е",
+   "title_en": "TV and radio sets in the 1990s",
+   "description": "По данным справочника ЦРУ, в 1997 г. в Италии было 30,5 млн телевизоров и 50,5 млн радиоприёмников.",
+   "description_en": "According to the CIA World Factbook, in 1997 Italy had 30.5 million television sets and 50.5 million radios.",
+   "statistics": [
+    {
+     "indicator": "television_sets",
+     "value": 30500000,
+     "unit": "sets",
+     "year": 1997,
+     "area_id": "it",
+     "population": "все телевизоры в стране",
+     "method_note": "CIA World Factbook по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "radio_sets",
+     "value": 50500000,
+     "unit": "sets",
+     "year": 1997,
+     "area_id": "it",
+     "population": "все радиоприёмники",
+     "method_note": "CIA World Factbook по статье",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Telecommunications_in_Italy",
+     "accessed": "2026-11-11",
+     "supports": "TV 30.5 mln, radio 50.5 mln (1997)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-2008-2019-internet-mobile",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 2008,
+   "period_end": 2019,
+   "context_type": "communication",
+   "attribute": "internet_mobile",
+   "title": "Интернет и мобильная связь",
+   "title_en": "Internet and mobile phones",
+   "description": "В 2008 г. в Италии было около 25 млн пользователей интернета. В 2019 г. насчитывалось 79,5 млн мобильных подписок — больше, чем жителей, — и 19,5 млн стационарных телефонных линий.",
+   "description_en": "In 2008 Italy had about 25 million internet users. In 2019 there were 79.5 million mobile subscriptions, more than the number of inhabitants, and 19.5 million fixed telephone lines.",
+   "statistics": [
+    {
+     "indicator": "internet_users",
+     "value": 24992000,
+     "unit": "persons",
+     "year": 2008,
+     "area_id": "it",
+     "population": "пользователи интернета",
+     "method_note": "CIA World Factbook по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "mobile_subscriptions",
+     "value": 79480000,
+     "unit": "subscriptions",
+     "year": 2019,
+     "area_id": "it",
+     "population": "мобильные подписки",
+     "method_note": "CIA World Factbook по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "fixed_lines",
+     "value": 19520000,
+     "unit": "lines",
+     "year": 2019,
+     "area_id": "it",
+     "population": "стационарные линии",
+     "method_note": "CIA World Factbook по статье",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Telecommunications_in_Italy",
+     "accessed": "2026-11-11",
+     "supports": "internet users 2008; mobile and fixed 2019"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-1990-2016-women-labour",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 1990,
+   "period_end": 2016,
+   "context_type": "women_employment",
+   "attribute": "female_labour",
+   "title": "Женщины на рынке труда",
+   "title_en": "Women in the labour market",
+   "description": "Доля женщин в рабочей силе выросла с 36,3% в 1990 г. до 42,1% в 2016 г. (данные Всемирного банка). В 2015 г. работали 47,8% женщин 15–64 лет против 66,5% мужчин.",
+   "description_en": "Women's share of the labour force rose from 36.3% in 1990 to 42.1% in 2016 (World Bank data). In 2015, 47.8% of women aged 15–64 were employed, against 66.5% of men.",
+   "statistics": [
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 36.3,
+     "unit": "%",
+     "year": 1990,
+     "area_id": "it",
+     "population": "рабочая сила",
+     "method_note": "Всемирный банк по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "women_share_of_labour_force",
+     "value": 42.1,
+     "unit": "%",
+     "year": 2016,
+     "area_id": "it",
+     "population": "рабочая сила",
+     "method_note": "Всемирный банк по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "employment_rate_women",
+     "value": 47.8,
+     "unit": "%",
+     "year": 2015,
+     "area_id": "it",
+     "population": "женщины 15–64 лет",
+     "method_note": "по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "employment_rate_men",
+     "value": 66.5,
+     "unit": "%",
+     "year": 2015,
+     "area_id": "it",
+     "population": "мужчины 15–64 лет",
+     "method_note": "по статье",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Italy",
+     "accessed": "2026-11-11",
+     "supports": "36.3% 1990, 42.1% 2016; 47.8% vs 66.5% 2015"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-nat-2020-women-graduates",
+   "country_code": "IT",
+   "location_id": "it",
+   "period_start": 2020,
+   "period_end": 2020,
+   "context_type": "education",
+   "attribute": "graduates_by_sex",
+   "title": "Женщины среди выпускников вузов",
+   "title_en": "Women among university graduates",
+   "description": "В 2020 г. женщины составили почти 60% выпускников итальянских университетов; вовремя окончили учёбу 60,2% женщин и 55,7% мужчин.",
+   "description_en": "In 2020 women made up almost 60% of Italian university graduates; 60.2% of women and 55.7% of men finished on time.",
+   "statistics": [
+    {
+     "indicator": "women_share_of_graduates",
+     "value": 60,
+     "unit": "% of graduates",
+     "year": 2020,
+     "area_id": "it",
+     "population": "выпускники университетов",
+     "method_note": "почти 60%, по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "on_time_graduation_women",
+     "value": 60.2,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "it",
+     "population": "выпускницы",
+     "method_note": "по статье",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "on_time_graduation_men",
+     "value": 55.7,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "it",
+     "population": "выпускники-мужчины",
+     "method_note": "по статье",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Italy",
+     "accessed": "2026-11-11",
+     "supports": "2020 ~60% graduates women; 60.2% vs 55.7% on time"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

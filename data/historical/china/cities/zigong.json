@@ -1,0 +1,685 @@
+{
+ "records": [
+  {
+   "id": "cn-zigong-1939-city-founded",
+   "title": "Создание города Цзыгун",
+   "title_en": "City of Zigong founded",
+   "start_date": "1939-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "1 сентября 1939 г. из соляных районов Цзылюцзин и Гунцзин и частей уездов Фушунь и Жун был образован город Цзыгун.",
+   "historical_summary_en": "On 1 September 1939 the city of Zigong was formed from the Ziliujing and Gongjing salt districts and parts of Fushun and Rong counties.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1939年9月1日 设市; 自流井、贡井 + 富顺、荣县 部分"
+    },
+    {
+     "source_id": "cn_sc_gov",
+     "url": "https://www.sc.gov.cn/10462/10580/10587/2018/5/31/10313906.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1939年8月省政府批准划出富顺、荣县产盐区设自贡市；9月1日自贡市政府成立"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-1939-air-raids",
+   "title": "Японские бомбардировки Цзыгуна",
+   "title_en": "Japanese air raids on Zigong",
+   "start_date": "1939-10-10",
+   "end_date": "1941-08-19",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "С 10 октября 1939 г. по 19 августа 1941 г. японская авиация бомбила Цзыгун; после того как 17 августа 1941 г. зенитчики сбили японский самолёт, налёты прекратились.",
+   "historical_summary_en": "Japanese aircraft bombed Zigong from 10 October 1939 to 19 August 1941; the raids stopped after an anti-aircraft unit shot down a Japanese plane on 17 August 1941.",
+   "affected_groups": [
+    "all_residents",
+    "miners"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "air_raid_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1939年10月10日—1941年8月19日 轰炸; 1941年8月17日 击落"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-zigong-1943-donation-drive",
+   "title": "Сбор пожертвований Фэн Юйсяна",
+   "title_en": "Feng Yuxiang's donation drive",
+   "start_date": "1943-11",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "В ноябре 1943 г. Фэн Юйсян начал в Цзыгуне кампанию пожертвований на войну; город стал первым среди городов-жертвователей.",
+   "historical_summary_en": "In November 1943 Feng Yuxiang launched a war-donation drive in Zigong, and the city became the top donor among the cities taking part.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [
+    "giving_for_the_front"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1943年11月 冯玉祥 献金运动; 献金第一"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-zigong-1945-surrender-news",
+   "title": "Известие о капитуляции Японии",
+   "title_en": "News of Japan's surrender",
+   "start_date": "1945-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В августе 1945 г. в Цзыгун пришло известие о капитуляции Японии.",
+   "historical_summary_en": "News of Japan's surrender reached Zigong in August 1945.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_war_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "民国34年（1945年）八月 日本投降消息传到自贡"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-zigong-1949-peaceful-takeover",
+   "title": "Мирный переход Цзыгуна",
+   "title_en": "Peaceful takeover of Zigong",
+   "start_date": "1949-12-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "3 декабря 1949 г. части НОАК вступили в Южную Сычуань, а в час ночи 6 декабря Цзыгун перешёл к ним мирно после того, как мэр заявил о поддержке коммунистов.",
+   "historical_summary_en": "PLA units entered southern Sichuan on 3 December 1949, and at 1 a.m. on 6 December Zigong passed to them peacefully after its mayor declared support for the Communists.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_era_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1949年12月3日 进入川南; 1949年12月6日凌晨1时 和平接管"
+    },
+    {
+     "source_id": "cn_sc_gov",
+     "url": "https://www.sc.gov.cn/10462/10580/10587/2018/5/31/10313906.shtml",
+     "accessed": "2026-11-12",
+     "supports": "自贡市解放，官方日期1949年12月5日（запись: ночь на 6 декабря; см. research-notes）"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-1958-chemical-base",
+   "title": "Курс на превращение Цзыгуна в химический центр",
+   "title_en": "Plan to make Zigong a chemical-industry base",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В начале 1958 г. провинция решила превратить Цзыгун в базу химической промышленности; в 1959 г. был достроен солевой завод Дэнгуань.",
+   "historical_summary_en": "In early 1958 the province resolved to turn Zigong into a chemical-industry base; the Dengguan salt plant was completed in 1959.",
+   "affected_groups": [
+    "industrial_workers",
+    "miners"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1958年初 化工基地; 1959年 邓关盐厂建成"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-zigong-1972-dinosaur-find",
+   "title": "Находка динозавров в Дашаньпу",
+   "title_en": "Dinosaur fossils found at Dashanpu",
+   "start_date": "1972-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В марте 1972 г. в Дашаньпу нашли позвонки динозавров; находка привела к созданию в городе музея динозавров.",
+   "historical_summary_en": "In March 1972 dinosaur vertebrae were found at Dashanpu; the find led to the creation of a dinosaur museum in the city.",
+   "affected_groups": [
+    "all_residents",
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "school_trip"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_wlt"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1972年3月 大山铺 恐龙脊椎; 恐龙博物馆"
+    },
+    {
+     "source_id": "cn_sc_wlt",
+     "url": "https://wlt.sc.gov.cn/scwlt/hydt/2024/9/8/96014b11c7594e9c98609f624588ed59.shtml",
+     "accessed": "2026-11-12",
+     "supports": "自贡大山铺恐龙化石群遗址最早发现于1972年"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-1983-counties-joined",
+   "title": "Уезды Жун и Фушунь в составе Цзыгуна",
+   "title_en": "Rong and Fushun counties join Zigong",
+   "start_date": "1983",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В апреле 1978 г. в подчинение Цзыгуна перешёл весь уезд Жун (и шесть коммун уезда Фушунь), в марте 1983 г. — весь уезд Фушунь.",
+   "historical_summary_en": "In April 1978 the whole of Rong County (and six communes of Fushun County) came under Zigong; in March 1983 the whole of Fushun County followed.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1979 荣县; 1983 富顺县"
+    },
+    {
+     "source_id": "cn_sc_gov",
+     "url": "https://www.sc.gov.cn/10462/10580/10587/2018/5/31/10313906.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1978年4月荣县全部及富顺县6个公社划归自贡；1983年3月富顺县全部划归自贡"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-1986-open-city",
+   "title": "Цзыгун — открытый и исторический город",
+   "title_en": "Zigong becomes an open and historic city",
+   "start_date": "1986-11-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "30 ноября 1986 г. Цзыгун стал городом, открытым для иностранцев, а 8 декабря 1986 г. получил статус государственного исторического города.",
+   "historical_summary_en": "On 30 November 1986 Zigong was opened to foreigners, and on 8 December 1986 it was designated a national historic city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1986年11月30日 开放城市; 1986年12月8日 历史文化名城"
+    },
+    {
+     "source_id": "cn_sc_gov",
+     "url": "https://www.sc.gov.cn/10462/10580/10587/2018/5/31/10313906.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1986年国务院颁定为国家历史文化名城，其后为国家对外开放城市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-1987-lantern-festival",
+   "title": "Первый ежегодный фестиваль фонарей",
+   "title_en": "First annual lantern festival",
+   "start_date": "1987-01-20",
+   "end_date": "1987-03-10",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "Фестиваль фонарей в Цзыгуне стал ежегодным с 1987 г.: первый прошёл с 20 января по 10 марта 1987 г.",
+   "historical_summary_en": "The Zigong lantern festival became an annual event in 1987; the first ran from 20 January to 10 March 1987.",
+   "affected_groups": [
+    "all_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sc_wlt"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1987年1月20日至3月10日 首届灯会"
+    },
+    {
+     "source_id": "cn_sc_wlt",
+     "url": "http://wlt.sc.gov.cn/scwlt/hydt/2021/5/14/89488785d57f4dc1931cd8894a864aa7.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1964年首届自贡灯会；1987年升级为“自贡国际恐龙灯会经贸交易会”"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-1992-high-tech-zone",
+   "title": "Зона высоких технологий",
+   "title_en": "High-tech zone approved",
+   "start_date": "1992-05-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "27 мая 1992 г. в Цзыгуне была утверждена зона высоких технологий; 22 июня 2011 г. она получила государственный статус.",
+   "historical_summary_en": "A high-tech zone was approved in Zigong on 27 May 1992; on 22 June 2011 it became a national-level zone.",
+   "affected_groups": [
+    "industrial_workers",
+    "scientists_engineers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1992年5月27日; 2011年6月22日 国家级"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-zigong-1997-flood",
+   "title": "Наводнение 1997 года",
+   "title_en": "Flood of 1997",
+   "start_date": "1997-06-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "27 июня 1997 г. Цзыгун пострадал от сильного наводнения.",
+   "historical_summary_en": "Zigong was hit by a major flood on 27 June 1997.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "1997年6月27日 特大洪灾"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-zigong-2006-well-drilling-heritage",
+   "title": "Техника бурения соляных скважин — нематериальное наследие",
+   "title_en": "Salt-well drilling listed as intangible heritage",
+   "start_date": "2006",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 2006 г. традиционная техника бурения соляных скважин Цзыгуна была внесена в список национального нематериального культурного наследия.",
+   "historical_summary_en": "In 2006 Zigong's traditional salt-well drilling techniques were listed as national intangible cultural heritage.",
+   "affected_groups": [
+    "miners",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_trade"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_cn"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "2006 凿井技艺 国家级非物质文化遗产"
+    },
+    {
+     "source_id": "cn_gov_cn",
+     "url": "https://www.gov.cn/zwgk/2006-06/02/content_297946.htm",
+     "accessed": "2026-11-12",
+     "supports": "国发〔2006〕18号（2006年5月20日）第一批国家级非遗名录：414 Ⅷ—64 自贡井盐深钻汲制技艺（四川省自贡市、大英县）"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-2019-rong-county-quake",
+   "title": "Землетрясение в уезде Жун",
+   "title_en": "Earthquake in Rong County",
+   "start_date": "2019-02-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "25 февраля 2019 г. в уезде Жун произошло землетрясение магнитудой 4,9.",
+   "historical_summary_en": "A magnitude-4.9 earthquake struck Rong County on 25 February 2019.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "earthquake_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_mem_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "2019年2月25日 荣县 4.9级"
+    },
+    {
+     "source_id": "cn_mem_gov",
+     "url": "https://www.mem.gov.cn/xw/bndt/201903/t20190306_229865.shtml",
+     "accessed": "2026-11-12",
+     "supports": "2019年2月全国自然灾害：2月24－25日四川自贡市荣县发生4.7级、4.3级和4.9级地震，2人死亡，5万余间房屋受损"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-zigong-2021-high-speed-rail",
+   "title": "Высокоскоростная дорога Мяньян — Лучжоу",
+   "title_en": "Mianyang–Luzhou high-speed rail section opens",
+   "start_date": "2021-06-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-zigong"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "28 июня 2021 г. открылся участок высокоскоростной дороги Мяньян — Лучжоу через Цзыгун; 20 октября 2021 г. был утверждён план интеграции Нэйцзяна и Цзыгуна.",
+   "historical_summary_en": "On 28 June 2021 the Mianyang–Luzhou high-speed rail section through Zigong opened; on 20 October 2021 the Neijiang–Zigong integration plan was approved.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_high_speed_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/自贡市",
+     "accessed": "2026-11-11",
+     "supports": "2021年6月28日 绵泸高铁; 2021年10月20日 内自同城化"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

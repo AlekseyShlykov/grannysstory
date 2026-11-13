@@ -1,0 +1,51 @@
+{
+ "records": [
+  {
+   "id": "fi-keski-suomi-1960-province-created",
+   "title": "Создание губернии Центральная Финляндия",
+   "title_en": "Central Finland Province created",
+   "start_date": "1960-03-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "fi-laani-keski-suomi"
+   ],
+   "category": "border_administrative",
+   "subcategory": "provinces",
+   "historical_summary": "1 марта 1960 г. была создана губерния Центральная Финляндия из частей губерний Куопио, Миккели, Хяме и Вааса с центром в Ювяскюля. 1 сентября 1997 г. её территория вошла в губернию Западная Финляндия.",
+   "historical_summary_en": "Central Finland Province was created on 1 March 1960 from parts of the Kuopio, Mikkeli, Häme and Vaasa provinces, with Jyväskylä as its centre. On 1 September 1997 its area became part of Western Finland Province.",
+   "affected_groups": [
+    "office_workers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_sv_wikipedia",
+    "fi_finlex"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_sv_wikipedia",
+     "url": "https://sv.wikipedia.org/wiki/Mellersta_Finlands_län",
+     "accessed": "2026-11-11",
+     "supports": "created 1.3.1960; source provinces; 1.9.1997 Västra Finlands län"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/en/legislation/1960/26",
+     "accessed": "2026-11-12",
+     "supports": "Decree 26/1960 establishing posts in the new provincial governments of North Karelia and Central Finland and abolishing posts in the Kuopio and Vaasa provincial governments"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

@@ -27,7 +27,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -35,10 +36,16 @@
           "url": "https://ru.wikipedia.org/wiki/Завод_имени_Лихачёва",
           "accessed": "2026-10-29",
           "supports": "02.08.1916; 01.11.1924"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/item/692980",
+          "accessed": "2026-11-13",
+          "supports": "издание «АМО ЗИЛ. 100 лет»: завод основан в 1916 году"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-moscow-1931-metro-decision",
@@ -584,7 +591,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -592,10 +600,16 @@
           "url": "https://ru.wikipedia.org/wiki/Московское_центральное_кольцо",
           "accessed": "2026-10-29",
           "supports": "10.09.2016"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/events/president/news/52869",
+          "accessed": "2026-11-13",
+          "supports": "10.09.2016: запуск пассажирского движения на Московском центральном кольце"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-moscow-2017-renovation",
@@ -629,7 +643,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -637,10 +652,16 @@
           "url": "https://ru.wikipedia.org/wiki/Программа_реновации_жилья_в_Москве",
           "accessed": "2026-10-29",
           "supports": "01.08.2017; 5171 дом; август 2018"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/42032",
+          "accessed": "2026-11-13",
+          "supports": "Федеральный закон от 01.07.2017 № 141-ФЗ — правовая основа программы реновации жилищного фонда Москвы"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-moscow-2023-big-circle-line",
@@ -667,7 +688,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_mosmetro"
+        "ru_mosmetro",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -675,6 +697,12 @@
           "url": "https://mosmetro.ru/about/history",
           "accessed": "2026-10-29",
           "supports": "даты по официальной хронологии"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/events/president/news/70618",
+          "accessed": "2026-11-13",
+          "supports": "1.03.2023: открыты девять последних станций Большой кольцевой линии"
         }
       ],
       "verification_status": "verified",

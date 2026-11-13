@@ -1,0 +1,858 @@
+{
+ "records": [
+  {
+   "id": "de-muenchen-1903-deutsches-museum",
+   "title": "Основание Немецкого музея",
+   "title_en": "Deutsches Museum founded",
+   "start_date": "1903",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "education",
+   "historical_summary": "В 1903 г. в Мюнхене был основан Немецкий музей науки и техники. В 1905 г. в городе жили 538 983 человека.",
+   "historical_summary_en": "In 1903 the Deutsches Museum of science and technology was founded in Munich. In 1905 the city had 538,983 inhabitants.",
+   "affected_groups": [
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "museum_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1903 Deutsches Museum; 1905 население"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1908-new-town-hall",
+   "title": "Новая ратуша и куранты",
+   "title_en": "New Town Hall and Glockenspiel",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1908 г. было завершено здание Новой ратуши на Мариенплац и установлены куранты-глокеншпиль. В 1911 г. открылся зоопарк Хеллабрунн.",
+   "historical_summary_en": "In 1908 the New Town Hall on Marienplatz was completed and the Glockenspiel installed. In 1911 Hellabrunn Zoo opened.",
+   "affected_groups": [
+    "children",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1908 Neues Rathaus, Glockenspiel; 1911 Hellabrunn"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1917-bmw",
+   "title": "Основание BMW",
+   "title_en": "BMW founded",
+   "start_date": "1917",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1917 г. в Мюнхене было основано предприятие BMW; в 1972 г. здесь открылась его штаб-квартира в характерной башне.",
+   "historical_summary_en": "In 1917 the BMW company was founded in Munich, and in 1972 its headquarters tower opened in the city.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1917 BMW; 1972 BMW Headquarters"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1918-revolution",
+   "title": "Революция в Мюнхене",
+   "title_en": "Revolution in Munich",
+   "start_date": "1918-11-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "political_change",
+   "historical_summary": "7 ноября 1918 г. в Мюнхене началась революция: Курт Эйснер провозгласил Народное государство Бавария. 21 февраля 1919 г. Эйснер был убит, после чего последовали долгие беспорядки.",
+   "historical_summary_en": "On 7 November 1918 revolution broke out in Munich and Kurt Eisner proclaimed the People's State of Bavaria. Eisner was shot dead on 21 February 1919, and lengthy unrest followed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "revolution_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1918",
+     "accessed": "2026-11-11",
+     "supports": "07.11.1918 Эйснер"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1919",
+     "accessed": "2026-11-11",
+     "supports": "21.02.1919 убийство Эйснера"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1919-soviet-republic",
+   "title": "Мюнхенская советская республика",
+   "title_en": "Munich Soviet Republic",
+   "start_date": "1919-04-07",
+   "end_date": "1919-05-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "7 апреля 1919 г. в Мюнхене была провозглашена советская республика, и правительство Баварии перебралось в Бамберг. 2 мая республика пала после уличных боёв, в которых погибли более 600 человек.",
+   "historical_summary_en": "On 7 April 1919 a soviet republic was proclaimed in Munich and the Bavarian government moved to Bamberg. On 2 May the republic fell after street fighting in which more than 600 people died.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1919",
+     "accessed": "2026-11-11",
+     "supports": "07.04.1919; 02.05.1919 >600 погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1923-beer-hall-putsch",
+   "title": "«Пивной путч»",
+   "title_en": "Beer Hall Putsch",
+   "start_date": "1923-11-08",
+   "end_date": "1923-11-09",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "political_change",
+   "historical_summary": "8–9 ноября 1923 г. попытка путча Гитлера в Мюнхене была подавлена у Фельдхеррнхалле.",
+   "historical_summary_en": "On 8–9 November 1923 Hitler's attempted putsch in Munich was crushed at the Feldherrnhalle.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1923",
+     "accessed": "2026-11-11",
+     "supports": "08./09.11.1923"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1925-transport-exhibition",
+   "title": "Транспортная выставка и электрификация вокзала",
+   "title_en": "Transport exhibition and electrified station",
+   "start_date": "1925",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1925 г. в Мюнхене прошла Немецкая транспортная выставка, а Главный вокзал был электрифицирован. В 1930 г. в городе жили 728 900 человек.",
+   "historical_summary_en": "In 1925 Munich hosted the German Transport Exhibition and the main station was electrified. In 1930 the city had 728,900 inhabitants.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1925 Verkehrsausstellung, Hauptbahnhof electrified; 1930 население"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1931-glaspalast-fire",
+   "title": "Пожар в Стеклянном дворце",
+   "title_en": "Glaspalast fire",
+   "start_date": "1931-06-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "disaster",
+   "historical_summary": "6 июня 1931 г. пожар уничтожил мюнхенский Стеклянный дворец и более 3000 произведений искусства.",
+   "historical_summary_en": "On 6 June 1931 a fire destroyed Munich's Glaspalast and more than 3,000 works of art.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fire_in_town"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1931",
+     "accessed": "2026-11-11",
+     "supports": "06.06.1931 >3000 работ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1933-dachau",
+   "title": "Концлагерь Дахау",
+   "title_en": "Dachau concentration camp",
+   "start_date": "1933-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "repression",
+   "historical_summary": "В марте 1933 г. рядом с Мюнхеном начал действовать концентрационный лагерь Дахау; в годы войны в самом городе существовали его филиалы и лагеря принудительного труда.",
+   "historical_summary_en": "In March 1933 the Dachau concentration camp began operating near Munich, and during the war subcamps and forced-labour camps existed in the city itself.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "March 1933 Dachau; 1942–1945 Moosach, Allach subcamps"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1939-riem-airport",
+   "title": "Аэропорт Мюнхен-Рим",
+   "title_en": "Munich-Riem Airport opens",
+   "start_date": "1939",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1939 г. открылся аэропорт Мюнхен-Рим; население города составляло 829 318 человек.",
+   "historical_summary_en": "In 1939 Munich-Riem Airport opened, and the city's population stood at 829,318.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1939 Riem; население 1939"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1940-bombing",
+   "title": "Бомбардировки Мюнхена",
+   "title_en": "Bombing of Munich",
+   "start_date": "1940-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В июне 1940 г. начались бомбардировки Мюнхена, продолжавшиеся до конца войны. В 1945 г. город заняли американские войска.",
+   "historical_summary_en": "The bombing of Munich began in June 1940 and continued until the end of the war. In 1945 the city was captured by American troops.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "June 1940 bombing begins; 1945 captured by Americans"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1949-first-postwar-oktoberfest",
+   "title": "Первый послевоенный Октоберфест",
+   "title_en": "First post-war Oktoberfest",
+   "start_date": "1949-09-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "17 сентября 1949 г. открылся первый с начала Второй мировой войны Октоберфест. В том же году в Мюнхене было основано Общество Фраунгофера.",
+   "historical_summary_en": "On 17 September 1949 the first Oktoberfest since the start of the Second World War opened. In the same year the Fraunhofer Society was founded in Munich.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fair_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1949.html",
+     "accessed": "2026-11-11",
+     "supports": "17.09.1949 Oktoberfest; 26.03.1949 Fraunhofer"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1958-million-city",
+   "title": "Мюнхен — город-миллионник",
+   "title_en": "Munich passes one million inhabitants",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1958 г. население Мюнхена превысило миллион (1 011 878 человек), а к 1970 г. выросло до 1 311 978. В феврале 1958 г. в мюнхенском аэропорту разбился самолёт с футболистами «Манчестер Юнайтед».",
+   "historical_summary_en": "In 1958 Munich's population passed one million (1,011,878), rising to 1,311,978 by 1970. In February 1958 a plane carrying Manchester United footballers crashed at Munich airport.",
+   "affected_groups": [
+    "migrants",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "moving_to_the_city"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1958 1 011 878; 1970 1 311 978; 06.02.1958 air disaster"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1965-olympic-bid",
+   "title": "Мюнхен решает бороться за Олимпиаду",
+   "title_en": "Munich decides to bid for the Olympics",
+   "start_date": "1965-11-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "sport",
+   "historical_summary": "29 ноября 1965 г. Мюнхен решил выдвинуть свою кандидатуру на Олимпийские игры 1972 г.",
+   "historical_summary_en": "On 29 November 1965 Munich decided to bid for the 1972 Olympic Games.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "29.11.1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1971-u-bahn",
+   "title": "Метро и городская электричка",
+   "title_en": "U-Bahn and S-Bahn open",
+   "start_date": "1971",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1971 г. в Мюнхене начало работать метро, а в 1972 г. — сеть городских электричек S-Bahn.",
+   "historical_summary_en": "In 1971 the Munich U-Bahn began operating, followed in 1972 by the S-Bahn network.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1971 U-Bahn; 1972 S-Bahn"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1972-olympics",
+   "title": "Олимпийские игры в Мюнхене",
+   "title_en": "Munich Olympic Games",
+   "start_date": "1972-08-26",
+   "end_date": "1972-09-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "sport",
+   "historical_summary": "С 26 августа по 11 сентября 1972 г. в Мюнхене прошли летние Олимпийские игры. 5–6 сентября нападение группы «Чёрный сентябрь» на израильскую команду закончилось гибелью многих людей.",
+   "historical_summary_en": "From 26 August to 11 September 1972 Munich hosted the Summer Olympic Games. On 5–6 September an attack by the Black September group on the Israeli team ended with many dead.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_tv_at_the_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1972.html",
+     "accessed": "2026-11-11",
+     "supports": "26.08–11.09.1972; 05.–06.09 теракт"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-1983-buga-gasteig",
+   "title": "Федеральная садовая выставка и Гастайг",
+   "title_en": "Federal Garden Show and Gasteig",
+   "start_date": "1983",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1983 г. Мюнхен принимал Федеральную садовую выставку, а в 1985 г. открылся культурный центр Гастайг.",
+   "historical_summary_en": "In 1983 Munich hosted the Federal Garden Show, and in 1985 the Gasteig cultural centre opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1983 Bundesgartenschau; 1985 Gasteig"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-1992-new-airport",
+   "title": "Новый аэропорт Мюнхена",
+   "title_en": "New Munich Airport",
+   "start_date": "1992",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1992 г. открылся новый аэропорт Мюнхена, заменивший Рим; на месте старого аэродрома в 2005 г. прошла Федеральная садовая выставка.",
+   "historical_summary_en": "In 1992 the new Munich Airport opened, replacing Riem, and the Federal Garden Show was held on the old airfield in 2005.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "1992 Munich Airport"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/2005.html",
+     "accessed": "2026-11-11",
+     "supports": "28.04.2005 BUGA на бывшем аэродроме Рим"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-2002-pinakothek-der-moderne",
+   "title": "Пинакотека современности",
+   "title_en": "Pinakothek der Moderne opens",
+   "start_date": "2002-09-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "16 сентября 2002 г. после шести лет строительства открылась Пинакотека современности.",
+   "historical_summary_en": "On 16 September 2002 the Pinakothek der Moderne opened after six years of construction.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "museum_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/2002.html",
+     "accessed": "2026-11-11",
+     "supports": "16.09.2002"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-muenchen-2005-allianz-arena",
+   "title": "Стадион «Альянц Арена»",
+   "title_en": "Allianz Arena opens",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "sport",
+   "historical_summary": "В 2005 г. открылся стадион «Альянц Арена». В 2013 г. в Мюнхене жили 1 407 836 человек.",
+   "historical_summary_en": "In 2005 the Allianz Arena stadium opened. In 2013 Munich had 1,407,836 inhabitants.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "2005 Allianz Arena; 2013 население"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-muenchen-2015-refugees-arrive",
+   "title": "Прибытие беженцев в Мюнхен",
+   "title_en": "Refugees arrive in Munich",
+   "start_date": "2015",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-muenchen"
+   ],
+   "category": "migration",
+   "historical_summary": "В 2015 г. через Мюнхен прибыли многие беженцы; в том же году открылся Центр документации истории национал-социализма.",
+   "historical_summary_en": "In 2015 many refugees arrived via Munich, and in the same year the Documentation Centre for the History of National Socialism opened.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "volunteering_for_newcomers",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Munich",
+     "accessed": "2026-11-11",
+     "supports": "2015 migrants arrive; NS-Dokumentationszentrum"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

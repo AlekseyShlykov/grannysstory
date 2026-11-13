@@ -469,7 +469,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -477,10 +478,16 @@
      "url": "https://fr.wikipedia.org/wiki/La_Part-Dieu",
      "accessed": "2026-10-29",
      "supports": "1972 bibliothèque ouverte au public; 1957 terrain cédé"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://sites.ina.fr/lyon-partdieu/focus/chapitre/1/media/LXC9706184450",
+     "accessed": "2026-11-13",
+     "supports": "Album INA Lyon Part-Dieu: «La nouvelle bibliothèque de la Part-Dieu», reportage du 6 décembre 1972"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-lyon-1974-metro-line-c",
@@ -543,7 +550,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -551,10 +559,16 @@
      "url": "https://fr.wikipedia.org/wiki/La_Part-Dieu",
      "accessed": "2026-10-29",
      "supports": "centre commercial inauguré 8 septembre 1975; auditorium"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://sites.ina.fr/lyon-partdieu/focus/chapitre/1/media/LXC9706184450",
+     "accessed": "2026-11-13",
+     "supports": "Album INA Lyon Part-Dieu: «Ouverture du centre commercial de la Part-Dieu», reportage du 8 septembre 1975"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-lyon-1978-metro",
@@ -581,7 +595,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -589,10 +604,16 @@
      "url": "https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Lyon",
      "accessed": "2026-10-29",
      "supports": "inauguré le 28 avril 1978 lignes A et B"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/video/caa7800641001/inauguration-du-metro-de-lyon-par-le-president-valery-giscard-d-estaing",
+     "accessed": "2026-11-13",
+     "supports": "TF1 Actualités du 28 avril 1978: inauguration de la ligne A du métro de Lyon par Valéry Giscard d'Estaing"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-lyon-1983-part-dieu-station",
@@ -617,7 +638,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -631,10 +653,16 @@
      "url": "https://fr.wikipedia.org/wiki/La_Part-Dieu",
      "accessed": "2026-10-29",
      "supports": "gare 1978-1983"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://sites.ina.fr/lyon-partdieu/focus/chapitre/1/media/LXC9706184450",
+     "accessed": "2026-11-13",
+     "supports": "Album INA Lyon Part-Dieu: visite de la nouvelle gare de la Part-Dieu le 13 juin 1983, inauguration le 24 octobre 1983"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-lyon-1991-metro-line-d",
@@ -695,7 +723,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -703,10 +732,16 @@
      "url": "https://fr.wikipedia.org/wiki/Tramway_de_Lyon",
      "accessed": "2026-10-29",
      "supports": "T1 T2 2 janvier 2001"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/video/cab01001004/deux-nouvelles-lignes-de-tramway-a-lyon",
+     "accessed": "2026-11-13",
+     "supports": "France 2, 2 janvier 2001: deux nouvelles lignes de tramway ouvertes au public à Lyon"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-lyon-2010-montluc-memorial",
@@ -767,7 +802,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "en_wikipedia"
+    "en_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -775,10 +811,16 @@
      "url": "https://en.wikipedia.org/wiki/Lyon",
      "accessed": "2026-10-29",
      "supports": "Metropolis of Lyon since 2015, 58 municipalities; 1 January 2015"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000028526403",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 2014-58, art. 26: création de la métropole de Lyon en lieu et place de la communauté urbaine; transferts à compter du 1er janvier 2015"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

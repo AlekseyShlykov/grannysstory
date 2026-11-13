@@ -1,0 +1,453 @@
+{
+ "records": [
+  {
+   "id": "it-nat-1921-us-quota-acts",
+   "title": "Квоты США закрывают главный путь эмиграции",
+   "title_en": "US quotas close the main emigration route",
+   "start_date": "1921",
+   "end_date": "1924",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "migration",
+   "historical_summary": "Принятые в США закон о чрезвычайных квотах 1921 г. и иммиграционный закон 1924 г. резко ограничили въезд, в том числе из Италии. Одновременно фашистское правительство в 1920–1930-е гг. принимало меры, чтобы сдерживать эмиграцию.",
+   "historical_summary_en": "The United States Emergency Quota Act of 1921 and the Immigration Act of 1924 sharply restricted entry, including from Italy. At the same time, in the 1920s and 1930s the fascist government took steps to curb emigration.",
+   "affected_groups": [
+    "migrants",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "emigration_letters"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Emigrazione_italiana",
+     "accessed": "2026-11-11",
+     "supports": "Emergency Quota Act 1921, Immigration Act 1924 как ограничения; меры фашизма против эмиграции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1922-march-on-rome",
+   "title": "Поход на Рим и приход фашистов к власти",
+   "title_en": "March on Rome and fascist takeover",
+   "title_original": "Marcia su Roma",
+   "start_date": "1922-10-28",
+   "end_date": "1922-10-30",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "28 октября 1922 г. тысячи фашистов двинулись на Рим; 30 октября король Виктор Эммануил III поручил Бенито Муссолини сформировать правительство. Так началось двадцатилетие фашистского режима.",
+   "historical_summary_en": "On 28 October 1922 thousands of fascists marched on Rome; on 30 October King Victor Emmanuel III asked Benito Mussolini to form a government. This began the twenty years of the fascist regime.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "political_silence_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Marcia_su_Roma",
+     "accessed": "2026-11-11",
+     "supports": "28.10.1922 марш; 30.10 поручение Муссолини"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000278/28-ottobre-1922-marcia-roma",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «28 ottobre 1922 - La Marcia su Roma»: Mussolini a Roma su chiamata del Re"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1924-first-radio",
+   "title": "Начало радиовещания",
+   "title_en": "Radio broadcasting begins",
+   "title_original": "Unione Radiofonica Italiana",
+   "start_date": "1924-10-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "media_communication",
+   "historical_summary": "6 октября 1924 г. Итальянский радиосоюз (URI), основанный в Турине в августе, передал первое официальное объявление и вечерний концерт. В 1927 г. URI была преобразована в EIAR.",
+   "historical_summary_en": "On 6 October 1924 the Italian Radio Union (URI), founded in Turin that August, broadcast its first official announcement and an evening concert. In 1927 the URI was turned into the EIAR.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_radio_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Unione_Radiofonica_Italiana",
+     "accessed": "2026-11-11",
+     "supports": "URI основан 27.08.1924; первое объявление 6.10.1924; R.D. 17.11.1927 → EIAR"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1925-onmi",
+   "title": "Создание ОНМИ — службы охраны материнства и детства",
+   "title_en": "ONMI maternity and childhood agency created",
+   "title_original": "Opera nazionale maternità e infanzia",
+   "start_date": "1925-12-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Законом от 10 декабря 1925 г. было учреждено Национальное ведомство материнства и детства (ONMI). Оно открывало консультации для матерей, ясли при фабриках и столовые для кормящих матерей и было упразднено 31 декабря 1975 г.",
+   "historical_summary_en": "A law of 10 December 1925 established the National Agency for Maternity and Childhood (ONMI). It ran clinics for mothers, nurseries near factories and canteens for nursing mothers, and was abolished on 31 December 1975.",
+   "affected_groups": [
+    "mothers",
+    "children",
+    "women"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "baby_clinic_visit",
+    "factory_nursery"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Opera_nazionale_maternit%C3%A0_e_infanzia",
+     "accessed": "2026-11-11",
+     "supports": "закон 10.12.1925; консультории, asili nido, refettori materni; упразднено 31.12.1975"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1925-12-10;2277",
+     "accessed": "2026-11-12",
+     "supports": "Legge 10 dicembre 1925 n. 2277 «Protezione e assistenza della maternità e dell'infanzia»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1929-lateran-pacts",
+   "title": "Латеранские соглашения",
+   "title_en": "Lateran Pacts",
+   "title_original": "Patti lateranensi",
+   "start_date": "1929-02-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "religion",
+   "historical_summary": "11 февраля 1929 г. Святой Престол и Королевство Италия подписали Латеранские соглашения: был создан город-государство Ватикан, католицизм признан государственной религией. Италия обязалась согласовать законы о браке с церковным правом.",
+   "historical_summary_en": "On 11 February 1929 the Holy See and the Kingdom of Italy signed the Lateran Pacts: the Vatican City State was created and Catholicism was recognised as the state religion. Italy undertook to bring its marriage laws into line with canon law.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "church_wedding",
+    "religion_at_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Patti_lateranensi",
+     "accessed": "2026-11-11",
+     "supports": "подписаны 11.02.1929; Ватикан; religione di Stato; брак"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1929-05-27;810",
+     "accessed": "2026-11-12",
+     "supports": "Legge 27 maggio 1929 n. 810 об исполнении Договора и Конкордата, подписанных в Риме 11.02.1929"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1933-iri-founded",
+   "title": "Создание ИРИ — государственного холдинга",
+   "title_en": "IRI state holding company created",
+   "title_original": "Istituto per la Ricostruzione Industriale",
+   "start_date": "1933-01-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "Декретом-законом от 23 января 1933 г. был создан Институт промышленной реконструкции (IRI), чтобы спасти банки и связанные с ними предприятия после кризиса 1929 г. К концу 1934 г. он прямо или косвенно контролировал 21,5% капитала итальянских акционерных обществ.",
+   "historical_summary_en": "A decree-law of 23 January 1933 created the Institute for Industrial Reconstruction (IRI) to rescue banks and the companies tied to them after the 1929 crisis. By the end of 1934 it directly or indirectly controlled 21.5% of the capital of Italian joint-stock companies.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "state_company_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Istituto_per_la_Ricostruzione_Industriale",
+     "accessed": "2026-11-11",
+     "supports": "R.D.L. 23.01.1933 n. 5; спасение банков после 1929; 21,49% капитала к концу 1934"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1933-01-23;5",
+     "accessed": "2026-11-12",
+     "supports": "RDL 23 gennaio 1933 n. 5 об учреждении IRI в Риме"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1936-topolino",
+   "title": "«Тополино» — первый массовый малолитражный FIAT",
+   "title_en": "The Topolino, FIAT's first mass small car",
+   "start_date": "1936-06-15",
+   "end_date": "1955",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "15 июня 1936 г. в продажу поступил малолитражный автомобиль Fiat 500 «Тополино» по цене 8900 лир. До 1955 г. FIAT выпустил около 520 тыс. таких машин.",
+   "historical_summary_en": "On 15 June 1936 the Fiat 500 'Topolino' small car went on sale at a price of 8,900 lire. FIAT built about 520,000 of them up to 1955.",
+   "affected_groups": [
+    "consumers",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_car_in_family",
+    "sunday_drive"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_mauto"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Fiat_500_Topolino",
+     "accessed": "2026-11-11",
+     "supports": "продажи с 15.06.1936; 8900 лир; 1936–1955; 519 847 шт. FIAT"
+    },
+    {
+     "source_id": "it_mauto",
+     "url": "https://www.museoauto.com/collezione/fiat-500-topolino/",
+     "accessed": "2026-11-12",
+     "supports": "Fiat 500 «Topolino», nata nel 1936, costava 8900 lire; prodotta in tre serie fino al 1955 in quasi 520.000 esemplari"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1938-racial-laws",
+   "title": "Расовые законы",
+   "title_en": "Racial laws",
+   "title_original": "Leggi razziali",
+   "start_date": "1938-11-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "repression",
+   "historical_summary": "Декретом от 5 сентября 1938 г. еврейские учащиеся и преподаватели были исключены из государственных школ, а декрет-закон № 1728 от 17 ноября 1938 г. запретил смешанные браки и работу евреев в государственных учреждениях. Законы отменены на юге страны в январе 1944 г., на севере действовали до апреля 1945 г.",
+   "historical_summary_en": "A decree of 5 September 1938 expelled Jewish pupils and teachers from state schools, and decree-law no. 1728 of 17 November 1938 banned mixed marriages and Jewish employment in public bodies. The laws were repealed in the south in January 1944 but remained in force in the north until April 1945.",
+   "affected_groups": [
+    "jewish_population",
+    "school_pupils",
+    "teachers"
+   ],
+   "potential_impacts": [
+    "school_change",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "expelled_from_school"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Leggi_razziali_fasciste",
+     "accessed": "2026-11-11",
+     "supports": "R.D.L. 5.09.1938 n. 1390; R.D.L. 17.11.1938 n. 1728; отмена 20.01.1944; RSI до апреля 1945"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1938-09-05;1390",
+     "accessed": "2026-11-12",
+     "supports": "RD 5 settembre 1938 n. 1390 о «защите расы» в фашистской школе"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1938-11-17;1728",
+     "accessed": "2026-11-12",
+     "supports": "RDL 17 novembre 1938 n. 1728 «Provvedimenti per la difesa della razza italiana»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1939-anti-urbanism-law",
+   "title": "Закон «против урбанизма» ограничивает переезд в города",
+   "title_en": "Law 'against urbanism' restricts moving to cities",
+   "title_original": "Provvedimenti contro l'urbanesimo",
+   "start_date": "1939-07-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "migration",
+   "historical_summary": "Закон № 1092 от 6 июля 1939 г. «Меры против урбанизма» вступил в силу 24 августа 1939 г. и ограничивал переселение в города; найм работников без требуемого разрешения карался. Закон был отменён лишь в 1961 г.",
+   "historical_summary_en": "Law no. 1092 of 6 July 1939, 'Measures against urbanism', came into force on 24 August 1939 and restricted migration to the cities; hiring workers without the required authorisation was punishable. The law was repealed only in 1961.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "moving_north_for_work",
+    "living_without_residence_papers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_cortecost",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/eli/id/1939/08/09/039U1092/CONSOLIDATED/20091216",
+     "accessed": "2026-11-11",
+     "supports": "закон 6.07.1939 n. 1092, в силе с 24.08.1939"
+    },
+    {
+     "source_id": "it_cortecost",
+     "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1961/10",
+     "accessed": "2026-11-11",
+     "supports": "найм без разрешения (ст. 2, 10); отменён законом 10.02.1961 n. 5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

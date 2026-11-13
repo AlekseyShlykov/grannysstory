@@ -1,0 +1,1354 @@
+{
+ "records": [
+  {
+   "id": "tr-ctx-1927-1960-cumra-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-cumra",
+   "period_start": 1927,
+   "period_end": 1960,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Чумра: город и сёла, 1927–1960",
+   "title_en": "Çumra: town and villages, 1927–1960",
+   "description": "В 1927–1960 гг. более 85% жителей района Чумра жили в сёлах; в самом городке в 1927 г. было около 2,6 тыс. человек.",
+   "description_en": "In 1927–1960 more than 85% of Çumra district's residents lived in villages; the town itself had about 2,600 people in 1927.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 37066,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 2569,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 34497,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 38214,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 4228,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 33986,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 45075,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 6475,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 38600,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 55585,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 7052,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 48533,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1970-2025-cumra-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-cumra",
+   "period_start": 1970,
+   "period_end": 2025,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Чумра: город и сёла, 1970–2025",
+   "title_en": "Çumra: town and villages, 1970–2025",
+   "description": "Доля горожан в районе росла с 23% (1970) до 40% (2000); в 1990 г. из района выделены два новых района, а с 2013 г. сёла считаются кварталами метрополии.",
+   "description_en": "The urban share in the district rose from 23% (1970) to 40% (2000); two new districts were carved out in 1990, and since 2013 the villages count as neighbourhoods of the metropolis.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 69107,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 15965,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 53142,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 74243,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 20919,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 53324,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 74040,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 28781,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 45259,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 104576,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 42308,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 62268,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 68803,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "tr-cumra",
+     "population": "население района Чумра",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Çumra",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1927-1960-pasinler-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-pasinler",
+   "period_start": 1927,
+   "period_end": 1965,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Пасинлер: город и сёла, 1927–1965",
+   "title_en": "Pasinler: town and villages, 1927–1965",
+   "description": "До 1960-х около 80–90% жителей района жили в сёлах; падение 1955 г. связано с выделением района Хорасан. В 1965 г. грамотными были 13 129 из 41 917 жителей.",
+   "description_en": "Until the 1960s some 80–90% of the district's people lived in villages; the drop in 1955 reflects the creation of Horasan district. In 1965, 13,129 of 41,917 residents were literate.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 34567,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 3166,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 31401,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 65125,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 8015,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 57110,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 35937,
+     "unit": "persons",
+     "year": 1955,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 6939,
+     "unit": "persons",
+     "year": 1955,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 28998,
+     "unit": "persons",
+     "year": 1955,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 41917,
+     "unit": "persons",
+     "year": 1965,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 9277,
+     "unit": "persons",
+     "year": 1965,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 32640,
+     "unit": "persons",
+     "year": 1965,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1970-2020-pasinler-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-pasinler",
+   "period_start": 1970,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Пасинлер: сокращение населения, 1970–2020",
+   "title_en": "Pasinler: population decline, 1970–2020",
+   "description": "После пика 1980 г. (62 тыс.) население района сократилось до 28,5 тыс. в 2020 г.; часть падения объясняется выделением района Кёпрюкёй в 1990 г.",
+   "description_en": "After peaking in 1980 (62,000), the district's population fell to 28,500 by 2020; part of the decline reflects the creation of Köprüköy district in 1990.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 45880,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 11166,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 34714,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 61984,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 19752,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 42232,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 42991,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 19144,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 23847,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 44663,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 22787,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 21876,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 31763,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 13513,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 18250,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 28513,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "tr-pasinler",
+     "population": "население района Пасинлер",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1927-1985-zonguldak-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-zonguldak",
+   "period_start": 1927,
+   "period_end": 1985,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Зонгулдак: рост угольного района, 1927–1985",
+   "title_en": "Zonguldak: growth of a coal district, 1927–1985",
+   "description": "Население центрального района выросло в 5,5 раза за 1927–1985 гг.; около половины жителей по-прежнему жили в шахтёрских сёлах вокруг города.",
+   "description_en": "The central district's population grew 5.5-fold in 1927–1985; about half of its residents still lived in mining villages around the town.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 45258,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 11947,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 33311,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 86874,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 35722,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 51152,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 173217,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 77135,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 96082,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 250164,
+     "unit": "persons",
+     "year": 1985,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 117879,
+     "unit": "persons",
+     "year": 1985,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 132285,
+     "unit": "persons",
+     "year": 1985,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1990-2025-zonguldak-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-zonguldak",
+   "period_start": 1990,
+   "period_end": 2025,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Зонгулдак: сокращение, 1990–2025",
+   "title_en": "Zonguldak: decline, 1990–2025",
+   "description": "С 1990 г. население района сокращалось; резкое падение после 2012 г. связано с выделением районов Козлу и Килимли.",
+   "description_en": "From 1990 the district's population declined; the sharp fall after 2012 reflects the creation of Kozlu and Kilimli districts.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 249610,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 116725,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 132885,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 218422,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 104276,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 114146,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 215565,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 109081,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 106484,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 115279,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 99291,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 15988,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "tr-zonguldak",
+     "population": "население центрального района Зонгулдак, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1927-1985-konya-urban-rural",
+   "country_code": "TR",
+   "location_id": "tr-konya",
+   "period_start": 1927,
+   "period_end": 1985,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Конья: город и сёла центрального района, 1927–1985",
+   "title_en": "Konya: town and villages of the central district, 1927–1985",
+   "description": "До 1950 г. в центральном районе Коньи горожан и сельских жителей было примерно поровну; к 1985 г. горожане составляли 84%.",
+   "description_en": "Until 1950 the central district of Konya had roughly equal numbers of town and village residents; by 1985 town dwellers made up 84%.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 102906,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 47496,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 55410,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 129407,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 64434,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 64973,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 292560,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 200464,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 92096,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 521287,
+     "unit": "persons",
+     "year": 1985,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи",
+     "method_note": "перепись/ADNKS по таблице статьи",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 439181,
+     "unit": "persons",
+     "year": 1985,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, центр района/города",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 82106,
+     "unit": "persons",
+     "year": 1985,
+     "area_id": "tr-konya",
+     "population": "население центрального района Коньи, сёла",
+     "method_note": "перепись",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности населения по годам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1927-2012-bursa-census",
+   "country_code": "TR",
+   "location_id": "tr-bursa",
+   "period_start": 1927,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "census_population",
+   "title": "Бурса по переписям 1927–2012",
+   "title_en": "Bursa in the censuses, 1927–2012",
+   "description": "Население Бурсы (по таблице переписей в статье о городе) выросло с 127 тыс. в 1927 г. до 607 тыс. в 1980 г. и почти 2 млн в 2012 г.",
+   "description_en": "Bursa's population (per the census table in the article on the city) grew from 127,000 in 1927 to 607,000 in 1980 and almost 2 million in 2012.",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 127251,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-bursa",
+     "population": "население города/метрополии по таблице статьи (граница менялась)",
+     "method_note": "перепись/ADNKS",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 183745,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-bursa",
+     "population": "население города/метрополии по таблице статьи (граница менялась)",
+     "method_note": "перепись/ADNKS",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 266884,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "tr-bursa",
+     "population": "население города/метрополии по таблице статьи (граница менялась)",
+     "method_note": "перепись/ADNKS",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 607221,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "tr-bursa",
+     "population": "население города/метрополии по таблице статьи (граница менялась)",
+     "method_note": "перепись/ADNKS",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 1194687,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-bursa",
+     "population": "население города/метрополии по таблице статьи (граница менялась)",
+     "method_note": "перепись/ADNKS",
+     "source_id": "tr_tr_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 1983780,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-bursa",
+     "population": "население города/метрополии по таблице статьи (граница менялась)",
+     "method_note": "перепись/ADNKS",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "таблица численности 1927–2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1914-2017-istanbul-population",
+   "country_code": "TR",
+   "location_id": "tr-istanbul",
+   "period_start": 1914,
+   "period_end": 2017,
+   "context_type": "demography",
+   "attribute": "city_population",
+   "title": "Население Стамбула 1914–2017",
+   "title_en": "Istanbul's population 1914–2017",
+   "description": "Население Стамбула сократилось с 1,125 млн (1914) до 789 тыс. (1940), затем выросло до 1 млн (1950), 2,3 млн (1965), 10 млн (2000) и 15 млн (агломерация, 2017).",
+   "description_en": "Istanbul's population fell from 1.125 million (1914) to 789,000 (1940), then rose to 1 million (1950), 2.3 million (1965), 10 million (2000) and 15 million (agglomeration, 2017).",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 1125000,
+     "unit": "persons",
+     "year": 1914,
+     "area_id": "tr-istanbul",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 789346,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "tr-istanbul",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 1000022,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-istanbul",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 2293823,
+     "unit": "persons",
+     "year": 1965,
+     "area_id": "tr-istanbul",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 10018735,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "tr-istanbul",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 15029231,
+     "unit": "persons",
+     "year": 2017,
+     "area_id": "tr-istanbul",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "население 1914–2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-ctx-1924-2017-ankara-population",
+   "country_code": "TR",
+   "location_id": "tr-ankara",
+   "period_start": 1924,
+   "period_end": 2017,
+   "context_type": "demography",
+   "attribute": "city_population",
+   "title": "Население Анкары 1924–2017",
+   "title_en": "Ankara's population 1924–2017",
+   "description": "Из городка примерно в 35 тыс. жителей (1924) столица выросла до 287 тыс. (1950), 1,46 млн (1973) и 5,4 млн (агломерация, 2017).",
+   "description_en": "From a town of about 35,000 (1924) the capital grew to 287,000 (1950), 1.46 million (1973) and 5.4 million (agglomeration, 2017).",
+   "statistics": [
+    {
+     "indicator": "population_total",
+     "value": 35000,
+     "unit": "persons",
+     "year": 1924,
+     "area_id": "tr-ankara",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 44553,
+     "unit": "persons",
+     "year": 1927,
+     "area_id": "tr-ankara",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 286781,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "tr-ankara",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 1461345,
+     "unit": "persons",
+     "year": 1973,
+     "area_id": "tr-ankara",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 3953344,
+     "unit": "persons",
+     "year": 2007,
+     "area_id": "tr-ankara",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "indicator": "population_total",
+     "value": 5445026,
+     "unit": "persons",
+     "year": 2017,
+     "area_id": "tr-ankara",
+     "population": "население города (границы и методы меняются)",
+     "method_note": "по хронологии en.wikipedia",
+     "source_id": "tr_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Ankara",
+     "accessed": "2026-11-11",
+     "supports": "население 1924–2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

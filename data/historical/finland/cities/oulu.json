@@ -1,0 +1,947 @@
+{
+ "records": [
+  {
+   "id": "fi-oulu-1901-tervahovi-fire",
+   "title": "Пожар смоляного двора: конец эпохи дёгтя",
+   "title_en": "Tar yard fire ends the tar era",
+   "start_date": "1901",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1901 г. сгорел смоляной двор (Tervahovi), что положило конец эпохе оулуских торговцев дёгтем. В 1900 г. в городе жили 16 306 человек.",
+   "historical_summary_en": "In 1901 the tar yard (Tervahovi) burned down, ending the era of Oulu's tar merchants. The town had 16,306 inhabitants in 1900.",
+   "affected_groups": [
+    "urban_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1901 Tervahovi burned; 1900 population 16,306"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu",
+     "accessed": "2026-11-12",
+     "supports": "City of Oulu history: the Tervahovi tar storage site in Toppila burned in 1901"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1903-iron-industry",
+   "title": "Основание Oulun rautateollisuus",
+   "title_en": "Oulun rautateollisuus founded",
+   "start_date": "1903",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1903 г. в Оулу основан металлический завод Oulun rautateollisuus; в 1900 г. — лесопилка Варъякка, в 1912 г. начала работу Ab Uleå Oy.",
+   "historical_summary_en": "The ironworks Oulun rautateollisuus was founded in 1903; the Varjakka sawmill had been founded in 1900, and Ab Uleå Oy began operating in 1912.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1900 Varjakka; 1903 rautateollisuus; 1912 Uleå"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1915-merijal",
+   "title": "Кондитерская фабрика Merijal",
+   "title_en": "Merijal confectionery founded",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1915 г. в Туйре была основана кондитерская фабрика Merijal; в 1934 г. она выпустила пастилки «Тервалейона». В 1996 г. фабрику закрыл концерн Leaf.",
+   "historical_summary_en": "The Merijal confectionery was founded in Tuira in 1915 and launched the Tervaleijona pastille in 1934. Leaf closed the factory in 1996.",
+   "affected_groups": [
+    "industrial_workers",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sweets_from_the_factory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1915 Merijal; 1934 Tervaleijona; 1996 closed by Leaf"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1916-fire",
+   "title": "Пожар уничтожил квартал",
+   "title_en": "Fire destroys a city block",
+   "start_date": "1916",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "В 1916 г. пожар уничтожил целый квартал Оулу; постоянная пожарная команда появилась лишь в 1921 г.",
+   "historical_summary_en": "In 1916 a fire destroyed a city block in Oulu; a permanent fire brigade was established only in 1921.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "house_fire_story"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1916 block fire; brigade 1921"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1917-tuira-annexed",
+   "title": "Присоединение Туйры",
+   "title_en": "Tuira annexed",
+   "start_date": "1917",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1917 г. к Оулу присоединили Туйру, а в 1911 г. — Алалаанилу. В 1920 г. в городе жили 21 332 человека.",
+   "historical_summary_en": "Tuira was annexed to Oulu in 1917, and Alalaanila in 1911. The town had 21,332 inhabitants in 1920.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1911 Alalaanila; 1917 Tuira; 1920 pop 21,332"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1918-battle",
+   "title": "Бой за Оулу",
+   "title_en": "Battle for Oulu",
+   "start_date": "1918-01",
+   "end_date": "1918-02",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В январе–феврале 1918 г. шёл бой за Оулу: погибли около 60 человек, около 800 красногвардейцев были взяты в плен и отправлены в лагерь под Раахе.",
+   "historical_summary_en": "The battle for Oulu took place in January–February 1918: about 60 people were killed and about 800 Red Guards were captured and sent to a camp near Raahe.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_silence_about_1918"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "Jan–Feb 1918; ~60 killed; ~800 captured to Raahe camp"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: Civil War battles in Oulu in January and February 1918 won by the Whites; prisoner camp on Raatti island (90 deaths, closed August 1918)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1930-nurmes-railway",
+   "title": "Железная дорога Оулу — Нурмес",
+   "title_en": "Oulu–Nurmes railway completed",
+   "start_date": "1930",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 1930 г. была достроена железная дорога Оулу — Нурмес, восстановившая связь с востоком.",
+   "historical_summary_en": "The Oulu–Nurmes railway was completed in 1930, restoring the eastern link.",
+   "affected_groups": [
+    "commuters",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1930 Oulu–Nurmes railway"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1931-toppila-pulp",
+   "title": "Целлюлозный завод Топпила",
+   "title_en": "Toppila pulp mill founded",
+   "start_date": "1931",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1931 г. основан сульфитно-целлюлозный завод Toppila Oy, а в 1937 г. в Нуоттасаари достроен целлюлозный завод Oulu Oy.",
+   "historical_summary_en": "The Toppila Oy sulphite pulp mill was founded in 1931, and the Oulu Oy pulp mill at Nuottasaari was completed in 1937.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_work",
+    "smell_of_the_mill"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1931 Toppila; 1937 Oulu Oy"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: 1931 Toppila Oy sulphite cellulose mill starts (Aalto design); 1937 Oulu Oy mill in Nuottasaari"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1938-annexations",
+   "title": "Присоединение Коскелы и соседних районов",
+   "title_en": "Koskela and neighbouring areas annexed",
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1938 г. к Оулу были присоединены Коскела, Пюкёсъярви, Хинтта и Парккисенкангас; население в том году составляло 28 021 человек.",
+   "historical_summary_en": "In 1938 Koskela, Pyykösjärvi, Hintta and Parkkisenkangas were annexed to Oulu; the population that year was 28,021.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1938 annexations; population 28,021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1939-bombing",
+   "title": "Бомбардировки Оулу в Зимнюю войну",
+   "title_en": "Bombing of Oulu in the Winter War",
+   "start_date": "1939",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В Зимнюю войну Оулу дважды бомбили; на защиту города прибыла шведская истребительная эскадрилья F 19.",
+   "historical_summary_en": "Oulu was bombed twice during the Winter War, and the Swedish fighter squadron F 19 arrived to defend it.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1939 two raids; F19 from Sweden"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: Winter War Soviet bombings on 1 and 21 January 1940, five killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1944-bombing",
+   "title": "Крупнейший налёт на Оулу",
+   "title_en": "Largest air raid on Oulu",
+   "start_date": "1944-02-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "28 февраля 1944 г. налёт 80–90 бомбардировщиков причинил Оулу наибольшие разрушения; всего в Войну-продолжение город бомбили пять раз.",
+   "historical_summary_en": "On 28 February 1944 a raid by 80–90 bombers caused the greatest damage in Oulu; the city was bombed five times in the Continuation War.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "28.2.1944 80–90 bombers; five bombings in 1944"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: Soviet bombings in February 1944 killed four people and caused over 100 million marks of damage (exact day not given)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1948-merikoski-power-plant",
+   "title": "ГЭС Мерикоски",
+   "title_en": "Merikoski hydroelectric plant",
+   "start_date": "1948",
+   "end_date": "1954",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "Первый генератор ГЭС Мерикоски в Оулу заработал в 1948 г.; станция, решение о которой приняли в 1939 г., была достроена в 1954 г.",
+   "historical_summary_en": "The first generator of the Merikoski hydroelectric plant in Oulu started in 1948; the plant, decided on in 1939, was completed in 1954.",
+   "affected_groups": [
+    "industrial_workers",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "decision 1939; first generator 1948; completed 1954"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: 1948 first generator of the city-owned Merikoski hydropower plant starts"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1952-typpi",
+   "title": "Азотный завод Typpi Oy",
+   "title_en": "Typpi Oy nitrogen plant",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1952 г. начал производство азотный завод Typpi Oy; в январе 1963 г. взрыв на нём унёс жизни десяти человек.",
+   "historical_summary_en": "The Typpi Oy nitrogen plant began production in 1952; in January 1963 an explosion there killed ten people.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1952 production; Jan 1963 explosion 10 killed"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: 1952 Typpi Oy Laanila factories produce first ammonia, nitric acid and fertiliser"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1963-typpi-explosion",
+   "title": "Взрыв на заводе Typpi",
+   "title_en": "Explosion at the Typpi plant",
+   "start_date": "1963-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "В январе 1963 г. взрыв на заводе Typpi Oy в Оулу убил десять человек.",
+   "historical_summary_en": "In January 1963 an explosion at the Typpi Oy plant in Oulu killed ten people.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "Jan 1963 explosion, ten killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-1958-university",
+   "title": "Основание Университета Оулу",
+   "title_en": "University of Oulu founded",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "Университет Оулу был основан в 1958 г. и начал работу осенью 1959 г.; в 1960 г. открылся медицинский факультет.",
+   "historical_summary_en": "The University of Oulu was founded in 1958 and began teaching in autumn 1959; its medical faculty was established in 1960.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1958 founded; autumn 1959 start; 1960 medical faculty"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: 1959 the University of Oulu begins operating"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1965-oulujoki-annexed",
+   "title": "Присоединение муниципалитета Оулуйоки",
+   "title_en": "Oulujoki municipality annexed",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1965 г. к Оулу была присоединена большая часть муниципалитета Оулуйоки и Патениеми из Хаукипудаса.",
+   "historical_summary_en": "In 1965 most of Oulujoki municipality and Pateniemi from Haukipudas were annexed to Oulu.",
+   "affected_groups": [
+    "rural_residents",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1965 Oulujoki and Pateniemi"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: 1965 Oulujoki municipality and Pateniemi from Haukipudas incorporated; Oulu temporarily Finland's largest city by area (369.8 km2)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1982-technopolis",
+   "title": "Технопарк Technopolis",
+   "title_en": "Technopolis technology park founded",
+   "start_date": "1982",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "technology",
+   "subcategory": null,
+   "historical_summary": "В 1982 г. в Оулу был основан Technopolis — первый технологический парк в Северных странах.",
+   "historical_summary_en": "Technopolis, the first technology village in the Nordic countries, was founded in Oulu in 1982.",
+   "affected_groups": [
+    "scientists_engineers",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_works_in_it"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1982 Technopolis"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: the city founded the Teknologiakylä technology park in 1982"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-1996-merijal-closed",
+   "title": "Закрытие фабрики Merijal",
+   "title_en": "Merijal factory closed",
+   "start_date": "1996",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1996 г. концерн Leaf закрыл кондитерскую фабрику Merijal в Оулу; в 2007 г. её территорию отвели под жильё.",
+   "historical_summary_en": "In 1996 Leaf closed the Merijal confectionery factory in Oulu; in 2007 the site was zoned for housing.",
+   "affected_groups": [
+    "industrial_workers",
+    "women"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "factory_closure"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "1996 closure; 2007 rezoned"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-2005-400th-anniversary",
+   "title": "400-летие Оулу",
+   "title_en": "Oulu's 400th anniversary",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 2005 г. Оулу отметил 400-летие.",
+   "historical_summary_en": "Oulu celebrated its 400th anniversary in 2005.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "2005 400 years"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-oulu-2009-ylikiiminki",
+   "title": "Присоединение Юликийминки",
+   "title_en": "Ylikiiminki merged into Oulu",
+   "start_date": "2009",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В начале 2009 г. к Оулу был присоединён муниципалитет Юликийминки.",
+   "historical_summary_en": "The municipality of Ylikiiminki was merged into Oulu at the beginning of 2009.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_statfin"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "early 2009 Ylikiiminki merged"
+    },
+    {
+     "source_id": "fi_statfin",
+     "url": "https://stat.fi/til/kvaa/2008/kvaa_2008_2008-09-30_luo_001_sv.html",
+     "accessed": "2026-11-12",
+     "supports": "Statistics Finland, municipal mergers 1981–2009: Ylikiiminki merged into Oulu on 1 January 2009"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-oulu-2013-municipal-merger",
+   "title": "Объединение Оулу с четырьмя муниципалитетами",
+   "title_en": "Oulu merges with four municipalities",
+   "start_date": "2013-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В начале 2013 г. с Оулу объединились Хаукипудас, Кийминки, Оулунсало и Юли-Ии; площадь города выросла до 3113 км², население — примерно до 191 тыс.",
+   "historical_summary_en": "At the beginning of 2013 Haukipudas, Kiiminki, Oulunsalo and Yli-Ii merged with Oulu; the city's area grew to 3,113 km² and its population to about 191,000.",
+   "affected_groups": [
+    "rural_residents",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_oulu_city"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Oulun_historia",
+     "accessed": "2026-11-11",
+     "supports": "early 2013 merger; 3113.04 km²; ~191,000"
+    },
+    {
+     "source_id": "fi_oulu_city",
+     "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+     "accessed": "2026-11-12",
+     "supports": "Timeline of Oulu: merger of Haukipudas, Kiiminki, Oulu, Oulunsalo and Yli-Ii took effect 1 January 2013; population 190,891"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

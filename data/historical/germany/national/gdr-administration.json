@@ -1,0 +1,82 @@
+{
+ "records": [
+  {
+   "id": "de-nat-1952-gdr-bezirke",
+   "title": "Земли ГДР заменены округами",
+   "title_en": "GDR states replaced by districts",
+   "start_date": "1952-07-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Закон от 23 июля 1952 г. объединил районы ГДР в 14 округов, и 25 июля 1952 г. правительства земель передали им свои функции. Формально земли существовали до конституции 1968 г.",
+   "historical_summary_en": "A law of 23 July 1952 grouped the GDR's districts into 14 regional districts (Bezirke), and on 25 July 1952 the state governments handed their functions over to them. Formally the states existed until the 1968 constitution.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_address"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Districts_of_East_Germany",
+     "accessed": "2026-11-11",
+     "supports": "23.07.1952; 25.07.1952; 1968"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nat-1990-laender-restored",
+   "title": "Восстановление земель на востоке",
+   "title_en": "Eastern states restored",
+   "start_date": "1990-07-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "22 июля 1990 г. Народная палата восстановила пять земель — Мекленбург-Переднюю Померанию, Бранденбург, Саксонию-Анхальт, Саксонию и Тюрингию; 23 августа она проголосовала за присоединение к ФРГ с 3 октября.",
+   "historical_summary_en": "On 22 July 1990 the People's Chamber restored five states, Mecklenburg-Western Pomerania, Brandenburg, Saxony-Anhalt, Saxony and Thuringia, and on 23 August it voted to accede to the Federal Republic from 3 October.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "22.07.1990; 23.08.1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

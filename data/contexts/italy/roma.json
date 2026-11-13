@@ -1,0 +1,52 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-roma-2024-metro",
+   "country_code": "IT",
+   "location_id": "it-roma",
+   "period_start": 2024,
+   "period_end": 2024,
+   "context_type": "transport",
+   "attribute": "metro_ridership",
+   "title": "Римское метро: пассажиропоток",
+   "title_en": "Rome Metro ridership",
+   "description": "В 2024 г. римское метро перевозило в среднем 715 126 пассажиров в день и 173,3 млн за год.",
+   "description_en": "In 2024 the Rome Metro carried an average of 715,126 passengers a day and 173.3 million over the year.",
+   "statistics": [
+    {
+     "indicator": "metro_passengers_daily",
+     "value": 715126,
+     "unit": "passengers/day",
+     "year": 2024,
+     "area_id": "it-roma",
+     "population": "пассажиры метро",
+     "method_note": "статистика 2024 по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "metro_passengers_annual",
+     "value": 173349064,
+     "unit": "passengers/year",
+     "year": 2024,
+     "area_id": "it-roma",
+     "population": "пассажиры метро",
+     "method_note": "статистика 2024 по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "2024: 715 126 al giorno; 173 349 064 annui"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

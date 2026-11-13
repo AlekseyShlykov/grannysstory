@@ -1,0 +1,1099 @@
+{
+ "records": [
+  {
+   "id": "it-napoli-1901-population-1901",
+   "title": "Неаполь в 1901 году",
+   "title_en": "Naples in 1901",
+   "start_date": "1901",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1901 г. в Неаполе жили 547 503 человека.",
+   "historical_summary_en": "In 1901 Naples had 547,503 inhabitants.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1901 population 547,503"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1906-vesuvius-1906",
+   "title": "Извержение Везувия 1906 года",
+   "title_en": "1906 eruption of Vesuvius",
+   "start_date": "1906",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1906 г. произошло извержение Везувия.",
+   "historical_summary_en": "In 1906 Mount Vesuvius erupted.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "ash_on_the_balcony"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_port_ac"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1906 Vesuvius erupts"
+    },
+    {
+     "source_id": "it_port_ac",
+     "url": "https://researchportal.port.ac.uk/en/publications/human-responses-to-the-1906-eruption-of-vesuvius-southern-italy/",
+     "accessed": "2026-11-12",
+     "supports": "извержение началось 4.04.1906, лава 5–7.04, закончилось 21.04.1906; обрушения крыш, более 100 погибших в Сан-Джузеппе"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-napoli-1907-railway-rome",
+   "title": "Начало строительства дороги Рим — Формия — Неаполь",
+   "title_en": "Rome–Formia–Naples railway construction begins",
+   "start_date": "1907",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1907 г. началось строительство железной дороги Рим — Формия — Неаполь.",
+   "historical_summary_en": "In 1907 construction of the Rome–Formia–Naples railway began.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "railway_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1907 construction begins"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1925-metro-fs",
+   "title": "Первое метро в Италии",
+   "title_en": "Italy's first metro line",
+   "start_date": "1925-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В сентябре 1925 г. в Неаполе открылась городская железная дорога Metropolitana FS (ныне линия 2) — первая в Италии; в том же году открылся стадион «Артуро Коллана».",
+   "historical_summary_en": "In September 1925 Naples opened the Metropolitana FS urban railway (now Line 2), the first in Italy; the Stadio Arturo Collana opened the same year.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1925 Stadio Collana; September Metro FS, first in Italy"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1926-ssc-napoli",
+   "title": "Основан клуб «Наполи»",
+   "title_en": "SSC Napoli founded",
+   "start_date": "1926",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1926 г. был основан футбольный клуб «Наполи».",
+   "historical_summary_en": "In 1926 the S.S.C. Napoli football club was founded.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_at_the_stadium"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1926 SSC Napoli founded"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1930-parthenope",
+   "title": "Основан Университет Партенопе",
+   "title_en": "Parthenope University established",
+   "start_date": "1930",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "education",
+   "historical_summary": "В 1930 г. в Неаполе был основан университет «Партенопе».",
+   "historical_summary_en": "In 1930 the Parthenope University of Naples was established.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1930 Parthenope established"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1940-mostra-oltremare",
+   "title": "Открытие Выставки заморских территорий",
+   "title_en": "Mostra d'Oltremare opens",
+   "start_date": "1940",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1940 г. в Неаполе открылся выставочный и развлекательный комплекс «Мостра д’Олтремаре», созданный по инициативе фашистского режима.",
+   "historical_summary_en": "In 1940 the Mostra d'Oltremare exhibition and entertainment complex, promoted by the fascist regime, opened in Naples.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "day_at_the_fair"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_mostra_oltremare"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1940 Mostra d'Oltremare inaugurated"
+    },
+    {
+     "source_id": "it_mostra_oltremare",
+     "url": "https://archivio.mostradoltremare.it/la-mostra/?lang=en",
+     "accessed": "2026-11-12",
+     "supports": "inaugurata il 9 maggio 1940 come Triennale delle Terre Italiane d'Oltremare"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-napoli-1940-bombing",
+   "title": "Начало бомбардировок Неаполя",
+   "title_en": "Bombing of Naples begins",
+   "start_date": "1940",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1940 г. начались бомбардировки Неаполя.",
+   "historical_summary_en": "In 1940 the bombing of Naples began.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1940 bombing begins"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1943-four-days",
+   "title": "Четыре дня Неаполя",
+   "title_en": "Four Days of Naples",
+   "start_date": "1943-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В сентябре 1943 г. жители Неаполя восстали против немецких войск («Четыре дня Неаполя»); в октябре в городе взорвалась бомба на почтамте.",
+   "historical_summary_en": "In September 1943 the people of Naples rose against German troops (the Four Days of Naples); in October a bomb exploded at the city's post office.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_fighting_memory"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "September 1943 Four Days; October post-office bombing"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000593/antonio-ghirelli",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio: puntata con Antonio Ghirelli dedicata alle Quattro giornate di Napoli (settembre 1943)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-napoli-1944-vesuvius-1944",
+   "title": "Последнее извержение Везувия",
+   "title_en": "Last eruption of Vesuvius",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1944 г., когда Неаполь занимали американские войска, произошло последнее на сегодня извержение Везувия.",
+   "historical_summary_en": "In 1944, while Naples was occupied by American troops, Vesuvius had its most recent eruption to date.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "ash_on_the_balcony"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_protezionecivile"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1944 occupied by Americans; last eruption"
+    },
+    {
+     "source_id": "it_protezionecivile",
+     "url": "https://www.protezionecivile.gov.it/en/notizia/bookings-are-open-initiative-getting-know-and-experience-vesuvius-80-years-after-last-eruption/",
+     "accessed": "2026-11-12",
+     "supports": "последнее извержение Везувия началось 18.03.1944, во время Второй мировой войны; 21 погибший"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-napoli-1950-airport",
+   "title": "Коммерческие рейсы из аэропорта Неаполя",
+   "title_en": "Commercial flights from Naples Airport",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1950 г. аэропорт Неаполя начал принимать коммерческие рейсы.",
+   "historical_summary_en": "In 1950 Naples Airport began commercial flights.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1950 commercial flights"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1959-san-paolo",
+   "title": "Открытие стадиона Сан-Паоло",
+   "title_en": "Stadio San Paolo opens",
+   "start_date": "1959",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1959 г. в Неаполе открылся стадион Сан-Паоло.",
+   "historical_summary_en": "In 1959 the Stadio San Paolo opened in Naples.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_at_the_stadium"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1959 Stadio San Paolo"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1960-centrale",
+   "title": "Перестроен Центральный вокзал",
+   "title_en": "Napoli Centrale rebuilt",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1960 г. был перестроен Центральный вокзал Неаполя.",
+   "historical_summary_en": "In 1960 Napoli Centrale railway station was rebuilt.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_north_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1960 Centrale rebuilt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1963-mani-sulla-citta",
+   "title": "Фильм «Руки над городом»",
+   "title_en": "Film 'Hands over the City'",
+   "start_date": "1963",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1963 г. вышел фильм «Руки над городом» о строительных спекуляциях в Неаполе.",
+   "historical_summary_en": "In 1963 the film Hands over the City, about building speculation in Naples, was released.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "evening_at_the_cinema"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1963 film released"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1965-eurovision",
+   "title": "«Евровидение» в Неаполе",
+   "title_en": "Eurovision in Naples",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1965 г. Неаполь принимал конкурс песни «Евровидение».",
+   "historical_summary_en": "In 1965 Naples hosted the Eurovision Song Contest.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_tv_together"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1965 Eurovision"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1971-population-1971",
+   "title": "Неаполь в 1971 году",
+   "title_en": "Naples in 1971",
+   "start_date": "1971",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1971 г. население коммуны Неаполь составляло около 1,25 млн человек.",
+   "historical_summary_en": "In 1971 the municipality of Naples had about 1.25 million inhabitants.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "crowded_flat"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1971 population 1,250,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1975-vele",
+   "title": "Построены «Паруса» Скампии",
+   "title_en": "Vele di Scampia built",
+   "start_date": "1975",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1975 г. в неапольском районе Скампия были построены жилые комплексы «Паруса» (Vele).",
+   "historical_summary_en": "In 1975 the Vele housing blocks were built in the Scampia district of Naples.",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1975 Vele di Scampia"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1982-centro-direzionale",
+   "title": "Деловой район Чентро-Директционале",
+   "title_en": "Centro Direzionale opens",
+   "start_date": "1982",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1982 г. был открыт деловой район Неаполя Чентро-Директционале.",
+   "historical_summary_en": "In 1982 Naples' Centro Direzionale business district was inaugurated.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "office_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1982 Centro Direzionale"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1987-scudetto",
+   "title": "Первое чемпионство «Наполи»",
+   "title_en": "Napoli's first league title",
+   "start_date": "1987",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1987 г. «Наполи» впервые выиграл чемпионат Италии по футболу; второй титул клуб взял в 1990 г.",
+   "historical_summary_en": "In 1987 S.S.C. Napoli won the Italian football championship for the first time; the club took its second title in 1990.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_celebration_at_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1987 first championship; 1990 second"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-1993-metro-line1",
+   "title": "Открытие линии 1 метро",
+   "title_en": "Metro Line 1 opens",
+   "start_date": "1993",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1993 г. начала работать линия 1 неапольского метро.",
+   "historical_summary_en": "In 1993 Line 1 of the Naples Metro began operating.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_anm"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1993 Line 1"
+    },
+    {
+     "source_id": "it_anm",
+     "url": "https://www2.anm.it/index.php?Itemid=98&id=71&option=com_content&task=view",
+     "accessed": "2026-11-12",
+     "supports": "la prima tratta della linea 1, Vanvitelli – Colli Aminei (circa 4 km), aperta nel luglio 1993"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-napoli-1996-citta-scienza",
+   "title": "Основан «Город науки»",
+   "title_en": "Città della Scienza founded",
+   "start_date": "1996",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "education",
+   "historical_summary": "В 1996 г. в Неаполе был основан научный центр «Город науки».",
+   "historical_summary_en": "In 1996 the Città della Scienza science centre was founded in Naples.",
+   "affected_groups": [
+    "school_pupils"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "museum_with_grandchildren"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1996 Città della Scienza"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-2005-hs-rome",
+   "title": "Скоростная дорога Рим — Неаполь",
+   "title_en": "Rome–Naples high-speed railway",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2005 г. начала работать скоростная железная дорога Рим — Неаполь, полностью открытая в 2009 г.",
+   "historical_summary_en": "In 2005 the Rome–Naples high-speed railway began operating; it fully opened in 2009.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "commuting_by_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "2005 begins operating; 2009 opens"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-2007-waste",
+   "title": "Мусорный кризис",
+   "title_en": "Waste emergency",
+   "start_date": "2007",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "environment",
+   "historical_summary": "В 2007 г. открылась линия 6 метро, но мусорный кризис и неконтролируемая преступность наносили ущерб образу города.",
+   "historical_summary_en": "In 2007 Metro Line 6 opened, but the waste emergency and uncontrolled crime were damaging the city's image.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "rubbish_in_the_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "2007 Line 6; waste emergency"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-2012-ntv",
+   "title": "Скоростные поезда Милан — Неаполь",
+   "title_en": "Milan–Naples high-speed trains",
+   "start_date": "2012",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2012 г. начали ходить скоростные поезда NTV Милан — Неаполь, а в городе прошёл Всемирный урбанистический форум.",
+   "historical_summary_en": "In 2012 NTV high-speed trains between Milan and Naples began running, and the city hosted the World Urban Forum.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visiting_relatives_by_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "2012 NTV; World Urban Forum"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-napoli-2017-pizzaiolo",
+   "title": "Искусство неаполитанского пиццайоло — наследие ЮНЕСКО",
+   "title_en": "Neapolitan pizzaiolo on UNESCO list",
+   "start_date": "2017",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2017 г. искусство неаполитанского пиццайоло было внесено в список нематериального культурного наследия ЮНЕСКО.",
+   "historical_summary_en": "In 2017 the art of the Neapolitan pizzaiolo was added to the UNESCO Intangible Cultural Heritage list.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_pizzeria"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "2017 UNESCO"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://cultura.gov.it/articolo/siti-italiani-del-patrimonio-mondiale-unesco",
+     "accessed": "2026-11-12",
+     "supports": "нематериальное наследие: № 8, 2017 — L'arte tradizionale dei pizzaiuoli napoletani"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-napoli-2019-universiade",
+   "title": "Летняя Универсиада",
+   "title_en": "Summer Universiade",
+   "start_date": "2019",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-napoli"
+   ],
+   "category": "sport",
+   "historical_summary": "В 2019 г. Неаполь принимал летнюю Универсиаду.",
+   "historical_summary_en": "In 2019 Naples hosted the Summer Universiade.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_regione_campania"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "2019 Universiade"
+    },
+    {
+     "source_id": "it_regione_campania",
+     "url": "https://www.regione.campania.it/it/printable/universiade-2019-il-successo-dell-iniziativa-de-luca-realizzato-un-miracolo-fieri-di-napoli-e-della-campania",
+     "accessed": "2026-11-12",
+     "supports": "XXX Universiade Napoli 2019 (3–14 luglio): 6.000 atleti di 118 paesi; cerimonie al San Paolo e in piazza del Plebiscito"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

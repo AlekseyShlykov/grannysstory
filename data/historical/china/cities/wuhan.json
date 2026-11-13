@@ -1,0 +1,997 @@
+{
+ "records": [
+  {
+   "id": "cn-wuhan-1911-wuchang-uprising",
+   "title": "Учанское восстание",
+   "title_en": "Wuchang Uprising",
+   "start_date": "1911-10-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "10 октября 1911 г. в Учане вспыхнуло восстание, которое помогло свергнуть династию Цин.",
+   "historical_summary_en": "On 10 October 1911 an uprising broke out in Wuchang that helped to bring down the Qing dynasty.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "rumours_of_war"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_wuhan_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "October 10, 1911 Wuchang Uprising helped bring down Qing"
+    },
+    {
+     "source_id": "cn_wuhan_gov",
+     "url": "https://www.wuhan.gov.cn/zjwh/whgk/202003/t20200316_976486.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1911年10月10日 辛亥革命在武汉爆发，成立湖北军政府"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-1927-wuhan-formed",
+   "title": "Создание города Ухань",
+   "title_en": "City of Wuhan created",
+   "start_date": "1927-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "Приказом Национального правительства от 1 января 1927 г. Ханькоу, Ханьян и Учан были объединены в один город — Ухань; в апреле 1929 г. город снова разделили.",
+   "historical_summary_en": "By an order of the Nationalist government of 1 January 1927, Hankou, Hanyang and Wuchang were merged into a single city, Wuhan; in April 1929 the city was divided again.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_wuhan_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/武汉市",
+     "accessed": "2026-11-11",
+     "supports": "1927年1月1日发布命令 merged; 1929年4月 再次分开"
+    },
+    {
+     "source_id": "cn_wuhan_gov",
+     "url": "https://www.wuhan.gov.cn/zjwh/whgk/202003/t20200316_976486.shtml",
+     "accessed": "2026-11-12",
+     "supports": "1927年元月 汉口、武昌合并为武汉市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-1931-flood",
+   "title": "Наводнение 1931 года",
+   "title_en": "Flood of 1931",
+   "start_date": "1931-08-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "Во время катастрофического наводнения 1931 г. 19 августа вода у Ханькоу поднялась более чем на 16 м выше обычного уровня.",
+   "historical_summary_en": "During the catastrophic flood of 1931, on 19 August the water at Hankou rose more than 16 m above its normal level.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "August 19, 1931 high-water mark at Hankou >16 m above normal"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1936-flood",
+   "title": "Наводнение 1936 года",
+   "title_en": "Flood of 1936",
+   "start_date": "1936",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "В 1936 г. обширные наводнения в Центральном Китае затронули и Ухань.",
+   "historical_summary_en": "Widespread flooding in central China in 1936 also affected Wuhan.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "1936 widespread flooding in central China incl. Wuhan"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1938-japanese-occupation",
+   "title": "Японская оккупация Уханя",
+   "title_en": "Japanese occupation of Wuhan",
+   "start_date": "1938-10-27",
+   "end_date": "1945-09",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "occupation",
+   "subcategory": null,
+   "historical_summary": "27 октября 1938 г. японские войска заняли весь Ухань, кроме Французской концессии в Ханькоу; в сентябре 1945 г. город вернулся под власть Национального правительства.",
+   "historical_summary_en": "On 27 October 1938 Japanese troops occupied all of Wuhan except the French Concession in Hankou; in September 1945 the city returned to the Nationalist government.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "fleeing_the_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_ccp_centenary_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/武汉市",
+     "accessed": "2026-11-11",
+     "supports": "1938年10月27日 武汉全境被日军占领; 1945年9月 国民政府收复"
+    },
+    {
+     "source_id": "cn_gov_ccp_centenary_chronicle",
+     "url": "https://www.gov.cn/xinwen/2021-06/28/content_5621160.htm",
+     "accessed": "2026-11-12",
+     "supports": "1938年10月 广州、武汉相继沦陷 (месяц; день не указан)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-1944-firebombing",
+   "title": "Американская зажигательная бомбардировка Ханькоу",
+   "title_en": "US firebombing of Hankou",
+   "start_date": "1944-12-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "18 декабря 1944 г. налёт 77 американских бомбардировщиков на занятый японцами Ухань вызвал огненный шторм; налёты продолжались ещё три дня.",
+   "historical_summary_en": "On 18 December 1944 a raid by 77 US bombers on Japanese-held Wuhan started a firestorm; the raids continued for three more days.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_of_fire"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "December 18, 1944 77 bombers, firestorm, three more days"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1949-pla-takeover",
+   "title": "НОАК входит в Ухань",
+   "title_en": "PLA enters Wuhan",
+   "start_date": "1949-05-16",
+   "end_date": "1949-05-24",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "16 мая 1949 г. части НОАК вошли в Ханькоу, 17 мая — в Ханьян и Учан; 24 мая было образовано Народное правительство города Ухань.",
+   "historical_summary_en": "PLA units entered Hankou on 16 May 1949 and Hanyang and Wuchang on 17 May; the Wuhan Municipal People's Government was formed on 24 May.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_era_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_ccp_centenary_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/武汉市",
+     "accessed": "2026-11-11",
+     "supports": "5月16日 汉口; 5月17日 汉阳、武昌; 1949年5月24日 武汉市人民政府成立"
+    },
+    {
+     "source_id": "cn_gov_ccp_centenary_chronicle",
+     "url": "https://www.gov.cn/xinwen/2021-06/28/content_5621160.htm",
+     "accessed": "2026-11-12",
+     "supports": "1949年5月 第四野战军先遣兵团横渡长江，解放武汉三镇"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-1954-yangtze-flood",
+   "title": "Наводнение на Янцзы 1954 года",
+   "title_en": "Yangtze flood of 1954",
+   "start_date": "1954-06",
+   "end_date": "1954-09",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "С июня по сентябрь 1954 г. длилось большое наводнение на Янцзы, затронувшее Ухань; число погибших оценивается в 33 тыс.",
+   "historical_summary_en": "A great Yangtze flood lasted from June to September 1954 and affected Wuhan; the death toll is estimated at 33,000.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flooded_house",
+    "flood_defence_duty"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "June–September 1954 Yangtze floods, 33,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1957-yangtze-bridge",
+   "title": "Первый мост через Янцзы",
+   "title_en": "First Yangtze River Bridge opens",
+   "start_date": "1957-10-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "Строительство Первого моста через Янцзы в Ухане началось 25 октября 1955 г.; 15 октября 1957 г. мост открылся для движения.",
+   "historical_summary_en": "Construction of Wuhan's First Yangtze River Bridge began on 25 October 1955; the bridge opened to traffic on 15 October 1957.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_crossing_of_the_bridge"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "Oct 25, 1955 construction began; Oct 15, 1957 opened"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1957年10月15日 武汉长江大桥通车典礼, 长江上第一座铁路公路两用桥 (дата начала строительства 1955 не подтверждена)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-1967-wuhan-incident",
+   "title": "Уханьский инцидент",
+   "title_en": "Wuhan Incident",
+   "start_date": "1967-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "repression",
+   "subcategory": null,
+   "historical_summary": "В июле 1967 г. в Ухане произошло вооружённое противостояние периода Культурной революции, известное как Уханьский инцидент.",
+   "historical_summary_en": "In July 1967 an armed confrontation of the Cultural Revolution, known as the Wuhan Incident, took place in Wuhan.",
+   "affected_groups": [
+    "all_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "July 1967 Wuhan Incident, armed conflict during CR"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-2000-flight-343",
+   "title": "Катастрофа самолёта Wuhan Airlines",
+   "title_en": "Wuhan Airlines Flight 343 crash",
+   "start_date": "2000-06-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "22 июня 2000 г. самолёт рейса 343 Wuhan Airlines упал в реку Ханьшуй; погибли все находившиеся на борту и 7 человек на земле.",
+   "historical_summary_en": "On 22 June 2000 Wuhan Airlines Flight 343 crashed into the Han River, killing everyone on board and 7 people on the ground.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "June 22, 2000 Flight 343 crashed into Han River"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-2016-floods",
+   "title": "Наводнение 2016 года",
+   "title_en": "Floods of 2016",
+   "start_date": "2016-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "В начале июля 2016 г. рекордные ливни затопили Ухань, включая часть метро; погибли по меньшей мере 14 жителей.",
+   "historical_summary_en": "In early July 2016 record rainfall flooded Wuhan, including parts of the metro; at least 14 residents died.",
+   "affected_groups": [
+    "all_residents",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "early July 2016 record rainfall; metro partly flooded; at least 14 killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-2019-covid-outbreak",
+   "title": "Первая вспышка COVID-19 и карантин Уханя",
+   "title_en": "First COVID-19 outbreak and lockdown of Wuhan",
+   "start_date": "2019-12",
+   "end_date": "2020-04-08",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "public_health",
+   "subcategory": null,
+   "historical_summary": "В конце декабря 2019 г. врачи Уханя заметили скопление случаев пневмонии, 30 декабря власти выпустили оповещение; 23 января 2020 г. город закрыли на карантин, снятый 8 апреля 2020 г.",
+   "historical_summary_en": "In late December 2019 Wuhan doctors noticed a cluster of pneumonia cases, and the authorities issued an alert on 30 December; the city was locked down on 23 January 2020, and the lockdown was lifted on 8 April 2020.",
+   "affected_groups": [
+    "all_residents",
+    "medical_workers",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "masks_and_quarantine"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_ccp_centenary_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_mainland_China",
+     "accessed": "2026-11-11",
+     "supports": "26–30 Dec 2019 cluster, alert 30 Dec; 23 Jan 2020 lockdown; 8 Apr 2020 lifted"
+    },
+    {
+     "source_id": "cn_gov_ccp_centenary_chronicle",
+     "url": "https://www.gov.cn/xinwen/2021-06/28/content_5621160.htm",
+     "accessed": "2026-11-12",
+     "supports": "2020年1月7日 中央政治局常委会会议 о вспышке пневмонии неизвестного происхождения, выявленной в Ухане с 27 декабря 2019 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1927-nationalist-government",
+   "title": "Уханьское национальное правительство",
+   "title_en": "Wuhan Nationalist government",
+   "start_date": "1927-02-21",
+   "end_date": "1927-08-19",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "21 февраля 1927 г. в Ухане было образовано Национальное правительство Гоминьдана; оно просуществовало до 19 августа 1927 г.",
+   "historical_summary_en": "On 21 February 1927 the Kuomintang Nationalist government was established in Wuhan; it lasted until 19 August 1927.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "February 21, 1927 established; ended August 19, 1927"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1947-hankou-municipality",
+   "title": "Ханькоу — город центрального подчинения",
+   "title_en": "Hankou becomes a centrally controlled municipality",
+   "start_date": "1947-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В октябре 1946 г. Учан и Ханьян были разделены, а в августе 1947 г. Ханькоу стал городом центрального подчинения.",
+   "historical_summary_en": "In October 1946 Wuchang and Hanyang were separated, and in August 1947 Hankou became a centrally controlled municipality.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "October 1946 Wuchang and Hanyang separated; August 1947 Hankou centrally controlled"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1950-changjiang-commission",
+   "title": "Комиссия по водным ресурсам Янцзы",
+   "title_en": "Changjiang Water Resources Commission",
+   "start_date": "1950-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "environment",
+   "subcategory": null,
+   "historical_summary": "В феврале 1950 г. в Ухане была воссоздана Комиссия по водным ресурсам Янцзы.",
+   "historical_summary_en": "The Changjiang Water Resources Commission was re-established in Wuhan in February 1950.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "flood_defence_duty"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "February 1950 Changjiang Water Resources Commission re-established"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1958-wisco",
+   "title": "Пуск Уханьского металлургического комбината",
+   "title_en": "Wuhan Iron and Steel opens",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1958 г. начал работу Уханьский металлургический комбинат.",
+   "historical_summary_en": "Wuhan Iron and Steel began operating in 1958.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "1958 Wuhan Iron and Steel opened"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1981-yellow-crane-tower",
+   "title": "Восстановление башни Жёлтого журавля",
+   "title_en": "Yellow Crane Tower rebuilt",
+   "start_date": "1981",
+   "end_date": "1985",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1981–1985 гг. башня Жёлтого журавля была отстроена заново примерно в километре от прежнего места.",
+   "historical_summary_en": "Between 1981 and 1985 the Yellow Crane Tower was rebuilt about 1 km from its original site.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "1981–1985 Yellow Crane Tower rebuilt ~1 km from original"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-1992-southern-tour-stop",
+   "title": "Ухань — первая остановка южной поездки Дэн Сяопина",
+   "title_en": "Wuhan as first stop of Deng's southern tour",
+   "start_date": "1992",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В 1992 г. Ухань стал первой остановкой южной поездки Дэн Сяопина.",
+   "historical_summary_en": "In 1992 Wuhan was the first stop on Deng Xiaoping's southern tour.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "reform_years"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "1992 first stop on southern tour"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1992年1月18日－2月21日 邓小平视察武昌、深圳、珠海、上海 — Учан назван первым"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-2009-wuhan-guangzhou-hsr",
+   "title": "Высокоскоростная дорога Ухань — Гуанчжоу",
+   "title_en": "Wuhan–Guangzhou high-speed railway",
+   "start_date": "2009-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В декабре 2009 г. открылась высокоскоростная дорога Ухань — Гуанчжоу с рекордной для того времени средней скоростью 312,5 км/ч.",
+   "historical_summary_en": "The Wuhan–Guangzhou high-speed railway opened in December 2009 with a then record average speed of 312.5 km/h.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_high_speed_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_hunan_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/High-speed_rail_in_China",
+     "accessed": "2026-11-11",
+     "supports": "December 2009 Wuhan–Guangzhou, 312.5 km/h"
+    },
+    {
+     "source_id": "cn_hunan_gov",
+     "url": "http://www.hunan.gov.cn/hnszf/xxgk/zdxm/201212/t20121229_4864296.html",
+     "accessed": "2026-11-12",
+     "supports": "（2009年12月10日稿）武广高速铁路正式开通运营时间确定为12月26日；北起武汉站，南到广州南站，全长1068.6公里"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-wuhan-2010-heat-and-flood",
+   "title": "Жара и паводок на Ханьшуе в 2010 году",
+   "title_en": "Heat wave and Han River flood of 2010",
+   "start_date": "2010-07-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "2–3 июля 2010 г. Ухань накрыла сильная жара, а паводок на реке Ханьшуй в том году стал худшим за двадцать лет; в 2011 г. наводнения оставили часть города без электричества.",
+   "historical_summary_en": "A heat wave hit Wuhan on 2–3 July 2010, and that year's Han River flood was the worst in twenty years; in 2011 floods cut power to parts of the city.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_without_power"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "July 2–3, 2010 heat wave; Han River worst in 20 years; 2011 power losses"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-wuhan-2019-military-world-games",
+   "title": "Всемирные военные игры",
+   "title_en": "Military World Games",
+   "start_date": "2019-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "category": "sport",
+   "subcategory": null,
+   "historical_summary": "В октябре 2019 г. Ухань принимал Всемирные военные игры; в 2017 г. ЮНЕСКО включила город в сеть креативных городов в области дизайна.",
+   "historical_summary_en": "Wuhan hosted the Military World Games in October 2019; in 2017 UNESCO named it a Creative City of design.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_on_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_cn"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "October 2019 Military World Games; 2017 UNESCO design"
+    },
+    {
+     "source_id": "cn_gov_cn",
+     "url": "https://www.gov.cn/xinwen/2019-10/18/content_5442076.htm",
+     "accessed": "2026-11-12",
+     "supports": "第七届世界军人运动会（2019年）10月18日晚在武汉市开幕"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

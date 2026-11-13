@@ -20,6 +20,10 @@ export interface WorldLocation {
   validFrom: PartialDate;
   validTo: PartialDate;
   legacyIds: string[];
+  /** Periods when the city was divided; a resident lives in one of `into` (absent in packs before world-1.2). */
+  partitions?: { from: PartialDate; to: PartialDate; into: string[] }[];
+  /** Periods when the unit did not exist and was later restored (GDR Länder 1952–1990). */
+  abolished?: { from: PartialDate; to: PartialDate }[];
 }
 
 export interface WorldEvent {

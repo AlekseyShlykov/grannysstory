@@ -1,0 +1,106 @@
+{
+ "records": [
+  {
+   "id": "it-sicilia-1946-statute",
+   "title": "Статут автономной Сицилии",
+   "title_en": "Statute of autonomous Sicily",
+   "start_date": "1946-05-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "it-sicilia"
+   ],
+   "category": "political_change",
+   "historical_summary": "15 мая 1946 г. был обнародован Статут Сицилии, давший острову особую автономию; 25 мая 1947 г. в Палермо собралось первое заседание Сицилийской региональной ассамблеи.",
+   "historical_summary_en": "On 15 May 1946 the Statute of Sicily was promulgated, giving the island special autonomy; on 25 May 1947 the first session of the Sicilian Regional Assembly met in Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "15.05.1946 Statute; 25.05.1947 ARS first session"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legislativo:1946-05-15;455",
+     "accessed": "2026-11-12",
+     "supports": "RDLgs 15 maggio 1946 n. 455 «Approvazione dello statuto della Regione siciliana»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sicilia-1968-belice-homeless",
+   "title": "Беличе: бездомные, эмиграция и бараки",
+   "title_en": "Belice: homeless, emigration and barracks",
+   "start_date": "1968-01",
+   "end_date": "2006",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "it-sicilia"
+   ],
+   "category": "migration",
+   "historical_summary": "Землетрясение в долине Беличе оставило без крова более 100 тыс. человек, около 12 тыс. быстро уехали на север Италии. В 1973 г. в бараках жили 48 182 человека, а последние 250 бараков с асбестовыми крышами снесли только в 2006 г.",
+   "historical_summary_en": "The Belice earthquake left more than 100,000 people homeless, and about 12,000 soon left for northern Italy. In 1973, 48,182 people were living in barracks, and the last 250 barracks with asbestos roofs were removed only in 2006.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "loss_of_home",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "living_in_barracks",
+    "moving_north_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_ingv"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Terremoto_del_Belice_del_1968",
+     "accessed": "2026-11-11",
+     "supports": ">100 000 senzatetto; ~12 000 emigrati al Nord; 1973: 48 182 in baracche; 2006 ultime 250"
+    },
+    {
+     "source_id": "it_ingv",
+     "url": "https://www.ingv.it/stampa-urp/ufficio-stampa/note-stampa/ingv-50-anni-dal-terremoto-del-belice",
+     "accessed": "2026-11-12",
+     "supports": "terremoto del Belice, gennaio 1968: 352 morti e quasi 100mila senzatetto"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

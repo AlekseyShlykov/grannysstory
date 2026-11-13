@@ -1,0 +1,249 @@
+{
+ "table": "vaerak/11re.px",
+ "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/vaerak/11re.px",
+ "fetched": "2026-11-11",
+ "title": "Population 31.12.",
+ "response": {
+  "version": "2.0",
+  "class": "dataset",
+  "label": "Population 31.12. by Area, Age, Sex, Year and Information",
+  "source": "Statistics Finland, population structure",
+  "updated": "2026-04-01T05:00:00Z",
+  "note": [
+   "<A HREF='https://stat.fi/en/statistics/documentation/vaerak' TARGET=_blank>Documentation of statistics</A>",
+   "Starting from 1750 Population statistics have been digitised into PDF format in the National Library's Doria service:\r\n <A HREF=http://www.doria.fi/handle/10024/67161 TARGET=_blank>  Publications on Population structure and Vital statistics in Doria (in Finnish)</A>\r\n <A HREF=http://www.doria.fi/handle/10024/67160 TARGET=_blank>  Publications on Population censuses in Doria (in Finnish)</A>\r\n \r\n ---"
+  ],
+  "role": {
+   "time": [
+    "timeperiod_y"
+   ],
+   "geo": [
+    "alue_23_20260101"
+   ],
+   "metric": [
+    "contentscode"
+   ]
+  },
+  "id": [
+   "alue_23_20260101",
+   "ikaryhma_10_20180101",
+   "sukupuoli_9_20180101",
+   "timeperiod_y",
+   "contentscode"
+  ],
+  "size": [
+   10,
+   1,
+   1,
+   3,
+   1
+  ],
+  "dimension": {
+   "alue_23_20260101": {
+    "label": "Area",
+    "note": [
+     "These statistics apply the regional division of 1 January 2026  to the whole time series. Data for merged municipalities have been combined. Partial municipal mergers have not been taken into account in the years preceding the merger."
+    ],
+    "category": {
+     "index": {
+      "SSS": 0,
+      "KU091": 1,
+      "KU146": 2,
+      "KU179": 3,
+      "KU564": 4,
+      "KU684": 5,
+      "KU837": 6,
+      "KU853": 7,
+      "KU859": 8,
+      "KU915": 9
+     },
+     "label": {
+      "SSS": "WHOLE COUNTRY",
+      "KU091": "Helsinki",
+      "KU146": "Ilomantsi",
+      "KU179": "Jyväskylä",
+      "KU564": "Oulu",
+      "KU684": "Rauma",
+      "KU837": "Tampere",
+      "KU853": "Turku",
+      "KU859": "Tyrnävä",
+      "KU915": "Varkaus"
+     }
+    },
+    "extension": {
+     "elimination": true,
+     "eliminationValueCode": "SSS",
+     "show": "value"
+    },
+    "link": {
+     "describedby": [
+      {
+       "extension": {
+        "alue_23_20260101": "SCALE-TYPE=nominal"
+       }
+      }
+     ]
+    }
+   },
+   "ikaryhma_10_20180101": {
+    "label": "Age",
+    "note": [
+     "Age refers to a person's age in whole years as at 31 December."
+    ],
+    "category": {
+     "index": {
+      "SSS": 0
+     },
+     "label": {
+      "SSS": "Total"
+     }
+    },
+    "extension": {
+     "elimination": true,
+     "eliminationValueCode": "SSS",
+     "show": "value"
+    },
+    "link": {
+     "describedby": [
+      {
+       "extension": {
+        "ikaryhma_10_20180101": "SCALE-TYPE=ordinal"
+       }
+      }
+     ]
+    }
+   },
+   "sukupuoli_9_20180101": {
+    "label": "Sex",
+    "category": {
+     "index": {
+      "SSS": 0
+     },
+     "label": {
+      "SSS": "Total"
+     }
+    },
+    "extension": {
+     "elimination": true,
+     "eliminationValueCode": "SSS",
+     "show": "value"
+    },
+    "link": {
+     "describedby": [
+      {
+       "extension": {
+        "sukupuoli_9_20180101": "SCALE-TYPE=nominal"
+       }
+      }
+     ]
+    }
+   },
+   "timeperiod_y": {
+    "label": "Year",
+    "category": {
+     "index": {
+      "1972": 0,
+      "1980": 1,
+      "1990": 2
+     },
+     "label": {
+      "1972": "1972",
+      "1980": "1980",
+      "1990": "1990"
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   },
+   "contentscode": {
+    "label": "Information",
+    "category": {
+     "index": {
+      "vaerak-vaesto": 0
+     },
+     "label": {
+      "vaerak-vaesto": "Population 31 Dec"
+     },
+     "note": {
+      "vaerak-vaesto": [
+       "Population at the end of the statistical reference period."
+      ]
+     },
+     "unit": {
+      "vaerak-vaesto": {
+       "base": "number",
+       "decimals": 0
+      }
+     }
+    },
+    "extension": {
+     "elimination": false,
+     "show": "value"
+    }
+   }
+  },
+  "extension": {
+   "px": {
+    "tableid": "11re",
+    "decimals": 0,
+    "official-statistics": true,
+    "aggregallowed": true,
+    "language": "fi",
+    "contents": "Population 31.12.",
+    "description": "11re -- Population according to age (1-year) and sex by area, 1972-2025",
+    "descriptiondefault": false,
+    "heading": [
+     "sukupuoli_9_20180101",
+     "timeperiod_y",
+     "contentscode"
+    ],
+    "stub": [
+     "alue_23_20260101",
+     "ikaryhma_10_20180101"
+    ],
+    "matrix": "11re",
+    "subject-code": "vaerak",
+    "subject-area": "Population structure"
+   },
+   "contact": [
+    {
+     "raw": "<A HREF='https://stat.fi/en/statistics/vaerak' TARGET=_blank>Statistics' homepage</A>"
+    }
+   ]
+  },
+  "value": [
+   4653401,
+   4787778,
+   4998478,
+   511823,
+   483036,
+   492400,
+   10230,
+   8753,
+   8054,
+   89697,
+   96966,
+   103921,
+   110080,
+   121809,
+   136029,
+   38626,
+   42973,
+   42410,
+   163609,
+   166228,
+   172560,
+   160067,
+   163680,
+   159180,
+   3700,
+   3900,
+   4387,
+   26171,
+   26554,
+   26428
+  ]
+ }
+}

@@ -1,0 +1,1597 @@
+{
+ "sources": [
+  {
+   "source_id": "cn_en_wikipedia",
+   "name": "Wikipedia (английская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "CN",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник; статьи Timeline of …, History of …, кампании 1949 г. и др. открыты через WebFetch; confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "cn",
+    "cn-beijing",
+    "cn-shanghai",
+    "cn-guangzhou",
+    "cn-chengdu",
+    "cn-wuhan",
+    "cn-xian",
+    "cn-shenzhen"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "cn_zh_wikipedia",
+   "name": "维基百科 (китайская Wikipedia)",
+   "publisher": "Wikimedia Foundation",
+   "country": "CN",
+   "url": "https://zh.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник; статьи о городах и уездах (история административных делений, местные события), открыты через WebFetch; confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn",
+    "cn-beijing",
+    "cn-shanghai",
+    "cn-guangzhou",
+    "cn-chengdu",
+    "cn-wuhan",
+    "cn-xian",
+    "cn-shenzhen",
+    "cn-zigong",
+    "cn-guanghan",
+    "cn-xiaogang"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "cn_ourchinastory",
+   "name": "Our China Story (我們的中國故事)",
+   "publisher": "Our China Story",
+   "country": "CN",
+   "url": "https://www.ourchinastory.com/",
+   "historical_coverage": {
+    "from": 1949,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "history",
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия использования не изучены; использован только краткий пересказ фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Научно-популярный сайт; статья об открытии Терракотовой армии (даты 1974 и 1979). confidence: medium.",
+   "source_type": "academic",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn-xian"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1974,
+    "to": 1979
+   }
+  },
+  {
+   "source_id": "cn_people",
+   "name": "人民网 / Жэньминь жибао (People's Daily Online)",
+   "publisher": "人民日报社",
+   "country": "CN",
+   "url": "https://cpc.people.com.cn/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "history",
+    "news"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Государственное СМИ КНР; условия повторного использования не опубликованы — только краткий пересказ фактов с атрибуцией",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Перепечатка материала Синьхуа (2016) о реформах в Гуанхане и Сяогане; confidence: medium (журналистский текст партийного издания).",
+   "source_type": "newspaper",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn-guanghan",
+    "cn-xiaogang"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1950,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "cn_cac",
+   "name": "Канцелярия по делам киберпространства КНР (перепечатка «Чжунцин цзайсянь»)",
+   "publisher": "国家互联网信息办公室",
+   "country": "CN",
+   "url": "https://www.cac.gov.cn/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "history",
+    "news"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Государственное СМИ КНР; условия повторного использования не опубликованы — только краткий пересказ фактов с атрибуцией",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Перепечатка репортажа China Youth Online (2018) о Сяогане: доходы 1979 и 2016 гг., Шэнь Хао, визит 2016 г. confidence: medium.",
+   "source_type": "government",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1950,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "cn_xinhua",
+   "name": "Синьхуа (新华网)",
+   "publisher": "新华通讯社",
+   "country": "CN",
+   "url": "https://www.news.cn/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "history",
+    "news"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Государственное СМИ КНР; условия повторного использования не опубликованы — только краткий пересказ фактов с атрибуцией",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Репортаж 2024 г. о Сяогане (аренда земли, акционирование 2016 г., дивиденды). confidence: medium.",
+   "source_type": "newspaper",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1950,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "cn_nbs",
+   "name": "Национальное бюро статистики КНР (国家统计局)",
+   "publisher": "国家统计局",
+   "country": "CN",
+   "url": "https://www.stats.gov.cn/",
+   "historical_coverage": {
+    "from": 1949,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [
+    "statistics",
+    "demography",
+    "income",
+    "census"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальная статистика; условия повторного использования на сайте не изучены — используются только числа с атрибуцией",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Открыты: бюллетени 7-й переписи № 3 (население провинций) и № 7 (город/село, мигранты); доклад № 14 серии к 70-летию КНР (доходы, потребление, товары длительного пользования). data.stats.gov.cn (интерактивная база) отвечает редиректом, не использовалась. confidence: high. 12.11.2026 дополнительно открыты годовые статистические коммюнике 1988 и 1999 гг. (раздел 全国年度统计公报) и английская версия коммюнике 2008 г. — как официальные подтверждения событий.",
+   "source_type": "statistics",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn",
+    "cn-beijing-municipality",
+    "cn-shanghai-municipality",
+    "cn-guangdong",
+    "cn-sichuan",
+    "cn-hubei",
+    "cn-shaanxi",
+    "cn-anhui"
+   ],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "data.stats.gov.cn не проверялся как API"
+   },
+   "years": {
+    "from": 1949,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "cn_nbs_data",
+   "name": "National data portal (国家数据)",
+   "publisher": "National Bureau of Statistics of China",
+   "country": "CN",
+   "url": "https://data.stats.gov.cn/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "statistics",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "cn_nlc",
+   "name": "National Library of China (国家图书馆)",
+   "publisher": "National Library of China",
+   "country": "CN",
+   "url": "http://www.nlc.cn/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "library",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "cn_difangzhi",
+   "name": "Local gazetteers (地方志) of provinces and cities",
+   "publisher": "Local gazetteer offices (地方志办公室)",
+   "country": "CN",
+   "url": "http://www.difangzhi.cn/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "gazetteer",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "cn_yearbooks",
+   "name": "Provincial and municipal statistical yearbooks",
+   "publisher": "Provincial and municipal statistics bureaus",
+   "country": "CN",
+   "url": "https://www.stats.gov.cn/sj/ndsj/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "CN"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "statistics",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "source_id": "cn_gov_prc_chronicle",
+   "name": "中华人民共和国大事记（1949年10月－2019年9月） на 中国政府网",
+   "publisher": "中共中央党史和文献研究院; опубликовано Синьхуа и порталом правительства КНР (gov.cn)",
+   "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+   "historical_coverage": {
+    "from": 1949,
+    "to": 2019
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "license": "Официальная публикация; условия gov.cn не дают открытой лицензии. Используются только даты и пересказ, без копирования текста.",
+   "status": "accessed",
+   "notes": "Официальная хронология КНР 1949–2019, составленная партийным историческим ведомством и размещённая на правительственном портале; формулировки оценок не переносятся в записи, используются даты и факты. Страница доступна из сети без ограничений (проверено 12.11.2026).",
+   "source_type": "government",
+   "languages": [
+    "zh"
+   ],
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 1949,
+    "to": 2019
+   }
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "source_id": "cn_gov_ccp_centenary_chronicle",
+   "name": "中国共产党一百年大事记（1921年7月－2021年6月） на 中国政府网",
+   "publisher": "中共中央党史和文献研究院; опубликовано Синьхуа и порталом правительства КНР (gov.cn)",
+   "url": "https://www.gov.cn/xinwen/2021-06/28/content_5621160.htm",
+   "historical_coverage": {
+    "from": 1921,
+    "to": 2021
+   },
+   "geographic_coverage": [
+    "CN"
+   ],
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "notes": "Официальная хронология 1921–2021, составленная партийным историческим ведомством и размещённая на правительственном портале. Оценочные формулировки (например, о событиях 1927 и 1946 гг.) в записи не переносятся; используются даты, места и числа. Доступна из сети (проверено 12.11.2026).",
+   "source_type": "government",
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 1921,
+    "to": 2021
+   }
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_sz_gov",
+   "name": "深圳市人民政府门户网站（深圳概览、深圳故事）",
+   "publisher": "深圳市人民政府",
+   "url": "https://www.sz.gov.cn/",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "years": {
+    "from": 1979,
+    "to": 2025
+   },
+   "notes": "Официальный портал правительства Шэньчжэня: обзор города и рассказ о создании города по архивным документам 1978–1979 гг. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1979,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "en",
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_shanghai_gov",
+   "name": "上海市人民政府门户网站 (www.shanghai.gov.cn и English portal)",
+   "publisher": "上海市人民政府",
+   "url": "https://english.shanghai.gov.cn/",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-shanghai"
+   ],
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "notes": "Официальный портал правительства Шанхая: англоязычный исторический очерк (Overview), новости и стенограммы пресс-конференций горправительства (пожар 15.11.2010, давка на Набережной 31.12.2014, Диснейленд 2016), уведомление о карантинной зачистке 27.03.2022, справочник «上海概览2022» (PDF). Доступен из сети (проверено 12.11.2026). Сайт шанхайских местных хроник shtong.gov.cn отдаёт страницу только через JavaScript — через WebFetch не читается, пропущен.",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_gz_gov",
+   "name": "广州市人民政府门户网站（历史沿革、图说广州）и сайты управлений горправительства",
+   "publisher": "广州市人民政府",
+   "url": "https://www.gz.gov.cn/",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-guangzhou"
+   ],
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "notes": "Официальный портал правительства Гуанчжоу (历史沿革, статьи об истории мостов) и публикации городских управлений на поддоменах gz.gov.cn (например, очерк о метро на jyj.gz.gov.cn). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_deyang_gov",
+   "name": "德阳市人民政府门户网站（市情：广汉市简介）",
+   "publisher": "德阳市人民政府",
+   "url": "https://www.deyang.gov.cn/",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "years": {
+    "from": 1950,
+    "to": 2018
+   },
+   "notes": "Официальный портал правительства Дэяна; справка о городе Гуанхань (административная история с 1950 г., реформа 1978–1980 гг.). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2018
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_sc_gov",
+   "name": "四川省人民政府网站（省情：市州概况）",
+   "publisher": "四川省人民政府",
+   "url": "https://www.sc.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn-sichuan",
+    "cn-zigong"
+   ],
+   "years": {
+    "from": 1939,
+    "to": 2018
+   },
+   "notes": "Официальный портал правительства провинции Сычуань; справки о городах провинции с административной историей. Доступен из сети (проверено 12.11.2026). Сайт провинциальных местных хроник scdfz.sc.gov.cn (四川省情网) через WebFetch не открылся (ошибка соединения), пропущен.",
+   "historical_coverage": {
+    "from": 1939,
+    "to": 2018
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_xa_gov",
+   "name": "西安市人民政府门户网站（市情：建置沿革）",
+   "publisher": "西安市人民政府",
+   "url": "https://www.xa.gov.cn/sq/csgk/lsyg/1.html",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "years": {
+    "from": 1911,
+    "to": 2018
+   },
+   "notes": "Официальный портал правительства Сиани, страница «建置沿革» с датированной административной историей города 1911–2018. Доступен из сети (проверено 12.11.2026). Сайт архива провинции Шэньси (daj.shaanxi.gov.cn) не открылся из-за просроченного сертификата; страницы провинциальной канцелярии местных хроник (dfz.shaanxi.gov.cn) по найденным адресам отдали 404.",
+   "historical_coverage": {
+    "from": 1911,
+    "to": 2018
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_wuhan_gov",
+   "name": "武汉市人民政府门户网站（武汉概况：历史沿革）",
+   "publisher": "武汉市人民政府",
+   "url": "https://www.wuhan.gov.cn/zjwh/whgk/202003/t20200316_976486.shtml",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-wuhan"
+   ],
+   "years": {
+    "from": 1911,
+    "to": 2016
+   },
+   "notes": "Официальный портал правительства Уханя, страница «历史沿革». Доступен из сети (проверено 12.11.2026). Цифровой архив местных хроник Уханя (szfzg.wuhan.gov.cn: 武汉市志·大事记, «龙腾江汉» 1949–2009) через WebFetch не открылся (соединение обрывается), пропущен.",
+   "historical_coverage": {
+    "from": 1911,
+    "to": 2016
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_beijing_gov",
+   "name": "首都之窗 — 北京市人民政府门户网站（人文北京）",
+   "publisher": "北京市人民政府",
+   "url": "https://www.beijing.gov.cn/",
+   "source_type": "municipal",
+   "location_ids": [
+    "cn-beijing",
+    "cn-beijing-municipality"
+   ],
+   "years": {
+    "from": 1949,
+    "to": 2019
+   },
+   "notes": "Официальный портал правительства Пекина; статьи раздела «人文» об административной истории города. Доступен из сети (проверено 12.11.2026); часть старых статей раздела 历史名城 отдаёт 404. Сайт пекинской канцелярии местных хроник (bjdfz.gov.cn) отказал в соединении — пропущен.",
+   "historical_coverage": {
+    "from": 1949,
+    "to": 2019
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_gov_cn",
+   "name": "中国政府网 (www.gov.cn) — новости,政策解读, 部门动态",
+   "publisher": "国务院办公厅（中国政府网）",
+   "url": "https://www.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 1949,
+    "to": 2025
+   },
+   "notes": "Официальный правительственный портал КНР: отдельные постановления, разъяснения министерств и сообщения о событиях. Используются только даты, места и числа. Доступен из сети (проверено 12.11.2026); часть старых адресов (jrzg) отдаёт 404.",
+   "historical_coverage": {
+    "from": 1949,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_mem_gov",
+   "name": "中华人民共和国应急管理部 — 事故调查报告",
+   "publisher": "中华人民共和国应急管理部",
+   "url": "https://www.mem.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2025
+   },
+   "notes": "Официальный сайт Министерства по чрезвычайным ситуациям: опубликованные расследования крупных аварий (раздел 事故查处). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_xjtu",
+   "name": "西安交通大学 — 校史沿革",
+   "publisher": "西安交通大学",
+   "url": "https://www.xjtu.edu.cn/jdgk/xsyg.htm",
+   "source_type": "academic",
+   "location_ids": [
+    "cn-xian",
+    "cn-shanghai"
+   ],
+   "years": {
+    "from": 1896,
+    "to": 2000
+   },
+   "notes": "Официальный сайт государственного университета, страница истории (1896, 1921, переезд в Сиань 1956, название 1959). Самоописание вуза; используются даты. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1896,
+    "to": 2000
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_fudan",
+   "name": "复旦大学新闻网",
+   "publisher": "复旦大学",
+   "url": "https://news.fudan.edu.cn/",
+   "source_type": "academic",
+   "location_ids": [
+    "cn-shanghai"
+   ],
+   "years": {
+    "from": 1905,
+    "to": 2021
+   },
+   "notes": "Официальный новостной сайт государственного университета Фудань; статья к годовщине основания (14.09.1905, Усун). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1905,
+    "to": 2021
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_jnu",
+   "name": "暨南大学 — 概况 (сайт аспирантуры)",
+   "publisher": "暨南大学",
+   "url": "https://gs.jnu.edu.cn/jgjj/list.htm",
+   "source_type": "academic",
+   "location_ids": [
+    "cn-guangzhou"
+   ],
+   "years": {
+    "from": 1906,
+    "to": 1978
+   },
+   "notes": "Официальный сайт государственного университета Цзинань (раздел 概况 сайта аспирантуры): основание в Нанкине 1906, восстановление в Гуанчжоу 1958, возобновление 1978. Главная страница www.jnu.edu.cn переадресует на http и через WebFetch не открылась. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1906,
+    "to": 1978
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_uestc",
+   "name": "电子科技大学 — 学校简介",
+   "publisher": "电子科技大学",
+   "url": "https://www.uestc.edu.cn/xxgk/xxjj.htm",
+   "source_type": "academic",
+   "location_ids": [
+    "cn-chengdu"
+   ],
+   "years": {
+    "from": 1956,
+    "to": 2025
+   },
+   "notes": "Официальный сайт государственного университета (бывший Чэндуский институт телекоммуникационной техники, 1956). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1956,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_cafuc",
+   "name": "中国民用航空飞行学院 — 学校简介",
+   "publisher": "中国民用航空飞行学院",
+   "url": "https://www.cafuc.edu.cn/xxgk/xxjj.htm",
+   "source_type": "academic",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "years": {
+    "from": 1956,
+    "to": 2025
+   },
+   "notes": "Официальный сайт Лётного училища гражданской авиации Китая (Гуанхань): дата основания 26.05.1956. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1956,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_mct_gov",
+   "name": "中华人民共和国文化和旅游部 — 全国文化信息",
+   "publisher": "中华人民共和国文化和旅游部",
+   "url": "https://www.mct.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn",
+    "cn-guanghan"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2025
+   },
+   "notes": "Официальный сайт Министерства культуры и туризма: сообщения о культурном наследии и археологии (например, 20.03.2021 — новые ямы Саньсиндуя). Доступен из сети (проверено 12.11.2026). Сайт Государственного управления по делам культурного наследия ncha.gov.cn через WebFetch не открылся.",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_mfa_consulate_munich",
+   "name": "中华人民共和国驻慕尼黑总领事馆 — 教育文化科技",
+   "publisher": "Министерство иностранных дел КНР (генконсульство в Мюнхене)",
+   "url": "https://munich.china-consulate.gov.cn/chn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "years": {
+    "from": 1929,
+    "to": 2006
+   },
+   "notes": "Официальный сайт генконсульства КНР; перепечатка материала Синьхуа 2006 г. «破译神秘古蜀文明: 三星堆考古发现20年记» (находка нефрита весной 1929 г., ямы 1986 г.). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1929,
+    "to": 2006
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_sc_wlt",
+   "name": "四川省文化和旅游厅",
+   "publisher": "四川省文化和旅游厅",
+   "url": "https://wlt.sc.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn-zigong",
+    "cn-sichuan"
+   ],
+   "years": {
+    "from": 1972,
+    "to": 2025
+   },
+   "notes": "Официальный сайт департамента культуры и туризма провинции Сычуань (новости о наследии, например о месторождении динозавров Дашаньпу, открытом в 1972 г.). Доступен из сети (проверено 12.11.2026). Сайт музея динозавров Цзыгуна zdm.cn не открылся.",
+   "historical_coverage": {
+    "from": 1972,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_tw_ey",
+   "name": "行政院 (Executive Yuan, Тайвань) — 國情簡介: 中華民國之肇建",
+   "publisher": "行政院（中華民國）; со ссылкой на 國史館",
+   "url": "https://www.ey.gov.tw/state/62879155A536D543/bf75db05-30af-4c3a-bdda-3fe32e3f8e5a",
+   "source_type": "government",
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 1911,
+    "to": 1950
+   },
+   "notes": "Официальный сайт Исполнительного юаня Китайской Республики (Тайвань), справка об истории КР 1911–1950 по данным 國史館. Используются только даты и места; трактовки не переносятся. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1911,
+    "to": 1950
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_tw_cksmh",
+   "name": "國立中正紀念堂 — 蔣中正總統與中華民國",
+   "publisher": "國立中正紀念堂管理處（文化部, Тайвань)",
+   "url": "https://www.cksmh.gov.tw/cp.aspx?n=6094",
+   "source_type": "museum",
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 1908,
+    "to": 1950
+   },
+   "notes": "Официальный сайт государственного мемориального музея (Тайвань): хронология 1908–1950 с датами (1915 монархия Юань Шикая, 10.10.1928, Каирская конференция 22–26.11.1943, конституция 1947, отставка 21.01.1949, переезд правительства 12.1949). Изложение апологетическое — переносятся только даты и места. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1908,
+    "to": 1950
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "en",
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_tw_yatsen",
+   "name": "國立國父紀念館 (National Dr. Sun Yat-sen Memorial Hall) — Chronology of Dr. Sun Yat-sen",
+   "publisher": "國立國父紀念館（文化部, Тайвань)",
+   "url": "https://www.yatsen.gov.tw/en/cp.aspx?n=6695",
+   "source_type": "museum",
+   "location_ids": [
+    "cn"
+   ],
+   "years": {
+    "from": 1866,
+    "to": 1925
+   },
+   "notes": "Официальный сайт государственного мемориального музея Сунь Ятсена (Тайвань): погодная хронология жизни Сунь Ятсена и событий 1900–1925. Используются только даты и места. Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 1866,
+    "to": 1925
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_gd_gov",
+   "name": "广东省人民政府门户网站（政府信息公开、建置沿革）",
+   "publisher": "广东省人民政府",
+   "url": "https://www.gd.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn-guangdong",
+    "cn-shenzhen"
+   ],
+   "years": {
+    "from": 1911,
+    "to": 2025
+   },
+   "notes": "Официальный портал правительства провинции Гуандун: опубликованные документы (например, пересылка ответа Госсовета 国函〔2010〕45号 о расширении ОЭЗ Шэньчжэнь с 01.07.2010) и справка «建置沿革». Доступен из сети (проверено 12.11.2026). Страница городского архива Шэньчжэня szdag.gov.cn о建制沿革 отдала 404.",
+   "historical_coverage": {
+    "from": 1911,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_nra_gov",
+   "name": "国家铁路局 — 已开通的主要铁路",
+   "publisher": "国家铁路局",
+   "url": "https://www.nra.gov.cn/ztzl/hy/gsgt/zgtl/zytl/",
+   "source_type": "government",
+   "location_ids": [
+    "cn",
+    "cn-shanghai",
+    "cn-xian"
+   ],
+   "years": {
+    "from": 2008,
+    "to": 2012
+   },
+   "notes": "Официальный сайт Государственного управления железных дорог КНР: справки о главных открытых линиях ВСМ (даты открытия). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 2008,
+    "to": 2012
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_hunan_gov",
+   "name": "湖南省人民政府门户网站 — 重大项目",
+   "publisher": "湖南省人民政府",
+   "url": "http://www.hunan.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn-wuhan",
+    "cn-guangzhou"
+   ],
+   "years": {
+    "from": 2009,
+    "to": 2012
+   },
+   "notes": "Официальный портал правительства провинции Хунань; сообщение от 10.12.2009 о дате открытия ВСМ Ухань — Гуанчжоу (26 декабря, 1068,6 км). Доступен из сети (проверено 12.11.2026); соответствующие страницы gov.cn 2009 г. отдают 404.",
+   "historical_coverage": {
+    "from": 2009,
+    "to": 2012
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_hubei_gov",
+   "name": "湖北省人民政府部门网站（省药监局转载的省疫情防控指挥部通告）",
+   "publisher": "湖北省人民政府（湖北省药品监督管理局网站）",
+   "url": "https://mpa.hubei.gov.cn/",
+   "source_type": "government",
+   "location_ids": [
+    "cn-hubei",
+    "cn-wuhan"
+   ],
+   "years": {
+    "from": 2020,
+    "to": 2020
+   },
+   "notes": "Официальный сайт провинциального ведомства Хубэя с полным текстом уведомления штаба по борьбе с эпидемией от 24.03.2020 (снятие ограничений на выезд: 25.03 вне Уханя, 08.04 — Ухань). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 2020,
+    "to": 2020
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  },
+  {
+   "country": "CN",
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "accessed": "2026-11-12",
+   "status": "accessed",
+   "languages": [
+    "zh"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страница"
+   },
+   "license": "Официальная публикация; открытой лицензии нет. Используются только даты и пересказ.",
+   "source_id": "cn_hubei_tjj",
+   "name": "湖北省统计局 — 全省统计公报",
+   "publisher": "湖北省统计局",
+   "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/ndtjgb/qstjgb/",
+   "source_type": "statistics",
+   "location_ids": [
+    "cn-hubei"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2025
+   },
+   "notes": "Официальные годовые статистические коммюнике провинции Хубэй (население, рождаемость, смертность). Доступен из сети (проверено 12.11.2026).",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "CN"
+   ]
+  }
+ ]
+}

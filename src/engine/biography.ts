@@ -20,10 +20,12 @@ import type {
 import { seededRandom } from "./random";
 import { earlyLifeThreadForSeed } from "./earlyLifeThread";
 import { narrativeHeadline } from "./eventTitles";
-import { validateSelection } from "./setup";
-import { chooseBranchWithHistory, lifeProfile } from "./world/biographyLink";
+import { narrativeRegionId, validateSelection } from "./setup";
+import { chooseBranchWithHistory, lifeProfile, lifeResidences } from "./world/biographyLink";
 import { getLocation, resolveLocationId } from "./world/geography";
-import { checkMove, pickDestination } from "./world/migration";
+import { checkMove, corridorDestinations, pickDestination } from "./world/migration";
+import { migrationCorridors } from "../../content/historical/migrationCorridors";
+import { annotatePartitions, placeAtYear } from "./world/partition";
 import { planWork } from "./work";
 import { childhoodFamily, planCanon } from "./memory/lifeFacts";
 
@@ -121,6 +123,9 @@ function warEventForRegion(pack: RegionPack): HistoricalEvent | null {
   }) ?? null;
 }
 
+/** Game weight (D-004): how often a migration turning point takes an open cross-border corridor. Not a statistic. */
+export const CROSS_BORDER_SHARE = 0.3;
+
 interface HistoryPlan {
   branch: BranchDefinition;
   anchor: HistoricalAnchor | null;
@@ -133,15 +138,22 @@ interface HistoryPlan {
  * random stream keeps the v0.4 generation (no packs) byte-identical.
  */
 function planWithHistory(selection: StartSelection, biography: BiographyState, initial: BranchDefinition, branchYear: number): HistoryPlan {
-  const legacyDestination = regionNarratives[selection.birthRegionId]?.destinationPlaceId ?? null;
+  const legacyDestination = regionNarratives[narrativeRegionId(selection.birthRegionId)]?.destinationPlaceId ?? null;
   const birthPlaceId = biography.residenceHistory[0]!.placeId;
   const world = worldData();
   if (!hasWorldPacks() || !resolveLocationId(world, birthPlaceId)) return { branch: initial, anchor: null, destinationPlaceId: legacyDestination };
   const random = seededRandom(`${selection.runSeed}:history`);
   const profile = lifeProfile(selection.birthYear, world, biography);
-  const { definition, anchor } = chooseBranchWithHistory(world, biography.residenceHistory, profile, branchCatalog, initial, branchYear, random);
-  const legacyOk = legacyDestination !== null && checkMove(world, birthPlaceId, legacyDestination, branchYear).ok;
-  const destinationPlaceId = legacyOk ? legacyDestination : pickDestination(world, birthPlaceId, branchYear, random);
+  const { definition, anchor } = chooseBranchWithHistory(world, lifeResidences(biography), profile, branchCatalog, initial, branchYear, random);
+  // In a divided city the move starts from her part of it (West Berlin residents moved within the FRG).
+  const originId = placeAtYear(biography.residenceHistory, branchYear) ?? birthPlaceId;
+  const legacyOk = legacyDestination !== null && checkMove(world, originId, legacyDestination, branchYear).ok;
+  const domestic = legacyOk ? legacyDestination : pickDestination(world, originId, branchYear, random);
+  // A documented corridor across the border (recruitment agreements, flight from the GDR before the Wall) may be
+  // taken instead. Separate stream: lives with no open corridor are generated exactly as before.
+  const abroad = corridorDestinations(world, originId, branchYear, migrationCorridors);
+  const corridorRandom = seededRandom(`${selection.runSeed}:corridor`);
+  const destinationPlaceId = abroad.length && corridorRandom.next() < CROSS_BORDER_SHARE ? corridorRandom.pick(abroad) : domestic;
   return { branch: definition, anchor, destinationPlaceId };
 }
 
@@ -157,7 +169,8 @@ function grandmotherName(country: string, random: ReturnType<typeof seededRandom
   // Three draws regardless of palette, so the rest of the generated life does not depend on the naming culture.
   const patronymic = random.pick(namePalettes.RU!.patronymics!);
   const surname = random.pick(palette.surnames);
-  return palette.patronymics ? `${first} ${patronymic} ${surname}` : `${first} ${surname}`;
+  if (palette.patronymics) return `${first} ${patronymic} ${surname}`;
+  return palette.surnameFirst ? `${surname} ${first}` : `${first} ${surname}`;
 }
 
 function createFamily(selection: StartSelection, random: ReturnType<typeof seededRandom>, country: string): GeneratedFamily {
@@ -293,7 +306,7 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
   if (selection.birthRegionId === "leningrad" && random.next() < 0.55) flags.push("in_city_during_blockade");
   if (selection.birthRegionId === "leningrad" && !flags.includes("in_city_during_blockade")) flags.push("left_city_before_blockade");
   const historical = warEventForRegion(pack);
-  const narrative = regionNarratives[selection.birthRegionId] ?? genericRegionNarrative;
+  const narrative = regionNarratives[narrativeRegionId(selection.birthRegionId)] ?? genericRegionNarrative;
   const ordinaryYear = Math.min(selection.birthYear + narrative.ordinaryYearOffset, 2002);
   const birthEvent: LifeEvent = {
     id: "life:birth",
@@ -337,7 +350,7 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
     narrativeThreadId: earlyThread.id,
     traits: [random.pick(traits), random.pick(traits)],
     themes: [],
-    residenceHistory: [{ placeId: birthPlaceId, fromYear: selection.birthYear, toYear: selection.conversationYear }],
+    residenceHistory: annotatePartitions(worldData(), [{ placeId: birthPlaceId, fromYear: selection.birthYear, toYear: selection.conversationYear }], selection.runSeed, pack.partitionPart),
     lifeEvents: [birthEvent, ...(historical ? [historicalLifeEvent(selection, historical, flags)] : []), familyEvent, ordinaryEvent],
     branches: [],
     flags
@@ -441,7 +454,7 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
   const definition = branchDefinition(active.type);
   const birthPlaceId = state.biography.residenceHistory[0]?.placeId;
   if (!birthPlaceId) throw new Error("Birth residence is missing");
-  const destination = active.destinationPlaceId === undefined ? regionNarratives[state.selection.birthRegionId]?.destinationPlaceId ?? null : active.destinationPlaceId;
+  const destination = active.destinationPlaceId === undefined ? regionNarratives[narrativeRegionId(state.selection.birthRegionId)]?.destinationPlaceId ?? null : active.destinationPlaceId;
   // Without a reachable destination she stays: the decision text still holds, but no move is invented.
   const moves = Boolean((outcomeId === "pathA" ? definition.movesOnA : definition.movesOnB) && destination);
   const currentResidence = state.biography.residenceHistory.find((period) => active.year >= period.fromYear && active.year <= period.toYear)
@@ -477,12 +490,12 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
     known: false
   };
   const residenceHistory = moves && placeId !== currentPlaceId
-    ? [
+    ? annotatePartitions(worldData(), [
         ...state.biography.residenceHistory
           .filter((period) => period.fromYear < active.year)
           .map((period) => period.toYear >= active.year ? { ...period, toYear: active.year - 1 } : period),
         { placeId, fromYear: active.year, toYear: state.selection.conversationYear }
-      ]
+      ], state.selection.runSeed)
     : state.biography.residenceHistory;
   const flags = [...state.biography.flags];
   if (active.type === "marriage") flags.push(outcomeId === "pathA" ? "married" : "chose_not_to_marry");

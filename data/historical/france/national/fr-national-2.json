@@ -25,7 +25,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -33,10 +34,16 @@
      "url": "https://fr.wikipedia.org/wiki/Loi_de_s%C3%A9paration_des_%C3%89glises_et_de_l%27%C3%89tat",
      "accessed": "2026-10-29",
      "supports": "9 décembre 1905; 1er janvier 1906; inventaires 1906"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006070169/",
+     "accessed": "2026-11-13",
+     "supports": "Loi du 9 décembre 1905 concernant la séparation des Églises et de l'État"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1914-general-mobilisation",
@@ -143,7 +150,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -151,10 +159,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "26 avril 1935; 1949 environ 297 foyers"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/video/i14093273/recit-de-la-premiere-emission-officielle-de-television-en-avril-1935",
+     "accessed": "2026-11-13",
+     "supports": "Première émission officielle de télévision commanditée par Georges Mandel le 26 avril 1935"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1940-exodus",
@@ -224,7 +238,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -232,10 +247,16 @@
      "url": "https://fr.wikipedia.org/wiki/Exode_de_1940_en_France",
      "accessed": "2026-10-29",
      "supports": "armistice 22 juin 1940; ligne de démarcation; zone interdite Nord Pas-de-Calais"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/22-juin-1940-signature-de-l-armistice-dans-le-wagon-de-rethondes",
+     "accessed": "2026-11-13",
+     "supports": "Armistice signé le 22 juin 1940 dans le wagon de Rethondes"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1942-southern-zone-invasion",
@@ -260,7 +281,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -268,10 +290,16 @@
      "url": "https://fr.wikipedia.org/wiki/Invasion_de_la_zone_libre",
      "accessed": "2026-10-29",
      "supports": "soir du 11 novembre; Marseille le 12; sabordage 27 novembre"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/reperes-mediterraneens/parcours/0003/la-provence-dans-la-guerre-1939-1945.html",
+     "accessed": "2026-11-13",
+     "supports": "11 novembre 1942: les Allemands atteignent la côte méditerranéenne après le débarquement allié en Afrique du Nord"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1954-abbe-pierre-winter",
@@ -300,7 +328,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -308,10 +337,16 @@
      "url": "https://fr.wikipedia.org/wiki/Hiver_1954",
      "accessed": "2026-10-29",
      "supports": "vagues de froid janvier-février 1954; Paris −13 °C; appel radio, afflux de dons, Emmaüs"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/froid-hiver-54-abbe-pierre-logement-politique",
+     "accessed": "2026-11-13",
+     "supports": "Hiver glacial de 1954 et appel de l'abbé Pierre sur Radio Luxembourg le 1er février 1954"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1958-millionth-tv",
@@ -338,7 +373,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -346,10 +382,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "1958 environ 1 000 000; 1970 environ 10 970 000"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/panorama-grand-est/fiche-media/GRDEST00039/retour-sur-50-ans-de-television-regionale-en-lorraine.html",
+     "accessed": "2026-11-13",
+     "supports": "L'équipement des ménages passe la barre du million de postes en 1958"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1962-evian-accords",
@@ -379,7 +421,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -387,10 +430,16 @@
      "url": "https://fr.wikipedia.org/wiki/Accords_d%27%C3%89vian",
      "accessed": "2026-10-29",
      "supports": "18 mars 1962; cessez-le-feu 19 mars; indépendance 5 juillet; exode avril-août 1962"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/18-mars-1962-les-accords-d-evian-mettent-fin-a-la-guerre-d-algerie",
+     "accessed": "2026-11-13",
+     "supports": "Accords d'Évian conclus le 18 mars 1962, cessez-le-feu le 19 mars à midi, indépendance de l'Algérie le 5 juillet 1962"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1963-second-channel",
@@ -415,7 +464,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -423,10 +473,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "16 mai 1963 Paris; 21 décembre 1963 national"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/institut-national-audiovisuel/collections-audiovisuelles/archives-emblematiques/television",
+     "accessed": "2026-11-13",
+     "supports": "Inauguration de la deuxième chaîne le 21 décembre 1963"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1967-colour-tv",
@@ -451,7 +507,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -459,10 +516,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "1er octobre 1967 SECAM; diffusion lente"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/video/s648100_001/tele-il-y-a-50-ans-la-france-en-couleur",
+     "accessed": "2026-11-13",
+     "supports": "Le 1er octobre 1967 la télévision française passe à la couleur"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1973-oil-shock",
@@ -492,7 +555,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -500,10 +564,16 @@
      "url": "https://fr.wikipedia.org/wiki/Premier_choc_p%C3%A9trolier",
      "accessed": "2026-10-29",
      "supports": "octobre 1973; baril de 2,59 à 11,65 $; programme nucléaire"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/23-decembre-1973-le-1er-choc-petrolier",
+     "accessed": "2026-11-13",
+     "supports": "16-17 octobre 1973: l'OPEP relève de 70 % le prix du brut; hausse de 112 % le 23 décembre 1973"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1972-third-channel",
@@ -528,7 +598,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -536,10 +607,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "31 décembre 1972; 1975 l'ORTF est démantelé"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/institut-national-audiovisuel/collections-audiovisuelles/archives-emblematiques/television",
+     "accessed": "2026-11-13",
+     "supports": "La troisième chaîne démarre directement en couleur le 31 décembre 1972"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1981-death-penalty-abolished",
@@ -564,7 +641,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -572,10 +650,16 @@
      "url": "https://fr.wikipedia.org/wiki/Abolition_de_la_peine_de_mort_en_France",
      "accessed": "2026-10-29",
      "supports": "loi 81-908 du 9 octobre 1981; vote 18 septembre"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006068718/",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 81-908 du 9 octobre 1981 portant abolition de la peine de mort"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1984-canal-plus",
@@ -600,7 +684,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -608,10 +693,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "Canal+ 4 novembre 1984; La Cinq, TV6 1986; TF1 privatisée 1987"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/institut-national-audiovisuel/collections-audiovisuelles/archives-emblematiques/television",
+     "accessed": "2026-11-13",
+     "supports": "Création de Canal+ en 1984"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1999-pacs",
@@ -640,7 +731,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -648,10 +740,16 @@
      "url": "https://fr.wikipedia.org/wiki/Pacte_civil_de_solidarit%C3%A9",
      "accessed": "2026-10-29",
      "supports": "loi 99-944 du 15 novembre 1999; 22 276 en 2000; 205 550 en 2010"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000761717",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 99-944 du 15 novembre 1999 relative au pacte civil de solidarité"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2005-tnt",
@@ -677,7 +775,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -685,10 +784,16 @@
      "url": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_France",
      "accessed": "2026-10-29",
      "supports": "TNT 31 mars 2005"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/video/2796237001003/lancement-de-la-tnt-au-csa",
+     "accessed": "2026-11-13",
+     "supports": "Reportage du 31 mars 2005, quelques heures après le lancement officiel de la TNT"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2013-same-sex-marriage",
@@ -713,7 +818,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -721,10 +827,16 @@
      "url": "https://fr.wikipedia.org/wiki/Mariage_homosexuel_en_France",
      "accessed": "2026-10-29",
      "supports": "loi 2013-404 du 17 mai 2013; premier mariage 29 mai 2013 Montpellier"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027414540",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 2013-404 du 17 mai 2013 ouvrant le mariage aux couples de personnes de même sexe"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1944-liberation",
@@ -789,7 +901,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "en_wikipedia"
+    "en_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -797,10 +910,16 @@
      "url": "https://en.wikipedia.org/wiki/German_Instrument_of_Surrender",
      "accessed": "2026-10-30",
      "supports": "вступление капитуляции в силу 8 мая 1945 года"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/de-gaulle/fiche-media/Gaulle00315/la-victoire-du-8-mai-1945.html",
+     "accessed": "2026-11-13",
+     "supports": "Reddition allemande signée à Reims le 7 mai et à Berlin le 8 mai 1945; allocution radiodiffusée du général de Gaulle le 8 mai 1945"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

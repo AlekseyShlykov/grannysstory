@@ -64,7 +64,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -72,10 +73,16 @@
           "url": "https://ru.wikipedia.org/wiki/Торжок",
           "accessed": "2026-10-29",
           "supports": "14 октября 1941, группа Ватутина"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=500",
+          "accessed": "2026-11-13",
+          "supports": "энциклопедия «Тверская область», ст. «Калининская оборонительная операция 1941»: войска с группой Северо-Западного фронта Н. Ф. Ватутина разбили группировку, прорвавшуюся от Калинина к Торжку (октябрь 1941)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-torzhok-2012-shell-plant",

@@ -25,7 +25,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Вторичный источник; использован для административной истории, оккупации, местной истории Лилля, Лиона, Марселя, Ле-Крёзо, Плозеве. Записи только на нём — confidence medium."
+   "notes": "Вторичный источник; использован для административной истории, оккупации, местной истории Лилля, Лиона, Марселя, Ле-Крёзо, Плозеве. Записи только на нём — confidence medium.",
+   "source_type": "encyclopedia"
   },
   {
    "source_id": "en_wikipedia",
@@ -51,7 +52,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Вторичный источник; даты слияния регионов 2016 и названий."
+   "notes": "Вторичный источник; даты слияния регионов 2016 и названий.",
+   "source_type": "encyclopedia"
   },
   {
    "source_id": "fr_legifrance",
@@ -78,7 +80,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Официальные тексты законов (JORF). Использованы страницы конкретных законов."
+   "notes": "Официальные тексты законов (JORF). Использованы страницы конкретных законов.",
+   "source_type": "government"
   },
   {
    "source_id": "fr_insee",
@@ -105,7 +108,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Использована хронология прав женщин (Insee Références, Femmes et hommes 2022, annexe) и статистические публикации."
+   "notes": "Использована хронология прав женщин (Insee Références, Femmes et hommes 2022, annexe) и статистические публикации.",
+   "source_type": "statistics"
   },
   {
    "country": "FR",
@@ -132,7 +136,8 @@
    "access_method": "website",
    "license": "Licence Ouverte / Etalab 2.0",
    "status": "catalogued",
-   "notes": "Страница eclairage/20136 (история регионов) вернула пустое содержимое при загрузке; в записях не используется."
+   "notes": "Страница eclairage/20136 (история регионов) вернула пустое содержимое при загрузке; в записях не используется.",
+   "source_type": "government"
   },
   {
    "country": "FR",
@@ -158,7 +163,8 @@
    "access_method": "not_accessible",
    "license": "Условия сайта Ined (не проверены)",
    "status": "inaccessible",
-   "notes": "DNS-ошибка (ENOTFOUND www.ined.fr) при попытке открыть страницы о бездетности; данные по бездетности взяты из Insee (France portrait social 2013)."
+   "notes": "DNS-ошибка (ENOTFOUND www.ined.fr) при попытке открыть страницы о бездетности; данные по бездетности взяты из Insee (France portrait social 2013).",
+   "source_type": "academic"
   },
   {
    "country": "FR",
@@ -184,7 +190,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "accessed",
-   "notes": "Открыты тематические страницы Gallica с историей и региональной прессой. В игре показывается ссылка на каталог; тексты и изображения не воспроизводятся."
+   "notes": "Открыты тематические страницы Gallica с историей и региональной прессой. В игре показывается ссылка на каталог; тексты и изображения не воспроизводятся.",
+   "source_type": "library"
   },
   {
    "country": "FR",
@@ -210,7 +217,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовалась."
+   "notes": "Не использовалась.",
+   "source_type": "library"
   },
   {
    "country": "FR",
@@ -235,7 +243,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "accessed",
-   "notes": "Открыт официальный портал и виртуальный читальный зал. В игре показывается ссылка на каталог; архивные материалы не воспроизводятся."
+   "notes": "Открыт официальный портал и виртуальный читальный зал. В игре показывается ссылка на каталог; архивные материалы не воспроизводятся.",
+   "source_type": "archive"
   },
   {
    "country": "FR",
@@ -260,7 +269,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовался; кандидат для COG/исторических наборов."
+   "notes": "Не использовался; кандидат для COG/исторических наборов.",
+   "source_type": "government"
   },
   {
    "country": "FR",
@@ -286,7 +296,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовались."
+   "notes": "Не использовались.",
+   "source_type": "archive"
   },
   {
    "country": "FR",
@@ -312,7 +323,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовались."
+   "notes": "Не использовались.",
+   "source_type": "archive"
   },
   {
    "country": "FR",
@@ -338,7 +350,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовались."
+   "notes": "Не использовались.",
+   "source_type": "archive"
   },
   {
    "country": "FR",
@@ -352,7 +365,7 @@
    "bulk_download": false,
    "attribution_required": true,
    "access_restrictions": [],
-   "accessed": null,
+   "accessed": "2026-11-13",
    "source_id": "fr_archives_paris",
    "name": "Archives de Paris",
    "publisher": "Ville de Paris",
@@ -363,8 +376,9 @@
    ],
    "access_method": "catalogue",
    "license": "не проверялась",
-   "status": "catalogued",
-   "notes": "Не использовались."
+   "status": "accessed",
+   "notes": "Archives de Paris (archives départementales et municipales). Использованы тематические страницы о наводнении 1910 года.",
+   "source_type": "archive"
   },
   {
    "country": "FR",
@@ -389,7 +403,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовалась в этой сессии."
+   "notes": "Не использовалась в этой сессии.",
+   "source_type": "encyclopedia"
   },
   {
    "country": "FR",
@@ -414,7 +429,8 @@
    "access_method": "catalogue",
    "license": "не проверялась",
    "status": "catalogued",
-   "notes": "Не использовалась в этой сессии."
+   "notes": "Не использовалась в этой сессии.",
+   "source_type": "encyclopedia"
   },
   {
    "country": "FR",
@@ -439,7 +455,178 @@
    "access_method": "not_accessible",
    "license": "не проверялась",
    "status": "inaccessible",
-   "notes": "Страница whc.unesco.org/fr/list/872 (Лион) вернула HTTP 403; дата внесения Лиона в список не проверена."
+   "notes": "Страница whc.unesco.org/fr/list/872 (Лион) вернула HTTP 403; дата внесения Лиона в список не проверена.",
+   "source_type": "other"
+  },
+  {
+   "source_id": "fr_ina",
+   "name": "Institut national de l'audiovisuel (INA)",
+   "publisher": "Institut national de l'audiovisuel (établissement public)",
+   "country": "FR",
+   "url": "https://www.ina.fr/",
+   "historical_coverage": {
+    "from": 1930,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "media",
+    "television",
+    "general"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Тексты и видео INA защищены; используются только как ссылки и собственный пересказ фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Публичный аудиовизуальный архив Франции. Использованы страницы ina.fr (Ina éclaire l'actu, archives emblématiques) и региональные «Fresques» (fresques.ina.fr) с датами событий.",
+   "source_type": "archive",
+   "languages": [
+    "fr"
+   ],
+   "location_ids": [
+    "fr"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1930,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fr_francearchives",
+   "name": "FranceArchives",
+   "publisher": "Service interministériel des Archives de France (ministère de la Culture)",
+   "country": "FR",
+   "url": "https://francearchives.gouv.fr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "general",
+    "local_history"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Условия не проверялись",
+   "attribution_required": true,
+   "access_restrictions": [
+    "page rendered client-side; automated fetch returns empty text"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "13.11.2026: страницы «Commémorations» и описи открывались через WebFetch пустыми; обход не применялся.",
+   "source_type": "archive",
+   "languages": [
+    "fr"
+   ],
+   "location_ids": [
+    "fr"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fr_chemins_de_memoire",
+   "name": "Chemins de mémoire",
+   "publisher": "Ministère des Armées",
+   "country": "FR",
+   "url": "https://www.cheminsdememoire.gouv.fr/",
+   "historical_coverage": {
+    "from": 1914,
+    "to": 1962
+   },
+   "geographic_coverage": [
+    "FR"
+   ],
+   "categories": [
+    "war",
+    "memory"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Условия не проверялись",
+   "attribution_required": true,
+   "access_restrictions": [
+    "DNS error (ENOTFOUND) for automated fetch"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "13.11.2026: страницы найдены поиском (Вель д'Ив, освобождение Парижа и Марселя, мемориал Монлюк), но не открылись (ENOTFOUND); ссылки не добавлялись.",
+   "source_type": "government",
+   "languages": [
+    "fr"
+   ],
+   "location_ids": [
+    "fr"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1914,
+    "to": 1962
+   }
+  },
+  {
+   "source_id": "fr_ratp",
+   "name": "RATP — patrimoine",
+   "publisher": "Régie autonome des transports parisiens",
+   "country": "FR",
+   "url": "https://www.ratp.fr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "fr-paris"
+   ],
+   "categories": [
+    "transport"
+   ],
+   "access_method": "not_accessible",
+   "bulk_download": false,
+   "license": "Условия не проверялись",
+   "attribution_required": true,
+   "access_restrictions": [
+    "HTTP 403 for automated fetch"
+   ],
+   "status": "inaccessible",
+   "accessed": null,
+   "notes": "13.11.2026: страница истории линии 1 вернула 403; обход не применялся.",
+   "source_type": "government",
+   "languages": [
+    "fr"
+   ],
+   "location_ids": [
+    "fr-paris"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
   }
  ]
 }

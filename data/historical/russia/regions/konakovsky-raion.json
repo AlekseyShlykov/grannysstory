@@ -25,7 +25,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -33,10 +34,16 @@
           "url": "https://ru.wikipedia.org/wiki/Конаковский_район",
           "accessed": "2026-10-29",
           "supports": "26.02.1930 переименование"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/2020.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2020 год»: 26 февраля 1930 рабочий посёлок Кузнецово переименован в Конаково"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-konakovsky-1937-ivankovo-reservoir",
@@ -157,7 +164,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -171,10 +179,16 @@
           "url": "https://ru.wikipedia.org/wiki/Иваньковское_водохранилище",
           "accessed": "2026-10-29",
           "supports": "пруд-охладитель с 1964"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/2020.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2020 год»: 10 января 1965 введён в строй первый энергоблок Конаковской ГРЭС (строительство с 1962)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ]
 }

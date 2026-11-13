@@ -6,6 +6,8 @@ export interface NamePalette {
   /** Absent where the culture has no patronymic. */
   patronymics?: readonly string[];
   surnames: readonly string[];
+  /** Family name first, as in Chinese («Ван Шулань»). */
+  surnameFirst?: boolean;
 }
 
 export const namePalettes: Record<string, NamePalette> = {
@@ -29,5 +31,29 @@ export const namePalettes: Record<string, NamePalette> = {
   PL: {
     firstNames: ["Барбара", "Кристина", "Ядвига", "Халина", "Зофья", "Ирена", "Данута", "Тереса"],
     surnames: ["Новак", "Ковальская", "Вишневская", "Домбровская", "Левандовская", "Зелиньская", "Шиманьская", "Возняк"]
+  },
+  // Italian women kept their own surname in documents; the surname here is hers, not a husband's.
+  IT: {
+    firstNames: ["Мария", "Джузеппина", "Анна", "Роза", "Кармела", "Джованна", "Тереза", "Лючия", "Анджела", "Катерина"],
+    surnames: ["Росси", "Руссо", "Ферраро", "Эспозито", "Бьянки", "Романо", "Коломбо", "Риччи", "Марино", "Конти"]
+  },
+  DE: {
+    firstNames: ["Гертруда", "Ильза", "Хильдегард", "Урсула", "Эрика", "Ирмгард", "Шарлотта", "Эльфрида", "Маргарета", "Герда"],
+    surnames: ["Мюллер", "Шмидт", "Шнайдер", "Фишер", "Вебер", "Майер", "Вагнер", "Беккер", "Шульц", "Хофман"]
+  },
+  // Palladius transcription; family name first.
+  CN: {
+    firstNames: ["Сюин", "Гуйин", "Шучжэнь", "Юйлань", "Сюлань", "Фэнъин", "Шухуа", "Гуйлань", "Юйчжэнь", "Шулань"],
+    surnames: ["Ван", "Ли", "Чжан", "Лю", "Чэнь", "Ян", "Чжао", "Хуан", "Чжоу", "У"],
+    surnameFirst: true
+  },
+  FI: {
+    firstNames: ["Айно", "Хельми", "Айли", "Элли", "Мартта", "Лемпи", "Сюльви", "Кертту", "Тююне", "Анна"],
+    surnames: ["Виртанен", "Корхонен", "Мякинен", "Ниеминен", "Мякеля", "Хямяляйнен", "Лайне", "Хейккинен", "Койвисто", "Лехтонен"]
+  },
+  // Surnames became obligatory in Turkey only with the 1934 law; she carries the one her family took then.
+  TR: {
+    firstNames: ["Фатма", "Айше", "Эмине", "Хатидже", "Зейнеп", "Мерьем", "Шерифе", "Зехра", "Ханифе", "Хюррие"],
+    surnames: ["Йылмаз", "Кая", "Демир", "Шахин", "Челик", "Йылдыз", "Арслан", "Озтюрк", "Айдын", "Доган"]
   }
 };

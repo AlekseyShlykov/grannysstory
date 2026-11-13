@@ -1,0 +1,2420 @@
+{
+ "records": [
+  {
+   "id": "fi-nat-1948-free-school-lunches",
+   "title": "Бесплатные школьные обеды стали обязательными",
+   "title_en": "Free school lunches become mandatory",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "education",
+   "subcategory": "school_meals",
+   "historical_summary": "В 1948 г. бесплатные школьные обеды стали обязательными для всех школ.",
+   "historical_summary_en": "In 1948 free school lunches became mandatory in schools.",
+   "affected_groups": [
+    "school_pupils",
+    "children",
+    "parents"
+   ],
+   "eligibility": {
+    "min_age": null,
+    "max_age": 16,
+    "groups_any": []
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "school_lunch_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_oph"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_in_Finland",
+     "accessed": "2026-11-11",
+     "supports": "Free school lunches became mandatory in 1948"
+    },
+    {
+     "source_id": "fi_oph",
+     "url": "https://www.oph.fi/fi/koulutus-ja-tutkinnot/kouluruokailun-historiaa",
+     "accessed": "2026-11-12",
+     "supports": "National Agency for Education: the 1943 law gave five years to introduce free school meals; 1948 is regarded as the start of free school meals for all compulsory-school pupils"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1952-nordic-passport-union",
+   "title": "Северный паспортный союз",
+   "title_en": "Nordic passport union",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "migration",
+   "subcategory": "emigration_sweden",
+   "historical_summary": "В 1952 г. Финляндия вошла в паспортный союз северных стран. Вместе с отменой визы в 1949 г. это облегчило переезд на работу в Швецию.",
+   "historical_summary_en": "In 1952 Finland entered the Nordic passport union. Together with the lifting of the visa requirement in 1949, this made it easier to move to Sweden for work.",
+   "affected_groups": [
+    "young_adults",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "relative_in_sweden"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "1952 Finland entered into a passport union"
+    },
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ruotsinsuomalaiset",
+     "accessed": "2026-11-11",
+     "supports": "1949 visa requirement removed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1956-general-strike",
+   "title": "Всеобщая забастовка 1956 года",
+   "title_en": "General strike of 1956",
+   "start_date": "1956",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "labor",
+   "subcategory": "general_strike",
+   "historical_summary": "В 1956 г. в Финляндии прошла всеобщая забастовка, которая замедлила рост экономики.",
+   "historical_summary_en": "A general strike took place in Finland in 1956 and slowed economic growth.",
+   "affected_groups": [
+    "industrial_workers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family",
+    "family_on_strike"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1956 general strike contributed to slowdown"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1956-national-pension-reform",
+   "title": "Реформа народной пенсии",
+   "title_en": "National pension reform",
+   "start_date": "1956",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "pensions",
+   "historical_summary": "Пенсионная реформа 1956 г. превратила народную пенсию в фиксированное пособие с проверкой доходов и упразднила личные накопительные счета.",
+   "historical_summary_en": "The pension reform of 1956 turned the national pension into an income-tested flat-rate benefit and abolished personal savings accounts.",
+   "affected_groups": [
+    "elderly",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "parents_pension"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1956 reform: income-tested flat-rate benefit, personal accounts abolished"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1957-tv-test-broadcasts",
+   "title": "Первые телевизионные пробные передачи Yle",
+   "title_en": "Yle's first television test broadcasts",
+   "start_date": "1957",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "media_communication",
+   "subcategory": "television",
+   "historical_summary": "В 1957 г. Yleisradio начала пробные телевизионные передачи, а с 1 января 1958 г. — регулярное вещание под названием «Suomen Televisio».",
+   "historical_summary_en": "Yleisradio began test television broadcasts in 1957 and regular broadcasting under the name Suomen Televisio on 1 January 1958.",
+   "affected_groups": [
+    "all_residents",
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_set",
+    "neighbors_came_to_watch"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_yle_elava_arkisto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Yleisradio",
+     "accessed": "2026-11-11",
+     "supports": "test broadcasts 1957; regular TV 1.1.1958"
+    },
+    {
+     "source_id": "fi_yle_elava_arkisto",
+     "url": "https://yle.fi/a/7-878278",
+     "accessed": "2026-11-12",
+     "supports": "Yle company history: trial TV broadcasts in 1957 from the Helsinki Stadium tower; regular broadcasts from 1 January 1958"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1958-recession-devaluation",
+   "title": "Спад и девальвация 1958 года",
+   "title_en": "Recession and devaluation of 1958",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "devaluation",
+   "historical_summary": "В 1958 г. промышленное производство сократилось на 3,4%, а девальвация марки подняла курс доллара на 39%.",
+   "historical_summary_en": "In 1958 industrial output fell by 3.4%, and a devaluation of the markka raised the dollar by 39%.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "prices_at_the_store"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1958 output -3.4%, devaluation dollar +39%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1960-emigration-to-sweden",
+   "title": "Массовый переезд на работу в Швецию",
+   "title_en": "Mass labour migration to Sweden",
+   "start_date": "1960",
+   "end_date": "1979",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "migration",
+   "subcategory": "emigration_sweden",
+   "historical_summary": "В 1960–1979 гг. было зарегистрировано около 322 тыс. переездов из Финляндии в Швецию. Причины — нехватка рабочих рук и вербовка в Швеции, а в Финляндии безработица, упадок сельского хозяйства и многочисленные послевоенные поколения.",
+   "historical_summary_en": "About 322,000 moves from Finland to Sweden were recorded in 1960–1979. The drivers were labour shortages and recruitment in Sweden and, in Finland, unemployment, declining agriculture and large post-war birth cohorts.",
+   "affected_groups": [
+    "young_adults",
+    "migrants",
+    "industrial_workers",
+    "rural_residents"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "max_age": 45,
+    "groups_any": []
+   },
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "relative_in_sweden",
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ruotsinsuomalaiset",
+     "accessed": "2026-11-11",
+     "supports": "1960–1979 about 322,000 moves; drivers"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1961-efta",
+   "title": "Финляндия просит об ассоциации с ЕАСТ",
+   "title_en": "Finland seeks association with EFTA",
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "trade",
+   "historical_summary": "В 1961 г. Финляндия обратилась за членством в Европейской ассоциации свободной торговли; полноправным членом ЕАСТ она стала в 1986 г.",
+   "historical_summary_en": "In 1961 Finland requested membership of the European Free Trade Association; it became a full EFTA member in 1986.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_efta"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "1961 requested EFTA membership; 1986 EFTA member"
+    },
+    {
+     "source_id": "fi_efta",
+     "url": "https://www.efta.int/about-efta/history",
+     "accessed": "2026-11-12",
+     "supports": "EFTA timeline: 1961 Finland becomes an associate member of EFTA; 1986 Finland becomes a full member"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1963-social-security-code",
+   "title": "Личный код и карточка медицинского страхования",
+   "title_en": "Personal identity code and health insurance card",
+   "start_date": "1963",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "health_insurance",
+   "historical_summary": "В 1963 г. граждане получили личный код социального страхования и карточку медицинского страхования, а с 1964 г. пособия по медицинскому страхованию стали доступны через Kela всем жителям.",
+   "historical_summary_en": "In 1963 citizens received a personal social security code and a health insurance card, and from 1964 health insurance benefits became available from Kela to all residents.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "first_health_insurance_card"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1963 code and card; 1964 health insurance benefits for all residents"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1965-second-tv-channel",
+   "title": "Второй телеканал",
+   "title_en": "Second television channel",
+   "start_date": "1965-03-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "media_communication",
+   "subcategory": "television",
+   "historical_summary": "После объединения Yle с частными Tesvisio и Tamvisio в 1964 г. появились два канала; второй канал начал работу 7 марта 1965 г.",
+   "historical_summary_en": "After Yle merged with the private Tesvisio and Tamvisio in 1964 there were two channels; the second channel began on 7 March 1965.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_set"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_yle_elava_arkisto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Yleisradio",
+     "accessed": "2026-11-11",
+     "supports": "1964 merger; TV2 launch 7.3.1965"
+    },
+    {
+     "source_id": "fi_yle_elava_arkisto",
+     "url": "https://yle.fi/a/7-878278",
+     "accessed": "2026-11-12",
+     "supports": "Yle company history: Yle bought Tesvisio in 1964 and kept the second channel; the names TV1 and TV2 came into use in 1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1967-health-insurance-doctors",
+   "title": "Медицинское страхование покрывает визиты к врачу",
+   "title_en": "Health insurance extended to doctors' fees",
+   "start_date": "1967",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "healthcare",
+   "subcategory": "health_insurance",
+   "historical_summary": "Второй этап национального медицинского страхования в 1967 г. распространил компенсацию на оплату врачей и сократил срок ожидания пособия по болезни с 14 до 7 дней.",
+   "historical_summary_en": "The second stage of national health insurance in 1967 extended cover to doctors' fees and cut the waiting period for sickness allowance from 14 to 7 days.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1967 second stage: doctors' fees; waiting 14 to 7 days"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1969-colour-tv",
+   "title": "Цветное телевидение",
+   "title_en": "Colour television",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "media_communication",
+   "subcategory": "television",
+   "historical_summary": "В 1969 г. Yleisradio начала показывать программы в цвете, хотя большинство передач стали цветными лишь в конце 1970-х.",
+   "historical_summary_en": "Yleisradio began broadcasting programmes in colour in 1969, although most programmes were not in colour until the late 1970s.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_colour_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_yle_elava_arkisto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Yleisradio",
+     "accessed": "2026-11-11",
+     "supports": "colour 1969; most programmes late 1970s"
+    },
+    {
+     "source_id": "fi_yle_elava_arkisto",
+     "url": "https://yle.fi/a/7-878278",
+     "accessed": "2026-11-12",
+     "supports": "Yle company history: colour trial broadcasts from November 1968; the President's New Year speech 1969 was the first colour programme"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1969-emigration-peak",
+   "title": "Пик эмиграции в Швецию",
+   "title_en": "Peak of emigration to Sweden",
+   "start_date": "1969",
+   "end_date": "1970",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "migration",
+   "subcategory": "emigration_sweden",
+   "historical_summary": "В 1969–1970 гг. в Швецию уезжали до 40 тыс. финнов в год. По данным Статистического управления, общая эмиграция из Финляндии составила 54 107 человек в 1969 г. и 53 205 в 1970 г., и население страны в эти годы сократилось.",
+   "historical_summary_en": "In 1969–1970 up to 40,000 Finns a year moved to Sweden. According to Statistics Finland, total emigration from Finland was 54,107 in 1969 and 53,205 in 1970, and the country's population fell in those years.",
+   "affected_groups": [
+    "young_adults",
+    "migrants",
+    "industrial_workers"
+   ],
+   "eligibility": {
+    "min_age": 16,
+    "max_age": 45,
+    "groups_any": []
+   },
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "relative_in_sweden",
+    "family_moved_for_volvo_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_statfin",
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Ruotsinsuomalaiset",
+     "accessed": "2026-11-11",
+     "supports": "peak 1969–1970 up to 40,000 per year"
+    },
+    {
+     "source_id": "fi_statfin",
+     "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/ssaaty/121v.px",
+     "accessed": "2026-11-11",
+     "supports": "emigration 1969: 54107; 1970: 53205; total change negative"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1969-kela-family-benefits",
+   "title": "Пенсии по потере кормильца и пособия по уходу за ребёнком",
+   "title_en": "Survivors' pensions and child care allowances",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "family_benefits",
+   "historical_summary": "В 1969 г. Kela назначила первые пенсии по потере кормильца, пособия по уходу за ребёнком и жилищные надбавки пенсионерам.",
+   "historical_summary_en": "In 1969 Kela granted the first survivors' pensions, child care allowances and housing allowances for pensioners.",
+   "affected_groups": [
+    "mothers",
+    "pensioners",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1969 survivors' pensions, child care allowances, pensioners' housing allowances"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1970-pharmacy-reimbursement",
+   "title": "Прямая компенсация лекарств в аптеках",
+   "title_en": "Direct reimbursement for medicines at pharmacies",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "healthcare",
+   "subcategory": "medicines",
+   "historical_summary": "С 1970 г. компенсация стоимости лекарств стала предоставляться прямо в аптеке.",
+   "historical_summary_en": "From 1970 reimbursement for medicines was provided directly at the pharmacy.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1970 direct reimbursement in pharmacies"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1972-comprehensive-school",
+   "title": "Переход к единой девятилетней школе",
+   "title_en": "Transition to the nine-year comprehensive school",
+   "start_date": "1972",
+   "end_date": "1977",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "education",
+   "subcategory": "peruskoulu",
+   "historical_summary": "В 1972–1977 гг. прежняя школьная система была постепенно заменена обязательной девятилетней единой школой (peruskoulu).",
+   "historical_summary_en": "In 1972–1977 the old school system was phased out in favour of the compulsory nine-year comprehensive school (peruskoulu).",
+   "affected_groups": [
+    "school_pupils",
+    "children",
+    "teachers",
+    "parents"
+   ],
+   "eligibility": {
+    "min_age": null,
+    "max_age": 16,
+    "groups_any": []
+   },
+   "potential_impacts": [
+    "school_change",
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "new_comprehensive_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_oph"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_in_Finland",
+     "accessed": "2026-11-11",
+     "supports": "old system phased out 1972–1977; mandatory years 1–9"
+    },
+    {
+     "source_id": "fi_oph",
+     "url": "https://www.oph.fi/fi/koulutus-ja-tutkinnot/kouluruokailun-historiaa",
+     "accessed": "2026-11-12",
+     "supports": "National Agency for Education: by 1977 all Finnish municipalities had moved to the comprehensive school (peruskoulu) system"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1973-ec-free-trade-oil-crisis",
+   "title": "Договор о свободной торговле с ЕЭС и нефтяной кризис",
+   "title_en": "Free trade agreement with the EC and the oil crisis",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "trade",
+   "historical_summary": "В 1973 г. Финляндия заключила договор о свободной торговле с Европейским сообществом; в том же году начался первый нефтяной кризис. В 1975 г. промышленное производство сократилось.",
+   "historical_summary_en": "In 1973 Finland concluded a free trade agreement with the European Community, and the first oil crisis began the same year. Industrial output fell in 1975.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "prices_at_the_store",
+    "petrol_prices"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1973 EC free trade, first oil crisis; 1975 output declined"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1978-devaluations",
+   "title": "Три девальвации 1978–1979 годов",
+   "title_en": "Three devaluations of 1978–1979",
+   "start_date": "1978",
+   "end_date": "1979",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "devaluation",
+   "historical_summary": "В 1978–1979 гг. три девальвации снизили курс марки в общей сложности на 19%, что подстегнуло рост. Двусторонняя торговля с СССР смягчила удар нефтяного кризиса 1979 г.",
+   "historical_summary_en": "In 1978–1979 three devaluations lowered the markka by a total of 19%, spurring growth. Bilateral trade with the Soviet Union cushioned the impact of the 1979 oil crisis.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1978–1979 three devaluations −19%; 1979 Soviet trade cushion"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1980-minimum-pension",
+   "title": "Народная пенсия как минимум для всех",
+   "title_en": "National pension becomes a minimum pension for all",
+   "start_date": "1980",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "pensions",
+   "historical_summary": "В 1980 г. народная пенсия стала минимальной пенсией для всех жителей без проверки доходов.",
+   "historical_summary_en": "In 1980 the national pension became a non-means-tested minimum pension for all residents.",
+   "affected_groups": [
+    "pensioners",
+    "elderly",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "own_pension_first_time"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1980 non-means-tested minimum pension"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1982-koivisto-president",
+   "title": "Мауно Койвисто — президент после Кекконена",
+   "title_en": "Mauno Koivisto becomes president after Kekkonen",
+   "start_date": "1982-01-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "political_change",
+   "subcategory": "presidency",
+   "historical_summary": "27 января 1982 г. президентом стал Мауно Койвисто, сменив Урхо Кекконена, занимавшего пост с 1 марта 1956 г.",
+   "historical_summary_en": "On 27 January 1982 Mauno Koivisto became president, succeeding Urho Kekkonen, who had held office since 1 March 1956.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_thisisfinland"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "Kekkonen president 1 Mar 1956; Koivisto 27 Jan 1982"
+    },
+    {
+     "source_id": "fi_thisisfinland",
+     "url": "https://finland.fi/life-society/main-outlines-of-finnish-history/",
+     "accessed": "2026-11-12",
+     "supports": "Main outlines of Finnish history (MFA): Kekkonen resigned in 1981 after about 25 years; Mauno Koivisto elected president in 1982"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1982-maternity-allowance-reform",
+   "title": "Реформа пособий по болезни и материнству",
+   "title_en": "Reform of daily and maternity allowances",
+   "start_date": "1982",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "maternity",
+   "historical_summary": "В 1982 г. были реформированы системы дневных пособий по болезни и пособий по материнству.",
+   "historical_summary_en": "In 1982 the sickness daily allowance and maternity allowance schemes were reformed.",
+   "affected_groups": [
+    "mothers",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1982 daily and maternity allowance reform"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1985-unemployment-benefit-kela",
+   "title": "Базовое пособие по безработице передано Kela",
+   "title_en": "Basic unemployment benefit entrusted to Kela",
+   "start_date": "1985",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "unemployment",
+   "historical_summary": "В 1985 г. выплата базового пособия по безработице была поручена Kela.",
+   "historical_summary_en": "In 1985 basic unemployment benefits were entrusted to Kela.",
+   "affected_groups": [
+    "unemployed"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1985 basic unemployment benefits to Kela"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1986-credit-deregulation",
+   "title": "Либерализация кредита",
+   "title_en": "Credit deregulation",
+   "start_date": "1986",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "finance",
+   "historical_summary": "Изменение банковского законодательства в 1986 г. резко облегчило доступ к кредитам и породило рост, основанный на долгах, в конце 1980-х.",
+   "historical_summary_en": "A change in banking law in 1986 made credit far more accessible and fuelled debt-based growth in the late 1980s.",
+   "affected_groups": [
+    "homeowners",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "bank_loan_for_flat"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1986 banking law change; debt-based growth"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1991-depression",
+   "title": "Депрессия начала 1990-х",
+   "title_en": "Depression of the early 1990s",
+   "start_date": "1991",
+   "end_date": "1993",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "1990s_depression",
+   "historical_summary": "Глубокий спад начался в 1991 г.: ВВП упал на 13%, безработица выросла до пятой части рабочей силы, а цены акций и жилья снизились вдвое. Дно было пройдено в 1993 г.",
+   "historical_summary_en": "A severe recession began in 1991: GDP fell by 13%, unemployment rose to one-fifth of the workforce, and share and housing prices halved. The economy bottomed out in 1993.",
+   "affected_groups": [
+    "all_residents",
+    "industrial_workers",
+    "unemployed",
+    "homeowners"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "savings_lost",
+    "home_value_loss"
+   ],
+   "narrative_hooks": [
+    "husband_laid_off",
+    "grandchild_lost_job",
+    "family_job_loss"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1991 start, GDP −13%, unemployment one-fifth, markets −50%, bottom 1993"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1991-banking-crisis",
+   "title": "Банковский кризис",
+   "title_en": "Banking crisis",
+   "start_date": "1991",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "1990s_depression",
+   "historical_summary": "В ходе банковского кризиса начала 1990-х на спасение банков было потрачено более 10 млрд евро, после чего банковский сектор консолидировался.",
+   "historical_summary_en": "In the banking crisis of the early 1990s more than 10 billion euros were spent on bailing out failing banks, after which the sector consolidated.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [
+    "watching_news_about_banks"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "over €10 billion bailouts, consolidation"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-1991-ingrian-return-migration",
+   "title": "Возвращение ингерманландских финнов",
+   "title_en": "Return migration of Ingrian Finns",
+   "start_date": "1991",
+   "end_date": "2010",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "migration",
+   "subcategory": "return_migration",
+   "historical_summary": "После распада СССР в 1991 г. началось переселение ингерманландских финнов из России и Эстонии в Финляндию; с 1991 по 2010 г. переехали около 25 тыс. человек. В 2010 г. правительство решило прекратить эту программу.",
+   "historical_summary_en": "After the collapse of the Soviet Union in 1991, Ingrian Finns began moving from Russia and Estonia to Finland; about 25,000 moved between 1991 and 2010. In 2010 the government decided to end the programme.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_migri"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Ingrian_Finns",
+     "accessed": "2026-11-11",
+     "supports": "from 1991; ~25,000 1991–2010; 2010 decision to stop"
+    },
+    {
+     "source_id": "fi_migri",
+     "url": "https://migri.fi/en/-/inkerinsuomalaisia-paluumuuttajia-noin-30-000-hakemuksia-odotetaan-viela-reilut-300",
+     "accessed": "2026-11-12",
+     "supports": "Finnish Immigration Service, 13 May 2016: Ingrian Finnish return migration began in the early 1990s; about 30,000 had moved; last day to apply was 1 July 2016"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1993-child-benefits-kela",
+   "title": "Детские пособия и пособие по домашнему уходу через Kela",
+   "title_en": "Child benefit and child home care allowance from Kela",
+   "start_date": "1993",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "family_benefits",
+   "historical_summary": "С 1993 г. детское пособие и пособие по домашнему уходу за ребёнком стали выплачиваться через Kela.",
+   "historical_summary_en": "From 1993 child benefit and the child home care allowance became available from Kela.",
+   "affected_groups": [
+    "parents",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1993 child benefits and child home care allowance"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1994-student-aid-housing-allowance",
+   "title": "Kela: студенческая помощь и жилищное пособие",
+   "title_en": "Kela takes over student aid and housing allowance",
+   "start_date": "1994",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "family_benefits",
+   "historical_summary": "В 1994 г. Kela стала выплачивать материнское пособие, студенческую финансовую помощь, пособие призывникам, общее жилищное пособие и пособие на рынке труда.",
+   "historical_summary_en": "In 1994 Kela began paying the maternity grant, student financial aid, conscript's allowance, general housing allowance and labour market subsidy.",
+   "affected_groups": [
+    "students",
+    "tenants",
+    "unemployed"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1994 list of benefits"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1995-eu-membership",
+   "title": "Вступление в Европейский союз",
+   "title_en": "Finland joins the European Union",
+   "start_date": "1995-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "political_change",
+   "subcategory": "eu",
+   "historical_summary": "1 января 1995 г. Финляндия вступила в Европейский союз: договор о вступлении подписан 24 июня 1994 г., на консультативном референдуме в октябре 1994 г. «за» высказались около 57% голосовавших, в ноябре парламент одобрил членство (152 против 45).",
+   "historical_summary_en": "On 1 January 1995 Finland joined the European Union: the accession treaty was signed on 24 June 1994, about 57% voted in favour in the advisory referendum of October 1994, and Parliament approved membership by 152 votes to 45 in November.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_trip_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_thisisfinland"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "1995 joined EU"
+    },
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1995 joined EU"
+    },
+    {
+     "source_id": "fi_thisisfinland",
+     "url": "https://finland.fi/life-society/main-outlines-of-finnish-history/",
+     "accessed": "2026-11-12",
+     "supports": "Main outlines of Finnish history (MFA): accession treaty signed 24 June 1994, referendum October 1994 (57%), Parliament approved 152–45 in November 1994, membership effective from the start of 1995"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-1999-euro-adopted",
+   "title": "Финляндия переходит на евро",
+   "title_en": "Finland adopts the euro",
+   "start_date": "1999",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "euro",
+   "historical_summary": "В 1999 г. Финляндия вошла в зону евро, а в 2002 г. марка была заменена наличными евро.",
+   "historical_summary_en": "Finland adopted the euro in 1999, and in 2002 the markka was replaced by euro cash.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_eu_commission"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "1999 euro adopted; 2002 markka replaced"
+    },
+    {
+     "source_id": "fi_eu_commission",
+     "url": "https://economy-finance.ec.europa.eu/euro/eu-countries-and-euro/finland-and-euro_en",
+     "accessed": "2026-11-12",
+     "supports": "European Commission: Finland has been a euro-area member since 1 January 1999; euro notes and coins introduced on 1 January 2002"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2000-first-woman-president",
+   "title": "Первая женщина-президент",
+   "title_en": "First woman president",
+   "start_date": "2000-03-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "women_rights",
+   "subcategory": "presidency",
+   "historical_summary": "1 марта 2000 г. Тарья Халонен вступила в должность президента Финляндии — первой женщиной на этом посту.",
+   "historical_summary_en": "On 1 March 2000 Tarja Halonen took office as president of Finland, the first woman in the post.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "granddaughter_talk_politics"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_thisisfinland"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "1 Mar 2000 Tarja Halonen became president"
+    },
+    {
+     "source_id": "fi_thisisfinland",
+     "url": "https://finland.fi/life-society/main-outlines-of-finnish-history/",
+     "accessed": "2026-11-12",
+     "supports": "Main outlines of Finnish history (MFA): Tarja Halonen was president 2000–2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2002-euro-cash",
+   "title": "Наличные евро вместо марки",
+   "title_en": "Euro cash replaces the markka",
+   "start_date": "2002",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "consumer_life",
+   "subcategory": "euro",
+   "historical_summary": "В 2002 г. марка была заменена наличными евро.",
+   "historical_summary_en": "In 2002 the markka was replaced by euro cash.",
+   "affected_groups": [
+    "all_residents",
+    "consumers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "new_money",
+    "prices_at_the_store"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "2002 markka replaced by euro"
+    },
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "2002 euro introduced"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-2003-immigrant-special-assistance",
+   "title": "Особое пособие для иммигрантов",
+   "title_en": "Special assistance for immigrants",
+   "start_date": "2003-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "pensions",
+   "historical_summary": "В октябре 2003 г. было введено особое пособие для пожилых иммигрантов; в марте 2011 г. его заменила гарантированная пенсия.",
+   "historical_summary_en": "Special assistance for immigrants was introduced in October 2003; in March 2011 it was replaced by the guarantee pension.",
+   "affected_groups": [
+    "migrants",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "Oct 2003 special assistance; abolished 2011 with guarantee pension"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2004-european-health-card",
+   "title": "Европейская карта медицинского страхования",
+   "title_en": "European Health Insurance Card",
+   "start_date": "2004-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "healthcare",
+   "subcategory": "health_insurance",
+   "historical_summary": "В июне 2004 г. в Финляндии появилась Европейская карта медицинского страхования.",
+   "historical_summary_en": "Finland introduced the European Health Insurance Card in June 2004.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_trip_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "June 2004 EHIC"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2007-yle-areena",
+   "title": "Открытие интернет-сервиса Yle Areena",
+   "title_en": "Yle Areena online service opens",
+   "start_date": "2007",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "media_communication",
+   "subcategory": "internet",
+   "historical_summary": "Летом 2007 г. открылся интернет-сервис Yle Areena; с 22 апреля 2013 г. все телеканалы Yle стали доступны в нём в прямом эфире.",
+   "historical_summary_en": "The Yle Areena online service opened in summer 2007; from 22 April 2013 all Yle TV channels could be streamed live there.",
+   "affected_groups": [
+    "internet_users"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandchild_shows_phone_photos",
+    "watching_tv_online"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_yle_elava_arkisto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Yleisradio",
+     "accessed": "2026-11-11",
+     "supports": "Areena summer 2007; live streaming 22.4.2013"
+    },
+    {
+     "source_id": "fi_yle_elava_arkisto",
+     "url": "https://yle.fi/a/7-10016416",
+     "accessed": "2026-11-12",
+     "supports": "Svenska Yle Arkivet: Yle's online service Arenan/Areena opened on 15 June 2007"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2007-partial-sickness-allowance",
+   "title": "Частичное пособие по болезни",
+   "title_en": "Partial sickness allowance",
+   "start_date": "2007",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "sickness",
+   "historical_summary": "В 2007 г. было введено частичное пособие по болезни, позволяющее постепенно возвращаться на работу.",
+   "historical_summary_en": "A partial sickness allowance was introduced in 2007.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "2007 partial sickness allowance"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2009-reference-pricing-medicines",
+   "title": "Референтные цены на лекарства",
+   "title_en": "Reference pricing for medicines",
+   "start_date": "2009-04",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "healthcare",
+   "subcategory": "medicines",
+   "historical_summary": "В апреле 2009 г. была введена система референтных цен на лекарства.",
+   "historical_summary_en": "Reference pricing for medicines was introduced in April 2009.",
+   "affected_groups": [
+    "elderly",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "April 2009 reference pricing"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2011-guarantee-pension",
+   "title": "Гарантированная пенсия",
+   "title_en": "Guarantee pension",
+   "start_date": "2011-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "pensions",
+   "historical_summary": "В марте 2011 г. была введена гарантированная пенсия для людей с самыми низкими пенсиями.",
+   "historical_summary_en": "The guarantee pension was introduced in March 2011.",
+   "affected_groups": [
+    "pensioners",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "March 2011 guarantee pension"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2011-cyclone-dagmar",
+   "title": "Шторм «Дагмар»",
+   "title_en": "Cyclone Dagmar",
+   "start_date": "2011-12-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "disaster",
+   "subcategory": "storm",
+   "historical_summary": "26 декабря 2011 г. Финляндию накрыл шторм «Дагмар» — сильнейший за десять лет.",
+   "historical_summary_en": "On 26 December 2011 Cyclone Dagmar struck Finland, the worst storm in ten years.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "isolation"
+   ],
+   "narrative_hooks": [
+    "night_without_power"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_fmi"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "26 Dec 2011 Cyclone Dagmar, worst storm in 10 years"
+    },
+    {
+     "source_id": "fi_fmi",
+     "url": "https://en.ilmatieteenlaitos.fi/press-release/465179",
+     "accessed": "2026-11-12",
+     "supports": "Finnish Meteorological Institute, 9 January 2012: on 26 December 2011 especially the western part of the country was hit by an unusually violent storm"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2013-yle-tax",
+   "title": "Налог на Yle вместо телевизионной лицензии",
+   "title_en": "Yle tax replaces the TV licence",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "media_communication",
+   "subcategory": "television",
+   "historical_summary": "С 2013 г. Yleisradio финансируется за счёт специального налога (yleisradiovero).",
+   "historical_summary_en": "Since 2013 Yleisradio has been funded by a dedicated tax (yleisradiovero).",
+   "affected_groups": [
+    "television_owners",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_finlex"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Yleisradio",
+     "accessed": "2026-11-11",
+     "supports": "Yle tax since 2013"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/fi/lainsaadanto/2012/484",
+     "accessed": "2026-11-12",
+     "supports": "Laki yleisradioverosta 484/2012 (annettu 31.8.2012): vuotuinen yleisradiovero; voimaan 1.1.2013, sovelletaan ensimmäisen kerran verovuodelta 2013"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2014-same-sex-marriage-law",
+   "title": "Закон о равном браке",
+   "title_en": "Same-sex marriage legalised",
+   "start_date": "2014-11-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "family_law",
+   "subcategory": "marriage_law",
+   "historical_summary": "28 ноября 2014 г. парламент проголосовал за равный брак по гражданской инициативе; окончательно закон был принят 12 декабря 2014 г., подписан 20 февраля 2015 г. (156/2015) и вступил в силу 1 марта 2017 г.",
+   "historical_summary_en": "On 28 November 2014 Parliament voted for equal marriage, based on a citizens' initiative; the act was finally adopted on 12 December 2014, signed on 20 February 2015 (156/2015) and entered into force on 1 March 2017.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_wedding"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_finlex",
+    "fi_eduskunta"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "28 Nov 2014 same-sex marriage legalized"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/fi/lainsaadanto/2015/156",
+     "accessed": "2026-11-12",
+     "supports": "Laki avioliittolain muuttamisesta 156/2015 (annettu 20.2.2015, perustuu EK 41/2014): avioliitto kahden henkilön välillä; voimaan 1.3.2017"
+    },
+    {
+     "source_id": "fi_eduskunta",
+     "url": "https://api.eduskunta.fi/documents/fi/EK/2014/ek_41%2B2014.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Eduskunnan kirjelmä EK 41/2014 vp (12.12.2014): eduskunta hyväksyi kansalaisaloitteeseen (KAA 3/2013) perustuvan avioliittolain muutoksen; päivää 28.11.2014 asiakirja ei mainitse"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2015-asylum-seekers",
+   "title": "Рост числа ищущих убежища в 2015 году",
+   "title_en": "Surge in asylum seekers in 2015",
+   "start_date": "2015",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "migration",
+   "subcategory": "asylum",
+   "historical_summary": "В 2015 г. в Финляндии попросили убежища около 32 400 человек.",
+   "historical_summary_en": "About 32,400 people sought asylum in Finland in 2015.",
+   "affected_groups": [
+    "migrants",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_neighbours",
+    "volunteered_at_reception_centre"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_migri"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Immigration_to_Finland",
+     "accessed": "2026-11-11",
+     "supports": "2015: 32,400 asylum seekers"
+    },
+    {
+     "source_id": "fi_migri",
+     "url": "https://migri.fi/-/vuonna-2015-myonnettiin-hieman-yli-20-000-oleskelulupaa-uusia-suomen-kansalaisia-reilut-8-000",
+     "accessed": "2026-11-12",
+     "supports": "Finnish Immigration Service, 22 January 2016: 32,476 people applied for asylum in Finland in 2015 (3,651 in 2014)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2017-social-assistance-to-kela",
+   "title": "Базовая социальная помощь передана Kela",
+   "title_en": "Basic social assistance transferred to Kela",
+   "start_date": "2017",
+   "end_date": "2018-12-31",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "social_policy",
+   "subcategory": "social_assistance",
+   "historical_summary": "С начала 2017 г. базовая социальная помощь выплачивается Kela; с августа 2017 г. большинство студентов получают общее жилищное пособие. В 2017–2018 гг. проходил двухлетний эксперимент с базовым доходом.",
+   "historical_summary_en": "From the beginning of 2017 basic social assistance was administered by Kela, and from August 2017 most students were covered by the general housing allowance. A two-year basic income experiment ran in 2017–2018.",
+   "affected_groups": [
+    "students",
+    "unemployed",
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "2017 basic social assistance; Aug 2017 students housing allowance; basic income experiment ended 31.12.2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2020-covid-state-of-emergency",
+   "title": "Чрезвычайное положение из-за COVID-19",
+   "title_en": "State of emergency over COVID-19",
+   "start_date": "2020-03-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "public_health",
+   "subcategory": "covid19",
+   "historical_summary": "16 марта 2020 г. правительство вместе с президентом объявило чрезвычайное положение и закрыло школы, кроме дошкольного воспитания; младшие классы вернулись к обычной учёбе 14 мая 2020 г. Первый случай COVID-19 в Финляндии был подтверждён 29 января 2020 г.",
+   "historical_summary_en": "On 16 March 2020 the government, together with the president, declared a state of emergency and closed schools except early education; primary schools returned to normal teaching on 14 May 2020. Finland's first COVID-19 case had been confirmed on 29 January 2020.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "school_pupils",
+    "parents"
+   ],
+   "potential_impacts": [
+    "isolation"
+   ],
+   "narrative_hooks": [
+    "phone_calls_during_lockdown",
+    "first_video_call",
+    "isolation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_valtioneuvosto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Finland",
+     "accessed": "2026-11-11",
+     "supports": "16 Mar 2020 emergency, school closures; 14 May return; first case 29 Jan 2020"
+    },
+    {
+     "source_id": "fi_valtioneuvosto",
+     "url": "https://valtioneuvosto.fi/-/10616/hallitus-totesi-suomen-olevan-poikkeusoloissa-koronavirustilanteen-vuoksi",
+     "accessed": "2026-11-12",
+     "supports": "Government release 140/2020 of 16 March 2020: the government with the President declared exceptional circumstances due to the coronavirus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2020-covid-vaccination-start",
+   "title": "Начало вакцинации от COVID-19",
+   "title_en": "COVID-19 vaccinations begin",
+   "start_date": "2020-12-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "public_health",
+   "subcategory": "covid19",
+   "historical_summary": "Первые прививки от COVID-19 в Финляндии сделаны в воскресенье, 27 декабря 2020 г., в тот же день, что и в ряде других стран ЕС; первыми в очереди были медики, лечащие больных COVID-19. Все ограничения были сняты к концу июня 2022 г.",
+   "historical_summary_en": "Finland gave its first COVID-19 vaccinations on Sunday 27 December 2020, the same day as several other EU countries; health-care staff treating COVID-19 patients were first in line. All restrictions had been lifted by the end of June 2022.",
+   "affected_groups": [
+    "elderly",
+    "medical_workers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "queue_for_vaccination"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_valtioneuvosto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Finland",
+     "accessed": "2026-11-11",
+     "supports": "vaccination roll-out; restrictions lifted by end of June 2022 (its dates 28/29 Dec superseded by the government release)"
+    },
+    {
+     "source_id": "fi_valtioneuvosto",
+     "url": "https://valtioneuvosto.fi/-/eu-maat-aloittivat-koronarokotukset",
+     "accessed": "2026-11-12",
+     "supports": "Government release of 28 December 2020: the first COVID-19 vaccines were given in Finland on Sunday 27 December 2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2021-compulsory-education-18",
+   "title": "Обязательное образование до 18 лет",
+   "title_en": "Compulsory education extended to 18",
+   "start_date": "2021-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "education",
+   "subcategory": "compulsory_schooling",
+   "historical_summary": "Закон об обязательном образовании (1214/2020) вступил в силу 1 августа 2021 г.: учиться после основной школы стало обязательно до 18 лет.",
+   "historical_summary_en": "The Compulsory Education Act (1214/2020) entered into force on 1 August 2021: education after basic school became compulsory until the age of 18.",
+   "affected_groups": [
+    "school_pupils",
+    "young_adults"
+   ],
+   "eligibility": {
+    "min_age": null,
+    "max_age": 18,
+    "groups_any": []
+   },
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_finlex"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_in_Finland",
+     "accessed": "2026-11-11",
+     "supports": "from September 2021 upper secondary compulsory unless 18+"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/fi/lainsaadanto/2020/1214",
+     "accessed": "2026-11-12",
+     "supports": "Oppivelvollisuuslaki 1214/2020, annettu 30.12.2020: oppivelvollisuus päättyy 18 vuoden iässä; laki tulee voimaan 1.8.2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2022-family-leave-reform",
+   "title": "Реформа семейных отпусков",
+   "title_en": "Family leave reform",
+   "start_date": "2022-08-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "family_law",
+   "subcategory": "parental_leave",
+   "historical_summary": "1 августа 2022 г. вступила в силу реформа семейных отпусков.",
+   "historical_summary_en": "The family leave reform took effect on 1 August 2022.",
+   "affected_groups": [
+    "parents",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "1 Aug 2022 family leave reform"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2022-russia-trade-collapse",
+   "title": "Обвал торговли с Россией",
+   "title_en": "Collapse of trade with Russia",
+   "start_date": "2022",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "trade",
+   "historical_summary": "После вторжения России в Украину в 2022 г. торговля Финляндии с Россией сократилась примерно на 93% между 2021 и 2025 гг.",
+   "historical_summary_en": "After Russia's invasion of Ukraine in 2022, Finland's trade with Russia fell by about 93% between 2021 and 2025.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_statfin"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "trade with Russia fell ~93% 2021–2025"
+    },
+    {
+     "source_id": "fi_statfin",
+     "url": "https://stat.fi/julkaisu/cl8n2wvmw37q70dutgxu0g8h6",
+     "accessed": "2026-11-12",
+     "supports": "Statistics Finland review (20 June 2023): after the invasion, goods exports to Russia fell 45% in 2022 to 1.8 bn euros and imports fell 30% to 5.6 bn; the war almost halted trade"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2023-nato-membership",
+   "title": "Вступление в НАТО",
+   "title_en": "Finland joins NATO",
+   "start_date": "2023-04-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "political_change",
+   "subcategory": "nato",
+   "historical_summary": "4 апреля 2023 г. Финляндия вступила в НАТО.",
+   "historical_summary_en": "Finland joined NATO on 4 April 2023.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_thisisfinland"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Finnish_history",
+     "accessed": "2026-11-11",
+     "supports": "4 April 2023 Finland joins NATO"
+    },
+    {
+     "source_id": "fi_thisisfinland",
+     "url": "https://finland.fi/life-society/main-outlines-of-finnish-history/",
+     "accessed": "2026-11-12",
+     "supports": "Main outlines of Finnish history (MFA): Finland joined NATO on 4 April 2023"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2023-olkiluoto-3",
+   "title": "Олкилуото-3 начал выработку электроэнергии",
+   "title_en": "Olkiluoto 3 begins producing electricity",
+   "start_date": "2023-05",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "technology",
+   "subcategory": "energy",
+   "historical_summary": "В мае 2023 г. третий энергоблок АЭС Олкилуото начал регулярную выработку электроэнергии. В том же году Kela выплачивала помощь на оплату электричества.",
+   "historical_summary_en": "In May 2023 Unit 3 of the Olkiluoto nuclear power plant began producing electricity. In the same year Kela offered assistance with electricity costs.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "electricity_bill_worries"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_kela"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "Olkiluoto 3 began producing electricity May 2023"
+    },
+    {
+     "source_id": "fi_kela",
+     "url": "https://www.kela.fi/operations-history",
+     "accessed": "2026-11-11",
+     "supports": "2023 assistance with electricity costs"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-nat-2023-russian-border-closed",
+   "title": "Закрытие границы с Россией",
+   "title_en": "Border with Russia closed",
+   "start_date": "2023",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "border_administrative",
+   "subcategory": "border",
+   "historical_summary": "Вскоре после вступления в НАТО, в 2023 г., Финляндия закрыла сухопутную границу с Россией.",
+   "historical_summary_en": "Shortly after joining NATO, in 2023, Finland closed its border with Russia.",
+   "affected_groups": [
+    "migrants",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "relatives_across_the_border"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_valtioneuvosto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "2023 border with Russia closed shortly after NATO accession"
+    },
+    {
+     "source_id": "fi_valtioneuvosto",
+     "url": "https://valtioneuvosto.fi/-/1410869/koko-suomen-itaraja-suljetaan",
+     "accessed": "2026-11-12",
+     "supports": "Government release of 28 November 2023: the last open crossing, Raja-Joosep, closes from 30 November 2023, so all crossing points on the Finland–Russia land border are closed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2025-excessive-deficit",
+   "title": "Процедура ЕС по чрезмерному дефициту",
+   "title_en": "EU excessive deficit procedure",
+   "start_date": "2025",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "economic_crisis",
+   "subcategory": "public_finance",
+   "historical_summary": "В 2025 г. дефицит бюджета превысил 3% ВВП; 12 декабря 2025 г. Еврокомиссия предложила открыть для Финляндии процедуру по чрезмерному дефициту, и Совет ЕС (Ecofin) открыл её 20 января 2026 г.",
+   "historical_summary_en": "In 2025 the budget deficit exceeded 3% of GDP; on 12 December 2025 the European Commission proposed an excessive deficit procedure for Finland, and the EU Council (Ecofin) opened it on 20 January 2026.",
+   "affected_groups": [
+    "pensioners",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_vm"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Finland",
+     "accessed": "2026-11-11",
+     "supports": "2025 deficit >3% GDP; EDP"
+    },
+    {
+     "source_id": "fi_vm",
+     "url": "https://vm.fi/-/ecofin-neuvosto-antoi-suomelle-suosituksia-liiallisen-alijaaman-korjaamiseksi",
+     "accessed": "2026-11-12",
+     "supports": "Ministry of Finance, 20 January 2026: the Ecofin Council opened an excessive deficit procedure for Finland and issued a corrective path for 2026–2028"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

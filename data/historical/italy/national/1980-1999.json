@@ -1,0 +1,327 @@
+{
+ "records": [
+  {
+   "id": "it-nat-1980-canale5",
+   "title": "Canale 5 выходит в общенациональный эфир",
+   "title_en": "Canale 5 goes national",
+   "start_date": "1980-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В сентябре 1980 г. частный телеканал Canale 5 начал общенациональное вещание.",
+   "historical_summary_en": "In September 1980 the private channel Canale 5 began nationwide broadcasting.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "evening_soap_opera"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "September 1980: Canale 5 begins national broadcasting"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1984-concordat-revision",
+   "title": "Пересмотр конкордата: католицизм больше не государственная религия",
+   "title_en": "Concordat revised: Catholicism no longer the state religion",
+   "start_date": "1984-02-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "religion",
+   "historical_summary": "18 февраля 1984 г. на вилле Мадама в Риме был подписан новый конкордат, отменивший положение о католицизме как государственной религии. Ученики получили право отказаться от уроков католической религии в государственной школе.",
+   "historical_summary_en": "On 18 February 1984 a new concordat was signed at Villa Madama in Rome, removing the clause on Catholicism as the state religion. Pupils gained the right to opt out of Catholic religion lessons in state schools.",
+   "affected_groups": [
+    "all_residents",
+    "school_pupils",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "religion_at_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Patti_lateranensi",
+     "accessed": "2026-11-11",
+     "supports": "Villa Madama 18.02.1984; отмена religione di Stato; освобождение от уроков"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1985-03-25;121",
+     "accessed": "2026-11-12",
+     "supports": "Legge 25 marzo 1985 n. 121 о ратификации соглашения, подписанного в Риме 18.02.1984 и изменившего Латеранский конкордат"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1985-scala-mobile-referendum",
+   "title": "Референдум о «скользящей шкале» зарплат",
+   "title_en": "Referendum on the wage escalator",
+   "start_date": "1985-06-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "labor",
+   "historical_summary": "9 июня 1985 г. на референдуме было отклонено предложение отменить сокращение «скользящей шкалы» — автоматической индексации зарплат.",
+   "historical_summary_en": "On 9 June 1985 a referendum rejected the proposal to undo the cut to the scala mobile, the automatic indexation of wages.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "paycheck_and_prices"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_interno_dait"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "9 June 1985: referendum to abolish the wage escalator defeated"
+    },
+    {
+     "source_id": "it_interno_dait",
+     "url": "https://dait.interno.gov.it/documenti/referendum_risultati_complessivi_1946_2016_0.pdf",
+     "accessed": "2026-11-12",
+     "supports": "9–10.06.1985 «Indennità di contingenza»: явка 77,85%, «нет» 54,32%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1987-nuclear-referendum",
+   "title": "Референдум против атомной энергетики",
+   "title_en": "Referendum against nuclear power",
+   "start_date": "1987-11",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "environment",
+   "historical_summary": "В ноябре 1987 г., после Чернобыльской аварии, итальянцы на референдуме проголосовали против ядерной энергетики.",
+   "historical_summary_en": "In November 1987, after the Chernobyl disaster, Italians voted against nuclear power in a referendum.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fear_after_chernobyl"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_interno_dait"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "November 1987: after Chernobyl, referendum rejects nuclear power"
+    },
+    {
+     "source_id": "it_interno_dait",
+     "url": "https://dait.interno.gov.it/documenti/referendum_risultati_complessivi_1946_2016_0.pdf",
+     "accessed": "2026-11-12",
+     "supports": "8–9.11.1987 «Localizzazione centrali nucleari»: «да» 80,57%; ENEL за рубежом: «да» 71,86%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1990-world-cup-1990",
+   "title": "Чемпионат мира по футболу в Италии",
+   "title_en": "Italy hosts the football World Cup",
+   "start_date": "1990-06",
+   "end_date": "1990-07",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "sport",
+   "historical_summary": "В июне — июле 1990 г. Италия принимала чемпионат мира по футболу; сборная страны проиграла в полуфинале.",
+   "historical_summary_en": "In June and July 1990 Italy hosted the football World Cup; the national team lost in the semi-final.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_the_match_together"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "June–July 1990: Italy hosts World Cup, loses in semi-final"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1992-mani-pulite",
+   "title": "Расследование «Чистые руки»",
+   "title_en": "Mani pulite investigation",
+   "start_date": "1992",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1992 г. расследование коррупции «Чистые руки» привело к краху Христианско-демократической и Социалистической партий, правивших страной десятилетиями.",
+   "historical_summary_en": "In 1992 the 'Clean Hands' corruption investigation led to the collapse of the Christian Democratic and Socialist parties that had governed the country for decades.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "news_on_tv_every_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "1992: Mani pulite leads to fall of DC and PSI"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1999-eurozone",
+   "title": "Вхождение в еврозону",
+   "title_en": "Italy joins the eurozone",
+   "start_date": "1999-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С 1 января 1999 г. Италия вошла в еврозону, а курс лиры был жёстко зафиксирован: 1 евро = 1936,27 лиры.",
+   "historical_summary_en": "From 1 January 1999 Italy joined the eurozone and the lira's rate was irrevocably fixed at 1 euro = 1,936.27 lire.",
+   "affected_groups": [
+    "all_residents",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "counting_in_lire"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_wikipedia",
+    "it_mef"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "1 January 1999: Italy joins eurozone"
+    },
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Lira_italiana",
+     "accessed": "2026-11-11",
+     "supports": "1 € = 1936,27 lire с 1.01.1999"
+    },
+    {
+     "source_id": "it_mef",
+     "url": "https://www.de.mef.gov.it/it/attivita_istituzionali/monetazione/introduzione_euro/",
+     "accessed": "2026-11-12",
+     "supports": "tasso di conversione irrevocabile 1 euro = 1936,27 lire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

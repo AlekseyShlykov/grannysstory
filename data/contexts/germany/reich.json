@@ -1,0 +1,656 @@
+{
+ "records": [
+  {
+   "id": "de-ctx-empire-1900-1913-living-standards",
+   "country_code": "DE",
+   "location_id": "state-de-empire",
+   "period_start": 1900,
+   "period_end": 1913,
+   "context_type": "prices_spending",
+   "attribute": "food_prices_living_standards",
+   "title": "Германская империя: дорожающая еда и медленный рост зарплат",
+   "description": "С 1900 по 1913 год продукты питания подорожали примерно на треть, а реальная зарплата росла всего на один процент в год. Доля людей с доходом выше налогового минимума к 1913 году удвоилась до 60%. Электричество в 1914 году было лишь примерно в каждом десятом доме.",
+   "title_en": "German Empire: dearer food and slow wage growth",
+   "description_en": "From 1900 to 1913 food prices rose by about a third, while real wages grew by only one per cent a year. The share of people with incomes above the tax threshold doubled to 60% by 1913. In 1914 only about one home in ten had electricity.",
+   "statistics": [
+    {
+     "indicator": "food_cost_increase_1900_1913",
+     "value": 33,
+     "unit": "% increase",
+     "year": 1913,
+     "area_id": "state-de-empire",
+     "population": "стоимость продуктов питания",
+     "method_note": "LeMO (около трети)",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "real_wage_growth",
+     "value": 1,
+     "unit": "% per year",
+     "year": 1913,
+     "area_id": "state-de-empire",
+     "population": "реальная заработная плата",
+     "method_note": "LeMO (около)",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "share_above_tax_threshold",
+     "value": 60,
+     "unit": "% of population",
+     "year": 1913,
+     "area_id": "state-de-empire",
+     "population": "лица с налогооблагаемым доходом",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "households_with_electricity",
+     "value": 10,
+     "unit": "% of households",
+     "year": 1914,
+     "area_id": "state-de-empire",
+     "population": "домохозяйства",
+     "method_note": "LeMO (около)",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/kaiserreich/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "цены +1/3, реальная зарплата +1%/год, 60% к 1913, 10% электричество"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-empire-1900-1918-life-expectancy",
+   "country_code": "DE",
+   "location_id": "state-de-empire",
+   "period_start": 1900,
+   "period_end": 1918,
+   "context_type": "demography",
+   "attribute": "life_expectancy",
+   "title": "Германская империя: продолжительность жизни",
+   "description": "Ожидаемая продолжительность жизни при рождении в Германии выросла с 37 лет в 1871 году до 47 лет в 1910-м, а детская смертность всё это время снижалась. Женщина, дожившая до 60 лет, в 1901–1910 годах могла рассчитывать в среднем ещё на 14 лет жизни, мужчина — на 13.",
+   "title_en": "German Empire: life expectancy",
+   "description_en": "Life expectancy at birth in Germany rose from 37 years in 1871 to 47 in 1910, while infant mortality fell throughout. A woman who reached 60 in 1901-1910 could expect on average 14 more years of life, and a man 13.",
+   "statistics": [
+    {
+     "indicator": "life_expectancy_at_birth",
+     "value": 47,
+     "unit": "years",
+     "year": 1910,
+     "area_id": "state-de-empire",
+     "population": "всё население",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_women",
+     "value": 14.2,
+     "unit": "years",
+     "year": 1905,
+     "area_id": "state-de-empire",
+     "population": "женщины, таблица 1901/10",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_men",
+     "value": 13.1,
+     "unit": "years",
+     "year": 1905,
+     "area_id": "state-de-empire",
+     "population": "мужчины, таблица 1901/10",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_lemo",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/kaiserreich/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "37 (1871) → 47 (1910)"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61547/lebenserwartung/",
+     "accessed": "2026-11-11",
+     "supports": "1901/10: 14,2 / 13,1"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-empire-1914-1918-wartime-food",
+   "country_code": "DE",
+   "location_id": "state-de-empire",
+   "period_start": 1914,
+   "period_end": 1918,
+   "context_type": "food",
+   "attribute": "wartime_hunger",
+   "title": "Первая мировая: «брюквенная зима»",
+   "description": "Голод в тылу достиг пика зимой 1916/17 года, которую прозвали «брюквенной». От недоедания и голода в Германии за войну умерли около 700 тысяч человек, детская смертность выросла на 50%. К концу войны почти треть торговли продуктами шла через чёрный рынок.",
+   "title_en": "First World War: the 'turnip winter'",
+   "description_en": "Hunger on the home front peaked in the winter of 1916/17, which became known as the 'turnip winter'. About 700,000 people in Germany died of malnutrition and hunger during the war, and child mortality rose by 50%. By the end of the war almost a third of the food trade went through the black market.",
+   "statistics": [
+    {
+     "indicator": "hunger_deaths",
+     "value": 700000,
+     "unit": "persons",
+     "year": 1918,
+     "area_id": "state-de-empire",
+     "population": "гражданское население, за войну",
+     "method_note": "LeMO (около)",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "child_mortality_increase",
+     "value": 50,
+     "unit": "% increase",
+     "year": 1918,
+     "area_id": "state-de-empire",
+     "population": "дети",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "black_market_share_of_food_trade",
+     "value": 33,
+     "unit": "% of trade",
+     "year": 1918,
+     "area_id": "state-de-empire",
+     "population": "торговля продуктами и деликатесами",
+     "method_note": "LeMO (почти треть)",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/erster-weltkrieg/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "Kohlrübenwinter 1916/17; 700 тыс.; +50%; почти треть"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-reich-1919-1949-wages",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1919,
+   "period_end": 1949,
+   "context_type": "wages_income",
+   "attribute": "gross_monthly_earnings",
+   "title": "Рейх и западные зоны: заработки 1925–1949",
+   "description": "После гиперинфляции 1923 года заработки восстанавливались: средний месячный заработок вырос с 1925 по 1929 год почти в полтора раза. В кризис 1930–1932 годов он упал примерно на треть, а к 1938 году ещё не вернулся к уровню 1929-го. Реальная зарплата низших групп вернулась к уровню 1914 года лишь в 1928 году. После войны средний месячный заработок в объединённой англо-американской зоне был ниже довоенного. В 1948 году, году денежной реформы, и особенно в 1949-м заработок заметно вырос и превысил уровень 1943-го. В Destatis эти суммы пересчитаны в евро и показывают только динамику.",
+   "title_en": "Reich and western zones: earnings, 1925-1949",
+   "description_en": "After the hyperinflation of 1923 earnings recovered: average monthly earnings rose by almost half between 1925 and 1929. In the 1930-1932 crisis they fell by about a third, and by 1938 they had still not returned to the 1929 level. Real wages of the lowest-paid groups returned to the 1914 level only in 1928. After the war average monthly earnings in the combined Anglo-American zone were below pre-war levels. In 1948, the year of the currency reform, and especially in 1949 earnings rose markedly and exceeded the 1943 level. Destatis converts these amounts into euros, so they show only the trend.",
+   "statistics": [
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 61,
+     "unit": "EUR/month (converted)",
+     "year": 1913,
+     "area_id": "state-de-empire",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан); 1913/14",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 71,
+     "unit": "EUR/month (converted)",
+     "year": 1925,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 102,
+     "unit": "EUR/month (converted)",
+     "year": 1929,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 66,
+     "unit": "EUR/month (converted)",
+     "year": 1932,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 89,
+     "unit": "EUR/month (converted)",
+     "year": 1938,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 99,
+     "unit": "EUR/month (converted)",
+     "year": 1943,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 97,
+     "unit": "EUR/month (converted)",
+     "year": 1944,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники, территория Германской империи (1913/14) и Германского рейха (1925–1944)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 79,
+     "unit": "EUR/month (converted)",
+     "year": 1946,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники Объединённой экономической области (американская и британская зоны)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 82,
+     "unit": "EUR/month (converted)",
+     "year": 1947,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники Объединённой экономической области (американская и британская зоны)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 97,
+     "unit": "EUR/month (converted)",
+     "year": 1948,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники Объединённой экономической области (американская и британская зоны)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 122,
+     "unit": "EUR/month (converted)",
+     "year": 1949,
+     "area_id": "state-de-reich",
+     "population": "наёмные работники Объединённой экономической области (американская и британская зоны)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    }
+   ],
+   "source_ids": [
+    "de_destatis",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/Verdienste-Branche-Berufe/Tabellen/liste-bruttomonatsverdienste.html",
+     "accessed": "2026-11-11",
+     "supports": "строки 1913/14–март 1944, Gebietsstand Deutsches Reich"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "реальная зарплата низших групп достигла уровня 1914 г. лишь в 1928"
+    },
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/Verdienste-Branche-Berufe/Tabellen/liste-bruttomonatsverdienste.html",
+     "accessed": "2026-11-11",
+     "supports": "строки 1946–1949, Vereinigtes Wirtschaftsgebiet"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-reich-1919-1932-work",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1919,
+   "period_end": 1932,
+   "context_type": "women_employment",
+   "attribute": "weimar_work",
+   "title": "Веймарская республика: работа и безработица",
+   "description": "В середине 1920-х работали около 35,6% женщин: прислугой, на фабриках, продавщицами, секретаршами и машинистками. Рабочие составляли около 45% занятых, сельское хозяйство — чуть меньше 30%. В начале 1931 года безработных было около пяти миллионов.",
+   "title_en": "Weimar Republic: work and unemployment",
+   "description_en": "In the mid-1920s about 35.6% of women were in paid work: as domestic servants, factory workers, shop assistants, secretaries and typists. Workers made up about 45% of the employed and agriculture just under 30%. In early 1931 there were about five million unemployed.",
+   "statistics": [
+    {
+     "indicator": "women_in_paid_work_share",
+     "value": 35.6,
+     "unit": "% of women",
+     "year": 1925,
+     "area_id": "state-de-reich",
+     "population": "женщины",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "workers_share_of_employed",
+     "value": 45,
+     "unit": "% of employed",
+     "year": 1925,
+     "area_id": "state-de-reich",
+     "population": "занятые",
+     "method_note": "LeMO (около)",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "agriculture_share_of_employed",
+     "value": 30,
+     "unit": "% of employed",
+     "year": 1925,
+     "area_id": "state-de-reich",
+     "population": "занятые (чуть меньше 30%)",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "registered_unemployed",
+     "value": 5000000,
+     "unit": "persons",
+     "year": 1931,
+     "area_id": "state-de-reich",
+     "population": "зарегистрированные безработные, начало года",
+     "method_note": "LeMO (около)",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "35,6% женщин; 45% рабочих; <30% сельское хозяйство; 5 млн в начале 1931"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-reich-1918-1925-marriage-housing",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1918,
+   "period_end": 1925,
+   "context_type": "family_marriage",
+   "attribute": "postwar_marriages_housing",
+   "title": "После Первой мировой: свадьбы и нехватка жилья",
+   "description": "После войны число свадеб резко выросло: с 350 тысяч в 1918 году до 900 тысяч в 1920-м. Молодым семьям и почти 200 тысячам семей беженцев не хватало жилья. В 1925 году в Германии не хватало более миллиона квартир.",
+   "title_en": "After the First World War: weddings and the housing shortage",
+   "description_en": "After the war the number of weddings rose sharply, from 350,000 in 1918 to 900,000 in 1920. Young families and almost 200,000 refugee families lacked housing. In 1925 Germany was short of more than a million dwellings.",
+   "statistics": [
+    {
+     "indicator": "marriages",
+     "value": 350000,
+     "unit": "marriages",
+     "year": 1918,
+     "area_id": "state-de-reich",
+     "population": "всё население",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "marriages",
+     "value": 900000,
+     "unit": "marriages",
+     "year": 1920,
+     "area_id": "state-de-reich",
+     "population": "всё население",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "housing_shortfall",
+     "value": 1000000,
+     "unit": "dwellings",
+     "year": 1925,
+     "area_id": "state-de-reich",
+     "population": "недостающие квартиры (более)",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "350 тыс. → 900 тыс.; ~200 тыс. семей беженцев; >1 млн квартир"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-berlin-1925-1930-household-technology",
+   "country_code": "DE",
+   "location_id": "de-berlin",
+   "period_start": 1925,
+   "period_end": 1932,
+   "context_type": "appliances",
+   "attribute": "electricity_telephone",
+   "title": "Берлин 1920-х: электричество и телефон",
+   "description": "Доля электрифицированных квартир в Берлине выросла с 27,4% в 1925 году до 76% в 1930-м. В конце 1920-х в городе с 4,3 млн жителей было почти 500 тысяч телефонных подключений. Экономия труда в домашнем хозяйстве была особенно ощутима для работающих женщин.",
+   "title_en": "Berlin in the 1920s: electricity and telephone",
+   "description_en": "The share of electrified households in Berlin rose from 27.4% in 1925 to 76% in 1930. In the late 1920s the city of 4.3 million had almost 500,000 telephone connections. Labour saved in the household mattered especially to women in paid work.",
+   "statistics": [
+    {
+     "indicator": "electrified_households",
+     "value": 27.4,
+     "unit": "% of households",
+     "year": 1925,
+     "area_id": "de-berlin",
+     "population": "домохозяйства Берлина",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "electrified_households",
+     "value": 76,
+     "unit": "% of households",
+     "year": 1930,
+     "area_id": "de-berlin",
+     "population": "домохозяйства Берлина",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "telephone_connections",
+     "value": 500000,
+     "unit": "connections",
+     "year": 1929,
+     "area_id": "de-berlin",
+     "population": "Берлин, 4,3 млн жителей (почти)",
+     "method_note": "LeMO, конец 1920-х",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/weimarer-republik/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "электрификация Берлина 1925/1930; ~500 тыс. телефонов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-reich-1933-1939-marriage-loans",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1933,
+   "period_end": 1939,
+   "context_type": "family_marriage",
+   "attribute": "marriage_loans",
+   "title": "Нацистская Германия: брачные ссуды",
+   "description": "С 1933 года режим выдавал молодожёнам брачные ссуды до 1000 рейхсмарок, условием было, что жена оставит работу. Число браков выросло примерно с 510 тысяч в 1932 году до более чем 732 тысяч в 1934-м.",
+   "title_en": "Nazi Germany: marriage loans",
+   "description_en": "From 1933 the regime gave newly married couples marriage loans of up to 1,000 Reichsmarks on condition that the wife gave up her job. The number of marriages rose from about 510,000 in 1932 to more than 732,000 in 1934.",
+   "statistics": [
+    {
+     "indicator": "marriage_loan_max",
+     "value": 1000,
+     "unit": "Reichsmark",
+     "year": 1933,
+     "area_id": "state-de-reich",
+     "population": "молодожёны, получившие ссуду",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "marriages",
+     "value": 510000,
+     "unit": "marriages",
+     "year": 1932,
+     "area_id": "state-de-reich",
+     "population": "всё население (около)",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "marriages",
+     "value": 732000,
+     "unit": "marriages",
+     "year": 1934,
+     "area_id": "state-de-reich",
+     "population": "всё население (более)",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/ns-regime/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "ссуда до 1000 RM при уходе жены с работы; 510 тыс. → 732 тыс."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-reich-1933-1941-radio-cinema-food",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1933,
+   "period_end": 1941,
+   "context_type": "leisure_culture",
+   "attribute": "radio_cinema",
+   "title": "Нацистская Германия: радио, кино и стол",
+   "description": "Доля домохозяйств с радиоприёмником выросла с 25% в 1933 году до 65% в 1941-м. В сезон 1934/35 года кинотеатры посетили около 250 млн раз, пять лет спустя — больше миллиарда. Потребление мяса на человека с 1932 по 1938 год выросло на 5,4 кг, до 47,5 кг.",
+   "title_en": "Nazi Germany: radio, cinema and the table",
+   "description_en": "The share of households with a radio rose from 25% in 1933 to 65% in 1941. In the 1934/35 season there were about 250 million cinema visits, and more than a billion five years later. Meat consumption per head rose by 5.4 kg between 1932 and 1938, to 47.5 kg.",
+   "statistics": [
+    {
+     "indicator": "households_with_radio",
+     "value": 25,
+     "unit": "% of households",
+     "year": 1933,
+     "area_id": "state-de-reich",
+     "population": "домохозяйства",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "households_with_radio",
+     "value": 65,
+     "unit": "% of households",
+     "year": 1941,
+     "area_id": "state-de-reich",
+     "population": "домохозяйства",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "cinema_visits",
+     "value": 250000000,
+     "unit": "visits",
+     "year": 1935,
+     "area_id": "state-de-reich",
+     "population": "сезон 1934/35 (около)",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "meat_kg_per_capita",
+     "value": 47.5,
+     "unit": "kg/person/year",
+     "year": 1938,
+     "area_id": "state-de-reich",
+     "population": "всё население",
+     "method_note": "LeMO",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/kapitel/ns-regime/alltagsleben",
+     "accessed": "2026-11-11",
+     "supports": "радио 25% → 65%; кино 250 млн; мясо 47,5 кг"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

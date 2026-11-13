@@ -1,0 +1,571 @@
+{
+ "records": [
+  {
+   "id": "cn-shenzhen-1940-japanese-occupation",
+   "title": "Японская оккупация уезда Баоань",
+   "title_en": "Japanese occupation of Bao'an County",
+   "start_date": "1940-03",
+   "end_date": "1945-10-05",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "occupation",
+   "subcategory": null,
+   "historical_summary": "В марте 1940 г. в уезде Баоань было создано марионеточное правительство, в июне японские войска высадились в Чивани; капитуляцию японских войск в Шэньчжэне приняли 5 октября 1945 г.",
+   "historical_summary_en": "In March 1940 a puppet government was set up in Bao'an County, and in June Japanese troops landed at Chiwan; the surrender of Japanese forces in Shenzhen was accepted on 5 October 1945.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "occupation_years"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1940年3月 伪宝安县政府; 1940年6月 赤湾登陆; 1945年10月5日 受降"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-1949-takeover",
+   "title": "Смена власти в уезде Баоань",
+   "title_en": "Change of power in Bao'an County",
+   "start_date": "1949-10-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "16 октября 1949 г. отряд Дунцзянской колонны занял уездное правление Баоань и поднял государственный флаг в старом городе Наньтоу.",
+   "historical_summary_en": "On 16 October 1949 a unit of the East River Column took over the Bao'an county government and raised the national flag in Nantou old town.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_era_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1949年10月16日 东江第一支队 接管宝安县政府"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-1950-border-closed",
+   "title": "Закрытие свободного прохода в Гонконг",
+   "title_en": "Free movement to Hong Kong ends",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "В 1950 г. колониальные власти Гонконга начали контролировать въезд с материка, и свободное передвижение через границу у Шэньчжэня прекратилось.",
+   "historical_summary_en": "In 1950 the Hong Kong colonial government began controlling entry from the mainland, ending free movement across the border at Shenzhen.",
+   "affected_groups": [
+    "all_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "relatives_across_the_border"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1950 港英政府开始管制内地人入境"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-1953-county-seat-moves",
+   "title": "Уездный центр переносится в Шэньчжэнь",
+   "title_en": "County seat moves to Shenzhen market town",
+   "start_date": "1953",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1953 г. правительство уезда Баоань переехало из Наньтоу в рыночный посёлок Шэньчжэнь, стоявший на железной дороге Коулун — Кантон.",
+   "historical_summary_en": "In 1953 the Bao'an county government moved from Nantou to the market town of Shenzhen, which lay on the Kowloon–Canton Railway.",
+   "affected_groups": [
+    "office_workers",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1953年 县政府从南头迁至深圳墟; 广九铁路"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-1950s-escapes-to-hong-kong",
+   "title": "Волны бегства в Гонконг",
+   "title_en": "Waves of escape to Hong Kong",
+   "title_original": "逃港",
+   "start_date": "1950",
+   "end_date": "1980",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "С 1950-х до конца 1970-х гг. через Шэньчжэнь неоднократно шли массовые попытки бегства в Гонконг; по оценкам, бежали около 560 тыс. человек (по некоторым данным, до миллиона). После создания особой зоны в 1980 г. поток пошёл на убыль.",
+   "historical_summary_en": "From the 1950s to the late 1970s there were repeated mass escapes to Hong Kong through Shenzhen; an estimated 560,000 people fled (some say up to a million). The flow declined after the special zone was created in 1980.",
+   "affected_groups": [
+    "young_adults",
+    "rural_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "relatives_across_the_border"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1950年代至1970年代末 多次大规模逃港, 约56万 (一说100万); 1980年后 平息"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-1979-shekou",
+   "title": "Промышленная зона Шэкоу",
+   "title_en": "Shekou Industrial Zone founded",
+   "start_date": "1979-01-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "31 января 1979 г. в Шэньчжэне была основана промышленная зона Шэкоу.",
+   "historical_summary_en": "The Shekou Industrial Zone in Shenzhen was founded on 31 January 1979.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chinese_economic_reform",
+     "accessed": "2026-11-11",
+     "supports": "January 31, 1979 Shekou Industrial Zone founded"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1979年1月31日 中共中央、国务院决定在广东蛇口建立全国第一个对外开放工业区"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-shenzhen-1979-city-created",
+   "title": "Уезд Баоань становится городом Шэньчжэнь",
+   "title_en": "Bao'an County becomes Shenzhen City",
+   "start_date": "1979-03-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "23 января 1979 г. провинциальный комитет КПК Гуандуна решил преобразовать уезд Баоань в город Шэньчжэнь; 5 марта 1979 г. Госсовет утвердил создание города.",
+   "historical_summary_en": "On 23 January 1979 the Guangdong provincial party committee decided to turn Bao'an County into Shenzhen City; the State Council approved the new city on 5 March 1979.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_sz_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1979年1月23日 决定; 1979年3月5日 国务院批复"
+    },
+    {
+     "source_id": "cn_sz_gov",
+     "url": "https://www.sz.gov.cn/szstoryfr/202212/content/post_10329871.html",
+     "accessed": "2026-11-12",
+     "supports": "1979年3月5日 国务院批复宝安县改设深圳市，3月22日正式改设"
+    },
+    {
+     "source_id": "cn_sz_gov",
+     "url": "https://www.sz.gov.cn/cn/zjsz/gl/content/post_12318789.html",
+     "accessed": "2026-11-12",
+     "supports": "深圳于1979年3月建市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-shenzhen-1980-sez",
+   "title": "Особая экономическая зона Шэньчжэнь",
+   "title_en": "Shenzhen Special Economic Zone",
+   "start_date": "1980-08-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "26 августа 1980 г. Постоянный комитет ВСНП утвердил Положение об особых экономических зонах Гуандуна, создав особую экономическую зону Шэньчжэнь.",
+   "historical_summary_en": "On 26 August 1980 the NPC Standing Committee approved the Regulations on Guangdong's Special Economic Zones, establishing the Shenzhen Special Economic Zone.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1980年8月26日 《广东省经济特区条例》 深圳经济特区"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1980年8月26日 五届全国人大常委会第十五次会议批准《广东省经济特区条例》"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-shenzhen-1981-sub-provincial",
+   "title": "Шэньчжэнь получает повышенный статус",
+   "title_en": "Shenzhen's administrative status raised",
+   "start_date": "1981-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В августе 1981 г. Шэньчжэнь стал городом субпровинциального уровня, а в октябре 1988 г. получил отдельную строку в государственном плане.",
+   "historical_summary_en": "In August 1981 Shenzhen became a sub-provincial city, and in October 1988 it was given separate status in the state plan.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "1981年8月 副省级市; 1988年10月 计划单列市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-1986-first-land-sale",
+   "title": "Первая законная продажа земли",
+   "title_en": "First legal land sale",
+   "start_date": "1987-12-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "housing_urban",
+   "subcategory": null,
+   "historical_summary": "1 декабря 1987 г. в Шэньчжэне прошёл первый в стране аукцион права пользования государственной землёй.",
+   "historical_summary_en": "On 1 December 1987 Shenzhen held the country's first auction of the right to use state-owned land.",
+   "affected_groups": [
+    "homeowners"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "buying_a_flat"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Housing_in_China",
+     "accessed": "2026-11-11",
+     "supports": "first legal land sale was in Shenzhen in 1986"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1987年12月1日 深圳经济特区启动全国首次国有土地使用权拍卖 (дата записи исправлена с 1986 г.)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-shenzhen-1990-stock-exchange",
+   "title": "Шэньчжэньская фондовая биржа",
+   "title_en": "Shenzhen Stock Exchange founded",
+   "start_date": "1990-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": true,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В конце 1990 г. была основана Шэньчжэньская фондовая биржа.",
+   "historical_summary_en": "The Shenzhen Stock Exchange was founded at the end of 1990.",
+   "affected_groups": [
+    "office_workers",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "savings_in_shares"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chinese_economic_reform",
+     "accessed": "2026-11-11",
+     "supports": "Nov–Dec 1990 Shenzhen Stock Exchange founded"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1991年7月3日 深圳证券交易所正式开业 (официальное открытие; пробная работа с конца 1990 г. здесь не упомянута)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shenzhen-2010-zone-extended",
+   "title": "Особая зона охватывает весь город",
+   "title_en": "Special zone extended to the whole city",
+   "start_date": "2010-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-shenzhen"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "1 июля 2010 г. особая экономическая зона была распространена на весь город, и внутренняя «вторая линия» пропускных пунктов утратила значение.",
+   "historical_summary_en": "On 1 July 2010 the Special Economic Zone was extended to the whole city, and the internal 'second line' of checkpoints lost its role.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "checkpoint_queue"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gd_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/深圳市",
+     "accessed": "2026-11-11",
+     "supports": "2010年7月1日 特区扩大至全市, 二线关"
+    },
+    {
+     "source_id": "cn_gd_gov",
+     "url": "http://www.gd.gov.cn/gkmlpt/content/0/139/post_139027.html",
+     "accessed": "2026-11-12",
+     "supports": "国函〔2010〕45号（2010年5月27日）：深圳经济特区范围扩大到全市，宝安、龙岗纳入；从2010年7月1日起实施"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

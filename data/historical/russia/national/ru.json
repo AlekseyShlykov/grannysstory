@@ -26,7 +26,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -34,10 +35,16 @@
           "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
           "accessed": "2026-10-29",
           "supports": "29.10 (11.11).1917"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/347917",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: декрет СНК «О восьмичасовом рабочем дне», Петроград, 29 октября 1917"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-1920-abortion-legalised",
@@ -149,7 +156,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -157,10 +165,16 @@
           "url": "https://ru.wikipedia.org/wiki/Либерализация_цен_в_России",
           "accessed": "2026-10-29",
           "supports": "02.01.1992, ~2600%, сбережения"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/529",
+          "accessed": "2026-11-12",
+          "supports": "Указ Президента РСФСР от 03.12.1991 № 297 о либерализации цен: переход к свободным ценам со 2 января 1992"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-1992-vouchers",
@@ -190,7 +204,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -198,10 +213,16 @@
           "url": "https://ru.wikipedia.org/wiki/Ваучерная_приватизация_в_России",
           "accessed": "2026-10-29",
           "supports": "14.08.1992; 10 000; 25 руб."
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/1826",
+          "accessed": "2026-11-12",
+          "supports": "Указ от 14.08.1992 № 914 о системе приватизационных чеков"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-1921-nep",
@@ -232,7 +253,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -240,10 +262,16 @@
           "url": "https://ru.wikipedia.org/wiki/Новая_экономическая_политика",
           "accessed": "2026-10-29",
           "supports": "21.03.1921; 1921–1928; рынки, частная торговля"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/17671",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ВЦИК от 21 марта 1921 о замене продовольственной и сырьевой разверстки натуральным налогом (подлинник)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-2005-benefits-monetisation",
@@ -276,7 +304,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -284,10 +313,16 @@
           "url": "https://ru.wikipedia.org/wiki/Монетизация_льгот",
           "accessed": "2026-10-29",
           "supports": "122-ФЗ от 22.08.2004; январь 2005; протесты"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/21383",
+          "accessed": "2026-11-12",
+          "supports": "Федеральный закон от 22.08.2004 № 122-ФЗ (монетизация льгот)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-2018-pension-age-raised",
@@ -321,7 +356,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -329,10 +365,16 @@
           "url": "https://ru.wikipedia.org/wiki/Пенсионная_реформа_в_России_(2018)",
           "accessed": "2026-10-29",
           "supports": "03.10.2018; возраст; 2019–2028"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/43614",
+          "accessed": "2026-11-12",
+          "supports": "Федеральный закон от 03.10.2018 № 350-ФЗ об изменениях по вопросам назначения и выплаты пенсий"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-1918-new-orthography",
@@ -439,7 +481,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -447,10 +490,16 @@
           "url": "https://ru.wikipedia.org/wiki/Денежная_реформа_в_России_1998_года",
           "accessed": "2026-10-29",
           "supports": "указ 04.08.1997; 01.01.1998; 1000:1"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/11299",
+          "accessed": "2026-11-12",
+          "supports": "Указ от 04.08.1997 № 822: деноминация рубля с 1 января 1998 года"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-2001-funded-pension",
@@ -478,7 +527,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -486,10 +536,16 @@
           "url": "https://ru.wikipedia.org/wiki/Пенсионное_обеспечение_в_России",
           "accessed": "2026-10-29",
           "supports": "15.12.2001"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/17634",
+          "accessed": "2026-11-12",
+          "supports": "Федеральный закон от 15.12.2001 № 167-ФЗ об обязательном пенсионном страховании"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-2006-free-incoming-calls",
@@ -561,7 +617,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -569,10 +626,16 @@
           "url": "https://ru.wikipedia.org/wiki/Первая_чеченская_война",
           "accessed": "2026-10-29",
           "supports": "даты, потери"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/7312",
+          "accessed": "2026-11-12",
+          "supports": "Указ от 09.12.1994 № 2166 о мерах по пресечению деятельности незаконных вооружённых формирований в Чечне"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-2022-mobilisation",
@@ -604,7 +667,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -612,10 +676,16 @@
           "url": "https://ru.wikipedia.org/wiki/Мобилизация_в_России_(2022)",
           "accessed": "2026-10-29",
           "supports": "21.09.2022; 28.10.2022; выезд"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/48308",
+          "accessed": "2026-11-12",
+          "supports": "Указ Президента РФ от 21.09.2022 № 647 об объявлении частичной мобилизации"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-nat-1917-civil-war",

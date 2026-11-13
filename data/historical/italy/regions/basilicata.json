@@ -1,0 +1,47 @@
+{
+ "records": [
+  {
+   "id": "it-prov-matera-1945-land-unrest",
+   "title": "Земельные волнения и «декреты Понте»",
+   "title_en": "Land unrest and the 'Ponte decrees'",
+   "start_date": "1945",
+   "end_date": "1947",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "district",
+   "location_ids": [
+    "it-prov-matera"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1945 г. в провинции Матера вспыхнули народные выступления за распределение необработанных земель; они привели к «декретам Понте» 1946–1947 гг., предвосхитившим аграрную реформу.",
+   "historical_summary_en": "In 1945 popular uprisings over the allocation of uncultivated land broke out in the province of Matera; they led to the 'Ponte decrees' of 1946–1947, which anticipated the agrarian reform.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "land_of_our_own"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1945 moti per le terre incolte; decreti Ponte 1946–47"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

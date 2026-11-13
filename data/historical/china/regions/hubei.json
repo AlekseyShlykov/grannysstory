@@ -1,0 +1,147 @@
+{
+ "records": [
+  {
+   "id": "cn-hubei-1938-battle-of-wuhan",
+   "title": "Уханьская операция",
+   "title_en": "Battle of Wuhan",
+   "start_date": "1938-06",
+   "end_date": "1938-10",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-hubei"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "С июня 1938 г. четыре с половиной месяца шла Уханьская операция — одно из самых долгих и крупных сражений начального периода войны с Японией.",
+   "historical_summary_en": "From June 1938 the Battle of Wuhan lasted four and a half months, one of the longest and largest battles of the early war with Japan.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "fleeing_the_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/湖北省",
+     "accessed": "2026-11-11",
+     "supports": "1938年6月 武汉会战 四个半月"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-hubei-2020-lockdowns",
+   "title": "Закрытие городов Хубэя",
+   "title_en": "Lockdowns across Hubei",
+   "start_date": "2020-01",
+   "end_date": "2020-04-08",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-hubei"
+   ],
+   "category": "public_health",
+   "subcategory": null,
+   "historical_summary": "В январе 2020 г. из-за COVID-19 города Хубэя один за другим закрылись на карантин; 25 марта сняли ограничения на выезд из провинции, кроме Уханя, а 8 апреля — и из Уханя, восстановив сообщение.",
+   "historical_summary_en": "In January 2020 Hubei's cities were locked down one after another because of COVID-19; on 25 March restrictions on leaving the province were lifted except for Wuhan, and on 8 April for Wuhan too, restoring transport links.",
+   "affected_groups": [
+    "all_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "masks_and_quarantine"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_hubei_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/湖北省",
+     "accessed": "2026-11-11",
+     "supports": "2020年1月 封城; 3月25日 武汉以外解除; 4月8日 离汉解除"
+    },
+    {
+     "source_id": "cn_hubei_gov",
+     "url": "https://mpa.hubei.gov.cn/bmdt/ztzl/2020/yqtb/qwtz/202003/t20200324_2189784.shtml",
+     "accessed": "2026-11-12",
+     "supports": "湖北省疫情防控指挥部通告（2020年3月24日）：3月25日零时起武汉以外地区解除离鄂通道管控；4月8日零时起武汉解除离汉离鄂通道管控"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-hubei-2022-population-decline",
+   "title": "Смертей больше, чем рождений",
+   "title_en": "More deaths than births",
+   "start_date": "2022",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-hubei"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "В 2022 г. в Хубэе родилось 355 тыс. человек, а умерло 472 тыс.; постоянное население на конец года составило 58,44 млн.",
+   "historical_summary_en": "In 2022 Hubei recorded 355,000 births and 472,000 deaths; its permanent population at year-end was 58.44 million.",
+   "affected_groups": [
+    "elderly",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_hubei_tjj"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/湖北省",
+     "accessed": "2026-11-11",
+     "supports": "2022年末 5844万; 出生35.5万, 死亡47.2万"
+    },
+    {
+     "source_id": "cn_hubei_tjj",
+     "url": "https://tjj.hubei.gov.cn/tjsj/tjgb/ndtjgb/qstjgb/202303/t20230316_4587528.shtml",
+     "accessed": "2026-11-12",
+     "supports": "湖北省2022年统计公报：年末常住人口5844万人；出生35.5万人（6.08‰），死亡47.2万人（8.09‰），自然增长率-2.01‰"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

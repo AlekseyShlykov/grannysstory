@@ -1,0 +1,326 @@
+{
+ "records": [
+  {
+   "id": "de-ctx-leipzig-1990-2024-population",
+   "country_code": "DE",
+   "location_id": "de-leipzig",
+   "period_start": 1990,
+   "period_end": 2024,
+   "context_type": "demography",
+   "attribute": "shrinking_and_regrowth",
+   "title": "Лейпциг: город, который уменьшился и снова вырос",
+   "description": "После 1990 года Лейпциг быстро терял жителей: к 2000 году их осталось около 480 тысяч против 511 тысяч в 1990-м. С 2009 года отток сменился притоком, а после 2010 года город рос быстрее всех крупных городов Германии: на 21% с 2011 по 2024 год. Доля иностранцев выросла с 1,8% в 1990 году до 14,6% в 2024-м.",
+   "title_en": "Leipzig: the city that shrank and grew again",
+   "description_en": "After 1990 Leipzig lost residents quickly: by 2000 about 480,000 remained, compared with 511,000 in 1990. From 2009 out-migration turned into in-migration, and after 2010 the city grew faster than any other large German city: by 21% between 2011 and 2024. The share of foreigners rose from 1.8% in 1990 to 14.6% in 2024.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 511054,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "Stadt Leipzig, Amt für Statistik und Wahlen, табл. 1 (2025)",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population",
+     "value": 479996,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "Stadt Leipzig, Amt für Statistik und Wahlen, табл. 1 (2025)",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population",
+     "value": 508775,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "Stadt Leipzig, Amt für Statistik und Wahlen, табл. 1 (2025)",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population",
+     "value": 605407,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "Stadt Leipzig, Amt für Statistik und Wahlen, табл. 1 (2025)",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population",
+     "value": 632562,
+     "unit": "persons",
+     "year": 2024,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "Stadt Leipzig, Amt für Statistik und Wahlen, табл. 1 (2025)",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "foreign_share",
+     "value": 1.8,
+     "unit": "% of population",
+     "year": 1990,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "табл. 1",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "foreign_share",
+     "value": 4.9,
+     "unit": "% of population",
+     "year": 2010,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "табл. 1",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "foreign_share",
+     "value": 14.6,
+     "unit": "% of population",
+     "year": 2024,
+     "area_id": "de-leipzig",
+     "population": "жители с основным местом жительства, регистр Лейпцига, 31.12",
+     "method_note": "табл. 1",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population_growth_2011_2024",
+     "value": 21.0,
+     "unit": "% change",
+     "year": 2024,
+     "area_id": "de-leipzig",
+     "population": "население на 30.06, 2011–2024",
+     "method_note": "Statistische Ämter des Bundes und der Länder по Bein 2025",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "births",
+     "value": 6976,
+     "unit": "births",
+     "year": 2017,
+     "area_id": "de-leipzig",
+     "population": "рождения у жительниц города, максимум после 1990",
+     "method_note": "Bein 2025",
+     "source_id": "de_leipzig_statistik"
+    }
+   ],
+   "source_ids": [
+    "de_leipzig_statistik"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_leipzig_statistik",
+     "url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Analysen_zur_Stadtgesellschaft/Bev%C3%B6lkerungsentwicklung_2024.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 1; рост 21,0%; перелом 2009; 6976 рождений в 2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-muenchen-2011-2024-population-growth",
+   "country_code": "DE",
+   "location_id": "de-muenchen",
+   "period_start": 2011,
+   "period_end": 2024,
+   "context_type": "demography",
+   "attribute": "population_growth",
+   "title": "Мюнхен: рост населения 2011–2024",
+   "description": "С середины 2011 по середину 2024 года население города Мюнхен изменилось на 10,9% при среднем росте по Германии 4,1%. Рост крупных городов в эти годы шёл в основном за счёт приезжих из-за границы, тогда как внутренняя миграция всё больше уводила жителей в пригороды.",
+   "title_en": "Munich: population growth, 2011-2024",
+   "description_en": "Between mid-2011 and mid-2024 the population of Munich changed by 10.9%, against an average of 4.1% for Germany. In these years large cities grew mainly through arrivals from abroad, while internal migration increasingly took residents to the suburbs.",
+   "statistics": [
+    {
+     "indicator": "population_growth_2011_2024",
+     "value": 10.9,
+     "unit": "% change",
+     "year": 2024,
+     "area_id": "de-muenchen",
+     "population": "население на 30.06, 2011–2024",
+     "method_note": "Statistische Ämter des Bundes und der Länder по Bein 2025, абб. 1",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population_growth_2011_2024",
+     "value": 4.1,
+     "unit": "% change",
+     "year": 2024,
+     "area_id": "de",
+     "population": "население Германии на 30.06",
+     "method_note": "то же",
+     "source_id": "de_leipzig_statistik"
+    }
+   ],
+   "source_ids": [
+    "de_leipzig_statistik"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_leipzig_statistik",
+     "url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Analysen_zur_Stadtgesellschaft/Bev%C3%B6lkerungsentwicklung_2024.pdf",
+     "accessed": "2026-11-11",
+     "supports": "абб. 1: города 500 тыс.+; суть роста — зарубежная миграция и субурбанизация"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-hamburg-2011-2024-population-growth",
+   "country_code": "DE",
+   "location_id": "de-hamburg",
+   "period_start": 2011,
+   "period_end": 2024,
+   "context_type": "demography",
+   "attribute": "population_growth",
+   "title": "Гамбург: рост населения 2011–2024",
+   "description": "С середины 2011 по середину 2024 года население города Гамбург изменилось на 8,6% при среднем росте по Германии 4,1%. Рост крупных городов в эти годы шёл в основном за счёт приезжих из-за границы, тогда как внутренняя миграция всё больше уводила жителей в пригороды.",
+   "title_en": "Hamburg: population growth, 2011-2024",
+   "description_en": "Between mid-2011 and mid-2024 the population of Hamburg changed by 8.6%, against an average of 4.1% for Germany. In these years large cities grew mainly through arrivals from abroad, while internal migration increasingly took residents to the suburbs.",
+   "statistics": [
+    {
+     "indicator": "population_growth_2011_2024",
+     "value": 8.6,
+     "unit": "% change",
+     "year": 2024,
+     "area_id": "de-hamburg",
+     "population": "население на 30.06, 2011–2024",
+     "method_note": "Statistische Ämter des Bundes und der Länder по Bein 2025, абб. 1",
+     "source_id": "de_leipzig_statistik"
+    },
+    {
+     "indicator": "population_growth_2011_2024",
+     "value": 4.1,
+     "unit": "% change",
+     "year": 2024,
+     "area_id": "de",
+     "population": "население Германии на 30.06",
+     "method_note": "то же",
+     "source_id": "de_leipzig_statistik"
+    }
+   ],
+   "source_ids": [
+    "de_leipzig_statistik"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_leipzig_statistik",
+     "url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Analysen_zur_Stadtgesellschaft/Bev%C3%B6lkerungsentwicklung_2024.pdf",
+     "accessed": "2026-11-11",
+     "supports": "абб. 1: города 500 тыс.+; суть роста — зарубежная миграция и субурбанизация"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-halle-1998-2010-shrinking-demolition",
+   "country_code": "DE",
+   "location_id": "de-halle",
+   "period_start": 1998,
+   "period_end": 2010,
+   "context_type": "housing",
+   "attribute": "shrinking_city_demolition",
+   "title": "Галле: сокращение города и снос квартир",
+   "description": "После объединения Галле терял жителей десятилетиями: в 2005 году в городе жили около 236 тысяч человек, в 2010-м — около 231 тысячи, и только в 2010 году впервые за двадцать лет население немного выросло. Из-за пустующих квартир по программе «Перестройка городов Восток» в Галле снесли 11,7 тысячи квартир, больше всего в 2004 году. Отток в западные земли к 2010 году почти прекратился.",
+   "title_en": "Halle: a shrinking city and demolished flats",
+   "description_en": "After unification Halle lost residents for decades: about 236,000 people lived in the city in 2005 and about 231,000 in 2010, and only in 2010 did the population grow slightly for the first time in twenty years. Because of empty flats, 11,700 flats were demolished in Halle under the Urban Restructuring East programme, most of them in 2004. Out-migration to the western states had almost stopped by 2010.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 235959,
+     "unit": "persons",
+     "year": 2005,
+     "area_id": "de-halle",
+     "population": "жители с основным местом жительства, Галле (Заале)",
+     "method_note": "Wohnungsmarktbericht 2010",
+     "source_id": "de_halle_stadt"
+    },
+    {
+     "indicator": "population",
+     "value": 230831,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "de-halle",
+     "population": "жители с основным местом жительства, Галле (Заале)",
+     "method_note": "Wohnungsmarktbericht 2010",
+     "source_id": "de_halle_stadt"
+    },
+    {
+     "indicator": "population_change",
+     "value": 454,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "de-halle",
+     "population": "жители с основным местом жительства, Галле (Заале)",
+     "method_note": "первый прирост за 20 лет",
+     "source_id": "de_halle_stadt"
+    },
+    {
+     "indicator": "flats_demolished_stadtumbau_ost",
+     "value": 11701,
+     "unit": "flats",
+     "year": 2010,
+     "area_id": "de-halle",
+     "population": "снос с господдержкой программы Stadtumbau Ost",
+     "method_note": "Wohnungsmarktbericht 2010, табл. 3.4",
+     "source_id": "de_halle_stadt"
+    },
+    {
+     "indicator": "flats_demolished_peak_year",
+     "value": 2688,
+     "unit": "flats",
+     "year": 2004,
+     "area_id": "de-halle",
+     "population": "снос за год, максимум",
+     "method_note": "Wohnungsmarktbericht 2010",
+     "source_id": "de_halle_stadt"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 145107,
+     "unit": "flats",
+     "year": 2009,
+     "area_id": "de-halle",
+     "population": "жилой фонд города",
+     "method_note": "Wohnungsmarktbericht 2010",
+     "source_id": "de_halle_stadt"
+    },
+    {
+     "indicator": "births",
+     "value": 2198,
+     "unit": "births",
+     "year": 2010,
+     "area_id": "de-halle",
+     "population": "рождения у жительниц города",
+     "method_note": "Wohnungsmarktbericht 2010",
+     "source_id": "de_halle_stadt"
+    }
+   ],
+   "source_ids": [
+    "de_halle_stadt"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_halle_stadt",
+     "url": "https://halle.de/fileadmin/Binaries/Publikationen/Stadtentwicklung/Wohnungsmarktmonitoring/Wohnungsmarktbericht_2010.pdf",
+     "accessed": "2026-11-11",
+     "supports": "население 2005, 2010; +454; 11 701 снесённых; пик 2004 г. 2688; фонд 145 107"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

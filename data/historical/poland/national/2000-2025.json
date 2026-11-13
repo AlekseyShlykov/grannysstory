@@ -28,7 +28,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -36,10 +37,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "7–8.06.2003"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/przystapienie-polski-do-unii-europejskiej",
+     "accessed": "2026-11-13",
+     "supports": "референдум 7–8.06.2003: около 77,45% «за», явка 58,85%"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2004-eu-accession",
@@ -75,7 +82,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -83,10 +91,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "1.05.2004; Ирландия; переходные периоды 2–7 лет"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/przystapienie-polski-do-unii-europejskiej",
+     "accessed": "2026-11-13",
+     "supports": "1.05.2004 Польша — член ЕС (о трудовой эмиграции страница не говорит)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2007-schengen",
@@ -112,7 +126,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_strazgraniczna"
    ],
    "evidence": [
     {
@@ -120,10 +135,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "Шенген 2007–2008"
+    },
+    {
+     "source_id": "pl_strazgraniczna",
+     "url": "https://strazgraniczna.pl/pl/wazne-informacje/2153,Straz-Graniczna-w-Schengen.html",
+     "accessed": "2026-11-13",
+     "supports": "21.12.2007 отменён контроль на внутренних сухопутных и морских границах, 30.03.2008 — в аэропортах"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2010-smolensk",
@@ -150,7 +171,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -158,10 +180,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "10.04.2010, 96 погибших"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/katastrofa-w-smolensku",
+     "accessed": "2026-11-13",
+     "supports": "10.04.2010 в 8:46 катастрофа самолёта польской делегации под Смоленском; погибли президент Лех Качиньский с женой и другие члены делегации"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2013-retirement-age-67",
@@ -370,7 +398,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_sejm_eli"
    ],
    "evidence": [
     {
@@ -378,10 +407,22 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "2017 ликвидация гимназий; возврат 60/65"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2017/38",
+     "accessed": "2026-11-13",
+     "supports": "закон от 16.11.2016 (вступил в силу 1.10.2017): пенсионный возраст не менее 60 лет для женщин и 65 для мужчин"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2017/60",
+     "accessed": "2026-11-13",
+     "supports": "вводный закон к Prawo oświatowe: вступление в силу 1.09.2017, гимназии закрываются (последние наборы 2017/2018–2018/2019)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2019-mama-4plus",
@@ -503,7 +544,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_trybunal"
    ],
    "evidence": [
     {
@@ -511,10 +553,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "22.10.2020; протесты 2020–2021"
+    },
+    {
+     "source_id": "pl_trybunal",
+     "url": "https://trybunal.gov.pl/postepowanie-i-orzeczenia/wyroki/art/11300-planowanie-rodziny-ochrona-plodu-ludzkiego-i-warunki-dopuszczalnosci-przerywania-ciazy",
+     "accessed": "2026-11-13",
+     "supports": "приговор К 1/20 от 22.10.2020: ст. 4a ч. 1 п. 2 закона 1993 г. признана неконституционной"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2022-ukrainian-refugees",
@@ -542,7 +590,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_sejm_eli"
    ],
    "evidence": [
     {
@@ -550,10 +599,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "24.02.2022; >1 млн к 6.03.2022; закон 9.03, в силе 12.03.2022"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2022/583",
+     "accessed": "2026-11-13",
+     "supports": "закон от 12.03.2022 о помощи гражданам Украины, въехавшим легально с 24.02.2022 в связи с войной (численность беженцев закон не приводит)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-2024-flood",
@@ -581,7 +636,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_sejm_eli"
    ],
    "evidence": [
     {
@@ -589,10 +645,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "12.09.2024; 16.09 стихийное бедствие на 30 дней"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/2024/1365",
+     "accessed": "2026-11-13",
+     "supports": "распоряжение Совета министров от 16.09.2024: в связи с наводнением сентября 2024 г. на 30 дней введено состояние стихийного бедствия в частях Нижнесилезского, Опольского и Силезского воеводств"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

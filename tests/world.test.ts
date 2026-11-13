@@ -77,6 +77,10 @@ describe("geographic hierarchy and sovereignty", () => {
       if (!location.settlementClass) continue;
       for (const day of ["1900-07-01", "1950-07-01", "2025-07-01"]) {
         if (location.validFrom && location.validFrom > day) continue;
+        // Parts of a divided city (Berlin 1949–1990) exist only during the division.
+        if (location.validTo && location.validTo < day) continue;
+        // A divided city (Berlin 1948–1990) is lived in through its parts and has no single parent then.
+        if ((location.partitions ?? []).some((partition) => (partition.from ?? "") <= day && day <= (partition.to ?? "9999"))) continue;
         const chain = ancestorsAt(world, location.id, day);
         expect(chain.at(-1), `${location.id} ${day}`).toBe("world");
         expect(sovereignAt(world, location.id, day), `${location.id} ${day}`).not.toBeNull();
@@ -350,11 +354,17 @@ describe("world-dataset birthplaces in the main menu", () => {
     expect(menuRegions(false).map((region) => region.id)).toContain("pl-warszawa");
     expect(menuRegions(false).map((region) => region.id)).toContain("us-detroit");
     for (const region of published) {
-      expect(worldManifest.coverage[region.id]?.meetsCoverageGate).toBe(true);
+      expect(worldManifest.coverage[region.locationId ?? region.id]?.meetsCoverageGate).toBe(true);
       expect(region.countryId).toBeTruthy();
       expect(region.preview).toBe(false);
     }
-    expect(published.map((region) => region.id)).not.toContain("pl-gdansk");
+    // world-1.2: German Empire records reach Danzig for 1900–1919, so Gdańsk now passes the gate it failed in world-1.1.
+    expect(published.map((region) => region.id)).toContain("pl-gdansk");
+    expect(published.map((region) => region.id)).not.toContain("de-wolfsburg");
+    // Berlin is offered once per side; the birthplace of both is the city itself.
+    expect(published.map((region) => region.id)).toEqual(expect.arrayContaining(["de-berlin-west", "de-berlin-east"]));
+    expect(published.map((region) => region.id)).not.toContain("de-berlin");
+    expect(published.filter((region) => region.id.startsWith("de-berlin")).every((region) => region.locationId === "de-berlin")).toBe(true);
     expect(published.map((region) => region.id)).not.toContain("pl-zalipie");
   });
 

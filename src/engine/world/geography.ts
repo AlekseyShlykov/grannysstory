@@ -62,7 +62,7 @@ export function levelOf(world: WorldData, id: string): GeoLevel | null {
 }
 
 export function existsAt(location: WorldLocation, day: string): boolean {
-  return inPeriod(day, location.validFrom, location.validTo);
+  return inPeriod(day, location.validFrom, location.validTo) && !(location.abolished ?? []).some((gap) => inPeriod(day, gap.from, gap.to));
 }
 
 export function occupationAt(world: WorldData, id: string, day: string): string | null {

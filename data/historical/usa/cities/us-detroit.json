@@ -159,7 +159,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_detroit_historical"
    ],
    "evidence": [
     {
@@ -167,10 +168,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "Ford Motor Company и Pewabic Pottery начинают работу в 1903; Cadillac — 1902"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ford-motor-company",
+     "accessed": "2026-11-13",
+     "supports": "Ford Motor Company официально учреждена в 1903 г., первый завод на Мак-авеню в Детройте"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1911-chevrolet-factory",
@@ -239,7 +246,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nara"
    ],
    "evidence": [
     {
@@ -247,10 +255,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "1916: large influx of African Americans during the Great Migration"
+    },
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+     "accessed": "2026-11-13",
+     "supports": "Великая миграция с 1910-х гг.; Детройт среди главных городов назначения"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1920-fourth-largest-city",
@@ -277,7 +291,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_census"
    ],
    "evidence": [
     {
@@ -285,10 +300,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "население 1900 и 1920, 4-е место"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab15.txt",
+     "accessed": "2026-11-13",
+     "supports": "перепись 1920: Детройт — 4-е место, 993 078 жителей"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1929-ambassador-bridge",
@@ -315,7 +336,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_detroit_historical"
    ],
    "evidence": [
     {
@@ -323,10 +345,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "1929 Ambassador Bridge completed; 1930 Detroit–Windsor Tunnel completed"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/ambassador-bridge",
+     "accessed": "2026-11-13",
+     "supports": "мост между Детройтом и Виндзором (Онтарио) завершён в 1929 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1935-uaw-founded",
@@ -399,7 +427,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_census"
    ],
    "evidence": [
     {
@@ -407,10 +436,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "1950: population peak 1.85 million; UAW–GM agreement"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab18.txt",
+     "accessed": "2026-11-13",
+     "supports": "перепись 1950: Детройт — 1 849 568 жителей (в 1960 г. — 1 670 144, табл. 19)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1956-last-streetcar",
@@ -439,7 +474,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_detroit_historical"
    ],
    "evidence": [
     {
@@ -447,10 +483,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "1956 last Woodward streetcar discontinued; 1930 30 lines"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/blog/2016-07-18-detroits-streetcars-past-and-present",
+     "accessed": "2026-11-13",
+     "supports": "8 апреля 1956 г. — парад «последнего дня трамваев» по Вудворд-авеню; трамвайные маршруты заменены автобусами"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1973-coleman-young",
@@ -519,7 +561,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_detroit_historical"
    ],
    "evidence": [
     {
@@ -527,10 +570,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "1977 Renaissance Center built"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/renaissance-center",
+     "accessed": "2026-11-13",
+     "supports": "комплекс на набережной Детройта; гостиничная башня открыта в 1977 г. (первая офисная башня — 1 июля 1976 г.)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1978-blizzard",
@@ -557,7 +606,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -565,10 +615,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "January 1978 Great Blizzard"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/dtx/blizzard1978",
+     "accessed": "2026-11-13",
+     "supports": "NWS Детройт: 26 января 1978 г. ветер намёл огромные сугробы на юго-востоке Мичигана, в Детройте 8,2 дюйма снега"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1987-people-mover",
@@ -593,7 +649,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_detroit_historical"
    ],
    "evidence": [
     {
@@ -601,10 +658,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "1987 Detroit People Mover begins operations"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/detroit-people-mover",
+     "accessed": "2026-11-13",
+     "supports": "People Mover начал работу в 1987 г., кольцо в центре Детройта"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1995-newspaper-strike",
@@ -630,7 +693,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_reuther"
    ],
    "evidence": [
     {
@@ -638,10 +702,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "July 1995 newspaper strike 1995–97"
+    },
+    {
+     "source_id": "us_reuther",
+     "url": "https://reuther.wayne.edu/node/13639",
+     "accessed": "2026-11-13",
+     "supports": "описание коллекции: забастовка началась 13 июля 1995 г. (шесть профсоюзов, около 2500 работников) и закончилась 14 февраля 1997 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1996-casinos-vote",
@@ -668,7 +738,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_detroit_historical"
    ],
    "evidence": [
     {
@@ -676,10 +747,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "November 1996 Michigan votes for three Detroit casinos"
+    },
+    {
+     "source_id": "us_detroit_historical",
+     "url": "https://detroithistorical.org/learn/encyclopedia-of-detroit/greektown-casino-hotel",
+     "accessed": "2026-11-13",
+     "supports": "предложение открыть три казино в Детройте одобрено избирателями в 1996 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-2003-northeast-blackout",
@@ -821,7 +898,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_census"
    ],
    "evidence": [
     {
@@ -829,10 +907,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Detroit",
      "accessed": "2026-10-29",
      "supports": "population 2010 и 2020"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www.census.gov/newsroom/releases/archives/2010_census/cb11-cn106.html",
+     "accessed": "2026-11-13",
+     "supports": "итоги переписи 2010 г. по Мичигану: Детройт — 713 777 жителей, на 25,0% меньше, чем в 2000 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-detroit-1960-motown",

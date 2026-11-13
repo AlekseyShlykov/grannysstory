@@ -1,0 +1,1397 @@
+{
+ "locations": [
+  {
+   "id": "state-ottoman",
+   "type": "state",
+   "country": "TR",
+   "wikidata": "Q12560",
+   "codes": {},
+   "names": [
+    {
+     "name": "Devlet-i Âliye-i Osmâniyye",
+     "lang": "ota",
+     "from": null,
+     "to": "1922-11-01"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Османская империя",
+     "locative": "в Османской империи",
+     "name_en": "Ottoman Empire",
+     "from": null,
+     "to": "1922-11-01"
+    }
+   ],
+   "alt_names": [
+    "Ottoman Empire",
+    "Osmanlı İmparatorluğu",
+    "Оттоманская Порта"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": null,
+     "to": "1922-11-01"
+    }
+   ],
+   "sovereignty_note": "Конец узла — упразднение султаната Великим национальным собранием 1.11.1922. Территории, перешедшие под власть правительства ВНСТ раньше (Анкара, Конья, Эрзурум с 23.04.1920; Измир 9–10.09.1922; Бурса 11.09.1922; Антеп 25.12.1921), меняют родителя на state-tr-gna в дату фактического перехода. Стамбул остаётся в узле до 1.11.1922.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1922-11-01"
+  },
+  {
+   "id": "tr",
+   "type": "state",
+   "country": "TR",
+   "wikidata": "Q43",
+   "codes": {},
+   "names": [
+    {
+     "name": "Türkiye Büyük Millet Meclisi Hükümeti",
+     "lang": "tr",
+     "from": "1920-04-23",
+     "to": "1923-10-28"
+    },
+    {
+     "name": "Türkiye Cumhuriyeti",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Турция (правительство Великого национального собрания)",
+     "locative": "в Турции",
+     "from": "1920-04-23",
+     "to": "1923-10-28",
+     "name_en": "Turkey (Grand National Assembly government)",
+     "locative_en": "in Turkey"
+    },
+    {
+     "name": "Турция",
+     "locative": "в Турции",
+     "name_en": "Turkey",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Türkiye",
+    "Turkish Republic"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1920-04-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Турецкое государство с 23.04.1920: правительство Великого национального собрания Турции в Анкаре, с 29.10.1923 — Турецкая Республика; одно государство со сменой формы, как Королевство Италия и Итальянская Республика. Места, остававшиеся под властью Стамбула, до перехода подчинены Османской империи. Исправлено 12.11.2026: прежний отдельный узел state-tr-gna удалён. Правительство Великого национального собрания в Анкаре, учреждённое 23.04.1920, — фактическая власть национального движения на подконтрольных ему территориях до провозглашения Республики 29.10.1923. Международное признание пришло с Лозаннским договором 24.07.1923. Узел нужен, чтобы события 1920–1923 гг. в Анкаре и Конье не наследовались из узла Османской империи (стамбульского правительства).",
+   "occupations": [],
+   "source_ids": [
+    "tr_en_wikipedia",
+    "wikidata"
+   ],
+   "valid_from": "1920-04-23"
+  },
+  {
+   "id": "tr-vil-ankara",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q1345660",
+   "codes": {},
+   "names": [
+    {
+     "name": "Ankara Vilâyeti",
+     "lang": "tr",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "вилайет Ангора",
+     "locative": "в вилайете Ангора",
+     "name_en": "Angora Vilayet",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1920-04-22"
+    },
+    {
+     "id": "tr",
+     "from": "1920-04-23",
+     "to": "1923-10-28"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет; узел закрыт 28.10.1923, после чего действуют республиканские илы с иными границами (не переносить современные границы назад). Переход под власть правительства ВНСТ — 23.04.1920, дата образования правительства ВНСТ в Анкаре; Анкара была его резиденцией.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1923-10-28"
+  },
+  {
+   "id": "tr-vil-konya",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q1410367",
+   "codes": {},
+   "names": [
+    {
+     "name": "Konya Vilâyeti",
+     "lang": "tr",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Конийский вилайет",
+     "locative": "в Конийском вилайете",
+     "name_en": "Konya Vilayet",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1920-04-22"
+    },
+    {
+     "id": "tr",
+     "from": "1920-04-23",
+     "to": "1923-10-28"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет; узел закрыт 28.10.1923, после чего действуют республиканские илы с иными границами (не переносить современные границы назад). Переход под власть правительства ВНСТ — условно 23.04.1920: город контролировался национальным движением, хотя в 1920 г. здесь были антикемалистские восстания (Делибаш Мехмед); точная дата фактического контроля не уточнялась.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1923-10-28"
+  },
+  {
+   "id": "tr-vil-erzurum",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q1366246",
+   "codes": {},
+   "names": [
+    {
+     "name": "Erzurum Vilâyeti",
+     "lang": "tr",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Эрзурумский вилайет",
+     "locative": "в Эрзурумском вилайете",
+     "name_en": "Erzurum Vilayet",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1920-04-22"
+    },
+    {
+     "id": "tr",
+     "from": "1920-04-23",
+     "to": "1923-10-28"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет; узел закрыт 28.10.1923, после чего действуют республиканские илы с иными границами (не переносить современные границы назад). Переход под власть правительства ВНСТ — 23.04.1920 (центр национального движения после Эрзурумского конгресса 1919 г.). Российская оккупация 1916–1918 гг. записана у населённых пунктов.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1923-10-28"
+  },
+  {
+   "id": "tr-vil-kastamonu",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q1164593",
+   "codes": {},
+   "names": [
+    {
+     "name": "Kastamonu Vilâyeti",
+     "lang": "tr",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Кастамонийский вилайет",
+     "locative": "в Кастамонийском вилайете",
+     "name_en": "Kastamonu Vilayet",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1920-04-22"
+    },
+    {
+     "id": "tr",
+     "from": "1920-04-23",
+     "to": "1923-10-28"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет; узел закрыт 28.10.1923, после чего действуют республиканские илы с иными границами (не переносить современные границы назад). Переход под власть правительства ВНСТ — условно 23.04.1920 (район Сафранболу примкнул к национальному движению; точная дата не уточнялась).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_tuba"
+   ],
+   "valid_to": "1923-10-28"
+  },
+  {
+   "id": "tr-vil-aydin",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q1550771",
+   "codes": {},
+   "names": [
+    {
+     "name": "Aydın Vilâyeti",
+     "lang": "tr",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Айдынский вилайет",
+     "locative": "в Айдынском вилайете",
+     "name_en": "Aidin Vilayet",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1922-09-09"
+    },
+    {
+     "id": "tr",
+     "from": "1922-09-10",
+     "to": "1923-10-28"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет; узел закрыт 28.10.1923, после чего действуют республиканские илы с иными границами (не переносить современные границы назад). Переход под власть правительства ВНСТ — 10.09.1922, вступление турецкой армии в Измир (центр вилайета); греческая оккупация 15.05.1919–9.09.1922 записана у города Измир. Часть вилайета контролировалась ВНСТ раньше; узел упрощён по центру.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1923-10-28"
+  },
+  {
+   "id": "tr-vil-hudavendigar",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q3928674",
+   "codes": {},
+   "names": [
+    {
+     "name": "Hüdavendigâr Vilâyeti",
+     "lang": "tr",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "вилайет Худавендигяр",
+     "locative": "в вилайете Худавендигяр",
+     "name_en": "Hüdavendigâr Vilayet",
+     "from": null,
+     "to": "1923-10-28"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1922-09-10"
+    },
+    {
+     "id": "tr",
+     "from": "1922-09-11",
+     "to": "1923-10-28"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет; узел закрыт 28.10.1923, после чего действуют республиканские илы с иными границами (не переносить современные границы назад). Переход под власть правительства ВНСТ — 11.09.1922, освобождение Бурсы (центра вилайета); греческая оккупация Бурсы 8.07.1920–11.09.1922 записана у города. Восточная часть вилайета (Эскишехир, Кютахья) в 1920–1921 гг. контролировалась ВНСТ; узел упрощён по центру.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1923-10-28"
+  },
+  {
+   "id": "tr-vil-aleppo",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q1493892",
+   "codes": {},
+   "names": [
+    {
+     "name": "Haleb Vilâyeti",
+     "lang": "ota",
+     "from": null,
+     "to": "1918-10-30"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Алеппский вилайет",
+     "locative": "в Алеппском вилайете",
+     "name_en": "Aleppo Vilayet",
+     "from": null,
+     "to": "1918-10-30"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1918-10-30"
+    }
+   ],
+   "sovereignty_note": "Османский вилайет, упразднён в 1918 г.; здесь закрыт датой Мудросского перемирия 30.10.1918. Айнтаб (Антеп) — каза вилайета, с 1908 г. отдельный санджак (по Википедии, без надёжной сноски).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_to": "1918-10-30"
+  },
+  {
+   "id": "tr-il-istanbul",
+   "type": "province",
+   "country": "TR",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "İstanbul ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Стамбул",
+     "locative": "в провинции Стамбул",
+     "name_en": "Istanbul Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция Стамбул Турецкой Республики. До 1923 г. город управлялся Шехремането (городской префектурой) и не входил в вилайет; поэтому город до 1923 г. подчинён непосредственно государству. С 2004 г. границы муниципалитета-метрополии совпадают с границами ила.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-ankara",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q2297724",
+   "codes": {},
+   "names": [
+    {
+     "name": "Ankara ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Анкара",
+     "locative": "в провинции Анкара",
+     "name_en": "Ankara Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция (вилайет, с 1920-х — ил) Турецкой Республики. Границы менялись (выделение новых илов, закон о метрополиях 2012 г.); современные границы назад не переносятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-izmir",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q344490",
+   "codes": {},
+   "names": [
+    {
+     "name": "İzmir ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Измир",
+     "locative": "в провинции Измир",
+     "name_en": "İzmir Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция (вилайет, с 1920-х — ил) Турецкой Республики. Границы менялись (выделение новых илов, закон о метрополиях 2012 г.); современные границы назад не переносятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-bursa",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q43690",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bursa ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Бурса",
+     "locative": "в провинции Бурса",
+     "name_en": "Bursa Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция (вилайет, с 1920-х — ил) Турецкой Республики. Границы менялись (выделение новых илов, закон о метрополиях 2012 г.); современные границы назад не переносятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-konya",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q81551",
+   "codes": {},
+   "names": [
+    {
+     "name": "Konya ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Конья",
+     "locative": "в провинции Конья",
+     "name_en": "Konya Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция (вилайет, с 1920-х — ил) Турецкой Республики. Границы менялись (выделение новых илов, закон о метрополиях 2012 г.); современные границы назад не переносятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-gaziantep",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q483154",
+   "codes": {},
+   "names": [
+    {
+     "name": "Gaziantep ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Газиантеп",
+     "locative": "в провинции Газиантеп",
+     "name_en": "Gaziantep Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция Газиантеп (до 1928 г. — Gazi Ayıntab). Последующие изменения границ ила не детализируются и назад не переносятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-zonguldak",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q219956",
+   "codes": {},
+   "names": [
+    {
+     "name": "Zonguldak ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Зонгулдак",
+     "locative": "в провинции Зонгулдак",
+     "name_en": "Zonguldak Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция Зонгулдак. В 1924 г. в её состав передан Сафранболу (с Карабюком) из Кастамону (TÜBA); в 1991 г. выделен ил Бартын, в 1995 г. — ил Карабюк. Дата образования самостоятельной единицы Зонгулдак не уточнялась: узел начинается с провозглашения Республики.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_tr_wikipedia",
+    "tr_tuba"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-il-karabuk",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q483168",
+   "codes": {},
+   "names": [
+    {
+     "name": "Karabük ili",
+     "lang": "tr",
+     "from": "1995-06-06",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Карабюк",
+     "locative": "в провинции Карабюк",
+     "name_en": "Karabük Province",
+     "from": "1995-06-06",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1995-06-06",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Образована 6.06.1995 указом-законом (KHK) № 550 как 78-й ил Турции из районов илов Зонгулдак и Чанкыры.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_tr_wikipedia"
+   ],
+   "valid_from": "1995-06-06"
+  },
+  {
+   "id": "tr-il-erzurum",
+   "type": "province",
+   "country": "TR",
+   "wikidata": "Q376797",
+   "codes": {},
+   "names": [
+    {
+     "name": "Erzurum ili",
+     "lang": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Эрзурум",
+     "locative": "в провинции Эрзурум",
+     "name_en": "Erzurum Province",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Провинция (вилайет, с 1920-х — ил) Турецкой Республики. Границы менялись (выделение новых илов, закон о метрополиях 2012 г.); современные границы назад не переносятся.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ],
+   "valid_from": "1923-10-29"
+  },
+  {
+   "id": "tr-istanbul",
+   "type": "city",
+   "country": "TR",
+   "wikidata": "Q406",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Kostantiniyye",
+     "lang": "ota",
+     "from": null,
+     "to": "1929"
+    },
+    {
+     "name": "İstanbul",
+     "lang": "tr",
+     "from": "1930",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Константинополь",
+     "locative": "в Константинополе",
+     "name_en": "Constantinople",
+     "from": null,
+     "to": "1929"
+    },
+    {
+     "name": "Стамбул",
+     "locative": "в Стамбуле",
+     "name_en": "Istanbul",
+     "from": "1930",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Constantinople",
+    "Dersaadet",
+    "Byzantium"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1922-11-01"
+    },
+    {
+     "id": "tr",
+     "from": "1922-11-02",
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-istanbul",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Столица Османской империи до 1.11.1922. Городом управляла префектура (Şehremaneti), не входившая в вилайет, поэтому до 1923 г. родитель — государство. После упразднения султаната 1.11.1922 администрацию города принимает правительство ВНСТ (здесь — с 2.11.1922). Смена русского названия датирована 1930 г., когда Турция официально потребовала употреблять турецкие названия городов (en.wikipedia, Names of Istanbul); в русской речи форма «Стамбул» бытовала и раньше.",
+   "occupations": [
+    {
+     "by_ru": "Союзники Антанты (Великобритания, Франция, Италия)",
+     "from": "1918-11-12",
+     "to": "1923-10-04",
+     "source_id": "tr_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-ankara",
+   "type": "city",
+   "country": "TR",
+   "wikidata": "Q3640",
+   "codes": {},
+   "settlement_class": "capital",
+   "names": [
+    {
+     "name": "Ankara",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Ангора",
+     "locative": "в Ангоре",
+     "name_en": "Angora",
+     "from": null,
+     "to": "1929"
+    },
+    {
+     "name": "Анкара",
+     "locative": "в Анкаре",
+     "name_en": "Ankara",
+     "from": "1930",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Angora",
+    "Ancyra"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-ankara",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-ankara",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Резиденция правительства ВНСТ с 23.04.1920, столица Турции с 13.10.1923. Европейская и русская форма «Ангора» употреблялась до 1930 г., когда Турция потребовала турецких названий городов; граница 1930 г. — условная.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-izmir",
+   "type": "city",
+   "country": "TR",
+   "wikidata": "Q35997",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "İzmir",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Смирна",
+     "locative": "в Смирне",
+     "name_en": "Smyrna",
+     "from": null,
+     "to": "1929"
+    },
+    {
+     "name": "Измир",
+     "locative": "в Измире",
+     "name_en": "İzmir",
+     "from": "1930",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Smyrna",
+    "Σμύρνη"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-aydin",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-izmir",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Центр Айдынского вилайета. Греческая оккупация 15.05.1919–9.09.1922 без передачи суверенитета (Севрский договор оставлял формальный суверенитет Турции) — в occupations. 10.09.1922 в город вошла турецкая армия. Русская форма «Смирна» датирована до 1930 г. условно (переход на латиницу 1928 г. и требование 1930 г. употреблять турецкие названия).",
+   "occupations": [
+    {
+     "by_ru": "Греция",
+     "from": "1919-05-15",
+     "to": "1922-09-09",
+     "source_id": "tr_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-bursa",
+   "type": "city",
+   "country": "TR",
+   "wikidata": "Q40738",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Bursa",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Бруса",
+     "locative": "в Брусе",
+     "name_en": "Brusa",
+     "from": null,
+     "to": "1929"
+    },
+    {
+     "name": "Бурса",
+     "locative": "в Бурсе",
+     "name_en": "Bursa",
+     "from": "1930",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Brusa",
+    "Broussa",
+    "Prusa"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-hudavendigar",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-bursa",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Центр вилайета Худавендигяр. Греческая оккупация 8.07.1920–11.09.1922 (tr.wikipedia, «Bursa'nın işgali») — в occupations. Русская форма «Бруса» до 1930 г. — условная граница, источника с датой смены русского употребления не найдено (см. research-notes).",
+   "occupations": [
+    {
+     "by_ru": "Греция",
+     "from": "1920-07-08",
+     "to": "1922-09-10",
+     "source_id": "tr_tr_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia",
+    "tr_tr_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-konya",
+   "type": "city",
+   "country": "TR",
+   "wikidata": "Q79857",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Konya",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Конья",
+     "locative": "в Конье",
+     "name_en": "Konya",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Iconium",
+    "Икония"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-konya",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-konya",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Центр Конийского вилайета, затем ила Конья.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-gaziantep",
+   "type": "city",
+   "country": "TR",
+   "wikidata": "Q93338",
+   "codes": {},
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Ayıntab",
+     "lang": "ota",
+     "from": null,
+     "to": "1921-01"
+    },
+    {
+     "name": "Gazi Ayıntab",
+     "lang": "tr",
+     "from": "1921-02",
+     "to": "1927"
+    },
+    {
+     "name": "Gaziantep",
+     "lang": "tr",
+     "from": "1928",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Антеп",
+     "locative": "в Антепе",
+     "name_en": "Aintab",
+     "from": null,
+     "to": "1921-01"
+    },
+    {
+     "name": "Газиантеп",
+     "locative": "в Газиантепе",
+     "name_en": "Gaziantep",
+     "from": "1921-02",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Aintab",
+    "Ayıntap",
+    "Antep"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-aleppo",
+     "from": null,
+     "to": "1918-10-30"
+    },
+    {
+     "id": "state-ottoman",
+     "from": "1918-10-31",
+     "to": "1921-12-24"
+    },
+    {
+     "id": "tr",
+     "from": "1921-12-25",
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-gaziantep",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "До 1918 г. — в Алеппском вилайете (с 1908 г. санджак). После Мудросского перемирия город оставался османским де-юре, но был занят британцами (17.12.1918), затем передан Франции (5.11.1919); французы ушли 25.12.1921 по Анкарскому договору — с этой даты родитель state-tr-gna. В феврале 1921 г. ВНСТ присвоило городу почётное «Гази»; форма Gaziantep — с 1928 г. (en.wikipedia).",
+   "occupations": [
+    {
+     "by_ru": "Великобритания",
+     "from": "1918-12-17",
+     "to": "1919-11-04",
+     "source_id": "tr_en_wikipedia"
+    },
+    {
+     "by_ru": "Франция",
+     "from": "1919-11-05",
+     "to": "1921-12-24",
+     "source_id": "tr_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "tr_en_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-zonguldak",
+   "type": "town",
+   "country": "TR",
+   "wikidata": "Q187895",
+   "codes": {},
+   "settlement_class": "small_town",
+   "names": [
+    {
+     "name": "Zonguldak",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Зонгулдак",
+     "locative": "в Зонгулдаке",
+     "name_en": "Zonguldak",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-ottoman",
+     "from": null,
+     "to": "1920-04-22"
+    },
+    {
+     "id": "tr",
+     "from": "1920-04-23",
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-zonguldak",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Центр Зонгулдакского каменноугольного бассейна. Османское административное подчинение (каза/санджак) не проверено, поэтому до 1923 г. родитель — государство. Французская оккупация 1919 г. — 21.06.1920 (tr.wikipedia); начало датировано только годом.",
+   "occupations": [
+    {
+     "by_ru": "Франция",
+     "from": "1919-03-08",
+     "to": "1921-06-21",
+     "source_id": "tr_ktb_chronology"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "tr_tr_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-karabuk",
+   "type": "town",
+   "country": "TR",
+   "wikidata": "Q189697",
+   "codes": {},
+   "settlement_class": "small_town",
+   "names": [
+    {
+     "name": "Karabük",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Карабюк",
+     "locative": "в Карабюке",
+     "name_en": "Karabük",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-kastamonu",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr",
+     "from": "1923-10-29",
+     "to": "1923"
+    },
+    {
+     "id": "tr-il-zonguldak",
+     "from": "1924",
+     "to": "1995-06-05"
+    },
+    {
+     "id": "tr-il-karabuk",
+     "from": "1995-06-06",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "До 1937 г. — махалле из 13 дворов деревни Öğlebeli (нахие Акташ, каза Сафранболу Кастамонийского вилайета). В 1924 г. Сафранболу с Акташем переданы из Кастамону в Зонгулдак (TÜBA); с 29.10.1923 до конца 1923 г. промежуточный уровень не моделируется. Муниципалитет с 1938 г., ильче ила Зонгулдак с 3.03.1953, центр ила Карабюк с 6.06.1995.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_tuba",
+    "tr_tr_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-cumra",
+   "type": "rural_area",
+   "country": "TR",
+   "wikidata": "Q1922408",
+   "codes": {},
+   "settlement_class": "rural",
+   "names": [
+    {
+     "name": "Çumra",
+     "lang": "tr",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Чумра",
+     "locative": "в Чумре",
+     "name_en": "Çumra",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-konya",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-konya",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Сельский район (ильче) Конийской равнины; самостоятельный ильче с 26.06.1926 (закон № 877), до этого — часть Конийского вилайета/ила без отдельного статуса. В 1990 г. из района выделены Акёрен и Гюнейсыныр; с 2013 г. деревни стали махалле метрополии Конья.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "tr_tr_wikipedia"
+   ]
+  },
+  {
+   "id": "tr-pasinler",
+   "type": "rural_area",
+   "country": "TR",
+   "wikidata": "Q2744950",
+   "codes": {},
+   "settlement_class": "rural",
+   "names": [
+    {
+     "name": "Hasankale",
+     "lang": "tr",
+     "from": null,
+     "to": "1927"
+    },
+    {
+     "name": "Pasinler",
+     "lang": "tr",
+     "from": "1928",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Хасанкале",
+     "locative": "в Хасанкале",
+     "name_en": "Hasankale",
+     "from": null,
+     "to": "1927"
+    },
+    {
+     "name": "Пасинлер",
+     "locative": "в Пасинлере",
+     "name_en": "Pasinler",
+     "from": "1928",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Hasan Kala",
+    "Basiani"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "tr-vil-erzurum",
+     "from": null,
+     "to": "1923-10-28"
+    },
+    {
+     "id": "tr-il-erzurum",
+     "from": "1923-10-29",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Сельский район (ильче) ила Эрзурум в долине Пасин, в 37 км от Эрзурума. Название Pasinler зафиксировано к 1928 г. (tr.wikipedia); граница смены названий условная. Из района выделены Хорасан (1953) и Кёпрюкёй (1990). Российская оккупация: бой у Хасанкале 18–19.01.1916, Эрзурум занят 16.02.1916 и возвращён 12.03.1918; точная дата возвращения Хасанкале не найдена.",
+   "occupations": [
+    {
+     "by_ru": "Российская империя (с 1917 г. — российские, затем армянские части)",
+     "from": "1916-01",
+     "to": "1918-03",
+     "source_id": "tr_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "tr_tr_wikipedia",
+    "tr_en_wikipedia"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,926 @@
+{
+ "records": [
+  {
+   "id": "de-leipzig-1900-monument-foundation-stone",
+   "title": "Закладка Памятника Битве народов",
+   "title_en": "Foundation stone of the Monument to the Battle of the Nations",
+   "start_date": "1900-10-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "18 октября 1900 г. в Лейпциге был заложен Памятник Битве народов; монумент открыли в 1913 г.",
+   "historical_summary_en": "On 18 October 1900 the foundation stone of the Monument to the Battle of the Nations was laid in Leipzig, and the monument was erected in 1913.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1900",
+     "accessed": "2026-11-11",
+     "supports": "18.10.1900 закладка"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1913 monument erected"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-leipzig-1905-new-town-hall",
+   "title": "Новая ратуша и присоединение пригородов",
+   "title_en": "New Town Hall and incorporations",
+   "start_date": "1905",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1905 г. открылась Новая ратуша, а к Лейпцигу присоединили Ройдниц, Фолькмарсдорф, Голис и Эвтрич; население достигло 503 672 человек.",
+   "historical_summary_en": "In 1905 the New Town Hall opened and Reudnitz, Volkmarsdorf, Gohlis and Eutritzsch were incorporated into Leipzig, the population reaching 503,672.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1905 New Town Hall; incorporations; population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1907-edeka",
+   "title": "Основание Edeka",
+   "title_en": "Edeka founded",
+   "start_date": "1907",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "В 1907 г. в лейпцигском отеле «Польский двор» был основан закупочный союз торговцев Edeka.",
+   "historical_summary_en": "In 1907 the retailers' purchasing cooperative Edeka was founded at the Hôtel de Pologne in Leipzig.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "corner_shop"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1907 Edeka"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1912-national-library",
+   "title": "Немецкая библиотека",
+   "title_en": "German National Library established",
+   "start_date": "1912",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "education",
+   "historical_summary": "В 1912 г. в Лейпциге была учреждена Немецкая библиотека (Deutsche Bücherei), её здание открылось в 1916 г.",
+   "historical_summary_en": "In 1912 the German Library (Deutsche Bücherei) was established in Leipzig, and its building opened in 1916.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "library_card"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1912; 1916 building"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1915-hauptbahnhof",
+   "title": "Главный вокзал Лейпцига",
+   "title_en": "Leipzig Hauptbahnhof opens",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1915 г. открылся Главный вокзал Лейпцига; в январе 1917 г. было образовано городское транспортное предприятие LVB.",
+   "historical_summary_en": "In 1915 Leipzig Hauptbahnhof opened, and in January 1917 the municipal transport company LVB was formed.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1915 Hauptbahnhof; January 1917 LVB"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1920-technical-fair",
+   "title": "Первая техническая ярмарка",
+   "title_en": "First technical trade fair",
+   "start_date": "1920",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1920 г. на территории Старой ярмарки прошла первая техническая ярмарка. В 1927 г. открылся аэропорт Лейпциг/Галле.",
+   "historical_summary_en": "In 1920 the first technical trade fair took place on the Old Fairground. In 1927 Leipzig/Halle Airport opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fair_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1920 technical fair; 1927 airport"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1930-rundling",
+   "title": "Жилые посёлки Рундлинг и Крох",
+   "title_en": "Rundling and Kroch estates",
+   "start_date": "1930",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Около 1930 г. в Лейпциге построили жилые посёлки Рундлинг и Крохзидлунг; в 1933 г. в городе жили 713 470 человек.",
+   "historical_summary_en": "Around 1930 the Rundling and Krochsiedlung housing estates were built in Leipzig, and in 1933 the city had 713,470 inhabitants.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1930 Rundling, Krochsiedlung; 1933 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1943-bombing",
+   "title": "Бомбардировка Лейпцига",
+   "title_en": "Bombing of Leipzig",
+   "start_date": "1943-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В декабре 1943 г. британская авиация бомбила Лейпциг, налёты продолжались и в 1944 г. В городе работали филиалы концлагерей при заводах HASAG.",
+   "historical_summary_en": "In December 1943 the RAF bombed Leipzig, and raids continued in 1944. Concentration camp subcamps operated at the HASAG works in the city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "December 1943 bombing; 1944 bombing; HASAG subcamps"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1945-us-then-soviet",
+   "title": "Американцы, затем советская администрация",
+   "title_en": "Americans, then Soviet control",
+   "start_date": "1945-04-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "occupation",
+   "historical_summary": "19 апреля 1945 г. Лейпциг заняли американские войска, а в июле город перешёл под советский контроль. В 1945 г. в нём жили 584 593 человека.",
+   "historical_summary_en": "On 19 April 1945 Leipzig was captured by American troops, and in July the city came under Soviet control. In 1945 it had 584,593 inhabitants.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_war_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "19.04.1945; July 1945 Soviet; 1945 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1950-bach-archive",
+   "title": "Баховский архив и конкурс",
+   "title_en": "Bach Archive and Bach Competition",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1950 г. в Лейпциге основали Баховский архив и учредили Международный конкурс имени Баха. В 1956 г. открылся Центральный стадион.",
+   "historical_summary_en": "In 1950 the Bach Archive was founded in Leipzig and the International Bach Competition began. In 1956 the Central Stadium opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "concert_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1950 Bach-Archiv, competition; 1956 Zentralstadion"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1960-opera-house",
+   "title": "Новое оперное здание",
+   "title_en": "New opera house",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1960 г. в Лейпциге построили новое здание оперы; население составляло 589 632 человека.",
+   "historical_summary_en": "In 1960 a new opera house was built in Leipzig, and the population stood at 589,632.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "concert_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1960 opera; population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1965-beat-revolt",
+   "title": "«Бит-восстание»",
+   "title_en": "Leipzig Beat Revolt",
+   "start_date": "1965-10-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "repression",
+   "historical_summary": "31 октября 1965 г. в Лейпциге молодёжь вышла на протест против запрета бит-групп, который был разогнан полицией.",
+   "historical_summary_en": "On 31 October 1965 young people in Leipzig protested against the ban on beat bands, and the protest was broken up by the police.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "music_on_the_radio"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "31.10.1965 Beat Revolt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1968-university-church",
+   "title": "Взрыв Университетской церкви",
+   "title_en": "University Church blown up",
+   "start_date": "1968-05-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "religion",
+   "historical_summary": "30 мая 1968 г. несмотря на протесты была взорвана университетская церковь Святого Павла (Паулинеркирхе); удалось спасти лишь немногие ценности. На её месте в 2017 г. открылся новый Паулинум.",
+   "historical_summary_en": "On 30 May 1968, despite public protests, the University Church of St Paul was blown up and only a few treasures were saved. The new Paulinum opened on its site in 2017.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "church_bells"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "30.05.1968"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "03.12.2017 Paulinum"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-leipzig-1969-s-bahn",
+   "title": "Городская электричка Лейпциг — Галле",
+   "title_en": "Leipzig–Halle S-Bahn",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig",
+    "de-halle"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1969 г. была создана сеть городских электричек S-Bahn между Лейпцигом и Галле.",
+   "historical_summary_en": "In 1969 the Leipzig–Halle S-Bahn was established.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1969"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1976-gruenau",
+   "title": "Строительство Грюнау",
+   "title_en": "Construction of Grünau",
+   "start_date": "1976",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1976 г. началось строительство панельного района Грюнау на западе Лейпцига. В 1999 г. там открылся бассейн «Грюнауэр Велле».",
+   "historical_summary_en": "In 1976 construction began on the prefabricated district of Grünau in western Leipzig. In 1999 the Grünauer Welle swimming pool opened there.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_improvement",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1976 Grünau; 20.03.1999 Grünauer Welle"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-1989-monday-demonstrations",
+   "title": "Понедельничные демонстрации",
+   "title_en": "Monday demonstrations",
+   "start_date": "1989-10-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "political_change",
+   "historical_summary": "4 сентября 1989 г. после молитвы о мире в церкви Святого Николая прошла первая понедельничная демонстрация. 9 октября на улицы вышли более 70 тыс. человек под лозунгом «Мы — народ», 16 октября — более 120 тыс.; последняя демонстрация прошла 12 марта 1990 г.",
+   "historical_summary_en": "On 4 September 1989 the first Monday demonstration took place after the peace prayer in St Nicholas Church. On 9 October more than 70,000 people marched under the slogan 'We are the people', on 16 October more than 120,000, and the last demonstration was held on 12 March 1990.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_demonstration",
+    "candle_in_the_window"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "04.09, 09.10 >70 000, 16.10 >120 000"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "12.03.1990 последняя"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-leipzig-1989-frankfurt-flights",
+   "title": "Авиалиния Франкфурт — Лейпциг",
+   "title_en": "Frankfurt–Leipzig air route",
+   "start_date": "1989-08-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "10 августа 1989 г. Lufthansa открыла первую внутригерманскую авиалинию Франкфурт — Лейпциг. На весенней ярмарке 1990 г. Opel и автозавод в Айзенахе договорились о совместном предприятии.",
+   "historical_summary_en": "On 10 August 1989 Lufthansa opened the first inner-German air route, Frankfurt–Leipzig. At the 1990 spring fair Opel and the Eisenach car works agreed on a joint venture.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fair_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "10.08.1989"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "11.03.1990 Opel/AWE на ярмарке"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-leipzig-1995-population-low",
+   "title": "Сокращение населения в 1990-е",
+   "title_en": "Population decline in the 1990s",
+   "start_date": "1995",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "К 1995 г. население Лейпцига сократилось до 471 409 человек против 589 632 в 1960 г.; в 1996 г. открылась Новая ярмарка на севере города.",
+   "historical_summary_en": "By 1995 Leipzig's population had fallen to 471,409, compared with 589,632 in 1960, and in 1996 the New Trade Fair opened in the north of the city.",
+   "affected_groups": [
+    "all_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "children_moved_west"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "1995 population; 1996 new trade fair"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-2005-bmw-plant",
+   "title": "Завод BMW и логистика",
+   "title_en": "BMW plant and logistics",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2005 г. в Лейпциге построили центральное здание завода BMW, а в 2006 г. начал работать распределительный центр Amazon.",
+   "historical_summary_en": "In 2005 the central building of the BMW plant was constructed in Leipzig, and in 2006 an Amazon distribution centre began operating.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "2005 BMW Central Building; 2006 Amazon"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-2013-city-tunnel",
+   "title": "Городской тоннель Лейпцига",
+   "title_en": "Leipzig City Tunnel",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2013 г. открылся железнодорожный Городской тоннель Лейпцига, а в 2015 г. — скоростная линия Эрфурт — Лейпциг/Галле.",
+   "historical_summary_en": "In 2013 the Leipzig City Tunnel railway opened, followed in 2015 by the Erfurt–Leipzig/Halle high-speed line.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "2013 City Tunnel; 2015 high-speed line"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-2017-population-growth",
+   "title": "Город снова растёт",
+   "title_en": "The city grows again",
+   "start_date": "2017",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "Население Лейпцига выросло с 551 871 в 2014 г. до 590 337 в 2017 г. и 624 689 в 2022 г.",
+   "historical_summary_en": "Leipzig's population grew from 551,871 in 2014 to 590,337 in 2017 and 624,689 in 2022.",
+   "affected_groups": [
+    "young_adults",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "rent_rise"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "population 2014, 2017, 2022"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-leipzig-2020-pandemic-rally",
+   "title": "Митинг против антиковидных мер",
+   "title_en": "Rally against pandemic rules",
+   "start_date": "2020-11-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "category": "public_health",
+   "historical_summary": "7 ноября 2020 г. в Лейпциге прошёл массовый митинг против ограничений, введённых из-за пандемии COVID-19.",
+   "historical_summary_en": "On 7 November 2020 a large rally against the restrictions imposed because of the COVID-19 pandemic took place in Leipzig.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "arguments_at_the_dinner_table"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Leipzig",
+     "accessed": "2026-11-11",
+     "supports": "07.11.2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

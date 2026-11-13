@@ -11,7 +11,7 @@
    "status": "accessed",
    "accessed": "2026-10-29",
    "source_id": "us_nara",
-   "name": "National Archives: Milestone Documents",
+   "name": "National Archives (archives.gov): Milestone Documents и другие страницы",
    "publisher": "U.S. National Archives and Records Administration",
    "url": "https://www.archives.gov/milestone-documents",
    "historical_coverage": {
@@ -25,7 +25,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work); some images third-party",
-   "notes": "Страницы milestone-documents с датами и пересказом законов. Страница Volstead Act (/milestone-documents/volstead-act) — 404; урок /education/lessons/volstead-act дат не содержит."
+   "notes": "Страницы milestone-documents с датами и пересказом законов. Страница Volstead Act (/milestone-documents/volstead-act) — 404; урок /education/lessons/volstead-act дат не содержит. С 13.11.2026 под этим id также цитируются другие страницы archives.gov (исследовательские гиды, блог Prologue) и президентских библиотек NARA.",
+   "source_type": "archive",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -50,7 +61,18 @@
    ],
    "access_method": "website",
    "license": "CC BY-SA 4.0",
-   "notes": "Только вторичный источник, confidence=medium. Использованы Timeline of Detroit, Timeline of Chicago history и др. (WebFetch-резюме страниц)."
+   "notes": "Только вторичный источник, confidence=medium. Использованы Timeline of Detroit, Timeline of Chicago history и др. (WebFetch-резюме страниц).",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -75,7 +97,19 @@
    ],
    "access_method": "website",
    "license": "© Detroit Historical Society; краткий пересказ фактов, тексты не копируются",
-   "notes": "Статьи энциклопедии открываются; страница Timeline of Detroit показывает записи только до 1901 г."
+   "notes": "Статьи энциклопедии открываются; страница Timeline of Detroit показывает записи только до 1901 г. Тип museum: Detroit Historical Society — некоммерческая организация, управляющая городскими музеями Детройта (Detroit Historical Museum, Dossin) по соглашению с городом; Encyclopedia of Detroit — публикация музея.",
+   "source_type": "museum",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-detroit",
+    "us-mi-wayne"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -100,7 +134,18 @@
    ],
    "access_method": "not_accessible",
    "license": "© Chicago Historical Society",
-   "notes": "2026-10-29: соединение отклонено (ECONNREFUSED) для http и https; хронология pages/2427.html не получена."
+   "notes": "2026-10-29: соединение отклонено (ECONNREFUSED) для http и https; хронология pages/2427.html не получена.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-chicago"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -125,7 +170,18 @@
    ],
    "access_method": "website",
    "license": "Federal Reserve History terms; краткий пересказ",
-   "notes": "Эссе о крахе 1929, Великой депрессии, Великой рецессии."
+   "notes": "Эссе о крахе 1929, Великой депрессии, Великой рецессии. Тип government: сайт ведёт Федеральная резервная система (официальная публикация ФРС).",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -150,7 +206,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work)",
-   "notes": "Страница о пандемии 1918 на cdc.gov даёт 404; использована архивная копия archive.cdc.gov."
+   "notes": "Страница о пандемии 1918 на cdc.gov даёт 404; использована архивная копия archive.cdc.gov.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -175,7 +242,18 @@
    ],
    "access_method": "website",
    "license": "Тексты решений Верховного суда — public domain",
-   "notes": "Тексты решений Верховного суда США. Oyez (oyez.org) отдаёт шаблон без контента — не используется."
+   "notes": "Тексты решений Верховного суда США. Oyez (oyez.org) отдаёт шаблон без контента — не используется.",
+   "source_type": "academic",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -201,7 +279,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work)",
-   "notes": "The Economics Daily и др. Страница DOL об истории FLSA (/agencies/whd/minimum-wage/history/flsa) — 404."
+   "notes": "The Economics Daily и др. Страница DOL об истории FLSA (/agencies/whd/minimum-wage/history/flsa) — 404.",
+   "source_type": "statistics",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -226,7 +315,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work)",
-   "notes": "PDF fda.gov/media/110456 (Junod, 1998) о Эновиде: подача на одобрение как контрацептива в 1960 г.; точная дата одобрения на странице не указана."
+   "notes": "PDF fda.gov/media/110456 (Junod, 1998) о Эновиде: подача на одобрение как контрацептива в 1960 г.; точная дата одобрения на странице не указана.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -251,7 +351,18 @@
    ],
    "access_method": "website",
    "license": "© Cornell University; первичные документы частично public domain",
-   "notes": "Использована страница story/fire.html."
+   "notes": "Использована страница story/fire.html.",
+   "source_type": "academic",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -276,17 +387,28 @@
    ],
    "access_method": "website",
    "license": "© 9/11 Memorial & Museum",
-   "notes": "FAQ с числом погибших."
+   "notes": "FAQ с числом погибших.",
+   "source_type": "museum",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
    "bulk_download": false,
    "attribution_required": true,
    "access_restrictions": [],
-   "status": "catalogued",
-   "accessed": "2026-10-29",
+   "status": "accessed",
+   "accessed": "2026-11-13",
    "source_id": "us_nyc_gov",
-   "name": "NYC Department of Records & Information Services",
+   "name": "City of New York (nyc.gov): DORIS, Department of City Planning",
    "publisher": "City of New York",
    "url": "https://www.nyc.gov/site/records/index.page",
    "historical_coverage": {
@@ -301,7 +423,18 @@
    ],
    "access_method": "website",
    "license": "NYC.gov terms of use",
-   "notes": "Страница истории /site/records/about/history.page вернула 404; данные не извлекались."
+   "notes": "Страница истории /site/records/about/history.page вернула 404; данные не извлекались. 13.11.2026: использован PDF Департамента городского планирования (city-planning-history/midtown_zoning.pdf) о постановлении 1916 г.; страница planning/zoning/background.page — 404.",
+   "source_type": "municipal",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-new-york-city"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -326,7 +459,19 @@
    ],
    "access_method": "website",
    "license": "© Marietta Times; только пересказ",
-   "notes": "Статья 2023 г. к годовщине наводнения 1913 г. с фото Marietta College Legacy Library; вторичный местный источник."
+   "notes": "Статья 2023 г. к годовщине наводнения 1913 г. с фото Marietta College Legacy Library; вторичный местный источник.",
+   "source_type": "newspaper",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-marietta",
+    "us-oh-washington"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -352,7 +497,18 @@
    ],
    "access_method": "website",
    "license": "© Elizabethtown College; статистика с атрибуцией",
-   "notes": "Таблица крупнейших поселений 2024."
+   "notes": "Таблица крупнейших поселений 2024.",
+   "source_type": "academic",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -377,7 +533,18 @@
    ],
    "access_method": "not_accessible",
    "license": "© Ohio History Connection",
-   "notes": "ohiomemory.ohiohistory.org/archives/249 — 403; ohiohistorycentral.org/w/Great_Flood_of_1913 и /w/Marietta,_Ohio — 404."
+   "notes": "ohiomemory.ohiohistory.org/archives/249 — 403; ohiohistorycentral.org/w/Great_Flood_of_1913 и /w/Marietta,_Ohio — 404.",
+   "source_type": "museum",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-oh"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -402,7 +569,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work)",
-   "notes": "Страница о наводнении 1937 г. на Огайо; Мариетта там не упомянута, поэтому городская запись не создана."
+   "notes": "Страница о наводнении 1937 г. на Огайо; Мариетта там не упомянута, поэтому городская запись не создана.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -428,7 +606,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work)",
-   "notes": "Страница об иммиграционном законе 1965 г. (/milestones/1961-1968/immigration-act) — 404."
+   "notes": "Страница об иммиграционном законе 1965 г. (/milestones/1961-1968/immigration-act) — 404.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -454,7 +643,18 @@
    ],
    "access_method": "website",
    "license": "Public domain (U.S. federal government work)",
-   "notes": "Тексты Equal Pay Act 1963 и Pregnancy Discrimination Act 1978."
+   "notes": "Тексты Equal Pay Act 1963 и Pregnancy Discrimination Act 1978.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -479,7 +679,18 @@
    ],
    "access_method": "not_accessible",
    "license": "Public domain",
-   "notes": "ssa.gov/history/1stcheck.html вернул 403."
+   "notes": "ssa.gov/history/1stcheck.html вернул 403.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "country": "US",
@@ -504,7 +715,18 @@
    ],
    "access_method": "website",
    "license": "Public domain",
-   "notes": "Страница FMLA открылась, но без даты принятия закона; страницы истории FLSA и Title IX — 404. В записях не используется."
+   "notes": "Страница FMLA открылась, но без даты принятия закона; страницы истории FLSA и Title IX — 404. В записях не используется.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_census",
@@ -530,7 +752,18 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Historical Census of Housing Tables (homeownership, plumbing — .txt на www2.census.gov); POP-WP027 (Gibson 1998) — население 100 крупнейших городов 1790–1990. Таблицы heating/fuels по угаданным URL не найдены."
+   "notes": "Historical Census of Housing Tables (homeownership, plumbing — .txt на www2.census.gov); POP-WP027 (Gibson 1998) — население 100 крупнейших городов 1790–1990. Таблицы heating/fuels по угаданным URL не найдены.",
+   "source_type": "statistics",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_nasa",
@@ -555,7 +788,18 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Apollo 11 mission overview."
+   "notes": "Apollo 11 mission overview.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_britannica",
@@ -582,7 +826,18 @@
    ],
    "status": "inaccessible",
    "accessed": "2026-10-29",
-   "notes": "Все запрошенные статьи (Prohibition, ECOA, ADA, FMLA, ACA, no-fault divorce) вернули 403."
+   "notes": "Все запрошенные статьи (Prohibition, ECOA, ADA, FMLA, ACA, no-fault divorce) вернули 403.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_loc",
@@ -608,7 +863,18 @@
    "access_restrictions": [],
    "status": "catalogued",
    "accessed": "2026-10-29",
-   "notes": "Не использовался для записей: газетные полосы дают дату публикации, а не события; ограниченный бюджет сессии ушёл на справочные страницы."
+   "notes": "Не использовался для записей: газетные полосы дают дату публикации, а не события; ограниченный бюджет сессии ушёл на справочные страницы.",
+   "source_type": "library",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_ipums",
@@ -635,7 +901,18 @@
    ],
    "status": "catalogued",
    "accessed": "2026-10-29",
-   "notes": "Не использовался: регистрация не выполнялась."
+   "notes": "Не использовался: регистрация не выполнялась.",
+   "source_type": "academic",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_smithsonian",
@@ -660,7 +937,18 @@
    "access_restrictions": [],
    "status": "catalogued",
    "accessed": "2026-10-29",
-   "notes": "Не использовался в этой сессии; кандидат для артефактов (билеты, бытовые предметы)."
+   "notes": "Не использовался в этой сессии; кандидат для артефактов (билеты, бытовые предметы).",
+   "source_type": "museum",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_ford",
@@ -685,7 +973,18 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Статья о движущемся конвейере (цены Model T, время сборки)."
+   "notes": "Статья о движущемся конвейере (цены Model T, время сборки).",
+   "source_type": "other",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_connected_world",
@@ -710,7 +1009,18 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Популярная статья о Holmes County Trail; слабый источник, использован с confidence low/medium."
+   "notes": "Популярная статья о Holmes County Trail; слабый источник, использован с confidence low/medium.",
+   "source_type": "other",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_west2k_stations",
@@ -735,7 +1045,18 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Любительская база станций с ссылками на оценочные записи PRR и газеты; вторичный."
+   "notes": "Любительская база станций с ссылками на оценочные записи PRR и газеты; вторичный.",
+   "source_type": "other",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us-oh-holmes"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   },
   {
    "source_id": "us_nces",
@@ -760,7 +1081,314 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Таблица 104.10 (2022)."
+   "notes": "Таблица 104.10 (2022).",
+   "source_type": "statistics",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "source_id": "us_presidency_project",
+   "name": "The American Presidency Project",
+   "publisher": "University of California, Santa Barbara",
+   "url": "https://www.presidency.ucsb.edu/",
+   "historical_coverage": {
+    "from": 1789,
+    "to": 2025
+   },
+   "categories": [
+    "law",
+    "politics",
+    "social_policy"
+   ],
+   "access_method": "website",
+   "license": "Тексты президентских документов — общественное достояние; оформление и примечания — UCSB, ссылка с атрибуцией",
+   "notes": "Университетский архив президентских документов: заявления и речи при подписании законов с датой и номером публичного закона. Использованы только как ссылка-доказательство даты и содержания закона.",
+   "source_type": "academic",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_nsf",
+   "name": "National Science Foundation: NSF Impacts",
+   "publisher": "U.S. National Science Foundation",
+   "url": "https://www.nsf.gov/impacts",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "categories": [
+    "technology"
+   ],
+   "notes": "Страница о рождении коммерческого интернета (закрытие NSFNET в 1995 г.; день не указан).",
+   "source_type": "government"
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "license": "Public domain (U.S. federal government work)",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "us"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_ntia",
+   "name": "NTIA press releases",
+   "publisher": "National Telecommunications and Information Administration, U.S. Department of Commerce",
+   "url": "https://www.ntia.gov/",
+   "historical_coverage": {
+    "from": 1978,
+    "to": 2025
+   },
+   "categories": [
+    "technology",
+    "consumer_life"
+   ],
+   "notes": "Пресс-релизы о переходе на цифровое телевидение 2009 г. и программе купонов.",
+   "source_type": "government"
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_kent_state",
+   "name": "Kent State University: May 4 history",
+   "publisher": "Kent State University (государственный университет штата Огайо)",
+   "url": "https://www.kent.edu/may4",
+   "historical_coverage": {
+    "from": 1970,
+    "to": 1970
+   },
+   "categories": [
+    "politics",
+    "education"
+   ],
+   "license": "© Kent State University; только ссылка и собственный пересказ",
+   "notes": "Страница о точности исторических сведений о 4 мая 1970 г.",
+   "source_type": "academic",
+   "location_ids": [
+    "us-oh"
+   ]
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_mackinac_bridge",
+   "name": "Mackinac Bridge Authority",
+   "publisher": "Mackinac Bridge Authority (агентство штата Мичиган)",
+   "url": "https://www.mackinacbridge.org/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "categories": [
+    "infrastructure"
+   ],
+   "license": "Сайт агентства штата; только ссылка и собственный пересказ",
+   "notes": "Раздел FAQ по истории моста; страница history-of-the-bridge — 404.",
+   "source_type": "government",
+   "location_ids": [
+    "us-mi"
+   ]
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_panynj",
+   "name": "Port Authority of New York and New Jersey (сайт и официальный блог)",
+   "publisher": "Port Authority of New York and New Jersey (двухштатное государственное агентство)",
+   "url": "https://www.panynj.gov/",
+   "historical_coverage": {
+    "from": 1921,
+    "to": 2025
+   },
+   "categories": [
+    "infrastructure",
+    "transport"
+   ],
+   "license": "Сайт государственного агентства; только ссылка и собственный пересказ",
+   "notes": "Официальный блог portfolio.panynj.gov с историческими заметками о тоннеле Холланд и автовокзале; страницы history.html на panynj.gov отдают только заголовок (рендерятся скриптом).",
+   "source_type": "government",
+   "location_ids": [
+    "us-new-york-city"
+   ]
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_reuther",
+   "name": "Walter P. Reuther Library of Labor and Urban Affairs",
+   "publisher": "Wayne State University (Детройт)",
+   "url": "https://reuther.wayne.edu/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "categories": [
+    "labor",
+    "municipal_history"
+   ],
+   "license": "Описания фондов; права на материалы — по условиям библиотеки, только ссылка и собственный пересказ",
+   "notes": "Архив труда и городской истории при государственном университете; использованы описания фондов (даты событий).",
+   "source_type": "archive",
+   "location_ids": [
+    "us-detroit",
+    "us-mi"
+   ]
+  },
+  {
+   "country": "US",
+   "geographic_coverage": [
+    "US"
+   ],
+   "bulk_download": false,
+   "attribution_required": false,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "access_method": "website",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "us_flychicago",
+   "name": "Chicago Department of Aviation: история аэропортов О’Хара и Мидуэй",
+   "publisher": "City of Chicago, Department of Aviation",
+   "url": "https://www.flychicago.com/business/CDA/Pages/default.aspx",
+   "historical_coverage": {
+    "from": 1926,
+    "to": 2025
+   },
+   "categories": [
+    "infrastructure",
+    "transport"
+   ],
+   "license": "Сайт городского департамента; только ссылка и собственный пересказ",
+   "notes": "Страницы-хронологии O'Hare History и Midway History & Milestones.",
+   "source_type": "municipal",
+   "location_ids": [
+    "us-chicago"
+   ]
   }
  ]
 }

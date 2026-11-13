@@ -1,0 +1,788 @@
+{
+ "records": [
+  {
+   "id": "tr-gaziantep-1901-tahmis-fire",
+   "title": "Пожары кофейни Тахмис",
+   "title_en": "Fires at the Tahmis coffee house",
+   "start_date": "1901",
+   "end_date": "1903",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "disaster",
+   "historical_summary": "В 1901 и 1903 гг. в Антепе сильно пострадала от пожаров старинная кофейня Тахмис, построенная в 1635–1638 гг.",
+   "historical_summary_en": "In 1901 and 1903 the historic Tahmis coffee house in Aintab, built in 1635–1638, was badly damaged by fires.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1901 и 1903 пожары; 1635–1638 постройка"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-1908-sanjak",
+   "title": "Антеп становится санджаком",
+   "title_en": "Aintab becomes a sanjak",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "С 1908 г. Антеп стал центром санджака в Алеппском вилайете; до этого он был казой того же вилайета.",
+   "historical_summary_en": "From 1908 Aintab was the centre of a sanjak in the Aleppo vilayet; before that it had been a kaza of the same vilayet.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1908–1918 санджак; 1818–1908 каза"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-1915-armenian-deportations",
+   "title": "Депортация армян Антепа",
+   "title_en": "Deportation of Aintab's Armenians",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "repression",
+   "historical_summary": "Население Антепа в 1914 г. оценивалось примерно в 80 тыс. человек; в ходе депортаций 1915 г. армяне города были высланы.",
+   "historical_summary_en": "Aintab's population in 1914 was estimated at about 80,000; during the deportations of 1915 the city's Armenians were expelled.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1914 ~80 000 до депортации армян"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-1918-british-occupation",
+   "title": "Британская, затем французская оккупация",
+   "title_en": "British, then French occupation",
+   "start_date": "1918-12-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "occupation",
+   "historical_summary": "17 декабря 1918 г. Антеп заняли британские войска; 5 ноября 1919 г. контроль перешёл к Франции.",
+   "historical_summary_en": "On 17 December 1918 British troops occupied Aintab; on 5 November 1919 control passed to France.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "17.12.1918; 5.11.1919"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-1920-siege",
+   "title": "Осада Антепа",
+   "title_en": "Siege of Aintab",
+   "start_date": "1920-04",
+   "end_date": "1921-02",
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "С апреля 1920 г. отряды национального движения около десяти месяцев осаждали занятый французами Антеп; осада закончилась победой французов, погибли около 6 тыс. турецких жителей.",
+   "historical_summary_en": "From April 1920 national-movement irregulars besieged French-held Aintab for about ten months; the siege ended in a French victory, and about 6,000 Turkish civilians were killed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "апрель 1920, ~10 месяцев, ~6 000 погибших"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103931/1920.html",
+     "accessed": "2026-11-12",
+     "supports": "01.04.1920 начало боёв в Антепе; сдача 09.02.1921 (страница 1921)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-1921-gazi-title",
+   "title": "Городу присвоено звание «Гази»",
+   "title_en": "City given the title 'Gazi'",
+   "start_date": "1921-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "political_change",
+   "historical_summary": "В феврале 1921 г. Великое национальное собрание присвоило городу почётное звание «Гази» за сопротивление во время осады; официальное название стало Gazi Ayıntap, а с 1928 г. — Gaziantep.",
+   "historical_summary_en": "In February 1921 the Grand National Assembly gave the city the honorary title 'Gazi' for its resistance during the siege; its official name became Gazi Ayıntap, and from 1928 Gaziantep.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "февраль 1921 Gazi; Gazi Ayıntap; 1928 Gaziantep"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103932/1921.html",
+     "accessed": "2026-11-12",
+     "supports": "08.02.1921 ВНСТ присвоило Антепу звание «Гази»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-1921-french-withdrawal",
+   "title": "Уход французских войск",
+   "title_en": "French troops withdraw",
+   "start_date": "1921-12-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "occupation",
+   "historical_summary": "После Анкарского договора французы 25 декабря 1921 г. покинули город.",
+   "historical_summary_en": "Following the Treaty of Ankara, the French left the city on 25 December 1921.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "25.12.1921 эвакуация"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103932/1921.html",
+     "accessed": "2026-11-12",
+     "supports": "20.10.1921 Анкарский договор с Францией; 25.12.1921 освобождение Газиантепа"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-1927-census",
+   "title": "Газиантеп в переписи 1927 года",
+   "title_en": "Gaziantep in the 1927 census",
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "Перепись 1927 г. насчитала в городе 40 004 жителя, 95,7% из которых говорили по-турецки.",
+   "historical_summary_en": "The 1927 census counted 40,004 inhabitants in the city, 95.7% of them Turkish speakers.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1927: 40 004; 95,7%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-1938-jansen-plan",
+   "title": "Генеральный план Янсена",
+   "title_en": "Jansen city plan",
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1938 г. для Газиантепа был составлен план Германа Янсена — первый масштабный генеральный план города с железнодорожной веткой и зелёным поясом; в 1955 г. последовал план Ару и Сёйлемезоглу.",
+   "historical_summary_en": "In 1938 Hermann Jansen's plan was drawn up for Gaziantep, the city's first large-scale master plan, with a rail link and a green belt; the Aru–Söylemezoğlu plan followed in 1955.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1938 Jansen; 1955 Aru-Söylemezoğlu"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/en/download/article-file/3436459",
+     "accessed": "2026-11-12",
+     "supports": "Gümüşhane Üniversitesi Fen Bilimleri Dergisi 14(2), 2024 (автор — Газиантепский университет): план Германа Янсена для Газиантепа завершён и введён в 1938 г.; план Аru–Söylemezoğlu 1950-х"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-1969-organized-industrial-zone",
+   "title": "Организованная промышленная зона",
+   "title_en": "Organised Industrial Zone",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1969 г. в Газиантепе была создана одна из первых в Турции организованных промышленных зон; в 1970-е годы город пережил самый сильный приток переселенцев.",
+   "historical_summary_en": "In 1969 one of Turkey's first organised industrial zones was created in Gaziantep; in the 1970s the city saw its highest wave of in-migration.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1969 OSB; 1970-е — пик иммиграции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-1973-metu-campus",
+   "title": "Филиал ODTÜ — начало высшего образования",
+   "title_en": "METU branch campus brings higher education",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "education",
+   "historical_summary": "В 1973 г. в Газиантепе открылся филиал Ближневосточного технического университета — начало высшего образования в городе; в 1987 г. Университет Газиантепа стал самостоятельным государственным университетом.",
+   "historical_summary_en": "In 1973 a branch campus of the Middle East Technical University opened in Gaziantep, the start of higher education in the city; in 1987 Gaziantep University became an independent state university.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "1973 ODTÜ; 1987 Gaziantep Üniversitesi"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2809.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 2809, доп. ст. 2 (закон 3389 от 18.06.1987): Газиантепский университет создан на базе Газиантепского инженерного факультета ODTÜ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-2000-pistachio-gi",
+   "title": "«Антепская фисташка» — географическое указание",
+   "title_en": "'Antep pistachio' geographical indication",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2000 г. «Antep fıstığı» была зарегистрирована как охраняемое географическое указание; в 2007 г. урожай фисташки достиг 60 тыс. т.",
+   "historical_summary_en": "In 2000 'Antep fıstığı' was registered as a protected geographical indication; in 2007 the pistachio harvest reached 60,000 tonnes.",
+   "affected_groups": [
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "pistachio_harvest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_turkpatent_ci"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "2000 ГУ; 2007 60 000 т"
+    },
+    {
+     "source_id": "tr_turkpatent_ci",
+     "url": "https://ci.turkpatent.gov.tr/Files/GeographicalSigns/70e223ee-1f5f-49ff-823e-bb7ddeb85155.pdf",
+     "accessed": "2026-11-12",
+     "supports": "«Antep Fıstığı» — наименование места происхождения № 27, объявлено в Resmî Gazete 22.04.2000, регистрация 17.05.2000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-2009-sanko-park",
+   "title": "Торговый центр Sanko Park",
+   "title_en": "Sanko Park shopping centre",
+   "start_date": "2009",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "В 2009 г. открылся Sanko Park — крупнейший крытый торговый центр города и региона.",
+   "historical_summary_en": "In 2009 Sanko Park opened, the largest enclosed shopping centre in the city and the region.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shopping_mall_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "2009"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-2011-tram",
+   "title": "Газиантепский трамвай",
+   "title_en": "Gaziantep tram",
+   "start_date": "2011",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2011 г. в Газиантепе открылся трамвай, продлённый в 2012 и 2014 гг.",
+   "historical_summary_en": "In 2011 the Gaziantep tram opened; it was extended in 2012 and 2014.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_gaziantep_bb"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "2011; 2012; 2014"
+    },
+    {
+     "source_id": "tr_gaziantep_bb",
+     "url": "https://gaziantep.bel.tr/tr/haberler/gaziantep-buyuksehirin-ulasimi-rahatlatma-calismalari",
+     "accessed": "2026-11-12",
+     "supports": "трамвайная линия введена в марте 2011 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-2011-zeugma-museum",
+   "title": "Музей мозаики Зевгмы",
+   "title_en": "Zeugma Mosaic Museum",
+   "start_date": "2011-09-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "9 сентября 2011 г. открылся Музей мозаики Зевгмы.",
+   "historical_summary_en": "On 9 September 2011 the Zeugma Mosaic Museum opened.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_muze_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "9.09.2011"
+    },
+    {
+     "source_id": "tr_muze_gov",
+     "url": "https://muze.gov.tr/muze-detay?SectionId=GZN01&DistId=GZN",
+     "accessed": "2026-11-12",
+     "supports": "Музей мозаики Зевгмы открыт в 2011 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-2011-syrian-refugees",
+   "title": "Сирийские беженцы в Газиантепе",
+   "title_en": "Syrian refugees in Gaziantep",
+   "start_date": "2011",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "migration",
+   "historical_summary": "С 2011 г. из-за гражданской войны в Сирии в Газиантеп прибыли около 470 тыс. беженцев, ставших более чем пятой частью населения города.",
+   "historical_summary_en": "From 2011 the Syrian civil war brought about 470,000 refugees to Gaziantep, more than a fifth of the city's population.",
+   "affected_groups": [
+    "migrants",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "new_neighbours_from_afar"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "с 2011 ~470 000; >20%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-gaziantep-2013-baklava-pgi",
+   "title": "Газиантепская пахлава — защищённое наименование ЕС",
+   "title_en": "Gaziantep baklava gains EU protection",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2013 г. газиантепская пахлава стала первым турецким продуктом с защищённым географическим указанием в Европейском союзе; в 2015 г. Газиантеп стал первым в Турции городом гастрономии ЮНЕСКО.",
+   "historical_summary_en": "In 2013 Gaziantep baklava became the first Turkish product with a protected geographical indication in the European Union; in 2015 Gaziantep became Turkey's first UNESCO City of Gastronomy.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_baklava_shop"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_turkpatent_ci"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "2013 ЕС; 2015 ЮНЕСКО"
+    },
+    {
+     "source_id": "tr_turkpatent_ci",
+     "url": "https://ci.turkpatent.gov.tr/sayfa/ab-taraf%C4%B1ndan-korunan-t%C3%BCrkiyenin-co%C4%9Frafi-i%C5%9Faretleri",
+     "accessed": "2026-11-12",
+     "supports": "Antep/Gaziantep Baklavası — PGI ЕС: заявка 10.07.2009, регистрация 21.12.2013 (самая ранняя заявка в списке)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-gaziantep-2023-earthquake",
+   "title": "Землетрясения 6 февраля 2023 года в Газиантепе",
+   "title_en": "Earthquakes of 6 February 2023 in Gaziantep",
+   "start_date": "2023-02-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "category": "disaster",
+   "historical_summary": "При землетрясениях 6 февраля 2023 г. в Газиантепе обрушились около 900 зданий, а 10 777 были сильно повреждены и подлежали сносу; пострадали крепость, мечеть Ширвани и мечеть Освобождения.",
+   "historical_summary_en": "In the earthquakes of 6 February 2023 about 900 buildings collapsed in Gaziantep and 10,777 were heavily damaged and slated for demolition; the castle, the Şirvani Mosque and the Liberation Mosque were damaged.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "night_of_the_earthquake",
+    "sleeping_in_the_car"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaziantep",
+     "accessed": "2026-11-11",
+     "supports": "6.02.2023: ~900 рухнули, 10 777 к сносу; памятники"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

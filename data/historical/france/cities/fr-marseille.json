@@ -214,7 +214,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -222,10 +223,16 @@
      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "rafles 22-23 janvier; 30 000 expulsés 24 janvier; 1 500 immeubles 1-18 février"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/sudorama/fiche-media/00000000065/la-demolition-du-quartier-du-vieux-port.html",
+     "accessed": "2026-11-13",
+     "supports": "Rafles à partir du 22 janvier 1943, évacuation le 24 janvier, dynamitage du quartier du Vieux-Port du 1er au 17 février 1943"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-marseille-1944-allied-bombing",
@@ -250,7 +257,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -258,10 +266,16 @@
      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "27 mai 1944, 2 000 à 3 000 morts, 6 000 blessés"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/reperes-mediterraneens/parcours/0003/la-provence-dans-la-guerre-1939-1945.html",
+     "accessed": "2026-11-13",
+     "supports": "Bombardement allié de Marseille le 27 mai 1944: environ 1 200 immeubles détruits, près de 2 000 morts"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-marseille-1944-liberation",
@@ -288,7 +302,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -302,10 +317,16 @@
      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "21-29 août 1944"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/sudorama/fiche-media/00000000063/le-defile-des-troupes-coloniales-dans-marseille-liberee-muet.html",
+     "accessed": "2026-11-13",
+     "supports": "Combats de la Résistance à Marseille à partir du 21 août 1944, capitulation allemande le 28 août, défilé le 29 août"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-marseille-1947-vieux-port-reconstruction",
@@ -368,7 +389,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -376,10 +398,16 @@
      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "Unité d'habitation 1947-1952"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/sudorama/fiche-media/00000000031/inauguration-de-la-cite-radieuse-a-marseille.html",
+     "accessed": "2026-11-13",
+     "supports": "Cité radieuse de Le Corbusier commandée en 1946, achevée et inaugurée en juillet 1952"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-marseille-1962-pieds-noirs-arrival",
@@ -407,7 +435,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -415,10 +444,16 @@
      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "1962 des dizaines de milliers de Pieds-Noirs"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/sudorama/fiche-media/00000000022/marseille-quartier-general-des-rapatries.html",
+     "accessed": "2026-11-13",
+     "supports": "Marseille, principal port d'arrivée des rapatriés d'Algérie en 1962 (environ 200 000 en juin)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-marseille-1973-racist-violence",
@@ -480,7 +515,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -488,10 +524,16 @@
      "url": "https://fr.wikipedia.org/wiki/Histoire_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "2013 capitale européenne de la culture; Euroméditerranée années 1990"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/sudorama/fiche-media/00000000419/marseille-provence-2013-retour-sur-la-soiree-d-ouverture.html",
+     "accessed": "2026-11-13",
+     "supports": "Lancement de Marseille-Provence 2013 le 12 janvier 2013"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-marseille-1977-metro",
@@ -518,7 +560,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -526,10 +569,16 @@
      "url": "https://fr.wikipedia.org/wiki/M%C3%A9tro_de_Marseille",
      "accessed": "2026-10-29",
      "supports": "ligne 1 26 novembre 1977; ligne 2 3 mars 1984"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/sudorama/fiche-media/00000000237/inauguration-du-metro-de-marseille.html",
+     "accessed": "2026-11-13",
+     "supports": "Inauguration du métro de Marseille le 26 novembre 1977 par Gaston Defferre, ligne Castellane – La Rose"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

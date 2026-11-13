@@ -1,0 +1,1603 @@
+{
+ "records": [
+  {
+   "id": "de-berlin-1902-u-bahn-opens",
+   "title": "Открытие берлинского метро",
+   "title_en": "Berlin U-Bahn opens",
+   "start_date": "1902-02-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "15 февраля 1902 г. в Берлине начало работать метро (U-Bahn); в течение года открылись станции у Халлешес-Тор, Потсдамер-плац и Ноллендорфплац.",
+   "historical_summary_en": "On 15 February 1902 the Berlin U-Bahn began operating, and stations at Hallesches Tor, Potsdamer Platz and Nollendorfplatz opened during the year.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "15.02.1902 U-Bahn; 18.02, 11.03.1902 станции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1907-kadewe",
+   "title": "Открытие универмага KaDeWe",
+   "title_en": "KaDeWe department store opens",
+   "start_date": "1907-03-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "27 марта 1907 г. в западной части Берлина открылся универмаг «Кауфхаус дес Вестенс» (KaDeWe).",
+   "historical_summary_en": "On 27 March 1907 the Kaufhaus des Westens (KaDeWe) department store opened in the west of Berlin.",
+   "affected_groups": [
+    "consumers",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "window_shopping"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "27.03.1907 KaDeWe"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1910-last-horse-tram",
+   "title": "Последняя конка",
+   "title_en": "Last horse-drawn tram",
+   "start_date": "1910-08-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "7 августа 1910 г. в Берлине закрылась последняя линия конки. По переписи 1 декабря 1910 г. в городе жили 2 071 257 человек.",
+   "historical_summary_en": "On 7 August 1910 the last horse-drawn tram line in Berlin closed. The census of 1 December 1910 counted 2,071,257 inhabitants.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "07.08.1910; население 01.12.1910"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1916-butter-rationing",
+   "title": "Масло по карточкам в Большом Берлине",
+   "title_en": "Butter rationing in Greater Berlin",
+   "start_date": "1916-03-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "12 марта 1916 г. в Большом Берлине масло стали выдавать по норме: 125 г в неделю взрослым и 62,5 г детям до 14 лет. 10 июля в одном из рынков открылась огромная кухня, рассчитанная на горячие обеды для 30 тыс. человек в день.",
+   "historical_summary_en": "On 12 March 1916 butter was rationed in Greater Berlin at 125 g a week for adults and 62.5 g for children under 14. On 10 July a huge kitchen opened in a market hall to serve hot meals to up to 30,000 people a day.",
+   "affected_groups": [
+    "homemakers",
+    "children"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "ration_cards",
+    "soup_kitchen"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "12.3.1916 масло; 10.7.1916 кухня на 30 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1920-greater-berlin",
+   "title": "Закон о Большом Берлине",
+   "title_en": "Greater Berlin Act",
+   "start_date": "1920-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "1 октября 1920 г. закон о Большом Берлине присоединил к столице Шарлоттенбург, Кёпеник, Лихтенберг, Нойкёльн, Шёнеберг, Шпандау, Вильмерсдорф и десятки общин. К концу 1920 г. население достигло 3 879 409 человек.",
+   "historical_summary_en": "On 1 October 1920 the Greater Berlin Act joined Charlottenburg, Köpenick, Lichtenberg, Neukölln, Schöneberg, Spandau, Wilmersdorf and dozens of communities to the capital. By the end of 1920 the population had reached 3,879,409.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "01.10.1920 Groß-Berlin-Gesetz; 31.12.1920 население"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1923-tempelhof-airport",
+   "title": "Аэропорт Темпельхоф",
+   "title_en": "Tempelhof Airport opens",
+   "start_date": "1923-10-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "8 октября 1923 г. открылся новый берлинский аэропорт Темпельхоф; здание терминала построили в 1927 г.",
+   "historical_summary_en": "On 8 October 1923 Berlin's new Tempelhof Airport opened, and a terminal building was built in 1927.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1923",
+     "accessed": "2026-11-11",
+     "supports": "08.10.1923 Tempelhof"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "08.10.1923; 1927 терминал"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1925-hufeisensiedlung",
+   "title": "Строительство «Подковы» в Бритце",
+   "title_en": "Horseshoe Estate construction begins",
+   "start_date": "1925",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1925 г. началось строительство жилого посёлка «Подкова» (Hufeisensiedlung); в 1931 г. был построен большой посёлок Сименсштадт. Эти кварталы давали рабочим семьям светлые квартиры с удобствами.",
+   "historical_summary_en": "In 1925 construction of the Horseshoe Estate (Hufeisensiedlung) began, and the large Siemensstadt estate was built in 1931. These estates offered working families bright flats with modern amenities.",
+   "affected_groups": [
+    "tenants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "1925 Hufeisensiedlung; 1931 Großsiedlung Siemensstadt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1926-radio-tower",
+   "title": "Радиобашня Функтурм",
+   "title_en": "Funkturm radio tower",
+   "start_date": "1926-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "media_communication",
+   "historical_summary": "3 сентября 1926 г. в Берлине была возведена радиобашня Функтурм; в 1928 г. в городе прошла первая телевизионная трансляция.",
+   "historical_summary_en": "On 3 September 1926 the Funkturm radio tower was erected in Berlin, and in 1928 the first television broadcast took place in the city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_radio_in_the_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "03.09.1926 Funkturm; 1928 первая ТВ-трансляция"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1932-transport-strike",
+   "title": "Забастовка транспортников",
+   "title_en": "Berlin transport strike",
+   "start_date": "1932-11-03",
+   "end_date": "1932-11-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "labor",
+   "historical_summary": "С 3 по 7 ноября 1932 г. в Берлине бастовали работники городского транспорта.",
+   "historical_summary_en": "From 3 to 7 November 1932 Berlin's public transport workers were on strike.",
+   "affected_groups": [
+    "commuters",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "3–7.11.1932"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1936-olympics",
+   "title": "Олимпийские игры в Берлине",
+   "title_en": "Berlin Olympic Games",
+   "start_date": "1936-08-01",
+   "end_date": "1936-08-16",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "sport",
+   "historical_summary": "С 1 по 16 августа 1936 г. в Берлине прошли летние Олимпийские игры; незадолго до этого, 28 мая, открылся тоннель городской электрички «Север — Юг».",
+   "historical_summary_en": "From 1 to 16 August 1936 Berlin hosted the Summer Olympic Games, and shortly before, on 28 May, the North–South S-Bahn tunnel had opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "1–16.08.1936; 28.05.1936 Nord-Süd-Tunnel"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1943-battle-of-berlin-raids",
+   "title": "Массированные бомбардировки Берлина",
+   "title_en": "Heavy bombing of Berlin",
+   "start_date": "1943-11-18",
+   "end_date": "1944-03-31",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "Бомбардировки Берлина начались 25 августа 1940 г.; с 18 ноября 1943 г. по 31 марта 1944 г. британская авиация вела против города массированную кампанию.",
+   "historical_summary_en": "The bombing of Berlin began on 25 August 1940, and from 18 November 1943 to 31 March 1944 the RAF waged a massive campaign against the city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "25.08.1940; 18.11.1943–31.03.1944"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1945-battle-and-population",
+   "title": "Битва за Берлин",
+   "title_en": "Battle of Berlin",
+   "start_date": "1945-04-16",
+   "end_date": "1945-05-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "С 16 апреля по 2 мая 1945 г. шла битва за Берлин. В августе 1945 г. в городе оставалось 2 807 405 жителей вместо 4,36 млн в конце 1944 г.",
+   "historical_summary_en": "The Battle of Berlin was fought from 16 April to 2 May 1945. In August 1945 the city had 2,807,405 inhabitants, compared with 4.36 million at the end of 1944.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "end_of_war_day"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "16.04–02.05.1945; 12.08.1945 2 807 405"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1945-four-sectors",
+   "title": "Город делится на четыре сектора",
+   "title_en": "City divided into four sectors",
+   "start_date": "1945-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "occupation",
+   "historical_summary": "В июле — августе 1945 г. американские, британские и французские войска вошли в свои секторы Берлина; 11 июля началось четырёхстороннее управление городом.",
+   "historical_summary_en": "In July and August 1945 American, British and French troops entered their sectors of Berlin, and four-power administration of the city began on 11 July.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_berlin_de",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_berlin_de",
+     "url": "https://www.berlin.de/rbmskzl/politik/senat/buergermeistergalerie/artikel.4559.php",
+     "accessed": "2026-11-11",
+     "supports": "июль–август 1945 войска западных союзников в секторах"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "01.07.1945 западные секторы; 11.07.1945 четырёхстороннее управление"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1946-first-free-election",
+   "title": "Первые свободные выборы в Большом Берлине",
+   "title_en": "First free elections in Greater Berlin",
+   "start_date": "1946-10-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "political_change",
+   "historical_summary": "20 октября 1946 г. вступила в силу временная конституция Большого Берлина и прошли первые с 1933 г. свободные выборы; обер-бургомистром стал Отто Островски (СДПГ).",
+   "historical_summary_en": "On 20 October 1946 the provisional constitution of Greater Berlin took effect and the first free elections since 1933 were held, with Otto Ostrowski (SPD) becoming Lord Mayor.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_berlin_de"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_berlin_de",
+     "url": "https://www.berlin.de/rbmskzl/politik/senat/buergermeistergalerie/artikel.4559.php",
+     "accessed": "2026-11-11",
+     "supports": "20.10.1946"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1948-blockade-airlift",
+   "title": "Блокада Западного Берлина и воздушный мост",
+   "title_en": "Blockade of West Berlin and the Airlift",
+   "start_date": "1948-06-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "24 июня 1948 г. советская сторона перекрыла сухопутные и водные пути в западные секторы Берлина, а 26 июня начался англо-американский воздушный мост. Город уже жил с двумя валютами: в западных секторах ввели D-Mark.",
+   "historical_summary_en": "On 24 June 1948 the Soviet side cut land and water routes to Berlin's western sectors, and on 26 June the British-American airlift began. The city already had two currencies, with the D-Mark introduced in the western sectors.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "night_without_power",
+    "raisin_bombers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_berlin_de",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_berlin_de",
+     "url": "https://www.berlin.de/rbmskzl/politik/senat/buergermeistergalerie/artikel.4559.php",
+     "accessed": "2026-11-11",
+     "supports": "24.06.1948 блокада; 26.06 воздушный мост; валюта"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "24.06.1948 блокада и D-Mark в западных секторах; 26.06 Luftbrücke"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1948-free-university",
+   "title": "Основание Свободного университета",
+   "title_en": "Free University founded",
+   "start_date": "1948-09-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "education",
+   "historical_summary": "22 сентября 1948 г. в западной части Берлина был основан Свободный университет.",
+   "historical_summary_en": "On 22 September 1948 the Free University was founded in the western part of Berlin.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "22.09.1948 FU"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-west-1949-blockade-ends",
+   "title": "Конец блокады",
+   "title_en": "End of the blockade",
+   "start_date": "1949-05-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "12 мая 1949 г. Советский Союз снял блокаду Западного Берлина; воздушный мост завершили 30 сентября после более чем 277 тыс. полётов.",
+   "historical_summary_en": "On 12 May 1949 the Soviet Union lifted the blockade of West Berlin, and the airlift ended on 30 September after more than 277,000 flights.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "raisin_bombers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1949.html",
+     "accessed": "2026-11-11",
+     "supports": "12.05.1949; 30.09.1949 >277 000 полётов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-west-1950-berlin-aid-act",
+   "title": "Закон о помощи Берлину",
+   "title_en": "Berlin Aid Act",
+   "start_date": "1950-03-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Закон о помощи Берлину от 7 марта 1950 г. должен был укрепить экономику Западного Берлина и финансировался в основном за счёт введённого в 1948 г. сбора «Чрезвычайная жертва Берлину». 24 октября в ратуше Шёнеберг освятили Колокол свободы.",
+   "historical_summary_en": "The Berlin Aid Act of 7 March 1950 was intended to strengthen West Berlin's economy and was financed mainly by the 'Berlin emergency levy' introduced in 1948. On 24 October the Freedom Bell was dedicated at Schöneberg Town Hall.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "07.03.1950 Berlin-Hilfegesetz; 24.10.1950 Freiheitsglocke"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-west-1957-interbau",
+   "title": "Международная строительная выставка Interbau",
+   "title_en": "Interbau international building exhibition",
+   "start_date": "1957-07-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "6 июля 1957 г. в Западном Берлине открылась Международная строительная выставка (Interbau) — её экспонатами стали жилые дома нового квартала Ганзафиртель.",
+   "historical_summary_en": "On 6 July 1957 the International Building Exhibition (Interbau) opened in West Berlin, its exhibits being the residential buildings of the new Hansaviertel district.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "06.07.1957 Interbau"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-west-1960-gropiusstadt",
+   "title": "Строительство Гропиусштадта",
+   "title_en": "Gropiusstadt built",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "С 1960 г. на юге Западного Берлина строился крупный жилой массив Гропиусштадт. 3 февраля 1968 г. там подвели под крышу 80,5-метровую жилую башню — самую высокую в ФРГ.",
+   "historical_summary_en": "From 1960 the large Gropiusstadt housing estate was built in the south of West Berlin. On 3 February 1968 an 80.5-metre residential tower there, the tallest in the Federal Republic, was topped out.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "rehousing",
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "1960 Gropiusstadt"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "03.02.1968 башня 80,5 м в Гропиусштадте"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-west-1965-europa-center",
+   "title": "Европа-центр на Брайтшайдплац",
+   "title_en": "Europa-Center opens",
+   "start_date": "1965-04-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "2 апреля 1965 г. в Западном Берлине открылся торговый и офисный комплекс «Европа-центр».",
+   "historical_summary_en": "On 2 April 1965 the Europa-Center shopping and office complex opened in West Berlin.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "window_shopping"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "02.04.1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-west-1968-neue-nationalgalerie",
+   "title": "Новая национальная галерея",
+   "title_en": "Neue Nationalgalerie opens",
+   "start_date": "1968-09-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "15 сентября 1968 г. в Западном Берлине открылась Новая национальная галерея Миса ван дер Роэ.",
+   "historical_summary_en": "On 15 September 1968 Mies van der Rohe's Neue Nationalgalerie opened in West Berlin.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "museum_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "15.09.1968"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-west-1976-womens-shelter",
+   "title": "Первый приют для женщин",
+   "title_en": "First women's shelter",
+   "start_date": "1976-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west"
+   ],
+   "category": "women_rights",
+   "historical_summary": "1 ноября 1976 г. в Западном Берлине открылся первый в ФРГ приют для женщин, пострадавших от насилия. В том же году Бундеспочта показала здесь первые кнопочные телефоны.",
+   "historical_summary_en": "On 1 November 1976 the first women's shelter opened in West Berlin. In the same year the Bundespost presented the first push-button telephones there.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "leaving_a_violent_marriage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1976.html",
+     "accessed": "2026-11-11",
+     "supports": "01.11.1976 Frauenhaus; 15.11.1976 кнопочные телефоны"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-east-1950-palace-demolished",
+   "title": "Снос Городского дворца",
+   "title_en": "Demolition of the City Palace",
+   "start_date": "1950-09-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "7 сентября 1950 г. в Восточном Берлине начали взрывать повреждённый войной Городской дворец (Stadtschloss). На его месте позже возник Дворец Республики.",
+   "historical_summary_en": "On 7 September 1950 demolition of the war-damaged City Palace (Stadtschloss) began in East Berlin. The Palace of the Republic later rose on its site.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "07.09.1950 Sprengung Stadtschloss"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-east-1952-weberwiese",
+   "title": "Высотный дом на Вебервизе",
+   "title_en": "Weberwiese high-rise completed",
+   "start_date": "1952-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "1 мая 1952 г. в Восточном Берлине был завершён жилой высотный дом на Вебервизе — первый образец застройки будущей Сталиналлее.",
+   "historical_summary_en": "On 1 May 1952 the residential high-rise at Weberwiese was completed in East Berlin, the first example of the building style of the future Stalinallee.",
+   "affected_groups": [
+    "tenants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "01.05.1952 Hochhaus an der Weberwiese"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-east-1955-tierpark",
+   "title": "Открытие Тирпарка",
+   "title_en": "Tierpark Berlin opens",
+   "start_date": "1955-07-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "2 июля 1955 г. в восточноберлинском районе Фридрихсфельде открылся зоопарк Тирпарк.",
+   "historical_summary_en": "On 2 July 1955 the Tierpark zoo opened in Friedrichsfelde in East Berlin.",
+   "affected_groups": [
+    "children",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "02.07.1955"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-east-1969-tv-tower",
+   "title": "Телебашня на Александерплац",
+   "title_en": "Television tower at Alexanderplatz",
+   "start_date": "1969-10-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "media_communication",
+   "historical_summary": "3 октября 1969 г. в Восточном Берлине была открыта телебашня (Fernsehturm), ставшая символом города.",
+   "historical_summary_en": "On 3 October 1969 the television tower (Fernsehturm) was opened in East Berlin and became a symbol of the city.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "03.10.1969"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-east-1976-palace-of-the-republic",
+   "title": "Дворец Республики",
+   "title_en": "Palace of the Republic opens",
+   "start_date": "1976-04-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "23 апреля 1976 г. на месте бывшего Городского дворца открылся Дворец Республики — здание Народной палаты с ресторанами, залами и боулингом.",
+   "historical_summary_en": "On 23 April 1976 the Palace of the Republic opened on the site of the former City Palace, housing the People's Chamber as well as restaurants, halls and a bowling alley.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "dance_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1976.html",
+     "accessed": "2026-11-11",
+     "supports": "23.04.1976 Palast der Republik"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-east-1986-thaelmannpark",
+   "title": "Жилой парк имени Тельмана",
+   "title_en": "Thälmannpark opens",
+   "start_date": "1986-04-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "16 апреля 1986 г. в восточноберлинском Пренцлауэр-Берге открылся жилой и парковый комплекс «Тельман-парк».",
+   "historical_summary_en": "On 16 April 1986 the Thälmannpark residential and park complex opened in Prenzlauer Berg, East Berlin.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1986.html",
+     "accessed": "2026-11-11",
+     "supports": "16.04.1986"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-east-1989-u-bahn-hellersdorf",
+   "title": "Метро до Хеллерсдорфа",
+   "title_en": "U-Bahn to Hellersdorf",
+   "start_date": "1989-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-east"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 июля 1989 г. в Восточном Берлине открылись семь станций метро, в том числе Хеллерсдорф и Хёнов, связавшие новые панельные районы с центром.",
+   "historical_summary_en": "On 1 July 1989 seven U-Bahn stations opened in East Berlin, including Hellersdorf and Hönow, linking the new prefabricated housing districts with the centre.",
+   "affected_groups": [
+    "commuters",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "01.07.1989 семь станций"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1961-wall-built",
+   "title": "Строительство Берлинской стены",
+   "title_en": "The Berlin Wall is built",
+   "start_date": "1961-08-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west",
+    "de-berlin-east"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "13 августа 1961 г. вооружённая народная полиция перекрыла границу между Восточным и Западным Берлином, и началось строительство Стены; 14 августа закрылись Бранденбургские ворота. Ещё 9 августа в Восточном Берлине начали учитывать жителей, ездивших на работу в западные секторы.",
+   "historical_summary_en": "On 13 August 1961 the armed People's Police sealed the boundary between East and West Berlin and construction of the Wall began, and on 14 August the Brandenburg Gate was closed. On 9 August East Berlin had begun registering residents who commuted to work in the western sectors.",
+   "affected_groups": [
+    "all_residents",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "family_on_the_other_side",
+    "letters_across_the_border"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "13.08.1961; 14.08 Бранденбургские ворота; 09.08 учёт Grenzgänger"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1965-passierschein",
+   "title": "Соглашения о пропусках",
+   "title_en": "Pass agreements",
+   "start_date": "1965-11-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west",
+    "de-berlin-east"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "25 ноября 1965 г. Западный Берлин и ГДР подписали третье после постройки Стены соглашение о пропусках, позволявшее западноберлинцам навещать родных в восточной части города в праздники.",
+   "historical_summary_en": "On 25 November 1965 West Berlin and the GDR signed the third pass agreement since the Wall was built, allowing West Berliners to visit relatives in the eastern part of the city at holiday times.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visit_to_the_east",
+    "family_on_the_other_side"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "25.11.1965 третье Passierscheinabkommen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1989-wall-opened",
+   "title": "Падение Стены",
+   "title_en": "The Wall opens",
+   "start_date": "1989-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin-west",
+    "de-berlin-east"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "9 ноября 1989 г. Стена между Восточным и Западным Берлином была открыта. 22 декабря для пешеходов вновь открылись Бранденбургские ворота, а 13 июня 1990 г. начался снос 47-километровой Стены.",
+   "historical_summary_en": "On 9 November 1989 the Wall between East and West Berlin was opened. On 22 December the Brandenburg Gate reopened to pedestrians, and on 13 June 1990 demolition of the 47-kilometre Wall began.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visit_to_the_west",
+    "family_on_the_other_side",
+    "first_walk_across_the_border"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "09.11.1989; 13.06.1990 снос"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "22.12.1989 Бранденбургские ворота"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "13.06.1990 снос 47 км"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-1991-united-city-parliament",
+   "title": "Первая общеберлинская палата депутатов",
+   "title_en": "First all-Berlin House of Representatives",
+   "start_date": "1991-01-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "political_change",
+   "historical_summary": "11 января 1991 г. собралась первая общеберлинская палата депутатов, и конституция Западного Берлина стала действовать во всём городе. 8 ноября в Фридрихсхайне демонтировали памятник Ленину.",
+   "historical_summary_en": "On 11 January 1991 the first all-Berlin House of Representatives convened, and the West Berlin constitution took effect throughout the city. On 8 November the Lenin monument in Friedrichshain was dismantled.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1991.html",
+     "accessed": "2026-11-11",
+     "supports": "11.01.1991; 08.11.1991 Ленин"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1995-wrapped-reichstag",
+   "title": "«Упакованный Рейхстаг»",
+   "title_en": "Wrapped Reichstag",
+   "start_date": "1995-06-23",
+   "end_date": "1995-07-06",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "С 23 июня по 6 июля 1995 г. Кристо и Жанна-Клод «упаковали» здание Рейхстага; инсталляцию увидели около 5 млн человек.",
+   "historical_summary_en": "From 23 June to 6 July 1995 Christo and Jeanne-Claude wrapped the Reichstag building, and about 5 million people saw the installation.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1995.html",
+     "accessed": "2026-11-11",
+     "supports": "23.06–06.07.1995, ~5 млн"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-berlin-1999-bundestag-moves",
+   "title": "Бундестаг переезжает в Берлин",
+   "title_en": "Bundestag moves to Berlin",
+   "start_date": "1999-04-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "political_change",
+   "historical_summary": "19 апреля 1999 г. бундестаг переехал из Бонна в Берлин, в перестроенное здание Рейхстага.",
+   "historical_summary_en": "On 19 April 1999 the Bundestag moved from Bonn to Berlin, into the rebuilt Reichstag building.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "19.04.1999"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-2006-hauptbahnhof",
+   "title": "Новый Главный вокзал",
+   "title_en": "New Central Station",
+   "start_date": "2006-05-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "26 мая 2006 г. открылся Берлинский главный вокзал, а на следующий день — новая магистраль «Север — Юг». 10 декабря 2017 г. заработала скоростная линия Берлин — Мюнхен.",
+   "historical_summary_en": "On 26 May 2006 Berlin Central Station opened, followed the next day by the new North–South main line. On 10 December 2017 the Berlin–Munich high-speed line began operating.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "train_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "26.05.2006; 27.05.2006; 10.12.2017"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-berlin-2016-gentrification-and-growth",
+   "title": "Рост города и протесты против джентрификации",
+   "title_en": "Population growth and protests against gentrification",
+   "start_date": "2016-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-berlin"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Население Берлина выросло с 3 330 242 в 2003 г. до 3 748 148 в 2018 г.; в июле 2016 г. во Фридрихсхайне прошли протесты против джентрификации.",
+   "historical_summary_en": "Berlin's population grew from 3,330,242 in 2003 to 3,748,148 in 2018, and in July 2016 there were protests against gentrification in Friedrichshain.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "price_shock",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "rent_rise"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Berlin",
+     "accessed": "2026-11-11",
+     "supports": "население 2003 и 2018; июль 2016 протест"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

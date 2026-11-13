@@ -26,7 +26,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -40,10 +41,16 @@
           "url": "https://ru.wikipedia.org/wiki/История_Твери",
           "accessed": "2026-10-29",
           "supports": "1901: трамвай и уличное освещение"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в 1901 пущен электрический трамвай, начато электрическое освещение улиц"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1900-volga-bridge",
@@ -70,7 +77,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -84,10 +92,22 @@
           "url": "https://ru.wikipedia.org/wiki/Староволжский_мост",
           "accessed": "2026-11-06",
           "supports": "сооружён в 1897–1900 гг. чешским инженером Л. И. Машеком по проекту В. Ф. Точиского"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в 1900 открыт мост через Волгу (Староволжский)"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/2020.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2020 год»: 8 сентября 1900 открыто движение по Староволжскому мосту (инж. Машек, проект Точинского)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1898-wagon-works",
@@ -118,7 +138,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -126,10 +147,16 @@
           "url": "https://ru.wikipedia.org/wiki/Тверской_вагоностроительный_завод",
           "accessed": "2026-10-29",
           "supports": "основание завода в 1898 году"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "энциклопедия «Тверская область», ст. «Тверь»: устав французского завода 1897, выпуск вагонов с декабря 1898"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1918-wagon-works-nationalised",
@@ -194,7 +221,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -202,10 +230,16 @@
           "url": "https://ru.wikipedia.org/wiki/История_Твери",
           "accessed": "2026-10-29",
           "supports": "1916: радиолампы Бонч-Бруевича"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в 1916 М. А. Бонч-Бруевич изготовил в Твери первую отечественную радиолампу"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1917-teachers-institute",
@@ -236,7 +270,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -244,10 +279,16 @@
           "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_университет",
           "accessed": "2026-10-29",
           "supports": "июнь 1917, первый набор 37 студентов"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/tpd2017.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2017 год»: распоряжением министра Временного правительства от 17 июня 1917 создан Тверской учительский институт, 37 первокурсников (ГАТО, ф. Р-2691)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1935-cathedral-demolished",
@@ -274,7 +315,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -282,10 +324,16 @@
           "url": "https://ru.wikipedia.org/wiki/История_Твери",
           "accessed": "2026-10-29",
           "supports": "1935 взрыв собора; закрытие церквей"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в ночь на 4 апреля 1935 взорван Спасо-Преображенский собор"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1941-occupation",
@@ -318,7 +366,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -332,10 +381,16 @@
           "url": "https://ru.wikipedia.org/wiki/Тверь",
           "accessed": "2026-10-29",
           "supports": "17 октября – 16 декабря"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: 14 октября 1941 противник захватил Калинин, 16 декабря город освобождён; разрушено 56% жилого фонда"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1942-tram-restarted",
@@ -401,7 +456,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -409,10 +465,16 @@
           "url": "https://ru.wikipedia.org/wiki/История_Твери",
           "accessed": "2026-10-29",
           "supports": "1950-е: театр, ДК, библиотека, мост"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: застройка 1950-х — драмтеатр, Дворец культуры, библиотека, новый мост 1956 из конструкций Николаевского моста"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1961-river-port-ring-road",
@@ -440,7 +502,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -448,10 +511,16 @@
           "url": "https://ru.wikipedia.org/wiki/История_Твери",
           "accessed": "2026-10-29",
           "supports": "1961"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в 1961 создан порт и открыта окружная автострада с мостом через Волгу"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1971-kalinin-university",
@@ -482,7 +551,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -490,10 +560,16 @@
           "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_университет",
           "accessed": "2026-10-29",
           "supports": "1 сентября 1971; 1990 переименование"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: Тверской государственный университет основан в 1971"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1971-order-red-banner",
@@ -537,7 +613,7 @@
       "id": "ru-tver-2011-city-military-glory",
       "title": "Тверь — город воинской славы",
       "title_original": null,
-      "start_date": "2011-11-04",
+      "start_date": "2010-11-04",
       "end_date": null,
       "date_precision": "day",
       "approximate": false,
@@ -550,7 +626,7 @@
       ],
       "category": "culture_leisure",
       "subcategory": null,
-      "historical_summary": "4 ноября 2011 года Твери присвоено почётное звание «Город воинской славы».",
+      "historical_summary": "Указом Президента от 4 ноября 2010 года Твери присвоено почётное звание «Город воинской славы»; грамоту вручили 23 февраля 2011 года.",
       "affected_groups": [
         "all_residents",
         "veterans"
@@ -559,7 +635,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -567,10 +644,22 @@
           "url": "https://ru.wikipedia.org/wiki/История_Твери",
           "accessed": "2026-10-29",
           "supports": "4 ноября 2011"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/acts/bank/31989",
+          "accessed": "2026-11-13",
+          "supports": "Указ Президента РФ от 04.11.2010 № 1335 о присвоении Твери звания «Город воинской славы»"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/events/president/news/10411",
+          "accessed": "2026-11-13",
+          "supports": "23.02.2011: Президент вручил главе Твери грамоту; указы подписаны в ноябре 2010"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-2015-city-star-trams",
@@ -682,7 +771,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -690,10 +780,22 @@
           "url": "https://ru.wikipedia.org/wiki/Тверь",
           "accessed": "2026-10-29",
           "supports": "1929, 58 000, памятник 1982"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: в 1929 текстильщики Твери — инициаторы «Договора тысяч»"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/2019.pdf",
+          "accessed": "2026-11-12",
+          "supports": "«Тверские памятные даты на 2019 год», 7 апреля 1929: «Договор тысяч», 58 389 текстильщиков; памятник 1982"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1936-migalovo-airfield",
@@ -804,7 +906,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -812,10 +915,16 @@
           "url": "https://ru.wikipedia.org/wiki/Тверской_государственный_технический_университет",
           "accessed": "2026-10-29",
           "supports": "1958; 1994"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://region.tverlib.ru/cgi-bin/fulltext_opac.cgi?show_article=1389",
+          "accessed": "2026-11-12",
+          "supports": "ст. «Тверь»: Тверской политехнический институт (1958)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1967-trolleybus",
@@ -843,7 +952,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tverlib"
       ],
       "evidence": [
         {
@@ -851,10 +961,16 @@
           "url": "https://ru.wikipedia.org/wiki/Тверской_троллейбус",
           "accessed": "2026-10-29",
           "supports": "05.05.1967; 1992; 13.04.2020"
+        },
+        {
+          "source_id": "ru_tverlib",
+          "url": "https://tpd.tverlib.ru/sites/default/files/tpd2017.pdf",
+          "accessed": "2026-11-13",
+          "supports": "«Тверские памятные даты на 2017 год»: 5 мая 1967 открыто троллейбусное движение в Калинине; к 1992 — 10 маршрутов, 135 тыс. пассажиров в сутки"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-tver-1968-zmeevo-airport",

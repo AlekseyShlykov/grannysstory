@@ -1,0 +1,2140 @@
+{
+ "locations": [
+  {
+   "id": "de",
+   "type": "state",
+   "country": "DE",
+   "wikidata": "Q183",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bundesrepublik Deutschland",
+     "lang": "de",
+     "from": "1949-05-23",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "ФРГ",
+     "locative": "в ФРГ",
+     "name_en": "West Germany",
+     "from": "1949-05-23",
+     "to": "1990-10-02"
+    },
+    {
+     "name": "Германия",
+     "locative": "в Германии",
+     "name_en": "Germany",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "BRD",
+    "Federal Republic of Germany",
+    "West Germany"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1949-05-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Одно государство: ФРГ с 23.05.1949 (провозглашение Основного закона), с 3.10.1990 объединённая Германия (присоединение земель бывшей ГДР). До 5.05.1955 сохранялся Оккупационный статут — западные союзники оставляли за собой часть полномочий; в иерархии не моделируется. Западный Берлин привязан к узлу де-факто (de-berlin-west), см. его примечание.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "valid_from": "1949-05-23"
+  },
+  {
+   "id": "state-gdr",
+   "type": "state",
+   "country": "DE",
+   "wikidata": "Q16957",
+   "codes": {},
+   "names": [
+    {
+     "name": "Deutsche Demokratische Republik",
+     "lang": "de",
+     "from": "1949-10-07",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "ГДР",
+     "locative": "в ГДР",
+     "name_en": "East Germany",
+     "from": "1949-10-07",
+     "to": "1990-10-02"
+    }
+   ],
+   "alt_names": [
+    "DDR",
+    "German Democratic Republic",
+    "East Germany"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1949-10-07",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "ГДР с 7.10.1949 до 2.10.1990 включительно; 3.10.1990 её земли вошли в ФРГ. Земли упразднены как административные единицы 25.07.1952 (переход функций к 14 округам), восстановлены к объединению.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "valid_from": "1949-10-07",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-zone-us",
+   "type": "occupation_zone",
+   "country": "DE",
+   "wikidata": "Q55304",
+   "codes": {},
+   "names": [
+    {
+     "name": "Amerikanische Besatzungszone",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Американская зона оккупации",
+     "locative": "в американской зоне оккупации",
+     "name_en": "American occupation zone",
+     "from": "1945-06-05",
+     "to": "1949-05-22",
+     "locative_en": "in the American occupation zone"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-reich",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    }
+   ],
+   "sovereignty_note": "Зона учреждена документами 5.06.1945 (Берлинская декларация); фактические границы зон и отвод войск — июль 1945. Западные зоны закрыты образованием ФРГ (23.05.1949), советская — ГДР (7.10.1949). Берлин в зоны не входил.",
+   "occupations": [
+    {
+     "by_ru": "США",
+     "from": "1945-06-05",
+     "to": "1949-05-22",
+     "source_id": "wikidata"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_bpb"
+   ],
+   "valid_from": "1945-06-05",
+   "valid_to": "1949-05-22"
+  },
+  {
+   "id": "de-zone-british",
+   "type": "occupation_zone",
+   "country": "DE",
+   "wikidata": "Q55306",
+   "codes": {},
+   "names": [
+    {
+     "name": "Britische Besatzungszone",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Британская зона оккупации",
+     "locative": "в британской зоне оккупации",
+     "name_en": "British occupation zone",
+     "from": "1945-06-05",
+     "to": "1949-05-22",
+     "locative_en": "in the British occupation zone"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-reich",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    }
+   ],
+   "sovereignty_note": "Зона учреждена документами 5.06.1945 (Берлинская декларация); фактические границы зон и отвод войск — июль 1945. Западные зоны закрыты образованием ФРГ (23.05.1949), советская — ГДР (7.10.1949). Берлин в зоны не входил.",
+   "occupations": [
+    {
+     "by_ru": "Великобритания",
+     "from": "1945-06-05",
+     "to": "1949-05-22",
+     "source_id": "wikidata"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_bpb"
+   ],
+   "valid_from": "1945-06-05",
+   "valid_to": "1949-05-22"
+  },
+  {
+   "id": "de-zone-french",
+   "type": "occupation_zone",
+   "country": "DE",
+   "wikidata": "Q55309",
+   "codes": {},
+   "names": [
+    {
+     "name": "Französische Besatzungszone",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Французская зона оккупации",
+     "locative": "во французской зоне оккупации",
+     "name_en": "French occupation zone",
+     "from": "1945-06-05",
+     "to": "1949-05-22",
+     "locative_en": "in the French occupation zone"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-reich",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    }
+   ],
+   "sovereignty_note": "Зона учреждена документами 5.06.1945 (Берлинская декларация); фактические границы зон и отвод войск — июль 1945. Западные зоны закрыты образованием ФРГ (23.05.1949), советская — ГДР (7.10.1949). Берлин в зоны не входил.",
+   "occupations": [
+    {
+     "by_ru": "Франция",
+     "from": "1945-06-05",
+     "to": "1949-05-22",
+     "source_id": "wikidata"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_bpb"
+   ],
+   "valid_from": "1945-06-05",
+   "valid_to": "1949-05-22"
+  },
+  {
+   "id": "de-zone-soviet",
+   "type": "occupation_zone",
+   "country": "DE",
+   "wikidata": "Q55300",
+   "codes": {},
+   "names": [
+    {
+     "name": "Sowjetische Besatzungszone",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1949-10-06"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Советская зона оккупации",
+     "locative": "в советской зоне оккупации",
+     "name_en": "Soviet occupation zone",
+     "from": "1945-06-05",
+     "to": "1949-10-06",
+     "locative_en": "in the Soviet occupation zone"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-reich",
+     "from": "1945-06-05",
+     "to": "1949-10-06"
+    }
+   ],
+   "sovereignty_note": "Зона учреждена документами 5.06.1945 (Берлинская декларация); фактические границы зон и отвод войск — июль 1945. Западные зоны закрыты образованием ФРГ (23.05.1949), советская — ГДР (7.10.1949). Берлин в зоны не входил.",
+   "occupations": [
+    {
+     "by_ru": "СССР",
+     "from": "1945-06-05",
+     "to": "1949-10-06",
+     "source_id": "wikidata"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_bpb"
+   ],
+   "valid_from": "1945-06-05",
+   "valid_to": "1949-10-06"
+  },
+  {
+   "id": "de-prussia",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q161036",
+   "codes": {},
+   "names": [
+    {
+     "name": "Königreich Preußen",
+     "lang": "de",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "name": "Freistaat Preußen",
+     "lang": "de",
+     "from": "1918-11-10",
+     "to": "1947-02-25"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Королевство Пруссия",
+     "locative": "в Королевстве Пруссия",
+     "name_en": "Kingdom of Prussia",
+     "from": null,
+     "to": "1918-11-09",
+     "locative_en": "in the Kingdom of Prussia"
+    },
+    {
+     "name": "Свободное государство Пруссия",
+     "locative": "в Пруссии",
+     "name_en": "Free State of Prussia",
+     "from": "1918-11-10",
+     "to": "1947-02-25",
+     "locative_en": "in the Free State of Prussia"
+    }
+   ],
+   "alt_names": [
+    "Preußen",
+    "Prussia"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-empire",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1918-11-10",
+     "to": "1947-02-25"
+    }
+   ],
+   "sovereignty_note": "Королевство (Q27306) до ноябрьской революции 1918 г., затем Свободное государство (Q161036). После 5.06.1945 провинции фактически подчинены зонам оккупации (в иерархии они связаны с зонами напрямую); де-юре Пруссия упразднена законом Контрольного совета № 46 от 25.02.1947.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_to": "1947-02-25"
+  },
+  {
+   "id": "de-prov-rhine",
+   "type": "province",
+   "country": "DE",
+   "wikidata": "Q698162",
+   "codes": {},
+   "names": [
+    {
+     "name": "Rheinprovinz",
+     "lang": "de",
+     "from": null,
+     "to": "1945-06-04"
+    },
+    {
+     "name": "Provinz Nordrhein",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1946-08-22"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Рейнская провинция",
+     "locative": "в Рейнской провинции",
+     "name_en": "Rhine Province",
+     "from": null,
+     "to": "1945-06-04",
+     "locative_en": "in the Rhine Province"
+    },
+    {
+     "name": "Провинция Северный Рейн",
+     "locative": "в провинции Северный Рейн",
+     "name_en": "North Rhine Province",
+     "from": "1945-06-05",
+     "to": "1946-08-22",
+     "locative_en": "in the North Rhine Province"
+    }
+   ],
+   "alt_names": [
+    "Rhine Province"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": null,
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-british",
+     "from": "1945-06-05",
+     "to": "1946-08-22"
+    }
+   ],
+   "sovereignty_note": "Прусская провинция; после 1945 г. северная часть (с Кёльном) в британской зоне как провинция Северный Рейн, 23.08.1946 вошла в Северный Рейн-Вестфалию. Южная часть отошла к французской зоне (не моделируется). Западный берег Рейна, включая Кёльн, был под союзнической оккупацией 1918–1926/1930 (см. occupations городов).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_to": "1946-08-22"
+  },
+  {
+   "id": "de-prov-saxony",
+   "type": "province",
+   "country": "DE",
+   "wikidata": "Q340210",
+   "codes": {},
+   "names": [
+    {
+     "name": "Provinz Sachsen",
+     "lang": "de",
+     "from": null,
+     "to": "1944-06-30"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Провинция Саксония",
+     "locative": "в провинции Саксония",
+     "name_en": "Province of Saxony",
+     "from": null,
+     "to": "1944-06-30",
+     "locative_en": "in the Province of Saxony"
+    }
+   ],
+   "alt_names": [
+    "Prussian Saxony"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": null,
+     "to": "1944-06-30"
+    }
+   ],
+   "sovereignty_note": "Прусская провинция (не путать с землёй Саксония), центр — Магдебург. В июле 1944 г. разделена на провинции Галле-Мерзебург и Магдебург; здесь закрыта 30.06.1944 (точный день раздела не проверен — использовано 1.07.1944).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_to": "1944-06-30"
+  },
+  {
+   "id": "de-prov-halle-merseburg",
+   "type": "province",
+   "country": "DE",
+   "wikidata": null,
+   "codes": {},
+   "names": [
+    {
+     "name": "Provinz Halle-Merseburg",
+     "lang": "de",
+     "from": "1944-07-01",
+     "to": "1945-07-08"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Провинция Галле-Мерзебург",
+     "locative": "в провинции Галле-Мерзебург",
+     "name_en": "Province of Halle-Merseburg",
+     "from": "1944-07-01",
+     "to": "1945-07-08",
+     "locative_en": "in the Province of Halle-Merseburg"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": "1944-07-01",
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-soviet",
+     "from": "1945-06-05",
+     "to": "1945-07-08"
+    }
+   ],
+   "sovereignty_note": "Выделена из провинции Саксония в июле 1944 г. (бывший округ Мерзебург); в июле 1945 г. СВАГ объединила её с провинцией Магдебург и Анхальтом в новую провинцию Саксония. Дата объединения взята 9.07.1945 как приблизительная (статья даёт только «июль 1945»). QID не проверен.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1944-07-01",
+   "valid_to": "1945-07-08"
+  },
+  {
+   "id": "de-prov-magdeburg",
+   "type": "province",
+   "country": "DE",
+   "wikidata": "Q896419",
+   "codes": {},
+   "names": [
+    {
+     "name": "Provinz Magdeburg",
+     "lang": "de",
+     "from": "1944-07-01",
+     "to": "1945-07-08"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Провинция Магдебург",
+     "locative": "в провинции Магдебург",
+     "name_en": "Province of Magdeburg",
+     "from": "1944-07-01",
+     "to": "1945-07-08",
+     "locative_en": "in the Province of Magdeburg"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": "1944-07-01",
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-soviet",
+     "from": "1945-06-05",
+     "to": "1945-07-08"
+    }
+   ],
+   "sovereignty_note": "Выделена из провинции Саксония в июле 1944 г.; в июле 1945 г. вошла в новую провинцию Саксония (с 1946 — Саксония-Анхальт). Конечная дата приблизительная.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1944-07-01",
+   "valid_to": "1945-07-08"
+  },
+  {
+   "id": "de-prov-hanover",
+   "type": "province",
+   "country": "DE",
+   "wikidata": "Q819125",
+   "codes": {},
+   "names": [
+    {
+     "name": "Provinz Hannover",
+     "lang": "de",
+     "from": null,
+     "to": "1946-08-22"
+    },
+    {
+     "name": "Land Hannover",
+     "lang": "de",
+     "from": "1946-08-23",
+     "to": "1946-10-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Провинция Ганновер",
+     "locative": "в провинции Ганновер",
+     "name_en": "Province of Hanover",
+     "from": null,
+     "to": "1946-08-22",
+     "locative_en": "in the Province of Hanover"
+    },
+    {
+     "name": "Земля Ганновер",
+     "locative": "в земле Ганновер",
+     "name_en": "State of Hanover",
+     "from": "1946-08-23",
+     "to": "1946-10-31",
+     "locative_en": "in the State of Hanover"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": null,
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-british",
+     "from": "1945-06-05",
+     "to": "1946-10-31"
+    }
+   ],
+   "sovereignty_note": "Прусская провинция (1866–1946); в 1946 г. кратко — земля Ганновер (Q641116), с 1.11.1946 в составе Нижней Саксонии.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_to": "1946-10-31"
+  },
+  {
+   "id": "de-prov-brandenburg",
+   "type": "province",
+   "country": "DE",
+   "wikidata": "Q700264",
+   "codes": {},
+   "names": [
+    {
+     "name": "Provinz Brandenburg",
+     "lang": "de",
+     "from": null,
+     "to": "1945-06-04"
+    },
+    {
+     "name": "Provinz Mark Brandenburg",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1947-02-25"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Провинция Бранденбург",
+     "locative": "в провинции Бранденбург",
+     "name_en": "Province of Brandenburg",
+     "from": null,
+     "to": "1945-06-04",
+     "locative_en": "in the Province of Brandenburg"
+    },
+    {
+     "name": "Провинция Марк Бранденбург",
+     "locative": "в провинции Марк Бранденбург",
+     "name_en": "Province of Mark Brandenburg",
+     "from": "1945-06-05",
+     "to": "1947-02-25",
+     "locative_en": "in the Province of Mark Brandenburg"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": null,
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-soviet",
+     "from": "1945-06-05",
+     "to": "1947-02-25"
+    }
+   ],
+   "sovereignty_note": "Прусская провинция; после 1945 г. — без земель восточнее Одера, в советской зоне; после упразднения Пруссии (25.02.1947) — земля Бранденбург (de-brandenburg). Берлин с 1881 г. не входил в провинцию.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_to": "1947-02-25"
+  },
+  {
+   "id": "de-bayern",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q980",
+   "codes": {},
+   "names": [
+    {
+     "name": "Königreich Bayern",
+     "lang": "de",
+     "from": null,
+     "to": "1918-11-07"
+    },
+    {
+     "name": "Freistaat Bayern",
+     "lang": "de",
+     "from": "1918-11-08",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Королевство Бавария",
+     "locative": "в Королевстве Бавария",
+     "name_en": "Kingdom of Bavaria",
+     "from": null,
+     "to": "1918-11-07",
+     "locative_en": "in the Kingdom of Bavaria"
+    },
+    {
+     "name": "Бавария",
+     "locative": "в Баварии",
+     "name_en": "Bavaria",
+     "from": "1918-11-08",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Bavaria",
+    "Bayern"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-empire",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1918-11-10",
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-us",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    },
+    {
+     "id": "de",
+     "from": "1949-05-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Королевство (Q154195) до провозглашения Свободного государства в ночь на 8.11.1918; в 1945–1949 гг. в американской зоне (Пфальц отделён). В нацистский период земли лишены самостоятельности (1934), но как единицы сохранялись.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ]
+  },
+  {
+   "id": "de-sachsen",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q1202",
+   "codes": {},
+   "names": [
+    {
+     "name": "Königreich Sachsen",
+     "lang": "de",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "name": "Freistaat Sachsen",
+     "lang": "de",
+     "from": "1918-11-10",
+     "to": "1945-06-04"
+    },
+    {
+     "name": "Land Sachsen",
+     "lang": "de",
+     "from": "1945-06-05",
+     "to": "1952-07-24"
+    },
+    {
+     "name": "Freistaat Sachsen",
+     "lang": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Королевство Саксония",
+     "locative": "в Королевстве Саксония",
+     "name_en": "Kingdom of Saxony",
+     "from": null,
+     "to": "1918-11-09",
+     "locative_en": "in the Kingdom of Saxony"
+    },
+    {
+     "name": "Саксония",
+     "locative": "в Саксонии",
+     "name_en": "Saxony",
+     "from": "1918-11-10",
+     "to": "1952-07-24"
+    },
+    {
+     "name": "Саксония",
+     "locative": "в Саксонии",
+     "name_en": "Saxony",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Saxony",
+    "Sachsen"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-empire",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1918-11-10",
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-soviet",
+     "from": "1945-06-05",
+     "to": "1949-10-06"
+    },
+    {
+     "id": "state-gdr",
+     "from": "1949-10-07",
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Королевство (Q153015) до ноября 1918 г., затем Свободное государство; в 1945–1949 гг. в советской зоне, с 7.10.1949 в ГДР. 25.07.1952 функции земли переданы округам (Лейпциг, Дрезден, Карл-Маркс-Штадт); в 1952–1990 гг. у узла нет родителя и подчинённых. Восстановлена как Свободное государство с объединением 3.10.1990.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "abolished": [
+    {
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "note": "Земли ГДР упразднены законом 23.07.1952 и заменены округами; восстановлены при объединении 3.10.1990."
+    }
+   ]
+  },
+  {
+   "id": "de-sachsen-anhalt",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q1206",
+   "codes": {},
+   "names": [
+    {
+     "name": "Provinz Sachsen",
+     "lang": "de",
+     "from": "1945-07-09",
+     "to": "1946-10-19"
+    },
+    {
+     "name": "Sachsen-Anhalt",
+     "lang": "de",
+     "from": "1946-10-20",
+     "to": "1952-07-24"
+    },
+    {
+     "name": "Sachsen-Anhalt",
+     "lang": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Провинция Саксония",
+     "locative": "в провинции Саксония",
+     "name_en": "Province of Saxony",
+     "from": "1945-07-09",
+     "to": "1946-10-19",
+     "locative_en": "in the Province of Saxony"
+    },
+    {
+     "name": "Саксония-Анхальт",
+     "locative": "в Саксонии-Анхальт",
+     "name_en": "Saxony-Anhalt",
+     "from": "1946-10-20",
+     "to": "1952-07-24"
+    },
+    {
+     "name": "Саксония-Анхальт",
+     "locative": "в Саксонии-Анхальт",
+     "name_en": "Saxony-Anhalt",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Saxony-Anhalt"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-zone-soviet",
+     "from": "1945-07-09",
+     "to": "1949-10-06"
+    },
+    {
+     "id": "state-gdr",
+     "from": "1949-10-07",
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Образована в июле 1945 г. СВАГ из провинций Магдебург и Галле-Мерзебург и Свободного государства Анхальт (начальная дата приблизительная); 20.10.1946 переименована в Саксонию-Анхальт, с 10.01.1947 юридически земля, столица Галле. В июле 1952 г. фактически разделена на округа Галле и Магдебург; восстановлена 3.10.1990 (столица Магдебург). В 1952–1990 гг. у узла нет родителя и подчинённых.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1945-07-09",
+   "abolished": [
+    {
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "note": "Земли ГДР упразднены законом 23.07.1952 и заменены округами; восстановлены при объединении 3.10.1990."
+    }
+   ]
+  },
+  {
+   "id": "de-brandenburg",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q1208",
+   "codes": {},
+   "names": [
+    {
+     "name": "Land Brandenburg",
+     "lang": "de",
+     "from": "1947-02-26",
+     "to": "1952-07-24"
+    },
+    {
+     "name": "Land Brandenburg",
+     "lang": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Бранденбург",
+     "locative": "в Бранденбурге",
+     "name_en": "Brandenburg",
+     "from": "1947-02-26",
+     "to": "1952-07-24"
+    },
+    {
+     "name": "Бранденбург",
+     "locative": "в Бранденбурге",
+     "name_en": "Brandenburg",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Brandenburg"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-zone-soviet",
+     "from": "1947-02-26",
+     "to": "1949-10-06"
+    },
+    {
+     "id": "state-gdr",
+     "from": "1949-10-07",
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Земля после упразднения Пруссии (до этого — провинция Марк Бранденбург, de-prov-brandenburg); в 1952 г. заменена округами Потсдам, Франкфурт-на-Одере и Котбус; восстановлена 3.10.1990.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1947-02-26",
+   "abolished": [
+    {
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "note": "Земли ГДР упразднены законом 23.07.1952 и заменены округами; восстановлены при объединении 3.10.1990."
+    }
+   ]
+  },
+  {
+   "id": "de-nrw",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q1198",
+   "codes": {},
+   "names": [
+    {
+     "name": "Nordrhein-Westfalen",
+     "lang": "de",
+     "from": "1946-08-23",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Северный Рейн-Вестфалия",
+     "locative": "в Северном Рейне-Вестфалии",
+     "name_en": "North Rhine-Westphalia",
+     "from": "1946-08-23",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "NRW",
+    "North Rhine-Westphalia"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-zone-british",
+     "from": "1946-08-23",
+     "to": "1949-05-22"
+    },
+    {
+     "id": "de",
+     "from": "1949-05-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Создана британской военной администрацией 23.08.1946 из северной части Рейнской провинции и провинции Вестфалия; 21.01.1947 присоединён Липпе.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1946-08-23"
+  },
+  {
+   "id": "de-niedersachsen",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q1197",
+   "codes": {},
+   "names": [
+    {
+     "name": "Niedersachsen",
+     "lang": "de",
+     "from": "1946-11-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Нижняя Саксония",
+     "locative": "в Нижней Саксонии",
+     "name_en": "Lower Saxony",
+     "from": "1946-11-01",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Lower Saxony"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de-zone-british",
+     "from": "1946-11-01",
+     "to": "1949-05-22"
+    },
+    {
+     "id": "de",
+     "from": "1949-05-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Образована 1.11.1946 в британской зоне из земель Ганновер, Брауншвейг, Ольденбург и Шаумбург-Липпе.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1946-11-01"
+  },
+  {
+   "id": "de-land-hamburg",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q1055",
+   "codes": {},
+   "names": [
+    {
+     "name": "Freie und Hansestadt Hamburg",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Гамбург (земля)",
+     "locative": "в земле Гамбург",
+     "name_en": "Hamburg (state)",
+     "from": null,
+     "to": null,
+     "locative_en": "in the state of Hamburg"
+    }
+   ],
+   "alt_names": [
+    "Hamburg"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-de-empire",
+     "from": null,
+     "to": "1918-11-09"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1918-11-10",
+     "to": "1945-06-04"
+    },
+    {
+     "id": "de-zone-british",
+     "from": "1945-06-05",
+     "to": "1949-05-22"
+    },
+    {
+     "id": "de",
+     "from": "1949-05-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Город-государство (вольный ганзейский город). По закону о Большом Гамбурге (принят 26.01.1937, вступил в силу 1.04.1937) к нему отошли прусские города Альтона, Вандсбек и Харбург-Вильгельмсбург, а Куксхафен и Гестахт — к Пруссии. 1945–1949 — британская зона.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ]
+  },
+  {
+   "id": "de-land-berlin",
+   "type": "land",
+   "country": "DE",
+   "wikidata": "Q64",
+   "codes": {},
+   "names": [
+    {
+     "name": "Land Berlin",
+     "lang": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Берлин (земля)",
+     "locative": "в земле Берлин",
+     "name_en": "Berlin (state)",
+     "from": "1990-10-03",
+     "to": null,
+     "locative_en": "in the state of Berlin"
+    }
+   ],
+   "alt_names": [
+    "Berlin"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "de",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Земля объединённой Германии с 3.10.1990. Для 1920–1990 гг. регионального узла нет: город (de-berlin) подчинён Пруссии, затем союзному управлению; конституция Западного Берлина 1950 г. объявляла его землёй ФРГ, но эта оговорка была приостановлена союзниками.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "valid_from": "1990-10-03"
+  },
+  {
+   "id": "de-bezirk-leipzig",
+   "type": "region",
+   "country": "DE",
+   "wikidata": "Q48079",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bezirk Leipzig",
+     "lang": "de",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Округ Лейпциг",
+     "locative": "в округе Лейпциг",
+     "name_en": "Leipzig District",
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "locative_en": "in the Leipzig District"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-gdr",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "Один из 14 округов ГДР: закон от 23.07.1952, функции переданы 25.07.1952; упразднён с восстановлением земель к 3.10.1990.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "valid_from": "1952-07-25",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-bezirk-halle",
+   "type": "region",
+   "country": "DE",
+   "wikidata": "Q48066",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bezirk Halle",
+     "lang": "de",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Округ Галле",
+     "locative": "в округе Галле",
+     "name_en": "Halle District",
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "locative_en": "in the Halle District"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-gdr",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "Один из 14 округов ГДР: закон от 23.07.1952, функции переданы 25.07.1952; упразднён с восстановлением земель к 3.10.1990.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "valid_from": "1952-07-25",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-bezirk-magdeburg",
+   "type": "region",
+   "country": "DE",
+   "wikidata": "Q48083",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bezirk Magdeburg",
+     "lang": "de",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Округ Магдебург",
+     "locative": "в округе Магдебург",
+     "name_en": "Magdeburg District",
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "locative_en": "in the Magdeburg District"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-gdr",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "Один из 14 округов ГДР: закон от 23.07.1952, функции переданы 25.07.1952; упразднён с восстановлением земель к 3.10.1990.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "valid_from": "1952-07-25",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-bezirk-frankfurt-oder",
+   "type": "region",
+   "country": "DE",
+   "wikidata": "Q48057",
+   "codes": {},
+   "names": [
+    {
+     "name": "Bezirk Frankfurt (Oder)",
+     "lang": "de",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Округ Франкфурт-на-Одере",
+     "locative": "в округе Франкфурт-на-Одере",
+     "name_en": "Frankfurt (Oder) District",
+     "from": "1952-07-25",
+     "to": "1990-10-02",
+     "locative_en": "in the Frankfurt (Oder) District"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "state-gdr",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "Один из 14 округов ГДР: закон от 23.07.1952, функции переданы 25.07.1952; упразднён с восстановлением земель к 3.10.1990.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "valid_from": "1952-07-25",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-berlin",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q64",
+   "codes": {},
+   "names": [
+    {
+     "name": "Berlin",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Берлин",
+     "locative": "в Берлине",
+     "name_en": "Berlin",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Groß-Berlin"
+   ],
+   "coordinates": {
+    "lat": 52.51667,
+    "lon": 13.38333,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-prussia",
+     "from": null,
+     "to": "1945-06-04"
+    },
+    {
+     "id": "state-de-reich",
+     "from": "1945-06-05",
+     "to": "1948-11-29"
+    },
+    {
+     "id": "de-land-berlin",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "До 1945 г. столица Пруссии и рейха (с 1881 г. вне провинции Бранденбург; Большой Берлин с 1.10.1920). С 5.06.1945 по 2.10.1990 — четырёхсторонний статус (Берлинская декларация, Комендатура четырёх держав). Фактический раздел города: 30.11.1948 внеочередное собрание в советском секторе объявило магистрат низложенным и избрало обер-бургомистром Ф. Эберта; законный магистрат перешёл в западные секторы. С этой даты до 2.10.1990 жительница помещается в один из секторов (partition). 3.10.1990 город воссоединён, земля Берлин в составе Германии. С 30.11.1948 по 2.10.1990 у узла нет единого родителя: город читается через `de-berlin-west` и `de-berlin-east` (поле `partition`). Четырёхсторонний статус Берлина формально сохранялся до 1990 года.",
+   "occupations": [
+    {
+     "by_ru": "Советская армия (до вывода западных союзников в свои секторы)",
+     "by_en": "Soviet Army (before the Western Allies entered their sectors)",
+     "from": "1945-05-02",
+     "to": "1945-07-03",
+     "source_id": "de_berlin_de"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_bpb",
+    "de_berlin_de"
+   ],
+   "settlement_class": "capital",
+   "partition": [
+    {
+     "from": "1948-11-30",
+     "to": "1990-10-02",
+     "into": [
+      "de-berlin-west",
+      "de-berlin-east"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "de-berlin-west",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q56036",
+   "codes": {},
+   "names": [
+    {
+     "name": "Berlin (West)",
+     "lang": "de",
+     "from": "1948-11-30",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Западный Берлин",
+     "locative": "в Западном Берлине",
+     "name_en": "West Berlin",
+     "from": "1948-11-30",
+     "to": "1990-10-02"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 52.5,
+    "lon": 13.28,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "state-de-reich",
+     "from": "1948-11-30",
+     "to": "1949-05-22"
+    },
+    {
+     "id": "de",
+     "from": "1949-05-23",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "Американский, британский и французский секторы. Родитель «ФРГ» де-факто: юридически Западный Берлин не был частью ФРГ, оставался под властью западных союзников (законы ФРГ вводились берлинским парламентом, депутаты в бундестаге без права голоса). Начало — фактический раздел городского управления 30.11.1948; конец — объединение 3.10.1990.",
+   "occupations": [
+    {
+     "by_ru": "США, Великобритания, Франция",
+     "from": "1948-11-30",
+     "to": "1949-05-22",
+     "source_id": "wikidata"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia",
+    "de_bpb"
+   ],
+   "settlement_class": "large_city",
+   "valid_from": "1948-11-30",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-berlin-east",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q56037",
+   "codes": {},
+   "names": [
+    {
+     "name": "Berlin (Ost)",
+     "lang": "de",
+     "from": "1948-11-30",
+     "to": "1990-10-02"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Восточный Берлин",
+     "locative": "в Восточном Берлине",
+     "name_en": "East Berlin",
+     "from": "1948-11-30",
+     "to": "1990-10-02"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 52.51861,
+    "lon": 13.40444,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "state-de-reich",
+     "from": "1948-11-30",
+     "to": "1949-10-06"
+    },
+    {
+     "id": "state-gdr",
+     "from": "1949-10-07",
+     "to": "1990-10-02"
+    }
+   ],
+   "sovereignty_note": "Советский сектор; с 7.10.1949 фактически столица ГДР (западные союзники это не признавали; с 1961 г. учитывался как 15-й округ, по конституции 1968 г. — округ Берлин). Начало — избрание отдельного магистрата 30.11.1948; конец — объединение 3.10.1990.",
+   "occupations": [
+    {
+     "by_ru": "СССР",
+     "from": "1948-11-30",
+     "to": "1949-10-06",
+     "source_id": "wikidata"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia",
+    "de_bpb"
+   ],
+   "settlement_class": "capital",
+   "valid_from": "1948-11-30",
+   "valid_to": "1990-10-02"
+  },
+  {
+   "id": "de-muenchen",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q1726",
+   "codes": {},
+   "names": [
+    {
+     "name": "München",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Мюнхен",
+     "locative": "в Мюнхене",
+     "name_en": "Munich",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Munich"
+   ],
+   "coordinates": {
+    "lat": 48.1375,
+    "lon": 11.575,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-bayern",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Столица Баварии. Занят американскими войсками 30.04.1945.",
+   "occupations": [
+    {
+     "by_ru": "Армия США (до учреждения зон)",
+     "by_en": "US Army (before the zones were established)",
+     "from": "1945-04-30",
+     "to": "1945-06-04",
+     "source_id": "de_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "de-koeln",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q365",
+   "codes": {},
+   "names": [
+    {
+     "name": "Köln",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Кёльн",
+     "locative": "в Кёльне",
+     "name_en": "Cologne",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Cologne",
+    "Cöln"
+   ],
+   "coordinates": {
+    "lat": 50.94222,
+    "lon": 6.95778,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-prov-rhine",
+     "from": null,
+     "to": "1946-08-22"
+    },
+    {
+     "id": "de-nrw",
+     "from": "1946-08-23",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "В Рейнской провинции Пруссии; после Первой мировой — британская зона оккупации Рейнской области (декабрь 1918 — январь 1926). Занят американскими войсками в марте 1945 г. (левобережье), затем британская зона; с 23.08.1946 — в Северном Рейне-Вестфалии.",
+   "occupations": [
+    {
+     "by_ru": "Великобритания (оккупация Рейнской области)",
+     "by_en": "United Kingdom (Occupation of the Rhineland)",
+     "from": "1918-12",
+     "to": "1926-01",
+     "source_id": "de_wikipedia"
+    },
+    {
+     "by_ru": "Армия США (до учреждения зон)",
+     "by_en": "US Army (before the zones were established)",
+     "from": "1945-03-06",
+     "to": "1945-06-04",
+     "source_id": "de_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "de-leipzig",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q2079",
+   "codes": {},
+   "names": [
+    {
+     "name": "Leipzig",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лейпциг",
+     "locative": "в Лейпциге",
+     "name_en": "Leipzig",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 51.34063,
+    "lon": 12.37473,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-sachsen",
+     "from": null,
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de-bezirk-leipzig",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    },
+    {
+     "id": "de-sachsen",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Королевство/земля Саксония; 1945–1949 советская зона (американские войска занимали город с 19.04.1945 до начала июля 1945); 1949–1990 ГДР, с 25.07.1952 центр округа Лейпциг; с 3.10.1990 — Свободное государство Саксония.",
+   "occupations": [
+    {
+     "by_ru": "Армия США (до передачи советской администрации)",
+     "by_en": "US Army (before handover to Soviet administration)",
+     "from": "1945-04-19",
+     "to": "1945-07-01",
+     "source_id": "de_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "de-halle",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q2814",
+   "codes": {},
+   "names": [
+    {
+     "name": "Halle (Saale)",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Галле",
+     "locative": "в Галле",
+     "name_en": "Halle (Saale)",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 51.48278,
+    "lon": 11.96972,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-prov-saxony",
+     "from": null,
+     "to": "1944-06-30"
+    },
+    {
+     "id": "de-prov-halle-merseburg",
+     "from": "1944-07-01",
+     "to": "1945-07-08"
+    },
+    {
+     "id": "de-sachsen-anhalt",
+     "from": "1945-07-09",
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de-bezirk-halle",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    },
+    {
+     "id": "de-sachsen-anhalt",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Прусская провинция Саксония, с 1944 г. провинция Галле-Мерзебург; 1945–1952 — провинция Саксония/Саксония-Анхальт (столица с 1947 г.); 1952–1990 центр округа Галле в ГДР; с 1990 г. — земля Саксония-Анхальт. Американские войска занимали город в апреле–июле 1945 г. В 1967–1990 гг. рядом существовал отдельный город Галле-Нойштадт (включён в Галле в 1990 г.).",
+   "occupations": [
+    {
+     "by_ru": "Армия США (до передачи советской администрации)",
+     "by_en": "US Army (before handover to Soviet administration)",
+     "from": "1945-04-17",
+     "to": "1945-07-01",
+     "source_id": "de_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "de-hamburg",
+   "type": "city",
+   "country": "DE",
+   "wikidata": "Q1055",
+   "codes": {},
+   "names": [
+    {
+     "name": "Hamburg",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Гамбург",
+     "locative": "в Гамбурге",
+     "name_en": "Hamburg",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 53.55,
+    "lon": 10,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-land-hamburg",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Город в пределах земли Гамбург; с 1.04.1937 включает Альтону, Вандсбек и Харбург-Вильгельмсбург (закон о Большом Гамбурге). Сдан британским войскам 3.05.1945.",
+   "occupations": [
+    {
+     "by_ru": "Великобритания (до учреждения зон)",
+     "by_en": "United Kingdom (before the zones were established)",
+     "from": "1945-05-03",
+     "to": "1945-06-04",
+     "source_id": "de_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "de-wolfsburg",
+   "type": "town",
+   "country": "DE",
+   "wikidata": "Q3014",
+   "codes": {},
+   "names": [
+    {
+     "name": "Stadt des KdF-Wagens bei Fallersleben",
+     "lang": "de",
+     "from": "1938-07-01",
+     "to": "1945-05-24"
+    },
+    {
+     "name": "Wolfsburg",
+     "lang": "de",
+     "from": "1945-05-25",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Город автомобиля КдФ",
+     "locative": "в Городе автомобиля КдФ",
+     "name_en": "Stadt des KdF-Wagens",
+     "from": "1938-07-01",
+     "to": "1945-05-24",
+     "locative_en": "in the Stadt des KdF-Wagens"
+    },
+    {
+     "name": "Вольфсбург",
+     "locative": "в Вольфсбурге",
+     "name_en": "Wolfsburg",
+     "from": "1945-05-25",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 52.42306,
+    "lon": 10.78722,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-prov-hanover",
+     "from": "1938-07-01",
+     "to": "1946-10-31"
+    },
+    {
+     "id": "de-niedersachsen",
+     "from": "1946-11-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Основан 1.07.1938 как город рабочих завода Volkswagen в прусской провинции Ганновер (район Гифхорн); 25.05.1945 переименован в Вольфсбург; в 1945 г. сначала занят армией США, с конца июня 1945 — британская зона; с 1.11.1946 Нижняя Саксония. Для лет до 1938 г. узел не существует. Класс small_town условен: в 1972 г. население превысило 100 тыс.",
+   "occupations": [
+    {
+     "by_ru": "Армия США (до учреждения зон)",
+     "by_en": "US Army (before the zones were established)",
+     "from": "1945-04-11",
+     "to": "1945-06-04",
+     "source_id": "de_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "settlement_class": "small_town",
+   "valid_from": "1938-07-01"
+  },
+  {
+   "id": "de-eisenhuettenstadt",
+   "type": "town",
+   "country": "DE",
+   "wikidata": "Q16106",
+   "codes": {},
+   "names": [
+    {
+     "name": "Fürstenberg (Oder)",
+     "lang": "de",
+     "from": null,
+     "to": "1953-05-06"
+    },
+    {
+     "name": "Stalinstadt",
+     "lang": "de",
+     "from": "1953-05-07",
+     "to": "1961-11-12"
+    },
+    {
+     "name": "Eisenhüttenstadt",
+     "lang": "de",
+     "from": "1961-11-13",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Фюрстенберг-на-Одере",
+     "locative": "в Фюрстенберге-на-Одере",
+     "name_en": "Fürstenberg (Oder)",
+     "from": null,
+     "to": "1953-05-06"
+    },
+    {
+     "name": "Сталинштадт",
+     "locative": "в Сталинштадте",
+     "name_en": "Stalinstadt",
+     "from": "1953-05-07",
+     "to": "1961-11-12"
+    },
+    {
+     "name": "Айзенхюттенштадт",
+     "locative": "в Айзенхюттенштадте",
+     "name_en": "Eisenhüttenstadt",
+     "from": "1961-11-13",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Stalinstadt",
+    "Fürstenberg (Oder)"
+   ],
+   "coordinates": {
+    "lat": 52.14655,
+    "lon": 14.63001,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-prov-brandenburg",
+     "from": null,
+     "to": "1947-02-25"
+    },
+    {
+     "id": "de-brandenburg",
+     "from": "1947-02-26",
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de-bezirk-frankfurt-oder",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    },
+    {
+     "id": "de-brandenburg",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Узел объединяет старый город Фюрстенберг-на-Одере (Q1483103) и новый социалистический город при металлургическом комбинате (основан 1950, с 1953 — Сталинштадт, Q16294796). В 1961 г. оба слиты под названием Айзенхюттенштадт. До 1953 г. название узла — Фюрстенберг; точные дни переименований требуют сверки.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_en_wikipedia"
+   ],
+   "settlement_class": "small_town"
+  },
+  {
+   "id": "de-oberammergau",
+   "type": "village",
+   "country": "DE",
+   "wikidata": "Q503757",
+   "codes": {},
+   "names": [
+    {
+     "name": "Oberammergau",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Обераммергау",
+     "locative": "в Обераммергау",
+     "name_en": "Oberammergau",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 47.59667,
+    "lon": 11.06444,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-bayern",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Сельская община в Верхней Баварии (район Гармиш-Партенкирхен), известная Страстными представлениями (раз в десять лет) и резьбой по дереву.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "rural"
+  },
+  {
+   "id": "de-altmark",
+   "type": "rural_area",
+   "country": "DE",
+   "wikidata": "Q442655",
+   "codes": {},
+   "names": [
+    {
+     "name": "Altmark",
+     "lang": "de",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Альтмарк",
+     "locative": "в Альтмарке",
+     "name_en": "Altmark",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 52.71667,
+    "lon": 11.4,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "de-prov-saxony",
+     "from": null,
+     "to": "1944-06-30"
+    },
+    {
+     "id": "de-prov-magdeburg",
+     "from": "1944-07-01",
+     "to": "1945-07-08"
+    },
+    {
+     "id": "de-sachsen-anhalt",
+     "from": "1945-07-09",
+     "to": "1952-07-24"
+    },
+    {
+     "id": "de-bezirk-magdeburg",
+     "from": "1952-07-25",
+     "to": "1990-10-02"
+    },
+    {
+     "id": "de-sachsen-anhalt",
+     "from": "1990-10-03",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Историческая сельская область на севере нынешней Саксонии-Анхальт (районы Штендаль, Зальцведель и др.); узел обозначает сельскую местность региона, а не отдельную общину. В прусской провинции Саксония (округ Магдебург), с 1952 г. в округе Магдебург ГДР.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "de_wikipedia"
+   ],
+   "settlement_class": "rural"
+  }
+ ]
+}

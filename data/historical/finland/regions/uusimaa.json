@@ -1,0 +1,159 @@
+{
+ "records": [
+  {
+   "id": "fi-uusimaa-1944-porkkala-lease",
+   "title": "Аренда Порккалы Советским Союзом",
+   "title_en": "Porkkala leased to the Soviet Union",
+   "start_date": "1944-09-29",
+   "end_date": "1956-01-26",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "fi-laani-uusimaa"
+   ],
+   "category": "border_administrative",
+   "subcategory": "porkkala",
+   "historical_summary": "По Московскому перемирию 19 сентября 1944 г. СССР 29 сентября взял в аренду район вокруг полуострова Порккала в губернии Уусимаа, включая части Киркконумми, Сиунтио и Инкоо и почти весь Дегерби. Территория была возвращена Финляндии 26 января 1956 г.",
+   "historical_summary_en": "Under the Moscow Armistice of 19 September 1944 the Soviet Union leased an area around the Porkkala peninsula in Uusimaa Province on 29 September, including parts of Kirkkonummi, Siuntio and Inkoo and almost all of Degerby. The area was returned to Finland on 26 January 1956.",
+   "affected_groups": [
+    "rural_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "evacuation",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Porkkala_Naval_Base",
+     "accessed": "2026-11-11",
+     "supports": "armistice 19.9.1944; lease 29.9.1944; municipalities; returned 26.1.1956"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=3937",
+     "accessed": "2026-11-12",
+     "supports": "RKY Kabanovin tykkitie: the armistice of 19 September 1944 gave the USSR the Porkkala base (parts of Kirkkonummi, Inkoo, Siuntio and almost all of Degerby); the USSR gave it up in 1956"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-uusimaa-1947-porkkala-tunnel-trains",
+   "title": "Поезда через Порккалу с закрытыми окнами",
+   "title_en": "Trains through Porkkala with shuttered windows",
+   "start_date": "1947",
+   "end_date": "1956-01-26",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "fi-laani-uusimaa"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": "porkkala",
+   "historical_summary": "С 1947 г. финские пассажирские поезда Хельсинки — Турку могли проходить через арендованную Порккалу, но окна вагонов закрывались ставнями, составы вели советские локомотивы и бригады, а фотографировать запрещалось.",
+   "historical_summary_en": "From 1947 Finnish passenger trains between Helsinki and Turku could pass through leased Porkkala, but windows had to be shuttered, Soviet engines and crews pulled the trains and photography was prohibited.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "train_with_shuttered_windows"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_yle_elava_arkisto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Porkkala_Naval_Base",
+     "accessed": "2026-11-11",
+     "supports": "from 1947 trains through area; shuttered windows; Soviet engines"
+    },
+    {
+     "source_id": "fi_yle_elava_arkisto",
+     "url": "https://yle.fi/a/20-156265",
+     "accessed": "2026-11-12",
+     "supports": "Yle Elävä arkisto: after almost three years the railway through Porkkala reopened; trains could pass for a fee with windows covered by metal sheets; the area was returned on 26 January 1956"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-uusimaa-2020-covid-region-closed",
+   "title": "Изоляция области Уусимаа",
+   "title_en": "Uusimaa region sealed off",
+   "start_date": "2020-03-28",
+   "end_date": "2020-04-15",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "fi-uusimaa"
+   ],
+   "category": "public_health",
+   "subcategory": "covid19",
+   "historical_summary": "27 марта 2020 г. парламент проголосовал за временное закрытие границ области Уусимаа, и ограничение вступило в силу в ближайшую полночь. Передвижение между Уусимаа и остальной Финляндией вновь разрешили 15 апреля 2020 г.",
+   "historical_summary_en": "On 27 March 2020 Parliament voted to close the borders of the Uusimaa region temporarily, and the restriction took effect at the following midnight. Travel between Uusimaa and the rest of the country was allowed again on 15 April 2020.",
+   "affected_groups": [
+    "all_residents",
+    "commuters",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "isolation",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "could_not_visit_family",
+    "phone_calls_during_lockdown"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_valtioneuvosto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Finland",
+     "accessed": "2026-11-11",
+     "supports": "27.3.2020 vote, effective following midnight; lifted 15.4.2020"
+    },
+    {
+     "source_id": "fi_valtioneuvosto",
+     "url": "https://valtioneuvosto.fi/-/liikkumisrajoitukset-uudellemaalle-voimaan-28-maaliskuuta-2020-klo-00-00",
+     "accessed": "2026-11-12",
+     "supports": "Government release: movement restrictions to and from Uusimaa in force from 28 March 2020 until 19 April 2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

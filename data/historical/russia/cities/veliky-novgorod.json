@@ -31,7 +31,9 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib",
+        "ru_novgorodmuseum"
       ],
       "evidence": [
         {
@@ -39,16 +41,28 @@
           "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
           "accessed": "2026-10-29",
           "supports": "15.08.1941 – 20.01.1944; разрушение"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/618964",
+          "accessed": "2026-11-13",
+          "supports": "Новгород освобождён 20 января 1944 после 883 дней оккупации"
+        },
+        {
+          "source_id": "ru_novgorodmuseum",
+          "url": "https://novgorodmuseum.ru/o-muzee-zapovednike/istoriya-muzeya",
+          "accessed": "2026-11-13",
+          "supports": "Новгород оккупирован с августа 1941 по январь 1944 года"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-novgorod-1944-millennium-monument",
       "title": "Памятник «Тысячелетие России» восстановлен",
       "title_original": null,
-      "start_date": "1944-11-05",
+      "start_date": "1944-11-02",
       "end_date": null,
       "date_precision": "day",
       "approximate": false,
@@ -61,7 +75,7 @@
       ],
       "category": "culture_leisure",
       "subcategory": null,
-      "historical_summary": "5 ноября 1944 года в освобождённом Новгороде вновь открыли памятник «Тысячелетие России», разобранный при оккупации.",
+      "historical_summary": "2 ноября 1944 года в освобождённом Новгороде вновь открыли памятник «Тысячелетие России», разобранный при оккупации.",
       "affected_groups": [
         "all_residents"
       ],
@@ -69,7 +83,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -77,10 +92,16 @@
           "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
           "accessed": "2026-10-29",
           "supports": "05.11.1944"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/news/2194477",
+          "accessed": "2026-11-13",
+          "supports": "памятник «Тысячелетие России» разобран при оккупации, восстановлен и вторично открыт 2 ноября 1944"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-novgorod-1945-priority-restoration",
@@ -187,7 +208,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -195,10 +217,16 @@
           "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
           "accessed": "2026-10-29",
           "supports": "26.07.1951"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619413",
+          "accessed": "2026-11-13",
+          "supports": "26.07.1951: экспедиция А. В. Арциховского нашла первую берестяную грамоту на Неревском раскопе Новгорода"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-novgorod-1967-chemical-plant",
@@ -305,7 +333,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_novgorodmuseum"
       ],
       "evidence": [
         {
@@ -313,10 +342,16 @@
           "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
           "accessed": "2026-10-29",
           "supports": "1992"
+        },
+        {
+          "source_id": "ru_novgorodmuseum",
+          "url": "https://novgorodmuseum.ru/o-muzee-zapovednike/istoriya-muzeya",
+          "accessed": "2026-11-13",
+          "supports": "история Новгородского музея-заповедника: в 1992 году памятники Новгорода и окрестностей включены в Список всемирного наследия ЮНЕСКО"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-novgorod-1999-veliky-novgorod",
@@ -343,7 +378,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_novreg"
       ],
       "evidence": [
         {
@@ -351,10 +387,16 @@
           "url": "https://ru.wikipedia.org/wiki/Великий_Новгород",
           "accessed": "2026-10-29",
           "supports": "11.06.1999"
+        },
+        {
+          "source_id": "ru_novreg",
+          "url": "https://www.novreg.ru/o-regione/istoricheskaya-spravka/",
+          "accessed": "2026-11-13",
+          "supports": "историческая справка Правительства Новгородской области: Новгород с 1999 года — Великий Новгород"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-novgorod-2016-derevyanitsky-bridge",

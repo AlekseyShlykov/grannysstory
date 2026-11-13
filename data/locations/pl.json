@@ -1,48 +1,6 @@
 {
  "locations": [
   {
-   "id": "state-de-empire",
-   "type": "state",
-   "country": "DE",
-   "wikidata": "Q43287",
-   "codes": {},
-   "names": [
-    {
-     "name": "Deutsches Reich",
-     "lang": "de",
-     "from": "1871",
-     "to": "1918-11-09"
-    }
-   ],
-   "names_ru": [
-    {
-     "name": "Германская империя",
-     "locative": "в Германской империи",
-     "from": "1871",
-     "to": "1918-11-09"
-    }
-   ],
-   "alt_names": [
-    "Kaiserreich",
-    "Германская империя"
-   ],
-   "coordinates": null,
-   "parents": [
-    {
-     "id": "world",
-     "from": "1871",
-     "to": "1918-11-09"
-    }
-   ],
-   "sovereignty_note": "Даты по Wikidata (P571 1871, P576 1918-11-09). Нужен только как верхний уровень для Данцига (провинция Западная Пруссия).",
-   "occupations": [],
-   "source_ids": [
-    "wikidata"
-   ],
-   "valid_from": "1871",
-   "valid_to": "1918-11-09"
-  },
-  {
    "id": "state-at-hu",
    "type": "state",
    "country": "AT",
@@ -180,48 +138,6 @@
    ],
    "valid_from": "1920-01-10",
    "valid_to": "1939-09-01"
-  },
-  {
-   "id": "state-de-reich",
-   "type": "state",
-   "country": "DE",
-   "wikidata": null,
-   "codes": {},
-   "names": [
-    {
-     "name": "Deutsches Reich",
-     "lang": "de",
-     "from": "1918-11-09",
-     "to": "1945-05-23"
-    }
-   ],
-   "names_ru": [
-    {
-     "name": "Германия",
-     "locative": "в Германии",
-     "from": "1918-11-09",
-     "to": "1945-05-23"
-    }
-   ],
-   "alt_names": [
-    "Веймарская республика (Q41304)",
-    "Третий рейх (Q7318)"
-   ],
-   "coordinates": null,
-   "parents": [
-    {
-     "id": "world",
-     "from": "1918-11-09",
-     "to": "1945-05-23"
-    }
-   ],
-   "sovereignty_note": "Германия 1918–1945 одним узлом: Веймарская республика (Q41304, с 9.11.1918) и нацистская Германия (Q7318, P576 23.05.1945). Для этой базы важна как суверен Данцига 1918–1920 и 1939–1945.",
-   "occupations": [],
-   "source_ids": [
-    "wikidata"
-   ],
-   "valid_from": "1918-11-09",
-   "valid_to": "1945-05-23"
   },
   {
    "id": "pl-gub-warszawa",

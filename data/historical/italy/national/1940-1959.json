@@ -1,0 +1,585 @@
+{
+ "records": [
+  {
+   "id": "it-nat-1943-fall-of-mussolini",
+   "title": "Падение Муссолини",
+   "title_en": "Fall of Mussolini",
+   "start_date": "1943-07-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "25 июля 1943 г. Большой фашистский совет принял резолюцию против Муссолини; король отправил его в отставку и арестовал. Правительство возглавил маршал Пьетро Бадольо.",
+   "historical_summary_en": "On 25 July 1943 the Grand Council of Fascism passed a motion against Mussolini; the King dismissed and arrested him. Marshal Pietro Badoglio became head of the government.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_celebration"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile",
+     "accessed": "2026-11-11",
+     "supports": "25.07.1943 Большой совет, отставка и арест Муссолини"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-001352/25-luglio-1943-caduta-del-fascismo",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «25 luglio 1943 - Caduta del fascismo»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1943-armistice",
+   "title": "Перемирие 8 сентября и германская оккупация",
+   "title_en": "Armistice of 8 September and German occupation",
+   "start_date": "1943-09-08",
+   "end_date": "1943-09-12",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "occupation",
+   "historical_summary": "Перемирие с союзниками, тайно подписанное 3 сентября 1943 г. в Кассибиле, было объявлено 8 сентября. С 8 по 12 сентября германские войска заняли большую часть не контролируемой союзниками территории; итальянская армия на севере и в центре страны была разоружена и распалась.",
+   "historical_summary_en": "The armistice with the Allies, secretly signed at Cassibile on 3 September 1943, was announced on 8 September. From 8 to 12 September German forces occupied most of the territory not held by the Allies; the Italian army in the north and centre was disarmed and fell apart.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families",
+    "men"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "soldier_walking_home",
+    "hiding_from_roundups"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Armistice_of_Cassibile",
+     "accessed": "2026-11-11",
+     "supports": "подписано 3.09, объявлено 8.09.1943; операция Achse 8–12.09"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000305/8-settembre-1943-badoglio-annuncia-resa",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «8 settembre 1943 - Badoglio annuncia la resa»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1945-women-vote",
+   "title": "Женщины получают право голоса",
+   "title_en": "Women gain the right to vote",
+   "title_original": "Decreto legislativo luogotenenziale 1 febbraio 1945, n. 23",
+   "start_date": "1945-02-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Декрет № 23 от 1 февраля 1945 г. распространил право голоса на женщин, а декрет № 74 от 10 марта 1946 г. позволил им баллотироваться. На муниципальных выборах 10 марта — 7 апреля 1946 г. в 5722 коммунах в советы были избраны около двух тысяч женщин.",
+   "historical_summary_en": "Decree no. 23 of 1 February 1945 extended the vote to women, and decree no. 74 of 10 March 1946 allowed them to stand for election. In municipal elections held in 5,722 comuni between 10 March and 7 April 1946, about two thousand women were elected to councils.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "women_first_vote",
+    "first_vote_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_agi",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_agi",
+     "url": "https://www.agi.it/cultura/news/2026-03-08/10-marzo-1946-voto-donne-35953141/",
+     "accessed": "2026-11-11",
+     "supports": "декрет 1.02.1945 n. 23; декрет 10.03.1946 n. 74; 5722 коммуны; ~2000 избранных женщин"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo.luogotenenziale:1945-02-01;23",
+     "accessed": "2026-11-12",
+     "supports": "DLL 1 febbraio 1945 n. 23 «Estensione alle donne del diritto di voto»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1945-liberation",
+   "title": "Освобождение: восстание 25 апреля",
+   "title_en": "Liberation: the 25 April uprising",
+   "start_date": "1945-04-25",
+   "end_date": "1945-05-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "25 апреля 1945 г. Комитет национального освобождения Северной Италии объявил всеобщее восстание на занятых территориях; в тот же день был освобождён Милан. Капитуляция германских войск в Италии вступила в силу 2 мая 1945 г.; с 1946 г. 25 апреля — национальный праздник.",
+   "historical_summary_en": "On 25 April 1945 the National Liberation Committee for Northern Italy proclaimed a general insurrection in the occupied territories; Milan was liberated that day. The surrender of German forces in Italy took effect on 2 May 1945; since 1946, 25 April has been a national holiday.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_celebration",
+    "partisan_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Liberation_Day_(Italy)",
+     "accessed": "2026-11-11",
+     "supports": "25.04.1945 CLNAI; Милан; капитуляция 2.05.1945; праздник с 1946 (DLL 185), закон 260/1949"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo.luogotenenziale:1946-04-22;185",
+     "accessed": "2026-11-12",
+     "supports": "DLL 22 aprile 1946 n. 185: 25 апреля 1946 г. объявлено национальным праздником в честь освобождения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1946-referendum-republic",
+   "title": "Референдум: Италия становится республикой",
+   "title_en": "Referendum: Italy becomes a republic",
+   "title_original": "Referendum istituzionale",
+   "start_date": "1946-06-02",
+   "end_date": "1946-06-18",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "2–3 июня 1946 г. на институциональном референдуме при явке 89% за республику проголосовали 54,3%, за монархию — 45,7%; впервые в общенациональном голосовании участвовали женщины. Кассационный суд утвердил окончательные итоги 18 июня, король Умберто II уехал из страны 13 июня.",
+   "historical_summary_en": "In the institutional referendum of 2–3 June 1946, with 89% turnout, 54.3% voted for a republic and 45.7% for the monarchy; women took part in a national vote for the first time. The Court of Cassation confirmed the final results on 18 June, and King Umberto II left the country on 13 June.",
+   "affected_groups": [
+    "all_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote_in_family",
+    "women_first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_interno_dait"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Referendum_istituzionale_del_1946",
+     "accessed": "2026-11-11",
+     "supports": "2–3.06.1946; 89,08%; 54,27/45,73; первое голосование женщин; 18.06 итоги; 13.06 отъезд Умберто II"
+    },
+    {
+     "source_id": "it_interno_dait",
+     "url": "https://dait.interno.gov.it/documenti/referendum_risultati_complessivi_1946_2016_0.pdf",
+     "accessed": "2026-11-12",
+     "supports": "2.06.1946: явка 89,08%, республика 12 718 641 (54,27%), монархия 10 718 502 (45,73%)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1948-constitution",
+   "title": "Вступает в силу Конституция Итальянской Республики",
+   "title_en": "Constitution of the Italian Republic comes into force",
+   "title_original": "Costituzione della Repubblica Italiana",
+   "start_date": "1948-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "Конституция, одобренная Учредительным собранием 22 декабря 1947 г. и промульгированная 27 декабря, вступила в силу 1 января 1948 г.",
+   "historical_summary_en": "The Constitution, approved by the Constituent Assembly on 22 December 1947 and promulgated on 27 December, came into force on 1 January 1948.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Costituzione_della_Repubblica_Italiana",
+     "accessed": "2026-11-11",
+     "supports": "одобрена 22.12.1947, промульгирована 27.12.1947, в силе 1.01.1948"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:costituzione:1947-12-27",
+     "accessed": "2026-11-12",
+     "supports": "Конституция (GU n. 298 del 27.12.1947), вступила в силу 1.01.1948"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1949-ina-casa",
+   "title": "План INA-Casa: жильё для рабочих",
+   "title_en": "INA-Casa plan: housing for workers",
+   "title_original": "Piano INA-Casa",
+   "start_date": "1949-02-28",
+   "end_date": "1963",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Законом № 43 от 28 февраля 1949 г. был запущен государственный план строительства жилья INA-Casa, продлённый в 1955 г. и действовавший до 1963 г. За 14 лет было построено около 355 тыс. квартир (около 2 млн комнат) более чем в 5 тыс. коммун.",
+   "historical_summary_en": "Law no. 43 of 28 February 1949 launched the INA-Casa state housing plan, extended in 1955 and running until 1963. Over 14 years about 355,000 dwellings (about 2 million rooms) were built in more than 5,000 municipalities.",
+   "affected_groups": [
+    "industrial_workers",
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "housing_improvement",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation",
+    "first_bathroom_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Piano_INA-Casa",
+     "accessed": "2026-11-11",
+     "supports": "legge 28.02.1949 n. 43; продление 1955; до 1963; 355 000 квартир, >5000 коммун"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1949-02-28;43",
+     "accessed": "2026-11-12",
+     "supports": "Legge 28 febbraio 1949 n. 43 о строительстве домов для рабочих"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1950-cassa-mezzogiorno",
+   "title": "Создание Кассы для Юга",
+   "title_en": "Cassa per il Mezzogiorno created",
+   "title_original": "Cassa per il Mezzogiorno",
+   "start_date": "1950-08-10",
+   "end_date": "1984-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Законом № 646 от 10 августа 1950 г. была создана Касса для Юга — государственное ведомство, финансировавшее чрезвычайные работы для развития Южной Италии: дороги, водопроводы, мелиорацию, промышленные зоны. Её распустили в августе 1984 г.",
+   "historical_summary_en": "Law no. 646 of 10 August 1950 created the Cassa per il Mezzogiorno, a public body funding extraordinary works for the development of southern Italy: roads, aqueducts, land reclamation and industrial zones. It was dissolved in August 1984.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "new_road_to_the_village",
+    "running_water_arrives"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Cassa_per_il_Mezzogiorno",
+     "accessed": "2026-11-11",
+     "supports": "legge 10.08.1950 n. 646; ASI, дороги, отчёт о мелиорации и акведуках; ликвидация с 1.08.1984"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1950-08-10;646",
+     "accessed": "2026-11-12",
+     "supports": "Legge 10 agosto 1950 n. 646 об учреждении Cassa per il Mezzogiorno"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1954-rai-tv",
+   "title": "Начало регулярного телевещания RAI",
+   "title_en": "RAI begins regular television",
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В 1954 г. RAI начала официальное телевещание в Италии.",
+   "historical_summary_en": "In 1954 RAI began official television broadcasting in Italy.",
+   "affected_groups": [
+    "all_residents",
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_in_the_bar",
+    "watching_tv_at_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "1954: RAI broadcasts first official TV programme"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1955-germany-recruitment",
+   "title": "Соглашение о вербовке рабочих с ФРГ",
+   "title_en": "Labour recruitment agreement with West Germany",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1955 г. Италия подписала с ФРГ соглашение о трудовой эмиграции, открывшее массовый выезд на работу в Германию. Позднее по этому пути через границу прошли почти три миллиона итальянцев; после войны потоки шли также в Швейцарию и Бельгию.",
+   "historical_summary_en": "In 1955 Italy signed a labour emigration agreement with West Germany, opening the way for mass departures to work in Germany. Almost three million Italians later crossed the border by this route; after the war flows also went to Switzerland and Belgium.",
+   "affected_groups": [
+    "industrial_workers",
+    "young_adults",
+    "migrants",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "gastarbeiter_train",
+    "emigration_letters"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Emigrazione_italiana",
+     "accessed": "2026-11-11",
+     "supports": "«firmò nel 1955 un patto di emigrazione con la Germania», почти 3 млн"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1956-autostrada-start",
+   "title": "Начало строительства Автострады Солнца",
+   "title_en": "Construction of the Autostrada del Sole begins",
+   "title_original": "Autostrada del Sole",
+   "start_date": "1956-05-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "19 мая 1956 г. под Миланом был заложен первый камень Автострады Солнца, которая должна была соединить Милан с Неаполем. Строительство шло от Милана в сторону Пьяченцы.",
+   "historical_summary_en": "On 19 May 1956 the first stone of the Autostrada del Sole, meant to link Milan with Naples, was laid near Milan. Work proceeded from Milan towards Piacenza.",
+   "affected_groups": [
+    "industrial_workers",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "road_building_job"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Autostrada_A1_(Italia)",
+     "accessed": "2026-11-11",
+     "supports": "первый камень 19.05.1956, Милан→Пьяченца"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1957-treaty-of-rome",
+   "title": "Римский договор и ЕЭС",
+   "title_en": "Treaty of Rome and the EEC",
+   "start_date": "1957",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1957 г. Римским договором было основано Европейское экономическое сообщество, одним из основателей которого стала Италия.",
+   "historical_summary_en": "In 1957 the Treaty of Rome founded the European Economic Community, of which Italy was a founding member.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "work_abroad_in_europe"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "1957: Treaty of Rome founds EEC"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1957-10-14;1203",
+     "accessed": "2026-11-12",
+     "supports": "Legge 14 ottobre 1957 n. 1203 о ратификации договоров, подписанных в Риме 25.03.1957, в т. ч. договора о ЕЭС"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

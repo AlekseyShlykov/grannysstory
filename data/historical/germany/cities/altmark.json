@@ -1,0 +1,466 @@
+{
+ "records": [
+  {
+   "id": "de-altmark-1945-death-marches",
+   "title": "Марши смерти в Альтмарке",
+   "title_en": "Death marches in the Altmark",
+   "start_date": "1945",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "repression",
+   "historical_summary": "Весной 1945 г. Альтмарк стал конечной точкой эвакуационных транспортов и маршей смерти из нацистских концлагерей; о жертвах напоминает мемориал «Фельдшойне Изеншниббе» в Гарделегене.",
+   "historical_summary_en": "In spring 1945 the Altmark became the end point of evacuation transports and death marches from Nazi concentration camps, commemorated by the Isenschnibbe Barn memorial in Gardelegen.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Altmark",
+     "accessed": "2026-11-11",
+     "supports": "Frühjahr 1945 Todesmärsche; Gardelegen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1952-model-village",
+   "title": "Коллективизация и «образцовая социалистическая деревня»",
+   "title_en": "Collectivisation and a 'socialist model village'",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С 1952 г. Альтмарк входил в округ Магдебург ГДР; в ходе коллективизации деревню Лангенапель превратили в «образцовую социалистическую деревню».",
+   "historical_summary_en": "From 1952 the Altmark belonged to the GDR's Magdeburg District, and during collectivisation the village of Langenapel was developed into a 'socialist model village'.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "joining_the_cooperative",
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Altmark",
+     "accessed": "2026-11-11",
+     "supports": "1952 Bezirk Magdeburg; Langenapel sozialistisches Musterdorf"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1969-natural-gas",
+   "title": "Добыча природного газа",
+   "title_en": "Natural gas extraction begins",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1969 г. в Альтмарке началась добыча природного газа; пик пришёлся на 1983 г. — 12,5 млрд кубометров. В 1998 г. начали демонтировать установки, а к 2010 г. было добыто 209 млрд кубометров и работали около 130 из более чем 450 скважин.",
+   "historical_summary_en": "In 1969 natural gas extraction began in the Altmark, peaking in 1983 at 12.5 billion cubic metres. Dismantling of the installations began in 1998, and by 2010 a total of 209 billion cubic metres had been extracted, with about 130 of over 450 wells still operating.",
+   "affected_groups": [
+    "industrial_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "shift_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Altmark",
+     "accessed": "2026-11-11",
+     "supports": "1969 start; 1983 12,5 Mrd m³; 1998 Rückbau; 2010 209 Mrd, ~130 von >450"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1970-nuclear-plant-decision",
+   "title": "Решение о строительстве АЭС Штендаль",
+   "title_en": "Decision to build the Stendal nuclear plant",
+   "start_date": "1970-04-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "technology",
+   "historical_summary": "16 апреля 1970 г. правительство ГДР решило построить к северу от Магдебурга третью атомную станцию мощностью 4000 МВт; площадку у деревни Нидергёрне (около 120 жителей) выбрали в 1972 г., а 1 января 1975 г. было основано предприятие VEB Kernkraftwerk Stendal.",
+   "historical_summary_en": "On 16 April 1970 the GDR government decided to build a third nuclear power station of 4,000 MW north of Magdeburg; the site at the village of Niedergörne (about 120 residents) was chosen in 1972, and VEB Kernkraftwerk Stendal was founded on 1 January 1975.",
+   "affected_groups": [
+    "rural_residents",
+    "scientists_engineers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Stendal",
+     "accessed": "2026-11-11",
+     "supports": "16.04.1970; 1972 Niedergörne; 01.01.1975 VEB"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1977-stendal-housing",
+   "title": "Новые панельные кварталы Штендаля",
+   "title_en": "New prefabricated estates in Stendal",
+   "start_date": "1977",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "Во второй половине 1970-х гг. для строителей АЭС в Штендале (Штадтзее и Штендаль-Зюд) и Остербурге возвели около 14 тыс. квартир.",
+   "historical_summary_en": "In the second half of the 1970s about 14,000 flats were built for the nuclear plant workforce in Stendal (Stadtsee and Stendal-Süd) and Osterburg.",
+   "affected_groups": [
+    "industrial_workers",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_improvement",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Stendal",
+     "accessed": "2026-11-11",
+     "supports": "2. Hälfte 1970er ~14 000 Wohnungen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1981-nuclear-construction",
+   "title": "Начало строительства энергоблока A",
+   "title_en": "Construction of Block A begins",
+   "start_date": "1981-11-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "technology",
+   "historical_summary": "5 ноября 1981 г. начались работы на энергоблоке A АЭС Штендаль, в 1984 г. — на блоке B; в октябре 1988 г. была завершена первая градирня. На стройке работали 9500 строителей, а в середине 1990 г. — 7500 человек, из них 3500 иностранных рабочих.",
+   "historical_summary_en": "On 5 November 1981 work began on Block A of the Stendal nuclear plant, and on Block B in 1984, and the first cooling tower was completed in October 1988. The site employed 9,500 construction workers, and in mid-1990 there were 7,500 people on site, including 3,500 foreign workers.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "new_colleagues_from_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Stendal",
+     "accessed": "2026-11-11",
+     "supports": "05.11.1981; 01.12.1984 Block B; Oktober 1988 Kühlturm; 9500; Mitte 1990 7500/3500"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1990-nuclear-halt",
+   "title": "Остановка строительства АЭС",
+   "title_en": "Nuclear plant construction halted",
+   "start_date": "1990-09-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "local_economy",
+   "historical_summary": "17 сентября 1990 г. строительство АЭС Штендаль было временно остановлено, а в марте 1991 г. прекращено окончательно; градирни снесли в 1994 и 1999 гг.",
+   "historical_summary_en": "On 17 September 1990 construction of the Stendal nuclear plant was provisionally halted, and in March 1991 it was stopped for good; the cooling towers were demolished in 1994 and 1999.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "factory_closes",
+    "children_moved_west"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Stendal",
+     "accessed": "2026-11-11",
+     "supports": "17.09.1990; März 1991; 19.05.1994, 29.10.1999 Sprengungen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-1990-back-to-saxony-anhalt",
+   "title": "Альтмарк снова в Саксонии-Анхальт",
+   "title_en": "The Altmark returns to Saxony-Anhalt",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1990 г. Альтмарк вновь стал частью земли Саксония-Анхальт, а в 1994 г. районная реформа изменила границы районов.",
+   "historical_summary_en": "In 1990 the Altmark again became part of the state of Saxony-Anhalt, and in 1994 a district reform changed district boundaries.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Altmark",
+     "accessed": "2026-11-11",
+     "supports": "1990 Sachsen-Anhalt; 1994 Kreisgebietsreform"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-2002-rail-closures",
+   "title": "Закрытие пассажирских железных дорог",
+   "title_en": "Passenger rail closures",
+   "start_date": "2002",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2002 г. прекратилось пассажирское движение по линии Эбисфельде — Зальцведель, а в 2004 г. — по линии Зальцведель — Гестготтберг.",
+   "historical_summary_en": "In 2002 passenger services ended on the Oebisfelde–Salzwedel line, and in 2004 on the Salzwedel–Geestgottberg line.",
+   "affected_groups": [
+    "rural_residents",
+    "commuters",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "bus_instead_of_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Altmark",
+     "accessed": "2026-11-11",
+     "supports": "2002, 2004"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-2004-pulp-mill",
+   "title": "Целлюлозный комбинат на месте АЭС",
+   "title_en": "Pulp mill on the former nuclear site",
+   "start_date": "2004",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В середине 1990-х на площадке недостроенной АЭС создали Индустриальный парк Альтмарк; в 2004 г. там заработал целлюлозный комбинат Zellstoff Stendal, а осенью 2006 г. — фабрика гигиенической бумаги.",
+   "historical_summary_en": "In the mid-1990s the Altmark Industrial Park was set up on the site of the unfinished nuclear plant; the Zellstoff Stendal pulp mill began operating there in 2004, and a hygiene paper factory in autumn 2006.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Kernkraftwerk_Stendal",
+     "accessed": "2026-11-11",
+     "supports": "Mitte 1990er Industriepark; 2004 Zellstoff Stendal; Herbst 2006 Delipapier"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-altmark-2009-bioenergy-region",
+   "title": "Биоэнергетический регион",
+   "title_en": "Bioenergy region",
+   "start_date": "2009",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-altmark"
+   ],
+   "category": "environment",
+   "historical_summary": "В 2002–2007 гг. Альтмарк участвовал в федеральной программе «Активные регионы», а в 2009 г. стал одним из 25 «биоэнергетических регионов» страны.",
+   "historical_summary_en": "From 2002 to 2007 the Altmark took part in the federal 'Active Regions' programme, and in 2009 it became one of Germany's 25 bioenergy regions.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Altmark",
+     "accessed": "2026-11-11",
+     "supports": "2002–2007 Regionen Aktiv; 2009 Bioenergie-Region"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

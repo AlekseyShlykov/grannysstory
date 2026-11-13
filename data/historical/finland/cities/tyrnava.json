@@ -1,0 +1,397 @@
+{
+ "records": [
+  {
+   "id": "fi-tyrnava-1900-cooperative-dairy",
+   "title": "Кооперативная молочная Тюрнявя",
+   "title_en": "Tyrnävä cooperative dairy",
+   "start_date": "1905",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1905 г. основана кооперативная молочная Тюрнявя (здание готово в 1906 г.), охватывавшая всю тогдашнюю общину; одно время она была крупнейшей в Северной Остроботнии, а население превысило 3000 человек. Конная молочная в Кярсямя (Теммес) работала до 1959 г.",
+   "historical_summary_en": "The Tyrnävä cooperative dairy, serving the whole municipality, was founded in 1905 (its building was completed in 1906); at one time it was the largest in North Ostrobothnia, and the population exceeded 3,000. A horse-powered dairy operated at Kärsämä in Temmes until 1959.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "milk_cans_to_the_dairy"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "early 1900s Osuusmeijeri; pop >3,000; Kärsämä dairy closed 1959"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=3997",
+     "accessed": "2026-11-12",
+     "supports": "RKY Tyrnävän Meijerikatu: the Tyrnävä cooperative dairy, covering the whole municipality, was founded in 1905; its building was completed in 1906"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-tyrnava-1917-leather-factory",
+   "title": "Кожевенная фабрика Тюрнявя",
+   "title_en": "Tyrnävä leather factory",
+   "start_date": "1917",
+   "end_date": "1955",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1917–1955 гг. в Тюрнявя работала кожевенная фабрика с обувным цехом.",
+   "historical_summary_en": "A leather factory with an associated shoe factory operated in Tyrnävä from 1917 to 1955.",
+   "affected_groups": [
+    "industrial_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "1917–1955 leather and shoe factory"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-tyrnava-1920-peace-association",
+   "title": "Основание общества мира лестадианцев",
+   "title_en": "Laestadian Peace Association founded",
+   "start_date": "1920",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "religion",
+   "subcategory": null,
+   "historical_summary": "В 1920 г. в Тюрнявя основано лестадианское Общество мира (Tyrnävän rauhanyhdistys); лестадианство пришло в приход в 1875 г.",
+   "historical_summary_en": "The Laestadian Peace Association of Tyrnävä was founded in 1920; Laestadianism had reached the parish in 1875.",
+   "affected_groups": [
+    "rural_residents",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "big_family_faith"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "1920 rauhanyhdistys; 1875 Laestadianism"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-tyrnava-1945-postwar-decline",
+   "title": "Послевоенный отток населения",
+   "title_en": "Post-war population decline",
+   "start_date": "1945",
+   "end_date": "1975",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "В 1930-е население Тюрнявя превышало 4000 человек, но после Второй мировой войны оно сокращалось до середины 1970-х, когда составляло около 3000.",
+   "historical_summary_en": "Tyrnävä's population exceeded 4,000 in the 1930s, but after the Second World War it declined until the mid-1970s, when it was about 3,000.",
+   "affected_groups": [
+    "rural_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "1930s >4,000; decline to ~3,000 mid-1970s"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-tyrnava-1960-gas-wells",
+   "title": "Конец использования природного газа из скважин Леппиойя",
+   "title_en": "End of natural gas use from the Leppioja wells",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "В 1960-е прекратилось использование природного газа из скважин в Леппиойя, служившего более 40 лет.",
+   "historical_summary_en": "Use of natural gas from wells at Leppioja, which had lasted over 40 years, ended in the 1960s.",
+   "affected_groups": [
+    "rural_residents",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "1960s end of gas use, 40+ years"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-tyrnava-1979-ski-centenary",
+   "title": "Памятник лыжнику к столетию соревнований",
+   "title_en": "Skier statue for the centenary of the ski races",
+   "start_date": "1979",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "sport",
+   "subcategory": null,
+   "historical_summary": "В 1979 г. в Тюрнявя открыли статую лыжника к 100-летию первых в Финляндии общих лыжных соревнований, прошедших здесь 23 марта 1879 г.",
+   "historical_summary_en": "In 1979 a skier statue was unveiled in Tyrnävä for the centenary of Finland's first general ski competition, held there on 23 March 1879.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "skiing_to_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "1979 statue; 23.3.1879 first ski competitions"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-tyrnava-2001-temmes-merger",
+   "title": "Присоединение Теммеса",
+   "title_en": "Temmes merged into Tyrnävä",
+   "start_date": "2001-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "1 января 2001 г. муниципалитет Теммес (около 700 жителей) присоединился к Тюрнявя, кроме анклавов, отошедших соседям.",
+   "historical_summary_en": "On 1 January 2001 the municipality of Temmes, with about 700 residents, merged into Tyrnävä, except for enclaves that went to neighbouring municipalities.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_statfin"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "1.1.2001 Temmes merged; ~700 residents"
+    },
+    {
+     "source_id": "fi_statfin",
+     "url": "https://stat.fi/til/kvaa/2008/kvaa_2008_2008-09-30_luo_001_sv.html",
+     "accessed": "2026-11-12",
+     "supports": "Statistics Finland, municipal mergers 1981–2009: Temmes merged into Tyrnävä on 1 January 2001"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-tyrnava-2004-highest-birth-rate",
+   "title": "Самая высокая рождаемость в Финляндии",
+   "title_en": "Finland's highest birth rate",
+   "start_date": "2004",
+   "end_date": "2008",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "В 2004–2008 гг. в Тюрнявя была самая высокая рождаемость в Финляндии — 4,01 ребёнка на женщину; в 2021 г. 30,1% жителей были моложе 15 лет.",
+   "historical_summary_en": "In 2004–2008 Tyrnävä had Finland's highest fertility, 4.01 children per woman; in 2021, 30.1% of residents were under 15.",
+   "affected_groups": [
+    "mothers",
+    "parents",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "big_family_faith",
+    "many_grandchildren"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "2004–2008 TFR 4.01; 2021 30.1% under 15"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-tyrnava-2025-shaman-spirits",
+   "title": "Банкротство винокурни Shaman Spirits",
+   "title_en": "Shaman Spirits distillery bankrupt",
+   "start_date": "2025",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-tyrnava"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 2025 г. обанкротился производитель картофельного спирта Shaman Spirits в Тюрнявя, известной семенным картофелем и ежегодными картофельными ярмарками.",
+   "historical_summary_en": "In 2025 the potato spirits producer Shaman Spirits in Tyrnävä, a municipality known for seed potatoes and annual potato markets, went bankrupt.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "potato_harvest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Tyrnävä",
+     "accessed": "2026-11-11",
+     "supports": "2025 bankruptcy; potato markets annual"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

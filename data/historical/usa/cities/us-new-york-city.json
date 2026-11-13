@@ -180,7 +180,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nyc_gov"
    ],
    "evidence": [
     {
@@ -188,10 +189,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "1916 Zoning Resolution adopted"
+    },
+    {
+     "source_id": "us_nyc_gov",
+     "url": "https://www.nyc.gov/assets/planning/download/pdf/about/city-planning-history/midtown_zoning.pdf",
+     "accessed": "2026-11-13",
+     "supports": "Департамент городского планирования Нью-Йорка: постановление о зонировании 1916 г. — первое в стране, районы по высоте и уступам зданий"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-1918-influenza",
@@ -290,7 +297,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_panynj"
    ],
    "evidence": [
     {
@@ -298,10 +306,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "1927-11-13 Holland Tunnel opens"
+    },
+    {
+     "source_id": "us_panynj",
+     "url": "https://portfolio.panynj.gov/2017/11/13/the-holland-at-90-a-drive-down-memory-lane/",
+     "accessed": "2026-11-13",
+     "supports": "блог Портового управления 13.11.2017 к 90-летию открытия тоннеля; официальное открытие сигналом президента Кулиджа"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-1931-bank-of-united-states",
@@ -555,7 +569,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -569,10 +584,16 @@
      "url": "https://en.wikipedia.org/wiki/North_American_blizzard_of_1947",
      "accessed": "2026-11-06",
      "supports": "26–27.12.1947, 26,4 дюйма (67 см) в Центральном парке, 77 погибших"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/media/okx/Climate/CentralPark/BiggestSnowstorms.pdf",
+     "accessed": "2026-11-13",
+     "supports": "NWS Нью-Йорк: 26–27 декабря 1947 г. в Центральном парке 26,4 дюйма снега (3-й снегопад за всю историю наблюдений)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-1948-stuyvesant-town",
@@ -674,7 +695,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_panynj"
    ],
    "evidence": [
     {
@@ -682,10 +704,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "1950 Brooklyn-Battery Tunnel May 25; Port Authority Bus Terminal Dec 15"
+    },
+    {
+     "source_id": "us_panynj",
+     "url": "https://portfolio.panynj.gov/2015/08/20/the-port-authority-bus-terminals-ralphie-an-ode-to-the-the-great-one/",
+     "accessed": "2026-11-13",
+     "supports": "южное крыло автовокзала открыто 15 декабря 1950 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-1958-puerto-rican-day-parade",
@@ -1124,7 +1152,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_cdc"
    ],
    "evidence": [
     {
@@ -1132,10 +1161,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "1981 AIDS reported, NYC first in cases; 1999 >75,000 deaths"
+    },
+    {
+     "source_id": "us_cdc",
+     "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/su6004a11.htm",
+     "accessed": "2026-11-13",
+     "supports": "CDC «AIDS: the Early Years»: вслед за первым сообщением 1981 г. поступили новые случаи, ссылка на MMWR 1981;30:305–8 «Саркома Капоши и пневмоцистная пневмония... — Нью-Йорк и Калифорния»"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-1993-wtc-bombing",
@@ -1273,7 +1308,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -1281,10 +1317,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "2012-10-29..30 Sandy"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/okx/hurricanesandy5year",
+     "accessed": "2026-11-13",
+     "supports": "NWS Нью-Йорк: вечером 29 октября 2012 г. нагон «Сэнди» с рекордной водой у Бэттери, затоплены тоннели метро под Ист-Ривер и Бруклин-Бэттери"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-2017-second-avenue-subway",
@@ -1388,7 +1430,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -1396,10 +1439,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_New_York_City",
      "accessed": "2026-10-29",
      "supports": "2021-09-01 Ida"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/media/publications/assessments/Hurricane_Ida_Service_Assessment.pdf",
+     "accessed": "2026-11-13",
+     "supports": "оценка NWS: остатки «Иды» вызвали внезапные наводнения в Нью-Йорке, 13 погибших в городе, первые в истории Flash Flood Emergency для Нью-Йорка"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-nyc-2023-migrant-arrivals",

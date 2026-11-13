@@ -31,7 +31,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -39,10 +40,16 @@
           "url": "https://ru.wikipedia.org/wiki/Паспорт_гражданина_СССР",
           "accessed": "2026-10-29",
           "supports": "27.12.1932; колхозники"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/619849",
+          "accessed": "2026-11-12",
+          "supports": "27.12.1932: постановление ЦИК и СНК о единой паспортной системе и прописке; сельские жители вне системы"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1936-abortion-ban",
@@ -73,7 +80,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -81,10 +89,16 @@
           "url": "https://ru.wikipedia.org/wiki/Аборты_в_СССР",
           "accessed": "2026-10-29",
           "supports": "27.06.1936, состав постановления"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/393165",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: акт РСФСР 1937 года об изменении законодательства в связи с постановлением ЦИК и СНК СССР от 27 июня 1936 «О запрещении абортов, увеличении материальной помощи роженицам…»"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1940-seven-day-week",
@@ -112,7 +126,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -120,10 +135,16 @@
           "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
           "accessed": "2026-10-29",
           "supports": "26.06.1940"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/item/1318920",
+          "accessed": "2026-11-12",
+          "supports": "указ Президиума ВС СССР от 26.06.1940 о восьмичасовом дне, семидневной неделе и запрете самовольного ухода; подлинник ГА РФ, ф. Р-7523"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1944-mother-heroine",
@@ -151,7 +172,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -159,10 +181,16 @@
           "url": "https://ru.wikipedia.org/wiki/Мать-героиня_(СССР)",
           "accessed": "2026-10-29",
           "supports": "08.07.1944; ~431 000"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/item/1955042",
+          "accessed": "2026-11-12",
+          "supports": "указ Президиума ВС СССР от 8.07.1944 о помощи многодетным матерям и звании «Мать-героиня»; подлинник"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1955-abortion-relegalised",
@@ -228,7 +256,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -236,10 +265,16 @@
           "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
           "accessed": "2026-10-29",
           "supports": "08.03.1956; 10.03.1956"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/355238",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: указ Президиума ВС СССР от 8 марта 1956 о сокращении рабочего дня в предвыходные и предпраздничные дни"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1960-seven-hour-day",
@@ -308,7 +343,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -316,10 +352,16 @@
           "url": "https://ru.wikipedia.org/wiki/Денежная_реформа_в_СССР_1961_года",
           "accessed": "2026-10-29",
           "supports": "01.01.1961; 10:1; рынки"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/618911",
+          "accessed": "2026-11-12",
+          "supports": "1.01.1961: денежная реформа, укрупнение рубля в десять раз"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1967-five-day-week",
@@ -352,7 +394,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -360,10 +403,16 @@
           "url": "https://ru.wikipedia.org/wiki/Рабочая_неделя",
           "accessed": "2026-10-29",
           "supports": "07.03.1967; 1971"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/446441",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ЦК КПСС, Совмина СССР и ВЦСПС о переводе на пятидневную рабочую неделю с двумя выходными, 7 марта 1967"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1974-passports-rural",
@@ -395,7 +444,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -403,10 +453,16 @@
           "url": "https://ru.wikipedia.org/wiki/Паспорт_гражданина_СССР",
           "accessed": "2026-10-29",
           "supports": "28.08.1974; 1976–1981"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/419252",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление Совмина СССР от 28 августа 1974 № 677 «Об утверждении Положения о паспортной системе в СССР»"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1985-anti-alcohol",
@@ -438,7 +494,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -446,10 +503,16 @@
           "url": "https://ru.wikipedia.org/wiki/Антиалкогольные_кампании_в_СССР",
           "accessed": "2026-10-29",
           "supports": "07.05.1985, 14–19, итоги"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/446792",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ЦК КПСС «О мерах по преодолению пьянства и алкоголизма», 7 мая 1985"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1929-collectivisation",
@@ -483,7 +546,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -491,10 +555,16 @@
           "url": "https://ru.wikipedia.org/wiki/Коллективизация_в_СССР",
           "accessed": "2026-10-29",
           "supports": "07.11.1929; 05.01.1930; 02.03.1930"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/618998",
+          "accessed": "2026-11-12",
+          "supports": "кампания сплошной коллективизации: постановление ЦИК и СНК от 1.02.1930 о мерах в районах сплошной коллективизации и борьбе с кулачеством"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1932-three-ears-law",
@@ -522,7 +592,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -530,10 +601,16 @@
           "url": "https://ru.wikipedia.org/wiki/Голод_в_СССР_(1932—1933)",
           "accessed": "2026-10-29",
           "supports": "07.08.1932; 22 347 осуждённых"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/63789",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ЦИК и СНК СССР от 7 августа 1932 «Об охране имущества государственных предприятий, колхозов и кооперации…» (СЗ 1932, № 62, ст. 360)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1932-famine",
@@ -567,7 +644,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -575,10 +653,16 @@
           "url": "https://ru.wikipedia.org/wiki/Голод_в_СССР_(1932—1933)",
           "accessed": "2026-10-29",
           "supports": "районы, оценки жертв, директива 22.01.1933"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/296565",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: документальный сборник «Голод в СССР. 1929–1934», т. 2 (июль 1932 – июль 1933): хлебозаготовки 1932 и массовый голод 1933"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1937-great-terror",
@@ -610,7 +694,8 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -618,10 +703,16 @@
           "url": "https://ru.wikipedia.org/wiki/Большой_террор",
           "accessed": "2026-10-29",
           "supports": "30.07.1937; 17.11.1938; оценки"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/history/1920103",
+          "accessed": "2026-11-13",
+          "supports": "Президентская библиотека: в 1937–1938 (годы Большого террора) по политическим обвинениям осуждены 1 млн 345 тыс. человек, 682 тыс. приговорены к смертной казни"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1955-against-excesses",
@@ -648,7 +739,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -656,10 +748,16 @@
           "url": "https://ru.wikipedia.org/wiki/Хрущёвка",
           "accessed": "2026-10-29",
           "supports": "04.11.1955"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/446293",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ЦК КПСС и Совмина СССР «Об устранении излишеств в проектировании и строительстве», 4 ноября 1955"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1957-housing-programme",
@@ -693,7 +791,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -701,10 +800,16 @@
           "url": "https://ru.wikipedia.org/wiki/Хрущёвка",
           "accessed": "2026-10-29",
           "supports": "31.07.1957; 95% / 36%"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/446320",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ЦК КПСС и Совмина СССР «О развитии жилищного строительства в СССР», 31 июля 1957"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1991-august-coup",
@@ -734,7 +839,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -742,10 +848,22 @@
           "url": "https://ru.wikipedia.org/wiki/Августовский_путч",
           "accessed": "2026-10-29",
           "supports": "19–22.08.1991; Лебединое озеро"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/item/459656",
+          "accessed": "2026-11-12",
+          "supports": "листовка с указом Президента РСФСР от 19.08.1991: попытка государственного переворота"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/news/659471",
+          "accessed": "2026-11-12",
+          "supports": "коллекция Президентской библиотеки о событиях 19–21 августа 1991 года"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1956-state-pensions",
@@ -777,7 +895,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -785,10 +904,16 @@
           "url": "https://ru.wikipedia.org/wiki/Пенсионное_обеспечение_в_России",
           "accessed": "2026-10-29",
           "supports": "1956, +81%"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/item/1415697",
+          "accessed": "2026-11-12",
+          "supports": "Закон о государственных пенсиях, принят ВС СССР 14.07.1956 (издание 1956 г.)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1964-kolkhoz-pensions",
@@ -819,7 +944,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -827,16 +953,22 @@
           "url": "https://ru.wikipedia.org/wiki/Пенсионное_обеспечение_в_России",
           "accessed": "2026-10-29",
           "supports": "15.07.1964; 01.01.1965; 1968; 40%/58%"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/355384",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: Закон о пенсиях и пособиях членам колхозов, принят Верховным Советом СССР 15 июля 1964"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1966-kolkhoz-guaranteed-pay",
       "title": "Колхозникам — деньги вместо трудодней",
       "title_original": null,
-      "start_date": "1966-05-18",
+      "start_date": "1966-05-16",
       "end_date": null,
       "date_precision": "day",
       "approximate": false,
@@ -849,7 +981,7 @@
       ],
       "category": "labor",
       "subcategory": null,
-      "historical_summary": "Постановлением от 18 мая 1966 года трудодни заменили гарантированной денежной оплатой труда колхозников. До этого с 1930 года колхозники получали раз в год долю урожая по выработанным трудодням, часто очень небольшую.",
+      "historical_summary": "Постановлением от 16 мая 1966 года трудодни заменили гарантированной денежной оплатой труда колхозников. До этого с 1930 года колхозники получали раз в год долю урожая по выработанным трудодням, часто очень небольшую.",
       "affected_groups": [
         "agricultural_workers",
         "rural_residents"
@@ -862,7 +994,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -870,10 +1003,16 @@
           "url": "https://ru.wikipedia.org/wiki/Трудодень",
           "accessed": "2026-10-29",
           "supports": "1930; 18.05.1966; оплата трудодней"
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/355455",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление ЦК КПСС и Совмина СССР от 16 мая 1966 «О повышении материальной заинтересованности колхозников в развитии общественного производства»"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "su-nat-1946-famine",
@@ -1029,7 +1168,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_historyrussia_docs"
       ],
       "evidence": [
         {
@@ -1037,10 +1177,16 @@
           "url": "https://ru.wikipedia.org/wiki/Освоение_целины",
           "accessed": "2026-10-29",
           "supports": "27.03.1954; >1 млн; 350 тыс."
+        },
+        {
+          "source_id": "ru_historyrussia_docs",
+          "url": "https://docs.historyrussia.org/ru/nodes/355215",
+          "accessed": "2026-11-13",
+          "supports": "ЭБИД: постановление Пленума ЦК КПСС от 2 марта 1954 «О дальнейшем увеличении производства зерна в стране и об освоении целинных и залежных земель»"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium",
+      "confidence": "high",
       "eligibility": {
         "min_age": 17,
         "max_age": 35,
@@ -1078,7 +1224,8 @@
       ],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_tgl"
       ],
       "evidence": [
         {
@@ -1092,10 +1239,16 @@
           "url": "https://ru.wikipedia.org/wiki/Товарный_дефицит_в_СССР",
           "accessed": "2026-10-29",
           "supports": "очереди на автомобили"
+        },
+        {
+          "source_id": "ru_tgl",
+          "url": "https://tgl.ru/news/item/12246-den-vypuska-pervogo-avtomobilya-vaz/",
+          "accessed": "2026-11-13",
+          "supports": "Администрация Тольятти: 19 апреля 1970 с главного конвейера ВАЗа сошли первые шесть машин"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ]
 }

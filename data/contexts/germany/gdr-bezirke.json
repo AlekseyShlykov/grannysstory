@@ -1,0 +1,950 @@
+{
+ "records": [
+  {
+   "id": "de-ctx-bezirk-leipzig-1955-1989-housing",
+   "country_code": "DE",
+   "location_id": "de-bezirk-leipzig",
+   "period_start": 1955,
+   "period_end": 1989,
+   "context_type": "housing",
+   "attribute": "housing_amenities_construction",
+   "title": "Округ Лейпциг: старые дома и новые кварталы",
+   "description": "В округе Лейпциг много жилья оставалось в старых городских домах: в 1989 году ванну или душ имели 78% квартир, туалет в квартире — 69%, ниже среднего по ГДР. Строили в округе 7–9 тысяч квартир в год в 1980-е. Жилой фонд вырос с 542 тысяч квартир в 1971 году до 598 тысяч в 1989-м.",
+   "title_en": "Leipzig district: old buildings and new estates",
+   "description_en": "Much of the housing in Leipzig district remained in old urban buildings: in 1989, 78% of flats had a bath or shower and 69% an indoor toilet, below the GDR average. The district built 7,000-9,000 flats a year in the 1980s. The housing stock grew from 542,000 flats in 1971 to 598,000 in 1989.",
+   "statistics": [
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 38,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 65,
+     "unit": "% of flats",
+     "year": 1981,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 78,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 38,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 56,
+     "unit": "% of flats",
+     "year": 1981,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 69,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 7102,
+     "unit": "flats",
+     "year": 1960,
+     "area_id": "de-bezirk-leipzig",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 4361,
+     "unit": "flats",
+     "year": 1970,
+     "area_id": "de-bezirk-leipzig",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 9216,
+     "unit": "flats",
+     "year": 1980,
+     "area_id": "de-bezirk-leipzig",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 7210,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 542050,
+     "unit": "flats",
+     "year": 1971,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "с. 200",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 598202,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "жилой фонд округа",
+     "method_note": "с. 200",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_202.pdf",
+     "accessed": "2026-11-11",
+     "supports": "оснащение квартир по округам"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_083.pdf",
+     "accessed": "2026-11-11",
+     "supports": "округ Лейпциг: построенные квартиры"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_200.pdf",
+     "accessed": "2026-11-11",
+     "supports": "жилой фонд по округам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-bezirk-leipzig-1955-1989-population-childcare",
+   "country_code": "DE",
+   "location_id": "de-bezirk-leipzig",
+   "period_start": 1955,
+   "period_end": 1989,
+   "context_type": "demography",
+   "attribute": "population_childcare",
+   "title": "Округ Лейпциг: убывающее население, больше яслей",
+   "description": "Население округа Лейпциг сокращалось всё время существования ГДР: с 1,58 млн в 1955 году до 1,33 млн в 1989-м. Мест в яслях за то же время стало почти в пять раз больше. Доля занятых в сельском хозяйстве снизилась с 15% до 8%.",
+   "title_en": "Leipzig district: a shrinking population, more crèches",
+   "description_en": "The population of Leipzig district shrank throughout the GDR period, from 1.58 million in 1955 to 1.33 million in 1989. Crèche places increased almost fivefold over the same period. The share of people working in agriculture fell from 15% to 8%.",
+   "statistics": [
+    {
+     "indicator": "population_thousand",
+     "value": 1582.2,
+     "unit": "thousand persons",
+     "year": 1955,
+     "area_id": "de-bezirk-leipzig",
+     "population": "постоянное население округа",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1491.3,
+     "unit": "thousand persons",
+     "year": 1970,
+     "area_id": "de-bezirk-leipzig",
+     "population": "постоянное население округа",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1333.1,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "постоянное население округа",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 5884,
+     "unit": "places",
+     "year": 1955,
+     "area_id": "de-bezirk-leipzig",
+     "population": "ясли, постоянные и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 84",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 14827,
+     "unit": "places",
+     "year": 1970,
+     "area_id": "de-bezirk-leipzig",
+     "population": "ясли, постоянные и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 84",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 27015,
+     "unit": "places",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "ясли, постоянные и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 84",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 14.9,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "de-bezirk-leipzig",
+     "population": "занятые без учеников",
+     "method_note": "с. 83",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 8.4,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "de-bezirk-leipzig",
+     "population": "занятые без учеников",
+     "method_note": "с. 83",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_083.pdf",
+     "accessed": "2026-11-11",
+     "supports": "население и структура занятости"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_084.pdf",
+     "accessed": "2026-11-11",
+     "supports": "места в яслях"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-bezirk-halle-1955-1989-chemistry",
+   "country_code": "DE",
+   "location_id": "de-bezirk-halle",
+   "period_start": 1955,
+   "period_end": 1989,
+   "context_type": "work",
+   "attribute": "chemical_industry",
+   "title": "Округ Галле: химический край",
+   "description": "Округ Галле был центром химической промышленности ГДР: в 1989 году химия давала 47% промышленной продукции округа и 41% всей химической продукции страны. Доля занятых в промышленности выросла с 40% до 44%, в сельском хозяйстве упала с 19% до 10%. Население округа за это время сократилось с 2,06 млн до 1,75 млн.",
+   "title_en": "Halle district: chemical country",
+   "description_en": "Halle district was the centre of the GDR chemical industry: in 1989 chemicals made up 47% of the district's industrial output and 41% of all the country's chemical output. The share of people working in industry rose from 40% to 44%, while agriculture fell from 19% to 10%. The district's population shrank from 2.06 million to 1.75 million over the period.",
+   "statistics": [
+    {
+     "indicator": "chemical_share_of_district_industrial_output",
+     "value": 46.9,
+     "unit": "% of output",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "промышленная продукция округа",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 80, постоянные цены 1985",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "district_share_of_gdr_chemical_output",
+     "value": 41.4,
+     "unit": "% of GDR output",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "химическая промышленность ГДР",
+     "method_note": "с. 80",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "industry_share_of_employed",
+     "value": 39.5,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "de-bezirk-halle",
+     "population": "занятые без учеников",
+     "method_note": "с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "industry_share_of_employed",
+     "value": 44.1,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "занятые без учеников",
+     "method_note": "с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 19.3,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "de-bezirk-halle",
+     "population": "занятые без учеников",
+     "method_note": "с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 9.8,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "занятые без учеников",
+     "method_note": "с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 2055.3,
+     "unit": "thousand persons",
+     "year": 1955,
+     "area_id": "de-bezirk-halle",
+     "population": "постоянное население округа",
+     "method_note": "с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1748.0,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "постоянное население округа",
+     "method_note": "с. 79",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_079.pdf",
+     "accessed": "2026-11-11",
+     "supports": "население, занятость"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_080.pdf",
+     "accessed": "2026-11-11",
+     "supports": "промышленность по отраслям 1989"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-bezirk-halle-1971-1989-housing",
+   "country_code": "DE",
+   "location_id": "de-bezirk-halle",
+   "period_start": 1971,
+   "period_end": 1989,
+   "context_type": "housing",
+   "attribute": "housing_amenities_construction",
+   "title": "Округ Галле: жильё",
+   "description": "В округе Галле в 1970–1980-е строили около 8–11 тысяч квартир в год. Ванну или душ в 1971 году имели 38% квартир округа, в 1989-м — 84%; туалет в квартире — 39% и 80%. Жилой фонд вырос с 667 тысяч до 740 тысяч квартир.",
+   "title_en": "Halle district: housing",
+   "description_en": "In the 1970s and 1980s Halle district built about 8,000-11,000 flats a year. In 1971, 38% of the district's flats had a bath or shower and 84% in 1989; for an indoor toilet the figures were 39% and 80%. The housing stock grew from 667,000 to 740,000 flats.",
+   "statistics": [
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 38,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 67,
+     "unit": "% of flats",
+     "year": 1981,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 84,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 39,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 62,
+     "unit": "% of flats",
+     "year": 1981,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 80,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 7613,
+     "unit": "flats",
+     "year": 1970,
+     "area_id": "de-bezirk-halle",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 11121,
+     "unit": "flats",
+     "year": 1980,
+     "area_id": "de-bezirk-halle",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 11276,
+     "unit": "flats",
+     "year": 1985,
+     "area_id": "de-bezirk-halle",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 8114,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "квартиры, построенные в округе",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 79",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 666549,
+     "unit": "flats",
+     "year": 1971,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "с. 200",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 740137,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "de-bezirk-halle",
+     "population": "жилой фонд округа",
+     "method_note": "с. 200",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_202.pdf",
+     "accessed": "2026-11-11",
+     "supports": "оснащение квартир"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_079.pdf",
+     "accessed": "2026-11-11",
+     "supports": "построенные квартиры"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_200.pdf",
+     "accessed": "2026-11-11",
+     "supports": "жилой фонд"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-berlin-east-1960-1989-housing-childcare",
+   "country_code": "DE",
+   "location_id": "de-berlin-east",
+   "period_start": 1960,
+   "period_end": 1989,
+   "context_type": "housing",
+   "attribute": "housing_amenities_childcare",
+   "title": "Восточный Берлин: витрина строительства",
+   "description": "Восточный Берлин как столица ГДР получал непропорционально много нового жилья: в 1985 году там построили 23,5 тысячи квартир, пятую часть всех в стране. В 1989 году ванну или душ имели 89% квартир, а туалет в квартире — 95%, больше, чем в любом округе ГДР. Мест в яслях стало в шесть раз больше, чем в 1955 году, а население выросло до 1,28 млн.",
+   "title_en": "East Berlin: a showcase of construction",
+   "description_en": "As the GDR capital, East Berlin received a disproportionate share of new housing: in 1985 23,500 flats were built there, a fifth of the country's total. In 1989, 89% of flats had a bath or shower and 95% an indoor toilet, more than in any GDR district. Crèche places were six times as many as in 1955, and the population grew to 1.28 million.",
+   "statistics": [
+    {
+     "indicator": "flats_built",
+     "value": 12608,
+     "unit": "flats",
+     "year": 1960,
+     "area_id": "de-berlin-east",
+     "population": "квартиры, построенные в Восточном Берлине",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 67",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 6875,
+     "unit": "flats",
+     "year": 1970,
+     "area_id": "de-berlin-east",
+     "population": "квартиры, построенные в Восточном Берлине",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 67",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 11281,
+     "unit": "flats",
+     "year": 1980,
+     "area_id": "de-berlin-east",
+     "population": "квартиры, построенные в Восточном Берлине",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 67",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 23517,
+     "unit": "flats",
+     "year": 1985,
+     "area_id": "de-berlin-east",
+     "population": "квартиры, построенные в Восточном Берлине",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 67",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 15497,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "de-berlin-east",
+     "population": "квартиры, построенные в Восточном Берлине",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 67",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 59,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "de-berlin-east",
+     "population": "жилой фонд",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 89,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "de-berlin-east",
+     "population": "жилой фонд",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 80,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "de-berlin-east",
+     "population": "жилой фонд",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 95,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "de-berlin-east",
+     "population": "жилой фонд",
+     "method_note": "с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 5300,
+     "unit": "places",
+     "year": 1955,
+     "area_id": "de-berlin-east",
+     "population": "ясли, постоянные и сезонные учреждения",
+     "method_note": "с. 68",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 14439,
+     "unit": "places",
+     "year": 1970,
+     "area_id": "de-berlin-east",
+     "population": "ясли, постоянные и сезонные учреждения",
+     "method_note": "с. 68",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 32424,
+     "unit": "places",
+     "year": 1989,
+     "area_id": "de-berlin-east",
+     "population": "ясли, постоянные и сезонные учреждения",
+     "method_note": "с. 68",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1071.8,
+     "unit": "thousand persons",
+     "year": 1960,
+     "area_id": "de-berlin-east",
+     "population": "постоянное население",
+     "method_note": "с. 67",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1279.2,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "de-berlin-east",
+     "population": "постоянное население",
+     "method_note": "с. 67",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_067.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Берлин (Ост): население, построенные квартиры"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_068.pdf",
+     "accessed": "2026-11-11",
+     "supports": "ясли"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_202.pdf",
+     "accessed": "2026-11-11",
+     "supports": "оснащение квартир"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_051.pdf",
+     "accessed": "2026-11-11",
+     "supports": "всего по ГДР 1985: 115 722"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-bezirk-magdeburg-1955-1989-agriculture",
+   "country_code": "DE",
+   "location_id": "de-bezirk-magdeburg",
+   "period_start": 1955,
+   "period_end": 1989,
+   "context_type": "work",
+   "attribute": "rural_employment",
+   "title": "Округ Магдебург: Альтмарк и коллективная деревня",
+   "description": "Округ Магдебург, куда входила Альтмарк, оставался одним из самых сельских в ГДР: в 1955 году в сельском и лесном хозяйстве работал почти каждый третий, в 1989-м — каждый седьмой. Население округа сократилось с 1,45 млн до 1,24 млн. В 1980-е в округе строили около 7–9 тысяч квартир в год.",
+   "title_en": "Magdeburg district: the Altmark and the collective village",
+   "description_en": "Magdeburg district, which included the Altmark, remained one of the most rural in the GDR: in 1955 almost one in three people worked in agriculture and forestry, and one in seven in 1989. The district's population fell from 1.45 million to 1.24 million. In the 1980s the district built about 7,000-9,000 flats a year.",
+   "statistics": [
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 31.4,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "занятые без учеников",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 85",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 18.6,
+     "unit": "% of employed",
+     "year": 1970,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "занятые без учеников",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 85",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 15.1,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "занятые без учеников",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 85",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1445.5,
+     "unit": "thousand persons",
+     "year": 1955,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "постоянное население округа",
+     "method_note": "с. 85",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 1237.9,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "постоянное население округа",
+     "method_note": "с. 85",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 8786,
+     "unit": "flats",
+     "year": 1980,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "квартиры, построенные в округе",
+     "method_note": "с. 85",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 6817,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "de-bezirk-magdeburg",
+     "population": "квартиры, построенные в округе",
+     "method_note": "с. 85",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_085.pdf",
+     "accessed": "2026-11-11",
+     "supports": "округ Магдебург: ключевые показатели"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-bezirk-frankfurt-1955-1989-industrialisation",
+   "country_code": "DE",
+   "location_id": "de-bezirk-frankfurt-oder",
+   "period_start": 1955,
+   "period_end": 1989,
+   "context_type": "work",
+   "attribute": "industrialisation",
+   "title": "Округ Франкфурт-на-Одере: металлургия вместо пашни",
+   "description": "Аграрный приграничный округ Франкфурт стал промышленным благодаря металлургии и химии: доля занятых в промышленности выросла с 17% в 1955 году до 30% в 1989-м, а в сельском хозяйстве упала с 37% до 16%. В 1989 году округ давал пятую часть металлургической продукции ГДР. Население округа росло, тогда как в округах Лейпциг, Галле и Магдебург сокращалось.",
+   "title_en": "Frankfurt (Oder) district: steel instead of fields",
+   "description_en": "The agricultural border district of Frankfurt became industrial thanks to metallurgy and chemicals: the share of people working in industry rose from 17% in 1955 to 30% in 1989, while agriculture fell from 37% to 16%. In 1989 the district produced a fifth of the GDR's metallurgical output. Its population grew, while that of Leipzig, Halle and Magdeburg districts shrank.",
+   "statistics": [
+    {
+     "indicator": "industry_share_of_employed",
+     "value": 17.2,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "занятые без учеников",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 75",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "industry_share_of_employed",
+     "value": 24.4,
+     "unit": "% of employed",
+     "year": 1970,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "занятые без учеников",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 75",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "industry_share_of_employed",
+     "value": 29.6,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "занятые без учеников",
+     "method_note": "ежегодник ГДР 1990, Ausgewählte Kennziffern der Bezirke, с. 75",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 36.9,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "занятые без учеников",
+     "method_note": "с. 75",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agriculture_forestry_share_of_employed",
+     "value": 15.8,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "занятые без учеников",
+     "method_note": "с. 75",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "district_share_of_gdr_metallurgy_output",
+     "value": 20.5,
+     "unit": "% of GDR output",
+     "year": 1989,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "металлургия ГДР",
+     "method_note": "с. 76",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 666.3,
+     "unit": "thousand persons",
+     "year": 1955,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "постоянное население округа",
+     "method_note": "с. 75",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 706.1,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "de-bezirk-frankfurt-oder",
+     "population": "постоянное население округа",
+     "method_note": "с. 75",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_075.pdf",
+     "accessed": "2026-11-11",
+     "supports": "округ Франкфурт: занятость, население"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_076.pdf",
+     "accessed": "2026-11-11",
+     "supports": "промышленность по отраслям 1989"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

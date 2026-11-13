@@ -1,0 +1,400 @@
+{
+ "records": [
+  {
+   "id": "tr-pasinler-1916-battle-hasankale",
+   "title": "Бой у Хасанкале и российская оккупация",
+   "title_en": "Battle of Hasankale and Russian occupation",
+   "start_date": "1916-01-18",
+   "end_date": "1918-03-12",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "18–19 января 1916 г., в ходе Эрзурумского наступления, российская армия разбила османские войска у Хасанкале (ныне Пасинлер); 16 февраля 1916 г. она вошла в Эрзурум. Османские войска вернули Эрзурум 12 марта 1918 г.",
+   "historical_summary_en": "On 18–19 January 1916, during the Erzurum offensive, the Russian army defeated Ottoman forces at Hasankale (now Pasinler); on 16 February 1916 it entered Erzurum. Ottoman troops retook Erzurum on 12 March 1918.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "displacement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Erzurum_offensive",
+     "accessed": "2026-11-11",
+     "supports": "бой у Хасанкале 18–19.01.1916; 16.02.1916 Эрзурум"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Capture_of_Erzurum_(1918)",
+     "accessed": "2026-11-11",
+     "supports": "12.03.1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-pasinler-1924-earthquake",
+   "title": "Пасинлерское землетрясение 1924 года",
+   "title_en": "1924 Pasinler earthquake",
+   "start_date": "1924-09-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "disaster",
+   "historical_summary": "13 сентября 1924 г. землетрясение магнитудой 6,8 с эпицентром в Пасинлере унесло жизни 60 человек.",
+   "historical_summary_en": "On 13 September 1924 a magnitude 6.8 earthquake centred on Pasinler killed 60 people.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_of_the_earthquake"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1924_Pasinler_earthquake",
+     "accessed": "2026-11-11",
+     "supports": "13.09.1924, Ms 6,8, 60 погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-pasinler-1928-pasinler-kaza",
+   "title": "Каза Пасинлер",
+   "title_en": "Pasinler kaza",
+   "start_date": "1928",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "К 1928 г. каза, прежде известная как Хасанкале, называлась Пасинлер и включала центр и нахие Арас, Ашагы Пасин и Караязы.",
+   "historical_summary_en": "By 1928 the kaza formerly known as Hasankale was called Pasinler and comprised its centre and the nahiyes of Aras, Aşağı Pasin and Kara Yazı.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "1928 каза Пасинлер, нахие"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-pasinler-1953-horasan-split",
+   "title": "Выделение района Хорасан",
+   "title_en": "Horasan district carved out",
+   "start_date": "1953-11-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "27 ноября 1953 г. законом № 6191 из нахие Ашагы Пасин и Арас был образован район Хорасан; к 1955 г. в Пасинлере осталось 78 деревень, а население района по переписи упало с 65 125 (1950) до 35 937 (1955).",
+   "historical_summary_en": "On 27 November 1953 Law No. 6191 created Horasan district from the Aşağı Pasin and Aras nahiyes; by 1955 Pasinler had 78 villages left, and its census population fell from 65,125 (1950) to 35,937 (1955).",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "27.11.1953 закон 6191; 78 деревень; 1950 и 1955"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/en/download/article-file/2514978",
+     "accessed": "2026-11-12",
+     "supports": "Dünya Coğrafyası ve Kalkınma Perspektifi Dergisi 1(2), 2022: Хорасан стал районом по закону 6191 (1953); население Пасинлера 65 125 (1950) → 35 937 (1955)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-pasinler-1965-literacy",
+   "title": "Грамотность в Пасинлере в 1965 году",
+   "title_en": "Literacy in Pasinler in 1965",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "education",
+   "historical_summary": "По переписи 1965 г. из 41 917 жителей района Пасинлер грамотными были 13 129 человек, примерно каждый третий.",
+   "historical_summary_en": "In the 1965 census, 13,129 of the 41,917 inhabitants of Pasinler district, roughly one in three, were literate.",
+   "affected_groups": [
+    "rural_residents",
+    "children",
+    "women"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "learning_to_read_late"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "1965: 13 129 грамотных из 41 917"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-pasinler-1983-earthquake",
+   "title": "Землетрясение 30 октября 1983 года",
+   "title_en": "Earthquake of 30 October 1983",
+   "start_date": "1983-10-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "disaster",
+   "historical_summary": "30 октября 1983 г. в 07:12 землетрясение магнитудой 6,6 сильно разрушило районы Хорасан, Пасинлер и Нарман: погибли около 1340 человек, около 50 сёл в провинциях Эрзурум и Карс были разрушены, около 3200 домов обрушились.",
+   "historical_summary_en": "At 07:12 on 30 October 1983 a magnitude 6.6 earthquake caused severe damage in the Horasan, Pasinler and Narman districts: about 1,340 people died, some 50 villages in Erzurum and Kars provinces were destroyed and about 3,200 houses collapsed.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "rehousing",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "night_of_the_earthquake",
+    "winter_in_a_tent"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1983_Erzurum_earthquake",
+     "accessed": "2026-11-11",
+     "supports": "30.10.1983, Mw 6,6, ~1340, 50 сёл, 3200 домов, Хорасан/Пасинлер/Нарман"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-pasinler-1990-koprukoy-split",
+   "title": "Выделение района Кёпрюкёй",
+   "title_en": "Köprüköy district carved out",
+   "start_date": "1990-05-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "16 мая 1990 г. нахие Чобандеде стала районом Кёпрюкёй; в Пасинлере осталось 58 деревень, а население района по переписи сократилось с 60 616 (1985) до 42 991 (1990).",
+   "historical_summary_en": "On 16 May 1990 the Çobandede nahiye became Köprüköy district; Pasinler was left with 58 villages, and its census population fell from 60,616 (1985) to 42,991 (1990).",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "16.05.1990; 58 деревень; 1985 и 1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-pasinler-2010-rural-decline",
+   "title": "Сокращение населения района",
+   "title_en": "Shrinking district population",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "migration",
+   "historical_summary": "Население района Пасинлер по данным TÜİK сократилось с 44 663 человек в 2000 г. до 31 763 в 2010 г. и 28 513 в 2020 г.",
+   "historical_summary_en": "According to TÜİK figures, the population of Pasinler district fell from 44,663 in 2000 to 31,763 in 2010 and 28,513 in 2020.",
+   "affected_groups": [
+    "rural_residents",
+    "young_adults",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "leaving_the_village",
+    "children_in_istanbul"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "2000, 2010, 2020"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/en/download/article-file/2514978",
+     "accessed": "2026-11-12",
+     "supports": "та же статья: население района 44 663 (2000), 31 763 (2010), 28 513 (2020)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-pasinler-2013-villages-neighbourhoods",
+   "title": "Деревни становятся кварталами метрополии",
+   "title_en": "Villages become neighbourhoods of the metropolis",
+   "start_date": "2014",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-pasinler"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "По закону о метрополиях 2012 г. с местных выборов 2014 г. деревни Пасинлера стали кварталами муниципалитета Большого Эрзурума, и сельское население больше не учитывается отдельно.",
+   "historical_summary_en": "Under the 2012 metropolitan law, from the 2014 local elections Pasinler's villages became neighbourhoods of the Greater Erzurum municipality, and the rural population is no longer counted separately.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Pasinler",
+     "accessed": "2026-11-11",
+     "supports": "2013 деревни → махалле"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6360.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 6360 от 12.11.2012, ст. 1(2–3), ст. 36: деревни провинции Эрзурум становятся кварталами с первых местных выборов (2014)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

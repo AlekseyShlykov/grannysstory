@@ -1,0 +1,516 @@
+{
+ "records": [
+  {
+   "id": "tr-konya-1926-mevlana-museum",
+   "title": "Открытие музея Мевляны",
+   "title_en": "Mevlana Museum opens",
+   "start_date": "1926",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1926 г. обитель дервишей Мевляны в Конье начала работать как музей.",
+   "historical_summary_en": "In 1926 the Mevlana dervish lodge in Konya began operating as a museum.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visit_to_the_shrine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_muze_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "1926 Mevlana Müzesi"
+    },
+    {
+     "source_id": "tr_muze_gov",
+     "url": "https://muze.gov.tr/muze-detay?DistId=MEV&SectionId=MEV01",
+     "accessed": "2026-11-12",
+     "supports": "текке закрыто в 1925 г., в 1926 г. открыто как музей древностей Коньи"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-konya-1927-census",
+   "title": "Конья по первой переписи",
+   "title_en": "Konya in the first census",
+   "start_date": "1927",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "Перепись 1927 г. насчитала в центральном районе Коньи 102 906 жителей, из них 47 496 в городе и 55 410 в сельской местности.",
+   "historical_summary_en": "The 1927 census counted 102,906 people in Konya's central district: 47,496 in the town and 55,410 in the countryside.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "1927: 102 906; 47 496 / 55 410"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-konya-1946-halkevi",
+   "title": "Здание Народного дома",
+   "title_en": "People's House building",
+   "start_date": "1946",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1946 г. в Конье было построено здание Народного дома (Halkevi); в 1981 г. его отремонтировали и передали Государственным театрам, а 19 декабря 1997 г. Конийский государственный театр показал первый спектакль.",
+   "historical_summary_en": "In 1946 a People's House (Halkevi) building was erected in Konya; in 1981 it was renovated and handed to the State Theatres, and on 19 December 1997 the Konya State Theatre gave its first performance.",
+   "affected_groups": [
+    "urban_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "evening_at_the_peoples_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_devtiyatro"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "1946 Halkevi; 1981; 19.12.1997"
+    },
+    {
+     "source_id": "tr_devtiyatro",
+     "url": "https://devtiyatro.gov.tr/bolgeler/konya-devlet-tiyatrosu",
+     "accessed": "2026-11-12",
+     "supports": "здание бывшего Народного дома, отремонтировано и передано в 1981 г.; первый спектакль Конийского гостеатра 19.12.1997"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-konya-1960-urban-growth",
+   "title": "Город обгоняет деревню",
+   "title_en": "Town outgrows countryside",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "migration",
+   "historical_summary": "К 1960 г. в центральном районе Коньи горожан (119 841) стало заметно больше, чем сельских жителей (81 838); в 1950 г. их было примерно поровну.",
+   "historical_summary_en": "By 1960 town dwellers in Konya's central district (119,841) clearly outnumbered rural residents (81,838); in 1950 the two had been roughly equal.",
+   "affected_groups": [
+    "rural_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "1950: 64 434/64 973; 1960: 119 841/81 838"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-konya-1975-selcuk-university",
+   "title": "Основан Сельджукский университет",
+   "title_en": "Selçuk University founded",
+   "start_date": "1975",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "education",
+   "historical_summary": "В 1975 г. в Конье был основан Сельджукский университет.",
+   "historical_summary_en": "In 1975 Selçuk University was founded in Konya.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "1975 Selçuk Üniversitesi"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://aday.selcuk.edu.tr/english/our_university",
+     "accessed": "2026-11-12",
+     "supports": "Сельджукский университет создан по закону 1873 (вступил в силу 11.04.1975)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-konya-1987-metropolitan",
+   "title": "Конья — муниципалитет-метрополия",
+   "title_en": "Konya becomes a metropolitan municipality",
+   "start_date": "1987",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1987 г. законом № 3399 Конья получила статус муниципалитета-метрополии; в 2004 г. его границы расширили до круга радиусом 30 км.",
+   "historical_summary_en": "In 1987 Law No. 3399 gave Konya metropolitan-municipality status; in 2004 its limits were extended to a 30 km radius.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "1987 закон 3399; 2004 30 км"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3399.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 3399 от 20.06.1987: районы Каратай, Сельджуклу, Мерам; муниципалитет Коньи преобразован в Büyükşehir"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-konya-2000-airport-civil",
+   "title": "Аэропорт Коньи открыт для гражданских рейсов",
+   "title_en": "Konya airport opens to civilian traffic",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2000 г. аэропорт Коньи открылся для гражданских рейсов; перепись 2000 г. насчитала в городе 742 690 жителей.",
+   "historical_summary_en": "In 2000 Konya airport opened to civilian traffic; the 2000 census counted 742,690 inhabitants in the city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "2000 аэропорт; 742 690"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-konya-2004-mystic-music-festival",
+   "title": "Первый фестиваль мистической музыки",
+   "title_en": "First Mystic Music Festival",
+   "start_date": "2004",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2004 г. в Конье впервые прошёл Международный фестиваль мистической музыки; в 2009 г. город посетили около 1,7 млн туристов.",
+   "historical_summary_en": "In 2004 Konya held its first International Mystic Music Festival; in 2009 about 1.7 million tourists visited the city.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "2004 фестиваль; 2009 1 717 942 туриста"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-konya-2009-million",
+   "title": "Конья — город-миллионник",
+   "title_en": "Konya passes one million",
+   "start_date": "2009",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "По регистру населения в 2009 г. в Конье жили 1 003 373 человека; в 2010 г. был основан Университет Неджметтина Эрбакана.",
+   "historical_summary_en": "According to the population register, Konya had 1,003,373 inhabitants in 2009; in 2010 Necmettin Erbakan University was founded.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "2009 1 003 373; 2010 университет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-konya-2015-tram-line",
+   "title": "Трамвайная линия Алааддин — Адлие",
+   "title_en": "Alaaddin–Adliye tram line",
+   "start_date": "2015-09",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В сентябре 2015 г. в Конье была завершена трамвайная линия Алааддин — Адлие; в том же году открылся Сад тропических бабочек.",
+   "historical_summary_en": "In September 2015 Konya's Alaaddin–Adliye tram line was completed; the same year the Tropical Butterfly Garden opened.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "сентябрь 2015; бабочки"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-konya-2018-technical-university",
+   "title": "Конийский технический университет",
+   "title_en": "Konya Technical University",
+   "start_date": "2018",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "education",
+   "historical_summary": "В 2018 г. в Конье был основан Технический университет.",
+   "historical_summary_en": "In 2018 Konya Technical University was founded.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "2018"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://www.ktun.edu.tr/tr/Universite/Tarihce",
+     "accessed": "2026-11-12",
+     "supports": "КТУН создан законом 7141 (Resmî Gazete № 30425, 18.05.2018)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-konya-2022-islamic-solidarity-games",
+   "title": "Игры исламской солидарности",
+   "title_en": "Islamic Solidarity Games",
+   "start_date": "2022-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-konya"
+   ],
+   "category": "sport",
+   "historical_summary": "В августе 2022 г. в Конье прошли 5-е Игры исламской солидарности.",
+   "historical_summary_en": "In August 2022 Konya hosted the 5th Islamic Solidarity Games.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "август 2022"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

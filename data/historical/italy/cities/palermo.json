@@ -1,0 +1,1201 @@
+{
+ "records": [
+  {
+   "id": "it-palermo-1900-monreale-tram",
+   "title": "Трамвай до Монреале",
+   "title_en": "Tram to Monreale",
+   "start_date": "1900-02-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "11 февраля 1900 г. начал работу трамвай Палермо — Монреале; 22 апреля того же года вышел первый номер ежедневной газеты «Л’Ора».",
+   "historical_summary_en": "On 11 February 1900 the Palermo–Monreale tramway entered service; on 22 April that year the first issue of the daily L'Ora came out.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "tram_to_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "11.02.1900 tramway; 22.04.1900 L'Ora"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1903-teatro-biondo",
+   "title": "Открытие театра «Бьондо»",
+   "title_en": "Teatro Biondo opens",
+   "start_date": "1903-10-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "15 октября 1903 г. в Палермо открылся театр «Бьондо».",
+   "historical_summary_en": "On 15 October 1903 the Teatro Biondo opened in Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_at_the_theatre"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_comune_palermo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "15.10.1903"
+    },
+    {
+     "source_id": "it_comune_palermo",
+     "url": "https://palermoculture.comune.palermo.it/palermo-culture-eventi-dettaglio.php?id=1192",
+     "accessed": "2026-11-12",
+     "supports": "il Teatro Biondo aprì il sipario per la prima volta il 15 ottobre 1903 con Ermete Novelli"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-1906-targa-florio",
+   "title": "Первая гонка «Тарга Флорио»",
+   "title_en": "First Targa Florio race",
+   "start_date": "1906-05-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "sport",
+   "historical_summary": "6 мая 1906 г. под Палермо прошла первая автогонка «Тарга Флорио».",
+   "historical_summary_en": "On 6 May 1906 the first Targa Florio motor race was held near Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_the_race"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "6.05.1906"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1913-mondello",
+   "title": "Купальни Монделло",
+   "title_en": "Mondello bathing establishment",
+   "start_date": "1913-07-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "15 июля 1913 г. на пляже Монделло открылось купальное заведение.",
+   "historical_summary_en": "On 15 July 1913 the bathing establishment at Mondello beach was inaugurated.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_at_the_beach"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "15.07.1913"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1922-castello-mare",
+   "title": "Снос замка Кастелло-а-Маре",
+   "title_en": "Castello a Mare demolished",
+   "start_date": "1922",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1922 г. в Палермо был снесён замок Кастелло-а-Маре.",
+   "historical_summary_en": "In 1922 the Castello a Mare in Palermo was demolished.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1922 demolition"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1931-flood-airport-1931",
+   "title": "Наводнение и новый аэропорт",
+   "title_en": "Flood and a new airport",
+   "start_date": "1931-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "disaster",
+   "historical_summary": "В феврале 1931 г. наводнение в Палермо унесло 10 жизней; в том же году открылся аэропорт Бокадифалько.",
+   "historical_summary_en": "In February 1931 a flood in Palermo killed 10 people; that same year Boccadifalco Airport opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1931 February flood 10 deaths; Boccadifalco"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1932-stadium",
+   "title": "Открытие стадиона «Литторио»",
+   "title_en": "Stadio del Littorio opens",
+   "start_date": "1932",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1932 г. в Палермо открылся стадион «Литторио» (ныне «Ренцо Барбера»).",
+   "historical_summary_en": "In 1932 the Stadio del Littorio (now Renzo Barbera) opened in Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_at_the_stadium"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1932"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1939-trolleybus",
+   "title": "Первые троллейбусы Палермо",
+   "title_en": "Palermo's first trolleybuses",
+   "start_date": "1939",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1939 г. в Палермо начала работу троллейбусная сеть.",
+   "historical_summary_en": "In 1939 Palermo's trolleybus network entered service.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "tram_to_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1939"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1940-bombing",
+   "title": "Бомбардировки Палермо",
+   "title_en": "Bombing of Palermo",
+   "start_date": "1940",
+   "end_date": "1943",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1940–1943 гг. Палермо подвергался бомбардировкам во Второй мировой войне.",
+   "historical_summary_en": "Between 1940 and 1943 Palermo was bombed in the Second World War.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_comune_palermo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1940–1943"
+    },
+    {
+     "source_id": "it_comune_palermo",
+     "url": "https://turismo.comune.palermo.it/palermo-welcome-accade-a-palermo-dettaglio.php?id=1036",
+     "accessed": "2026-11-12",
+     "supports": "bombardamenti aerei su Palermo del 9 maggio 1943 che distrussero la città"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-1943-amgot",
+   "title": "Союзная военная администрация",
+   "title_en": "Allied military government",
+   "start_date": "1943-07-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "occupation",
+   "historical_summary": "22 июля 1943 г. Чарльз Полетти стал комиссаром по гражданским делам союзной военной администрации (AMGOT) в Палермо; 29 сентября город получил первого мэра после фашистского подесты.",
+   "historical_summary_en": "On 22 July 1943 Charles Poletti became civil affairs commissioner of the Allied military government (AMGOT) in Palermo; on 29 September the city got its first mayor after the fascist podestà.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "soldiers_in_the_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_comune_palermo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "22.07.1943 Poletti AMGOT; 29.09.1943 Tasca"
+    },
+    {
+     "source_id": "it_comune_palermo",
+     "url": "https://turismo.comune.palermo.it/palermo-welcome-new-dettaglio.php?id=37105",
+     "accessed": "2026-11-12",
+     "supports": "resa di Palermo firmata a Palazzo Reale il 22 luglio 1943; arrivo di Patton"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-1944-bread-massacre",
+   "title": "Расстрел «хлебной демонстрации»",
+   "title_en": "Bread massacre",
+   "start_date": "1944-10-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "repression",
+   "historical_summary": "19 октября 1944 г. на виа Макведа были убиты 24 участника демонстрации.",
+   "historical_summary_en": "On 19 October 1944, 24 demonstrators were killed on Via Maqueda.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "hunger_years"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_comune_palermo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "19.10.1944, 24 killed"
+    },
+    {
+     "source_id": "it_comune_palermo",
+     "url": "https://turismo.comune.palermo.it/palermo-welcome-new-dettaglio.php?id=37105",
+     "accessed": "2026-11-12",
+     "supports": "strage del pane, via Maqueda, 19 ottobre 1944: 24 morti e 158 feriti; imputati assolti nel 1947"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-1946-fiera",
+   "title": "Основана Средиземноморская ярмарка",
+   "title_en": "Fiera del Mediterraneo founded",
+   "start_date": "1946-07-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "local_economy",
+   "historical_summary": "23 июля 1946 г. в Палермо была основана Средиземноморская ярмарка.",
+   "historical_summary_en": "On 23 July 1946 the Fiera del Mediterraneo was founded in Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "day_at_the_fair"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "23.07.1946"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1954-galleria",
+   "title": "Региональная галерея в палаццо Абателлис",
+   "title_en": "Regional Gallery at Palazzo Abatellis",
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1954 г. в палаццо Абателлис открылась Региональная галерея Сицилии.",
+   "historical_summary_en": "In 1954 the Regional Gallery of Sicily opened at Palazzo Abatellis.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "museum_with_grandchildren"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1954"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1959-villa-deliella",
+   "title": "Снос виллы Делиэлла",
+   "title_en": "Villa Deliella demolished",
+   "start_date": "1959",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1959 г. в Палермо была снесена вилла Делиэлла.",
+   "historical_summary_en": "In 1959 Villa Deliella in Palermo was demolished.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_changing_beyond_recognition"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1959"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1960-airport",
+   "title": "Первый рейс из аэропорта Пунта-Раизи",
+   "title_en": "First flight from Punta Raisi",
+   "start_date": "1960-01-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "2 января 1960 г. из нового аэропорта Палермо вылетел первый рейс.",
+   "historical_summary_en": "On 2 January 1960 the first flight left Palermo's new airport.",
+   "affected_groups": [
+    "all_residents",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "2.01.1960 inaugural flight"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1962-master-plan",
+   "title": "Новый генеральный план",
+   "title_en": "New master plan",
+   "start_date": "1962",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1962 г. в Палермо был утверждён новый генеральный план города.",
+   "historical_summary_en": "In 1962 a new city master plan was approved in Palermo.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_district"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1962"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1969-sellerio",
+   "title": "Основано издательство «Селлерио»",
+   "title_en": "Sellerio publishing house founded",
+   "start_date": "1969",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1969 г. в Палермо было основано издательство «Селлерио».",
+   "historical_summary_en": "In 1969 the Sellerio publishing house was founded in Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "reading_books"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1969"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1970-palermo-pop",
+   "title": "Фестиваль Palermo Pop",
+   "title_en": "Palermo Pop festival",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1970 г. в Палермо впервые прошёл музыкальный фестиваль Palermo Pop.",
+   "historical_summary_en": "In 1970 the Palermo Pop music festival was held for the first time.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_concert"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1970"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1972-alitalia-112",
+   "title": "Катастрофа рейса Alitalia 112",
+   "title_en": "Alitalia Flight 112 crash",
+   "start_date": "1972-05-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "disaster",
+   "historical_summary": "5 мая 1972 г. при подлёте к Палермо разбился самолёт Alitalia, погибли 115 человек.",
+   "historical_summary_en": "On 5 May 1972 an Alitalia aircraft crashed on approach to Palermo, killing 115 people.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fear_of_flying"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "5.05.1972, 115 killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1986-maxi-trial",
+   "title": "Начало «максипроцесса» против мафии",
+   "title_en": "Maxi Trial begins",
+   "start_date": "1986-02-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "repression",
+   "historical_summary": "10 февраля 1986 г. в Палермо начался «максипроцесс» против Коза Ностры.",
+   "historical_summary_en": "On 10 February 1986 the Maxi Trial against Cosa Nostra began in Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "silence_about_the_mafia"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "10.02.1986"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-002903/8-aprile-1986-maxi-processo-palermo",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «8 aprile 1986 - Maxi processo di Palermo» (puntata di Radio anch'io sul processo in corso)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-1990-metro-railway",
+   "title": "Городская железная дорога Палермо",
+   "title_en": "Palermo metropolitan railway",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1990 г. в Палермо начала работать городская железная дорога, а город принимал матчи чемпионата мира по футболу.",
+   "historical_summary_en": "In 1990 Palermo's metropolitan railway entered service and the city hosted World Cup matches.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "commuting_by_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1992-capaci",
+   "title": "Убийство Фальконе и Борселлино",
+   "title_en": "Killing of Falcone and Borsellino",
+   "start_date": "1992-05-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "repression",
+   "historical_summary": "23 мая 1992 г. взрыв у Капачи убил судью Джованни Фальконе, его жену и трёх охранников; 19 июля взрыв на виа Д’Амелио убил Паоло Борселлино и пятерых охранников.",
+   "historical_summary_en": "On 23 May 1992 the Capaci bombing killed judge Giovanni Falcone, his wife and three escort officers; on 19 July the Via D'Amelio bombing killed Paolo Borsellino and five escort officers.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "silence_about_the_mafia"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "23.05.1992; 19.07.1992"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-1997-universiade",
+   "title": "Универсиада и центр ISMETT",
+   "title_en": "Universiade and ISMETT",
+   "start_date": "1997",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1997 г. Палермо принимал летнюю Универсиаду, был основан медицинский центр ISMETT и закрылась Палермская биржа.",
+   "historical_summary_en": "In 1997 Palermo hosted the Summer Universiade, the ISMETT medical centre was founded and the Palermo Stock Exchange closed.",
+   "affected_groups": [
+    "young_adults",
+    "medical_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "hospital_stay"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "1997"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-palermo-2002-earthquake-2002",
+   "title": "Землетрясение у берегов Палермо",
+   "title_en": "Offshore earthquake",
+   "start_date": "2002-09-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "disaster",
+   "historical_summary": "6 сентября 2002 г. сильное землетрясение произошло в море у Палермо; в том же году был утверждён новый генплан города.",
+   "historical_summary_en": "On 6 September 2002 a strong earthquake struck offshore from Palermo; that year a new city master plan was approved.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "earthquake_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_ingv"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "6.09.2002; new master plan"
+    },
+    {
+     "source_id": "it_ingv",
+     "url": "http://legacy.ingv.it/roma/reti/rms/terremoti/italia/Palermo06-09-02/relazione/relazione.html",
+     "accessed": "2026-11-12",
+     "supports": "relazione INGV sul terremoto della Sicilia settentrionale del 6 settembre 2002, ML 5.6, al largo di Palermo"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-2015-unesco",
+   "title": "Арабо-нормандский Палермо в списке ЮНЕСКО",
+   "title_en": "Arab-Norman Palermo on UNESCO list",
+   "start_date": "2015-07-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "3 июля 2015 г. маршрут «Арабо-нормандский Палермо» был внесён в список Всемирного наследия; 4 августа был создан метропольный город Палермо.",
+   "historical_summary_en": "On 3 July 2015 the Arab-Norman Palermo itinerary was inscribed as a World Heritage Site; on 4 August the Metropolitan City of Palermo was established.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "tourists_everywhere"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "3.07.2015; 4.08.2015"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://cultura.gov.it/articolo/siti-italiani-del-patrimonio-mondiale-unesco",
+     "accessed": "2026-11-12",
+     "supports": "перечень Минкультуры: № 51, 2015 — Palermo arabo-normanna e le cattedrali di Cefalù e Monreale"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-2018-capital-culture",
+   "title": "Итальянская столица культуры",
+   "title_en": "Italian Capital of Culture",
+   "start_date": "2018",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2018 г. Палермо был итальянской столицей культуры и принимал биеннале «Манифеста 12».",
+   "historical_summary_en": "In 2018 Palermo was Italian Capital of Culture and hosted the 12th Manifesta biennial.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_proud_again"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_mic",
+    "it_comune_palermo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "2018"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://capitalidellacultura.cultura.gov.it/palermo/",
+     "accessed": "2026-11-12",
+     "supports": "Palermo Capitale italiana della cultura 2018"
+    },
+    {
+     "source_id": "it_comune_palermo",
+     "url": "https://www.comune.palermo.it/noticext.php?id=18667",
+     "accessed": "2026-11-12",
+     "supports": "Manifesta 12 a Palermo nell'anno di Palermo Capitale italiana della cultura 2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-2020-flood-2020",
+   "title": "Наводнение 15 июля 2020 года",
+   "title_en": "Flood of 15 July 2020",
+   "start_date": "2020-07-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "disaster",
+   "historical_summary": "15 июля 2020 г. в Палермо произошло наводнение.",
+   "historical_summary_en": "On 15 July 2020 a flood struck Palermo.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "flooded_street"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_regione_sicilia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "15.07.2020 flood"
+    },
+    {
+     "source_id": "it_regione_sicilia",
+     "url": "https://www.protezionecivilesicilia.it/tinymce/js/tinymce/source/2240_2023_01_19_RIEPILOGO%20DELIBERE%20DI%20GIUNTA_allegato%201.pdf",
+     "accessed": "2026-11-12",
+     "supports": "riepilogo delibere della Protezione civile regionale: richiesta di stato di emergenza per gli eventi del 14–15 luglio 2020 a Palermo e Monreale"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-palermo-2023-molo",
+   "title": "Новый Трапециевидный мол",
+   "title_en": "New Trapezoidal Pier",
+   "start_date": "2023-10-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-palermo"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "13 октября 2023 г. в порту Палермо был открыт новый Трапециевидный мол.",
+   "historical_summary_en": "On 13 October 2023 the new Trapezoidal Pier was inaugurated in the port of Palermo.",
+   "affected_groups": [
+    "dock_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "harbour_walk"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_comune_palermo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Palermo",
+     "accessed": "2026-11-11",
+     "supports": "13.10.2023"
+    },
+    {
+     "source_id": "it_comune_palermo",
+     "url": "https://www.comune.palermo.it/novita/porto-sabrina-figuccia-il-molo-trapezoidale-ottimo-volano-di-sviluppo-per-il-nostro-turismo/",
+     "accessed": "2026-11-12",
+     "supports": "inaugurazione del molo Trapezoidale alla presenza del Presidente Mattarella (13 ottobre 2023)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

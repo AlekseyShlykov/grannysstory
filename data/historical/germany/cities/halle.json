@@ -1,0 +1,629 @@
+{
+ "records": [
+  {
+   "id": "de-halle-1900-incorporations",
+   "title": "Присоединение Гибихенштайна и Кролльвица",
+   "title_en": "Giebichenstein and Kröllwitz incorporated",
+   "start_date": "1900",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1900 г. к Галле присоединили Гибихенштайн, Троту, Кролльвиц и Гут-Гимриц; население составляло 156 609 человек, а к 1919 г. выросло до 182 326.",
+   "historical_summary_en": "In 1900 Giebichenstein, Trotha, Kröllwitz and Gut Gimritz were incorporated into Halle, which had 156,609 inhabitants, rising to 182,326 by 1919.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "1900 incorporations; population 1900, 1919"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1918-prehistory-museum",
+   "title": "Музей доисторической эпохи",
+   "title_en": "State Museum of Prehistory opens",
+   "start_date": "1918",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1918 г. в Галле открылся Земельный музей доисторической эпохи, а в 1922 г. начала работу школа искусств и ремёсел Бург Гибихенштайн.",
+   "historical_summary_en": "In 1918 the State Museum of Prehistory opened in Halle, and in 1922 the Burg Giebichenstein school of arts and crafts began work.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "museum_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "1918 museum; 1922 Burg Giebichenstein"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1923-stadium",
+   "title": "Стадион на Гезундбруннене",
+   "title_en": "Stadium am Gesundbrunnen opens",
+   "start_date": "1923",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1923 г. в Галле открылся стадион на Гезундбруннене. В 1933 г. в городе жили 209 169 человек, в 1939 г. — 220 092.",
+   "historical_summary_en": "In 1923 the stadium at Gesundbrunnen opened in Halle. The city had 209,169 inhabitants in 1933 and 220,092 in 1939.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "football_on_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "1923 stadium"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "population 1933, 1939"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1945-air-raids",
+   "title": "Бомбардировки Галле",
+   "title_en": "Air raids on Halle",
+   "start_date": "1945-03-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "31 марта 1945 г. и через несколько дней Галле подвергся двум авианалётам, в которых погибли более 1000 человек и было разрушено 3600 зданий. В целом город пережил войну почти без разрушений.",
+   "historical_summary_en": "On 31 March 1945 and a few days later Halle suffered two air raids that killed more than 1,000 people and destroyed 3,600 buildings. Overall the city came through the war almost unscathed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_in_the_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "31.03.1945; >1000 killed, 3600 buildings"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1945-us-occupation",
+   "title": "Американские войска в Галле",
+   "title_en": "American troops occupy Halle",
+   "start_date": "1945-04-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "occupation",
+   "historical_summary": "17 апреля 1945 г. Галле заняли американские войска; капитуляцию согласовал Феликс фон Люкнер, что избавило город от дальнейших обстрелов. В июле американцы ушли, и город заняла Красная армия.",
+   "historical_summary_en": "On 17 April 1945 American soldiers occupied Halle, after Felix von Luckner negotiated a surrender that spared the city further bombardment. In July the Americans withdrew and the Red Army took over the city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_war_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "17.04.1945; July 1945 Red Army"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1950-incorporations",
+   "title": "Присоединение Аммендорфа и других общин",
+   "title_en": "Ammendorf and other communities incorporated",
+   "start_date": "1950-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "1 июля 1950 г. к Галле присоединили Аммендорф, Брукдорф, Нитлебен, Райдебург и около дюжины других общин; население в 1950 г. составило 289 119 человек.",
+   "historical_summary_en": "On 1 July 1950 Ammendorf, Bruckdorf, Nietleben, Reideburg and about a dozen other communities were incorporated into Halle, whose population in 1950 was 289,119.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "01.07.1950; 1950 population"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1952-bezirk-capital",
+   "title": "Галле — центр округа",
+   "title_en": "Halle becomes a district capital",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "До 1952 г. Галле был столицей Саксонии-Анхальт, а после упразднения земель в ГДР в 1952 г. стал центром округа Галле до 1990 г.",
+   "historical_summary_en": "Until 1952 Halle was the capital of Saxony-Anhalt, and after the GDR abolished its states in 1952 it became the capital of the Halle District until 1990.",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "until 1952 capital; 1952–1990 Bezirk Halle"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1963-chemical-workers-city",
+   "title": "Решение о городе химиков",
+   "title_en": "Decision to build the chemical workers' city",
+   "start_date": "1963-09-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "17 сентября 1963 г. политбюро СЕПГ решило построить «город химиков» для работников комбинатов Лойна и Буна. 15 июля 1964 г. Хорст Зиндерман заложил первый камень Галле-Нойштадта, а 9 августа 1965 г. въехали первые жильцы.",
+   "historical_summary_en": "On 17 September 1963 the SED Politburo decided to build a 'chemical workers' city' for employees of the Leuna and Buna works. On 15 July 1964 Horst Sindermann laid the foundation stone of Halle-Neustadt, and the first tenants moved in on 9 August 1965.",
+   "affected_groups": [
+    "industrial_workers",
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_improvement",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation",
+    "shift_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle-Neustadt",
+     "accessed": "2026-11-11",
+     "supports": "17.09.1963; 15.07.1964; 09.08.1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1967-neustadt-separate-town",
+   "title": "Галле-Нойштадт — отдельный город",
+   "title_en": "Halle-Neustadt becomes a separate town",
+   "start_date": "1967-05-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "12 мая 1967 г. Галле-Нойштадт стал самостоятельным городом. В 1972 г. в нём жили 51 600 человек, а в 1981 г. — более 93 тыс.",
+   "historical_summary_en": "On 12 May 1967 Halle-Neustadt became an independent town. It had 51,600 inhabitants in 1972 and more than 93,000 in 1981.",
+   "affected_groups": [
+    "tenants",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle-Neustadt",
+     "accessed": "2026-11-11",
+     "supports": "12.05.1967; 1972 51 600; 1981 >93 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1972-plenzdorf-premiere",
+   "title": "Премьера «Новых страданий юного В.»",
+   "title_en": "Premiere of 'The New Sufferings of Young W.'",
+   "start_date": "1972-05-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "18 мая 1972 г. в Галле состоялась премьера пьесы Ульриха Пленцдорфа «Новые страдания юного В.» о языке и конфликтах молодёжи в ГДР.",
+   "historical_summary_en": "On 18 May 1972 Ulrich Plenzdorf's play 'The New Sufferings of Young W.', about the language and conflicts of young people in the GDR, premiered in Halle.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "theatre_evening"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1972.html",
+     "accessed": "2026-11-11",
+     "supports": "18.05.1972"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-halle-1990-neustadt-reunited",
+   "title": "Галле-Нойштадт снова часть Галле",
+   "title_en": "Halle-Neustadt rejoins Halle",
+   "start_date": "1990-05-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "6 мая 1990 г. по итогам местного голосования Галле-Нойштадт вновь вошёл в состав Галле. Столицей восстановленной земли Саксония-Анхальт стал Магдебург, а не Галле.",
+   "historical_summary_en": "On 6 May 1990, after a municipal vote, Halle-Neustadt merged back into Halle. Magdeburg rather than Halle became capital of the re-established state of Saxony-Anhalt.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle-Neustadt",
+     "accessed": "2026-11-11",
+     "supports": "06.05.1990; Magdeburg capital"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "1990 Magdeburg capital"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1990s-population-loss",
+   "title": "Отток населения после объединения",
+   "title_en": "Population loss after unification",
+   "start_date": "1990",
+   "end_date": "2001",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "После объединения Германии с потерей промышленности население Галле резко сократилось: с 310 234 человек в 1990 г. до 243 045 в 2001 г.; многие переехали на запад. В Галле-Нойштадте пустовали дома, а в 2006 г. там прошла выставка «Сжимающиеся города».",
+   "historical_summary_en": "After unification and the loss of industry Halle's population fell sharply, from 310,234 in 1990 to 243,045 in 2001, as many moved to the former West Germany. Blocks stood empty in Halle-Neustadt, which hosted the 'Shrinking Cities' exhibition in 2006.",
+   "affected_groups": [
+    "industrial_workers",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "children_moved_west",
+    "factory_closes"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "population 1990, 2001; people moved west"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle-Neustadt",
+     "accessed": "2026-11-11",
+     "supports": "2006 Shrinking Cities; vacancy"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-1992-economic-research-institute",
+   "title": "Институт экономических исследований",
+   "title_en": "Halle Institute for Economic Research",
+   "start_date": "1992",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "education",
+   "historical_summary": "В 1992 г. в Галле был основан Институт экономических исследований (IWH), а в 2006 г. открылся перестроенный Берлинский мост.",
+   "historical_summary_en": "In 1992 the Halle Institute for Economic Research (IWH) was established, and in 2006 the rebuilt Berliner Brücke opened.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "1992 IWH; 2006 Berliner Brücke"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-2015-refugees",
+   "title": "Новые жители из Сирии",
+   "title_en": "New residents from Syria",
+   "start_date": "2015",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "migration",
+   "historical_summary": "С 2015 г. в Галле начала расти доля жителей, родившихся за границей, после прибытия беженцев из Сирии и других стран, охваченных войной. В 2015 г. население города составляло 236 991 человек.",
+   "historical_summary_en": "From 2015 the foreign-born population of Halle began to grow after refugees arrived from Syria and other war-torn countries. In 2015 the city had 236,991 inhabitants.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "volunteering_for_newcomers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "2015 refugees; 2015 population"
+    },
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "2015 population 236 991"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-halle-2019-synagogue-attack",
+   "title": "Нападение на синагогу в Галле",
+   "title_en": "Attack on the Halle synagogue",
+   "start_date": "2019-10-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-halle"
+   ],
+   "category": "repression",
+   "historical_summary": "9 октября 2019 г. при нападении на синагогу в Галле погибли два человека; генпрокуратура квалифицировала его как правый терроризм на почве антисемитизма.",
+   "historical_summary_en": "On 9 October 2019 an attack on the synagogue in Halle killed two people, and the Federal Prosecutor classified it as right-wing terrorism rooted in antisemitism.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Halle_(Saale)",
+     "accessed": "2026-11-11",
+     "supports": "09.10.2019"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

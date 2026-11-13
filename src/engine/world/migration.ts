@@ -1,7 +1,9 @@
 import type { SettlementClass, WorldData, WorldLocation } from "../../data/worldTypes";
 import type { RandomSource } from "../random";
-import { existsAt, getLocation, isoDay, isSettlement, occupationAt, resolveLocationId, sovereignAt } from "./geography";
+import { existsAt, getLocation, inPeriod, isoDay, isSettlement, occupationAt, resolveLocationId, sovereignAt } from "./geography";
+import { partitionPartIds } from "./partition";
 import type { ResidencePeriod } from "./events";
+import type { MigrationCorridor } from "../../../content/historical/migrationCorridors";
 
 const CLASS_ORDER: SettlementClass[] = ["capital", "large_city", "medium_city", "small_town", "rural"];
 
@@ -18,9 +20,13 @@ export function checkMove(world: WorldData, fromId: string, toId: string, year: 
   if (!from || !to) return { ok: false, reason: "unknown place" };
   if (from.id === to.id) return { ok: false, reason: "same place" };
   if (!existsAt(to, day) || !isSettlement(to)) return { ok: false, reason: "destination is not a settlement that year" };
+  if (partitionPartIds(world).has(to.id)) return { ok: false, reason: "part of a divided city; the city itself is the destination" };
   if (!to.coordinates || !from.coordinates) return { ok: false, reason: "no verified coordinates" };
   if (occupationAt(world, to.id, day)) return { ok: false, reason: "destination under occupation" };
-  const sameState = sovereignAt(world, from.id, day) === sovereignAt(world, to.id, day);
+  // A divided city is reachable when one of its parts belongs to her state that year; she then lives in that part.
+  const division = to.partitions?.find((partition) => inPeriod(day, partition.from, partition.to));
+  const destinationStates = division ? division.into.map((id) => sovereignAt(world, id, day)) : [sovereignAt(world, to.id, day)];
+  const sameState = destinationStates.includes(sovereignAt(world, from.id, day));
   if (!sameState && !allowInternational) return { ok: false, reason: "crosses a state border" };
   return { ok: true };
 }
@@ -49,4 +55,16 @@ export function residenceIssues(world: WorldData, residences: ResidencePeriod[])
     if (previous && previous.toYear + 1 < residence.fromYear) issues.push(`gap in residences before ${residence.fromYear}`);
   });
   return issues;
+}
+
+/** Corridors open to her that year: she lives in one of the origin states and the path is dated as open. */
+export function openCorridors(world: WorldData, fromId: string, year: number, corridors: readonly MigrationCorridor[]): MigrationCorridor[] {
+  const state = sovereignAt(world, fromId, isoDay(year));
+  return corridors.filter((corridor) => year >= corridor.fromYear && year <= corridor.toYear && state !== null && corridor.fromStates.includes(state));
+}
+
+/** Destinations across the border along an open corridor that pass every other move check. */
+export function corridorDestinations(world: WorldData, fromId: string, year: number, corridors: readonly MigrationCorridor[]): string[] {
+  const ids = new Set(openCorridors(world, fromId, year, corridors).flatMap((corridor) => corridor.toPlaceIds));
+  return [...ids].filter((id) => checkMove(world, fromId, id, year, true).ok).sort();
 }

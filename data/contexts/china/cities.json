@@ -1,0 +1,601 @@
+{
+ "records": [
+  {
+   "id": "cn-ctx-1953-2010-population-shanghai",
+   "country_code": "CN",
+   "location_id": "cn-shanghai",
+   "period_start": 1953,
+   "period_end": 2010,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Шанхая, 1953–2010",
+   "title_en": "Population of Shanghai, 1953–2010",
+   "description": "Население Шанхая составляло 6,20 млн в 1953 г. и 10,8 млн в 1964 г. (после присоединения уездов в 1958 г.); в 1982 г. — 6,29 млн в городе и 11,86 млн в агломерации, в 1990 г. — 13,34 млн, в 2000 г. — 16,41 млн, по переписи 2010 г. — 23,02 млн. Цифры разных лет относятся к разным границам.",
+   "description_en": "Shanghai had 6.20 million people in 1953 and 10.8 million in 1964 (after counties were added in 1958); 6.29 million in the city and 11.86 million in the agglomeration in 1982, 13.34 million in 1990, 16.41 million in 2000 and 23.02 million in the 2010 census. Figures for different years refer to different boundaries.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 6204417,
+     "unit": "persons",
+     "year": 1953,
+     "area_id": "cn-shanghai",
+     "population": "население города (границы 1953 г.)",
+     "method_note": "Timeline of Shanghai (Wikipedia), границы меняются",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 10816500,
+     "unit": "persons",
+     "year": 1964,
+     "area_id": "cn-shanghai",
+     "population": "население муниципалитета",
+     "method_note": "Timeline of Shanghai (Wikipedia), границы меняются",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 6292960,
+     "unit": "persons",
+     "year": 1982,
+     "area_id": "cn-shanghai",
+     "population": "население города",
+     "method_note": "Timeline of Shanghai (Wikipedia), границы меняются",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 13341900,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "cn-shanghai",
+     "population": "население муниципалитета",
+     "method_note": "Timeline of Shanghai (Wikipedia), границы меняются",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 16407700,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "cn-shanghai",
+     "population": "население муниципалитета",
+     "method_note": "Timeline of Shanghai (Wikipedia), границы меняются",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 23019148,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "cn-shanghai",
+     "population": "постоянное население, перепись 2010",
+     "method_note": "Timeline of Shanghai (Wikipedia), границы меняются",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Shanghai",
+     "accessed": "2026-11-11",
+     "supports": "populations 1953, 1964, 1982, 1990, 2000, 2010"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1936-2002-population-guangzhou",
+   "country_code": "CN",
+   "location_id": "cn-guangzhou",
+   "period_start": 1936,
+   "period_end": 2002,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Гуанчжоу, 1936–2002",
+   "title_en": "Population of Guangzhou, 1936–2002",
+   "description": "Население Гуанчжоу оценивалось в 1,12 млн в 1936 г., 1,84 млн в 1957 г., 3,03 млн в 1964 г., 3,18 млн в 1982 г. (5,67 млн в агломерации), 6,30 млн в 1990 г. и 10,1 млн в 2002 г. Цифры разных лет относятся к разным границам.",
+   "description_en": "Guangzhou's population was estimated at 1.12 million in 1936, 1.84 million in 1957, 3.03 million in 1964, 3.18 million in 1982 (5.67 million in the agglomeration), 6.30 million in 1990 and 10.1 million in 2002. Figures for different years refer to different boundaries.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1122600,
+     "unit": "persons",
+     "year": 1936,
+     "area_id": "cn-guangzhou",
+     "population": "оценка",
+     "method_note": "Timeline of Guangzhou (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1840000,
+     "unit": "persons",
+     "year": 1957,
+     "area_id": "cn-guangzhou",
+     "population": "оценка",
+     "method_note": "Timeline of Guangzhou (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 3031486,
+     "unit": "persons",
+     "year": 1964,
+     "area_id": "cn-guangzhou",
+     "population": "перепись 1964",
+     "method_note": "Timeline of Guangzhou (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 3181510,
+     "unit": "persons",
+     "year": 1982,
+     "area_id": "cn-guangzhou",
+     "population": "город, перепись 1982",
+     "method_note": "Timeline of Guangzhou (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 6299943,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "cn-guangzhou",
+     "population": "перепись 1990",
+     "method_note": "Timeline of Guangzhou (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 10106229,
+     "unit": "persons",
+     "year": 2002,
+     "area_id": "cn-guangzhou",
+     "population": "оценка",
+     "method_note": "Timeline of Guangzhou (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Guangzhou",
+     "accessed": "2026-11-11",
+     "supports": "populations 1936–2002"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1912-1958-population-beijing",
+   "country_code": "CN",
+   "location_id": "cn-beijing",
+   "period_start": 1912,
+   "period_end": 1958,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Пекина, 1912–1958",
+   "title_en": "Population of Beijing, 1912–1958",
+   "description": "В Пекине жили 725 тыс. человек в 1912 г., 811 тыс. в 1917 г., 863 тыс. в 1921 г., 1,11 млн в 1935 г., 1,5 млн в 1948 г. и около 2,03 млн в 1949 г. (на 707 км²); после присоединения девяти уездов в 1958 г. — 6,32 млн.",
+   "description_en": "Beijing had 725,000 people in 1912, 811,000 in 1917, 863,000 in 1921, 1.11 million in 1935, 1.5 million in 1948 and about 2.03 million in 1949 (on 707 km²); after nine counties were added in 1958 it had 6.32 million.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 725235,
+     "unit": "persons",
+     "year": 1912,
+     "area_id": "cn-beijing",
+     "population": "город",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 811566,
+     "unit": "persons",
+     "year": 1917,
+     "area_id": "cn-beijing",
+     "population": "город",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 863209,
+     "unit": "persons",
+     "year": 1921,
+     "area_id": "cn-beijing",
+     "population": "город",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1110000,
+     "unit": "persons",
+     "year": 1935,
+     "area_id": "cn-beijing",
+     "population": "город",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1500000,
+     "unit": "persons",
+     "year": 1948,
+     "area_id": "cn-beijing",
+     "population": "город",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 2030000,
+     "unit": "persons",
+     "year": 1949,
+     "area_id": "cn-beijing",
+     "population": "город, 707 км²",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 6318497,
+     "unit": "persons",
+     "year": 1958,
+     "area_id": "cn-beijing",
+     "population": "муниципалитет после присоединения уездов",
+     "method_note": "History of Beijing (Wikipedia)",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Beijing",
+     "accessed": "2026-11-11",
+     "supports": "populations 1912–1958"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1990-2011-migrants-beijing",
+   "country_code": "CN",
+   "location_id": "cn-beijing-municipality",
+   "period_start": 1990,
+   "period_end": 2011,
+   "context_type": "migration",
+   "attribute": "temporary_migrants",
+   "title": "Приезжие без пекинской прописки, 1990–2011",
+   "title_en": "Migrants without Beijing hukou, 1990–2011",
+   "description": "Временных мигрантов в Пекине было 1,27 млн в 1990 г. (11,59 млн всего жителей против 10,32 млн постоянных), 2,49 млн в 2000 г., 3,57 млн в 2005 г. и 7,4 млн в 2011 г. — 36,7% из 20,18 млн жителей. В 2008 г. на комнату в среднем приходилось 1,41 человека.",
+   "description_en": "Beijing had 1.27 million temporary migrants in 1990 (11.59 million residents in all against 10.32 million registered), 2.49 million in 2000, 3.57 million in 2005 and 7.4 million in 2011, 36.7% of 20.18 million residents. In 2008 there were on average 1.41 people per room.",
+   "statistics": [
+    {
+     "indicator": "temporary_migrants",
+     "value": 1270000,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "cn-beijing-municipality",
+     "population": "жители без пекинского хукоу",
+     "method_note": "разность 11,59 и 10,32 млн",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "temporary_migrants",
+     "value": 2490000,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "cn-beijing-municipality",
+     "population": "жители без пекинского хукоу",
+     "method_note": "History of Beijing",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "temporary_migrants",
+     "value": 3570000,
+     "unit": "persons",
+     "year": 2005,
+     "area_id": "cn-beijing-municipality",
+     "population": "жители без пекинского хукоу",
+     "method_note": "History of Beijing",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "temporary_migrants",
+     "value": 7400000,
+     "unit": "persons",
+     "year": 2011,
+     "area_id": "cn-beijing-municipality",
+     "population": "жители без пекинского хукоу",
+     "method_note": "History of Beijing",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "temporary_migrants_share",
+     "value": 36.7,
+     "unit": "%",
+     "year": 2011,
+     "area_id": "cn-beijing-municipality",
+     "population": "всё население",
+     "method_note": "History of Beijing",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "persons_per_room",
+     "value": 1.41,
+     "unit": "persons/room",
+     "year": 2008,
+     "area_id": "cn-beijing-municipality",
+     "population": "все жилища",
+     "method_note": "со слов бывшего директора жилищного управления",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Beijing",
+     "accessed": "2026-11-11",
+     "supports": "1990 10.32/11.59m; 2000 2.49m; 2005 3.57m; 2011 7.4m 36.7%"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Housing_in_China",
+     "accessed": "2026-11-11",
+     "supports": "Beijing 1.41 people per room in 2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2010-2013-housing-prices-beijing",
+   "country_code": "CN",
+   "location_id": "cn-beijing",
+   "period_start": 2010,
+   "period_end": 2013,
+   "context_type": "housing",
+   "attribute": "housing_prices",
+   "title": "Цены на квартиры в Пекине, 2010–2013",
+   "title_en": "Flat prices in Beijing, 2010–2013",
+   "description": "В 2010 г. новые квартиры внутри Третьего кольца стоили около 30 тыс. юаней за м², в августе 2013 г. квартиры внутри Четвёртого кольца — в среднем 42 259 юаней за м²; с февраля 2011 г. действовали ограничения на покупку жилья.",
+   "description_en": "In 2010 new flats inside the 3rd Ring Road cost about 30,000 yuan per m², and in August 2013 flats inside the 4th Ring Road averaged 42,259 yuan per m²; home-purchase restrictions applied from February 2011.",
+   "statistics": [
+    {
+     "indicator": "new_flat_price",
+     "value": 30000,
+     "unit": "yuan/m²",
+     "year": 2010,
+     "area_id": "cn-beijing",
+     "population": "новостройки внутри 3-го кольца",
+     "method_note": "около",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "flat_price",
+     "value": 42259,
+     "unit": "yuan/m²",
+     "year": 2013,
+     "area_id": "cn-beijing",
+     "population": "квартиры внутри 4-го кольца",
+     "method_note": "август 2013",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Beijing",
+     "accessed": "2026-11-11",
+     "supports": "2010 ~30,000; Aug 2013 42,259"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2020-2025-population-xian",
+   "country_code": "CN",
+   "location_id": "cn-xian",
+   "period_start": 2020,
+   "period_end": 2025,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Сиани, 2020–2025",
+   "title_en": "Population of Xi'an, 2020–2025",
+   "description": "Перепись 2020 г. насчитала в Сиани 12 952 907 постоянных жителей; выборочное обследование 2025 г. дало 13,24 млн, из них 10,72 млн горожан.",
+   "description_en": "The 2020 census counted 12,952,907 permanent residents in Xi'an; the 2025 sample survey gave 13.24 million, of whom 10.72 million were urban.",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 12952907,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-xian",
+     "population": "постоянное население городского округа",
+     "method_note": "перепись 2020",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "resident_population",
+     "value": 13240000,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "cn-xian",
+     "population": "постоянное население, конец года",
+     "method_note": "1% выборка 2025",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 10720000,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "cn-xian",
+     "population": "городское население",
+     "method_note": "1% выборка 2025",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "2020 12,952,907; 2025 13.24m, 10.72m urban"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1958-1976-incomes-guanghan",
+   "country_code": "CN",
+   "location_id": "cn-guanghan",
+   "period_start": 1957,
+   "period_end": 1976,
+   "context_type": "wages_income",
+   "attribute": "commune_income",
+   "title": "Доходы и зерно в коммуне Сянъян до реформ",
+   "title_en": "Incomes and grain in Xiangyang commune before reform",
+   "description": "В коммуне Сянъян распределяемый доход на человека за 1958–1976 гг. вырос лишь с 68 до 74 юаней в год; в уезде Гуанхань общий сбор зерна за 1957–1976 гг. вырос на 29,5%, но с учётом роста населения сбор на душу упал на 67 цзиней.",
+   "description_en": "In Xiangyang commune per-capita distributed income rose only from 68 to 74 yuan a year between 1958 and 1976; in Guanghan County total grain output rose by 29.5% in 1957–1976, but with population growth output per person fell by 67 jin.",
+   "statistics": [
+    {
+     "indicator": "distributed_income_per_capita",
+     "value": 68,
+     "unit": "yuan/year",
+     "year": 1958,
+     "area_id": "cn-guanghan",
+     "population": "члены коммуны Сянъян",
+     "method_note": "распределение по трудодням",
+     "source_id": "cn_ourchinastory"
+    },
+    {
+     "indicator": "distributed_income_per_capita",
+     "value": 74,
+     "unit": "yuan/year",
+     "year": 1976,
+     "area_id": "cn-guanghan",
+     "population": "члены коммуны Сянъян",
+     "method_note": "распределение по трудодням",
+     "source_id": "cn_ourchinastory"
+    },
+    {
+     "indicator": "grain_output_growth",
+     "value": 29.5,
+     "unit": "%",
+     "year": 1976,
+     "area_id": "cn-guanghan",
+     "population": "уезд Гуанхань",
+     "method_note": "рост к 1957 г.",
+     "source_id": "cn_ourchinastory"
+    }
+   ],
+   "source_ids": [
+    "cn_ourchinastory"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_ourchinastory",
+     "url": "https://www.ourchinastory.com/cn/11781",
+     "accessed": "2026-11-11",
+     "supports": "68→74元; 粮食 +29.5%, 人均 −67斤"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1978-2016-incomes-xiaogang",
+   "country_code": "CN",
+   "location_id": "cn-xiaogang",
+   "period_start": 1973,
+   "period_end": 2016,
+   "context_type": "wages_income",
+   "attribute": "rural_income",
+   "title": "Доходы в Сяогане до и после подряда",
+   "title_en": "Incomes in Xiaogang before and after contracting",
+   "description": "В 1973–1976 гг. доход на человека в Сяогане порой не достигал 30 юаней в год; после раздела земли в 1979 г. он вырос с примерно 22 до 400 юаней, а в 2016 г. располагаемый доход составил 16 169 юаней. В 2008 г. в объединённой деревне жили 3823 человека.",
+   "description_en": "In 1973–1976 income per person in Xiaogang sometimes fell below 30 yuan a year; after the land division it rose from about 22 to 400 yuan in 1979, and disposable income reached 16,169 yuan in 2016. The enlarged village had 3,823 residents in 2008.",
+   "statistics": [
+    {
+     "indicator": "income_per_capita",
+     "value": 400,
+     "unit": "yuan/year",
+     "year": 1979,
+     "area_id": "cn-xiaogang",
+     "population": "жители деревни",
+     "method_note": "после первого урожая по подряду",
+     "source_id": "cn_cac"
+    },
+    {
+     "indicator": "disposable_income_per_capita",
+     "value": 16169,
+     "unit": "yuan/year",
+     "year": 2016,
+     "area_id": "cn-xiaogang",
+     "population": "сельские жители деревни",
+     "method_note": "номинально",
+     "source_id": "cn_cac"
+    },
+    {
+     "indicator": "population",
+     "value": 3823,
+     "unit": "persons",
+     "year": 2008,
+     "area_id": "cn-xiaogang",
+     "population": "объединённая деревня",
+     "method_note": "после слияния 2008 г.",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_cac",
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "<30元 1973–76; 400元 1979; 16169元 2016"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xiaogang,_Anhui",
+     "accessed": "2026-11-11",
+     "supports": "income 22→400 yuan; 2008 population 3,823"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

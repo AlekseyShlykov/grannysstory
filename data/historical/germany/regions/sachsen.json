@@ -1,0 +1,170 @@
+{
+ "records": [
+  {
+   "id": "de-sachsen-1948-bank-expropriation",
+   "title": "Экспроприация банков в Саксонии",
+   "title_en": "Banks expropriated in Saxony",
+   "start_date": "1948-01-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen"
+   ],
+   "category": "local_economy",
+   "historical_summary": "30 января 1948 г. Саксония приняла закон об экспроприации банков, и другие земли советской зоны последовали её примеру. 13 октября забойщик Адольф Хеннеке в Цвиккау положил начало движению «активистов».",
+   "historical_summary_en": "On 30 January 1948 Saxony passed a law expropriating the banks, and the other states of the Soviet zone followed. On 13 October the miner Adolf Hennecke in Zwickau launched the activist movement.",
+   "affected_groups": [
+    "miners",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "shift_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "30.01.1948; 13.10.1948 Hennecke"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-sachsen-1990-first-landtag-election",
+   "title": "Первые выборы в ландтаги новых земель",
+   "title_en": "First Landtag elections in the new states",
+   "start_date": "1990-10-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen",
+    "de-sachsen-anhalt",
+    "de-brandenburg"
+   ],
+   "category": "political_change",
+   "historical_summary": "14 октября 1990 г. в пяти восстановленных восточногерманских землях прошли первые выборы в ландтаги; ХДС стал сильнейшим везде, кроме Бранденбурга.",
+   "historical_summary_en": "On 14 October 1990 the first Landtag elections were held in the five re-established eastern states, and the CDU came first everywhere except Brandenburg.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "14.10.1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-sachsen-2002-elbe-flood",
+   "title": "Наводнение на Эльбе 2002 года",
+   "title_en": "Elbe flood of 2002",
+   "start_date": "2002-08-11",
+   "end_date": "2002-08-26",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen"
+   ],
+   "category": "disaster",
+   "historical_summary": "11 августа 2002 г. паводок достиг Дрездена, Эльба и её притоки превратились в бурные потоки; 17 августа вторая волна подняла уровень воды до рекордных 9,40 м. Ущерб оценивался более чем в 20 млрд евро, к 26 августа погибли 20 человек, и правительство выделило на восстановление более 7 млрд евро.",
+   "historical_summary_en": "On 11 August 2002 the flood reached Dresden and the Elbe and its tributaries became torrents, and on 17 August a second wave raised the water to a record 9.40 m. Damage was estimated at more than 20 billion euros, 20 people had died by 26 August, and the federal government provided over seven billion euros for reconstruction.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "flooded_house"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/2002.html",
+     "accessed": "2026-11-11",
+     "supports": "11.08, 17.08 9,40 м, 26.08.2002"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-sachsen-2015-heidenau-freital",
+   "title": "Протесты против приютов для беженцев",
+   "title_en": "Protests against refugee shelters",
+   "start_date": "2015-08-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-sachsen"
+   ],
+   "category": "migration",
+   "historical_summary": "22 июня 2015 г. во Фрайтале протесты против размещения беженцев в бывшей гостинице привели к столкновениям, а 21 августа протест против нового приюта в Хайденау перерос в столкновения с полицией.",
+   "historical_summary_en": "On 22 June 2015 protests in Freital against housing refugees in a former hotel led to clashes, and on 21 August a protest against a new shelter in Heidenau turned into clashes with the police.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/2015.html",
+     "accessed": "2026-11-11",
+     "supports": "22.06.2015 Freital; 21.08.2015 Heidenau"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

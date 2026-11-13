@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { spokenFactSentence } from "../../content/scenes/historicalNarration";
 import generatedCatalog from "./en.generated.json";
+import worldCatalog from "./en.world.generated.json";
 
 export type Locale = "ru" | "en";
 
@@ -14,7 +15,19 @@ interface GeneratedCatalog {
   patterns: TranslationPattern[];
 }
 
-const catalog = generatedCatalog as GeneratedCatalog;
+// Countries added in world-1.2 carry English next to the Russian: the export writes it to en.world.generated.json,
+// and hand-written content for those countries (names, regional texts, milestones, work) lives in en/<country>.json.
+// The reviewed full catalog wins where both translate the same string.
+const contentCatalogs = import.meta.glob<{ exact: Record<string, string> }>("./en/*.json", { eager: true, import: "default" });
+const catalog: GeneratedCatalog = {
+  exact: Object.assign(
+    {},
+    ...Object.keys(contentCatalogs).sort().map((file) => contentCatalogs[file]!.exact),
+    (worldCatalog as { exact: Record<string, string> }).exact,
+    (generatedCatalog as GeneratedCatalog).exact
+  ),
+  patterns: (generatedCatalog as GeneratedCatalog).patterns
+};
 const STORAGE_KEY = "babushka.locale";
 const russianText = /[А-Яа-яЁё]/u;
 

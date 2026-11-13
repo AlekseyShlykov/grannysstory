@@ -1,0 +1,1469 @@
+{
+ "locations": [
+  {
+   "id": "it",
+   "type": "state",
+   "country": "IT",
+   "wikidata": "Q38",
+   "codes": {
+    "iso3166": "IT"
+   },
+   "names": [
+    {
+     "name": "Regno d'Italia",
+     "lang": "it",
+     "from": "1861-03-17",
+     "to": "1946-06-17"
+    },
+    {
+     "name": "Repubblica Italiana",
+     "lang": "it",
+     "from": "1946-06-18",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Королевство Италия",
+     "locative": "в Королевстве Италия",
+     "name_en": "Kingdom of Italy",
+     "from": "1861-03-17",
+     "to": "1946-06-17"
+    },
+    {
+     "name": "Италия",
+     "locative": "в Италии",
+     "name_en": "Italy",
+     "from": "1946-06-18",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Italia",
+    "Regno d'Italia (Q172579)"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1861-03-17",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Одно государство с 17.03.1861 (Q172579 Королевство Италия, 1861–1946; Q38 Итальянская Республика). Референдум 2–3.06.1946; Wikidata датирует конец королевства и начало республики 18.06.1946 (окончательное утверждение итогов Кассационным судом), здесь смена названия взята по этой дате. Итальянская социальная республика (1943–1945) отдельным государством не моделируется: оккупация севера Германией отмечена в occupations городов. Союзническое военное управление (AMGOT/AMG) 1943–1945/1946 также отмечено в occupations.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1861-03-17"
+  },
+  {
+   "id": "it-lazio",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1282",
+   "codes": {
+    "istat_region": "12"
+   },
+   "names": [
+    {
+     "name": "Lazio",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Лацио",
+     "locative": "в Лацио",
+     "name_en": "Lazio",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 41.9,
+    "lon": 12.71667,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Административный регион с ординарным статутом действует с 1970 г. (первые региональные выборы 7–8.06.1970); до 1970 г. узел — географический/статистический компартимент (compartimento), события провинций привязаны к узлам provincia.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-lombardia",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1210",
+   "codes": {
+    "istat_region": "03"
+   },
+   "names": [
+    {
+     "name": "Lombardia",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Ломбардия",
+     "locative": "в Ломбардии",
+     "name_en": "Lombardy",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 45.65,
+    "lon": 9.95,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Административный регион с ординарным статутом действует с 1970 г. (первые региональные выборы 7–8.06.1970); до 1970 г. узел — географический/статистический компартимент (compartimento), события провинций привязаны к узлам provincia. Wikidata указывает дату 1948-01-01 (Конституция), реальные органы региона — с 1970 г.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-piemonte",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1216",
+   "codes": {
+    "istat_region": "01"
+   },
+   "names": [
+    {
+     "name": "Piemonte",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Пьемонт",
+     "locative": "в Пьемонте",
+     "name_en": "Piedmont",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 45.25,
+    "lon": 7.91667,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Административный регион с ординарным статутом действует с 1970 г. (первые региональные выборы 7–8.06.1970); до 1970 г. узел — географический/статистический компартимент (compartimento), события провинций привязаны к узлам provincia.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-toscana",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1273",
+   "codes": {
+    "istat_region": "09"
+   },
+   "names": [
+    {
+     "name": "Toscana",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Тоскана",
+     "locative": "в Тоскане",
+     "name_en": "Tuscany",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 43.45,
+    "lon": 11.2,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Административный регион с ординарным статутом действует с 1970 г. (первые региональные выборы 7–8.06.1970); до 1970 г. узел — географический/статистический компартимент (compartimento), события провинций привязаны к узлам provincia.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-campania",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1438",
+   "codes": {
+    "istat_region": "15"
+   },
+   "names": [
+    {
+     "name": "Campania",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Кампания",
+     "locative": "в Кампании",
+     "name_en": "Campania",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 40.75,
+    "lon": 14.95,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Административный регион с ординарным статутом действует с 1970 г. (первые региональные выборы 7–8.06.1970); до 1970 г. узел — географический/статистический компартимент (compartimento), события провинций привязаны к узлам provincia.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-sicilia",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1460",
+   "codes": {
+    "istat_region": "19"
+   },
+   "names": [
+    {
+     "name": "Sicilia",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Сицилия",
+     "locative": "на Сицилии",
+     "name_en": "Sicily",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 37.6,
+    "lon": 14.01667,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Регион с особым статутом: статут утверждён 15.05.1946 (Wikidata P571), конституционный закон 1948 г.; до этого — географический/статистический компартимент.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-basilicata",
+   "type": "region",
+   "country": "IT",
+   "wikidata": "Q1452",
+   "codes": {
+    "istat_region": "17"
+   },
+   "names": [
+    {
+     "name": "Basilicata",
+     "lang": "it",
+     "from": null,
+     "to": "1931"
+    },
+    {
+     "name": "Lucania",
+     "lang": "it",
+     "from": "1932",
+     "to": "1947"
+    },
+    {
+     "name": "Basilicata",
+     "lang": "it",
+     "from": "1948",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Базиликата",
+     "locative": "в Базиликате",
+     "name_en": "Basilicata",
+     "from": null,
+     "to": "1931"
+    },
+    {
+     "name": "Лукания",
+     "locative": "в Лукании",
+     "name_en": "Lucania",
+     "from": "1932",
+     "to": "1947"
+    },
+    {
+     "name": "Базиликата",
+     "locative": "в Базиликате",
+     "name_en": "Basilicata",
+     "from": "1948",
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Lucania"
+   ],
+   "coordinates": {
+    "lat": 40.5,
+    "lon": 16.5,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Официальное название Lucania в 1932–1947 гг. (it.wikipedia «Basilicata»: «denominazione che fu ufficiale dal 1932 al 1947»); точные даты актов не установлены, границы периодов — по годам. Административный регион — с 1970 г., до этого компартимент.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ]
+  },
+  {
+   "id": "it-prov-roma",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q15119",
+   "codes": {
+    "istat_provincia": "058"
+   },
+   "names": [
+    {
+     "name": "Provincia di Roma",
+     "lang": "it",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "Città metropolitana di Roma Capitale",
+     "lang": "it",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Рим",
+     "locative": "в провинции Рим",
+     "name_en": "Province of Rome",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "метропольный город Рим",
+     "locative": "в метропольном городе Рим",
+     "name_en": "Metropolitan City of Rome",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-lazio",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Один узел на всю историю: провинция (Wikidata Q15119) до 2014-12-31, с 2015-01-01 — метропольный город (Q18288160) в тех же основных границах. ID стабилен при переименовании.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-milano",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q15121",
+   "codes": {
+    "istat_provincia": "015"
+   },
+   "names": [
+    {
+     "name": "Provincia di Milano",
+     "lang": "it",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "Città metropolitana di Milano",
+     "lang": "it",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Милан",
+     "locative": "в провинции Милан",
+     "name_en": "Province of Milan",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "метропольный город Милан",
+     "locative": "в метропольном городе Милан",
+     "name_en": "Metropolitan City of Milan",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-lombardia",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Один узел на всю историю: провинция (Wikidata Q15121) до 2014-12-31, с 2015-01-01 — метропольный город (Q18288155) в тех же основных границах. ID стабилен при переименовании.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-torino",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16287",
+   "codes": {
+    "istat_provincia": "001"
+   },
+   "names": [
+    {
+     "name": "Provincia di Torino",
+     "lang": "it",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "Città metropolitana di Torino",
+     "lang": "it",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Турин",
+     "locative": "в провинции Турин",
+     "name_en": "Province of Turin",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "метропольный город Турин",
+     "locative": "в метропольном городе Турин",
+     "name_en": "Metropolitan City of Turin",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-piemonte",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Один узел на всю историю: провинция (Wikidata Q16287) до 2014-12-31, с 2015-01-01 — метропольный город (Q18288162) в тех же основных границах. ID стабилен при переименовании.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-firenze",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16172",
+   "codes": {
+    "istat_provincia": "048"
+   },
+   "names": [
+    {
+     "name": "Provincia di Firenze",
+     "lang": "it",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "Città metropolitana di Firenze",
+     "lang": "it",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Флоренция",
+     "locative": "в провинции Флоренция",
+     "name_en": "Province of Florence",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "метропольный город Флоренция",
+     "locative": "в метропольном городе Флоренция",
+     "name_en": "Metropolitan City of Florence",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-toscana",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Один узел на всю историю: провинция (Wikidata Q16172) до 2014-12-31, с 2015-01-01 — метропольный город (Q18288148) в тех же основных границах. ID стабилен при переименовании.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-napoli",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q15123",
+   "codes": {
+    "istat_provincia": "063"
+   },
+   "names": [
+    {
+     "name": "Provincia di Napoli",
+     "lang": "it",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "Città metropolitana di Napoli",
+     "lang": "it",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Неаполь",
+     "locative": "в провинции Неаполь",
+     "name_en": "Province of Naples",
+     "from": null,
+     "to": "2014-12-31"
+    },
+    {
+     "name": "метропольный город Неаполь",
+     "locative": "в метропольном городе Неаполь",
+     "name_en": "Metropolitan City of Naples",
+     "from": "2015-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-campania",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Один узел на всю историю: провинция (Wikidata Q15123) до 2014-12-31, с 2015-01-01 — метропольный город (Q18241891) в тех же основных границах. ID стабилен при переименовании.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-palermo",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16227",
+   "codes": {
+    "istat_provincia": "082"
+   },
+   "names": [
+    {
+     "name": "Provincia di Palermo",
+     "lang": "it",
+     "from": null,
+     "to": "2015-08-03"
+    },
+    {
+     "name": "Città metropolitana di Palermo",
+     "lang": "it",
+     "from": "2015-08-04",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Палермо",
+     "locative": "в провинции Палермо",
+     "name_en": "Province of Palermo",
+     "from": null,
+     "to": "2015-08-03"
+    },
+    {
+     "name": "метропольный город Палермо",
+     "locative": "в метропольном городе Палермо",
+     "name_en": "Metropolitan City of Palermo",
+     "from": "2015-08-04",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-sicilia",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Один узел на всю историю: провинция (Wikidata Q16227) до 2015-08-03, с 2015-08-04 — метропольный город (Q20795016) в тех же основных границах. ID стабилен при переименовании.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-trapani",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16288",
+   "codes": {
+    "istat_provincia": "081"
+   },
+   "names": [
+    {
+     "name": "Provincia di Trapani",
+     "lang": "it",
+     "from": null,
+     "to": "2015-08-03"
+    },
+    {
+     "name": "Libero consorzio comunale di Trapani",
+     "lang": "it",
+     "from": "2015-08-04",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Трапани",
+     "locative": "в провинции Трапани",
+     "name_en": "Province of Trapani",
+     "from": null,
+     "to": "2015-08-03"
+    },
+    {
+     "name": "свободный консорциум коммун Трапани",
+     "locative": "в консорциуме коммун Трапани",
+     "name_en": "Free Municipal Consortium of Trapani",
+     "from": "2015-08-04",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-sicilia",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Wikidata (Q16288) закрывает провинцию 4.08.2015 — переход Сицилии к свободным консорциумам коммун; узел сохранён с переименованием.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-avellino",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16120",
+   "codes": {
+    "istat_provincia": "064"
+   },
+   "names": [
+    {
+     "name": "Provincia di Avellino",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Авеллино",
+     "locative": "в провинции Авеллино",
+     "name_en": "Province of Avellino",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-campania",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-prov-potenza",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16249",
+   "codes": {
+    "istat_provincia": "076"
+   },
+   "names": [
+    {
+     "name": "Provincia di Potenza",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Потенца",
+     "locative": "в провинции Потенца",
+     "name_en": "Province of Potenza",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-basilicata",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "До 1927 г. включала территорию нынешней провинции Матера (it.wikipedia «Provincia di Potenza»).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ]
+  },
+  {
+   "id": "it-prov-matera",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q16206",
+   "codes": {
+    "istat_provincia": "077"
+   },
+   "names": [
+    {
+     "name": "Provincia di Matera",
+     "lang": "it",
+     "from": "1927-01-02",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Матера",
+     "locative": "в провинции Матера",
+     "name_en": "Province of Matera",
+     "from": "1927-01-02",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-basilicata",
+     "from": "1927-01-02",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Учреждена 2.01.1927 (it.wikipedia «Provincia di Matera», дата в карточке).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ],
+   "valid_from": "1927-01-02"
+  },
+  {
+   "id": "it-prov-aosta",
+   "type": "provincia",
+   "country": "IT",
+   "wikidata": "Q15118",
+   "codes": {
+    "istat_provincia": "007"
+   },
+   "names": [
+    {
+     "name": "Provincia di Aosta",
+     "lang": "it",
+     "from": "1927-01-02",
+     "to": "1945-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "провинция Аоста",
+     "locative": "в провинции Аоста",
+     "name_en": "Province of Aosta",
+     "from": "1927-01-02",
+     "to": "1945-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "it-piemonte",
+     "from": "1927-01-02",
+     "to": "1945-12-31"
+    }
+   ],
+   "sovereignty_note": "Создана R.D.L. 2.01.1927 n. 1 из округов (circondari) Аосты и Ивреи, ранее входивших в провинцию Турин; упразднена D.Lgs.Lgt. 7.09.1945 n. 545 с вступлением в силу в полночь 31.12.1945 (it.wikipedia «Provincia di Aosta»). Родитель — компартимент Пьемонт.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ],
+   "valid_from": "1927-01-02",
+   "valid_to": "1945-12-31"
+  },
+  {
+   "id": "it-roma",
+   "type": "city",
+   "country": "IT",
+   "wikidata": "Q220",
+   "codes": {
+    "istat_comune": "058091"
+   },
+   "settlement_class": "capital",
+   "names": [
+    {
+     "name": "Roma",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Рим",
+     "locative": "в Риме",
+     "name_en": "Rome",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Rome"
+   ],
+   "coordinates": {
+    "lat": 41.89306,
+    "lon": 12.48278,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-roma",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Столица Королевства Италия с 1871 г. и Итальянской Республики.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-milano",
+   "type": "city",
+   "country": "IT",
+   "wikidata": "Q490",
+   "codes": {
+    "istat_comune": "015146"
+   },
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Milano",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Милан",
+     "locative": "в Милане",
+     "name_en": "Milan",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Milan"
+   ],
+   "coordinates": {
+    "lat": 45.46694,
+    "lon": 9.19,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-milano",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-torino",
+   "type": "city",
+   "country": "IT",
+   "wikidata": "Q495",
+   "codes": {
+    "istat_comune": "001272"
+   },
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Torino",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Турин",
+     "locative": "в Турине",
+     "name_en": "Turin",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Turin"
+   ],
+   "coordinates": {
+    "lat": 45.07917,
+    "lon": 7.67611,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-torino",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-firenze",
+   "type": "city",
+   "country": "IT",
+   "wikidata": "Q2044",
+   "codes": {
+    "istat_comune": "048017"
+   },
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Firenze",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Флоренция",
+     "locative": "во Флоренции",
+     "name_en": "Florence",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Florence"
+   ],
+   "coordinates": {
+    "lat": 43.77139,
+    "lon": 11.25417,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-firenze",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Немецкая оккупация: начало — 1943 г. (точная дата в использованном источнике не указана), конец — 11.08.1944 (en.wikipedia «Timeline of Florence»).",
+   "occupations": [
+    {
+     "by_ru": "Германия (север и центр Италии под властью Итальянской социальной республики)",
+     "from": "1943",
+     "to": "1944-08-11",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "wikidata",
+    "it_en_wikipedia"
+   ]
+  },
+  {
+   "id": "it-napoli",
+   "type": "city",
+   "country": "IT",
+   "wikidata": "Q2634",
+   "codes": {
+    "istat_comune": "063049"
+   },
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Napoli",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Неаполь",
+     "locative": "в Неаполе",
+     "name_en": "Naples",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Naples"
+   ],
+   "coordinates": {
+    "lat": 40.83583,
+    "lon": 14.24861,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-napoli",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": null,
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-palermo",
+   "type": "city",
+   "country": "IT",
+   "wikidata": "Q2656",
+   "codes": {
+    "istat_comune": "082053"
+   },
+   "settlement_class": "large_city",
+   "names": [
+    {
+     "name": "Palermo",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Палермо",
+     "locative": "в Палермо",
+     "name_en": "Palermo",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 38.11566,
+    "lon": 13.36126,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-palermo",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "С 22.07.1943 — союзническая военная администрация (AMGOT; комиссар по гражданским делам Ч. Полетти), 29.09.1943 назначен первый послефашистский мэр (en.wikipedia «Timeline of Palermo»). Дата передачи Сицилии итальянской администрации не проверена, поэтому в occupations не внесена. Немецкой оккупации города не было в проверенных источниках.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_en_wikipedia"
+   ]
+  },
+  {
+   "id": "it-ivrea",
+   "type": "town",
+   "country": "IT",
+   "wikidata": "Q9409",
+   "codes": {
+    "istat_comune": "001125"
+   },
+   "settlement_class": "small_town",
+   "names": [
+    {
+     "name": "Ivrea",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Иврея",
+     "locative": "в Иврее",
+     "name_en": "Ivrea",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Eporedia"
+   ],
+   "coordinates": {
+    "lat": 45.46738,
+    "lon": 7.8748,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-torino",
+     "from": null,
+     "to": "1927-01-01"
+    },
+    {
+     "id": "it-prov-aosta",
+     "from": "1927-01-02",
+     "to": "1945-12-31"
+    },
+    {
+     "id": "it-prov-torino",
+     "from": "1946-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "1927–1945 — в провинции Аоста (округ Ивреи вошёл в новую провинцию). Возврат в провинцию Турин с 1.01.1946 выведен из даты упразднения провинции Аоста; отдельного акта о передаче не проверено.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ]
+  },
+  {
+   "id": "it-sesto-san-giovanni",
+   "type": "town",
+   "country": "IT",
+   "wikidata": "Q43005",
+   "codes": {
+    "istat_comune": "015209"
+   },
+   "settlement_class": "medium_city",
+   "names": [
+    {
+     "name": "Sesto San Giovanni",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Сесто-Сан-Джованни",
+     "locative": "в Сесто-Сан-Джованни",
+     "name_en": "Sesto San Giovanni",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 45.53333,
+    "lon": 9.23333,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-milano",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Промышленный пригород Милана. Союзные войска вошли в город 28.04.1945 (it.wikipedia); даты начала немецкой оккупации по городу не проверены.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ]
+  },
+  {
+   "id": "it-matera",
+   "type": "town",
+   "country": "IT",
+   "wikidata": "Q13616",
+   "codes": {
+    "istat_comune": "077014"
+   },
+   "settlement_class": "small_town",
+   "names": [
+    {
+     "name": "Matera",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Матера",
+     "locative": "в Матере",
+     "name_en": "Matera",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 40.66667,
+    "lon": 16.6,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-potenza",
+     "from": null,
+     "to": "1927-01-01"
+    },
+    {
+     "id": "it-prov-matera",
+     "from": "1927-01-02",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "До 1927 г. в провинции Потенца, с 2.01.1927 — центр провинции Матера.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "it_wikipedia"
+   ]
+  },
+  {
+   "id": "it-santangelo-dei-lombardi",
+   "type": "village",
+   "country": "IT",
+   "wikidata": "Q55103",
+   "codes": {
+    "istat_comune": "064092"
+   },
+   "settlement_class": "rural",
+   "names": [
+    {
+     "name": "Sant'Angelo dei Lombardi",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Сант-Анджело-деи-Ломбарди",
+     "locative": "в Сант-Анджело-деи-Ломбарди",
+     "name_en": "Sant'Angelo dei Lombardi",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 40.93333,
+    "lon": 15.18333,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-avellino",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Горная аграрная коммуна Ирпинии.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  },
+  {
+   "id": "it-gibellina",
+   "type": "village",
+   "country": "IT",
+   "wikidata": "Q481720",
+   "codes": {
+    "istat_comune": "081010"
+   },
+   "settlement_class": "rural",
+   "names": [
+    {
+     "name": "Gibellina",
+     "lang": "it",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Джибеллина",
+     "locative": "в Джибеллине",
+     "name_en": "Gibellina",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 37.80646,
+    "lon": 12.8709,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "it-prov-trapani",
+     "from": null,
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Аграрная коммуна долины Беличе. После землетрясения 1968 г. город отстроен заново на другом месте (Gibellina Nuova); узел коммуны един для старого и нового поселения.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ]
+  }
+ ]
+}

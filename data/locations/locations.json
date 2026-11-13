@@ -2,6 +2,3415 @@
   "generated": true,
   "locations": [
     {
+      "id": "cn",
+      "type": "state",
+      "level": "national",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q148",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Китай",
+          "locative": "в Китае",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1949-10-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-anhui",
+      "type": "province",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q40956",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Аньхой",
+          "locative": "в Аньхое",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-beijing",
+      "type": "city",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "capital",
+      "wikidata": "Q956",
+      "coordinates": {
+        "lat": 39.90403,
+        "lon": 116.407526
+      },
+      "names": [
+        {
+          "name": "Пекин",
+          "locative": "в Пекине",
+          "from": null,
+          "to": "1928-06-27"
+        },
+        {
+          "name": "Бэйпин",
+          "locative": "в Бэйпине",
+          "from": "1928-06-28",
+          "to": "1949-09-26"
+        },
+        {
+          "name": "Пекин",
+          "locative": "в Пекине",
+          "from": "1949-09-27",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn-beijing-municipality",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Япония (марионеточное Временное правительство Китайской Республики, затем режим Ван Цзинвэя)",
+          "from": "1937-08-08",
+          "to": "1945-08-21"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-beijing-municipality",
+      "type": "region",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Пекин (город центрального подчинения)",
+          "locative": "в Пекине",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1949-10-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-chengdu",
+      "type": "city",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "large_city",
+      "wikidata": "Q30002",
+      "coordinates": {
+        "lat": 30.66,
+        "lon": 104.06333333333333
+      },
+      "names": [
+        {
+          "name": "Чэнду",
+          "locative": "в Чэнду",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-sichuan",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-guangdong",
+      "type": "province",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q15175",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Гуандун",
+          "locative": "в Гуандуне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-10-13"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-14",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-guanghan",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "rural",
+      "wikidata": "Q607961",
+      "coordinates": {
+        "lat": 30.97932,
+        "lon": 104.28
+      },
+      "names": [
+        {
+          "name": "уезд Гуанхань",
+          "locative": "в уезде Гуанхань",
+          "from": null,
+          "to": "1988-01"
+        },
+        {
+          "name": "Гуанхань",
+          "locative": "в Гуанхане",
+          "from": "1988-02",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-sichuan",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-guangzhou",
+      "type": "city",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "large_city",
+      "wikidata": "Q16572",
+      "coordinates": {
+        "lat": 23.13,
+        "lon": 113.26
+      },
+      "names": [
+        {
+          "name": "Гуанчжоу",
+          "locative": "в Гуанчжоу",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-guangdong",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Япония (марионеточные администрации, с 1940 г. режим Ван Цзинвэя)",
+          "from": "1938-10-21",
+          "to": "1945-09"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-hubei",
+      "type": "province",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q46862",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Хубэй",
+          "locative": "в Хубэе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-jiangsu",
+      "type": "province",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q16963",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Цзянсу",
+          "locative": "в Цзянсу",
+          "from": null,
+          "to": "1927-07-06"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1927-07-06"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1927-07-06",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-shaanxi",
+      "type": "province",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q47974",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Шэньси",
+          "locative": "в Шэньси",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-shanghai",
+      "type": "city",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "large_city",
+      "wikidata": "Q8686",
+      "coordinates": {
+        "lat": 31.2325,
+        "lon": 121.46916666666667
+      },
+      "names": [
+        {
+          "name": "Шанхай",
+          "locative": "в Шанхае",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-jiangsu",
+          "from": null,
+          "to": "1927-07-06"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1927-07-07",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn-shanghai-municipality",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Япония (китайские районы города; марионеточные администрации, с 1940 г. режим Ван Цзинвэя)",
+          "from": "1937-11-26",
+          "to": "1945-08-15"
+        },
+        {
+          "by": "Япония (Международный сеттльмент и Французская концессия)",
+          "from": "1941-12-08",
+          "to": "1945-08-15"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-shanghai-municipality",
+      "type": "region",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Шанхай (город центрального подчинения)",
+          "locative": "в Шанхае",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1949-10-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-shenzhen",
+      "type": "town",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "small_town",
+      "wikidata": "Q15174",
+      "coordinates": {
+        "lat": 22.546666666666667,
+        "lon": 114.05444444444444
+      },
+      "names": [
+        {
+          "name": "Шэньчжэнь (уезд Баоань)",
+          "locative": "в Шэньчжэне",
+          "from": null,
+          "to": "1979-03-04"
+        },
+        {
+          "name": "Шэньчжэнь",
+          "locative": "в Шэньчжэне",
+          "from": "1979-03-05",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-guangdong",
+          "from": null,
+          "to": "1949-10-13"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1949-10-14",
+          "to": "1949-10-15"
+        },
+        {
+          "id": "cn-guangdong",
+          "from": "1949-10-16",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Япония (марионеточное правительство уезда Баоань)",
+          "from": "1940-03",
+          "to": "1945-10-05"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-sichuan",
+      "type": "province",
+      "level": "regional",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q19770",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сычуань",
+          "locative": "в Сычуани",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-12-26"
+        },
+        {
+          "id": "cn",
+          "from": "1949-12-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-wuhan",
+      "type": "city",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "large_city",
+      "wikidata": "Q11746",
+      "coordinates": {
+        "lat": 30.595,
+        "lon": 114.2975
+      },
+      "names": [
+        {
+          "name": "Учан, Ханькоу и Ханьян",
+          "locative": "в Учане, Ханькоу и Ханьяне",
+          "from": null,
+          "to": "1926-12-31"
+        },
+        {
+          "name": "Ухань",
+          "locative": "в Ухане",
+          "from": "1927-01-01",
+          "to": "1929-03-31"
+        },
+        {
+          "name": "Учан, Ханькоу и Ханьян",
+          "locative": "в Учане, Ханькоу и Ханьяне",
+          "from": "1929-04-01",
+          "to": "1949-05-23"
+        },
+        {
+          "name": "Ухань",
+          "locative": "в Ухане",
+          "from": "1949-05-24",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-hubei",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Япония (марионеточные администрации, с 1940 г. режим Ван Цзинвэя)",
+          "from": "1938-10-27",
+          "to": "1945-09"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-xian",
+      "type": "city",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "large_city",
+      "wikidata": "Q5826",
+      "coordinates": {
+        "lat": 34.26111111111111,
+        "lon": 108.94222222222223
+      },
+      "names": [
+        {
+          "name": "Сиань",
+          "locative": "в Сиани",
+          "from": null,
+          "to": "1931"
+        },
+        {
+          "name": "Сицзин (Сиань)",
+          "locative": "в Сицзине (Сиани)",
+          "from": "1932",
+          "to": "1942"
+        },
+        {
+          "name": "Сиань",
+          "locative": "в Сиани",
+          "from": "1943",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-shaanxi",
+          "from": null,
+          "to": "1947"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1948",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": "1953"
+        },
+        {
+          "id": "cn-shaanxi",
+          "from": "1954",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-xiaogang",
+      "type": "village",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "rural",
+      "wikidata": "Q8044256",
+      "coordinates": {
+        "lat": 32.83317,
+        "lon": 117.786397
+      },
+      "names": [
+        {
+          "name": "Сяоган",
+          "locative": "в Сяогане",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-anhui",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "cn-zigong",
+      "type": "town",
+      "level": "municipal",
+      "country": "CN",
+      "settlementClass": "small_town",
+      "wikidata": "Q29015",
+      "coordinates": {
+        "lat": 29.349842,
+        "lon": 104.764514
+      },
+      "names": [
+        {
+          "name": "Цзылюцзин и Гунцзин",
+          "locative": "в Цзылюцзине и Гунцзине",
+          "from": null,
+          "to": "1939-08-31"
+        },
+        {
+          "name": "Цзыгун",
+          "locative": "в Цзыгуне",
+          "from": "1939-09-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "cn-sichuan",
+          "from": null,
+          "to": "1949-12-05"
+        },
+        {
+          "id": "cn",
+          "from": "1949-12-06",
+          "to": "1949-12-26"
+        },
+        {
+          "id": "cn-sichuan",
+          "from": "1949-12-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de",
+      "type": "state",
+      "level": "national",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q183",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "ФРГ",
+          "locative": "в ФРГ",
+          "from": "1949-05-23",
+          "to": "1990-10-02"
+        },
+        {
+          "name": "Германия",
+          "locative": "в Германии",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1949-05-23",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-altmark",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "rural",
+      "wikidata": "Q442655",
+      "coordinates": {
+        "lat": 52.71667,
+        "lon": 11.4
+      },
+      "names": [
+        {
+          "name": "Альтмарк",
+          "locative": "в Альтмарке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prov-saxony",
+          "from": null,
+          "to": "1944-06-30"
+        },
+        {
+          "id": "de-prov-magdeburg",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1945-07-09",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-magdeburg",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-bayern",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q980",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Бавария",
+          "locative": "в Королевстве Бавария",
+          "from": null,
+          "to": "1918-11-07"
+        },
+        {
+          "name": "Бавария",
+          "locative": "в Баварии",
+          "from": "1918-11-08",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-us",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-berlin",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "capital",
+      "wikidata": "Q64",
+      "coordinates": {
+        "lat": 52.51667,
+        "lon": 13.38333
+      },
+      "names": [
+        {
+          "name": "Берлин",
+          "locative": "в Берлине",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1948-11-29"
+        },
+        {
+          "id": "de-land-berlin",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Советская армия (до вывода западных союзников в свои секторы)",
+          "from": "1945-05-02",
+          "to": "1945-07-03"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [
+        {
+          "from": "1948-11-30",
+          "to": "1990-10-02",
+          "into": [
+            "de-berlin-west",
+            "de-berlin-east"
+          ]
+        }
+      ],
+      "abolished": []
+    },
+    {
+      "id": "de-berlin-east",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "capital",
+      "wikidata": "Q56037",
+      "coordinates": {
+        "lat": 52.51861,
+        "lon": 13.40444
+      },
+      "names": [
+        {
+          "name": "Восточный Берлин",
+          "locative": "в Восточном Берлине",
+          "from": "1948-11-30",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1948-11-30",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "СССР",
+          "from": "1948-11-30",
+          "to": "1949-10-06"
+        }
+      ],
+      "validFrom": "1948-11-30",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-berlin-west",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "large_city",
+      "wikidata": "Q56036",
+      "coordinates": {
+        "lat": 52.5,
+        "lon": 13.28
+      },
+      "names": [
+        {
+          "name": "Западный Берлин",
+          "locative": "в Западном Берлине",
+          "from": "1948-11-30",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1948-11-30",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "США, Великобритания, Франция",
+          "from": "1948-11-30",
+          "to": "1949-05-22"
+        }
+      ],
+      "validFrom": "1948-11-30",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-bezirk-frankfurt-oder",
+      "type": "region",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q48057",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Округ Франкфурт-на-Одере",
+          "locative": "в округе Франкфурт-на-Одере",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1952-07-25",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-bezirk-halle",
+      "type": "region",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q48066",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Округ Галле",
+          "locative": "в округе Галле",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1952-07-25",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-bezirk-leipzig",
+      "type": "region",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q48079",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Округ Лейпциг",
+          "locative": "в округе Лейпциг",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1952-07-25",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-bezirk-magdeburg",
+      "type": "region",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q48083",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Округ Магдебург",
+          "locative": "в округе Магдебург",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1952-07-25",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-brandenburg",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q1208",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Бранденбург",
+          "locative": "в Бранденбурге",
+          "from": "1947-02-26",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Бранденбург",
+          "locative": "в Бранденбурге",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-zone-soviet",
+          "from": "1947-02-26",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1947-02-26",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [
+        {
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ]
+    },
+    {
+      "id": "de-eisenhuettenstadt",
+      "type": "town",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "small_town",
+      "wikidata": "Q16106",
+      "coordinates": {
+        "lat": 52.14655,
+        "lon": 14.63001
+      },
+      "names": [
+        {
+          "name": "Фюрстенберг-на-Одере",
+          "locative": "в Фюрстенберге-на-Одере",
+          "from": null,
+          "to": "1953-05-06"
+        },
+        {
+          "name": "Сталинштадт",
+          "locative": "в Сталинштадте",
+          "from": "1953-05-07",
+          "to": "1961-11-12"
+        },
+        {
+          "name": "Айзенхюттенштадт",
+          "locative": "в Айзенхюттенштадте",
+          "from": "1961-11-13",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prov-brandenburg",
+          "from": null,
+          "to": "1947-02-25"
+        },
+        {
+          "id": "de-brandenburg",
+          "from": "1947-02-26",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-frankfurt-oder",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-brandenburg",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-halle",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "large_city",
+      "wikidata": "Q2814",
+      "coordinates": {
+        "lat": 51.48278,
+        "lon": 11.96972
+      },
+      "names": [
+        {
+          "name": "Галле",
+          "locative": "в Галле",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prov-saxony",
+          "from": null,
+          "to": "1944-06-30"
+        },
+        {
+          "id": "de-prov-halle-merseburg",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1945-07-09",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-halle",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Армия США (до передачи советской администрации)",
+          "from": "1945-04-17",
+          "to": "1945-07-01"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-hamburg",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "large_city",
+      "wikidata": "Q1055",
+      "coordinates": {
+        "lat": 53.55,
+        "lon": 10
+      },
+      "names": [
+        {
+          "name": "Гамбург",
+          "locative": "в Гамбурге",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-land-hamburg",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Великобритания (до учреждения зон)",
+          "from": "1945-05-03",
+          "to": "1945-06-04"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-koeln",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "large_city",
+      "wikidata": "Q365",
+      "coordinates": {
+        "lat": 50.94222,
+        "lon": 6.95778
+      },
+      "names": [
+        {
+          "name": "Кёльн",
+          "locative": "в Кёльне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prov-rhine",
+          "from": null,
+          "to": "1946-08-22"
+        },
+        {
+          "id": "de-nrw",
+          "from": "1946-08-23",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Великобритания (оккупация Рейнской области)",
+          "from": "1918-12",
+          "to": "1926-01"
+        },
+        {
+          "by": "Армия США (до учреждения зон)",
+          "from": "1945-03-06",
+          "to": "1945-06-04"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-land-berlin",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q64",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Берлин (земля)",
+          "locative": "в земле Берлин",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1990-10-03",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-land-hamburg",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q1055",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Гамбург (земля)",
+          "locative": "в земле Гамбург",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-british",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-leipzig",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "large_city",
+      "wikidata": "Q2079",
+      "coordinates": {
+        "lat": 51.34063,
+        "lon": 12.37473
+      },
+      "names": [
+        {
+          "name": "Лейпциг",
+          "locative": "в Лейпциге",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-sachsen",
+          "from": null,
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-leipzig",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-sachsen",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Армия США (до передачи советской администрации)",
+          "from": "1945-04-19",
+          "to": "1945-07-01"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-muenchen",
+      "type": "city",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "large_city",
+      "wikidata": "Q1726",
+      "coordinates": {
+        "lat": 48.1375,
+        "lon": 11.575
+      },
+      "names": [
+        {
+          "name": "Мюнхен",
+          "locative": "в Мюнхене",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-bayern",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Армия США (до учреждения зон)",
+          "from": "1945-04-30",
+          "to": "1945-06-04"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-niedersachsen",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q1197",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Нижняя Саксония",
+          "locative": "в Нижней Саксонии",
+          "from": "1946-11-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-zone-british",
+          "from": "1946-11-01",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-11-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-nrw",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q1198",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Северный Рейн-Вестфалия",
+          "locative": "в Северном Рейне-Вестфалии",
+          "from": "1946-08-23",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-zone-british",
+          "from": "1946-08-23",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-08-23",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-oberammergau",
+      "type": "village",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "rural",
+      "wikidata": "Q503757",
+      "coordinates": {
+        "lat": 47.59667,
+        "lon": 11.06444
+      },
+      "names": [
+        {
+          "name": "Обераммергау",
+          "locative": "в Обераммергау",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-bayern",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prov-brandenburg",
+      "type": "province",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q700264",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Бранденбург",
+          "locative": "в провинции Бранденбург",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "name": "Провинция Марк Бранденбург",
+          "locative": "в провинции Марк Бранденбург",
+          "from": "1945-06-05",
+          "to": "1947-02-25"
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1947-02-25"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1947-02-25",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prov-halle-merseburg",
+      "type": "province",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Галле-Мерзебург",
+          "locative": "в провинции Галле-Мерзебург",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": "1944-07-01",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1945-07-08"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1944-07-01",
+      "validTo": "1945-07-08",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prov-hanover",
+      "type": "province",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q819125",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Ганновер",
+          "locative": "в провинции Ганновер",
+          "from": null,
+          "to": "1946-08-22"
+        },
+        {
+          "name": "Земля Ганновер",
+          "locative": "в земле Ганновер",
+          "from": "1946-08-23",
+          "to": "1946-10-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-british",
+          "from": "1945-06-05",
+          "to": "1946-10-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1946-10-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prov-magdeburg",
+      "type": "province",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q896419",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Магдебург",
+          "locative": "в провинции Магдебург",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": "1944-07-01",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1945-07-08"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1944-07-01",
+      "validTo": "1945-07-08",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prov-rhine",
+      "type": "province",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q698162",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Рейнская провинция",
+          "locative": "в Рейнской провинции",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "name": "Провинция Северный Рейн",
+          "locative": "в провинции Северный Рейн",
+          "from": "1945-06-05",
+          "to": "1946-08-22"
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-british",
+          "from": "1945-06-05",
+          "to": "1946-08-22"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1946-08-22",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prov-saxony",
+      "type": "province",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q340210",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Саксония",
+          "locative": "в провинции Саксония",
+          "from": null,
+          "to": "1944-06-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1944-06-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1944-06-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-prussia",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q161036",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Пруссия",
+          "locative": "в Королевстве Пруссия",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "name": "Свободное государство Пруссия",
+          "locative": "в Пруссии",
+          "from": "1918-11-10",
+          "to": "1947-02-25"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1947-02-25"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1947-02-25",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-sachsen",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q1202",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Саксония",
+          "locative": "в Королевстве Саксония",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "name": "Саксония",
+          "locative": "в Саксонии",
+          "from": "1918-11-10",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Саксония",
+          "locative": "в Саксонии",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [
+        {
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ]
+    },
+    {
+      "id": "de-sachsen-anhalt",
+      "type": "land",
+      "level": "regional",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q1206",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Саксония",
+          "locative": "в провинции Саксония",
+          "from": "1945-07-09",
+          "to": "1946-10-19"
+        },
+        {
+          "name": "Саксония-Анхальт",
+          "locative": "в Саксонии-Анхальт",
+          "from": "1946-10-20",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Саксония-Анхальт",
+          "locative": "в Саксонии-Анхальт",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-07-09",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1945-07-09",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [
+        {
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ]
+    },
+    {
+      "id": "de-wolfsburg",
+      "type": "town",
+      "level": "municipal",
+      "country": "DE",
+      "settlementClass": "small_town",
+      "wikidata": "Q3014",
+      "coordinates": {
+        "lat": 52.42306,
+        "lon": 10.78722
+      },
+      "names": [
+        {
+          "name": "Город автомобиля КдФ",
+          "locative": "в Городе автомобиля КдФ",
+          "from": "1938-07-01",
+          "to": "1945-05-24"
+        },
+        {
+          "name": "Вольфсбург",
+          "locative": "в Вольфсбурге",
+          "from": "1945-05-25",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "de-prov-hanover",
+          "from": "1938-07-01",
+          "to": "1946-10-31"
+        },
+        {
+          "id": "de-niedersachsen",
+          "from": "1946-11-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Армия США (до учреждения зон)",
+          "from": "1945-04-11",
+          "to": "1945-06-04"
+        }
+      ],
+      "validFrom": "1938-07-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-zone-british",
+      "type": "occupation_zone",
+      "level": "constituent",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q55306",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Британская зона оккупации",
+          "locative": "в британской зоне оккупации",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Великобритания",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "validFrom": "1945-06-05",
+      "validTo": "1949-05-22",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-zone-french",
+      "type": "occupation_zone",
+      "level": "constituent",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q55309",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Французская зона оккупации",
+          "locative": "во французской зоне оккупации",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Франция",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "validFrom": "1945-06-05",
+      "validTo": "1949-05-22",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-zone-soviet",
+      "type": "occupation_zone",
+      "level": "constituent",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q55300",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Советская зона оккупации",
+          "locative": "в советской зоне оккупации",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "СССР",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        }
+      ],
+      "validFrom": "1945-06-05",
+      "validTo": "1949-10-06",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "de-zone-us",
+      "type": "occupation_zone",
+      "level": "constituent",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q55304",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Американская зона оккупации",
+          "locative": "в американской зоне оккупации",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "occupations": [
+        {
+          "by": "США",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "validFrom": "1945-06-05",
+      "validTo": "1949-05-22",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi",
+      "type": "state",
+      "level": "national",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q33",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Финляндия",
+          "locative": "в Финляндии",
+          "from": "1917-12-06",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1917-12-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1917-12-06",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-grand-duchy",
+      "type": "constituent_country",
+      "level": "constituent",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q62633",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Великое княжество Финляндское",
+          "locative": "в Великом княжестве Финляндском",
+          "from": "1809-10-01",
+          "to": "1917-12-05"
+        }
+      ],
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": "1809-10-01",
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1917-12-05"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1809-10-01",
+      "validTo": "1917-12-05",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-helsinki",
+      "type": "city",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "capital",
+      "wikidata": "Q1757",
+      "coordinates": {
+        "lat": 60.170833,
+        "lon": 24.9375
+      },
+      "names": [
+        {
+          "name": "Хельсинки",
+          "locative": "в Хельсинки",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-uusimaa",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-uusimaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-ilomantsi",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "rural",
+      "wikidata": "Q283599",
+      "coordinates": {
+        "lat": 62.672222,
+        "lon": 30.930556
+      },
+      "names": [
+        {
+          "name": "Иломантси",
+          "locative": "в Иломантси",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-kuopio",
+          "from": null,
+          "to": "1959"
+        },
+        {
+          "id": "fi-laani-pohjois-karjala",
+          "from": "1960",
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-karjala",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-jyvaskyla",
+      "type": "city",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "medium_city",
+      "wikidata": "Q134620",
+      "coordinates": {
+        "lat": 62.240278,
+        "lon": 25.744444
+      },
+      "names": [
+        {
+          "name": "Ювяскюля",
+          "locative": "в Ювяскюля",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-vaasa",
+          "from": null,
+          "to": "1960-02-29"
+        },
+        {
+          "id": "fi-laani-keski-suomi",
+          "from": "1960-03-01",
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-keski-suomi",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-keski-suomi",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5697",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Центральная Финляндия",
+          "locative": "в Центральной Финляндии",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-keski-suomi",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-etela-suomi",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q188752",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Южная Финляндия",
+          "locative": "в губернии Южная Финляндия",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1997-09-01",
+      "validTo": "2009-12-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-hame",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1320740",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Хяме",
+          "locative": "в губернии Хяме",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1831-03-24",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-ita-suomi",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q194073",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Восточная Финляндия",
+          "locative": "в губернии Восточная Финляндия",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1997-09-01",
+      "validTo": "2009-12-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-keski-suomi",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1190004",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Центральная Финляндия",
+          "locative": "в губернии Центральная Финляндия",
+          "from": "1960-03-01",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1960-03-01",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960-03-01",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-kuopio",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1372345",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Куопио",
+          "locative": "в губернии Куопио",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1831-03-24",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-lansi-suomi",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q192759",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Западная Финляндия",
+          "locative": "в губернии Западная Финляндия",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1997-09-01",
+      "validTo": "2009-12-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-oulu",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q202112",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Оулу",
+          "locative": "в губернии Оулу",
+          "from": "1775",
+          "to": "2009-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1775",
+      "validTo": "2009-12-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-pohjois-karjala",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1321024",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Северная Карелия",
+          "locative": "в губернии Северная Карелия",
+          "from": "1960",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1960",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1960",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-turku-pori",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1138022",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Турку-Пори",
+          "locative": "в губернии Турку-Пори",
+          "from": "1634",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1634",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-uusimaa",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1372937",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Уусимаа",
+          "locative": "в губернии Уусимаа",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1831-03-24",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-laani-vaasa",
+      "type": "province",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q1337549",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "губерния Вааса",
+          "locative": "в губернии Вааса",
+          "from": "1775",
+          "to": "1997-08-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1775",
+      "validTo": "1997-08-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-oulu",
+      "type": "city",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "large_city",
+      "wikidata": "Q47048",
+      "coordinates": {
+        "lat": 65.014167,
+        "lon": 25.471944
+      },
+      "names": [
+        {
+          "name": "Оулу",
+          "locative": "в Оулу",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-oulu",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-pohjanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-pirkanmaa",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5701",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Пирканмаа",
+          "locative": "в Пирканмаа",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-hame",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-pohjois-karjala",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5703",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Северная Карелия",
+          "locative": "в Северной Карелии",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-pohjois-karjala",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-ita-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-pohjois-pohjanmaa",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5704",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Северная Остроботния",
+          "locative": "в Северной Остроботнии",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-oulu",
+          "from": "1994-01-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-pohjois-savo",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5706",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Северное Саво",
+          "locative": "в Северном Саво",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-kuopio",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-ita-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-rauma",
+      "type": "town",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "small_town",
+      "wikidata": "Q37013",
+      "coordinates": {
+        "lat": 61.116667,
+        "lon": 21.5
+      },
+      "names": [
+        {
+          "name": "Раума",
+          "locative": "в Рауме",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-satakunta",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-satakunta",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5709",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сатакунта",
+          "locative": "в Сатакунте",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-tampere",
+      "type": "city",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "large_city",
+      "wikidata": "Q40840",
+      "coordinates": {
+        "lat": 61.498056,
+        "lon": 23.76
+      },
+      "names": [
+        {
+          "name": "Тампере",
+          "locative": "в Тампере",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-hame",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pirkanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-turku",
+      "type": "city",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "large_city",
+      "wikidata": "Q38511",
+      "coordinates": {
+        "lat": 60.451667,
+        "lon": 22.266944
+      },
+      "names": [
+        {
+          "name": "Турку",
+          "locative": "в Турку",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-varsinais-suomi",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-tyrnava",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "rural",
+      "wikidata": "Q992898",
+      "coordinates": {
+        "lat": 64.763889,
+        "lon": 25.652778
+      },
+      "names": [
+        {
+          "name": "Тюрнявя",
+          "locative": "в Тюрнявя",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-oulu",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-pohjanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-uusimaa",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5711",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Уусимаа",
+          "locative": "в Уусимаа",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-uusimaa",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-etela-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-varkaus",
+      "type": "town",
+      "level": "municipal",
+      "country": "FI",
+      "settlementClass": "small_town",
+      "wikidata": "Q683525",
+      "coordinates": {
+        "lat": 62.313889,
+        "lon": 27.893056
+      },
+      "names": [
+        {
+          "name": "Варкаус",
+          "locative": "в Варкаусе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-kuopio",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-savo",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "fi-varsinais-suomi",
+      "type": "region",
+      "level": "regional",
+      "country": "FI",
+      "settlementClass": null,
+      "wikidata": "Q5712",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Варсинайс-Суоми",
+          "locative": "в Варсинайс-Суоми",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-01-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "fr",
       "type": "state",
       "level": "national",
@@ -27,7 +3436,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-13",
@@ -60,7 +3471,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-29",
@@ -93,7 +3506,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-59",
@@ -131,7 +3546,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-69",
@@ -169,7 +3586,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-71",
@@ -207,7 +3626,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-75",
@@ -235,7 +3656,9 @@
       "occupations": [],
       "validFrom": "1968-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-dep-seine",
@@ -268,7 +3691,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1967-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-le-creusot",
@@ -305,7 +3730,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-lille",
@@ -347,7 +3774,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-lyon",
@@ -389,7 +3818,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-marseille",
@@ -426,7 +3857,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-paris",
@@ -468,7 +3901,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-plozevet",
@@ -499,7 +3934,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-ara",
@@ -527,7 +3964,9 @@
       "occupations": [],
       "validFrom": "2016-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-bfc",
@@ -555,7 +3994,9 @@
       "occupations": [],
       "validFrom": "2016-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-bourgogne",
@@ -583,7 +4024,9 @@
       "occupations": [],
       "validFrom": "1960-06-02",
       "validTo": "2015-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-bretagne",
@@ -611,7 +4054,9 @@
       "occupations": [],
       "validFrom": "1960-06-02",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-hdf",
@@ -645,7 +4090,9 @@
       "occupations": [],
       "validFrom": "2016-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-idf",
@@ -679,7 +4126,9 @@
       "occupations": [],
       "validFrom": "1960-06-02",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-npdc",
@@ -707,7 +4156,9 @@
       "occupations": [],
       "validFrom": "1960-06-02",
       "validTo": "2015-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-paca",
@@ -747,7 +4198,9 @@
       "occupations": [],
       "validFrom": "1960-06-02",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "fr-reg-rhone-alpes",
@@ -775,7 +4228,9 @@
       "occupations": [],
       "validFrom": "1960-06-02",
       "validTo": "2015-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb",
@@ -803,7 +4258,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-birmingham",
@@ -839,7 +4296,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-corby",
@@ -870,7 +4329,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-county-of-london",
@@ -898,7 +4359,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1965-03-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-eng",
@@ -926,7 +4389,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-greater-london",
@@ -954,7 +4419,9 @@
       "occupations": [],
       "validFrom": "1965-04-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-greater-manchester",
@@ -982,7 +4449,9 @@
       "occupations": [],
       "validFrom": "1974-04-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-lancashire",
@@ -1010,7 +4479,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-leicestershire",
@@ -1038,7 +4509,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-london",
@@ -1074,7 +4547,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-manchester",
@@ -1110,7 +4585,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-northamptonshire",
@@ -1138,7 +4615,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-rutland",
@@ -1176,7 +4655,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-warwickshire",
@@ -1204,7 +4685,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "gb-west-midlands",
@@ -1232,7 +4715,1044 @@
       "occupations": [],
       "validFrom": "1974-04-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it",
+      "type": "state",
+      "level": "national",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q38",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Италия",
+          "locative": "в Королевстве Италия",
+          "from": "1861-03-17",
+          "to": "1946-06-17"
+        },
+        {
+          "name": "Италия",
+          "locative": "в Италии",
+          "from": "1946-06-18",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1861-03-17",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1861-03-17",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-basilicata",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1452",
+      "coordinates": {
+        "lat": 40.5,
+        "lon": 16.5
+      },
+      "names": [
+        {
+          "name": "Базиликата",
+          "locative": "в Базиликате",
+          "from": null,
+          "to": "1931"
+        },
+        {
+          "name": "Лукания",
+          "locative": "в Лукании",
+          "from": "1932",
+          "to": "1947"
+        },
+        {
+          "name": "Базиликата",
+          "locative": "в Базиликате",
+          "from": "1948",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-campania",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1438",
+      "coordinates": {
+        "lat": 40.75,
+        "lon": 14.95
+      },
+      "names": [
+        {
+          "name": "Кампания",
+          "locative": "в Кампании",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-firenze",
+      "type": "city",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "large_city",
+      "wikidata": "Q2044",
+      "coordinates": {
+        "lat": 43.77139,
+        "lon": 11.25417
+      },
+      "names": [
+        {
+          "name": "Флоренция",
+          "locative": "во Флоренции",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-firenze",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия (север и центр Италии под властью Итальянской социальной республики)",
+          "from": "1943",
+          "to": "1944-08-11"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-gibellina",
+      "type": "village",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "rural",
+      "wikidata": "Q481720",
+      "coordinates": {
+        "lat": 37.80646,
+        "lon": 12.8709
+      },
+      "names": [
+        {
+          "name": "Джибеллина",
+          "locative": "в Джибеллине",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-trapani",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-ivrea",
+      "type": "town",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "small_town",
+      "wikidata": "Q9409",
+      "coordinates": {
+        "lat": 45.46738,
+        "lon": 7.8748
+      },
+      "names": [
+        {
+          "name": "Иврея",
+          "locative": "в Иврее",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-torino",
+          "from": null,
+          "to": "1927-01-01"
+        },
+        {
+          "id": "it-prov-aosta",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        },
+        {
+          "id": "it-prov-torino",
+          "from": "1946-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-lazio",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1282",
+      "coordinates": {
+        "lat": 41.9,
+        "lon": 12.71667
+      },
+      "names": [
+        {
+          "name": "Лацио",
+          "locative": "в Лацио",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-lombardia",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1210",
+      "coordinates": {
+        "lat": 45.65,
+        "lon": 9.95
+      },
+      "names": [
+        {
+          "name": "Ломбардия",
+          "locative": "в Ломбардии",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-matera",
+      "type": "town",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "small_town",
+      "wikidata": "Q13616",
+      "coordinates": {
+        "lat": 40.66667,
+        "lon": 16.6
+      },
+      "names": [
+        {
+          "name": "Матера",
+          "locative": "в Матере",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-potenza",
+          "from": null,
+          "to": "1927-01-01"
+        },
+        {
+          "id": "it-prov-matera",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-milano",
+      "type": "city",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "large_city",
+      "wikidata": "Q490",
+      "coordinates": {
+        "lat": 45.46694,
+        "lon": 9.19
+      },
+      "names": [
+        {
+          "name": "Милан",
+          "locative": "в Милане",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-milano",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-napoli",
+      "type": "city",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "large_city",
+      "wikidata": "Q2634",
+      "coordinates": {
+        "lat": 40.83583,
+        "lon": 14.24861
+      },
+      "names": [
+        {
+          "name": "Неаполь",
+          "locative": "в Неаполе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-napoli",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-palermo",
+      "type": "city",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "large_city",
+      "wikidata": "Q2656",
+      "coordinates": {
+        "lat": 38.11566,
+        "lon": 13.36126
+      },
+      "names": [
+        {
+          "name": "Палермо",
+          "locative": "в Палермо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-palermo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-piemonte",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1216",
+      "coordinates": {
+        "lat": 45.25,
+        "lon": 7.91667
+      },
+      "names": [
+        {
+          "name": "Пьемонт",
+          "locative": "в Пьемонте",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-aosta",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q15118",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Аоста",
+          "locative": "в провинции Аоста",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-piemonte",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1927-01-02",
+      "validTo": "1945-12-31",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-avellino",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16120",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Авеллино",
+          "locative": "в провинции Авеллино",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-campania",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-firenze",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16172",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Флоренция",
+          "locative": "в провинции Флоренция",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Флоренция",
+          "locative": "в метропольном городе Флоренция",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-toscana",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-matera",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16206",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Матера",
+          "locative": "в провинции Матера",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-basilicata",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1927-01-02",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-milano",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q15121",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Милан",
+          "locative": "в провинции Милан",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Милан",
+          "locative": "в метропольном городе Милан",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-lombardia",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-napoli",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q15123",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Неаполь",
+          "locative": "в провинции Неаполь",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Неаполь",
+          "locative": "в метропольном городе Неаполь",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-campania",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-palermo",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16227",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Палермо",
+          "locative": "в провинции Палермо",
+          "from": null,
+          "to": "2015-08-03"
+        },
+        {
+          "name": "метропольный город Палермо",
+          "locative": "в метропольном городе Палермо",
+          "from": "2015-08-04",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-sicilia",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-potenza",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16249",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Потенца",
+          "locative": "в провинции Потенца",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-basilicata",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-roma",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q15119",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Рим",
+          "locative": "в провинции Рим",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Рим",
+          "locative": "в метропольном городе Рим",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-lazio",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-torino",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16287",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Турин",
+          "locative": "в провинции Турин",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Турин",
+          "locative": "в метропольном городе Турин",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-piemonte",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-prov-trapani",
+      "type": "provincia",
+      "level": "district",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q16288",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Трапани",
+          "locative": "в провинции Трапани",
+          "from": null,
+          "to": "2015-08-03"
+        },
+        {
+          "name": "свободный консорциум коммун Трапани",
+          "locative": "в консорциуме коммун Трапани",
+          "from": "2015-08-04",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-sicilia",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-roma",
+      "type": "city",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "capital",
+      "wikidata": "Q220",
+      "coordinates": {
+        "lat": 41.89306,
+        "lon": 12.48278
+      },
+      "names": [
+        {
+          "name": "Рим",
+          "locative": "в Риме",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-roma",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-santangelo-dei-lombardi",
+      "type": "village",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "rural",
+      "wikidata": "Q55103",
+      "coordinates": {
+        "lat": 40.93333,
+        "lon": 15.18333
+      },
+      "names": [
+        {
+          "name": "Сант-Анджело-деи-Ломбарди",
+          "locative": "в Сант-Анджело-деи-Ломбарди",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-avellino",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-sesto-san-giovanni",
+      "type": "town",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "medium_city",
+      "wikidata": "Q43005",
+      "coordinates": {
+        "lat": 45.53333,
+        "lon": 9.23333
+      },
+      "names": [
+        {
+          "name": "Сесто-Сан-Джованни",
+          "locative": "в Сесто-Сан-Джованни",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-milano",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-sicilia",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1460",
+      "coordinates": {
+        "lat": 37.6,
+        "lon": 14.01667
+      },
+      "names": [
+        {
+          "name": "Сицилия",
+          "locative": "на Сицилии",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-torino",
+      "type": "city",
+      "level": "municipal",
+      "country": "IT",
+      "settlementClass": "large_city",
+      "wikidata": "Q495",
+      "coordinates": {
+        "lat": 45.07917,
+        "lon": 7.67611
+      },
+      "names": [
+        {
+          "name": "Турин",
+          "locative": "в Турине",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it-prov-torino",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "it-toscana",
+      "type": "region",
+      "level": "regional",
+      "country": "IT",
+      "settlementClass": null,
+      "wikidata": "Q1273",
+      "coordinates": {
+        "lat": 43.45,
+        "lon": 11.2
+      },
+      "names": [
+        {
+          "name": "Тоскана",
+          "locative": "в Тоскане",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl",
@@ -1260,7 +5780,9 @@
       "occupations": [],
       "validFrom": "1918-11-11",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-galicia",
@@ -1288,7 +5810,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1918-10-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-gdansk",
@@ -1350,7 +5874,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-gub-piotrkow",
@@ -1378,7 +5904,9 @@
       "occupations": [],
       "validFrom": "1867",
       "validTo": "1916-11-04",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-gub-warszawa",
@@ -1406,7 +5934,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1916-11-04",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-krakow",
@@ -1463,7 +5993,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-lodz",
@@ -1535,7 +6067,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-prov-westpreussen",
@@ -1568,7 +6102,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1920-01-09",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-warszawa",
@@ -1630,7 +6166,9 @@
       ],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-gdanskie-1945",
@@ -1658,7 +6196,9 @@
       "occupations": [],
       "validFrom": "1945-03-30",
       "validTo": "1975-05-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-gdanskie-1975",
@@ -1686,7 +6226,9 @@
       "occupations": [],
       "validFrom": "1975-06-01",
       "validTo": "1998-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-krakowskie-1920",
@@ -1714,7 +6256,9 @@
       "occupations": [],
       "validFrom": "1920-12-23",
       "validTo": "1975-05-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-lodzkie",
@@ -1742,7 +6286,9 @@
       "occupations": [],
       "validFrom": "1999-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-lodzkie-1919",
@@ -1770,7 +6316,9 @@
       "occupations": [],
       "validFrom": "1919-08-14",
       "validTo": "1975-05-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-malopolskie",
@@ -1798,7 +6346,9 @@
       "occupations": [],
       "validFrom": "1999-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-mazowieckie",
@@ -1826,7 +6376,9 @@
       "occupations": [],
       "validFrom": "1999-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-miejskie-krakowskie",
@@ -1854,7 +6406,9 @@
       "occupations": [],
       "validFrom": "1975-06-01",
       "validTo": "1998-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-miejskie-lodzkie",
@@ -1882,7 +6436,9 @@
       "occupations": [],
       "validFrom": "1975-06-01",
       "validTo": "1998-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-pomorskie",
@@ -1910,7 +6466,9 @@
       "occupations": [],
       "validFrom": "1999-01-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-stoleczne-warszawskie",
@@ -1944,7 +6502,9 @@
       "occupations": [],
       "validFrom": "1975-06-01",
       "validTo": "1998-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-woj-tarnowskie",
@@ -1972,7 +6532,9 @@
       "occupations": [],
       "validFrom": "1975-06-01",
       "validTo": "1998-12-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "pl-zalipie",
@@ -2023,7 +6585,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru",
@@ -2067,7 +6631,9 @@
       "occupations": [],
       "validFrom": "1917-11-08",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-empire",
@@ -2101,7 +6667,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1917-11-07",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-gub-moskovskaya",
@@ -2134,7 +6702,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1929-09-30",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-gub-novgorodskaya",
@@ -2167,7 +6737,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1927-07-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-gub-peterburgskaya",
@@ -2212,7 +6784,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1927-07-31",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-gub-smolenskaya",
@@ -2245,7 +6819,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1929-09-30",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-gub-tverskaya",
@@ -2278,7 +6854,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": "1929-09-30",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-konakovsky-raion",
@@ -2317,7 +6895,9 @@
       "occupations": [],
       "validFrom": "1929-07-12",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-leningrad-oblast",
@@ -2345,7 +6925,9 @@
       "occupations": [],
       "validFrom": "1927-08-01",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-moscow",
@@ -2383,7 +6965,9 @@
       "validTo": null,
       "legacyIds": [
         "moscow"
-      ]
+      ],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-moscow-oblast",
@@ -2417,7 +7001,9 @@
       "occupations": [],
       "validFrom": "1929-01-14",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-novgorod-oblast",
@@ -2445,7 +7031,9 @@
       "occupations": [],
       "validFrom": "1944-07-05",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-saint-petersburg",
@@ -2501,7 +7089,9 @@
       "validTo": null,
       "legacyIds": [
         "saint-petersburg"
-      ]
+      ],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-smolensk",
@@ -2550,7 +7140,9 @@
       "validTo": null,
       "legacyIds": [
         "smolensk"
-      ]
+      ],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-smolensk-oblast",
@@ -2578,7 +7170,9 @@
       "occupations": [],
       "validFrom": "1937-09-27",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-torzhok",
@@ -2619,7 +7213,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-tver",
@@ -2680,7 +7276,9 @@
       "validTo": null,
       "legacyIds": [
         "tver"
-      ]
+      ],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-tver-oblast",
@@ -2720,7 +7318,9 @@
       ],
       "validFrom": "1935-01-29",
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-veliky-novgorod",
@@ -2775,7 +7375,9 @@
       "validTo": null,
       "legacyIds": [
         "veliky-novgorod"
-      ]
+      ],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "ru-western-oblast",
@@ -2803,7 +7405,9 @@
       "occupations": [],
       "validFrom": "1929-10-01",
       "validTo": "1937-09-26",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "state-at-hu",
@@ -2831,7 +7435,69 @@
       "occupations": [],
       "validFrom": "1867",
       "validTo": "1918-11-11",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-cn-qing",
+      "type": "state",
+      "level": "national",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q8733",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Империя Цин",
+          "locative": "в Империи Цин",
+          "from": null,
+          "to": "1912-02-12"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1912-02-12"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1912-02-12",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-cn-roc",
+      "type": "state",
+      "level": "national",
+      "country": "CN",
+      "settlementClass": null,
+      "wikidata": "Q13426199",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Китайская Республика",
+          "locative": "в Китайской Республике",
+          "from": "1912-01-01",
+          "to": "1949-12-27"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1912-01-01",
+          "to": "1949-12-27"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1912-01-01",
+      "validTo": "1949-12-27",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "state-danzig",
@@ -2859,7 +7525,9 @@
       "occupations": [],
       "validFrom": "1920-01-10",
       "validTo": "1939-09-01",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "state-de-empire",
@@ -2887,7 +7555,9 @@
       "occupations": [],
       "validFrom": "1871",
       "validTo": "1918-11-09",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "state-de-reich",
@@ -2902,20 +7572,82 @@
           "name": "Германия",
           "locative": "в Германии",
           "from": "1918-11-09",
-          "to": "1945-05-23"
+          "to": "1949-10-06"
         }
       ],
       "parents": [
         {
           "id": "world",
           "from": "1918-11-09",
-          "to": "1945-05-23"
+          "to": "1949-10-06"
         }
       ],
       "occupations": [],
       "validFrom": "1918-11-09",
-      "validTo": "1945-05-23",
-      "legacyIds": []
+      "validTo": "1949-10-06",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-gdr",
+      "type": "state",
+      "level": "national",
+      "country": "DE",
+      "settlementClass": null,
+      "wikidata": "Q16957",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "ГДР",
+          "locative": "в ГДР",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1949-10-07",
+      "validTo": "1990-10-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-ottoman",
+      "type": "state",
+      "level": "national",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q12560",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Османская империя",
+          "locative": "в Османской империи",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1922-11-01",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "state-pl-regency",
@@ -2953,7 +7685,9 @@
       "occupations": [],
       "validFrom": "1916-11-05",
       "validTo": "1918-11-14",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "su",
@@ -2981,7 +7715,1042 @@
       "occupations": [],
       "validFrom": "1922-12-30",
       "validTo": "1991-12-26",
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr",
+      "type": "state",
+      "level": "national",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q43",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Турция (правительство Великого национального собрания)",
+          "locative": "в Турции",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        },
+        {
+          "name": "Турция",
+          "locative": "в Турции",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1920-04-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1920-04-23",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-ankara",
+      "type": "city",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "capital",
+      "wikidata": "Q3640",
+      "coordinates": {
+        "lat": 39.93576,
+        "lon": 32.83869
+      },
+      "names": [
+        {
+          "name": "Ангора",
+          "locative": "в Ангоре",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Анкара",
+          "locative": "в Анкаре",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-ankara",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-ankara",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-bursa",
+      "type": "city",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "large_city",
+      "wikidata": "Q40738",
+      "coordinates": {
+        "lat": 40.191331,
+        "lon": 29.080539
+      },
+      "names": [
+        {
+          "name": "Бруса",
+          "locative": "в Брусе",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Бурса",
+          "locative": "в Бурсе",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-hudavendigar",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-bursa",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Греция",
+          "from": "1920-07-08",
+          "to": "1922-09-10"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-cumra",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "rural",
+      "wikidata": "Q1922408",
+      "coordinates": {
+        "lat": 37.575,
+        "lon": 32.774722
+      },
+      "names": [
+        {
+          "name": "Чумра",
+          "locative": "в Чумре",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-konya",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-konya",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-gaziantep",
+      "type": "city",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "large_city",
+      "wikidata": "Q93338",
+      "coordinates": {
+        "lat": 37.062778,
+        "lon": 37.379167
+      },
+      "names": [
+        {
+          "name": "Антеп",
+          "locative": "в Антепе",
+          "from": null,
+          "to": "1921-01"
+        },
+        {
+          "name": "Газиантеп",
+          "locative": "в Газиантепе",
+          "from": "1921-02",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-aleppo",
+          "from": null,
+          "to": "1918-10-30"
+        },
+        {
+          "id": "state-ottoman",
+          "from": "1918-10-31",
+          "to": "1921-12-24"
+        },
+        {
+          "id": "tr",
+          "from": "1921-12-25",
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-gaziantep",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Великобритания",
+          "from": "1918-12-17",
+          "to": "1919-11-04"
+        },
+        {
+          "by": "Франция",
+          "from": "1919-11-05",
+          "to": "1921-12-24"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-ankara",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q2297724",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Анкара",
+          "locative": "в провинции Анкара",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-bursa",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q43690",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Бурса",
+          "locative": "в провинции Бурса",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-erzurum",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q376797",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Эрзурум",
+          "locative": "в провинции Эрзурум",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-gaziantep",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q483154",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Газиантеп",
+          "locative": "в провинции Газиантеп",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-istanbul",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Стамбул",
+          "locative": "в провинции Стамбул",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-izmir",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q344490",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Измир",
+          "locative": "в провинции Измир",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-karabuk",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q483168",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Карабюк",
+          "locative": "в провинции Карабюк",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1995-06-06",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-konya",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q81551",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Конья",
+          "locative": "в провинции Конья",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-il-zonguldak",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q219956",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "провинция Зонгулдак",
+          "locative": "в провинции Зонгулдак",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1923-10-29",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-istanbul",
+      "type": "city",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "large_city",
+      "wikidata": "Q406",
+      "coordinates": {
+        "lat": 41.01,
+        "lon": 28.960278
+      },
+      "names": [
+        {
+          "name": "Константинополь",
+          "locative": "в Константинополе",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Стамбул",
+          "locative": "в Стамбуле",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1922-11-01"
+        },
+        {
+          "id": "tr",
+          "from": "1922-11-02",
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-istanbul",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Союзники Антанты (Великобритания, Франция, Италия)",
+          "from": "1918-11-12",
+          "to": "1923-10-04"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-izmir",
+      "type": "city",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "large_city",
+      "wikidata": "Q35997",
+      "coordinates": {
+        "lat": 38.41273,
+        "lon": 27.13838
+      },
+      "names": [
+        {
+          "name": "Смирна",
+          "locative": "в Смирне",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Измир",
+          "locative": "в Измире",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-aydin",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-izmir",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Греция",
+          "from": "1919-05-15",
+          "to": "1922-09-09"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-karabuk",
+      "type": "town",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "small_town",
+      "wikidata": "Q189697",
+      "coordinates": {
+        "lat": 41.2,
+        "lon": 32.633333
+      },
+      "names": [
+        {
+          "name": "Карабюк",
+          "locative": "в Карабюке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-kastamonu",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": "1923"
+        },
+        {
+          "id": "tr-il-zonguldak",
+          "from": "1924",
+          "to": "1995-06-05"
+        },
+        {
+          "id": "tr-il-karabuk",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-konya",
+      "type": "city",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "large_city",
+      "wikidata": "Q79857",
+      "coordinates": {
+        "lat": 37.872769,
+        "lon": 32.492139
+      },
+      "names": [
+        {
+          "name": "Конья",
+          "locative": "в Конье",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-konya",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-konya",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-pasinler",
+      "type": "rural_area",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "rural",
+      "wikidata": "Q2744950",
+      "coordinates": {
+        "lat": 39.982222,
+        "lon": 41.683056
+      },
+      "names": [
+        {
+          "name": "Хасанкале",
+          "locative": "в Хасанкале",
+          "from": null,
+          "to": "1927"
+        },
+        {
+          "name": "Пасинлер",
+          "locative": "в Пасинлере",
+          "from": "1928",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "tr-vil-erzurum",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-erzurum",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Российская империя (с 1917 г. — российские, затем армянские части)",
+          "from": "1916-01",
+          "to": "1918-03"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-aleppo",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q1493892",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Алеппский вилайет",
+          "locative": "в Алеппском вилайете",
+          "from": null,
+          "to": "1918-10-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1918-10-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1918-10-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-ankara",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q1345660",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "вилайет Ангора",
+          "locative": "в вилайете Ангора",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1923-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-aydin",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q1550771",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Айдынский вилайет",
+          "locative": "в Айдынском вилайете",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1922-09-09"
+        },
+        {
+          "id": "tr",
+          "from": "1922-09-10",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1923-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-erzurum",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q1366246",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Эрзурумский вилайет",
+          "locative": "в Эрзурумском вилайете",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1923-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-hudavendigar",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q3928674",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "вилайет Худавендигяр",
+          "locative": "в вилайете Худавендигяр",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1922-09-10"
+        },
+        {
+          "id": "tr",
+          "from": "1922-09-11",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1923-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-kastamonu",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q1164593",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Кастамонийский вилайет",
+          "locative": "в Кастамонийском вилайете",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1923-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-vil-konya",
+      "type": "province",
+      "level": "regional",
+      "country": "TR",
+      "settlementClass": null,
+      "wikidata": "Q1410367",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Конийский вилайет",
+          "locative": "в Конийском вилайете",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1923-10-28",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "tr-zonguldak",
+      "type": "town",
+      "level": "municipal",
+      "country": "TR",
+      "settlementClass": "small_town",
+      "wikidata": "Q187895",
+      "coordinates": {
+        "lat": 41.45,
+        "lon": 31.783333
+      },
+      "names": [
+        {
+          "name": "Зонгулдак",
+          "locative": "в Зонгулдаке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-zonguldak",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Франция",
+          "from": "1919-03-08",
+          "to": "1921-06-21"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us",
@@ -3009,7 +8778,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-chicago",
@@ -3040,7 +8811,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-detroit",
@@ -3071,7 +8844,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-holmes-county-rural",
@@ -3102,7 +8877,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-il",
@@ -3133,7 +8910,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-il-cook",
@@ -3164,7 +8943,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-marietta",
@@ -3195,7 +8976,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-mi",
@@ -3226,7 +9009,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-mi-wayne",
@@ -3257,7 +9042,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-new-york-city",
@@ -3288,7 +9075,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-ny",
@@ -3319,7 +9108,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-oh",
@@ -3350,7 +9141,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-oh-holmes",
@@ -3381,7 +9174,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "us-oh-washington",
@@ -3412,7 +9207,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     },
     {
       "id": "world",
@@ -3434,7 +9231,9 @@
       "occupations": [],
       "validFrom": null,
       "validTo": null,
-      "legacyIds": []
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
     }
   ]
 }

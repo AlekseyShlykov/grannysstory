@@ -1,3 +1,4 @@
+import { countryContent } from "../scenes/countries";
 import type { MilestoneDefinition } from "./milestoneSchema";
 
 // Essential national milestones. The facts (dates, what happened, sources) are the verified records named in
@@ -5,7 +6,7 @@ import type { MilestoneDefinition } from "./milestoneSchema";
 // said or did in general, never a personal loss, front-line service or deportation the biography has not decided.
 // Lines for sensitive records were drafted for this registry and still await a human editor (docs/decisions.md).
 
-export const milestones: MilestoneDefinition[] = [
+const baseMilestones: MilestoneDefinition[] = [
   // ——— Россия / СССР ———
   {
     id: "ru-russo-japanese-war",
@@ -23,6 +24,8 @@ export const milestones: MilestoneDefinition[] = [
   {
     id: "ru-1905-manifesto",
     country: "RU",
+    // Finland was not represented in the Duma; it had its own 1905 strike and 1906 parliament (fi milestones).
+    notIn: ["fi-grand-duchy"],
     eventIds: ["ru-nat-1905-october-manifesto"],
     kind: "revolution",
     voice: {
@@ -36,6 +39,8 @@ export const milestones: MilestoneDefinition[] = [
   {
     id: "ru-wwi",
     country: "RU",
+    // Finns lived in the empire but did not serve in the tsarist army (History of Finland, en.wikipedia), so no seeing-off of conscripts.
+    notIn: ["fi-grand-duchy"],
     eventIds: ["first_world_war_russia_1914"],
     kind: "war",
     voice: {
@@ -62,6 +67,8 @@ export const milestones: MilestoneDefinition[] = [
   {
     id: "ru-october-revolution",
     country: "RU",
+    // Finland declared independence on 6.12.1917; Soviet rules never applied there.
+    notIn: ["fi-grand-duchy"],
     eventIds: ["ru-nat-1917-october-revolution"],
     kind: "revolution",
     voice: {
@@ -75,6 +82,8 @@ export const milestones: MilestoneDefinition[] = [
   {
     id: "ru-civil-war",
     country: "RU",
+    // A Finnish life has its own 1918 civil war milestone; the Russian one would be confused with it.
+    notIn: ["fi-grand-duchy"],
     eventIds: ["ru-nat-1917-civil-war"],
     kind: "civil_war",
     voice: {
@@ -901,3 +910,6 @@ export const milestones: MilestoneDefinition[] = [
     }
   }
 ];
+
+// Countries added in world-1.2 keep their milestones in content/scenes/countries/<cc>.ts.
+export const milestones: MilestoneDefinition[] = [...baseMilestones, ...countryContent.flatMap((country) => country.milestones)];

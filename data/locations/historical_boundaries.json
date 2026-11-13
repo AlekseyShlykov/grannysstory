@@ -2,6 +2,409 @@
   "generated": true,
   "note": "Временные связи «место → родитель»; суверенитет — верхнее государство цепочки на дату.",
   "relations": {
+    "state-cn-qing": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1912-02-12"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1912-02-12"
+    },
+    "state-cn-roc": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1912-01-01",
+          "to": "1949-12-27"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1912-01-01",
+      "valid_to": "1949-12-27"
+    },
+    "cn": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1949-10-01",
+      "valid_to": null
+    },
+    "cn-guangdong": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-10-13"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-14",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-sichuan": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-12-26"
+        },
+        {
+          "id": "cn",
+          "from": "1949-12-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-hubei": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-shaanxi": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-anhui": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-jiangsu": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1927-07-06"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1927-07-06"
+    },
+    "cn-beijing-municipality": {
+      "parents": [
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1949-10-01",
+      "valid_to": null
+    },
+    "cn-shanghai-municipality": {
+      "parents": [
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1949-10-01",
+      "valid_to": null
+    },
+    "cn-beijing": {
+      "parents": [
+        {
+          "id": "state-cn-qing",
+          "from": null,
+          "to": "1912-02-12"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1912-02-13",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn-beijing-municipality",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Япония (марионеточное Временное правительство Китайской Республики, затем режим Ван Цзинвэя)",
+          "from": "1937-08-08",
+          "to": "1945-08-21",
+          "source_id": "cn_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-shanghai": {
+      "parents": [
+        {
+          "id": "cn-jiangsu",
+          "from": null,
+          "to": "1927-07-06"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1927-07-07",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn-shanghai-municipality",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Япония (китайские районы города; марионеточные администрации, с 1940 г. режим Ван Цзинвэя)",
+          "from": "1937-11-26",
+          "to": "1945-08-15",
+          "source_id": "cn_en_wikipedia"
+        },
+        {
+          "by_ru": "Япония (Международный сеттльмент и Французская концессия)",
+          "from": "1941-12-08",
+          "to": "1945-08-15",
+          "source_id": "cn_zh_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-guangzhou": {
+      "parents": [
+        {
+          "id": "cn-guangdong",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Япония (марионеточные администрации, с 1940 г. режим Ван Цзинвэя)",
+          "from": "1938-10-21",
+          "to": "1945-09",
+          "source_id": "cn_zh_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-chengdu": {
+      "parents": [
+        {
+          "id": "cn-sichuan",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-wuhan": {
+      "parents": [
+        {
+          "id": "cn-hubei",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Япония (марионеточные администрации, с 1940 г. режим Ван Цзинвэя)",
+          "from": "1938-10-27",
+          "to": "1945-09",
+          "source_id": "cn_zh_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-xian": {
+      "parents": [
+        {
+          "id": "cn-shaanxi",
+          "from": null,
+          "to": "1947"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1948",
+          "to": "1949-09-30"
+        },
+        {
+          "id": "cn",
+          "from": "1949-10-01",
+          "to": "1953"
+        },
+        {
+          "id": "cn-shaanxi",
+          "from": "1954",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-shenzhen": {
+      "parents": [
+        {
+          "id": "cn-guangdong",
+          "from": null,
+          "to": "1949-10-13"
+        },
+        {
+          "id": "state-cn-roc",
+          "from": "1949-10-14",
+          "to": "1949-10-15"
+        },
+        {
+          "id": "cn-guangdong",
+          "from": "1949-10-16",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Япония (марионеточное правительство уезда Баоань)",
+          "from": "1940-03",
+          "to": "1945-10-05",
+          "source_id": "cn_zh_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-zigong": {
+      "parents": [
+        {
+          "id": "cn-sichuan",
+          "from": null,
+          "to": "1949-12-05"
+        },
+        {
+          "id": "cn",
+          "from": "1949-12-06",
+          "to": "1949-12-26"
+        },
+        {
+          "id": "cn-sichuan",
+          "from": "1949-12-27",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-guanghan": {
+      "parents": [
+        {
+          "id": "cn-sichuan",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "cn-xiaogang": {
+      "parents": [
+        {
+          "id": "cn-anhui",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
     "world": {
       "parents": [],
       "occupations": [],
@@ -113,6 +516,1309 @@
       "occupations": [],
       "valid_from": "1922-12-30",
       "valid_to": "1991-12-26"
+    },
+    "state-de-empire": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1871",
+      "valid_to": "1918-11-09"
+    },
+    "state-de-reich": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-11-09",
+          "to": "1949-10-06"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1918-11-09",
+      "valid_to": "1949-10-06"
+    },
+    "de": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1949-05-23",
+      "valid_to": null
+    },
+    "state-gdr": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1949-10-07",
+      "valid_to": "1990-10-02"
+    },
+    "de-zone-us": {
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "США",
+          "from": "1945-06-05",
+          "to": "1949-05-22",
+          "source_id": "wikidata"
+        }
+      ],
+      "valid_from": "1945-06-05",
+      "valid_to": "1949-05-22"
+    },
+    "de-zone-british": {
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Великобритания",
+          "from": "1945-06-05",
+          "to": "1949-05-22",
+          "source_id": "wikidata"
+        }
+      ],
+      "valid_from": "1945-06-05",
+      "valid_to": "1949-05-22"
+    },
+    "de-zone-french": {
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Франция",
+          "from": "1945-06-05",
+          "to": "1949-05-22",
+          "source_id": "wikidata"
+        }
+      ],
+      "valid_from": "1945-06-05",
+      "valid_to": "1949-05-22"
+    },
+    "de-zone-soviet": {
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "СССР",
+          "from": "1945-06-05",
+          "to": "1949-10-06",
+          "source_id": "wikidata"
+        }
+      ],
+      "valid_from": "1945-06-05",
+      "valid_to": "1949-10-06"
+    },
+    "de-prussia": {
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1947-02-25"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1947-02-25"
+    },
+    "de-prov-rhine": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-british",
+          "from": "1945-06-05",
+          "to": "1946-08-22"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1946-08-22"
+    },
+    "de-prov-saxony": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1944-06-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1944-06-30"
+    },
+    "de-prov-halle-merseburg": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": "1944-07-01",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1945-07-08"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1944-07-01",
+      "valid_to": "1945-07-08"
+    },
+    "de-prov-magdeburg": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": "1944-07-01",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1945-07-08"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1944-07-01",
+      "valid_to": "1945-07-08"
+    },
+    "de-prov-hanover": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-british",
+          "from": "1945-06-05",
+          "to": "1946-10-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1946-10-31"
+    },
+    "de-prov-brandenburg": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1947-02-25"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1947-02-25"
+    },
+    "de-bayern": {
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-us",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-sachsen": {
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-sachsen-anhalt": {
+      "parents": [
+        {
+          "id": "de-zone-soviet",
+          "from": "1945-07-09",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1945-07-09",
+      "valid_to": null
+    },
+    "de-brandenburg": {
+      "parents": [
+        {
+          "id": "de-zone-soviet",
+          "from": "1947-02-26",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1947-02-26",
+      "valid_to": null
+    },
+    "de-nrw": {
+      "parents": [
+        {
+          "id": "de-zone-british",
+          "from": "1946-08-23",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1946-08-23",
+      "valid_to": null
+    },
+    "de-niedersachsen": {
+      "parents": [
+        {
+          "id": "de-zone-british",
+          "from": "1946-11-01",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1946-11-01",
+      "valid_to": null
+    },
+    "de-land-hamburg": {
+      "parents": [
+        {
+          "id": "state-de-empire",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "id": "de-zone-british",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-land-berlin": {
+      "parents": [
+        {
+          "id": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1990-10-03",
+      "valid_to": null
+    },
+    "de-bezirk-leipzig": {
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1952-07-25",
+      "valid_to": "1990-10-02"
+    },
+    "de-bezirk-halle": {
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1952-07-25",
+      "valid_to": "1990-10-02"
+    },
+    "de-bezirk-magdeburg": {
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1952-07-25",
+      "valid_to": "1990-10-02"
+    },
+    "de-bezirk-frankfurt-oder": {
+      "parents": [
+        {
+          "id": "state-gdr",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1952-07-25",
+      "valid_to": "1990-10-02"
+    },
+    "de-berlin": {
+      "parents": [
+        {
+          "id": "de-prussia",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "id": "state-de-reich",
+          "from": "1945-06-05",
+          "to": "1948-11-29"
+        },
+        {
+          "id": "de-land-berlin",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Советская армия (до вывода западных союзников в свои секторы)",
+          "by_en": "Soviet Army (before the Western Allies entered their sectors)",
+          "from": "1945-05-02",
+          "to": "1945-07-03",
+          "source_id": "de_berlin_de"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-berlin-west": {
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1948-11-30",
+          "to": "1949-05-22"
+        },
+        {
+          "id": "de",
+          "from": "1949-05-23",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "США, Великобритания, Франция",
+          "from": "1948-11-30",
+          "to": "1949-05-22",
+          "source_id": "wikidata"
+        }
+      ],
+      "valid_from": "1948-11-30",
+      "valid_to": "1990-10-02"
+    },
+    "de-berlin-east": {
+      "parents": [
+        {
+          "id": "state-de-reich",
+          "from": "1948-11-30",
+          "to": "1949-10-06"
+        },
+        {
+          "id": "state-gdr",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "СССР",
+          "from": "1948-11-30",
+          "to": "1949-10-06",
+          "source_id": "wikidata"
+        }
+      ],
+      "valid_from": "1948-11-30",
+      "valid_to": "1990-10-02"
+    },
+    "de-muenchen": {
+      "parents": [
+        {
+          "id": "de-bayern",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Армия США (до учреждения зон)",
+          "by_en": "US Army (before the zones were established)",
+          "from": "1945-04-30",
+          "to": "1945-06-04",
+          "source_id": "de_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-koeln": {
+      "parents": [
+        {
+          "id": "de-prov-rhine",
+          "from": null,
+          "to": "1946-08-22"
+        },
+        {
+          "id": "de-nrw",
+          "from": "1946-08-23",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Великобритания (оккупация Рейнской области)",
+          "by_en": "United Kingdom (Occupation of the Rhineland)",
+          "from": "1918-12",
+          "to": "1926-01",
+          "source_id": "de_wikipedia"
+        },
+        {
+          "by_ru": "Армия США (до учреждения зон)",
+          "by_en": "US Army (before the zones were established)",
+          "from": "1945-03-06",
+          "to": "1945-06-04",
+          "source_id": "de_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-leipzig": {
+      "parents": [
+        {
+          "id": "de-sachsen",
+          "from": null,
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-leipzig",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-sachsen",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Армия США (до передачи советской администрации)",
+          "by_en": "US Army (before handover to Soviet administration)",
+          "from": "1945-04-19",
+          "to": "1945-07-01",
+          "source_id": "de_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-halle": {
+      "parents": [
+        {
+          "id": "de-prov-saxony",
+          "from": null,
+          "to": "1944-06-30"
+        },
+        {
+          "id": "de-prov-halle-merseburg",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1945-07-09",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-halle",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Армия США (до передачи советской администрации)",
+          "by_en": "US Army (before handover to Soviet administration)",
+          "from": "1945-04-17",
+          "to": "1945-07-01",
+          "source_id": "de_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-hamburg": {
+      "parents": [
+        {
+          "id": "de-land-hamburg",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Великобритания (до учреждения зон)",
+          "by_en": "United Kingdom (before the zones were established)",
+          "from": "1945-05-03",
+          "to": "1945-06-04",
+          "source_id": "de_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-wolfsburg": {
+      "parents": [
+        {
+          "id": "de-prov-hanover",
+          "from": "1938-07-01",
+          "to": "1946-10-31"
+        },
+        {
+          "id": "de-niedersachsen",
+          "from": "1946-11-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Армия США (до учреждения зон)",
+          "by_en": "US Army (before the zones were established)",
+          "from": "1945-04-11",
+          "to": "1945-06-04",
+          "source_id": "de_en_wikipedia"
+        }
+      ],
+      "valid_from": "1938-07-01",
+      "valid_to": null
+    },
+    "de-eisenhuettenstadt": {
+      "parents": [
+        {
+          "id": "de-prov-brandenburg",
+          "from": null,
+          "to": "1947-02-25"
+        },
+        {
+          "id": "de-brandenburg",
+          "from": "1947-02-26",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-frankfurt-oder",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-brandenburg",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-oberammergau": {
+      "parents": [
+        {
+          "id": "de-bayern",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "de-altmark": {
+      "parents": [
+        {
+          "id": "de-prov-saxony",
+          "from": null,
+          "to": "1944-06-30"
+        },
+        {
+          "id": "de-prov-magdeburg",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1945-07-09",
+          "to": "1952-07-24"
+        },
+        {
+          "id": "de-bezirk-magdeburg",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        },
+        {
+          "id": "de-sachsen-anhalt",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-grand-duchy": {
+      "parents": [
+        {
+          "id": "ru-empire",
+          "from": "1809-10-01",
+          "to": "1917-11-07"
+        },
+        {
+          "id": "ru",
+          "from": "1917-11-08",
+          "to": "1917-12-05"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1809-10-01",
+      "valid_to": "1917-12-05"
+    },
+    "fi": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1917-12-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1917-12-06",
+      "valid_to": null
+    },
+    "fi-laani-uusimaa": {
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1831-03-24",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-turku-pori": {
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1634",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-hame": {
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1831-03-24",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-vaasa": {
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1775",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-oulu": {
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1775",
+      "valid_to": "2009-12-31"
+    },
+    "fi-laani-kuopio": {
+      "parents": [
+        {
+          "id": "fi-grand-duchy",
+          "from": null,
+          "to": "1917-12-05"
+        },
+        {
+          "id": "fi",
+          "from": "1917-12-06",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1831-03-24",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-keski-suomi": {
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1960-03-01",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960-03-01",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-pohjois-karjala": {
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1960",
+          "to": "1997-08-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1960",
+      "valid_to": "1997-08-31"
+    },
+    "fi-laani-etela-suomi": {
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1997-09-01",
+      "valid_to": "2009-12-31"
+    },
+    "fi-laani-lansi-suomi": {
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1997-09-01",
+      "valid_to": "2009-12-31"
+    },
+    "fi-laani-ita-suomi": {
+      "parents": [
+        {
+          "id": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1997-09-01",
+      "valid_to": "2009-12-31"
+    },
+    "fi-uusimaa": {
+      "parents": [
+        {
+          "id": "fi-laani-uusimaa",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-etela-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-pirkanmaa": {
+      "parents": [
+        {
+          "id": "fi-laani-hame",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-varsinais-suomi": {
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-pohjois-pohjanmaa": {
+      "parents": [
+        {
+          "id": "fi-laani-oulu",
+          "from": "1994-01-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-keski-suomi": {
+      "parents": [
+        {
+          "id": "fi-laani-keski-suomi",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-satakunta": {
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-lansi-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-pohjois-savo": {
+      "parents": [
+        {
+          "id": "fi-laani-kuopio",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-ita-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-pohjois-karjala": {
+      "parents": [
+        {
+          "id": "fi-laani-pohjois-karjala",
+          "from": "1994-01-01",
+          "to": "1997-08-31"
+        },
+        {
+          "id": "fi-laani-ita-suomi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "id": "fi",
+          "from": "2010-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-01-01",
+      "valid_to": null
+    },
+    "fi-helsinki": {
+      "parents": [
+        {
+          "id": "fi-laani-uusimaa",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-uusimaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-tampere": {
+      "parents": [
+        {
+          "id": "fi-laani-hame",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pirkanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-turku": {
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-varsinais-suomi",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-oulu": {
+      "parents": [
+        {
+          "id": "fi-laani-oulu",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-pohjanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-jyvaskyla": {
+      "parents": [
+        {
+          "id": "fi-laani-vaasa",
+          "from": null,
+          "to": "1960-02-29"
+        },
+        {
+          "id": "fi-laani-keski-suomi",
+          "from": "1960-03-01",
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-keski-suomi",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-varkaus": {
+      "parents": [
+        {
+          "id": "fi-laani-kuopio",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-savo",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-rauma": {
+      "parents": [
+        {
+          "id": "fi-laani-turku-pori",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-satakunta",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-ilomantsi": {
+      "parents": [
+        {
+          "id": "fi-laani-kuopio",
+          "from": null,
+          "to": "1959"
+        },
+        {
+          "id": "fi-laani-pohjois-karjala",
+          "from": "1960",
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-karjala",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "fi-tyrnava": {
+      "parents": [
+        {
+          "id": "fi-laani-oulu",
+          "from": null,
+          "to": "1993-12-31"
+        },
+        {
+          "id": "fi-pohjois-pohjanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
     },
     "fr-reg-idf": {
       "parents": [
@@ -656,17 +2362,387 @@
       "valid_from": null,
       "valid_to": null
     },
-    "state-de-empire": {
+    "it": {
       "parents": [
         {
           "id": "world",
-          "from": "1871",
-          "to": "1918-11-09"
+          "from": "1861-03-17",
+          "to": null
         }
       ],
       "occupations": [],
-      "valid_from": "1871",
-      "valid_to": "1918-11-09"
+      "valid_from": "1861-03-17",
+      "valid_to": null
+    },
+    "it-lazio": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-lombardia": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-piemonte": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-toscana": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-campania": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-sicilia": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-basilicata": {
+      "parents": [
+        {
+          "id": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-roma": {
+      "parents": [
+        {
+          "id": "it-lazio",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-milano": {
+      "parents": [
+        {
+          "id": "it-lombardia",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-torino": {
+      "parents": [
+        {
+          "id": "it-piemonte",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-firenze": {
+      "parents": [
+        {
+          "id": "it-toscana",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-napoli": {
+      "parents": [
+        {
+          "id": "it-campania",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-palermo": {
+      "parents": [
+        {
+          "id": "it-sicilia",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-trapani": {
+      "parents": [
+        {
+          "id": "it-sicilia",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-avellino": {
+      "parents": [
+        {
+          "id": "it-campania",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-potenza": {
+      "parents": [
+        {
+          "id": "it-basilicata",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-prov-matera": {
+      "parents": [
+        {
+          "id": "it-basilicata",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1927-01-02",
+      "valid_to": null
+    },
+    "it-prov-aosta": {
+      "parents": [
+        {
+          "id": "it-piemonte",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1927-01-02",
+      "valid_to": "1945-12-31"
+    },
+    "it-roma": {
+      "parents": [
+        {
+          "id": "it-prov-roma",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-milano": {
+      "parents": [
+        {
+          "id": "it-prov-milano",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-torino": {
+      "parents": [
+        {
+          "id": "it-prov-torino",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-firenze": {
+      "parents": [
+        {
+          "id": "it-prov-firenze",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Германия (север и центр Италии под властью Итальянской социальной республики)",
+          "from": "1943",
+          "to": "1944-08-11",
+          "source_id": "it_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-napoli": {
+      "parents": [
+        {
+          "id": "it-prov-napoli",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-palermo": {
+      "parents": [
+        {
+          "id": "it-prov-palermo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-ivrea": {
+      "parents": [
+        {
+          "id": "it-prov-torino",
+          "from": null,
+          "to": "1927-01-01"
+        },
+        {
+          "id": "it-prov-aosta",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        },
+        {
+          "id": "it-prov-torino",
+          "from": "1946-01-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-sesto-san-giovanni": {
+      "parents": [
+        {
+          "id": "it-prov-milano",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-matera": {
+      "parents": [
+        {
+          "id": "it-prov-potenza",
+          "from": null,
+          "to": "1927-01-01"
+        },
+        {
+          "id": "it-prov-matera",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-santangelo-dei-lombardi": {
+      "parents": [
+        {
+          "id": "it-prov-avellino",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "it-gibellina": {
+      "parents": [
+        {
+          "id": "it-prov-trapani",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
     },
     "state-at-hu": {
       "parents": [
@@ -713,18 +2789,6 @@
       "occupations": [],
       "valid_from": "1920-01-10",
       "valid_to": "1939-09-01"
-    },
-    "state-de-reich": {
-      "parents": [
-        {
-          "id": "world",
-          "from": "1918-11-09",
-          "to": "1945-05-23"
-        }
-      ],
-      "occupations": [],
-      "valid_from": "1918-11-09",
-      "valid_to": "1945-05-23"
     },
     "pl-gub-warszawa": {
       "parents": [
@@ -1453,6 +3517,500 @@
       ],
       "occupations": [],
       "valid_from": "1929-07-12",
+      "valid_to": null
+    },
+    "state-ottoman": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1922-11-01"
+    },
+    "tr": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1920-04-23",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1920-04-23",
+      "valid_to": null
+    },
+    "tr-vil-ankara": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1923-10-28"
+    },
+    "tr-vil-konya": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1923-10-28"
+    },
+    "tr-vil-erzurum": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1923-10-28"
+    },
+    "tr-vil-kastamonu": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1923-10-28"
+    },
+    "tr-vil-aydin": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1922-09-09"
+        },
+        {
+          "id": "tr",
+          "from": "1922-09-10",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1923-10-28"
+    },
+    "tr-vil-hudavendigar": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1922-09-10"
+        },
+        {
+          "id": "tr",
+          "from": "1922-09-11",
+          "to": "1923-10-28"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1923-10-28"
+    },
+    "tr-vil-aleppo": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1918-10-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1918-10-30"
+    },
+    "tr-il-istanbul": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-ankara": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-izmir": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-bursa": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-konya": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-gaziantep": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-zonguldak": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-il-karabuk": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1995-06-06",
+      "valid_to": null
+    },
+    "tr-il-erzurum": {
+      "parents": [
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1923-10-29",
+      "valid_to": null
+    },
+    "tr-istanbul": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1922-11-01"
+        },
+        {
+          "id": "tr",
+          "from": "1922-11-02",
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-istanbul",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Союзники Антанты (Великобритания, Франция, Италия)",
+          "from": "1918-11-12",
+          "to": "1923-10-04",
+          "source_id": "tr_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-ankara": {
+      "parents": [
+        {
+          "id": "tr-vil-ankara",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-ankara",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-izmir": {
+      "parents": [
+        {
+          "id": "tr-vil-aydin",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-izmir",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Греция",
+          "from": "1919-05-15",
+          "to": "1922-09-09",
+          "source_id": "tr_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-bursa": {
+      "parents": [
+        {
+          "id": "tr-vil-hudavendigar",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-bursa",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Греция",
+          "from": "1920-07-08",
+          "to": "1922-09-10",
+          "source_id": "tr_tr_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-konya": {
+      "parents": [
+        {
+          "id": "tr-vil-konya",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-konya",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-gaziantep": {
+      "parents": [
+        {
+          "id": "tr-vil-aleppo",
+          "from": null,
+          "to": "1918-10-30"
+        },
+        {
+          "id": "state-ottoman",
+          "from": "1918-10-31",
+          "to": "1921-12-24"
+        },
+        {
+          "id": "tr",
+          "from": "1921-12-25",
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-gaziantep",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Великобритания",
+          "from": "1918-12-17",
+          "to": "1919-11-04",
+          "source_id": "tr_en_wikipedia"
+        },
+        {
+          "by_ru": "Франция",
+          "from": "1919-11-05",
+          "to": "1921-12-24",
+          "source_id": "tr_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-zonguldak": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1920-04-22"
+        },
+        {
+          "id": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-zonguldak",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Франция",
+          "from": "1919-03-08",
+          "to": "1921-06-21",
+          "source_id": "tr_ktb_chronology"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-karabuk": {
+      "parents": [
+        {
+          "id": "tr-vil-kastamonu",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr",
+          "from": "1923-10-29",
+          "to": "1923"
+        },
+        {
+          "id": "tr-il-zonguldak",
+          "from": "1924",
+          "to": "1995-06-05"
+        },
+        {
+          "id": "tr-il-karabuk",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-cumra": {
+      "parents": [
+        {
+          "id": "tr-vil-konya",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-konya",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "tr-pasinler": {
+      "parents": [
+        {
+          "id": "tr-vil-erzurum",
+          "from": null,
+          "to": "1923-10-28"
+        },
+        {
+          "id": "tr-il-erzurum",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Российская империя (с 1917 г. — российские, затем армянские части)",
+          "from": "1916-01",
+          "to": "1918-03",
+          "source_id": "tr_en_wikipedia"
+        }
+      ],
+      "valid_from": null,
       "valid_to": null
     },
     "us-ny": {

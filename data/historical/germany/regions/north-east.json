@@ -1,0 +1,208 @@
+{
+ "records": [
+  {
+   "id": "de-land-hamburg-1937-greater-hamburg-act",
+   "title": "Закон о Большом Гамбурге",
+   "title_en": "Greater Hamburg Act",
+   "start_date": "1937-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-land-hamburg"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Принятый 26 января 1937 г. закон о Большом Гамбурге вступил в силу 1 апреля 1937 г.: к Гамбургу отошли прусские Альтона, Вандсбек и Харбург-Вильгельмсбург, а Гамбург уступил большинство эксклавов, включая Гестахт и Куксхафен. Любек утратил статус отдельной земли.",
+   "historical_summary_en": "Passed on 26 January 1937, the Greater Hamburg Act took effect on 1 April 1937, giving Hamburg the Prussian towns of Altona, Wandsbek and Harburg-Wilhelmsburg while Hamburg gave up most of its exclaves, including Geesthacht and Cuxhaven. Lübeck lost its status as a separate state.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_address"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Greater_Hamburg_Act",
+     "accessed": "2026-11-11",
+     "supports": "26.01.1937; 01.04.1937; territories"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-land-hamburg-1989-foreigners-local-vote",
+   "title": "Местное избирательное право для иностранцев",
+   "title_en": "Local voting rights for foreigners",
+   "start_date": "1989-02-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-land-hamburg"
+   ],
+   "category": "migration",
+   "historical_summary": "15 февраля 1989 г. вслед за Шлезвиг-Гольштейном Гамбург ввёл право иностранцев голосовать на местных выборах; 31 октября 1990 г. Федеральный конституционный суд признал его неконституционным.",
+   "historical_summary_en": "On 15 February 1989, following Schleswig-Holstein, Hamburg introduced local voting rights for foreigners, and on 31 October 1990 the Federal Constitutional Court declared this unconstitutional.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "14./15.02.1989"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "31.10.1990 BVerfG"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-niedersachsen-1995-gorleben-castor",
+   "title": "Первый транспорт CASTOR в Горлебен",
+   "title_en": "First CASTOR transport to Gorleben",
+   "start_date": "1995-04-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-niedersachsen"
+   ],
+   "category": "environment",
+   "historical_summary": "25 апреля 1995 г. первый транспорт CASTOR с ядерными отходами прибыл в Горлебен, где крупные силы полиции противостояли протестующим.",
+   "historical_summary_en": "On 25 April 1995 the first CASTOR transport of nuclear waste reached Gorleben, where large police forces confronted protesters.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "protest_generation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1995.html",
+     "accessed": "2026-11-11",
+     "supports": "25.04.1995"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-niedersachsen-2005-tuition-fees",
+   "title": "Плата за обучение в вузах",
+   "title_en": "University tuition fees",
+   "start_date": "2005-12-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-niedersachsen"
+   ],
+   "category": "education",
+   "historical_summary": "9 декабря 2005 г. Нижняя Саксония первой из земель ввела плату за обучение в университетах после того, как в январе Конституционный суд отменил федеральный запрет на неё.",
+   "historical_summary_en": "On 9 December 2005 Lower Saxony became the first state to introduce university tuition fees, after the Constitutional Court had struck down the federal ban in January.",
+   "affected_groups": [
+    "students",
+    "parents"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/2005.html",
+     "accessed": "2026-11-11",
+     "supports": "09.12.2005; 26.01.2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-brandenburg-1995-merger-treaty",
+   "title": "Договор об объединении Берлина и Бранденбурга",
+   "title_en": "Berlin–Brandenburg merger treaty",
+   "start_date": "1995-04-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-brandenburg",
+    "de-land-berlin"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "27 апреля 1995 г. Бранденбург и Берлин подписали договор о создании общей федеральной земли. 29 апреля в Котбусе открылась первая в новых землях Федеральная садовая выставка.",
+   "historical_summary_en": "On 27 April 1995 Brandenburg and Berlin signed a treaty to create a joint federal state. On 29 April the first Federal Garden Show in the new states opened in Cottbus.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1995.html",
+     "accessed": "2026-11-11",
+     "supports": "27.04.1995; 29.04.1995 BUGA Cottbus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

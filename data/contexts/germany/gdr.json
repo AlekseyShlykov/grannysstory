@@ -1,0 +1,2908 @@
+{
+ "records": [
+  {
+   "id": "de-ctx-gdr-1949-1989-women-employment",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1989,
+   "context_type": "women_employment",
+   "attribute": "women_share_of_employed",
+   "title": "ГДР: работа женщин 1949–1989",
+   "description": "В первое десятилетие ГДР женщины составляли около двух пятых всех занятых, к середине 1950-х их доля выросла до 44%. По оценке Холле Грюнерт, в 1950 году работала примерно половина женщин трудоспособного возраста, в основном на полную ставку. С 1960-х женщины составляли почти половину занятых ГДР, в 1977–1979 годах даже чуть больше половины. По оценке Грюнерт, работали около двух третей женщин трудоспособного возраста в 1960 году, четыре пятых в 1970-м и девять десятых к 1989 году. Работа вне дома стала нормой, хотя домашний труд по-прежнему лежал в основном на женщинах.",
+   "title_en": "GDR: women at work, 1949-1989",
+   "description_en": "In the GDR's first decade women made up about two fifths of all employed people, and their share rose to 44% by the mid-1950s. According to Holle Grünert, about half of working-age women were employed in 1950, mostly full-time. From the 1960s women made up almost half of the GDR's employed, and slightly more than half in 1977-1979. According to Grünert, about two thirds of working-age women were employed in 1960, four fifths in 1970 and nine tenths by 1989. Paid work outside the home became the norm, although housework still fell mainly on women.",
+   "statistics": [
+    {
+     "indicator": "female_share_of_employed",
+     "value": 40.9,
+     "unit": "% of employed",
+     "year": 1949,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17, Berufstätige, на дату учёта",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 40.0,
+     "unit": "% of employed",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17, Berufstätige, на дату учёта",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 44.0,
+     "unit": "% of employed",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17, Berufstätige, на дату учёта",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 44.8,
+     "unit": "% of employed",
+     "year": 1959,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17, Berufstätige, на дату учёта",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "employed_women_per_1000_women_15_60",
+     "value": 524,
+     "unit": "per 1000 women aged 15-60",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "женщины 15–60 лет",
+     "method_note": "Грюнерт, APuZ 36/1998, по статистике ГДР",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 45.0,
+     "unit": "% of employed",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 48.3,
+     "unit": "% of employed",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 50.1,
+     "unit": "% of employed",
+     "year": 1978,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 49.9,
+     "unit": "% of employed",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "female_share_of_employed",
+     "value": 48.9,
+     "unit": "% of employed",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "Statistisches Jahrbuch der DDR 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "employed_women_per_1000_women_15_60",
+     "value": 818,
+     "unit": "per 1000 women aged 15-60",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "женщины 15–60 лет",
+     "method_note": "Грюнерт, APuZ 36/1998",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_017.pdf",
+     "accessed": "2026-11-11",
+     "supports": "таблица Berufstätige 1949–1989, доля женщин"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "524 занятые на 1000 женщин 15–60 лет в 1950 г.; около половины женщин трудоспособного возраста"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_017.pdf",
+     "accessed": "2026-11-11",
+     "supports": "доля женщин среди занятых 1960–1989"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "818 на 1000 женщин 15–60 лет (1970); доли 2/3, 4/5, 9/10"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_325.pdf",
+     "accessed": "2026-11-11",
+     "supports": "домашний труд женщин и мужчин, 1985"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1985-time-use",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1980,
+   "period_end": 1989,
+   "context_type": "women_employment",
+   "attribute": "time_use_housework",
+   "title": "ГДР: на что уходил день (1985)",
+   "description": "Обследование 1985 года в семьях рабочих и служащих показало, что женщины тратили на домашнее хозяйство в среднем 3 ч 38 мин в день, а мужчины 1 ч 33 мин. Оплачиваемая работа занимала у женщин в среднем 4 ч 56 мин в день против 6 ч 09 мин у мужчин. Телевизор и радио занимали у женщин около полутора часов в день.",
+   "title_en": "GDR: how the day was spent (1985)",
+   "description_en": "A 1985 survey of workers' and employees' households found that women spent on average 3 h 38 min a day on housework and men 1 h 33 min. Paid work took up on average 4 h 56 min of women's day against 6 h 09 min for men. Television and radio took up about an hour and a half of women's day.",
+   "statistics": [
+    {
+     "indicator": "housework_minutes_per_day",
+     "value": 218,
+     "unit": "minutes/day",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "взрослые женщины в домохозяйствах рабочих и служащих",
+     "method_note": "среднее за неделю (пн–вс), ежегодник ГДР 1990, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housework_minutes_per_day",
+     "value": 93,
+     "unit": "minutes/day",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "взрослые мужчины в домохозяйствах рабочих и служащих",
+     "method_note": "среднее за неделю (пн–вс), ежегодник ГДР 1990, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "paid_work_minutes_per_day",
+     "value": 296,
+     "unit": "minutes/day",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "взрослые женщины в домохозяйствах рабочих и служащих",
+     "method_note": "Arbeitszeit, среднее за неделю",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "paid_work_minutes_per_day",
+     "value": 369,
+     "unit": "minutes/day",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "взрослые мужчины в домохозяйствах рабочих и служащих",
+     "method_note": "Arbeitszeit, среднее за неделю",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "care_of_children_minutes_per_day",
+     "value": 37,
+     "unit": "minutes/day",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "взрослые женщины в домохозяйствах рабочих и служащих",
+     "method_note": "Pflege und Betreuung von Kindern und anderen Personen",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tv_radio_minutes_per_day",
+     "value": 82,
+     "unit": "minutes/day",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "взрослые женщины в домохозяйствах рабочих и служащих",
+     "method_note": "Empfang von Rundfunk- und Fernsehsendungen",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_325.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Durchschnittliche tägliche Zeitverwendung ... 1985"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1949-1989-childcare",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1989,
+   "context_type": "social_policy",
+   "attribute": "childcare_creches_kindergartens",
+   "title": "ГДР: ясли и детские сады 1949–1989",
+   "description": "Число мест в яслях (включая круглосуточные и сезонные учреждения) выросло с нескольких тысяч в 1950 году до 142 тысяч в 1965-м. Но и в середине 1960-х ясли охватывали меньше пятой части детей ясельного возраста, а детский сад — примерно половину детей 3–6 лет. По данным Агаты Израэль, в 1950 году было лишь 194 яслей на 4774 места; ежегодник даёт больше, потому что включает постоянные детские дома и сезонные ясли. В 1970–1980-е ясли стали массовыми: к 1989 году в них было около 353 тысяч мест, и они охватывали примерно четыре пятых детей ясельного возраста. Детский сад посещали почти все дети 3–6 лет. Ясли работали обычно с 6 до 20 часов, дети проводили там девять–десять часов в день; после введения оплачиваемого отпуска на первый год жизни ребёнка детей стали отдавать в ясли позже.",
+   "title_en": "GDR: crèches and kindergartens, 1949-1989",
+   "description_en": "The number of crèche places (including permanent homes and seasonal facilities) grew from a few thousand in 1950 to 142,000 in 1965. Even in the mid-1960s, however, crèches covered less than a fifth of children of crèche age, and kindergartens about half of children aged 3-6. According to Agathe Israel, there were only 194 crèches with 4,774 places in 1950; the yearbook gives more because it includes permanent children's homes and seasonal crèches. In the 1970s and 1980s crèches became a mass institution: by 1989 they had about 353,000 places and covered roughly four fifths of children of crèche age. Almost all children aged 3-6 attended kindergarten. Crèches usually opened from 6 am to 8 pm and children spent nine to ten hours a day there; after paid leave for a child's first year was introduced, children entered crèches later.",
+   "statistics": [
+    {
+     "indicator": "creche_places",
+     "value": 8542,
+     "unit": "places",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома для младенцев и малышей, сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 67106,
+     "unit": "places",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома для младенцев и малышей, сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 104781,
+     "unit": "places",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома для младенцев и малышей, сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 142242,
+     "unit": "places",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома для младенцев и малышей, сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 13,
+     "unit": "per 1000 eligible children",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 91,
+     "unit": "per 1000 eligible children",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 143,
+     "unit": "per 1000 eligible children",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 187,
+     "unit": "per 1000 eligible children",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 345,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57, включая недельные и сезонные учреждения",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 461,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57, включая недельные и сезонные учреждения",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 528,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57, включая недельные и сезонные учреждения",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 183412,
+     "unit": "places",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 289550,
+     "unit": "places",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 343787,
+     "unit": "places",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_places",
+     "value": 353203,
+     "unit": "places",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "ясли, постоянные дома и сезонные учреждения",
+     "method_note": "ежегодник ГДР 1990, с. 62",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 291,
+     "unit": "per 1000 eligible children",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 508,
+     "unit": "per 1000 eligible children",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 612,
+     "unit": "per 1000 eligible children",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 727,
+     "unit": "per 1000 eligible children",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_coverage_per_1000",
+     "value": 802,
+     "unit": "per 1000 eligible children",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "дети ясельного возраста",
+     "method_note": "Betreuungsgrad: дети в яслях на 1000 детей, подлежащих уходу (обычно 1–3 года, с учётом отпуска матери); ежегодник ГДР 1990, с. 62 и пояснение с. 370",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 645,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 846,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 922,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "kindergarten_children_per_1000",
+     "value": 951,
+     "unit": "per 1000 children of kindergarten age",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "дети детсадовского возраста",
+     "method_note": "ежегодник ГДР 1990, с. 57",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "creche_institutions",
+     "value": 7707,
+     "unit": "institutions",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "ясли ГДР",
+     "method_note": "А. Израэль, Deutschland Archiv 2017",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_062.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Kinderkrippen: Plätze, Betreuungsgrad 1949–1989"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_057.pdf",
+     "accessed": "2026-11-11",
+     "supports": "дети в детских садах на 1000 детей"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_370.pdf",
+     "accessed": "2026-11-11",
+     "supports": "определение Betreuungsgrad"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutschlandarchiv/259587/fruehe-fremdbetreuung-in-der-ddr/",
+     "accessed": "2026-11-11",
+     "supports": "1950: 194 учреждения, 4774 места"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_062.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Plätze, Betreuungsgrad 1970–1989"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_057.pdf",
+     "accessed": "2026-11-11",
+     "supports": "детские сады на 1000 детей"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutschlandarchiv/259587/fruehe-fremdbetreuung-in-der-ddr/",
+     "accessed": "2026-11-11",
+     "supports": "1989: 7707 яслей, 348 058 мест, ~80%; часы работы 6–20; более поздний приём после введения отпуска"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/536380/die-wiedervereinigung-der-deutschen-maenner-braucht-keine-frauen-frauen-als-wendeverliererinnen/",
+     "accessed": "2026-11-11",
+     "supports": "ясли >80%, детсад 95–100%+, продлёнка >80% до 1989/90"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1949-1970-housing-construction",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1970,
+   "context_type": "housing",
+   "attribute": "housing_construction",
+   "title": "ГДР: жильё после войны и стройка 1950–1960-х",
+   "description": "В 1946 году на территории будущей ГДР из 4,6 млн квартир пригодными были около 3,97 млн, а до 1949 года сюда прибыли около 4,5 млн беженцев и вернувшихся. Строительство шло медленно: до 1956 года строили около 30–60 тысяч квартир в год, на рубеже 1950–1960-х — 80–90 тысяч. В конце 1950-х значительную часть нового жилья давали рабочие жилищные кооперативы.",
+   "title_en": "GDR: post-war housing and construction in the 1950s and 1960s",
+   "description_en": "In 1946, of 4.6 million flats on the territory of the future GDR about 3.97 million were usable, and by 1949 about 4.5 million refugees and returnees had arrived there. Construction was slow: until 1956 about 30,000-60,000 flats a year were built, and around 1960 some 80,000-90,000. In the late 1950s a large share of new housing came from workers' housing cooperatives.",
+   "statistics": [
+    {
+     "indicator": "usable_flats",
+     "value": 3970000,
+     "unit": "flats",
+     "year": 1946,
+     "area_id": "de-zone-soviet",
+     "population": "жилой фонд советской зоны",
+     "method_note": "Ринк, bpb 2020, со ссылкой на перепись 1946 г.",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 30992,
+     "unit": "flats",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры (новостройки, перестройка)",
+     "method_note": "ежегодник ГДР 1990, с. 51, международная методика",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 32830,
+     "unit": "flats",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры (новостройки, перестройка)",
+     "method_note": "ежегодник ГДР 1990, с. 51, международная методика",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 80489,
+     "unit": "flats",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры (новостройки, перестройка)",
+     "method_note": "ежегодник ГДР 1990, с. 51, международная методика",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 92009,
+     "unit": "flats",
+     "year": 1961,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры (новостройки, перестройка)",
+     "method_note": "ежегодник ГДР 1990, с. 51, международная методика",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 68162,
+     "unit": "flats",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры (новостройки, перестройка)",
+     "method_note": "ежегодник ГДР 1990, с. 51, международная методика",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 76088,
+     "unit": "flats",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры (новостройки, перестройка)",
+     "method_note": "ежегодник ГДР 1990, с. 51, международная методика",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built_by_housing_cooperatives",
+     "value": 40582,
+     "unit": "flats",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "новостройки рабочих жилищных кооперативов (AWG)",
+     "method_note": "ежегодник ГДР 1990, с. 51",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_bpb",
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_051.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Wohnungsbau 1949–1989"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "1946: 3,97 млн пригодных из 4,6 млн; 4,5 млн беженцев и вернувшихся до 1949"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1971-1989-housing-programme",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1971,
+   "period_end": 1989,
+   "context_type": "housing",
+   "attribute": "housing_programme_plattenbau",
+   "title": "ГДР: жилищная программа и панельные дома",
+   "description": "В 1971–1989 годах в ГДР построили около 2,1 млн квартир, в основном в типовых панельных домах больших районов на окраинах городов; с середины 1970-х до конца 1980-х ежегодно сдавали 100–120 тысяч квартир, срок строительства дома в 1989 году составлял в среднем 6,6 месяца. Жилой фонд вырос с 6,06 млн квартир в 1971 году до 7,0 млн в 1989-м, а доля государственного жилья — примерно с 28% до 41%.",
+   "title_en": "GDR: the housing programme and prefabricated blocks",
+   "description_en": "In 1971-1989 about 2.1 million flats were built in the GDR, mostly in standardised prefabricated blocks in large estates on the edges of towns; from the mid-1970s to the late 1980s 100,000-120,000 flats were completed a year, and in 1989 a block took on average 6.6 months to build. The housing stock grew from 6.06 million flats in 1971 to 7.0 million in 1989, and the share of state-owned housing from about 28% to 41%.",
+   "statistics": [
+    {
+     "indicator": "flats_built",
+     "value": 76020,
+     "unit": "flats",
+     "year": 1971,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры",
+     "method_note": "ежегодник ГДР 1990, с. 51",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 107347,
+     "unit": "flats",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры",
+     "method_note": "ежегодник ГДР 1990, с. 51",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 111933,
+     "unit": "flats",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры",
+     "method_note": "ежегодник ГДР 1990, с. 51",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 115722,
+     "unit": "flats",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры",
+     "method_note": "ежегодник ГДР 1990, с. 51",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_built",
+     "value": 92347,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все построенные квартиры",
+     "method_note": "ежегодник ГДР 1990, с. 51",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 6057032,
+     "unit": "flats",
+     "year": 1971,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 200 (1971, 1981 — переписи)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 6562467,
+     "unit": "flats",
+     "year": 1981,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 200 (1971, 1981 — переписи)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "housing_stock",
+     "value": 7002539,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 200 (1971, 1981 — переписи)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "state_owned_flats",
+     "value": 1698101,
+     "unit": "flats",
+     "year": 1971,
+     "area_id": "state-gdr",
+     "population": "народная собственность (volkseigen)",
+     "method_note": "ежегодник ГДР 1990, с. 200",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "state_owned_flats",
+     "value": 2889348,
+     "unit": "flats",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "народная собственность (volkseigen)",
+     "method_note": "ежегодник ГДР 1990, с. 200",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_construction_time_prefab",
+     "value": 6.6,
+     "unit": "months",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "новостройки в монтажной (панельной) технологии",
+     "method_note": "ежегодник ГДР 1990, с. 199",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_051.pdf",
+     "accessed": "2026-11-11",
+     "supports": "построенные квартиры по годам"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_200.pdf",
+     "accessed": "2026-11-11",
+     "supports": "жилой фонд по формам собственности"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "около 2,1 млн квартир 1971–1989, в основном типовые панельные дома на окраинах"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1971-1990-housing-amenities",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1971,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "housing_amenities_rent",
+   "title": "ГДР: ванная, туалет и квартплата",
+   "description": "В 1971 году ванну или душ, как и туалет в квартире, имели лишь около 39% квартир ГДР, к 1989 году — 82% и 76%. Старые дома в частной собственности оставались хуже всего оборудованы. Квартплата в старом фонде была заморожена на уровне 1936 года, в новостройках с 1981 года — около 1 марки за м², и в среднем составляла около 3% дохода; в 1990 году пустовали около 440 тысяч обветшавших квартир, а около 770 тысяч человек искали жильё.",
+   "title_en": "GDR: bathroom, toilet and rent",
+   "description_en": "In 1971 only about 39% of GDR flats had a bath or shower, and as many had an indoor toilet; by 1989 the figures were 82% and 76%. Old privately owned buildings remained the worst equipped. Rents in old buildings were frozen at 1936 levels and in new blocks set from 1981 at about 1 mark per square metre, averaging about 3% of income; in 1990 about 440,000 dilapidated flats stood empty while about 770,000 people were looking for housing.",
+   "statistics": [
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 39,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 202; 1971, 1981 — переписи",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 68,
+     "unit": "% of flats",
+     "year": 1981,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 202; 1971, 1981 — переписи",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_bath_or_shower",
+     "value": 82,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 202; 1971, 1981 — переписи",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 39,
+     "unit": "% of flats",
+     "year": 1971,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 60,
+     "unit": "% of flats",
+     "year": 1981,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc",
+     "value": 76,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "весь жилой фонд ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "flats_with_indoor_wc_private",
+     "value": 42,
+     "unit": "% of flats",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "частные и прочие квартиры",
+     "method_note": "ежегодник ГДР 1990, с. 202",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "vacant_flats",
+     "value": 440000,
+     "unit": "flats",
+     "year": 1990,
+     "area_id": "state-gdr",
+     "population": "жилой фонд ГДР",
+     "method_note": "Ринк, bpb 2020",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_202.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Ausstattungsmerkmale des Wohnungsbestandes"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "квартплата на уровне 1936 г., ~1 марка/м² с 1981, ~3% дохода; 440 тыс. пустующих, 770 тыс. ищущих"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202215/wohnungspolitik/",
+     "accessed": "2026-11-11",
+     "supports": "квартплата ~3% дохода домохозяйства"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1955-1969-appliances",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1955,
+   "period_end": 1969,
+   "context_type": "appliances",
+   "attribute": "household_durables",
+   "title": "ГДР: первые холодильники и телевизоры",
+   "description": "В 1955 году холодильник, стиральная машина или телевизор были лишь у одного-двух домохозяйств ГДР из ста, автомобиль — ещё реже. К концу 1960-х телевизор был примерно в семи домах из десяти, холодильник и стиральная машина — в каждом втором. Мотоцикл или мотороллер долго оставался распространённее автомобиля.",
+   "title_en": "GDR: the first refrigerators and televisions",
+   "description_en": "In 1955 only one or two GDR households in a hundred had a refrigerator, a washing machine or a television, and even fewer had a car. By the late 1960s about seven homes in ten had a television and every second one had a refrigerator and a washing machine. A motorcycle or scooter remained more common than a car for a long time.",
+   "statistics": [
+    {
+     "indicator": "cars_per_100_households",
+     "value": 0.2,
+     "unit": "per 100 households",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsbestand (с учётом нескольких единиц); ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "cars_per_100_households",
+     "value": 3.2,
+     "unit": "per 100 households",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsbestand (с учётом нескольких единиц); ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "cars_per_100_households",
+     "value": 8.2,
+     "unit": "per 100 households",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsbestand (с учётом нескольких единиц); ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "cars_per_100_households",
+     "value": 13.9,
+     "unit": "per 100 households",
+     "year": 1969,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsbestand (с учётом нескольких единиц); ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "motorcycles_per_100_households",
+     "value": 10.8,
+     "unit": "per 100 households",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 325 (1955, 1960 без мотороллеров)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "motorcycles_per_100_households",
+     "value": 16.5,
+     "unit": "per 100 households",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 325 (1955, 1960 без мотороллеров)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "refrigerators_per_100_households",
+     "value": 0.4,
+     "unit": "per 100 households",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "refrigerators_per_100_households",
+     "value": 6.1,
+     "unit": "per 100 households",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "refrigerators_per_100_households",
+     "value": 25.9,
+     "unit": "per 100 households",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "refrigerators_per_100_households",
+     "value": 50.3,
+     "unit": "per 100 households",
+     "year": 1969,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "washing_machines_per_100_households",
+     "value": 0.5,
+     "unit": "per 100 households",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "washing_machines_per_100_households",
+     "value": 6.2,
+     "unit": "per 100 households",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "washing_machines_per_100_households",
+     "value": 27.7,
+     "unit": "per 100 households",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "washing_machines_per_100_households",
+     "value": 49.0,
+     "unit": "per 100 households",
+     "year": 1969,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tv_sets_per_100_households",
+     "value": 1.2,
+     "unit": "per 100 households",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tv_sets_per_100_households",
+     "value": 18.5,
+     "unit": "per 100 households",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tv_sets_per_100_households",
+     "value": 53.7,
+     "unit": "per 100 households",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tv_sets_per_100_households",
+     "value": 69.4,
+     "unit": "per 100 households",
+     "year": 1969,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 53",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_053.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Ausstattungsbestand je 100 Haushalte 1955–1989"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_325.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Ausstattungsgrad und -bestand, мотоциклы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1970-1989-appliances",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "appliances",
+   "attribute": "household_durables",
+   "title": "ГДР: автомобиль, холодильник, цветной телевизор",
+   "description": "К 1980 году холодильник был практически в каждом домохозяйстве ГДР, к концу 1980-х — и стиральная машина. Автомобиль в 1970 году имело около 16% домохозяйств, в 1989 году — 54%. Цветной телевизор оставался редкостью до конца 1970-х, а в 1989 году был в 57% домохозяйств.",
+   "title_en": "GDR: car, refrigerator, colour television",
+   "description_en": "By 1980 practically every GDR household had a refrigerator, and by the late 1980s a washing machine too. About 16% of households had a car in 1970 and 54% in 1989. A colour television remained rare until the late 1970s and was in 57% of households in 1989.",
+   "statistics": [
+    {
+     "indicator": "households_with_car",
+     "value": 15.6,
+     "unit": "% of households",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad: домохозяйства, имеющие предмет; зарегистрированные личные автомобили; ежегодник ГДР 1990, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_car",
+     "value": 26.2,
+     "unit": "% of households",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad: домохозяйства, имеющие предмет; зарегистрированные личные автомобили; ежегодник ГДР 1990, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_car",
+     "value": 36.8,
+     "unit": "% of households",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad: домохозяйства, имеющие предмет; зарегистрированные личные автомобили; ежегодник ГДР 1990, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_car",
+     "value": 54.3,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad: домохозяйства, имеющие предмет; зарегистрированные личные автомобили; ежегодник ГДР 1990, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_refrigerator",
+     "value": 56.4,
+     "unit": "% of households",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325 (99 = практически все)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_refrigerator",
+     "value": 84.7,
+     "unit": "% of households",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325 (99 = практически все)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_refrigerator",
+     "value": 99,
+     "unit": "% of households",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325 (99 = практически все)",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_washing_machine",
+     "value": 53.6,
+     "unit": "% of households",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_washing_machine",
+     "value": 80.4,
+     "unit": "% of households",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_washing_machine",
+     "value": 99,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_freezer",
+     "value": 3.5,
+     "unit": "% of households",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_freezer",
+     "value": 47.5,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_colour_tv",
+     "value": 2.5,
+     "unit": "% of households",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_colour_tv",
+     "value": 16.8,
+     "unit": "% of households",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_colour_tv",
+     "value": 57.2,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 69.1,
+     "unit": "% of households",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "households_with_tv",
+     "value": 96.2,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все частные домохозяйства ГДР",
+     "method_note": "Ausstattungsgrad, с. 325",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_325.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Ausstattung der Haushalte mit langlebigen technischen Konsumgütern 1955–1989"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_053.pdf",
+     "accessed": "2026-11-11",
+     "supports": "ряд Ausstattungsbestand"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1950-1989-telephone",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1950,
+   "period_end": 1989,
+   "context_type": "communication",
+   "attribute": "telephone_lines",
+   "title": "ГДР: телефон дома",
+   "description": "Телефон в квартире в ГДР долго оставался редкостью: в 1970 году в жилых квартирах было около 431 тысячи основных телефонных подключений, в 1989 году — около 1,12 млн при примерно 7 млн квартир. Междугородние звонки с 1960-х всё чаще шли через автоматическую связь без телефонистки: в 1989 году так набирались 98,5% разговоров.",
+   "title_en": "GDR: a telephone at home",
+   "description_en": "A telephone at home long remained rare in the GDR: in 1970 there were about 431,000 main lines in private flats and in 1989 about 1.12 million, with roughly 7 million flats. From the 1960s long-distance calls were increasingly dialled automatically without an operator: in 1989, 98.5% of such calls were dialled directly.",
+   "statistics": [
+    {
+     "indicator": "telephone_main_lines_thousand",
+     "value": 356.6,
+     "unit": "thousand lines",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "все основные телефонные подключения",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_main_lines_thousand",
+     "value": 602.6,
+     "unit": "thousand lines",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все основные телефонные подключения",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_main_lines_thousand",
+     "value": 954.3,
+     "unit": "thousand lines",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все основные телефонные подключения",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_main_lines_thousand",
+     "value": 1355.7,
+     "unit": "thousand lines",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "все основные телефонные подключения",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_main_lines_thousand",
+     "value": 1826.2,
+     "unit": "thousand lines",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все основные телефонные подключения",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_lines_in_flats_thousand",
+     "value": 308.1,
+     "unit": "thousand lines",
+     "year": 1966,
+     "area_id": "state-gdr",
+     "population": "подключения в квартирах",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_lines_in_flats_thousand",
+     "value": 431.0,
+     "unit": "thousand lines",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "подключения в квартирах",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_lines_in_flats_thousand",
+     "value": 758.1,
+     "unit": "thousand lines",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "подключения в квартирах",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "telephone_lines_in_flats_thousand",
+     "value": 1119.2,
+     "unit": "thousand lines",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "подключения в квартирах",
+     "method_note": "ежегодник ГДР 1990, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "long_distance_calls_direct_dialled",
+     "value": 7.3,
+     "unit": "% of long-distance calls",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "исходящие междугородние разговоры",
+     "method_note": "Selbstwählfernverkehr, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "long_distance_calls_direct_dialled",
+     "value": 84.1,
+     "unit": "% of long-distance calls",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "исходящие междугородние разговоры",
+     "method_note": "Selbstwählfernverkehr, с. 50",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "long_distance_calls_direct_dialled",
+     "value": 98.5,
+     "unit": "% of long-distance calls",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "исходящие междугородние разговоры",
+     "method_note": "Selbstwählfernverkehr, с. 50",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_050.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Post- und Fernmeldewesen 1949–1989"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_200.pdf",
+     "accessed": "2026-11-11",
+     "supports": "жилой фонд 1989: 7,0 млн квартир"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1949-1989-wages",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1989,
+   "context_type": "wages_income",
+   "attribute": "average_monthly_wage",
+   "title": "ГДР: заработок и сбережения 1949–1989",
+   "description": "Средний месячный заработок до вычетов у полностью занятых на государственных и кооперативных предприятиях вырос с 311 марок в 1950 году до 722 марок в 1969-м. Сбережения населения в банках за то же время выросли почти в сорок раз. Квартплата в старых домах оставалась замороженной на уровне 1936 года. Средний месячный заработок до вычетов вырос с 755 марок в 1970 году до 1300 марок в 1989-м. Обычная рабочая неделя с середины 1960-х составляла 43¾ часа и больше не сокращалась. Сбережения населения выросли с 52 млрд марок в 1970 году до 160 млрд в 1989-м.",
+   "title_en": "GDR: earnings and savings, 1949-1989",
+   "description_en": "Average gross monthly earnings of full-time workers in state and cooperative enterprises rose from 311 marks in 1950 to 722 marks in 1969. Savings deposits held by the population grew almost fortyfold over the same period. Rents in old buildings remained frozen at 1936 levels. Average gross monthly earnings rose from 755 marks in 1970 to 1,300 marks in 1989. The standard working week had been 43¾ hours since the mid-1960s and was not reduced further. Savings deposits grew from 52 billion marks in 1970 to 160 billion in 1989.",
+   "statistics": [
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 311,
+     "unit": "Mark (GDR)/month",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 432,
+     "unit": "Mark (GDR)/month",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 555,
+     "unit": "Mark (GDR)/month",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 633,
+     "unit": "Mark (GDR)/month",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 722,
+     "unit": "Mark (GDR)/month",
+     "year": 1969,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "savings_deposits_million",
+     "value": 1275,
+     "unit": "million Mark",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "сбережения населения в кредитных учреждениях",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "savings_deposits_million",
+     "value": 17498,
+     "unit": "million Mark",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "сбережения населения в кредитных учреждениях",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "savings_deposits_million",
+     "value": 48049,
+     "unit": "million Mark",
+     "year": 1969,
+     "area_id": "state-gdr",
+     "population": "сбережения населения в кредитных учреждениях",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 755,
+     "unit": "Mark (GDR)/month",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 889,
+     "unit": "Mark (GDR)/month",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 1021,
+     "unit": "Mark (GDR)/month",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 1130,
+     "unit": "Mark (GDR)/month",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings",
+     "value": 1300,
+     "unit": "Mark (GDR)/month",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "полностью занятые рабочие и служащие государственных и кооперативных предприятий (без прочих отраслей и непроизводственной сферы)",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "savings_deposits_million",
+     "value": 52149,
+     "unit": "million Mark",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "сбережения населения в кредитных учреждениях",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "savings_deposits_million",
+     "value": 99730,
+     "unit": "million Mark",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "сбережения населения в кредитных учреждениях",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "savings_deposits_million",
+     "value": 159671,
+     "unit": "million Mark",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "сбережения населения в кредитных учреждениях",
+     "method_note": "ежегодник ГДР 1990, с. 52",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "standard_weekly_hours",
+     "value": 43.75,
+     "unit": "hours/week",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "полностью занятые",
+     "method_note": "Грюнерт, APuZ 36/1998: с середины 1960-х без изменений",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_052.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Einkommen 1949–1989"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "квартплата в старом фонде на уровне 1936 г."
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_052.pdf",
+     "accessed": "2026-11-11",
+     "supports": "заработок и сбережения"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "рабочая неделя 43¾ часа с середины 1960-х"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1989-prices",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1989,
+   "period_end": 1989,
+   "context_type": "prices_spending",
+   "attribute": "retail_prices",
+   "title": "ГДР: цены в магазине (1989)",
+   "description": "В 1989 году килограмм ржано-пшеничного хлеба стоил 52 пфеннига, пол-литра молока 34 пфеннига, яйцо 34 пфеннига, а килограмм сливочного масла 9,60 марки. Кофе «Рондо» стоил 70 марок за килограмм. Стиральная машина-автомат стоила 2300 марок, холодильник на 125 литров — 1425 марок, то есть больше месячного заработка.",
+   "title_en": "GDR: shop prices (1989)",
+   "description_en": "In 1989 a kilogram of rye-wheat bread cost 52 pfennigs, half a litre of milk 34 pfennigs, an egg 34 pfennigs and a kilogram of butter 9.60 marks. Rondo coffee cost 70 marks a kilogram. An automatic washing machine cost 2,300 marks and a 125-litre refrigerator 1,425 marks, more than a month's earnings.",
+   "statistics": [
+    {
+     "indicator": "price_rye_bread",
+     "value": 0.52,
+     "unit": "Mark/kg",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена (без Восточного Берлина)",
+     "method_note": "ежегодник ГДР 1990, с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_milk",
+     "value": 0.34,
+     "unit": "Mark/0.5 l",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена, молоко 2,2%, в бутылках",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_egg",
+     "value": 0.34,
+     "unit": "Mark/egg",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_butter",
+     "value": 9.6,
+     "unit": "Mark/kg",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_pork_chop",
+     "value": 8.0,
+     "unit": "Mark/kg",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_coffee_rondo",
+     "value": 70.0,
+     "unit": "Mark/kg",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_beer",
+     "value": 0.48,
+     "unit": "Mark/0.33 l",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "розничная цена, светлое пиво",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_washing_machine",
+     "value": 2300,
+     "unit": "Mark",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "автомат на 4–5 кг",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "price_refrigerator",
+     "value": 1425,
+     "unit": "Mark",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "125 л, с морозильным отделением",
+     "method_note": "с. 309",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_309.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Einzelhandelsverkaufspreise 1989"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1950-1989-food",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1950,
+   "period_end": 1989,
+   "context_type": "food",
+   "attribute": "per_capita_consumption",
+   "title": "ГДР: что ели",
+   "description": "Потребление мяса на душу населения выросло с 22 кг в 1950 году до 99 кг в 1989-м. Яиц в 1989 году приходилось около 300 штук на человека в год, молока — около 114 литров. Южные фрукты оставались редкими: около 18 кг на человека в 1989 году.",
+   "title_en": "GDR: what people ate",
+   "description_en": "Meat consumption per head rose from 22 kg in 1950 to 99 kg in 1989. In 1989 there were about 300 eggs per person a year and about 114 litres of milk. Tropical fruit remained scarce, at about 18 kg per person in 1989.",
+   "statistics": [
+    {
+     "indicator": "meat_kg_per_capita",
+     "value": 22.1,
+     "unit": "kg/person/year",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "мясо и мясные продукты; ежегодник ГДР 1990, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "meat_kg_per_capita",
+     "value": 45.0,
+     "unit": "kg/person/year",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "мясо и мясные продукты; ежегодник ГДР 1990, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "meat_kg_per_capita",
+     "value": 66.1,
+     "unit": "kg/person/year",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "мясо и мясные продукты; ежегодник ГДР 1990, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "meat_kg_per_capita",
+     "value": 89.5,
+     "unit": "kg/person/year",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "мясо и мясные продукты; ежегодник ГДР 1990, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "meat_kg_per_capita",
+     "value": 99.3,
+     "unit": "kg/person/year",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "мясо и мясные продукты; ежегодник ГДР 1990, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "eggs_per_capita",
+     "value": 239,
+     "unit": "eggs/person/year",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "eggs_per_capita",
+     "value": 289,
+     "unit": "eggs/person/year",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "eggs_per_capita",
+     "value": 301,
+     "unit": "eggs/person/year",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "milk_litres_per_capita",
+     "value": 98.5,
+     "unit": "l/person/year",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "питьевое молоко, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "milk_litres_per_capita",
+     "value": 113.9,
+     "unit": "l/person/year",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "питьевое молоко, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tropical_fruit_kg_per_capita",
+     "value": 11.8,
+     "unit": "kg/person/year",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "Südfrüchte, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tropical_fruit_kg_per_capita",
+     "value": 13.7,
+     "unit": "kg/person/year",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "Südfrüchte, с. 54",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "tropical_fruit_kg_per_capita",
+     "value": 18.2,
+     "unit": "kg/person/year",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "Südfrüchte, с. 54",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_054.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Pro-Kopf-Verbrauch ausgewählter Nahrungs- und Genußmittel"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1970-1989-retirement",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "retirement",
+   "attribute": "pensions",
+   "title": "ГДР: пенсия",
+   "description": "Пенсионный возраст в ГДР был 60 лет для женщин и 65 для мужчин. Средняя пенсия по старости из соцстрахования рабочих и служащих в декабре 1988 года составляла около 381 марки, после повышения в декабре 1989 года — около 447 марок, то есть примерно треть среднего заработка. Многие пенсионеры продолжали работать, но их доля сократилась с 20% в 1972 году до 10,5% в 1989-м.",
+   "title_en": "GDR: the pension",
+   "description_en": "The pension age in the GDR was 60 for women and 65 for men. The average old-age pension from the workers' and employees' social insurance was about 381 marks in December 1988 and, after an increase, about 447 marks in December 1989, roughly a third of average earnings. Many pensioners kept working, but their share fell from 20% in 1972 to 10.5% in 1989.",
+   "statistics": [
+    {
+     "indicator": "avg_old_age_pension",
+     "value": 376.99,
+     "unit": "Mark (GDR)/month",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "пенсии по старости соцстрахования рабочих и служащих (без доп. добровольной пенсии), декабрь",
+     "method_note": "ежегодник ГДР 1990, с. 384",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_old_age_pension",
+     "value": 380.94,
+     "unit": "Mark (GDR)/month",
+     "year": 1988,
+     "area_id": "state-gdr",
+     "population": "пенсии по старости соцстрахования рабочих и служащих (без доп. добровольной пенсии), декабрь",
+     "method_note": "ежегодник ГДР 1990, с. 384",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_old_age_pension",
+     "value": 446.62,
+     "unit": "Mark (GDR)/month",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "пенсии по старости соцстрахования рабочих и служащих (без доп. добровольной пенсии), декабрь",
+     "method_note": "ежегодник ГДР 1990, с. 384",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "avg_old_age_pension_with_fzr",
+     "value": 555.42,
+     "unit": "Mark (GDR)/month",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "получатели с дополнительной добровольной пенсией (FZR), декабрь",
+     "method_note": "с. 384",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_share_pension_age",
+     "value": 19.5,
+     "unit": "% of population",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "женщины 60+, мужчины 65+",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "population_share_pension_age",
+     "value": 16.2,
+     "unit": "% of population",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "женщины 60+, мужчины 65+",
+     "method_note": "с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "working_pensioners_share",
+     "value": 20,
+     "unit": "% of pensioners",
+     "year": 1972,
+     "area_id": "state-gdr",
+     "population": "пенсионеры",
+     "method_note": "Грюнерт, APuZ 36/1998",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "working_pensioners_share",
+     "value": 10.5,
+     "unit": "% of pensioners",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "пенсионеры",
+     "method_note": "Грюнерт, APuZ 36/1998",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_384.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Renten nach Rentenarten, декабрь 1988 и 1989"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_398.pdf",
+     "accessed": "2026-11-11",
+     "supports": "возрастная группа «60/65 и старше» (пенсионный возраст)"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_064.pdf",
+     "accessed": "2026-11-11",
+     "supports": "доля населения в пенсионном возрасте"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "работающие пенсионеры 680 тыс. (1972) → 280 тыс. (1989), 20% → 10,5%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1949-1969-family",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1969,
+   "context_type": "family_marriage",
+   "attribute": "marriage_divorce_births",
+   "title": "ГДР: браки, разводы и рождения 1950–1960-х",
+   "description": "В 1950 году в ГДР заключали почти 12 браков на тысячу жителей, к середине 1960-х — около 8. Разводов было около 25 тысяч в год после пика 1950 года. Рождаемость в начале 1960-х держалась около 2,3–2,5 ребёнка на женщину.",
+   "title_en": "GDR: marriages, divorces and births in the 1950s and 1960s",
+   "description_en": "In 1950 the GDR had almost 12 marriages per thousand inhabitants, and about 8 by the mid-1960s. There were about 25,000 divorces a year after a peak in 1950. Fertility in the early 1960s stood at about 2.3-2.5 children per woman.",
+   "statistics": [
+    {
+     "indicator": "marriages_per_1000",
+     "value": 11.7,
+     "unit": "per 1000 population",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "marriages_per_1000",
+     "value": 8.7,
+     "unit": "per 1000 population",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "marriages_per_1000",
+     "value": 9.7,
+     "unit": "per 1000 population",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "marriages_per_1000",
+     "value": 7.6,
+     "unit": "per 1000 population",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "divorces",
+     "value": 49860,
+     "unit": "divorces",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 25736,
+     "unit": "divorces",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 24540,
+     "unit": "divorces",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 26576,
+     "unit": "divorces",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 16.5,
+     "unit": "per 1000 population",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 17.0,
+     "unit": "per 1000 population",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 16.5,
+     "unit": "per 1000 population",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.33,
+     "unit": "children per woman",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "женщины 15–49 лет, Восток",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.48,
+     "unit": "children per woman",
+     "year": 1965,
+     "area_id": "state-gdr",
+     "population": "женщины 15–49 лет, Восток",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "infant_mortality_per_1000",
+     "value": 72.2,
+     "unit": "per 1000 live births",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "все живорождённые",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "infant_mortality_per_1000",
+     "value": 38.8,
+     "unit": "per 1000 live births",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "все живорождённые",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_destatis",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_064.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Bevölkerung: браки, рождения на 1000"
+    },
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEHeft_derivate_00037171/2010140167004.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.1 Ehescheidungen 1950–2016, Neue Länder und Berlin-Ost"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61550/geburten/",
+     "accessed": "2026-11-11",
+     "supports": "суммарная рождаемость Ост 1960, 1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1970-1989-marriage-divorce",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "family_marriage",
+   "attribute": "marriage_divorce",
+   "title": "ГДР: браки и разводы 1970–1989",
+   "description": "В 1970–1980-е в ГДР ежегодно заключали около 8 браков на тысячу жителей. Число разводов выросло с 27 тысяч в 1970 году до 50 тысяч в 1980-е. Основой разводов было Семейное уложение ГДР 1965 года, а к 1989 году собственный заработок имели около девяти из десяти женщин трудоспособного возраста.",
+   "title_en": "GDR: marriages and divorces, 1970-1989",
+   "description_en": "In the 1970s and 1980s the GDR had about 8 marriages per thousand inhabitants a year. The number of divorces rose from 27,000 in 1970 to 50,000 in the 1980s. Divorces were governed by the GDR Family Code of 1965, and by 1989 about nine in ten working-age women had earnings of their own.",
+   "statistics": [
+    {
+     "indicator": "marriages_per_1000",
+     "value": 7.7,
+     "unit": "per 1000 population",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "marriages_per_1000",
+     "value": 8.4,
+     "unit": "per 1000 population",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "marriages_per_1000",
+     "value": 8.0,
+     "unit": "per 1000 population",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "marriages_per_1000",
+     "value": 7.9,
+     "unit": "per 1000 population",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "divorces",
+     "value": 27407,
+     "unit": "divorces",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 41632,
+     "unit": "divorces",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 44794,
+     "unit": "divorces",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 51240,
+     "unit": "divorces",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 50063,
+     "unit": "divorces",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "территория новых земель и Восточного Берлина (= ГДР)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_destatis",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_064.pdf",
+     "accessed": "2026-11-11",
+     "supports": "браки на 1000"
+    },
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEHeft_derivate_00037171/2010140167004.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.1, Neue Länder und Berlin-Ost; Familiengesetzbuch 1965 как правовая основа"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "занятость около 9/10 женщин трудоспособного возраста к 1989"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-gdr-1970-1989-fertility",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "fertility_childlessness",
+   "attribute": "fertility",
+   "title": "ГДР: рождаемость 1970–1989",
+   "description": "В середине 1970-х рождаемость в ГДР упала до 1,54 ребёнка на женщину, а затем снова поднялась до 1,94 в 1980 году. Детская смертность снизилась с 18,5 до 7,6 на тысячу родившихся. Бездетность в ГДР была редкой: из женщин 1949–1958 годов рождения детей не имели около 8%.",
+   "title_en": "GDR: fertility, 1970-1989",
+   "description_en": "In the mid-1970s fertility in the GDR fell to 1.54 children per woman and then rose again to 1.94 in 1980. Infant mortality fell from 18.5 to 7.6 per thousand births. Childlessness in the GDR was rare: about 8% of women born in 1949-1958 had no children.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.19,
+     "unit": "children per woman",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "женщины 15–49 лет, Восток",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.54,
+     "unit": "children per woman",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "женщины 15–49 лет, Восток",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.94,
+     "unit": "children per woman",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "женщины 15–49 лет, Восток",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.73,
+     "unit": "children per woman",
+     "year": 1985,
+     "area_id": "state-gdr",
+     "population": "женщины 15–49 лет, Восток",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 13.9,
+     "unit": "per 1000 population",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 10.8,
+     "unit": "per 1000 population",
+     "year": 1975,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 14.6,
+     "unit": "per 1000 population",
+     "year": 1980,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "live_births_per_1000",
+     "value": 12.0,
+     "unit": "per 1000 population",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "всё население ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "infant_mortality_per_1000",
+     "value": 18.5,
+     "unit": "per 1000 live births",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "все живорождённые",
+     "method_note": "с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "infant_mortality_per_1000",
+     "value": 7.6,
+     "unit": "per 1000 live births",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "все живорождённые",
+     "method_note": "с. 64",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "childless_share_cohort_1949_1953",
+     "value": 7.7,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "state-gdr",
+     "population": "женщины 1949–1953 г.р., восточные земли без Берлина",
+     "method_note": "Микроперепись 2018 через bpb; когортный показатель",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "childless_share_cohort_1954_1958",
+     "value": 7.7,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "state-gdr",
+     "population": "женщины 1954–1958 г.р., восточные земли без Берлина",
+     "method_note": "Микроперепись 2018 через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb",
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61550/geburten/",
+     "accessed": "2026-11-11",
+     "supports": "TFR Ост 1970–1985"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_064.pdf",
+     "accessed": "2026-11-11",
+     "supports": "рождения и детская смертность"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61553/kinderlosigkeit-und-kinderzahl/",
+     "accessed": "2026-11-11",
+     "supports": "доля бездетных по когортам, Ostdeutsche Flächenländer"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-gdr-1949-1989-emigration",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1989,
+   "context_type": "migration",
+   "attribute": "emigration_to_west",
+   "title": "ГДР: уехать на Запад, 1949–1989",
+   "description": "С 1949 года до постройки Стены в августе 1961 года из ГДР в ФРГ ушли около 2,7 млн человек; пик пришёлся на 1953 год, когда бежали около 331 тысячи. Уезжали в основном молодые и квалифицированные, в 1950-е страна потеряла около трети людей с высшим образованием. Население ГДР сократилось с 19,1 млн в 1948 году до 16,4 млн в 1989-м. После постройки Стены выезд стал возможен в основном по разрешению: с 1962 по 1988 год ГДР покинули около 625 тысяч человек. Официальная статистика ГДР фиксировала 74 тысячи выбывших в 1984 году и почти 297 тысяч в 1989-м; по оценкам, с 1988 года до конца 1989-го уехали около 880 тысяч. Одновременно в ГДР работали около 106 тысяч иностранцев по межгосударственным договорам, почти восемь из десяти — мужчины.",
+   "title_en": "GDR: leaving for the West, 1949-1989",
+   "description_en": "From 1949 until the Wall was built in August 1961 about 2.7 million people left the GDR for West Germany; the peak was 1953, when about 331,000 fled. Those who left were mostly young and skilled, and in the 1950s the country lost about a third of its university graduates. The GDR population fell from 19.1 million in 1948 to 16.4 million in 1989. After the Wall was built, leaving was possible mainly with permission: from 1962 to 1988 about 625,000 people left the GDR. Official GDR statistics recorded 74,000 departures in 1984 and almost 297,000 in 1989; estimates put departures from 1988 to the end of 1989 at about 880,000. At the same time about 106,000 foreigners worked in the GDR under intergovernmental agreements, almost eight in ten of them men.",
+   "statistics": [
+    {
+     "indicator": "emigrants_to_frg_total",
+     "value": 2700000,
+     "unit": "persons",
+     "year": 1961,
+     "area_id": "state-gdr",
+     "population": "переселенцы и беженцы 1949–1961",
+     "method_note": "Мартенс, bpb 2020 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "emigrants_to_frg",
+     "value": 331000,
+     "unit": "persons",
+     "year": 1953,
+     "area_id": "state-gdr",
+     "population": "беженцы за год",
+     "method_note": "Мартенс, bpb 2020",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "population",
+     "value": 19100000,
+     "unit": "persons",
+     "year": 1948,
+     "area_id": "de-zone-soviet",
+     "population": "население советской зоны / будущей ГДР",
+     "method_note": "Мартенс, bpb 2020",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "working_age_share",
+     "value": 60,
+     "unit": "% of population",
+     "year": 1961,
+     "area_id": "state-gdr",
+     "population": "население трудоспособного возраста",
+     "method_note": "Грюнерт, APuZ 36/1998",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "emigrants_1962_1988",
+     "value": 625000,
+     "unit": "persons",
+     "year": 1988,
+     "area_id": "state-gdr",
+     "population": "выехавшие 1962–1988, в основном по разрешению",
+     "method_note": "Мартенс, bpb 2020",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "registered_departures_abroad",
+     "value": 73959,
+     "unit": "persons",
+     "year": 1984,
+     "area_id": "state-gdr",
+     "population": "выписка с постоянного места жительства за границы ГДР",
+     "method_note": "ежегодник ГДР 1990, с. 398, учёт полиции",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "registered_departures_abroad",
+     "value": 77576,
+     "unit": "persons",
+     "year": 1988,
+     "area_id": "state-gdr",
+     "population": "то же",
+     "method_note": "с. 398",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "registered_departures_abroad",
+     "value": 296958,
+     "unit": "persons",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "то же",
+     "method_note": "с. 398; не охватывает бегство без выписки",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "foreign_contract_workers",
+     "value": 106000,
+     "unit": "persons",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "иностранные работники по договорам",
+     "method_note": "Грюнерт по статистике ГДР; 78% мужчины",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb",
+    "de_stjb_ddr"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47253/der-zug-nach-westen-jahrzehntelange-abwanderung-die-allmaehlich-nachlaesst/",
+     "accessed": "2026-11-11",
+     "supports": "2,7 млн 1949–1961; пик 1953 г. 331 тыс.; треть академиков; 19,1 млн в 1948"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "потеря ~2,7 млн 1951–1961; доля трудоспособных 64% → 60%"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47253/der-zug-nach-westen-jahrzehntelange-abwanderung-die-allmaehlich-nachlaesst/",
+     "accessed": "2026-11-11",
+     "supports": "625 тыс. 1962–1988; около 880 тыс. 1988/89"
+    },
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_398.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Außenwanderung: Wegzüge 1980–1989"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "106 тыс. иностранных работников 1989, 78% мужчины"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-gdr-1949-1989-work-structure",
+   "country_code": "DE",
+   "location_id": "state-gdr",
+   "period_start": 1949,
+   "period_end": 1989,
+   "context_type": "work",
+   "attribute": "employment_structure",
+   "title": "ГДР: из деревни на завод",
+   "description": "Число занятых в промышленности ГДР выросло примерно с 2 млн в 1949/50 году до 2,9 млн в 1970-м, а в сельском хозяйстве сократилось с 2,2 млн до 1 млн. К 1960 году около миллиона человек состояли в производственных кооперативах, сельскохозяйственных и ремесленных. Люди редко меняли место работы: в 1979 году текучесть кадров составляла 9%, в 1983-м меньше 6%.",
+   "title_en": "GDR: from village to factory",
+   "description_en": "Employment in GDR industry rose from about 2 million in 1949/50 to 2.9 million in 1970, while agricultural employment fell from 2.2 million to 1 million. By 1960 about a million people belonged to production cooperatives, agricultural and craft. People rarely changed jobs: labour turnover was 9% in 1979 and less than 6% in 1983.",
+   "statistics": [
+    {
+     "indicator": "employed_total_thousand",
+     "value": 7196,
+     "unit": "thousand persons",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "ежегодник ГДР 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "employed_total_thousand",
+     "value": 7769,
+     "unit": "thousand persons",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "ежегодник ГДР 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "employed_total_thousand",
+     "value": 8547,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "занятые в народном хозяйстве ГДР без учеников (Berufstätige ohne Lehrlinge)",
+     "method_note": "ежегодник ГДР 1990, с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "cooperative_members_thousand",
+     "value": 193,
+     "unit": "thousand persons",
+     "year": 1955,
+     "area_id": "state-gdr",
+     "population": "члены производственных кооперативов",
+     "method_note": "с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "cooperative_members_thousand",
+     "value": 1066,
+     "unit": "thousand persons",
+     "year": 1960,
+     "area_id": "state-gdr",
+     "population": "члены производственных кооперативов",
+     "method_note": "с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "cooperative_members_thousand",
+     "value": 821,
+     "unit": "thousand persons",
+     "year": 1989,
+     "area_id": "state-gdr",
+     "population": "члены производственных кооперативов",
+     "method_note": "с. 17",
+     "source_id": "de_stjb_ddr"
+    },
+    {
+     "indicator": "agricultural_employment",
+     "value": 2200000,
+     "unit": "persons",
+     "year": 1950,
+     "area_id": "state-gdr",
+     "population": "занятые в сельском хозяйстве",
+     "method_note": "Грюнерт, APuZ 36/1998",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "agricultural_employment",
+     "value": 1000000,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "state-gdr",
+     "population": "занятые в сельском хозяйстве",
+     "method_note": "Грюнерт",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "labour_turnover",
+     "value": 9,
+     "unit": "% per year",
+     "year": 1979,
+     "area_id": "state-gdr",
+     "population": "работники народного хозяйства",
+     "method_note": "Грюнерт",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_ddr",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_ddr",
+     "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/pdf/statistisches-jahrbuch-ddr-1990-1-seite_017.pdf",
+     "accessed": "2026-11-11",
+     "supports": "Berufstätige, Mitglieder von Produktionsgenossenschaften"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/538610/beschaeftigungsstrategie-der-ddr-fruehe-erfolge-und-zunehmende-erstarrung/",
+     "accessed": "2026-11-11",
+     "supports": "промышленность 2→2,9 млн, сельское хозяйство 2,2→1 млн, текучесть"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

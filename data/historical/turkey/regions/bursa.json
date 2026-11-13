@@ -1,0 +1,80 @@
+{
+ "records": [
+  {
+   "id": "tr-il-bursa-1930-harmancik-station",
+   "title": "Станция Харманджык",
+   "title_en": "Harmancık station",
+   "start_date": "1930",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-il-bursa"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1930 г. открылась железнодорожная станция Харманджык в провинции Бурса.",
+   "historical_summary_en": "In 1930 Harmancık railway station opened in Bursa Province.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1930 Harmancık station"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-il-bursa-2024-export-province",
+   "title": "Четвёртая провинция по экспорту",
+   "title_en": "Fourth-largest exporting province",
+   "start_date": "2024",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-il-bursa"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2024 г. Бурса стала четвёртой провинцией Турции по объёму экспорта; по данным TÜİK на 2025 г., в провинции жили 3 263 011 человек.",
+   "historical_summary_en": "In 2024 Bursa became Turkey's fourth-largest exporting province; according to TÜİK, the province had 3,263,011 inhabitants in 2025.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "2024 4-е место по экспорту; 2025 население"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

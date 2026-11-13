@@ -157,9 +157,9 @@
   {
    "id": "gb-corby-1979-steelworks-closure",
    "title": "Закрытие сталелитейного завода Корби",
-   "start_date": "1979-05",
+   "start_date": "1979-11-01",
    "end_date": null,
-   "date_precision": "month",
+   "date_precision": "day",
    "approximate": false,
    "country_codes": [
     "GB"
@@ -169,7 +169,7 @@
     "gb-corby"
    ],
    "category": "local_economy",
-   "historical_summary": "Новое правительство объявило о закрытии сталеплавильного производства в Корби. К концу 1981 г. исчезло более 5 тыс. рабочих мест, затем всего около 11 тыс.; безработица превысила 30%.",
+   "historical_summary": "British Steel Corporation объявила о быстром свёртывании сталеплавильного производства в Корби. К концу 1981 г. исчезло более 5 тыс. рабочих мест, затем всего около 11 тыс.; безработица превысила 30%.",
    "affected_groups": [
     "industrial_workers",
     "unemployed"
@@ -184,18 +184,25 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
      "source_id": "gb_wikipedia",
      "url": "https://en.wikipedia.org/wiki/Corby",
      "accessed": "2026-10-29",
-     "supports": "май 1979 объявление; потери рабочих мест; безработица >30%"
+     "supports": "потери рабочих мест; безработица >30% (дата объявления исправлена по Hansard 01.11.1979)"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1979/nov/01/corby-steelworks",
+     "accessed": "2026-11-12",
+     "supports": "1 ноября 1979: BSC в этот день объявила о быстром свёртывании завода в Корби, 5500 рабочих мест"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-corby-1991-unemployment-recovered",
@@ -366,7 +373,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -374,10 +382,16 @@
      "url": "https://en.wikipedia.org/wiki/Corby",
      "accessed": "2026-10-29",
      "supports": "дата 1 апреля 2021"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/uksi/2020/156/contents/made",
+     "accessed": "2026-11-12",
+     "supports": "Northamptonshire (Structural Changes) Order 2020: North Northamptonshire с 1 апреля 2021"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-corby-2022-pole-fair",

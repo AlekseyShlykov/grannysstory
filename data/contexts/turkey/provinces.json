@@ -1,0 +1,404 @@
+{
+ "records": [
+  {
+   "id": "tr-ctx-2012-population-istanbul",
+   "country_code": "TR",
+   "location_id": "tr-il-istanbul",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Стамбул в 2012 году",
+   "title_en": "Population of Istanbul Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Стамбул жили 13 854 740 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Istanbul Province had 13,854,740 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 13854740,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-istanbul",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-ankara",
+   "country_code": "TR",
+   "location_id": "tr-il-ankara",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Анкара в 2012 году",
+   "title_en": "Population of Ankara Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Анкара жили 4 965 542 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Ankara Province had 4,965,542 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 4965542,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-ankara",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-izmir",
+   "country_code": "TR",
+   "location_id": "tr-il-izmir",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Измир в 2012 году",
+   "title_en": "Population of İzmir Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Измир жили 4 005 459 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, İzmir Province had 4,005,459 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 4005459,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-izmir",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-bursa",
+   "country_code": "TR",
+   "location_id": "tr-il-bursa",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Бурса в 2012 году",
+   "title_en": "Population of Bursa Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Бурса жили 2 688 171 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Bursa Province had 2,688,171 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 2688171,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-bursa",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-konya",
+   "country_code": "TR",
+   "location_id": "tr-il-konya",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Конья в 2012 году",
+   "title_en": "Population of Konya Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Конья жили 2 052 281 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Konya Province had 2,052,281 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 2052281,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-konya",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-gaziantep",
+   "country_code": "TR",
+   "location_id": "tr-il-gaziantep",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Газиантеп в 2012 году",
+   "title_en": "Population of Gaziantep Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Газиантеп жили 1 799 558 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Gaziantep Province had 1,799,558 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 1799558,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-gaziantep",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-zonguldak",
+   "country_code": "TR",
+   "location_id": "tr-il-zonguldak",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Зонгулдак в 2012 году",
+   "title_en": "Population of Zonguldak Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Зонгулдак жили 606 527 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Zonguldak Province had 606,527 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 606527,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-zonguldak",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-karabuk",
+   "country_code": "TR",
+   "location_id": "tr-il-karabuk",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Карабюк в 2012 году",
+   "title_en": "Population of Karabük Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Карабюк жили 225 145 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Karabük Province had 225,145 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 225145,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-karabuk",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-population-erzurum",
+   "country_code": "TR",
+   "location_id": "tr-il-erzurum",
+   "period_start": 2012,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "province_population",
+   "title": "Население провинции Эрзурум в 2012 году",
+   "title_en": "Population of Erzurum Province in 2012",
+   "description": "По адресному регистру населения на 2012 г. в провинции Эрзурум жили 778 195 человек (вся Турция — 75 6 млн).",
+   "description_en": "According to the address-based population register, Erzurum Province had 778,195 inhabitants in 2012 (Turkey as a whole: 75.6 million).",
+   "statistics": [
+    {
+     "indicator": "province_population",
+     "value": 778195,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-erzurum",
+     "population": "население провинции (ADNKS), без иностранцев",
+     "method_note": "табл. 3.5",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-ctx-2012-karabuk-in-migration",
+   "country_code": "TR",
+   "location_id": "tr-il-karabuk",
+   "period_start": 2011,
+   "period_end": 2012,
+   "context_type": "migration",
+   "attribute": "net_migration",
+   "title": "Карабюк притягивает переселенцев",
+   "title_en": "Karabük attracts migrants",
+   "description": "В 2011–2012 гг. Карабюк был третьим илом Турции по сальдо внутренней миграции: прибыли 13 510, уехали 8444 человека (+22,8 ‰).",
+   "description_en": "In 2011–2012 Karabük ranked third among Turkey's provinces by net internal migration: 13,510 people arrived and 8,444 left (+22.8 per thousand).",
+   "statistics": [
+    {
+     "indicator": "net_migration_rate",
+     "value": 22.8,
+     "unit": "per mille",
+     "year": 2012,
+     "area_id": "tr-il-karabuk",
+     "population": "население провинции, внутренняя миграция 2011–2012",
+     "method_note": "табл. 3.10",
+     "source_id": "tr_tuik_tis2012"
+    },
+    {
+     "indicator": "in_migration",
+     "value": 13510,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-karabuk",
+     "population": "прибывшие в провинцию",
+     "method_note": "табл. 3.10",
+     "source_id": "tr_tuik_tis2012"
+    },
+    {
+     "indicator": "out_migration",
+     "value": 8444,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "tr-il-karabuk",
+     "population": "выбывшие из провинции",
+     "method_note": "табл. 3.10",
+     "source_id": "tr_tuik_tis2012"
+    }
+   ],
+   "source_ids": [
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.10"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

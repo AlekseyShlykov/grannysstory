@@ -1,0 +1,1308 @@
+{
+ "sources": [
+  {
+   "source_id": "fi_wikipedia",
+   "name": "Wikipedia (финская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "FI",
+   "url": "https://fi.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник; статьи о городах, губерниях и местной истории открыты через WebFetch; confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "fi"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_en_wikipedia",
+   "name": "Wikipedia (английская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "FI",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник (WebFetch); confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_sv_wikipedia",
+   "name": "Wikipedia (шведская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "FI",
+   "url": "https://sv.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "administrative_divisions"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник (WebFetch), даты образования губерний; confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "sv"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_statfin",
+   "name": "Statistics Finland — StatFin (PxWeb API)",
+   "publisher": "Tilastokeskus / Statistics Finland",
+   "country": "FI",
+   "url": "https://pxdata.stat.fi/PxWeb/api/v1/en/StatFin/",
+   "historical_coverage": {
+    "from": 1750,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "demography",
+    "housing",
+    "employment",
+    "statistics"
+   ],
+   "access_method": "api",
+   "bulk_download": true,
+   "license": "CC BY 4.0 (условия Statistics Finland для открытых данных)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Муниципальные и национальные ряды (население, жильё, занятость). Большинство муниципальных таблиц начинается с 1972–1990 гг.",
+   "source_type": "statistics",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": true,
+    "verified": true,
+    "note": "Проверено 11.11.2026: GET списков таблиц и POST-запросы json-stat2 к pxdata.stat.fi работают без ключа; сборщик scripts/historical-data/collect/fi_statfin.py, кеш data/cache/fi/."
+   },
+   "years": {
+    "from": 1750,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_thisisfinland",
+   "name": "This is Finland (finland.fi)",
+   "publisher": "Ministry for Foreign Affairs of Finland",
+   "country": "FI",
+   "url": "https://finland.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "history",
+    "politics"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Ministry for Foreign Affairs of Finland; использован только как источник фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Официальное популярное издание МИД Финляндии; статья о всеобщем избирательном праве 1906 г.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_kela",
+   "name": "Kela — история и пособия",
+   "publisher": "Kansaneläkelaitos (Kela)",
+   "country": "FI",
+   "url": "https://www.kela.fi/",
+   "historical_coverage": {
+    "from": 1937,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "social_policy",
+    "healthcare",
+    "pensions"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Kela; факты пересказаны своими словами",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Официальные страницы истории Kela и материнского пособия (operations-history, maternity-grant-history).",
+   "source_type": "government",
+   "languages": [
+    "en",
+    "fi"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1937,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_digi_kansalliskirjasto",
+   "name": "Digi — оцифрованные газеты Национальной библиотеки",
+   "publisher": "Kansalliskirjasto / National Library of Finland",
+   "country": "FI",
+   "url": "https://digi.kansalliskirjasto.fi/",
+   "historical_coverage": {
+    "from": 1771,
+    "to": 1939
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "newspapers",
+    "local_history"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Материалы до 1939 г. открыты; более поздние — с ограничениями по авторскому праву (условия сайта)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Каталогизирован, в этой сессии данные не извлекались: на поиск по газетам и проверку дат событий (публикация ≠ событие) не хватило бюджета. Приоритет для следующего раунда (местные новости 1900–1930-х).",
+   "source_type": "newspaper",
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1771,
+    "to": 1939
+   }
+  },
+  {
+   "source_id": "fi_kansallisarkisto",
+   "name": "Kansallisarkisto (Национальный архив Финляндии)",
+   "publisher": "Kansallisarkisto",
+   "country": "FI",
+   "url": "https://kansallisarkisto.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "archives"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия архива; многие фонды требуют заказа/авторизации",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "12.11.2026: путеводители по фондам portti.kansallisarkisto.fi (sotavankilaitos, vankeinhoitohallitus, lastensiirtokomitea, maanhankintalain toimeenpano) через WebFetch отдают 404 (вероятно, страницы рендерятся JS); обходить не пытались. Главная kansallisarkisto.fi открывается, но статей о нужных событиях там нет.",
+   "source_type": "archive",
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_finna",
+   "name": "Finna.fi",
+   "publisher": "Kansalliskirjasto / National Library of Finland",
+   "country": "FI",
+   "url": "https://www.finna.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "museums",
+    "archives",
+    "photos"
+   ],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Разные лицензии по объектам (часто CC BY 4.0)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "12.11.2026: api.finna.fi отвечает страницей проверки Cloudflare («Just a moment…») — автоматический доступ закрыт, обход не пытались.",
+   "source_type": "library",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_yle_elava_arkisto",
+   "name": "Yle Elävä arkisto / Yle Historia / Svenska Yle Arkivet",
+   "publisher": "Yleisradio",
+   "country": "FI",
+   "url": "https://yle.fi/aihe/elava-arkisto",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "media",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Yle; использовать только как источник фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Архив общественной телерадиокомпании: статьи Elävä arkisto, Yle Historia (yle.fi/aihe/a/20-…) и Svenska Yle Arkivet (yle.fi/a/7-…), включая страницу об истории самой Yle. Открывались через WebFetch 12.11.2026; использованы как подтверждение дат и мест.",
+   "source_type": "library",
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_eduskunta",
+   "name": "Eduskunta — история парламента и избирательного права",
+   "publisher": "Eduskunta / Parliament of Finland",
+   "country": "FI",
+   "url": "https://www.eduskunta.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "politics"
+   ],
+   "access_method": "api",
+   "bulk_download": false,
+   "license": "© Eduskunta",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "12.11.2026: страницы eduskunta.fi рендерятся JS и через WebFetch пусты; документы парламента (EK, HE, PTK) доступны как PDF через api.eduskunta.fi/documents/... Использованы для дат принятия законов.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": true,
+    "verified": true,
+    "endpoint": "https://api.eduskunta.fi/documents/"
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_finlex",
+   "name": "Finlex — Säädöskokoelma (официальное собрание законов Финляндии)",
+   "publisher": "Oikeusministeriö / Edita Publishing",
+   "country": "FI",
+   "url": "https://www.finlex.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "law",
+    "politics"
+   ],
+   "access_method": "api",
+   "bulk_download": true,
+   "license": "Законы — общественное достояние (Tekijänoikeuslaki 9 §); открытые данные Finlex по CC BY 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Тексты законов получены через открытый API opendata.finlex.fi (Akoma Ntoso, /akn/fi/act/statute/{год}/{номер}/fin@), ключ не нужен. Страницы www.finlex.fi рендерятся JS, ссылки в evidence даны на человекочитаемые страницы. В API есть только законы, действовавшие на момент оцифровки; утратившие силу старые законы (например, 101/1921) не найдены.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "api": {
+    "available": true,
+    "verified": true,
+    "endpoint": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/"
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_helsinki_city",
+   "name": "Helsingin kaupunki — Historia ja arkistot (вехи истории Хельсинки)",
+   "publisher": "Helsingin kaupunki",
+   "country": "FI",
+   "url": "https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tietoa-helsingista/historia-ja-arkistot",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Helsingin kaupunki; только пересказ и ссылка",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Официальная страница города со списком ключевых вех (1917, 1952, 1982, 2000, 2009, 2012, 2025). Портал historia.hel.fi и kaupunginarkisto.hel.fi не просматривались подробно.",
+   "source_type": "municipal",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi-helsinki"
+   ],
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_helsinki_city_museum",
+   "name": "Helsingin kaupunginmuseo — архивные страницы (история городского транспорта)",
+   "publisher": "Helsingin kaupunginmuseo",
+   "country": "FI",
+   "url": "https://www.hel.fi/hel2/kaumuseo/arkisto/ratikkasivut/index.htm",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2002
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "local_history",
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Helsingin kaupunginmuseo 2004; только пересказ и ссылка",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Архивная выставка музея 2004 г. «Ratikkasivut»: хронология транспорта 1901–2002 и тематические страницы. Расхождение: в хронологии начало электрического трамвая — 1901, на странице об электрификации — 1900.",
+   "source_type": "museum",
+   "languages": [
+    "fi"
+   ],
+   "location_ids": [
+    "fi-helsinki"
+   ],
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2002
+   }
+  },
+  {
+   "source_id": "fi_tampere_city",
+   "name": "Tampereen kaupunki — History of Tampere",
+   "publisher": "Tampereen kaupunki",
+   "country": "FI",
+   "url": "https://www.tampere.fi/en/information-on-tampere/history-tampere",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Tampereen kaupunki; только пересказ и ссылка",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Официальная история Тампере (раздел History of Tampere), городские новости (tampere.fi/en/current/…) и документы, опубликованные городом (например, rakennushistoriaselvitys кулкутаутисайраалы 2009, выполненное архитектурным бюро по заказу города).",
+   "source_type": "municipal",
+   "languages": [
+    "en",
+    "fi"
+   ],
+   "location_ids": [
+    "fi-tampere"
+   ],
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "fi_oulu_city",
+   "name": "Oulun kaupunki — History of Oulu и Timeline of Oulu",
+   "publisher": "Oulun kaupunki",
+   "country": "FI",
+   "url": "https://www.ouka.fi/en/history-oulu/timeline-oulu",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2013
+   },
+   "geographic_coverage": [
+    "FI"
+   ],
+   "categories": [
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Oulun kaupunki; только пересказ и ссылка",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Официальная хронология города 1907–2013 с населением по годам. Старый раздел «Aikamatka Oulu» (oulu.ouka.fi) не открылся (ECONNREFUSED).",
+   "source_type": "municipal",
+   "languages": [
+    "en",
+    "fi"
+   ],
+   "location_ids": [
+    "fi-oulu"
+   ],
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2013
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_helsinki_university",
+   "name": "Helsingin yliopisto — новости и страницы по истории университета",
+   "publisher": "Helsingin yliopisto",
+   "url": "https://www.helsinki.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "categories": [
+    "education",
+    "science"
+   ],
+   "license": "© Helsingin yliopisto; только пересказ и ссылка",
+   "notes": "Государственный университет; статьи об истории (Linux и др.).",
+   "source_type": "academic",
+   "languages": [
+    "fi",
+    "en"
+   ],
+   "location_ids": [
+    "fi-helsinki"
+   ],
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_valtioneuvosto",
+   "name": "Valtioneuvosto — пресс-релизы правительства Финляндии",
+   "publisher": "Valtioneuvosto (Finnish Government)",
+   "url": "https://valtioneuvosto.fi/",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "categories": [
+    "politics",
+    "public_health"
+   ],
+   "license": "© Valtioneuvosto; тексты пресс-релизов открыты, используем пересказ и ссылку",
+   "notes": "Официальные пресс-релизы правительства (valtioneuvosto.fi/-/...), открывались через WebFetch 12.11.2026.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_abo_akademi",
+   "name": "Åbo Akademi — History of Åbo Akademi University",
+   "publisher": "Åbo Akademi",
+   "url": "https://www.abo.fi/en/history-of-abo-akademi-university/",
+   "historical_coverage": {
+    "from": 1918,
+    "to": 2025
+   },
+   "categories": [
+    "education"
+   ],
+   "license": "© Åbo Akademi; только пересказ и ссылка",
+   "notes": "Официальная страница университета (с 1981 г. государственный).",
+   "source_type": "academic",
+   "languages": [
+    "en",
+    "sv"
+   ],
+   "location_ids": [
+    "fi-turku"
+   ],
+   "years": {
+    "from": 1918,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_museovirasto_rky",
+   "name": "Museovirasto — RKY: Valtakunnallisesti merkittävät rakennetut kulttuuriympäristöt",
+   "publisher": "Museovirasto (Finnish Heritage Agency)",
+   "url": "http://www.rky.fi/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2018
+   },
+   "categories": [
+    "architecture",
+    "local_history"
+   ],
+   "license": "© Museovirasto; только пересказ и ссылка",
+   "notes": "Государственный реестр национально значимой застройки (2009, с обновлениями). Карточки объектов r_kohde_det.aspx?KOHDE_ID=… содержат даты строительства и открытия; открывались через WebFetch 12.11.2026.",
+   "source_type": "museum",
+   "languages": [
+    "fi",
+    "sv"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 1900,
+    "to": 2018
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_eu_commission",
+   "name": "European Commission — official pages (euro area, European Capitals of Culture)",
+   "publisher": "European Commission, DG ECFIN",
+   "url": "https://economy-finance.ec.europa.eu/euro/eu-countries-and-euro/finland-and-euro_en",
+   "historical_coverage": {
+    "from": 1999,
+    "to": 2002
+   },
+   "categories": [
+    "economy"
+   ],
+   "license": "© European Union, reuse authorised with attribution",
+   "notes": "Официальные страницы Еврокомиссии: «Finland and the euro» (DG ECFIN) и страница European Capitals of Culture «Tallinn and Turku» (culture.ec.europa.eu).",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 1999,
+    "to": 2002
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_ham_helsinki",
+   "name": "HAM Helsingin taidemuseo — julkiset veistokset (public art)",
+   "publisher": "HAM Helsinki Art Museum (Helsingin kaupunki)",
+   "url": "https://www.hamhelsinki.fi/en/public-art/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "categories": [
+    "culture",
+    "local_history"
+   ],
+   "license": "© HAM / Helsingin kaupunki; только пересказ и ссылка",
+   "notes": "Городской художественный музей Хельсинки, база публичного искусства с датами открытия памятников.",
+   "source_type": "museum",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi-helsinki"
+   ],
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_oph",
+   "name": "Opetushallitus — Kouluruokailun historiaa",
+   "publisher": "Opetushallitus (Finnish National Agency for Education)",
+   "url": "https://www.oph.fi/",
+   "historical_coverage": {
+    "from": 1943,
+    "to": 2025
+   },
+   "categories": [
+    "education"
+   ],
+   "license": "© Opetushallitus; только пересказ и ссылка",
+   "notes": "Государственное ведомство образования; страница по истории школьного питания.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 1943,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_fmi",
+   "name": "Ilmatieteen laitos (Finnish Meteorological Institute) — пресс-релизы",
+   "publisher": "Ilmatieteen laitos",
+   "url": "https://en.ilmatieteenlaitos.fi/",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "categories": [
+    "environment"
+   ],
+   "license": "© Ilmatieteen laitos; только пересказ и ссылка",
+   "notes": "Государственный метеоинститут; пресс-релиз 9.1.2012 об итогах 2011 года.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_vm",
+   "name": "Valtiovarainministeriö — пресс-релизы",
+   "publisher": "Valtiovarainministeriö (Ministry of Finance)",
+   "url": "https://vm.fi/",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2026
+   },
+   "categories": [
+    "economy"
+   ],
+   "license": "© Valtiovarainministeriö; только пересказ и ссылка",
+   "notes": "Министерство финансов Финляндии.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2026
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_migri",
+   "name": "Maahanmuuttovirasto (Migri) — пресс-релизы",
+   "publisher": "Maahanmuuttovirasto (Finnish Immigration Service)",
+   "url": "https://migri.fi/",
+   "historical_coverage": {
+    "from": 1990,
+    "to": 2025
+   },
+   "categories": [
+    "migration"
+   ],
+   "license": "© Migri; только пересказ и ссылка",
+   "notes": "Государственная миграционная служба.",
+   "source_type": "government",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 1990,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI",
+    "SE",
+    "NO",
+    "IS",
+    "CH",
+    "AT"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_efta",
+   "name": "EFTA — History timeline",
+   "publisher": "European Free Trade Association",
+   "url": "https://www.efta.int/about-efta/history",
+   "historical_coverage": {
+    "from": 1960,
+    "to": 1995
+   },
+   "categories": [
+    "economy",
+    "politics"
+   ],
+   "license": "© EFTA; только пересказ и ссылка",
+   "notes": "Официальная хронология межправительственной организации ЕАСТ.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "fi"
+   ],
+   "years": {
+    "from": 1960,
+    "to": 1995
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_aalto",
+   "name": "Aalto University — History",
+   "publisher": "Aalto-yliopisto",
+   "url": "https://www.aalto.fi/en/aalto-university/history",
+   "historical_coverage": {
+    "from": 2010,
+    "to": 2025
+   },
+   "categories": [
+    "education"
+   ],
+   "license": "© Aalto-yliopisto; только пересказ и ссылка",
+   "notes": "Официальная страница университета.",
+   "source_type": "academic",
+   "languages": [
+    "en",
+    "fi"
+   ],
+   "location_ids": [
+    "fi-helsinki"
+   ],
+   "years": {
+    "from": 2010,
+    "to": 2025
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_tampere_university",
+   "name": "Tampere University — Year of celebrations 2025 (история университета)",
+   "publisher": "Tampereen yliopisto",
+   "url": "https://www.tuni.fi/en/about-us/tampere-university/year-of-celebrations-2025",
+   "historical_coverage": {
+    "from": 1925,
+    "to": 2019
+   },
+   "categories": [
+    "education"
+   ],
+   "license": "© Tampereen yliopisto; только пересказ и ссылка",
+   "notes": "Официальная хронология университета.",
+   "source_type": "academic",
+   "languages": [
+    "en",
+    "fi"
+   ],
+   "location_ids": [
+    "fi-tampere"
+   ],
+   "years": {
+    "from": 1925,
+    "to": 2019
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_espoo_city",
+   "name": "Espoon kaupunki — West Metro",
+   "publisher": "Espoon kaupunki",
+   "url": "https://www.espoo.fi/en/west-metro",
+   "historical_coverage": {
+    "from": 2017,
+    "to": 2022
+   },
+   "categories": [
+    "transport"
+   ],
+   "license": "© Espoon kaupunki; только пересказ и ссылка",
+   "notes": "Официальная страница города Эспоо о западном метро.",
+   "source_type": "municipal",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi-helsinki"
+   ],
+   "years": {
+    "from": 2017,
+    "to": 2022
+   }
+  },
+  {
+   "country": "FI",
+   "geographic_coverage": [
+    "FI"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": false
+   },
+   "source_id": "fi_turku_city",
+   "name": "Turun kaupunki — официальные документы города",
+   "publisher": "Turun kaupunki",
+   "url": "https://www.turku.fi/",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "categories": [
+    "local_history",
+    "politics"
+   ],
+   "license": "© Turun kaupunki; только пересказ и ссылка",
+   "notes": "Отчёт о программе мэра 2021–2025 (PDF на turku.fi). Страница истории города turku.fi/en/turku-info/history-turku 12.11.2026 отдавала 404.",
+   "source_type": "municipal",
+   "languages": [
+    "fi",
+    "sv",
+    "en"
+   ],
+   "location_ids": [
+    "fi-turku"
+   ],
+   "years": {
+    "from": 2000,
+    "to": 2025
+   }
+  }
+ ]
+}

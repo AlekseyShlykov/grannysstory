@@ -1,0 +1,1324 @@
+{
+ "records": [
+  {
+   "id": "tr-nat-1923-republic-proclaimed",
+   "title": "Провозглашение Турецкой Республики",
+   "title_en": "Republic of Turkey proclaimed",
+   "start_date": "1923-10-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "29 октября 1923 г. Великое национальное собрание провозгласило Турецкую Республику; первым президентом был избран Мустафа Кемаль, правительство сформировал Исмет Инёню.",
+   "historical_summary_en": "On 29 October 1923 the Grand National Assembly proclaimed the Republic of Turkey; Mustafa Kemal was elected its first president and İsmet İnönü formed the government.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "29.10.1923 республика; 30.10.1923 первый кабинет"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+     "accessed": "2026-11-12",
+     "supports": "29.10.1923 провозглашение республики, избрание президента"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1924-caliphate-education-unified",
+   "title": "Упразднение халифата и единая система образования",
+   "title_en": "Caliphate abolished and education unified",
+   "start_date": "1924-03-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "education",
+   "historical_summary": "3 марта 1924 г. был упразднён халифат и принят закон об унификации образования (№ 430): все школы перешли под контроль Министерства просвещения, религиозные школы закрыты. 8 апреля 1924 г. религиозные суды заменены светскими.",
+   "historical_summary_en": "On 3 March 1924 the caliphate was abolished and the Law on the Unification of Education (No. 430) was passed, placing all schools under the Ministry of Education and closing religious schools. On 8 April 1924 religious courts were replaced by secular courts.",
+   "affected_groups": [
+    "school_pupils",
+    "teachers"
+   ],
+   "potential_impacts": [
+    "school_change"
+   ],
+   "narrative_hooks": [
+    "new_school_rules"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "3.03.1924, 8.04.1924"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "закон № 430 от 3.03.1924"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.431.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон № 431 от 03.03.1924: халиф низложен, должность халифа упразднена"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.430.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Tevhid-i Tedrisat Kanunu № 430 от 03.03.1924 (3/3/1340): все учебные заведения подчинены Министерству просвещения, медресе и школы ведомства шариата переданы ему"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1924-is-bankasi",
+   "title": "Основан Türkiye İş Bankası",
+   "title_en": "Türkiye İş Bankası founded",
+   "start_date": "1924-08-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "local_economy",
+   "historical_summary": "26 августа 1924 г. был основан Türkiye İş Bankası — первый крупный национальный частный банк Республики.",
+   "historical_summary_en": "On 26 August 1924 Türkiye İş Bankası was founded, the Republic's first major national private bank.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_bank_account"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "26.08.1924 İş Bankası"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103935/1924.html",
+     "accessed": "2026-11-12",
+     "supports": "26.08.1924 основан İş Bankası"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1925-hat-law-calendar",
+   "title": "Закон о шляпах и переход на международный календарь",
+   "title_en": "Hat Law and switch to the international calendar",
+   "start_date": "1925-11-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "25 ноября 1925 г. «Закон о шляпах» запретил фески и обязал мужчин носить шляпы европейского образца; 26 декабря 1925 г. вместо лунного календаря и исламского счёта времени введён международный календарь.",
+   "historical_summary_en": "On 25 November 1925 the Hat Law banned the fez and required men to wear European-style hats; on 26 December 1925 the international calendar replaced the lunar calendar and Islamic timekeeping.",
+   "affected_groups": [
+    "all_residents",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "grandfathers_fez",
+    "new_calendar"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "25.11.1925 закон о шляпах; 26.12.1925 календарь"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "1925 запрет фески"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.671.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Şapka İktisası Hakkında Kanun № 671 принят 25.11.1925, Resmî Gazete 28.11.1925 № 230"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.698.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон № 698 о смене начала летосчисления принят 26.12.1925 (вместе с законом № 697 о делении суток на 24 часа), Resmî Gazete 02.01.1926 № 260"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1925-sheikh-said",
+   "title": "Восстание шейха Саида и закон о поддержании порядка",
+   "title_en": "Sheikh Said rebellion and the Maintenance of Order law",
+   "start_date": "1925-02-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "repression",
+   "historical_summary": "11 февраля 1925 г. на востоке страны началось восстание шейха Саида; после его подавления 29 июня шейх Саид и 46 сторонников были приговорены к смерти. Закон о поддержании порядка (4 марта 1925 г.) позволил закрыть оппозиционную партию и газеты.",
+   "historical_summary_en": "On 11 February 1925 the Sheikh Said rebellion broke out in the east; after it was suppressed, Sheikh Said and 46 followers were sentenced to death on 29 June. The Law on the Maintenance of Order (4 March 1925) was used to close the opposition party and newspapers.",
+   "affected_groups": [
+    "rural_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "11.02.1925, 3.06.1925, 29.06.1925"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103936/1925.html",
+     "accessed": "2026-11-12",
+     "supports": "11.02.1925 начало восстания; 04.03.1925 закон Takrir-i Sükun; 29.06.1925 приговор шейху Саиду и 46 сторонникам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1926-civil-code",
+   "title": "Гражданский кодекс по швейцарскому образцу",
+   "title_en": "Civil Code modelled on Swiss law",
+   "start_date": "1926-02-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "family_law",
+   "historical_summary": "17 февраля 1926 г. был принят Гражданский кодекс на основе швейцарского: он запретил многожёнство, ввёл гражданский брак и расширил права женщин в браке, разводе и наследовании.",
+   "historical_summary_en": "On 17 February 1926 a Civil Code based on the Swiss code was adopted: it banned polygamy, introduced civil marriage and widened women's rights in marriage, divorce and inheritance.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "civil_wedding",
+    "parents_marriage_story"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "17.02.1926 гражданский кодекс, запрет многожёнства, права женщин"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4721.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Сноска к новому кодексу № 4721 называет отменённый Гражданский кодекс: закон № 743 от 17.02.1926"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1927-first-census",
+   "title": "Первая всеобщая перепись Республики",
+   "title_en": "First census of the Republic",
+   "start_date": "1927-10-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "28 октября 1927 г. прошла первая перепись населения Турецкой Республики; она насчитала около 13,6 млн жителей.",
+   "historical_summary_en": "On 28 October 1927 the first census of the Republic of Turkey was taken; it counted about 13.6 million inhabitants.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology",
+    "tr_tuik_tis2012"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "28.10.1927 первая перепись, ~13,5 млн"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103938/1927.html",
+     "accessed": "2026-11-12",
+     "supports": "28.10.1927 первая перепись, около 13,65 млн"
+    },
+    {
+     "source_id": "tr_tuik_tis2012",
+     "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+     "accessed": "2026-11-12",
+     "supports": "табл. 3.1: перепись 1927 г. — 13 648 270 чел."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1928-latin-alphabet",
+   "title": "Новый турецкий алфавит на латинской основе",
+   "title_en": "New Latin-based Turkish alphabet",
+   "start_date": "1928-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "education",
+   "historical_summary": "1 ноября 1928 г. законом № 1353 был введён турецкий алфавит на латинской основе вместо арабской графики; газеты, вывески и школьное обучение перешли на новое письмо, а взрослых стали учить читать заново.",
+   "historical_summary_en": "On 1 November 1928 Law No. 1353 introduced a Latin-based Turkish alphabet in place of the Arabic script; newspapers, signs and schooling switched to the new script, and adults were taught to read anew.",
+   "affected_groups": [
+    "all_residents",
+    "school_pupils",
+    "teachers"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "learning_new_letters",
+    "letters_from_grandparents_unreadable"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1.11.1928 новый алфавит"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Education_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "закон № 1353 от 1.11.1928"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.1353.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон о принятии и применении турецких букв № 1353 принят 01.11.1928, Resmî Gazete 03.11.1928 № 1030"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1930-women-local-vote",
+   "title": "Женщины получают право голоса на местных выборах",
+   "title_en": "Women gain the vote in local elections",
+   "start_date": "1930",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "В 1930 г. женщины получили право избирать и быть избранными на муниципальных выборах; в 1930 г. была избрана первая женщина — глава местного самоуправления. В 1933 г. право распространилось на сельские советы.",
+   "historical_summary_en": "In 1930 women gained the right to vote and stand in municipal elections; that year the first woman head of a local council was elected. In 1933 the right was extended to village councils.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote",
+    "mothers_aspirations"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "муниципальные права женщин (в хронологии датированы 3.04.1929; в статье Women in Turkey — 1930); 26.10.1933 сельские советы"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "1930 право голоса на местных выборах, Садийе-ханым"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103941/1930.html",
+     "accessed": "2026-11-12",
+     "supports": "03.04.1930 закон о муниципалитетах дал женщинам право избирать и быть избранными"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1934-surname-law",
+   "title": "Закон о фамилиях",
+   "title_en": "Surname Law",
+   "start_date": "1934-06-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "family_law",
+   "historical_summary": "21 июня 1934 г. закон обязал всех граждан взять фамилии; 24 ноября 1934 г. Мустафа Кемаль получил фамилию Ататюрк, а 26 ноября отдельный закон упразднил титулы вроде «бей» и «паша».",
+   "historical_summary_en": "On 21 June 1934 a law required all citizens to adopt surnames; on 24 November 1934 Mustafa Kemal received the surname Atatürk, and on 26 November a separate law abolished titles such as 'Bey' and 'Pasha'.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "choosing_family_surname"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "21.06.1934, 24.11.1934"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.2525.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Soyadı Kanunu № 2525 принят 21.06.1934, опубликован в Resmî Gazete 02.07.1934 № 2741; ст. 1 обязывает каждого турка носить фамилию"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.2587.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон № 2587 от 24.11.1934 о фамилии, данной президенту Кемалю"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.2590.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон № 2590 от 26.11.1934 упразднил прозвания и титулы ага, эфенди, бей, паша, ханым и др."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1934-women-national-vote",
+   "title": "Женщины получают право голоса на парламентских выборах",
+   "title_en": "Women gain the vote in national elections",
+   "start_date": "1934-12-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "5 декабря 1934 г. женщины получили право избирать и быть избранными в парламент; на выборах 8 февраля 1935 г. в Великое национальное собрание вошли 18 женщин.",
+   "historical_summary_en": "On 5 December 1934 women gained the right to vote and stand for parliament; at the elections of 8 February 1935, 18 women entered the Grand National Assembly.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "5.12.1934"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "1935 — 18 женщин в парламенте"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/arsiv/2877.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Resmî Gazete 11.12.1934 № 2877: закон № 2599 (принят 05.12.1934) об изменении ст. 10 и 11 Teşkilât-ı Esasiye — избирать с 22 лет и быть избранным с 30 лет может каждый турок, женщина и мужчина"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1933-sumerbank-plan",
+   "title": "Sümerbank и первый пятилетний план индустриализации",
+   "title_en": "Sümerbank and the first five-year industrial plan",
+   "start_date": "1933",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1933 г. были созданы государственные банки Sümerbank и Halkbank, а 1 декабря 1933 г. принят первый пятилетний план индустриализации; государство стало строить текстильные и другие фабрики в провинции.",
+   "historical_summary_en": "In 1933 the state banks Sümerbank and Halkbank were created, and on 1 December 1933 the first five-year industrialisation plan was adopted; the state began building textile and other factories in the provinces.",
+   "affected_groups": [
+    "industrial_workers",
+    "textile_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "first_wage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1933 Sümerbank, Halkbank; 1.12.1933 пятилетний план"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103944/1933.html",
+     "accessed": "2026-11-12",
+     "supports": "03.06.1933 закон о Sümerbank; 01.12.1933 первый пятилетний план представлен правительству"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1933-istanbul-university",
+   "title": "Реформа университета: Дарюльфюнун становится Стамбульским университетом",
+   "title_en": "University reform: Darülfünun becomes Istanbul University",
+   "start_date": "1933-11-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "education",
+   "historical_summary": "31 мая 1933 г. старый Дарюльфюнун был упразднён и преобразован в Стамбульский университет, открывшийся 18 ноября 1933 г.",
+   "historical_summary_en": "On 31 May 1933 the old Darülfünun was abolished and converted into Istanbul University, which opened on 18 November 1933.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "31.05.1933 и 18.11.1933"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103944/1933.html",
+     "accessed": "2026-11-12",
+     "supports": "31.05.1933 закон об упразднении Дарюльфюнуна; 18.11.1933 открытие Стамбульского университета"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1936-labour-law",
+   "title": "Первый закон о труде",
+   "title_en": "First Labour Law",
+   "start_date": "1936-06-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "labor",
+   "historical_summary": "8 июня 1936 г. был принят закон о труде, ставший первым шагом к системе социального страхования рабочих.",
+   "historical_summary_en": "On 8 June 1936 a Labour Law was adopted, the first step towards a social insurance system for workers.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "8.06.1936 трудовой закон"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/arsiv/3330.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Resmî Gazete 15.06.1936 № 3330: İş Kanunu № 3008, принят 08.06.1936"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1937-dersim",
+   "title": "Подавление восстания в Дерсиме",
+   "title_en": "Suppression of the Dersim rebellion",
+   "start_date": "1937",
+   "end_date": "1938",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1937–1938 гг. правительство подавило восстание в Дерсиме (ныне Тунджели); операция сопровождалась массовой гибелью и депортациями местного населения.",
+   "historical_summary_en": "In 1937–1938 the government suppressed the Dersim rebellion (present-day Tunceli); the operation involved mass deaths and deportations of the local population.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "displacement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1937–1938 подавление Дерсимского восстания"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103948/1937.html",
+     "accessed": "2026-11-12",
+     "supports": "12.09.1937 выдача Сеида Рызы в Тунджели (операция 1937 г.)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1938-ataturk-dies",
+   "title": "Смерть Ататюрка",
+   "title_en": "Death of Atatürk",
+   "start_date": "1938-11-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "10 ноября 1938 г. умер Мустафа Кемаль Ататюрк; президентом стал Исмет Инёню, получивший титул «национального вождя».",
+   "historical_summary_en": "On 10 November 1938 Mustafa Kemal Atatürk died; İsmet İnönü became president with the title 'National Chief'.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "national_mourning"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology",
+    "tr_tccb"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "10.11.1938"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_the_Republic_of_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "10.11.1938"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103949/1938.html",
+     "accessed": "2026-11-12",
+     "supports": "10.11.1938 смерть Ататюрка"
+    },
+    {
+     "source_id": "tr_tccb",
+     "url": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/",
+     "accessed": "2026-11-12",
+     "supports": "срок Ататюрка до 10.11.1938; Инёню президент с 11.11.1938"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1939-hatay-joins",
+   "title": "Присоединение Хатая",
+   "title_en": "Hatay joins Turkey",
+   "start_date": "1939-07-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "7 июля 1939 г. бывший Александреттский санджак (Хатай) вошёл в состав Турции.",
+   "historical_summary_en": "On 7 July 1939 the former Sanjak of Alexandretta (Hatay) became part of Turkey.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "7.07.1939 Хатай"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1940-village-institutes",
+   "title": "Сельские институты",
+   "title_en": "Village Institutes",
+   "start_date": "1940-04-17",
+   "end_date": "1954",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "education",
+   "historical_summary": "17 апреля 1940 г. закон № 3803 учредил сельские институты, готовившие учителей из деревенской молодёжи, чтобы учить крестьян грамоте и новым приёмам земледелия. Их было около 20; до закрытия в 1954 г. они выпустили около 17 тыс. учителей.",
+   "historical_summary_en": "On 17 April 1940 Law No. 3803 established the Village Institutes, which trained village youth as teachers to teach peasants to read and to introduce new farming methods. There were about 20 of them, and before their closure in 1954 they produced some 17,000 teachers.",
+   "affected_groups": [
+    "rural_residents",
+    "teachers",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "village_teacher",
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Village_Institutes",
+     "accessed": "2026-11-11",
+     "supports": "17.04.1940, закон 3803, 20 институтов, 17 251 учитель, закрытие 1954"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/arsiv/4491.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Resmî Gazete 22.04.1940 № 4491: Köy Enstitüleri Kanunu № 3803, принят 17.04.1940; институты готовят сельских учителей и других нужных деревне специалистов из детей, окончивших сельскую начальную школу"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1942-wealth-tax",
+   "title": "Налог на имущество (Varlık Vergisi)",
+   "title_en": "Capital tax (Varlık Vergisi)",
+   "start_date": "1942-11-11",
+   "end_date": "1944-03-15",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "repression",
+   "historical_summary": "11 ноября 1942 г. был введён чрезвычайный налог на имущество, который непропорционально тяжело лёг на немусульман — армян, греков, евреев. Неплательщиков отправляли в трудовые лагеря в Ашкале; налог отменён 15 марта 1944 г.",
+   "historical_summary_en": "On 11 November 1942 an emergency capital tax was introduced which fell disproportionately on non-Muslims — Armenians, Greeks and Jews. Those unable to pay were sent to labour camps at Aşkale; the tax was abolished on 15 March 1944.",
+   "affected_groups": [
+    "ethnic_minorities",
+    "jewish_population"
+   ],
+   "potential_impacts": [
+    "savings_lost",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Varlık_Vergisi",
+     "accessed": "2026-11-11",
+     "supports": "11.11.1942, Ашкале, отмена 15.03.1944"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/arsiv/5255.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Resmî Gazete 12.11.1942 № 5255: Varlık Vergisi hakkında Kanun № 4305, принят 11.11.1942"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1945-un-war-declared",
+   "title": "Объявление войны Германии и вступление в ООН",
+   "title_en": "War on Germany declared; Turkey joins the UN",
+   "start_date": "1945-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "Нейтральная большую часть Второй мировой войны Турция в феврале 1945 г. объявила войну Германии и Японии, что позволило ей 24 октября 1945 г. стать одним из основателей ООН.",
+   "historical_summary_en": "Neutral for most of the Second World War, Turkey declared war on Germany and Japan in February 1945, which allowed it to become a founding member of the United Nations on 24 October 1945.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mfa"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_the_Republic_of_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "февраль 1945 объявление войны; 24.10.1945 Устав ООН"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1939 нейтралитет"
+    },
+    {
+     "source_id": "tr_mfa",
+     "url": "https://www.mfa.gov.tr/birlesmis-milletler-teskilati-ve-turkiye.tr.mfa",
+     "accessed": "2026-11-12",
+     "supports": "Турция — член-основатель ООН; Устав подписан 26.06.1945, ООН действует с 24.10.1945"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1946-multiparty-elections",
+   "title": "Первые многопартийные выборы",
+   "title_en": "First multi-party elections",
+   "start_date": "1946",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1945 г. появилась первая оппозиционная партия многопартийной системы, а в 1946 г. прошли первые многопартийные выборы, на которых победила правящая Народно-республиканская партия Инёню.",
+   "historical_summary_en": "In 1945 the first opposition party of the multi-party system appeared, and in 1946 the first multi-party elections were held, won by İnönü's ruling Republican People's Party.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_tuik_elections"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_the_Republic_of_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "1945 партия Демирага; 1946 выборы"
+    },
+    {
+     "source_id": "tr_tuik_elections",
+     "url": "https://www.ysk.gov.tr/doc/dosyalar/1923-2011-MVSecimleri-Tuik.pdf",
+     "accessed": "2026-11-12",
+     "supports": "1946 — первые многопартийные выборы (CHP, DP, MKP); CHP 397 мест из 465, DP 61"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1946-lira-peg",
+   "title": "Девальвация 1946 года: 2,8 лиры за доллар",
+   "title_en": "1946 devaluation: TL 2.8 per dollar",
+   "start_date": "1946",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В 1946 г. курс турецкой лиры был зафиксирован на уровне 2,8 лиры за доллар США; в 1960 г. последовала девальвация до 9 лир за доллар.",
+   "historical_summary_en": "In 1946 the Turkish lira was pegged at TL 2.8 to the US dollar; in 1960 it was devalued to TL 9 per dollar.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "prices_remembered"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Turkish_lira",
+     "accessed": "2026-11-11",
+     "supports": "1946 — 2,8; 1960 — 9"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1950-democrat-party-wins",
+   "title": "Победа Демократической партии на выборах",
+   "title_en": "Democrat Party wins the election",
+   "start_date": "1950-05-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "14 мая 1950 г. на выборах победила Демократическая партия Баяра и Мендереса — впервые власть мирно перешла от Народно-республиканской партии к оппозиции.",
+   "historical_summary_en": "On 14 May 1950 the Democrat Party of Bayar and Menderes won the election, the first peaceful transfer of power from the Republican People's Party to the opposition.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote",
+    "radio_election_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_tuik_elections"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "14.05.1950"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_the_Republic_of_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "май 1950"
+    },
+    {
+     "source_id": "tr_tuik_elections",
+     "url": "https://www.ysk.gov.tr/doc/dosyalar/1923-2011-MVSecimleri-Tuik.pdf",
+     "accessed": "2026-11-12",
+     "supports": "выборы 14.05.1950: DP 416 мест из 487, CHP 69"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1950-korean-war",
+   "title": "Турецкая бригада в Корейской войне",
+   "title_en": "Turkish brigade in the Korean War",
+   "start_date": "1950-06-25",
+   "end_date": "1953-07-27",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "После начала Корейской войны 25 июня 1950 г. Турция направила войска в состав сил ООН; война закончилась перемирием 27 июля 1953 г.",
+   "historical_summary_en": "After the Korean War began on 25 June 1950, Turkey sent troops to serve with the UN forces; the war ended with an armistice on 27 July 1953.",
+   "affected_groups": [
+    "soldiers_families",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "brother_in_korea"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mfa"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "25.06.1950, 27.07.1953"
+    },
+    {
+     "source_id": "tr_mfa",
+     "url": "https://www.mfa.gov.tr/relations-between-turkiye-and-the-republic-of-korea.en.mfa",
+     "accessed": "2026-11-12",
+     "supports": "Турецкая бригада в составе сил ООН в Корейской войне: 21 212 военнослужащих, 966 погибших"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1950-first-woman-mayor",
+   "title": "Первая женщина — мэр города",
+   "title_en": "First woman city mayor",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "В 1950 г. Мюфиде Ильхан стала мэром Мерсина — первой женщиной во главе турецкого города.",
+   "historical_summary_en": "In 1950 Müfide İlhan became mayor of Mersin, the first woman to head a Turkish city.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "mothers_aspirations"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1950 Müfide İlhan"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "1950 первая женщина-мэр"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1952-nato",
+   "title": "Вступление в НАТО",
+   "title_en": "Turkey joins NATO",
+   "start_date": "1952",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1952 г. Турция вступила в НАТО; с 1954 г. на авиабазе Инджирлик разместились ВВС США.",
+   "historical_summary_en": "In 1952 Turkey joined NATO; from 1954 the US Air Force was based at İncirlik.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mfa"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1952 НАТО; 1954 Инджирлик"
+    },
+    {
+     "source_id": "tr_mfa",
+     "url": "https://www.mfa.gov.tr/nato.tr.mfa",
+     "accessed": "2026-11-12",
+     "supports": "Турция вступила в НАТО 18.02.1952"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

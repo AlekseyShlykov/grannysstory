@@ -1,0 +1,52 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-torino-1971-2012-population",
+   "country_code": "IT",
+   "location_id": "it-torino",
+   "period_start": 1971,
+   "period_end": 2012,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Турин: население с 1971 по 2012 год",
+   "title_en": "Turin: population 1971–2012",
+   "description": "В 1971 г. в Турине жили 1 167 968 человек, в 2012 г. — 906 089.",
+   "description_en": "In 1971 Turin had 1,167,968 inhabitants and in 2012 906,089.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 1167968,
+     "unit": "persons",
+     "year": 1971,
+     "area_id": "it-torino",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 906089,
+     "unit": "persons",
+     "year": 2012,
+     "area_id": "it-torino",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turin",
+     "accessed": "2026-11-11",
+     "supports": "1971 1,167,968; 2012 906,089"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,389 @@
+{
+ "records": [
+  {
+   "id": "fi-rauma-1945-reparation-ships",
+   "title": "Верфь Холлминга строит суда по репарациям",
+   "title_en": "Hollming yard builds reparation ships",
+   "start_date": "1945",
+   "end_date": "1952",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "После Второй мировой войны верфь Ф. В. Холлминга в Корккеакари строила суда для СССР в счёт военных репараций; к 1952 г. она построила 34 деревянные шхуны. До 1970-х верфь строила стальные суда, в основном для советских заказчиков.",
+   "historical_summary_en": "After the Second World War F. W. Hollming's yard at Korkeakari built ships for the Soviet Union as war reparations, completing 34 wooden schooners by 1952. Until the 1970s the yard built steel ships, mostly for Soviet customers.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "shipyard_worker_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "post-war reparation ships; 34 schooners by 1952; steel ships until 1970s"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-rauma-1950-uljas-scuttled",
+   "title": "Конец эпохи парусников: затопление «Ульяса»",
+   "title_en": "End of the sailing era: the Uljas scuttled",
+   "start_date": "1950-06",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В июне 1950 г. парусник «Ульяс» постройки 1891 г. был торжественно сожжён и затоплен у Валкиакари. После 1950-х в Рауме не осталось парусных судов.",
+   "historical_summary_en": "In June 1950 the sailing ship Uljas, built in 1891, was ceremonially burned and sunk off Valkiakari. No sailing ships remained in Rauma after the 1950s.",
+   "affected_groups": [
+    "dock_workers",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "father_at_sea"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "June 1950 Uljas scuttled; no sailing ships after 1950s"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-rauma-1954-annexation",
+   "title": "Присоединение Сампаанала и Сювяраума",
+   "title_en": "Sampaanala and Syvärauma annexed",
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1954 г. к Рауме присоединили Сампаанала и Сювяраума из сельского муниципалитета Раума; остаток сельского муниципалитета слился с городом в 1993 г.",
+   "historical_summary_en": "In 1954 Sampaanala and Syvärauma were annexed to Rauma from Rauma rural municipality; the rest of the rural municipality merged into the town in 1993.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "1954 annexation; 1993 maalaiskunta merged"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-rauma-1971-lace-week",
+   "title": "Первая Неделя кружева в Рауме",
+   "title_en": "First Rauma Lace Week",
+   "start_date": "1971",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "С 1971 г. в Рауме ежегодно проходит Неделя кружева (Pitsiviikko); в 2010-е к ней добавились международные ярмарки.",
+   "historical_summary_en": "Rauma Lace Week (Pitsiviikko) has been held every year since 1971; international markets were added in the 2010s.",
+   "affected_groups": [
+    "women",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "lace_making_with_mother"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "1971 Pitsiviikko yearly; 2010s markets"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-rauma-1991-unesco",
+   "title": "Старая Раума в списке ЮНЕСКО",
+   "title_en": "Old Rauma on the UNESCO list",
+   "start_date": "1991",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1991 г. деревянный центр Старой Раумы был внесён в список Всемирного наследия ЮНЕСКО.",
+   "historical_summary_en": "In 1991 the wooden town centre of Old Rauma was added to UNESCO's World Heritage List.",
+   "affected_groups": [
+    "homeowners",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_museovirasto_rky"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "1991 UNESCO"
+    },
+    {
+     "source_id": "fi_museovirasto_rky",
+     "url": "http://www.rky.fi/read/asp/r_kohde_det.aspx?KOHDE_ID=1513",
+     "accessed": "2026-11-12",
+     "supports": "RKY Vanha Rauma: Old Rauma was named a UNESCO World Heritage Site in 1991"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-rauma-1993-rural-merger",
+   "title": "Слияние с сельским муниципалитетом Раума",
+   "title_en": "Merger with Rauma rural municipality",
+   "start_date": "1993",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1993 г. сельский муниципалитет Раума полностью слился с городом; в 2007 г. присоединился Кодисйоки, в 2009 г. — Лаппи.",
+   "historical_summary_en": "In 1993 Rauma rural municipality merged completely into the town; Kodisjoki joined in 2007 and Lappi in 2009.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_statfin"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "1993, 2007, 2009 mergers"
+    },
+    {
+     "source_id": "fi_statfin",
+     "url": "https://stat.fi/til/kvaa/2008/kvaa_2008_2008-09-30_luo_001_sv.html",
+     "accessed": "2026-11-12",
+     "supports": "Statistics Finland, municipal mergers 1981–2009: Rauma rural municipality merged into Rauma on 1 January 1993; Kodisjoki 2007 and Lappi 2009"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-rauma-2008-port",
+   "title": "Порт Раумы — пятый по загруженности",
+   "title_en": "Rauma port fifth-busiest in Finland",
+   "start_date": "2008",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 2008 г. порт Раумы был пятым по загруженности в Финляндии: его посетили 1657 судов.",
+   "historical_summary_en": "In 2008 Rauma's port was the fifth-busiest in Finland, with 1,657 vessel visits.",
+   "affected_groups": [
+    "dock_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "2008 fifth-busiest, 1,657 vessels"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-rauma-2014-shipyard-bought",
+   "title": "Город покупает верфь после ухода STX",
+   "title_en": "Town buys the shipyard after STX leaves",
+   "start_date": "2014-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В марте 2014 г., когда STX Finland прекратила работу верфи в Рауме, её территорию купил город.",
+   "historical_summary_en": "In March 2014, when STX Finland ended its operations at the Rauma shipyard, the town bought the yard.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "shipyard_closure"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "March 2014 town bought yard; STX ended"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "fi-rauma-2025-rail-freight",
+   "title": "Грузы по железной дороге и обещание пассажирских поездов",
+   "title_en": "Rail freight and promise of passenger trains",
+   "start_date": "2025",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "fi-rauma"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "В 2025 г. по железной дороге Раумы перевезли 1 573 000 т грузов, и правительство пообещало вернуть пассажирские поезда в 2027 г. В 2023 г. городские автобусы перешли к LS-Liikennelinjat.",
+   "historical_summary_en": "In 2025 freight on the Rauma railway reached 1,573,000 tonnes, and the government promised that passenger trains would return in 2027. In 2023 LS-Liikennelinjat took over local bus services.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_valtioneuvosto"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Rauma",
+     "accessed": "2026-11-11",
+     "supports": "2025 freight 1,573,000 t; passenger trains 2027; 2023 buses"
+    },
+    {
+     "source_id": "fi_valtioneuvosto",
+     "url": "https://valtioneuvosto.fi/-/1410829/hallitus-esittaa-taydennyksia-vuoden-2026-talousarvioon-uusia-vaylahankkeita-ja-raideliikenneyhteyksia",
+     "accessed": "2026-11-12",
+     "supports": "Government release of 20 November 2025: 2.5 million euros a year earmarked to start Rauma passenger train service from 2027"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

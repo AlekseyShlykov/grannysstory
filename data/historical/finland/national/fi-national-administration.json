@@ -1,0 +1,110 @@
+{
+ "records": [
+  {
+   "id": "fi-nat-1997-province-reform",
+   "title": "Губернская реформа 1997 года",
+   "title_en": "Provincial reform of 1997",
+   "start_date": "1997-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "border_administrative",
+   "subcategory": "provinces",
+   "historical_summary": "1 сентября 1997 г. губернии были укрупнены: например, Центральная Финляндия вошла в губернию Западная Финляндия, а Северная Карелия, Куопио и Миккели — в Восточную Финляндию.",
+   "historical_summary_en": "On 1 September 1997 the provinces were merged into larger ones: for example, Central Finland became part of Western Finland Province, while North Karelia, Kuopio and Mikkeli formed Eastern Finland Province.",
+   "affected_groups": [
+    "office_workers",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_sv_wikipedia",
+    "fi_finlex"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_sv_wikipedia",
+     "url": "https://sv.wikipedia.org/wiki/Mellersta_Finlands_län",
+     "accessed": "2026-11-11",
+     "supports": "1.9.1997 to Västra Finlands län"
+    },
+    {
+     "source_id": "fi_sv_wikipedia",
+     "url": "https://sv.wikipedia.org/wiki/Norra_Karelens_län",
+     "accessed": "2026-11-11",
+     "supports": "abolished 1.9.1997, Östra Finlands län"
+    },
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kuopio_Province",
+     "accessed": "2026-11-11",
+     "supports": "1997 merged with Mikkeli and Northern Karelia into Eastern Finland"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/fi/lainsaadanto/1997/22",
+     "accessed": "2026-11-12",
+     "supports": "Lääninhallituslaki 22/1997 (annettu 10.1.1997): läänit Etelä-Suomen, Ahvenanmaan, Länsi-Suomen, Itä-Suomen, Oulun ja Lapin; voimaan 1.9.1997"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "fi-nat-2010-provinces-abolished",
+   "title": "Упразднение губерний",
+   "title_en": "Provinces abolished",
+   "start_date": "2010-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "fi"
+   ],
+   "category": "border_administrative",
+   "subcategory": "provinces",
+   "historical_summary": "1 января 2010 г. губернии Финляндии были упразднены (закон 903/2009), их функции перешли к региональным административным агентствам (AVI).",
+   "historical_summary_en": "On 1 January 2010 Finland's provinces were abolished (Act 903/2009) and their functions passed to regional state administrative agencies (AVI).",
+   "affected_groups": [
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_wikipedia",
+    "fi_finlex"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_wikipedia",
+     "url": "https://fi.wikipedia.org/wiki/Lääni",
+     "accessed": "2026-11-11",
+     "supports": "abolished at the beginning of 2010; replaced by aluehallintovirastot"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/fi/lainsaadanto/2009/903",
+     "accessed": "2026-11-12",
+     "supports": "Laki 903/2009 (annettu 20.11.2009): laki aluehallintovirastoista 896/2009 voimaan 1.1.2010, lääninhallituslaki 22/1997 kumotaan"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

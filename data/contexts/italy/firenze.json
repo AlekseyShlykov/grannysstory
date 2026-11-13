@@ -1,0 +1,102 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-firenze-1901-2013-population",
+   "country_code": "IT",
+   "location_id": "it-firenze",
+   "period_start": 1901,
+   "period_end": 2013,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Флоренция: население 1901–2013",
+   "title_en": "Florence: population 1901–2013",
+   "description": "Население Флоренции росло с 236 635 человек в 1901 г. до 436 516 в 1961 г., затем снизилось до 403 294 в 1991 г. и 356 118 в 2001 г.; в 2013 г. в городе жили 366 039 человек, в провинции — 987 354.",
+   "description_en": "Florence's population grew from 236,635 in 1901 to 436,516 in 1961, then fell to 403,294 in 1991 and 356,118 in 2001; in 2013 the city had 366,039 inhabitants and the province 987,354.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 236635,
+     "unit": "persons",
+     "year": 1901,
+     "area_id": "it-firenze",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 304160,
+     "unit": "persons",
+     "year": 1931,
+     "area_id": "it-firenze",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 436516,
+     "unit": "persons",
+     "year": 1961,
+     "area_id": "it-firenze",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 403294,
+     "unit": "persons",
+     "year": 1991,
+     "area_id": "it-firenze",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 356118,
+     "unit": "persons",
+     "year": 2001,
+     "area_id": "it-firenze",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 366039,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "it-firenze",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 987354,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "it-prov-firenze",
+     "population": "жители провинции",
+     "method_note": "по данным хронологии",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Florence",
+     "accessed": "2026-11-11",
+     "supports": "populations 1901–2013"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

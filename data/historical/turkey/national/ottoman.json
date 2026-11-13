@@ -1,0 +1,691 @@
+{
+ "records": [
+  {
+   "id": "tr-nat-1900-hejaz-railway-start",
+   "title": "Начало строительства Хиджазской железной дороги",
+   "title_en": "Construction of the Hejaz Railway begins",
+   "start_date": "1900",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1900 г. по указу султана Абдул-Хамида II началось строительство Хиджазской железной дороги из Дамаска в Медину. Её финансировали в основном пожертвования мусульман со всего мира, собиравшиеся специальной комиссией.",
+   "historical_summary_en": "In 1900, on the orders of Sultan Abdul Hamid II, construction began on the Hejaz Railway from Damascus to Medina. It was financed mainly by donations from Muslims worldwide, collected by a special commission.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "donation_collection",
+    "railway_news"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hejaz_railway",
+     "accessed": "2026-11-11",
+     "supports": "март 1900 — указ, начало работ в 1900; финансирование пожертвованиями"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1908-hejaz-railway-medina",
+   "title": "Хиджазская дорога доходит до Медины",
+   "title_en": "Hejaz Railway reaches Medina",
+   "start_date": "1908-09-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 сентября 1908 г., в годовщину восшествия султана на престол, открылось движение по Хиджазской железной дороге от Дамаска до Медины. Дорога облегчила путь паломников в хадж.",
+   "historical_summary_en": "On 1 September 1908, the anniversary of the sultan's accession, the Hejaz Railway opened from Damascus to Medina. The line eased the journey of pilgrims on the hajj.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "pilgrimage_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hejaz_railway",
+     "accessed": "2026-11-11",
+     "supports": "открытие Дамаск–Медина 1.09.1908"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1908-constitution-restored",
+   "title": "Младотурецкая революция и восстановление конституции",
+   "title_en": "Young Turk Revolution restores the constitution",
+   "start_date": "1908-07-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "political_change",
+   "historical_summary": "23 июля 1908 г. под давлением младотурецкого движения султан Абдул-Хамид II восстановил конституцию 1876 г. и вновь созвал парламент; началась Вторая конституционная эра. В том же году прошли выборы.",
+   "historical_summary_en": "On 23 July 1908, under pressure from the Young Turk movement, Sultan Abdul Hamid II restored the 1876 constitution and reconvened parliament, opening the Second Constitutional Era. Elections were held the same year.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "newspaper_reading",
+    "street_celebrations"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "23.07.1908 восстановление конституции; выборы 1908"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "3.07.1908 начало революции"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103919/1908.html",
+     "accessed": "2026-11-12",
+     "supports": "23.07.1908 провозглашение Второй конституции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1908-women-association",
+   "title": "Первое женское общество",
+   "title_en": "First Ottoman women's association",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "women_rights",
+   "historical_summary": "В 1908 г. было основано Османское общество благотворительности женщин — первое женское объединение на территории будущей Турции. В 1913 г. Общество защиты прав османских женщин начало издавать журнал «Kadınlar Dünyası» («Мир женщин»).",
+   "historical_summary_en": "In 1908 the Ottoman Welfare Organisation of Women, the first women's association in what became Turkey, was founded. In 1913 the Ottoman Society for the Defence of Women's Rights began publishing the journal Kadınlar Dünyası (Women's World).",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "womens_magazine",
+    "mothers_aspirations"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Women_in_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "1908 первое женское общество; 1913 журнал Kadınlar Dünyası"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1909-abdulhamid-deposed",
+   "title": "Свержение Абдул-Хамида II",
+   "title_en": "Abdul Hamid II deposed",
+   "start_date": "1909",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1909 г. после контрреволюционного «инцидента 31 марта» парламент низложил султана Абдул-Хамида II; на трон взошёл его брат Мехмед V. В августе 1909 г. закон об обществах запретил партии по этническому признаку.",
+   "historical_summary_en": "In 1909, after the counter-revolutionary '31 March Incident', parliament deposed Sultan Abdul Hamid II and his brother Mehmed V took the throne. In August 1909 a law on associations banned ethnically based parties.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "1909 низложение; 16.08.1909 закон об обществах"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103920/1909.html",
+     "accessed": "2026-11-12",
+     "supports": "13.04.1909 («31 марта») мятеж в Стамбуле и выступление Армии действия для его подавления"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1911-italian-war",
+   "title": "Итало-турецкая война",
+   "title_en": "Italo-Turkish War",
+   "start_date": "1911",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1911 г. Италия вторглась в османскую Триполитанию; по итогам войны в 1912 г. империя уступила Италии Ливию.",
+   "historical_summary_en": "In 1911 Italy invaded Ottoman Tripolitania; as a result of the war the empire ceded Libya to Italy in 1912.",
+   "affected_groups": [
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "conscription_letter"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "1911 вторжение Италии"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1912 Италия получает Ливию"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103922/1911.html",
+     "accessed": "2026-11-12",
+     "supports": "29.09.1911 Италия объявила войну ради Триполи"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103923/1912.html",
+     "accessed": "2026-11-12",
+     "supports": "15.10.1912 мир с Италией: Триполи и Бенгази отходят Италии"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1912-balkan-wars",
+   "title": "Балканские войны",
+   "title_en": "Balkan Wars",
+   "start_date": "1912-10-08",
+   "end_date": "1913",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "8 октября 1912 г. Балканский союз (Болгария, Сербия, Греция, Черногория) начал войну против Османской империи, которая потеряла почти все европейские владения по Лондонскому договору 30 мая 1913 г. Во Второй Балканской войне летом 1913 г. империя вернула Эдирне.",
+   "historical_summary_en": "On 8 October 1912 the Balkan League (Bulgaria, Serbia, Greece and Montenegro) went to war against the Ottoman Empire, which lost almost all its European territory under the Treaty of London of 30 May 1913. In the Second Balkan War in summer 1913 the empire regained Edirne.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "refugee_relatives",
+    "conscription_letter"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Balkan_Wars",
+     "accessed": "2026-11-11",
+     "supports": "8.10.1912 начало; 30.05.1913 Лондонский договор; возврат Адрианополя"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1913 — османы почти вытеснены из Европы"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103923/1912.html",
+     "accessed": "2026-11-12",
+     "supports": "08.10.1912 начало Балканской войны"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103924/1913.html",
+     "accessed": "2026-11-12",
+     "supports": "30.05.1913 Лондонский договор; 21.07.1913 возвращение Эдирне"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1913-raid-sublime-porte",
+   "title": "Переворот 1913 года («налёт на Высокую Порту»)",
+   "title_en": "1913 coup (Raid on the Sublime Porte)",
+   "start_date": "1913-01-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "political_change",
+   "historical_summary": "23 января 1913 г. офицеры Комитета «Единение и прогресс» ворвались в здание правительства и вернули партию к власти; вскоре в империи установилось однопартийное правление.",
+   "historical_summary_en": "On 23 January 1913 officers of the Committee of Union and Progress stormed the government building and returned the party to power; one-party rule soon followed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "23.01.1913 переворот; 1914 однопартийные выборы"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103924/1913.html",
+     "accessed": "2026-11-12",
+     "supports": "23.01.1913 юнионисты захватили Высокую Порту и сместили Камиль-пашу"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1914-enters-ww1",
+   "title": "Вступление в Первую мировую войну",
+   "title_en": "Ottoman Empire enters the First World War",
+   "start_date": "1914",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1914 г. Османская империя вступила в Первую мировую войну на стороне Германии; началась массовая мобилизация мужчин.",
+   "historical_summary_en": "In 1914 the Ottoman Empire entered the First World War on the side of Germany, and mass mobilisation of men began.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families",
+    "men"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "father_at_the_front",
+    "conscription_letter"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1914 вступление в войну"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "1914 вступление в ПМВ"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103925/1914.html",
+     "accessed": "2026-11-12",
+     "supports": "11.11.1914 Османская империя вступила в войну на стороне Центральных держав"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1915-gallipoli",
+   "title": "Дарданелльская (Галлиполийская) кампания",
+   "title_en": "Gallipoli Campaign",
+   "start_date": "1915-03-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "18 марта 1915 г. флот Антанты атаковал Дарданеллы, затем последовала высадка на Галлиполийском полуострове; кампания закончилась отступлением Антанты и огромными потерями с обеих сторон.",
+   "historical_summary_en": "On 18 March 1915 the Entente fleet attacked the Dardanelles, followed by landings on the Gallipoli peninsula; the campaign ended with an Entente withdrawal and huge losses on both sides.",
+   "affected_groups": [
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "father_at_the_front",
+    "war_widow"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "18.03.1915 Галлиполийская кампания"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103926/1915.html",
+     "accessed": "2026-11-12",
+     "supports": "18.03.1915 морская атака на Дарданеллы; 25.04 высадки; эвакуация 19–20.12.1915 и 8–9.01.1916"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1915-armenian-genocide",
+   "title": "Депортации и массовое уничтожение армян",
+   "title_en": "Deportation and mass killing of Armenians",
+   "start_date": "1915-04-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "repression",
+   "historical_summary": "С 24 апреля 1915 г. власти Османской империи провели депортации и массовые убийства армянского населения; в те же годы преследованиям подверглись ассирийцы и греки. Эти события признаны многими государствами и исследователями геноцидом.",
+   "historical_summary_en": "From 24 April 1915 the Ottoman authorities carried out deportations and mass killings of the Armenian population; Assyrians and Greeks were persecuted in the same years. Many states and scholars recognise these events as genocide.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "family_separation",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "24.04.1915 начало геноцида армян; 1914 ассирийцы; 1913–1922 греки"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1918-mudros-armistice",
+   "title": "Мудросское перемирие",
+   "title_en": "Armistice of Mudros",
+   "start_date": "1918-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В конце октября 1918 г. Османская империя подписала Мудросское перемирие и вышла из Первой мировой войны; 2 ноября лидеры младотурок бежали из страны.",
+   "historical_summary_en": "In late October 1918 the Ottoman Empire signed the Armistice of Mudros and left the First World War; on 2 November the Young Turk leaders fled the country.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "soldier_returns_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "конец октября 1918 Мудрос; 2.11.1918 бегство трёх пашей"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103929/1918.html",
+     "accessed": "2026-11-12",
+     "supports": "30.10.1918 Мудросское перемирие"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1919-amasya-protocol",
+   "title": "Национальное движение: Амасийский протокол и выборы 1919 г.",
+   "title_en": "National movement: Amasya Protocol and 1919 elections",
+   "start_date": "1919-10-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "political_change",
+   "historical_summary": "22 октября 1919 г. представители национального движения и стамбульского правительства подписали Амасийский протокол; в декабре 1919 г. прошли последние выборы в османский парламент, открывшийся 12 января 1920 г.",
+   "historical_summary_en": "On 22 October 1919 representatives of the national movement and the Istanbul government signed the Amasya Protocol; in December 1919 the last elections to the Ottoman parliament were held, and it opened on 12 January 1920.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "22.10.1919 Амасийский протокол; декабрь 1919 выборы; 12.01.1920 открытие"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103930/1919.html",
+     "accessed": "2026-11-12",
+     "supports": "20–22.10.1919 встреча с Салих-пашой в Амасье и Амасийский протокол"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1920-parliament-dissolved",
+   "title": "Оккупация правительственных зданий и роспуск парламента",
+   "title_en": "Allies seize government buildings; parliament dissolved",
+   "start_date": "1920-03-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-ottoman"
+   ],
+   "category": "occupation",
+   "historical_summary": "16–18 марта 1920 г. войска союзников заняли правительственные здания Константинополя и арестовали депутатов; 16 марта союзники официально объявили оккупацию города. В апреле султан распустил парламент.",
+   "historical_summary_en": "On 16–18 March 1920 Allied troops seized government buildings in Constantinople and arrested deputies; on 16 March the Allies formally declared the occupation of the city. In April the sultan dissolved parliament.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Second_Constitutional_Era",
+     "accessed": "2026-11-11",
+     "supports": "16–18.03.1920, роспуск в апреле"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Occupation_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "16.03.1920 объявление оккупации"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103931/1920.html",
+     "accessed": "2026-11-12",
+     "supports": "16.03.1920 оккупация Стамбула и налёт на парламент; 11.04.1920 султан распустил парламент"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

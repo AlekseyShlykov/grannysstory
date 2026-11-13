@@ -447,7 +447,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -461,10 +462,16 @@
      "url": "https://en.wikipedia.org/wiki/Łódź",
      "accessed": "2026-10-29",
      "supports": "11.04.1940 Litzmannstadt"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/utworzenie-getta-lodzkiego",
+     "accessed": "2026-11-13",
+     "supports": "распоряжение о гетто 8.02.1940, границы закрыты 30.04.1940, при закрытии около 160 тыс. евреев (переименование города на странице не упомянуто)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-lodz-1942-children-camp",
@@ -567,7 +574,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_uni_lodz"
    ],
    "evidence": [
     {
@@ -575,10 +583,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
      "accessed": "2026-10-29",
      "supports": "1945 университет и политехника; 1945–1948 неформальная столица"
+    },
+    {
+     "source_id": "pl_uni_lodz",
+     "url": "https://www.uni.lodz.pl/en/about-the-university/history-of-the-university-of-lodz/our-story",
+     "accessed": "2026-11-13",
+     "supports": "Лодзинский университет основан 24.05.1945 (о Политехнике страница не говорит)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-lodz-1945-liberation",
@@ -647,7 +661,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_filmschool"
    ],
    "evidence": [
     {
@@ -655,10 +670,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Łódź",
      "accessed": "2026-10-29",
      "supports": "1948 Państwowa Wyższa Szkoła Filmowa"
+    },
+    {
+     "source_id": "pl_filmschool",
+     "url": "https://www.filmschool.lodz.pl/szkola/historia",
+     "accessed": "2026-11-13",
+     "supports": "киношкола основана в Лодзи в 1948 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-lodz-1951-baluty-estate",

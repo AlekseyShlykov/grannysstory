@@ -40,7 +40,7 @@
       "status": "accessed",
       "notes": "Раздел «День в истории» и электронные копии архивных документов. Наследие v0.4.0 использует отдельные ID prlib_*.",
       "country": "RU",
-      "accessed": "2026-10-29",
+      "accessed": "2026-11-12",
       "access_restrictions": [],
       "bulk_download": false,
       "attribution_required": true,
@@ -50,6 +50,17 @@
       "historical_coverage": {
         "from": 1900,
         "to": 2025
+      },
+      "source_type": "library",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
       }
     },
     {
@@ -87,18 +98,30 @@
       "categories": [
         "local_history"
       ],
-      "access_method": "catalogue",
+      "access_method": "website",
       "license": "Условия использования не указаны; только ссылочно",
-      "status": "catalogued",
-      "notes": "Ежегодники «Тверские памятные даты» доступны только как FlippingBook без текстового слоя; энциклопедия region.tverlib.ru в устаревшей кодировке. Данные не извлечены.",
+      "status": "accessed",
+      "notes": "Энциклопедический справочник «Тверская область» (region.tverlib.ru, ст. «Тверь», show_article=1389) читается как HTML; ежегодник «Тверские памятные даты» есть в PDF с текстовым слоем за 2015–2020 (tpd.tverlib.ru/sites/default/files/…), новые выпуски — FlippingBook. Справочник составлен библиотекой с Тверским областным краеведческим обществом, со ссылками на архивные данные.",
       "country": "RU",
-      "accessed": "2026-10-29",
+      "accessed": "2026-11-12",
       "access_restrictions": [],
       "bulk_download": false,
       "attribution_required": true,
       "historical_coverage": {
         "from": 1900,
         "to": 2025
+      },
+      "source_type": "library",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-tver",
+        "ru-tver-oblast"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
       }
     },
     {
@@ -148,7 +171,8 @@
       "accessed": "2026-10-29",
       "access_restrictions": [],
       "bulk_download": false,
-      "attribution_required": true
+      "attribution_required": true,
+      "notes": "2026-11-12: повторное открытие mosmetro.ru/about/history — отказ в соединении (ECONNREFUSED); тип источника не уточнялся, ссылки не пересчитаны как официальные."
     },
     {
       "source_id": "ru_rosstat",
@@ -287,12 +311,12 @@
       "categories": [
         "documents"
       ],
-      "access_method": "catalogue",
+      "access_method": "website",
       "license": "Не проверялась",
-      "status": "catalogued",
-      "notes": "В этой сессии не открывался из-за ограничения времени; приоритетный кандидат для сверки законов и постановлений, сейчас подтверждённых по Википедии.",
+      "status": "accessed",
+      "notes": "Электронная библиотека исторических документов (Российское историческое общество, при участии Росархива и федеральных архивов): карточки документов с реквизитами, местом хранения подлинника или публикацией. Используются только реквизиты и дата.",
       "country": "RU",
-      "accessed": "2026-10-29",
+      "accessed": "2026-11-13",
       "access_restrictions": [],
       "bulk_download": false,
       "attribution_required": true,
@@ -302,6 +326,17 @@
       "historical_coverage": {
         "from": 1900,
         "to": 2025
+      },
+      "source_type": "archive",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
       }
     },
     {
@@ -376,6 +411,334 @@
       "attribution_required": true,
       "historical_coverage": {
         "from": 1900,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_kremlin",
+      "name": "Президент России: банк документов (kremlin.ru/acts/bank)",
+      "publisher": "Администрация Президента Российской Федерации",
+      "url": "http://www.kremlin.ru/acts/bank",
+      "source_type": "government",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "legislation"
+      ],
+      "access_method": "website",
+      "license": "Тексты официальных документов не являются объектом авторского права (ст. 1259 ГК РФ); используются реквизиты и собственный пересказ",
+      "status": "accessed",
+      "notes": "Официальные тексты указов и федеральных законов с 1991 года, со ссылкой на pravo.gov.ru (сам pravo.gov.ru не отвечал 2026-11-12).",
+      "country": "RU",
+      "accessed": "2026-11-12",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 1991,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_admin_smolensk",
+      "name": "Правительство Смоленской области: «Летопись Смоленской области»",
+      "publisher": "Правительство Смоленской области",
+      "url": "https://www.admin-smolensk.ru/our_region/letopis-smolenskoj-oblasti/",
+      "source_type": "government",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-smolensk-oblast",
+        "ru-smolensk"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Условия использования не указаны; используются даты и собственный пересказ, тексты не копируются",
+      "status": "accessed",
+      "notes": "Краткая официальная хроника области (XIX–XX вв.).",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "ru-smolensk-oblast",
+        "ru-smolensk"
+      ],
+      "historical_coverage": {
+        "from": 1885,
+        "to": 1985
+      }
+    },
+    {
+      "source_id": "ru_smoladmin",
+      "name": "Администрация города Смоленска: «История города в датах»",
+      "publisher": "Администрация города Смоленска",
+      "url": "https://smoladmin.ru/o-smolenske/istoriya-goroda-v-datah/",
+      "source_type": "municipal",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Условия использования не указаны; используются даты и собственный пересказ, тексты не копируются",
+      "status": "accessed",
+      "notes": "Официальная хронология города до 1985 года.",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "ru-smolensk"
+      ],
+      "historical_coverage": {
+        "from": 1898,
+        "to": 1985
+      }
+    },
+    {
+      "source_id": "ru_novreg",
+      "name": "Правительство Новгородской области: историческая справка",
+      "publisher": "Правительство Новгородской области",
+      "url": "https://www.novreg.ru/o-regione/istoricheskaya-spravka/",
+      "source_type": "government",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-novgorod-oblast",
+        "ru-veliky-novgorod"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Условия использования не указаны; используются даты и собственный пересказ, тексты не копируются",
+      "status": "accessed",
+      "notes": "Официальная историческая справка об области.",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "ru-novgorod-oblast",
+        "ru-veliky-novgorod"
+      ],
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2001
+      }
+    },
+    {
+      "source_id": "ru_government_archive",
+      "name": "Правительство России: архивный портал (archive.government.ru)",
+      "publisher": "Правительство Российской Федерации",
+      "url": "http://archive.government.ru/",
+      "source_type": "government",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "government"
+      ],
+      "access_method": "website",
+      "license": "Официальные материалы; используются даты и собственный пересказ",
+      "status": "accessed",
+      "notes": "Архив новостей и стенограмм Правительства 2008–2012 гг.",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 2008,
+        "to": 2012
+      }
+    },
+    {
+      "source_id": "ru_novgorodmuseum",
+      "name": "Новгородский государственный объединённый музей-заповедник",
+      "publisher": "Новгородский музей-заповедник",
+      "url": "https://novgorodmuseum.ru/",
+      "source_type": "museum",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-veliky-novgorod"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Материалы музея охраняются; используются даты и собственный пересказ",
+      "status": "accessed",
+      "notes": "Страница «История музея».",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "ru-veliky-novgorod"
+      ],
+      "historical_coverage": {
+        "from": 1865,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_smolensk_museum",
+      "name": "Смоленский государственный музей-заповедник",
+      "publisher": "ОГБУК «Смоленский государственный музей-заповедник»",
+      "url": "https://www.smolensk-museum.ru/",
+      "source_type": "museum",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-smolensk"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Материалы музея охраняются; используются даты и собственный пересказ",
+      "status": "accessed",
+      "notes": "Новости о собрании (берестяные грамоты).",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "ru-smolensk"
+      ],
+      "historical_coverage": {
+        "from": 1888,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_spbmuseum",
+      "name": "Государственный музей истории Санкт-Петербурга",
+      "publisher": "ГМИ СПб",
+      "url": "https://www.spbmuseum.ru/",
+      "source_type": "museum",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "ru-saint-petersburg"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Материалы музея охраняются; используются даты и собственный пересказ",
+      "status": "accessed",
+      "notes": "Выставка «Непотопляемый» (2024) о петербургских наводнениях.",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "ru-saint-petersburg"
+      ],
+      "historical_coverage": {
+        "from": 1703,
+        "to": 2025
+      }
+    },
+    {
+      "source_id": "ru_tgl",
+      "name": "Администрация городского округа Тольятти: новости и история города",
+      "publisher": "Администрация г. о. Тольятти",
+      "url": "https://tgl.ru/",
+      "source_type": "municipal",
+      "languages": [
+        "ru"
+      ],
+      "location_ids": [
+        "su"
+      ],
+      "api": {
+        "available": null,
+        "verified": false
+      },
+      "categories": [
+        "local_history"
+      ],
+      "access_method": "website",
+      "license": "Используются даты и собственный пересказ",
+      "status": "accessed",
+      "notes": "Новость к годовщине выпуска первых автомобилей ВАЗ (19.04.1970).",
+      "country": "RU",
+      "accessed": "2026-11-13",
+      "access_restrictions": [],
+      "bulk_download": false,
+      "attribution_required": true,
+      "geographic_coverage": [
+        "RU"
+      ],
+      "historical_coverage": {
+        "from": 1966,
         "to": 2025
       }
     }

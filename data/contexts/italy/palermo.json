@@ -1,0 +1,130 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-gibellina-2026-population",
+   "country_code": "IT",
+   "location_id": "it-gibellina",
+   "period_start": 2026,
+   "period_end": 2026,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Джибеллина сегодня",
+   "title_en": "Gibellina today",
+   "description": "На 31 мая 2026 г. в коммуне Джибеллина жили 3638 человек при плотности 78 человек на км².",
+   "description_en": "On 31 May 2026 the commune of Gibellina had 3,638 inhabitants, a density of 78 people per km².",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 3638,
+     "unit": "persons",
+     "year": 2026,
+     "area_id": "it-gibellina",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "population_density",
+     "value": 78.12,
+     "unit": "persons/km2",
+     "year": 2026,
+     "area_id": "it-gibellina",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "3638 ab.; 78,12/km²"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-sicilia-1968-1976-belice-barracks",
+   "country_code": "IT",
+   "location_id": "it-sicilia",
+   "period_start": 1968,
+   "period_end": 2006,
+   "context_type": "housing",
+   "attribute": "post_earthquake_barracks",
+   "title": "Беличе: жизнь в бараках",
+   "title_en": "Belice: life in barracks",
+   "description": "Через месяц после землетрясения 1968 г. в провинции Трапани 9 тыс. человек жили в общественных зданиях, 6 тыс. — в палаточных лагерях, 5 тыс. — в железнодорожных вагонах, а 10 тыс. переехали в другие провинции. В 1973 г. в бараках жили 48 182 человека, в 1976 г. — около 47 тыс.",
+   "description_en": "A month after the 1968 earthquake, in the province of Trapani 9,000 people were living in public buildings, 6,000 in tent camps and 5,000 in railway wagons, while 10,000 had moved to other provinces. In 1973, 48,182 people were living in barracks, and about 47,000 in 1976.",
+   "statistics": [
+    {
+     "indicator": "people_in_tent_camps",
+     "value": 6000,
+     "unit": "persons",
+     "year": 1968,
+     "area_id": "it-prov-trapani",
+     "population": "пострадавшие жители провинции",
+     "method_note": "через месяц после землетрясения",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "people_in_railway_wagons",
+     "value": 5000,
+     "unit": "persons",
+     "year": 1968,
+     "area_id": "it-prov-trapani",
+     "population": "пострадавшие жители провинции",
+     "method_note": "через месяц",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "moved_to_other_provinces",
+     "value": 10000,
+     "unit": "persons",
+     "year": 1968,
+     "area_id": "it-prov-trapani",
+     "population": "пострадавшие жители провинции",
+     "method_note": "через месяц",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "people_in_barracks",
+     "value": 48182,
+     "unit": "persons",
+     "year": 1973,
+     "area_id": "it-sicilia",
+     "population": "жители зоны землетрясения Беличе",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "people_in_barracks",
+     "value": 47000,
+     "unit": "persons",
+     "year": 1976,
+     "area_id": "it-sicilia",
+     "population": "жители зоны землетрясения Беличе",
+     "method_note": "около, по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Terremoto_del_Belice_del_1968",
+     "accessed": "2026-11-11",
+     "supports": "un mese dopo: 9000/6000/3200/5000/10 000; 1973 48 182; 1976 ~47 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

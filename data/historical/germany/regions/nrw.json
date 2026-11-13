@@ -1,0 +1,436 @@
+{
+ "records": [
+  {
+   "id": "de-prov-rhine-1923-ruhr-occupation",
+   "title": "Оккупация Рура",
+   "title_en": "Occupation of the Ruhr",
+   "start_date": "1923-01-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-prov-rhine"
+   ],
+   "category": "occupation",
+   "historical_summary": "11 января 1923 г. французские и бельгийские войска вошли в Рурскую область, и правительство объявило «пассивное сопротивление». 31 марта у завода Круппа в Эссене французские солдаты застрелили тринадцать протестующих; к июлю в регионе стояли 80 тыс. французских и 7 тыс. бельгийских солдат, а 26 сентября сопротивление было прекращено.",
+   "historical_summary_en": "On 11 January 1923 French and Belgian troops entered the Ruhr, and the government proclaimed 'passive resistance'. On 31 March French soldiers shot thirteen protesters at the Krupp works in Essen; by July 80,000 French and 7,000 Belgian soldiers were stationed in the region, and on 26 September the resistance was called off.",
+   "affected_groups": [
+    "miners",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1923",
+     "accessed": "2026-11-11",
+     "supports": "11.01, 13.01, 31.03, 11.07, 26.09.1923"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nrw-1946-founded",
+   "title": "Образование земли Северный Рейн-Вестфалия",
+   "title_en": "North Rhine-Westphalia founded",
+   "start_date": "1946-08-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "23 августа 1946 г. постановлением британской военной администрации № 46 из провинций Северный Рейн и Вестфалия была образована земля Северный Рейн-Вестфалия. 21 января 1947 г. к ней присоединили Липпе.",
+   "historical_summary_en": "On 23 August 1946 British Military Government Ordinance No. 46 created the state of North Rhine-Westphalia from the provinces of North Rhine and Westphalia. On 21 January 1947 Lippe was joined to it.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "23.08.1946 VO Nr. 46; 21.01.1947 Lippe"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-1955-italian-recruitment",
+   "title": "Вербовка итальянских рабочих",
+   "title_en": "Recruitment of Italian workers",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "migration",
+   "historical_summary": "Соглашение о вербовке с Италией 1955 г. и с Турцией 1961 г. привело в землю десятки тысяч рабочих; сегодня выходцы из Турции — крупнейшая группа мигрантов в Северном Рейне-Вестфалии, итальянцы — вторая по величине иностранная группа.",
+   "historical_summary_en": "The recruitment agreements with Italy in 1955 and with Turkey in 1961 brought workers to the state; today people of Turkish origin form the largest migrant group in North Rhine-Westphalia and Italians the second-largest foreign group.",
+   "affected_groups": [
+    "migrants",
+    "miners",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_colleagues_from_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "1955 Italien; 1961 Türkei"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-1960-coal-crisis",
+   "title": "Угольный кризис и закрытие шахт",
+   "title_en": "Coal crisis and pit closures",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Закрытие шахты «Принц-Регент» в Бохуме в 1960 г. стало символическим началом угольного кризиса, а в 1966 г. закрылась даже считавшаяся прибыльной шахта «Граф Бисмарк». В 1968 г. вступил в силу новый закон об угле, и большинство горных компаний слилось в «Рурколе АГ».",
+   "historical_summary_en": "The closure of the Prinz Regent pit in Bochum in 1960 marked the symbolic start of the coal crisis, and in 1966 even the Graf Bismarck pit, thought profitable, closed. In 1968 a new coal law took effect and most mining companies merged into Ruhrkohle AG.",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "pit_closes",
+    "retraining"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "1960 Prinz Regent; 1966 Graf Bismarck; 1968 Kohlegesetz, Ruhrkohle AG"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "27.11.1968 Ruhrkohle AG из 23 компаний"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-1965-smog-plan",
+   "title": "План против смога",
+   "title_en": "Smog plan",
+   "start_date": "1965-01-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "environment",
+   "historical_summary": "29 января 1965 г. Северный Рейн-Вестфалия приняла план против смога, позволявший при угрозе смога полностью или частично запрещать частное автодвижение в городах.",
+   "historical_summary_en": "On 29 January 1965 North Rhine-Westphalia adopted a smog plan allowing private car traffic in cities to be fully or partly banned when smog threatened.",
+   "affected_groups": [
+    "urban_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "washing_grey_with_soot"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "29.01.1965 Smog-Plan"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nrw-1965-ruhr-university",
+   "title": "Рурский университет в Бохуме",
+   "title_en": "Ruhr University Bochum opens",
+   "start_date": "1965-06-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "education",
+   "historical_summary": "30 июня 1965 г. открылся Рурский университет в Бохуме, облегчивший доступ к высшему образованию в Рурской области; в 1968 г. открылся университет в Дортмунде, в 1969 г. — в Билефельде, в 1975 г. основан Заочный университет в Хагене.",
+   "historical_summary_en": "On 30 June 1965 the Ruhr University Bochum opened, easing access to higher education in the Ruhr, followed by universities in Dortmund in 1968 and Bielefeld in 1969, and the Distance University of Hagen was founded in 1975.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "30.06.1965 RUB; 12.12.1968 Dortmund; 1969 Bielefeld; 1975 Hagen"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "30.06.1965 открытие Ruhr-Universität"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-1975-municipal-reform",
+   "title": "Коммунальная реформа",
+   "title_en": "Municipal reform",
+   "start_date": "1975-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "1 января 1975 г. вступил в силу второй этап коммунальной реформы: более 2300 общин были сведены примерно в 373, число сельских районов сократилось с 57 до 31.",
+   "historical_summary_en": "On 1 January 1975 the second stage of the municipal reform took effect, merging more than 2,300 municipalities into about 373 and cutting rural districts from 57 to 31.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "01.01.1975; 2300 → 373; 57 → 31"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-1979-steel-crisis",
+   "title": "Сталелитейный кризис и «Программа действий Рур»",
+   "title_en": "Steel crisis and the Ruhr Action Programme",
+   "start_date": "1979",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "После рекордного 1974 г. сталелитейная отрасль вошла в структурный кризис, и в 1979 г. земля запустила «Программу действий Рур». В 1982 г. Krupp объявил о закрытии завода в Райнхаузене к 1988 г.; протесты 1987 г. продлили ему жизнь, но в 1993 г. он был закрыт.",
+   "historical_summary_en": "After a record year in 1974 the steel industry entered a structural crisis, and in 1979 the state launched the Ruhr Action Programme. In 1982 Krupp announced the closure of the Rheinhausen steelworks by 1988; protests in 1987 extended its life, but it closed in 1993.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "strike_in_family",
+    "factory_closes"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "1974 record; 1979 Aktionsprogramm Ruhr; 1982 Rheinhausen; 1987 protests; 1993 closure"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-1989-emscher-park",
+   "title": "Международная строительная выставка «Эмшер-парк»",
+   "title_en": "Emscher Park International Building Exhibition",
+   "start_date": "1989",
+   "end_date": "1999",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "environment",
+   "historical_summary": "С 1989 по 1999 г. Международная строительная выставка «Эмшер-парк» занималась перестройкой бывших промышленных территорий Рура. В 2001 г. шахта «Цольферайн» стала объектом всемирного наследия ЮНЕСКО, а в 2010 г. Рур был культурной столицей Европы.",
+   "historical_summary_en": "From 1989 to 1999 the Emscher Park International Building Exhibition worked on transforming former industrial sites in the Ruhr. In 2001 the Zollverein pit became a UNESCO World Heritage Site, and in 2010 the Ruhr was European Capital of Culture.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "1989–1999 IBA; 2001 Zollverein; 2010 Kulturhauptstadt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-nrw-2018-end-of-hard-coal",
+   "title": "Конец добычи каменного угля",
+   "title_en": "End of hard coal mining",
+   "start_date": "2018",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-nrw"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 2007 г. было решено прекратить добычу каменного угля в Германии к 2018 г.; в 2018 г. с закрытием шахты «Проспер-Ханиэль» добыча завершилась. В конце 1980-х в горнодобыче и металлургии земли были заняты около 4 % работающих.",
+   "historical_summary_en": "In 2007 it was agreed to end hard coal mining in Germany by 2018, and in 2018 mining ended with the closure of the Prosper-Haniel pit. In the late 1980s about 4% of employees in the state worked in mining and steel.",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "pit_closes"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Geschichte_Nordrhein-Westfalens",
+     "accessed": "2026-11-11",
+     "supports": "2007 decision; 2018 Prosper-Haniel; late 1980s 4 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

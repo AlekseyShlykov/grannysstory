@@ -1,0 +1,689 @@
+{
+ "records": [
+  {
+   "id": "cn-xian-1911-manchu-fort",
+   "title": "Штурм маньчжурской крепости в Сиани",
+   "title_en": "Storming of the Manchu fort in Xi'an",
+   "start_date": "1911-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В октябре 1911 г., во время Синьхайской революции, революционеры штурмовали маньчжурскую крепость в Сиани; большинство из примерно 20 тыс. живших в городе маньчжуров было убито.",
+   "historical_summary_en": "In October 1911, during the Xinhai Revolution, revolutionaries stormed the Manchu fort in Xi'an; most of the city's roughly 20,000 Manchus were killed.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "October 1911 Manchu fort stormed, most of ~20,000 killed"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-1928-city-created",
+   "title": "Создание города Сиань",
+   "title_en": "City of Xi'an created",
+   "start_date": "1928",
+   "end_date": "1943",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1928 г. Национальное правительство выделило город Сиань из уезда Чанъань; в 1930 г. город упразднили, в 1932 г. Сиань под именем Сицзин объявили запасной столицей, а 1 сентября 1944 г. город Сиань создали снова.",
+   "historical_summary_en": "In 1928 the Nationalist government separated the city of Xi'an from Chang'an County; the city was abolished in 1930, renamed Xijing and designated an auxiliary capital in 1932, and re-established as Xi'an in 1944.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_xa_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/西安市",
+     "accessed": "2026-11-11",
+     "supports": "1928 设立西安市; 1930 撤销; 1932 改名西京 陪都; 1943 再次设立"
+    },
+    {
+     "source_id": "cn_xa_gov",
+     "url": "https://www.xa.gov.cn/sq/csgk/lsyg/1.html",
+     "accessed": "2026-11-12",
+     "supports": "1927年11月25日省政府议决设立西安市；1930年11月8日撤销；1932年3月5日定名西京为陪都；1944年9月1日重新设立为省辖市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-xian-1936-xian-incident",
+   "title": "Сианьский инцидент",
+   "title_en": "Xi'an Incident",
+   "start_date": "1936-12-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "12 декабря 1936 г. в Сиани произошёл Сианьский инцидент, который привёл к созданию Второго единого фронта Гоминьдана и КПК.",
+   "historical_summary_en": "The Xi'an Incident took place in the city on 12 December 1936; it led to the Second United Front between the Kuomintang and the CCP.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_gov_ccp_centenary_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "1936 Xi'an Incident, led to Second United Front"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Chinese_history",
+     "accessed": "2026-11-11",
+     "supports": "12 December 1936 Xi'an Incident"
+    },
+    {
+     "source_id": "cn_gov_ccp_centenary_chronicle",
+     "url": "https://www.gov.cn/xinwen/2021-06/28/content_5621160.htm",
+     "accessed": "2026-11-12",
+     "supports": "1936年12月12日 张学良、杨虎城发动西安事变, 扣留蒋介石; 和平解决后国共第二次合作成为大势"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-xian-1938-first-air-battle",
+   "title": "Первый воздушный бой над Сианью",
+   "title_en": "First air battle over Xi'an",
+   "start_date": "1938-03-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "11 марта 1938 г. японская авиация атаковала Сиань, и над городом прошёл первый воздушный бой; японские бомбардировки продолжались семь лет, но взять город японцы так и не смогли.",
+   "historical_summary_en": "On 11 March 1938 Japanese aircraft attacked Xi'an and the first air battle over the city took place; Japanese bombing continued for seven years, but Japanese forces never took the city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "air_raid_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "March 11, 1938 first aerial battle; never taken"
+    },
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/西安市",
+     "accessed": "2026-11-11",
+     "supports": "日本对西安进行了长达七年的战略轰炸"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-1949-pla-takeover",
+   "title": "НОАК занимает Сиань",
+   "title_en": "PLA takes Xi'an",
+   "start_date": "1949-05-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "20 мая 1949 г. Народно-освободительная армия заняла Сиань; 25 мая было образовано Народное правительство города.",
+   "historical_summary_en": "The People's Liberation Army took Xi'an on 20 May 1949; the city's People's Government was formed on 25 May.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_era_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_zh_wikipedia",
+    "cn_xa_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/西安市",
+     "accessed": "2026-11-11",
+     "supports": "1949-05-20 PLA; 1949-05-25 government"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "May 20, 1949 PLA captured Xi'an"
+    },
+    {
+     "source_id": "cn_xa_gov",
+     "url": "https://www.xa.gov.cn/sq/csgk/lsyg/1.html",
+     "accessed": "2026-11-12",
+     "supports": "1949年5月20日西安解放"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-xian-1956-jiaotong-moves",
+   "title": "Университет Цзяотун переезжает из Шанхая в Сиань",
+   "title_en": "Jiao Tong University moves from Shanghai to Xi'an",
+   "start_date": "1956",
+   "end_date": "1959-07-31",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "По государственному решению 1956 г. большая часть Шанхайского университета Цзяотун переехала в Сиань; первые студенты и преподаватели прибыли в 1956 г., а с 31 июля 1959 г. сианьский кампус стал самостоятельным Сианьским университетом Цзяотун.",
+   "historical_summary_en": "Under a national decision of 1956 most of Jiao Tong University moved from Shanghai to Xi'an; the first students and teachers arrived in 1956, and from 31 July 1959 the Xi'an campus became the independent Xi'an Jiaotong University.",
+   "affected_groups": [
+    "students",
+    "teachers",
+    "scientists_engineers"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_xjtu"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an_Jiaotong_University",
+     "accessed": "2026-11-11",
+     "supports": "1956 strategy, first moved 1956; 1959-07-31 independent XJTU"
+    },
+    {
+     "source_id": "cn_xjtu",
+     "url": "https://www.xjtu.edu.cn/jdgk/xsyg.htm",
+     "accessed": "2026-11-12",
+     "supports": "国务院决定1956年交通大学的主体内迁西安；1959年定名为西安交通大学"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-xian-1963-lantian-man",
+   "title": "Находка синантропа Ланьтянь",
+   "title_en": "Lantian Man discovered",
+   "start_date": "1963",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1963 г. в уезде Ланьтянь к юго-востоку от Сиани были найдены останки древнего человека (ланьтяньский человек); в 1966 г. в городе создана Шэньсийская астрономическая обсерватория.",
+   "historical_summary_en": "In 1963 the remains of Lantian Man were found in Lantian County, south-east of Xi'an; the Shaanxi Astronomical Observatory was set up in the city in 1966.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "1963 Lantian Man; 1966 observatory"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-1974-terracotta-army",
+   "title": "Обнаружение Терракотовой армии",
+   "title_en": "Terracotta Army discovered",
+   "start_date": "1974-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В марте 1974 г. крестьяне деревни Сиян (район Линьтун) во время засухи копали колодец и наткнулись на глиняные фигуры воинов; 1 октября 1979 г. открылся Музей Терракотовой армии Цинь Шихуанди.",
+   "historical_summary_en": "In March 1974 farmers from Xiyang village (Lintong district) digging a well during a drought struck pottery warrior figures; the Qin Shi Huang Terracotta Army Museum opened on 1 October 1979.",
+   "affected_groups": [
+    "rural_residents",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "school_trip",
+    "family_outing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_ourchinastory"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_ourchinastory",
+     "url": "https://www.ourchinastory.com/zh/384",
+     "accessed": "2026-11-11",
+     "supports": "1974年3月 西杨村 农民打井; 1979年10月1日 博物馆开幕"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-1986-time-service",
+   "title": "Сиань задаёт национальное время",
+   "title_en": "Chinese Standard Time set from Xi'an",
+   "start_date": "1986",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "technology",
+   "subcategory": null,
+   "historical_summary": "С 1986 г. китайское стандартное время задаётся Национальным центром службы времени под Сианью; в 1975 г. рядом, в Линьтуне, был установлен геодезический исходный пункт страны.",
+   "historical_summary_en": "From 1986 Chinese Standard Time has been set by the National Time Service Center near Xi'an; in 1975 the country's geodetic origin had been placed nearby at Lintong.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "1986 CST set from NTSC; 1975 geodetic origin Lintong"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-2010-high-speed-rail",
+   "title": "Высокоскоростная дорога Чжэнчжоу — Сиань",
+   "title_en": "Zhengzhou–Xi'an high-speed railway opens",
+   "start_date": "2010-02-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "6 февраля 2010 г. открылась высокоскоростная дорога Чжэнчжоу — Сиань, а 11 января 2011 г. — Северный вокзал Сиани.",
+   "historical_summary_en": "The Zhengzhou–Xi'an high-speed railway opened on 6 February 2010, and Xi'an North station on 11 January 2011.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_high_speed_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_nra_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "Feb 6, 2010 HSR; Jan 11, 2011 North station"
+    },
+    {
+     "source_id": "cn_nra_gov",
+     "url": "https://www.nra.gov.cn/ztzl/hy/gsgt/zgtl/zytl/201602/t20160216_146045.shtml",
+     "accessed": "2026-11-12",
+     "supports": "2010年2月6日 郑西高速铁路开通运营，约523公里"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-xian-2011-metro",
+   "title": "Открытие метро Сиани",
+   "title_en": "Xi'an Metro opens",
+   "start_date": "2011-09-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "16 сентября 2011 г. открылась первая линия метро Сиани (линия 2), 15 сентября 2013 г. — линия 1; в 2024 г. метро перевозило в среднем 3,81 млн пассажиров в день.",
+   "historical_summary_en": "The first line of the Xi'an Metro (Line 2) opened on 16 September 2011, and Line 1 on 15 September 2013; in 2024 the metro carried an average of 3.81 million passengers a day.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an_Metro",
+     "accessed": "2026-11-11",
+     "supports": "Line 2 2011-09-16; Line 1 2013-09-15; 3.81m daily 2024"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-2012-airport-terminal-3",
+   "title": "Терминал 3 аэропорта Сяньян",
+   "title_en": "Xianyang Airport Terminal 3 opens",
+   "start_date": "2012-05-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "infrastructure_transport",
+   "subcategory": null,
+   "historical_summary": "3 мая 2012 г. в международном аэропорту Сиань Сяньян открылись Терминал 3 и вторая полоса; строительство Терминала 5 шло с 2022 по сентябрь 2024 г.",
+   "historical_summary_en": "Terminal 3 and a second runway opened at Xi'an Xianyang International Airport on 3 May 2012; Terminal 5 was built between 2022 and September 2024.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "2012-05-03 T3 and second runway; T5 2022–Sep 2024"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-2013-bike-sharing",
+   "title": "Система проката велосипедов",
+   "title_en": "Bicycle-sharing network",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "В 2013 г. в Сиани заработала сеть общественного проката велосипедов.",
+   "historical_summary_en": "A public bicycle-sharing network began operating in Xi'an in 2013.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "2013 bicycle-sharing network"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xian-2020-census",
+   "title": "Сиань по переписи 2020 года",
+   "title_en": "Xi'an in the 2020 census",
+   "start_date": "2020",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "Перепись 2020 г. насчитала в Сиани 12 952 907 постоянных жителей; по выборочному обследованию 2025 г. их было 13,24 млн, из них 10,72 млн — городские.",
+   "historical_summary_en": "The 2020 census counted 12,952,907 permanent residents in Xi'an; the 2025 1% sample survey estimated 13.24 million, of whom 10.72 million were urban.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_xa_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "2020 census 12,952,907; 2025 13.24m, 10.72m urban"
+    },
+    {
+     "source_id": "cn_xa_gov",
+     "url": "https://xdz.xa.gov.cn/zwgk/tjxx/60c9b3fef8fd1c0bdc329668.html",
+     "accessed": "2026-11-12",
+     "supports": "西安市七普公报（转载）：2020年11月1日零时全市常住人口12952907人，比2010年增加4485070人（52.97%）"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-xian-2021-lockdown",
+   "title": "Локдаун Сиани",
+   "title_en": "Lockdown of Xi'an",
+   "start_date": "2021-12-23",
+   "end_date": "2022-01-24",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xian"
+   ],
+   "category": "public_health",
+   "subcategory": null,
+   "historical_summary": "23 декабря 2021 г., после выявления более 250 случаев COVID-19, в Сиани ввели строгий локдаун; ограничения сняли 24 января 2022 г.",
+   "historical_summary_en": "On 23 December 2021, after more than 250 COVID-19 cases were reported, Xi'an went into a strict lockdown; restrictions were lifted on 24 January 2022.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "masks_and_quarantine"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an",
+     "accessed": "2026-11-11",
+     "supports": "Dec 23, 2021 lockdown >250 cases; Jan 24, 2022 lifted"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

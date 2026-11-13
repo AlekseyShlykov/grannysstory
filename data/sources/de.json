@@ -1,0 +1,442 @@
+{
+ "sources": [
+  {
+   "country": "DE",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "de"
+   ],
+   "source_id": "de_wikipedia",
+   "name": "Wikipedia (немецкая)",
+   "publisher": "Wikimedia Foundation",
+   "url": "https://de.wikipedia.org/",
+   "license": "CC BY-SA 4.0",
+   "source_type": "encyclopedia",
+   "notes": "Вторичный источник; WebFetch статей по административной истории и городам; confidence: medium.",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "DE",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "en"
+   ],
+   "source_id": "de_en_wikipedia",
+   "name": "Wikipedia (английская)",
+   "publisher": "Wikimedia Foundation",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0",
+   "source_type": "encyclopedia",
+   "notes": "Вторичный источник (WebFetch: East Berlin, West Berlin, Districts of East Germany, Wolfsburg, Eisenhüttenstadt, Greater Hamburg Act и др.); confidence: medium.",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "DE",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "de"
+   ],
+   "source_id": "de_bpb",
+   "name": "Bundeszentrale für politische Bildung (bpb.de)",
+   "publisher": "Bundeszentrale für politische Bildung",
+   "url": "https://www.bpb.de/",
+   "license": "Тексты частично CC BY-NC-ND 3.0/4.0 DE (по указанию на странице); пересказ фактов",
+   "source_type": "government",
+   "notes": "Федеральное ведомство политического просвещения: «Deutschland-Chronik», «Hintergrund aktuell», досье. Использовано через WebFetch.",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "DE",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "de"
+   ],
+   "source_id": "de_berlin_de",
+   "name": "berlin.de — история города и галерея бургомистров",
+   "publisher": "Land Berlin (Senatskanzlei)",
+   "url": "https://www.berlin.de/",
+   "license": "© Land Berlin; пересказ фактов",
+   "source_type": "municipal",
+   "location_ids": [
+    "de-berlin",
+    "de-berlin-west",
+    "de-berlin-east"
+   ],
+   "notes": "Официальный портал Берлина: хроника 1945–1949 (Besatzung, Spaltung und Blockade).",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "DE",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "de"
+   ],
+   "source_id": "de_lemo",
+   "name": "LeMO — Lebendiges Museum Online (Jahreschronik)",
+   "publisher": "Deutsches Historisches Museum, Haus der Geschichte der Bundesrepublik Deutschland, Bundesarchiv",
+   "url": "https://www.dhm.de/lemo/",
+   "license": "© DHM/HdG; тексты не копируются, пересказ фактов",
+   "source_type": "museum",
+   "years": {
+    "from": 1900,
+    "to": 2020
+   },
+   "notes": "Годовые хроники LeMO (dhm.de/lemo/jahreschronik/<год>) — основной источник национального каркаса; каждая использованная страница открыта через WebFetch. Также содержат городские факты (Берлин, Мюнхен, Лейпциг и др.)."
+  },
+  {
+   "country": "DE",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "de"
+   ],
+   "source_id": "de_bundesregierung",
+   "name": "Die Bundesregierung — Archiv, gesetzliche Neuregelungen, FAQ",
+   "publisher": "Presse- und Informationsamt der Bundesregierung",
+   "url": "https://www.bundesregierung.de/",
+   "license": "© Bundesregierung; пересказ фактов",
+   "source_type": "government",
+   "years": {
+    "from": 2015,
+    "to": 2026
+   },
+   "notes": "Официальные страницы: решения Бунда и земель 22.03.2020 (COVID-19), «Gesetzliche Neuregelungen Mai 2023» (Deutschlandticket), FAQ о минимальной оплате труда."
+  },
+  {
+   "country": "DE",
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "attribution_required": true,
+   "source_id": "de_stjb_ddr",
+   "name": "Statistisches Jahrbuch der DDR 1990 (постраничный скан с OCR)",
+   "publisher": "Statistisches Amt der DDR (Rudolf Haufe Verlag, 1990); скан размещён на gvoon.de",
+   "url": "https://www.gvoon.de/art/dokumente/1990/statistisches-jahrbuch-ddr-1990-1/",
+   "license": "Официальная статистика ГДР; факты пересказаны, таблицы не копируются; права на скан у gvoon.de не указаны",
+   "source_type": "statistics",
+   "languages": [
+    "de"
+   ],
+   "location_ids": [
+    "state-gdr",
+    "de-berlin-east",
+    "de-bezirk-leipzig",
+    "de-bezirk-halle",
+    "de-bezirk-magdeburg",
+    "de-bezirk-frankfurt-oder"
+   ],
+   "historical_coverage": {
+    "from": 1949,
+    "to": 1989
+   },
+   "years": {
+    "from": 1949,
+    "to": 1989
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "everyday_life",
+    "consumer_life",
+    "housing_urban",
+    "labor",
+    "migration"
+   ],
+   "access_method": "manual_extraction",
+   "bulk_download": false,
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только PDF-страницы, без API"
+   },
+   "notes": "Страницы открыты через WebFetch (PDF со слоем OCR FineReader); текст извлечён pdftotext. Возможны ошибки OCR (например, 1955 в Берлине «139,9» вместо 1139,9); значения со смещёнными столбцами не использовались. Цифры ГДР — официальная статистика с известными методическими ограничениями."
+  },
+  {
+   "country": "DE",
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "attribution_required": true,
+   "source_id": "de_destatis",
+   "name": "Statistisches Bundesamt (Destatis) и Statistische Bibliothek",
+   "publisher": "Statistisches Bundesamt",
+   "url": "https://www.destatis.de/",
+   "license": "Datenlizenz Deutschland – Namensnennung – 2.0 (по условиям Destatis); пересказ и цифры с указанием источника",
+   "source_type": "statistics",
+   "languages": [
+    "de"
+   ],
+   "historical_coverage": {
+    "from": 1913,
+    "to": 2025
+   },
+   "years": {
+    "from": 1913,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "labor",
+    "family_law",
+    "everyday_life"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "GENESIS-Online не проверялся в этой сессии"
+   },
+   "notes": "Использованы: Fachserie 1 Reihe 1.4 2016 (Scheidungsstatistik, табл. 2.1, 3.1, 3.13) и таблица «Durchschnittliche Bruttomonatsverdienste, Zeitreihe» (1913/14–2025, суммы в евро, в т.ч. за годы марки и рейхсмарки). Fachserie 1 Reihe 1.1 2015 открыта, но шрифт PDF не извлекается (цифры искажены) — не использована."
+  },
+  {
+   "country": "DE",
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "attribution_required": true,
+   "source_id": "de_stjb_brd",
+   "name": "Statistisches Jahrbuch für die Bundesrepublik Deutschland (оцифровка UB Mannheim)",
+   "publisher": "Statistisches Bundesamt; оцифровка Universitätsbibliothek Mannheim",
+   "url": "https://digi.bib.uni-mannheim.de/",
+   "license": "Официальная статистика; оцифровка UB Mannheim, пересказ цифр",
+   "source_type": "library",
+   "languages": [
+    "de"
+   ],
+   "historical_coverage": {
+    "from": 1952,
+    "to": 1990
+   },
+   "years": {
+    "from": 1952,
+    "to": 1990
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "consumer_life",
+    "everyday_life"
+   ],
+   "access_method": "manual_extraction",
+   "bulk_download": false,
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: постраничные PDF, без API"
+   },
+   "notes": "Страницы 1980 (с. 438) и 1990 (с. 488) получены по HTTP и прочитаны pdftotext; после серии запросов сервер стал отклонять соединения, поэтому повторный WebFetch не удался — записи помечены needs_review."
+  },
+  {
+   "country": "DE",
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "attribution_required": true,
+   "source_id": "de_leipzig_statistik",
+   "name": "Stadt Leipzig, Amt für Statistik und Wahlen",
+   "publisher": "Stadt Leipzig",
+   "url": "https://www.leipzig.de/buergerservice-und-verwaltung/unsere-stadt/statistik-und-zahlen",
+   "license": "Все права защищены; некоммерческое воспроизведение с указанием источника разрешено",
+   "source_type": "municipal",
+   "languages": [
+    "de"
+   ],
+   "location_ids": [
+    "de-leipzig"
+   ],
+   "historical_coverage": {
+    "from": 1990,
+    "to": 2024
+   },
+   "years": {
+    "from": 1990,
+    "to": 2024
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "everyday_life",
+    "migration"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "notes": "C. Bein, «Die Leipziger Bevölkerung im Wandel» (Analysen zur Stadtgesellschaft 2/2025): табл. 1 и абб. 1 (сравнение городов 500 тыс.+ по данным Statistische Ämter des Bundes und der Länder)."
+  },
+  {
+   "country": "DE",
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "attribution_required": true,
+   "source_id": "de_halle_stadt",
+   "name": "Stadt Halle (Saale): Wohnungsmarktbericht 2010",
+   "publisher": "Stadt Halle (Saale)",
+   "url": "https://halle.de/",
+   "license": "© Stadt Halle (Saale); пересказ цифр",
+   "source_type": "municipal",
+   "languages": [
+    "de"
+   ],
+   "location_ids": [
+    "de-halle"
+   ],
+   "historical_coverage": {
+    "from": 1993,
+    "to": 2010
+   },
+   "years": {
+    "from": 1993,
+    "to": 2010
+   },
+   "geographic_coverage": [
+    "DE"
+   ],
+   "categories": [
+    "housing_urban",
+    "everyday_life"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "notes": "Отчёт о жилищном рынке 2010 г.: население, миграция, снос по Stadtumbau Ost."
+  }
+ ]
+}

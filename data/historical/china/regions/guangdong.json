@@ -1,0 +1,407 @@
+{
+ "records": [
+  {
+   "id": "cn-guangdong-1911-independence",
+   "title": "Гуандун провозглашает независимость от Цин",
+   "title_en": "Guangdong declares independence from the Qing",
+   "start_date": "1911-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "9 ноября 1911 г. представители Гуандуна, собравшись в провинциальном совещательном собрании, объявили о переходе провинции на сторону республики.",
+   "historical_summary_en": "On 9 November 1911 Guangdong's representatives, meeting at the provincial assembly, declared the province independent for the republic.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "1911年11月9日 广东咨议局 宣布独立"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guangdong-1925-nationalist-government",
+   "title": "Национальное правительство в Гуанчжоу",
+   "title_en": "Nationalist government in Guangzhou",
+   "start_date": "1925",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В 1925 г. в Гуанчжоу было образовано Национальное правительство Гоминьдана.",
+   "historical_summary_en": "In 1925 the Kuomintang's Nationalist government was formed in Guangzhou.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_tw_ey"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "1925年 国民政府在广州成立"
+    },
+    {
+     "source_id": "cn_tw_ey",
+     "url": "https://www.ey.gov.tw/state/62879155A536D543/bf75db05-30af-4c3a-bdda-3fe32e3f8e5a",
+     "accessed": "2026-11-12",
+     "supports": "民國14（1925）年7月，國民政府在廣州成立"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guangdong-1938-government-retreats",
+   "title": "Правительство провинции отступает на север Гуандуна",
+   "title_en": "Provincial government retreats to northern Guangdong",
+   "start_date": "1938-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "war_conflict",
+   "subcategory": null,
+   "historical_summary": "В октябре 1938 г., после занятия Гуанчжоу японскими войсками, правительство провинции отступило на север Гуандуна.",
+   "historical_summary_en": "In October 1938, after Japanese forces occupied Guangzhou, the provincial government retreated to northern Guangdong.",
+   "affected_groups": [
+    "all_residents",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "fleeing_the_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "1938年10月 日军占领广州，省政府退往粤北"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guangdong-1949-provincial-government",
+   "title": "Создание Народного правительства Гуандуна",
+   "title_en": "Guangdong Provincial People's Government formed",
+   "start_date": "1949-11-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "6 ноября 1949 г. было официально образовано Народное правительство провинции Гуандун.",
+   "historical_summary_en": "The Guangdong Provincial People's Government was formally established on 6 November 1949.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_era_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "1949年11月6日 广东省人民政府成立"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guangdong-1979-special-policies",
+   "title": "Особая политика для Гуандуна и Фуцзяни",
+   "title_en": "Special policies for Guangdong and Fujian",
+   "start_date": "1979-07-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "15 июля 1979 г. центральные власти дали Гуандуну и Фуцзяни больше самостоятельности во внешнеэкономической деятельности; 26 августа 1980 г. были утверждены особые экономические зоны Шэньчжэнь, Чжухай и Шаньтоу.",
+   "historical_summary_en": "On 15 July 1979 the central authorities gave Guangdong and Fujian more autonomy in foreign economic activity; on 26 August 1980 special economic zones were approved in Shenzhen, Zhuhai and Shantou.",
+   "affected_groups": [
+    "industrial_workers",
+    "migrants",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "1979年7月15日 特殊政策; 1980年8月26日 深圳、珠海、汕头"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1979年7月15日 中共中央、国务院批转广东、福建关于对外经济活动实行特殊政策的报告; 1980年8月26日 批准《广东省经济特区条例》"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guangdong-1988-hainan-separated",
+   "title": "Хайнань выделен в отдельную провинцию",
+   "title_en": "Hainan separated as a province",
+   "start_date": "1988",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1988 г. административный район Хайнань был выделен из Гуандуна в отдельную провинцию.",
+   "historical_summary_en": "In 1988 the Hainan administrative region was separated from Guangdong as a province of its own.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_prc_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "1988年 海南行政区 从广东分出 建立海南省"
+    },
+    {
+     "source_id": "cn_gov_prc_chronicle",
+     "url": "https://www.gov.cn/xinwen/2019-09/27/content_5434223.htm",
+     "accessed": "2026-11-12",
+     "supports": "1988年3月25日－4月13日 七届全国人大一次会议决定设立海南省、建立海南经济特区"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guangdong-2002-sars-origin",
+   "title": "Начало эпидемии SARS в Гуандуне",
+   "title_en": "SARS outbreak begins in Guangdong",
+   "start_date": "2002-11-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "public_health",
+   "subcategory": null,
+   "historical_summary": "Первый случай SARS был зарегистрирован в Гуандуне 16 ноября 2002 г.; 11 февраля 2003 г. Китай сообщил ВОЗ о 305 случаях и пяти смертях, позже провинция сообщила о 806 случаях и 34 смертях.",
+   "historical_summary_en": "The first SARS case was recorded in Guangdong on 16 November 2002; on 11 February 2003 China reported 305 cases and five deaths to WHO, and the province later reported 806 cases and 34 deaths.",
+   "affected_groups": [
+    "all_residents",
+    "medical_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "masks_and_quarantine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2002%E2%80%932004_SARS_outbreak",
+     "accessed": "2026-11-11",
+     "supports": "16 Nov 2002 first case; 11 Feb 2003 305 cases 5 deaths; 806/34"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guangdong-2007-most-populous",
+   "title": "Гуандун становится самой населённой провинцией",
+   "title_en": "Guangdong becomes the most populous province",
+   "start_date": "2007",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "К 2007 г. постоянное население Гуандуна достигло 94,49 млн, и он стал самой населённой провинцией Китая — во многом за счёт приезжих, число которых быстро росло после начала реформ. В 2022 г. население провинции впервые за 40 лет сократилось.",
+   "historical_summary_en": "By 2007 Guangdong's permanent population had reached 94.49 million, making it China's most populous province, largely because of migrants whose numbers grew rapidly after reform began. In 2022 the province's population fell for the first time in 40 years.",
+   "affected_groups": [
+    "migrants",
+    "rural_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "leaving_the_village",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "2007年 9449万 第一人口大省; 改革开放后外来人口迅速增长; 2022 首次下降"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guangdong-2016-greater-bay-area",
+   "title": "Курс на район Большого залива",
+   "title_en": "Greater Bay Area promoted",
+   "start_date": "2016",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-guangdong"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "С 2016 г. строительство района Большого залива Гуандун — Гонконг — Макао продвигается как общенациональная задача.",
+   "historical_summary_en": "From 2016 the development of the Guangdong–Hong Kong–Macao Greater Bay Area has been promoted as a national goal.",
+   "affected_groups": [
+    "office_workers",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "2016年起 粤港澳大湾区 上升为国家战略"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

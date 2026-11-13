@@ -1,0 +1,1001 @@
+{
+ "records": [
+  {
+   "id": "cn-ctx-2010-2020-women-employment",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "women_employment",
+   "attribute": "women_share_of_employment",
+   "title": "Женщины на работе, 2010–2020",
+   "title_en": "Women at work, 2010–2020",
+   "description": "В 2020 г. женщины составляли 43,5% всех занятых; в городских учреждениях работали 67,79 млн женщин — на 39,5% больше, чем в 2010 г. Среди членов сельских комитетов женщин было 24,2%, среди членов городских комитетов жителей — 52,1%.",
+   "description_en": "In 2020 women made up 43.5% of all employed people; 67.79 million women worked in urban work units, 39.5% more than in 2010. Women held 24.2% of seats on village committees and 52.1% on urban residents' committees.",
+   "statistics": [
+    {
+     "indicator": "women_share_of_employed",
+     "value": 43.5,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "все занятые",
+     "method_note": "мониторинг Программы развития женщин 2011–2020",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "women_in_urban_units",
+     "value": 67.794,
+     "unit": "million persons",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "занятые в городских учреждениях",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "women_share_village_committees",
+     "value": 24.2,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "члены сельских комитетов",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "women_share_residents_committees",
+     "value": 52.1,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "члены комитетов жителей",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901316.html",
+     "accessed": "2026-11-11",
+     "supports": "女性就业 43.5%; 城镇单位 6779.4万 +39.5%; 村委会 24.2%; 居委会 52.1%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2010-2020-women-health-education",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "healthcare",
+   "attribute": "maternal_health_life_expectancy",
+   "title": "Здоровье и образование женщин, 2010–2020",
+   "title_en": "Women's health and education, 2010–2020",
+   "description": "Материнская смертность снизилась до 16,9 на 100 тыс. рождений в 2020 г. (в городе 14,1, в деревне 18,5) — на 43,7% меньше, чем в 2010 г. Ожидаемая продолжительность жизни женщин выросла с 77,37 года в 2010 г. до 80,88 в 2020 г. Девушки составляли 51% студентов бакалавриата и колледжей и 50,9% аспирантов.",
+   "description_en": "Maternal mortality fell to 16.9 per 100,000 births in 2020 (14.1 urban, 18.5 rural), 43.7% lower than in 2010. Women's life expectancy rose from 77.37 years in 2010 to 80.88 in 2020. Women made up 51% of undergraduate and college students and 50.9% of postgraduates.",
+   "statistics": [
+    {
+     "indicator": "maternal_mortality",
+     "value": 16.9,
+     "unit": "per 100,000 live births",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "все роды",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "maternal_mortality_rural",
+     "value": 18.5,
+     "unit": "per 100,000 live births",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "роды в сельской местности",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "female_life_expectancy",
+     "value": 77.37,
+     "unit": "years",
+     "year": 2010,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "female_life_expectancy",
+     "value": 80.88,
+     "unit": "years",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "female_share_undergraduates",
+     "value": 51.0,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "студенты бакалавриата и колледжей",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "female_share_postgraduates",
+     "value": 50.9,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "аспиранты",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901316.html",
+     "accessed": "2026-11-11",
+     "supports": "孕产妇死亡率 16.9; 预期寿命 77.37→80.88; 女生比重"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2010-2020-women-social-insurance",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "retirement",
+   "attribute": "women_social_insurance",
+   "title": "Пенсионное и медицинское страхование женщин",
+   "title_en": "Women's pension and health insurance",
+   "description": "К концу 2020 г. базовым пенсионным страхованием были охвачены 470 млн женщин (210 млн по линии работников городских предприятий, 260 млн — городских и сельских жителей), медицинским — 650 млн, в 3,4 раза больше, чем в 2011 г.; страхованием по беременности и родам — 103 млн.",
+   "description_en": "By the end of 2020, 470 million women had basic pension insurance (210 million through urban employee schemes and 260 million through urban and rural residents' schemes) and 650 million had basic health insurance, 3.4 times the 2011 figure; 103 million had maternity insurance.",
+   "statistics": [
+    {
+     "indicator": "women_with_pension_insurance",
+     "value": 470,
+     "unit": "million persons",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "women_with_health_insurance",
+     "value": 650,
+     "unit": "million persons",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "women_with_maternity_insurance",
+     "value": 103,
+     "unit": "million persons",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901316.html",
+     "accessed": "2026-11-11",
+     "supports": "养老 4.7亿; 医疗 6.5亿 3.4倍; 生育 1.03亿"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-1958-1961-famine-demography",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1958,
+   "period_end": 1961,
+   "context_type": "demography",
+   "attribute": "birth_death_rates",
+   "title": "Рождаемость и смертность в годы голода",
+   "title_en": "Births and deaths during the famine",
+   "description": "По официальным данным, рождаемость упала с 29,22‰ в 1958 г. до 20,86‰ в 1960 г., а смертность выросла с 11,98‰ до 25,43‰; население в 1961 г. (658,59 млн) было на 14,58 млн меньше, чем в 1959 г. Сбор зерна сократился с 200 млн т в 1958 г. до 143,5 млн т в 1960 г.",
+   "description_en": "Official data show the birth rate falling from 29.22 per 1,000 in 1958 to 20.86 in 1960 and the death rate rising from 11.98 to 25.43; the 1961 population (658.59 million) was 14.58 million lower than in 1959. Grain output fell from 200 million tonnes in 1958 to 143.5 million in 1960.",
+   "statistics": [
+    {
+     "indicator": "crude_birth_rate",
+     "value": 29.22,
+     "unit": "per 1000",
+     "year": 1958,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "crude_birth_rate",
+     "value": 20.86,
+     "unit": "per 1000",
+     "year": 1960,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 11.98,
+     "unit": "per 1000",
+     "year": 1958,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "crude_death_rate",
+     "value": 25.43,
+     "unit": "per 1000",
+     "year": 1960,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 658590000,
+     "unit": "persons",
+     "year": 1961,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "grain_output",
+     "value": 200,
+     "unit": "million tonnes",
+     "year": 1958,
+     "area_id": "cn",
+     "population": "вся страна",
+     "method_note": "правительственные данные",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "grain_output",
+     "value": 143.5,
+     "unit": "million tonnes",
+     "year": 1960,
+     "area_id": "cn",
+     "population": "вся страна",
+     "method_note": "правительственные данные",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+     "accessed": "2026-11-11",
+     "supports": "birth 2.922%→2.086%; death 1.198%→2.543%; 1961 658.59m −14.58m; grain 200→170→143.5"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1958-1962-communes",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1958,
+   "period_end": 1962,
+   "context_type": "food",
+   "attribute": "communal_dining",
+   "title": "Жизнь в народной коммуне",
+   "title_en": "Life in a people's commune",
+   "description": "В 1958 г. около 26 тыс. коммун объединяли в среднем по 24 тыс. человек и 5200 дворов; поначалу ели в общественных столовых при «бесплатном снабжении», затем перешли к распределению по труду. В городских коммунах в 1960 г. числилось 53 тыс. столовых, 50 тыс. яслей и 55 тыс. пунктов обслуживания. С 1962 г. основной расчётной единицей стала производственная бригада.",
+   "description_en": "In 1958 some 26,000 communes averaged 24,000 people and 5,200 households each; at first members ate in communal dining halls under 'free supply', later replaced by distribution according to work. Urban communes in 1960 reported 53,000 canteens, 50,000 nurseries and 55,000 service centres. From 1962 the production team became the basic accounting unit.",
+   "statistics": [
+    {
+     "indicator": "communes",
+     "value": 26000,
+     "unit": "communes",
+     "year": 1958,
+     "area_id": "cn",
+     "population": "сельские коммуны",
+     "method_note": "около",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "people_per_commune",
+     "value": 24000,
+     "unit": "persons",
+     "year": 1958,
+     "area_id": "cn",
+     "population": "сельские коммуны",
+     "method_note": "среднее",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_commune_canteens",
+     "value": 53000,
+     "unit": "canteens",
+     "year": 1960,
+     "area_id": "cn",
+     "population": "городские коммуны",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_commune_nurseries",
+     "value": 50000,
+     "unit": "nurseries",
+     "year": 1960,
+     "area_id": "cn",
+     "population": "городские коммуны",
+     "method_note": "официальная статистика",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/People%27s_commune",
+     "accessed": "2026-11-11",
+     "supports": "26,000 communes; 24,000 people; 5,200 households; 1960 53,000 canteens 50,000 nurseries 55,000 service centres"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1950-1952-land-reform",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1949,
+   "period_end": 1953,
+   "context_type": "housing",
+   "attribute": "land_redistribution",
+   "title": "Земля после земельной реформы",
+   "title_en": "Land after land reform",
+   "description": "К 1949 г. в районах под контролем КПК было перераспределено более 25 млн га; в ходе реформы 1950–1952 гг. около 43% обрабатываемой земли перешло примерно к 60% сельского населения, и сотни миллионов крестьян впервые получили собственный участок.",
+   "description_en": "By 1949 more than 25 million hectares had been redistributed in CCP-held areas; in the reform of 1950–1952 about 43% of cultivated land went to about 60% of the rural population, and hundreds of millions of peasants received a plot of their own for the first time.",
+   "statistics": [
+    {
+     "indicator": "land_redistributed_by_1949",
+     "value": 25,
+     "unit": "million hectares",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "районы под контролем КПК",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "share_of_cultivated_land_redistributed",
+     "value": 43,
+     "unit": "%",
+     "year": 1952,
+     "area_id": "cn",
+     "population": "обрабатываемая земля",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "share_of_rural_population_receiving_land",
+     "value": 60,
+     "unit": "%",
+     "year": 1952,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Land_reform_in_China",
+     "accessed": "2026-11-11",
+     "supports": "25 million ha by 1949; 43% land to 60%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1968-1978-sent-down-youth",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1962,
+   "period_end": 1980,
+   "context_type": "migration",
+   "attribute": "sent_down_youth",
+   "title": "Отправленная в деревню молодёжь",
+   "title_en": "Sent-down youth",
+   "description": "Около 17 млн молодых горожан были отправлены в деревни и пограничные районы с середины 1950-х до 1978 г.; к 1970 г. так было переселено около 10% городского населения. Вернуться до 1979 г. удавалось в основном через поступление в вуз или по связям.",
+   "description_en": "About 17 million young urban people were sent to villages and frontier areas between the mid-1950s and 1978; by 1970 some 10% of the urban population had been relocated this way. Before 1979 most could return only by gaining a university place or through connections.",
+   "statistics": [
+    {
+     "indicator": "sent_down_youth_total",
+     "value": 17,
+     "unit": "million persons",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "городская молодёжь",
+     "method_note": "накопленный итог",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_population_relocated_share",
+     "value": 10,
+     "unit": "%",
+     "year": 1970,
+     "area_id": "cn",
+     "population": "городское население",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Down_to_the_Countryside_Movement",
+     "accessed": "2026-11-11",
+     "supports": "~17 million; 1970 10% of urban population; return via gaokao or connections"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1978-2016-economy",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1978,
+   "period_end": 2016,
+   "context_type": "work",
+   "attribute": "economic_structure",
+   "title": "Как менялась экономика, 1978–2016",
+   "title_en": "How the economy changed, 1978–2016",
+   "description": "В 1978–2013 гг. экономика росла в среднем на 9,5% в год; доля сельского хозяйства в ВВП сократилась с 40% до 16%, доля государственного сектора в промышленном производстве — с 81% в 1980 г. до 15% в 2005 г. Цены на продукты после деколлективизации упали почти вдвое.",
+   "description_en": "From 1978 to 2013 the economy grew by about 9.5% a year; agriculture's share of GDP fell from 40% to 16%, and the state sector's share of industrial output from 81% in 1980 to 15% in 2005. Food prices fell by nearly half after decollectivisation.",
+   "statistics": [
+    {
+     "indicator": "gdp_growth_avg",
+     "value": 9.5,
+     "unit": "%/year",
+     "year": 2013,
+     "area_id": "cn",
+     "population": "вся экономика",
+     "method_note": "среднее 1978–2013",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "state_share_industrial_output",
+     "value": 81,
+     "unit": "%",
+     "year": 1980,
+     "area_id": "cn",
+     "population": "промышленность",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "state_share_industrial_output",
+     "value": 15,
+     "unit": "%",
+     "year": 2005,
+     "area_id": "cn",
+     "population": "промышленность",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chinese_economic_reform",
+     "accessed": "2026-11-11",
+     "supports": "9.5%/yr 1978–2013; agri 40→16%; state 81%→15%; food prices −50%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2003-2023-housing",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2003,
+   "period_end": 2023,
+   "context_type": "housing",
+   "attribute": "urban_housing",
+   "title": "Новостройки и собственное жильё",
+   "title_en": "New flats and home ownership",
+   "description": "В 2003–2014 гг. в городах построили более 5,5 млн квартир; в 2014 г. на городских стройках работали 29 млн человек. В 2011 г. правительство поставило цель построить 36 млн единиц социального жилья к 2015 г. К 2023 г. около 90% городских семей владели жильём.",
+   "description_en": "Between 2003 and 2014 more than 5.5 million flats were built in cities; in 2014 29 million people worked in urban construction. In 2011 the government set a target of 36 million social housing units by 2015. By 2023 about 90% of urban households owned their homes.",
+   "statistics": [
+    {
+     "indicator": "urban_construction_workers",
+     "value": 29,
+     "unit": "million persons",
+     "year": 2014,
+     "area_id": "cn",
+     "population": "занятые в городском строительстве",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "social_housing_target",
+     "value": 36,
+     "unit": "million units",
+     "year": 2015,
+     "area_id": "cn",
+     "population": "социальное жильё",
+     "method_note": "цель 2011 г.",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_homeownership",
+     "value": 90,
+     "unit": "%",
+     "year": 2023,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "оценка (Keyu Jin)",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Housing_in_China",
+     "accessed": "2026-11-11",
+     "supports": "5.5m apartments 2003–2014; 29m construction 2014; 36m target; 90% ownership 2023"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2008-2020-high-speed-rail",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2008,
+   "period_end": 2020,
+   "context_type": "transport",
+   "attribute": "high_speed_rail_network",
+   "title": "Сеть скоростных поездов",
+   "title_en": "The high-speed train network",
+   "description": "Протяжённость высокоскоростных дорог выросла с первой линии 2008 г. до 8358 км в январе 2011 г., более 10 тыс. км в конце 2013 г. и 37,9 тыс. км в конце 2020 г.",
+   "description_en": "The high-speed rail network grew from its first line in 2008 to 8,358 km in January 2011, over 10,000 km at the end of 2013 and 37,900 km at the end of 2020.",
+   "statistics": [
+    {
+     "indicator": "hsr_network_length",
+     "value": 8358,
+     "unit": "km",
+     "year": 2011,
+     "area_id": "cn",
+     "population": "сеть ВСМ",
+     "method_note": "январь 2011",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "hsr_network_length",
+     "value": 10000,
+     "unit": "km",
+     "year": 2013,
+     "area_id": "cn",
+     "population": "сеть ВСМ",
+     "method_note": "конец 2013, «более»",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "hsr_network_length",
+     "value": 37900,
+     "unit": "km",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "сеть ВСМ",
+     "method_note": "конец 2020",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/High-speed_rail_in_China",
+     "accessed": "2026-11-11",
+     "supports": "Jan 2011 8,358; Dec 2013 >10,000; end 2020 37,900"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1953-2020-population-guangdong",
+   "country_code": "CN",
+   "location_id": "cn-guangdong",
+   "period_start": 1953,
+   "period_end": 2025,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Население Гуандуна по переписям, 1953–2020",
+   "title_en": "Guangdong's population by census, 1953–2020",
+   "description": "Население Гуандуна по переписям: 34,8 млн (1953), 42,8 млн (1964), 59,3 млн (1981), 62,8 млн (1990), 85,2 млн (2000), 104,3 млн (2010), 126,0 млн (2020). Быстрый рост после 1990 г. связан с притоком мигрантов; в 2022 г. население впервые за 40 лет сократилось.",
+   "description_en": "Guangdong's census population was 34.8 million (1953), 42.8 million (1964), 59.3 million (1981), 62.8 million (1990), 85.2 million (2000), 104.3 million (2010) and 126.0 million (2020). Rapid growth after 1990 reflected migrant inflows; in 2022 the population fell for the first time in 40 years.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 34770059,
+     "unit": "persons",
+     "year": 1953,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 42800849,
+     "unit": "persons",
+     "year": 1964,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 59299220,
+     "unit": "persons",
+     "year": 1981,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 62829236,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 85225007,
+     "unit": "persons",
+     "year": 2000,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 104303132,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 126012510,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "перепись (границы провинции на дату; до 1988 г. с Хайнанем)",
+     "source_id": "cn_zh_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广东省",
+     "accessed": "2026-11-11",
+     "supports": "人口普查 1953–2020; 2022 首次下降"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2010-2022-population-shaanxi-sichuan",
+   "country_code": "CN",
+   "location_id": "cn-shaanxi",
+   "period_start": 2010,
+   "period_end": 2022,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Шэньси: население 2010–2022",
+   "title_en": "Shaanxi: population 2010–2022",
+   "description": "Население Шэньси по переписям составляло 37,33 млн в 2010 г. и 39,53 млн в 2020 г., на конец 2022 г. — 39,56 млн.",
+   "description_en": "Shaanxi's census population was 37.33 million in 2010 and 39.53 million in 2020, and 39.56 million at the end of 2022.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 37327400,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "cn-shaanxi",
+     "population": "постоянное население",
+     "method_note": "6-я перепись (3732,74 万)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 39529000,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-shaanxi",
+     "population": "постоянное население",
+     "method_note": "7-я перепись (3952,9 万)",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 39560000,
+     "unit": "persons",
+     "year": 2022,
+     "area_id": "cn-shaanxi",
+     "population": "постоянное население, конец года",
+     "method_note": "оценка",
+     "source_id": "cn_zh_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/陕西省",
+     "accessed": "2026-11-11",
+     "supports": "2010 3732.74万; 2020 3952.9万; 2022 3956万"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2022-demography-hubei-wuhan",
+   "country_code": "CN",
+   "location_id": "cn-hubei",
+   "period_start": 2020,
+   "period_end": 2022,
+   "context_type": "demography",
+   "attribute": "births_deaths",
+   "title": "Хубэй и Ухань: рождения, смерти, население",
+   "title_en": "Hubei and Wuhan: births, deaths, population",
+   "description": "В 2022 г. в Хубэе родилось 355 тыс. и умерло 472 тыс. человек, население на конец года — 58,44 млн; население Уханя в 2022 г. — 13,74 млн.",
+   "description_en": "In 2022 Hubei had 355,000 births and 472,000 deaths, with a year-end population of 58.44 million; Wuhan's population in 2022 was 13.74 million.",
+   "statistics": [
+    {
+     "indicator": "births",
+     "value": 355000,
+     "unit": "persons",
+     "year": 2022,
+     "area_id": "cn-hubei",
+     "population": "всё население",
+     "method_note": "НБС через Wikipedia",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "deaths",
+     "value": 472000,
+     "unit": "persons",
+     "year": 2022,
+     "area_id": "cn-hubei",
+     "population": "всё население",
+     "method_note": "НБС через Wikipedia",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 58440000,
+     "unit": "persons",
+     "year": 2022,
+     "area_id": "cn-hubei",
+     "population": "постоянное население, конец года",
+     "method_note": "оценка",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 13739000,
+     "unit": "persons",
+     "year": 2022,
+     "area_id": "cn-wuhan",
+     "population": "постоянное население",
+     "method_note": "инфобокс en.wikipedia",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/湖北省",
+     "accessed": "2026-11-11",
+     "supports": "2022 出生35.5万 死亡47.2万 5844万"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Wuhan",
+     "accessed": "2026-11-11",
+     "supports": "population 13,739,000 (2022)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2022-population-sichuan",
+   "country_code": "CN",
+   "location_id": "cn-sichuan",
+   "period_start": 2020,
+   "period_end": 2022,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Сычуань: население 2020–2022",
+   "title_en": "Sichuan: population 2020–2022",
+   "description": "Перепись 2020 г. насчитала в Сычуани 83 674 866 постоянных жителей; на 2022 г. — 83,74 млн. С 1997 г. Чунцин не входит в провинцию.",
+   "description_en": "The 2020 census counted 83,674,866 permanent residents in Sichuan; in 2022 there were 83.74 million. Chongqing has not been part of the province since 1997.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 83674866,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-sichuan",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_zh_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 83740000,
+     "unit": "persons",
+     "year": 2022,
+     "area_id": "cn-sichuan",
+     "population": "постоянное население",
+     "method_note": "оценка",
+     "source_id": "cn_zh_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/四川省",
+     "accessed": "2026-11-11",
+     "supports": "2020 83,674,866; 2022 8374万"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2011-2025-metro-xian",
+   "country_code": "CN",
+   "location_id": "cn-xian",
+   "period_start": 2011,
+   "period_end": 2025,
+   "context_type": "transport",
+   "attribute": "metro",
+   "title": "Метро Сиани",
+   "title_en": "Xi'an Metro",
+   "description": "Метро Сиани открылось в 2011 г.; к 2025 г. в нём 13 линий (с линией Сиху), 284 станции и 423,2 км; в 2024 г. в среднем 3,81 млн поездок в день и 1,399 млрд за год.",
+   "description_en": "The Xi'an Metro opened in 2011; by 2025 it had 13 lines (including the Xihu line), 284 stations and 423.2 km; in 2024 it averaged 3.81 million trips a day and 1.399 billion a year.",
+   "statistics": [
+    {
+     "indicator": "metro_length",
+     "value": 423.2,
+     "unit": "km",
+     "year": 2025,
+     "area_id": "cn-xian",
+     "population": "сеть метро",
+     "method_note": "без линии Сиху",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "metro_daily_ridership",
+     "value": 3.81,
+     "unit": "million trips/day",
+     "year": 2024,
+     "area_id": "cn-xian",
+     "population": "пассажиры метро",
+     "method_note": "среднее 2024",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "metro_annual_ridership",
+     "value": 1.399,
+     "unit": "billion trips",
+     "year": 2024,
+     "area_id": "cn-xian",
+     "population": "пассажиры метро",
+     "method_note": "2024",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xi%27an_Metro",
+     "accessed": "2026-11-11",
+     "supports": "423.2 km; 13 lines; 284 stations; 3.81m daily 2024; 1.399bn"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

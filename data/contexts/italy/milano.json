@@ -1,0 +1,178 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-milano-1906-2013-population",
+   "country_code": "IT",
+   "location_id": "it-milano",
+   "period_start": 1906,
+   "period_end": 2013,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Милан: население 1906–2013",
+   "title_en": "Milan: population 1906–2013",
+   "description": "В 1906 г. в Милане жили 560 613 человек, в 2010 г. — 1 315 803, в 2013 г. — 1 262 101 (в провинции — 3 075 083).",
+   "description_en": "In 1906 Milan had 560,613 inhabitants, in 2010 1,315,803 and in 2013 1,262,101 (3,075,083 in the province).",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 560613,
+     "unit": "persons",
+     "year": 1906,
+     "area_id": "it-milano",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1315803,
+     "unit": "persons",
+     "year": 2010,
+     "area_id": "it-milano",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1262101,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "it-milano",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 3075083,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "it-prov-milano",
+     "population": "жители провинции",
+     "method_note": "по данным хронологии",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Milan",
+     "accessed": "2026-11-11",
+     "supports": "1906; 2010; 2013 city and province"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-sesto-1901-1940-population",
+   "country_code": "IT",
+   "location_id": "it-sesto-san-giovanni",
+   "period_start": 1901,
+   "period_end": 1940,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Сесто-Сан-Джованни: рост фабричного города",
+   "title_en": "Sesto San Giovanni: growth of a factory town",
+   "description": "Население Сесто выросло с 6952 человек в 1901 г. до 13 667 в 1911 г. и около 40 тыс. в 1940 г.",
+   "description_en": "Sesto's population grew from 6,952 in 1901 to 13,667 in 1911 and about 40,000 in 1940.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 6952,
+     "unit": "persons",
+     "year": 1901,
+     "area_id": "it-sesto-san-giovanni",
+     "population": "жители коммуны",
+     "method_note": "по статье о городе",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 13667,
+     "unit": "persons",
+     "year": 1911,
+     "area_id": "it-sesto-san-giovanni",
+     "population": "жители коммуны",
+     "method_note": "по статье о городе",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 40000,
+     "unit": "persons",
+     "year": 1940,
+     "area_id": "it-sesto-san-giovanni",
+     "population": "жители коммуны",
+     "method_note": "около 40 тыс., по статье о городе",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1901 6952; 1911 13 667; 1940 ~40 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-sesto-2026-foreign-residents",
+   "country_code": "IT",
+   "location_id": "it-sesto-san-giovanni",
+   "period_start": 2026,
+   "period_end": 2026,
+   "context_type": "migration",
+   "attribute": "foreign_residents",
+   "title": "Сесто-Сан-Джованни: иностранные жители",
+   "title_en": "Sesto San Giovanni: foreign residents",
+   "description": "На 1 января 2026 г. в Сесто жили 12 596 иностранных граждан — 16,0% населения (данные ISTAT, приведённые в статье о городе).",
+   "description_en": "On 1 January 2026 Sesto had 12,596 foreign citizens, 16.0% of the population (ISTAT data cited in the article on the town).",
+   "statistics": [
+    {
+     "indicator": "foreign_residents",
+     "value": 12596,
+     "unit": "persons",
+     "year": 2026,
+     "area_id": "it-sesto-san-giovanni",
+     "population": "жители коммуны с иностранным гражданством",
+     "method_note": "ISTAT по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "foreign_residents_share",
+     "value": 16.0,
+     "unit": "% of population",
+     "year": 2026,
+     "area_id": "it-sesto-san-giovanni",
+     "population": "жители коммуны",
+     "method_note": "ISTAT по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1.01.2026: 12 596 stranieri, 16,0%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

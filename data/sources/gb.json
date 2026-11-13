@@ -51,7 +51,22 @@
    ],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Тексты актов парламента (as enacted): даты, вступление в силу, территориальное действие."
+   "notes": "Тексты актов парламента (as enacted): даты, вступление в силу, территориальное действие.",
+   "source_type": "government",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "gb"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
   },
   {
    "source_id": "gb_parliament",
@@ -297,6 +312,427 @@
    "status": "accessed",
    "accessed": "2026-10-29",
    "notes": "Таблица FT1101 Trends in tenure: ранние годы — оценки Holmans по Англии и Уэльсу."
+  },
+  {
+   "source_id": "gb_tfl_archives",
+   "name": "TfL Corporate Archives — Research Guide No 4: Key Dates in the History of London Transport",
+   "publisher": "Transport for London",
+   "country": "GB",
+   "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+   "source_type": "archive",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "gb-london",
+    "gb-greater-london"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только PDF"
+   },
+   "years": {
+    "from": 1900,
+    "to": 2012
+   },
+   "historical_coverage": {
+    "from": 1829,
+    "to": 2012
+   },
+   "geographic_coverage": [
+    "gb-london"
+   ],
+   "categories": [
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Transport for London; условия повторного использования не уточнялись",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Хронология корпоративного архива TfL (редакция 2023-03-25), составленная по London Transport Diaries. Даты открытия Central London Railway в ней (01/07/1900) расходятся с общепринятой (30.07.1900), поэтому для этой записи не использована. Тексты не копировались."
+  },
+  {
+   "source_id": "gb_tna",
+   "name": "The National Archives — сайт (Stories from the collection, Education, Blog)",
+   "publisher": "The National Archives",
+   "country": "GB",
+   "url": "https://www.nationalarchives.gov.uk/",
+   "source_type": "archive",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "gb"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "GB"
+   ],
+   "categories": [
+    "history",
+    "politics",
+    "social_policy"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Open Government Licence v3.0 (тексты сайта), изображения документов — по условиям TNA",
+   "attribution_required": true,
+   "access_restrictions": [
+    "Старые разделы (Cabinet Papers) перенесены в UK Government Web Archive, который требует проверки «не робот»"
+   ],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Тематические страницы о событиях с каталожными ссылками на документы. Использовались только для подтверждения даты и места; тексты не копировались."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "geographic_coverage": [
+    "GB"
+   ],
+   "source_id": "gb_met_office",
+   "name": "Met Office — past UK weather events and case studies",
+   "publisher": "Met Office",
+   "url": "https://weather.metoffice.gov.uk/learn-about/past-uk-weather-events",
+   "source_type": "government",
+   "location_ids": [
+    "gb"
+   ],
+   "years": {
+    "from": 1952,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 1952,
+    "to": 2025
+   },
+   "categories": [
+    "environment",
+    "weather"
+   ],
+   "license": "Open Government Licence v3.0 / © Crown copyright",
+   "notes": "Национальная метеослужба: сводки о заметных погодных событиях (PDF) и тематические статьи. Тексты не копировались."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "geographic_coverage": [
+    "GB"
+   ],
+   "source_id": "gb_bbc_history",
+   "name": "History of the BBC — timelines",
+   "publisher": "BBC",
+   "url": "https://www.bbc.com/historyofthebbc/",
+   "source_type": "archive",
+   "location_ids": [
+    "gb"
+   ],
+   "years": {
+    "from": 1922,
+    "to": 2020
+   },
+   "historical_coverage": {
+    "from": 1922,
+    "to": 2020
+   },
+   "categories": [
+    "media",
+    "culture"
+   ],
+   "license": "© BBC; только ссылка и пересказ",
+   "notes": "Официальная история BBC по десятилетиям (BBC History/Heritage), опирается на BBC Written Archives. Использована для дат вещания."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "geographic_coverage": [
+    "GB"
+   ],
+   "source_id": "gb_hansard",
+   "name": "Historic Hansard 1803–2005",
+   "publisher": "UK Parliament",
+   "url": "https://api.parliament.uk/historic-hansard/",
+   "source_type": "government",
+   "location_ids": [
+    "gb"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: статические HTML-страницы заседаний, без API"
+   },
+   "years": {
+    "from": 1900,
+    "to": 2005
+   },
+   "historical_coverage": {
+    "from": 1803,
+    "to": 2005
+   },
+   "categories": [
+    "politics",
+    "law",
+    "history"
+   ],
+   "license": "Open Parliament Licence v3.0",
+   "notes": "Официальные стенограммы заседаний палат (оцифровка). Использовались страницы заявлений и дебатов о том же событии в день события или вскоре после него. Покрытие после ~1995 неполное (июнь 1996 без заявления о взрыве в Манчестере). Новый сайт hansard.parliament.uk отдаёт проверку «не робот»."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "geographic_coverage": [
+    "GB"
+   ],
+   "source_id": "gb_govuk",
+   "name": "GOV.UK — новости, публикации и статистика правительства",
+   "publisher": "UK Government (Government Digital Service)",
+   "url": "https://www.gov.uk/",
+   "source_type": "government",
+   "location_ids": [
+    "gb"
+   ],
+   "api": {
+    "available": true,
+    "verified": true,
+    "note": "проверено: https://www.gov.uk/api/search.json возвращает ссылки на страницы"
+   },
+   "years": {
+    "from": 2005,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 1982,
+    "to": 2025
+   },
+   "categories": [
+    "politics",
+    "social_policy",
+    "public_safety"
+   ],
+   "license": "Open Government Licence v3.0",
+   "notes": "Официальные пресс-релизы, отчёты и сборники статистики о событиях; использовался только для подтверждения даты и места."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "source_id": "gb_boe",
+   "name": "Bank of England — news releases",
+   "publisher": "Bank of England",
+   "url": "https://www.bankofengland.co.uk/news",
+   "source_type": "government",
+   "location_ids": [
+    "gb"
+   ],
+   "geographic_coverage": [
+    "GB"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1997,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 1997,
+    "to": 2025
+   },
+   "categories": [
+    "economy",
+    "finance"
+   ],
+   "license": "© Bank of England; ссылка и пересказ",
+   "notes": "Официальные заявления центрального банка."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "source_id": "gb_birmingham_council",
+   "name": "Birmingham City Council — news and Library of Birmingham archive catalogue (CalmView)",
+   "publisher": "Birmingham City Council",
+   "url": "https://www.birmingham.gov.uk/",
+   "source_type": "municipal",
+   "location_ids": [
+    "gb-birmingham"
+   ],
+   "geographic_coverage": [
+    "gb-birmingham"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только веб-страницы и каталог CalmView"
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 1838,
+    "to": 2025
+   },
+   "categories": [
+    "local_history",
+    "local_government"
+   ],
+   "license": "© Birmingham City Council; ссылка и пересказ",
+   "notes": "Новости городского совета и административная история фонда BCC в каталоге Birmingham Archives and Collections (calmview.birmingham.gov.uk), где описаны расширение 1911 г. и реформа 1974 г."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "source_id": "gb_ofgem",
+   "name": "Ofgem — press releases",
+   "publisher": "Office of Gas and Electricity Markets (Ofgem)",
+   "url": "https://www.ofgem.gov.uk/",
+   "source_type": "government",
+   "location_ids": [
+    "gb"
+   ],
+   "geographic_coverage": [
+    "GB"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 2019,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 2019,
+    "to": 2025
+   },
+   "categories": [
+    "economy",
+    "energy"
+   ],
+   "license": "Open Government Licence v3.0",
+   "notes": "Официальные решения регулятора о потолке цен на энергию."
+  },
+  {
+   "country": "GB",
+   "languages": [
+    "en"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "source_id": "gb_gla",
+   "name": "London City Hall (Greater London Authority) — press releases and mayoral decisions",
+   "publisher": "Greater London Authority",
+   "url": "https://www.london.gov.uk/",
+   "source_type": "municipal",
+   "location_ids": [
+    "gb-greater-london",
+    "gb-london"
+   ],
+   "geographic_coverage": [
+    "gb-greater-london"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 2000,
+    "to": 2025
+   },
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "categories": [
+    "local_government",
+    "transport",
+    "environment"
+   ],
+   "license": "© Greater London Authority; ссылка и пересказ",
+   "notes": "Пресс-релизы мэра Лондона и решения мэрии."
   }
  ]
 }

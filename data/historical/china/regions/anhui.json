@@ -1,0 +1,48 @@
+{
+ "records": [
+  {
+   "id": "cn-anhui-1959-famine",
+   "title": "Голод 1959–1961 годов в Аньхое",
+   "title_en": "Famine of 1959–1961 in Anhui",
+   "start_date": "1959",
+   "end_date": "1961",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-anhui"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "Аньхой пострадал от голода 1959–1961 гг. сильнее всех провинций: по научной оценке, умерло около 18% населения; исследователи связывают это с особой ревностностью провинциального руководства в проведении политики Большого скачка.",
+   "historical_summary_en": "Anhui suffered more than any other province in the famine of 1959–1961: by a scholarly estimate about 18% of the population died; researchers link this to the provincial leadership's particular zeal in carrying out Great Leap Forward policies.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "hunger_years"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Great_Chinese_Famine",
+     "accessed": "2026-11-11",
+     "supports": "Anhui 18%; pro-Mao leadership contrast with Jiangxi"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

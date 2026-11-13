@@ -1,0 +1,1319 @@
+{
+ "records": [
+  {
+   "id": "de-nat-1961-social-assistance-act",
+   "title": "Федеральный закон о социальной помощи",
+   "title_en": "Federal Social Assistance Act",
+   "start_date": "1961-06-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "social_policy",
+   "historical_summary": "30 июня 1961 г. был принят Федеральный закон о социальной помощи, гарантировавший нуждающимся достойный уровень жизни. 18 июля вышел закон о детском пособии.",
+   "historical_summary_en": "On 30 June 1961 the Federal Social Assistance Act was passed, guaranteeing people in need a dignified standard of living. On 18 July a law on child benefit was enacted.",
+   "affected_groups": [
+    "unemployed",
+    "parents",
+    "elderly"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "child_benefit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "30.06.1961 BSHG; 18.07.1961 Kindergeld"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1961-zdf-founded",
+   "title": "Основание ZDF",
+   "title_en": "ZDF founded",
+   "start_date": "1961-06-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "media_communication",
+   "historical_summary": "6 июня 1961 г. в Майнце по межземельному договору был основан второй общественный телеканал ZDF. 1 июля банки ФРГ перешли на пятидневную неделю и закрылись по субботам.",
+   "historical_summary_en": "On 6 June 1961 the second public television channel, ZDF, was founded in Mainz under an inter-state treaty. On 1 July West German banks moved to a five-day week and closed on Saturdays.",
+   "affected_groups": [
+    "television_owners",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "second_tv_channel",
+    "free_saturday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "06.06.1961 ZDF; 01.07.1961 банки закрыты по субботам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1961-turkey-recruitment",
+   "title": "Соглашение о вербовке рабочих из Турции",
+   "title_en": "Guest-worker recruitment agreement with Turkey",
+   "start_date": "1961-10-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "migration",
+   "historical_summary": "30 октября 1961 г. ФРГ подписала соглашение о вербовке «гастарбайтеров» с Турцией. Позже последовали соглашения с Тунисом (1965) и Югославией (1968).",
+   "historical_summary_en": "On 30 October 1961 the Federal Republic signed a recruitment agreement for guest workers with Turkey. Agreements with Tunisia (1965) and Yugoslavia (1968) followed.",
+   "affected_groups": [
+    "migrants",
+    "industrial_workers",
+    "miners"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_colleagues_from_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "30.10.1961 Anwerbevereinbarung Türkei"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "07.–08.10.1965 соглашение с Тунисом"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "12.10.1968 соглашение с Югославией"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1961-first-woman-minister",
+   "title": "Первая женщина — федеральный министр",
+   "title_en": "First woman federal minister",
+   "start_date": "1961-11-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "women_rights",
+   "historical_summary": "14 ноября 1961 г. Элизабет Шварцхаупт стала первой женщиной — федеральным министром, возглавив новое министерство здравоохранения.",
+   "historical_summary_en": "On 14 November 1961 Elisabeth Schwarzhaupt became the first woman federal minister, heading the new health ministry.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "14.11.1961"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1961-gdr-border-closed",
+   "title": "Закрытие границы ГДР с Западом",
+   "title_en": "GDR border to the West closed",
+   "start_date": "1961-08-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "migration",
+   "historical_summary": "После перекрытия секторной границы в Берлине 13 августа 1961 г. 16 августа граница с ФРГ была закрыта для всех жителей ГДР и Восточного Берлина. В конце года Ульбрихт оценивал ущерб от массового бегства в 30 млрд марок.",
+   "historical_summary_en": "After the sector boundary in Berlin was sealed on 13 August 1961, on 16 August the border with the Federal Republic was closed to all residents of the GDR and East Berlin. At the end of the year Ulbricht put the cost of the mass exodus at 30 billion marks.",
+   "affected_groups": [
+    "all_residents",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "family_separation",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "letters_across_the_border",
+    "family_on_the_other_side"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "13.08.1961; 16.08.1961 граница закрыта для всех жителей ГДР; 30.12.1961 30 млрд"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1961-gdr-labour-code",
+   "title": "Кодекс законов о труде ГДР",
+   "title_en": "GDR Labour Code",
+   "start_date": "1961-04-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "labor",
+   "historical_summary": "12 апреля 1961 г. Народная палата приняла Кодекс законов о труде, определявший роль профсоюзов и положение работников на предприятиях. 5 сентября члены ССНМ снимали с крыш антенны, направленные на Запад.",
+   "historical_summary_en": "On 12 April 1961 the People's Chamber passed the Labour Code, which governed the role of trade unions and the position of workers in enterprises. On 5 September members of the FDJ removed west-facing television aerials from roofs.",
+   "affected_groups": [
+    "industrial_workers",
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_western_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "12.04.1961 Gesetzbuch der Arbeit; 05.09.1961 FDJ снимает антенны"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1965-gdr-education-law",
+   "title": "Закон о единой социалистической системе образования",
+   "title_en": "GDR education law",
+   "start_date": "1965-02-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "education",
+   "historical_summary": "25 февраля 1965 г. закон об образовании ГДР урегулировал дошкольное воспитание, десятилетнюю общеобразовательную политехническую школу, профессиональные школы и вузы.",
+   "historical_summary_en": "On 25 February 1965 the GDR education law regulated pre-school education, the ten-year general polytechnic secondary school, vocational schools and higher education.",
+   "affected_groups": [
+    "school_pupils",
+    "teachers",
+    "parents"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "school_days",
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "25.02.1965 Bildungsgesetz"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1965-gdr-family-code",
+   "title": "Семейный кодекс ГДР",
+   "title_en": "GDR Family Code",
+   "start_date": "1965-12-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "family_law",
+   "historical_summary": "21 декабря 1965 г. Семейный кодекс ГДР уравнял в правах детей, рождённых в браке и вне брака, и отменил принцип вины при разводе.",
+   "historical_summary_en": "On 21 December 1965 the GDR Family Code gave children born in and out of wedlock equal legal status and abolished the principle of fault in divorce.",
+   "affected_groups": [
+    "women",
+    "mothers",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "divorce",
+    "child_out_of_wedlock"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "21.12.1965 Familiengesetzbuch"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1965-frg-aliens-act",
+   "title": "Закон об иностранцах ФРГ",
+   "title_en": "West German Aliens Act",
+   "start_date": "1965-02-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "migration",
+   "historical_summary": "12 февраля 1965 г. новый закон об иностранцах предоставил живущим в ФРГ иностранцам основные права, если Основной закон не закреплял их только за немцами. Лотерейный тираж впервые показали по телевизору 4 сентября.",
+   "historical_summary_en": "On 12 February 1965 a new Aliens Act granted foreigners living in the Federal Republic basic rights unless the Basic Law reserved them for Germans. The lottery draw was televised for the first time on 4 September.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_colleagues_from_abroad"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1965.html",
+     "accessed": "2026-11-11",
+     "supports": "12.02.1965 Ausländergesetz; 04.09.1965 лотерея по ТВ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1968-vat-and-cheque-cards",
+   "title": "НДС, чековые карты и кредит по зарплатному счёту",
+   "title_en": "VAT, cheque cards and overdrafts",
+   "start_date": "1968-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "С 1 января 1968 г. налог с оборота заменили налогом на добавленную стоимость. 15 января банки выпустили первые чековые карты, а с 17 сентября крупные банки стали давать держателям зарплатных счетов кредит в форме овердрафта.",
+   "historical_summary_en": "From 1 January 1968 turnover tax was replaced by value added tax. On 15 January banks issued the first cheque cards, and from 17 September the big banks began offering overdrafts to holders of salary accounts.",
+   "affected_groups": [
+    "consumers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_bank_account"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "01.01.1968 НДС; 15.01.1968 Scheckkarten; 17.09.1968 Dispositionskredit"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1968-numerus-clausus",
+   "title": "Numerus clausus в университетах",
+   "title_en": "Numerus clausus at universities",
+   "start_date": "1968-03-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "education",
+   "historical_summary": "27 марта 1968 г. университеты ввели numerus clausus, ограничив приём в зависимости от оценок аттестата зрелости.",
+   "historical_summary_en": "On 27 March 1968 universities introduced the numerus clausus, limiting admission according to Abitur grades.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "university_place"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "27.03.1968 Numerus Clausus"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1968-emergency-laws",
+   "title": "Чрезвычайные законы и студенческие протесты",
+   "title_en": "Emergency laws and student protests",
+   "start_date": "1968-05-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "political_change",
+   "historical_summary": "30 мая 1968 г. бундестаг принял чрезвычайную конституцию, несмотря на марш около 30 тыс. противников на Бонн 11 мая. Год прошёл под знаком студенческих протестов, особенно после покушения на Руди Дучке в апреле.",
+   "historical_summary_en": "On 30 May 1968 the Bundestag passed the emergency constitution despite a march on Bonn by about 30,000 opponents on 11 May. The year was marked by student protests, especially after the shooting of Rudi Dutschke in April.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "protest_generation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "11.05.1968 марш; 30.05.1968 Notstandsverfassung; 11.–17.04.1968 Дучке"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1968-gdr-constitution",
+   "title": "Новая конституция ГДР",
+   "title_en": "New GDR constitution",
+   "start_date": "1968-04-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "political_change",
+   "historical_summary": "6 апреля 1968 г. новая конституция была одобрена на референдуме примерно 94 % голосов и вступила в силу 9 апреля; ГДР определялась как «социалистическое государство немецкой нации». С 10–11 июня для поездок между ФРГ и Западным Берлином ввели паспорта и визы.",
+   "historical_summary_en": "On 6 April 1968 a new constitution was approved in a referendum by about 94% and took effect on 9 April, defining the GDR as a 'socialist state of the German nation'. From 10–11 June passports and visas were required for travel between the Federal Republic and West Berlin.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "transit_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1968.html",
+     "accessed": "2026-11-11",
+     "supports": "06.04.1968 референдум ~94 %, 09.04 в силе; 10.–11.06 паспорта и визы для транзита"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1972-gdr-abortion-law",
+   "title": "Право на аборт в первые три месяца в ГДР",
+   "title_en": "GDR legalises abortion in the first trimester",
+   "start_date": "1972-03-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "9 марта 1972 г. Народная палата ГДР приняла закон, разрешивший прерывание беременности в первые три месяца; решение было не единогласным.",
+   "historical_summary_en": "On 9 March 1972 the GDR People's Chamber passed a law allowing termination of pregnancy in the first three months, the vote not being unanimous.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "unplanned_pregnancy"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1972.html",
+     "accessed": "2026-11-11",
+     "supports": "09.03.1972 Fristenlösung, 14 против, 8 воздержались"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1972-gdr-social-measures",
+   "title": "Социальная программа 1972 года в ГДР",
+   "title_en": "GDR social measures of 1972",
+   "start_date": "1972-04-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "27 апреля 1972 г. руководство СЕПГ, профсоюзы и правительство ГДР утвердили социальные меры для работающих матерей, многодетных семей и пенсионеров. С 15 января граждане ГДР могли ездить в ЧССР без паспорта и визы.",
+   "historical_summary_en": "On 27 April 1972 the SED leadership, the trade unions and the GDR government adopted social measures for working mothers, large families and pensioners. From 15 January GDR citizens could travel to Czechoslovakia without a passport or visa.",
+   "affected_groups": [
+    "mothers",
+    "pensioners",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "holiday_in_czechoslovakia"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1972.html",
+     "accessed": "2026-11-11",
+     "supports": "27.04.1972 соцмеры; 15.01.1972 безвиз в ЧССР"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1972-transit-and-basic-treaty",
+   "title": "Договор о транспорте и Основной договор",
+   "title_en": "Transit Agreement and Basic Treaty",
+   "start_date": "1972-12-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de",
+    "state-gdr"
+   ],
+   "category": "political_change",
+   "historical_summary": "26 мая 1972 г. ФРГ и ГДР подписали договор о транспорте, а 21 декабря — Основной договор о взаимных отношениях с обменом постоянными представителями. С 6 июня граждане ФРГ при посещении Восточного Берлина получали визы вместо однодневных разрешений.",
+   "historical_summary_en": "On 26 May 1972 the FRG and the GDR signed a Transit Agreement, and on 21 December the Basic Treaty on mutual relations with an exchange of permanent representatives. From 6 June West German citizens visiting East Berlin received visas instead of day permits.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visit_to_the_east",
+    "letters_across_the_border"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1972.html",
+     "accessed": "2026-11-11",
+     "supports": "26.05.1972 Verkehrsvertrag; 06.06 визы; 21.12.1972 Grundlagenvertrag"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1972-speed-limit-and-service",
+   "title": "Ограничение скорости 100 км/ч и сокращение военной службы",
+   "title_en": "100 km/h limit and shorter military service",
+   "start_date": "1972-06-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "С 1 июня 1972 г. на загородных дорогах ФРГ действовало ограничение 100 км/ч. 23 июня бундестаг сократил срок военной службы с 18 до 15 месяцев.",
+   "historical_summary_en": "From 1 June 1972 a 100 km/h limit applied on West German country roads. On 23 June the Bundestag cut military service from 18 to 15 months.",
+   "affected_groups": [
+    "young_adults",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_car_in_family",
+    "son_called_up"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1972.html",
+     "accessed": "2026-11-11",
+     "supports": "01.06.1972 Tempo 100; 23.06.1972 15 месяцев службы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1976-frg-divorce-reform",
+   "title": "Новое брачное право ФРГ",
+   "title_en": "New West German marriage law",
+   "start_date": "1976-06-14",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "family_law",
+   "historical_summary": "14 июня 1976 г. бундестаг принял новое брачное право: развод стал основываться на распаде брака, а не на вине, и алименты больше не зависели от вины. С 1 июля супруги могли выбрать фамилию мужа, жены или двойную.",
+   "historical_summary_en": "On 14 June 1976 the Bundestag passed a new marriage law under which divorce was based on breakdown of the marriage rather than fault, and maintenance no longer depended on blame. From 1 July couples could choose the husband's name, the wife's name or a double name.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "divorce",
+    "wedding_name"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1976.html",
+     "accessed": "2026-11-11",
+     "supports": "14.06.1976 Eherecht; 01.07.1976 Namensrecht"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1976-frg-abortion-reform",
+   "title": "Реформа §218 в ФРГ",
+   "title_en": "Reform of §218 in West Germany",
+   "start_date": "1976-02-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "women_rights",
+   "historical_summary": "12 февраля 1976 г. бундестаг принял реформу §218: аборт в первые три месяца оставался ненаказуемым при этических, медицинских или социальных показаниях.",
+   "historical_summary_en": "On 12 February 1976 the Bundestag passed the §218 reform, under which abortion in the first three months went unpunished in cases of ethical, medical or social hardship.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "unplanned_pregnancy"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1976.html",
+     "accessed": "2026-11-11",
+     "supports": "12.02.1976 §218"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1976-frg-seatbelts-youth-protection",
+   "title": "Ремни безопасности и защита молодых работников",
+   "title_en": "Seat belts and protection of young workers",
+   "start_date": "1976-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "С 1 января 1976 г. водители в ФРГ обязаны были пристёгиваться, на автобанах рекомендовалась скорость 130 км/ч. 23 января новый закон о защите работающей молодёжи ввёл пятидневную 40-часовую неделю и 25–30 дней отпуска.",
+   "historical_summary_en": "From 1 January 1976 drivers in West Germany had to wear seat belts, and 130 km/h was recommended on motorways. On 23 January a new law protecting young workers introduced a five-day, 40-hour week and 25 to 30 days of holiday.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_car_in_family",
+    "apprenticeship"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1976.html",
+     "accessed": "2026-11-11",
+     "supports": "01.01.1976 ремни; 23.01.1976 Jugendarbeitsschutz"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1976-gdr-minimum-wage",
+   "title": "Повышение минимальной зарплаты в ГДР",
+   "title_en": "GDR minimum wage raised",
+   "start_date": "1976-07-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "27 мая 1976 г. руководство ГДР наметило улучшение «условий труда и жизни» на 1976–1980 гг., включая рост минимальных зарплат и пенсий. С 30 июля минимальная зарплата выросла с 350 до 400 марок.",
+   "historical_summary_en": "On 27 May 1976 the GDR leadership set out plans to improve 'working and living conditions' for 1976–1980, including higher minimum wages and pensions. From 30 July the minimum wage rose from 350 to 400 marks.",
+   "affected_groups": [
+    "industrial_workers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1976.html",
+     "accessed": "2026-11-11",
+     "supports": "27.05.1976 программа; 30.07.1976 350→400 марок"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1986-chernobyl-frg",
+   "title": "Последствия Чернобыля в ФРГ",
+   "title_en": "Effects of Chernobyl in West Germany",
+   "start_date": "1986-04-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "environment",
+   "historical_summary": "После аварии в Чернобыле в ФРГ был зафиксирован повышенный уровень радиации. В мае правительство выделило помощь фермерам, чью загрязнённую продукцию нельзя было продать.",
+   "historical_summary_en": "After the Chernobyl accident increased radiation levels were measured in West Germany. In May the government approved aid for farmers whose contaminated produce could not be sold.",
+   "affected_groups": [
+    "agricultural_workers",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "vegetables_from_the_garden"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1986.html",
+     "accessed": "2026-11-11",
+     "supports": "26.04.1986 радиация; 13.05/21.05.1986 помощь фермерам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1986-child-rearing-allowance",
+   "title": "Пособие по уходу за ребёнком",
+   "title_en": "Child-rearing allowance",
+   "start_date": "1986-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "social_policy",
+   "historical_summary": "С 1 января 1986 г. в ФРГ впервые выплачивалось пособие по воспитанию ребёнка (Erziehungsgeld), выросли жилищная субсидия и пособие по безработице для пожилых работников.",
+   "historical_summary_en": "From 1 January 1986 West Germany paid the child-rearing allowance (Erziehungsgeld) for the first time, and housing benefit and unemployment benefit for older workers were increased.",
+   "affected_groups": [
+    "mothers",
+    "parents",
+    "unemployed"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "staying_home_with_baby"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1986.html",
+     "accessed": "2026-11-11",
+     "supports": "01.01.1986 Erziehungsgeld, Wohngeld, Arbeitslosengeld"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1986-gdr-dt64-cultural-agreement",
+   "title": "Культурное соглашение и молодёжное радио DT64",
+   "title_en": "Cultural agreement and DT64 youth radio",
+   "start_date": "1986-05-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "6 мая 1986 г. после двенадцати лет переговоров ФРГ и ГДР подписали культурное соглашение. В марте в ГДР начала круглосуточное вещание молодёжная радиостанция DT64.",
+   "historical_summary_en": "On 6 May 1986, after twelve years of negotiation, the two German states signed a cultural agreement. In March the youth radio station DT64 began broadcasting as a full station in the GDR.",
+   "affected_groups": [
+    "young_adults"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "music_on_the_radio"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1986.html",
+     "accessed": "2026-11-11",
+     "supports": "06.05.1986 Kulturabkommen; 07.03.1986 DT64"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1989-gdr-exodus-via-hungary",
+   "title": "Массовый выезд из ГДР через Венгрию и посольства",
+   "title_en": "Mass exodus from the GDR via Hungary and embassies",
+   "start_date": "1989-09-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "migration",
+   "historical_summary": "10–11 сентября 1989 г. Венгрия выпустила всех находившихся там граждан ГДР, желавших уехать; до конца сентября в ФРГ прибыли около 30 тыс. переселенцев. 30 сентября Геншер объявил о выезде беженцев из посольств в Праге и Варшаве, и в начале октября их везли через ГДР специальными поездами.",
+   "historical_summary_en": "On 10–11 September 1989 Hungary let all GDR citizens there who wished to leave depart, and by the end of September about 30,000 resettlers had reached West Germany. On 30 September Genscher announced the departure of the refugees in the Prague and Warsaw embassies, who were taken across the GDR in special trains in early October.",
+   "affected_groups": [
+    "young_adults",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "leaving_without_goodbye"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "10.–11.09.1989 ~30 000 к концу сентября; 30.09 Прага; 01.10/04.10 поезда"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1989-gdr-peaceful-revolution",
+   "title": "Мирная революция в ГДР",
+   "title_en": "Peaceful revolution in the GDR",
+   "start_date": "1989-11-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "political_change",
+   "historical_summary": "Осенью 1989 г. протесты в ГДР стали массовыми: 4 ноября на Александерплац в Восточном Берлине вышли от полумиллиона до миллиона человек. 18 октября ушёл Хонеккер, 1 декабря Народная палата исключила из конституции руководящую роль СЕПГ.",
+   "historical_summary_en": "In autumn 1989 protests in the GDR became a mass movement, and on 4 November between half a million and a million people gathered on Alexanderplatz in East Berlin. Honecker stepped down on 18 October, and on 1 December the People's Chamber removed the SED's leading role from the constitution.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "candle_in_the_window",
+    "first_demonstration"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "04.11.1989 Alexanderplatz; 18.10 Хонеккер; 01.12 конституция"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1989-travel-freedom",
+   "title": "Открытие границы и «приветственные деньги»",
+   "title_en": "Border opened and 'welcome money'",
+   "start_date": "1989-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de",
+    "state-gdr"
+   ],
+   "category": "migration",
+   "historical_summary": "Вечером 9 ноября 1989 г. была объявлена новая регуляция поездок, и до полуночи открылись первые пограничные переходы. 11–12 ноября около трёх миллионов граждан ГДР посетили ФРГ и Западный Берлин и получали «приветственные деньги»; с 24 декабря граждане ФРГ могли ездить в ГДР без визы и обязательного обмена.",
+   "historical_summary_en": "On the evening of 9 November 1989 a new travel regulation was announced and the first border crossings opened before midnight. On 11–12 November about three million GDR citizens visited West Germany and West Berlin and drew 'welcome money', and from 24 December West Germans could travel to the GDR without a visa or compulsory exchange.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "visit_to_the_west",
+    "family_on_the_other_side",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1989.html",
+     "accessed": "2026-11-11",
+     "supports": "09.11.1989; 11.–12.11 ~3 млн, Begrüßungsgeld; 24.12 без визы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1990-first-free-volkskammer-election",
+   "title": "Первые свободные выборы в Народную палату",
+   "title_en": "First free Volkskammer election",
+   "start_date": "1990-03-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "political_change",
+   "historical_summary": "18 марта 1990 г. прошли первые и единственные свободные выборы в Народную палату ГДР при явке 93,38 %; «Альянс за Германию» получил 48,15 %. 6 мая состоялись первые свободные местные выборы.",
+   "historical_summary_en": "On 18 March 1990 the first and only free election to the GDR People's Chamber was held with a turnout of 93.38%, and the Alliance for Germany won 48.15%. On 6 May the first free local elections took place.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "18.03.1990: 93,38 %, Allianz 48,15 %; 06.05 местные"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1990-monetary-union",
+   "title": "Валютный, экономический и социальный союз",
+   "title_en": "Monetary, economic and social union",
+   "start_date": "1990-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "1 июля 1990 г. вступил в силу валютный, экономический и социальный союз, и немецкая марка стала единственной валютой ГДР. Зарплаты, квартплаты и пенсии пересчитывались 1:1, сбережения — 1:1 до 2000–6000 марок в зависимости от возраста, сверх того 2:1; цены освобождались, большинство дотаций отменялось.",
+   "historical_summary_en": "On 1 July 1990 the monetary, economic and social union took effect and the Deutsche Mark became the GDR's only currency. Wages, rents and pensions were converted at 1:1, savings at 1:1 up to 2,000 to 6,000 marks depending on age and at 2:1 above that, while prices were freed and most subsidies were removed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost",
+    "price_shock",
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "new_money",
+    "shop_shelves_change_overnight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "01.07.1990; курсы от 02.05.1990; 30.05.1990 свободные цены"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1990-treuhand",
+   "title": "Создание Опекунского ведомства (Treuhand)",
+   "title_en": "Treuhandanstalt constituted",
+   "start_date": "1990-07-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "local_economy",
+   "historical_summary": "16 июля 1990 г. было конституировано Опекунское ведомство (Treuhandanstalt), которому передали около 8000 народных предприятий для приватизации или ликвидации.",
+   "historical_summary_en": "On 16 July 1990 the Treuhandanstalt was constituted and given about 8,000 state-owned enterprises to privatise or wind up.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_closes",
+    "retraining"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "16.07.1990 Treuhand, ~8000 VEB"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1990-reunification",
+   "title": "Объединение Германии",
+   "title_en": "German unification",
+   "start_date": "1990-10-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "political_change",
+   "historical_summary": "3 октября 1990 г. ГДР присоединилась к сфере действия Основного закона, и Германия была объединена с полным суверенитетом после Договора «2+4». 2 декабря прошли первые общегерманские выборы с 1932 г.",
+   "historical_summary_en": "On 3 October 1990 the GDR acceded to the Basic Law and Germany was unified with full sovereignty following the Two Plus Four Treaty. On 2 December the first all-German election since 1932 was held.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "unification_day",
+    "first_free_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1990.html",
+     "accessed": "2026-11-11",
+     "supports": "03.10.1990 объединение; 12.09 «2+4»; 02.12.1990 выборы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

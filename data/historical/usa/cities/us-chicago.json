@@ -139,7 +139,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nara"
    ],
    "evidence": [
     {
@@ -147,10 +148,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
      "accessed": "2026-10-29",
      "supports": "1915 Great Migration begins"
+    },
+    {
+     "source_id": "us_nara",
+     "url": "https://www.archives.gov/research/african-americans/migrations/great-migration",
+     "accessed": "2026-11-13",
+     "supports": "Великая миграция с 1910-х гг.; Чикаго среди главных городов назначения"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-chicago-1918-influenza",
@@ -268,9 +275,9 @@
   {
    "id": "us-chicago-1927-municipal-airport",
    "title": "Открытие Муниципального аэропорта (Мидуэй)",
-   "start_date": "1927",
+   "start_date": "1926-05-08",
    "end_date": null,
-   "date_precision": "year",
+   "date_precision": "day",
    "approximate": false,
    "country_codes": [
     "US"
@@ -280,7 +287,7 @@
     "us-chicago"
    ],
    "category": "infrastructure_transport",
-   "historical_summary": "В 1927 г. открылся Муниципальный аэропорт Чикаго, позже названный Мидуэй.",
+   "historical_summary": "8 мая 1926 г. открылся Муниципальный аэропорт Чикаго, позже названный Мидуэем; в 1927 г. мэр Уильям Томпсон торжественно освятил его.",
    "affected_groups": [
     "all_residents"
    ],
@@ -288,7 +295,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_flychicago"
    ],
    "evidence": [
     {
@@ -296,10 +304,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
      "accessed": "2026-10-29",
      "supports": "1927 Chicago Municipal Airport (later Midway) opens"
+    },
+    {
+     "source_id": "us_flychicago",
+     "url": "https://www.flychicago.com/business/CDA/Pages/Midway.aspx",
+     "accessed": "2026-11-13",
+     "supports": "хронология Департамента авиации Чикаго: Муниципальный аэропорт открыт 8 мая 1926 г., в 1927 г. мэр Томпсон официально его освятил"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-chicago-1930-unemployment-rally",
@@ -437,7 +451,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_census"
    ],
    "evidence": [
     {
@@ -445,10 +460,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
      "accessed": "2026-10-29",
      "supports": "population 1950 peak and 1980"
+    },
+    {
+     "source_id": "us_census",
+     "url": "https://www2.census.gov/library/working-papers/1998/demographics/pop-twps0027/tab18.txt",
+     "accessed": "2026-11-13",
+     "supports": "перепись 1950: Чикаго — 3 620 962 жителя (в 1960 г. — 3 550 404, табл. 19)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-chicago-1955-emmett-till-funeral",
@@ -734,7 +755,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -742,10 +764,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Chicago_history",
      "accessed": "2026-10-29",
      "supports": "1979 blizzard; Jane Byrne first female mayor"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/lot/top20events_1900to1999",
+     "accessed": "2026-11-13",
+     "supports": "NWS Чикаго: метель 12–14 января 1979 г., 20,3 дюйма снега, «мэр потерял должность»"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-chicago-1983-harold-washington",
@@ -844,7 +872,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -852,10 +881,16 @@
      "url": "https://en.wikipedia.org/wiki/1995_Chicago_heat_wave",
      "accessed": "2026-10-29",
      "supports": "даты, число умерших, уязвимые группы"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/lot/top20events_1900to1999",
+     "accessed": "2026-11-13",
+     "supports": "NWS Чикаго: жара 12–16 июля 1995 г., 583 погибших — самое смертоносное погодное событие века"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-chicago-2004-millennium-park",
@@ -1228,7 +1263,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_flychicago"
    ],
    "evidence": [
     {
@@ -1236,10 +1272,16 @@
      "url": "https://en.wikipedia.org/wiki/O%27Hare_International_Airport",
      "accessed": "2026-10-29",
      "supports": "1955, 1959, 1963–1998"
+    },
+    {
+     "source_id": "us_flychicago",
+     "url": "https://www.flychicago.com/business/CDA/Pages/OHare.aspx",
+     "accessed": "2026-11-13",
+     "supports": "хронология Департамента авиации Чикаго: в 1955 г. О’Хара официально открыт для коммерческих рейсов; в 1962 г. все регулярные рейсы Мидуэя переведены в О’Хара"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-chicago-1947-cta-begins",

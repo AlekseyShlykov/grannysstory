@@ -1,0 +1,57 @@
+{
+ "records": [
+  {
+   "id": "fi-pohjois-karjala-1960-province-created",
+   "title": "Создание губернии Северная Карелия",
+   "title_en": "North Karelia Province created",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "FI"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "fi-laani-pohjois-karjala"
+   ],
+   "category": "border_administrative",
+   "subcategory": "provinces",
+   "historical_summary": "В 1960 г. восточная часть губернии Куопио была выделена в губернию Северная Карелия, куда вошёл и Иломантси. 1 сентября 1997 г. губерния вошла в состав Восточной Финляндии.",
+   "historical_summary_en": "In 1960 the eastern part of Kuopio Province was separated as North Karelia Province, which included Ilomantsi. On 1 September 1997 it became part of Eastern Finland Province.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "fi_en_wikipedia",
+    "fi_sv_wikipedia",
+    "fi_finlex"
+   ],
+   "evidence": [
+    {
+     "source_id": "fi_sv_wikipedia",
+     "url": "https://sv.wikipedia.org/wiki/Norra_Karelens_län",
+     "accessed": "2026-11-11",
+     "supports": "1960 established from Kuopio län; Ilomants listed; abolished 1.9.1997"
+    },
+    {
+     "source_id": "fi_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kuopio_Province",
+     "accessed": "2026-11-11",
+     "supports": "eastern part separated 1960 as Northern Karelia"
+    },
+    {
+     "source_id": "fi_finlex",
+     "url": "https://www.finlex.fi/en/legislation/1960/26",
+     "accessed": "2026-11-12",
+     "supports": "Decree 26/1960 establishing posts in the new provincial governments of North Karelia and Central Finland and abolishing posts in the Kuopio and Vaasa provincial governments"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

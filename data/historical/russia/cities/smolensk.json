@@ -105,7 +105,9 @@
       ],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_admin_smolensk",
+        "ru_smoladmin"
       ],
       "evidence": [
         {
@@ -119,10 +121,22 @@
           "url": "https://ru.wikipedia.org/wiki/Смоленский_трамвай",
           "accessed": "2026-10-29",
           "supports": "перерыв трамвая 1941–1947"
+        },
+        {
+          "source_id": "ru_admin_smolensk",
+          "url": "https://www.admin-smolensk.ru/our_region/letopis-smolenskoj-oblasti/",
+          "accessed": "2026-11-13",
+          "supports": "«Летопись Смоленской области»: Смоленское оборонительное сражение 1941; освобождение в 1943 после 26 месяцев оккупации областного центра"
+        },
+        {
+          "source_id": "ru_smoladmin",
+          "url": "https://smoladmin.ru/o-smolenske/istoriya-goroda-v-datah/",
+          "accessed": "2026-11-13",
+          "supports": "«История города в датах»: 15–29 июля 1941 бои в Смоленске; 25 сентября 1943 город освобождён"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-smolensk-1947-tram-resumed",
@@ -225,7 +239,8 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_smolensk_museum"
       ],
       "evidence": [
         {
@@ -233,10 +248,16 @@
           "url": "https://ru.wikipedia.org/wiki/Смоленск",
           "accessed": "2026-10-29",
           "supports": "30.07.1952"
+        },
+        {
+          "source_id": "ru_smolensk_museum",
+          "url": "http://www.smolensk-museum.ru/novosti/muzeynaya_zhizn/unikalnye-eksponaty-istoricheskogo-muzeya-smolenskie-berestyanye-gramoty/",
+          "accessed": "2026-11-13",
+          "supports": "30 июля 1952 экспедиция Д. А. Авдусина нашла первую берестяную грамоту в Смоленске (ул. Соболева)"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-smolensk-1963-kristall",
@@ -302,7 +323,9 @@
       "narrative_hooks": [],
       "sensitive": false,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_admin_smolensk",
+        "ru_smoladmin"
       ],
       "evidence": [
         {
@@ -310,10 +333,22 @@
           "url": "https://ru.wikipedia.org/wiki/Смоленск",
           "accessed": "2026-10-29",
           "supports": "06.05.1985"
+        },
+        {
+          "source_id": "ru_admin_smolensk",
+          "url": "https://www.admin-smolensk.ru/our_region/letopis-smolenskoj-oblasti/",
+          "accessed": "2026-11-13",
+          "supports": "«Летопись Смоленской области»: 1985 — указом Президиума ВС СССР Смоленску присвоено звание «Город-герой»"
+        },
+        {
+          "source_id": "ru_smoladmin",
+          "url": "https://smoladmin.ru/o-smolenske/istoriya-goroda-v-datah/",
+          "accessed": "2026-11-13",
+          "supports": "«История города в датах»: 6 мая 1985 указом Президиума ВС СССР Смоленску присвоено звание «Город-герой»"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-smolensk-1991-trolleybus",
@@ -378,7 +413,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_kremlin"
       ],
       "evidence": [
         {
@@ -386,10 +422,16 @@
           "url": "https://ru.wikipedia.org/wiki/Смоленск",
           "accessed": "2026-10-29",
           "supports": "10.04.2010"
+        },
+        {
+          "source_id": "ru_kremlin",
+          "url": "http://www.kremlin.ru/events/president/news/7421",
+          "accessed": "2026-11-13",
+          "supports": "10.04.2010: обращение Президента России к народу Польши в связи с гибелью президента Л. Качиньского в авиакатастрофе"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     }
   ]
 }

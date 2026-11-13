@@ -1,0 +1,713 @@
+{
+ "records": [
+  {
+   "id": "de-nat-1900-bgb-in-force",
+   "title": "Вступление в силу Гражданского уложения (BGB)",
+   "title_en": "Civil Code (BGB) enters into force",
+   "start_date": "1900-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "family_law",
+   "subcategory": "civil_code",
+   "historical_summary": "1 января 1900 г. вступили в силу Гражданское уложение и Торговый кодекс, впервые создав единое гражданское право во всём Германском рейхе. Уложение, среди прочего, регулировало брак, семейное имущество и наследование.",
+   "historical_summary_en": "On 1 January 1900 the Civil Code and the Commercial Code entered into force, creating a uniform civil law across the German Reich for the first time. The Code governed, among other things, marriage, marital property and inheritance.",
+   "affected_groups": [
+    "all_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "wedding_contract",
+    "inheritance_dispute"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1900",
+     "accessed": "2026-11-11",
+     "supports": "1.1.1900: BGB и HGB вступают в силу, единое право в рейхе"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1900-shop-closing-hours",
+   "title": "Новые часы закрытия магазинов",
+   "title_en": "New shop closing hours",
+   "start_date": "1900-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "labor",
+   "subcategory": "working_hours",
+   "historical_summary": "С 1 октября 1900 г. по новому имперскому промысловому уставу магазины должны были закрываться с 21 часа до 5 утра. Ученикам и приказчикам гарантировался не менее чем десятичасовой отдых.",
+   "historical_summary_en": "From 1 October 1900 the new Reich trade regulations required shops to close between 9 p.m. and 5 a.m. Apprentices and shop assistants were guaranteed a rest period of at least ten hours.",
+   "affected_groups": [
+    "office_workers",
+    "young_adults",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_job_in_a_shop"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1900",
+     "accessed": "2026-11-11",
+     "supports": "1.10.1900: Gewerbeordnung — закрытие лавок 21–5, 10 часов отдыха для учеников"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1900-census",
+   "title": "Перепись населения 1900 года",
+   "title_en": "Census of 1900",
+   "start_date": "1900-12-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "everyday_life",
+   "subcategory": "census",
+   "historical_summary": "Перепись 1 декабря 1900 г. насчитала в Германской империи 56 345 014 жителей. Это на 7,78 % больше, чем пятью годами ранее.",
+   "historical_summary_en": "The census of 1 December 1900 counted 56,345,014 inhabitants in the German Empire. This was 7.78% more than five years earlier.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1900",
+     "accessed": "2026-11-11",
+     "supports": "1.12.1900: перепись, 56 345 014 жителей, +7,78 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1900-dfb-founded",
+   "title": "Основан Германский футбольный союз",
+   "title_en": "German Football Association founded",
+   "title_original": "Gründung des Deutschen Fußball-Bundes",
+   "start_date": "1900-01-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "sport",
+   "historical_summary": "28 января 1900 г. в Лейпциге 68 клубов основали Германский футбольный союз (DFB). Футбол получил общенациональную организацию.",
+   "historical_summary_en": "On 28 January 1900 sixty-eight clubs founded the German Football Association (DFB) in Leipzig. Football thereby gained a national organisation.",
+   "affected_groups": [
+    "young_adults",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "football_on_sunday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1900",
+     "accessed": "2026-11-11",
+     "supports": "28.1.1900: основание DFB в Лейпциге, 68 клубов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1911-reich-insurance-code",
+   "title": "Имперский страховой кодекс",
+   "title_en": "Reich Insurance Code adopted",
+   "title_original": "Reichsversicherungsordnung",
+   "start_date": "1911-05-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "social_policy",
+   "historical_summary": "30 мая 1911 г. рейхстаг принял Имперский страховой кодекс (Reichsversicherungsordnung), объединивший и расширивший законы о социальном страховании.",
+   "historical_summary_en": "On 30 May 1911 the Reichstag passed the Reich Insurance Code (Reichsversicherungsordnung), which consolidated and extended the social insurance laws.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "sick_pay"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1911",
+     "accessed": "2026-11-11",
+     "supports": "30.5.1911: принят RVO, расширение социального страхования"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1911-kaiser-wilhelm-society",
+   "title": "Основано Общество кайзера Вильгельма",
+   "title_en": "Kaiser Wilhelm Society founded",
+   "start_date": "1911-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "education",
+   "historical_summary": "В январе 1911 г. в Берлине было основано Общество кайзера Вильгельма для развития науки, предшественник нынешнего Общества Макса Планка.",
+   "historical_summary_en": "In January 1911 the Kaiser Wilhelm Society for the advancement of science was founded in Berlin, the forerunner of today's Max Planck Society.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1911",
+     "accessed": "2026-11-11",
+     "supports": "январь 1911: основание Kaiser-Wilhelm-Gesellschaft"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1916-war-food-office",
+   "title": "Создано Военное продовольственное управление",
+   "title_en": "War Food Office created",
+   "start_date": "1916-05-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "22 мая 1916 г. для обеспечения населения продовольствием было создано Военное продовольственное управление (Kriegsernährungsamt). Снабжение продуктами в войну всё больше регулировалось государством.",
+   "historical_summary_en": "On 22 May 1916 the War Food Office (Kriegsernährungsamt) was set up to secure the population's food supply. Food provision during the war came increasingly under state control.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "queue_for_goods"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "22.5.1916: основание Kriegsernährungsamt"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1916-meat-ration-card",
+   "title": "Имперская мясная карточка",
+   "title_en": "Reich meat ration card introduced",
+   "start_date": "1916-10-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "2 октября 1916 г. была введена имперская мясная карточка с нормой 250 г в неделю. 14 октября новое постановление ограничило картофель 750 г в день.",
+   "historical_summary_en": "On 2 October 1916 a Reich meat ration card was introduced with an allowance of 250 g a week. On 14 October a new ordinance limited potatoes to 750 g a day.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "ration_cards",
+    "queue_for_goods"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "2.10.1916: мясная карточка 250 г/нед.; 14.10.1916: 750 г картофеля в день"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1916-turnip-winter",
+   "title": "«Брюквенная зима»",
+   "title_en": "The 'turnip winter'",
+   "title_original": "Kohlrübenwinter",
+   "start_date": "1916-12-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "4 декабря 1916 г. из-за неурожая картофеля всю брюкву в рейхе реквизировали для снабжения населения; зима 1916/17 вошла в память как «брюквенная». Ещё в октябре были установлены предельные цены на брюкву и морковь.",
+   "historical_summary_en": "On 4 December 1916, owing to the potato shortage, all swedes in the Reich were requisitioned to feed the population, and the winter of 1916/17 was remembered as the 'turnip winter'. Maximum prices for swedes and carrots had already been fixed in October.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "hunger_winter",
+    "ration_cards"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "4.12.1916: реквизиция брюквы (Kohlrübenwinter); 26.10.1916 предельные цены"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1916-auxiliary-service-law",
+   "title": "Закон о вспомогательной службе",
+   "title_en": "Auxiliary Service Law",
+   "start_date": "1916-12-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "labor",
+   "historical_summary": "2 декабря 1916 г. рейхстаг принял закон о вспомогательной службе отечеству: мужчин от 17 до 60 лет можно было обязать работать в военной промышленности и других важных отраслях.",
+   "historical_summary_en": "On 2 December 1916 the Reichstag passed the Patriotic Auxiliary Service Law, under which men aged 17 to 60 could be required to work in war industry and other essential sectors.",
+   "affected_groups": [
+    "men",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "2.12.1916: Hilfsdienstgesetz, мужчины 17–60"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1916-price-rises-tobacco-post",
+   "title": "Военный рост налогов и тарифов",
+   "title_en": "Wartime tax and tariff increases",
+   "start_date": "1916-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "С 1 июля 1916 г. повысился табачный налог, и сигареты подорожали вдвое. С 1 августа почтовые и телеграфные сборы выросли до 50 %.",
+   "historical_summary_en": "From 1 July 1916 the tobacco tax rose and cigarettes doubled in price. From 1 August postal and telegraph charges rose by up to 50%.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "1.7.1916 табачный налог (+100 %); 1.8.1916 почтовые сборы до +50 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1916-jewish-census",
+   "title": "«Перепись евреев» в армии",
+   "title_en": "The army's 'Jewish census'",
+   "title_original": "Judenzählung",
+   "start_date": "1916-10-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "repression",
+   "historical_summary": "11 октября 1916 г. прусское военное министерство под давлением правонационалистических кругов распорядилось провести учёт евреев-солдат и уволенных со службы евреев. Этот «Judenzählung» стал унизительным знаком антисемитизма.",
+   "historical_summary_en": "On 11 October 1916 the Prussian War Ministry, under pressure from right-wing nationalist circles, ordered a count of Jewish soldiers and of Jews discharged from service. This 'Judenzählung' became a humiliating sign of antisemitism.",
+   "affected_groups": [
+    "jewish_population",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1916",
+     "accessed": "2026-11-11",
+     "supports": "11.10.1916: Judenzählung"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1918-bread-ration-cut",
+   "title": "Хлебный паёк сокращён до 150 г",
+   "title_en": "Bread ration cut to 150 g",
+   "start_date": "1918-05-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "16 мая 1918 г. Военное продовольственное управление сократило дневную норму хлеба до 150 г на человека.",
+   "historical_summary_en": "On 16 May 1918 the War Food Office cut the daily bread ration to 150 g per person.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "ration_cards",
+    "hunger_winter"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1918",
+     "accessed": "2026-11-11",
+     "supports": "16.5.1918: хлебный паёк 150 г в день"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1918-republic-proclaimed",
+   "title": "Отречение кайзера и провозглашение республики",
+   "title_en": "Kaiser's abdication announced, republic proclaimed",
+   "start_date": "1918-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-empire"
+   ],
+   "category": "political_change",
+   "historical_summary": "9 ноября 1918 г. рейхсканцлер Макс Баденский объявил об отречении Вильгельма II и передал пост Фридриху Эберту; Филипп Шейдеман провозгласил республику. Вскоре по всей стране возникли рабочие и солдатские советы.",
+   "historical_summary_en": "On 9 November 1918 Chancellor Max von Baden announced the abdication of Wilhelm II and handed office to Friedrich Ebert, and Philipp Scheidemann proclaimed the republic. Workers' and soldiers' councils soon formed across the country.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "revolution_days"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1918",
+     "accessed": "2026-11-11",
+     "supports": "9.11.1918: объявление об отречении, Шейдеман провозглашает республику"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1918-armistice",
+   "title": "Перемирие в Компьене",
+   "title_en": "Armistice of Compiègne",
+   "start_date": "1918-11-11",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "11 ноября 1918 г. было заключено перемирие, завершившее боевые действия Первой мировой войны; Брестский и Бухарестский договоры аннулировались. 31 декабря было решено демобилизовать всю армию.",
+   "historical_summary_en": "On 11 November 1918 the armistice ending the fighting of the First World War was concluded, and the treaties of Brest-Litovsk and Bucharest were annulled. On 31 December the decision was taken to demobilise the entire army.",
+   "affected_groups": [
+    "soldiers_families",
+    "veterans"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "soldier_returns_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1918",
+     "accessed": "2026-11-11",
+     "supports": "11.11.1918 перемирие; 31.12.1918 решение о демобилизации"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1918-womens-suffrage",
+   "title": "Объявлено избирательное право для женщин",
+   "title_en": "Women's suffrage announced",
+   "start_date": "1918-11-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "women_rights",
+   "historical_summary": "12 ноября 1918 г. Совет народных уполномоченных объявил программу, включавшую всеобщее избирательное право для женщин и отмену прусской трёхклассной системы выборов.",
+   "historical_summary_en": "On 12 November 1918 the Council of People's Deputies announced a programme that included the vote for women and the abolition of Prussia's three-class franchise.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1918",
+     "accessed": "2026-11-11",
+     "supports": "12.11.1918: программа СНУ — избирательное право женщин"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1918-eight-hour-day",
+   "title": "Восьмичасовой рабочий день",
+   "title_en": "Eight-hour working day",
+   "start_date": "1918-11-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "labor",
+   "historical_summary": "15 ноября 1918 г. соглашение Штиннеса — Легина между предпринимателями и профсоюзами создало Центральное трудовое сообщество и ввело восьмичасовой рабочий день.",
+   "historical_summary_en": "On 15 November 1918 the Stinnes-Legien Agreement between employers and trade unions created a Central Working Community and introduced the eight-hour working day.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1918",
+     "accessed": "2026-11-11",
+     "supports": "15.11.1918: Stinnes-Legien-Abkommen, 8-часовой день"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

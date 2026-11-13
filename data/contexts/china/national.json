@@ -1,0 +1,1574 @@
+{
+ "records": [
+  {
+   "id": "cn-ctx-1949-2018-income",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1949,
+   "period_end": 2018,
+   "context_type": "wages_income",
+   "attribute": "disposable_income_per_capita",
+   "title": "Доходы горожан и сельских жителей, 1949–2018",
+   "title_en": "Urban and rural incomes, 1949–2018",
+   "description": "Располагаемый доход на человека в 1949 г. составлял 49,7 юаня (горожане 99,5, сельские жители 44), в 1978 г. — 343 юаня у горожан и 134 у сельских жителей, в 2018 г. — 39 251 и 14 617 юаней. Разрыв между городом и деревней сохранялся на всём протяжении периода. Суммы номинальные.",
+   "description_en": "Disposable income per person was 49.7 yuan in 1949 (99.5 urban, 44 rural), 343 yuan for urban and 134 yuan for rural residents in 1978, and 39,251 and 14,617 yuan in 2018. The urban–rural gap persisted throughout. Amounts are nominal.",
+   "statistics": [
+    {
+     "indicator": "disposable_income_per_capita",
+     "value": 49.7,
+     "unit": "yuan/year",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "номинально; доклад НБС к 70-летию КНР",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_disposable_income_per_capita",
+     "value": 99.5,
+     "unit": "yuan/year",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_disposable_income_per_capita",
+     "value": 44,
+     "unit": "yuan/year",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_disposable_income_per_capita",
+     "value": 254,
+     "unit": "yuan/year",
+     "year": 1957,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_disposable_income_per_capita",
+     "value": 73,
+     "unit": "yuan/year",
+     "year": 1957,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_disposable_income_per_capita",
+     "value": 343,
+     "unit": "yuan/year",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_disposable_income_per_capita",
+     "value": 134,
+     "unit": "yuan/year",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_disposable_income_per_capita",
+     "value": 1701,
+     "unit": "yuan/year",
+     "year": 1991,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_disposable_income_per_capita",
+     "value": 709,
+     "unit": "yuan/year",
+     "year": 1991,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_disposable_income_per_capita",
+     "value": 24127,
+     "unit": "yuan/year",
+     "year": 2012,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_disposable_income_per_capita",
+     "value": 8389,
+     "unit": "yuan/year",
+     "year": 2012,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_disposable_income_per_capita",
+     "value": 39251,
+     "unit": "yuan/year",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_disposable_income_per_capita",
+     "value": 14617,
+     "unit": "yuan/year",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900408.html",
+     "accessed": "2026-11-11",
+     "supports": "доходы 1949, 1957, 1978, 1991, 2012, 2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-1978-2018-engel",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1978,
+   "period_end": 2018,
+   "context_type": "prices_spending",
+   "attribute": "engel_coefficient",
+   "title": "Доля расходов на еду, 1978–2018",
+   "title_en": "Share of spending on food, 1978–2018",
+   "description": "Коэффициент Энгеля (доля еды в потребительских расходах) в 1978 г. составлял 57,5% у горожан и 67,7% у сельских жителей, в 1992 г. — 53,0% и 57,5%, в 2018 г. — 27,7% и 30,1%. Потребительские расходы на человека в 1978 г.: 311 юаней в городе и 116 в деревне.",
+   "description_en": "The Engel coefficient (food's share of consumer spending) was 57.5% for urban and 67.7% for rural residents in 1978, 53.0% and 57.5% in 1992, and 27.7% and 30.1% in 2018. Consumer spending per person in 1978 was 311 yuan in towns and 116 yuan in the countryside.",
+   "statistics": [
+    {
+     "indicator": "engel_coefficient_urban",
+     "value": 57.5,
+     "unit": "%",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_rural",
+     "value": 67.7,
+     "unit": "%",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_urban",
+     "value": 53.0,
+     "unit": "%",
+     "year": 1992,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_rural",
+     "value": 57.5,
+     "unit": "%",
+     "year": 1992,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_urban",
+     "value": 32.0,
+     "unit": "%",
+     "year": 2012,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_rural",
+     "value": 35.9,
+     "unit": "%",
+     "year": 2012,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_urban",
+     "value": 27.7,
+     "unit": "%",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "engel_coefficient_rural",
+     "value": 30.1,
+     "unit": "%",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "consumption_per_capita_urban",
+     "value": 311,
+     "unit": "yuan/year",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "consumption_per_capita_rural",
+     "value": 116,
+     "unit": "yuan/year",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "номинально",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900408.html",
+     "accessed": "2026-11-11",
+     "supports": "коэффициенты Энгеля 1978–2018; расходы 1978"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-1956-1980-durables",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1956,
+   "period_end": 1980,
+   "context_type": "appliances",
+   "attribute": "durable_goods_per_100_households",
+   "title": "Велосипед, часы, швейная машинка и радио",
+   "title_en": "Bicycle, watch, sewing machine and radio",
+   "description": "В 1956 г. на 100 городских семей приходилось 6,7 велосипеда, 10 механических часов и 2,7 лампового радиоприёмника. К 1979 г. в городе было 113 велосипедов, 204 часов, 54,3 швейной машинки и 70,5 радиоприёмника на 100 семей, в деревне — 36,2, 27,8, 22,6 и 26,1. Телевизор в 1980 г. имели 32 из 100 городских семей и 0,4 из 100 сельских.",
+   "description_en": "In 1956 there were 6.7 bicycles, 10 mechanical watches and 2.7 valve radios per 100 urban households. By 1979 urban households had 113 bicycles, 204 watches, 54.3 sewing machines and 70.5 radios per 100, and rural households 36.2, 27.8, 22.6 and 26.1. In 1980 there were 32 television sets per 100 urban households and 0.4 per 100 rural ones.",
+   "statistics": [
+    {
+     "indicator": "bicycles_per_100_households_urban",
+     "value": 6.7,
+     "unit": "per 100 households",
+     "year": 1956,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "bicycles_per_100_households_urban",
+     "value": 113.0,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "bicycles_per_100_households_rural",
+     "value": 36.2,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "watches_per_100_households_urban",
+     "value": 204.0,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "watches_per_100_households_rural",
+     "value": 27.8,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "sewing_machines_per_100_households_urban",
+     "value": 54.3,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "sewing_machines_per_100_households_rural",
+     "value": 22.6,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "radios_per_100_households_urban",
+     "value": 70.5,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "radios_per_100_households_rural",
+     "value": 26.1,
+     "unit": "per 100 households",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "tv_per_100_households_urban",
+     "value": 32.0,
+     "unit": "per 100 households",
+     "year": 1980,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "tv_per_100_households_rural",
+     "value": 0.4,
+     "unit": "per 100 households",
+     "year": 1980,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900408.html",
+     "accessed": "2026-11-11",
+     "supports": "товары длительного пользования 1956, 1979, 1980"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2018-durables-housing",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2010,
+   "period_end": 2018,
+   "context_type": "consumer_goods",
+   "attribute": "durable_goods_per_100_households",
+   "title": "Телефоны, компьютеры, машины и жильё в 2018 году",
+   "title_en": "Phones, computers, cars and housing in 2018",
+   "description": "В 2018 г. на 100 городских семей приходилось 243,1 мобильного телефона, 73,1 компьютера, 41 автомобиль и 142,2 кондиционера, на 100 сельских — 257, 26,9, 22,3 и 65,2. Жилая площадь на человека составляла 39 м² в городе и 47,3 м² в деревне (в деревне на 39,2 м² больше, чем в 1978 г.).",
+   "description_en": "In 2018 there were 243.1 mobile phones, 73.1 computers, 41 cars and 142.2 air conditioners per 100 urban households, and 257, 26.9, 22.3 and 65.2 per 100 rural households. Floor space per person was 39 m² in towns and 47.3 m² in the countryside (39.2 m² more in rural areas than in 1978).",
+   "statistics": [
+    {
+     "indicator": "mobile_phones_per_100_households_urban",
+     "value": 243.1,
+     "unit": "per 100 households",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "mobile_phones_per_100_households_rural",
+     "value": 257.0,
+     "unit": "per 100 households",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "computers_per_100_households_urban",
+     "value": 73.1,
+     "unit": "per 100 households",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "computers_per_100_households_rural",
+     "value": 26.9,
+     "unit": "per 100 households",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "cars_per_100_households_urban",
+     "value": 41.0,
+     "unit": "per 100 households",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "городские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "cars_per_100_households_rural",
+     "value": 22.3,
+     "unit": "per 100 households",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельские домохозяйства",
+     "method_note": "НБС",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "floor_area_per_capita_urban",
+     "value": 39.0,
+     "unit": "m²/person",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "городские жители",
+     "method_note": "строительная площадь жилья",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "floor_area_per_capita_rural",
+     "value": 47.3,
+     "unit": "m²/person",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельские жители",
+     "method_note": "строительная площадь жилья",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900408.html",
+     "accessed": "2026-11-11",
+     "supports": "2018 товары на 100 семей; жилплощадь 39,0 / 47,3"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2012-2018-rural-poverty",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2012,
+   "period_end": 2018,
+   "context_type": "wages_income",
+   "attribute": "rural_poverty",
+   "title": "Сельская бедность, 2012–2018",
+   "title_en": "Rural poverty, 2012–2018",
+   "description": "По сельской черте бедности образца 2010 г. в 1978 г. бедными считались 97,5% сельских жителей; в 2012 г. — 98,99 млн человек (10,2%), в 2018 г. — 16,6 млн (1,7%).",
+   "description_en": "By the 2010 rural poverty line, 97.5% of rural residents counted as poor in 1978; there were 98.99 million poor (10.2%) in 2012 and 16.6 million (1.7%) in 2018.",
+   "statistics": [
+    {
+     "indicator": "rural_poverty_incidence",
+     "value": 97.5,
+     "unit": "%",
+     "year": 1978,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "черта бедности 2010 г.",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_poor",
+     "value": 98.99,
+     "unit": "million persons",
+     "year": 2012,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "черта бедности 2010 г.",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_poverty_incidence",
+     "value": 10.2,
+     "unit": "%",
+     "year": 2012,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "черта бедности 2010 г.",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_poor",
+     "value": 16.6,
+     "unit": "million persons",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "черта бедности 2010 г.",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "rural_poverty_incidence",
+     "value": 1.7,
+     "unit": "%",
+     "year": 2018,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "черта бедности 2010 г.",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1900408.html",
+     "accessed": "2026-11-11",
+     "supports": "бедность 1978 97,5%; 2012; 2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-urbanisation-migrants",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "migration",
+   "attribute": "urbanisation_floating_population",
+   "title": "Город, деревня и «плавающее население» по переписи 2020 года",
+   "title_en": "Town, countryside and the floating population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 902 млн горожан (63,89%) и 510 млн сельских жителей; доля горожан выросла на 14,21 п. п. за десять лет, но по прописке (хукоу) городскими были лишь 45,4% жителей. Мигрантов, живущих не по месту прописки, было 375,8 млн, из них 124,8 млн — между провинциями; с 2010 г. их число выросло на 69,73%.",
+   "description_en": "The 2020 census counted 902 million urban (63.89%) and 510 million rural residents; the urban share had risen by 14.21 points in ten years, but only 45.4% of residents held urban hukou. The migrant (floating) population living away from their registration was 375.8 million, 124.8 million of them across provinces, up 69.73% since 2010.",
+   "statistics": [
+    {
+     "indicator": "urban_population_share",
+     "value": 63.89,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "постоянное население, 1.11.2020",
+     "method_note": "7-я перепись, бюллетень № 7",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "urban_hukou_share",
+     "value": 45.4,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "население по регистрации",
+     "method_note": "данные МОБ в бюллетене № 7",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "floating_population",
+     "value": 375816759,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "живущие вне места прописки (без внутригородских перемещений)",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "inter_provincial_migrants",
+     "value": 124837153,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "мигранты между провинциями",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "floating_population_growth_since_2010",
+     "value": 69.73,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "плавающее население",
+     "method_note": "сравнение с переписью 2010",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901087.html",
+     "accessed": "2026-11-11",
+     "supports": "бюллетень № 7: город/село, мигранты"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-1949-urban-rural",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1949,
+   "period_end": 1958,
+   "context_type": "demography",
+   "attribute": "urban_rural_population",
+   "title": "Страна деревень в 1949 году",
+   "title_en": "A rural country in 1949",
+   "description": "При образовании КНР в 1949 г. около 89% жителей жили в деревне: примерно 484 млн против 58 млн горожан. В 1957–1960 гг. городская рабочая сила выросла на 90,9%, после чего Положение о хукоу 1958 г. жёстко ограничило переезд из деревни в город.",
+   "description_en": "When the PRC was founded in 1949 about 89% of people lived in the countryside: about 484 million against 58 million in towns. The urban labour force grew by 90.9% in 1957–1960, after which the 1958 hukou regulation tightly restricted moving from village to city.",
+   "statistics": [
+    {
+     "indicator": "rural_population_share",
+     "value": 89,
+     "unit": "%",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "оценка, приведённая в статье Hukou",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "rural_population",
+     "value": 484,
+     "unit": "million persons",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "сельское население",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_population",
+     "value": 58,
+     "unit": "million persons",
+     "year": 1949,
+     "area_id": "cn",
+     "population": "городское население",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hukou",
+     "accessed": "2026-11-11",
+     "supports": "1949 89% rural, 484m vs 58m; 1957–60 urban labour +90.9%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-fertility-1950-2024",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1950,
+   "period_end": 2024,
+   "context_type": "fertility_childlessness",
+   "attribute": "total_fertility_rate",
+   "title": "Рождаемость: от шести детей к одному",
+   "title_en": "Fertility: from six children to one",
+   "description": "Суммарный коэффициент рождаемости снизился примерно с 5,9 в 1950-е гг. до 4,0 в 1970-е, 2,8 в 1979 г., около 1,5 к середине 1990-х и около 1,0 к 2024 г. Соотношение полов при рождении достигало примерно 117 мальчиков на 100 девочек. Правила политики одного ребёнка различались по провинциям, городу и деревне.",
+   "description_en": "The total fertility rate fell from about 5.9 in the 1950s to 4.0 in the 1970s, 2.8 in 1979, about 1.5 by the mid-1990s and about 1.0 by 2024. The sex ratio at birth reached about 117 boys per 100 girls. One-child rules varied between provinces and between town and countryside.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate",
+     "value": 5.9,
+     "unit": "children per woman",
+     "year": 1955,
+     "area_id": "cn",
+     "population": "все женщины",
+     "method_note": "приблизительно, 1950-е",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.8,
+     "unit": "children per woman",
+     "year": 1979,
+     "area_id": "cn",
+     "population": "все женщины",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.5,
+     "unit": "children per woman",
+     "year": 1995,
+     "area_id": "cn",
+     "population": "все женщины",
+     "method_note": "около середины 1990-х",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.0,
+     "unit": "children per woman",
+     "year": 2024,
+     "area_id": "cn",
+     "population": "все женщины",
+     "method_note": "около",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "sex_ratio_at_birth",
+     "value": 117,
+     "unit": "boys per 100 girls",
+     "year": 2005,
+     "area_id": "cn",
+     "population": "рождения",
+     "method_note": "максимум, год приблизителен",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/One-child_policy",
+     "accessed": "2026-11-11",
+     "supports": "TFR 5.9/4.0/2.8/1.5/1.4/~1.0; SRB ~117"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1958-1991-television",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1958,
+   "period_end": 1991,
+   "context_type": "communication",
+   "attribute": "television_ownership",
+   "title": "Телевизор в доме, 1958–1991",
+   "title_en": "Television at home, 1958–1991",
+   "description": "Телевидение на материке началось в 1958 г.; в 1982 г. его смотрели около 350 млн из миллиарда жителей, к 1985 г. — две трети населения. В 1987 г. в стране было около 70 млн телевизоров (29 на 100 семей), в 1991 г. — 140 млн при аудитории 700 млн; в 1985 г. продано 4 млн цветных телевизоров.",
+   "description_en": "Television began on the mainland in 1958; in 1982 about 350 million of a billion people watched it, and two-thirds of the population by 1985. In 1987 the country had about 70 million sets (29 per 100 families) and 140 million in 1991 for an audience of 700 million; 4 million colour sets were sold in 1985.",
+   "statistics": [
+    {
+     "indicator": "tv_viewers",
+     "value": 350,
+     "unit": "million persons",
+     "year": 1982,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "tv_sets",
+     "value": 70,
+     "unit": "million",
+     "year": 1987,
+     "area_id": "cn",
+     "population": "все домохозяйства",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "tv_per_100_families",
+     "value": 29,
+     "unit": "per 100 families",
+     "year": 1987,
+     "area_id": "cn",
+     "population": "все семьи",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "tv_sets",
+     "value": 140,
+     "unit": "million",
+     "year": 1991,
+     "area_id": "cn",
+     "population": "все домохозяйства",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Television_in_China",
+     "accessed": "2026-11-11",
+     "supports": "1982 350m; 1985 2/3; 1987 70m 29/100; 1991 140m; 1985 4m colour"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-internet-2008-2023",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 2008,
+   "period_end": 2023,
+   "context_type": "communication",
+   "attribute": "internet_users",
+   "title": "Интернет в кармане",
+   "title_en": "The internet in the pocket",
+   "description": "В 2008 г. Китай стал страной с наибольшим числом пользователей интернета; в 2013 г. 500 млн человек выходили в сеть с мобильного телефона, а в декабре 2023 г. пользователей было 1,09 млрд (77,5% населения), 99,9% из них — через телефон.",
+   "description_en": "In 2008 China became the country with the most internet users; in 2013 500 million people went online by mobile phone, and in December 2023 there were 1.09 billion users (77.5% of the population), 99.9% of them using phones.",
+   "statistics": [
+    {
+     "indicator": "mobile_internet_users",
+     "value": 500,
+     "unit": "million persons",
+     "year": 2013,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "CNNIC через Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "internet_users",
+     "value": 1090,
+     "unit": "million persons",
+     "year": 2023,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "CNNIC, декабрь 2023",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "internet_penetration",
+     "value": 77.5,
+     "unit": "%",
+     "year": 2023,
+     "area_id": "cn",
+     "population": "всё население",
+     "method_note": "CNNIC",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "mobile_share_of_users",
+     "value": 99.9,
+     "unit": "%",
+     "year": 2023,
+     "area_id": "cn",
+     "population": "пользователи интернета",
+     "method_note": "CNNIC",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Internet_in_China",
+     "accessed": "2026-11-11",
+     "supports": "2008 largest; 2013 500m mobile; Dec 2023 1.09bn 77.5%; 99.9% mobile"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-gaokao-1977-2024",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1977,
+   "period_end": 2024,
+   "context_type": "education",
+   "attribute": "university_entrance",
+   "title": "Шансы поступить в вуз, 1977–2024",
+   "title_en": "Chances of getting into university, 1977–2024",
+   "description": "В 1977 г. из 5,7 млн сдававших гаокао поступили 270 тыс. (5,19%); в 1999 г. — 1,6 млн из 2,88 млн (55,4%); в 2024 г. — 10,69 млн из 13,42 млн (79,65%). Число вузов выросло с 1071 в 1999 г. до 2740 в 2020 г.",
+   "description_en": "In 1977, 270,000 of 5.7 million gaokao candidates were admitted (5.19%); in 1999, 1.6 million of 2.88 million (55.4%); in 2024, 10.69 million of 13.42 million (79.65%). The number of higher-education institutions rose from 1,071 in 1999 to 2,740 in 2020.",
+   "statistics": [
+    {
+     "indicator": "gaokao_admission_rate",
+     "value": 5.19,
+     "unit": "%",
+     "year": 1977,
+     "area_id": "cn",
+     "population": "сдававшие гаокао",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "gaokao_admission_rate",
+     "value": 55.44,
+     "unit": "%",
+     "year": 1999,
+     "area_id": "cn",
+     "population": "сдававшие гаокао",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "gaokao_admission_rate",
+     "value": 79.65,
+     "unit": "%",
+     "year": 2024,
+     "area_id": "cn",
+     "population": "сдававшие гаокао",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "higher_education_institutions",
+     "value": 2740,
+     "unit": "institutions",
+     "year": 2020,
+     "area_id": "cn",
+     "population": "все вузы",
+     "method_note": "Wikipedia",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gaokao",
+     "accessed": "2026-11-11",
+     "supports": "1977 5.7m/270k; 1999 2.88m/1.5968m; 2024 13.42m/10.69m; institutions 1,071→2,740"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-1995-2003-layoffs",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1995,
+   "period_end": 2009,
+   "context_type": "work",
+   "attribute": "state_enterprise_layoffs",
+   "title": "Увольнения с госпредприятий и безработица",
+   "title_en": "Lay-offs from state enterprises and unemployment",
+   "description": "К концу 1999 г. было учтено более 24,4 млн уволенных с госпредприятий (сяган); к 1999 г. работу потеряли 13,2% городской рабочей силы. По опросу 54 тыс. уволенных, новую работу нашли лишь 18%. Женщины рисковали потерять работу сильнее мужчин. Средняя городская безработица в 2002–2009 гг. оценивается в 10,9% — вдвое выше официальной.",
+   "description_en": "By the end of 1999 more than 24.4 million workers laid off from state enterprises (xiagang) had been recorded; 13.2% of the urban labour force had lost their jobs by 1999. In a survey of 54,000 laid-off workers only 18% had found new work. Women faced a greater risk of lay-off than men. Average urban unemployment in 2002–2009 is estimated at 10.9%, double the official figure.",
+   "statistics": [
+    {
+     "indicator": "xiagang_workers",
+     "value": 24.4,
+     "unit": "million persons",
+     "year": 1999,
+     "area_id": "cn",
+     "population": "работники госпредприятий",
+     "method_note": "учтённые к концу 1999 г.",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_labour_laid_off",
+     "value": 13.2,
+     "unit": "%",
+     "year": 1999,
+     "area_id": "cn",
+     "population": "городская рабочая сила",
+     "method_note": "оценка",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "reemployed_share",
+     "value": 18,
+     "unit": "%",
+     "year": 2000,
+     "area_id": "cn",
+     "population": "опрос 54 тыс. уволенных",
+     "method_note": "год опроса приблизителен",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "urban_unemployment_estimate",
+     "value": 10.9,
+     "unit": "%",
+     "year": 2005,
+     "area_id": "cn",
+     "population": "городская рабочая сила",
+     "method_note": "среднее 2002–2009, неофициальная оценка",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xiagang",
+     "accessed": "2026-11-11",
+     "supports": "24.4m end 1999; 13.2%; 18% of 54,000; women; 10.9% 2002–2009"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-marriage-age-1950-1980",
+   "country_code": "CN",
+   "location_id": "cn",
+   "period_start": 1950,
+   "period_end": 2020,
+   "context_type": "family_marriage",
+   "attribute": "legal_marriage_age",
+   "title": "Брачный возраст по закону",
+   "title_en": "Legal minimum age of marriage",
+   "description": "Закон о браке 1950 г. установил минимальный брачный возраст 20 лет для мужчин и 18 для женщин и потребовал регистрации брака; закон 1980 г. поднял его до 22 и 20 лет и расширил основания для развода.",
+   "description_en": "The 1950 Marriage Law set the minimum marriage age at 20 for men and 18 for women and required civil registration; the 1980 law raised it to 22 and 20 and widened the grounds for divorce.",
+   "statistics": [
+    {
+     "indicator": "min_marriage_age_women",
+     "value": 18,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "закон 1950 г.",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "min_marriage_age_men",
+     "value": 20,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "cn",
+     "population": "мужчины",
+     "method_note": "закон 1950 г.",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "min_marriage_age_women",
+     "value": 20,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "cn",
+     "population": "женщины",
+     "method_note": "закон 1980 г.",
+     "source_id": "cn_en_wikipedia"
+    },
+    {
+     "indicator": "min_marriage_age_men",
+     "value": 22,
+     "unit": "years",
+     "year": 1980,
+     "area_id": "cn",
+     "population": "мужчины",
+     "method_note": "закон 1980 г.",
+     "source_id": "cn_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marriage_Law_of_the_People%27s_Republic_of_China",
+     "accessed": "2026-11-11",
+     "supports": "1950 ages 20/18; 1980 22/20"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-ctx-2020-population-beijing-municipality",
+   "country_code": "CN",
+   "location_id": "cn-beijing-municipality",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Пекин: население по переписи 2020 года",
+   "title_en": "Beijing: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 21 893 095 постоянных жителей (1.55% населения страны); доля в населении страны выросла по сравнению с 2010 г. (1.46%).",
+   "description_en": "The 2020 census counted 21,893,095 permanent residents (1.55% of the national population); the share rose compared with 2010 (1.46%).",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 21893095,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-beijing-municipality",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 1.55,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-beijing-municipality",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 1.46,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-beijing-municipality",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 21893095; 1.55%; 1.46%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-population-shanghai-municipality",
+   "country_code": "CN",
+   "location_id": "cn-shanghai-municipality",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Шанхай: население по переписи 2020 года",
+   "title_en": "Shanghai: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 24 870 895 постоянных жителей (1.76% населения страны); доля в населении страны выросла по сравнению с 2010 г. (1.72%).",
+   "description_en": "The 2020 census counted 24,870,895 permanent residents (1.76% of the national population); the share rose compared with 2010 (1.72%).",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 24870895,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-shanghai-municipality",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 1.76,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-shanghai-municipality",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 1.72,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-shanghai-municipality",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 24870895; 1.76%; 1.72%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-population-guangdong",
+   "country_code": "CN",
+   "location_id": "cn-guangdong",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Гуандун: население по переписи 2020 года",
+   "title_en": "Guangdong: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 126 012 510 постоянных жителей (8.93% населения страны); доля в населении страны выросла по сравнению с 2010 г. (7.79%). Гуандун дал наибольший прирост населения среди провинций — 21,7 млн за десять лет.",
+   "description_en": "The 2020 census counted 126,012,510 permanent residents (8.93% of the national population); the share rose compared with 2010 (7.79%). Guangdong had the largest population increase of any province, 21.7 million in ten years.",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 126012510,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 8.93,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 7.79,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-guangdong",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 126012510; 8.93%; 7.79%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-population-sichuan",
+   "country_code": "CN",
+   "location_id": "cn-sichuan",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Сычуань: население по переписи 2020 года",
+   "title_en": "Sichuan: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 83 674 866 постоянных жителей (5.93% населения страны); доля в населении страны сократилась по сравнению с 2010 г. (6.0%).",
+   "description_en": "The 2020 census counted 83,674,866 permanent residents (5.93% of the national population); the share fell compared with 2010 (6.0%).",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 83674866,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-sichuan",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 5.93,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-sichuan",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 6.0,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-sichuan",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 83674866; 5.93%; 6.0%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-population-hubei",
+   "country_code": "CN",
+   "location_id": "cn-hubei",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Хубэй: население по переписи 2020 года",
+   "title_en": "Hubei: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 57 752 557 постоянных жителей (4.09% населения страны); доля в населении страны сократилась по сравнению с 2010 г. (4.27%).",
+   "description_en": "The 2020 census counted 57,752,557 permanent residents (4.09% of the national population); the share fell compared with 2010 (4.27%).",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 57752557,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-hubei",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 4.09,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-hubei",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 4.27,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-hubei",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 57752557; 4.09%; 4.27%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-population-shaanxi",
+   "country_code": "CN",
+   "location_id": "cn-shaanxi",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Шэньси: население по переписи 2020 года",
+   "title_en": "Shaanxi: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 39 528 999 постоянных жителей (2.8% населения страны); доля в населении страны выросла по сравнению с 2010 г. (2.79%).",
+   "description_en": "The 2020 census counted 39,528,999 permanent residents (2.8% of the national population); the share rose compared with 2010 (2.79%).",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 39528999,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-shaanxi",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 2.8,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-shaanxi",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 2.79,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-shaanxi",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 39528999; 2.8%; 2.79%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-ctx-2020-population-anhui",
+   "country_code": "CN",
+   "location_id": "cn-anhui",
+   "period_start": 2010,
+   "period_end": 2020,
+   "context_type": "demography",
+   "attribute": "resident_population",
+   "title": "Аньхой: население по переписи 2020 года",
+   "title_en": "Anhui: population in the 2020 census",
+   "description": "Перепись 2020 г. насчитала 61 027 171 постоянных жителей (4.32% населения страны); доля в населении страны сократилась по сравнению с 2010 г. (4.44%).",
+   "description_en": "The 2020 census counted 61,027,171 permanent residents (4.32% of the national population); the share fell compared with 2010 (4.44%).",
+   "statistics": [
+    {
+     "indicator": "resident_population",
+     "value": 61027171,
+     "unit": "persons",
+     "year": 2020,
+     "area_id": "cn-anhui",
+     "population": "постоянное население на 1.11.2020",
+     "method_note": "7-я перепись, табл. 3-1",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 4.32,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "cn-anhui",
+     "population": "постоянное население",
+     "method_note": "7-я перепись",
+     "source_id": "cn_nbs"
+    },
+    {
+     "indicator": "share_of_national_population",
+     "value": 4.44,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "cn-anhui",
+     "population": "постоянное население",
+     "method_note": "6-я перепись, по табл. 3-1",
+     "source_id": "cn_nbs"
+    }
+   ],
+   "source_ids": [
+    "cn_nbs"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_nbs",
+     "url": "https://www.stats.gov.cn/sj/tjgb/rkpcgb/qgrkpcgb/202302/t20230206_1902003.html",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3-1: 61027171; 4.32%; 4.44%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

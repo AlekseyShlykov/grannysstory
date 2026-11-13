@@ -25,7 +25,8 @@
       "narrative_hooks": [],
       "sensitive": true,
       "source_ids": [
-        "ru_wikipedia"
+        "ru_wikipedia",
+        "ru_prlib"
       ],
       "evidence": [
         {
@@ -33,10 +34,16 @@
           "url": "https://ru.wikipedia.org/wiki/Катынский_расстрел",
           "accessed": "2026-10-29",
           "supports": "апрель–май 1940; 4421; 1990"
+        },
+        {
+          "source_id": "ru_prlib",
+          "url": "https://www.prlib.ru/item/1719619",
+          "accessed": "2026-11-13",
+          "supports": "копия выписки из протокола Политбюро ЦК ВКП(б) № 13 от 5.03.1940 с постановлением о расстреле польских военнопленных и заключённых"
         }
       ],
       "verification_status": "verified",
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "ru-smolobl-1982-smolensk-npp",

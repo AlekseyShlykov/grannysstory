@@ -230,7 +230,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -238,10 +239,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "16.12.1922 убийство президента Нарутовича"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/zamordowany-zostal-prezydent-gabriel-narutowicz",
+     "accessed": "2026-11-13",
+     "supports": "16.12.1922 убийство президента Нарутовича в «Захенте», Варшава"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1925-million",
@@ -310,7 +317,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_dzieje"
    ],
    "evidence": [
     {
@@ -318,10 +326,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "1.09 бомбы, 9.09 Охота, 17.09 замок, 27.09 капитуляция, ~31 тыс. погибших"
+    },
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/wiadomosci/kalendarium-ii-wojny-swiatowej",
+     "accessed": "2026-11-13",
+     "supports": "оборона Варшавы с 8.09.1939, акт капитуляции подписан 28.09.1939"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1940-ghetto",
@@ -350,7 +364,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -358,10 +373,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "октябрь 1940 начало депортаций в гетто; 19.04.1943 восстание, почти месяц"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/78-lat-temu-w-getcie-warszawskim-wybuchlo-powstanie",
+     "accessed": "2026-11-13",
+     "supports": "распоряжения Фишера октября 1940 г. о границах гетто, закрытие в ночь на 16.11.1940; восстание с утра 19.04.1943"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1943-ghetto-uprising",
@@ -387,7 +408,9 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_dzieje",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -395,10 +418,22 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "19.04.1943, почти месяц"
+    },
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/wiadomosci/kalendarium-ii-wojny-swiatowej",
+     "accessed": "2026-11-13",
+     "supports": "19.04.1943 начало восстания в Варшавском гетто"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/78-lat-temu-w-getcie-warszawskim-wybuchlo-powstanie",
+     "accessed": "2026-11-13",
+     "supports": "бои в гетто начались утром 19.04.1943"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1944-uprising",
@@ -515,7 +550,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_sejm_eli"
    ],
    "evidence": [
     {
@@ -523,10 +559,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "1951: 118 → 411 км²"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1951/199",
+     "accessed": "2026-11-13",
+     "supports": "распоряжение Совета министров от 5.05.1951 об изменении границ столичного города Варшавы (в силе с 15.05.1951; площади в метаданных не указаны)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1952-mdm",
@@ -708,7 +750,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_zamek"
    ],
    "evidence": [
     {
@@ -716,10 +759,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "1971–1974 восстановление замка"
+    },
+    {
+     "source_id": "pl_zamek",
+     "url": "https://zamek-krolewski.pl/strona/historia/610-zamek-krolewski-po-1939-roku-zniszczenie-i-odbudowa",
+     "accessed": "2026-11-13",
+     "supports": "19.01.1971 решение руководства ПОРП восстановить замок; интерьеры открыты в 1984 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1979-papal-mass",
@@ -746,7 +795,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -754,10 +804,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "1979: месса на площади Победы"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/i-pielgrzymka-jana-pawla-ii-do-polski",
+     "accessed": "2026-11-13",
+     "supports": "месса и проповедь на площади Победы в Варшаве в начале визита (с 2.06.1979)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1980-unesco",
@@ -782,7 +838,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_mkidn"
    ],
    "evidence": [
     {
@@ -790,10 +847,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "1980: ЮНЕСКО"
+    },
+    {
+     "source_id": "pl_mkidn",
+     "url": "https://www.gov.pl/web/kultura/40-rocznica-wpisu-starego-miasta-w-warszawie-na-liste-swiatowego-dziedzictwa-unesco",
+     "accessed": "2026-11-13",
+     "supports": "2.09.1980 Исторический центр Варшавы внесён в список Всемирного наследия ЮНЕСКО"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-warszawa-1995-metro",

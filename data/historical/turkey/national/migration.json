@@ -1,0 +1,104 @@
+{
+ "records": [
+  {
+   "id": "tr-nat-1950-gecekondu-migration",
+   "title": "Переселение из деревень и рост гедже-конду",
+   "title_en": "Rural exodus and the rise of gecekondu",
+   "start_date": "1950",
+   "end_date": "1959",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1950-е годы механизация сельского хозяйства оставила в деревнях много лишних рук, и сельские мигранты массово переезжали в города, строя самовольные дома — гедже-конду («построенные за ночь»); тогда это слово и вошло в обиход. В 2004 г. исследователь Роберт Нойворт писал, что в таких домах живёт около половины жителей Стамбула.",
+   "historical_summary_en": "In the 1950s the mechanisation of agriculture left a large surplus population in the villages, and rural migrants moved to the cities en masse, building informal houses called gecekondu ('built overnight'); that is when the word came into common use. In 2004 the researcher Robert Neuwirth wrote that about half of Istanbul's residents lived in such homes.",
+   "affected_groups": [
+    "rural_residents",
+    "migrants",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "leaving_the_village",
+    "house_built_overnight",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Gecekondu",
+     "accessed": "2026-11-11",
+     "supports": "1950-е механизация, термин гедже-конду; 2004 Нойворт — половина жителей Стамбула"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1989-bulgarian-turks",
+   "title": "Изгнание турок из Болгарии",
+   "title_en": "Expulsion of Turks from Bulgaria",
+   "start_date": "1989-05-29",
+   "end_date": "1989-08-22",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "migration",
+   "historical_summary": "С конца мая по 22 августа 1989 г. более 300 тыс. болгарских турок и других мусульман были вынуждены уехать из Болгарии в Турцию (по оценкам, 310–400 тыс. с учётом последовавших родственников). 22 августа Турция закрыла границу; около 150 тыс. человек к концу 1990 г. вернулись в Болгарию.",
+   "historical_summary_en": "From late May to 22 August 1989 more than 300,000 Bulgarian Turks and other Muslims were forced to leave Bulgaria for Turkey (an estimated 310,000–400,000 including relatives who followed). Turkey closed the border on 22 August; about 150,000 people had returned to Bulgaria by the end of 1990.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "decision_to_move",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_neighbours_from_afar",
+    "decision_to_move"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mfa"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1989_expulsion_of_Turks_from_Bulgaria",
+     "accessed": "2026-11-11",
+     "supports": "29.05–22.08.1989; 310–400 тыс.; 22.08 закрытие границы; ~150 000 вернулись к концу 1990"
+    },
+    {
+     "source_id": "tr_mfa",
+     "url": "https://www.mfa.gov.tr/no_-9_-12-january-2012_-press-release-regarding-the-adoption-by-the-bulgarian-national-assembly-of-a-declaration-condemning-forced-assimilation-policy.en.mfa",
+     "accessed": "2026-11-12",
+     "supports": "в 1989 г. из Болгарии изгнаны более 360 тыс. граждан турецкого происхождения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

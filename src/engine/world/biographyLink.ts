@@ -4,6 +4,7 @@ import type { WorldData } from "../../data/worldTypes";
 import type { RandomSource } from "../random";
 import { relevantEvents, type LifeProfile, type RelevantEvent, type ResidencePeriod } from "./events";
 import { getLocation, resolveLocationId } from "./geography";
+import { expandResidences } from "./partition";
 
 // Which kinds of verified circumstances can frame each personal turning point. The framing is presented as
 // "this was happening then", never as the cause of her decision.
@@ -18,8 +19,9 @@ const anchorCategories: Record<BranchType, string[]> = {
   dream: ["culture_leisure", "technology", "media_communication", "education"]
 };
 
+/** Residences as history sees them: a divided city is read through the part she lived in. */
 export function lifeResidences(biography: Pick<BiographyState, "residenceHistory">): ResidencePeriod[] {
-  return biography.residenceHistory.map((residence) => ({ ...residence }));
+  return expandResidences(biography.residenceHistory);
 }
 
 export function lifeProfile(birthYear: number, world: WorldData, biography: Pick<BiographyState, "residenceHistory" | "relationship" | "flags">): LifeProfile {

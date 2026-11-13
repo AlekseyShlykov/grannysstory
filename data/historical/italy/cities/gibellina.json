@@ -1,0 +1,547 @@
+{
+ "records": [
+  {
+   "id": "it-gibellina-1968-earthquake",
+   "title": "Землетрясение в долине Беличе разрушает Джибеллину",
+   "title_en": "Belice earthquake destroys Gibellina",
+   "start_date": "1968-01-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "disaster",
+   "historical_summary": "14–15 января 1968 г. серия толчков (сильнейший — магнитудой 6,4 в 03:01 15 января) полностью разрушила Джибеллину вместе с Поджореале, Салапарутой и Монтеваго. После толчка 25 января, убившего спасателей, вход в Джибеллину был запрещён.",
+   "historical_summary_en": "On 14–15 January 1968 a series of shocks (the strongest, magnitude 6.4, at 03:01 on 15 January) completely destroyed Gibellina together with Poggioreale, Salaparuta and Montevago. After a shock on 25 January that killed rescuers, entry to Gibellina was banned.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "earthquake_night",
+    "living_in_barracks"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia",
+    "it_ingv_cfti5"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Terremoto_del_Belice_del_1968",
+     "accessed": "2026-11-11",
+     "supports": "14–15.01.1968; M6,4; distrutta; 25.01 divieto d'accesso"
+    },
+    {
+     "source_id": "it_ingv_cfti5",
+     "url": "https://storing.ingv.it/cfti/cfti5/QuakeList.xml",
+     "accessed": "2026-11-12",
+     "supports": "CFTI5Med, nterr 35810: «Valle del Belice», 15.01.1968 02:01:09 UTC (03:01 местного), Io 10, Mw 6,5; предшествующий толчок 01:33 UTC, Mw 5,6"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-gibellina-1968-emigration",
+   "title": "Эмиграция после землетрясения",
+   "title_en": "Emigration after the earthquake",
+   "start_date": "1968",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "migration",
+   "historical_summary": "После землетрясения многие жители Джибеллины эмигрировали в Канаду, США, Венесуэлу, Австралию и другие страны.",
+   "historical_summary_en": "After the earthquake many residents of Gibellina emigrated to Canada, the United States, Venezuela, Australia and elsewhere.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "emigration_letters"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "emigrazione dopo il terremoto: Canada, USA, Venezuela, Australia"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1970-new-town",
+   "title": "Строительство новой Джибеллины",
+   "title_en": "Building the new Gibellina",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "migration",
+   "historical_summary": "После 1968 г. по решению городского совета новый город, Джибеллина-Нуова, стали строить в местности Салинелла на территории Салеми, примерно в 11 км от старого.",
+   "historical_summary_en": "After 1968, following a town council vote, the new town of Gibellina Nuova began to be built at Contrada Salinella in the territory of Salemi, about 11 km from the old one.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "rehousing",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "Gibellina Nuova in contrada Salinella; ~11 km"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1970-chiesa-madre",
+   "title": "Заказ на новую Кьеза Мадре Кваррони",
+   "title_en": "Quaroni commissioned for the new Chiesa Madre",
+   "start_date": "1970",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "religion",
+   "historical_summary": "В 1970 г. архитектору Лудовико Кваррони заказали новую главную церковь Джибеллины; проект был готов в 1972 г., строительство началось в 1985 г.",
+   "historical_summary_en": "In 1970 the architect Ludovico Quaroni was commissioned to design Gibellina's new main church; the design was ready in 1972 and construction began in 1985.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_church"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "1970 incarico; 1972 progetto; 1985 avvio"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1980-art-collection",
+   "title": "Начало коллекции современного искусства",
+   "title_en": "Contemporary art collection begins",
+   "start_date": "1980",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1980 г. в Джибеллине начала складываться коллекция современного искусства.",
+   "historical_summary_en": "In 1980 Gibellina's contemporary art collection began to take shape.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "artists_in_town"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "1980"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1981-orestiadi",
+   "title": "Первый фестиваль «Орестиады»",
+   "title_en": "First Orestiadi festival",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1981 г. в Джибеллине впервые прошёл ежегодный фестиваль «Орестиады».",
+   "historical_summary_en": "In 1981 the annual Orestiadi festival was held in Gibellina for the first time.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_festival"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "1981"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1984-cretto-start",
+   "title": "Начало работ над «Треснувшей землёй» Бурри",
+   "title_en": "Work begins on Burri's Cretto",
+   "start_date": "1984",
+   "end_date": "1989",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1984–1985 гг. на месте разрушенного старого города начали создавать ленд-арт «Кретто» Альберто Бурри: улицы повторены разломами, а обломки домов залиты бетоном. В 1989 г. работы остановились из-за нехватки средств.",
+   "historical_summary_en": "In 1984–1985 work began on Alberto Burri's land-art Cretto on the site of the destroyed old town: its streets are traced as cracks and the rubble of the houses is encased in concrete. In 1989 work stopped for lack of funds.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "old_house_under_concrete"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Cretto_di_Burri",
+     "accessed": "2026-11-11",
+     "supports": "inizio 1984 (infobox)/1985; interruzione 1989"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1988-civic-tower",
+   "title": "Городская башня Мендини",
+   "title_en": "Mendini's civic tower",
+   "start_date": "1988",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1988 г. в новой Джибеллине была построена городская башня по проекту Алессандро Мендини.",
+   "historical_summary_en": "In 1988 the civic tower designed by Alessandro Mendini was built in the new Gibellina.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "1988"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-1994-church-roof",
+   "title": "Обрушение крыши новой церкви",
+   "title_en": "New church roof collapses",
+   "start_date": "1994-08-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "15 августа 1994 г. обрушилась крыша строящейся главной церкви; никто не пострадал. Реставрация шла с 2002 по начало 2010 г.",
+   "historical_summary_en": "On 15 August 1994 the roof of the main church under construction collapsed; nobody was hurt. Restoration ran from 2002 to early 2010.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_church"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "15.08.1994; restauro 2002–2010"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-2012-museum-corrao",
+   "title": "Музей получает имя Коррао",
+   "title_en": "Museum named after Corrao",
+   "start_date": "2012-01-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "15 января 2012 г., в 44-ю годовщину землетрясения, музей Джибеллины был назван в честь бывшего мэра Лудовико Коррао.",
+   "historical_summary_en": "On 15 January 2012, the 44th anniversary of the earthquake, Gibellina's museum was named after former mayor Ludovico Corrao.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "15.01.2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-2015-cretto-complete",
+   "title": "«Кретто» завершён",
+   "title_en": "Cretto completed",
+   "start_date": "2015",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2015 г., к столетию Альберто Бурри, «Кретто» площадью около 80 тыс. м² был завершён.",
+   "historical_summary_en": "In 2015, for Alberto Burri's centenary, the Cretto, covering about 80,000 m², was completed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "old_house_under_concrete"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Cretto_di_Burri",
+     "accessed": "2026-11-11",
+     "supports": "2015 completamento; ~80 000 m²"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-2021-museum-2021",
+   "title": "Новое здание музея",
+   "title_en": "New museum seat",
+   "start_date": "2021-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В июле 2021 г. после долгого закрытия открылось новое здание музея Джибеллины.",
+   "historical_summary_en": "In July 2021, after a long closure, the new seat of Gibellina's museum opened.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "luglio 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-gibellina-2024-art-capital",
+   "title": "Итальянская столица современного искусства 2026",
+   "title_en": "Italian Capital of Contemporary Art 2026",
+   "start_date": "2024-10-31",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-gibellina"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "31 октября 2024 г. Джибеллина первой получила звание «Итальянская столица современного искусства 2026».",
+   "historical_summary_en": "On 31 October 2024 Gibellina became the first town to be named Italian Capital of Contemporary Art for 2026.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_proud_again"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_regione_sicilia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Gibellina",
+     "accessed": "2026-11-11",
+     "supports": "31.10.2024"
+    },
+    {
+     "source_id": "it_regione_sicilia",
+     "url": "https://www.regione.sicilia.it/la-regione-informa/gibellina-capitale-italiana-arte-contemporanea-schifani-premio-valorizza-tutta-sicilia",
+     "accessed": "2026-11-12",
+     "supports": "31.10.2024 Минкультуры провозгласило Джибеллину «Capitale italiana dell'Arte contemporanea 2026»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

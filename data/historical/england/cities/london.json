@@ -95,7 +95,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -103,10 +104,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты 1901 и 1913"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "1901: первые электрические трамваи в Лондоне (London United Tramways)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1915-zeppelin-raids",
@@ -214,7 +221,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -222,10 +230,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты V-1, V-2, Нью-Кросс, последние удары"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1944/jul/06/flying-bombs",
+     "accessed": "2026-11-12",
+     "supports": "6 июля 1944: заявление о налётах самолётов-снарядов"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1946-heathrow",
@@ -250,7 +264,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -258,10 +273,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты 1 января и 31 мая 1946"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1946/may/30/heathrow-airport",
+     "accessed": "2026-11-12",
+     "supports": "30 мая 1946: услуги для пассажиров, прибывающих в аэропорт Хитроу"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1948-olympics",
@@ -323,7 +344,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tna"
    ],
    "evidence": [
     {
@@ -331,10 +353,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты фестиваля"
+    },
+    {
+     "source_id": "gb_tna",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/after-the-festival-of-britain/",
+     "accessed": "2026-11-12",
+     "supports": "Фестиваль Британии 1951 г. на Южном берегу Темзы"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1952-last-trams",
@@ -359,7 +387,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -367,15 +396,21 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты 1950 и 1952"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "05/07/1952: последний трамвай в пассажирском движении"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1952-great-smog",
    "title": "Великий смог",
-   "start_date": "1952-12-04",
+   "start_date": "1952-12-05",
    "end_date": "1952-12-09",
    "date_precision": "day",
    "approximate": false,
@@ -387,7 +422,7 @@
     "gb-london"
    ],
    "category": "environment",
-   "historical_summary": "4–9 декабря 1952 г. Лондон накрыл густой смог; транспорт был парализован, по оценкам, погибли около 4 тыс. человек.",
+   "historical_summary": "5–9 декабря 1952 г. Лондон накрыл густой смог; транспорт был парализован, по оценкам, погибли около 4 тыс. человек.",
    "affected_groups": [
     "all_residents",
     "elderly",
@@ -399,7 +434,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_met_office"
    ],
    "evidence": [
     {
@@ -407,10 +443,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты и оценка смертности"
+    },
+    {
+     "source_id": "gb_met_office",
+     "url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+     "accessed": "2026-11-12",
+     "supports": "смог над Лондоном с пятницы 5 по вторник 9 декабря 1952"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1958-notting-hill-riots",
@@ -436,7 +478,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -444,10 +487,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/guidance/windrush-monument-education-resources",
+     "accessed": "2026-11-12",
+     "supports": "хронология правительства: август 1958 — беспорядки в Ноттинг-Хилле"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1959-caribbean-carnival-routemaster",
@@ -473,7 +522,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -481,10 +531,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "1959 карнавал, 11.11.1959 Routemaster, 18.09.1966 Notting Hill Fayre"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "1959: автобус RM (Routemaster) начал регулярную работу (только часть записи про Routemaster)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1968-ronan-point",
@@ -509,7 +565,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -517,10 +574,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "дата и число погибших"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1968/may/16/flats-canning-town-collapse",
+     "accessed": "2026-11-12",
+     "supports": "16 мая 1968: обрушение жилого дома в Каннинг-Тауне (Ронан-Пойнт)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1968-ford-dagenham-machinists",
@@ -550,7 +613,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tna"
    ],
    "evidence": [
     {
@@ -558,10 +622,16 @@
      "url": "https://en.wikipedia.org/wiki/Ford_sewing_machinists_strike_of_1968",
      "accessed": "2026-10-29",
      "supports": "дата, место, итог, связь с Equal Pay Act"
+    },
+    {
+     "source_id": "gb_tna",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/letter-by-the-women-workers-at-fords-of-dagenham/",
+     "accessed": "2026-11-12",
+     "supports": "письмо бастующих работниц Форда в Дагенеме, июнь 1968 (PREM 13/2412)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1968-st-katharine-docks",
@@ -624,7 +694,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -632,10 +703,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "даты 1968, 1969, 1971"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "07/03/1969: торжественное открытие линии Victoria; первый участок 01/09/1968"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1973-ira-bombs",
@@ -660,7 +737,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -668,10 +746,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "март 1973: взрывы, 1 погибший, ~250 раненых; последующие взрывы 1974–1975"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1973/mar/08/bomb-incidents-london",
+     "accessed": "2026-11-12",
+     "supports": "8 марта 1973: взрывы в Лондоне"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1977-piccadilly-heathrow",
@@ -732,7 +816,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -740,10 +825,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "01/05/1979: начало пассажирского движения по линии Jubilee"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1981-brixton-riot",
@@ -769,7 +860,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tna"
    ],
    "evidence": [
     {
@@ -777,10 +869,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_tna",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-brixton-riots-and-the-scarman-report/",
+     "accessed": "2026-11-12",
+     "supports": "беспорядки в Брикстоне 10–12 апреля 1981, доклад Скармана"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1982-thames-barrier",
@@ -805,7 +903,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -813,10 +912,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "октябрь 1982, открытие 8 мая 1984"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/news/the-thames-barrier-protecting-london-and-the-thames-estuary-for-40-years",
+     "accessed": "2026-11-12",
+     "supports": "Environment Agency: официальное открытие барьера королевой 8 мая 1984, 8 лет строительства"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-1986-big-bang",
@@ -913,7 +1018,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -921,10 +1027,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(20th_century)",
      "accessed": "2026-10-29",
      "supports": "дата и число погибших"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "1987: пожар на станции King's Cross, 31 погибший"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2003-congestion-charge",
@@ -949,7 +1061,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -957,10 +1070,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "17/02/2003: введена плата за въезд (Congestion Charge)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2005-7-july-bombings",
@@ -985,7 +1104,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -993,10 +1113,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "дата и число погибших"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/publications/report-of-the-official-account-of-the-bombings-in-london-on-7th-july-2005",
+     "accessed": "2026-11-12",
+     "supports": "официальный отчёт о взрывах в Лондоне 7 июля 2005"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2007-overground",
@@ -1021,7 +1147,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tfl_archives"
    ],
    "evidence": [
     {
@@ -1029,10 +1156,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_tfl_archives",
+     "url": "https://content.tfl.gov.uk/research-guide-4-key-dates-in-the-history-of-london-transport.pdf",
+     "accessed": "2026-11-12",
+     "supports": "11/11/2007: TfL принял North London Railway как London Overground"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2010-cycle-hire",
@@ -1093,7 +1226,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -1101,10 +1235,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "дата и распространение"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/collections/statistics-on-public-disorder-of-6-9-august-2011",
+     "accessed": "2026-11-12",
+     "supports": "статистика Home Office о беспорядках 6–9 августа 2011"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2012-olympics",
@@ -1129,7 +1269,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -1137,10 +1278,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "даты"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/publications/the-olympic-and-paralympic-legacy-inspired-by-2012",
+     "accessed": "2026-11-12",
+     "supports": "правительственный доклад о наследии Олимпийских и Паралимпийских игр Лондона 2012"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2017-grenfell",
@@ -1165,7 +1312,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -1173,10 +1321,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "дата и число погибших"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-1-report-government-response",
+     "accessed": "2026-11-12",
+     "supports": "ответ правительства на доклад расследования о пожаре в башне Гренфелл (1-я фаза)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-london-2022-elizabeth-line",
@@ -1201,7 +1355,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -1209,10 +1364,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_London_(21st_century)",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/news/cheaper-tickets-and-quicker-journeys-as-part-government-funded-elizabeth-line-officially-opens",
+     "accessed": "2026-11-12",
+     "supports": "Министерство транспорта, 24 мая 2022: линия Elizabeth официально открыта"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

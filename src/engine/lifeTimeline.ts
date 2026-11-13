@@ -1,4 +1,5 @@
 import nationalJson from "../../content/historical/national.json";
+import { placeAtYear } from "./world/partition";
 import { historicalSignificance, isNarrativeHistoricalEvent, isPaperwork, MIN_SPOKEN_SIGNIFICANCE } from "../../content/historical/significance";
 import { spokenFactSentence } from "../../content/scenes/historicalNarration";
 import { historicalVoice } from "../../content/scenes/historicalVoice";
@@ -120,10 +121,7 @@ export function questionsForPoint(state: GameSessionState, point: LifeTimelinePo
 }
 
 function residenceAt(state: GameSessionState, year: number): string {
-  return state.biography.residenceHistory.find((residence) => year >= residence.fromYear && year <= residence.toYear)?.placeId
-    ?? state.biography.residenceHistory.at(-1)?.placeId
-    ?? state.biography.residenceHistory[0]?.placeId
-    ?? "tver";
+  return placeAtYear(state.biography.residenceHistory, year) ?? "tver";
 }
 
 function overlaps(startYear: number, endYear: number, point: LifeTimelinePoint): boolean {

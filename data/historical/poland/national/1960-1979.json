@@ -153,7 +153,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -161,10 +162,16 @@
      "url": "https://pl.wikipedia.org/wiki/Marzec_1968",
      "accessed": "2026-10-29",
      "supports": "8.03.1968 митинг; Гданьск 15.03 ~20 тыс.; 2732 задержанных; 13–20 тыс. эмигрантов в 1968"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/wiec-studencki-na-uniwersytecie-warszawskim",
+     "accessed": "2026-11-13",
+     "supports": "8.03.1968 митинг в Варшавском университете разогнан милицией; в следующие дни протесты в других вузах"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1970-december-gierek",
@@ -192,7 +199,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -200,10 +208,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1945–1989)",
      "accessed": "2026-10-29",
      "supports": "бунт на Побережье, Герек, кредиты и долг"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/edward-gierek-i-sekretarzem-kc-pzpr",
+     "accessed": "2026-11-13",
+     "supports": "20.12.1970 Герек сменил Гомулку после декабрьских протестов на Побережье"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1971-colour-tv",
@@ -396,7 +410,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -404,10 +419,16 @@
      "url": "https://pl.wikipedia.org/wiki/Czerwiec_1976",
      "accessed": "2026-10-29",
      "supports": "24.06 объявление; 25.06 ~97 предприятий; Радом; репрессии; KOR 23.09.1976"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/czerwiec-1976",
+     "accessed": "2026-11-13",
+     "supports": "24.06.1976 объявление о повышении цен, 25.06 забастовки, сильнее всего в Радоме, Урсусе и Плоцке"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1976-sugar-rationing",
@@ -474,7 +495,8 @@
    "sensitive": false,
    "source_ids": [
     "pl_wikipedia",
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -488,10 +510,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "1979 месса на площади Победы"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/i-pielgrzymka-jana-pawla-ii-do-polski",
+     "accessed": "2026-11-13",
+     "supports": "первое паломничество 2–10.06.1979, месса на площади Победы в Варшаве"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

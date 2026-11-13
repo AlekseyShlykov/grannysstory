@@ -1,0 +1,127 @@
+{
+ "records": [
+  {
+   "id": "cn-shaanxi-1950-province-formed",
+   "title": "Образование провинции Шэньси в КНР",
+   "title_en": "Shaanxi province formed in the PRC",
+   "start_date": "1950-01",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-shaanxi"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В октябре 1949 г. территория Шэньси была разделена между Шэньнаньским и Шэньбэйским административными районами и городом Сиань; в январе 1950 г. в Сиани были образованы провинциальный комитет КПК и Народное правительство провинции Шэньси. В 1954 г. Сиань вошёл в провинцию как её центр.",
+   "historical_summary_en": "In October 1949 Shaanxi's territory was divided between the South and North Shaanxi administrative regions and the city of Xi'an; in January 1950 the provincial party committee and the Shaanxi Provincial People's Government were set up in Xi'an. In 1954 Xi'an joined the province as its capital.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/陕西省",
+     "accessed": "2026-11-11",
+     "supports": "1949年10月 陕南、陕北行政区和西安市; 次年1月 陕西省人民政府; 1954 西安并入"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shaanxi-1959-famine",
+   "title": "Голод 1959–1961 годов в Шэньси",
+   "title_en": "Famine of 1959–1961 in Shaanxi",
+   "start_date": "1959",
+   "end_date": "1961",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-shaanxi"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "Во время голода 1959–1961 гг. в Шэньси умерли 187 тыс. человек.",
+   "historical_summary_en": "During the famine of 1959–1961, 187,000 people died in Shaanxi.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "hunger_years"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/陕西省",
+     "accessed": "2026-11-11",
+     "supports": "1959–1961 三年困难时期 陕西 死亡18.7万"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-shaanxi-2008-gdp",
+   "title": "ВВП Шэньси превысил 600 млрд юаней",
+   "title_en": "Shaanxi's GDP passes 600 billion yuan",
+   "start_date": "2008",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-shaanxi"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 2008 г. ВВП Шэньси впервые превысил 600 млрд юаней, составив 685,1 млрд; в 1990-е гг. провинция была включена в число ключевых районов программы развития Запада.",
+   "historical_summary_en": "In 2008 Shaanxi's GDP passed 600 billion yuan for the first time, reaching 685.1 billion; in the 1990s the province had been named a key area of the Western Development programme.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/陕西省",
+     "accessed": "2026-11-11",
+     "supports": "2008年 6851.32亿元; 1990年代 西部大开发重点"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

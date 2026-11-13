@@ -1,0 +1,817 @@
+{
+ "records": [
+  {
+   "id": "tr-bursa-1915-armenian-deportation",
+   "title": "Депортация армян Бурсы",
+   "title_en": "Deportation of Bursa's Armenians",
+   "start_date": "1915",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1915 г. армянское население Бурсы было депортировано.",
+   "historical_summary_en": "In 1915 the Armenian population of Bursa was deported.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1915 депортация армян Бурсы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1920-greek-occupation",
+   "title": "Греческая оккупация Бурсы",
+   "title_en": "Greek occupation of Bursa",
+   "start_date": "1920-07-08",
+   "end_date": "1922-09-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "occupation",
+   "historical_summary": "8 июля 1920 г. в ходе летнего наступления греческая армия без боя заняла Бурсу; турецкие войска вернули город 11 сентября 1922 г.",
+   "historical_summary_en": "On 8 July 1920, during the summer offensive, the Greek army took Bursa without a fight; Turkish forces recaptured the city on 11 September 1922.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa'nın_işgali",
+     "accessed": "2026-11-11",
+     "supports": "8.07.1920 и 11.09.1922"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "без кровопролития; 11.09.1922"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103931/1920.html",
+     "accessed": "2026-11-12",
+     "supports": "08.07.1920 греческие войска заняли Бурсу"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-1922-end-of-vilayet-capital",
+   "title": "Бурса перестаёт быть центром вилайета Худавендигяр",
+   "title_en": "Bursa ceases to be capital of Hüdavendigâr vilayet",
+   "start_date": "1922",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1922 г. завершилось существование вилайета Худавендигяр, центром которого Бурса была с 1867 г.",
+   "historical_summary_en": "In 1922 the Hüdavendigâr vilayet, of which Bursa had been the capital since 1867, came to an end.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1922 конец столичного статуса вилайета с 1867"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1925-textile-factory",
+   "title": "Открытие текстильной фабрики",
+   "title_en": "Textile factory opens",
+   "start_date": "1925-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "local_economy",
+   "historical_summary": "1 октября 1925 г. Мустафа Кемаль открыл в Бурсе текстильную фабрику.",
+   "historical_summary_en": "On 1 October 1925 Mustafa Kemal opened a textile factory in Bursa.",
+   "affected_groups": [
+    "textile_workers",
+    "women"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "first_wage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Turkish_history",
+     "accessed": "2026-11-11",
+     "supports": "1.10.1925 Bursa textile factory"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103936/1925.html",
+     "accessed": "2026-11-12",
+     "supports": "01.10.1925 открытие текстильной фабрики в Бурсе с речью Мустафы Кемаля"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-1928-american-girls-college",
+   "title": "Закрытие Американского колледжа для девочек",
+   "title_en": "American Girls' College closed",
+   "start_date": "1928",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "education",
+   "historical_summary": "В 1928 г. был закрыт Американский колледж для девочек в Бурсе.",
+   "historical_summary_en": "In 1928 the American Girls' College in Bursa was closed.",
+   "affected_groups": [
+    "school_pupils",
+    "women"
+   ],
+   "potential_impacts": [
+    "school_change"
+   ],
+   "narrative_hooks": [
+    "girls_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1928 закрытие колледжа"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1932-tayyare-culture-centre",
+   "title": "Культурный центр «Тайяре»",
+   "title_en": "Tayyare Culture Centre",
+   "start_date": "1932",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1932 г. в Бурсе открылся культурный центр «Тайяре».",
+   "historical_summary_en": "In 1932 the Tayyare Culture Centre opened in Bursa.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_at_the_cinema"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1932"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1955-population",
+   "title": "Население Бурсы растёт",
+   "title_en": "Bursa's population grows",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "migration",
+   "historical_summary": "По данным переписей, население города Бурса выросло с 61 451 человека в 1927 г. и 77 598 в 1940 г. до 128 875 в 1955 г. и 487 604 в 1980 г.",
+   "historical_summary_en": "According to census data, the population of the city of Bursa grew from 61,451 in 1927 and 77,598 in 1940 to 128,875 in 1955 and 487,604 in 1980.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "население 1927, 1940, 1955, 1980"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1957-state-theatre",
+   "title": "Бурсский государственный театр",
+   "title_en": "Bursa State Theatre",
+   "start_date": "1957",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1957 г. был основан Бурсский государственный театр.",
+   "historical_summary_en": "In 1957 the Bursa State Theatre was founded.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_devtiyatro",
+    "tr_ktb_site"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1957"
+    },
+    {
+     "source_id": "tr_devtiyatro",
+     "url": "https://devtiyatro.gov.tr/bolgeler/bursa-devlet-tiyatrosu",
+     "accessed": "2026-11-12",
+     "supports": "1957 — открыт театр Ахмета Вефик-паши (Государственные театры), 1971 — постоянная труппа"
+    },
+    {
+     "source_id": "tr_ktb_site",
+     "url": "https://ekitap.ktb.gov.tr/TR-80101/devlet-tiyatrosu-kuruluyor.html",
+     "accessed": "2026-11-12",
+     "supports": "e-kitap Минкультуры: в 1957 г. в Бурсе открыт театр Ахмета Вефик-паши при Государственных театрах"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-1961-organized-industrial-zone",
+   "title": "Первая в Турции организованная промышленная зона",
+   "title_en": "Turkey's first organised industrial zone",
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1961 г. в Бурсе была создана первая в Турции организованная промышленная зона; в 1970-е годы автомобилестроение стало ведущей отраслью города.",
+   "historical_summary_en": "In 1961 Turkey's first organised industrial zone was created in Bursa; in the 1970s car manufacturing became the city's leading industry.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1961 первая OSB; 1970-е автомобилестроение"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1963-uludag-aerial-tramway",
+   "title": "Канатная дорога на Улудаг",
+   "title_en": "Uludağ aerial tramway",
+   "start_date": "1963-10-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "29 октября 1963 г. открылась канатная дорога длиной 4,5 км из Бурсы на гору Улудаг; в 2013 г. её заменила новая гондола длиной 8,8 км.",
+   "historical_summary_en": "On 29 October 1963 a 4.5 km aerial tramway opened from Bursa up Mount Uludağ; in 2013 it was replaced by a new 8.8 km gondola.",
+   "affected_groups": [
+    "urban_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "trip_to_the_mountain"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_bursa_bb"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa_Uludağ_Gondola",
+     "accessed": "2026-11-11",
+     "supports": "29.10.1963; 4,5 км; 2013 новая 8,8 км"
+    },
+    {
+     "source_id": "tr_bursa_bb",
+     "url": "https://www.bursa.bel.tr/haber/bursanin-yarim-asirlik-simgesi-son-seferini-yapti-11680",
+     "accessed": "2026-11-12",
+     "supports": "канатная дорога Улудаг введена 29.10.1963, длина около 4,5 км; последний рейс старой линии"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-1971-murat-124",
+   "title": "Tofaş выпускает «Мурат 124»",
+   "title_en": "Tofaş launches the Murat 124",
+   "start_date": "1971",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Завод Tofaş в Бурсе, основанный Вехби Кочем в 1968 г., начал производство в 1969 г., а в 1971 г. выпустил «Мурат 124» — лицензионную версию Fiat 124, ставшую одним из первых массовых турецких автомобилей.",
+   "historical_summary_en": "The Tofaş plant in Bursa, founded by Vehbi Koç in 1968, began production in 1969 and in 1971 launched the Murat 124, a licensed Fiat 124 that became one of the first mass-produced Turkish cars.",
+   "affected_groups": [
+    "industrial_workers",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "first_car_in_family",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Tofaş",
+     "accessed": "2026-11-11",
+     "supports": "1968, 1969, 1971 Murat 124"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1975-uludag-university",
+   "title": "Основан Университет Улудаг",
+   "title_en": "Uludağ University founded",
+   "start_date": "1975",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "education",
+   "historical_summary": "В 1975 г. в Бурсе был основан университет, в 1982 г. получивший название Университет Улудаг.",
+   "historical_summary_en": "In 1975 a university was founded in Bursa; in 1982 it was renamed Uludağ University.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1975, переименован 1982"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://www.uludag.edu.tr/tarihce-69488",
+     "accessed": "2026-11-12",
+     "supports": "Bursa Üniversitesi основан законом 1873 (Resmî Gazete 11.04.1975); 20.07.1982 переименован в Uludağ Üniversitesi"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-1976-silk-institute-closed",
+   "title": "Закрытие Института шелководства",
+   "title_en": "Silk Institute closes",
+   "start_date": "1976",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1976 г. прекратил работу Бурсский институт шелководства, основанный в 1888 г.",
+   "historical_summary_en": "In 1976 the Bursa Silk Institute, founded in 1888, ceased operating.",
+   "affected_groups": [
+    "agricultural_workers",
+    "textile_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "silkworms_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1976 закрытие; 1888 основание"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-1987-metropolitan-municipality",
+   "title": "Бурса становится метрополией",
+   "title_en": "Bursa becomes a metropolitan municipality",
+   "start_date": "1987",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1987 г. законом № 3391 Бурса получила статус муниципалитета-метрополии, включившего районы Нилюфер, Османгази и Йылдырым; в 2004 г. её границы расширили до круга радиусом 30 км, а после выборов 2014 г. — до границ провинции.",
+   "historical_summary_en": "In 1987 Law No. 3391 made Bursa a metropolitan municipality including the Nilüfer, Osmangazi and Yıldırım districts; in 2004 its limits were extended to a 30 km radius, and after the 2014 elections to the provincial boundaries.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1987 закон 3391; 2004 30 км; 2012/2014"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3391.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 3391 от 18.06.1987: районы Османгази, Йылдырым, Нилюфер; муниципалитет Бурсы преобразован в Büyükşehir"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-1998-botanical-park-zoo",
+   "title": "Ботанический парк и зоопарк",
+   "title_en": "Botanical park and zoo",
+   "start_date": "1998",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1998 г. в Бурсе открылись Ботанический парк и зоопарк.",
+   "historical_summary_en": "In 1998 Bursa's Botanical Park and Zoo opened.",
+   "affected_groups": [
+    "children",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "trip_to_the_zoo"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "1998"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-2002-bursaray",
+   "title": "Лёгкое метро Bursaray",
+   "title_en": "Bursaray light metro",
+   "start_date": "2002-08-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "24 апреля 2002 г. в Бурсе начались пробные перевозки, а 19 августа 2002 г. официально открылась первая линия лёгкого метро Bursaray; в 2010 г. оно перевезло 91,25 млн пассажиров.",
+   "historical_summary_en": "Trial passenger service began in Bursa on 24 April 2002, and the first Bursaray light-metro line officially opened on 19 August 2002; in 2010 it carried 91.25 million passengers.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursaray",
+     "accessed": "2026-11-11",
+     "supports": "24.04.2002, 19.08.2002, 91,25 млн (2010)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-bursa-2010-technical-university",
+   "title": "Бурсский технический университет",
+   "title_en": "Bursa Technical University",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "education",
+   "historical_summary": "В 2010 г. был создан Бурсский технический университет, начавший занятия в 2011/2012 учебном году.",
+   "historical_summary_en": "In 2010 Bursa Technical University was established; teaching began in the 2011–2012 academic year.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "2010; 2011–2012"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://btu.edu.tr/tr/sayfa/detay/3357/btu-hakkinda",
+     "accessed": "2026-11-12",
+     "supports": "БТУ создан по публикации в Resmî Gazete № 27648 от 21.07.2010"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-bursa-2014-unesco",
+   "title": "Бурса и Джумалыкызык в списке ЮНЕСКО",
+   "title_en": "Bursa and Cumalıkızık on the UNESCO list",
+   "start_date": "2014",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2014 г. объект «Бурса и Джумалыкызык: рождение Османской империи» был включён в список Всемирного наследия ЮНЕСКО.",
+   "historical_summary_en": "In 2014 'Bursa and Cumalıkızık: the Birth of the Ottoman Empire' was inscribed on the UNESCO World Heritage List.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_tr_wikipedia",
+    "tr_ktb_kvmgm"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "2014 UNESCO"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Bursa",
+     "accessed": "2026-11-11",
+     "supports": "2014 UNESCO"
+    },
+    {
+     "source_id": "tr_ktb_kvmgm",
+     "url": "https://kvmgm.ktb.gov.tr/TR-100414/bursa-ve-cumalikizik-osmanli-imparatorlugunun-dogusu-bursa.html",
+     "accessed": "2026-11-12",
+     "supports": "«Бурса и Джумалыкызык» включены в Список всемирного наследия в 2014 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

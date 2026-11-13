@@ -1,4 +1,5 @@
 import type { RegionId } from "../../src/data/types";
+import { countryContent } from "./countries";
 
 export interface RegionNarrative {
   openingObject: string;
@@ -208,7 +209,9 @@ export const regionNarratives: Record<RegionId, RegionNarrative | undefined> = {
     ordinaryText: "Летом мы вынесли стулья к открытому окну и слушали, как кто-то этажом ниже учится играть одну и ту же мелодию. К осени мы уже знали её наизусть.",
     destinationPlaceId: "us-chicago",
     destinationText: "Чикаго"
-  }
+  },
+  // Countries added in world-1.2 keep their texts in content/scenes/countries/<cc>.ts.
+  ...Object.fromEntries(countryContent.flatMap((country) => Object.entries(country.regionNarratives)))
 };
 
 export const reviewedWorldRegionIds = new Set(

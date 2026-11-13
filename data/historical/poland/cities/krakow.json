@@ -99,7 +99,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -107,10 +108,16 @@
      "url": "https://en.wikipedia.org/wiki/Kraków",
      "accessed": "2026-10-29",
      "supports": "3.08.1914 First Cadre Company; ноябрь 1914 осада"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/utworzenie-pierwszej-kompanii-kadrowej",
+     "accessed": "2026-11-13",
+     "supports": "3.08.1914 Первая кадровая рота сформирована и приведена к присяге на Олеандрах в Кракове, выступила 6.08.1914"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1915-podgorze",
@@ -173,7 +180,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -181,10 +189,16 @@
      "url": "https://pl.wikipedia.org/wiki/Polska_Komisja_Likwidacyjna",
      "accessed": "2026-10-29",
      "supports": "28.10.1918 создание, 31.10.1918 власть в Кракове, 10.01.1919 роспуск"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/powstanie-polskiej-komisji-likwidacyjnej",
+     "accessed": "2026-11-13",
+     "supports": "28.10.1918 в Кракове создана Польская ликвидационная комиссия, центр временной польской власти в Галиции (дата 31.10 на странице не названа)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1919-agh",
@@ -253,7 +267,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -261,10 +276,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
      "accessed": "2026-10-29",
      "supports": "6.09.1939 вход, 4.11.1939 столица GG"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/kalendarium-z-dziejow-650-lecia-uniwersytetu-jagiellonskiego",
+     "accessed": "2026-11-13",
+     "supports": "6.09.1939 германские войска вошли в Краков"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1939-sonderaktion",
@@ -295,7 +316,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -303,10 +325,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
      "accessed": "2026-10-29",
      "supports": "6.11.1939 184 арестованных; 9–10.11 ещё ~120"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/kalendarium-z-dziejow-650-lecia-uniwersytetu-jagiellonskiego",
+     "accessed": "2026-11-13",
+     "supports": "6.11.1939 «Sonderaktion»: арест профессоров и сотрудников университета (в хронике 144 человека), отправка в концлагеря"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1941-ghetto",
@@ -331,7 +359,9 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_krakow_city",
+    "pl_muzeum_krakowa"
    ],
    "evidence": [
     {
@@ -339,10 +369,22 @@
      "url": "https://en.wikipedia.org/wiki/Kraków",
      "accessed": "2026-10-29",
      "supports": "март 1941 Подгуже; июнь 1942 депортация; март 1943 ликвидация"
+    },
+    {
+     "source_id": "pl_krakow_city",
+     "url": "https://www.krakow.pl/aktualnosci/268979,26,komunikat,80_lat_temu_krakowskie_getto_przestalo_istniec.html",
+     "accessed": "2026-11-13",
+     "supports": "3.03.1941 германские власти создали гетто в Подгуже, переселено более 16 тыс. евреев"
+    },
+    {
+     "source_id": "pl_muzeum_krakowa",
+     "url": "https://muzeumkrakowa.pl/oddzialy/historia-apteki-pod-orlem",
+     "accessed": "2026-11-13",
+     "supports": "гетто в Подгуже создано в марте 1941 г.; акции выселения 1942 г. на площади Згоды"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1943-ghetto-liquidation",
@@ -367,7 +409,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_krakow_city"
    ],
    "evidence": [
     {
@@ -375,10 +418,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
      "accessed": "2026-10-29",
      "supports": "1943 ликвидация гетто"
+    },
+    {
+     "source_id": "pl_krakow_city",
+     "url": "https://www.krakow.pl/aktualnosci/268979,26,komunikat,80_lat_temu_krakowskie_getto_przestalo_istniec.html",
+     "accessed": "2026-11-13",
+     "supports": "окончательная ликвидация гетто 13–14.03.1943: в Плашув, Освенцим-Биркенау, убийства на месте"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1945-liberation",
@@ -404,7 +453,8 @@
    "sensitive": false,
    "source_ids": [
     "pl_en_wikipedia",
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -418,10 +468,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Krakowa",
      "accessed": "2026-10-29",
      "supports": "17.01.1945; бомба на Вавель; ~450 зданий"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/kalendarium-z-dziejow-650-lecia-uniwersytetu-jagiellonskiego",
+     "accessed": "2026-11-13",
+     "supports": "18.01.1945 конец германской оккупации Кракова"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1946-student-protests",
@@ -451,7 +507,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -459,10 +516,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Krakowa",
      "accessed": "2026-10-29",
      "supports": "3.05.1946, март 1968, 15.05.1977, первый SKS"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/kalendarium-z-dziejow-650-lecia-uniwersytetu-jagiellonskiego",
+     "accessed": "2026-11-13",
+     "supports": "3.05.1946 власти разогнали студенческую демонстрацию на Главном рынке; 15.05.1977 Студенческий комитет солидарности"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1949-nowa-huta",
@@ -494,7 +557,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_krakow_city"
    ],
    "evidence": [
     {
@@ -502,10 +566,16 @@
      "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
      "accessed": "2026-10-29",
      "supports": "17.05.1947 решение; 1.02.1949 площадка; 23.06.1949 первые дома"
+    },
+    {
+     "source_id": "pl_krakow_city",
+     "url": "https://dzielnica18.krakow.pl/dzielnica/historia",
+     "accessed": "2026-11-13",
+     "supports": "строительство Новой Гуты начато в 1949 г. (без точного дня)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1951-nowa-huta-incorporated",
@@ -531,7 +601,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_krakow_city"
    ],
    "evidence": [
     {
@@ -539,10 +610,16 @@
      "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
      "accessed": "2026-10-29",
      "supports": "1.01.1951 включение; 1952 трамвай"
+    },
+    {
+     "source_id": "pl_krakow_city",
+     "url": "https://dzielnica18.krakow.pl/dzielnica/historia",
+     "accessed": "2026-11-13",
+     "supports": "в 1951 г. территория (гмина Могила) присоединена к Кракову"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1954-lenin-steelworks",
@@ -571,7 +648,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_krakow_city"
    ],
    "evidence": [
     {
@@ -579,10 +657,16 @@
      "url": "https://pl.wikipedia.org/wiki/Nowa_Huta_(Kraków)",
      "accessed": "2026-10-29",
      "supports": "22.07.1954 пуск; 1990 Сендзимир; 2005–2007 Mittal/ArcelorMittal"
+    },
+    {
+     "source_id": "pl_krakow_city",
+     "url": "https://dzielnica18.krakow.pl/dzielnica/historia",
+     "accessed": "2026-11-13",
+     "supports": "комбинат действует с 1954 г. (без точного дня)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1960-cross-defence",
@@ -646,7 +730,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_mkidn"
    ],
    "evidence": [
     {
@@ -654,10 +739,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
      "accessed": "2026-10-29",
      "supports": "1978 ЮНЕСКО"
+    },
+    {
+     "source_id": "pl_mkidn",
+     "url": "https://www.gov.pl/web/kultura/swiatowe-dziedzictwo-unesco",
+     "accessed": "2026-11-13",
+     "supports": "Исторический центр Кракова в списке Всемирного наследия с 1978 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-1978-pope",
@@ -684,7 +775,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -692,10 +784,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Kraków",
      "accessed": "2026-10-29",
      "supports": "16.10.1978 избрание Войтылы"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/towarzysze-mamy-problem-reakcje-na-wybor-jana-pawla-ii",
+     "accessed": "2026-11-13",
+     "supports": "16.10.1978 Кароль Войтыла избран папой"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-krakow-2000-capital-of-culture",

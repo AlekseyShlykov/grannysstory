@@ -1,0 +1,947 @@
+{
+ "records": [
+  {
+   "id": "tr-izmir-1901-clock-tower",
+   "title": "Часовая башня на площади Конак",
+   "title_en": "Clock Tower on Konak Square",
+   "start_date": "1901",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1901 г. в Смирне построили часовую башню в честь 25-летия правления Абдул-Хамида II; она стала символом города.",
+   "historical_summary_en": "In 1901 a clock tower was built in Smyrna to mark the 25th anniversary of Abdul Hamid II's reign; it became the symbol of the city.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1901 Clock Tower"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1907-asansor",
+   "title": "Лифт Асансёр в Караташе",
+   "title_en": "Asansör lift in Karataş",
+   "start_date": "1907",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1907 г. Несим Леви Байраклыоглу построил в квартале Караташ общественный лифт Асансёр, соединивший нижнюю улицу с холмом.",
+   "historical_summary_en": "In 1907 Nesim Levi Bayraklıoğlu built the Asansör public lift in the Karataş quarter, linking the lower street with the hill.",
+   "affected_groups": [
+    "urban_residents",
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "ride_the_old_lift"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1907 Asansör"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1915-british-bombardment",
+   "title": "Британский флот обстреливает укрепления Смирны",
+   "title_en": "British fleet bombards Smyrna defences",
+   "start_date": "1915-03-05",
+   "end_date": "1915-03-15",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "5–15 марта 1915 г. британский флот обстреливал укрепления у Смирны, но, получив отказ губернатора сдаться, 15 марта отступил.",
+   "historical_summary_en": "On 5–15 March 1915 the British fleet bombarded the defences near Smyrna but withdrew on 15 March after the governor refused to surrender.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "5–15.03.1915"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1919-greek-landing",
+   "title": "Высадка греческих войск в Смирне",
+   "title_en": "Greek troops land in Smyrna",
+   "start_date": "1919-05-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "occupation",
+   "historical_summary": "15 мая 1919 г. в Смирне высадились греческие войска; началась греческая оккупация города и окрестностей, санкционированная союзниками без передачи суверенитета.",
+   "historical_summary_en": "On 15 May 1919 Greek troops landed in Smyrna, beginning the Greek occupation of the city and its hinterland, authorised by the Allies without a transfer of sovereignty.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Occupation_of_Smyrna",
+     "accessed": "2026-11-11",
+     "supports": "15.05.1919; без передачи суверенитета"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "15.05.1919"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103930/1919.html",
+     "accessed": "2026-11-12",
+     "supports": "15.05.1919 греческие войска заняли Измир"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-1922-fire",
+   "title": "Возвращение турецкой армии и Великий пожар Смирны",
+   "title_en": "Turkish army returns; Great Fire of Smyrna",
+   "start_date": "1922-09-09",
+   "end_date": "1922-09-17",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "disaster",
+   "historical_summary": "9 сентября 1922 г. греческие войска покинули Смирну, а 10 сентября в город вошла турецкая армия. 13–17 сентября пожар уничтожил греческие и армянские кварталы; число погибших греков и армян оценивается от десятков до сотен тысяч.",
+   "historical_summary_en": "On 9 September 1922 Greek troops left Smyrna, and on 10 September the Turkish army entered the city. On 13–17 September a fire destroyed the Greek and Armenian quarters; estimates of Greek and Armenian deaths range from tens to hundreds of thousands.",
+   "affected_groups": [
+    "all_residents",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Occupation_of_Smyrna",
+     "accessed": "2026-11-11",
+     "supports": "9–10.09.1922; пожар, кварталы, оценки жертв"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "пожар 13–17.09.1922"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103933/1922.html",
+     "accessed": "2026-11-12",
+     "supports": "09.09.1922 Измир взят турецкой армией"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-1923-economic-congress",
+   "title": "Измирский экономический конгресс",
+   "title_en": "İzmir Economic Congress",
+   "start_date": "1923-02-17",
+   "end_date": "1923-03-03",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "local_economy",
+   "historical_summary": "17 февраля — 3 марта 1923 г. в Измире под председательством Мустафы Кемаля прошёл экономический конгресс, определивший раннюю экономическую политику Республики.",
+   "historical_summary_en": "From 17 February to 3 March 1923 an economic congress chaired by Mustafa Kemal met in İzmir and set the early economic policy of the Republic.",
+   "affected_groups": [
+    "industrial_workers",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "17.02–3.03.1923"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+     "accessed": "2026-11-12",
+     "supports": "17.02.1923 открытие Экономического конгресса в Измире (по хронологии закрыт 4.03.1923)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-1929-alsancak-stadium",
+   "title": "Стадион Алсанджак",
+   "title_en": "Alsancak Stadium",
+   "start_date": "1929",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1929 г. на части бывшего квартала Дарагаджы построили стадион Алсанджак.",
+   "historical_summary_en": "In 1929 the Alsancak Stadium was built on part of the former Darağacı quarter.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1929"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1936-fair-kulturpark",
+   "title": "Измирская международная ярмарка в Культурпарке",
+   "title_en": "İzmir International Fair at Kültürpark",
+   "start_date": "1936",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1936 г. пятая Измирская международная ярмарка впервые прошла на своём нынешнем месте — в Культурпарке, разбитом на месте сгоревших кварталов.",
+   "historical_summary_en": "In 1936 the fifth İzmir International Fair was held for the first time at its present site, Kültürpark.",
+   "affected_groups": [
+    "all_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "summer_evening_at_the_fair"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_izmir_bb"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1936 пятая ярмарка, Kültürpark"
+    },
+    {
+     "source_id": "tr_izmir_bb",
+     "url": "https://www.izmir.bel.tr/YuklenenDosyalar/Yayinlar/0_05022024_102211_kulden-medeniyete-kulturpark---izmir-fuari-anlatisi-2023.pdf",
+     "accessed": "2026-11-12",
+     "supports": "закладка Кюльтюрпарка 01.01.1936; ярмарка 1936 г. впервые проведена в Кюльтюрпарке"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-1948-archaic-smyrna-dig",
+   "title": "Раскопки древней Смирны в Байраклы",
+   "title_en": "Excavations of Archaic Smyrna",
+   "start_date": "1948",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1948 г. англо-турецкая экспедиция Джона Кука и Экрема Акургала начала раскопки архаической Смирны.",
+   "historical_summary_en": "In 1948 an Anglo-Turkish team led by John M. Cook and Ekrem Akurgal began excavating Archaic Smyrna.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1948"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1954-alsancak-port",
+   "title": "Строительство порта Алсанджак",
+   "title_en": "Construction of Alsancak port begins",
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1954 г. началось строительство порта Алсанджак; в том же году район Кушадасы передан из провинции Измир в провинцию Айдын.",
+   "historical_summary_en": "In 1954 construction of the Port of Alsancak began; the same year Kuşadası was transferred from İzmir Province to Aydın Province.",
+   "affected_groups": [
+    "dock_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "harbour_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1954 порт; Кушадасы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1955-ege-university",
+   "title": "Эгейский университет",
+   "title_en": "Ege University",
+   "start_date": "1955",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "education",
+   "historical_summary": "В 1955 г. в Борнове был основан Эгейский университет — первый университет Измира, начавший занятия.",
+   "historical_summary_en": "In 1955 Ege University, the first university in İzmir to begin teaching, was founded in Bornova.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1955"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://ege.edu.tr/eng-1/Ege_University_from_past_to_today.html",
+     "accessed": "2026-11-12",
+     "supports": "закон 6595 (Resmî Gazete № 9013, 20.05.1955) о создании Эгейского университета; занятия с 05.11.1955"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-1971-mediterranean-games",
+   "title": "Средиземноморские игры в Измире",
+   "title_en": "Mediterranean Games in İzmir",
+   "start_date": "1971",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "sport",
+   "historical_summary": "Для Средиземноморских игр в 1964 г. построили стадион Ататюрк, а в 1971 г. Измир принял Игры.",
+   "historical_summary_en": "The Atatürk Stadium was built in 1964 for the Mediterranean Games, which İzmir hosted in 1971.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1964 стадион; 1971 игры"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1982-dokuz-eylul",
+   "title": "Университет Девятого сентября",
+   "title_en": "Dokuz Eylül University",
+   "start_date": "1982",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "education",
+   "historical_summary": "В 1982 г. был основан Университет Девятого сентября (Dokuz Eylül) с кампусом в Буджа; в 1992 г. в Урла — Измирский технологический институт.",
+   "historical_summary_en": "In 1982 Dokuz Eylül University was founded with its campus in Buca; in 1992 the İzmir Institute of Technology followed in Urla.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1982; 1992"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1987-adnan-menderes-airport",
+   "title": "Аэропорт Аднан Мендерес",
+   "title_en": "Adnan Menderes Airport",
+   "start_date": "1987",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1987 г. заработал аэропорт Аднан Мендерес.",
+   "historical_summary_en": "In 1987 Adnan Menderes Airport entered service.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1987"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-1990-aegean-free-zone",
+   "title": "Эгейская свободная зона в Газиемире",
+   "title_en": "Aegean Free Zone in Gaziemir",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1990 г. в Газиемире открылась Эгейская свободная зона — первая в Турции производственная свободная экономическая зона.",
+   "historical_summary_en": "In 1990 the Aegean Free Zone opened in Gaziemir, Turkey's first production-based free zone.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-2000-metro",
+   "title": "Первая линия Измирского метро",
+   "title_en": "First İzmir Metro line",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1995–2000 гг. была построена и введена в строй первая линия Измирского метро длиной 11,6 км от Ючйола до Борновы.",
+   "historical_summary_en": "In 1995–2000 the first İzmir Metro line, 11.6 km from Üçyol to Bornova, was built and entered service.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_izmir_bb"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1995–2000, 11,6 км"
+    },
+    {
+     "source_id": "tr_izmir_bb",
+     "url": "https://www.izmir.bel.tr/tr/Haberler/iste-izmir-metrosu-nun-28-lik-delikanlisi/50435/156",
+     "accessed": "2026-11-12",
+     "supports": "первая очередь метро Учйол–Борнова, заложенная в 1995 г., открыта в мае 2000 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-1998-bus-terminal",
+   "title": "Автовокзал İzotaş",
+   "title_en": "İzotaş bus terminal",
+   "start_date": "1998",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1998 г. в районе Алтындаг заработал междугородний автовокзал İzotaş.",
+   "historical_summary_en": "In 1998 the İzotaş intercity bus terminal in Altındağ entered service.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "arriving_at_the_bus_station"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "1998"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-2002-private-universities",
+   "title": "Частные университеты Измира",
+   "title_en": "Private universities in İzmir",
+   "start_date": "2002",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "education",
+   "historical_summary": "В 2002 г. в Измире были основаны частные Университет экономики и Университет Яшар.",
+   "historical_summary_en": "In 2002 the private İzmir University of Economics and Yaşar University were founded.",
+   "affected_groups": [
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "2002"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-2005-universiade",
+   "title": "Летняя Универсиада 2005 года",
+   "title_en": "2005 Summer Universiade",
+   "start_date": "2005",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "sport",
+   "historical_summary": "В 2005 г. Измир принял летнюю Универсиаду.",
+   "historical_summary_en": "In 2005 İzmir hosted the Summer Universiade.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-2008-wildlife-park",
+   "title": "Природный парк в Сасалы и центр искусств Сайгуна",
+   "title_en": "Wildlife Park at Sasalı and Saygun Art Centre",
+   "start_date": "2008",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2008 г. в Сасалы открылся Измирский природный парк, а в Гюзельялы — центр искусств имени Ахмета Аднана Сайгуна.",
+   "historical_summary_en": "In 2008 the İzmir Wildlife Park opened in Sasalı and the Ahmet Adnan Saygun Art Centre in Güzelyalı.",
+   "affected_groups": [
+    "children",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "trip_to_the_zoo"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_İzmir",
+     "accessed": "2026-11-11",
+     "supports": "2008"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-izmir-2010-izban",
+   "title": "Пригородная железная дорога İZBAN",
+   "title_en": "İZBAN commuter railway",
+   "start_date": "2010",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 2010 г. начала работу пригородная железная дорога İZBAN; сейчас её сеть длиной 136 км с 41 станцией ведёт от Алиаги до Сельчука, а в 2023 г. она перевезла 88,65 млн пассажиров.",
+   "historical_summary_en": "In 2010 the İZBAN commuter railway began operating; its network now runs 136 km with 41 stations from Aliağa to Selçuk, and in 2023 it carried 88.65 million passengers.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_izban"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/İZBAN",
+     "accessed": "2026-11-11",
+     "supports": "2010 начало работы; 136 км, 41 станция; 2023 — 88,65 млн"
+    },
+    {
+     "source_id": "tr_izban",
+     "url": "https://www.izban.com.tr/Sayfalar/Single.aspx?MenuId=8",
+     "accessed": "2026-11-12",
+     "supports": "İZBAN (TCDD и муниципалитет Измира по 50%) начал работу 30.08.2010; линия 136 км, 40 станций после открытия Сағлык и Сельчук"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-izmir-2020-samos-earthquake",
+   "title": "Землетрясение 30 октября 2020 года",
+   "title_en": "Earthquake of 30 October 2020",
+   "start_date": "2020-10-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "category": "disaster",
+   "historical_summary": "30 октября 2020 г. землетрясение магнитудой 7,0 в Эгейском море разрушило дома в Измире, прежде всего в районах Байраклы и Борнова; в провинции погибли около 117 человек, а в Сеферихисаре прошла волна цунами.",
+   "historical_summary_en": "On 30 October 2020 a magnitude 7.0 earthquake in the Aegean Sea destroyed buildings in İzmir, especially in the Bayraklı and Bornova districts; about 117 people died in the province, and a tsunami hit Seferihisar.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_of_the_earthquake"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2020_Aegean_Sea_earthquake",
+     "accessed": "2026-11-11",
+     "supports": "30.10.2020, Mw 7,0, ~117 погибших, Байраклы/Борнова, цунами"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

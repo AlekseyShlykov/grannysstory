@@ -28,7 +28,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -36,10 +37,16 @@
      "url": "https://fr.wikipedia.org/wiki/Constitution_fran%C3%A7aise_du_4_octobre_1958",
      "accessed": "2026-10-29",
      "supports": "28 septembre 1958, 82,60 %; promulgation 4 octobre; 1962"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000571356/",
+     "accessed": "2026-11-13",
+     "supports": "Constitution du 4 octobre 1958 adoptée par le peuple français"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1974-majority-18",
@@ -68,7 +75,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -76,10 +84,16 @@
      "url": "https://fr.wikipedia.org/wiki/Majorit%C3%A9_civile_en_France",
      "accessed": "2026-10-29",
      "supports": "loi n° 74-631 du 5 juillet 1974; 21 ans depuis 1792"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000700039/",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 74-631 du 5 juillet 1974 fixant à dix-huit ans l'âge de la majorité"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1995-strikes",
@@ -108,7 +122,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -116,10 +131,16 @@
      "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ves_de_1995_en_France",
      "accessed": "2026-10-29",
      "supports": "plan Juppé 15 novembre; 24 novembre au 15 décembre; SNCF et RATP plus de trois semaines; 2 millions selon syndicats"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/greve-sncf-reforme-des-retraites-securite-sociale-bernard-thibault-alain-juppe",
+     "accessed": "2026-11-13",
+     "supports": "Première grande journée de mobilisation le 24 novembre 1995; retrait de la réforme des retraites annoncé le 15 décembre"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1998-world-cup",
@@ -146,7 +167,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -154,10 +176,16 @@
      "url": "https://fr.wikipedia.org/wiki/Coupe_du_monde_de_football_1998",
      "accessed": "2026-10-29",
      "supports": "10 juin - 12 juillet 1998; 3-0 Brésil; 1,5 million Champs-Élysées"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/institut-national-audiovisuel/collections-audiovisuelles/archives-emblematiques/television",
+     "accessed": "2026-11-13",
+     "supports": "Victoire de la France en Coupe du monde au Stade de France le 12 juillet 1998, défilé sur les Champs-Élysées le lendemain"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2000-35-hours",
@@ -185,7 +213,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -193,10 +222,16 @@
      "url": "https://fr.wikipedia.org/wiki/Lois_Aubry",
      "accessed": "2026-10-29",
      "supports": "Aubry I 13 juin 1998; Aubry II 19 janvier 2000; 1er janvier 2000 et 2002"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000558109",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 98-461 du 13 juin 1998, art. 1: 35 heures à compter du 1er janvier 2000 (plus de 20 salariés), 1er janvier 2002 pour les autres"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2005-banlieue-riots",
@@ -222,7 +257,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -230,10 +266,16 @@
      "url": "https://fr.wikipedia.org/wiki/%C3%89meutes_de_2005_dans_les_banlieues_fran%C3%A7aises",
      "accessed": "2026-10-29",
      "supports": "27 octobre - 17 novembre 2005; état d'urgence 8 novembre; environ 9 000 véhicules"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/couvre-feu-mineurs-2005-emeutes-etat-d-urgence-banlieues",
+     "accessed": "2026-11-13",
+     "supports": "Mort de Zyed Benna et Bouna Traoré le 27 octobre 2005, violences urbaines, état d'urgence le 7 novembre 2005"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2018-gilets-jaunes",
@@ -263,7 +305,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -271,10 +314,16 @@
      "url": "https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes",
      "accessed": "2026-10-29",
      "supports": "17 novembre 2018; ronds-points; 287 700 à 1,3 million"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/les-gilets-jaunes-un-mouvement-social-inedit-en-5-dates",
+     "accessed": "2026-11-13",
+     "supports": "Première mobilisation des Gilets jaunes le 17 novembre 2018"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

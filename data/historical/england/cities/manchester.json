@@ -546,7 +546,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -554,10 +555,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
      "accessed": "2026-10-29",
      "supports": "дата реорганизации 1974 г."
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1972/70/contents",
+     "accessed": "2026-11-12",
+     "supports": "Local Government Act 1972 (c. 70): метрополитенское графство Greater Manchester"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-manchester-1979-woolworths-fire",
@@ -836,7 +843,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -844,10 +852,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
      "accessed": "2026-10-29",
      "supports": "дата слияния"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukla/2004/4/contents",
+     "accessed": "2026-11-12",
+     "supports": "University of Manchester Act 2004: объединение Victoria University of Manchester и UMIST"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-manchester-2007-international-festival",
@@ -944,7 +958,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -952,10 +967,16 @@
      "url": "https://en.wikipedia.org/wiki/Timeline_of_Manchester_history",
      "accessed": "2026-10-29",
      "supports": "дата и число погибших"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/collections/manchester-arena-inquiry-reports",
+     "accessed": "2026-11-12",
+     "supports": "доклады публичного расследования теракта на «Манчестер Арене» 22 мая 2017"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

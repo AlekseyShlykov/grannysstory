@@ -1,0 +1,134 @@
+{
+ "records": [
+  {
+   "id": "tr-vil-konya-1914-beysehir-regulator",
+   "title": "Регулятор на озере Бейшехир",
+   "title_en": "Beyşehir Lake regulator",
+   "start_date": "1914",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-vil-konya"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1914 г. был завершён регулятор на озере Бейшехир, через который вода озера пошла на орошение Конийской равнины.",
+   "historical_summary_en": "In 1914 a regulator was completed on Lake Beyşehir, sending the lake's water to irrigate the Konya Plain.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "irrigation_canal"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_memurlar"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_memurlar",
+     "url": "https://www.memurlar.net/haber/993950/konya-nin-denizi-beysehir-kuruyor.html?amp=1",
+     "accessed": "2026-11-11",
+     "supports": "1914 регулятор Бейшехир — основа оросительного проекта"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-il-konya-2012-whole-province-metropolitan",
+   "title": "Вся провинция становится метрополией",
+   "title_en": "Whole province becomes the metropolitan area",
+   "start_date": "2012",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-il-konya"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "По закону № 6360 2012 г. вся провинция Конья вошла в границы муниципалитета-метрополии; после выборов 2014 г. его границы совпали с границами провинции.",
+   "historical_summary_en": "Under Law No. 6360 of 2012 the whole of Konya Province came within the metropolitan municipality; after the 2014 elections its boundaries coincided with those of the province.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Konya",
+     "accessed": "2026-11-11",
+     "supports": "2012 закон 6360; 2014 границы"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6360.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 6360 от 12.11.2012, ст. 1(2): границы муниципалитета-метрополии Коньи — границы провинции; ст. 36: с первых местных выборов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-il-konya-2021-beysehir-drought",
+   "title": "Обмеление озера Бейшехир",
+   "title_en": "Lake Beyşehir shrinks",
+   "start_date": "2021",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-il-konya"
+   ],
+   "category": "environment",
+   "historical_summary": "Уровень озера Бейшехир, главного источника воды для Конийской равнины, падал с 1990-х гг.; к 2021 г. глубина озера уменьшилась примерно с 24 до 4–6 м, и из 466 рыбацких лодок в озеро могли выходить лишь около 180.",
+   "historical_summary_en": "The level of Lake Beyşehir, the main water source for the Konya Plain, had been falling since the 1990s; by 2021 the lake's depth had dropped from about 24 m to 4–6 m, and only about 180 of 466 fishing boats could still go out.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "dry_wells",
+    "drought_year"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_memurlar"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_memurlar",
+     "url": "https://www.memurlar.net/haber/993950/konya-nin-denizi-beysehir-kuruyor.html?amp=1",
+     "accessed": "2026-11-11",
+     "supports": "1990-е снижение; 2021 глубина 4–6 м; 466/180 лодок"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

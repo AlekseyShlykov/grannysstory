@@ -1,0 +1,503 @@
+{
+ "records": [
+  {
+   "id": "tr-zonguldak-1919-french-occupation",
+   "title": "Французская оккупация Зонгулдака",
+   "title_en": "French occupation of Zonguldak",
+   "start_date": "1919-03-08",
+   "end_date": "1921-06-21",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "occupation",
+   "historical_summary": "8 марта 1919 г. французские войска заняли Зонгулдак и Карадениз-Эрегли, ссылаясь на права французских угольных компаний; местные общества защиты прав сопротивлялись, и в июне 1921 г. французы окончательно ушли.",
+   "historical_summary_en": "On 8 March 1919 French troops occupied Zonguldak and Karadeniz Ereğli, citing the rights of French coal companies; local Defence of Rights societies resisted, and the French finally left in June 1921.",
+   "affected_groups": [
+    "miners",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1919 оккупация; 21.06.1920 уход"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103930/1919.html",
+     "accessed": "2026-11-12",
+     "supports": "08.03.1919 французы заняли Зонгулдак и Эрегли; освобождение в июне 1921"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103932/1921.html",
+     "accessed": "2026-11-12",
+     "supports": "21.06.1921 французы эвакуировали Зонгулдак"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-zonguldak-1926-is-bankasi-mines",
+   "title": "Шахты переходят к İş Bankası",
+   "title_en": "Mines pass to İş Bankası",
+   "start_date": "1926",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С 1926 по 1940 г. угольные шахты Зонгулдака разрабатывал İş Bankası, а с 1937 г. — также государственный Etibank и Эрегли угольные предприятия (EKİ); до этого с 1882 г. работали отечественные и иностранные компании.",
+   "historical_summary_en": "From 1926 to 1940 Zonguldak's coal mines were worked by İş Bankası, joined from 1937 by the state Etibank and the Ereğli Coal Enterprises (EKİ); before that, domestic and foreign companies had operated them since 1882.",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "father_in_the_mine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1882–1940 компании; 1926–1940 İş Bankası; 1937–1940 Etibank и EKİ"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/en/download/article-file/473668",
+     "accessed": "2026-11-12",
+     "supports": "Çağdaş Türkiye Tarihi Araştırmaları Dergisi (Dokuz Eylül Üniv.) 16(33), 2017: период İş Bankası в бассейне 1926–1936, компании 1926 г.; Etibank и EKİ с 1937 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-zonguldak-1937-railway",
+   "title": "Железная дорога до Зонгулдака",
+   "title_en": "Railway reaches Zonguldak",
+   "start_date": "1937",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1937 г. был построен вокзал Зонгулдак — конечная станция линии от Ырмака.",
+   "historical_summary_en": "In 1937 Zonguldak station was built as the terminus of the line from Irmak.",
+   "affected_groups": [
+    "miners",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "arriving_at_the_station"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1937 вокзал, линия до Ырмака"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-zonguldak-1940-etibank-eki",
+   "title": "Угольный бассейн под управлением Etibank",
+   "title_en": "Coal basin run by Etibank",
+   "start_date": "1940",
+   "end_date": "1957",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С 1940 по 1957 г. угольным бассейном управляли государственные Etibank и EKİ, с 1957 по 1984 г. — Турецкое управление угольных предприятий (TKİ).",
+   "historical_summary_en": "From 1940 to 1957 the coal basin was run by the state-owned Etibank and EKİ, and from 1957 to 1984 by the Turkish Coal Enterprises (TKİ).",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "father_in_the_mine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1940–1957 Etibank/EKİ; 1957–1984 TKİ"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/en/download/article-file/473668",
+     "accessed": "2026-11-12",
+     "supports": "та же статья: закон 3867 от 30.05.1940 о национализации шахт бассейна, управление Etibank/EKİ; TKİ по закону 6974 (1957)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-zonguldak-1960-population-growth",
+   "title": "Рост угольного города",
+   "title_en": "Coal town grows",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "migration",
+   "historical_summary": "По переписям население района Зонгулдак выросло с 86 874 человек в 1950 г. до 132 178 в 1960 г. и 250 164 в 1985 г., после чего начало сокращаться (218 422 в 2000 г.).",
+   "historical_summary_en": "According to the censuses, the population of Zonguldak district grew from 86,874 in 1950 to 132,178 in 1960 and 250,164 in 1985, after which it began to fall (218,422 in 2000).",
+   "affected_groups": [
+    "miners",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "leaving_the_village",
+    "father_in_the_mine"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1950, 1960, 1985, 2000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-zonguldak-1957-tki",
+   "title": "Создание TKİ",
+   "title_en": "Turkish Coal Enterprises take over",
+   "start_date": "1957",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1957 г. управление шахтами Зонгулдака перешло к Турецким угольным предприятиям (TKİ).",
+   "historical_summary_en": "In 1957 management of the Zonguldak mines passed to the Turkish Coal Enterprises (TKİ).",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_tki",
+    "tr_dergipark"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1957–1984 TKİ"
+    },
+    {
+     "source_id": "tr_tki",
+     "url": "https://tki.gov.tr/en-US/foundation-and-history",
+     "accessed": "2026-11-12",
+     "supports": "TKİ создано законом 6974 от 31.05.1957 (Resmî Gazete № 9621)"
+    },
+    {
+     "source_id": "tr_dergipark",
+     "url": "https://dergipark.org.tr/en/download/article-file/473668",
+     "accessed": "2026-11-12",
+     "supports": "та же статья: TKİ учреждено законом 6974 в мае 1957 г."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-zonguldak-1984-ttk",
+   "title": "Турецкое управление каменного угля (TTK)",
+   "title_en": "Turkish Hard Coal Enterprise (TTK)",
+   "start_date": "1984",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С 1984 г. каменноугольными шахтами Зонгулдака управляет Турецкое управление каменного угля (TTK).",
+   "historical_summary_en": "Since 1984 the hard-coal mines of Zonguldak have been run by the Turkish Hard Coal Enterprise (TTK).",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "1984– TTK"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-zonguldak-1990-miners-strike",
+   "title": "Большая забастовка шахтёров и марш на Анкару",
+   "title_en": "Great miners' strike and march on Ankara",
+   "start_date": "1990-11-30",
+   "end_date": "1991-01-08",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "labor",
+   "historical_summary": "30 ноября 1990 г. шахтёры Зонгулдака начали забастовку; в начале января 1991 г. десятки тысяч шахтёров и жителей двинулись пешком на Анкару, но марш был остановлен у Менгена. Забастовка продолжалась до 8 января 1991 г.",
+   "historical_summary_en": "On 30 November 1990 Zonguldak's miners went on strike; in early January 1991 tens of thousands of miners and townspeople set off on foot for Ankara, but the march was halted near Mengen. The strike lasted until 8 January 1991.",
+   "affected_groups": [
+    "miners",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "strike_in_family",
+    "march_on_foot"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_bianet"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_bianet",
+     "url": "https://bianet.org/haber/zonguldak-maden-grevi-ve-yuruyusu-28310",
+     "accessed": "2026-11-11",
+     "supports": "30.11.1990 начало; ночь 3 января; Менген; 30.11.1990–8.01.1991; оценки 10 000–100 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-zonguldak-1992-kozlu-explosion",
+   "title": "Взрыв метана на шахте Козлу",
+   "title_en": "Kozlu firedamp explosion",
+   "start_date": "1992-03-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "disaster",
+   "historical_summary": "3 марта 1992 г. вечером серия взрывов метана на каменноугольной шахте в Козлу (Зонгулдак) унесла жизни 263 шахтёров.",
+   "historical_summary_en": "On the evening of 3 March 1992 a series of firedamp explosions in a hard-coal mine at Kozlu (Zonguldak) killed 263 miners.",
+   "affected_groups": [
+    "miners"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "father_in_the_mine",
+    "mine_siren"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Kozlu_maden_faciası",
+     "accessed": "2026-11-11",
+     "supports": "3.03.1992, 263 погибших, цепочка взрывов метана"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-zonguldak-2012-kilimli-kozlu-districts",
+   "title": "Козлу и Килимли — отдельные районы",
+   "title_en": "Kozlu and Kilimli become districts",
+   "start_date": "2012",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 2012 г. Козлу и Килимли были выделены из центрального района Зонгулдака в самостоятельные районы, поэтому население центрального района к 2013 г. сократилось примерно вдвое (125 914 человек).",
+   "historical_summary_en": "In 2012 Kozlu and Kilimli were separated from Zonguldak's central district as districts of their own, so the central district's population had roughly halved by 2013 (125,914).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "2013 падение из-за образования Kilimli и Kozlu"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak_(il)",
+     "accessed": "2026-11-11",
+     "supports": "Kilimli, Kozlu 2012"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-zonguldak-2020-covid-just-transition",
+   "title": "Карантин и «справедливый переход» от угля",
+   "title_en": "Lockdown and a 'just transition' from coal",
+   "start_date": "2020",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "category": "public_health",
+   "historical_summary": "В 2020 г. Зонгулдак был закрыт на карантин во время локдауна COVID-19; в том же году ЕБРР предложил программу «справедливого перехода» для угольной экономики города.",
+   "historical_summary_en": "In 2020 Zonguldak was quarantined during the COVID-19 lockdown; the same year the EBRD proposed a 'just transition' for the city's coal economy.",
+   "affected_groups": [
+    "miners",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "staying_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "2020 карантин; ЕБРР"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

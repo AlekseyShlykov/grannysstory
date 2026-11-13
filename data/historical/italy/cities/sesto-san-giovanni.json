@@ -1,0 +1,642 @@
+{
+ "records": [
+  {
+   "id": "it-sesto-1903-breda-campari",
+   "title": "Открываются заводы Breda и Campari",
+   "title_en": "Breda and Campari plants open",
+   "start_date": "1903",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1903 г. в Сесто-Сан-Джованни открылись заводы Breda и Campari; в 1903–1911 гг. к западу от железной дороги вырос новый район «Сесто нуова».",
+   "historical_summary_en": "In 1903 the Breda and Campari plants opened in Sesto San Giovanni; between 1903 and 1911 the new 'Sesto nuova' district grew up west of the railway.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1903 Breda, Campari; 1903–1911 Sesto nuova"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/progetti/celebrazione-dell-80mo-anniversario-della-liberazione/sesto-tra-le-due-guerre",
+     "accessed": "2026-11-12",
+     "supports": "«nacquero così nel 1903 la Breda» e, tra 1904 e 1906, Campari, Marelli e Falck a Sesto"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1905-marelli",
+   "title": "Открытие завода Ercole Marelli и других",
+   "title_en": "Ercole Marelli and other plants open",
+   "start_date": "1905",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1905 г. в Сесто открылись заводы Ercole Marelli, литейные и насосные предприятия и канатная фабрика.",
+   "historical_summary_en": "In 1905 the Ercole Marelli works, foundries, a pump maker and a rope works opened in Sesto.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1905 Ercole Marelli ecc."
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/progetti/celebrazione-dell-80mo-anniversario-della-liberazione/sesto-tra-le-due-guerre",
+     "accessed": "2026-11-12",
+     "supports": "Ercole Marelli a Sesto nel 1905"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1906-falck",
+   "title": "Основаны сталелитейные заводы Falck",
+   "title_en": "Falck steelworks founded",
+   "start_date": "1906",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1906 г. в Сесто открылись Ломбардские сталелитейные заводы Falck; в том же году был построен рабочий посёлок Аттилио Франко.",
+   "historical_summary_en": "In 1906 the Falck Lombard Steelworks opened in Sesto; the Attilio Franco workers' village was built the same year.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "company_housing"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1906 Falck; Villaggio Attilio Franco"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/progetti/celebrazione-dell-80mo-anniversario-della-liberazione/sesto-tra-le-due-guerre",
+     "accessed": "2026-11-12",
+     "supports": "Falck a Sesto nel 1906"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1911-population-1911",
+   "title": "Население Сесто удваивается",
+   "title_en": "Sesto's population doubles",
+   "start_date": "1911",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "Население Сесто выросло с 6952 человек в 1901 г. до 13 667 в 1911 г.",
+   "historical_summary_en": "Sesto's population grew from 6,952 in 1901 to 13,667 in 1911.",
+   "affected_groups": [
+    "migrants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "moving_for_factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1901: 6952; 1911: 13 667"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-sesto-1920-occupation-1920",
+   "title": "Захват фабрик в 1920 году",
+   "title_en": "Factory occupations of 1920",
+   "start_date": "1920",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1920 г. во время рабочих волнений фабрики Сесто были заняты рабочими.",
+   "historical_summary_en": "In 1920, during the workers' unrest, Sesto's factories were occupied by the workers.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1920 fabbriche occupate"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/progetti/celebrazione-dell-80mo-anniversario-della-liberazione/sesto-tra-le-due-guerre",
+     "accessed": "2026-11-12",
+     "supports": "fine agosto – settembre 1920: occupazione delle fabbriche metalmeccaniche, anche a Sesto; occupazione Falck 25 ottobre – 2 novembre 1920"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1929-depression",
+   "title": "Великая депрессия: увольнения",
+   "title_en": "Great Depression: lay-offs",
+   "start_date": "1929",
+   "end_date": "1930",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "В 1929–1930 гг. Великая депрессия принесла в Сесто увольнения и снижение зарплат; экономика оживилась к 1935 г.",
+   "historical_summary_en": "In 1929–1930 the Great Depression brought lay-offs and wage cuts to Sesto; the economy picked up again by 1935.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "laid_off",
+    "hunger_years"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1929–30 licenziamenti; 1935 ripresa"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/progetti/celebrazione-dell-80mo-anniversario-della-liberazione/sesto-tra-le-due-guerre",
+     "accessed": "2026-11-12",
+     "supports": "ottobre 1929: Breda licenzia circa 200 operai; la crisi del 1930 comporta pesanti licenziamenti e riduzioni salariali, superata con le commesse pubbliche"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1943-strikes-1943",
+   "title": "Мартовские забастовки 1943 года",
+   "title_en": "March 1943 strikes",
+   "start_date": "1943-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "labor",
+   "historical_summary": "В марте 1943 г. забастовали рабочие Falck, Ercole Marelli, Pirelli и Breda в Сесто.",
+   "historical_summary_en": "In March 1943 workers at Falck, Ercole Marelli, Pirelli and Breda in Sesto went on strike.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "marzo 1943 scioperi"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/progetti/celebrazione-dell-80mo-anniversario-della-liberazione/sesto-tra-le-due-guerre",
+     "accessed": "2026-11-12",
+     "supports": "marzo 1943: scioperi alla Falck Concordia (23 marzo) estesi a Breda, Pirelli, Ercole Marelli, Magneti Marelli"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1944-deportations",
+   "title": "Забастовки, аресты и депортации",
+   "title_en": "Strikes, arrests and deportations",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1942–1944 гг. забастовки в Сесто сопровождались арестами, расстрелами и депортациями рабочих.",
+   "historical_summary_en": "In 1942–1944 strikes in Sesto were met with arrests, executions and deportations of workers.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "father_deported"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1942–1944 arresti, fucilazioni, deportazioni"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/attivita/mostre/marzo-1944-sciopero/streikertransport-la-repressione",
+     "accessed": "2026-11-12",
+     "supports": "marzo–aprile 1944: arresti dopo lo sciopero, soprattutto Breda e Falck a Sesto; 215 sestesi deportati (Mauthausen) dopo gli scioperi di marzo"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1945-allies",
+   "title": "Союзники входят в Сесто",
+   "title_en": "Allies enter Sesto",
+   "start_date": "1945-04-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "occupation",
+   "historical_summary": "28 апреля 1945 г. в Сесто вошли войска союзников.",
+   "historical_summary_en": "On 28 April 1945 Allied troops entered Sesto.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_curfew"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "28.04.1945"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-sesto-1955-south-immigration",
+   "title": "Переселенцы с Юга",
+   "title_en": "Migrants from the South",
+   "start_date": "1955",
+   "end_date": "1969",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1950–1960-е гг. в Сесто шла массовая иммиграция с юга Италии.",
+   "historical_summary_en": "In the 1950s and 1960s Sesto saw heavy immigration from southern Italy.",
+   "affected_groups": [
+    "migrants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "moving_north_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "anni '50–'60 forte immigrazione dal Sud"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://fondazioneisec.it/produzioni-editoriali/un-tetto-a-chi-lavora-mondi-operai-e-migrazioni-italiane-nell-europa-degli-anni-cinquanta",
+     "accessed": "2026-11-12",
+     "supports": "migranti interni dell'esodo rurale del dopoguerra verso Sesto San Giovanni negli anni Cinquanta"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-1954-city-title",
+   "title": "Сесто получает статус города",
+   "title_en": "Sesto receives the title of city",
+   "start_date": "1954-04-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "Указом президента от 10 апреля 1954 г. Сесто-Сан-Джованни получил звание города.",
+   "historical_summary_en": "By presidential decree of 10 April 1954 Sesto San Giovanni was granted the title of city.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "DPR 10.04.1954"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-sesto-1971-medal",
+   "title": "Золотая медаль за Сопротивление",
+   "title_en": "Gold Medal for the Resistance",
+   "start_date": "1971-06-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "18 июня 1971 г. Сесто был награждён золотой медалью «За воинскую доблесть» за участие в Сопротивлении.",
+   "historical_summary_en": "On 18 June 1971 Sesto was awarded the Gold Medal of Military Valour for its part in the Resistance.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "resistance_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "18.06.1971"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-sesto-1996-falck-closure",
+   "title": "Закрывается последний исторический завод — Falck",
+   "title_en": "The last historic factory, Falck, closes",
+   "start_date": "1996",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "local_economy",
+   "historical_summary": "К 1996 г. в Сесто закрылись все исторические фабрики; последней остановилась Falck.",
+   "historical_summary_en": "By 1996 all of Sesto's historic factories had closed; Falck was the last to stop.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "laid_off",
+    "empty_factory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_isec"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "1996 chiudono tutte; ultima Falck"
+    },
+    {
+     "source_id": "it_isec",
+     "url": "https://archivio.fondazioneisec.it/entita/20-acciaierie-e-ferriere-lombarde-falck",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio Falck: impianti siderurgici di Sesto smantellati nella prima metà del 1996; cessazione 31 dicembre 1996"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-sesto-2011-sistema-sesto",
+   "title": "Расследование «Система Сесто»",
+   "title_en": "'Sistema Sesto' investigation",
+   "start_date": "2011",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 2011 г. прокуратура начала расследование «Системы Сесто» — схемы взяток вокруг перестройки бывших промышленных территорий.",
+   "historical_summary_en": "In 2011 prosecutors opened an investigation into the 'Sistema Sesto', a bribery scheme linked to the redevelopment of former industrial land.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "empty_factory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sesto_San_Giovanni",
+     "accessed": "2026-11-11",
+     "supports": "2011 Sistema Sesto"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

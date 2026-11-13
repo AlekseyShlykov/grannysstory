@@ -1,0 +1,655 @@
+{
+ "records": [
+  {
+   "id": "it-ivrea-1908-olivetti-founded",
+   "title": "Основание фабрики Olivetti",
+   "title_en": "Olivetti factory founded",
+   "start_date": "1908-10-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "local_economy",
+   "historical_summary": "29 октября 1908 г. Камилло Оливетти основал в Иврее фабрику пишущих машин Olivetti с капиталом 350 тыс. лир.",
+   "historical_summary_en": "On 29 October 1908 Camillo Olivetti founded the Olivetti typewriter factory in Ivrea with capital of 350,000 lire.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_archivio_olivetti"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Olivetti",
+     "accessed": "2026-11-11",
+     "supports": "29.10.1908; 350 000 лир"
+    },
+    {
+     "source_id": "it_archivio_olivetti",
+     "url": "https://www.storiaolivetti.it/articolo/68-cronologia-olivetti-1908-1977/",
+     "accessed": "2026-11-12",
+     "supports": "1908: Camillo Olivetti costituisce a Ivrea la «Ing. C. Olivetti & C.» con capitale di 350.000 lire"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ivrea-1910-cinema-boaro",
+   "title": "Кинотеатр «Боаро» — один из первых в Италии",
+   "title_en": "Cinema Boaro, one of Italy's first",
+   "start_date": "1910",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1910 г. в Иврее был построен кинотеатр «Джузеппе Боаро», один из первых кинотеатров Италии.",
+   "historical_summary_en": "In 1910 the Giuseppe Boaro cinema, one of the first in Italy, was built in Ivrea.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "evening_at_the_cinema"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1910 Cinema Boaro"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1922-teatro-giacosa",
+   "title": "Городской театр получает имя Джакозы",
+   "title_en": "Civic theatre named after Giacosa",
+   "start_date": "1922-11-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1922 г. городской театр Ивреи получил имя Джузеппе Джакозы; открытие состоялось 30 ноября.",
+   "historical_summary_en": "In 1922 Ivrea's civic theatre was named after Giuseppe Giacosa; it opened with a performance on 30 November.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_at_the_theatre"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1922, 30 novembre"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1927-province-aosta",
+   "title": "Иврея переходит в провинцию Аоста",
+   "title_en": "Ivrea moves to the Province of Aosta",
+   "start_date": "1927",
+   "end_date": "1945",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1927 г. Иврея и ещё 112 коммун верхнего Канавезе были включены в новую провинцию Аоста; это присоединение было отменено в 1945 г.",
+   "historical_summary_en": "In 1927 Ivrea and 112 other communes of the upper Canavese were annexed to the new Province of Aosta; the annexation was undone in 1945.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1927 annessione, sciolta 1945"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1927-01-02;1",
+     "accessed": "2026-11-12",
+     "supports": "RDL 2 gennaio 1927 n. 1, ст. 1 п. 1: провинция Аоста включает коммуны упразднённого округа Иврея"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ivrea-1944-nazionale",
+   "title": "Казнь партизана Ферруччо Национале",
+   "title_en": "Execution of partisan Ferruccio Nazionale",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1944 г. на площади Ивреи, ныне носящей его имя, был повешен партизан Ферруччо Национале.",
+   "historical_summary_en": "In 1944 the partisan Ferruccio Nazionale was hanged in the Ivrea square that now bears his name.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "resistance_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1944 impiccato"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1950-lettera22",
+   "title": "Портативная машинка Lettera 22",
+   "title_en": "Lettera 22 portable typewriter",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "technology",
+   "historical_summary": "В 1950 г. Olivetti выпустила портативную пишущую машинку Lettera 22, получившую в 1954 г. премию «Золотой циркуль».",
+   "historical_summary_en": "In 1950 Olivetti launched the Lettera 22 portable typewriter, which won the Compasso d'Oro award in 1954.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "typing_at_home",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_archivio_olivetti"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Olivetti",
+     "accessed": "2026-11-11",
+     "supports": "1950 Lettera 22; Compasso d'Oro 1954"
+    },
+    {
+     "source_id": "it_archivio_olivetti",
+     "url": "https://www.storiaolivetti.it/articolo/68-cronologia-olivetti-1908-1977/",
+     "accessed": "2026-11-12",
+     "supports": "1950: macchina per scrivere portatile Lettera 22"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ivrea-1955-san-bernardino",
+   "title": "Социальный центр Olivetti в Сан-Бернардино",
+   "title_en": "Olivetti social centre at San Bernardino",
+   "start_date": "1955",
+   "end_date": "1958",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "social_policy",
+   "historical_summary": "В 1955–1958 гг. Адриано Оливетти превратил комплекс Сан-Бернардино в Иврее в центр социальных услуг и отдыха для работников Olivetti.",
+   "historical_summary_en": "Between 1955 and 1958 Adriano Olivetti turned the San Bernardino complex in Ivrea into a social services and recreation centre for Olivetti employees.",
+   "affected_groups": [
+    "industrial_workers",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "company_welfare",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1955–1958 servizi sociali"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1965-programma101",
+   "title": "Programma 101",
+   "title_en": "Programma 101",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "technology",
+   "historical_summary": "В 1965 г. Olivetti представила в Нью-Йорке Programma 101, который считают первым настоящим персональным компьютером; годом ранее электронное подразделение компании было продано General Electric.",
+   "historical_summary_en": "In 1965 Olivetti presented the Programma 101 in New York, regarded as the first true personal computer; a year earlier the company's electronics division had been sold to General Electric.",
+   "affected_groups": [
+    "scientists_engineers",
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "working_on_computers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_archivio_olivetti"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Olivetti",
+     "accessed": "2026-11-11",
+     "supports": "1965 P101 New York; 1964 vendita a GE"
+    },
+    {
+     "source_id": "it_archivio_olivetti",
+     "url": "https://www.storiaolivetti.it/articolo/68-cronologia-olivetti-1908-1977/",
+     "accessed": "2026-11-12",
+     "supports": "1965: Programma 101 presentata a New York; 1964 divisione elettronica confluita in Olivetti-General Electric"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ivrea-1978-libraries",
+   "title": "Библиотечная система Ивреи и Канавезе",
+   "title_en": "Ivrea and Canavese library system",
+   "start_date": "1978",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1978 г. была создана библиотечная система Ивреи и Канавезе, объединяющая 76 публичных библиотек.",
+   "historical_summary_en": "In 1978 the Ivrea and Canavese library system, linking 76 public libraries, was founded.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "library_card"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1978, 76 biblioteche"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1987-archivio-olivetti",
+   "title": "Исторический архив Olivetti",
+   "title_en": "Olivetti historical archive",
+   "start_date": "1987",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1987 г. вилла Казана в Иврее стала Историческим архивом Olivetti.",
+   "historical_summary_en": "In 1987 Villa Casana in Ivrea became the Olivetti Historical Archive.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1987 Villa Casana"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1992-redundancies",
+   "title": "Olivetti объявляет о сокращении 2200 работников",
+   "title_en": "Olivetti announces 2,200 redundancies",
+   "start_date": "1992-01-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "labor",
+   "historical_summary": "29 января 1992 г. Olivetti начала процедуру сокращения 2200 работников.",
+   "historical_summary_en": "On 29 January 1992 Olivetti began a redundancy procedure covering 2,200 workers.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "laid_off"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Olivetti",
+     "accessed": "2026-11-11",
+     "supports": "29.01.1992 mobilità 2200"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-1999-decline",
+   "title": "Упадок Olivetti и приход Vodafone",
+   "title_en": "Olivetti's decline and the arrival of Vodafone",
+   "start_date": "1999",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В конце 1990-х упадок Olivetti тяжело ударил по экономике Ивреи; через несколько лет город стал итальянской штаб-квартирой Vodafone Italia.",
+   "historical_summary_en": "In the late 1990s Olivetti's decline hit Ivrea's economy hard; a few years later the city became the Italian headquarters of Vodafone Italia.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "laid_off",
+    "children_leave_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "fine anni '90 declino; sede Vodafone"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-2001-maam",
+   "title": "Музей современной архитектуры под открытым небом",
+   "title_en": "Open-air museum of modern architecture",
+   "start_date": "2001",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 2001 г. в Иврее открылся музей современной архитектуры под открытым небом (MAAM).",
+   "historical_summary_en": "In 2001 Ivrea's open-air museum of modern architecture (MAAM) was inaugurated.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "2001 MAAM"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ivrea-2018-unesco",
+   "title": "«Иврея, промышленный город XX века» — ЮНЕСКО",
+   "title_en": "Ivrea, industrial city of the 20th century — UNESCO",
+   "start_date": "2018-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "1 июля 2018 г. Иврея была внесена в список Всемирного наследия ЮНЕСКО как 54-й объект Италии.",
+   "historical_summary_en": "On 1 July 2018 Ivrea was inscribed on the UNESCO World Heritage List as Italy's 54th site.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_proud_again"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "1.07.2018, 54° sito"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://cultura.gov.it/articolo/siti-italiani-del-patrimonio-mondiale-unesco",
+     "accessed": "2026-11-12",
+     "supports": "перечень Минкультуры: № 54, 2018 — Ivrea, città industriale del XX secolo"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-ivrea-2022-capital-book",
+   "title": "Итальянская столица книги",
+   "title_en": "Italian Capital of the Book",
+   "start_date": "2022-02-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "16 февраля 2022 г. Иврея была объявлена итальянской столицей книги 2022 года.",
+   "historical_summary_en": "On 16 February 2022 Ivrea was named Italian Capital of the Book for 2022.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "book_fair_visit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "16.02.2022"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://biblioteche.cultura.gov.it/it/notizie/notizia/Capitale-italiana-del-Libro-2022/",
+     "accessed": "2026-11-12",
+     "supports": "Ivrea proclamata Capitale italiana del Libro 2022 dal ministro Franceschini (16 febbraio 2022)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

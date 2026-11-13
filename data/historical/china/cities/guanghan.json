@@ -1,0 +1,585 @@
+{
+ "records": [
+  {
+   "id": "cn-guanghan-1913-county-created",
+   "title": "Область Ханьчжоу становится уездом Гуанхань",
+   "title_en": "Hanzhou becomes Guanghan County",
+   "start_date": "1913",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1913 г. (2-й год Республики) область Ханьчжоу была преобразована в уезд Гуанхань.",
+   "historical_summary_en": "In 1913, the second year of the Republic, Hanzhou was turned into Guanghan County.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广汉市",
+     "accessed": "2026-11-11",
+     "supports": "民国2年（1913年），改汉州为广汉县"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guanghan-1927-jade-find",
+   "title": "Крестьянин находит нефрит у Саньсиндуя",
+   "title_en": "Farmer finds jade at Sanxingdui",
+   "start_date": "1929",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "Весной 1929 г. крестьянин Янь Даочэн с сыном, расчищая оросительную канаву у Саньсиндуя в Гуанхане, нашёл большой клад нефритовых изделий (в части источников год находки — 1927); в 1934 г. Дэвид Крокетт Грэхем провёл здесь первые раскопки.",
+   "historical_summary_en": "In spring 1929 the farmer Yan Daocheng and his son, clearing an irrigation ditch at Sanxingdui in Guanghan, found a large cache of jade objects (some sources give 1927); in 1934 David Crockett Graham led the first archaeological excavation there.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "found_in_the_field"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_mfa_consulate_munich"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sanxingdui",
+     "accessed": "2026-11-11",
+     "supports": "1927 farmer dredging ditch, jade; 1934 Graham excavation"
+    },
+    {
+     "source_id": "cn_mfa_consulate_munich",
+     "url": "https://munich.china-consulate.gov.cn/chn/jywhkj/wh_123261/200608/t20060814_10237025.htm",
+     "accessed": "2026-11-12",
+     "supports": "1929年春 燕道诚父子淘沟时发现一堆玉器（дата 1929, не 1927 — запись исправлена）"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-1953-wenjiang-district",
+   "title": "Гуанхань в составе Вэньцзянского особого района",
+   "title_en": "Guanghan placed in Wenjiang Special District",
+   "start_date": "1953-07",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В июле 1953 г. уезд Гуанхань перешёл в Вэньцзянский особый район; 29 апреля 1960 г. уезды Шифан и Гуанхань слили в один уезд Гуанхань, а 1 января 1963 г. снова разделили.",
+   "historical_summary_en": "In July 1953 Guanghan County was placed in Wenjiang Special District; on 29 April 1960 Shifang and Guanghan were merged as Guanghan County, and on 1 January 1963 they were separated again.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_deyang_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广汉市",
+     "accessed": "2026-11-11",
+     "supports": "1953年7月 温江专区; 1960年4月29日 合并; 1963年1月1日 分设"
+    },
+    {
+     "source_id": "cn_deyang_gov",
+     "url": "https://www.deyang.gov.cn/2018dy/mldy/gxgk/ahf/905533.htm",
+     "accessed": "2026-11-12",
+     "supports": "1950年属绵阳专区，1953年改属温江专区"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-1956-flight-college",
+   "title": "Авиационное училище гражданской авиации в Гуанхане",
+   "title_en": "Civil aviation college founded in Guanghan",
+   "start_date": "1956-05-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "education",
+   "subcategory": null,
+   "historical_summary": "26 мая 1956 г. Управление гражданской авиации основало в Гуанхане авиационное училище; с 15 декабря 1987 г. это Лётный университет гражданской авиации Китая, где учатся более 16 тыс. студентов.",
+   "historical_summary_en": "On 26 May 1956 the Civil Aviation Administration founded an aviation college in Guanghan; since 15 December 1987 it has been the Civil Aviation Flight University of China, with more than 16,000 students.",
+   "affected_groups": [
+    "young_adults",
+    "students"
+   ],
+   "potential_impacts": [
+    "education_opportunity",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_cafuc"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Civil_Aviation_Flight_University_of_China",
+     "accessed": "2026-11-11",
+     "supports": "1956-05-26 founded; 1987-12-15 current name; ~16,000 students"
+    },
+    {
+     "source_id": "cn_cafuc",
+     "url": "https://www.cafuc.edu.cn/xxgk/xxjj.htm",
+     "accessed": "2026-11-12",
+     "supports": "1956年5月26日经国务院批准建立民航局航空学校；本部位于四川省广汉市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-1977-secret-land-division",
+   "title": "Тайный раздел земли в бригаде Сянъяна",
+   "title_en": "Secret division of land in a Xiangyang team",
+   "start_date": "1977",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "Весной 1977 г. крестьяне 9-й производственной бригады 11-й большой бригады коммуны Сянъян тайно поделили землю между дворами и получили хороший урожай рапса и сои. В 1958–1976 гг. распределяемый доход на человека в коммуне вырос лишь с 68 до 74 юаней в год.",
+   "historical_summary_en": "In spring 1977 farmers in the 9th production team of the 11th brigade of Xiangyang commune secretly divided land among households and got good yields of rapeseed and soybeans. Between 1958 and 1976 per-capita distributed income in the commune had risen only from 68 to 74 yuan a year.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "family_land",
+    "secret_harvest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_ourchinastory"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_ourchinastory",
+     "url": "https://www.ourchinastory.com/cn/11781",
+     "accessed": "2026-11-11",
+     "supports": "1977年春 11大队9生产队 分田到户; 1958–1976 68→74元"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guanghan-1978-group-contracting",
+   "title": "Подряд на группы в волости Цзиньюй",
+   "title_en": "Output contracted to work groups in Jinyu",
+   "start_date": "1978",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "Осенью 1978 г. в волости Цзиньюй уезда Гуанхань ввели подряд с передачей производственных заданий рабочим группам (бао чань дао цзу).",
+   "historical_summary_en": "In autumn 1978 Jinyu township in Guanghan County introduced contracting of output to work groups (bao chan dao zu).",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "family_land"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_people",
+    "cn_deyang_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_people",
+     "url": "https://cpc.people.com.cn/BIG5/n1/2016/0716/c404684-28559101.html",
+     "accessed": "2026-11-11",
+     "supports": "1978年秋 广汉县金鱼公社 包产到组"
+    },
+    {
+     "source_id": "cn_deyang_gov",
+     "url": "https://www.deyang.gov.cn/2018dy/mldy/gxgk/ahf/905533.htm",
+     "accessed": "2026-11-12",
+     "supports": "1978年在全国率先实行“包产到组”联产承包责任制"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-1980-xiangyang-township",
+   "title": "Сянъян первым в Китае снимает вывеску народной коммуны",
+   "title_en": "Xiangyang becomes the first commune in China to take down its sign",
+   "start_date": "1980-06-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "15 апреля 1980 г. закрытое совещание в уезде Гуанхань решило упразднить народную коммуну Сянъян; 18 июня вывеску «народная коммуна» без церемоний заменили на «волостное народное правительство», а в сентябре 1980 г. уезд утвердил официальную вывеску. Сянъян называют «первой волостью сельской реформы Китая»; в декабре 1982 г. новая конституция отменила систему слияния власти и коммуны.",
+   "historical_summary_en": "On 15 April 1980 a closed meeting in Guanghan County decided to abolish Xiangyang people's commune; on 18 June the 'people's commune' sign was quietly replaced with one reading 'township people's government', and in September 1980 the county approved the official sign. Xiangyang is called 'the first township of China's rural reform'; in December 1982 the new constitution ended the merged commune-government system.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "family_land",
+    "reform_years"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_ourchinastory",
+    "cn_people",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_ourchinastory",
+     "url": "https://www.ourchinastory.com/cn/11781",
+     "accessed": "2026-11-11",
+     "supports": "1980年4月15日 决定; 6月18日 换牌; 9月 正式; 1982年12月 宪法"
+    },
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广汉市",
+     "accessed": "2026-11-11",
+     "supports": "1980年6月 向阳人民公社管理委员会牌子换成乡政府; 中国农村改革第一乡"
+    },
+    {
+     "source_id": "cn_people",
+     "url": "https://cpc.people.com.cn/BIG5/n1/2016/0716/c404684-28559101.html",
+     "accessed": "2026-11-11",
+     "supports": "1980 向阳 全国第一个摘下人民公社牌子"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guanghan-1983-deyang",
+   "title": "Гуанхань в составе Дэяна",
+   "title_en": "Guanghan placed under Deyang",
+   "start_date": "1983-08",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1983 г. уезд Гуанхань передали в подчинение Чэнду, а в августе того же года, после создания города Дэян, — Дэяну.",
+   "historical_summary_en": "In 1983 Guanghan County was placed under Chengdu, and in August that year, when the city of Deyang was created, under Deyang.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_deyang_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广汉市",
+     "accessed": "2026-11-11",
+     "supports": "1983年 划归成都; 同年8月 德阳市建立，广汉县划属德阳市"
+    },
+    {
+     "source_id": "cn_deyang_gov",
+     "url": "https://www.deyang.gov.cn/2018dy/mldy/gxgk/ahf/905533.htm",
+     "accessed": "2026-11-12",
+     "supports": "1983年3月划入成都市，同年8月划入德阳市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-1986-sanxingdui-pits",
+   "title": "Жертвенные ямы Саньсиндуя",
+   "title_en": "Sanxingdui sacrificial pits found",
+   "start_date": "1986",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 1986 г. местные рабочие случайно обнаружили в Саньсиндуе жертвенные ямы с тысячами изделий из золота, бронзы, нефрита и керамики; вторая яма найдена 14 августа 1986 г. В 1997 г. рядом открылся музей Саньсиндуй.",
+   "historical_summary_en": "In 1986 local workers accidentally found sacrificial pits at Sanxingdui holding thousands of gold, bronze, jade and pottery objects; the second pit was found on 14 August 1986. The Sanxingdui Museum opened nearby in 1997.",
+   "affected_groups": [
+    "rural_residents",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "school_trip",
+    "found_in_the_field"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_mfa_consulate_munich"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sanxingdui",
+     "accessed": "2026-11-11",
+     "supports": "1986 pits; second pit 1986-08-14; 1997 museum"
+    },
+    {
+     "source_id": "cn_mfa_consulate_munich",
+     "url": "https://munich.china-consulate.gov.cn/chn/jywhkj/wh_123261/200608/t20060814_10237025.htm",
+     "accessed": "2026-11-12",
+     "supports": "1986年春天的发掘和一、二号祭祀坑的出现；1986年7月30日为一号坑发掘第10天"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-1988-county-level-city",
+   "title": "Уезд Гуанхань становится городом",
+   "title_en": "Guanghan County becomes a county-level city",
+   "start_date": "1988-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В феврале 1988 г. уезд Гуанхань упразднили и создали город уездного уровня Гуанхань под управлением Дэяна.",
+   "historical_summary_en": "In February 1988 Guanghan County was abolished and replaced by the county-level city of Guanghan, administered by Deyang.",
+   "affected_groups": [
+    "rural_residents",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_deyang_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广汉市",
+     "accessed": "2026-11-11",
+     "supports": "1988年2月 撤销广汉县，建立广汉市"
+    },
+    {
+     "source_id": "cn_deyang_gov",
+     "url": "https://www.deyang.gov.cn/2018dy/mldy/gxgk/ahf/905533.htm",
+     "accessed": "2026-11-12",
+     "supports": "1988年撤县建市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-guanghan-2008-earthquake-damage",
+   "title": "Землетрясение 12 мая 2008 года в Гуанхане",
+   "title_en": "Earthquake of 12 May 2008 in Guanghan",
+   "start_date": "2008-05-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "Землетрясение 12 мая 2008 г. серьёзно повредило Храм Конфуция в Гуанхане; он вновь открылся в сентябре 2013 г.",
+   "historical_summary_en": "The earthquake of 12 May 2008 seriously damaged the Confucian Temple in Guanghan; it reopened in September 2013.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "earthquake_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia",
+    "cn_gov_ccp_centenary_chronicle"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/广汉市",
+     "accessed": "2026-11-11",
+     "supports": "5·12地震 广汉文庙 严重受损; 2013年9月 重新开放"
+    },
+    {
+     "source_id": "cn_gov_ccp_centenary_chronicle",
+     "url": "https://www.gov.cn/xinwen/2021-06/28/content_5621160.htm",
+     "accessed": "2026-11-12",
+     "supports": "2008年5月12日 四川汶川发生里氏8.0级特大地震 (дата; повреждение храма в Гуанхане здесь не подтверждено)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-guanghan-2021-new-sanxingdui-finds",
+   "title": "Новые находки в Саньсиндуе",
+   "title_en": "New finds at Sanxingdui",
+   "start_date": "2021-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-guanghan"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В 2020–2022 гг. в Саньсиндуе раскопали шесть новых жертвенных ям; в марте 2021 г. объявили о более чем 500 находках, включая золотую маску.",
+   "historical_summary_en": "Six new sacrificial pits were excavated at Sanxingdui in 2020–2022; in March 2021 more than 500 finds, including a gold mask, were announced.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_on_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_mct_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sanxingdui",
+     "accessed": "2026-11-11",
+     "supports": "2020–2022 six new pits; March 2021 500+ relics, gold mask"
+    },
+    {
+     "source_id": "cn_mct_gov",
+     "url": "https://www.mct.gov.cn/whzx/qgwhxxlb/sc/202103/t20210322_923195.htm",
+     "accessed": "2026-11-12",
+     "supports": "3月20日“考古中国”进展会（成都）：广汉三星堆遗址新发现6座“祭祀坑”，出土重要文物500余件"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

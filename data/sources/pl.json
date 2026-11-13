@@ -24,7 +24,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Вторичный источник; использован через WebFetch для административных делений и местной истории; confidence: medium."
+   "notes": "Вторичный источник; использован через WebFetch для административных делений и местной истории; confidence: medium.",
+   "source_type": "encyclopedia"
   },
   {
    "source_id": "pl_en_wikipedia",
@@ -49,7 +50,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Вторичный источник (WebFetch, статьи History of Warsaw/Łódź/Kraków/Gdańsk, Free City of Danzig и др.); confidence: medium."
+   "notes": "Вторичный источник (WebFetch, статьи History of Warsaw/Łódź/Kraków/Gdańsk, Free City of Danzig и др.); confidence: medium.",
+   "source_type": "encyclopedia"
   },
   {
    "source_id": "pl_sejm_eli",
@@ -76,7 +78,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Использованы только метаданные: название акта, дата, дата вступления в силу. Содержание статей по метаданным не проверяется."
+   "notes": "Использованы только метаданные: название акта, дата, дата вступления в силу. Содержание статей по метаданным не проверяется.",
+   "source_type": "government"
   },
   {
    "source_id": "pl_isap",
@@ -103,7 +106,8 @@
    ],
    "status": "inaccessible",
    "accessed": null,
-   "notes": "Страницы DocDetails при запросе выдали CAPTCHA (проверка человеком); не обходилась. Вместо этого использовано API ELI."
+   "notes": "Страницы DocDetails при запросе выдали CAPTCHA (проверка человеком); не обходилась. Вместо этого использовано API ELI.",
+   "source_type": "government"
   },
   {
    "source_id": "pl_britannica",
@@ -130,7 +134,8 @@
    ],
    "status": "inaccessible",
    "accessed": null,
-   "notes": "Запрос статьи Gdansk вернул HTTP 403."
+   "notes": "Запрос статьи Gdansk вернул HTTP 403.",
+   "source_type": "encyclopedia"
   },
   {
    "source_id": "pl_mpw",
@@ -156,7 +161,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Страница «Powstanie Warszawskie» содержит в основном календарь и биограммы; дата начала 1.08.1944 подтверждена, итоговые цифры потерь на этой странице не найдены."
+   "notes": "Страница «Powstanie Warszawskie» содержит в основном календарь и биограммы; дата начала 1.08.1944 подтверждена, итоговые цифры потерь на этой странице не найдены.",
+   "source_type": "museum"
   },
   {
    "source_id": "pl_ecs",
@@ -182,7 +188,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Описания разделов постоянной экспозиции (залы B–D): декабрь 1970, Август 1980, военное положение."
+   "notes": "Описания разделов постоянной экспозиции (залы B–D): декабрь 1970, Август 1980, военное положение.",
+   "source_type": "museum"
   },
   {
    "source_id": "pl_gus",
@@ -211,7 +218,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Использованы «Rocznik Demograficzny 2024» (PDF и таблицы XLSX, публикация 26.11.2024): ряды 1946–2023 и таблицы за 1970–2023."
+   "notes": "Использованы «Rocznik Demograficzny 2024» (PDF и таблицы XLSX, публикация 26.11.2024): ряды 1946–2023 и таблицы за 1970–2023.",
+   "source_type": "statistics"
   },
   {
    "source_id": "pl_ipn",
@@ -237,7 +245,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Статья Г. Хайко «Ekspatriacja» (20.02.2021): PUR, переселения 1944–1951. Чувствительные темы помечены sensitive. Основной сайт ipn.gov.pl отдельно не запрашивался."
+   "notes": "Статья Г. Хайко «Ekspatriacja» (20.02.2021): PUR, переселения 1944–1951. Чувствительные темы помечены sensitive. Основной сайт ipn.gov.pl отдельно не запрашивался.",
+   "source_type": "government"
   },
   {
    "source_id": "pl_dzieje",
@@ -263,7 +272,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Портал MHP/PAP; статья А. Завистовского (IPN) о распределении товаров в ПНР."
+   "notes": "Портал MHP/PAP; статья А. Завистовского (IPN) о распределении товаров в ПНР. Портал создан Muzeum Historii Polski (государственный музей) совместно с PAP при финансировании Министерства культуры (подвал сайта, проверено 13.11.2026); source_type museum по MHP.",
+   "source_type": "museum"
   },
   {
    "source_id": "pl_dom_malarek",
@@ -289,7 +299,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Страница «Zalipie»: статья Хикеля 1905, конкурс с 1948 (с 1965 в Залипье), краски на молоке до 1970-х."
+   "notes": "Страница «Zalipie»: статья Хикеля 1905, конкурс с 1948 (с 1965 в Залипье), краски на молоке до 1970-х.",
+   "source_type": "museum"
   },
   {
    "source_id": "pl_culture_pl",
@@ -339,7 +350,8 @@
    "access_restrictions": [],
    "status": "inaccessible",
    "accessed": null,
-   "notes": "Предполагаемая страница филиала «Zagroda Felicji Curyłowej» вернула 404; не найдена."
+   "notes": "Предполагаемая страница филиала «Zagroda Felicji Curyłowej» вернула 404; не найдена.",
+   "source_type": "museum"
   },
   {
    "source_id": "pl_radio_krakow",
@@ -391,7 +403,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "API v1 (без ключа, с ограничением частоты): численность населения (72305) и регистрируемая безработица (60270) для городов-повятов и гмины Олесно."
+   "notes": "API v1 (без ключа, с ограничением частоты): численность населения (72305) и регистрируемая безработица (60270) для городов-повятов и гмины Олесно.",
+   "source_type": "statistics"
   },
   {
    "source_id": "pl_pwn",
@@ -416,7 +429,8 @@
    "access_restrictions": [],
    "status": "inaccessible",
    "accessed": null,
-   "notes": "Страница поиска вернула «Serwis Nieaktywny»; статьи не открылись."
+   "notes": "Страница поиска вернула «Serwis Nieaktywny»; статьи не открылись.",
+   "source_type": "encyclopedia"
   },
   {
    "source_id": "pl_polona",
@@ -441,7 +455,8 @@
    "access_restrictions": [],
    "status": "catalogued",
    "accessed": null,
-   "notes": "Сайт доступен (HTTP 200), но в этой сессии материалы не извлекались — нужен ручной поиск по сканам (статистические ежегодники, прессa)."
+   "notes": "Сайт доступен (HTTP 200), но в этой сессии материалы не извлекались — нужен ручной поиск по сканам (статистические ежегодники, прессa).",
+   "source_type": "library"
   },
   {
    "source_id": "pl_szukajwarchiwach",
@@ -466,7 +481,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Открыт официальный каталог государственных архивов с актами, картами, фотографиями, фильмами и звукозаписями. В игре используется ссылка на каталог; персональные записи и сканы не копируются."
+   "notes": "Открыт официальный каталог государственных архивов с актами, картами, фотографиями, фильмами и звукозаписями. В игре используется ссылка на каталог; персональные записи и сканы не копируются.",
+   "source_type": "archive"
   },
   {
    "source_id": "pl_fbc",
@@ -491,7 +507,8 @@
    "access_restrictions": [],
    "status": "catalogued",
    "accessed": null,
-   "notes": "Сайт доступен, не использован."
+   "notes": "Сайт доступен, не использован.",
+   "source_type": "library"
   },
   {
    "source_id": "pl_nac",
@@ -517,7 +534,8 @@
    "access_restrictions": [],
    "status": "accessed",
    "accessed": "2026-10-29",
-   "notes": "Открыт официальный сайт и описание цифрового фонда. В игре используется ссылка на архив; фотографии и другие материалы не воспроизводятся."
+   "notes": "Открыт официальный сайт и описание цифрового фонда. В игре используется ссылка на архив; фотографии и другие материалы не воспроизводятся.",
+   "source_type": "archive"
   },
   {
    "source_id": "pl_ipn_main",
@@ -542,7 +560,8 @@
    "access_restrictions": [],
    "status": "catalogued",
    "accessed": null,
-   "notes": "Главный сайт доступен; использован только портал przystanekhistoria.pl (pl_ipn)."
+   "notes": "Главный сайт доступен; использован только портал przystanekhistoria.pl (pl_ipn).",
+   "source_type": "government"
   },
   {
    "source_id": "pl_muzhp",
@@ -560,14 +579,394 @@
    "categories": [
     "history"
    ],
-   "access_method": "catalogue",
+   "access_method": "website",
    "bulk_download": false,
    "license": "Условия музея",
    "attribution_required": true,
    "access_restrictions": [],
-   "status": "catalogued",
-   "accessed": null,
-   "notes": "Главный сайт доступен; использован портал dzieje.pl (pl_dzieje)."
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Государственный музей; разделы «Wiedza on-line» и «Kalendarium» использованы как подтверждения 13.11.2026.",
+   "source_type": "museum",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_trybunal",
+   "name": "Trybunał Konstytucyjny — orzeczenia",
+   "publisher": "Trybunał Konstytucyjny",
+   "country": "PL",
+   "url": "https://trybunal.gov.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "law",
+    "politics"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальные документы (ст. 4 закона об авторском праве: не охраняются)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Официальная страница приговоров КТ; открыта 13.11.2026.",
+   "source_type": "government",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_strazgraniczna",
+   "name": "Straż Graniczna",
+   "publisher": "Komenda Główna Straży Granicznej",
+   "country": "PL",
+   "url": "https://www.strazgraniczna.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "migration",
+    "border"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта ведомства",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Официальный сайт Пограничной стражи; открыт 13.11.2026.",
+   "source_type": "government",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_filmschool",
+   "name": "Szkoła Filmowa w Łodzi — historia",
+   "publisher": "PWSFTviT im. L. Schillera w Łodzi",
+   "country": "PL",
+   "url": "https://www.filmschool.lodz.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "education",
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта вуза",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Государственный вуз, страница «Historia»; открыта 13.11.2026.",
+   "source_type": "academic",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_mkidn",
+   "name": "Ministerstwo Kultury i Dziedzictwa Narodowego (gov.pl/web/kultura)",
+   "publisher": "Ministerstwo Kultury i Dziedzictwa Narodowego",
+   "country": "PL",
+   "url": "https://www.gov.pl/web/kultura",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "culture",
+    "heritage"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия портала gov.pl",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Страницы министерства о списке Всемирного наследия ЮНЕСКО; открыты 13.11.2026.",
+   "source_type": "government",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl",
+    "pl-warszawa",
+    "pl-krakow"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_uni_lodz",
+   "name": "Uniwersytet Łódzki — historia",
+   "publisher": "Uniwersytet Łódzki",
+   "country": "PL",
+   "url": "https://www.uni.lodz.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "education"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта вуза",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Государственный университет, страница истории; открыта 13.11.2026.",
+   "source_type": "academic",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-lodz"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_zamek",
+   "name": "Zamek Królewski w Warszawie — historia",
+   "publisher": "Zamek Królewski w Warszawie – Muzeum",
+   "country": "PL",
+   "url": "https://www.zamek-krolewski.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "culture",
+    "heritage"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта музея",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Государственный музей, раздел «Historia»; открыт 13.11.2026.",
+   "source_type": "museum",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-warszawa"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_gdansk_city",
+   "name": "Gdańsk.pl — Wydarzyło się w Gdańsku / Kalendarium historyczne",
+   "publisher": "Urząd Miejski w Gdańsku",
+   "country": "PL",
+   "url": "https://www.gdansk.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия официального портала города",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Официальный портал города: календарь «Wydarzyło się w Gdańsku» и «Kalendarium historyczne»; открыты 13.11.2026.",
+   "source_type": "municipal",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-gdansk"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_muzeum1939",
+   "name": "Muzeum II Wojny Światowej w Gdańsku",
+   "publisher": "Muzeum II Wojny Światowej w Gdańsku",
+   "country": "PL",
+   "url": "https://muzeum1939.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "war_conflict",
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта музея",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Государственный музей; статья о создании Вольного города; открыта 13.11.2026.",
+   "source_type": "museum",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-gdansk",
+    "pl"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_krakow_city",
+   "name": "Kraków.pl — Oficjalny serwis miejski",
+   "publisher": "Urząd Miasta Krakowa",
+   "country": "PL",
+   "url": "https://www.krakow.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия официального портала города",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Официальный портал города и сайт Совета дзельницы XVIII Nowa Huta (dzielnica18.krakow.pl); открыты 13.11.2026.",
+   "source_type": "municipal",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
+  },
+  {
+   "source_id": "pl_muzeum_krakowa",
+   "name": "Muzeum Krakowa",
+   "publisher": "Muzeum Krakowa (Muzeum Historyczne Miasta Krakowa)",
+   "country": "PL",
+   "url": "https://muzeumkrakowa.pl/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "PL"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Условия сайта музея",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-13",
+   "notes": "Городской музей; страница филиала «Apteka pod Orłem»; открыта 13.11.2026.",
+   "source_type": "museum",
+   "languages": [
+    "pl"
+   ],
+   "location_ids": [
+    "pl-krakow"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   }
   }
  ]
 }

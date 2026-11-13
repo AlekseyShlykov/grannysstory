@@ -1,0 +1,1661 @@
+{
+ "records": [
+  {
+   "id": "tr-istanbul-1918-allied-occupation",
+   "title": "Начало союзнической оккупации Константинополя",
+   "title_en": "Allied occupation of Constantinople begins",
+   "start_date": "1918-11-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "occupation",
+   "historical_summary": "12 ноября 1918 г. в Константинополь вошли первые французские войска, на следующий день — британские; началась союзническая оккупация столицы.",
+   "historical_summary_en": "On 12 November 1918 the first French troops entered Constantinople, followed by British troops the next day, beginning the Allied occupation of the capital.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "foreign_soldiers_in_streets"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Occupation_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "12.11.1918 французские, 13.11 британские войска"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103929/1918.html",
+     "accessed": "2026-11-12",
+     "supports": "13.11.1918 флот Антанты встал на рейде Стамбула"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1900-port",
+   "title": "Открытие нового стамбульского порта",
+   "title_en": "New port of Istanbul opens",
+   "start_date": "1900",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1900 г. в Константинополе открылся новый порт.",
+   "historical_summary_en": "In 1900 a new port opened in Constantinople.",
+   "affected_groups": [
+    "dock_workers",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "harbour_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1900 Port of Istanbul"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1908-province",
+   "title": "Стамбул становится провинцией из девяти районов",
+   "title_en": "Istanbul made a province of nine districts",
+   "start_date": "1908",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1908 г. Стамбул был объявлен провинцией, разделённой на девять районов.",
+   "historical_summary_en": "In 1908 Istanbul was declared a province divided into nine districts.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1908 province, nine districts"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1911-yildiz-technical",
+   "title": "Основание будущего Технического университета Йылдыз",
+   "title_en": "Forerunner of Yıldız Technical University founded",
+   "start_date": "1911",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "education",
+   "historical_summary": "В 1911 г. было основано учебное заведение, ставшее Техническим университетом Йылдыз; в том же году открылась женская школа в Эренкёе.",
+   "historical_summary_en": "In 1911 the institution that became Yıldız Technical University was founded; the same year a girls' high school opened in Erenköy.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "girls_school"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1911 YTU, Erenköy Girls High School"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://yildiz.edu.tr/en/en/en/university/our-university/history",
+     "accessed": "2026-11-12",
+     "supports": "Кондукторская школа основана в 1911 г. (объявление 31.07.1911)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1912-gulhane-park",
+   "title": "Открытие парка Гюльхане",
+   "title_en": "Gülhane Park opens",
+   "start_date": "1912",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1912 г. для горожан был открыт парк Гюльхане у дворца Топкапы.",
+   "historical_summary_en": "In 1912 Gülhane Park beside Topkapı Palace was opened to the public.",
+   "affected_groups": [
+    "urban_residents",
+    "children"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_walk_in_the_park"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1912 Gülhane Park"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1914-electric-tram",
+   "title": "Электрический трамвай на европейской стороне",
+   "title_en": "Electric tram on the European side",
+   "start_date": "1914-01-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "25 января 1914 г. на европейской стороне Константинополя пошёл электрический трамвай, а 11 февраля открылась электростанция Силахтарага. На азиатской стороне электрический трамвай появился в 1928 г.",
+   "historical_summary_en": "On 25 January 1914 the electric tram began running on the European side of Constantinople, and on 11 February the Silahtarağa power station opened. The electric tram reached the Asian side in 1928.",
+   "affected_groups": [
+    "commuters",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_tram_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_iett"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "25.01.1914 трамвай; 11.02.1914 электростанция; 1928 азиатская сторона"
+    },
+    {
+     "source_id": "tr_iett",
+     "url": "https://iett.istanbul/icerik/kronolojik-tarihce",
+     "accessed": "2026-11-12",
+     "supports": "25.01.1914 первый электрический трамвай на Галатском мосту; 11.02.1914 первый ток от Силахтараги; 08.06.1928 линия Ускюдар–Кысыклы"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1914-darulbedayi",
+   "title": "Основан городской театр Дарюльбедаи",
+   "title_en": "Darülbedayi city theatre founded",
+   "start_date": "1914",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1914 г. был основан Дарюльбедаи — первый городской театр Стамбула; в 1917 г. открылась консерватория Дарюльэльхан.",
+   "historical_summary_en": "In 1914 the Darülbedayi, Istanbul's first municipal theatre, was founded; in 1917 the Darülelhan conservatory opened.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "night_at_the_theatre"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1914 Darülbedayi; 1917 Darülelhan"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1915-armenian-intellectuals",
+   "title": "Арест и депортация армянской интеллигенции",
+   "title_en": "Arrest and deportation of Armenian intellectuals",
+   "start_date": "1915-04-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "repression",
+   "historical_summary": "24 апреля 1915 г. в Константинополе были арестованы и депортированы армянские интеллектуалы и общественные деятели; 15 июня 1915 г. на площади Беязыт казнили 20 членов партии Гнчак.",
+   "historical_summary_en": "On 24 April 1915 Armenian intellectuals and community leaders in Constantinople were arrested and deported; on 15 June 1915, 20 members of the Hunchak party were hanged in Beyazıt Square.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "24.04.1915; 15.06.1915"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1919-sultanahmet-rallies",
+   "title": "Митинги на площади Султанахмет",
+   "title_en": "Sultanahmet protest rallies",
+   "start_date": "1919",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1919 г. на площади Султанахмет в оккупированном Константинополе прошли массовые митинги протеста; в ноябре 1918 г. было основано тайное общество «Каракол», боровшееся с оккупацией.",
+   "historical_summary_en": "In 1919 mass protest rallies took place in Sultanahmet Square in occupied Constantinople; in November 1918 the secret Karakol society had been founded to resist the occupation.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1919 Sultanahmet; ноябрь 1918 Karakol"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103930/1919.html",
+     "accessed": "2026-11-12",
+     "supports": "23.05.1919 массовый митинг на площади Султанахмет против оккупации"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1923-capital-moves",
+   "title": "Столица переносится в Анкару",
+   "title_en": "Capital moves to Ankara",
+   "start_date": "1923-10-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "political_change",
+   "historical_summary": "4 октября 1923 г. закончилась союзническая оккупация, а 13 октября 1923 г. столицей Турции была объявлена Анкара; Стамбул перестал быть столицей впервые за почти пять столетий.",
+   "historical_summary_en": "On 4 October 1923 the Allied occupation ended, and on 13 October 1923 Ankara was declared Turkey's capital; Istanbul ceased to be the capital for the first time in almost five centuries.",
+   "affected_groups": [
+    "office_workers",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "civil_servant_moves_to_ankara"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "4.10.1923, 13.10.1923"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+     "accessed": "2026-11-12",
+     "supports": "02.10.1923 последние части Антанты покинули Стамбул; 13.10.1923 Анкара — столица"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1924-yesilkoy-airport",
+   "title": "Аэродром в Ешилькёе и психиатрическая больница Бакыркёй",
+   "title_en": "Yeşilköy airfield and Bakırköy hospital",
+   "start_date": "1924",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1924 г. в Ешилькёе открылся аэропорт, будущий международный аэропорт Стамбула; 15 октября 1924 г. была основана психиатрическая больница Бакыркёй.",
+   "historical_summary_en": "In 1924 an airport opened at Yeşilköy, the future Istanbul international airport; on 15 October 1924 Bakırköy Psychiatric Hospital was founded.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1924 Yeşilköy airport; 15.10.1924 Bakırköy"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1924-cumhuriyet-newspaper",
+   "title": "Начинает выходить газета «Cumhuriyet»",
+   "title_en": "Cumhuriyet newspaper launched",
+   "start_date": "1924-05-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "media_communication",
+   "historical_summary": "7 мая 1924 г. в Стамбуле вышел первый номер газеты «Cumhuriyet»; в том же году открылся кинотеатр «Эмек».",
+   "historical_summary_en": "On 7 May 1924 the first issue of the newspaper Cumhuriyet appeared in Istanbul; the same year the Emek cinema opened.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "newspaper_reading",
+    "night_at_the_cinema"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "7.05.1924; 1924 Emek"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1927-sureyya-opera",
+   "title": "Открытие театра «Сурейя» в Кадыкёе",
+   "title_en": "Süreyya Opera House opens in Kadıköy",
+   "start_date": "1927-03-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "6 марта 1927 г. в Кадыкёе открылся театр «Сурейя».",
+   "historical_summary_en": "On 6 March 1927 the Süreyya Opera House opened in Kadıköy.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "6.03.1927"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1940-ataturk-bridge",
+   "title": "Мост Ататюрка через Золотой Рог",
+   "title_en": "Atatürk Bridge over the Golden Horn",
+   "start_date": "1940",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1940 г. через Золотой Рог был построен мост Ататюрка. Перепись 1940 г. насчитала в Стамбуле 789 346 жителей против 1 125 000 в 1914 г.",
+   "historical_summary_en": "In 1940 the Atatürk Bridge was built across the Golden Horn. The 1940 census counted 789,346 inhabitants in Istanbul, compared with 1,125,000 in 1914.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1940 Atatürk Bridge; население 1914 и 1940"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1943-gezi-park",
+   "title": "Парк Гези на Таксиме",
+   "title_en": "Gezi Park laid out at Taksim",
+   "start_date": "1943",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1943 г. на Таксиме был разбит парк Гези.",
+   "historical_summary_en": "In 1943 Gezi Park was laid out at Taksim.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "sunday_walk_in_the_park"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1943 Gezi Park"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1944-ulker",
+   "title": "Основание компании Ülker",
+   "title_en": "Ülker company founded",
+   "start_date": "1944-02-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "local_economy",
+   "historical_summary": "22 февраля 1944 г. в Стамбуле была основана кондитерская компания Ülker.",
+   "historical_summary_en": "On 22 February 1944 the confectionery company Ülker was founded in Istanbul.",
+   "affected_groups": [
+    "industrial_workers",
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "childhood_biscuits"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "22.02.1944 Ülker"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1950-milliyet-million",
+   "title": "Миллион жителей и газета «Milliyet»",
+   "title_en": "One million inhabitants; Milliyet launched",
+   "start_date": "1950",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "В 1950 г. население Стамбула достигло 1 000 022 человек; 3 мая 1950 г. вышла газета «Milliyet».",
+   "historical_summary_en": "In 1950 Istanbul's population reached 1,000,022; on 3 May 1950 the newspaper Milliyet was launched.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1950 население 1 000 022; 3.05.1950 Milliyet"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1952-itu-tv",
+   "title": "Первая телепередача в Турции (ИТУ)",
+   "title_en": "First television broadcast in Turkey (ITU)",
+   "start_date": "1952-03-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "media_communication",
+   "historical_summary": "9 марта 1952 г. Стамбульский технический университет провёл первую телепередачу в Турции.",
+   "historical_summary_en": "On 9 March 1952 Istanbul Technical University made the first television broadcast in Turkey.",
+   "affected_groups": [
+    "students",
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_tv_in_the_neighbourhood"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_univ_tarihce"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "9.03.1952 ITU TV"
+    },
+    {
+     "source_id": "tr_univ_tarihce",
+     "url": "https://research.itu.edu.tr/en/publications/turkiyes-first-tv-broadcasting-and-istanbul-technical-university-/",
+     "accessed": "2026-11-12",
+     "supports": "публикация ИТУ: телевидение ИТУ создано как лаборатория в марте 1952 г., первое телевещание в Турции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1954-arcelik-migros",
+   "title": "Arçelik и Migros: бытовая техника и супермаркеты",
+   "title_en": "Arçelik and Migros: appliances and supermarkets",
+   "start_date": "1954",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "В 1954 г. в Стамбуле были основаны производитель бытовой техники Arçelik и сеть магазинов Migros Türk; в 1955 г. появилась марка Beko.",
+   "historical_summary_en": "In 1954 the appliance maker Arçelik and the Migros Türk retail chain were founded in Istanbul; the Beko brand followed in 1955.",
+   "affected_groups": [
+    "consumers",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_refrigerator",
+    "migros_truck"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1954 Arçelik, Migros; 1955 Beko"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1955-pogrom",
+   "title": "Погром 6–7 сентября 1955 года",
+   "title_en": "Istanbul pogrom of 6–7 September 1955",
+   "start_date": "1955-09-06",
+   "end_date": "1955-09-07",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "repression",
+   "historical_summary": "6–7 сентября 1955 г. толпы громили дома, лавки и церкви греков, а также армян и евреев Стамбула.",
+   "historical_summary_en": "On 6–7 September 1955 mobs attacked the homes, shops and churches of Istanbul's Greeks, as well as Armenians and Jews.",
+   "affected_groups": [
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "6–7.09.1955"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1955-suburban-stations",
+   "title": "Новые пригородные станции",
+   "title_en": "New suburban railway stations",
+   "start_date": "1955-12-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "4 декабря 1955 г. на пригородной железной дороге открылись станции Джанкуртаран, Флорья, Казлычешме, Енимахалле и Зейтинбурну.",
+   "historical_summary_en": "On 4 December 1955 Cankurtaran, Florya, Kazlıçeşme, Yenimahalle and Zeytinburnu stations opened on the suburban railway.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "suburban_train"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "4.12.1955 станции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1965-population-2m",
+   "title": "Стамбул превышает два миллиона жителей",
+   "title_en": "Istanbul passes two million inhabitants",
+   "start_date": "1965",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "migration",
+   "historical_summary": "Перепись 1965 г. насчитала в Стамбуле 2 293 823 жителя — более чем вдвое больше, чем в 1950 г. (1 000 022): город быстро рос за счёт переселенцев из деревень.",
+   "historical_summary_en": "The 1965 census counted 2,293,823 inhabitants in Istanbul, more than double the 1,000,022 of 1950, as the city grew rapidly through migration from the villages.",
+   "affected_groups": [
+    "migrants",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "leaving_the_village",
+    "decision_to_move"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "население 1950 и 1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1969-akm",
+   "title": "Открытие Культурного центра Ататюрка",
+   "title_en": "Atatürk Cultural Centre opens",
+   "start_date": "1969-04-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "12 апреля 1969 г. на Таксиме открылся Культурный центр Ататюрка.",
+   "historical_summary_en": "On 12 April 1969 the Atatürk Cultural Centre opened at Taksim.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_akm"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "12.04.1969 AKM"
+    },
+    {
+     "source_id": "tr_akm",
+     "url": "https://akmistanbul.gov.tr/tr/tarihce",
+     "accessed": "2026-11-12",
+     "supports": "здание открыто 12.04.1969 как «İstanbul Kültür Sarayı»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1973-bosphorus-bridge",
+   "title": "Босфорский мост",
+   "title_en": "Bosphorus Bridge",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1973 г. открылся Босфорский мост — первый мост между европейской и азиатской частями города; в том же году построена плотина Омерли и начался Стамбульский музыкальный фестиваль.",
+   "historical_summary_en": "In 1973 the Bosphorus Bridge opened, the first bridge between the European and Asian parts of the city; the same year the Ömerli Dam was built and the Istanbul International Music Festival began.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "crossing_the_bridge"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_kgm"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1973 мост, Ömerli, фестиваль"
+    },
+    {
+     "source_id": "tr_kgm",
+     "url": "https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Bolgeler/1Bolge/BogaziciKoprusuProjeBilgileri.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Босфорский мост открыт 29.10.1973"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1974-halic-bridge",
+   "title": "Мост Халич",
+   "title_en": "Haliç Bridge",
+   "start_date": "1974-09-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "10 сентября 1974 г. через Золотой Рог открылся мост Халич.",
+   "historical_summary_en": "On 10 September 1974 the Haliç Bridge opened across the Golden Horn.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "10.09.1974"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1977-taksim-massacre",
+   "title": "Кровавое Первомайское шествие на Таксиме",
+   "title_en": "Taksim Square massacre",
+   "start_date": "1977-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "labor",
+   "historical_summary": "1 мая 1977 г. на первомайском митинге на площади Таксим по толпе открыли огонь, началась давка; погибли десятки людей.",
+   "historical_summary_en": "On 1 May 1977 shots were fired into the May Day rally in Taksim Square, causing a stampede; dozens of people died.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "1.05.1977 Taksim"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1984-greater-municipality",
+   "title": "Создание муниципалитета Большого Стамбула",
+   "title_en": "Greater Istanbul Municipality established",
+   "start_date": "1984-03-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "23 марта 1984 г. был создан муниципалитет Большого Стамбула; население города оценивалось в 2 951 000 человек.",
+   "historical_summary_en": "On 23 March 1984 the Greater Istanbul Municipality was established; the city's population was estimated at 2,951,000.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_iett"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "23.03.1984; 1984 население"
+    },
+    {
+     "source_id": "tr_iett",
+     "url": "https://iett.istanbul/icerik/kronolojik-tarihce",
+     "accessed": "2026-11-12",
+     "supports": "27.06.1984 принят закон 3030 об управлении муниципалитетами-метрополиями"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1988-fsm-bridge",
+   "title": "Мост Фатиха Султана Мехмеда",
+   "title_en": "Fatih Sultan Mehmet Bridge",
+   "start_date": "1988-07-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "3 июля 1988 г. открылся второй мост через Босфор — мост Фатиха Султана Мехмеда.",
+   "historical_summary_en": "On 3 July 1988 the second Bosphorus bridge, the Fatih Sultan Mehmet Bridge, opened.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_kgm"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "3.07.1988"
+    },
+    {
+     "source_id": "tr_kgm",
+     "url": "https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Bolgeler/1Bolge/FatihSultanMehmetTarihce.pdf",
+     "accessed": "2026-11-12",
+     "supports": "мост Фатиха Султана Мехмеда: строительство с 04.12.1985, завершён 29.05.1988"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1989-metro",
+   "title": "Первое метро Стамбула",
+   "title_en": "Istanbul's first metro",
+   "start_date": "1989-09-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "3 сентября 1989 г. в Стамбуле начало работать метро (лёгкое метро); 13 июня 1992 г. открылась трамвайная линия T1.",
+   "historical_summary_en": "On 3 September 1989 the Istanbul metro (light metro) began operating; on 13 June 1992 the T1 tram line opened.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_iett"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "3.09.1989 метро; 13.06.1992 T1"
+    },
+    {
+     "source_id": "tr_iett",
+     "url": "https://iett.istanbul/icerik/kronolojik-tarihce",
+     "accessed": "2026-11-12",
+     "supports": "1989 открыт лёгкий метрополитен Аксарай–Картальтепе; 1992 современный трамвай Сиркеджи–Аксарай"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-1994-galata-bridge",
+   "title": "Новый Галатский мост и автовокзал Эсенлер",
+   "title_en": "New Galata Bridge and Esenler coach terminal",
+   "start_date": "1994-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В декабре 1994 г. был перестроен Галатский мост; в том же году построен автовокзал Эсенлер, куда приходили междугородние автобусы из Анатолии. Население города оценивалось примерно в 7,6 млн.",
+   "historical_summary_en": "In December 1994 the Galata Bridge was rebuilt; the same year the Esenler coach terminal, where long-distance buses from Anatolia arrived, was built. The city's population was estimated at about 7.6 million.",
+   "affected_groups": [
+    "commuters",
+    "migrants"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "arriving_at_the_bus_station"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "декабрь 1994; 1994 Esenler; ~7 615 500"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-1999-avcilar-earthquake",
+   "title": "Землетрясение 1999 года в Стамбуле (Авджылар)",
+   "title_en": "1999 earthquake in Istanbul (Avcılar)",
+   "start_date": "1999-08-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "disaster",
+   "historical_summary": "При Мармарском землетрясении 17 августа 1999 г. в Стамбуле погибли не менее 978 человек, больше всего — в районе Авджылар.",
+   "historical_summary_en": "In the Marmara earthquake of 17 August 1999 at least 978 people died in Istanbul, most of them in the Avcılar district.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "night_of_the_earthquake",
+    "sleeping_outdoors"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/1999_İzmit_earthquake",
+     "accessed": "2026-11-11",
+     "supports": "≥978 погибших в Стамбуле, в основном Авджылар"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-2000-m2-metro",
+   "title": "Линия метро M2 и десять миллионов жителей",
+   "title_en": "M2 metro line and ten million inhabitants",
+   "start_date": "2000-09-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "16 сентября 2000 г. открылась линия метро M2; перепись 2000 г. насчитала в Стамбуле 10 018 735 жителей. В 2001 г. открылся аэропорт Сабиха Гёкчен на азиатской стороне.",
+   "historical_summary_en": "On 16 September 2000 the M2 metro line opened; the 2000 census counted 10,018,735 inhabitants in Istanbul. In 2001 Sabiha Gökçen Airport opened on the Asian side.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_iett"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "16.09.2000; 2000 население; 2001 SAW"
+    },
+    {
+     "source_id": "tr_iett",
+     "url": "https://iett.istanbul/icerik/kronolojik-tarihce",
+     "accessed": "2026-11-12",
+     "supports": "сентябрь 2000 — введено метро Таксим–Левент"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-2004-city-equals-province",
+   "title": "Границы города совпадают с провинцией",
+   "title_en": "City boundaries made coterminous with the province",
+   "start_date": "2004",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 2004 г. границы муниципалитета Большого Стамбула были приведены в соответствие с границами провинции; в 2008–2009 гг. число районов выросло с 32 до 39.",
+   "historical_summary_en": "In 2004 the boundaries of the Greater Istanbul Municipality were made coterminous with the province; in 2008–2009 the number of districts rose from 32 to 39.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_mevzuat"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "2004; 2009 32→39"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5216.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 5216 от 10.07.2004, врем. ст. 2: границы Большого Стамбула — границы провинции"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-2007-t4-tram",
+   "title": "Трамвай T4",
+   "title_en": "T4 tram line",
+   "start_date": "2007-09-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "12 сентября 2007 г. открылась трамвайная линия T4, соединившая окраинные районы с метро.",
+   "historical_summary_en": "On 12 September 2007 the T4 tram line opened, linking outlying districts with the metro.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "12.09.2007 T4"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-istanbul-2013-marmaray",
+   "title": "Мармарай: железнодорожный тоннель под Босфором",
+   "title_en": "Marmaray rail tunnel under the Bosphorus",
+   "start_date": "2013-10-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "29 октября 2013 г. открылся железнодорожный тоннель Мармарай под Босфором; в том же году заработали линии метро M4 (2012) и M3 (2013).",
+   "historical_summary_en": "On 29 October 2013 the Marmaray rail tunnel under the Bosphorus opened; metro lines M4 (2012) and M3 (2013) began running around the same time.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "crossing_under_the_sea"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_uab"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "29.10.2013; 17.08.2012 M4; 14.06.2013 M3"
+    },
+    {
+     "source_id": "tr_uab",
+     "url": "https://www.uab.gov.tr/haberler/cumhuriyetimizin-100-uencue-yilinda-marmaray-10-yasinda/",
+     "accessed": "2026-11-12",
+     "supports": "Мармарай открыт 29.10.2013 (участок Айрылыкчешме–Казлычешме)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-2016-third-bridge-eurasia",
+   "title": "Третий мост через Босфор и тоннель «Евразия»",
+   "title_en": "Third Bosphorus bridge and Eurasia Tunnel",
+   "start_date": "2016-08-26",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "26 августа 2016 г. открылся мост Явуза Султана Селима, а 22 декабря 2016 г. — автомобильный тоннель «Евразия» под Босфором.",
+   "historical_summary_en": "On 26 August 2016 the Yavuz Sultan Selim Bridge opened, and on 22 December 2016 the Eurasia road tunnel under the Bosphorus.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_uab"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "26.08.2016; 22.12.2016"
+    },
+    {
+     "source_id": "tr_uab",
+     "url": "https://www.uab.gov.tr/haberler/yavuz-sultan-selim-koepruesue-9-yasinda/",
+     "accessed": "2026-11-12",
+     "supports": "мост Явуза Султана Селима открыт 26.08.2016"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-2018-new-airport",
+   "title": "Новый аэропорт Стамбула",
+   "title_en": "New Istanbul Airport",
+   "start_date": "2018-10-29",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "29 октября 2018 г. открылся новый аэропорт Стамбула; 6 апреля 2019 г. аэропорт Ататюрк прекратил коммерческие пассажирские рейсы.",
+   "historical_summary_en": "On 29 October 2018 the new Istanbul Airport opened; on 6 April 2019 Atatürk Airport ended commercial passenger flights.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "flying_to_relatives"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_dhmi"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "29.10.2018; 6.04.2019"
+    },
+    {
+     "source_id": "tr_dhmi",
+     "url": "https://www.dhmi.gov.tr/Sayfalar/Haber/cumhurbaskanimiz-erdogan-ulkemizin-dort-bir-yanini-eserlerle-donattik-.aspx",
+     "accessed": "2026-11-12",
+     "supports": "официальное открытие аэропорта Стамбула 29.10.2018; полная мощность с 06.04.2019"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-istanbul-2019-mayoral-rerun",
+   "title": "Повторные выборы мэра Стамбула",
+   "title_en": "Istanbul mayoral election rerun",
+   "start_date": "2019",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 2019 г. Экрем Имамоглу победил на повторных выборах мэра Большого Стамбула; в 2024 г. он был переизбран.",
+   "historical_summary_en": "In 2019 Ekrem İmamoğlu won the rerun election for mayor of Greater Istanbul; he was re-elected in 2024.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ysk"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "2019; 2024"
+    },
+    {
+     "source_id": "tr_ysk",
+     "url": "https://www.ysk.gov.tr/doc/dosyalar/docs/2019MahalliIdareler/KesinSecimSonuclari/2019Mahalli-IBB.pdf",
+     "accessed": "2026-11-12",
+     "supports": "повторные выборы мэра Большого Стамбула 23.06.2019: CHP 54,22%, AK Parti 45,00%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

@@ -19,14 +19,14 @@ from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from dataset import (  # noqa: E402
-    ACCESS_METHODS, CATEGORIES, CONFIDENCE, CONTEXT_TYPES, LEVEL_BY_TYPE, SCOPES, SETTLEMENT_CLASSES,
+    COUNTRIES_WITH_ENGLISH, ACCESS_METHODS, CATEGORIES, CONFIDENCE, CONTEXT_TYPES, LEVEL_BY_TYPE, SCOPES, SETTLEMENT_CLASSES,
     SETTLEMENT_TYPES, SOURCE_STATUSES, STATUSES, DateError, Dataset, Problem, event_span, parse_partial,
     period_end, period_start, ROOT,
 )
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:[-_][a-z0-9]+)*$")
-LOCATION_PREFIXES = ("fr-", "us-", "gb-", "pl-", "ru-", "state-")
-COMMON_LOCATIONS = {"world", "fr", "us", "gb", "pl", "ru", "su", "ru-empire", "gb-eng"}
+LOCATION_PREFIXES = ("fr-", "us-", "gb-", "pl-", "ru-", "it-", "de-", "cn-", "fi-", "tr-", "state-")
+COMMON_LOCATIONS = {"world", "fr", "us", "gb", "pl", "ru", "su", "ru-empire", "gb-eng", "it", "de", "cn", "fi", "tr"}
 MIN_YEAR, MAX_YEAR = 1850, 2026
 SPECULATIVE_WORDS = ("она пережила", "бабушка", "героиня")
 
@@ -72,13 +72,15 @@ class Validator:
             if not ID_RE.match(location_id):
                 self.error(location, "location id must be lowercase kebab-case")
             if location_id not in COMMON_LOCATIONS and not location_id.startswith(LOCATION_PREFIXES):
-                self.error(location, "location id needs a country prefix (fr-, us-, gb-, pl-, ru-) or state-")
+                self.error(location, "location id needs a country prefix (fr-, us-, gb-, pl-, ru-, it-, de-, cn-, fi-, tr-) or state-")
             if location.get("type") not in LEVEL_BY_TYPE:
                 self.error(location, f"unknown location type {location.get('type')}")
             if location.get("type") in SETTLEMENT_TYPES - {"neighborhood"} and location.get("settlement_class") not in SETTLEMENT_CLASSES:
                 self.warn(location, "settlement without a valid settlement_class")
             if not location.get("names_ru"):
                 self.error(location, "location has no names_ru for display")
+            if location.get("country") in COUNTRIES_WITH_ENGLISH and any(not name.get("name_en") for name in location.get("names_ru", [])):
+                self.warn(location, "names_ru entries need 'name_en' for the English interface")
             if location.get("wikidata") and not re.match(r"^Q\d+$", location["wikidata"]):
                 self.error(location, "wikidata must look like Q123")
             for source_id in location.get("source_ids", []):
@@ -143,7 +145,16 @@ class Validator:
                         continue
                     if start <= day <= end:
                         changes.add(day)
+        changes.update(dt.date(year, 7, 1) for year in range(start.year, end.year + 1) if start <= dt.date(year, 7, 1) <= end)
+        divided = [(period_start(item.get("from")), period_end(item.get("to"))) for item in location.get("partition", []) + location.get("abolished", [])]
+        for item in location.get("partition", []):
+            for part in item.get("into", []):
+                if part not in self.data.locations:
+                    self.error(location, f"partition part {part} is not a location")
         for day in sorted(changes):
+            # A divided city is lived in only through its parts; it may have no single parent then.
+            if any(first <= day <= last for first, last in divided):
+                continue
             chain = self.data.ancestors_at(location["id"], day)
             if chain[-1] != "world":
                 self.error(location, f"hierarchy does not reach 'world' on {day.isoformat()} (chain: {' > '.join(chain)})")
@@ -180,6 +191,10 @@ class Validator:
             summary = (event.get("historical_summary") or "").lower()
             if any(word in summary for word in SPECULATIVE_WORDS):
                 self.error(event, "historical_summary mentions the character; keep personal effects in narrative_hooks")
+            if set(event.get("country_codes", [])) & COUNTRIES_WITH_ENGLISH and not event.get("_legacy"):
+                for field in ("title_en", "historical_summary_en"):
+                    if not event.get(field):
+                        self.warn(event, f"missing '{field}' (English text is required for countries added in world-1.2)")
             if "probability" in event or "weight" in event:
                 self.error(event, "unconfirmed probability/weight field on a historical event")
             for country in event.get("country_codes", []):
@@ -202,7 +217,7 @@ class Validator:
                     self.error(event, "end_date before start_date")
             if not MIN_YEAR <= start.year <= MAX_YEAR:
                 self.error(event, f"start year {start.year} outside {MIN_YEAR}-{MAX_YEAR}")
-            if start > dt.date(2026, 10, 29):
+            if start > dt.date(2026, 11, 11):
                 self.error(event, "event in the future")
         except DateError as error:
             self.error(event, str(error))
@@ -231,6 +246,9 @@ class Validator:
             valid_from, valid_to = period_start(location.get("valid_from")), period_end(location.get("valid_to"))
             if end < valid_from or start > valid_to:
                 self.error(event, f"location {location_id} did not exist during the event")
+            for gap in location.get("abolished", []):
+                if period_start(gap.get("from")) <= start and end <= period_end(gap.get("to")):
+                    self.error(event, f"location {location_id} was abolished during the event")
 
     def _sources_and_evidence(self, event: dict) -> None:
         for source_id in event.get("source_ids", []):
@@ -278,6 +296,10 @@ class Validator:
             for source_id in context.get("source_ids", []):
                 if source_id not in self.data.sources:
                     self.error(context, f"unregistered source {source_id}")
+            if context.get("country_code") in COUNTRIES_WITH_ENGLISH:
+                for field in ("title_en", "description_en"):
+                    if not context.get(field):
+                        self.warn(context, f"missing '{field}' (English text is required for countries added in world-1.2)")
             if context.get("verification_status") == "verified" and not context.get("evidence"):
                 self.error(context, "verified context without evidence URL")
             for stat in context.get("statistics", []):
@@ -332,7 +354,7 @@ def write_report(path: Path, data: Dataset, problems: List[Problem]) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--country", help="only report problems from files of this country (FR, US, GB, PL, RU)")
+    parser.add_argument("--country", help="only report problems from files of this country (FR, US, GB, PL, RU, IT, DE, CN, FI, TR)")
     parser.add_argument("--report", help="write a markdown report to this path")
     parser.add_argument("--quiet-warnings", action="store_true")
     args = parser.parse_args()

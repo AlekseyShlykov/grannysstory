@@ -1,0 +1,386 @@
+{
+ "records": [
+  {
+   "id": "it-santangelo-1940-internment",
+   "title": "Интернирование евреев",
+   "title_en": "Internment of Jewish civilians",
+   "start_date": "1940",
+   "end_date": "1943-09",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "repression",
+   "historical_summary": "В 1940–1943 гг. фашистские власти разместили в городке интернированных гражданских лиц еврейского происхождения; союзники освободили их в сентябре 1943 г.",
+   "historical_summary_en": "Between 1940 and 1943 the fascist authorities placed interned Jewish civilians in the town; Allied forces freed them in September 1943.",
+   "affected_groups": [
+    "jewish_population"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strangers_in_the_village"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sant%27Angelo_dei_Lombardi",
+     "accessed": "2026-11-11",
+     "supports": "1940–43 internati ebrei; liberati settembre 1943"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-santangelo-1973-goleto-restoration",
+   "title": "Начало реставрации аббатства Голето",
+   "title_en": "Restoration of Goleto Abbey begins",
+   "start_date": "1973",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1973 г. министерство культурного наследия начало реставрацию комплекса аббатства Голето.",
+   "historical_summary_en": "In 1973 the Ministry for Cultural Heritage began restoring the Goleto Abbey complex.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "village_landmark"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Abbazia_del_Goleto",
+     "accessed": "2026-11-11",
+     "supports": "1973 restauro"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-santangelo-1980-earthquake",
+   "title": "Землетрясение 23 ноября 1980 года",
+   "title_en": "Earthquake of 23 November 1980",
+   "start_date": "1980-11-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "disaster",
+   "historical_summary": "23 ноября 1980 г. в 19:34, во время телетрансляции футбольного матча, землетрясение разрушило большую часть Сант-Анджело-деи-Ломбарди: погибли 482 человека — больше, чем в любом другом городке. Обрушилось целое крыло больницы, погиб молодой мэр.",
+   "historical_summary_en": "On 23 November 1980 at 19:34, during a televised football match, an earthquake destroyed most of Sant'Angelo dei Lombardi: 482 people died, more than in any other town. A whole wing of the hospital collapsed and the young mayor was killed.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement"
+   ],
+   "narrative_hooks": [
+    "earthquake_night"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia",
+    "it_ingv_cfti5"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sant%27Angelo_dei_Lombardi",
+     "accessed": "2026-11-11",
+     "supports": "19:34; 482 morti; ala dell'ospedale; sindaco"
+    },
+    {
+     "source_id": "it_ingv_cfti5",
+     "url": "https://storing.ingv.it/cfti/cfti5/QuakeList.xml",
+     "accessed": "2026-11-12",
+     "supports": "CFTI5Med, nterr 41752: землетрясение Irpinia-Basilicata 23.11.1980 в 18:34 UTC (19:34 местного), Io 10"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-santangelo-1980-goleto-collapse",
+   "title": "Обрушение арок аббатства Голето",
+   "title_en": "Goleto Abbey arches collapse",
+   "start_date": "1980",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "disaster",
+   "historical_summary": "При землетрясении 1980 г. рухнули арки Большой церкви аббатства Голето, построенной по проекту Доменико Антонио Ваккаро; она превратилась в археологический объект.",
+   "historical_summary_en": "In the 1980 earthquake the arches of the Goleto Abbey's Great Church, designed by Domenico Antonio Vaccaro, collapsed; it became an archaeological site.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "village_landmark"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_ingv"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Abbazia_del_Goleto",
+     "accessed": "2026-11-11",
+     "supports": "1980 crollo archi Chiesa Grande"
+    },
+    {
+     "source_id": "it_ingv",
+     "url": "https://storing.ingv.it/cfti/cfti4/quakes/41752.html",
+     "accessed": "2026-11-12",
+     "supports": "CFTI4, terremoto del 23 novembre 1980: «causò danni molto gravi ai resti del complesso abbaziale» di San Guglielmo al Goleto"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-santangelo-1990-goleto-community",
+   "title": "Монашеская община возвращается в Голето",
+   "title_en": "A religious community returns to Goleto",
+   "start_date": "1990",
+   "end_date": "2021",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "religion",
+   "historical_summary": "С 1990 по 2021 г. комплексом аббатства Голето управляли «Малые братья Иисуса»; в 2024 г. управление перешло к бенедиктинцам из Монтеверджине.",
+   "historical_summary_en": "From 1990 to 2021 the Goleto Abbey complex was run by the Little Brothers of Jesus; in 2024 its management passed to the Benedictine monks of Montevergine.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "village_landmark"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Abbazia_del_Goleto",
+     "accessed": "2026-11-11",
+     "supports": "1990–2021 Piccoli Fratelli; 2024 benedettini"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-santangelo-2005-medal",
+   "title": "Золотая медаль за гражданские заслуги",
+   "title_en": "Gold Medal for Civil Merit",
+   "start_date": "2005-12-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "9 декабря 2005 г. Сант-Анджело-деи-Ломбарди получил золотую медаль «За гражданские заслуги» за возрождение после землетрясения.",
+   "historical_summary_en": "On 9 December 2005 Sant'Angelo dei Lombardi received the Gold Medal for Civil Merit for its recovery after the earthquake.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "rebuilding_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sant%27Angelo_dei_Lombardi",
+     "accessed": "2026-11-11",
+     "supports": "9.12.2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-santangelo-2024-benedictines",
+   "title": "Бенедиктинцы в аббатстве Голето",
+   "title_en": "Benedictines take over Goleto Abbey",
+   "start_date": "2024",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "religion",
+   "historical_summary": "В 2024 г. управление аббатством Голето перешло к бенедиктинским монахам из Монтеверджине.",
+   "historical_summary_en": "In 2024 the management of Goleto Abbey passed to the Benedictine monks of Montevergine.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "village_landmark"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Abbazia_del_Goleto",
+     "accessed": "2026-11-11",
+     "supports": "2024 benedettini di Montevergine"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-santangelo-1985-industrial-area",
+   "title": "Промзона Нуско — Лиони — Сант-Анджело",
+   "title_en": "Nusco–Lioni–Sant'Angelo industrial area",
+   "start_date": "1985",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "local_economy",
+   "historical_summary": "С середины 1980-х гг. начала работать промышленная зона Нуско — Лиони — Сант-Анджело-деи-Ломбарди, созданная по статье 32 закона 1981 г. о восстановлении после землетрясения, чтобы сдержать массовую эмиграцию. Она была рассчитана на 1250 рабочих мест.",
+   "historical_summary_en": "From the mid-1980s the Nusco–Lioni–Sant'Angelo dei Lombardi industrial area, created under article 32 of the 1981 post-earthquake reconstruction law to curb mass emigration, began operating. It was planned for 1,250 jobs.",
+   "affected_groups": [
+    "industrial_workers",
+    "rural_residents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_in_the_valley",
+    "children_stay_home_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_agi"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_agi",
+     "url": "https://www.agi.it/cronaca/news/2020-11-12/covid-desmon-zona-industriale-nusco-10270804/",
+     "accessed": "2026-11-11",
+     "supports": "art. 32 legge 219/1981; operativa da metà anni '80; frenare emigrazione; 1250 posti previsti"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-santangelo-2020-industrial-area-jobs",
+   "title": "Промзона в год пандемии",
+   "title_en": "The industrial area in the pandemic year",
+   "start_date": "2020-11",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-santangelo-dei-lombardi"
+   ],
+   "category": "local_economy",
+   "historical_summary": "К ноябрю 2020 г. в промзоне Нуско — Лиони — Сант-Анджело работали чуть менее 750 человек при запланированных 1250; одна из фирм выпускала сверхнизкотемпературные морозильники для хранения вакцин от COVID-19.",
+   "historical_summary_en": "By November 2020 just under 750 people worked in the Nusco–Lioni–Sant'Angelo industrial area against 1,250 planned; one firm was producing ultra-low-temperature freezers for storing COVID-19 vaccines.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "factory_in_the_valley"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_agi"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_agi",
+     "url": "https://www.agi.it/cronaca/news/2020-11-12/covid-desmon-zona-industriale-nusco-10270804/",
+     "accessed": "2026-11-11",
+     "supports": "poco meno di 750 occupati pre-pandemia; Desmon congelatori per vaccini"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

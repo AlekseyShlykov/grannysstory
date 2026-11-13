@@ -28,7 +28,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -36,10 +37,16 @@
      "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
      "accessed": "2026-10-29",
      "supports": "1906 обеды, обязательность 1914, осмотры 1907"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Edw7/6/57/contents",
+     "accessed": "2026-11-12",
+     "supports": "Education (Provision of Meals) Act 1906 (c. 57)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1908-childrens-charter",
@@ -64,7 +71,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -72,10 +80,16 @@
      "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
      "accessed": "2026-10-29",
      "supports": "содержание закона 1908"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Edw7/8/67/contents",
+     "accessed": "2026-11-12",
+     "supports": "Children Act 1908 (c. 67)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1908-old-age-pensions",
@@ -102,7 +116,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -110,10 +125,16 @@
      "url": "https://en.wikipedia.org/wiki/Old-Age_Pensions_Act_1908",
      "accessed": "2026-10-29",
      "supports": "дата королевской санкции, возраст, сумма, первая выплата"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Edw7/8/40/contents",
+     "accessed": "2026-11-12",
+     "supports": "Old Age Pensions Act 1908 (c. 40)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1909-labour-exchanges",
@@ -139,7 +160,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -147,10 +169,16 @@
      "url": "https://en.wikipedia.org/wiki/Liberal_welfare_reforms",
      "accessed": "2026-10-29",
      "supports": "1909, 83 биржи к февралю 1910"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Edw7/9/7/contents",
+     "accessed": "2026-11-12",
+     "supports": "Labour Exchanges Act 1909 (c. 7)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1911-national-insurance",
@@ -176,7 +204,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -184,10 +213,16 @@
      "url": "https://en.wikipedia.org/wiki/National_Insurance_Act_1911",
      "accessed": "2026-10-29",
      "supports": "дата санкции, начало взносов и выплат, охват"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo5/1-2/55/contents",
+     "accessed": "2026-11-12",
+     "supports": "National Insurance Act 1911 (c. 55)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1914-war-declared",
@@ -217,7 +252,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -225,10 +261,16 @@
      "url": "https://en.wikipedia.org/wiki/United_Kingdom_declaration_of_war_on_Germany_(1914)",
      "accessed": "2026-10-29",
      "supports": "дата и время"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1914/aug/04/great-britain-and-germany",
+     "accessed": "2026-11-12",
+     "supports": "заявление премьер-министра 4 августа 1914 о нарушении нейтралитета Бельгии и ультиматуме Германии"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1916-conscription",
@@ -265,7 +307,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -273,10 +316,16 @@
      "url": "https://en.wikipedia.org/wiki/Military_Service_Act_1916",
      "accessed": "2026-10-29",
      "supports": "дата санкции, возраст, исключение Ирландии, расширение на женатых"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo5/5-6/104/contents",
+     "accessed": "2026-11-12",
+     "supports": "Military Service Act 1916 (c. 104)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1917-womens-land-army",
@@ -355,7 +404,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -363,10 +413,16 @@
      "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
      "accessed": "2026-10-29",
      "supports": "этапы 1917–1918, книжки июль 1918, отмена к 1921"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1918/feb/21/meat-ration-cards",
+     "accessed": "2026-11-12",
+     "supports": "21 февраля 1918: вопрос в Палате общин о мясных карточках (этап обязательного нормирования)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1918-representation-of-the-people",
@@ -395,7 +451,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -403,10 +460,16 @@
      "url": "https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1918",
      "accessed": "2026-10-29",
      "supports": "дата санкции, условия, рост электората, дата выборов, Qualification of Women Act"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo5/7-8/64/contents",
+     "accessed": "2026-11-12",
+     "supports": "Representation of the People Act 1918 (c. 64)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1918-armistice",
@@ -433,7 +496,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tna"
    ],
    "evidence": [
     {
@@ -441,10 +505,16 @@
      "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
      "accessed": "2026-10-29",
      "supports": "дата и время"
+    },
+    {
+     "source_id": "gb_tna",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/cabinet-meeting-11-November-1918/",
+     "accessed": "2026-11-12",
+     "supports": "протокол заседания кабинета 11 ноября 1918 об объявлении конца войны"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1919-sex-disqualification-removal",
@@ -470,7 +540,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -478,10 +549,16 @@
      "url": "https://en.wikipedia.org/wiki/Sex_Disqualification_(Removal)_Act_1919",
      "accessed": "2026-10-29",
      "supports": "дата, содержание, территория"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo5/9-10/71/contents",
+     "accessed": "2026-11-12",
+     "supports": "Sex Disqualification (Removal) Act 1919 (c. 71)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1922-bbc-radio",
@@ -508,7 +585,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_bbc_history"
    ],
    "evidence": [
     {
@@ -516,10 +594,16 @@
      "url": "https://en.wikipedia.org/wiki/British_Broadcasting_Company",
      "accessed": "2026-10-29",
      "supports": "дата, лицензии, BBC 1927"
+    },
+    {
+     "source_id": "gb_bbc_history",
+     "url": "https://www.bbc.com/historyofthebbc/timelines/1920s",
+     "accessed": "2026-11-12",
+     "supports": "ежедневное вещание BBC со станции 2LO в Лондоне с 14 ноября 1922"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1926-general-strike",
@@ -551,7 +635,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tna"
    ],
    "evidence": [
     {
@@ -559,10 +644,16 @@
      "url": "https://en.wikipedia.org/wiki/1926_United_Kingdom_general_strike",
      "accessed": "2026-10-29",
      "supports": "даты, число участников, причины, итог"
+    },
+    {
+     "source_id": "gb_tna",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/the-general-strike/",
+     "accessed": "2026-11-12",
+     "supports": "май 1926, более 1,5 млн бастующих; окончание 12 мая 1926 (PRO 30/69/1830)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1928-equal-franchise",
@@ -594,7 +685,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -602,10 +694,16 @@
      "url": "https://en.wikipedia.org/wiki/Representation_of_the_People_(Equal_Franchise)_Act_1928",
      "accessed": "2026-10-29",
      "supports": "дата, возраст 21, 5 млн, 52,7%"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo5/18-19/12/contents",
+     "accessed": "2026-11-12",
+     "supports": "Representation of the People (Equal Franchise) Act 1928 (c. 12)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1931-depression-means-test",
@@ -672,7 +770,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_bbc_history"
    ],
    "evidence": [
     {
@@ -680,10 +779,16 @@
      "url": "https://en.wikipedia.org/wiki/BBC_Television",
      "accessed": "2026-10-29",
      "supports": "даты начала, прекращения и возобновления"
+    },
+    {
+     "source_id": "gb_bbc_history",
+     "url": "https://www.bbc.com/historyofthebbc/timelines/1930s",
+     "accessed": "2026-11-12",
+     "supports": "ноябрь 1936: открылась телевизионная служба BBC"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1938-holidays-with-pay",
@@ -710,7 +815,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -718,10 +824,16 @@
      "url": "https://en.wikipedia.org/wiki/Holidays_with_Pay_Act_1938",
      "accessed": "2026-10-29",
      "supports": "дата, суть"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo6/1-2/70/contents",
+     "accessed": "2026-11-12",
+     "supports": "Holidays With Pay Act 1938 (c. 70)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1939-war-and-conscription",
@@ -758,7 +870,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -766,10 +879,16 @@
      "url": "https://en.wikipedia.org/wiki/National_Service_Act_1941",
      "accessed": "2026-10-29",
      "supports": "3 сентября 1939, 18–41, Великобритания"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo6/2-3/81/contents",
+     "accessed": "2026-11-12",
+     "supports": "National Service (Armed Forces) Act 1939 (c. 81)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1940-food-rationing",
@@ -800,7 +919,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -808,10 +928,16 @@
      "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
      "accessed": "2026-10-29",
      "supports": "даты введения карточек, одежда, хлеб 1946–1948"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1939/nov/28/bacon-and-butter-rationing",
+     "accessed": "2026-11-12",
+     "supports": "28 ноября 1939: нормирование бекона и масла вводится с 8 января (4 унции в неделю)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1942-beveridge-report",
@@ -836,7 +962,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -844,10 +971,16 @@
      "url": "https://en.wikipedia.org/wiki/Beveridge_Report",
      "accessed": "2026-10-29",
      "supports": "дата публикации, пять гигантов, реакция, законы"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1943/feb/16/social-insurance-and-allied-services",
+     "accessed": "2026-11-12",
+     "supports": "прения о докладе Social Insurance and Allied Services, февраль 1943"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1945-ve-day",
@@ -874,7 +1007,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -882,10 +1016,16 @@
      "url": "https://en.wikipedia.org/wiki/Victory_in_Europe_Day",
      "accessed": "2026-10-29",
      "supports": "дата и празднования"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/lords/1945/may/08/victory-in-europe",
+     "accessed": "2026-11-12",
+     "supports": "Палата лордов 8 мая 1945: «Victory in Europe»"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1946-new-towns-act",
@@ -916,7 +1056,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -924,10 +1065,16 @@
      "url": "https://en.wikipedia.org/wiki/New_Towns_Act_1946",
      "accessed": "2026-10-29",
      "supports": "дата, суть, Стивенидж, Корби 1950"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo6/9-10/68/contents",
+     "accessed": "2026-11-12",
+     "supports": "New Towns Act 1946 (c. 68)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1946-family-allowance",
@@ -958,7 +1105,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -966,10 +1114,16 @@
      "url": "https://en.wikipedia.org/wiki/Family_Allowances_Act_1945",
      "accessed": "2026-10-29",
      "supports": "даты, сумма, выплата матери, замена 1977"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo6/8-9/41/contents",
+     "accessed": "2026-11-12",
+     "supports": "Family Allowances Act 1945 (c. 41), по которому начались выплаты"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1948-windrush",
@@ -997,7 +1151,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_tna"
    ],
    "evidence": [
     {
@@ -1005,10 +1160,16 @@
      "url": "https://en.wikipedia.org/wiki/HMT_Empire_Windrush",
      "accessed": "2026-10-29",
      "supports": "дата, число пассажиров, отсутствие контроля до 1962"
+    },
+    {
+     "source_id": "gb_tna",
+     "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/ormonde-almanzora-windrush/",
+     "accessed": "2026-11-12",
+     "supports": "прибытие Empire Windrush в доки Тилбери в 1948 г., списки пассажиров BT 26"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1948-nhs",
@@ -1039,7 +1200,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1047,10 +1209,16 @@
      "url": "https://en.wikipedia.org/wiki/National_Health_Service_(England)",
      "accessed": "2026-10-29",
      "supports": "дата запуска, место открытия, принцип бесплатности, платы 1951–1952"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Geo6/9-10/81/contents",
+     "accessed": "2026-11-12",
+     "supports": "National Health Service Act 1946 (c. 81), учредивший NHS"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1950-first-package-holiday",
@@ -1117,7 +1285,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_bbc_history"
    ],
    "evidence": [
     {
@@ -1125,10 +1294,16 @@
      "url": "https://en.wikipedia.org/wiki/Coronation_of_Elizabeth_II",
      "accessed": "2026-10-29",
      "supports": "дата, 27 млн зрителей, рост лицензий"
+    },
+    {
+     "source_id": "gb_bbc_history",
+     "url": "https://www.bbc.com/historyofthebbc/timelines/1950s",
+     "accessed": "2026-11-12",
+     "supports": "июнь 1953: трансляция коронации Елизаветы II"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1954-rationing-ends",
@@ -1195,7 +1370,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1203,10 +1379,16 @@
      "url": "https://en.wikipedia.org/wiki/Clean_Air_Act_1956",
      "accessed": "2026-10-29",
      "supports": "дата санкции, меры, связь со смогом 1952"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Eliz2/4-5/52/contents",
+     "accessed": "2026-11-12",
+     "supports": "Clean Air Act 1956 (c. 52)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1956-suez-petrol-rationing",
@@ -1232,7 +1414,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1240,10 +1423,16 @@
      "url": "https://en.wikipedia.org/wiki/Rationing_in_the_United_Kingdom",
      "accessed": "2026-10-29",
      "supports": "даты Суэцкого нормирования"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1956/nov/20/oil-supplies-rationing",
+     "accessed": "2026-11-12",
+     "supports": "20 ноября 1956: нормирование моторного топлива вводится с 17 декабря"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1961-pill-on-nhs",
@@ -1278,7 +1467,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1286,10 +1476,16 @@
      "url": "https://en.wikipedia.org/wiki/Combined_oral_contraceptive_pill",
      "accessed": "2026-10-29",
      "supports": "декабрь 1961, Conovid, 2 шиллинга"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1961/dec/04/birth-control-pills",
+     "accessed": "2026-11-12",
+     "supports": "4 декабря 1961: вопрос министру здравоохранения о выписке противозачаточных таблеток по NHS"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1962-commonwealth-immigrants-act",
@@ -1315,7 +1511,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1323,10 +1520,16 @@
      "url": "https://en.wikipedia.org/wiki/Commonwealth_Immigrants_Act_1962",
      "accessed": "2026-10-29",
      "supports": "даты, ваучеры, сокращение въезда"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/Eliz2/10-11/21/contents",
+     "accessed": "2026-11-12",
+     "supports": "Commonwealth Immigrants Act 1962 (c. 21)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1963-beeching-report",
@@ -1356,7 +1559,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1364,10 +1568,16 @@
      "url": "https://en.wikipedia.org/wiki/Beeching_cuts",
      "accessed": "2026-10-29",
      "supports": "дата, число станций, динамика закрытий"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1963/mar/27/railways-board-proposals",
+     "accessed": "2026-11-12",
+     "supports": "27 марта 1963: предложения Railways Board (доклад Бичинга)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1963-robbins-report",
@@ -1399,7 +1609,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1407,10 +1618,16 @@
      "url": "https://en.wikipedia.org/wiki/Robbins_Report",
      "accessed": "2026-10-29",
      "supports": "дата, рекомендации, принятие"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/lords/1963/dec/11/higher-education",
+     "accessed": "2026-11-12",
+     "supports": "Палата лордов 11 декабря 1963: прения о докладе Роббинса"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1967-colour-tv",
@@ -1435,7 +1652,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_bbc_history"
    ],
    "evidence": [
     {
@@ -1443,10 +1661,16 @@
      "url": "https://en.wikipedia.org/wiki/BBC_Television",
      "accessed": "2026-10-29",
      "supports": "1 июля 1967, BBC2 1964"
+    },
+    {
+     "source_id": "gb_bbc_history",
+     "url": "https://www.bbc.com/historyofthebbc/timelines/1960s",
+     "accessed": "2026-11-12",
+     "supports": "июль 1967: BBC Two — первая в Европе полноцветная ТВ-служба"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1967-abortion-act",
@@ -1472,7 +1696,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1480,10 +1705,16 @@
      "url": "https://en.wikipedia.org/wiki/Abortion_Act_1967",
      "accessed": "2026-10-29",
      "supports": "даты, территория, условия"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1967/87/contents",
+     "accessed": "2026-11-12",
+     "supports": "Abortion Act 1967 (c. 87)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1969-voting-age-18",
@@ -1514,7 +1745,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1522,10 +1754,16 @@
      "url": "https://en.wikipedia.org/wiki/Representation_of_the_People_Act_1969",
      "accessed": "2026-10-29",
      "supports": "дата, 21→18, списки 1970"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/lords/1969/apr/15/representation-of-the-people-bill",
+     "accessed": "2026-11-12",
+     "supports": "15 апреля 1969: Representation of the People Bill возвращён из Палаты общин накануне королевской санкции"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1970-equal-pay-act",
@@ -1635,7 +1873,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1643,10 +1882,16 @@
      "url": "https://en.wikipedia.org/wiki/Decimal_Day",
      "accessed": "2026-10-29",
      "supports": "дата и суть перехода"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1967/47/contents",
+     "accessed": "2026-11-12",
+     "supports": "Decimal Currency Act 1967 (c. 47), закон о переходе на десятичную валюту"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1974-three-day-week",
@@ -1676,7 +1921,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1684,10 +1930,16 @@
      "url": "https://en.wikipedia.org/wiki/Three-Day_Week",
      "accessed": "2026-10-29",
      "supports": "даты, причины, ТВ-ограничения"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1973/dec/13/energy-supplies",
+     "accessed": "2026-11-12",
+     "supports": "13 декабря 1973: с 31 декабря электроснабжение промышленности три дня в неделю"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1975-sex-discrimination-act",
@@ -1713,7 +1965,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1721,10 +1974,16 @@
      "url": "https://en.wikipedia.org/wiki/Sex_Discrimination_Act_1975",
      "accessed": "2026-10-29",
      "supports": "даты, территория, сфера, EOC"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1975/65/contents",
+     "accessed": "2026-11-12",
+     "supports": "Sex Discrimination Act 1975 (c. 65)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1978-winter-of-discontent",
@@ -1752,7 +2011,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1760,10 +2020,16 @@
      "url": "https://en.wikipedia.org/wiki/Winter_of_Discontent",
      "accessed": "2026-10-29",
      "supports": "даты, забастовки, итог"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1979/jan/16/industrial-situation",
+     "accessed": "2026-11-12",
+     "supports": "16 января 1979: заявление о забастовках водителей грузовиков и других конфликтах"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1980-right-to-buy",
@@ -1792,7 +2058,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -1800,10 +2067,16 @@
      "url": "https://en.wikipedia.org/wiki/Right_to_Buy",
      "accessed": "2026-10-29",
      "supports": "закон 1980, скидки, число продаж, доля домовладельцев"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1980/51/contents",
+     "accessed": "2026-11-12",
+     "supports": "Housing Act 1980 (c. 51), право выкупа"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1982-falklands",
@@ -1828,7 +2101,8 @@
    "narrative_hooks": [],
    "sensitive": true,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1836,10 +2110,16 @@
      "url": "https://en.wikipedia.org/wiki/Falklands_War",
      "accessed": "2026-10-29",
      "supports": "даты, британские потери"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1982/apr/03/falkland-islands",
+     "accessed": "2026-11-12",
+     "supports": "экстренное субботнее заседание 3 апреля 1982 после вторжения на Фолкленды"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1984-miners-strike",
@@ -1871,7 +2151,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1879,10 +2160,16 @@
      "url": "https://en.wikipedia.org/wiki/UK_miners'_strike_(1984–1985)",
      "accessed": "2026-10-29",
      "supports": "даты, Оргрив, итог, закрытие шахт"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/commons/1984/mar/19/midlands-coalfields-police-action",
+     "accessed": "2026-11-12",
+     "supports": "19 марта 1984: забастовка в угольных районах, идущая больше недели"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1994-channel-tunnel",
@@ -1945,7 +2232,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -1953,10 +2241,16 @@
      "url": "https://en.wikipedia.org/wiki/National_Lottery_(United_Kingdom)",
      "accessed": "2026-10-29",
      "supports": "дата и цена"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/lords/1994/nov/24/the-national-lottery",
+     "accessed": "2026-11-12",
+     "supports": "24 ноября 1994: итоги первой недели и первого тиража National Lottery"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1995-pensions-act",
@@ -1991,7 +2285,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -2005,10 +2300,16 @@
      "url": "https://en.wikipedia.org/wiki/Women_Against_State_Pension_Inequality",
      "accessed": "2026-10-29",
      "supports": "60 → 65, поэтапно с 2010, когорты 1950–1955, 3,6 млн"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1995/26/contents",
+     "accessed": "2026-11-12",
+     "supports": "Pensions Act 1995 (c. 26)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1997-winter-fuel-payment",
@@ -2034,7 +2335,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -2042,10 +2344,16 @@
      "url": "https://en.wikipedia.org/wiki/Winter_Fuel_Payment",
      "accessed": "2026-10-29",
      "supports": "1997, 20 фунтов, 60+, изменения 2024–2025"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/uksi/1998/19/contents/made",
+     "accessed": "2026-11-12",
+     "supports": "Social Fund Winter Fuel Payment Regulations 1998: выплата 20 фунтов (10 при нескольких получателях) за зиму 1997/98"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-1999-minimum-wage",
@@ -2072,7 +2380,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -2080,10 +2389,16 @@
      "url": "https://en.wikipedia.org/wiki/National_Minimum_Wage_Act_1998",
      "accessed": "2026-10-29",
      "supports": "дата, ставки, территория"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1998/39/contents",
+     "accessed": "2026-11-12",
+     "supports": "National Minimum Wage Act 1998 (c. 39)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2004-eu-enlargement",
@@ -2110,7 +2425,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_hansard"
    ],
    "evidence": [
     {
@@ -2118,10 +2434,16 @@
      "url": "https://en.wikipedia.org/wiki/2004_enlargement_of_the_European_Union",
      "accessed": "2026-10-29",
      "supports": "дата; для Великобритании — только регистрация и ограничения пособий"
+    },
+    {
+     "source_id": "gb_hansard",
+     "url": "https://api.parliament.uk/historic-hansard/lords/2004/may/05/eu-enlargement-institutions-and-reform",
+     "accessed": "2026-11-12",
+     "supports": "5 мая 2004: прения Палаты лордов о расширении ЕС"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2005-civil-partnerships",
@@ -2146,7 +2468,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -2154,10 +2477,16 @@
      "url": "https://en.wikipedia.org/wiki/Civil_Partnership_Act_2004",
      "accessed": "2026-10-29",
      "supports": "даты, территория"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/2004/33/contents",
+     "accessed": "2026-11-12",
+     "supports": "Civil Partnership Act 2004 (c. 33)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2007-digital-switchover",
@@ -2222,7 +2551,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_boe"
    ],
    "evidence": [
     {
@@ -2230,10 +2560,16 @@
      "url": "https://en.wikipedia.org/wiki/Northern_Rock",
      "accessed": "2026-10-29",
      "supports": "дата набега, национализация"
+    },
+    {
+     "source_id": "gb_boe",
+     "url": "https://www.bankofengland.co.uk/news/2007/september/liquidity-support-facility-for-northern-rock-plc",
+     "accessed": "2026-11-12",
+     "supports": "14 сентября 2007: экстренная поддержка ликвидности Northern Rock"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2010-austerity",
@@ -2265,7 +2601,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -2273,10 +2610,16 @@
      "url": "https://en.wikipedia.org/wiki/Austerity_in_the_United_Kingdom",
      "accessed": "2026-10-29",
      "supports": "2010 бюджет, сокращения местных властей, заморозка, потолок"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/publications/budget-june-2010",
+     "accessed": "2026-11-12",
+     "supports": "чрезвычайный бюджет июня 2010 с программой сокращения дефицита"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2013-universal-credit",
@@ -2303,7 +2646,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -2311,10 +2655,16 @@
      "url": "https://en.wikipedia.org/wiki/Universal_Credit",
      "accessed": "2026-10-29",
      "supports": "Welfare Reform Act 2012, пилот 2013, заменённые пособия, сроки"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/2012/5/contents",
+     "accessed": "2026-11-12",
+     "supports": "Welfare Reform Act 2012 (c. 5), часть 1 вводит Universal Credit"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2016-eu-referendum",
@@ -2339,7 +2689,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -2347,10 +2698,16 @@
      "url": "https://en.wikipedia.org/wiki/2016_United_Kingdom_European_Union_membership_referendum",
      "accessed": "2026-10-29",
      "supports": "дата, результат, явка, Лондон"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/speeches/eu-referendum-outcome-pm-statement-24-june-2016",
+     "accessed": "2026-11-12",
+     "supports": "заявление премьер-министра 24 июня 2016 об итогах референдума о членстве в ЕС"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2020-brexit",
@@ -2375,7 +2732,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -2383,10 +2741,16 @@
      "url": "https://en.wikipedia.org/wiki/Brexit",
      "accessed": "2026-10-29",
      "supports": "дата и время выхода, конец переходного периода"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/2020/1/contents",
+     "accessed": "2026-11-12",
+     "supports": "European Union (Withdrawal Agreement) Act 2020 (c. 1)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2022-energy-price-shock",
@@ -2417,7 +2781,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_ofgem"
    ],
    "evidence": [
     {
@@ -2425,10 +2790,16 @@
      "url": "https://en.wikipedia.org/wiki/2021–present_United_Kingdom_cost-of-living_crisis",
      "accessed": "2026-10-29",
      "supports": "рост потолка 54%, инфляция 11,1%, гарантия 2500"
+    },
+    {
+     "source_id": "gb_ofgem",
+     "url": "https://www.ofgem.gov.uk/press-release/price-cap-increase-ps693-april",
+     "accessed": "2026-11-12",
+     "supports": "потолок цен на энергию повышен на 693 фунта с апреля 2022"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2022-heatwave-40c",
@@ -2454,7 +2825,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_met_office"
    ],
    "evidence": [
     {
@@ -2462,10 +2834,16 @@
      "url": "https://en.wikipedia.org/wiki/2022_United_Kingdom_heatwaves",
      "accessed": "2026-10-29",
      "supports": "дата, рекорд, предупреждение, избыточные смерти"
+    },
+    {
+     "source_id": "gb_met_office",
+     "url": "https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/weather/learn-about/uk-past-events/interesting/2022/2022_03_july_heatwave_v1.pdf",
+     "accessed": "2026-11-12",
+     "supports": "жара 16–19 июля 2022; 19 июля 40,3 °C в Конингсби (Линкольншир) — национальный рекорд"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-nat-2022-queen-death",
@@ -2491,7 +2869,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -2499,10 +2878,16 @@
      "url": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Elizabeth_II",
      "accessed": "2026-10-29",
      "supports": "дата смерти, похороны, выходной"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/news/death-of-her-majesty-queen-elizabeth-ii",
+     "accessed": "2026-11-12",
+     "supports": "8 сентября 2022: сообщение правительства о смерти королевы Елизаветы II"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

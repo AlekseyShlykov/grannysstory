@@ -69,7 +69,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -77,10 +78,16 @@
      "url": "https://en.wikipedia.org/wiki/Great_Flood_of_1913",
      "accessed": "2026-10-29",
      "supports": "даты, число погибших, города, закон 1914"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/safety/flood-states-oh",
+     "accessed": "2026-11-13",
+     "supports": "NWS: в конце марта 1913 г. ливни в долине Огайо, не менее 600 погибших, почти 500 из них в Огайо (23–27 марта)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-oh-1970-kent-state",
@@ -108,7 +115,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_kent_state"
    ],
    "evidence": [
     {
@@ -116,10 +124,16 @@
      "url": "https://en.wikipedia.org/wiki/Kent_State_shootings",
      "accessed": "2026-10-29",
      "supports": "дата, жертвы, контекст"
+    },
+    {
+     "source_id": "us_kent_state",
+     "url": "https://www.kent.edu/may-4-historical-accuracy",
+     "accessed": "2026-11-13",
+     "supports": "Национальная гвардия Огайо открыла огонь по демонстрантам Кентского университета 4 мая 1970 г.: четверо убиты, девять ранены"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-oh-1978-great-blizzard",
@@ -148,7 +162,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -156,10 +171,16 @@
      "url": "https://en.wikipedia.org/wiki/Great_Blizzard_of_1978",
      "accessed": "2026-10-29",
      "supports": "даты, жертвы в Огайо, гвардия, закрытие магистрали"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/iln/19780126",
+     "accessed": "2026-11-13",
+     "supports": "NWS Уилмингтон: метель с 26 января 1978 г. от Цинциннати до Кливленда, 51 погибший в Огайо, впервые закрыта Огайо-Тернпайк"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-mi-1978-great-blizzard",
@@ -187,7 +208,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_nws"
    ],
    "evidence": [
     {
@@ -195,10 +217,16 @@
      "url": "https://en.wikipedia.org/wiki/Great_Blizzard_of_1978",
      "accessed": "2026-10-29",
      "supports": "Мичиган: жертвы, брошенные машины, ЧП"
+    },
+    {
+     "source_id": "us_nws",
+     "url": "https://www.weather.gov/dtx/blizzard1978",
+     "accessed": "2026-11-13",
+     "supports": "NWS Детройт: метель 26–27 января 1978 г., «самая обширная метель в истории Мичигана», около 20 погибших"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-mi-1937-flint-sit-down-strike",
@@ -266,7 +294,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_mackinac_bridge"
    ],
    "evidence": [
     {
@@ -274,10 +303,16 @@
      "url": "https://en.wikipedia.org/wiki/Mackinac_Bridge",
      "accessed": "2026-10-29",
      "supports": "дата и значение"
+    },
+    {
+     "source_id": "us_mackinac_bridge",
+     "url": "https://www.mackinacbridge.org/ufaqs/mackinac-bridge-open/",
+     "accessed": "2026-11-13",
+     "supports": "мост открыт для движения 1 ноября 1957 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-il-1913-women-presidential-vote",
@@ -346,7 +381,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_cdc"
    ],
    "evidence": [
     {
@@ -354,10 +390,16 @@
      "url": "https://en.wikipedia.org/wiki/Flint_water_crisis",
      "accessed": "2026-10-29",
      "supports": "даты, число затронутых, легионеллёз"
+    },
+    {
+     "source_id": "us_cdc",
+     "url": "https://www.cdc.gov/mmwr/volumes/65/wr/mm6525e1.htm",
+     "accessed": "2026-11-13",
+     "supports": "MMWR 2016: переход Флинта на собственную водную систему 25 апреля 2014 г., рост уровня свинца в крови детей; возврат к детройтской воде 16 октября 2015 г."
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

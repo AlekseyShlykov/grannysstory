@@ -1,0 +1,110 @@
+{
+ "records": [
+  {
+   "id": "it-campania-1980-irpinia-earthquake",
+   "title": "Землетрясение в Ирпинии",
+   "title_en": "Irpinia earthquake",
+   "start_date": "1980-11-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "it-campania",
+    "it-basilicata"
+   ],
+   "category": "disaster",
+   "historical_summary": "23 ноября 1980 г. в 19:34 землетрясение магнитудой 6,9 охватило 687 коммун Кампании, Базиликаты и Апулии. Погибли около 2900 человек, около 8800 были ранены, около 280 тыс. остались без крова.",
+   "historical_summary_en": "On 23 November 1980 at 19:34 a magnitude 6.9 earthquake struck 687 municipalities in Campania, Basilicata and Apulia. About 2,900 people died, about 8,800 were injured and about 280,000 were left homeless.",
+   "affected_groups": [
+    "all_residents",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "loss_of_home",
+    "displacement",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "earthquake_night",
+    "living_in_a_container"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia",
+    "it_ingv_cfti5"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Terremoto_dell%27Irpinia_del_1980",
+     "accessed": "2026-11-11",
+     "supports": "23.11.1980 19:34; M6,9; 687 comuni; 2914 morti; 8848 feriti; ~280 000 sfollati"
+    },
+    {
+     "source_id": "it_ingv_cfti5",
+     "url": "https://storing.ingv.it/cfti/cfti5/QuakeList.xml",
+     "accessed": "2026-11-12",
+     "supports": "CFTI5Med, nterr 41752: «Irpinia-Basilicata», 23.11.1980 18:34:52 UTC (19:34 местного), Io 10, 1395 пунктов наблюдения, Mw 6,7"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-campania-1981-industrial-areas",
+   "title": "Промышленные зоны после землетрясения",
+   "title_en": "Post-earthquake industrial areas",
+   "start_date": "1981",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "it-campania",
+    "it-basilicata"
+   ],
+   "category": "local_economy",
+   "historical_summary": "После землетрясения 1980 г. на создание 20 промышленных зон в Кампании и Базиликате было выделено 7762 млрд лир. По данным Счётной палаты, 146 концессий (48,5%) впоследствии были отозваны.",
+   "historical_summary_en": "After the 1980 earthquake 7,762 billion lire were allocated to create 20 industrial areas in Campania and Basilicata. According to the Court of Auditors, 146 concessions (48.5%) were later revoked.",
+   "affected_groups": [
+    "industrial_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_in_the_valley",
+    "children_stay_home_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_senato_archivio"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Terremoto_dell%27Irpinia_del_1980",
+     "accessed": "2026-11-11",
+     "supports": "7762 miliardi per 20 aree industriali; 146 concessioni revocate (48,5%)"
+    },
+    {
+     "source_id": "it_senato_archivio",
+     "url": "https://www.senato.it/documenti/repository/relazioni/archiviostorico/commissioni/X_LEG_BASILICATA_CAMPANIA_DOC_RELAZ/X_LEG_BASIL_CAMP_DOC_XXIII_27_VOL_1_TOMO_1.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Commissione d'inchiesta: programma di industrializzazione di venti aree nell'interno di Irpinia e Basilicata (art. 32 l. 219/1981), oltre 5.000 miliardi; allegato sulle revoche dei contributi"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "records": [
+  {
+   "id": "tr-vil-erzurum-1916-russian-capture",
+   "title": "Российская армия занимает Эрзурум",
+   "title_en": "Russian army takes Erzurum",
+   "start_date": "1916-02-16",
+   "end_date": "1918-03-12",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-vil-erzurum"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "16 февраля 1916 г., завершив Эрзурумское наступление (10 января — 16 февраля), российские войска вошли в Эрзурум; османские войска вернули город 12 марта 1918 г. после ухода армянских частей.",
+   "historical_summary_en": "On 16 February 1916, completing the Erzurum offensive (10 January – 16 February), Russian troops entered Erzurum; Ottoman troops retook the city on 12 March 1918 after Armenian units withdrew.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "displacement"
+   ],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Erzurum_offensive",
+     "accessed": "2026-11-11",
+     "supports": "10.01–16.02.1916"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Capture_of_Erzurum_(1918)",
+     "accessed": "2026-11-11",
+     "supports": "12.03.1918"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103927/1916.html",
+     "accessed": "2026-11-12",
+     "supports": "16.02.1916 русские войска заняли Эрзурум"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

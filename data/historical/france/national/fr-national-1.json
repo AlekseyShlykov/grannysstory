@@ -811,7 +811,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -819,10 +820,16 @@
      "url": "https://fr.wikipedia.org/wiki/Front_populaire_(France)",
      "accessed": "2026-10-29",
      "supports": "12 000 grèves, 9 000 avec occupation, 2 millions de grévistes; Renault 28 mai"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/front-populaire-politique-gauche-1936-fascisme-misere",
+     "accessed": "2026-11-13",
+     "supports": "Grèves avec occupation d'usines à partir du 11 mai 1936, deux millions de grévistes le 11 juin"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1936-matignon-agreements",
@@ -850,7 +857,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -858,10 +866,16 @@
      "url": "https://fr.wikipedia.org/wiki/Front_populaire_(France)",
      "accessed": "2026-10-29",
      "supports": "accords de Matignon 7 juin 1936, hausse 7 à 15 %"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/front-populaire-politique-gauche-1936-fascisme-misere",
+     "accessed": "2026-11-13",
+     "supports": "Signature des accords de Matignon dans la nuit du 7 au 8 juin 1936"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1936-paid-holidays",
@@ -892,7 +906,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -906,10 +921,16 @@
      "url": "https://fr.wikipedia.org/wiki/Front_populaire_(France)",
      "accessed": "2026-10-29",
      "supports": "billets Lagrange 40 % de réduction"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000325218",
+     "accessed": "2026-11-13",
+     "supports": "Loi du 20 juin 1936 instituant un congé annuel payé"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1956-third-week-leave",
@@ -937,7 +958,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -945,10 +967,16 @@
      "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
      "accessed": "2026-10-29",
      "supports": "loi du 28 février 1956 promulguée le 27 mars"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000692216",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 56-332 du 27 mars 1956 modifiant le régime des congés annuels payés"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1969-fourth-week-leave",
@@ -974,7 +1002,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -982,10 +1011,16 @@
      "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
      "accessed": "2026-10-29",
      "supports": "loi 69-434 du 16 mai 1969"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000511693",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 69-434 du 16 mai 1969 portant à 4 semaines la durée minimum des congés payés"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1982-fifth-week-leave",
@@ -1011,7 +1046,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1019,10 +1055,16 @@
      "url": "https://fr.wikipedia.org/wiki/Cong%C3%A9_pay%C3%A9",
      "accessed": "2026-10-29",
      "supports": "ordonnance du 16 janvier 1982"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000889135/",
+     "accessed": "2026-11-13",
+     "supports": "Ordonnance n° 82-41 du 16 janvier 1982 relative à la durée du travail et aux congés payés"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1910-workers-pensions",
@@ -1164,7 +1206,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1172,10 +1215,16 @@
      "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
      "accessed": "2026-10-29",
      "supports": "ordonnances des 4 et 19 octobre 1945"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000698857/",
+     "accessed": "2026-11-13",
+     "supports": "Ordonnance n° 45-2250 du 4 octobre 1945 portant organisation de la sécurité sociale"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1967-jeanneney-ordinances",
@@ -1200,7 +1249,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1208,10 +1258,16 @@
      "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
      "accessed": "2026-10-29",
      "supports": "21 août 1967 ordonnances Jeanneney"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000339812",
+     "accessed": "2026-11-13",
+     "supports": "Ordonnance n° 67-706 du 21 août 1967: caisses nationales distinctes (maladie, famille, vieillesse) et ACOSS"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1991-csg",
@@ -1236,7 +1292,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1244,15 +1301,21 @@
      "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
      "accessed": "2026-10-29",
      "supports": "CSG 1991 1,1 %"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006318055/1990-12-30",
+     "accessed": "2026-11-13",
+     "supports": "Loi de finances pour 1991, art. 127: contribution sociale généralisée sur les revenus perçus à compter du 1er février 1991"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1999-cmu",
    "title": "Всеобщее медицинское покрытие (CMU)",
-   "start_date": "1999-07-28",
+   "start_date": "1999-07-27",
    "end_date": null,
    "date_precision": "day",
    "approximate": false,
@@ -1264,7 +1327,7 @@
     "fr"
    ],
    "category": "healthcare",
-   "historical_summary": "Закон от 28 июля 1999 года создал всеобщее медицинское покрытие CMU для людей без иной страховки.",
+   "historical_summary": "Закон от 27 июля 1999 года (опубликован 28 июля) создал всеобщее медицинское покрытие CMU для людей без иной страховки.",
    "affected_groups": [
     "unemployed",
     "all_residents"
@@ -1273,7 +1336,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1281,10 +1345,16 @@
      "url": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
      "accessed": "2026-10-29",
      "supports": "28 juillet 1999 CMU"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000000198392/",
+     "accessed": "2026-11-13",
+     "supports": "Loi n° 99-641 du 27 juillet 1999 portant création d'une couverture maladie universelle, JORF du 28 juillet 1999"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1968-may-events",
@@ -1320,7 +1390,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1328,10 +1399,16 @@
      "url": "https://fr.wikipedia.org/wiki/Mai_68",
      "accessed": "2026-10-29",
      "supports": "3 mai Sorbonne; 10-11 mai barricades; 13 mai grève générale; près de dix millions; Grenelle 27 mai SMIG +35 %"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/mitterrand/fiche-media/Mitter00173/debat-parlementaire-en-plein-coeur-de-mai-68.html",
+     "accessed": "2026-11-13",
+     "supports": "Fermeture de la Sorbonne le 3 mai 1968, barricades le 10 mai, grève générale le 13 mai"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1960-new-franc",
@@ -1358,7 +1435,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1366,10 +1444,16 @@
      "url": "https://fr.wikipedia.org/wiki/Franc_fran%C3%A7ais",
      "accessed": "2026-10-29",
      "supports": "1er janvier 1960, 100 anciens francs = 1 nouveau franc"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/affichTexte.do?categorieLien=id&cidTexte=JORFTEXT000000670235",
+     "accessed": "2026-11-13",
+     "supports": "Décret n° 59-1313 du 18 novembre 1959: la nouvelle unité monétaire est créée le 1er janvier 1960"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2002-euro-cash",
@@ -1397,7 +1481,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1405,10 +1490,16 @@
      "url": "https://fr.wikipedia.org/wiki/Franc_fran%C3%A7ais",
      "accessed": "2026-10-29",
      "supports": "1er janvier 2002; 17 février 2002; 6,55957"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/une-petite-histoire-des-debuts-de-l-euro",
+     "accessed": "2026-11-13",
+     "supports": "Pièces et billets en euros mis en circulation le 1er janvier 2002"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1982-minitel",
@@ -1436,7 +1527,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1444,10 +1536,16 @@
      "url": "https://fr.wikipedia.org/wiki/Minitel",
      "accessed": "2026-10-29",
      "supports": "lancé 1982; terminaux gratuits; 6,5 millions en 1993; fermeture 30 juin 2012"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/gerard-thery-a-propos-de-l-accueil-du-minitel-par-les-medias",
+     "accessed": "2026-11-13",
+     "supports": "Lancement commercial du Minitel trente ans avant son arrêt de 2012; reportage d'octobre 1982 sur l'expérimentation en Ille-et-Vilaine"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2012-minitel-shutdown",
@@ -1472,7 +1570,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1480,10 +1579,16 @@
      "url": "https://fr.wikipedia.org/wiki/Minitel",
      "accessed": "2026-10-29",
      "supports": "fermé le 30 juin 2012"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/gerard-thery-a-propos-de-l-accueil-du-minitel-par-les-medias",
+     "accessed": "2026-11-13",
+     "supports": "Le Minitel s'arrête le 30 juin 2012, trente ans après son lancement commercial"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2003-heatwave",
@@ -1513,7 +1618,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1521,10 +1627,16 @@
      "url": "https://fr.wikipedia.org/wiki/Canicule_europ%C3%A9enne_de_2003",
      "accessed": "2026-10-29",
      "supports": "1-15 août; environ 15 000 décès Inserm; plan canicule; journée de solidarité 2004"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/canicule-2003-crise-sanitaire",
+     "accessed": "2026-11-13",
+     "supports": "Canicule de la première quinzaine d'août 2003, au moins 15 000 morts"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2020-first-lockdown",
@@ -1554,7 +1666,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1562,10 +1675,16 @@
      "url": "https://fr.wikipedia.org/wiki/Confinements_li%C3%A9s_%C3%A0_la_pand%C3%A9mie_de_Covid-19_en_France",
      "accessed": "2026-10-29",
      "supports": "17 mars – 11 mai 2020 non inclus; 1 km; écoles 16 mars"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041728476",
+     "accessed": "2026-11-13",
+     "supports": "Décret n° 2020-260 du 16 mars 2020 réglementant les déplacements, en vigueur le 17 mars 2020 à midi"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2020-second-lockdown",
@@ -1592,7 +1711,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_legifrance"
    ],
    "evidence": [
     {
@@ -1600,10 +1720,16 @@
      "url": "https://fr.wikipedia.org/wiki/Confinements_li%C3%A9s_%C3%A0_la_pand%C3%A9mie_de_Covid-19_en_France",
      "accessed": "2026-10-29",
      "supports": "30 octobre au 15 décembre 2020 non inclus"
+    },
+    {
+     "source_id": "fr_legifrance",
+     "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042475143",
+     "accessed": "2026-11-13",
+     "supports": "Décret n° 2020-1310 du 29 octobre 2020 (JORF du 30 octobre), art. 4: tout déplacement hors du lieu de résidence est interdit sauf exceptions"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-2021-third-lockdown",
@@ -1667,7 +1793,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1675,10 +1802,16 @@
      "url": "https://fr.wikipedia.org/wiki/LGV_Sud-Est",
      "accessed": "2026-10-29",
      "supports": "inauguration 22 septembre 1981; service commercial 27 septembre 1981; section nord 25 septembre 1983"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/mitterrand/parcours/0013/grands-travaux-et-grands-projets.html",
+     "accessed": "2026-11-13",
+     "supports": "Inauguration du TGV Paris-Lyon le 22 septembre 1981"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1918-armistice",
@@ -1705,7 +1838,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "en_wikipedia"
+    "en_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1713,10 +1847,16 @@
      "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
      "accessed": "2026-10-30",
      "supports": "дата, место подписания и время вступления в силу"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/l-armistice-1918-premiere-guerre-mondiale-wagon-rethondes",
+     "accessed": "2026-11-13",
+     "supports": "Armistice signé le 11 novembre 1918 vers 5 h 15 dans la clairière de Rethondes (forêt de Compiègne), cessez-le-feu à 11 heures"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-nat-1939-war-declared",
@@ -1743,7 +1883,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "en_wikipedia"
+    "en_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -1751,10 +1892,16 @@
      "url": "https://en.wikipedia.org/wiki/French_declaration_of_war_on_Germany_(1939)",
      "accessed": "2026-10-30",
      "supports": "дата объявления войны"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://www.ina.fr/ina-eclaire-actu/22-juin-1940-signature-de-l-armistice-dans-le-wagon-de-rethondes",
+     "accessed": "2026-11-13",
+     "supports": "Hostilités entre la France et l'Allemagne commencées le 3 septembre 1939"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

@@ -23,14 +23,21 @@ export interface RegionOption {
   locationId?: string;
   pack?: string;
   preview?: boolean;
+  /** Part of a divided city she lives in during the division (Berlin: west or east), chosen on the opening screen. */
+  partitionPart?: string;
 }
 
 const LEGACY_LOCATIONS = new Set(["ru-moscow", "ru-saint-petersburg", "ru-tver", "ru-veliky-novgorod", "ru-smolensk"]);
 const COUNTRY_IDS: Record<string, string> = {
+  CN: "china",
+  DE: "germany",
+  FI: "finland",
   FR: "france",
   GB: "united-kingdom",
+  IT: "italy",
   PL: "poland",
   RU: "russia",
+  TR: "turkey",
   US: "united-states"
 };
 
@@ -38,9 +45,13 @@ const COUNTRY_IDS: Record<string, string> = {
  * World-dataset settlements are public only after passing both gates: historical coverage and a reviewed
  * regional narrative. The archive country is explicit so the opening screen never guesses it from an id.
  */
+// The menu depends only on the bundled manifest, registry and reviewed texts, so it is computed once.
+let cachedWorldRegions: RegionOption[] | null = null;
+
 export function worldRegionOptions(): RegionOption[] {
+  if (cachedWorldRegions) return cachedWorldRegions.map((region) => ({ ...region }));
   const world = worldData();
-  return Object.entries(worldManifest.coverage)
+  cachedWorldRegions = Object.entries(worldManifest.coverage)
     .filter(([id, coverage]) => coverage.meetsCoverageGate && reviewedWorldRegionIds.has(id) && !LEGACY_LOCATIONS.has(id))
     .map(([id]) => getLocation(world, id))
     .filter((location): location is NonNullable<typeof location> => Boolean(location && isSettlement(location) && location.coordinates))
@@ -54,11 +65,27 @@ export function worldRegionOptions(): RegionOption[] {
       preview: false
     }))
     .filter((region) => Boolean(region.countryId))
+    // A divided city is offered once per part: the player chooses the side, the birthplace is still the city.
+    .flatMap((region) => {
+      const parts = getLocation(world, region.locationId!)?.partitions?.flatMap((partition) => partition.into) ?? [];
+      return parts.length
+        ? parts.map((part) => ({ ...region, id: part, label: `${region.label}, ${PART_LABELS[part] ?? worldNameAt(world, part, "1975-07-01")}`, partitionPart: part }))
+        : [region];
+    })
     .sort((a, b) => a.countryId!.localeCompare(b.countryId!) || a.label.localeCompare(b.label, "ru"));
+  return cachedWorldRegions.map((region) => ({ ...region }));
 }
 
 function regionOption(id: RegionId): RegionOption | undefined {
   return (manifest.regions as RegionOption[]).find((entry) => entry.id === id) ?? worldRegionOptions().find((entry) => entry.id === id);
+}
+
+const PART_LABELS: Record<string, string> = { "de-berlin-west": "западная часть", "de-berlin-east": "восточная часть" };
+
+/** Region whose hand-written texts a selection uses: a chosen side of a divided city uses the city's texts. */
+export function narrativeRegionId(regionId: RegionId): RegionId {
+  const region = regionOption(regionId);
+  return region?.partitionPart && region.locationId ? region.locationId : regionId;
 }
 
 export function menuRegions(_preview = false): RegionOption[] {

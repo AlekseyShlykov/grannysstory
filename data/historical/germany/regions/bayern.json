@@ -1,0 +1,177 @@
+{
+ "records": [
+  {
+   "id": "de-bayern-1945-provisional-government",
+   "title": "Временное правительство Баварии",
+   "title_en": "Provisional Bavarian government",
+   "start_date": "1945-05-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-bayern"
+   ],
+   "category": "political_change",
+   "historical_summary": "28 мая 1945 г. американская военная администрация назначила временное правительство Баварии во главе с Фрицем Шеффером. 10 августа 1948 г. было создано Баварское радио.",
+   "historical_summary_en": "On 28 May 1945 the American military government appointed a provisional Bavarian government under Fritz Schäffer. On 10 August 1948 Bavarian Broadcasting was established.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "music_on_the_radio"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "28.05.1945"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "10.08.1948 Bayerischer Rundfunk"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-bayern-1961-kahl-nuclear-plant",
+   "title": "Первая АЭС Германии в Кале",
+   "title_en": "Germany's first nuclear plant at Kahl",
+   "start_date": "1961-06-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-bayern"
+   ],
+   "category": "technology",
+   "historical_summary": "17 июня 1961 г. атомная электростанция в баварском Кале первой в Германии начала давать электроэнергию. Ещё в 1957 г. в Гархинге под Мюнхеном заработал исследовательский реактор.",
+   "historical_summary_en": "On 17 June 1961 the nuclear power station at Kahl in Bavaria became the first in Germany to supply electricity. A research reactor had already started up at Garching near Munich in 1957.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1961.html",
+     "accessed": "2026-11-11",
+     "supports": "17.06.1961 Kahl"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "31.10.1957 Garching"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-bayern-1986-wackersdorf",
+   "title": "Протесты против завода в Ваккерсдорфе",
+   "title_en": "Protests against the Wackersdorf plant",
+   "start_date": "1986-05-17",
+   "end_date": "1986-07-27",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-bayern"
+   ],
+   "category": "environment",
+   "historical_summary": "17–19 мая 1986 г. у ограды строящегося завода по переработке ядерного топлива в Ваккерсдорфе прошли самые жестокие столкновения, более 300 человек получили ранения. 26–27 июля мирный фестиваль против завода в Бургленгенфельде собрал около 100 тыс. человек.",
+   "historical_summary_en": "On 17–19 May 1986 the most violent clashes so far took place at the fence of the nuclear reprocessing plant under construction at Wackersdorf, with more than 300 injured. On 26–27 July a peaceful festival against the plant in Burglengenfeld drew about 100,000 people.",
+   "affected_groups": [
+    "young_adults",
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "protest_generation"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1986.html",
+     "accessed": "2026-11-11",
+     "supports": "17.–19.05.1986 >300; 26.–27.07.1986 ~100 000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-bayern-1995-crucifix-ruling",
+   "title": "Решение о распятиях в классах",
+   "title_en": "Crucifix ruling",
+   "start_date": "1995-08-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "de-bayern"
+   ],
+   "category": "religion",
+   "historical_summary": "10 августа 1995 г. Федеральный конституционный суд признал неконституционным баварское требование вешать распятия в классах начальных школ.",
+   "historical_summary_en": "On 10 August 1995 the Federal Constitutional Court ruled that Bavaria's requirement to hang crucifixes in primary school classrooms was unconstitutional.",
+   "affected_groups": [
+    "school_pupils",
+    "parents",
+    "teachers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "arguments_at_the_dinner_table"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1995.html",
+     "accessed": "2026-11-11",
+     "supports": "10.08.1995"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,458 @@
+{
+ "records": [
+  {
+   "id": "tr-karabuk-1924-to-zonguldak",
+   "title": "Сафранболу и Карабюк передаются в Зонгулдак",
+   "title_en": "Safranbolu and Karabük transferred to Zonguldak",
+   "start_date": "1924",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1924 г. нахие Акташ, к которой относилась деревня Карабюк, вместе с казой Сафранболу была передана из вилайета Кастамону в вилайет Зонгулдак.",
+   "historical_summary_en": "In 1924 the Aktaş nahiye, to which the village of Karabük belonged, was transferred with the Safranbolu kaza from Kastamonu vilayet to Zonguldak vilayet.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tuba"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuba",
+     "url": "https://www.tuba.gov.tr/files/yayinlar/tarih-serisi/TUBA-978-625-8352-69-6_ch03.pdf",
+     "accessed": "2026-11-11",
+     "supports": "1924 передача Акташ и Сафранболу в Зонгулдак"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1932-railway",
+   "title": "Железная дорога доходит до Карабюка",
+   "title_en": "Railway reaches Karabük",
+   "start_date": "1932",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "Железная дорога со стороны Филиоса, строившаяся для вывоза зонгулдакского угля, дошла до Карабюка к концу 1932 г.; до основания завода Карабюк был махалле из 13 дворов деревни Öğlebeli.",
+   "historical_summary_en": "The railway from Filyos, built to carry Zonguldak coal, reached Karabük by the end of 1932; before the steelworks Karabük was a 13-household hamlet of the village of Öğlebeli.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "arriving_at_the_station"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tuba",
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuba",
+     "url": "https://www.tuba.gov.tr/files/yayinlar/tarih-serisi/TUBA-978-625-8352-69-6_ch03.pdf",
+     "accessed": "2026-11-11",
+     "supports": "конец 1932 ж/д; 13 дворов"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Karabük_(il)",
+     "accessed": "2026-11-11",
+     "supports": "до 1937 — 13 дворов Öğlebeli"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1937-steelworks-foundation",
+   "title": "Закладка металлургического комбината",
+   "title_en": "Foundation of the iron and steel works",
+   "start_date": "1937-04-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "3 апреля 1937 г. Исмет Инёню заложил в Карабюке первый в Турции металлургический комбинат; место выбрали из-за железной дороги и близости угля. Вокруг стройки быстро выросли дома, лавки и магазины.",
+   "historical_summary_en": "On 3 April 1937 İsmet İnönü laid the foundation of Turkey's first iron and steel works at Karabük; the site was chosen for its railway and nearby coal. Houses, shops and stores quickly grew up around the construction site.",
+   "affected_groups": [
+    "industrial_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "leaving_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_tuba"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Karabük_(il)",
+     "accessed": "2026-11-11",
+     "supports": "3.04.1937 закладка, выбор места"
+    },
+    {
+     "source_id": "tr_tuba",
+     "url": "https://www.tuba.gov.tr/files/yayinlar/tarih-serisi/TUBA-978-625-8352-69-6_ch03.pdf",
+     "accessed": "2026-11-11",
+     "supports": "1937 закладка, быстрый рост"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1938-municipality",
+   "title": "Карабюк получает муниципалитет",
+   "title_en": "Karabük becomes a municipality",
+   "start_date": "1938",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1938 г. в Карабюке был учреждён муниципалитет, а в 1940 г. сюда перенесли центр нахие Акташ.",
+   "historical_summary_en": "In 1938 a municipality was established in Karabük, and in 1940 the centre of the Aktaş nahiye was moved here.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tuba",
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tuba",
+     "url": "https://www.tuba.gov.tr/files/yayinlar/tarih-serisi/TUBA-978-625-8352-69-6_ch03.pdf",
+     "accessed": "2026-11-11",
+     "supports": "1938 муниципалитет; 1940 центр Акташ"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Karabük_(il)",
+     "accessed": "2026-11-11",
+     "supports": "4.01.1940 центр бучака"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1939-steelworks-opening",
+   "title": "Пуск металлургического комбината",
+   "title_en": "Steelworks begin operating",
+   "start_date": "1939",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1939 г. на Карабюкском металлургическом комбинате заработала электростанция, а в течение следующих двух лет — остальные цеха; комбинат стал одним из первых сталелитейных заводов Республики.",
+   "historical_summary_en": "In 1939 the power plant of the Karabük iron and steel works began operating, followed by the other plants over the next two years; it was one of the Republic's first steelworks.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "first_wage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kardemir",
+     "accessed": "2026-11-11",
+     "supports": "1937 основание; 1939 электростанция; остальные в течение двух лет"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Karabük",
+     "accessed": "2026-11-11",
+     "supports": "1939 один из первых сталелитейных заводов"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1953-district",
+   "title": "Карабюк становится районом",
+   "title_en": "Karabük becomes a district",
+   "start_date": "1953-03-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "3 марта 1953 г. законом № 6068 Карабюк стал районом (ильче) провинции Зонгулдак.",
+   "historical_summary_en": "On 3 March 1953, under Law No. 6068, Karabük became a district (ilçe) of Zonguldak Province.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_tuba"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Karabük_(il)",
+     "accessed": "2026-11-11",
+     "supports": "3.03.1953 закон 6068"
+    },
+    {
+     "source_id": "tr_tuba",
+     "url": "https://www.tuba.gov.tr/files/yayinlar/tarih-serisi/TUBA-978-625-8352-69-6_ch03.pdf",
+     "accessed": "2026-11-11",
+     "supports": "3.03.1953"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1995-kardemir-privatised",
+   "title": "Приватизация Kardemir",
+   "title_en": "Kardemir privatised",
+   "start_date": "1995",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В 1995 г. десятилетиями государственный Карабюкский металлургический комбинат (Kardemir) был приватизирован; сегодня на нём работают более 4500 человек.",
+   "historical_summary_en": "In 1995 the Karabük iron and steel works (Kardemir), state-owned for decades, was privatised; it now employs more than 4,500 people.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "job_loss"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Kardemir",
+     "accessed": "2026-11-11",
+     "supports": "1995 приватизация; 4500+ сотрудников"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-karabuk-1995-province-centre",
+   "title": "Карабюк — центр новой провинции",
+   "title_en": "Karabük becomes a provincial centre",
+   "start_date": "1995-06-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "6 июня 1995 г. указом-законом № 550 была создана провинция Карабюк — 78-я в Турции — с центром в Карабюке, из районов провинций Зонгулдак и Чанкыры.",
+   "historical_summary_en": "On 6 June 1995 Decree-Law No. 550 created Karabük Province, Turkey's 78th, with Karabük as its centre, from districts of Zonguldak and Çankırı provinces.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Karabük_(il)",
+     "accessed": "2026-11-11",
+     "supports": "6.06.1995 KHK 550, 78-й ил"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/arsiv/22305.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Resmî Gazete № 22305 (06.06.1995), KHK/550, ст. 2: провинция Карабюк с центром в Карабюке"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-karabuk-2007-university",
+   "title": "Основан Карабюкский университет",
+   "title_en": "Karabük University founded",
+   "start_date": "2007",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "education",
+   "historical_summary": "В 2007 г. в числе 17 новых университетов был основан Карабюкский университет; сейчас в нём учатся около 52 тыс. студентов.",
+   "historical_summary_en": "In 2007 Karabük University was founded as one of 17 new universities; it now has about 52,000 students.",
+   "affected_groups": [
+    "students",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity"
+   ],
+   "narrative_hooks": [
+    "first_in_family_at_university"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Karabük_University",
+     "accessed": "2026-11-11",
+     "supports": "2007, 17 новых, ~52 000 студентов"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/eskiler/2007/05/20070529.htm",
+     "accessed": "2026-11-12",
+     "supports": "Resmî Gazete № 26536 (29.05.2007): закон 5662 о вузах, которым создан Карабюкский университет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-karabuk-2022-population",
+   "title": "Население Карабюка",
+   "title_en": "Karabük's population",
+   "start_date": "2022",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "tr-karabuk"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "По данным TÜİK, в 2022 г. в Карабюке жили 125 403 человека.",
+   "historical_summary_en": "According to TÜİK, Karabük had 125,403 inhabitants in 2022.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Karabük",
+     "accessed": "2026-11-11",
+     "supports": "2022: 125 403 (TÜİK)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

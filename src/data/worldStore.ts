@@ -40,7 +40,9 @@ export function validateWorldPack(value: unknown, locationId: string): WorldPack
 export function packIdsFor(placeIds: string[], fromYear: number, toYear: number): string[] {
   const world = worldData();
   const ids = new Set<string>();
-  for (const placeId of placeIds) {
+  // A divided city (Berlin 1949–1990) is read through its parts during the division, so their chains load too.
+  const withParts = placeIds.flatMap((placeId) => [placeId, ...(world.locations.get(placeId)?.partitions ?? []).flatMap((partition) => partition.into)]);
+  for (const placeId of withParts) {
     for (let year = fromYear; year <= toYear; year += 1) {
       for (const node of ancestorsAt(world, placeId, isoDay(year, 1, 1))) ids.add(node);
       for (const node of ancestorsAt(world, placeId, isoDay(year, 12, 31))) ids.add(node);

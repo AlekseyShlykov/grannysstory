@@ -318,7 +318,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -326,10 +327,16 @@
      "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
      "accessed": "2026-10-29",
      "supports": "écomusée depuis 1973"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/panorama-grand-est/fiche-media/GRDEST00189/reconvertir-le-patrimoine-industriel-politiques-acteurs-et-activites.html",
+     "accessed": "2026-11-13",
+     "supports": "Création de l'écomusée du Creusot en 1973"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-le-creusot-1984-creusot-loire-bankruptcy",
@@ -359,7 +366,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "fr_wikipedia"
+    "fr_wikipedia",
+    "fr_ina"
    ],
    "evidence": [
     {
@@ -367,10 +375,16 @@
      "url": "https://fr.wikipedia.org/wiki/Le_Creusot",
      "accessed": "2026-10-29",
      "supports": "dépôt de bilan 12 décembre 1984; Usinor; Framatome"
+    },
+    {
+     "source_id": "fr_ina",
+     "url": "https://fresques.ina.fr/panorama-grand-est/fiche-media/GRDEST00189/reconvertir-le-patrimoine-industriel-politiques-acteurs-et-activites.html",
+     "accessed": "2026-11-13",
+     "supports": "Fermeture de Creusot-Loire en 1984"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "fr-le-creusot-1987-snecma-plant",

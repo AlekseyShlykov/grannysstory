@@ -1,0 +1,1955 @@
+{
+ "sources": [
+  {
+   "source_id": "tr_en_wikipedia",
+   "name": "Wikipedia (английская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "TR",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник, открыт через WebFetch; confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": true,
+    "verified": true,
+    "note": "проверено: MediaWiki API action=query отвечает (WebFetch); при прямых запросах curl — HTTP 429, общий лимит"
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "tr_tr_wikipedia",
+   "name": "Vikipedi (турецкая Википедия)",
+   "publisher": "Wikimedia Foundation",
+   "country": "TR",
+   "url": "https://tr.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions",
+    "demography"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник; таблицы численности по переписям TÜİK в статьях районов; открыт через WebFetch; confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "tr_ru_wikipedia",
+   "name": "Википедия (русская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "TR",
+   "url": "https://ru.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history",
+    "toponymy"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Использована для русских названий (Ангора, Константинополь); confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "ru"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "tr_tuba",
+   "name": "TÜBA — «Millî Mücadele'nin Yerel Tarihi 1918–1923», т. 7 (Karabük)",
+   "publisher": "Türkiye Bilimler Akademisi",
+   "country": "TR",
+   "url": "https://www.tuba.gov.tr/",
+   "historical_coverage": {
+    "from": 1918,
+    "to": 1995
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Открытый PDF академического издания; цитирование с атрибуцией",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Глава о Карабюке: административная история Сафранболу/Карабюка, железная дорога 1932, муниципалитет 1938, ильче 1953.",
+   "source_type": "academic",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-karabuk",
+    "tr-il-zonguldak"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1918,
+    "to": 1995
+   }
+  },
+  {
+   "source_id": "tr_borsagundem",
+   "name": "Borsa Gündem — колонка Махфи Эгилмеза «70'lerdeki kuyruklar»",
+   "publisher": "Borsa Gündem",
+   "country": "TR",
+   "url": "https://www.borsagundem.com.tr/",
+   "historical_coverage": {
+    "from": 1970,
+    "to": 1980
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "economy",
+    "everyday_life"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Авторские права издателя; использован только пересказ фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Колонка экономиста (мнение автора), confidence: medium; использована для дефицита 1970-х.",
+   "source_type": "newspaper",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "только веб-страница"
+   },
+   "years": {
+    "from": 1970,
+    "to": 1980
+   }
+  },
+  {
+   "source_id": "tr_memurlar",
+   "name": "Memurlar.net — «Konya'nın denizi Beyşehir kuruyor» (4.10.2021)",
+   "publisher": "Memurlar.net",
+   "country": "TR",
+   "url": "https://www.memurlar.net/",
+   "historical_coverage": {
+    "from": 1914,
+    "to": 2021
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Авторские права издателя; использован только пересказ фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Новостная статья о регуляторе 1914 г. и обмелении озера Бейшехир; confidence: medium.",
+   "source_type": "newspaper",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-vil-konya",
+    "tr-il-konya"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "только веб-страница/PDF"
+   },
+   "years": {
+    "from": 1914,
+    "to": 2021
+   }
+  },
+  {
+   "source_id": "tr_derim",
+   "name": "Derim Dergisi (Batı Akdeniz Tarımsal Araştırma Enstitüsü), 2010, 27(1): Dinç, Bahçeci, Tarı — дренаж Чумринской равнины",
+   "publisher": "DergiPark / Batı Akdeniz Tarımsal Araştırma Enstitüsü",
+   "country": "TR",
+   "url": "https://dergipark.org.tr/",
+   "historical_coverage": {
+    "from": 1912,
+    "to": 2004
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Открытый доступ DergiPark; цитирование с атрибуцией",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Рецензируемая статья (PDF на DergiPark); введение о первом государственном оросительном проекте Чумры и 35 000 га дренажа.",
+   "source_type": "academic",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-cumra"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "только веб-страница/PDF"
+   },
+   "years": {
+    "from": 1912,
+    "to": 2004
+   }
+  },
+  {
+   "source_id": "tr_bianet",
+   "name": "bianet — интервью с Шемси Денизером «Zonguldak Maden Grevi ve Yürüyüşü» (2004)",
+   "publisher": "Bağımsız İletişim Ağı (bianet)",
+   "country": "TR",
+   "url": "https://bianet.org/",
+   "historical_coverage": {
+    "from": 1990,
+    "to": 1991
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "labor"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Материалы bianet распространяются по лицензии Creative Commons (условия проверены не полностью); использован только пересказ",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Интервью с лидером профсоюза; даты забастовки 30.11.1990–8.01.1991; оценки численности марша расходятся; confidence: medium.",
+   "source_type": "newspaper",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-zonguldak"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "только веб-страница"
+   },
+   "years": {
+    "from": 1990,
+    "to": 1991
+   }
+  },
+  {
+   "source_id": "tr_worldbank",
+   "name": "World Bank — World Development Indicators (API v2)",
+   "publisher": "World Bank",
+   "country": "TR",
+   "url": "https://api.worldbank.org/v2/",
+   "historical_coverage": {
+    "from": 1960,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "demography",
+    "health",
+    "education",
+    "labour",
+    "communication",
+    "prices"
+   ],
+   "access_method": "api",
+   "bulk_download": true,
+   "license": "CC BY 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Ряды по Турции (TUR) сохранены сборщиком scripts/historical-data/collect/tr_worldbank.py в data/cache/tr/worldbank/; выборочные значения сверены через WebFetch трёх многоиндикаторных запросов API. Часть рядов — моделированные оценки (МОТ, ООН).",
+   "source_type": "statistics",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": true,
+    "verified": true,
+    "note": "проверено: api.worldbank.org/v2 отвечает JSON без ключа"
+   },
+   "years": {
+    "from": 1960,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "tr_tuik_tis2012",
+   "name": "TÜİK, Turkey in Statistics 2012",
+   "publisher": "Türkiye İstatistik Kurumu (TÜİK); размещено istmat.org",
+   "country": "TR",
+   "url": "https://istmat.org/files/uploads/47793/turkey_in_statistics_2012.pdf",
+   "historical_coverage": {
+    "from": 1927,
+    "to": 2012
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "demography",
+    "labour",
+    "education",
+    "migration",
+    "transport"
+   ],
+   "access_method": "manual_extraction",
+   "bulk_download": false,
+   "license": "Официальная статистика TÜİK; использование с указанием источника (условия TÜİK); копия на стороннем сайте",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "PDF открыт через WebFetch, текст извлечён pdftotext; использованы табл. 3.1 (переписи 1927–2000), 3.5, 3.7, 3.8, 3.10, 4.3, 4.4, 10.5, 11.1, 11.2, 15.3. Официальный сайт TÜİK для исторических выпусков в этой сессии не открывался.",
+   "source_type": "statistics",
+   "languages": [
+    "tr",
+    "en"
+   ],
+   "location_ids": [
+    "tr",
+    "tr-il-istanbul",
+    "tr-il-ankara",
+    "tr-il-izmir",
+    "tr-il-bursa",
+    "tr-il-konya",
+    "tr-il-gaziantep",
+    "tr-il-zonguldak",
+    "tr-il-karabuk",
+    "tr-il-erzurum"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "PDF"
+   },
+   "years": {
+    "from": 1927,
+    "to": 2012
+   }
+  },
+  {
+   "source_id": "tr_tuik",
+   "name": "Türkiye İstatistik Kurumu (TÜİK)",
+   "publisher": "Turkish Statistical Institute",
+   "country": "TR",
+   "url": "https://www.tuik.gov.tr/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Главная точка входа TÜİK. Из публикаций TÜİK использован только PDF «İstatistik Göstergeler 1923–2012» (запись tr_tuik_tis2012); базы и остальные публикации не извлекались, условия использования не проверялись.",
+   "source_type": "statistics",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "tr_milli_kutuphane",
+   "name": "Milli Kütüphane",
+   "publisher": "National Library of Turkey",
+   "country": "TR",
+   "url": "https://www.millikutuphane.gov.tr/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "library",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "tr_ataturk_kitapligi",
+   "name": "Atatürk Kitaplığı",
+   "publisher": "İstanbul Büyükşehir Belediyesi",
+   "country": "TR",
+   "url": "https://ataturkkitapligi.ibb.gov.tr/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "library",
+   "languages": [
+    "tr",
+    "ota"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "tr_devlet_arsivleri",
+   "name": "Devlet Arşivleri Başkanlığı",
+   "publisher": "Directorate of State Archives of the Republic of Türkiye",
+   "country": "TR",
+   "url": "https://www.devletarsivleri.gov.tr/",
+   "historical_coverage": null,
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [],
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "не проверялась",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Указан в задании как приоритетный; в этой работе данные не извлекались, условия использования не проверялись.",
+   "source_type": "archive",
+   "languages": [
+    "tr",
+    "ota"
+   ],
+   "location_ids": [],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "не проверялось"
+   }
+  },
+  {
+   "source_id": "tr_mevzuat",
+   "name": "Mevzuat Bilgi Sistemi",
+   "publisher": "Cumhurbaşkanlığı İdari İşler Başkanlığı, Hukuk ve Mevzuat Genel Müdürlüğü",
+   "country": "TR",
+   "url": "https://www.mevzuat.gov.tr/",
+   "historical_coverage": {
+    "from": 1920,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "law",
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальные тексты законов; законы как официальные акты не охраняются авторским правом (ст. 31 закона 5846), используется только пересказ и ссылка",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Официальная база действующих законов: PDF вида /MevzuatMetin/1.<tertip>.<номер>.pdf с номером закона, датой принятия, датой и номером Resmî Gazete; открыты через curl + pdftotext. Отменённые законы (743, 1580, 3803, 4305 и др.) в базе отсутствуют, для них использован архив Resmî Gazete.",
+   "source_type": "government",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только веб-интерфейс и PDF по постоянным адресам"
+   },
+   "years": {
+    "from": 1920,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "tr_resmi_gazete",
+   "name": "Resmî Gazete (архив номеров)",
+   "publisher": "Cumhurbaşkanlığı İdari İşler Başkanlığı",
+   "country": "TR",
+   "url": "https://www.resmigazete.gov.tr/",
+   "historical_coverage": {
+    "from": 1920,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "law",
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный вестник; тексты законов не охраняются авторским правом (ст. 31 закона 5846); используется пересказ и ссылка",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "notes": "Архив сканов: /arsiv/<номер>.pdf. Номера 1930-х и 1940-х имеют распознанный текстовый слой (с ошибками OCR), номер 339 (1926) — без текста. Проверено вручную по pdftotext.",
+   "source_type": "government",
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только PDF по постоянным адресам"
+   },
+   "years": {
+    "from": 1920,
+    "to": 2025
+   }
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics",
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML-страницы по годам (/EN-1039NN/<год>.html)"
+   },
+   "languages": [
+    "en",
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальный сайт министерства; используется только пересказ и ссылка",
+   "source_id": "tr_ktb_chronology",
+   "name": "Atatürk Chronology (Kronoloji), Ministry of Culture and Tourism",
+   "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+   "url": "https://www.ktb.gov.tr/EN-103908/biography-of-ataturk.html",
+   "historical_coverage": {
+    "from": 1881,
+    "to": 1938
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1881,
+    "to": 1938
+   },
+   "notes": "Хронология по годам на официальном сайте Министерства культуры и туризма; сервер временами сбрасывает соединение."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: только HTML"
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_tccb",
+   "name": "Cumhurbaşkanlığı: Cumhurbaşkanlarımız (биографии президентов)",
+   "publisher": "T.C. Cumhurbaşkanlığı",
+   "url": "https://www.tccb.gov.tr/cumhurbaskanlarimiz/",
+   "historical_coverage": {
+    "from": 1923,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1923,
+    "to": 2025
+   },
+   "notes": "Официальные биографии президентов с датами сроков и ключевых событий (1960, 1980, 1983, 1965, 2014, 2017)."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics",
+    "economy"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_ab_baskanligi",
+   "name": "Dışişleri Bakanlığı Avrupa Birliği Başkanlığı — история отношений Турция–ЕС",
+   "publisher": "T.C. Dışişleri Bakanlığı, Avrupa Birliği Başkanlığı",
+   "url": "https://www.ab.gov.tr/turkiye-ab-iliskilerinin-tarihcesi_111.html",
+   "historical_coverage": {
+    "from": 1959,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1959,
+    "to": 2025
+   },
+   "notes": "Официальная хронология отношений с ЕЭС/ЕС."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "media"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_trt_kurumsal",
+   "name": "TRT Kurumsal — Tarihçe",
+   "publisher": "Türkiye Radyo-Televizyon Kurumu",
+   "url": "https://www.trt.net.tr/kurumsal/tarihce",
+   "historical_coverage": {
+    "from": 1927,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1927,
+    "to": 2025
+   },
+   "notes": "Официальная история государственной телерадиокорпорации."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_mfa",
+   "name": "T.C. Dışişleri Bakanlığı — страницы о внешней политике",
+   "publisher": "T.C. Dışişleri Bakanlığı",
+   "url": "https://www.mfa.gov.tr/",
+   "historical_coverage": {
+    "from": 1923,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1923,
+    "to": 2025
+   },
+   "notes": "Официальный сайт МИД Турции (например, страница о НАТО)."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "infrastructure"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr",
+    "tr-istanbul"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_kgm",
+   "name": "Karayolları Genel Müdürlüğü — тарихче мостов через Босфор",
+   "publisher": "T.C. Karayolları Genel Müdürlüğü",
+   "url": "https://www.kgm.gov.tr/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1950,
+    "to": 2025
+   },
+   "notes": "PDF-справки 1-го регионального управления о мостах Босфора; текст извлечён pdftotext."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "culture",
+    "heritage"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_ktb_kvmgm",
+   "name": "KVMGM: Dünya Miras Listesi",
+   "publisher": "T.C. Kültür ve Turizm Bakanlığı, Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+   "url": "https://kvmgm.ktb.gov.tr/TR-44423/dunya-miras-listesi.html",
+   "historical_coverage": {
+    "from": 1985,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1923,
+    "to": 2025
+   },
+   "notes": "Официальный список объектов Турции в Списке всемирного наследия с годами включения; страница «Türkiye'de müzecilik»."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_muze_gov",
+   "name": "muze.gov.tr — страницы государственных музеев",
+   "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+   "url": "https://muze.gov.tr/",
+   "historical_coverage": {
+    "from": 1923,
+    "to": 2025
+   },
+   "source_type": "museum",
+   "years": {
+    "from": 1923,
+    "to": 2025
+   },
+   "notes": "Официальные карточки музеев Министерства культуры с краткой историей."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "health"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_saglik",
+   "name": "T.C. Sağlık Bakanlığı — новости министерства",
+   "publisher": "T.C. Sağlık Bakanlığı",
+   "url": "https://www.saglik.gov.tr/",
+   "historical_coverage": {
+    "from": 2020,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 2020,
+    "to": 2025
+   },
+   "notes": "Официальное сообщение министра о годе борьбы с COVID-19 (первый случай 11.03.2020)."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "economy"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_tcmb",
+   "name": "TCMB — «Türkiye Cumhuriyet Merkez Bankası Tarihçesi ve Görevleri»",
+   "publisher": "Türkiye Cumhuriyet Merkez Bankası",
+   "url": "https://www.tcmb.gov.tr/wps/wcm/connect/e6ccf55f-b2ac-4153-8d5a-c7ba61afa053/TCMB+TK+BASKI+WEB.pdf?MOD=AJPERES",
+   "historical_coverage": {
+    "from": 1930,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1930,
+    "to": 2025
+   },
+   "notes": "Официальная брошюра ЦБ по истории банка: 24.01.1980, кризис 1994, переход к плавающему курсу 22.02.2001."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics",
+    "elections"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: один PDF, текст извлечён pdftotext"
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_tuik_elections",
+   "name": "TÜİK, «Milletvekili Genel Seçimleri 1923–2011» (размещено на сайте YSK)",
+   "publisher": "Türkiye İstatistik Kurumu / Yüksek Seçim Kurulu",
+   "url": "https://www.ysk.gov.tr/doc/dosyalar/1923-2011-MVSecimleri-Tuik.pdf",
+   "historical_coverage": {
+    "from": 1923,
+    "to": 2011
+   },
+   "source_type": "statistics",
+   "years": {
+    "from": 1923,
+    "to": 2011
+   },
+   "notes": "Официальная статистика парламентских выборов: описание систем 1946–2011, места по партиям и провинциям."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "education"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr",
+    "tr-istanbul",
+    "tr-ankara",
+    "tr-izmir",
+    "tr-bursa",
+    "tr-konya"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_univ_tarihce",
+   "name": "Официальные страницы истории государственных университетов Турции (tarihçe)",
+   "publisher": "Государственные университеты Турции (YTÜ, Ankara, Ege, Uludağ, Selçuk, BTÜ, KTÜN и др.)",
+   "url": "https://www.yok.gov.tr/",
+   "historical_coverage": {
+    "from": 1911,
+    "to": 2025
+   },
+   "source_type": "academic",
+   "years": {
+    "from": 1911,
+    "to": 2025
+   },
+   "notes": "Страницы «Tarihçe»/«History» на сайтах самих университетов с законами и датами основания; каждая ссылка указана в evidence."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "urban",
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_izmir_bb",
+   "name": "İzmir Büyükşehir Belediyesi — «Külden Medeniyete Kültürpark» (2023)",
+   "publisher": "İzmir Büyükşehir Belediyesi",
+   "url": "https://www.izmir.bel.tr/",
+   "historical_coverage": {
+    "from": 1922,
+    "to": 2023
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 1922,
+    "to": 2023
+   },
+   "notes": "Муниципальное издание по истории Кюльтюрпарка и Измирской ярмарки."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "urban",
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-ankara"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_ankara_bb",
+   "name": "Ankara Büyükşehir Belediyesi — план развития, раздел «Ulaşım»",
+   "publisher": "Ankara Büyükşehir Belediyesi",
+   "url": "https://www.ankara.bel.tr/",
+   "historical_coverage": {
+    "from": 1929,
+    "to": 2023
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 1929,
+    "to": 2023
+   },
+   "notes": "Муниципальный планировочный документ (PDF) с историей транспорта Анкары."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "migration",
+    "labour"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_csgb",
+   "name": "T.C. Çalışma ve Sosyal Güvenlik Bakanlığı — «İşgücü anlaşmaları»",
+   "publisher": "T.C. Çalışma ve Sosyal Güvenlik Bakanlığı",
+   "url": "https://csgb.gov.tr/Media/wcbj1zxb/isgucuanlasmalari.pdf",
+   "historical_coverage": {
+    "from": 1961,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1961,
+    "to": 2025
+   },
+   "notes": "Официальная справка министерства труда о двусторонних соглашениях о рабочей силе."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "transport",
+    "urban"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_iett",
+   "name": "İETT — Kronolojik tarihçe",
+   "publisher": "İstanbul Büyükşehir Belediyesi, İETT Genel Müdürlüğü",
+   "url": "https://iett.istanbul/icerik/kronolojik-tarihce",
+   "historical_coverage": {
+    "from": 1869,
+    "to": 2025
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 1869,
+    "to": 2025
+   },
+   "notes": "Официальная хронология городского транспортного предприятия Стамбула."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "history",
+    "society"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: PDF статей, текст извлечён pdftotext"
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Научные статьи; используется только пересказ и ссылка",
+   "source_id": "tr_dergipark",
+   "name": "DergiPark — рецензируемые журналы государственных университетов Турции",
+   "publisher": "TÜBİTAK ULAKBİM DergiPark",
+   "url": "https://dergipark.org.tr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_type": "academic",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "notes": "Каждая статья указана в evidence ссылкой на PDF; журнал и вуз — в поле supports."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "industry",
+    "mining"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr",
+    "tr-zonguldak"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_tki",
+   "name": "Türkiye Kömür İşletmeleri — Foundation and History",
+   "publisher": "Türkiye Kömür İşletmeleri Kurumu Genel Müdürlüğü",
+   "url": "https://tki.gov.tr/en-US/foundation-and-history",
+   "historical_coverage": {
+    "from": 1939,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1939,
+    "to": 2025
+   },
+   "notes": "Официальная история государственного угольного предприятия."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "disaster"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_afad",
+   "name": "AFAD Deprem Dairesi — отчёты о землетрясениях",
+   "publisher": "T.C. İçişleri Bakanlığı Afet ve Acil Durum Yönetimi Başkanlığı",
+   "url": "https://deprem.afad.gov.tr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "notes": "Официальные предварительные отчёты AFAD; сервер www.afad.gov.tr 12.11.2026 отдавал ошибку 500 на бюллетенях 2020 г."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_iletisim",
+   "name": "Cumhurbaşkanlığı İletişim Başkanlığı — «Dış basında Türkiye»",
+   "publisher": "T.C. Cumhurbaşkanlığı İletişim Başkanlığı",
+   "url": "https://www.iletisim.gov.tr/",
+   "historical_coverage": {
+    "from": 2018,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 2018,
+    "to": 2025
+   },
+   "notes": "Официальные сообщения Управления коммуникаций при президенте."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "energy"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_botas",
+   "name": "BOTAŞ — новости и проекты (TANAP)",
+   "publisher": "Boru Hatları ile Petrol Taşıma A.Ş. (государственная компания)",
+   "url": "https://www.botas.gov.tr/",
+   "historical_coverage": {
+    "from": 1974,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1974,
+    "to": 2025
+   },
+   "notes": "Официальный сайт государственной трубопроводной компании."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "culture",
+    "heritage"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_ktb_site",
+   "name": "Kültür ve Turizm Bakanlığı — справочные страницы ktb.gov.tr",
+   "publisher": "T.C. Kültür ve Turizm Bakanlığı",
+   "url": "https://www.ktb.gov.tr/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "notes": "Справочные страницы министерства (Anıtkabir и др.)."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-izmir"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_izban",
+   "name": "İZBAN A.Ş. — Hakkımızda",
+   "publisher": "İZBAN A.Ş. (TCDD и İzmir Büyükşehir Belediyesi, по 50%)",
+   "url": "https://www.izban.com.tr/",
+   "historical_coverage": {
+    "from": 2010,
+    "to": 2025
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 2010,
+    "to": 2025
+   },
+   "notes": "Сайт пригородной железной дороги, принадлежащей TCDD и муниципалитету Измира."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "urban",
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-bursa"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_bursa_bb",
+   "name": "Bursa Büyükşehir Belediyesi — новости и публикации",
+   "publisher": "Bursa Büyükşehir Belediyesi",
+   "url": "https://www.bursa.bel.tr/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 1950,
+    "to": 2025
+   },
+   "notes": "Официальный сайт муниципалитета Бурсы."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "urban",
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-gaziantep"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_gaziantep_bb",
+   "name": "Gaziantep Büyükşehir Belediyesi — новости",
+   "publisher": "Gaziantep Büyükşehir Belediyesi",
+   "url": "https://www.gaziantep.bel.tr/",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 2000,
+    "to": 2025
+   },
+   "notes": "Официальный сайт муниципалитета Газиантепа."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_uab",
+   "name": "Ulaştırma ve Altyapı Bakanlığı — новости и разделы «Faaliyetler»",
+   "publisher": "T.C. Ulaştırma ve Altyapı Bakanlığı",
+   "url": "https://www.uab.gov.tr/",
+   "historical_coverage": {
+    "from": 1923,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1923,
+    "to": 2025
+   },
+   "notes": "Официальный сайт министерства транспорта: высокоскоростные линии, Мармарай."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "politics",
+    "elections"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": false,
+    "verified": true,
+    "note": "проверено: PDF решений и таблиц, открыты curl + pdftotext"
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_ysk",
+   "name": "Yüksek Seçim Kurulu — решения и окончательные результаты выборов",
+   "publisher": "T.C. Yüksek Seçim Kurulu",
+   "url": "https://www.ysk.gov.tr/",
+   "historical_coverage": {
+    "from": 1950,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1950,
+    "to": 2025
+   },
+   "notes": "Официальные окончательные результаты выборов."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_dhmi",
+   "name": "DHMİ — новости",
+   "publisher": "Devlet Hava Meydanları İşletmesi Genel Müdürlüğü",
+   "url": "https://www.dhmi.gov.tr/",
+   "historical_coverage": {
+    "from": 1933,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1933,
+    "to": 2025
+   },
+   "notes": "Официальный сайт государственного управления аэропортов."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "economy",
+    "food"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_turkpatent_ci",
+   "name": "TÜRKPATENT — Coğrafi İşaretler Portalı",
+   "publisher": "Türk Patent ve Marka Kurumu",
+   "url": "https://ci.turkpatent.gov.tr/",
+   "historical_coverage": {
+    "from": 1995,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1995,
+    "to": 2025
+   },
+   "notes": "Официальный реестр географических указаний Турции и список указаний, защищённых в ЕС."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "transport",
+    "urban"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-ankara"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_ego",
+   "name": "EGO Genel Müdürlüğü — Tarihçe",
+   "publisher": "Ankara Büyükşehir Belediyesi, EGO Genel Müdürlüğü",
+   "url": "https://www.ego.gov.tr/sayfa/6/ego-genel-mudurlugu-tarihcesi",
+   "historical_coverage": {
+    "from": 1923,
+    "to": 2025
+   },
+   "source_type": "municipal",
+   "years": {
+    "from": 1923,
+    "to": 2025
+   },
+   "notes": "Официальная история муниципального транспортного предприятия Анкары."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr-istanbul"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_akm",
+   "name": "Atatürk Kültür Merkezi — Tarihçe",
+   "publisher": "T.C. Kültür ve Turizm Bakanlığı (AKM)",
+   "url": "https://akmistanbul.gov.tr/tr/tarihce",
+   "historical_coverage": {
+    "from": 1946,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1946,
+    "to": 2025
+   },
+   "notes": "Официальный сайт AKM при Министерстве культуры."
+  },
+  {
+   "country": "TR",
+   "geographic_coverage": [
+    "TR"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "languages": [
+    "tr"
+   ],
+   "location_ids": [
+    "tr",
+    "tr-bursa",
+    "tr-konya"
+   ],
+   "license": "Официальная публикация; используется только пересказ и ссылка",
+   "source_id": "tr_devtiyatro",
+   "name": "Devlet Tiyatroları Genel Müdürlüğü — страницы региональных театров",
+   "publisher": "T.C. Kültür ve Turizm Bakanlığı, Devlet Tiyatroları Genel Müdürlüğü",
+   "url": "https://devtiyatro.gov.tr/",
+   "historical_coverage": {
+    "from": 1949,
+    "to": 2025
+   },
+   "source_type": "government",
+   "years": {
+    "from": 1949,
+    "to": 2025
+   },
+   "notes": "Официальный сайт Государственных театров (Бурса, Конья) и e-kitap Министерства культуры."
+  }
+ ]
+}

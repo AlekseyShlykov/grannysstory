@@ -1,0 +1,96 @@
+{
+ "records": [
+  {
+   "id": "cn-beijing-municipality-1958-counties-added",
+   "title": "В состав Пекина включены девять уездов",
+   "title_en": "Nine counties added to Beijing Municipality",
+   "start_date": "1958",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-beijing-municipality"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 1958 г. в состав Пекина передали девять уездов, и площадь муниципалитета выросла до 16 800 км²; население достигло 6 318 497 человек.",
+   "historical_summary_en": "In 1958 nine counties were added to Beijing, enlarging the municipality to 16,800 km²; its population reached 6,318,497.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_beijing_gov"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Beijing",
+     "accessed": "2026-11-11",
+     "supports": "1958 nine counties added, 16,800 km², population 6,318,497"
+    },
+    {
+     "source_id": "cn_beijing_gov",
+     "url": "https://www.beijing.gov.cn/renwen/sy/whkb/201903/t20190304_1865390.html",
+     "accessed": "2026-11-12",
+     "supports": "1958年3月7日国务院批准通县等5县和通州市划归北京；10月怀柔、密云、平谷、延庆划归；共九县和通州市"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "cn-beijing-municipality-1990-migrants",
+   "title": "Временные мигранты в Пекине",
+   "title_en": "Temporary migrants in Beijing",
+   "start_date": "1990",
+   "end_date": "2011",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "cn-beijing-municipality"
+   ],
+   "category": "migration",
+   "subcategory": null,
+   "historical_summary": "В 1990 г. в Пекине числилось 10,32 млн постоянных жителей и 11,59 млн вместе с мигрантами; в 2000 г. временных мигрантов было 2,49 млн, в 2005 г. — 3,57 млн, в 2011 г. — 7,4 млн (36,7% населения).",
+   "historical_summary_en": "In 1990 Beijing had 10.32 million registered residents and 11.59 million including migrants; temporary migrants numbered 2.49 million in 2000, 3.57 million in 2005 and 7.4 million (36.7% of the population) in 2011.",
+   "affected_groups": [
+    "migrants",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "leaving_the_village",
+    "residence_permit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/History_of_Beijing",
+     "accessed": "2026-11-11",
+     "supports": "1990 10.32m/11.59m; 2000 2.49m; 2005 3.57m; 2011 7.4m 36.7%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+ "records": [
+  {
+   "id": "cn-xiaogang-1958-famine",
+   "title": "Голод в Сяогане",
+   "title_en": "Famine in Xiaogang",
+   "start_date": "1958",
+   "end_date": "1960",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "disaster",
+   "subcategory": null,
+   "historical_summary": "В 1958–1960 гг. в Сяогане из 120 жителей 67 умерли от голода; в уезде Фэнъян от голода погибла четверть населения.",
+   "historical_summary_en": "Between 1958 and 1960, 67 of Xiaogang's 120 villagers died of starvation; a quarter of Fengyang County's population died of hunger.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "children",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "food_shortage",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "hunger_years"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "cn_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xiaogang,_Anhui",
+     "accessed": "2026-11-11",
+     "supports": "67 of 120 villagers died 1958–1960; quarter of Fengyang County"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-1973-relief-grain",
+   "title": "Годы на государственном пайке",
+   "title_en": "Years of relief grain",
+   "start_date": "1973",
+   "end_date": "1976",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "everyday_life",
+   "subcategory": null,
+   "historical_summary": "В 1973–1976 гг. в Сяогане собирали около 200 цзиней зерна на человека в год, а доход на человека порой не достигал 30 юаней; деревня более 20 лет жила на государственном продовольственном пособии.",
+   "historical_summary_en": "In 1973–1976 Xiaogang harvested about 200 jin of grain per person a year, and income per person sometimes fell below 30 yuan; the village had relied on state relief grain for more than 20 years.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [
+    "food_shortage"
+   ],
+   "narrative_hooks": [
+    "hunger_years"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_cac",
+    "cn_xinhua"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "1973–1976 ~200斤/人, 收入不足30元; 20多年吃救济粮"
+    },
+    {
+     "source_id": "cn_xinhua",
+     "url": "https://www.news.cn/20240901/21d3edd80cd6455081e15663e677592b/c.html",
+     "accessed": "2026-11-11",
+     "supports": "结束了20多年吃救济粮的历史"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-1978-secret-contract",
+   "title": "Тайный договор восемнадцати",
+   "title_en": "The secret contract of eighteen",
+   "start_date": "1978-11-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В ночь на 24 ноября 1978 г. 18 крестьян Сяогана подписали, скрепив отпечатками пальцев, тайный договор о разделе коллективной земли между дворами («да баогань»). Английская Wikipedia датирует событие декабрём 1978 г.",
+   "historical_summary_en": "On the night of 24 November 1978, 18 Xiaogang farmers signed, with their fingerprints, a secret contract dividing collective land among households (da baogan). English Wikipedia dates it to December 1978.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "family_land",
+    "secret_harvest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_cac",
+    "cn_en_wikipedia",
+    "cn_xinhua",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/小岗村",
+     "accessed": "2026-11-11",
+     "supports": "1978年11月24日夜 18位农民 土地承包责任书"
+    },
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xiaogang,_Anhui",
+     "accessed": "2026-11-11",
+     "supports": "December 1978 18 farmers divided land"
+    },
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "1978年11月24日 18位农民 大包干"
+    },
+    {
+     "source_id": "cn_xinhua",
+     "url": "https://www.news.cn/20240901/21d3edd80cd6455081e15663e677592b/c.html",
+     "accessed": "2026-11-11",
+     "supports": "1978年 18位农民 按下红手印"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-1979-first-harvest",
+   "title": "Первый урожай после раздела земли",
+   "title_en": "First harvest after the land division",
+   "start_date": "1979",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 1979 г., несмотря на сильную засуху, Сяоган собрал урожай, равный сбору за многие предыдущие годы, а доход на человека вырос примерно с 22 до 400 юаней. Оценки сбора в источниках расходятся (35 тыс. цзиней, 66 тыс. кг и 90 тыс. кг).",
+   "historical_summary_en": "In 1979, despite a severe drought, Xiaogang brought in a harvest equal to that of many previous years, and income per person rose from about 22 to 400 yuan. Sources differ on the size of the harvest (35,000 jin, 66,000 kg and 90,000 kg).",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "first_full_harvest"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_cac",
+    "cn_en_wikipedia",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xiaogang,_Anhui",
+     "accessed": "2026-11-11",
+     "supports": "1979: income 22→400 yuan; 90,000 kg (en) / 6.6万千克 (zh) / 3.5万斤 (cac)"
+    },
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/小岗村",
+     "accessed": "2026-11-11",
+     "supports": "1979 粮食 6.6万千克"
+    },
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "1979 大旱 3.5万斤 人均收入400元"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-2004-shen-hao",
+   "title": "Шэнь Хао — первый секретарь в Сяогане",
+   "title_en": "Shen Hao sent as first secretary",
+   "start_date": "2004-02",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "В феврале 2004 г. провинциальный комитет Аньхоя направил в Сяоган первым партийным секретарём Шэнь Хао, который проработал в деревне шесть лет.",
+   "historical_summary_en": "In February 2004 the Anhui provincial committee sent Shen Hao to Xiaogang as first party secretary; he worked in the village for six years.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_cac"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "2004年2月 沈浩 第一书记 六年"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-2008-villages-merged",
+   "title": "Объединение деревень с Сяоганом",
+   "title_en": "Neighbouring villages merged into Xiaogang",
+   "start_date": "2008-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "border_administrative",
+   "subcategory": null,
+   "historical_summary": "В 2008 г. соседние деревни были присоединены к Сяогану; объединённая деревня насчитывала 3823 жителя в 849 дворах и 23 группах. В том же году один из «восемнадцати» сдал в аренду свою землю и открыл с сыном сельский ресторан.",
+   "historical_summary_en": "In 2008 neighbouring villages were merged into Xiaogang; the enlarged village had 3,823 residents in 849 households and 23 villager groups. That year one of the eighteen leased out his land and opened a farm-style restaurant with his son.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "family_land"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_en_wikipedia",
+    "cn_xinhua"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Xiaogang,_Anhui",
+     "accessed": "2026-11-11",
+     "supports": "2008 merger: 3,823 people, 849 households, 23 groups"
+    },
+    {
+     "source_id": "cn_xinhua",
+     "url": "https://www.news.cn/20240901/21d3edd80cd6455081e15663e677592b/c.html",
+     "accessed": "2026-11-11",
+     "supports": "2008年 关友江 流转土地 开农家乐"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-2013-land-transfer",
+   "title": "Пилот регистрации прав на землю и аренда земли",
+   "title_en": "Land-rights registration pilot and land leasing",
+   "start_date": "2013",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "В 2013 г. уезд Фэнъян стал пилотным по подтверждению и регистрации прав подряда на землю, и в Сяогане началась передача земли в аренду крупным хозяйствам.",
+   "historical_summary_en": "In 2013 Fengyang County became a pilot for confirming and registering land-contract rights, and Xiaogang began leasing land to larger farms.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "family_land"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_cac"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "2013年 凤阳县 确权登记颁证试点; 小岗 土地流转"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-2016-shareholding-reform",
+   "title": "Визит Си Цзиньпина и акционирование коллективной собственности",
+   "title_en": "Xi Jinping's visit and collective shareholding reform",
+   "start_date": "2016-04-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "local_economy",
+   "subcategory": null,
+   "historical_summary": "25 апреля 2016 г. Сяоган посетил Си Цзиньпин; в том же году деревня начала акционирование коллективного имущества. Располагаемый доход на сельского жителя в 2016 г. составил 16 169 юаней, коллективный доход — 6,8 млн юаней.",
+   "historical_summary_en": "Xi Jinping visited Xiaogang on 25 April 2016; that year the village began a shareholding reform of collective assets. Disposable income per rural resident reached 16,169 yuan in 2016 and collective income 6.8 million yuan.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_cac",
+    "cn_xinhua"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_cac",
+     "url": "https://www.cac.gov.cn/2018-01/16/c_1122266424.htm",
+     "accessed": "2026-11-11",
+     "supports": "2016年4月25日 习近平考察; 人均可支配收入16169元; 集体680万"
+    },
+    {
+     "source_id": "cn_xinhua",
+     "url": "https://www.news.cn/20240901/21d3edd80cd6455081e15663e677592b/c.html",
+     "accessed": "2026-11-11",
+     "supports": "2016年 集体资产股份合作制改革"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-2019-heritage-site",
+   "title": "Старая деревня Сяоган — охраняемый памятник",
+   "title_en": "Old Xiaogang village listed as a protected heritage site",
+   "start_date": "2019-10",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "В октябре 2019 г. старая деревня Сяоган (место событий 1978 г.) была включена в список охраняемых памятников государственного значения.",
+   "historical_summary_en": "In October 2019 the old Xiaogang village site, associated with the events of 1978, was listed as a major national protected heritage site.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/小岗村",
+     "accessed": "2026-11-11",
+     "supports": "小岗村旧址 全国重点文物保护单位 2019年10月"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "cn-xiaogang-2024-tourism-village",
+   "title": "Сяоган — «лучшая туристическая деревня»",
+   "title_en": "Xiaogang named a Best Tourism Village",
+   "start_date": "2024-11-15",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "CN"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "cn-xiaogang"
+   ],
+   "category": "culture_leisure",
+   "subcategory": null,
+   "historical_summary": "15 ноября 2024 г. Сяоган вошёл в список «лучших туристических деревень» Всемирной туристской организации ООН; в начале 2024 г. каждый житель-пайщик получил по 700 юаней дивидендов.",
+   "historical_summary_en": "On 15 November 2024 Xiaogang was included in UN Tourism's list of Best Tourism Villages; in early 2024 each shareholding villager received a dividend of 700 yuan.",
+   "affected_groups": [
+    "rural_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visitors_in_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "cn_xinhua",
+    "cn_zh_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "cn_zh_wikipedia",
+     "url": "https://zh.wikipedia.org/wiki/小岗村",
+     "accessed": "2026-11-11",
+     "supports": "2024-11-15 UN Tourism best tourism villages"
+    },
+    {
+     "source_id": "cn_xinhua",
+     "url": "https://www.news.cn/20240901/21d3edd80cd6455081e15663e677592b/c.html",
+     "accessed": "2026-11-11",
+     "supports": "2024年初 每人分红700元"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

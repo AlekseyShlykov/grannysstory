@@ -1,0 +1,1606 @@
+{
+ "locations": [
+  {
+   "id": "fi-grand-duchy",
+   "type": "constituent_country",
+   "country": "FI",
+   "wikidata": "Q62633",
+   "codes": {},
+   "names": [
+    {
+     "name": "Suomen suuriruhtinaskunta",
+     "lang": "fi",
+     "from": "1809-10-01",
+     "to": "1917-12-05"
+    },
+    {
+     "name": "Storfurstendömet Finland",
+     "lang": "sv",
+     "from": "1809-10-01",
+     "to": "1917-12-05"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Великое княжество Финляндское",
+     "locative": "в Великом княжестве Финляндском",
+     "name_en": "Grand Duchy of Finland",
+     "from": "1809-10-01",
+     "to": "1917-12-05"
+    }
+   ],
+   "alt_names": [
+    "Grand Duchy of Finland",
+    "Великое княжество Финляндское"
+   ],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "ru-empire",
+     "from": "1809-10-01",
+     "to": "1917-11-07"
+    },
+    {
+     "id": "ru",
+     "from": "1917-11-08",
+     "to": "1917-12-05"
+    }
+   ],
+   "sovereignty_note": "Автономное великое княжество в составе Российской империи (1809–1917): свой сенат, сейм (с 1906 — эдускунта), валюта и таможня; финны не несли воинской повинности в царской армии. Финская жительница этих лет жила в Российской империи. После 7.11.1917 формально в составе бывшей империи (власть большевиков в Финляндии не признавалась) до провозглашения независимости 6.12.1917. Исправлено 12.11.2026: прежде узел ошибочно моделировался как отдельное государство.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1809-10-01",
+   "valid_to": "1917-12-05"
+  },
+  {
+   "id": "fi",
+   "type": "state",
+   "country": "FI",
+   "wikidata": "Q33",
+   "codes": {},
+   "names": [
+    {
+     "name": "Suomi",
+     "lang": "fi",
+     "from": "1917-12-06",
+     "to": null
+    },
+    {
+     "name": "Finland",
+     "lang": "sv",
+     "from": "1917-12-06",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Финляндия",
+     "locative": "в Финляндии",
+     "name_en": "Finland",
+     "from": "1917-12-06",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "world",
+     "from": "1917-12-06",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Независимая Финляндия с декларации независимости 6.12.1917. Узел создан в fi.json, так как в common.json узла 'fi' пока нет; при переносе в common.json ID сохраняется.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1917-12-06",
+   "valid_to": null
+  },
+  {
+   "id": "fi-laani-uusimaa",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1372937",
+   "codes": {},
+   "names": [
+    {
+     "name": "Uudenmaan lääni",
+     "lang": "fi",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Nylands län",
+     "lang": "sv",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Уусимаа",
+     "locative": "в губернии Уусимаа",
+     "name_en": "Uusimaa Province",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-grand-duchy",
+     "from": null,
+     "to": "1917-12-05"
+    },
+    {
+     "id": "fi",
+     "from": "1917-12-06",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1831-03-24",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-turku-pori",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1138022",
+   "codes": {},
+   "names": [
+    {
+     "name": "Turun ja Porin lääni",
+     "lang": "fi",
+     "from": "1634",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Åbo och Björneborgs län",
+     "lang": "sv",
+     "from": "1634",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Турку-Пори",
+     "locative": "в губернии Турку-Пори",
+     "name_en": "Turku and Pori Province",
+     "from": "1634",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-grand-duchy",
+     "from": null,
+     "to": "1917-12-05"
+    },
+    {
+     "id": "fi",
+     "from": "1917-12-06",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1634",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-hame",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1320740",
+   "codes": {},
+   "names": [
+    {
+     "name": "Hämeen lääni",
+     "lang": "fi",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Tavastehus län",
+     "lang": "sv",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Хяме",
+     "locative": "в губернии Хяме",
+     "name_en": "Häme Province",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-grand-duchy",
+     "from": null,
+     "to": "1917-12-05"
+    },
+    {
+     "id": "fi",
+     "from": "1917-12-06",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1831-03-24",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-vaasa",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1337549",
+   "codes": {},
+   "names": [
+    {
+     "name": "Vaasan lääni",
+     "lang": "fi",
+     "from": "1775",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Vasa län",
+     "lang": "sv",
+     "from": "1775",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Вааса",
+     "locative": "в губернии Вааса",
+     "name_en": "Vaasa Province",
+     "from": "1775",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-grand-duchy",
+     "from": null,
+     "to": "1917-12-05"
+    },
+    {
+     "id": "fi",
+     "from": "1917-12-06",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "Ювяскюля входила в губернию Вааса до образования губернии Центральная Финляндия 1.3.1960. Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1775",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-oulu",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q202112",
+   "codes": {},
+   "names": [
+    {
+     "name": "Oulun lääni",
+     "lang": "fi",
+     "from": "1775",
+     "to": "2009-12-31"
+    },
+    {
+     "name": "Uleåborgs län",
+     "lang": "sv",
+     "from": "1775",
+     "to": "2009-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Оулу",
+     "locative": "в губернии Оулу",
+     "name_en": "Oulu Province",
+     "from": "1775",
+     "to": "2009-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-grand-duchy",
+     "from": null,
+     "to": "1917-12-05"
+    },
+    {
+     "id": "fi",
+     "from": "1917-12-06",
+     "to": "2009-12-31"
+    }
+   ],
+   "sovereignty_note": "В 1938 г. из северной части выделена губерния Лаппи; в реформе 1.9.1997 губерния Оулу сохранилась. Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1775",
+   "valid_to": "2009-12-31"
+  },
+  {
+   "id": "fi-laani-kuopio",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1372345",
+   "codes": {},
+   "names": [
+    {
+     "name": "Kuopion lääni",
+     "lang": "fi",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Kuopio län",
+     "lang": "sv",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Куопио",
+     "locative": "в губернии Куопио",
+     "name_en": "Kuopio Province",
+     "from": "1831-03-24",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-grand-duchy",
+     "from": null,
+     "to": "1917-12-05"
+    },
+    {
+     "id": "fi",
+     "from": "1917-12-06",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "В 1960 г. восточная часть выделена в губернию Северная Карелия (Иломантси). Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_en_wikipedia"
+   ],
+   "valid_from": "1831-03-24",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-keski-suomi",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1190004",
+   "codes": {},
+   "names": [
+    {
+     "name": "Keski-Suomen lääni",
+     "lang": "fi",
+     "from": "1960-03-01",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Mellersta Finlands län",
+     "lang": "sv",
+     "from": "1960-03-01",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Центральная Финляндия",
+     "locative": "в губернии Центральная Финляндия",
+     "name_en": "Central Finland Province",
+     "from": "1960-03-01",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi",
+     "from": "1960-03-01",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "Создана 1.3.1960 в основном из частей губерний Вааса, Хяме, Миккели и Куопио. Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_sv_wikipedia"
+   ],
+   "valid_from": "1960-03-01",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-pohjois-karjala",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q1321024",
+   "codes": {},
+   "names": [
+    {
+     "name": "Pohjois-Karjalan lääni",
+     "lang": "fi",
+     "from": "1960",
+     "to": "1997-08-31"
+    },
+    {
+     "name": "Norra Karelens län",
+     "lang": "sv",
+     "from": "1960",
+     "to": "1997-08-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Северная Карелия",
+     "locative": "в губернии Северная Карелия",
+     "name_en": "North Karelia Province",
+     "from": "1960",
+     "to": "1997-08-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi",
+     "from": "1960",
+     "to": "1997-08-31"
+    }
+   ],
+   "sovereignty_note": "Выделена из губернии Куопио в 1960 г.; точный день в проверенных источниках не указан (губерния Центральная Финляндия начала работу 1.3.1960). Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_sv_wikipedia"
+   ],
+   "valid_from": "1960",
+   "valid_to": "1997-08-31"
+  },
+  {
+   "id": "fi-laani-etela-suomi",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q188752",
+   "codes": {},
+   "names": [
+    {
+     "name": "Etelä-Suomen lääni",
+     "lang": "fi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "name": "Södra Finlands län",
+     "lang": "sv",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Южная Финляндия",
+     "locative": "в губернии Южная Финляндия",
+     "name_en": "Southern Finland Province",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "sovereignty_note": "Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1997-09-01",
+   "valid_to": "2009-12-31"
+  },
+  {
+   "id": "fi-laani-lansi-suomi",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q192759",
+   "codes": {},
+   "names": [
+    {
+     "name": "Länsi-Suomen lääni",
+     "lang": "fi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "name": "Västra Finlands län",
+     "lang": "sv",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Западная Финляндия",
+     "locative": "в губернии Западная Финляндия",
+     "name_en": "Western Finland Province",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "sovereignty_note": "Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1997-09-01",
+   "valid_to": "2009-12-31"
+  },
+  {
+   "id": "fi-laani-ita-suomi",
+   "type": "province",
+   "country": "FI",
+   "wikidata": "Q194073",
+   "codes": {},
+   "names": [
+    {
+     "name": "Itä-Suomen lääni",
+     "lang": "fi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "name": "Östra Finlands län",
+     "lang": "sv",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "губерния Восточная Финляндия",
+     "locative": "в губернии Восточная Финляндия",
+     "name_en": "Eastern Finland Province",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    }
+   ],
+   "sovereignty_note": "Губерния (lääni) — административная единица до 31.12.2009; с 2010 г. губернии упразднены (функции переданы AVI/ELY), иерархия идёт через области (maakunta).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1997-09-01",
+   "valid_to": "2009-12-31"
+  },
+  {
+   "id": "fi-uusimaa",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5711",
+   "codes": {},
+   "names": [
+    {
+     "name": "Uusimaa",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Nyland",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Уусимаа",
+     "locative": "в Уусимаа",
+     "name_en": "Uusimaa",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-uusimaa",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-etela-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-pirkanmaa",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5701",
+   "codes": {},
+   "names": [
+    {
+     "name": "Pirkanmaa",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Birkaland",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Пирканмаа",
+     "locative": "в Пирканмаа",
+     "name_en": "Pirkanmaa",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-hame",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-lansi-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Пирканмаа до 1997 г. входила в губернию Хяме (и частично Турку-Пори; здесь — по Тампере). Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-varsinais-suomi",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5712",
+   "codes": {},
+   "names": [
+    {
+     "name": "Varsinais-Suomi",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Egentliga Finland",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Варсинайс-Суоми",
+     "locative": "в Варсинайс-Суоми",
+     "name_en": "Southwest Finland",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-turku-pori",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-lansi-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-pohjois-pohjanmaa",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5704",
+   "codes": {},
+   "names": [
+    {
+     "name": "Pohjois-Pohjanmaa",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Norra Österbotten",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Северная Остроботния",
+     "locative": "в Северной Остроботнии",
+     "name_en": "North Ostrobothnia",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-oulu",
+     "from": "1994-01-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-keski-suomi",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5697",
+   "codes": {},
+   "names": [
+    {
+     "name": "Keski-Suomi",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Mellersta Finland",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Центральная Финляндия",
+     "locative": "в Центральной Финляндии",
+     "name_en": "Central Finland",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-keski-suomi",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-lansi-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-satakunta",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5709",
+   "codes": {},
+   "names": [
+    {
+     "name": "Satakunta",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Satakunta",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Сатакунта",
+     "locative": "в Сатакунте",
+     "name_en": "Satakunta",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-turku-pori",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-lansi-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-pohjois-savo",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5706",
+   "codes": {},
+   "names": [
+    {
+     "name": "Pohjois-Savo",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Norra Savolax",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Северное Саво",
+     "locative": "в Северном Саво",
+     "name_en": "North Savo",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-kuopio",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-ita-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-pohjois-karjala",
+   "type": "region",
+   "country": "FI",
+   "wikidata": "Q5703",
+   "codes": {},
+   "names": [
+    {
+     "name": "Pohjois-Karjala",
+     "lang": "fi",
+     "from": "1994-01-01",
+     "to": null
+    },
+    {
+     "name": "Norra Karelen",
+     "lang": "sv",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Северная Карелия",
+     "locative": "в Северной Карелии",
+     "name_en": "North Karelia",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": null,
+   "parents": [
+    {
+     "id": "fi-laani-pohjois-karjala",
+     "from": "1994-01-01",
+     "to": "1997-08-31"
+    },
+    {
+     "id": "fi-laani-ita-suomi",
+     "from": "1997-09-01",
+     "to": "2009-12-31"
+    },
+    {
+     "id": "fi",
+     "from": "2010-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Область (maakunta): региональный союз муниципалитетов по закону о региональном развитии, с 1.1.1994 (дата по Wikidata). До 31.12.2009 вложена в губернию (lääni), с 1.1.2010 — напрямую в Финляндию. События до 1994 г. привязываются к губерниям.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "valid_from": "1994-01-01",
+   "valid_to": null
+  },
+  {
+   "id": "fi-helsinki",
+   "type": "city",
+   "country": "FI",
+   "wikidata": "Q1757",
+   "codes": {},
+   "names": [
+    {
+     "name": "Helsinki",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Helsingfors",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Хельсинки",
+     "locative": "в Хельсинки",
+     "name_en": "Helsinki",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Helsingfors"
+   ],
+   "coordinates": {
+    "lat": 60.170833,
+    "lon": 24.9375,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-uusimaa",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-uusimaa",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Столица Великого княжества с 1812 г. и независимой Финляндии. Двуязычный город (фин./швед.). Губерния Уусимаа до 1993 г. в иерархии (формально до 31.8.1997), затем область Уусимаа. 1946 г.: присоединены Хаага, Хуопалахти, Кулосаари и Оуланкюля (Timeline of Helsinki).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_en_wikipedia"
+   ],
+   "settlement_class": "capital"
+  },
+  {
+   "id": "fi-tampere",
+   "type": "city",
+   "country": "FI",
+   "wikidata": "Q40840",
+   "codes": {},
+   "names": [
+    {
+     "name": "Tampere",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Tammerfors",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Тампере",
+     "locative": "в Тампере",
+     "name_en": "Tampere",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Tammerfors"
+   ],
+   "coordinates": {
+    "lat": 61.498056,
+    "lon": 23.76,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-hame",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-pirkanmaa",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Промышленный (текстильный) город на порогах Таммеркоски. Губерния Хяме, с 1994 г. область Пирканмаа. Присоединения: Писпала и восток Северной Пирккалы 1938, Мессукюля 1947, Лиелахти 1950, Айтолахти 1966, Тейско 1973 (fi.wikipedia, Tampereen historia).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "fi-turku",
+   "type": "city",
+   "country": "FI",
+   "wikidata": "Q38511",
+   "codes": {},
+   "names": [
+    {
+     "name": "Turku",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Åbo",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Турку",
+     "locative": "в Турку",
+     "name_en": "Turku",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Åbo"
+   ],
+   "coordinates": {
+    "lat": 60.451667,
+    "lon": 22.266944,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-turku-pori",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-varsinais-suomi",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Старейший город Финляндии, портовый и университетский. Губерния Турку-Пори, с 1994 г. область Варсинайс-Суоми. Присоединения: часть Каарины 1939, часть Маарии 1944, остаток Маарии 1967, Какскерта 1968, Паттинен 1973 (fi.wikipedia, Turun historia).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "fi-oulu",
+   "type": "city",
+   "country": "FI",
+   "wikidata": "Q47048",
+   "codes": {},
+   "names": [
+    {
+     "name": "Oulu",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Uleåborg",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Оулу",
+     "locative": "в Оулу",
+     "name_en": "Oulu",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Uleåborg"
+   ],
+   "coordinates": {
+    "lat": 65.014167,
+    "lon": 25.471944,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-oulu",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-pohjois-pohjanmaa",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Портовый и университетский город на севере; губерния Оулу, с 1994 г. область Северная Остроботния. Присоединения: Туйра 1917, Коскела и др. 1938, большая часть Оулуйоки 1965, Юликийминки 2009; 1.1.2013 объединение с Хаукипудасом, Кийминки, Оулунсало и Юли-Ии (площадь 3113 км², около 191 тыс. жителей) (fi.wikipedia, Oulun historia). Статистика StatFin дана в нынешних границах.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "large_city"
+  },
+  {
+   "id": "fi-jyvaskyla",
+   "type": "city",
+   "country": "FI",
+   "wikidata": "Q134620",
+   "codes": {},
+   "names": [
+    {
+     "name": "Jyväskylä",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Jyväskylä",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Ювяскюля",
+     "locative": "в Ювяскюля",
+     "name_en": "Jyväskylä",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Jyväskylän maalaiskunta (до 2009)"
+   ],
+   "coordinates": {
+    "lat": 62.240278,
+    "lon": 25.744444,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-vaasa",
+     "from": null,
+     "to": "1960-02-29"
+    },
+    {
+     "id": "fi-laani-keski-suomi",
+     "from": "1960-03-01",
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-keski-suomi",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Город с 1837 г. До 1.3.1960 в губернии Вааса, затем в губернии Центральная Финляндия; с 1994 г. область Центральная Финляндия. 1.1.2009 объединена с Ювяскюлянским сельским муниципалитетом (Jyväskylän maalaiskunta, упразднён по Wikidata 1.1.2009) и Корпилахти; узел описывает город в границах своего времени.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata"
+   ],
+   "settlement_class": "medium_city"
+  },
+  {
+   "id": "fi-varkaus",
+   "type": "town",
+   "country": "FI",
+   "wikidata": "Q683525",
+   "codes": {},
+   "names": [
+    {
+     "name": "Warkaus",
+     "lang": "fi",
+     "from": null,
+     "to": "1928"
+    },
+    {
+     "name": "Varkaus",
+     "lang": "fi",
+     "from": "1929",
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Варкаус",
+     "locative": "в Варкаусе",
+     "name_en": "Varkaus",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Warkaus"
+   ],
+   "coordinates": {
+    "lat": 62.313889,
+    "lon": 27.893056,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-kuopio",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-pohjois-savo",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Заводской посёлок (лесопильный, металлический, бумажный завод A. Ahlström) на землях приходов Леппявирта (губерния Куопио) и Йороинен (губерния Миккели); в 1928 г. выделен как плотнонаселённая община, в 1929 г. — торговый посёлок (kauppala) с изменением написания Warkaus → Varkaus, в 1962 г. — город. 1.1.2005 присоединён муниципалитет Кангаслампи. До 1929 г. узел условно отнесён к губернии Куопио.",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "small_town"
+  },
+  {
+   "id": "fi-rauma",
+   "type": "town",
+   "country": "FI",
+   "wikidata": "Q37013",
+   "codes": {},
+   "names": [
+    {
+     "name": "Rauma",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Raumo",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Раума",
+     "locative": "в Рауме",
+     "name_en": "Rauma",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Raumo"
+   ],
+   "coordinates": {
+    "lat": 61.116667,
+    "lon": 21.5,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-turku-pori",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-satakunta",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Старый портовый город (Старая Раума — объект ЮНЕСКО) с лесопромышленными и судостроительными предприятиями. Губерния Турку-Пори, с 1994 г. область Сатакунта. Присоединения: Сампаанала и Сювяраума 1954, сельский муниципалитет Раума 1993, Кодисйоки 2007, Лаппи 2009 (fi.wikipedia, Rauma).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "small_town"
+  },
+  {
+   "id": "fi-ilomantsi",
+   "type": "rural_area",
+   "country": "FI",
+   "wikidata": "Q283599",
+   "codes": {},
+   "names": [
+    {
+     "name": "Ilomantsi",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Ilomants",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Иломантси",
+     "locative": "в Иломантси",
+     "name_en": "Ilomantsi",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [
+    "Ilomants"
+   ],
+   "coordinates": {
+    "lat": 62.672222,
+    "lon": 30.930556,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-kuopio",
+     "from": null,
+     "to": "1959"
+    },
+    {
+     "id": "fi-laani-pohjois-karjala",
+     "from": "1960",
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-pohjois-karjala",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Пограничный сельский муниципалитет Северной Карелии (лес, сельское хозяйство, православная община). До 1960 г. губерния Куопио, затем губерния Северная Карелия; с 1994 г. область Северная Карелия. По Московскому миру 1940 г. СССР отошло 1489 км² территории муниципалитета (семь деревень) (fi.wikipedia, Ilomantsi).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "rural"
+  },
+  {
+   "id": "fi-tyrnava",
+   "type": "rural_area",
+   "country": "FI",
+   "wikidata": "Q992898",
+   "codes": {},
+   "names": [
+    {
+     "name": "Tyrnävä",
+     "lang": "fi",
+     "from": null,
+     "to": null
+    },
+    {
+     "name": "Tyrnävä",
+     "lang": "sv",
+     "from": null,
+     "to": null
+    }
+   ],
+   "names_ru": [
+    {
+     "name": "Тюрнявя",
+     "locative": "в Тюрнявя",
+     "name_en": "Tyrnävä",
+     "from": null,
+     "to": null
+    }
+   ],
+   "alt_names": [],
+   "coordinates": {
+    "lat": 64.763889,
+    "lon": 25.652778,
+    "source_id": "wikidata"
+   },
+   "parents": [
+    {
+     "id": "fi-laani-oulu",
+     "from": null,
+     "to": "1993-12-31"
+    },
+    {
+     "id": "fi-pohjois-pohjanmaa",
+     "from": "1994-01-01",
+     "to": null
+    }
+   ],
+   "sovereignty_note": "Аграрный муниципалитет на равнине Северной Остроботнии к юго-востоку от Оулу. Губерния Оулу, с 1994 г. область Северная Остроботния. 1.1.2001 присоединён муниципалитет Теммес (около 700 жителей) (fi.wikipedia, Tyrnävä).",
+   "occupations": [],
+   "source_ids": [
+    "wikidata",
+    "fi_wikipedia"
+   ],
+   "settlement_class": "rural"
+  }
+ ]
+}

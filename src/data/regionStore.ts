@@ -57,7 +57,10 @@ function validateLoadedPack(value: unknown, regionId: RegionId): RegionPack {
 function worldRegionPack(regionId: RegionId): RegionPack | null {
   const region = menuRegions(true).find((candidate) => candidate.id === regionId && candidate.enabled);
   if (!region?.locationId || region.pack) return null;
-  return { regionId, version: manifest.datasetVersion, label: region.label, coverage: region.coverage, birthPlaces: [region.locationId], events: [] };
+  return {
+    regionId, version: manifest.datasetVersion, label: region.label, coverage: region.coverage, birthPlaces: [region.locationId], events: [],
+    ...(region.partitionPart ? { partitionPart: region.partitionPart } : {})
+  };
 }
 
 export async function loadRegionPack(regionId: RegionId): Promise<RegionPack> {

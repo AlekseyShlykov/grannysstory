@@ -144,7 +144,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "us_wikipedia"
+    "us_wikipedia",
+    "us_cdc"
    ],
    "evidence": [
     {
@@ -152,10 +153,16 @@
      "url": "https://en.wikipedia.org/wiki/Ohio_Amish_Country",
      "accessed": "2026-10-29",
      "supports": "2014 measles outbreak Holmes and Knox"
+    },
+    {
+     "source_id": "us_cdc",
+     "url": "https://cdc.gov/mmwr/pdf/wk/mm63e0529.pdf",
+     "accessed": "2026-11-13",
+     "supports": "MMWR (данные на 23 мая 2014 г.): продолжающаяся вспышка кори, 138 случаев, в основном среди непривитых амишских общин Огайо (округа не названы)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "us-holmes-2020-covid-masks",

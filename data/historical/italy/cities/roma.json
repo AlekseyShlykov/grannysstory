@@ -1,0 +1,858 @@
+{
+ "records": [
+  {
+   "id": "it-roma-1911-vittoriano",
+   "title": "Завершён Алтарь Отечества",
+   "title_en": "Altare della Patria completed",
+   "start_date": "1911",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1911 г. в Риме был завершён монумент Алтарь Отечества (Витториано).",
+   "historical_summary_en": "In 1911 the Altare della Patria (Vittoriano) monument was completed in Rome.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "city_landmark_memory"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_mic"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1911 Altare della Patria completed"
+    },
+    {
+     "source_id": "it_mic",
+     "url": "https://vive.beniculturali.it/it/vittoriano/storia/vittorio-emanuele-iii-e-linaugurazione-del-1911",
+     "accessed": "2026-11-12",
+     "supports": "VIVE (MiC): inaugurazione del Vittoriano da parte di Vittorio Emanuele III il 4 giugno 1911, nel cinquantenario dell'Unità"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1916-ciampino",
+   "title": "Открытие аэропорта Чампино",
+   "title_en": "Ciampino Airport inaugurated",
+   "start_date": "1916",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1916 г. был открыт римский аэропорт Чампино.",
+   "historical_summary_en": "In 1916 Rome's Ciampino Airport was inaugurated.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1916 Ciampino inaugurated"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-1925-demolitions",
+   "title": "Сносы в историческом центре",
+   "title_en": "Demolitions in the historic centre",
+   "start_date": "1925",
+   "end_date": "1940",
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1925–1940 гг. при Муссолини большие части исторического центра Рима были снесены и перестроены.",
+   "historical_summary_en": "Between 1925 and 1940, under Mussolini, large parts of Rome's historic centre were demolished and rebuilt.",
+   "affected_groups": [
+    "tenants",
+    "urban_residents"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "moved_to_the_outskirts"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1925-40 demolitions under Mussolini"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-1940-eur",
+   "title": "Начало строительства района EUR",
+   "title_en": "Construction of EUR begins",
+   "start_date": "1940",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "В 1940 г. в Риме началось строительство района EUR.",
+   "historical_summary_en": "In 1940 construction of the EUR district began in Rome.",
+   "affected_groups": [
+    "urban_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "new_district"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1940 EUR begins"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-1943-bombing",
+   "title": "Начало бомбардировок Рима",
+   "title_en": "Bombing of Rome begins",
+   "start_date": "1943",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В 1943 г. начались бомбардировки Рима во Второй мировой войне.",
+   "historical_summary_en": "In 1943 the bombing of Rome in the Second World War began.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "air_raid_shelter"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1943 bombing begins"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000347/19-luglio-1943-bombardamento-roma",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «19 luglio 1943 - Bombardamento di Roma»: bombardieri americani su scalo e quartiere di San Lorenzo"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1944-liberation",
+   "title": "Освобождение Рима",
+   "title_en": "Liberation of Rome",
+   "start_date": "1944",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "occupation",
+   "historical_summary": "В 1944 г. союзные войска освободили Рим от немецкой оккупации.",
+   "historical_summary_en": "In 1944 Allied troops liberated Rome from German occupation.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "soldiers_in_the_street",
+    "end_of_curfew"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1944 Rome liberated"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000832/5-giugno-1944-liberazione-roma-5",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «5 giugno 1944 - Liberazione di Roma»: truppe americane in città, Mark Clark al Campidoglio"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1955-metro-b",
+   "title": "Открытие первой линии метро (B)",
+   "title_en": "First metro line (B) opens",
+   "start_date": "1955-02-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "9 февраля 1955 г. открылся первый участок линии B римского метро — Термини — Лаурентина; регулярное движение началось на следующий день.",
+   "historical_summary_en": "On 9 February 1955 the first section of Rome Metro line B, Termini–Laurentina, opened; regular service began the next day.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_atac"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "9.02.1955 Termini–Laurentina"
+    },
+    {
+     "source_id": "it_atac",
+     "url": "https://www.atac.roma.it/media/atacikon/storia",
+     "accessed": "2026-11-12",
+     "supports": "1955: primo treno della metropolitana di Roma, linea B da Termini all'EUR"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1960-olympics",
+   "title": "Летние Олимпийские игры в Риме",
+   "title_en": "Rome Summer Olympics",
+   "start_date": "1960",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1960 г. Рим принимал летние Олимпийские игры.",
+   "historical_summary_en": "In 1960 Rome hosted the Summer Olympic Games.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "olympics_in_town"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1960 Olympics"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000018/25-agosto-1960-olimpiadi-roma",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «25 agosto 1960 - Le Olimpiadi di Roma»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1961-fiumicino",
+   "title": "Открытие аэропорта Фьюмичино",
+   "title_en": "Fiumicino Airport inaugurated",
+   "start_date": "1961",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1961 г. был открыт римский аэропорт Фьюмичино.",
+   "historical_summary_en": "In 1961 Rome Fiumicino Airport was inaugurated.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_flight",
+    "emigrant_relatives_visit"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1961 Fiumicino inaugurated"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-1978-moro",
+   "title": "Похищение и убийство Альдо Моро",
+   "title_en": "Kidnapping and killing of Aldo Moro",
+   "start_date": "1978",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1978 г. «Красные бригады» похитили и затем убили в Риме бывшего премьер-министра Альдо Моро.",
+   "historical_summary_en": "In 1978 the Red Brigades kidnapped and later killed former prime minister Aldo Moro in Rome.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "fear_in_the_city"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1978 Moro kidnapped and killed"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-000383/16-marzo-1978-rapito-aldo-moro",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «16 marzo 1978 - Rapito Aldo Moro»: sequestro in via Fani, ucciso il 9 maggio"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1980-metro-a",
+   "title": "Открытие линии A метро",
+   "title_en": "Metro line A opens",
+   "start_date": "1980-02-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "16 февраля 1980 г. открылась линия A римского метро от Оттавиано до Чинечитты; 11 июня 1980 г. её продлили до Ананьины.",
+   "historical_summary_en": "On 16 February 1980 Rome Metro line A opened from Ottaviano to Cinecittà; on 11 June 1980 it was extended to Anagnina.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_atac"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "16.02.1980; 11.06.1980 Anagnina"
+    },
+    {
+     "source_id": "it_atac",
+     "url": "https://www.atac.roma.it/media/atacikon/storia",
+     "accessed": "2026-11-12",
+     "supports": "1980: dopo 25 anni apre la linea A, da Ottaviano a Cinecittà"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-1990-world-cup-final",
+   "title": "Финал чемпионата мира по футболу",
+   "title_en": "World Cup final in Rome",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "sport",
+   "historical_summary": "В 1990 г. в Риме прошёл финал чемпионата мира по футболу.",
+   "historical_summary_en": "In 1990 Rome hosted the football World Cup final.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_the_match_together"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1990 Rome hosts final"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-1991-eurovision",
+   "title": "«Евровидение» в Риме",
+   "title_en": "Eurovision in Rome",
+   "start_date": "1991",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "В 1991 г. Рим принимал конкурс песни «Евровидение».",
+   "historical_summary_en": "In 1991 Rome hosted the Eurovision Song Contest.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_tv_together"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1991 Eurovision"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-1993-elected-mayor",
+   "title": "Первый мэр, избранный жителями",
+   "title_en": "First directly elected mayor",
+   "start_date": "1993",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "political_change",
+   "historical_summary": "В 1993 г. Франческо Рутелли стал первым мэром Рима, избранным непосредственно жителями.",
+   "historical_summary_en": "In 1993 Francesco Rutelli became the first mayor of Rome elected directly by citizens.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_roma_capitale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "1993 Rutelli first directly elected mayor"
+    },
+    {
+     "source_id": "it_roma_capitale",
+     "url": "https://www.comune.roma.it/web-resources/cms/documents/ELENCO_CONSILIATURE_WEB.pdf",
+     "accessed": "2026-11-12",
+     "supports": "elenco ufficiale delle consiliature: Francesco Rutelli sindaco, consiliatura XIII (elezioni del 21 novembre e 5 dicembre 1993)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-2000-jubilee-2000",
+   "title": "Юбилейный год 2000",
+   "title_en": "Jubilee year 2000",
+   "start_date": "2000",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "religion",
+   "historical_summary": "В 2000 г. в Риме проходил католический Юбилейный (Святой) год.",
+   "historical_summary_en": "In 2000 Rome hosted the Catholic Jubilee (Holy Year).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "pilgrims_in_the_city"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Rome",
+     "accessed": "2026-11-11",
+     "supports": "2000 Holy Year"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-roma-2012-metro-b1",
+   "title": "Открытие ветки B1",
+   "title_en": "Metro branch B1 opens",
+   "start_date": "2012-06-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "13 июня 2012 г. открылась ветка B1 римского метро (Болонья — Конка-д’Оро) с тремя станциями; 21 апреля 2015 г. её продлили до станции Йонио.",
+   "historical_summary_en": "On 13 June 2012 Rome Metro branch B1 (Bologna–Conca d'Oro) opened with three stations; on 21 April 2015 it was extended to Jonio.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_roma_metropolitane"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "13.06.2012; 21.04.2015"
+    },
+    {
+     "source_id": "it_roma_metropolitane",
+     "url": "https://www.romametropolitane.it/articolo.asp?CodMenu=245&CodArt=246",
+     "accessed": "2026-11-12",
+     "supports": "Linea B1 Bologna – Conca d'Oro inaugurata il 13.06.2012; Conca d'Oro – Jonio il 21.04.2015"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-2014-metro-c",
+   "title": "Открытие линии C метро",
+   "title_en": "Metro line C opens",
+   "start_date": "2014-11-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "9 ноября 2014 г. открылся первый участок линии C римского метро — от Монте-Компатри-Пантано до Парко-ди-Ченточелле.",
+   "historical_summary_en": "On 9 November 2014 the first section of Rome Metro line C opened, from Monte Compatri-Pantano to Parco di Centocelle.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_roma_metropolitane"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "9.11.2014"
+    },
+    {
+     "source_id": "it_roma_metropolitane",
+     "url": "https://www.romametropolitane.it/articolo.asp?CodMenu=245&CodArt=246",
+     "accessed": "2026-11-12",
+     "supports": "Linea C tratta Monte Compatri/Pantano – Parco di Centocelle, inaugurazione 09.11.2014"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-2018-metro-c-san-giovanni",
+   "title": "Линия C доходит до Сан-Джованни",
+   "title_en": "Line C reaches San Giovanni",
+   "start_date": "2018-05-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "12 мая 2018 г. линия C римского метро была продлена до станции Сан-Джованни.",
+   "historical_summary_en": "On 12 May 2018 Rome Metro line C was extended to San Giovanni station.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_roma_metropolitane"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "12.05.2018"
+    },
+    {
+     "source_id": "it_roma_metropolitane",
+     "url": "https://www.romametropolitane.it/articolo.asp?CodMenu=245&CodArt=246",
+     "accessed": "2026-11-12",
+     "supports": "Linea C tratta Lodi – San Giovanni, inaugurazione 12.05.2018"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-roma-2025-metro-c-colosseo",
+   "title": "Линия C доходит до Колизея",
+   "title_en": "Line C reaches the Colosseum",
+   "start_date": "2025-12-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "it-roma"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "16 декабря 2025 г. линия C римского метро была продлена от Сан-Джованни до станции «Колоссео» с пересадкой на линию B. В 2024 г. римское метро перевозило около 715 тыс. пассажиров в день.",
+   "historical_summary_en": "On 16 December 2025 Rome Metro line C was extended from San Giovanni to Colosseo station, with an interchange to line B. In 2024 the Rome Metro carried about 715,000 passengers a day.",
+   "affected_groups": [
+    "commuters"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_metro_ride"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_roma_capitale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Metropolitana_di_Roma",
+     "accessed": "2026-11-11",
+     "supports": "16.12.2025; 715 126 в день (2024)"
+    },
+    {
+     "source_id": "it_roma_capitale",
+     "url": "https://www.comune.roma.it/web/it/notizia/metro-c-aperte-stazioni-colosseo-e-porta-metronia.page",
+     "accessed": "2026-11-12",
+     "supports": "16 dicembre 2025: aperte le stazioni Colosseo e Porta Metronia della linea C, collegamento con la linea B"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

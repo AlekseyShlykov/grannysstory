@@ -1,0 +1,102 @@
+{
+ "records": [
+  {
+   "id": "tr-il-zonguldak-1991-bartin-1995-karabuk",
+   "title": "Выделение провинций Бартын и Карабюк",
+   "title_en": "Bartın and Karabük provinces split off",
+   "start_date": "1991",
+   "end_date": "1995",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-il-zonguldak"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "В 1991 г. из провинции Зонгулдак была выделена провинция Бартын, а в 1995 г. — провинция Карабюк, отчего население ила сократилось.",
+   "historical_summary_en": "In 1991 Bartın Province was separated from Zonguldak Province, and in 1995 Karabük Province, reducing the province's population.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia",
+    "tr_mevzuat",
+    "tr_resmi_gazete"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak_(il)",
+     "accessed": "2026-11-11",
+     "supports": "1991 Bartın, 1995 Karabük"
+    },
+    {
+     "source_id": "tr_mevzuat",
+     "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3760.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Закон 3760 от 28.08.1991: провинция Бартын создана из района Бартын провинции Зонгулдак"
+    },
+    {
+     "source_id": "tr_resmi_gazete",
+     "url": "https://www.resmigazete.gov.tr/arsiv/22305.pdf",
+     "accessed": "2026-11-12",
+     "supports": "KHK/550 (06.06.1995): Карабюк выделен из провинции Зонгулдак"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-il-zonguldak-2008-filyos-project",
+   "title": "Проект долины Филиос",
+   "title_en": "Filyos Valley Project",
+   "start_date": "2008-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "tr-il-zonguldak"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В начале марта 2008 г. участки в рамках проекта долины Филиос, включавшего металлургические заводы и порт, были распределены между 21 компанией; строительство порта Филиос началось в 2016 г.",
+   "historical_summary_en": "In early March 2008 sites in the Filyos Valley Project, which included iron and steel plants and a port, were allocated to 21 firms; construction of Filyos Port began in 2016.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_tr_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak",
+     "accessed": "2026-11-11",
+     "supports": "март 2008, 21 фирма"
+    },
+    {
+     "source_id": "tr_tr_wikipedia",
+     "url": "https://tr.wikipedia.org/wiki/Zonguldak_(il)",
+     "accessed": "2026-11-11",
+     "supports": "2016 начало порта Филиос"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

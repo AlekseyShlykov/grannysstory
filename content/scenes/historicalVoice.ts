@@ -2,6 +2,8 @@
 // The date and fact come from content/historical; only the phrasing is fiction.
 // `heard` is used when she was too small to remember the event herself.
 
+import { countryContent } from "./countries";
+
 export interface HistoricalVoice {
   lived: string;
   heard: string;
@@ -9,7 +11,7 @@ export interface HistoricalVoice {
   away?: string;
 }
 
-export const historicalVoice: Record<string, HistoricalVoice> = {
+const baseHistoricalVoice: Record<string, HistoricalVoice> = {
   ussr_formed_1922: {
     lived: "Страна тогда была совсем молодая, только-только сложилась из нескольких республик.",
     heard: "Страна тогда была совсем молодая, это мне потом в школе объясняли."
@@ -287,6 +289,12 @@ export const historicalVoice: Record<string, HistoricalVoice> = {
     lived: "Когда открылось метро, под землёй стало можно пересечь такую часть города, на которую прежде уходило полдня. Первые поездки всё равно казались приключением.",
     heard: "Мне потом рассказывали об открытии первого нью-йоркского метро."
   }
+};
+
+// Countries added in world-1.2 keep their lines in content/scenes/countries/<cc>.ts.
+export const historicalVoice: Record<string, HistoricalVoice> = {
+  ...baseHistoricalVoice,
+  ...Object.assign({}, ...countryContent.map((country) => country.historicalVoice))
 };
 
 // Fallback phrasing for verified records without a hand-written voice. Only the lead-in is fiction. In speech

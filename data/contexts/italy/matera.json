@@ -1,0 +1,100 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-matera-2025-population",
+   "country_code": "IT",
+   "location_id": "it-matera",
+   "period_start": 2025,
+   "period_end": 2026,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Матера: население и иностранцы",
+   "title_en": "Matera: population and foreign residents",
+   "description": "На 1 января 2025 г. в Матере жили 3872 иностранных гражданина (6,49% населения); на 31 мая 2026 г. население составляло 59 278 человек.",
+   "description_en": "On 1 January 2025 Matera had 3,872 foreign residents (6.49% of the population); on 31 May 2026 the population was 59,278.",
+   "statistics": [
+    {
+     "indicator": "foreign_residents",
+     "value": 3872,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "it-matera",
+     "population": "жители с иностранным гражданством",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "foreign_residents_share",
+     "value": 6.49,
+     "unit": "% of population",
+     "year": 2025,
+     "area_id": "it-matera",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 59278,
+     "unit": "persons",
+     "year": 2026,
+     "area_id": "it-matera",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "1.01.2025 3872 stranieri 6,49%; 59 278 ab."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-matera-1952-sassi-relocation",
+   "country_code": "IT",
+   "location_id": "it-matera",
+   "period_start": 1952,
+   "period_end": 1970,
+   "context_type": "housing",
+   "attribute": "sassi_relocation",
+   "title": "Переселение из Сасси",
+   "title_en": "Relocation from the Sassi",
+   "description": "По закону 1952 г. жителей пещерных кварталов Сасси переселяли в новые жилые районы; всего в новый город переехали около 15 тыс. человек.",
+   "description_en": "Under the 1952 law the inhabitants of the Sassi cave districts were moved to new residential areas; about 15,000 people in all moved into the new town.",
+   "statistics": [
+    {
+     "indicator": "people_relocated",
+     "value": 15000,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "it-matera",
+     "population": "жители Сасси",
+     "method_note": "около; суммарно, годы окончания не указаны",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Matera",
+     "accessed": "2026-11-11",
+     "supports": "circa 15 000 abitanti dei Sassi trasferiti"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

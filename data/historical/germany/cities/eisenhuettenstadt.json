@@ -1,0 +1,503 @@
+{
+ "records": [
+  {
+   "id": "de-eisenhuettenstadt-1900-fuerstenberg-growth",
+   "title": "Рост Фюрстенберга",
+   "title_en": "Growth of Fürstenberg",
+   "start_date": "1900",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": true,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "С 1871 по 1900 г. население Фюрстенберга-на-Одере удвоилось примерно до 5700 человек, а к 1933 г. выросло до 7054.",
+   "historical_summary_en": "Between 1871 and 1900 the population of Fürstenberg (Oder) doubled to about 5,700, and by 1933 it had risen to 7,054.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "1900 ~5700; 1933 7054"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1925-oder-harbour",
+   "title": "Гавань на Одере",
+   "title_en": "Oder harbour built",
+   "start_date": "1925",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "В 1925 г. в Фюрстенберге построили гавань на Одере, а в 1940–1943 гг. на канале Одер — Шпрее — ещё одну гавань для перевалки гранита для строек столицы.",
+   "historical_summary_en": "In 1925 an Oder harbour was built in Fürstenberg, and in 1940–1943 another harbour on the Oder-Spree Canal was built to handle granite for construction projects in the capital.",
+   "affected_groups": [
+    "dock_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "river_barges"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "1925 Oderhafen; 1940–1943 GBI-Hafen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1945-forced-labour-and-occupation",
+   "title": "Принудительный труд и конец войны",
+   "title_en": "Forced labour and the end of the war",
+   "start_date": "1945-04-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "В годы войны на химическом заводе DEGUSSA в Фюрстенберге использовали узников филиала концлагеря Заксенхаузен и военнопленных, тысячи из них погибли. 24 апреля 1945 г. город заняла Красная армия, а промышленные установки были в основном демонтированы в счёт репараций.",
+   "historical_summary_en": "During the war the DEGUSSA chemical works in Fürstenberg used prisoners from a Sachsenhausen subcamp and prisoners of war, thousands of whom died. On 24 April 1945 the Red Army occupied the town, and its industrial plants were largely dismantled as reparations.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "wartime DEGUSSA forced labour; 24.04.1945; dismantling"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1950-eko-construction",
+   "title": "Начало строительства металлургического комбината",
+   "title_en": "Construction of the iron and steel combine begins",
+   "start_date": "1950-08-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Решение III съезда СЕПГ в июле 1950 г. предусматривало строительство металлургического комбината «Ост» (EKO) и социалистического жилого города; 18 августа 1950 г. символически начались работы. 19 сентября 1951 г. заработала первая доменная печь, к 1955 г. — ещё пять.",
+   "historical_summary_en": "The SED's Third Party Congress in July 1950 decided to build the Eisenhüttenkombinat Ost (EKO) and a socialist residential town, and work symbolically began on 18 August 1950. The first blast furnace went into operation on 19 September 1951, and five more followed by 1955.",
+   "affected_groups": [
+    "industrial_workers",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "20–24.07.1950; 18.08.1950; 19.09.1951; до 1955 ещё пять"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "21.08.1950 начало строительства EKO"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1951-residential-complexes",
+   "title": "Первые жилые комплексы",
+   "title_en": "First residential complexes",
+   "start_date": "1951",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "С 1951 г. строился первый жилой комплекс нового города, затем WK II (1952–1954) и WK III (1954–1956). Население выросло с 15 157 в 1955 г. до 24 372 в 1960 г.",
+   "historical_summary_en": "From 1951 the first residential complex of the new town was built, followed by WK II (1952–1954) and WK III (1954–1956). The population grew from 15,157 in 1955 to 24,372 in 1960.",
+   "affected_groups": [
+    "tenants",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "WK I 1951; WK II 1952–54; WK III 1954–56; population 1955, 1960"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1953-stalinstadt",
+   "title": "Новый город назван Сталинштадтом",
+   "title_en": "New town named Stalinstadt",
+   "start_date": "1953-05-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "1 февраля 1953 г. новый жилой город стал отдельным городским округом, а 7 мая 1953 г., после смерти Сталина, получил название Сталинштадт. К концу 1953 г. в нём жили 2400 человек.",
+   "historical_summary_en": "On 1 February 1953 the new residential town became a separate urban district, and on 7 May 1953, after Stalin's death, it was named Stalinstadt. By the end of 1953 it had 2,400 inhabitants.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "01.02.1953; 07.05.1953; end 1953 2400"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1961-renamed",
+   "title": "Образование Айзенхюттенштадта",
+   "title_en": "Eisenhüttenstadt formed",
+   "start_date": "1961-11-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "13 ноября 1961 г. в ходе десталинизации Фюрстенберг-на-Одере и Сталинштадт объединили в город Айзенхюттенштадт. Население выросло до 38 138 в 1965 г. и 45 410 в 1970 г.",
+   "historical_summary_en": "On 13 November 1961, as part of de-Stalinisation, Fürstenberg (Oder) and Stalinstadt were merged into the town of Eisenhüttenstadt. The population rose to 38,138 in 1965 and 45,410 in 1970.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "13.11.1961; population 1965, 1970"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1984-wk-vii",
+   "title": "Седьмой жилой комплекс",
+   "title_en": "Seventh residential complex",
+   "start_date": "1984",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "С 1984 г. строился седьмой жилой комплекс; в 1988 г. население города достигло исторического максимума — более 53 тыс. человек. Позднее, в 2003–2009 гг., WK VII в основном снесли.",
+   "historical_summary_en": "From 1984 the seventh residential complex was built, and in 1988 the town's population reached its historic peak of more than 53,000. Later, between 2003 and 2009, WK VII was largely demolished.",
+   "affected_groups": [
+    "tenants"
+   ],
+   "potential_impacts": [
+    "housing_improvement"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "WK VII 1984–2009; 1988 53 048; demolished 2003–2009"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1986-twinning-saarlouis",
+   "title": "Первое германо-германское побратимство",
+   "title_en": "First inner-German town twinning",
+   "start_date": "1986-09-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "culture_leisure",
+   "historical_summary": "19 сентября и 6 октября 1986 г. Саарлуи (ФРГ) и Айзенхюттенштадт (ГДР) подписали первое соглашение о партнёрстве городов двух германских государств.",
+   "historical_summary_en": "On 19 September and 6 October 1986 Saarlouis (FRG) and Eisenhüttenstadt (GDR) signed the first town-twinning agreement between the two German states.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "visit_from_the_west"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1986.html",
+     "accessed": "2026-11-11",
+     "supports": "19.09/06.10.1986"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1990-steelworks-privatised",
+   "title": "Приватизация комбината и потеря рабочих мест",
+   "title_en": "Steelworks privatised, jobs lost",
+   "start_date": "1990",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "local_economy",
+   "historical_summary": "После объединения Германии в 1990 г. государственный металлургический комбинат был приватизирован, и большинство из его 12 тыс. работников потеряли работу. Население города сократилось с 50 216 в 1990 г. до 34 818 в 2005 г.",
+   "historical_summary_en": "After German unification in 1990 the state-owned steelworks were privatised and most of its 12,000 employees lost their jobs. The town's population fell from 50,216 in 1990 to 34,818 in 2005.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "factory_closes",
+    "children_moved_west"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_en_wikipedia",
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "privatised after 1990; most of 12 000 lost jobs"
+    },
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "population 1990, 2005"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-1993-oder-spree",
+   "title": "Вхождение в район Одер-Шпре",
+   "title_en": "Joins the Oder-Spree district",
+   "start_date": "1993-12-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "border_administrative",
+   "historical_summary": "6 декабря 1993 г. в ходе районной реформы Айзенхюттенштадт вошёл в район Одер-Шпре; в 1996 г. перестроили Новый дамбовый мост.",
+   "historical_summary_en": "On 6 December 1993, under a district reform, Eisenhüttenstadt became part of the Oder-Spree district, and in 1996 the New Dyke Bridge was rebuilt.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "06.12.1993; 1996 Neue Deichbrücke"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-eisenhuettenstadt-2020-shrinking-town",
+   "title": "Город, вдвое меньший прежнего",
+   "title_en": "A town half its former size",
+   "start_date": "2020",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "municipal",
+   "location_ids": [
+    "de-eisenhuettenstadt"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "К 2020 г. население Айзенхюттенштадта сократилось до 23 373 человек — вдвое меньше, чем в 1990 г.; в 2023 г. оно составляло 25 202.",
+   "historical_summary_en": "By 2020 Eisenhüttenstadt's population had fallen to 23,373, half the 1990 figure, and in 2023 it stood at 25,202.",
+   "affected_groups": [
+    "elderly",
+    "pensioners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "empty_flats_next_door"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_wikipedia",
+     "url": "https://de.wikipedia.org/wiki/Eisenh%C3%BCttenstadt",
+     "accessed": "2026-11-11",
+     "supports": "2020 23 373; 2023 25 202"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

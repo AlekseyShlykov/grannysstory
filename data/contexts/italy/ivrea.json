@@ -1,0 +1,110 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-ivrea-2025-population",
+   "country_code": "IT",
+   "location_id": "it-ivrea",
+   "period_start": 2025,
+   "period_end": 2026,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Иврея: население и иностранцы",
+   "title_en": "Ivrea: population and foreign residents",
+   "description": "На 1 января 2025 г. в Иврее жили 2188 иностранных граждан (9,71% населения), больше всего из Румынии (771) и Марокко (238); на 31 мая 2026 г. население составляло 22 529 человек.",
+   "description_en": "On 1 January 2025 Ivrea had 2,188 foreign residents (9.71% of the population), most of them from Romania (771) and Morocco (238); on 31 May 2026 the population was 22,529.",
+   "statistics": [
+    {
+     "indicator": "foreign_residents",
+     "value": 2188,
+     "unit": "persons",
+     "year": 2025,
+     "area_id": "it-ivrea",
+     "population": "жители с иностранным гражданством",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "foreign_residents_share",
+     "value": 9.71,
+     "unit": "% of population",
+     "year": 2025,
+     "area_id": "it-ivrea",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 22529,
+     "unit": "persons",
+     "year": 2026,
+     "area_id": "it-ivrea",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ivrea",
+     "accessed": "2026-11-11",
+     "supports": "2188 stranieri 9,71%; 22 529 ab."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-ivrea-1969-olivetti-workforce",
+   "country_code": "IT",
+   "location_id": "it-ivrea",
+   "period_start": 1955,
+   "period_end": 2021,
+   "context_type": "work",
+   "attribute": "olivetti_workforce",
+   "title": "Olivetti: от десятков тысяч работников до сотен",
+   "title_en": "Olivetti: from tens of thousands of workers to hundreds",
+   "description": "С открытием заводов в Марчанизе и Гаррисберге в 1969–1970 гг. численность работников Olivetti по всему миру достигла около 73 тыс.; в июле 2021 г. в компании работали 282 человека.",
+   "description_en": "With the opening of plants at Marcianise and Harrisburg in 1969–1970 Olivetti's worldwide workforce reached about 73,000; in July 2021 the company employed 282 people.",
+   "statistics": [
+    {
+     "indicator": "employees",
+     "value": 73000,
+     "unit": "persons",
+     "year": 1970,
+     "area_id": "it",
+     "population": "работники Olivetti во всём мире",
+     "method_note": "около; данные компании по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "employees",
+     "value": 282,
+     "unit": "persons",
+     "year": 2021,
+     "area_id": "it",
+     "population": "работники Olivetti",
+     "method_note": "июль 2021",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Olivetti",
+     "accessed": "2026-11-11",
+     "supports": "~73 000 nel 1969–70; 282 nel luglio 2021"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

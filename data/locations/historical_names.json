@@ -1,6 +1,598 @@
 {
   "generated": true,
   "names": {
+    "state-cn-qing": {
+      "local": [
+        {
+          "name": "大清",
+          "lang": "zh",
+          "from": null,
+          "to": "1912-02-12"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Империя Цин",
+          "locative": "в Империи Цин",
+          "name_en": "Qing Empire",
+          "from": null,
+          "to": "1912-02-12"
+        }
+      ],
+      "alt": [
+        "Цинская империя",
+        "Qing dynasty"
+      ]
+    },
+    "state-cn-roc": {
+      "local": [
+        {
+          "name": "中華民國",
+          "lang": "zh",
+          "from": "1912-01-01",
+          "to": "1949-12-27"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Китайская Республика",
+          "locative": "в Китайской Республике",
+          "name_en": "Republic of China",
+          "from": "1912-01-01",
+          "to": "1949-12-27"
+        }
+      ],
+      "alt": [
+        "Republic of China (1912–1949)",
+        "Китайская Республика (материк)"
+      ]
+    },
+    "cn": {
+      "local": [
+        {
+          "name": "中华人民共和国",
+          "lang": "zh",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Китай",
+          "locative": "в Китае",
+          "name_en": "China",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "alt": [
+        "КНР",
+        "People's Republic of China"
+      ]
+    },
+    "cn-guangdong": {
+      "local": [
+        {
+          "name": "广东省",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Гуандун",
+          "locative": "в Гуандуне",
+          "name_en": "Guangdong",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-sichuan": {
+      "local": [
+        {
+          "name": "四川省",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сычуань",
+          "locative": "в Сычуани",
+          "name_en": "Sichuan",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-hubei": {
+      "local": [
+        {
+          "name": "湖北省",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Хубэй",
+          "locative": "в Хубэе",
+          "name_en": "Hubei",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-shaanxi": {
+      "local": [
+        {
+          "name": "陕西省",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Шэньси",
+          "locative": "в Шэньси",
+          "name_en": "Shaanxi",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-anhui": {
+      "local": [
+        {
+          "name": "安徽省",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Аньхой",
+          "locative": "в Аньхое",
+          "name_en": "Anhui",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-jiangsu": {
+      "local": [
+        {
+          "name": "江苏省",
+          "lang": "zh",
+          "from": null,
+          "to": "1927-07-06"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Цзянсу",
+          "locative": "в Цзянсу",
+          "name_en": "Jiangsu",
+          "from": null,
+          "to": "1927-07-06"
+        }
+      ],
+      "alt": []
+    },
+    "cn-beijing-municipality": {
+      "local": [
+        {
+          "name": "北京市",
+          "lang": "zh",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Пекин (город центрального подчинения)",
+          "locative": "в Пекине",
+          "name_en": "Beijing Municipality",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-shanghai-municipality": {
+      "local": [
+        {
+          "name": "上海市",
+          "lang": "zh",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Шанхай (город центрального подчинения)",
+          "locative": "в Шанхае",
+          "name_en": "Shanghai Municipality",
+          "from": "1949-10-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-beijing": {
+      "local": [
+        {
+          "name": "北京",
+          "lang": "zh",
+          "from": null,
+          "to": "1928-06-27"
+        },
+        {
+          "name": "北平",
+          "lang": "zh",
+          "from": "1928-06-28",
+          "to": "1949-09-26"
+        },
+        {
+          "name": "北京",
+          "lang": "zh",
+          "from": "1949-09-27",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Пекин",
+          "locative": "в Пекине",
+          "name_en": "Peking",
+          "from": null,
+          "to": "1928-06-27"
+        },
+        {
+          "name": "Бэйпин",
+          "locative": "в Бэйпине",
+          "name_en": "Peiping",
+          "from": "1928-06-28",
+          "to": "1949-09-26"
+        },
+        {
+          "name": "Пекин",
+          "locative": "в Пекине",
+          "name_en": "Beijing",
+          "from": "1949-09-27",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Peking",
+        "Peiping",
+        "Бэйпин",
+        "Пэйпин",
+        "京兆地方 (1914–1928)"
+      ]
+    },
+    "cn-shanghai": {
+      "local": [
+        {
+          "name": "上海",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Шанхай",
+          "locative": "в Шанхае",
+          "name_en": "Shanghai",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-guangzhou": {
+      "local": [
+        {
+          "name": "广州",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Гуанчжоу",
+          "locative": "в Гуанчжоу",
+          "name_en": "Guangzhou",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Кантон",
+        "Canton",
+        "羊城"
+      ]
+    },
+    "cn-chengdu": {
+      "local": [
+        {
+          "name": "成都",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Чэнду",
+          "locative": "в Чэнду",
+          "name_en": "Chengdu",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "cn-wuhan": {
+      "local": [
+        {
+          "name": "武昌、汉口、汉阳",
+          "lang": "zh",
+          "from": null,
+          "to": "1926-12-31"
+        },
+        {
+          "name": "武汉",
+          "lang": "zh",
+          "from": "1927-01-01",
+          "to": "1929-03-31"
+        },
+        {
+          "name": "武昌、汉口、汉阳",
+          "lang": "zh",
+          "from": "1929-04-01",
+          "to": "1949-05-23"
+        },
+        {
+          "name": "武汉",
+          "lang": "zh",
+          "from": "1949-05-24",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Учан, Ханькоу и Ханьян",
+          "locative": "в Учане, Ханькоу и Ханьяне",
+          "name_en": "Wuchang, Hankou and Hanyang",
+          "from": null,
+          "to": "1926-12-31"
+        },
+        {
+          "name": "Ухань",
+          "locative": "в Ухане",
+          "name_en": "Wuhan",
+          "from": "1927-01-01",
+          "to": "1929-03-31"
+        },
+        {
+          "name": "Учан, Ханькоу и Ханьян",
+          "locative": "в Учане, Ханькоу и Ханьяне",
+          "name_en": "Wuchang, Hankou and Hanyang",
+          "from": "1929-04-01",
+          "to": "1949-05-23"
+        },
+        {
+          "name": "Ухань",
+          "locative": "в Ухане",
+          "name_en": "Wuhan",
+          "from": "1949-05-24",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Hankow",
+        "Ханькоу",
+        "Учан",
+        "Ханьян"
+      ]
+    },
+    "cn-xian": {
+      "local": [
+        {
+          "name": "西安",
+          "lang": "zh",
+          "from": null,
+          "to": "1931"
+        },
+        {
+          "name": "西京",
+          "lang": "zh",
+          "from": "1932",
+          "to": "1942"
+        },
+        {
+          "name": "西安",
+          "lang": "zh",
+          "from": "1943",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сиань",
+          "locative": "в Сиани",
+          "name_en": "Xi'an",
+          "from": null,
+          "to": "1931"
+        },
+        {
+          "name": "Сицзин (Сиань)",
+          "locative": "в Сицзине (Сиани)",
+          "name_en": "Xijing (Xi'an)",
+          "from": "1932",
+          "to": "1942"
+        },
+        {
+          "name": "Сиань",
+          "locative": "в Сиани",
+          "name_en": "Xi'an",
+          "from": "1943",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Сиань",
+        "Xijing",
+        "Чанъань"
+      ]
+    },
+    "cn-shenzhen": {
+      "local": [
+        {
+          "name": "深圳墟",
+          "lang": "zh",
+          "from": null,
+          "to": "1979-03-04"
+        },
+        {
+          "name": "深圳",
+          "lang": "zh",
+          "from": "1979-03-05",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Шэньчжэнь (уезд Баоань)",
+          "locative": "в Шэньчжэне",
+          "name_en": "Shenzhen (Bao'an County)",
+          "from": null,
+          "to": "1979-03-04"
+        },
+        {
+          "name": "Шэньчжэнь",
+          "locative": "в Шэньчжэне",
+          "name_en": "Shenzhen",
+          "from": "1979-03-05",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Баоань",
+        "宝安县",
+        "Bao'an"
+      ]
+    },
+    "cn-zigong": {
+      "local": [
+        {
+          "name": "自流井、贡井",
+          "lang": "zh",
+          "from": null,
+          "to": "1939-08-31"
+        },
+        {
+          "name": "自贡",
+          "lang": "zh",
+          "from": "1939-09-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Цзылюцзин и Гунцзин",
+          "locative": "в Цзылюцзине и Гунцзине",
+          "name_en": "Ziliujing and Gongjing",
+          "from": null,
+          "to": "1939-08-31"
+        },
+        {
+          "name": "Цзыгун",
+          "locative": "в Цзыгуне",
+          "name_en": "Zigong",
+          "from": "1939-09-01",
+          "to": null
+        }
+      ],
+      "alt": [
+        "自流井",
+        "Цзылюцзин"
+      ]
+    },
+    "cn-guanghan": {
+      "local": [
+        {
+          "name": "广汉县",
+          "lang": "zh",
+          "from": "1913",
+          "to": "1988-01"
+        },
+        {
+          "name": "广汉市",
+          "lang": "zh",
+          "from": "1988-02",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "уезд Гуанхань",
+          "locative": "в уезде Гуанхань",
+          "name_en": "Guanghan County",
+          "from": null,
+          "to": "1988-01"
+        },
+        {
+          "name": "Гуанхань",
+          "locative": "в Гуанхане",
+          "name_en": "Guanghan",
+          "from": "1988-02",
+          "to": null
+        }
+      ],
+      "alt": [
+        "汉州 (до 1913)",
+        "Ханьчжоу",
+        "向阳乡"
+      ]
+    },
+    "cn-xiaogang": {
+      "local": [
+        {
+          "name": "小岗村",
+          "lang": "zh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сяоган",
+          "locative": "в Сяогане",
+          "name_en": "Xiaogang",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "小岗生产队",
+        "уезд Фэнъян"
+      ]
+    },
     "world": {
       "local": [
         {
@@ -229,6 +821,1849 @@
       "alt": [
         "Советский Союз"
       ]
+    },
+    "state-de-empire": {
+      "local": [
+        {
+          "name": "Deutsches Reich",
+          "lang": "de",
+          "from": "1871",
+          "to": "1918-11-09"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Германская империя",
+          "locative": "в Германской империи",
+          "from": "1871",
+          "to": "1918-11-09",
+          "name_en": "German Empire",
+          "locative_en": "in the German Empire"
+        }
+      ],
+      "alt": [
+        "Kaiserreich",
+        "Германская империя"
+      ]
+    },
+    "state-de-reich": {
+      "local": [
+        {
+          "name": "Deutsches Reich",
+          "lang": "de",
+          "from": "1918-11-09",
+          "to": "1945-06-04"
+        },
+        {
+          "name": "Deutschland (alliierte Besatzung)",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Германия",
+          "locative": "в Германии",
+          "from": "1918-11-09",
+          "to": "1949-10-06",
+          "name_en": "Germany"
+        }
+      ],
+      "alt": [
+        "Веймарская республика (Q41304)",
+        "Третий рейх (Q7318)"
+      ]
+    },
+    "de": {
+      "local": [
+        {
+          "name": "Bundesrepublik Deutschland",
+          "lang": "de",
+          "from": "1949-05-23",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "ФРГ",
+          "locative": "в ФРГ",
+          "name_en": "West Germany",
+          "from": "1949-05-23",
+          "to": "1990-10-02"
+        },
+        {
+          "name": "Германия",
+          "locative": "в Германии",
+          "name_en": "Germany",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "alt": [
+        "BRD",
+        "Federal Republic of Germany",
+        "West Germany"
+      ]
+    },
+    "state-gdr": {
+      "local": [
+        {
+          "name": "Deutsche Demokratische Republik",
+          "lang": "de",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "ГДР",
+          "locative": "в ГДР",
+          "name_en": "East Germany",
+          "from": "1949-10-07",
+          "to": "1990-10-02"
+        }
+      ],
+      "alt": [
+        "DDR",
+        "German Democratic Republic",
+        "East Germany"
+      ]
+    },
+    "de-zone-us": {
+      "local": [
+        {
+          "name": "Amerikanische Besatzungszone",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Американская зона оккупации",
+          "locative": "в американской зоне оккупации",
+          "name_en": "American occupation zone",
+          "from": "1945-06-05",
+          "to": "1949-05-22",
+          "locative_en": "in the American occupation zone"
+        }
+      ],
+      "alt": []
+    },
+    "de-zone-british": {
+      "local": [
+        {
+          "name": "Britische Besatzungszone",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Британская зона оккупации",
+          "locative": "в британской зоне оккупации",
+          "name_en": "British occupation zone",
+          "from": "1945-06-05",
+          "to": "1949-05-22",
+          "locative_en": "in the British occupation zone"
+        }
+      ],
+      "alt": []
+    },
+    "de-zone-french": {
+      "local": [
+        {
+          "name": "Französische Besatzungszone",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1949-05-22"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Французская зона оккупации",
+          "locative": "во французской зоне оккупации",
+          "name_en": "French occupation zone",
+          "from": "1945-06-05",
+          "to": "1949-05-22",
+          "locative_en": "in the French occupation zone"
+        }
+      ],
+      "alt": []
+    },
+    "de-zone-soviet": {
+      "local": [
+        {
+          "name": "Sowjetische Besatzungszone",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1949-10-06"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Советская зона оккупации",
+          "locative": "в советской зоне оккупации",
+          "name_en": "Soviet occupation zone",
+          "from": "1945-06-05",
+          "to": "1949-10-06",
+          "locative_en": "in the Soviet occupation zone"
+        }
+      ],
+      "alt": []
+    },
+    "de-prussia": {
+      "local": [
+        {
+          "name": "Königreich Preußen",
+          "lang": "de",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "name": "Freistaat Preußen",
+          "lang": "de",
+          "from": "1918-11-10",
+          "to": "1947-02-25"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Пруссия",
+          "locative": "в Королевстве Пруссия",
+          "name_en": "Kingdom of Prussia",
+          "from": null,
+          "to": "1918-11-09",
+          "locative_en": "in the Kingdom of Prussia"
+        },
+        {
+          "name": "Свободное государство Пруссия",
+          "locative": "в Пруссии",
+          "name_en": "Free State of Prussia",
+          "from": "1918-11-10",
+          "to": "1947-02-25",
+          "locative_en": "in the Free State of Prussia"
+        }
+      ],
+      "alt": [
+        "Preußen",
+        "Prussia"
+      ]
+    },
+    "de-prov-rhine": {
+      "local": [
+        {
+          "name": "Rheinprovinz",
+          "lang": "de",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "name": "Provinz Nordrhein",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1946-08-22"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Рейнская провинция",
+          "locative": "в Рейнской провинции",
+          "name_en": "Rhine Province",
+          "from": null,
+          "to": "1945-06-04",
+          "locative_en": "in the Rhine Province"
+        },
+        {
+          "name": "Провинция Северный Рейн",
+          "locative": "в провинции Северный Рейн",
+          "name_en": "North Rhine Province",
+          "from": "1945-06-05",
+          "to": "1946-08-22",
+          "locative_en": "in the North Rhine Province"
+        }
+      ],
+      "alt": [
+        "Rhine Province"
+      ]
+    },
+    "de-prov-saxony": {
+      "local": [
+        {
+          "name": "Provinz Sachsen",
+          "lang": "de",
+          "from": null,
+          "to": "1944-06-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Саксония",
+          "locative": "в провинции Саксония",
+          "name_en": "Province of Saxony",
+          "from": null,
+          "to": "1944-06-30",
+          "locative_en": "in the Province of Saxony"
+        }
+      ],
+      "alt": [
+        "Prussian Saxony"
+      ]
+    },
+    "de-prov-halle-merseburg": {
+      "local": [
+        {
+          "name": "Provinz Halle-Merseburg",
+          "lang": "de",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Галле-Мерзебург",
+          "locative": "в провинции Галле-Мерзебург",
+          "name_en": "Province of Halle-Merseburg",
+          "from": "1944-07-01",
+          "to": "1945-07-08",
+          "locative_en": "in the Province of Halle-Merseburg"
+        }
+      ],
+      "alt": []
+    },
+    "de-prov-magdeburg": {
+      "local": [
+        {
+          "name": "Provinz Magdeburg",
+          "lang": "de",
+          "from": "1944-07-01",
+          "to": "1945-07-08"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Магдебург",
+          "locative": "в провинции Магдебург",
+          "name_en": "Province of Magdeburg",
+          "from": "1944-07-01",
+          "to": "1945-07-08",
+          "locative_en": "in the Province of Magdeburg"
+        }
+      ],
+      "alt": []
+    },
+    "de-prov-hanover": {
+      "local": [
+        {
+          "name": "Provinz Hannover",
+          "lang": "de",
+          "from": null,
+          "to": "1946-08-22"
+        },
+        {
+          "name": "Land Hannover",
+          "lang": "de",
+          "from": "1946-08-23",
+          "to": "1946-10-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Ганновер",
+          "locative": "в провинции Ганновер",
+          "name_en": "Province of Hanover",
+          "from": null,
+          "to": "1946-08-22",
+          "locative_en": "in the Province of Hanover"
+        },
+        {
+          "name": "Земля Ганновер",
+          "locative": "в земле Ганновер",
+          "name_en": "State of Hanover",
+          "from": "1946-08-23",
+          "to": "1946-10-31",
+          "locative_en": "in the State of Hanover"
+        }
+      ],
+      "alt": []
+    },
+    "de-prov-brandenburg": {
+      "local": [
+        {
+          "name": "Provinz Brandenburg",
+          "lang": "de",
+          "from": null,
+          "to": "1945-06-04"
+        },
+        {
+          "name": "Provinz Mark Brandenburg",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1947-02-25"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Бранденбург",
+          "locative": "в провинции Бранденбург",
+          "name_en": "Province of Brandenburg",
+          "from": null,
+          "to": "1945-06-04",
+          "locative_en": "in the Province of Brandenburg"
+        },
+        {
+          "name": "Провинция Марк Бранденбург",
+          "locative": "в провинции Марк Бранденбург",
+          "name_en": "Province of Mark Brandenburg",
+          "from": "1945-06-05",
+          "to": "1947-02-25",
+          "locative_en": "in the Province of Mark Brandenburg"
+        }
+      ],
+      "alt": []
+    },
+    "de-bayern": {
+      "local": [
+        {
+          "name": "Königreich Bayern",
+          "lang": "de",
+          "from": null,
+          "to": "1918-11-07"
+        },
+        {
+          "name": "Freistaat Bayern",
+          "lang": "de",
+          "from": "1918-11-08",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Бавария",
+          "locative": "в Королевстве Бавария",
+          "name_en": "Kingdom of Bavaria",
+          "from": null,
+          "to": "1918-11-07",
+          "locative_en": "in the Kingdom of Bavaria"
+        },
+        {
+          "name": "Бавария",
+          "locative": "в Баварии",
+          "name_en": "Bavaria",
+          "from": "1918-11-08",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Bavaria",
+        "Bayern"
+      ]
+    },
+    "de-sachsen": {
+      "local": [
+        {
+          "name": "Königreich Sachsen",
+          "lang": "de",
+          "from": null,
+          "to": "1918-11-09"
+        },
+        {
+          "name": "Freistaat Sachsen",
+          "lang": "de",
+          "from": "1918-11-10",
+          "to": "1945-06-04"
+        },
+        {
+          "name": "Land Sachsen",
+          "lang": "de",
+          "from": "1945-06-05",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Freistaat Sachsen",
+          "lang": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Саксония",
+          "locative": "в Королевстве Саксония",
+          "name_en": "Kingdom of Saxony",
+          "from": null,
+          "to": "1918-11-09",
+          "locative_en": "in the Kingdom of Saxony"
+        },
+        {
+          "name": "Саксония",
+          "locative": "в Саксонии",
+          "name_en": "Saxony",
+          "from": "1918-11-10",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Саксония",
+          "locative": "в Саксонии",
+          "name_en": "Saxony",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Saxony",
+        "Sachsen"
+      ]
+    },
+    "de-sachsen-anhalt": {
+      "local": [
+        {
+          "name": "Provinz Sachsen",
+          "lang": "de",
+          "from": "1945-07-09",
+          "to": "1946-10-19"
+        },
+        {
+          "name": "Sachsen-Anhalt",
+          "lang": "de",
+          "from": "1946-10-20",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Sachsen-Anhalt",
+          "lang": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Саксония",
+          "locative": "в провинции Саксония",
+          "name_en": "Province of Saxony",
+          "from": "1945-07-09",
+          "to": "1946-10-19",
+          "locative_en": "in the Province of Saxony"
+        },
+        {
+          "name": "Саксония-Анхальт",
+          "locative": "в Саксонии-Анхальт",
+          "name_en": "Saxony-Anhalt",
+          "from": "1946-10-20",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Саксония-Анхальт",
+          "locative": "в Саксонии-Анхальт",
+          "name_en": "Saxony-Anhalt",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Saxony-Anhalt"
+      ]
+    },
+    "de-brandenburg": {
+      "local": [
+        {
+          "name": "Land Brandenburg",
+          "lang": "de",
+          "from": "1947-02-26",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Land Brandenburg",
+          "lang": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бранденбург",
+          "locative": "в Бранденбурге",
+          "name_en": "Brandenburg",
+          "from": "1947-02-26",
+          "to": "1952-07-24"
+        },
+        {
+          "name": "Бранденбург",
+          "locative": "в Бранденбурге",
+          "name_en": "Brandenburg",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Brandenburg"
+      ]
+    },
+    "de-nrw": {
+      "local": [
+        {
+          "name": "Nordrhein-Westfalen",
+          "lang": "de",
+          "from": "1946-08-23",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Северный Рейн-Вестфалия",
+          "locative": "в Северном Рейне-Вестфалии",
+          "name_en": "North Rhine-Westphalia",
+          "from": "1946-08-23",
+          "to": null
+        }
+      ],
+      "alt": [
+        "NRW",
+        "North Rhine-Westphalia"
+      ]
+    },
+    "de-niedersachsen": {
+      "local": [
+        {
+          "name": "Niedersachsen",
+          "lang": "de",
+          "from": "1946-11-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Нижняя Саксония",
+          "locative": "в Нижней Саксонии",
+          "name_en": "Lower Saxony",
+          "from": "1946-11-01",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Lower Saxony"
+      ]
+    },
+    "de-land-hamburg": {
+      "local": [
+        {
+          "name": "Freie und Hansestadt Hamburg",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Гамбург (земля)",
+          "locative": "в земле Гамбург",
+          "name_en": "Hamburg (state)",
+          "from": null,
+          "to": null,
+          "locative_en": "in the state of Hamburg"
+        }
+      ],
+      "alt": [
+        "Hamburg"
+      ]
+    },
+    "de-land-berlin": {
+      "local": [
+        {
+          "name": "Land Berlin",
+          "lang": "de",
+          "from": "1990-10-03",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Берлин (земля)",
+          "locative": "в земле Берлин",
+          "name_en": "Berlin (state)",
+          "from": "1990-10-03",
+          "to": null,
+          "locative_en": "in the state of Berlin"
+        }
+      ],
+      "alt": [
+        "Berlin"
+      ]
+    },
+    "de-bezirk-leipzig": {
+      "local": [
+        {
+          "name": "Bezirk Leipzig",
+          "lang": "de",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Округ Лейпциг",
+          "locative": "в округе Лейпциг",
+          "name_en": "Leipzig District",
+          "from": "1952-07-25",
+          "to": "1990-10-02",
+          "locative_en": "in the Leipzig District"
+        }
+      ],
+      "alt": []
+    },
+    "de-bezirk-halle": {
+      "local": [
+        {
+          "name": "Bezirk Halle",
+          "lang": "de",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Округ Галле",
+          "locative": "в округе Галле",
+          "name_en": "Halle District",
+          "from": "1952-07-25",
+          "to": "1990-10-02",
+          "locative_en": "in the Halle District"
+        }
+      ],
+      "alt": []
+    },
+    "de-bezirk-magdeburg": {
+      "local": [
+        {
+          "name": "Bezirk Magdeburg",
+          "lang": "de",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Округ Магдебург",
+          "locative": "в округе Магдебург",
+          "name_en": "Magdeburg District",
+          "from": "1952-07-25",
+          "to": "1990-10-02",
+          "locative_en": "in the Magdeburg District"
+        }
+      ],
+      "alt": []
+    },
+    "de-bezirk-frankfurt-oder": {
+      "local": [
+        {
+          "name": "Bezirk Frankfurt (Oder)",
+          "lang": "de",
+          "from": "1952-07-25",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Округ Франкфурт-на-Одере",
+          "locative": "в округе Франкфурт-на-Одере",
+          "name_en": "Frankfurt (Oder) District",
+          "from": "1952-07-25",
+          "to": "1990-10-02",
+          "locative_en": "in the Frankfurt (Oder) District"
+        }
+      ],
+      "alt": []
+    },
+    "de-berlin": {
+      "local": [
+        {
+          "name": "Berlin",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Берлин",
+          "locative": "в Берлине",
+          "name_en": "Berlin",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Groß-Berlin"
+      ]
+    },
+    "de-berlin-west": {
+      "local": [
+        {
+          "name": "Berlin (West)",
+          "lang": "de",
+          "from": "1948-11-30",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Западный Берлин",
+          "locative": "в Западном Берлине",
+          "name_en": "West Berlin",
+          "from": "1948-11-30",
+          "to": "1990-10-02"
+        }
+      ],
+      "alt": []
+    },
+    "de-berlin-east": {
+      "local": [
+        {
+          "name": "Berlin (Ost)",
+          "lang": "de",
+          "from": "1948-11-30",
+          "to": "1990-10-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Восточный Берлин",
+          "locative": "в Восточном Берлине",
+          "name_en": "East Berlin",
+          "from": "1948-11-30",
+          "to": "1990-10-02"
+        }
+      ],
+      "alt": []
+    },
+    "de-muenchen": {
+      "local": [
+        {
+          "name": "München",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Мюнхен",
+          "locative": "в Мюнхене",
+          "name_en": "Munich",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Munich"
+      ]
+    },
+    "de-koeln": {
+      "local": [
+        {
+          "name": "Köln",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Кёльн",
+          "locative": "в Кёльне",
+          "name_en": "Cologne",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Cologne",
+        "Cöln"
+      ]
+    },
+    "de-leipzig": {
+      "local": [
+        {
+          "name": "Leipzig",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лейпциг",
+          "locative": "в Лейпциге",
+          "name_en": "Leipzig",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "de-halle": {
+      "local": [
+        {
+          "name": "Halle (Saale)",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Галле",
+          "locative": "в Галле",
+          "name_en": "Halle (Saale)",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "de-hamburg": {
+      "local": [
+        {
+          "name": "Hamburg",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Гамбург",
+          "locative": "в Гамбурге",
+          "name_en": "Hamburg",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "de-wolfsburg": {
+      "local": [
+        {
+          "name": "Stadt des KdF-Wagens bei Fallersleben",
+          "lang": "de",
+          "from": "1938-07-01",
+          "to": "1945-05-24"
+        },
+        {
+          "name": "Wolfsburg",
+          "lang": "de",
+          "from": "1945-05-25",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Город автомобиля КдФ",
+          "locative": "в Городе автомобиля КдФ",
+          "name_en": "Stadt des KdF-Wagens",
+          "from": "1938-07-01",
+          "to": "1945-05-24",
+          "locative_en": "in the Stadt des KdF-Wagens"
+        },
+        {
+          "name": "Вольфсбург",
+          "locative": "в Вольфсбурге",
+          "name_en": "Wolfsburg",
+          "from": "1945-05-25",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "de-eisenhuettenstadt": {
+      "local": [
+        {
+          "name": "Fürstenberg (Oder)",
+          "lang": "de",
+          "from": null,
+          "to": "1953-05-06"
+        },
+        {
+          "name": "Stalinstadt",
+          "lang": "de",
+          "from": "1953-05-07",
+          "to": "1961-11-12"
+        },
+        {
+          "name": "Eisenhüttenstadt",
+          "lang": "de",
+          "from": "1961-11-13",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Фюрстенберг-на-Одере",
+          "locative": "в Фюрстенберге-на-Одере",
+          "name_en": "Fürstenberg (Oder)",
+          "from": null,
+          "to": "1953-05-06"
+        },
+        {
+          "name": "Сталинштадт",
+          "locative": "в Сталинштадте",
+          "name_en": "Stalinstadt",
+          "from": "1953-05-07",
+          "to": "1961-11-12"
+        },
+        {
+          "name": "Айзенхюттенштадт",
+          "locative": "в Айзенхюттенштадте",
+          "name_en": "Eisenhüttenstadt",
+          "from": "1961-11-13",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Stalinstadt",
+        "Fürstenberg (Oder)"
+      ]
+    },
+    "de-oberammergau": {
+      "local": [
+        {
+          "name": "Oberammergau",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Обераммергау",
+          "locative": "в Обераммергау",
+          "name_en": "Oberammergau",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "de-altmark": {
+      "local": [
+        {
+          "name": "Altmark",
+          "lang": "de",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Альтмарк",
+          "locative": "в Альтмарке",
+          "name_en": "Altmark",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-grand-duchy": {
+      "local": [
+        {
+          "name": "Suomen suuriruhtinaskunta",
+          "lang": "fi",
+          "from": "1809-10-01",
+          "to": "1917-12-05"
+        },
+        {
+          "name": "Storfurstendömet Finland",
+          "lang": "sv",
+          "from": "1809-10-01",
+          "to": "1917-12-05"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Великое княжество Финляндское",
+          "locative": "в Великом княжестве Финляндском",
+          "name_en": "Grand Duchy of Finland",
+          "from": "1809-10-01",
+          "to": "1917-12-05"
+        }
+      ],
+      "alt": [
+        "Grand Duchy of Finland",
+        "Великое княжество Финляндское"
+      ]
+    },
+    "fi": {
+      "local": [
+        {
+          "name": "Suomi",
+          "lang": "fi",
+          "from": "1917-12-06",
+          "to": null
+        },
+        {
+          "name": "Finland",
+          "lang": "sv",
+          "from": "1917-12-06",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Финляндия",
+          "locative": "в Финляндии",
+          "name_en": "Finland",
+          "from": "1917-12-06",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-uusimaa": {
+      "local": [
+        {
+          "name": "Uudenmaan lääni",
+          "lang": "fi",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Nylands län",
+          "lang": "sv",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Уусимаа",
+          "locative": "в губернии Уусимаа",
+          "name_en": "Uusimaa Province",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-turku-pori": {
+      "local": [
+        {
+          "name": "Turun ja Porin lääni",
+          "lang": "fi",
+          "from": "1634",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Åbo och Björneborgs län",
+          "lang": "sv",
+          "from": "1634",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Турку-Пори",
+          "locative": "в губернии Турку-Пори",
+          "name_en": "Turku and Pori Province",
+          "from": "1634",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-hame": {
+      "local": [
+        {
+          "name": "Hämeen lääni",
+          "lang": "fi",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Tavastehus län",
+          "lang": "sv",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Хяме",
+          "locative": "в губернии Хяме",
+          "name_en": "Häme Province",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-vaasa": {
+      "local": [
+        {
+          "name": "Vaasan lääni",
+          "lang": "fi",
+          "from": "1775",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Vasa län",
+          "lang": "sv",
+          "from": "1775",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Вааса",
+          "locative": "в губернии Вааса",
+          "name_en": "Vaasa Province",
+          "from": "1775",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-oulu": {
+      "local": [
+        {
+          "name": "Oulun lääni",
+          "lang": "fi",
+          "from": "1775",
+          "to": "2009-12-31"
+        },
+        {
+          "name": "Uleåborgs län",
+          "lang": "sv",
+          "from": "1775",
+          "to": "2009-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Оулу",
+          "locative": "в губернии Оулу",
+          "name_en": "Oulu Province",
+          "from": "1775",
+          "to": "2009-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-kuopio": {
+      "local": [
+        {
+          "name": "Kuopion lääni",
+          "lang": "fi",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Kuopio län",
+          "lang": "sv",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Куопио",
+          "locative": "в губернии Куопио",
+          "name_en": "Kuopio Province",
+          "from": "1831-03-24",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-keski-suomi": {
+      "local": [
+        {
+          "name": "Keski-Suomen lääni",
+          "lang": "fi",
+          "from": "1960-03-01",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Mellersta Finlands län",
+          "lang": "sv",
+          "from": "1960-03-01",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Центральная Финляндия",
+          "locative": "в губернии Центральная Финляндия",
+          "name_en": "Central Finland Province",
+          "from": "1960-03-01",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-pohjois-karjala": {
+      "local": [
+        {
+          "name": "Pohjois-Karjalan lääni",
+          "lang": "fi",
+          "from": "1960",
+          "to": "1997-08-31"
+        },
+        {
+          "name": "Norra Karelens län",
+          "lang": "sv",
+          "from": "1960",
+          "to": "1997-08-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Северная Карелия",
+          "locative": "в губернии Северная Карелия",
+          "name_en": "North Karelia Province",
+          "from": "1960",
+          "to": "1997-08-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-etela-suomi": {
+      "local": [
+        {
+          "name": "Etelä-Suomen lääni",
+          "lang": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "name": "Södra Finlands län",
+          "lang": "sv",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Южная Финляндия",
+          "locative": "в губернии Южная Финляндия",
+          "name_en": "Southern Finland Province",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-lansi-suomi": {
+      "local": [
+        {
+          "name": "Länsi-Suomen lääni",
+          "lang": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "name": "Västra Finlands län",
+          "lang": "sv",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Западная Финляндия",
+          "locative": "в губернии Западная Финляндия",
+          "name_en": "Western Finland Province",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-laani-ita-suomi": {
+      "local": [
+        {
+          "name": "Itä-Suomen lääni",
+          "lang": "fi",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        },
+        {
+          "name": "Östra Finlands län",
+          "lang": "sv",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "губерния Восточная Финляндия",
+          "locative": "в губернии Восточная Финляндия",
+          "name_en": "Eastern Finland Province",
+          "from": "1997-09-01",
+          "to": "2009-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "fi-uusimaa": {
+      "local": [
+        {
+          "name": "Uusimaa",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Nyland",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Уусимаа",
+          "locative": "в Уусимаа",
+          "name_en": "Uusimaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-pirkanmaa": {
+      "local": [
+        {
+          "name": "Pirkanmaa",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Birkaland",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Пирканмаа",
+          "locative": "в Пирканмаа",
+          "name_en": "Pirkanmaa",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-varsinais-suomi": {
+      "local": [
+        {
+          "name": "Varsinais-Suomi",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Egentliga Finland",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Варсинайс-Суоми",
+          "locative": "в Варсинайс-Суоми",
+          "name_en": "Southwest Finland",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-pohjois-pohjanmaa": {
+      "local": [
+        {
+          "name": "Pohjois-Pohjanmaa",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Norra Österbotten",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Северная Остроботния",
+          "locative": "в Северной Остроботнии",
+          "name_en": "North Ostrobothnia",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-keski-suomi": {
+      "local": [
+        {
+          "name": "Keski-Suomi",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Mellersta Finland",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Центральная Финляндия",
+          "locative": "в Центральной Финляндии",
+          "name_en": "Central Finland",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-satakunta": {
+      "local": [
+        {
+          "name": "Satakunta",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Satakunta",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сатакунта",
+          "locative": "в Сатакунте",
+          "name_en": "Satakunta",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-pohjois-savo": {
+      "local": [
+        {
+          "name": "Pohjois-Savo",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Norra Savolax",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Северное Саво",
+          "locative": "в Северном Саво",
+          "name_en": "North Savo",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-pohjois-karjala": {
+      "local": [
+        {
+          "name": "Pohjois-Karjala",
+          "lang": "fi",
+          "from": "1994-01-01",
+          "to": null
+        },
+        {
+          "name": "Norra Karelen",
+          "lang": "sv",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Северная Карелия",
+          "locative": "в Северной Карелии",
+          "name_en": "North Karelia",
+          "from": "1994-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "fi-helsinki": {
+      "local": [
+        {
+          "name": "Helsinki",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Helsingfors",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Хельсинки",
+          "locative": "в Хельсинки",
+          "name_en": "Helsinki",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Helsingfors"
+      ]
+    },
+    "fi-tampere": {
+      "local": [
+        {
+          "name": "Tampere",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Tammerfors",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Тампере",
+          "locative": "в Тампере",
+          "name_en": "Tampere",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Tammerfors"
+      ]
+    },
+    "fi-turku": {
+      "local": [
+        {
+          "name": "Turku",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Åbo",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Турку",
+          "locative": "в Турку",
+          "name_en": "Turku",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Åbo"
+      ]
+    },
+    "fi-oulu": {
+      "local": [
+        {
+          "name": "Oulu",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Uleåborg",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Оулу",
+          "locative": "в Оулу",
+          "name_en": "Oulu",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Uleåborg"
+      ]
+    },
+    "fi-jyvaskyla": {
+      "local": [
+        {
+          "name": "Jyväskylä",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Jyväskylä",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ювяскюля",
+          "locative": "в Ювяскюля",
+          "name_en": "Jyväskylä",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Jyväskylän maalaiskunta (до 2009)"
+      ]
+    },
+    "fi-varkaus": {
+      "local": [
+        {
+          "name": "Warkaus",
+          "lang": "fi",
+          "from": null,
+          "to": "1928"
+        },
+        {
+          "name": "Varkaus",
+          "lang": "fi",
+          "from": "1929",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Варкаус",
+          "locative": "в Варкаусе",
+          "name_en": "Varkaus",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Warkaus"
+      ]
+    },
+    "fi-rauma": {
+      "local": [
+        {
+          "name": "Rauma",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Raumo",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Раума",
+          "locative": "в Рауме",
+          "name_en": "Rauma",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Raumo"
+      ]
+    },
+    "fi-ilomantsi": {
+      "local": [
+        {
+          "name": "Ilomantsi",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Ilomants",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Иломантси",
+          "locative": "в Иломантси",
+          "name_en": "Ilomantsi",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Ilomants"
+      ]
+    },
+    "fi-tyrnava": {
+      "local": [
+        {
+          "name": "Tyrnävä",
+          "lang": "fi",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Tyrnävä",
+          "lang": "sv",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Тюрнявя",
+          "locative": "в Тюрнявя",
+          "name_en": "Tyrnävä",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
     },
     "fr-reg-idf": {
       "local": [
@@ -945,27 +3380,752 @@
       ],
       "alt": []
     },
-    "state-de-empire": {
+    "it": {
       "local": [
         {
-          "name": "Deutsches Reich",
-          "lang": "de",
-          "from": "1871",
-          "to": "1918-11-09"
+          "name": "Regno d'Italia",
+          "lang": "it",
+          "from": "1861-03-17",
+          "to": "1946-06-17"
+        },
+        {
+          "name": "Repubblica Italiana",
+          "lang": "it",
+          "from": "1946-06-18",
+          "to": null
         }
       ],
       "ru": [
         {
-          "name": "Германская империя",
-          "locative": "в Германской империи",
-          "from": "1871",
-          "to": "1918-11-09"
+          "name": "Королевство Италия",
+          "locative": "в Королевстве Италия",
+          "name_en": "Kingdom of Italy",
+          "from": "1861-03-17",
+          "to": "1946-06-17"
+        },
+        {
+          "name": "Италия",
+          "locative": "в Италии",
+          "name_en": "Italy",
+          "from": "1946-06-18",
+          "to": null
         }
       ],
       "alt": [
-        "Kaiserreich",
-        "Германская империя"
+        "Italia",
+        "Regno d'Italia (Q172579)"
       ]
+    },
+    "it-lazio": {
+      "local": [
+        {
+          "name": "Lazio",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Лацио",
+          "locative": "в Лацио",
+          "name_en": "Lazio",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-lombardia": {
+      "local": [
+        {
+          "name": "Lombardia",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ломбардия",
+          "locative": "в Ломбардии",
+          "name_en": "Lombardy",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-piemonte": {
+      "local": [
+        {
+          "name": "Piemonte",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Пьемонт",
+          "locative": "в Пьемонте",
+          "name_en": "Piedmont",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-toscana": {
+      "local": [
+        {
+          "name": "Toscana",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Тоскана",
+          "locative": "в Тоскане",
+          "name_en": "Tuscany",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-campania": {
+      "local": [
+        {
+          "name": "Campania",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Кампания",
+          "locative": "в Кампании",
+          "name_en": "Campania",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-sicilia": {
+      "local": [
+        {
+          "name": "Sicilia",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сицилия",
+          "locative": "на Сицилии",
+          "name_en": "Sicily",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-basilicata": {
+      "local": [
+        {
+          "name": "Basilicata",
+          "lang": "it",
+          "from": null,
+          "to": "1931"
+        },
+        {
+          "name": "Lucania",
+          "lang": "it",
+          "from": "1932",
+          "to": "1947"
+        },
+        {
+          "name": "Basilicata",
+          "lang": "it",
+          "from": "1948",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Базиликата",
+          "locative": "в Базиликате",
+          "name_en": "Basilicata",
+          "from": null,
+          "to": "1931"
+        },
+        {
+          "name": "Лукания",
+          "locative": "в Лукании",
+          "name_en": "Lucania",
+          "from": "1932",
+          "to": "1947"
+        },
+        {
+          "name": "Базиликата",
+          "locative": "в Базиликате",
+          "name_en": "Basilicata",
+          "from": "1948",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Lucania"
+      ]
+    },
+    "it-prov-roma": {
+      "local": [
+        {
+          "name": "Provincia di Roma",
+          "lang": "it",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "Città metropolitana di Roma Capitale",
+          "lang": "it",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Рим",
+          "locative": "в провинции Рим",
+          "name_en": "Province of Rome",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Рим",
+          "locative": "в метропольном городе Рим",
+          "name_en": "Metropolitan City of Rome",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-milano": {
+      "local": [
+        {
+          "name": "Provincia di Milano",
+          "lang": "it",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "Città metropolitana di Milano",
+          "lang": "it",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Милан",
+          "locative": "в провинции Милан",
+          "name_en": "Province of Milan",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Милан",
+          "locative": "в метропольном городе Милан",
+          "name_en": "Metropolitan City of Milan",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-torino": {
+      "local": [
+        {
+          "name": "Provincia di Torino",
+          "lang": "it",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "Città metropolitana di Torino",
+          "lang": "it",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Турин",
+          "locative": "в провинции Турин",
+          "name_en": "Province of Turin",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Турин",
+          "locative": "в метропольном городе Турин",
+          "name_en": "Metropolitan City of Turin",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-firenze": {
+      "local": [
+        {
+          "name": "Provincia di Firenze",
+          "lang": "it",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "Città metropolitana di Firenze",
+          "lang": "it",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Флоренция",
+          "locative": "в провинции Флоренция",
+          "name_en": "Province of Florence",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Флоренция",
+          "locative": "в метропольном городе Флоренция",
+          "name_en": "Metropolitan City of Florence",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-napoli": {
+      "local": [
+        {
+          "name": "Provincia di Napoli",
+          "lang": "it",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "Città metropolitana di Napoli",
+          "lang": "it",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Неаполь",
+          "locative": "в провинции Неаполь",
+          "name_en": "Province of Naples",
+          "from": null,
+          "to": "2014-12-31"
+        },
+        {
+          "name": "метропольный город Неаполь",
+          "locative": "в метропольном городе Неаполь",
+          "name_en": "Metropolitan City of Naples",
+          "from": "2015-01-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-palermo": {
+      "local": [
+        {
+          "name": "Provincia di Palermo",
+          "lang": "it",
+          "from": null,
+          "to": "2015-08-03"
+        },
+        {
+          "name": "Città metropolitana di Palermo",
+          "lang": "it",
+          "from": "2015-08-04",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Палермо",
+          "locative": "в провинции Палермо",
+          "name_en": "Province of Palermo",
+          "from": null,
+          "to": "2015-08-03"
+        },
+        {
+          "name": "метропольный город Палермо",
+          "locative": "в метропольном городе Палермо",
+          "name_en": "Metropolitan City of Palermo",
+          "from": "2015-08-04",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-trapani": {
+      "local": [
+        {
+          "name": "Provincia di Trapani",
+          "lang": "it",
+          "from": null,
+          "to": "2015-08-03"
+        },
+        {
+          "name": "Libero consorzio comunale di Trapani",
+          "lang": "it",
+          "from": "2015-08-04",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Трапани",
+          "locative": "в провинции Трапани",
+          "name_en": "Province of Trapani",
+          "from": null,
+          "to": "2015-08-03"
+        },
+        {
+          "name": "свободный консорциум коммун Трапани",
+          "locative": "в консорциуме коммун Трапани",
+          "name_en": "Free Municipal Consortium of Trapani",
+          "from": "2015-08-04",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-avellino": {
+      "local": [
+        {
+          "name": "Provincia di Avellino",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Авеллино",
+          "locative": "в провинции Авеллино",
+          "name_en": "Province of Avellino",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-potenza": {
+      "local": [
+        {
+          "name": "Provincia di Potenza",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Потенца",
+          "locative": "в провинции Потенца",
+          "name_en": "Province of Potenza",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-matera": {
+      "local": [
+        {
+          "name": "Provincia di Matera",
+          "lang": "it",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Матера",
+          "locative": "в провинции Матера",
+          "name_en": "Province of Matera",
+          "from": "1927-01-02",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-prov-aosta": {
+      "local": [
+        {
+          "name": "Provincia di Aosta",
+          "lang": "it",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Аоста",
+          "locative": "в провинции Аоста",
+          "name_en": "Province of Aosta",
+          "from": "1927-01-02",
+          "to": "1945-12-31"
+        }
+      ],
+      "alt": []
+    },
+    "it-roma": {
+      "local": [
+        {
+          "name": "Roma",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Рим",
+          "locative": "в Риме",
+          "name_en": "Rome",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Rome"
+      ]
+    },
+    "it-milano": {
+      "local": [
+        {
+          "name": "Milano",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Милан",
+          "locative": "в Милане",
+          "name_en": "Milan",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Milan"
+      ]
+    },
+    "it-torino": {
+      "local": [
+        {
+          "name": "Torino",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Турин",
+          "locative": "в Турине",
+          "name_en": "Turin",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Turin"
+      ]
+    },
+    "it-firenze": {
+      "local": [
+        {
+          "name": "Firenze",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Флоренция",
+          "locative": "во Флоренции",
+          "name_en": "Florence",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Florence"
+      ]
+    },
+    "it-napoli": {
+      "local": [
+        {
+          "name": "Napoli",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Неаполь",
+          "locative": "в Неаполе",
+          "name_en": "Naples",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Naples"
+      ]
+    },
+    "it-palermo": {
+      "local": [
+        {
+          "name": "Palermo",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Палермо",
+          "locative": "в Палермо",
+          "name_en": "Palermo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-ivrea": {
+      "local": [
+        {
+          "name": "Ivrea",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Иврея",
+          "locative": "в Иврее",
+          "name_en": "Ivrea",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Eporedia"
+      ]
+    },
+    "it-sesto-san-giovanni": {
+      "local": [
+        {
+          "name": "Sesto San Giovanni",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сесто-Сан-Джованни",
+          "locative": "в Сесто-Сан-Джованни",
+          "name_en": "Sesto San Giovanni",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-matera": {
+      "local": [
+        {
+          "name": "Matera",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Матера",
+          "locative": "в Матере",
+          "name_en": "Matera",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-santangelo-dei-lombardi": {
+      "local": [
+        {
+          "name": "Sant'Angelo dei Lombardi",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сант-Анджело-деи-Ломбарди",
+          "locative": "в Сант-Анджело-деи-Ломбарди",
+          "name_en": "Sant'Angelo dei Lombardi",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "it-gibellina": {
+      "local": [
+        {
+          "name": "Gibellina",
+          "lang": "it",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Джибеллина",
+          "locative": "в Джибеллине",
+          "name_en": "Gibellina",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
     },
     "state-at-hu": {
       "local": [
@@ -1031,28 +4191,6 @@
       "alt": [
         "Wolne Miasto Gdańsk",
         "Free City of Danzig"
-      ]
-    },
-    "state-de-reich": {
-      "local": [
-        {
-          "name": "Deutsches Reich",
-          "lang": "de",
-          "from": "1918-11-09",
-          "to": "1945-05-23"
-        }
-      ],
-      "ru": [
-        {
-          "name": "Германия",
-          "locative": "в Германии",
-          "from": "1918-11-09",
-          "to": "1945-05-23"
-        }
-      ],
-      "alt": [
-        "Веймарская республика (Q41304)",
-        "Третий рейх (Q7318)"
       ]
     },
     "pl-gub-warszawa": {
@@ -1998,6 +5136,677 @@
         }
       ],
       "alt": []
+    },
+    "state-ottoman": {
+      "local": [
+        {
+          "name": "Devlet-i Âliye-i Osmâniyye",
+          "lang": "ota",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Османская империя",
+          "locative": "в Османской империи",
+          "name_en": "Ottoman Empire",
+          "from": null,
+          "to": "1922-11-01"
+        }
+      ],
+      "alt": [
+        "Ottoman Empire",
+        "Osmanlı İmparatorluğu",
+        "Оттоманская Порта"
+      ]
+    },
+    "tr": {
+      "local": [
+        {
+          "name": "Türkiye Büyük Millet Meclisi Hükümeti",
+          "lang": "tr",
+          "from": "1920-04-23",
+          "to": "1923-10-28"
+        },
+        {
+          "name": "Türkiye Cumhuriyeti",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Турция (правительство Великого национального собрания)",
+          "locative": "в Турции",
+          "from": "1920-04-23",
+          "to": "1923-10-28",
+          "name_en": "Turkey (Grand National Assembly government)",
+          "locative_en": "in Turkey"
+        },
+        {
+          "name": "Турция",
+          "locative": "в Турции",
+          "name_en": "Turkey",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Türkiye",
+        "Turkish Republic"
+      ]
+    },
+    "tr-vil-ankara": {
+      "local": [
+        {
+          "name": "Ankara Vilâyeti",
+          "lang": "tr",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "вилайет Ангора",
+          "locative": "в вилайете Ангора",
+          "name_en": "Angora Vilayet",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "alt": []
+    },
+    "tr-vil-konya": {
+      "local": [
+        {
+          "name": "Konya Vilâyeti",
+          "lang": "tr",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Конийский вилайет",
+          "locative": "в Конийском вилайете",
+          "name_en": "Konya Vilayet",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "alt": []
+    },
+    "tr-vil-erzurum": {
+      "local": [
+        {
+          "name": "Erzurum Vilâyeti",
+          "lang": "tr",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Эрзурумский вилайет",
+          "locative": "в Эрзурумском вилайете",
+          "name_en": "Erzurum Vilayet",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "alt": []
+    },
+    "tr-vil-kastamonu": {
+      "local": [
+        {
+          "name": "Kastamonu Vilâyeti",
+          "lang": "tr",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Кастамонийский вилайет",
+          "locative": "в Кастамонийском вилайете",
+          "name_en": "Kastamonu Vilayet",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "alt": []
+    },
+    "tr-vil-aydin": {
+      "local": [
+        {
+          "name": "Aydın Vilâyeti",
+          "lang": "tr",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Айдынский вилайет",
+          "locative": "в Айдынском вилайете",
+          "name_en": "Aidin Vilayet",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "alt": []
+    },
+    "tr-vil-hudavendigar": {
+      "local": [
+        {
+          "name": "Hüdavendigâr Vilâyeti",
+          "lang": "tr",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "вилайет Худавендигяр",
+          "locative": "в вилайете Худавендигяр",
+          "name_en": "Hüdavendigâr Vilayet",
+          "from": null,
+          "to": "1923-10-28"
+        }
+      ],
+      "alt": []
+    },
+    "tr-vil-aleppo": {
+      "local": [
+        {
+          "name": "Haleb Vilâyeti",
+          "lang": "ota",
+          "from": null,
+          "to": "1918-10-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Алеппский вилайет",
+          "locative": "в Алеппском вилайете",
+          "name_en": "Aleppo Vilayet",
+          "from": null,
+          "to": "1918-10-30"
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-istanbul": {
+      "local": [
+        {
+          "name": "İstanbul ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Стамбул",
+          "locative": "в провинции Стамбул",
+          "name_en": "Istanbul Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-ankara": {
+      "local": [
+        {
+          "name": "Ankara ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Анкара",
+          "locative": "в провинции Анкара",
+          "name_en": "Ankara Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-izmir": {
+      "local": [
+        {
+          "name": "İzmir ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Измир",
+          "locative": "в провинции Измир",
+          "name_en": "İzmir Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-bursa": {
+      "local": [
+        {
+          "name": "Bursa ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Бурса",
+          "locative": "в провинции Бурса",
+          "name_en": "Bursa Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-konya": {
+      "local": [
+        {
+          "name": "Konya ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Конья",
+          "locative": "в провинции Конья",
+          "name_en": "Konya Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-gaziantep": {
+      "local": [
+        {
+          "name": "Gaziantep ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Газиантеп",
+          "locative": "в провинции Газиантеп",
+          "name_en": "Gaziantep Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-zonguldak": {
+      "local": [
+        {
+          "name": "Zonguldak ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Зонгулдак",
+          "locative": "в провинции Зонгулдак",
+          "name_en": "Zonguldak Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-karabuk": {
+      "local": [
+        {
+          "name": "Karabük ili",
+          "lang": "tr",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Карабюк",
+          "locative": "в провинции Карабюк",
+          "name_en": "Karabük Province",
+          "from": "1995-06-06",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-il-erzurum": {
+      "local": [
+        {
+          "name": "Erzurum ili",
+          "lang": "tr",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "провинция Эрзурум",
+          "locative": "в провинции Эрзурум",
+          "name_en": "Erzurum Province",
+          "from": "1923-10-29",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-istanbul": {
+      "local": [
+        {
+          "name": "Kostantiniyye",
+          "lang": "ota",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "İstanbul",
+          "lang": "tr",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Константинополь",
+          "locative": "в Константинополе",
+          "name_en": "Constantinople",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Стамбул",
+          "locative": "в Стамбуле",
+          "name_en": "Istanbul",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Constantinople",
+        "Dersaadet",
+        "Byzantium"
+      ]
+    },
+    "tr-ankara": {
+      "local": [
+        {
+          "name": "Ankara",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Ангора",
+          "locative": "в Ангоре",
+          "name_en": "Angora",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Анкара",
+          "locative": "в Анкаре",
+          "name_en": "Ankara",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Angora",
+        "Ancyra"
+      ]
+    },
+    "tr-izmir": {
+      "local": [
+        {
+          "name": "İzmir",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Смирна",
+          "locative": "в Смирне",
+          "name_en": "Smyrna",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Измир",
+          "locative": "в Измире",
+          "name_en": "İzmir",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Smyrna",
+        "Σμύρνη"
+      ]
+    },
+    "tr-bursa": {
+      "local": [
+        {
+          "name": "Bursa",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бруса",
+          "locative": "в Брусе",
+          "name_en": "Brusa",
+          "from": null,
+          "to": "1929"
+        },
+        {
+          "name": "Бурса",
+          "locative": "в Бурсе",
+          "name_en": "Bursa",
+          "from": "1930",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Brusa",
+        "Broussa",
+        "Prusa"
+      ]
+    },
+    "tr-konya": {
+      "local": [
+        {
+          "name": "Konya",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Конья",
+          "locative": "в Конье",
+          "name_en": "Konya",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Iconium",
+        "Икония"
+      ]
+    },
+    "tr-gaziantep": {
+      "local": [
+        {
+          "name": "Ayıntab",
+          "lang": "ota",
+          "from": null,
+          "to": "1921-01"
+        },
+        {
+          "name": "Gazi Ayıntab",
+          "lang": "tr",
+          "from": "1921-02",
+          "to": "1927"
+        },
+        {
+          "name": "Gaziantep",
+          "lang": "tr",
+          "from": "1928",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Антеп",
+          "locative": "в Антепе",
+          "name_en": "Aintab",
+          "from": null,
+          "to": "1921-01"
+        },
+        {
+          "name": "Газиантеп",
+          "locative": "в Газиантепе",
+          "name_en": "Gaziantep",
+          "from": "1921-02",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Aintab",
+        "Ayıntap",
+        "Antep"
+      ]
+    },
+    "tr-zonguldak": {
+      "local": [
+        {
+          "name": "Zonguldak",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Зонгулдак",
+          "locative": "в Зонгулдаке",
+          "name_en": "Zonguldak",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-karabuk": {
+      "local": [
+        {
+          "name": "Karabük",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Карабюк",
+          "locative": "в Карабюке",
+          "name_en": "Karabük",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-cumra": {
+      "local": [
+        {
+          "name": "Çumra",
+          "lang": "tr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Чумра",
+          "locative": "в Чумре",
+          "name_en": "Çumra",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "tr-pasinler": {
+      "local": [
+        {
+          "name": "Hasankale",
+          "lang": "tr",
+          "from": null,
+          "to": "1927"
+        },
+        {
+          "name": "Pasinler",
+          "lang": "tr",
+          "from": "1928",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Хасанкале",
+          "locative": "в Хасанкале",
+          "name_en": "Hasankale",
+          "from": null,
+          "to": "1927"
+        },
+        {
+          "name": "Пасинлер",
+          "locative": "в Пасинлере",
+          "name_en": "Pasinler",
+          "from": "1928",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Hasan Kala",
+        "Basiani"
+      ]
     },
     "us-ny": {
       "local": [

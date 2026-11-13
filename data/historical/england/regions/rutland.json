@@ -138,7 +138,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -146,10 +147,16 @@
      "url": "https://en.wikipedia.org/wiki/Rutland",
      "accessed": "2026-10-29",
      "supports": "дата и закон"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/ukpga/1972/70/contents",
+     "accessed": "2026-11-12",
+     "supports": "Local Government Act 1972 (c. 70): Ратленд в составе Лестершира"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-rutland-1976-reservoir-flooded",
@@ -287,7 +294,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_legislation"
    ],
    "evidence": [
     {
@@ -295,10 +303,16 @@
      "url": "https://en.wikipedia.org/wiki/Rutland",
      "accessed": "2026-10-29",
      "supports": "дата"
+    },
+    {
+     "source_id": "gb_legislation",
+     "url": "https://www.legislation.gov.uk/uksi/1996/507/contents/made",
+     "accessed": "2026-11-12",
+     "supports": "Leicestershire (City of Leicester and District of Rutland) (Structural Change) Order 1996"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-rutland-2009-oakham-london-train",
@@ -359,7 +373,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "gb_wikipedia"
+    "gb_wikipedia",
+    "gb_govuk"
    ],
    "evidence": [
     {
@@ -367,10 +382,16 @@
      "url": "https://en.wikipedia.org/wiki/Rutland",
      "accessed": "2026-10-29",
      "supports": "конец марта 2011"
+    },
+    {
+     "source_id": "gb_govuk",
+     "url": "https://www.gov.uk/government/news/changes-to-the-prison-estate--2",
+     "accessed": "2026-11-12",
+     "supports": "Министерство юстиции, январь 2011: план закрыть тюрьмы Lancaster Castle и Ashwell"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "gb-rutland-2020-first-mcdonalds",

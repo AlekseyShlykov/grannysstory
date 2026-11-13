@@ -1,0 +1,498 @@
+{
+ "records": [
+  {
+   "id": "it-nat-2002-euro-cash",
+   "title": "Евро в кошельках вместо лиры",
+   "title_en": "Euro cash replaces the lira",
+   "start_date": "2002-01-01",
+   "end_date": "2002-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "1 января 2002 г. в обращение поступили наличные евро; лира перестала быть законным платёжным средством в конце февраля 2002 г.",
+   "historical_summary_en": "On 1 January 2002 euro cash entered circulation; the lira ceased to be legal tender at the end of February 2002.",
+   "affected_groups": [
+    "all_residents",
+    "consumers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "counting_in_lire",
+    "prices_doubled_feeling"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_mef"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Lira_italiana",
+     "accessed": "2026-11-11",
+     "supports": "наличные евро 1.01.2002; лира — до 28.02.2002 (инфобокс)"
+    },
+    {
+     "source_id": "it_mef",
+     "url": "https://www.de.mef.gov.it/it/attivita_istituzionali/monetazione/introduzione_euro/",
+     "accessed": "2026-11-12",
+     "supports": "dal 1° gennaio al 28 febbraio 2002 l'euro ha affiancato la lira; dal 1° marzo moneta nazionale"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2005-conscription-suspended",
+   "title": "Приостановка обязательной военной службы",
+   "title_en": "Compulsory military service suspended",
+   "start_date": "2005-01-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "social_policy",
+   "historical_summary": "По закону № 226 от 23 августа 2004 г. призыв на срочную службу был приостановлен с 1 января 2005 г. В послевоенные десятилетия служба в армии длилась 15 месяцев, с 1976 г. — 12, с 1997 г. — 10.",
+   "historical_summary_en": "Under law no. 226 of 23 August 2004, call-ups for compulsory service were suspended from 1 January 2005. In the post-war decades army service had lasted 15 months, from 1976 12 months and from 1997 10 months.",
+   "affected_groups": [
+    "young_adults",
+    "men",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "son_away_on_military_service"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Leva_militare_in_Italia",
+     "accessed": "2026-11-11",
+     "supports": "legge 23.08.2004 n. 226; с 1.01.2005; сроки 15/12/10 мес."
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2004-08-23;226",
+     "accessed": "2026-11-12",
+     "supports": "Legge 23 agosto 2004 n. 226 «Sospensione anticipata del servizio obbligatorio di leva»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2006-world-cup-2006",
+   "title": "Италия — чемпион мира по футболу",
+   "title_en": "Italy wins the football World Cup",
+   "start_date": "2006-07-09",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "sport",
+   "historical_summary": "9 июля 2006 г. сборная Италии в четвёртый раз выиграла чемпионат мира по футболу.",
+   "historical_summary_en": "On 9 July 2006 Italy won the football World Cup for the fourth time.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "street_celebration_at_night"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "9 July 2006: Italy wins its fourth World Cup"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-2015-divorce-short",
+   "title": "Ускоренный развод",
+   "title_en": "Faster divorce",
+   "start_date": "2015",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон № 55 2015 г. сократил сроки: развод стал возможен через год после судебного раздельного проживания и через шесть месяцев после раздельного проживания по согласию.",
+   "historical_summary_en": "Law no. 55 of 2015 shortened the waiting periods: divorce became possible one year after judicial separation and six months after consensual separation.",
+   "affected_groups": [
+    "women",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "second_marriage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_sul_divorzio",
+     "accessed": "2026-11-11",
+     "supports": "legge 55/2015; 1 год / 6 месяцев"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2015-05-06;55",
+     "accessed": "2026-11-12",
+     "supports": "Legge 6 maggio 2015 n. 55: 12 месяцев после судебного раздельного проживания, 6 месяцев — по согласию"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2016-civil-unions",
+   "title": "Закон о гражданских союзах",
+   "title_en": "Civil unions law",
+   "title_original": "Legge Cirinnà",
+   "start_date": "2016-05-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон № 76 от 20 мая 2016 г. (закон Чиринны) ввёл гражданские союзы для пар одного пола и урегулировал фактическое совместное проживание пар любого пола. Закон вступил в силу 5 июня 2016 г.",
+   "historical_summary_en": "Law no. 76 of 20 May 2016 (the Cirinnà law) introduced civil unions for same-sex couples and regulated de facto cohabitation for couples of any sex. The law came into force on 5 June 2016.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_acceptance"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_Cirinnà",
+     "accessed": "2026-11-11",
+     "supports": "legge 20.05.2016 n. 76; в силе с 5.06.2016"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2016-05-20;76",
+     "accessed": "2026-11-12",
+     "supports": "Legge 20 maggio 2016 n. 76 о гражданских союзах и сожительстве, в силе с 5.06.2016"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2019-reddito-cittadinanza",
+   "title": "Гражданский доход",
+   "title_en": "Citizens' income",
+   "title_original": "Reddito di cittadinanza",
+   "start_date": "2019-01-28",
+   "end_date": "2024",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "social_policy",
+   "historical_summary": "Декрет-закон № 4 от 28 января 2019 г. ввёл «гражданский доход» — пособие для малоимущих семей, сочетавшееся с мерами по поиску работы; оно действовало с 2019 по 2024 г.",
+   "historical_summary_en": "Decree-law no. 4 of 28 January 2019 introduced the 'citizens' income', a benefit for low-income households combined with job-search measures; it was in force from 2019 to 2024.",
+   "affected_groups": [
+    "unemployed",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "grandchild_without_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Reddito_di_cittadinanza",
+     "accessed": "2026-11-11",
+     "supports": "d.l. 28.01.2019 n. 4; в силе 2019–2024"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2019-01-28;4",
+     "accessed": "2026-11-12",
+     "supports": "DL 28 gennaio 2019 n. 4 о гражданском доходе"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2020-covid-quarantine",
+   "title": "Общенациональный карантин из-за COVID-19",
+   "title_en": "Nationwide COVID-19 quarantine",
+   "start_date": "2020-03",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "public_health",
+   "historical_summary": "В феврале 2020 г. пандемия COVID-19 охватила Италию, а в марте во всей стране был введён карантин.",
+   "historical_summary_en": "In February 2020 the COVID-19 pandemic reached Italy, and in March a quarantine was imposed across the whole country.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "school_pupils"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "phone_calls_in_lockdown",
+    "singing_from_balconies",
+    "grandchildren_behind_glass"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_governo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "February 2020 pandemic hits Italy; March national quarantine"
+    },
+    {
+     "source_id": "it_governo",
+     "url": "http://www.governo.it/it/articolo/firmato-il-dpcm-9-marzo-2020/14276",
+     "accessed": "2026-11-12",
+     "supports": "DPCM 9 marzo 2020: misure dell'art. 1 del DPCM 8 marzo estese a tutto il territorio nazionale"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2020-covid-vaccination",
+   "title": "Начало вакцинации от COVID-19",
+   "title_en": "COVID-19 vaccination begins",
+   "start_date": "2020-12-27",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "public_health",
+   "historical_summary": "27 декабря 2020 г. в Италии началась кампания вакцинации от COVID-19. К 18 апреля 2022 г. полный курс прошли около 84% населения.",
+   "historical_summary_en": "On 27 December 2020 Italy's COVID-19 vaccination campaign began. By 18 April 2022 about 84% of the population had completed the full course.",
+   "affected_groups": [
+    "all_residents",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "vaccine_appointment"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_wikipedia",
+    "it_governo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "27 December 2020 vaccination campaign begins"
+    },
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Pandemia_di_COVID-19_in_Italia",
+     "accessed": "2026-11-11",
+     "supports": "~84% полный курс на 18.04.2022"
+    },
+    {
+     "source_id": "it_governo",
+     "url": "http://www.governo.it/it/approfondimento/campagna-vaccinazione-anti-covid-19/16000",
+     "accessed": "2026-11-12",
+     "supports": "la campagna di vaccinazione anti Covid-19 è iniziata il 27 dicembre 2020 con il Vaccine day"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2021-pnrr",
+   "title": "Национальный план восстановления (PNRR)",
+   "title_en": "National Recovery and Resilience Plan (PNRR)",
+   "title_original": "Piano nazionale di ripresa e resilienza",
+   "start_date": "2021-04-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "social_policy",
+   "historical_summary": "30 апреля 2021 г. Италия представила Еврокомиссии план восстановления на 191,5 млрд евро (70 млрд грантов и 121 млрд кредитов) из фонда Next Generation EU. Средства должны быть использованы до 31 декабря 2026 г. по шести направлениям, включая цифровизацию, экологический переход, транспорт, образование и здравоохранение.",
+   "historical_summary_en": "On 30 April 2021 Italy submitted to the European Commission a recovery plan worth €191.5 billion (€70 billion in grants and €121 billion in loans) from the Next Generation EU fund. The money must be spent by 31 December 2026 across six missions, including digitalisation, the green transition, transport, education and health.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "roadworks_everywhere"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_governo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Piano_nazionale_di_ripresa_e_resilienza",
+     "accessed": "2026-11-11",
+     "supports": "30.04.2021; 191,5 млрд; до 31.12.2026; 6 missioni"
+    },
+    {
+     "source_id": "it_governo",
+     "url": "https://www.governo.it/sites/governo.it/files/MONITORAGGIO_E_STATO_DI_ATTUAZIONE_DELLE_MISURE_PREVISTE_DAL_PNRR_NEL_2021.pdf",
+     "accessed": "2026-11-12",
+     "supports": "il 30 aprile 2021 il PNRR è stato ufficialmente trasmesso alla Commissione europea (trasmesso alle Camere il 25 aprile)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-2022-first-woman-pm",
+   "title": "Первая женщина — глава правительства",
+   "title_en": "First woman prime minister",
+   "start_date": "2022-10-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "22 октября 2022 г. Джорджа Мелони была назначена председателем Совета министров — первой женщиной на этом посту в Италии.",
+   "historical_summary_en": "On 22 October 2022 Giorgia Meloni was appointed President of the Council of Ministers, the first woman to hold the post in Italy.",
+   "affected_groups": [
+    "women",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "women_in_power"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_governo"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "22 October 2022 Meloni appointed, first woman"
+    },
+    {
+     "source_id": "it_governo",
+     "url": "https://governo.it/it/node/20743",
+     "accessed": "2026-11-12",
+     "supports": "22.10.2022 Джорджа Мелони и министры принесли присягу в Квиринале"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

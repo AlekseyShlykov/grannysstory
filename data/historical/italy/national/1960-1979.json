@@ -1,0 +1,598 @@
+{
+ "records": [
+  {
+   "id": "it-nat-1961-anti-urbanism-repeal",
+   "title": "Отмена законов против внутренней миграции",
+   "title_en": "Laws against internal migration repealed",
+   "title_original": "Legge 10 febbraio 1961, n. 5",
+   "start_date": "1961-02-10",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "migration",
+   "historical_summary": "Законом № 5 от 10 февраля 1961 г. были отменены закон 1931 г. о внутренних миграциях и закон 1939 г. против урбанизма. Это сняло правовые препятствия для регистрации переселенцев с юга в городах севера.",
+   "historical_summary_en": "Law no. 5 of 10 February 1961 repealed the 1931 law on internal migration and the 1939 law against urbanism. This removed the legal obstacles to registering migrants from the South in northern cities.",
+   "affected_groups": [
+    "migrants",
+    "rural_residents",
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "decision_to_move"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "moving_north_for_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_cortecost"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_cortecost",
+     "url": "https://www.cortecostituzionale.it/scheda-pronuncia/1961/10",
+     "accessed": "2026-11-11",
+     "supports": "«abrogata dalla legge 10 febbraio 1961 n. 5»; abrogate la legge 9 aprile 1931 n. 358"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1962-enel",
+   "title": "Национализация электроэнергетики и создание ENEL",
+   "title_en": "Electricity nationalised and ENEL created",
+   "title_original": "Ente nazionale per l'energia elettrica",
+   "start_date": "1962-12-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "local_economy",
+   "historical_summary": "Законом № 1643 от 6 декабря 1962 г. было создано государственное предприятие ENEL, которому перешла большая часть компаний по производству, передаче и распределению электроэнергии. В 1992 г. ENEL стала акционерным обществом, а в 1999 г. её акции вышли на биржу.",
+   "historical_summary_en": "Law no. 1643 of 6 December 1962 created the state company ENEL, which took over most firms producing, transmitting and distributing electricity. In 1992 ENEL became a joint-stock company, and in 1999 its shares were listed on the stock exchange.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "electric_light_arrives"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/ENEL",
+     "accessed": "2026-11-11",
+     "supports": "legge 6.12.1962 n. 1643; SpA 1992; биржа 1999"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1962-12-06;1643",
+     "accessed": "2026-11-12",
+     "supports": "Legge 6 dicembre 1962 n. 1643 об учреждении ENEL и передаче ему электроэнергетических предприятий"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1963-women-magistracy",
+   "title": "Женщинам открыты все должности, включая суд",
+   "title_en": "All public posts, including the judiciary, opened to women",
+   "start_date": "1963",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон № 66 1963 г. открыл женщинам все государственные должности, профессии и службы, включая магистратуру, без ограничений по функциям и карьере. Первый конкурс в магистратуру с участием женщин был объявлен 3 мая 1963 г.; восемь победительниц вступили в должность 5 апреля 1965 г.",
+   "historical_summary_en": "Law no. 66 of 1963 opened all public offices, professions and posts to women, including the judiciary, without limits on duties or career. The first judicial competition open to women was announced on 3 May 1963; the eight women who won took office on 5 April 1965.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "education_opportunity",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "career_once_closed_to_women"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_studiocataldi"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_studiocataldi",
+     "url": "https://www.studiocataldi.it/articoli/41793-le-battaglie-delle-donne-da-lidia-poet-alle-prime-magistrate.asp",
+     "accessed": "2026-11-11",
+     "supports": "legge n. 66 del 1963; конкурс 3.05.1963; 8 женщин вступили 5.04.1965"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1964-autostrada-complete",
+   "title": "Завершение Автострады Солнца",
+   "title_en": "Autostrada del Sole completed",
+   "title_original": "Autostrada del Sole",
+   "start_date": "1964-10-04",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "4 октября 1964 г., после открытия участка Кьюзи — Орвьето, было завершено строительство Автострады Солнца длиной около 760 км между Миланом и Неаполем. Работы заняли всего восемь лет.",
+   "historical_summary_en": "On 4 October 1964, with the opening of the Chiusi–Orvieto section, construction of the roughly 760 km Autostrada del Sole between Milan and Naples was completed. The work took only eight years.",
+   "affected_groups": [
+    "all_residents",
+    "commuters"
+   ],
+   "potential_impacts": [
+    "commute_change"
+   ],
+   "narrative_hooks": [
+    "first_car_in_family",
+    "holiday_drive_south",
+    "visiting_relatives_by_car"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Autostrada_A1_(Italia)",
+     "accessed": "2026-11-11",
+     "supports": "4.10.1964 завершение; 760,3 км; 8 лет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1970-statuto-lavoratori",
+   "title": "Статут трудящихся",
+   "title_en": "Workers' Statute",
+   "title_original": "Statuto dei lavoratori",
+   "start_date": "1970-05-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон № 300 от 20 мая 1970 г. защитил свободу мнений работников, ограничил слежку за ними и ввёл профсоюзные права на предприятиях с более чем 15 работниками. Статья 18 предусматривала восстановление на работе при незаконном увольнении.",
+   "historical_summary_en": "Law no. 300 of 20 May 1970 protected workers' freedom of opinion, limited surveillance of them and introduced trade-union rights in workplaces with more than 15 employees. Article 18 provided for reinstatement after unlawful dismissal.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "union_membership",
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Statuto_dei_lavoratori",
+     "accessed": "2026-11-11",
+     "supports": "legge 20.05.1970 n. 300; art. 1, 4, 18; порог 15"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300",
+     "accessed": "2026-11-12",
+     "supports": "Legge 20 maggio 1970 n. 300 о свободе и достоинстве работников и профсоюзной деятельности"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1970-divorce-law",
+   "title": "Закон о разводе",
+   "title_en": "Divorce law",
+   "title_original": "Legge Fortuna-Baslini",
+   "start_date": "1970-12-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "family_law",
+   "historical_summary": "Законом № 898 от 1 декабря 1970 г. (закон Фортуны — Базлини) в Италии впервые был введён развод; закон вступил в силу 18 декабря 1970 г.",
+   "historical_summary_en": "Law no. 898 of 1 December 1970 (the Fortuna–Baslini law) introduced divorce in Italy for the first time; it came into force on 18 December 1970.",
+   "affected_groups": [
+    "women",
+    "men",
+    "parents"
+   ],
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "unhappy_marriage",
+    "second_marriage"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_sul_divorzio",
+     "accessed": "2026-11-11",
+     "supports": "legge 1.12.1970 n. 898; в силе с 18.12.1970"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-12-01;898",
+     "accessed": "2026-11-12",
+     "supports": "Legge 1 dicembre 1970 n. 898 «Disciplina dei casi di scioglimento del matrimonio», в силе с 18.12.1970"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1974-divorce-referendum",
+   "title": "Референдум сохраняет развод",
+   "title_en": "Referendum keeps divorce",
+   "start_date": "1974-05-12",
+   "end_date": "1974-05-13",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "family_law",
+   "historical_summary": "На референдуме 12 мая 1974 г. о отмене закона о разводе при явке 87,7% против отмены проголосовали 59,3%, за — 40,7%. Закон остался в силе.",
+   "historical_summary_en": "In the referendum of 12 May 1974 on repealing the divorce law, with turnout of 87.7%, 59.3% voted against repeal and 40.7% in favour. The law remained in force.",
+   "affected_groups": [
+    "all_residents",
+    "women"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "family_argument_over_vote",
+    "first_vote_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_interno_dait"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_sul_divorzio",
+     "accessed": "2026-11-11",
+     "supports": "12.05.1974; явка 87,7%; No 59,3%, Sì 40,7%"
+    },
+    {
+     "source_id": "it_interno_dait",
+     "url": "https://dait.interno.gov.it/documenti/referendum_risultati_complessivi_1946_2016_0.pdf",
+     "accessed": "2026-11-12",
+     "supports": "12–13.05.1974: явка 87,72%, «да» 40,74%, «нет» 59,26%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1975-family-law-reform",
+   "title": "Реформа семейного права",
+   "title_en": "Family law reform",
+   "title_original": "Riforma del diritto di famiglia",
+   "start_date": "1975-05-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "family_law",
+   "historical_summary": "Закон № 151 от 19 мая 1975 г. отменил власть мужа над женой и установил равенство супругов; «отцовская власть» заменена властью обоих родителей. Общность имущества супругов стала режимом по умолчанию; ранее, в марте 1975 г., возраст совершеннолетия был снижен с 21 до 18 лет.",
+   "historical_summary_en": "Law no. 151 of 19 May 1975 abolished the husband's authority over his wife and established equality between spouses; 'paternal authority' was replaced by the authority of both parents. Community of property became the default regime for spouses; earlier, in March 1975, the age of majority had been lowered from 21 to 18.",
+   "affected_groups": [
+    "women",
+    "parents",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "equal_say_at_home",
+    "coming_of_age_at_18"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Riforma_del_diritto_di_famiglia",
+     "accessed": "2026-11-11",
+     "supports": "legge 19.05.1975 n. 151; potestà maritale; comunione dei beni; legge 8.03.1975 n. 39 — совершеннолетие 18"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1975-05-19;151",
+     "accessed": "2026-11-12",
+     "supports": "Legge 19 maggio 1975 n. 151 «Riforma del diritto di famiglia»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1978-basaglia-law",
+   "title": "Закон Базальи о закрытии психиатрических больниц",
+   "title_en": "Basaglia law closes psychiatric hospitals",
+   "title_original": "Legge Basaglia",
+   "start_date": "1978-05-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Закон № 180 от 13 мая 1978 г. предписал закрыть психиатрические больницы, урегулировал принудительное лечение и создал общественные службы психического здоровья. Ликвидация последних старых учреждений завершилась лишь после 1994 г.",
+   "historical_summary_en": "Law no. 180 of 13 May 1978 ordered the closure of psychiatric hospitals, regulated compulsory treatment and set up public mental health services. The dismantling of the last old institutions was completed only after 1994.",
+   "affected_groups": [
+    "medical_workers",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "relative_in_asylum",
+    "caring_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_Basaglia",
+     "accessed": "2026-11-11",
+     "supports": "legge 13.05.1978 n. 180; закрытие manicomi; после 1994"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-05-13;180",
+     "accessed": "2026-11-12",
+     "supports": "Legge 13 maggio 1978 n. 180 о добровольном и принудительном лечении; ст. 7 — постепенное упразднение психиатрических больниц"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1978-abortion-law",
+   "title": "Закон № 194 о прерывании беременности",
+   "title_en": "Law 194 on abortion",
+   "title_original": "Legge 22 maggio 1978, n. 194",
+   "start_date": "1978-05-22",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон № 194 от 22 мая 1978 г. декриминализировал аборт и разрешил его в государственных учреждениях в течение первых 90 дней при угрозе здоровью женщины с учётом её обстоятельств; врачи получили право на отказ по убеждениям. На референдумах 17 мая 1981 г. обе попытки изменить закон были отклонены, в том числе около 68% голосов против его отмены.",
+   "historical_summary_en": "Law no. 194 of 22 May 1978 decriminalised abortion and allowed it in public facilities within the first 90 days where the woman's health was at risk, taking her circumstances into account; doctors were given the right of conscientious objection. In the referendums of 17 May 1981 both attempts to change the law were rejected, including about 68% voting against its repeal.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "unspoken_pregnancy",
+    "friend_in_trouble"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva",
+    "it_interno_dait"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_22_maggio_1978,_n._194",
+     "accessed": "2026-11-11",
+     "supports": "22.05.1978; 90 дней; obiezione di coscienza; референдумы 17.05.1981, ~68%"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-05-22;194",
+     "accessed": "2026-11-12",
+     "supports": "Legge 22 maggio 1978 n. 194 о защите материнства и добровольном прерывании беременности"
+    },
+    {
+     "source_id": "it_interno_dait",
+     "url": "https://dait.interno.gov.it/documenti/referendum_risultati_complessivi_1946_2016_0.pdf",
+     "accessed": "2026-11-12",
+     "supports": "референдумы 17–18.05.1981 об отмене закона 194: «нет» 88,42% и 68,00%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1978-ssn",
+   "title": "Национальная служба здравоохранения",
+   "title_en": "National Health Service created",
+   "title_original": "Servizio sanitario nazionale",
+   "start_date": "1978-12-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "healthcare",
+   "historical_summary": "Законом № 833 от 23 декабря 1978 г. была создана Национальная служба здравоохранения (SSN), заменившая систему больничных касс по профессиям. Новая система начала действовать с 1 июля 1980 г.",
+   "historical_summary_en": "Law no. 833 of 23 December 1978 created the National Health Service (SSN), replacing the system of occupational sickness funds. The new system came into operation on 1 July 1980.",
+   "affected_groups": [
+    "all_residents",
+    "pensioners",
+    "homemakers"
+   ],
+   "potential_impacts": [
+    "health_coverage"
+   ],
+   "narrative_hooks": [
+    "family_doctor",
+    "free_hospital_care"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Servizio_sanitario_nazionale_(Italia)",
+     "accessed": "2026-11-11",
+     "supports": "legge 23.12.1978 n. 833; soppressione mutue; с 1.07.1980"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1978-12-23;833",
+     "accessed": "2026-11-12",
+     "supports": "Legge 23 dicembre 1978 n. 833 «Istituzione del servizio sanitario nazionale»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1979-rai3",
+   "title": "Начало вещания третьего канала RAI",
+   "title_en": "RAI 3 starts broadcasting",
+   "start_date": "1979-12",
+   "end_date": null,
+   "date_precision": "month",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "media_communication",
+   "historical_summary": "В декабре 1979 г. начались передачи третьего канала RAI.",
+   "historical_summary_en": "In December 1979 RAI's third channel began broadcasting.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "regional_news_on_tv"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Italian_history",
+     "accessed": "2026-11-11",
+     "supports": "December 1979: first transmissions of Rai 3"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

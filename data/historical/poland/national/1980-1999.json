@@ -216,7 +216,8 @@
    "sensitive": false,
    "source_ids": [
     "pl_wikipedia",
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -230,6 +231,12 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Warsaw",
      "accessed": "2026-10-29",
      "supports": "Feb–Apr 1989 Round Table; 4 June 1989 elections"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/poczatek-obrad-okraglego-stolu",
+     "accessed": "2026-11-13",
+     "supports": "Круглый стол с 6.02.1989 около двух месяцев; 35% мест в Сейме, свободные выборы в Сенат 4.06.1989"
     }
    ],
    "verification_status": "verified",
@@ -261,7 +268,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_en_wikipedia"
+    "pl_en_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -269,10 +277,16 @@
      "url": "https://en.wikipedia.org/wiki/History_of_Gdańsk",
      "accessed": "2026-10-29",
      "supports": "1990 Wałęsa first directly elected president"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/lech-walesa-zostaje-prezydentem-rp",
+     "accessed": "2026-11-13",
+     "supports": "первые всеобщие свободные президентские выборы: 9.12.1990 Валенса победил во втором туре, присяга 22.12.1990"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1990-balcerowicz-plan",
@@ -305,7 +319,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_sejm_eli"
    ],
    "evidence": [
     {
@@ -313,10 +328,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "1.01.1990; +76% январь; −23% производство; ~1 млн безработных в конце 1990"
+    },
+    {
+     "source_id": "pl_sejm_eli",
+     "url": "https://api.sejm.gov.pl/eli/acts/DU/1989/438",
+     "accessed": "2026-11-13",
+     "supports": "закон от 27.12.1989 о налогообложении роста заработной платы в 1990 г. («попивек»), вступил в силу 1.01.1990"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1991-internet",
@@ -629,7 +650,8 @@
    "narrative_hooks": [],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -637,10 +659,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(od_1989)",
      "accessed": "2026-10-29",
      "supports": "12.03.1999 НАТО"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/polska-wstapila-do-nato",
+     "accessed": "2026-11-13",
+     "supports": "12.03.1999 Польша вступила в НАТО (Геремек передал акт о присоединении)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

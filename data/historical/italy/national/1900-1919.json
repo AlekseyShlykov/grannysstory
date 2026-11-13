@@ -1,0 +1,525 @@
+{
+ "records": [
+  {
+   "id": "it-nat-1901-emigration-decade",
+   "title": "Пять с половиной миллионов эмигрантов за десятилетие",
+   "title_en": "Five and a half million emigrants in a decade",
+   "start_date": "1901",
+   "end_date": "1910",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "migration",
+   "historical_summary": "По статистике, в 1901–1910 гг. из Италии уехали 5,633 млн человек, в 1911–1920 гг. — 3,908 млн. Основной поток шёл в Северную и Южную Америку, а в Европе — прежде всего во Францию.",
+   "historical_summary_en": "According to the statistics, 5.633 million people left Italy in 1901–1910 and 3.908 million in 1911–1920. The main flow went to North and South America and, within Europe, above all to France.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "emigration_letters"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Emigrazione_italiana",
+     "accessed": "2026-11-11",
+     "supports": "таблица: 5 633 000 (1901–1910), 3 908 480 (1911–1920); Америка, Франция"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1902-carcano-law",
+   "title": "Закон Каркано о труде женщин и детей",
+   "title_en": "Carcano law on women's and children's work",
+   "title_original": "Legge 19 giugno 1902, n. 242",
+   "start_date": "1902-06-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "labor",
+   "historical_summary": "Закон № 242 от 19 июня 1902 г. запретил принимать на работу детей младше 12 лет, ограничил рабочий день женщин 12 часами и запретил ночную работу несовершеннолетним работницам. Он также ввёл обязательный отдых в течение четырёх недель после родов.",
+   "historical_summary_en": "Law no. 242 of 19 June 1902 banned the employment of children under 12, limited women's working day to 12 hours and prohibited night work for female workers under age. It also introduced compulsory rest for four weeks after childbirth.",
+   "affected_groups": [
+    "women",
+    "children",
+    "industrial_workers",
+    "textile_workers",
+    "mothers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "child_at_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_Carcano",
+     "accessed": "2026-11-11",
+     "supports": "закон 19.07.1902 n. 242; 12 лет; 12 часов; 4 недели после родов"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1902-06-19;242",
+     "accessed": "2026-11-12",
+     "supports": "Legge 19 giugno 1902 n. 242 (GU n. 157 del 7.07.1902) о труде женщин и детей; ст. 1 — минимальный возраст 12 лет. Дата закона исправлена с 19.07 на 19.06"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1904-general-strike",
+   "title": "Всеобщая забастовка сентября 1904 года",
+   "title_en": "General strike of September 1904",
+   "start_date": "1904-09-16",
+   "end_date": "1904-09-21",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "labor",
+   "historical_summary": "После расстрелов бастующих шахтёров в Буджерру и крестьян на Сицилии миланская Палата труда объявила всеобщую забастовку. С 16 по 21 сентября 1904 г. она охватила Геную, Турин, Рим, Бари, Неаполь, Палермо и сельские районы.",
+   "historical_summary_en": "After strikers were shot at the Buggerru mine and peasants killed in Sicily, the Milan Chamber of Labour called a general strike. From 16 to 21 September 1904 it spread to Genoa, Turin, Rome, Bari, Naples, Palermo and rural areas.",
+   "affected_groups": [
+    "industrial_workers",
+    "agricultural_workers"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sciopero_generale_del_1904",
+     "accessed": "2026-11-11",
+     "supports": "16–21.09.1904, Буджерру, распространение по городам"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1905-state-railways",
+   "title": "Создание государственных железных дорог",
+   "title_en": "State railways established",
+   "title_original": "Ferrovie dello Stato",
+   "start_date": "1905-07-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "infrastructure_transport",
+   "historical_summary": "1 июля 1905 г. начали работу Государственные железные дороги (Ferrovie dello Stato): по закону № 137 от 22 апреля 1905 г. государство взяло в собственность и эксплуатацию большинство железнодорожных линий страны.",
+   "historical_summary_en": "On 1 July 1905 the State Railways (Ferrovie dello Stato) began operating: under law no. 137 of 22 April 1905 the state took over ownership and operation of most of the country's railway lines.",
+   "affected_groups": [
+    "commuters",
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "railway_job",
+    "long_train_journey"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Ferrovie_dello_Stato",
+     "accessed": "2026-11-11",
+     "supports": "основаны 1.07.1905, закон 22.04.1905 n. 137"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1905-04-22;137",
+     "accessed": "2026-11-12",
+     "supports": "Legge 22 aprile 1905 n. 137 о государственной эксплуатации железных дорог"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1906-cgdl-founded",
+   "title": "Основание Всеобщей конфедерации труда",
+   "title_en": "Founding of the General Confederation of Labour",
+   "title_original": "Confederazione Generale del Lavoro",
+   "start_date": "1906-10-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "labor",
+   "historical_summary": "Всеобщая конфедерация труда (CGdL) была создана в Милане на съезде 29 сентября — 1 октября 1906 г. и объединила профсоюзы страны. Под давлением фашистского режима её руководство объявило о самороспуске 4 января 1927 г.",
+   "historical_summary_en": "The General Confederation of Labour (CGdL) was founded in Milan at a congress held from 29 September to 1 October 1906 and brought the country's trade unions together. Under pressure from the fascist regime its leadership announced its self-dissolution on 4 January 1927.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "union_membership"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Confederazione_Generale_del_Lavoro",
+     "accessed": "2026-11-11",
+     "supports": "основание 1.10.1906 Милан; самороспуск 4.01.1927"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1912-suffrage-reform",
+   "title": "Почти всеобщее избирательное право для мужчин",
+   "title_en": "Near-universal male suffrage",
+   "title_original": "Legge 30 giugno 1912, n. 666",
+   "start_date": "1912-06-30",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "political_change",
+   "historical_summary": "Законом № 666 от 30 июня 1912 г. право голоса получили все мужчины с 30 лет, а мужчины 21–29 лет — при начальном образовании или после военной службы. Электорат вырос с 3,3 до 8,7 млн человек; женщины права голоса не получили.",
+   "historical_summary_en": "Law no. 666 of 30 June 1912 gave the vote to all men aged 30 and over, and to men aged 21–29 with elementary schooling or completed military service. The electorate grew from 3.3 to 8.7 million; women were not given the vote.",
+   "affected_groups": [
+    "men",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_normattiva"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Legge_elettorale_italiana_del_1912",
+     "accessed": "2026-11-11",
+     "supports": "закон 30.06.1912 n. 666; условия; 3 329 147 → 8 672 249; женщины исключены"
+    },
+    {
+     "source_id": "it_normattiva",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1912-06-30;666",
+     "accessed": "2026-11-12",
+     "supports": "Legge 30 giugno 1912 n. 666, новый текст избирательного закона"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1913-emigration-peak",
+   "title": "Пик массовой эмиграции из Италии",
+   "title_en": "Peak of mass emigration from Italy",
+   "title_original": "Grande emigrazione",
+   "start_date": "1913",
+   "end_date": null,
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "migration",
+   "historical_summary": "В 1913 г. из Италии эмигрировали около 872 тыс. человек — максимум за всю эпоху «великой эмиграции». С 1869 г. до Первой мировой войны страну покинули почти 15 млн человек, прежде всего в Аргентину, США и Бразилию.",
+   "historical_summary_en": "In 1913 about 872,000 people emigrated from Italy, the highest figure of the whole era of 'great emigration'. Between 1869 and the First World War almost 15 million people left the country, above all for Argentina, the United States and Brazil.",
+   "affected_groups": [
+    "rural_residents",
+    "agricultural_workers",
+    "young_adults",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "emigration_letters",
+    "relatives_in_america"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_wikipedia",
+    "it_istat"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Emigrazione_italiana",
+     "accessed": "2026-11-11",
+     "supports": "пик 872 тыс. в 1913 г.; почти 15 млн с 1869 г.; направления"
+    },
+    {
+     "source_id": "it_istat",
+     "url": "https://webpub.istat.it/sites/default/files/pdf/Storia_demografica_Italia_4.pdf",
+     "accessed": "2026-11-12",
+     "supports": "Istat, Storia demografica d'Italia: nel 1912–13 saldo migratorio negativo di oltre 750.000 persone (circa 2% dei residenti); emigrazione dal 1869 stimata 13–16 milioni dalle serie degli espatri"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1915-wwi-entry",
+   "title": "Италия вступает в Первую мировую войну",
+   "title_en": "Italy enters the First World War",
+   "start_date": "1915-05-23",
+   "end_date": "1918-11-04",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "23 мая 1915 г. Италия объявила войну Австро-Венгрии. Война на итальянском фронте закончилась перемирием на вилле Джусти, вступившим в силу 4 ноября 1918 г.; погибли более 531 тыс. итальянских военнослужащих, включая умерших в плену и пропавших без вести.",
+   "historical_summary_en": "On 23 May 1915 Italy declared war on Austria-Hungary. The war on the Italian front ended with the Armistice of Villa Giusti, which took effect on 4 November 1918; more than 531,000 Italian servicemen died, including those who died as prisoners or went missing.",
+   "affected_groups": [
+    "men",
+    "young_adults",
+    "soldiers_families"
+   ],
+   "potential_impacts": [
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "father_at_the_front",
+    "war_letters"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia",
+    "it_aspr_quirinale"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Italian_front_(World_War_I)",
+     "accessed": "2026-11-11",
+     "supports": "23.05.1915 объявление войны; Villa Giusti 3–4.11.1918; >531 000 погибших"
+    },
+    {
+     "source_id": "it_aspr_quirinale",
+     "url": "https://archivio.quirinale.it/aspr/gianni-bisiach/AV-002-001086/24-maggio-1915-l-italia-entra-guerra",
+     "accessed": "2026-11-12",
+     "supports": "scheda d'archivio «24 maggio 1915 - L'Italia entra in guerra»"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "it-nat-1917-caporetto",
+   "title": "Поражение при Капоретто",
+   "title_en": "Defeat at Caporetto",
+   "start_date": "1917-10-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "24 октября 1917 г. австро-венгерские и германские войска начали наступление у Капоретто, прорвав итальянский фронт. Поражение вызвало отступление армии и бегство населения с занятых территорий северо-востока.",
+   "historical_summary_en": "On 24 October 1917 Austro-Hungarian and German forces launched the offensive at Caporetto, breaking through the Italian front. The defeat forced the army to retreat and civilians to flee from the occupied territories of the north-east.",
+   "affected_groups": [
+    "soldiers_families",
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "war_letters"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Italian_front_(World_War_I)",
+     "accessed": "2026-11-11",
+     "supports": "24.10.1917 начало битвы при Капоретто"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1918-spanish-flu",
+   "title": "Испанский грипп в Италии",
+   "title_en": "Spanish flu in Italy",
+   "start_date": "1918",
+   "end_date": "1919",
+   "date_precision": "year",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "public_health",
+   "historical_summary": "Пандемия испанского гриппа унесла в Италии, по оценкам, не менее 600 тыс. жизней — около 1,5% населения почти в 40 млн человек. Первый парламентский запрос о распространении болезни датирован 3 октября 1918 г.",
+   "historical_summary_en": "The Spanish flu pandemic is estimated to have killed at least 600,000 people in Italy, about 1.5% of a population of almost 40 million. The first parliamentary question about the spread of the disease is dated 3 October 1918.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "illness_in_family",
+    "loss_of_parent"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Influenza_spagnola",
+     "accessed": "2026-11-11",
+     "supports": "≥600 000 жертв, 1,5%; запрос 3.10.1918"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-nat-1919-sacchi-law",
+   "title": "Закон Сакки: отмена «разрешения мужа»",
+   "title_en": "Sacchi law abolishes marital authorisation",
+   "title_original": "Legge 17 luglio 1919, n. 1176",
+   "start_date": "1919-07-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "IT"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "it"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Закон № 1176 от 17 июля 1919 г. отменил правило, по которому замужней женщине требовалось разрешение мужа на юридические сделки. Он допустил женщин ко всем профессиям наравне с мужчинами, кроме должностей с судебной и политической властью и военной службы.",
+   "historical_summary_en": "Law no. 1176 of 17 July 1919 abolished the rule requiring a married woman to obtain her husband's authorisation for legal acts. It admitted women to all professions on equal terms with men, except posts with judicial or political powers and military service.",
+   "affected_groups": [
+    "women"
+   ],
+   "potential_impacts": [
+    "financial_independence",
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "first_job_of_her_own",
+    "mother_signs_papers"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "it_studiocataldi"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_studiocataldi",
+     "url": "https://www.studiocataldi.it/articoli/41793-le-battaglie-delle-donne-da-lidia-poet-alle-prime-magistrate.asp",
+     "accessed": "2026-11-11",
+     "supports": "отмена autorizzazione maritale; art. 7 о профессиях и исключения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

@@ -29,7 +29,8 @@
    ],
    "sensitive": false,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -37,10 +38,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
      "accessed": "2026-10-29",
      "supports": "злотый с апреля 1924, реформа Грабского, Bank Polski S.A. 15.04.1924"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/kalendarium/reforma-walutowa-grabskiego",
+     "accessed": "2026-11-13",
+     "supports": "реформа Грабского: 29.04.1924 введён злотый, 1 злотый = 1 800 000 польских марок"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1926-may-coup",
@@ -67,7 +74,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -75,10 +83,16 @@
      "url": "https://pl.wikipedia.org/wiki/Historia_Polski_(1918–1939)",
      "accessed": "2026-10-29",
      "supports": "12.05 мосты, 14.05 отставка Витоса; 379 погибших, из них 164 гражданских"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://muzhp.pl/wiedza-on-line/zamach-majowy-jozefa-pilsudskiego",
+     "accessed": "2026-11-13",
+     "supports": "переворот 12–15.05.1926 в Варшаве, мост Кербедя, отставка правительства Витоса 14.05; погибли 215 военных и 164 гражданских"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1929-great-depression",
@@ -327,7 +341,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_dzieje"
    ],
    "evidence": [
     {
@@ -335,10 +350,16 @@
      "url": "https://pl.wikipedia.org/wiki/Kampania_wrześniowa",
      "accessed": "2026-10-29",
      "supports": "начало 1.09.1939, агрессия СССР 17.09.1939, конец 6.10.1939 под Коцком"
+    },
+    {
+     "source_id": "pl_dzieje",
+     "url": "https://dzieje.pl/wiadomosci/kalendarium-ii-wojny-swiatowej",
+     "accessed": "2026-11-13",
+     "supports": "1.09.1939 нападение Германии, 17.09.1939 вторжение СССР, капитуляция Хеля 2.10, бои под Коцком до 5/6.10"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   },
   {
    "id": "pl-nat-1939-annexation-decree",
@@ -409,7 +430,8 @@
    ],
    "sensitive": true,
    "source_ids": [
-    "pl_wikipedia"
+    "pl_wikipedia",
+    "pl_muzhp"
    ],
    "evidence": [
     {
@@ -417,10 +439,16 @@
      "url": "https://pl.wikipedia.org/wiki/Okupacja_niemiecka_ziem_polskich_(1939–1945)",
      "accessed": "2026-10-29",
      "supports": "12.10.1939 GG, 96 тыс. км², 12 млн; 1941 — 145 тыс. км², 17 млн"
+    },
+    {
+     "source_id": "pl_muzhp",
+     "url": "https://karski.muzhp.pl/warto_wiedziec_gk.html",
+     "accessed": "2026-11-13",
+     "supports": "Генерал-губернаторство создано декретом Гитлера от 12.10.1939 (Варшавское, Краковское, Келецкое, Люблинское и часть Львовского воеводств), генерал-губернатор Ганс Франк на Вавеле (площадь и население на странице не указаны)"
     }
    ],
    "verification_status": "verified",
-   "confidence": "medium"
+   "confidence": "high"
   }
  ]
 }

@@ -1,0 +1,148 @@
+{
+ "records": [
+  {
+   "id": "it-ctx-napoli-1901-1971-population",
+   "country_code": "IT",
+   "location_id": "it-napoli",
+   "period_start": 1901,
+   "period_end": 1971,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Неаполь: население 1901 и 1971",
+   "title_en": "Naples: population 1901 and 1971",
+   "description": "В 1901 г. в Неаполе жили 547 503 человека, в 1971 г. — около 1,25 млн в административных границах коммуны.",
+   "description_en": "In 1901 Naples had 547,503 inhabitants, and in 1971 about 1.25 million within the municipal boundaries.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 547503,
+     "unit": "persons",
+     "year": 1901,
+     "area_id": "it-napoli",
+     "population": "жители коммуны",
+     "method_note": "по данным хронологии города",
+     "source_id": "it_en_wikipedia"
+    },
+    {
+     "indicator": "population",
+     "value": 1250000,
+     "unit": "persons",
+     "year": 1971,
+     "area_id": "it-napoli",
+     "population": "жители коммуны",
+     "method_note": "около 1,25 млн",
+     "source_id": "it_en_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Timeline_of_Naples",
+     "accessed": "2026-11-11",
+     "supports": "1901 547,503; 1971 1,250,000"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-santangelo-2026-population",
+   "country_code": "IT",
+   "location_id": "it-santangelo-dei-lombardi",
+   "period_start": 2026,
+   "period_end": 2026,
+   "context_type": "demography",
+   "attribute": "population",
+   "title": "Сант-Анджело-деи-Ломбарди: малая коммуна",
+   "title_en": "Sant'Angelo dei Lombardi: a small commune",
+   "description": "На 31 мая 2026 г. в Сант-Анджело-деи-Ломбарди жили 3767 человек (предварительные данные ISTAT), плотность — 68 человек на км².",
+   "description_en": "On 31 May 2026 Sant'Angelo dei Lombardi had 3,767 inhabitants (provisional ISTAT data), a density of 68 people per km².",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 3767,
+     "unit": "persons",
+     "year": 2026,
+     "area_id": "it-santangelo-dei-lombardi",
+     "population": "жители коммуны",
+     "method_note": "ISTAT, предварительно, по статье",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "population_density",
+     "value": 68.35,
+     "unit": "persons/km2",
+     "year": 2026,
+     "area_id": "it-santangelo-dei-lombardi",
+     "population": "жители коммуны",
+     "method_note": "по статье",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Sant%27Angelo_dei_Lombardi",
+     "accessed": "2026-11-11",
+     "supports": "3767 ab. 31.05.2026; 68,35/km²"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "it-ctx-campania-1980-earthquake-housing",
+   "country_code": "IT",
+   "location_id": "it-campania",
+   "period_start": 1980,
+   "period_end": 1984,
+   "context_type": "housing",
+   "attribute": "post_earthquake_housing",
+   "title": "Жильё после землетрясения 1980 года",
+   "title_en": "Housing after the 1980 earthquake",
+   "description": "Землетрясение 1980 г. затронуло 542 коммуны Кампании; без крова остались около 280 тыс. человек. Через четыре года в одном из деревянных посёлков группы Rubner жили около 450 человек в 150 домах.",
+   "description_en": "The 1980 earthquake affected 542 municipalities in Campania; about 280,000 people were left homeless. Four years later about 450 people were living in 150 houses in one of the wooden settlements built by the Rubner group.",
+   "statistics": [
+    {
+     "indicator": "affected_municipalities",
+     "value": 542,
+     "unit": "municipalities",
+     "year": 1980,
+     "area_id": "it-campania",
+     "population": "коммуны региона",
+     "method_note": "по статье о землетрясении",
+     "source_id": "it_wikipedia"
+    },
+    {
+     "indicator": "homeless",
+     "value": 280000,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "it",
+     "population": "все пострадавшие районы",
+     "method_note": "по статье; другие оценки до 394 тыс.",
+     "source_id": "it_wikipedia"
+    }
+   ],
+   "source_ids": [
+    "it_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "it_wikipedia",
+     "url": "https://it.wikipedia.org/wiki/Terremoto_dell%27Irpinia_del_1980",
+     "accessed": "2026-11-11",
+     "supports": "542 comuni in Campania; ~280 000 sfollati; Rubner 150 unità, 450 persone"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  }
+ ]
+}

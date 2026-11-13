@@ -1,0 +1,1315 @@
+{
+ "records": [
+  {
+   "id": "de-nat-1945-east-prussia-evacuation",
+   "title": "Бегство и эвакуация из Восточной Пруссии",
+   "title_en": "Flight and evacuation from East Prussia",
+   "start_date": "1945-01-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "migration",
+   "historical_summary": "С 23 января 1945 г. военно-морской флот начал эвакуацию немцев из Восточной Пруссии морем; на запад попали от двух до трёх миллионов человек. Беженцы и изгнанные затем расселялись по оставшимся землям Германии.",
+   "historical_summary_en": "From 23 January 1945 the navy began evacuating Germans from East Prussia by sea, and two to three million people reached the West. Refugees and expellees were then resettled across the remaining German territories.",
+   "affected_groups": [
+    "migrants",
+    "women",
+    "children"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "decision_to_move",
+    "loss_of_home"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "refugee_trek"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "23.1.1945: эвакуация морем, 2–3 млн человек на запад"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1945-unconditional-surrender",
+   "title": "Безоговорочная капитуляция",
+   "title_en": "Unconditional surrender",
+   "start_date": "1945-05-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "war_conflict",
+   "historical_summary": "7 мая 1945 г. в Реймсе была подписана безоговорочная капитуляция всех германских вооружённых сил, вступившая в силу 9 мая в 00:01; 8/9 мая её повторили в Берлине-Карлсхорсте. Война в Европе закончилась.",
+   "historical_summary_en": "On 7 May 1945 the unconditional surrender of all German armed forces was signed at Reims, taking effect at 00:01 on 9 May, and it was repeated in Berlin-Karlshorst on 8/9 May. The war in Europe was over.",
+   "affected_groups": [
+    "all_residents",
+    "soldiers_families"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "end_of_war_day"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "7.5.1945 Реймс; 8./9.5.1945 Карлсхорст"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1945-berlin-declaration",
+   "title": "Берлинская декларация: власть переходит к союзникам",
+   "title_en": "Berlin Declaration: Allies assume supreme authority",
+   "start_date": "1945-06-05",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "political_change",
+   "historical_summary": "5 июня 1945 г. четыре державы-победительницы приняли верховную власть в Германии. Страна в границах 1937 г. была разделена на четыре оккупационные зоны, Берлин — на четыре сектора.",
+   "historical_summary_en": "On 5 June 1945 the four victorious powers assumed supreme authority in Germany. The country within its 1937 borders was divided into four occupation zones, and Berlin into four sectors.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "5.6.1945: Берлинская декларация, четыре зоны, четыре сектора Берлина"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/310889/vor-75-jahren-vier-maechte-erklaerung-von-berlin/",
+     "accessed": "2026-11-11",
+     "supports": "5.6.1945: верховная власть четырёх держав, Контрольный совет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1945-potsdam-conference",
+   "title": "Потсдамская конференция",
+   "title_en": "Potsdam Conference",
+   "start_date": "1945-07-17",
+   "end_date": "1945-08-02",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-de-reich"
+   ],
+   "category": "political_change",
+   "historical_summary": "С 17 июля по 2 августа 1945 г. Трумэн, Черчилль (затем Эттли) и Сталин на Потсдамской конференции определили политику союзников в отношении Германии.",
+   "historical_summary_en": "From 17 July to 2 August 1945 Truman, Churchill (later Attlee) and Stalin set Allied policy towards Germany at the Potsdam Conference.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "17.7.–2.8.1945"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1945-szb-land-reform",
+   "title": "Земельная реформа в советской зоне",
+   "title_en": "Land reform in the Soviet zone",
+   "title_original": "Bodenreform",
+   "start_date": "1945-09-03",
+   "end_date": "1945-09-11",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "de-zone-soviet"
+   ],
+   "category": "local_economy",
+   "historical_summary": "В начале сентября 1945 г. в советской зоне было решено провести земельную реформу: экспроприировались хозяйства площадью более 100 гектаров. 1 октября в зоне возобновились школьные занятия.",
+   "historical_summary_en": "In early September 1945 a land reform was decided in the Soviet zone, expropriating holdings of more than 100 hectares. On 1 October school lessons resumed in the zone.",
+   "affected_groups": [
+    "agricultural_workers",
+    "rural_residents",
+    "school_pupils"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "own_plot_of_land"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.dhm.de/lemo/jahreschronik/1945",
+     "accessed": "2026-11-11",
+     "supports": "3.–11.9.1945 Bodenreform >100 га; 1.10.1945 школы SBZ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1948-currency-reform-west",
+   "title": "Денежная реформа в западных зонах",
+   "title_en": "Currency reform in the western zones",
+   "title_original": "Währungsreform",
+   "start_date": "1948-06-20",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "de-zone-us",
+    "de-zone-british",
+    "de-zone-french"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "20 июня 1948 г. в трёх западных оккупационных зонах была проведена денежная реформа и введена немецкая марка (D-Mark).",
+   "historical_summary_en": "On 20 June 1948 a currency reform was carried out in the three western occupation zones and the Deutsche Mark was introduced.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost",
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "new_money",
+    "shop_windows_full_overnight"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "20.06.1948: Währungsreform, D-Mark"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1948-currency-reform-soviet-zone",
+   "title": "Денежная реформа в советской зоне",
+   "title_en": "Currency reform in the Soviet zone",
+   "start_date": "1948-06-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "de-zone-soviet"
+   ],
+   "category": "economic_crisis",
+   "historical_summary": "23 июня 1948 г. в советской зоне провели собственную денежную реформу и ввели «немецкую марку Немецкого эмиссионного банка».",
+   "historical_summary_en": "On 23 June 1948 the Soviet zone carried out its own currency reform, introducing the 'Deutsche Mark of the Deutsche Notenbank'.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [
+    "savings_lost"
+   ],
+   "narrative_hooks": [
+    "new_money"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "23.06.1948: денежная реформа SBZ"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1948-ho-shops",
+   "title": "Открытие государственных магазинов HO",
+   "title_en": "State-owned HO shops open",
+   "title_original": "Handelsorganisation (HO)",
+   "start_date": "1948-11-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "de-zone-soviet"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "3 ноября 1948 г. в советской зоне открылась государственная торговая организация HO, продававшая товары без карточек по высоким ценам.",
+   "historical_summary_en": "On 3 November 1948 the state-owned trading organisation HO opened in the Soviet zone, selling goods off the ration at high prices.",
+   "affected_groups": [
+    "consumers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "queue_for_goods"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "03.11.1948: открытие HO"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1948-bizone-general-strike",
+   "title": "Всеобщая забастовка в Бизонии",
+   "title_en": "General strike in the Bizone",
+   "start_date": "1948-11-12",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "de-zone-us",
+    "de-zone-british"
+   ],
+   "category": "labor",
+   "historical_summary": "12 ноября 1948 г. около девяти миллионов работников Бизонии приняли участие во всеобщей забастовке против роста цен и за более демократическое устройство экономики.",
+   "historical_summary_en": "On 12 November 1948 about nine million workers in the Bizone took part in a general strike against rising prices and for a more democratic economic order.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1948.html",
+     "accessed": "2026-11-11",
+     "supports": "12.11.1948: ~9 млн бастующих"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1949-basic-law-frg",
+   "title": "Основной закон и образование ФРГ",
+   "title_en": "Basic Law and founding of the Federal Republic",
+   "title_original": "Grundgesetz",
+   "start_date": "1949-05-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "political_change",
+   "historical_summary": "23 мая 1949 г. в Бонне был провозглашён и вступил в силу Основной закон, что означало образование Федеративной Республики Германия. 14 августа прошли первые выборы в бундестаг, канцлером стал Конрад Аденауэр.",
+   "historical_summary_en": "On 23 May 1949 the Basic Law was proclaimed in Bonn and took effect, marking the founding of the Federal Republic of Germany. The first Bundestag election was held on 14 August, and Konrad Adenauer became Chancellor.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "first_vote"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1949.html",
+     "accessed": "2026-11-11",
+     "supports": "23.05.1949 Основной закон; 14.08.1949 выборы; 15.09 Аденауэр"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1949-gdr-founded",
+   "title": "Образование ГДР",
+   "title_en": "Founding of the GDR",
+   "start_date": "1949-10-07",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "political_change",
+   "historical_summary": "7 октября 1949 г. была образована Германская Демократическая Республика, Временная народная палата ввела в действие её конституцию. Президентом стал Вильгельм Пик, премьер-министром — Отто Гротеволь.",
+   "historical_summary_en": "On 7 October 1949 the German Democratic Republic was founded, and the Provisional People's Chamber put its constitution into force. Wilhelm Pieck became President and Otto Grotewohl Prime Minister.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1949.html",
+     "accessed": "2026-11-11",
+     "supports": "07.10.1949 образование ГДР; 11.10 Пик; 12.10 Гротеволь"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1949-dgb-founded",
+   "title": "Основание Объединения немецких профсоюзов",
+   "title_en": "German Trade Union Confederation founded",
+   "start_date": "1949-10-12",
+   "end_date": "1949-10-14",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "labor",
+   "historical_summary": "12–14 октября 1949 г. в Мюнхене прошёл учредительный съезд Объединения немецких профсоюзов (DGB), первым председателем стал Ханс Бёклер.",
+   "historical_summary_en": "From 12 to 14 October 1949 the founding congress of the German Trade Union Confederation (DGB) met in Munich, with Hans Böckler as its first chairman.",
+   "affected_groups": [
+    "industrial_workers",
+    "office_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1949.html",
+     "accessed": "2026-11-11",
+     "supports": "12.–14.10.1949 DGB, Мюнхен"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-social-housing-law",
+   "title": "Первый закон о социальном жилищном строительстве",
+   "title_en": "First Social Housing Act",
+   "start_date": "1950-03-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "housing_urban",
+   "historical_summary": "28 марта 1950 г. бундестаг принял первый закон о социальном жилищном строительстве для преодоления острой нехватки жилья.",
+   "historical_summary_en": "On 28 March 1950 the Bundestag passed the first law on social housing construction to tackle the acute housing shortage.",
+   "affected_groups": [
+    "tenants",
+    "migrants"
+   ],
+   "potential_impacts": [
+    "housing_improvement",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "new_flat_allocation"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "28.03.1950: Gesetz über den Sozialen Wohnungsbau"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-rationing-ends-frg",
+   "title": "Конец продовольственных карточек в ФРГ",
+   "title_en": "End of food rationing in West Germany",
+   "start_date": "1950-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "consumer_life",
+   "historical_summary": "1 мая 1950 г. в Федеративной Республике были отменены последние нормы распределения продуктов.",
+   "historical_summary_en": "On 1 May 1950 the last food rationing was abolished in the Federal Republic.",
+   "affected_groups": [
+    "consumers",
+    "homemakers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "ration_cards"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "01.05.1950: последние Lebensmittelrationierungen entfallen"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-celibacy-clause",
+   "title": "«Пункт о безбрачии» для служащих",
+   "title_en": "The 'celibacy clause' for civil servants",
+   "start_date": "1950-05-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "women_rights",
+   "historical_summary": "Временный закон о федеральном персонале от 17 мая 1950 г. позволял увольнять замужних чиновниц, если доходов семьи хватало. 11 мая 1957 г. Федеральный суд по трудовым делам признал такой «пункт о безбрачии» недействительным.",
+   "historical_summary_en": "The provisional federal personnel law of 17 May 1950 allowed married female civil servants to be dismissed if the family income was sufficient. On 11 May 1957 the Federal Labour Court declared such a 'celibacy clause' invalid.",
+   "affected_groups": [
+    "women",
+    "office_workers",
+    "teachers"
+   ],
+   "potential_impacts": [
+    "job_loss",
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "marriage_or_career"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "17.05.1950 Zölibatsklausel"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "11.05.1957: Zölibatsklausel недействительна"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-first-frg-census",
+   "title": "Первая перепись населения ФРГ",
+   "title_en": "First West German census",
+   "start_date": "1950-09-13",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "everyday_life",
+   "subcategory": "census",
+   "historical_summary": "13 сентября 1950 г. в Федеративной Республике прошла первая перепись населения. В том же году было основано Общество оздоровления матерей Элли Хойс-Кнапп.",
+   "historical_summary_en": "On 13 September 1950 the first census of the Federal Republic was held. In the same year Elly Heuss-Knapp founded the Mothers' Convalescence Organisation.",
+   "affected_groups": [
+    "all_residents",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "13.09.1950 Volkszählung; 31.01.1950 Müttergenesungswerk"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-war-victims-pensions",
+   "title": "Закон о пенсиях жертвам войны",
+   "title_en": "War Victims' Pensions Act",
+   "start_date": "1950-10-19",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "social_policy",
+   "historical_summary": "19 октября 1950 г. вступил в силу закон об обеспечении жертв войны (с 1 октября): базовые пенсии составляли от 15 до 75 марок, компенсационные — от 40 до 90 марок.",
+   "historical_summary_en": "On 19 October 1950 the war victims' pensions law took effect, backdated to 1 October, with basic pensions of 15 to 75 DM and supplementary pensions of 40 to 90 DM.",
+   "affected_groups": [
+    "veterans",
+    "soldiers_families",
+    "women"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "war_widow_pension"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "19.10.1950 Versorgungsgesetz, 15–75 и 40–90 DM"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1953-expellee-act",
+   "title": "Федеральный закон об изгнанных",
+   "title_en": "Federal Expellee Act",
+   "start_date": "1953-03-25",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "migration",
+   "historical_summary": "Федеральный закон об изгнанных 1953 г. создал единые для всей страны рамки интеграции изгнанных и беженцев. 24 декабря 1953 г. в ФРГ вступила в силу Женевская конвенция о беженцах.",
+   "historical_summary_en": "The Federal Expellee Act of 1953 created a uniform nationwide framework for integrating expellees and refugees. On 24 December 1953 the Geneva Refugee Convention entered into force in the Federal Republic.",
+   "affected_groups": [
+    "migrants"
+   ],
+   "potential_impacts": [
+    "decision_to_move",
+    "rehousing"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "refugee_in_the_village"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "25.03.1953 Bundesvertriebenengesetz; 24.12.1953 Женевская конвенция"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1953-equal-rights-deadline",
+   "title": "Законы против равноправия теряют силу",
+   "title_en": "Laws contrary to equal rights lapse",
+   "start_date": "1953-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "family_law",
+   "historical_summary": "С 1 апреля 1953 г. законы, противоречившие равноправию мужчин и женщин, утратили силу. Поскольку брачно-семейное право ещё не было реформировано, споры решали суды.",
+   "historical_summary_en": "From 1 April 1953 laws contrary to the equality of men and women lost their validity. As marriage and family law had not yet been reformed, the courts decided disputes.",
+   "affected_groups": [
+    "women",
+    "mothers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "who_decides_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "01.04.1953"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1953-first-eurovision-broadcast",
+   "title": "Первая прямая телетрансляция «Евровидения»",
+   "title_en": "First live Eurovision broadcast",
+   "start_date": "1953-06-02",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "media_communication",
+   "historical_summary": "2 июня 1953 г. западногерманское телевидение в прямом эфире показало коронацию Елизаветы II — первую трансляцию сети «Евровидение».",
+   "historical_summary_en": "On 2 June 1953 West German television showed the coronation of Elizabeth II live, the first transmission of the Eurovision network.",
+   "affected_groups": [
+    "television_owners"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "watching_tv_at_the_neighbours"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "02.06.1953: прямая трансляция коронации"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1957-dynamic-pension",
+   "title": "Пенсионная реформа: «динамическая» пенсия",
+   "title_en": "Pension reform: the 'dynamic' pension",
+   "start_date": "1957-01-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "social_policy",
+   "historical_summary": "21 января 1957 г. бундестаг принял пенсионную реформу и ввёл «динамическую» пенсию, привязанную к росту заработков.",
+   "historical_summary_en": "On 21 January 1957 the Bundestag passed a pension reform introducing the 'dynamic' pension, linked to the growth of earnings.",
+   "affected_groups": [
+    "pensioners",
+    "elderly"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "first_pension"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "21.01.1957: Rentenreform, dynamische Rente"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1957-equal-rights-act",
+   "title": "Закон о равноправии",
+   "title_en": "Equal Rights Act",
+   "start_date": "1957-05-03",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "family_law",
+   "historical_summary": "3 мая 1957 г. бундестаг принял закон о равноправии: законным режимом имущества супругов стала общность приобретённого, но решающее слово мужа в вопросах воспитания сохранялось. Ещё 23 марта Федеральный суд по трудовым делам признал недействительной более низкую оплату женщин за равный труд.",
+   "historical_summary_en": "On 3 May 1957 the Bundestag passed the Equal Rights Act, making the community of accrued gains the statutory marital property regime, although the husband kept the final say on child-rearing. On 23 March the Federal Labour Court had already declared lower pay for women for equal work void.",
+   "affected_groups": [
+    "women",
+    "mothers"
+   ],
+   "potential_impacts": [
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "who_decides_at_home"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "03.05.1957 Gleichberechtigungsgesetz; 23.03.1957 BAG о зарплате женщин"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1957-45-hour-week",
+   "title": "Переход к 45-часовой неделе",
+   "title_en": "Move to a 45-hour week",
+   "start_date": "1957-03-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de",
+    "state-gdr"
+   ],
+   "category": "labor",
+   "historical_summary": "В 1957 г. в обоих германских государствах началось сокращение рабочей недели до 45 часов: в ГДР со 2 января на двенадцати крупных предприятиях, в ФРГ с 1 марта на ряде предприятий.",
+   "historical_summary_en": "In 1957 both German states began reducing the working week to 45 hours: in the GDR from 2 January at twelve large enterprises, and in the Federal Republic from 1 March at a number of firms.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "free_saturday"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "ГДР 02.01.1957, ФРГ 01.03.1957: 45-Stunden-Woche"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1957-conscription-speed-limit",
+   "title": "Первые призывники бундесвера",
+   "title_en": "First Bundeswehr conscripts",
+   "start_date": "1957-04-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "de"
+   ],
+   "category": "everyday_life",
+   "historical_summary": "1 апреля 1957 г. в бундесвер прибыли первые около 10 тыс. призывников. С 1 сентября в населённых пунктах впервые действовало общее ограничение скорости.",
+   "historical_summary_en": "On 1 April 1957 the first roughly 10,000 conscripts joined the Bundeswehr. From 1 September a general speed limit applied in built-up areas for the first time.",
+   "affected_groups": [
+    "young_adults",
+    "men"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "son_called_up"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "01.04.1957 первые призывники; 01.09.1957 ограничение скорости в городах"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-gdr-labour-law",
+   "title": "Закон о труде ГДР",
+   "title_en": "GDR Labour Law",
+   "start_date": "1950-05-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "women_rights",
+   "historical_summary": "1 мая 1950 г. в ГДР вступил в силу Закон о труде: женщин предполагалось освободить от части домашней работы и уравнять с мужчинами в профессии. 17 мая Народная палата снизила возраст совершеннолетия с 21 до 18 лет.",
+   "historical_summary_en": "On 1 May 1950 the GDR Labour Law entered into force, intended to relieve women of housework and make them equal to men at work. On 17 May the People's Chamber lowered the age of majority from 21 to 18.",
+   "affected_groups": [
+    "women",
+    "young_adults"
+   ],
+   "potential_impacts": [
+    "employment_change",
+    "financial_independence"
+   ],
+   "narrative_hooks": [
+    "factory_work",
+    "marriage_or_career"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "01.05.1950 Gesetz der Arbeit; 17.05.1950 совершеннолетие 18"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-gdr-five-year-plan",
+   "title": "Первый пятилетний план ГДР",
+   "title_en": "GDR's first Five-Year Plan",
+   "start_date": "1950-08-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "local_economy",
+   "historical_summary": "17 августа 1950 г. правительство ГДР приняло первый пятилетний план с удвоением промышленного производства. 29 сентября ГДР вошла в Совет экономической взаимопомощи.",
+   "historical_summary_en": "On 17 August 1950 the GDR government adopted the first Five-Year Plan, aiming to double industrial output. On 29 September the GDR joined the Council for Mutual Economic Assistance.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [
+    "employment_change"
+   ],
+   "narrative_hooks": [
+    "factory_work"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "17.08.1950 пятилетка; 29.09.1950 RGW"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1950-stasi-founded",
+   "title": "Создание Министерства госбезопасности",
+   "title_en": "Ministry for State Security created",
+   "start_date": "1950-02-08",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "repression",
+   "historical_summary": "8 февраля 1950 г. Народная палата одобрила закон о создании Министерства государственной безопасности (Штази).",
+   "historical_summary_en": "On 8 February 1950 the People's Chamber approved the law creating the Ministry for State Security (Stasi).",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1950.html",
+     "accessed": "2026-11-11",
+     "supports": "08.02.1950"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1953-gdr-norms-and-prices",
+   "title": "Повышение норм выработки и цен",
+   "title_en": "Raised work norms and prices",
+   "start_date": "1953-05-28",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "labor",
+   "historical_summary": "20 апреля 1953 г. в ГДР подорожали продукты по карточкам, а 28 мая нормы выработки были повышены на 10,3 % — одна из главных причин восстания.",
+   "historical_summary_en": "On 20 April 1953 the prices of rationed foods rose in the GDR, and on 28 May work norms were raised by 10.3%, a key trigger of the uprising.",
+   "affected_groups": [
+    "industrial_workers",
+    "consumers"
+   ],
+   "potential_impacts": [
+    "wage_change",
+    "price_shock"
+   ],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "20.04.1953 цены; 28.05.1953 нормы +10,3 %"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1953-gdr-uprising",
+   "title": "Восстание 17 июня 1953 года",
+   "title_en": "Uprising of 17 June 1953",
+   "start_date": "1953-06-17",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "repression",
+   "historical_summary": "17 июня 1953 г. забастовка, начатая строителями Сталиналлее, охватила 72 города и множество посёлков ГДР; советские войска и народная полиция подавили восстание, в 167 городах и районах ввели чрезвычайное положение. Около 20 тыс. человек были временно задержаны, по приговорам советских военных судов расстреляли 29 человек.",
+   "historical_summary_en": "On 17 June 1953 the strike begun by Stalinallee construction workers spread to 72 cities and many smaller towns of the GDR, and Soviet troops and the People's Police crushed the uprising, with a state of emergency in 167 towns and districts. About 20,000 people were temporarily detained and Soviet summary courts executed 29 people.",
+   "affected_groups": [
+    "industrial_workers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [
+    "strike_in_family"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "16.–18.06.1953: 72 города, 167 районов ЧП, 29 казнённых"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1953-gdr-new-course",
+   "title": "Отмена повышения норм и уступки населению",
+   "title_en": "Norm rise reversed, concessions to the population",
+   "start_date": "1953-06-21",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "social_policy",
+   "historical_summary": "21 июня 1953 г. СЕПГ отменила повышение норм и объявила о снижении тарифов на проезд, повышении минимальных пенсий и жилищной программе. 25 ноября для поездок между ГДР и ФРГ отменили межзональный пропуск — хватало удостоверения личности.",
+   "historical_summary_en": "On 21 June 1953 the SED reversed the norm increase and announced lower fares, higher minimum pensions and a housing programme. On 25 November the interzonal pass for travel between the GDR and the Federal Republic was abolished, an identity card now being enough.",
+   "affected_groups": [
+    "industrial_workers",
+    "pensioners"
+   ],
+   "potential_impacts": [
+    "wage_change"
+   ],
+   "narrative_hooks": [
+    "visit_to_the_west",
+    "letters_across_the_border"
+   ],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1953.html",
+     "accessed": "2026-11-11",
+     "supports": "21.06.1953 уступки; 25.11.1953 отмена Interzonenpass"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-nat-1957-gdr-research-reactor",
+   "title": "Первый атомный реактор ГДР",
+   "title_en": "First GDR nuclear reactor",
+   "start_date": "1957-12-16",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "DE"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "state-gdr"
+   ],
+   "category": "technology",
+   "historical_summary": "16 декабря 1957 г. в Россендорфе под Дрезденом начал работать первый атомный реактор ГДР. В апреле в Восточном Берлине был основан Немецкий союз гимнастики и спорта (DTSB).",
+   "historical_summary_en": "On 16 December 1957 the first nuclear reactor of the GDR began operating at Rossendorf near Dresden. In April the German Gymnastics and Sports Federation (DTSB) was founded in East Berlin.",
+   "affected_groups": [
+    "scientists_engineers"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/jahreschronik/1957.html",
+     "accessed": "2026-11-11",
+     "supports": "16.12.1957 Rossendorf; 27.–28.04.1957 DTSB"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

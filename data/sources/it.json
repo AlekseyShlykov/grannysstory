@@ -1,0 +1,1793 @@
+{
+ "sources": [
+  {
+   "source_id": "it_wikipedia",
+   "name": "Wikipedia (итальянская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "IT",
+   "url": "https://it.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "administrative_divisions"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник (WebFetch); confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_en_wikipedia",
+   "name": "Wikipedia (английская)",
+   "publisher": "Wikimedia Foundation",
+   "country": "IT",
+   "url": "https://en.wikipedia.org/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "CC BY-SA 4.0",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Вторичный источник (WebFetch); confidence: medium.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_museotorino",
+   "name": "MuseoTorino",
+   "publisher": "Città di Torino",
+   "country": "IT",
+   "url": "https://www.museotorino.it/",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "local_history",
+    "labour",
+    "housing",
+    "war"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Сайт муниципального музея города Турина; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Муниципальный музей-портал Турина: справки о событиях, зданиях, кварталах. Часть ссылок на view/s нестабильна (ошибка REST при неверном ID). PDF-страницы оцифрованных книг («Storia di Torino», Einaudi) не читаются через WebFetch (сжатые потоки).",
+   "source_type": "municipal",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-torino"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_normattiva",
+   "name": "Normattiva — il portale della legge vigente",
+   "publisher": "Istituto Poligrafico e Zecca dello Stato / Presidenza del Consiglio dei Ministri",
+   "country": "IT",
+   "url": "https://www.normattiva.it/",
+   "historical_coverage": {
+    "from": 1861,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "law"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Testi normativi ufficiali (non protetti da diritto d'autore, art. 5 L. 633/1941)",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Карточки актов (ELI) открыты через WebFetch; использованы название, номер, даты публикации/вступления в силу.",
+   "source_type": "government",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1861,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_cortecost",
+   "name": "Corte costituzionale — schede delle pronunce",
+   "publisher": "Corte costituzionale della Repubblica Italiana",
+   "country": "IT",
+   "url": "https://www.cortecostituzionale.it/",
+   "historical_coverage": {
+    "from": 1956,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "law"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальные документы",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Ordinanza 10/1961 — подтверждение отмены закона 1939 г. законом 10.02.1961 n. 5.",
+   "source_type": "government",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1956,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_agi",
+   "name": "AGI — Agenzia Italia",
+   "publisher": "AGI Agenzia Giornalistica Italia",
+   "country": "IT",
+   "url": "https://www.agi.it/",
+   "historical_coverage": {
+    "from": 1945,
+    "to": 2026
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "news"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Proprietary; только пересказ",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Информагентство; исторические юбилейные материалы; confidence medium.",
+   "source_type": "newspaper",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1945,
+    "to": 2026
+   }
+  },
+  {
+   "source_id": "it_studiocataldi",
+   "name": "StudioCataldi.it — Le battaglie delle donne",
+   "publisher": "Studio Cataldi (юридический портал)",
+   "country": "IT",
+   "url": "https://www.studiocataldi.it/",
+   "historical_coverage": {
+    "from": 1919,
+    "to": 1965
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "law",
+    "women_rights"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Все права защищены; использован только пересказ фактов",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Популярно-юридическая статья; для дат законов 1919 и 1963 гг.; confidence: medium.",
+   "source_type": "academic",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1919,
+    "to": 1965
+   }
+  },
+  {
+   "source_id": "it_istat",
+   "name": "ISTAT — Istituto nazionale di statistica",
+   "publisher": "Istituto nazionale di statistica",
+   "country": "IT",
+   "url": "https://www.istat.it/",
+   "historical_coverage": {
+    "from": 1861,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "demography",
+    "family_marriage",
+    "statistics"
+   ],
+   "access_method": "website",
+   "bulk_download": true,
+   "license": "Условия повторного использования на открытой странице пресс-релиза не указаны; сайт ISTAT в целом публикует данные под открытой лицензией CC BY — требует проверки перед публикацией цифр",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-11",
+   "notes": "Использован пресс-релиз «Matrimoni, unioni civili, separazioni e divorzi. Anno 2023» (22.11.2024). Серии seriestoriche.istat.it и SDMX-API не проверялись из-за ограничений бюджета.",
+   "source_type": "statistics",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false,
+    "note": "SDMX API не проверялся"
+   },
+   "years": {
+    "from": 1861,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_san",
+   "name": "Sistema Archivistico Nazionale (SAN)",
+   "publisher": "Ministero della Cultura",
+   "country": "IT",
+   "url": "https://san.beniculturali.it/",
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия не проверялись",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Приоритетный архивный портал; в этой сессии не открывался из-за ограничений бюджета.",
+   "source_type": "archive",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_bncr",
+   "name": "Biblioteca Nazionale Centrale di Roma",
+   "publisher": "Ministero della Cultura",
+   "country": "IT",
+   "url": "http://www.bncrm.beniculturali.it/",
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия не проверялись",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Не открывалась в этой сессии.",
+   "source_type": "library",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it",
+    "it-roma"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_internet_culturale",
+   "name": "Internet Culturale",
+   "publisher": "ICCU",
+   "country": "IT",
+   "url": "https://www.internetculturale.it/",
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия не проверялись",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Оцифрованная периодика; не открывался в этой сессии.",
+   "source_type": "library",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_lastampa_archivio",
+   "name": "Archivio storico La Stampa",
+   "publisher": "GEDI / La Stampa",
+   "country": "IT",
+   "url": "https://www.archiviolastampa.it/",
+   "access_method": "catalogue",
+   "bulk_download": false,
+   "license": "Условия использования не проверены; массовый сбор не допускается без проверки",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Ключевая туринская газета; условия не проверялись, записи на неё не ссылаются.",
+   "source_type": "newspaper",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-torino",
+    "it-piemonte"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "source_id": "it_treccani",
+   "name": "Treccani — Enciclopedia",
+   "publisher": "Istituto della Enciclopedia Italiana",
+   "country": "IT",
+   "url": "https://www.treccani.it/",
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Все права защищены",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "catalogued",
+   "accessed": null,
+   "notes": "Планировался как первичная энциклопедия; в этой сессии не использован.",
+   "source_type": "encyclopedia",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   }
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "elections"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_interno_dait",
+   "name": "Ministero dell'Interno, DAIT — Archivio storico delle elezioni: Referendum popolari, risultati complessivi 1946–2016",
+   "publisher": "Ministero dell'Interno, Direzione centrale dei Servizi elettorali",
+   "url": "https://dait.interno.gov.it/documenti/referendum_risultati_complessivi_1946_2016_0.pdf",
+   "source_type": "government",
+   "historical_coverage": {
+    "from": 1946,
+    "to": 2016
+   },
+   "years": {
+    "from": 1946,
+    "to": 2016
+   },
+   "license": "Официальные данные Министерства внутренних дел; условия повторного использования на PDF не указаны, используются только цифры с пересказом",
+   "notes": "PDF скачан, текст извлечён pdftotext. elezionistorico.interno.gov.it отвечает 403 автоматическим клиентам."
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_governo",
+   "name": "Governo italiano — Presidenza del Consiglio dei Ministri",
+   "publisher": "Presidenza del Consiglio dei Ministri",
+   "url": "https://www.governo.it/",
+   "source_type": "government",
+   "historical_coverage": {
+    "from": 1943,
+    "to": 2025
+   },
+   "years": {
+    "from": 1943,
+    "to": 2025
+   },
+   "license": "Контент сайта по лицензии CC BY 4.0 (указано в правовых условиях governo.it, не перепроверено)",
+   "notes": "Новостные страницы открыты WebFetch."
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "disasters"
+   ],
+   "access_method": "bulk_download",
+   "bulk_download": true,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_ingv_cfti5",
+   "name": "INGV — CFTI5Med, Catalogo dei Forti Terremoti in Italia (461 a.C.–1997) e nell'area mediterranea",
+   "publisher": "Istituto Nazionale di Geofisica e Vulcanologia",
+   "url": "https://storing.ingv.it/cfti/cfti5/",
+   "source_type": "academic",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 1997
+   },
+   "years": {
+    "from": 1900,
+    "to": 1997
+   },
+   "license": "CC BY 4.0 (указано на сайте)",
+   "notes": "Интерфейс на JavaScript; список толчков QuakeList.xml скачан и разобран. Числа погибших в каталоге не извлекались."
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "disasters"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_protezionecivile",
+   "name": "Dipartimento della Protezione Civile",
+   "publisher": "Presidenza del Consiglio dei Ministri",
+   "url": "https://www.protezionecivile.gov.it/",
+   "source_type": "government",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "license": "Условия сайта не проверялись; использован пересказ",
+   "notes": "Новость к 80-летию извержения Везувия 1944 г."
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "disasters"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "en"
+   ],
+   "location_ids": [
+    "it-napoli"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_port_ac",
+   "name": "University of Portsmouth Research Portal — Chester et al., Human responses to the 1906 eruption of Vesuvius",
+   "publisher": "University of Portsmouth",
+   "url": "https://researchportal.port.ac.uk/",
+   "source_type": "academic",
+   "historical_coverage": {
+    "from": 1906,
+    "to": 1906
+   },
+   "years": {
+    "from": 1906,
+    "to": 1906
+   },
+   "license": "Аннотация научной статьи; все права у авторов/издателя",
+   "notes": "Использована только аннотация."
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_mic",
+   "name": "Ministero della Cultura — Siti italiani del Patrimonio Mondiale UNESCO",
+   "publisher": "Ministero della Cultura",
+   "url": "https://cultura.gov.it/",
+   "source_type": "government",
+   "historical_coverage": {
+    "from": 1979,
+    "to": 2025
+   },
+   "years": {
+    "from": 1979,
+    "to": 2025
+   },
+   "license": "Условия сайта не проверялись; использован пересказ",
+   "notes": "Перечень объектов всемирного и нематериального наследия с годами включения."
+  },
+  {
+   "country": "IT",
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "source_id": "it_regione_sicilia",
+   "name": "Regione Siciliana — La Regione informa",
+   "publisher": "Regione Siciliana",
+   "url": "https://www.regione.sicilia.it/",
+   "source_type": "government",
+   "historical_coverage": {
+    "from": 2000,
+    "to": 2025
+   },
+   "years": {
+    "from": 2000,
+    "to": 2025
+   },
+   "license": "Условия сайта не проверялись; использован пересказ",
+   "notes": "Пресс-релизы правительства Сицилии."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "industry",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "© Associazione Archivio Storico Olivetti 1999–2025; используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-ivrea"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_archivio_olivetti",
+   "name": "Associazione Archivio Storico Olivetti (storiaolivetti.it)",
+   "publisher": "Associazione Archivio Storico Olivetti, Ivrea",
+   "url": "https://www.storiaolivetti.it/",
+   "source_type": "archive",
+   "notes": "Сайт исторического архива Olivetti: хронология компании 1908–1977 и статьи по истории продуктов."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "transport",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-roma"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_roma_metropolitane",
+   "name": "Roma Metropolitane",
+   "publisher": "Roma Metropolitane S.r.l. (società di Roma Capitale)",
+   "url": "https://www.romametropolitane.it/",
+   "source_type": "municipal",
+   "notes": "Società in house di Roma Capitale per le metropolitane; pagina di stato della linea C con date di inaugurazione delle tratte."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "local_history",
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-roma"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_roma_capitale",
+   "name": "Roma Capitale — portale istituzionale",
+   "publisher": "Roma Capitale",
+   "url": "https://www.comune.roma.it/",
+   "source_type": "municipal",
+   "notes": "Comunicati e notizie ufficiali del Comune di Roma."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "transport",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-roma"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_atac",
+   "name": "ATAC — Storia (ATAC Icon)",
+   "publisher": "ATAC S.p.A. (azienda di trasporto di Roma Capitale)",
+   "url": "https://www.atac.roma.it/media/atacikon/storia",
+   "source_type": "municipal",
+   "notes": "Cronologia ufficiale dell'azienda municipale dei trasporti di Roma, 1909–2025."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "transport",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_atm_milano",
+   "name": "ATM — Azienda Trasporti Milanesi: profilo e storia del Gruppo",
+   "publisher": "ATM S.p.A. (società del Comune di Milano)",
+   "url": "https://www.atm.it/",
+   "source_type": "municipal",
+   "notes": "Company profile 2011 con cronologia «La storia del Gruppo» 1917–2010; Archivio Storico ATM (archiviostorico.atm.it) con foto e documenti datati."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "transport",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-firenze"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_comune_firenze",
+   "name": "Comune di Firenze — portale istituzionale e Mobilità",
+   "publisher": "Comune di Firenze",
+   "url": "https://www.comune.fi.it/",
+   "source_type": "municipal",
+   "notes": "Pagine ufficiali del Comune di Firenze (sistema tramviario, comunicati, statistica)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "war",
+    "politics"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_aspr_quirinale",
+   "name": "Portale storico della Presidenza della Repubblica — Archivio storico (Collezione Gianni Bisiach)",
+   "publisher": "Segretariato generale della Presidenza della Repubblica, Archivio storico",
+   "url": "https://archivio.quirinale.it/",
+   "source_type": "archive",
+   "notes": "Schede archivistiche dei documentari RAI «Un minuto di storia» e altri della Collezione Bisiach, intitolate per data ed evento. Il server risponde 403 ai client automatici (WebFetch/curl): titoli e descrizioni delle schede verificati tramite l'indice di ricerca, non aprendo la pagina."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "education",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_unimi",
+   "name": "Università degli Studi di Milano — storia dell'Ateneo",
+   "publisher": "Università degli Studi di Milano",
+   "url": "https://www.unimi.it/",
+   "source_type": "academic",
+   "notes": "Pagine istituzionali sulla storia dell'università statale (centenario 1924–2024)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "education"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_unimib",
+   "name": "Università di Milano-Bicocca — Our history",
+   "publisher": "Università degli Studi di Milano-Bicocca",
+   "url": "https://www.unimib.it/",
+   "source_type": "academic",
+   "notes": "Pagina istituzionale sulla storia dell'ateneo (istituito con D.M. 10 giugno 1998)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "education"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_bocconi",
+   "name": "Università Bocconi — History",
+   "publisher": "Università Commerciale Luigi Bocconi",
+   "url": "https://www.unibocconi.it/",
+   "source_type": "academic",
+   "notes": "Pagina istituzionale sulla storia dell'università (fondata nel 1902)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "economy"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_mef",
+   "name": "Ministero dell'Economia e delle Finanze — Dipartimento dell'Economia",
+   "publisher": "Ministero dell'Economia e delle Finanze",
+   "url": "https://www.de.mef.gov.it/",
+   "source_type": "government",
+   "notes": "Pagina istituzionale «L'introduzione dell'euro»: tasso 1936,27 lire, doppia circolazione 1 gennaio – 28 febbraio 2002."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "health"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_iss",
+   "name": "Istituto Superiore di Sanità — comunicati e EpiCentro",
+   "publisher": "Istituto Superiore di Sanità",
+   "url": "https://www.iss.it/",
+   "source_type": "government",
+   "notes": "Ente pubblico di ricerca sanitaria; comunicati stampa e sorveglianza COVID-19."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "transport",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_comune_milano",
+   "name": "Comune di Milano — portale istituzionale",
+   "publisher": "Comune di Milano",
+   "url": "https://www.comune.milano.it/",
+   "source_type": "municipal",
+   "notes": "Comunicati e pagine ufficiali (Area C, mobilità)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "local_history",
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-palermo"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_comune_palermo",
+   "name": "Comune di Palermo — sito istituzionale",
+   "publisher": "Comune di Palermo",
+   "url": "https://www.comune.palermo.it/",
+   "source_type": "municipal",
+   "notes": "Notizie e comunicati ufficiali del Comune di Palermo."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "local_history",
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-torino"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_comune_torino",
+   "name": "Città di Torino — comunicati stampa e portale",
+   "publisher": "Città di Torino",
+   "url": "http://www.comune.torino.it/",
+   "source_type": "municipal",
+   "notes": "Comunicati stampa e pagine ufficiali della Città di Torino."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "labour",
+    "war",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-sesto-san-giovanni"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_isec",
+   "name": "Fondazione ISEC — Istituto per la storia dell'età contemporanea",
+   "publisher": "Fondazione ISEC, Sesto San Giovanni",
+   "url": "https://fondazioneisec.it/",
+   "source_type": "archive",
+   "notes": "Istituto storico e archivio (fondi delle fabbriche Breda, Falck, Marelli e della Resistenza di Sesto), nato nel 1973 su iniziativa del Comune. Cronologia documentaria «Sesto San Giovanni tra le due guerre» con citazioni dai fondi; mostre online sullo sciopero del marzo 1944."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "transport",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-napoli"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_anm",
+   "name": "ANM — Azienda Napoletana Mobilità",
+   "publisher": "ANM S.p.A. (azienda del Comune di Napoli)",
+   "url": "https://www.anm.it/",
+   "source_type": "municipal",
+   "notes": "Pagine ufficiali sulla storia della linea 1 della metropolitana."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "local_history",
+    "architecture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-napoli"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_mostra_oltremare",
+   "name": "Mostra d'Oltremare — storia",
+   "publisher": "Mostra d'Oltremare S.p.A. (società partecipata dal Comune di Napoli)",
+   "url": "https://mostradoltremare.it/",
+   "source_type": "municipal",
+   "notes": "Pagina «Storia e governance» dell'ente fieristico pubblico."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "sport",
+    "economy"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-napoli"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_regione_campania",
+   "name": "Regione Campania — notizie istituzionali",
+   "publisher": "Regione Campania",
+   "url": "https://www.regione.campania.it/",
+   "source_type": "government",
+   "notes": "Comunicati ufficiali della Regione (Universiade 2019)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "disasters",
+    "earthquakes"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_ingv",
+   "name": "INGV — Istituto Nazionale di Geofisica e Vulcanologia (relazioni, note stampa, CFTI4)",
+   "publisher": "Istituto Nazionale di Geofisica e Vulcanologia",
+   "url": "https://www.ingv.it/",
+   "source_type": "government",
+   "notes": "Ente pubblico di ricerca: relazioni sugli eventi sismici, note stampa, Catalogo dei Forti Terremoti in Italia (CFTI4)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "industry",
+    "transport"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-torino"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_mauto",
+   "name": "MAUTO — Museo Nazionale dell'Automobile, schede della collezione",
+   "publisher": "Museo Nazionale dell'Automobile «Avvocato Giovanni Agnelli», Torino",
+   "url": "https://www.museoauto.com/",
+   "source_type": "museum",
+   "notes": "Schede dei veicoli della collezione con dati storici (anno, prezzo, produzione)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "politics",
+    "economy",
+    "disasters"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_senato_archivio",
+   "name": "Senato della Repubblica — archivio storico delle relazioni delle Commissioni d'inchiesta",
+   "publisher": "Senato della Repubblica",
+   "url": "https://www.senato.it/",
+   "source_type": "government",
+   "notes": "Relazione della Commissione parlamentare d'inchiesta sulla ricostruzione in Basilicata e Campania dopo il terremoto 1980 (X legislatura, Doc. XXIII n. 27)."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "culture"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_siusa",
+   "name": "SIUSA — Sistema Informativo Unificato per le Soprintendenze Archivistiche",
+   "publisher": "Ministero della Cultura, Direzione generale Archivi",
+   "url": "https://siusa-archivi.cultura.gov.it/",
+   "source_type": "archive",
+   "notes": "Schede dei soggetti produttori d'archivio con note storiche datate."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "culture",
+    "local_history"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_piccolo_teatro",
+   "name": "Piccolo Teatro di Milano — Teatro d'Europa",
+   "publisher": "Fondazione Piccolo Teatro di Milano (fondatori Comune di Milano, Regione Lombardia, Città metropolitana, Camera di commercio)",
+   "url": "https://www.piccoloteatro.org/",
+   "source_type": "municipal",
+   "notes": "Primo teatro pubblico italiano, nato come struttura municipale nel 1947; pagine storiche dell'istituzione."
+  },
+  {
+   "country": "IT",
+   "historical_coverage": {
+    "from": 1900,
+    "to": 2025
+   },
+   "geographic_coverage": [
+    "IT"
+   ],
+   "categories": [
+    "history",
+    "local_history",
+    "industry"
+   ],
+   "access_method": "website",
+   "bulk_download": false,
+   "license": "Официальный сайт; тексты охраняются авторским правом, используются только факты в собственном пересказе",
+   "attribution_required": true,
+   "access_restrictions": [],
+   "status": "accessed",
+   "accessed": "2026-11-12",
+   "languages": [
+    "it"
+   ],
+   "location_ids": [
+    "it-milano"
+   ],
+   "api": {
+    "available": null,
+    "verified": false
+   },
+   "years": {
+    "from": 1900,
+    "to": 2025
+   },
+   "source_id": "it_lombardia_beniculturali",
+   "name": "Lombardia Beni Culturali — archivi storici (soggetti produttori, complessi archivistici)",
+   "publisher": "Regione Lombardia",
+   "url": "https://www.lombardiabeniculturali.it/",
+   "source_type": "archive",
+   "notes": "Portale regionale delle descrizioni archivistiche e dei fondi fotografici lombardi."
+  }
+ ]
+}

@@ -1,4 +1,5 @@
 import { birthAfterwords, birthStatements } from "../../content/scenes/birthVoice";
+import { placeAtYear } from "./world/partition";
 import { milestoneFollowUpQuestionAt, narrateFraming, narrateMilestone, narrateRecord } from "../../content/scenes/historicalNarration";
 import { reflectionQuestions } from "../../content/scenes/regretArchetypes";
 import { spokenChildren, spokenRelationship } from "../../content/scenes/kinshipVoice";
@@ -71,10 +72,7 @@ function revealBranchSetup(state: GameSessionState): GameSessionState {
 }
 
 function residenceAt(state: GameSessionState, year: number): string {
-  return state.biography.residenceHistory.find((residence) => year >= residence.fromYear && year <= residence.toYear)?.placeId
-    ?? state.biography.residenceHistory.at(-1)?.placeId
-    ?? state.biography.residenceHistory[0]?.placeId
-    ?? "tver";
+  return placeAtYear(state.biography.residenceHistory, year) ?? "tver";
 }
 
 function qualitiesFor(angle: ReflectionAngle): EmotionalQualities {

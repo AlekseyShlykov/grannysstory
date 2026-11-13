@@ -1,0 +1,199 @@
+{
+ "records": [
+  {
+   "id": "tr-nat-1920-gna-founded",
+   "title": "Открытие Великого национального собрания в Анкаре",
+   "title_en": "Grand National Assembly opens in Ankara",
+   "start_date": "1920-04-23",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "23 апреля 1920 г. в Анкаре открылось Великое национальное собрание и было образовано его правительство, ставшее властью национального движения. Анкара де-факто стала столицей, поскольку Константинополь был оккупирован.",
+   "historical_summary_en": "On 23 April 1920 the Grand National Assembly opened in Ankara and formed its government, which became the authority of the national movement. Ankara became the de facto capital because Constantinople was occupied.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Government_of_the_Grand_National_Assembly",
+     "accessed": "2026-11-11",
+     "supports": "23.04.1920 учреждение; Анкара де-факто столица"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103931/1920.html",
+     "accessed": "2026-11-12",
+     "supports": "23.04.1920 открытие ВНСТ в Анкаре"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1922-sultanate-abolished",
+   "title": "Упразднение султаната",
+   "title_en": "Sultanate abolished",
+   "start_date": "1922-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "1 ноября 1922 г. Великое национальное собрание упразднило султанат; последний султан в том же месяце покинул Константинополь.",
+   "historical_summary_en": "On 1 November 1922 the Grand National Assembly abolished the sultanate; the last sultan left Constantinople later that month.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Government_of_the_Grand_National_Assembly",
+     "accessed": "2026-11-11",
+     "supports": "1.11.1922 упразднение султаната"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Occupation_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "султан изгнан позже в ноябре"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103933/1922.html",
+     "accessed": "2026-11-12",
+     "supports": "01.11.1922 упразднение султаната"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "tr-nat-1923-population-exchange",
+   "title": "Греко-турецкий обмен населением",
+   "title_en": "Greek–Turkish population exchange",
+   "start_date": "1923-01-30",
+   "end_date": "1924",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "migration",
+   "historical_summary": "30 января 1923 г. в Лозанне Греция и Турция подписали конвенцию об обязательном обмене населением, вступившую в силу 1 мая 1923 г. Около 1,2 млн православных покинули Малую Азию и Восточную Фракию, около 355–400 тыс. мусульман переселились из Греции в Турцию, в основном в 1923–1924 гг.; греки Стамбула были исключены из обмена.",
+   "historical_summary_en": "On 30 January 1923 at Lausanne, Greece and Turkey signed a convention on a compulsory population exchange, which took effect on 1 May 1923. About 1.2 million Orthodox Christians left Asia Minor and Eastern Thrace, and some 355,000–400,000 Muslims moved from Greece to Turkey, mostly in 1923–1924; the Greeks of Istanbul were exempted.",
+   "affected_groups": [
+    "migrants",
+    "ethnic_minorities"
+   ],
+   "potential_impacts": [
+    "displacement",
+    "loss_of_home",
+    "decision_to_move",
+    "family_separation"
+   ],
+   "narrative_hooks": [
+    "decision_to_move",
+    "exchange_family_memory",
+    "new_house_left_by_others"
+   ],
+   "sensitive": true,
+   "source_ids": [
+    "tr_en_wikipedia"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Population_exchange_between_Greece_and_Turkey",
+     "accessed": "2026-11-11",
+     "supports": "30.01.1923, 1.05.1923, ~1 221 489 и 355–400 тыс., исключения"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "tr-nat-1923-lausanne-treaty",
+   "title": "Лозаннский мирный договор",
+   "title_en": "Treaty of Lausanne",
+   "start_date": "1923-07-24",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "TR"
+   ],
+   "geographic_scope": "national",
+   "location_ids": [
+    "tr"
+   ],
+   "category": "political_change",
+   "historical_summary": "24 июля 1923 г. был подписан Лозаннский мирный договор, международно признавший новое турецкое государство в его границах. Союзные войска покинули Стамбул 4 октября 1923 г.",
+   "historical_summary_en": "On 24 July 1923 the Treaty of Lausanne was signed, giving international recognition to the new Turkish state within its borders. Allied troops left Istanbul on 4 October 1923.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "tr_en_wikipedia",
+    "tr_ktb_chronology"
+   ],
+   "evidence": [
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Government_of_the_Grand_National_Assembly",
+     "accessed": "2026-11-11",
+     "supports": "24.07.1923 Лозанна"
+    },
+    {
+     "source_id": "tr_en_wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Occupation_of_Istanbul",
+     "accessed": "2026-11-11",
+     "supports": "4.10.1923 уход союзников"
+    },
+    {
+     "source_id": "tr_ktb_chronology",
+     "url": "https://www.ktb.gov.tr/EN-103934/1923.html",
+     "accessed": "2026-11-12",
+     "supports": "24.07.1923 подписан Лозаннский договор; последние части Антанты покинули Стамбул 2.10.1923"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}

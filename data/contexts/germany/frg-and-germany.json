@@ -1,0 +1,2561 @@
+{
+ "records": [
+  {
+   "id": "de-ctx-frg-1950-1990-wages",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1950,
+   "period_end": 1990,
+   "context_type": "wages_income",
+   "attribute": "gross_monthly_earnings",
+   "title": "ФРГ: заработки 1950–1990",
+   "description": "Средний месячный заработок до вычетов у полностью занятых в ФРГ вырос за 1950–1965 годы примерно втрое. Женщины получали заметно меньше: в 1960 году около 59% мужского заработка. Destatis публикует этот ряд в евро, пересчитанных из марок, поэтому суммы показывают динамику, а не цены тех лет. С 1970 по 1990 год средний месячный заработок полностью занятых в ФРГ вырос более чем втрое в номинальном выражении. Разрыв между женщинами и мужчинами сокращался медленно: в 1990 году женщины получали около 71% мужского заработка. Суммы опубликованы Destatis в евро, пересчитанных из марок.",
+   "title_en": "FRG: earnings, 1950-1990",
+   "description_en": "Average gross monthly earnings of full-time employees in the FRG roughly tripled between 1950 and 1965. Women earned noticeably less: about 59% of men's earnings in 1960. Destatis publishes this series in euros converted from marks, so the amounts show the trend, not the prices of the time. Between 1970 and 1990 average monthly earnings of full-time employees in the FRG more than tripled in nominal terms. The gap between women and men narrowed slowly: in 1990 women earned about 71% of men's earnings. Destatis publishes the amounts in euros converted from marks.",
+   "statistics": [
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 135,
+     "unit": "EUR/month (converted)",
+     "year": 1950,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 186,
+     "unit": "EUR/month (converted)",
+     "year": 1955,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 263,
+     "unit": "EUR/month (converted)",
+     "year": 1960,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 403,
+     "unit": "EUR/month (converted)",
+     "year": 1965,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_women_eur",
+     "value": 178,
+     "unit": "EUR/month (converted)",
+     "year": 1960,
+     "area_id": "de",
+     "population": "полностью занятые женщины",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_men_eur",
+     "value": 302,
+     "unit": "EUR/month (converted)",
+     "year": 1960,
+     "area_id": "de",
+     "population": "полностью занятые мужчины",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 581,
+     "unit": "EUR/month (converted)",
+     "year": 1970,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 909,
+     "unit": "EUR/month (converted)",
+     "year": 1975,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 1273,
+     "unit": "EUR/month (converted)",
+     "year": 1980,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 1546,
+     "unit": "EUR/month (converted)",
+     "year": 1985,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_eur",
+     "value": 1879,
+     "unit": "EUR/month (converted)",
+     "year": 1990,
+     "area_id": "de",
+     "population": "полностью занятые наёмные работники, без разовых выплат; старая ФРГ (1950–1959 без Саара и Берлина, 1960–1963 без Берлина, с 1964 вкл. Западный Берлин)",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_women_eur",
+     "value": 1458,
+     "unit": "EUR/month (converted)",
+     "year": 1990,
+     "area_id": "de",
+     "population": "полностью занятые женщины, старая ФРГ",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_men_eur",
+     "value": 2062,
+     "unit": "EUR/month (converted)",
+     "year": 1990,
+     "area_id": "de",
+     "population": "полностью занятые мужчины, старая ФРГ",
+     "method_note": "Destatis, ряд Bruttomonatsverdienste; суммы опубликованы в евро, в том числе за годы марки (коэффициент пересчёта на странице не указан)",
+     "source_id": "de_destatis"
+    }
+   ],
+   "source_ids": [
+    "de_destatis"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/Verdienste-Branche-Berufe/Tabellen/liste-bruttomonatsverdienste.html",
+     "accessed": "2026-11-11",
+     "supports": "Früheres Bundesgebiet 1950–1965, по полу"
+    },
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/Verdienste-Branche-Berufe/Tabellen/liste-bruttomonatsverdienste.html",
+     "accessed": "2026-11-11",
+     "supports": "Früheres Bundesgebiet 1970–1990"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-de-1995-2020-wages-east-west",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1991,
+   "period_end": 2020,
+   "context_type": "wages_income",
+   "attribute": "gross_monthly_earnings_east_west",
+   "title": "Германия: зарплаты на Востоке и Западе после объединения",
+   "description": "После объединения заработки на востоке Германии долго оставались заметно ниже западных: в 1995 году около 70% западного уровня, в 2020 году около 81%. Разрыв между мужчинами и женщинами на Востоке был меньше, чем на Западе. Суммы — средний месячный заработок до вычетов у полностью занятых.",
+   "title_en": "Germany: pay in the East and West after unification",
+   "description_en": "After unification earnings in eastern Germany long remained well below western levels: about 70% of the western level in 1995 and about 81% in 2020. The gap between men and women was smaller in the East than in the West. The amounts are average gross monthly earnings of full-time employees.",
+   "statistics": [
+    {
+     "indicator": "avg_gross_monthly_earnings_west_eur",
+     "value": 2358,
+     "unit": "EUR/month",
+     "year": 1995,
+     "area_id": "de",
+     "population": "полностью занятые, старые земли (с 2007 вкл. Берлин)",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_west_eur",
+     "value": 2652,
+     "unit": "EUR/month",
+     "year": 2000,
+     "area_id": "de",
+     "population": "полностью занятые, старые земли (с 2007 вкл. Берлин)",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_west_eur",
+     "value": 3338,
+     "unit": "EUR/month",
+     "year": 2010,
+     "area_id": "de",
+     "population": "полностью занятые, старые земли (с 2007 вкл. Берлин)",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_west_eur",
+     "value": 4081,
+     "unit": "EUR/month",
+     "year": 2020,
+     "area_id": "de",
+     "population": "полностью занятые, старые земли (с 2007 вкл. Берлин)",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_east_eur",
+     "value": 1652,
+     "unit": "EUR/month",
+     "year": 1995,
+     "area_id": "de",
+     "population": "полностью занятые, новые земли",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_east_eur",
+     "value": 1929,
+     "unit": "EUR/month",
+     "year": 2000,
+     "area_id": "de",
+     "population": "полностью занятые, новые земли",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_east_eur",
+     "value": 2547,
+     "unit": "EUR/month",
+     "year": 2010,
+     "area_id": "de",
+     "population": "полностью занятые, новые земли",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_east_eur",
+     "value": 3289,
+     "unit": "EUR/month",
+     "year": 2020,
+     "area_id": "de",
+     "population": "полностью занятые, новые земли",
+     "method_note": "Destatis, без разовых выплат",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_women_east_eur",
+     "value": 3231,
+     "unit": "EUR/month",
+     "year": 2020,
+     "area_id": "de",
+     "population": "полностью занятые женщины, новые земли",
+     "method_note": "Destatis",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_gross_monthly_earnings_men_east_eur",
+     "value": 3317,
+     "unit": "EUR/month",
+     "year": 2020,
+     "area_id": "de",
+     "population": "полностью занятые мужчины, новые земли",
+     "method_note": "Destatis",
+     "source_id": "de_destatis"
+    }
+   ],
+   "source_ids": [
+    "de_destatis"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.destatis.de/DE/Themen/Arbeit/Verdienste/Verdienste-Branche-Berufe/Tabellen/liste-bruttomonatsverdienste.html",
+     "accessed": "2026-11-11",
+     "supports": "Früheres Bundesgebiet, Neue Länder 1995–2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1949-1969-women-employment",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1949,
+   "period_end": 1969,
+   "context_type": "women_employment",
+   "attribute": "women_work_law_pay",
+   "title": "ФРГ: работа женщин в 1950-е",
+   "description": "В 1950 году работницы промышленности получали около 59% заработка мужчин, в 1960-м — 61%. Закон о равноправии 1957 года (вступил в силу в 1958-м) отменил право мужа решать за жену, может ли она работать, но работа по-прежнему допускалась, если совместима с «обязанностями в браке и семье». Министр по делам семьи в 1959 году называл материнство главной профессией женщины.",
+   "title_en": "FRG: women at work in the 1950s",
+   "description_en": "In 1950 female industrial workers earned about 59% of men's wages, and 61% in 1960. The Equal Rights Act of 1957 (in force from 1958) ended the husband's right to decide whether his wife could work, but work was still allowed only if compatible with 'duties in marriage and family'. In 1959 the family minister called motherhood a woman's main profession.",
+   "statistics": [
+    {
+     "indicator": "female_to_male_wage_ratio_industrial_workers",
+     "value": 59,
+     "unit": "% of male wage",
+     "year": 1950,
+     "area_id": "de",
+     "population": "рабочие промышленности",
+     "method_note": "LeMO (HdG)",
+     "source_id": "de_lemo"
+    },
+    {
+     "indicator": "female_to_male_wage_ratio_industrial_workers",
+     "value": 61,
+     "unit": "% of male wage",
+     "year": 1960,
+     "area_id": "de",
+     "population": "рабочие промышленности",
+     "method_note": "LeMO (HdG)",
+     "source_id": "de_lemo"
+    }
+   ],
+   "source_ids": [
+    "de_lemo",
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/kapitel/geteiltes-deutschland-gruenderjahre/wirtschaft-und-gesellschaft-im-westen/frauenarbeit.html",
+     "accessed": "2026-11-11",
+     "supports": "59% (1950), 61% (1960), закон 1957, цитата Вюрмелинга 1959"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://bpb.de/apuz/31161/50-jahre-geschlechtergerechtigkeit-und-arbeitsmarkt?p=all",
+     "accessed": "2026-11-11",
+     "supports": "1958: отменено согласие мужа на работу жены"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-frg-1970-1989-women-employment",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "women_employment",
+   "attribute": "women_part_time",
+   "title": "ФРГ: работа женщин 1970–1980-е",
+   "description": "В середине 1980-х в ФРГ работала примерно половина женщин трудоспособного возраста, меньше, чем во многих соседних странах. Женщины составляли около 90% всех работающих неполный день; из таких работниц в 1984 году 83% были замужем, почти половина имела детей до 16 лет. Реформа брачного права 1977 года отменила модель «брака с домохозяйкой».",
+   "title_en": "FRG: women at work in the 1970s and 1980s",
+   "description_en": "In the mid-1980s about half of working-age women in the FRG were in the labour force, fewer than in many neighbouring countries. Women made up about 90% of all part-time workers; of these, in 1984, 83% were married and almost half had children under 16. The 1977 marriage law reform ended the 'housewife marriage' as the legal model.",
+   "statistics": [
+    {
+     "indicator": "female_labour_force_participation",
+     "value": 50,
+     "unit": "% of women of working age",
+     "year": 1986,
+     "area_id": "de",
+     "population": "женщины трудоспособного возраста",
+     "method_note": "OECD Labour Force Statistics, по Беккеру, APuZ 28/1989",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "women_share_of_part_time_workers",
+     "value": 90,
+     "unit": "% of part-time workers",
+     "year": 1984,
+     "area_id": "de",
+     "population": "все работающие неполный день",
+     "method_note": "Беккер, APuZ 28/1989 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "part_time_women_married_share",
+     "value": 83,
+     "unit": "% of part-time women",
+     "year": 1984,
+     "area_id": "de",
+     "population": "женщины, работающие неполный день",
+     "method_note": "Беккер",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "employment_rate_mothers_children_under_18",
+     "value": 44,
+     "unit": "% of mothers",
+     "year": 1982,
+     "area_id": "de",
+     "population": "матери детей до 18 лет",
+     "method_note": "Беккер",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "part_time_share_of_employed_women",
+     "value": 27.9,
+     "unit": "% of employed women",
+     "year": 1984,
+     "area_id": "de",
+     "population": "работающие женщины, Западная Германия",
+     "method_note": "Альмендингер и др., APuZ 2008",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/534905/frauenerwerbstaetigkeit-eine-vergleichende-bestandsaufnahme/",
+     "accessed": "2026-11-11",
+     "supports": "участие 50% (1986), неполный день, матери 44% (1982)"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://bpb.de/apuz/31161/50-jahre-geschlechtergerechtigkeit-und-arbeitsmarkt?p=all",
+     "accessed": "2026-11-11",
+     "supports": "27,9% (1984), реформа 1977"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1980-1990-childcare",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1980,
+   "period_end": 1990,
+   "context_type": "social_policy",
+   "attribute": "childcare_creches_kindergartens",
+   "title": "ФРГ: ясли почти отсутствуют",
+   "description": "В 1980 году в ФРГ места в яслях или на полный день были лишь у 1,4% детей до трёх лет. Детский сад посещали около трёх четвертей детей 3–6 лет, но в основном на полдня. По опросу 1987 года 80% мужчин 20–50 лет считали, что мать должна оставаться дома, пока детям нет десяти лет.",
+   "title_en": "FRG: almost no crèches",
+   "description_en": "In 1980 only 1.4% of children under three in the FRG had a crèche or full-day place. About three quarters of children aged 3-6 attended kindergarten, but mostly for half the day. In a 1987 survey 80% of men aged 20-50 thought a mother should stay at home until her children were ten.",
+   "statistics": [
+    {
+     "indicator": "creche_coverage_under_3",
+     "value": 1.4,
+     "unit": "% of children under 3",
+     "year": 1980,
+     "area_id": "de",
+     "population": "дети до 3 лет",
+     "method_note": "Беккер, APuZ 28/1989",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "kindergarten_coverage_3_6",
+     "value": 75,
+     "unit": "% of children aged 3-6",
+     "year": 1980,
+     "area_id": "de",
+     "population": "дети 3–6 лет, в основном неполный день",
+     "method_note": "Беккер",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "kindergarten_places_per_100_children",
+     "value": 80.9,
+     "unit": "places per 100 children aged 3-<6",
+     "year": 1986,
+     "area_id": "de",
+     "population": "дети 3–<6 лет, старые земли",
+     "method_note": "Кистлер и др., APuZ 6/1993 (единица в тексте указана неявно)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "kindergarten_places_per_100_children",
+     "value": 80.2,
+     "unit": "places per 100 children aged 3-<6",
+     "year": 1990,
+     "area_id": "de",
+     "population": "дети 3–<6 лет, старые земли",
+     "method_note": "Кистлер и др.",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "men_mother_should_stay_home",
+     "value": 80,
+     "unit": "% of men aged 20-50",
+     "year": 1987,
+     "area_id": "de",
+     "population": "мужчины 20–50 лет",
+     "method_note": "опрос ЕС 1987 по Беккеру",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/534905/frauenerwerbstaetigkeit-eine-vergleichende-bestandsaufnahme/",
+     "accessed": "2026-11-11",
+     "supports": "1,4% до 3 лет, 75% детсад (1980); опрос 1987"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/536380/die-wiedervereinigung-der-deutschen-maenner-braucht-keine-frauen-frauen-als-wendeverliererinnen/",
+     "accessed": "2026-11-11",
+     "supports": "80,9 (1986) → 80,2 (1990)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-frg-1950-1989-divorce",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1950,
+   "period_end": 1989,
+   "context_type": "family_marriage",
+   "attribute": "marriage_divorce",
+   "title": "ФРГ: разводы 1950–1989",
+   "description": "После послевоенного всплеска 1950 года число разводов в ФРГ упало почти вдвое и до середины 1960-х держалось около 50–60 тысяч в год, меньше одного развода на тысячу жителей. Рождаемость в середине 1960-х достигла 2,5 ребёнка на женщину. Брак с работающим мужем и женой-домохозяйкой был законодательной и социальной нормой. В 1970-е число разводов в ФРГ быстро росло. 1 июля 1977 года вступил в силу первый закон о реформе брачного и семейного права; в переходный период число разводов в 1978 году упало до 32 тысяч, а затем снова выросло. В 1989 году разводились около двух пар на тысячу жителей, средняя продолжительность брака до развода была 12 лет.",
+   "title_en": "FRG: divorce, 1950-1989",
+   "description_en": "After a post-war peak in 1950 the number of divorces in the FRG almost halved and until the mid-1960s stayed at about 50,000-60,000 a year, less than one per thousand inhabitants. Fertility reached 2.5 children per woman in the mid-1960s. Marriage with a working husband and a housewife was the legal and social norm. In the 1970s the number of divorces in the FRG rose quickly. The First Act reforming marriage and family law came into force on 1 July 1977; during the transition divorces fell to 32,000 in 1978 and then rose again. In 1989 about two couples per thousand inhabitants divorced, and the average marriage lasted 12 years before divorce.",
+   "statistics": [
+    {
+     "indicator": "divorces",
+     "value": 84740,
+     "unit": "divorces",
+     "year": 1950,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 48277,
+     "unit": "divorces",
+     "year": 1955,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 48878,
+     "unit": "divorces",
+     "year": 1960,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 58728,
+     "unit": "divorces",
+     "year": 1965,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000",
+     "value": 1.69,
+     "unit": "per 1000 population",
+     "year": 1950,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000",
+     "value": 0.88,
+     "unit": "per 1000 population",
+     "year": 1960,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000",
+     "value": 1.0,
+     "unit": "per 1000 population",
+     "year": 1965,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.37,
+     "unit": "children per woman",
+     "year": 1960,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.51,
+     "unit": "children per woman",
+     "year": 1965,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "divorces",
+     "value": 76520,
+     "unit": "divorces",
+     "year": 1970,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 106829,
+     "unit": "divorces",
+     "year": 1975,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 32462,
+     "unit": "divorces",
+     "year": 1978,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 96222,
+     "unit": "divorces",
+     "year": 1980,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 126628,
+     "unit": "divorces",
+     "year": 1989,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000",
+     "value": 1.26,
+     "unit": "per 1000 population",
+     "year": 1970,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000",
+     "value": 0.53,
+     "unit": "per 1000 population",
+     "year": 1978,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000",
+     "value": 2.04,
+     "unit": "per 1000 population",
+     "year": 1989,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_marriage_duration_at_divorce",
+     "value": 12.1,
+     "unit": "years",
+     "year": 1989,
+     "area_id": "de",
+     "population": "старая ФРГ (с 1995 вкл. Восточный Берлин)",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    }
+   ],
+   "source_ids": [
+    "de_destatis",
+    "de_bpb",
+    "de_lemo"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEHeft_derivate_00037171/2010140167004.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.1 и 3.13"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61550/geburten/",
+     "accessed": "2026-11-11",
+     "supports": "TFR Запад 1960, 1965"
+    },
+    {
+     "source_id": "de_lemo",
+     "url": "https://www.hdg.de/lemo/kapitel/geteiltes-deutschland-gruenderjahre/wirtschaft-und-gesellschaft-im-westen/frauenarbeit.html",
+     "accessed": "2026-11-11",
+     "supports": "право на работу жены при совместимости с обязанностями в семье"
+    },
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEHeft_derivate_00037171/2010140167004.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 3.1, 3.13; падение 1977–1978 из-за нового права"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1970-1989-fertility",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1970,
+   "period_end": 1989,
+   "context_type": "fertility_childlessness",
+   "attribute": "fertility_childlessness",
+   "title": "ФРГ: меньше детей и больше бездетных",
+   "description": "С начала 1970-х рождаемость в ФРГ упала ниже уровня замещения поколений и в 1985 году составила 1,28 ребёнка на женщину. Бездетность росла от поколения к поколению: среди западногерманских женщин 1943–1948 годов рождения детей не имели 13%, 1959–1963 годов — уже 20,5%. В ГДР в те же годы бездетных было в два раза меньше.",
+   "title_en": "FRG: fewer children and more childless women",
+   "description_en": "From the early 1970s fertility in the FRG fell below replacement level and was 1.28 children per woman in 1985. Childlessness grew from generation to generation: 13% of West German women born in 1943-1948 had no children, and 20.5% of those born in 1959-1963. In the GDR, childless women were half as common in the same years.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate",
+     "value": 2.02,
+     "unit": "children per woman",
+     "year": 1970,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.45,
+     "unit": "children per woman",
+     "year": 1975,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.44,
+     "unit": "children per woman",
+     "year": 1980,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate",
+     "value": 1.28,
+     "unit": "children per woman",
+     "year": 1985,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "childless_share_cohort_1943_1948",
+     "value": 13.0,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "de",
+     "population": "женщины 1943–1948 г.р., западные земли без Берлина",
+     "method_note": "Микроперепись 2018 через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "childless_share_cohort_1959_1963",
+     "value": 20.5,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "de",
+     "population": "женщины 1959–1963 г.р., западные земли без Берлина",
+     "method_note": "Микроперепись 2018 через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "childless_share_cohort_1959_1963",
+     "value": 9.4,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "state-gdr",
+     "population": "женщины 1959–1963 г.р., восточные земли без Берлина",
+     "method_note": "Микроперепись 2018 через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61550/geburten/",
+     "accessed": "2026-11-11",
+     "supports": "TFR Запад 1970–1985"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61553/kinderlosigkeit-und-kinderzahl/",
+     "accessed": "2026-11-11",
+     "supports": "бездетность по когортам, Запад/Восток"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-de-1990-2016-divorce",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1990,
+   "period_end": 2016,
+   "context_type": "family_marriage",
+   "attribute": "marriage_divorce",
+   "title": "Германия: разводы после объединения",
+   "description": "На востоке Германии после 1990 года число разводов резко упало: в 1991 году лишь 0,56 на тысячу жителей против почти 2 в 1990-м, отчасти из-за перехода на западное право и суды. По Германии в целом разводов стало больше всего в 2003 году, затем их число снижалось. К 2016 году брак до развода длился в среднем 15 лет.",
+   "title_en": "Germany: divorce after unification",
+   "description_en": "In eastern Germany the number of divorces fell sharply after 1990: in 1991 only 0.56 per thousand inhabitants compared with almost 2 in 1990, partly because of the switch to western law and courts. For Germany as a whole divorces peaked in 2003 and then declined. By 2016 a marriage lasted on average 15 years before divorce.",
+   "statistics": [
+    {
+     "indicator": "divorces_per_1000_east",
+     "value": 1.98,
+     "unit": "per 1000 population",
+     "year": 1990,
+     "area_id": "de",
+     "population": "новые земли и Восточный Берлин (с 1995 без Восточного Берлина)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000_east",
+     "value": 0.56,
+     "unit": "per 1000 population",
+     "year": 1991,
+     "area_id": "de",
+     "population": "новые земли и Восточный Берлин (с 1995 без Восточного Берлина)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces_per_1000_east",
+     "value": 2.11,
+     "unit": "per 1000 population",
+     "year": 2000,
+     "area_id": "de",
+     "population": "новые земли и Восточный Берлин (с 1995 без Восточного Берлина)",
+     "method_note": "Destatis FS 1 R 1.4 2016, табл. 3.13",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 154786,
+     "unit": "divorces",
+     "year": 1990,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "табл. 2.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 213975,
+     "unit": "divorces",
+     "year": 2003,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "табл. 2.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "divorces",
+     "value": 162397,
+     "unit": "divorces",
+     "year": 2016,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "табл. 2.1",
+     "source_id": "de_destatis"
+    },
+    {
+     "indicator": "avg_marriage_duration_at_divorce",
+     "value": 15.0,
+     "unit": "years",
+     "year": 2016,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "табл. 3.13",
+     "source_id": "de_destatis"
+    }
+   ],
+   "source_ids": [
+    "de_destatis"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_destatis",
+     "url": "https://www.statistischebibliothek.de/mir/servlets/MCRFileNodeServlet/DEHeft_derivate_00037171/2010140167004.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 2.1, 3.1, 3.13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-de-1990-2018-fertility-east-west",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1990,
+   "period_end": 2018,
+   "context_type": "fertility_childlessness",
+   "attribute": "fertility_east_west",
+   "title": "Германия: провал рождаемости на Востоке",
+   "description": "После объединения рождаемость на востоке Германии обвалилась: с 1,52 ребёнка на женщину в 1990 году до 0,77 в 1993–1994 годах, самого низкого значения за всю историю наблюдений. К 2008 году Восток догнал Запад и затем обогнал его. Бездетность на Востоке тоже выросла, но осталась ниже западной: 16% против 22,6% у женщин 1974–1978 годов рождения.",
+   "title_en": "Germany: the collapse of fertility in the East",
+   "description_en": "After unification fertility in eastern Germany collapsed, from 1.52 children per woman in 1990 to 0.77 in 1993-1994, the lowest value ever recorded. By 2008 the East had caught up with the West and then overtook it. Childlessness in the East also rose but stayed below western levels: 16% against 22.6% among women born in 1974-1978.",
+   "statistics": [
+    {
+     "indicator": "total_fertility_rate_east",
+     "value": 1.52,
+     "unit": "children per woman",
+     "year": 1990,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Восток (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_east",
+     "value": 0.77,
+     "unit": "children per woman",
+     "year": 1994,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Восток (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_east",
+     "value": 1.21,
+     "unit": "children per woman",
+     "year": 2000,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Восток (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_east",
+     "value": 1.46,
+     "unit": "children per woman",
+     "year": 2010,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Восток (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_east",
+     "value": 1.6,
+     "unit": "children per woman",
+     "year": 2018,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Восток (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_west",
+     "value": 1.45,
+     "unit": "children per woman",
+     "year": 1990,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_west",
+     "value": 1.35,
+     "unit": "children per woman",
+     "year": 1994,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_west",
+     "value": 1.41,
+     "unit": "children per woman",
+     "year": 2000,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_west",
+     "value": 1.39,
+     "unit": "children per woman",
+     "year": 2010,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "total_fertility_rate_west",
+     "value": 1.58,
+     "unit": "children per woman",
+     "year": 2018,
+     "area_id": "de",
+     "population": "женщины 15–49 лет, Запад (с 2001 без Берлина)",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "childless_share_cohort_1974_1978_east",
+     "value": 16.0,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "de",
+     "population": "женщины 1974–1978 г.р., восточные земли без Берлина",
+     "method_note": "Микроперепись 2018",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "childless_share_cohort_1974_1978_west",
+     "value": 22.6,
+     "unit": "% of women",
+     "year": 2018,
+     "area_id": "de",
+     "population": "женщины 1974–1978 г.р., западные земли без Берлина",
+     "method_note": "Микроперепись 2018",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61550/geburten/",
+     "accessed": "2026-11-11",
+     "supports": "TFR Ост/Запад 1990–2018, минимум 0,77"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61553/kinderlosigkeit-und-kinderzahl/",
+     "accessed": "2026-11-11",
+     "supports": "когорта 1974–1978"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-reich-1945-1949-housing-shortage",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1945,
+   "period_end": 1949,
+   "context_type": "housing",
+   "attribute": "post_war_housing_shortage",
+   "title": "Германия после войны: разрушенные дома и уплотнение",
+   "description": "В западных зонах из 10,6 млн довоенных квартир 2,3 млн были полностью разрушены и столько же сильно повреждены, а население выросло на 11,5 млн за счёт изгнанных и беженцев. Около 1949 года на 14,6 млн домохозяйств приходилось 9,4 млн квартир, включая времянки; в среднем пять человек на квартиру и около 15 м² на человека. В советской зоне в 1946 году были разрушены более 500 тысяч квартир, около 14% фонда.",
+   "title_en": "Post-war Germany: destroyed homes and overcrowding",
+   "description_en": "In the western zones, 2.3 million of 10.6 million pre-war flats were completely destroyed and as many heavily damaged, while the population grew by 11.5 million through expellees and refugees. Around 1949 there were 9.4 million flats, including makeshift ones, for 14.6 million households, an average of five people per flat and about 15 square metres per person. In the Soviet zone more than 500,000 flats, about 14% of the stock, had been destroyed by 1946.",
+   "statistics": [
+    {
+     "indicator": "flats_completely_destroyed",
+     "value": 2300000,
+     "unit": "flats",
+     "year": 1945,
+     "area_id": "state-de-reich",
+     "population": "западные зоны, довоенный фонд 10,6 млн",
+     "method_note": "Киле, Handwörterbuch 2021",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "households",
+     "value": 14600000,
+     "unit": "households",
+     "year": 1949,
+     "area_id": "state-de-reich",
+     "population": "западные зоны",
+     "method_note": "Киле",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "flats_incl_emergency",
+     "value": 9400000,
+     "unit": "flats",
+     "year": 1949,
+     "area_id": "state-de-reich",
+     "population": "западные зоны, включая времянки",
+     "method_note": "Киле",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "living_space_per_person",
+     "value": 15,
+     "unit": "m2/person",
+     "year": 1949,
+     "area_id": "state-de-reich",
+     "population": "западные зоны",
+     "method_note": "Киле (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "flats_destroyed",
+     "value": 500000,
+     "unit": "flats",
+     "year": 1946,
+     "area_id": "de-zone-soviet",
+     "population": "советская зона",
+     "method_note": "Ринк, bpb 2020 (более)",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202215/wohnungspolitik/",
+     "accessed": "2026-11-11",
+     "supports": "10,6 млн / 2,3 млн разрушено; 14,6 млн домохозяйств на 9,4 млн квартир; 15 м²"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "советская зона: >500 тыс. разрушено, потеря ~14%"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1950-1969-social-housing",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1950,
+   "period_end": 1969,
+   "context_type": "housing",
+   "attribute": "social_housing",
+   "title": "ФРГ: социальное жильё 1950–1960-х",
+   "description": "Первый закон о жилищном строительстве в апреле 1950 года запустил массовое государственное финансирование жилья. До 1960 года 60% из 4 млн новых съёмных квартир были построены на государственные средства; второй закон 1956 года сместил поддержку к собственным домам. В конце 1960-х почти 30% жилого фонда составляли съёмные квартиры с государственной поддержкой.",
+   "title_en": "FRG: social housing in the 1950s and 1960s",
+   "description_en": "The First Housing Act of April 1950 launched large-scale public funding of housing. Until 1960, 60% of the 4 million new rental flats were built with public money; the Second Housing Act of 1956 shifted support towards owner-occupied homes. By the late 1960s publicly subsidised rental flats made up almost 30% of the housing stock.",
+   "statistics": [
+    {
+     "indicator": "new_rental_flats_publicly_funded_share",
+     "value": 60,
+     "unit": "% of new rental flats",
+     "year": 1960,
+     "area_id": "de",
+     "population": "4 млн съёмных квартир, построенных до 1960 г.",
+     "method_note": "Киле, Handwörterbuch 2021",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "flats_financed_federal_1950s",
+     "value": 3300000,
+     "unit": "flats",
+     "year": 1959,
+     "area_id": "de",
+     "population": "квартиры, профинансированные в 1950-е",
+     "method_note": "Ринк, bpb 2020",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "subsidised_rental_share_of_stock",
+     "value": 30,
+     "unit": "% of housing stock",
+     "year": 1969,
+     "area_id": "de",
+     "population": "весь жилой фонд ФРГ (почти)",
+     "method_note": "Ринк, bpb 2020",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202215/wohnungspolitik/",
+     "accessed": "2026-11-11",
+     "supports": "закон апреля 1950; 60% из 4 млн; закон 1956"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "3,3 млн в 1950-е; почти 30% в конце 1960-х"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-frg-1970-1990-housing",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1970,
+   "period_end": 1990,
+   "context_type": "housing",
+   "attribute": "housing_market",
+   "title": "ФРГ: жильё 1970–1980-е",
+   "description": "С 1950 по 1990 год в ФРГ построили около 19 млн квартир, из них около 7,5 млн как социальное жильё. С 1971 года рост квартплаты ограничили местной сравнительной арендой, а в середине 1970-х число квартир впервые сравнялось с числом домохозяйств. В 1990 году отменили закон о некоммерческих жилищных компаниях, и 3,4 млн их квартир вышли из-под ограничения цен.",
+   "title_en": "FRG: housing in the 1970s and 1980s",
+   "description_en": "Between 1950 and 1990 about 19 million flats were built in the FRG, about 7.5 million of them as social housing. From 1971 rent increases were limited to the local comparative rent, and in the mid-1970s the number of flats first equalled the number of households. In 1990 the law on non-profit housing companies was repealed, and 3.4 million of their flats lost their rent restrictions.",
+   "statistics": [
+    {
+     "indicator": "flats_built_1950_1990",
+     "value": 19000000,
+     "unit": "flats",
+     "year": 1990,
+     "area_id": "de",
+     "population": "старая ФРГ, 1950–1990",
+     "method_note": "Киле, Handwörterbuch 2021 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "social_flats_built_1950_1990",
+     "value": 7500000,
+     "unit": "flats",
+     "year": 1990,
+     "area_id": "de",
+     "population": "социальные съёмные и собственные квартиры",
+     "method_note": "Киле (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "non_profit_flats_deregulated",
+     "value": 3400000,
+     "unit": "flats",
+     "year": 1990,
+     "area_id": "de",
+     "population": "квартиры некоммерческих жилищных компаний",
+     "method_note": "Киле",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202215/wohnungspolitik/",
+     "accessed": "2026-11-11",
+     "supports": "19 млн / 7,5 млн; 1971; 1990 WGG"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "середина 1970-х: паритет домохозяйств и квартир"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-de-1990-2012-housing-east",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1990,
+   "period_end": 2012,
+   "context_type": "housing",
+   "attribute": "housing_transition_east",
+   "title": "Восток Германии: реституция, ремонт и снос панелек",
+   "description": "В 1990 году из 7,08 млн квартир ГДР 42% были государственными, 17% кооперативными и 41% частными; около миллиона квартир были в слишком плохом состоянии для ремонта. В 1990-е на Востоке построили около 900 тысяч новых квартир и домов, а прежние владельцы подали около 2,2 млн заявлений о возврате собственности. Когда население стало убывать, по программе «Перестройка городов Восток» в 2002–2012 годах снесли около 300 тысяч квартир, в основном в панельных районах.",
+   "title_en": "Eastern Germany: restitution, renovation and demolition of prefab blocks",
+   "description_en": "In 1990, of the GDR's 7.08 million flats 42% were state-owned, 17% cooperative and 41% private; about a million flats were in too poor a state to renovate. In the 1990s about 900,000 new flats and houses were built in the East, and former owners filed about 2.2 million restitution claims. As the population shrank, about 300,000 flats, mostly in prefabricated estates, were demolished under the Urban Restructuring East programme in 2002-2012.",
+   "statistics": [
+    {
+     "indicator": "housing_stock_gdr",
+     "value": 7080000,
+     "unit": "flats",
+     "year": 1990,
+     "area_id": "state-gdr",
+     "population": "жилой фонд ГДР",
+     "method_note": "Киле, Handwörterbuch 2021",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "state_owned_share",
+     "value": 42,
+     "unit": "% of flats",
+     "year": 1990,
+     "area_id": "state-gdr",
+     "population": "жилой фонд ГДР",
+     "method_note": "Киле",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "restitution_claims",
+     "value": 2200000,
+     "unit": "claims",
+     "year": 1992,
+     "area_id": "de",
+     "population": "новые земли",
+     "method_note": "Ринк, bpb 2020 (начало 1990-х, около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "flats_completed_east",
+     "value": 177800,
+     "unit": "flats",
+     "year": 1997,
+     "area_id": "de",
+     "population": "новые земли, пик строительства",
+     "method_note": "Ринк",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "flats_demolished_stadtumbau_ost",
+     "value": 300000,
+     "unit": "flats",
+     "year": 2012,
+     "area_id": "de",
+     "population": "новые земли, 2002–2012",
+     "method_note": "Ринк (около)",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/lexika/handwoerterbuch-politisches-system/202215/wohnungspolitik/",
+     "accessed": "2026-11-11",
+     "supports": "7,08 млн: 41/42/17%; ~1 млн непригодны"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "2,2 млн заявлений; 900 тыс. новых; 177 800 в 1997; 300 тыс. снесено"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1970-1990-appliances",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1970,
+   "period_end": 1990,
+   "context_type": "appliances",
+   "attribute": "household_durables_by_household_type",
+   "title": "ФРГ: что было в доме, 1976–1989",
+   "description": "В конце 1970-х автомобиль был у четырёх из пяти семей рабочих и служащих с двумя детьми, а телефон за четыре года появился у большинства из них. У бедных пенсионных пар машина была редкостью, а телефон в 1979 году имели около двух третей. Цветной телевизор быстро вытеснял чёрно-белый. К концу 1980-х машина и телефон были почти во всех семьях рабочих и служащих с двумя детьми, видеомагнитофон — уже в каждой второй. Посудомоечная машина появилась примерно у половины таких семей. У пенсионных пар с низким доходом телефон стал почти всеобщим, а машина была у 44%.",
+   "title_en": "FRG: what households owned, 1976-1989",
+   "description_en": "In the late 1970s four in five families of workers and employees with two children had a car, and within four years most of them got a telephone. Among low-income pensioner couples a car was rare, and about two thirds had a telephone in 1979. Colour television was quickly replacing black-and-white. By the late 1980s almost all families of workers and employees with two children had a car and a telephone, and every second one had a video recorder. About half of such families had a dishwasher. Among low-income pensioner couples the telephone became almost universal, and 44% had a car.",
+   "statistics": [
+    {
+     "indicator": "households_with_car_type2",
+     "value": 76.2,
+     "unit": "% of households",
+     "year": 1976,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type2",
+     "value": 81.9,
+     "unit": "% of households",
+     "year": 1979,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_telephone_type2",
+     "value": 57.3,
+     "unit": "% of households",
+     "year": 1976,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_telephone_type2",
+     "value": 81.2,
+     "unit": "% of households",
+     "year": 1979,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_colour_tv_type2",
+     "value": 42.2,
+     "unit": "% of households",
+     "year": 1976,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_colour_tv_type2",
+     "value": 69.2,
+     "unit": "% of households",
+     "year": 1979,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_dishwasher_type2",
+     "value": 13.0,
+     "unit": "% of households",
+     "year": 1976,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_dishwasher_type2",
+     "value": 21.6,
+     "unit": "% of households",
+     "year": 1979,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type1",
+     "value": 7.4,
+     "unit": "% of households",
+     "year": 1976,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type1",
+     "value": 19.0,
+     "unit": "% of households",
+     "year": 1979,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_telephone_type1",
+     "value": 39.3,
+     "unit": "% of households",
+     "year": 1976,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_telephone_type1",
+     "value": 63.8,
+     "unit": "% of households",
+     "year": 1979,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1980, с. 438",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type2",
+     "value": 93.1,
+     "unit": "% of households",
+     "year": 1986,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type2",
+     "value": 96.4,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_video_recorder_type2",
+     "value": 22.3,
+     "unit": "% of households",
+     "year": 1986,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_video_recorder_type2",
+     "value": 49.0,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_dishwasher_type2",
+     "value": 42.9,
+     "unit": "% of households",
+     "year": 1986,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_dishwasher_type2",
+     "value": 52.6,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "de",
+     "population": "4-персонные домохозяйства рабочих и служащих со средним доходом (тип 2: супруги с двумя детьми, один кормилец)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_telephone_type1",
+     "value": 93.5,
+     "unit": "% of households",
+     "year": 1986,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_telephone_type1",
+     "value": 95.3,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type1",
+     "value": 38.1,
+     "unit": "% of households",
+     "year": 1986,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    },
+    {
+     "indicator": "households_with_car_type1",
+     "value": 44.4,
+     "unit": "% of households",
+     "year": 1989,
+     "area_id": "de",
+     "population": "2-персонные домохозяйства пенсионеров и получателей соцпомощи с низким доходом (тип 1)",
+     "method_note": "Laufende Wirtschaftsrechnungen, декабрь; Statistisches Jahrbuch für die BRD 1990, с. 488",
+     "source_id": "de_stjb_brd"
+    }
+   ],
+   "source_ids": [
+    "de_stjb_brd"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_stjb_brd",
+     "url": "https://digi.bib.uni-mannheim.de/fileadmin/statjahrb/514402342_1980/pdf/514402342_0438.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 20.7 Ausstattung ausgewählter privater Haushalte 1976–1979 (страница получена по HTTP и прочитана через pdftotext; повторный WebFetch отклонён сервером)"
+    },
+    {
+     "source_id": "de_stjb_brd",
+     "url": "https://digi.bib.uni-mannheim.de/fileadmin/statjahrb/514402342_1990/pdf/514402342_0488.pdf",
+     "accessed": "2026-11-11",
+     "supports": "табл. 21.7, 1986–1989 (страница получена по HTTP и прочитана через pdftotext; повторный WebFetch отклонён сервером)"
+    }
+   ],
+   "verification_status": "needs_review",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-frg-1955-1973-guest-workers",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1955,
+   "period_end": 1973,
+   "context_type": "migration",
+   "attribute": "guest_worker_recruitment",
+   "title": "ФРГ: вербовка «гастарбайтеров»",
+   "description": "Первое соглашение о вербовке рабочих ФРГ заключила с Италией в декабре 1955 года, затем с Испанией и Грецией (1960), Турцией (1961), Марокко, Португалией, Тунисом и Югославией. Число иностранных работников выросло примерно с 280 тысяч в 1960 году до 2,6 млн в 1973-м; в сентябре 1964 года в Кёльне встречали миллионного. Из около 14 млн приехавших до 1973 года примерно 11 млн вернулись домой.",
+   "title_en": "FRG: recruiting 'guest workers'",
+   "description_en": "The FRG signed its first labour recruitment agreement with Italy in December 1955, followed by Spain and Greece (1960), Turkey (1961), Morocco, Portugal, Tunisia and Yugoslavia. The number of foreign employees grew from about 280,000 in 1960 to 2.6 million in 1973; in September 1964 the millionth was welcomed in Cologne. Of about 14 million who came by 1973, about 11 million returned home.",
+   "statistics": [
+    {
+     "indicator": "foreign_employees",
+     "value": 280000,
+     "unit": "persons",
+     "year": 1960,
+     "area_id": "de",
+     "population": "иностранные работники по найму",
+     "method_note": "bpb Hintergrund aktuell 2020 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "foreign_employees",
+     "value": 2600000,
+     "unit": "persons",
+     "year": 1973,
+     "area_id": "de",
+     "population": "иностранные работники по найму",
+     "method_note": "bpb (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "italian_recruits_first_year",
+     "value": 12000,
+     "unit": "persons",
+     "year": 1956,
+     "area_id": "de",
+     "population": "итальянские рабочие",
+     "method_note": "bpb (почти)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "labour_migrants_arrived_until_1973",
+     "value": 14000000,
+     "unit": "persons",
+     "year": 1973,
+     "area_id": "de",
+     "population": "все приехавшие по соглашениям",
+     "method_note": "bpb (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "aussiedler_1950_1975",
+     "value": 800000,
+     "unit": "persons",
+     "year": 1975,
+     "area_id": "de",
+     "population": "переселенцы немецкого происхождения 1950–1975",
+     "method_note": "Ольтмер/Ханевинкель, bpb 2021 (около)",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/324552/erstes-anwerbeabkommen-vor-65-jahren/",
+     "accessed": "2026-11-11",
+     "supports": "соглашения, 280 тыс. → 2,6 млн, миллионный 1964, 14/11 млн"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/migration-integration/regionalprofile/deutschland/341068/geschichte-der-migration-nach-und-aus-deutschland/",
+     "accessed": "2026-11-11",
+     "supports": "переселенцы 1950–1975 ~800 тыс."
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1973-1989-migration",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1973,
+   "period_end": 1989,
+   "context_type": "migration",
+   "attribute": "after_recruitment_stop",
+   "title": "ФРГ: после остановки вербовки",
+   "description": "В ноябре 1973 года на фоне нефтяного кризиса вербовку из стран вне ЕЭС остановили. Число иностранных работников сократилось с 2,6 млн до 1,6 млн в 1989 году, но иностранное население выросло с 3,97 млн до 4,9 млн: к оставшимся приезжали семьи. Турецкая община была единственной, что продолжала расти, а в 1976–1987 годах в ФРГ переселились около 616 тысяч этнических немцев из Восточной Европы.",
+   "title_en": "FRG: after the recruitment stop",
+   "description_en": "In November 1973, amid the oil crisis, recruitment from non-EEC countries was stopped. The number of foreign employees fell from 2.6 million to 1.6 million in 1989, but the foreign population grew from 3.97 million to 4.9 million as families joined those who stayed. The Turkish community was the only one that kept growing, and in 1976-1987 about 616,000 ethnic Germans from Eastern Europe resettled in the FRG.",
+   "statistics": [
+    {
+     "indicator": "foreign_employees",
+     "value": 1600000,
+     "unit": "persons",
+     "year": 1989,
+     "area_id": "de",
+     "population": "иностранные работники по найму",
+     "method_note": "Ольтмер/Ханевинкель, bpb 2021 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "foreign_population",
+     "value": 3970000,
+     "unit": "persons",
+     "year": 1973,
+     "area_id": "de",
+     "population": "иностранные граждане",
+     "method_note": "bpb 2021",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "foreign_population",
+     "value": 4900000,
+     "unit": "persons",
+     "year": 1989,
+     "area_id": "de",
+     "population": "иностранные граждане",
+     "method_note": "bpb 2021",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "turkish_nationals",
+     "value": 1400000,
+     "unit": "persons",
+     "year": 1980,
+     "area_id": "de",
+     "population": "граждане Турции",
+     "method_note": "bpb 2020 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "aussiedler_1976_1987",
+     "value": 616000,
+     "unit": "persons",
+     "year": 1987,
+     "area_id": "de",
+     "population": "переселенцы немецкого происхождения",
+     "method_note": "bpb 2021 (около)",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/migration-integration/regionalprofile/deutschland/341068/geschichte-der-migration-nach-und-aus-deutschland/",
+     "accessed": "2026-11-11",
+     "supports": "2,6 → 1,6 млн; 3,97 → 4,9 млн; 616 тыс."
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/324552/erstes-anwerbeabkommen-vor-65-jahren/",
+     "accessed": "2026-11-11",
+     "supports": "остановка вербовки 1973; турки 1 → 1,4 млн"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-reich-1945-1949-expellees",
+   "country_code": "DE",
+   "location_id": "state-de-reich",
+   "period_start": 1945,
+   "period_end": 1949,
+   "context_type": "migration",
+   "attribute": "expellees_refugees",
+   "title": "Германия 1945–1949: беженцы и изгнанные",
+   "description": "После 1945 года около 14 млн немцев бежали или были изгнаны из Восточной, Центральной и Юго-Восточной Европы. В 1945–1949 годах новое жильё было нужно около 21 млн человек: примерно 9 млн эвакуированным и 12 млн изгнанным и беженцам. В советскую зону до 1949 года прибыли около 4,5 млн беженцев и вернувшихся.",
+   "title_en": "Germany 1945-1949: refugees and expellees",
+   "description_en": "After 1945 about 14 million Germans fled or were expelled from Eastern, East-Central and South-Eastern Europe. In 1945-1949 about 21 million people needed new housing: about 9 million evacuees and 12 million expellees and refugees. By 1949 about 4.5 million refugees and returnees had arrived in the Soviet zone.",
+   "statistics": [
+    {
+     "indicator": "expellees_and_refugees",
+     "value": 14000000,
+     "unit": "persons",
+     "year": 1949,
+     "area_id": "state-de-reich",
+     "population": "немцы, бежавшие или изгнанные на запад",
+     "method_note": "Ольтмер/Ханевинкель, bpb 2021 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "people_needing_new_home",
+     "value": 21000000,
+     "unit": "persons",
+     "year": 1949,
+     "area_id": "state-de-reich",
+     "population": "эвакуированные, изгнанные и беженцы, 1945–1949",
+     "method_note": "Ринк, bpb 2020 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "refugees_and_returnees",
+     "value": 4500000,
+     "unit": "persons",
+     "year": 1949,
+     "area_id": "de-zone-soviet",
+     "population": "прибывшие в советскую зону",
+     "method_note": "Ринк (около)",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/migration-integration/regionalprofile/deutschland/341068/geschichte-der-migration-nach-und-aus-deutschland/",
+     "accessed": "2026-11-11",
+     "supports": "около 14 млн"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47280/wohnen/",
+     "accessed": "2026-11-11",
+     "supports": "21 млн; 4,5 млн в советской зоне"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-de-1989-2017-migration",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1989,
+   "period_end": 2017,
+   "context_type": "migration",
+   "attribute": "east_west_and_immigration",
+   "title": "Германия после 1989 года: с Востока на Запад и новые приезжие",
+   "description": "За четыре года после объединения с Востока на Запад переехали почти 1,4 млн человек, за 1989–2017 годы чистые потери Востока составили около 1,7 млн. Среди уехавших преобладали молодые, 55% составляли женщины. Одновременно приезжали переселенцы немецкого происхождения (около 397 тысяч только в 1990 году) и беженцы: в 1992 году почти 440 тысяч заявлений об убежище, в 2015 году сальдо миграции превысило миллион.",
+   "title_en": "Germany after 1989: from East to West and new arrivals",
+   "description_en": "In the four years after unification almost 1.4 million people moved from East to West, and the East's net losses in 1989-2017 were about 1.7 million. Those who left were mostly young, and 55% were women. At the same time ethnic German resettlers arrived (about 397,000 in 1990 alone) and refugees: almost 440,000 asylum applications in 1992, and net migration in 2015 exceeded one million.",
+   "statistics": [
+    {
+     "indicator": "east_to_west_movers_first_4_years",
+     "value": 1400000,
+     "unit": "persons",
+     "year": 1994,
+     "area_id": "de",
+     "population": "новые земли, четыре года после объединения",
+     "method_note": "Мартенс, bpb 2020 (почти)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "east_net_migration_loss_1989_2017",
+     "value": 1700000,
+     "unit": "persons",
+     "year": 2017,
+     "area_id": "de",
+     "population": "новые земли (оценка)",
+     "method_note": "Мартенс (около; другие оценки 1,3 и 1,9 млн)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "aussiedler_arrivals",
+     "value": 397000,
+     "unit": "persons",
+     "year": 1990,
+     "area_id": "de",
+     "population": "(поздние) переселенцы",
+     "method_note": "Ольтмер/Ханевинкель, bpb 2021 (около)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "asylum_applications",
+     "value": 440000,
+     "unit": "applications",
+     "year": 1992,
+     "area_id": "de",
+     "population": "первичные заявления",
+     "method_note": "bpb 2021 (почти)",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "net_migration",
+     "value": 1140000,
+     "unit": "persons",
+     "year": 2015,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "bpb 2021 (около)",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/deutsche-einheit/lange-wege-der-deutschen-einheit/47253/der-zug-nach-westen-jahrzehntelange-abwanderung-die-allmaehlich-nachlaesst/",
+     "accessed": "2026-11-11",
+     "supports": "1,4 млн; 1,7 млн; 55% женщины"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/themen/migration-integration/regionalprofile/deutschland/341068/geschichte-der-migration-nach-und-aus-deutschland/",
+     "accessed": "2026-11-11",
+     "supports": "397 тыс. (1990); 440 тыс. (1992); +1,14 млн (2015)"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-de-1990-2020-unemployment-east-west",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1990,
+   "period_end": 2020,
+   "context_type": "work",
+   "attribute": "unemployment_east",
+   "title": "Восток Германии: безработица 1990–2020",
+   "description": "После объединения безработица на Востоке быстро стала массовой: в 1991 году зарегистрированы более миллиона безработных, к 1997–1998 годам уровень достиг почти 18%. Сильнее всего пострадали женщины: в декабре 1992 года они составляли 64% безработных Востока, их уровень безработицы был 18,6% против 9,7% у мужчин. Более полумиллиона женщин в конце 1992 года получали пособие предпенсионного перехода. В первой половине 2000-х безработица на Востоке держалась около 17–19%, вдвое выше западной; пик пришёлся на 2005 год, 18,7%. Затем она снижалась и к 2020 году упала до 7,3%. Разрыв между Востоком и Западом сократился, но не исчез.",
+   "title_en": "Eastern Germany: unemployment, 1990-2020",
+   "description_en": "After unification unemployment in the East quickly became mass unemployment: over a million were registered as unemployed in 1991, and the rate reached almost 18% by 1997-1998. Women were hit hardest: in December 1992 they made up 64% of the East's unemployed, with a rate of 18.6% against 9.7% for men. At the end of 1992 more than half a million women were receiving pre-retirement transition benefit. In the first half of the 2000s unemployment in the East stayed at about 17-19%, twice the western rate; it peaked at 18.7% in 2005. It then declined and had fallen to 7.3% by 2020. The gap between East and West narrowed but did not disappear.",
+   "statistics": [
+    {
+     "indicator": "registered_unemployed_east",
+     "value": 1005745,
+     "unit": "persons",
+     "year": 1991,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 14.8,
+     "unit": "%",
+     "year": 1994,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 17.7,
+     "unit": "%",
+     "year": 1997,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 17.8,
+     "unit": "%",
+     "year": 1998,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 8.1,
+     "unit": "%",
+     "year": 1994,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 9.6,
+     "unit": "%",
+     "year": 1997,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_women_east",
+     "value": 18.6,
+     "unit": "%",
+     "year": 1992,
+     "area_id": "de",
+     "population": "женщины, новые земли, декабрь",
+     "method_note": "Кистлер и др., APuZ 6/1993",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_men_east",
+     "value": 9.7,
+     "unit": "%",
+     "year": 1992,
+     "area_id": "de",
+     "population": "мужчины, новые земли, декабрь",
+     "method_note": "Кистлер и др.",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "women_share_of_unemployed_east",
+     "value": 63.9,
+     "unit": "% of unemployed",
+     "year": 1992,
+     "area_id": "de",
+     "population": "зарегистрированные безработные, новые земли, декабрь",
+     "method_note": "Кистлер и др.",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "women_on_pre_retirement_benefit_east",
+     "value": 578090,
+     "unit": "persons",
+     "year": 1992,
+     "area_id": "de",
+     "population": "женщины на Altersübergangsgeld, декабрь",
+     "method_note": "Кистлер и др.",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 17.1,
+     "unit": "%",
+     "year": 2000,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 18.7,
+     "unit": "%",
+     "year": 2005,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 12.0,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 9.2,
+     "unit": "%",
+     "year": 2015,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_east",
+     "value": 7.3,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "de",
+     "population": "новые земли вместе с Берлином, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 7.6,
+     "unit": "%",
+     "year": 2000,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 9.9,
+     "unit": "%",
+     "year": 2005,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 6.6,
+     "unit": "%",
+     "year": 2010,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 5.7,
+     "unit": "%",
+     "year": 2015,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "unemployment_rate_west",
+     "value": 5.6,
+     "unit": "%",
+     "year": 2020,
+     "area_id": "de",
+     "population": "старые земли без Берлина, % от всех гражданских экономически активных",
+     "method_note": "BA через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61718/arbeitslose-und-arbeitslosenquote/",
+     "accessed": "2026-11-11",
+     "supports": "ряд BA 1991–2025, Ост с Берлином"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/536380/die-wiedervereinigung-der-deutschen-maenner-braucht-keine-frauen-frauen-als-wendeverliererinnen/",
+     "accessed": "2026-11-11",
+     "supports": "декабрь 1992: 18,6% / 9,7%; 63,9%; 578 090"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61718/arbeitslose-und-arbeitslosenquote/",
+     "accessed": "2026-11-11",
+     "supports": "Arbeitslosenquote West/Ost 2000–2020"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-de-1990-2021-demography",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1990,
+   "period_end": 2021,
+   "context_type": "demography",
+   "attribute": "ageing",
+   "title": "Германия: стареющее общество",
+   "description": "Население объединённой Германии выросло с 79,8 млн в 1990 году до 83,2 млн в 2021-м. Доля людей 67 лет и старше выросла с 13% до почти 20%, доля молодёжи до 20 лет сократилась. В 2021 году в Германии жили 6,1 млн человек старше 80 лет, а 60-летняя женщина могла рассчитывать прожить ещё около 25 лет.",
+   "title_en": "Germany: an ageing society",
+   "description_en": "The population of unified Germany grew from 79.8 million in 1990 to 83.2 million in 2021. The share of people aged 67 and over rose from 13% to almost 20%, while the share of young people under 20 fell. In 2021, 6.1 million people over 80 lived in Germany, and a 60-year-old woman could expect to live about 25 more years.",
+   "statistics": [
+    {
+     "indicator": "population_thousand",
+     "value": 79753,
+     "unit": "thousand persons",
+     "year": 1990,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis, 15-й скоординированный прогноз, через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 82260,
+     "unit": "thousand persons",
+     "year": 2000,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis, 15-й скоординированный прогноз, через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "population_thousand",
+     "value": 83237,
+     "unit": "thousand persons",
+     "year": 2021,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis, 15-й скоординированный прогноз, через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_aged_67_plus",
+     "value": 13.0,
+     "unit": "% of population",
+     "year": 1990,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_aged_67_plus",
+     "value": 14.3,
+     "unit": "% of population",
+     "year": 2000,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_aged_67_plus",
+     "value": 18.7,
+     "unit": "% of population",
+     "year": 2010,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_aged_67_plus",
+     "value": 19.6,
+     "unit": "% of population",
+     "year": 2021,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_under_20",
+     "value": 21.7,
+     "unit": "% of population",
+     "year": 1990,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_under_20",
+     "value": 18.5,
+     "unit": "% of population",
+     "year": 2021,
+     "area_id": "de",
+     "population": "вся Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_women",
+     "value": 22.1,
+     "unit": "years",
+     "year": 1992,
+     "area_id": "de",
+     "population": "женщины, таблица смертности 1991/93",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_women",
+     "value": 25.3,
+     "unit": "years",
+     "year": 2017,
+     "area_id": "de",
+     "population": "женщины, таблица смертности 2016/18",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_men",
+     "value": 21.7,
+     "unit": "years",
+     "year": 2017,
+     "area_id": "de",
+     "population": "мужчины, таблица 2016/18",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61541/bevoelkerungsentwicklung-und-altersstruktur/",
+     "accessed": "2026-11-11",
+     "supports": "население и возрастная структура 1990–2021"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61547/lebenserwartung/",
+     "accessed": "2026-11-11",
+     "supports": "ожидаемая продолжительность жизни в 60 лет"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  },
+  {
+   "id": "de-ctx-frg-1949-1989-life-expectancy",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1949,
+   "period_end": 1989,
+   "context_type": "demography",
+   "attribute": "life_expectancy_age_structure",
+   "title": "ФРГ: дольше жизнь, больше пожилых",
+   "description": "В ФРГ 60-летняя женщина в начале 1950-х могла рассчитывать в среднем ещё на 17,5 года жизни, в начале 1980-х — почти на 21 год; у мужчин рост был медленнее. Доля людей 67 лет и старше выросла с 11% в 1970 году до 13,6% в 1980-м. Разрыв между женщинами и мужчинами в 60 лет вырос с 1,3 до 4,3 года.",
+   "title_en": "FRG: longer lives, more older people",
+   "description_en": "In the FRG a 60-year-old woman could expect on average 17.5 more years of life in the early 1950s and almost 21 in the early 1980s; men's gains were slower. The share of people aged 67 and over rose from 11% in 1970 to 13.6% in 1980. The gap between women and men at 60 widened from 1.3 to 4.3 years.",
+   "statistics": [
+    {
+     "indicator": "remaining_life_expectancy_at_60_women",
+     "value": 17.5,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "de",
+     "population": "женщины, Западная Германия, таблица 1949/51",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_women",
+     "value": 19.1,
+     "unit": "years",
+     "year": 1971,
+     "area_id": "de",
+     "population": "женщины, таблица 1970/72",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_women",
+     "value": 20.8,
+     "unit": "years",
+     "year": 1981,
+     "area_id": "de",
+     "population": "женщины, таблица 1980/82",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_men",
+     "value": 16.2,
+     "unit": "years",
+     "year": 1950,
+     "area_id": "de",
+     "population": "мужчины, таблица 1949/51",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "remaining_life_expectancy_at_60_men",
+     "value": 16.5,
+     "unit": "years",
+     "year": 1981,
+     "area_id": "de",
+     "population": "мужчины, таблица 1980/82",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_aged_67_plus",
+     "value": 11.1,
+     "unit": "% of population",
+     "year": 1970,
+     "area_id": "de",
+     "population": "Западная Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "share_aged_67_plus",
+     "value": 13.6,
+     "unit": "% of population",
+     "year": 1980,
+     "area_id": "de",
+     "population": "Западная Германия",
+     "method_note": "Destatis через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61547/lebenserwartung/",
+     "accessed": "2026-11-11",
+     "supports": "фернере ожидаемая продолжительность жизни в 60 лет"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61541/bevoelkerungsentwicklung-und-altersstruktur/",
+     "accessed": "2026-11-11",
+     "supports": "возрастная структура 1970, 1980"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "medium"
+  },
+  {
+   "id": "de-ctx-de-1999-2020-retirement",
+   "country_code": "DE",
+   "location_id": "de",
+   "period_start": 1999,
+   "period_end": 2020,
+   "context_type": "retirement",
+   "attribute": "pension_age_amounts",
+   "title": "Германия: выход на пенсию и размер пенсий",
+   "description": "Средний возраст начала получения пенсии по старости вырос с 62 лет в 1999 году до 64 лет в 2020-м, у женщин и мужчин почти одинаково. В июле 2020 года средняя пенсия государственного страхования у женщин была 997 евро в месяц, у мужчин 1208 евро. Около четверти пенсионеров получали меньше 600 евро, хотя у многих были и другие доходы.",
+   "title_en": "Germany: retirement age and pension amounts",
+   "description_en": "The average age at which people began drawing an old-age pension rose from 62 in 1999 to 64 in 2020, almost the same for women and men. In July 2020 the average statutory pension was 997 euros a month for women and 1,208 euros for men. About a quarter of pensioners received less than 600 euros, although many had other income.",
+   "statistics": [
+    {
+     "indicator": "avg_age_first_old_age_pension_women",
+     "value": 62.2,
+     "unit": "years",
+     "year": 1999,
+     "area_id": "de",
+     "population": "женщины, новые пенсии по старости",
+     "method_note": "Deutsche Rentenversicherung через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "avg_age_first_old_age_pension_women",
+     "value": 64.2,
+     "unit": "years",
+     "year": 2020,
+     "area_id": "de",
+     "population": "женщины, новые пенсии по старости",
+     "method_note": "DRV через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "avg_age_first_old_age_pension_men",
+     "value": 64.1,
+     "unit": "years",
+     "year": 2020,
+     "area_id": "de",
+     "population": "мужчины, новые пенсии по старости",
+     "method_note": "DRV через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "avg_pension_women",
+     "value": 997,
+     "unit": "EUR/month",
+     "year": 2020,
+     "area_id": "de",
+     "population": "все пенсии GRV у женщин (без сиротских), 1 июля",
+     "method_note": "DRV через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "avg_pension_men",
+     "value": 1208,
+     "unit": "EUR/month",
+     "year": 2020,
+     "area_id": "de",
+     "population": "все пенсии GRV у мужчин, 1 июля",
+     "method_note": "DRV через bpb",
+     "source_id": "de_bpb"
+    },
+    {
+     "indicator": "pensioners_under_600_eur",
+     "value": 23.7,
+     "unit": "% of pensioners",
+     "year": 2020,
+     "area_id": "de",
+     "population": "21,2 млн пенсионеров GRV",
+     "method_note": "DRV через bpb",
+     "source_id": "de_bpb"
+    }
+   ],
+   "source_ids": [
+    "de_bpb"
+   ],
+   "evidence": [
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61860/alter-bei-rentenbeginn-grv/",
+     "accessed": "2026-11-11",
+     "supports": "62,2/62,1 → 64,2/64,1"
+    },
+    {
+     "source_id": "de_bpb",
+     "url": "https://www.bpb.de/kurz-knapp/zahlen-und-fakten/soziale-situation-in-deutschland/61854/renten-nach-zahlbetrag-grv/",
+     "accessed": "2026-11-11",
+     "supports": "997 / 1208 евро; 23,7% < 600"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high"
+  }
+ ]
+}
