@@ -85,7 +85,7 @@ interface Perspective {
   after: string[];
 }
 
-const perspective: Record<"heard" | "child" | "adult" | "elderly" | "away", Perspective> = {
+export const perspective: Record<"heard" | "child" | "adult" | "elderly" | "away", Perspective> = {
   heard: {
     lead: [
       "Мне потом рассказывали, что",
@@ -162,7 +162,7 @@ function tellFact(fact: string, pool: Perspective, seed: string, order: number):
 }
 
 /** What became different in ordinary days, by kind of record; deliberately general, it adds no new facts. */
-const changeByCategory: Record<string, string[]> = {
+export const changeByCategory: Record<string, string[]> = {
   economic_crisis: [
     "Деньги вдруг стали считать дважды, а разговоры за столом сделались короче.",
     "Многие тогда впервые всерьёз испугались за завтрашний день."
@@ -202,7 +202,7 @@ const changeByCategory: Record<string, string[]> = {
   border_administrative: ["На бумаге поменялось многое, а в жизни не сразу."]
 };
 
-const ties = [
+export const ties = [
   "Но жизнь, конечно, шла не только по газетам.",
   "Большое и маленькое тогда так и шло рядом.",
   "А свои заботы от этого никуда не девались.",

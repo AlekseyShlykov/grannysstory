@@ -227,31 +227,88 @@ describe("whole lives in the new countries", () => {
   }, 120000);
 });
 
-describe("choosing a side of Berlin", () => {
-  it("keeps the chosen side for the whole division and through a move inside her state", async () => {
+describe("choosing a side of Berlin in conversation", () => {
+  it("asks the side when the conversation reaches the division and keeps it as canon", async () => {
     const { loadRegionPack } = await import("../src/data/regionStore");
-    const { generateSession } = await import("../src/engine/biography");
+    const { generateSession, biographyIssues } = await import("../src/engine/biography");
+    const { chooseOption, currentScene } = await import("../src/engine/dialogue");
     const { selection } = await import("./helpers");
-    const { playToEnd } = await import("./worldHelpers");
     const { placeAtYear } = await import("../src/engine/world/partition");
+    const pack = await loadRegionPack("de-berlin");
+    expect(pack.birthPlaces).toEqual(["de-berlin"]);
     for (const [side, state] of [["de-berlin-west", "de"], ["de-berlin-east", "state-gdr"]] as const) {
-      const pack = await loadRegionPack(side);
-      expect(pack.birthPlaces).toEqual(["de-berlin"]);
-      for (let index = 0; index < 6; index += 1) {
-        let life = generateSession(selection(side, 1925, `${side}-${index}`), pack);
-        expect(life.biography.residenceHistory[0]!.placeId).toBe("de-berlin");
-        expect(life.biography.residenceHistory[0]!.partitions?.[0]?.placeId).toBe(side);
-        life = playToEnd(life, index % 2 ? "pathA" : "pathB");
-        const berlinYears = life.biography.residenceHistory.filter((item) => item.placeId === "de-berlin" && item.fromYear <= 1975 && item.toYear >= 1975);
-        if (berlinYears.length) {
-          expect(placeAtYear(life.biography.residenceHistory, 1975)).toBe(side);
-          expect(sovereignAt(world, side, "1975-07-01")).toBe(state);
+      for (let index = 0; index < 5; index += 1) {
+        let life = generateSession(selection("de-berlin", 1928, `side-${side}-${index}`), pack);
+        expect(life.biography.residenceHistory[0]!.partitions?.[0]?.decided).toBe(false);
+        let asked = false;
+        for (let guard = 0; life.screen !== "atlas" && guard < 45; guard += 1) {
+          const options = currentScene(life).options;
+          const sideOption = options.find((option) => option.id === `side:${side}`);
+          if (sideOption) {
+            // Nothing from the divided years has been told before the question.
+            expect(life.biography.lifeEvents.filter((event) => event.known && event.year >= 1949 && event.id.startsWith("context:"))).toEqual([]);
+            expect(options.map((option) => option.id).sort()).toEqual(["side:de-berlin-east", "side:de-berlin-west"]);
+            asked = true;
+          }
+          life = chooseOption(life, sideOption?.id ?? options.find((option) => option.id === (index % 2 ? "pathA" : "pathB"))?.id ?? options[guard % options.length]!.id);
         }
+        expect(life.screen).toBe("atlas");
+        if (life.biography.residenceHistory[0]!.toYear < 1948) continue;
+        expect(asked).toBe(true);
+        expect(biographyIssues(life)).toEqual([]);
+        expect(life.biography.residenceHistory[0]!.partitions?.[0]).toEqual({ placeId: side, fromYear: 1948, toYear: Math.min(1990, life.biography.residenceHistory[0]!.toYear) });
+        expect(life.biography.lifeEvents.some((event) => event.id === "life:divided-city-side" && event.known)).toBe(true);
         // Wherever she lives in 1975, it is in the state of her side or reached along a documented corridor.
         const where = placeAtYear(life.biography.residenceHistory, 1975)!;
-        const sovereign = sovereignAt(world, where, "1975-07-01");
-        if (sovereign !== state) expect(migrationCorridors.some((corridor) => corridor.toPlaceIds.includes(life.biography.residenceHistory.find((item) => item.fromYear <= 1975 && item.toYear >= 1975)!.placeId))).toBe(true);
+        if (sovereignAt(world, where, "1975-07-01") !== state) {
+          const residence = life.biography.residenceHistory.find((item) => item.fromYear <= 1975 && item.toYear >= 1975)!;
+          expect(migrationCorridors.some((corridor) => corridor.toPlaceIds.includes(residence.placeId))).toBe(true);
+        }
       }
     }
   });
+
+  it("still opens saves that chose the side on the opening screen", async () => {
+    const { loadRegionPack } = await import("../src/data/regionStore");
+    const { generateSession } = await import("../src/engine/biography");
+    const { currentScene } = await import("../src/engine/dialogue");
+    const { validateSelection } = await import("../src/engine/setup");
+    const { selection } = await import("./helpers");
+    const pack = await loadRegionPack("de-berlin-east");
+    expect(validateSelection(selection("de-berlin-east", 1930, "old-save"))).toEqual([]);
+    const life = generateSession(selection("de-berlin-east", 1930, "old-save"), pack);
+    expect(life.biography.residenceHistory[0]!.partitions?.[0]).toMatchObject({ placeId: "de-berlin-east" });
+    expect(life.biography.residenceHistory[0]!.partitions?.[0]?.decided).toBeUndefined();
+    expect(currentScene(life).options.some((option) => option.id.startsWith("side:"))).toBe(false);
+  });
+});
+
+describe("nothing is told twice", () => {
+  it("never repeats a milestone or a sentence within one conversation", async () => {
+    const { generateSession } = await import("../src/engine/biography");
+    const { selection } = await import("./helpers");
+    const { playToEnd, worldRegionPack, packFor } = await import("./worldHelpers");
+    const { milestoneByEventId } = await import("../src/engine/history/milestones");
+    const places = ["cn-beijing", "cn-wuhan", "de-leipzig", "de-koeln", "it-roma", "fi-helsinki", "tr-istanbul", "fr-lyon", "pl-warszawa", "us-detroit", "gb-london", "tver"];
+    for (const place of places) {
+      for (const year of [1905, 1922, 1938]) {
+        const pack = place.includes("-") ? worldRegionPack(place) : packFor(place);
+        const life = playToEnd(generateSession(selection(place as never, year, `dup-${place}-${year}`), pack), year % 2 ? "pathA" : "pathB");
+        const sentences = life.dialogue.transcript.filter((line) => line.speaker === "grandmother")
+          .flatMap((line) => line.text.split(/(?<=[.!?])\s+/u)).filter((sentence) => sentence.length > 30);
+        expect(sentences.filter((sentence, index) => sentences.indexOf(sentence) !== index), `${place} ${year}`).toEqual([]);
+        const spoken = new Set<string>();
+        for (const line of life.dialogue.transcript.filter((item) => item.speaker === "grandmother")) {
+          for (const event of life.biography.lifeEvents.filter((item) => item.known && item.id.startsWith("context:"))) {
+            const milestone = milestoneByEventId.get(event.id.replace(/^context:(world:|national:)?/u, ""));
+            const voice = milestone?.voice;
+            if (!voice || ![voice.heard, voice.young, voice.lived].some((text) => line.text.includes(text))) continue;
+            spoken.add(`${milestone.id}@${line.text.length}`);
+          }
+        }
+        const told = [...spoken].map((key) => key.split("@")[0]);
+        expect(told.filter((id, index) => told.indexOf(id) !== index), `${place} ${year}`).toEqual([]);
+      }
+    }
+  }, 300000);
 });

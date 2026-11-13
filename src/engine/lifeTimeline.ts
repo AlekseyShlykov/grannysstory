@@ -129,7 +129,11 @@ function overlaps(startYear: number, endYear: number, point: LifeTimelinePoint):
 }
 
 function legacyNationalCandidates(): BackgroundCandidate[] {
-  return nationalEvents.map((event) => {
+  const present = new Set(nationalEvents.map((event) => event.id));
+  return nationalEvents.filter((event) => {
+    const milestone = milestoneByEventId.get(event.id);
+    return !milestone || milestone.eventIds.find((id) => present.has(id)) === event.id;
+  }).map((event) => {
     const startYear = Number(event.startDate.slice(0, 4));
     const endYear = Number(event.endDate.slice(0, 4));
     const id = `context:national:${event.id}`;
@@ -155,8 +159,14 @@ function worldCandidates(state: GameSessionState): BackgroundCandidate[] | null 
   const reserved = new Set(state.biography.branches.map((branch) => branch.historicalAnchor?.id).filter(Boolean));
   const ownLifeEvents = new Set(state.biography.lifeEvents.map((event) => event.id));
   const profile = lifeProfile(state.selection.birthYear, world, state.biography);
-  const candidates = relevantEvents(world, lifeResidences(state.biography), profile, state.selection.birthYear, state.selection.conversationYear)
+  const reachable = relevantEvents(world, lifeResidences(state.biography), profile, state.selection.birthYear, state.selection.conversationYear);
+  // A milestone may cite several records of one event (the 1911 uprising and the 1912 abdication); it is told
+  // once, through the first of its records in her life, so the others must not bring the same lines up again.
+  const reachedIds = new Set(reachable.map((item) => item.event.id));
+  const tellsMilestone = (eventId: string, milestoneEventIds: readonly string[]) => milestoneEventIds.find((id) => reachedIds.has(id)) === eventId;
+  const candidates = reachable
     .map((item) => ({ item, milestone: milestoneByEventId.get(item.event.id) }))
+    .filter(({ item, milestone }) => !milestone || tellsMilestone(item.event.id, milestone.eventIds))
     // Sensitive records are spoken only through a milestone's hand-written lines, never from their summary.
     .filter(({ item, milestone }) => isNarrativeHistoricalEvent(item.event.title)
       && (!item.event.sensitive || item.event.legacy || milestone)

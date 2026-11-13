@@ -55,11 +55,13 @@ export function annotatePartitions(world: WorldData, residences: readonly Reside
       const previous = ordered[index - 1];
       const previousPlace = previous ? placeAtYear([previous], previous.toYear) : null;
       // A side already decided for this residence (or chosen on the opening screen) is canon and is kept.
-      const kept = previousParts?.find((part) => partition.into.includes(part.placeId))?.placeId;
+      const keptPart = previousParts?.find((part) => partition.into.includes(part.placeId));
       const chosen = !arrivedDuring && preferredPart && partition.into.includes(preferredPart) ? preferredPart : undefined;
       const matching = arrivedDuring ? partMatchingOrigin(world, partition.into, previousPlace, residence.fromYear) : null;
-      const placeId = kept ?? chosen ?? matching ?? seededRandom(`${seed}:partition:${location!.id}:${partition.from ?? ""}`).pick(partition.into);
-      parts.push({ placeId, fromYear, toYear });
+      const placeId = keptPart?.placeId ?? chosen ?? matching ?? seededRandom(`${seed}:partition:${location!.id}:${partition.from ?? ""}`).pick(partition.into);
+      // A side drawn by the seed for a woman who already lived there is provisional until the conversation settles it.
+      const decided = keptPart ? keptPart.decided !== false : Boolean(chosen || matching);
+      parts.push(decided ? { placeId, fromYear, toYear } : { placeId, fromYear, toYear, decided: false });
     }
     return parts.length ? { ...base, partitions: parts } : base;
   });
@@ -86,4 +88,13 @@ export function placeAtYear(residences: readonly Residence[], year: number): str
   return expanded.find((period) => year >= period.fromYear && year <= period.toYear)?.placeId
     ?? expanded.at(-1)?.placeId
     ?? null;
+}
+
+/** The first residence whose side of a divided city is still provisional, with the year the division began. */
+export function undecidedPartition(residences: readonly Residence[]): { residenceIndex: number; partIndex: number; fromYear: number } | null {
+  for (const [residenceIndex, residence] of residences.entries()) {
+    const partIndex = (residence.partitions ?? []).findIndex((part) => part.decided === false);
+    if (partIndex >= 0) return { residenceIndex, partIndex, fromYear: residence.partitions![partIndex]!.fromYear };
+  }
+  return null;
 }

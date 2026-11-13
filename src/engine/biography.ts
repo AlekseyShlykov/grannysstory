@@ -21,11 +21,12 @@ import { seededRandom } from "./random";
 import { earlyLifeThreadForSeed } from "./earlyLifeThread";
 import { narrativeHeadline } from "./eventTitles";
 import { narrativeRegionId, validateSelection } from "./setup";
-import { chooseBranchWithHistory, lifeProfile, lifeResidences } from "./world/biographyLink";
+import { branchAnchorCandidates, chooseBranchWithHistory, lifeProfile, lifeResidences } from "./world/biographyLink";
 import { getLocation, resolveLocationId } from "./world/geography";
 import { checkMove, corridorDestinations, pickDestination } from "./world/migration";
 import { migrationCorridors } from "../../content/historical/migrationCorridors";
-import { annotatePartitions, placeAtYear } from "./world/partition";
+import { annotatePartitions, placeAtYear, undecidedPartition } from "./world/partition";
+import { dividedCitySides } from "../../content/scenes/dividedCity";
 import { planWork } from "./work";
 import { childhoodFamily, planCanon } from "./memory/lifeFacts";
 
@@ -564,4 +565,69 @@ export function biographyIssues(state: GameSessionState): string[] {
   }
   for (const residence of residences) getPlace(residence.placeId);
   return issues;
+}
+
+/** The parts she can choose between while the side of her divided city is still provisional. */
+export function pendingDividedCitySide(state: GameSessionState): { parts: string[]; fromYear: number } | null {
+  const pending = undecidedPartition(state.biography.residenceHistory);
+  if (!pending) return null;
+  const residence = state.biography.residenceHistory[pending.residenceIndex]!;
+  const division = getLocation(worldData(), residence.placeId)?.partitions?.find((partition) => partition.into.includes(residence.partitions![pending.partIndex]!.placeId));
+  const parts = (division?.into ?? []).filter((part) => dividedCitySides[part]);
+  return parts.length ? { parts, fromYear: pending.fromYear } : null;
+}
+
+/**
+ * Settles which side of a divided city she lived on (the player's question at the division). The side drawn at
+ * generation was provisional, so turning points not yet told are re-planned for the chosen side: a planned move
+ * that would now cross a state border, or a framing record that no longer reaches her, is replaced.
+ */
+export function settleDividedCitySide(state: GameSessionState, partId: string): GameSessionState {
+  const pending = undecidedPartition(state.biography.residenceHistory);
+  if (!pending) throw new Error("No undecided side of a divided city");
+  const world = worldData();
+  const residenceHistory = state.biography.residenceHistory.map((residence, index) => index !== pending.residenceIndex ? residence : {
+    ...residence,
+    partitions: residence.partitions!.map((part, partIndex) => partIndex === pending.partIndex ? { placeId: partId, fromYear: part.fromYear, toYear: part.toYear } : part)
+  });
+  const settled = { ...state.biography, residenceHistory };
+  const profile = lifeProfile(state.selection.birthYear, world, settled);
+  const branches = settled.branches.map((branch) => {
+    if (branch.resolved || branch.year < pending.fromYear) return branch;
+    const origin = placeAtYear(residenceHistory, branch.year);
+    if (origin !== partId) return branch;
+    const random = seededRandom(`${state.selection.runSeed}:divided-city:${branch.id}`);
+    let destinationPlaceId = branch.destinationPlaceId;
+    if (destinationPlaceId && !checkMove(world, origin, destinationPlaceId, branch.year).ok
+        && !corridorDestinations(world, origin, branch.year, migrationCorridors).includes(destinationPlaceId)) {
+      destinationPlaceId = pickDestination(world, origin, branch.year, random);
+    }
+    let historicalAnchor = branch.historicalAnchor;
+    if (historicalAnchor) {
+      const candidates = branchAnchorCandidates(world, lifeResidences(settled), profile, branch.type, branch.year);
+      if (!candidates.some((candidate) => candidate.id === historicalAnchor!.id)) historicalAnchor = candidates.length ? random.pick(candidates) : null;
+    }
+    return { ...branch, destinationPlaceId, historicalAnchor };
+  });
+  const side = dividedCitySides[partId]!;
+  const event: LifeEvent = {
+    id: "life:divided-city-side",
+    year: pending.fromYear,
+    title: side.eventTitle,
+    text: side.answer,
+    placeId: partId,
+    peopleIds: ["grandmother"],
+    provenance: "FICTIONAL_PERSONAL",
+    sourceIds: [],
+    salience: "personal",
+    known: true
+  };
+  return {
+    ...state,
+    biography: { ...settled, branches, lifeEvents: [...settled.lifeEvents.filter((item) => item.id !== event.id), event] },
+    memories: [...state.memories.filter((memory) => memory.lifeEventId !== event.id), {
+      id: `memory:${event.id}`, lifeEventId: event.id, recalled: true, interpretation: "где прошли годы разделённого города",
+      qualities: { pride: false, regret: false, gratitude: false, acceptance: true }
+    }]
+  };
 }

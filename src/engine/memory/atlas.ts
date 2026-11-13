@@ -1,4 +1,5 @@
 import atlasJson from "../../../babushka_memory_atlas_5year.json";
+import { FAINT_MEMORY_NOTE } from "../stockLines";
 import { atlasPatterns } from "../../../content/memory/atlasPatterns";
 import type { AtlasPatternAnnotation, MemoryRequirement, MemoryVariant } from "../../../content/memory/schema";
 import { branchCatalog } from "../../../content/scenes/branchCatalog";
@@ -281,7 +282,7 @@ export function atlasMemorySpeech(memory: AtlasMemory, angle: "detail" | "feelin
     return `${hedge} ${body}`;
   }
   // Only distant years blur this way; a faint recent memory is simply told more briefly.
-  if (vividness === "faint" && memory.properties.ageFrom < 60) return `${body} Хотя помню это смутно, может, что-то и досочинила.`;
+  if (vividness === "faint" && memory.properties.ageFrom < 60) return `${body} ${FAINT_MEMORY_NOTE}`;
   if (vividness === "faint") return angle === "meaning" ? `${memory.scene} ${memory.now}` : memory.scene;
   return body;
 }

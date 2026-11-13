@@ -12,7 +12,7 @@ import { generateSession } from "../engine/biography";
 import { chooseOption, currentScene } from "../engine/dialogue";
 import { clearSave, loadGame, saveGame } from "../engine/persistence";
 import { freshSeed } from "../engine/random";
-import { allowedYears, interviewYearForBirthYear, menuRegions } from "../engine/setup";
+import { allowedYears, interviewYearForBirthYear, menuRegions, regionOption } from "../engine/setup";
 import { useI18n, yearsLabel } from "../i18n";
 import { storyAudio } from "./audio";
 import { eventFeedbackId, loadEventVotes, recordEventVote, syncEventFeedback, type EventVote } from "./eventFeedback";
@@ -154,7 +154,7 @@ function StartScreen({ onStart }: { onStart: (selection: StartSelection) => Prom
 
         {saved && (
           <button className="resume" type="button" onClick={() => void onStart(saved.selection)} data-testid="resume">
-            {t("Продолжить разговор")} <span>{saved.selection.birthYear} · {t(menuRegions(true).find((region) => region.id === saved.selection.birthRegionId)?.label ?? "")}</span>
+            {t("Продолжить разговор")} <span>{saved.selection.birthYear} · {t(regionOption(saved.selection.birthRegionId)?.label ?? "")}</span>
           </button>
         )}
 

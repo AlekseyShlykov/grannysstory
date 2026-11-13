@@ -1,5 +1,5 @@
 import { manifest } from "./world";
-import { menuRegions } from "../engine/setup";
+import { regionOption } from "../engine/setup";
 import type { RegionId, RegionPack } from "./types";
 
 const DATABASE = "babushka-data";
@@ -55,7 +55,8 @@ function validateLoadedPack(value: unknown, regionId: RegionId): RegionPack {
  * local history arrives through world packs, so the legacy pack is an empty shell.
  */
 function worldRegionPack(regionId: RegionId): RegionPack | null {
-  const region = menuRegions(true).find((candidate) => candidate.id === regionId && candidate.enabled);
+  const region = regionOption(regionId);
+  if (!region?.enabled) return null;
   if (!region?.locationId || region.pack) return null;
   return {
     regionId, version: manifest.datasetVersion, label: region.label, coverage: region.coverage, birthPlaces: [region.locationId], events: [],

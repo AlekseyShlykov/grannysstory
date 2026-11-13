@@ -1,4 +1,6 @@
 import { birthAfterwords, birthStatements } from "../../content/scenes/birthVoice";
+import { dividedCitySides } from "../../content/scenes/dividedCity";
+import { secondMemoryLeads, withoutRepeatedStockLines } from "./stockLines";
 import { placeAtYear } from "./world/partition";
 import { milestoneFollowUpQuestionAt, narrateFraming, narrateMilestone, narrateRecord } from "../../content/scenes/historicalNarration";
 import { reflectionQuestions } from "../../content/scenes/regretArchetypes";
@@ -9,7 +11,7 @@ import { placeLocative } from "../../content/scenes/regions";
 import { placeLocativeAt, placeNameAt } from "../data/world";
 import type { EmotionalQualities, GameSessionState, LifeEvent, MemoryState } from "../data/types";
 import { hasWorldPacks, worldData } from "../data/worldStore";
-import { activeBranchDefinition, anchorAsLifeEvent, branchDefinition, branchOutcomeLock, commitBranch, nextUnresolvedBranch } from "./biography";
+import { activeBranchDefinition, anchorAsLifeEvent, branchDefinition, branchOutcomeLock, commitBranch, nextUnresolvedBranch, pendingDividedCitySide, settleDividedCitySide } from "./biography";
 import {
   backgroundAsLifeEvent,
   fragmentForPoint,
@@ -54,6 +56,12 @@ function hasBranchInPoint(state: GameSessionState): boolean {
 function branchSetupFactId(state: GameSessionState): string {
   const branch = nextUnresolvedBranch(state);
   return `fact:branch-setup:${branch?.id ?? "unknown"}:${branch?.year ?? 0}`;
+}
+
+/** In a divided city, the side is asked at the first five years that reach the division, before anything else. */
+function sideChoiceAt(state: GameSessionState, point: { year: number; endYear: number }): string[] | null {
+  const pending = pendingDividedCitySide(state);
+  return pending && point.endYear >= pending.fromYear ? pending.parts : null;
 }
 
 function isBranchChoiceReady(state: GameSessionState): boolean {
@@ -129,7 +137,7 @@ function withTurn(
       transcript: [
         ...state.dialogue.transcript,
         { speaker: "player", text: playerText },
-        { speaker: "grandmother", text: answer }
+        { speaker: "grandmother", text: withoutRepeatedStockLines(answer, state.dialogue.transcript.filter((line) => line.speaker === "grandmother").map((line) => line.text)) }
       ]
     },
     screen: finished ? "atlas" : "conversation",
@@ -213,6 +221,8 @@ function isPointBeforeBranch(state: GameSessionState): boolean {
 
 export function currentScene(state: GameSessionState): DialogueSceneView {
   const point = activePoint(state);
+  const side = sideChoiceAt(state, point);
+  if (side) return { options: side.map((part) => ({ id: `side:${part}`, text: dividedCitySides[part]!.question })) };
   if (isBranchChoiceReady(state)) {
     const active = nextUnresolvedBranch(state)!;
     const branch = branchDefinition(active.type);
@@ -275,7 +285,7 @@ function addAtlasMemory(state: GameSessionState, memory: AtlasMemory, year: numb
   return { state: next, eventId };
 }
 
-export const secondMemoryLeads = ["А ещё из тех лет вот что осталось.", "И ещё одно вспомнилось.", "Знаешь, что ещё было?"];
+export { secondMemoryLeads } from "./stockLines";
 
 function placeOccupied(state: GameSessionState, background: TimelineBackground): boolean {
   if (!hasWorldPacks()) return false;
@@ -301,6 +311,10 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
   if (!option) throw new Error(`Option ${optionId} is not available at timeline step ${state.dialogue.step}`);
 
   const point = activePoint(state);
+  if (optionId.startsWith("side:")) {
+    const part = optionId.slice(5);
+    return withTurn(settleDividedCitySide(state, part), option.text, dividedCitySides[part]!.answer, false, false);
+  }
   if (optionId === "history-more") {
     const milestoneId = pendingMilestoneFollowUp(state)!;
     const answered: GameSessionState = {

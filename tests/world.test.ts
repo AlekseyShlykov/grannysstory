@@ -361,10 +361,10 @@ describe("world-dataset birthplaces in the main menu", () => {
     // world-1.2: German Empire records reach Danzig for 1900–1919, so Gdańsk now passes the gate it failed in world-1.1.
     expect(published.map((region) => region.id)).toContain("pl-gdansk");
     expect(published.map((region) => region.id)).not.toContain("de-wolfsburg");
-    // Berlin is offered once per side; the birthplace of both is the city itself.
-    expect(published.map((region) => region.id)).toEqual(expect.arrayContaining(["de-berlin-west", "de-berlin-east"]));
-    expect(published.map((region) => region.id)).not.toContain("de-berlin");
-    expect(published.filter((region) => region.id.startsWith("de-berlin")).every((region) => region.locationId === "de-berlin")).toBe(true);
+    // Berlin is offered as the city; the side is settled later in conversation.
+    expect(published.map((region) => region.id)).toContain("de-berlin");
+    expect(published.map((region) => region.id)).not.toContain("de-berlin-west");
+    expect(published.map((region) => region.id)).not.toContain("de-berlin-east");
     expect(published.map((region) => region.id)).not.toContain("pl-zalipie");
   });
 

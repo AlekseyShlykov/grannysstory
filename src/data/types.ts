@@ -248,7 +248,8 @@ export interface Residence {
   placeId: string;
   fromYear: number;
   toYear: number;
-  partitions?: { placeId: string; fromYear: number; toYear: number }[];
+  /** `decided: false` — a provisional side, settled later in conversation; absent means settled. */
+  partitions?: { placeId: string; fromYear: number; toYear: number; decided?: boolean }[];
 }
 
 export interface BiographyState {

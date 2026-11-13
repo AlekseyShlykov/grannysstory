@@ -65,19 +65,25 @@ export function worldRegionOptions(): RegionOption[] {
       preview: false
     }))
     .filter((region) => Boolean(region.countryId))
-    // A divided city is offered once per part: the player chooses the side, the birthplace is still the city.
-    .flatMap((region) => {
-      const parts = getLocation(world, region.locationId!)?.partitions?.flatMap((partition) => partition.into) ?? [];
-      return parts.length
-        ? parts.map((part) => ({ ...region, id: part, label: `${region.label}, ${PART_LABELS[part] ?? worldNameAt(world, part, "1975-07-01")}`, partitionPart: part }))
-        : [region];
-    })
     .sort((a, b) => a.countryId!.localeCompare(b.countryId!) || a.label.localeCompare(b.label, "ru"));
   return cachedWorldRegions.map((region) => ({ ...region }));
 }
 
-function regionOption(id: RegionId): RegionOption | undefined {
-  return (manifest.regions as RegionOption[]).find((entry) => entry.id === id) ?? worldRegionOptions().find((entry) => entry.id === id);
+/**
+ * Saves from 12–13 November 2026 chose a side of Berlin on the opening screen («Берлин, западная часть»). The menu
+ * now offers only the city and the side is settled in conversation, but those saves still resolve.
+ */
+function sideOfCityOptions(): RegionOption[] {
+  const world = worldData();
+  return worldRegionOptions().flatMap((region) => (getLocation(world, region.locationId ?? "")?.partitions ?? [])
+    .flatMap((partition) => partition.into)
+    .map((part) => ({ ...region, id: part, label: `${region.label}, ${PART_LABELS[part] ?? worldNameAt(world, part, "1975-07-01")}`, partitionPart: part })));
+}
+
+export function regionOption(id: RegionId): RegionOption | undefined {
+  return (manifest.regions as RegionOption[]).find((entry) => entry.id === id)
+    ?? worldRegionOptions().find((entry) => entry.id === id)
+    ?? sideOfCityOptions().find((entry) => entry.id === id);
 }
 
 const PART_LABELS: Record<string, string> = { "de-berlin-west": "западная часть", "de-berlin-east": "восточная часть" };
