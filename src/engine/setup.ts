@@ -34,6 +34,7 @@ const COUNTRY_IDS: Record<string, string> = {
   FI: "finland",
   FR: "france",
   GB: "united-kingdom",
+  HR: "croatia",
   IT: "italy",
   PL: "poland",
   RS: "serbia",

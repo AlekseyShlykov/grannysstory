@@ -7,11 +7,13 @@ import { loadWholeWorld } from "./worldHelpers";
 
 // world-1.3 (docs/WORLD_1_3_PROGRESS.md): each finished country adds its cities and comparisons here.
 const FINISHED: Record<string, string[]> = {
-  RS: ["rs-beograd", "rs-novi-sad", "rs-subotica"]
+  RS: ["rs-beograd", "rs-novi-sad", "rs-subotica"],
+  HR: ["hr-zagreb"]
 };
 const COMPARISONS: string[][] = [
   ["rs-beograd", "rs-novi-sad", "rs-subotica"],
-  ["rs-novi-sad", "rs-subotica"]
+  ["rs-novi-sad", "rs-subotica"],
+  ["rs-beograd", "hr-zagreb"]
 ];
 
 let world: WorldData;
@@ -74,5 +76,15 @@ describe("Serbia", () => {
     for (const id of FINISHED.RS!) expect(sovereignAt(world, id, "1960-07-01"), id).toBe("state-yu");
     for (const id of FINISHED.RS!) expect(sovereignAt(world, id, "2015-07-01"), id).toBe("rs");
     expect(worldNameAt(world, "rs-beograd", "1960-07-01")).toBe("Белград");
+  });
+});
+
+describe("Croatia", () => {
+  it("follows Zagreb from Austria-Hungary through Yugoslavia to independent Croatia", () => {
+    expect(sovereignAt(world, "hr-zagreb", "1910-07-01")).toBe("state-at-hu");
+    expect(sovereignAt(world, "hr-zagreb", "1930-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "hr-zagreb", "1943-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "hr-zagreb", "1970-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "hr-zagreb", "2000-07-01")).toBe("hr");
   });
 });

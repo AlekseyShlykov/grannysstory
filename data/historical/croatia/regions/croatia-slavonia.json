@@ -1,0 +1,153 @@
+{
+  "records": [
+    {
+      "id": "hr-cs-1914-war-economy",
+      "title": "Военная экономика в Хорватии и Славонии",
+      "title_en": "War economy in Croatia-Slavonia",
+      "title_original": null,
+      "start_date": "1914-07",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-croatia-slavonia"
+      ],
+      "category": "economic_crisis",
+      "subcategory": null,
+      "historical_summary": "В конце июля 1914 г. в Хорватии и Славонии объявили мобилизацию, чрезвычайное положение и ввели закон о военных повинностях, позволявший армии реквизировать частное имущество с компенсацией; летом гражданские власти установили первые предельные цены. Позже баном был запрещён свободный оборот зерна, излишки скупала государственная монополия.",
+      "historical_summary_en": "At the end of July 1914 mobilisation and a state of emergency were declared in Croatia-Slavonia and a war levies law allowed the army to requisition private property with compensation; in the summer the civil authorities set the first maximum prices. Later the ban prohibited free trade in grain, and a state monopoly bought up the surplus.",
+      "affected_groups": [
+        "all_residents",
+        "agricultural_workers",
+        "rural_residents"
+      ],
+      "potential_impacts": [
+        "price_shock",
+        "food_shortage"
+      ],
+      "narrative_hooks": [
+        "requisitioned_horse"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "hr_hda"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_hda",
+          "url": "https://prvisvjetskirat.arhiv.hr/Teme/ArticleId/63/oamid/485",
+          "accessed": "2026-11-13",
+          "supports": "krajem srpnja 1914 mobilizacija, izvanredno stanje, Zakon o ratnim davanjima; maksimalne cijene ljeti 1914; odsvojna zabrana"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-cs-1916-metal-requisition",
+      "title": "Обязательная сдача металла",
+      "title_en": "Compulsory metal collection",
+      "title_original": null,
+      "start_date": "1916",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-croatia-slavonia"
+      ],
+      "category": "everyday_life",
+      "subcategory": null,
+      "historical_summary": "В 1916 г. сбор металла в Хорватии и Славонии из добровольного стал обязательным: военные власти забирали церковные колокола, медные и свинцовые кровли и домашнюю утварь. Из-за нехватки угля Загреб ограничивал подачу электричества и газа.",
+      "historical_summary_en": "In 1916 the collection of metal in Croatia-Slavonia changed from voluntary to compulsory: the military authorities took church bells, copper and lead roofing and household items. Because of coal shortages Zagreb restricted its electricity and gas supply.",
+      "affected_groups": [
+        "all_residents",
+        "homemakers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "church_bell_taken"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "hr_hda"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_hda",
+          "url": "https://prvisvjetskirat.arhiv.hr/Teme/ArticleId/63/oamid/485",
+          "supports": "1916 prikupljanje metala obvezno; zvona, krovovi, kućni predmeti; redukcije struje i plina u Zagrebu",
+          "primary": true,
+          "primary_type": "municipal_record",
+          "document_title": "Poziv Gradskog poglavarstva na predaju metalnih predmeta",
+          "document_date": "1916",
+          "archive_identifier": "HR-HDA-907 (Zbirka stampata), 8/71",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-cs-1918-sabor-breaks-ties",
+      "title": "Сабор разрывает связи с Австро-Венгрией",
+      "title_en": "The Sabor severs ties with Austria-Hungary",
+      "title_original": null,
+      "start_date": "1918-10-29",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-croatia-slavonia"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "29 октября 1918 г. Хорватский сабор постановил прекратить многовековые государственно-правовые связи с Венгрией и Австрией и присоединиться к Государству словенцев, хорватов и сербов.",
+      "historical_summary_en": "On 29 October 1918 the Croatian Sabor decided to end Croatia's centuries-old state-law ties with Hungary and Austria and to join the State of Slovenes, Croats and Serbs.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "citizenship_change"
+      ],
+      "narrative_hooks": [
+        "new_state_new_stamps"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "hr_sabor",
+        "hr_usud"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_sabor",
+          "url": "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja",
+          "accessed": "2026-11-13",
+          "supports": "29.10.1918 Sabor raskida državnopravne veze s Ugarskom i Austrijom i pristupa Državi SHS"
+        },
+        {
+          "source_id": "hr_usud",
+          "url": "https://usud.hr:443/sites/default/files/dokumenti/USTAV_REPUBLIKE_HRVATSKE_od_22._12._1990._NN_br._56_1990.pdf",
+          "accessed": "2026-11-13",
+          "supports": "preambula Ustava 1990: odluka Hrvatskoga sabora 29. listopada 1918."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

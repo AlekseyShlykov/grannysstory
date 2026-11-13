@@ -1,0 +1,562 @@
+{
+  "records": [
+    {
+      "id": "hr-ctx-zagreb-population-1900-2011",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 1900,
+      "period_end": 2011,
+      "context_type": "demography",
+      "attribute": "census_population",
+      "title": "Население Загреба по переписям 1900–2011",
+      "title_en": "Zagreb's population in the censuses of 1900–2011",
+      "description": "В границах на момент переписи в Загребе жили 61 002 человека в 1900 г., 108 674 в 1921 г., 185 581 в 1931 г., 279 623 в 1948 г., 430 802 в 1961 г., 602 205 в 1971 г., 933 914 в 1991 г. (в расширенных границах) и 790 017 в 2011 г. Особенно быстро город рос в 1920-е и в 1950–1970-е годы; в 2001 г. ряд прерывается из-за смены границ и методики. Женщин во всех переписях с 1910-х годов больше, чем мужчин.",
+      "description_en": "Within its boundaries at the time of each census Zagreb had 61,002 inhabitants in 1900, 108,674 in 1921, 185,581 in 1931, 279,623 in 1948, 430,802 in 1961, 602,205 in 1971, 933,914 in 1991 (within enlarged boundaries) and 790,017 in 2011. The city grew especially fast in the 1920s and from the 1950s to the 1970s; the series breaks in 2001 because of changes in boundaries and method. In every census since the 1910s women outnumbered men.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 61002,
+          "unit": "persons",
+          "year": 1900,
+          "area_id": "hr-zagreb",
+          "population": "все жители города",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "population",
+          "value": 185581,
+          "unit": "persons",
+          "year": 1931,
+          "area_id": "hr-zagreb",
+          "population": "все жители города",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "population",
+          "value": 430802,
+          "unit": "persons",
+          "year": 1961,
+          "area_id": "hr-zagreb",
+          "population": "все жители города",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "population",
+          "value": 602205,
+          "unit": "persons",
+          "year": 1971,
+          "area_id": "hr-zagreb",
+          "population": "все жители города",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "population",
+          "value": 790017,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "все жители Города Загреба",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2); разрыв ряда в 2001 г.",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 2.2 Stanovništvo i kućanstva prema popisima 1857.–2011."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-households-1931-2011",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 1931,
+      "period_end": 2011,
+      "context_type": "housing",
+      "attribute": "households_count",
+      "title": "Число домохозяйств в Загребе 1931–2011",
+      "title_en": "Number of households in Zagreb, 1931–2011",
+      "description": "По переписям в Загребе было 44 231 домохозяйство в 1931 г., 109 800 в 1948 г., 213 628 в 1971 г., 319 997 в 1991 г. и 303 441 в 2011 г.; в среднем на одно домохозяйство приходилось около 4,2 человека в 1931 г. и около 2,6 в 2011 г. (расчёт по числу жителей и домохозяйств).",
+      "description_en": "According to the censuses Zagreb had 44,231 households in 1931, 109,800 in 1948, 213,628 in 1971, 319,997 in 1991 and 303,441 in 2011; on average a household numbered about 4.2 people in 1931 and about 2.6 in 2011 (calculated from population and household totals).",
+      "statistics": [
+        {
+          "indicator": "households",
+          "value": 44231,
+          "unit": "households",
+          "year": 1931,
+          "area_id": "hr-zagreb",
+          "population": "все домохозяйства города",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "households",
+          "value": 213628,
+          "unit": "households",
+          "year": 1971,
+          "area_id": "hr-zagreb",
+          "population": "все домохозяйства города",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "households",
+          "value": 303441,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "частные домохозяйства Города Загреба",
+          "method_note": "переписи; в границах города на момент каждой переписи (табл. 2.2)",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 2.2: broj kućanstava 1931.–2011."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-childlessness-2011",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 1940,
+      "period_end": 2011,
+      "context_type": "fertility_childlessness",
+      "attribute": "women_by_live_births",
+      "title": "Женщины Загреба по числу рождённых детей (перепись 2011)",
+      "title_en": "Women in Zagreb by number of live births (2011 census)",
+      "description": "По переписи 2011 г. из 364 233 жительниц Загреба в возрасте 15 лет и старше 31,9% не рожали, 23,7% родили одного ребёнка, 32,2% — двоих, 7,6% — троих и 3,1% — четверых и больше. В число не рожавших входят и молодые женщины; доля для пожилых возрастов в таблице не выделена.",
+      "description_en": "In the 2011 census, of Zagreb's 364,233 women aged 15 and over, 31.9% had never given birth, 23.7% had one child, 32.2% two, 7.6% three and 3.1% four or more. Those who had not given birth include young women; the table does not show the share for older age groups.",
+      "statistics": [
+        {
+          "indicator": "women_never_gave_birth_share",
+          "value": 31.9,
+          "unit": "%",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "женщины 15 лет и старше",
+          "method_note": "перепись 2011",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "women_two_children_share",
+          "value": 32.2,
+          "unit": "%",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "женщины 15 лет и старше",
+          "method_note": "перепись 2011",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 2.8 Žensko stanovništvo staro 15 i više godina prema broju živorođene djece, Popis 2011."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-marital-status-2011",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "family_marriage",
+      "attribute": "marital_status_by_sex",
+      "title": "Брачное состояние жителей Загреба (перепись 2011)",
+      "title_en": "Marital status of Zagreb residents (2011 census)",
+      "description": "В 2011 г. среди жительниц Загреба 15 лет и старше 48,7% были замужем, 28,3% никогда не состояли в браке, 15,6% были вдовами и 7,2% — разведёнными; среди мужчин вдовцов было лишь 3,3%, разведённых — 4,4%. Вне брачного, внебрачного или однополого союза жили 51,0% женщин и 42,3% мужчин.",
+      "description_en": "In 2011, among Zagreb women aged 15 and over, 48.7% were married, 28.3% had never married, 15.6% were widowed and 7.2% divorced; among men only 3.3% were widowers and 4.4% divorced. Some 51.0% of women and 42.3% of men lived outside a marital, cohabiting or same-sex union.",
+      "statistics": [
+        {
+          "indicator": "widowed_share_women",
+          "value": 15.6,
+          "unit": "%",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "женщины 15 лет и старше",
+          "method_note": "перепись 2011, законное брачное состояние",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "widowed_share_men",
+          "value": 3.3,
+          "unit": "%",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "мужчины 15 лет и старше",
+          "method_note": "перепись 2011, законное брачное состояние",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "divorced_share_women",
+          "value": 7.2,
+          "unit": "%",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "женщины 15 лет и старше",
+          "method_note": "перепись 2011, законное брачное состояние",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablice 2.6 i 2.7, Popis 2011."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-tenure-2011",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "housing",
+      "attribute": "dwelling_tenure",
+      "title": "На каком основании живут в квартирах (перепись 2011)",
+      "title_en": "Housing tenure in Zagreb (2011 census)",
+      "description": "В 2011 г. 260 947 из 303 191 домохозяйства Загреба (86%) жили в собственном или совместно собственном жилье; 14 999 снимали по свободному договору, 15 369 жили у родственников-владельцев, 6 617 — на условиях защищённой аренды и 3 327 — как поднаниматели.",
+      "description_en": "In 2011, 260,947 of Zagreb's 303,191 households (86%) lived in owned or co-owned dwellings; 14,999 rented on free-market contracts, 15,369 lived with related owners, 6,617 held protected tenancies and 3,327 were subtenants.",
+      "statistics": [
+        {
+          "indicator": "owner_occupied_households",
+          "value": 260947,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "частные и институциональные домохозяйства в квартирах",
+          "method_note": "перепись 2011",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "protected_tenancy_households",
+          "value": 6617,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "частные и институциональные домохозяйства в квартирах",
+          "method_note": "перепись 2011",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 2.19 Kućanstva prema osnovi korištenja i vlasništvu stana, Popis 2011."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-computer-internet-2011",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "communication",
+      "attribute": "household_pc_internet",
+      "title": "Компьютер и интернет дома (перепись 2011)",
+      "title_en": "Computers and internet at home (2011 census)",
+      "description": "В 2011 г. персональный компьютер был у 200 929 из 303 441 частного домохозяйства Загреба (66%), интернетом пользовались 189 422 домохозяйства (62%); около трети домохозяйств жили без компьютера.",
+      "description_en": "In 2011, 200,929 of Zagreb's 303,441 private households (66%) owned a personal computer and 189,422 (62%) used the internet; about a third of households had no computer.",
+      "statistics": [
+        {
+          "indicator": "households_with_pc",
+          "value": 200929,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "частные домохозяйства",
+          "method_note": "перепись 2011",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "households_using_internet",
+          "value": 189422,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "hr-zagreb",
+          "population": "частные домохозяйства",
+          "method_note": "перепись 2011",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 2.20 Privatna kućanstva prema posjedovanju osobnog računala i korištenju interneta, Popis 2011."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-pensions-2018",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 2017,
+      "period_end": 2018,
+      "context_type": "retirement",
+      "attribute": "pension_amounts_by_sex",
+      "title": "Пенсии в Загребе 2017–2018",
+      "title_en": "Pensions in Zagreb, 2017–2018",
+      "description": "На 31 декабря 2018 г. в Загребе было 194 391 получатель пенсии, из них 119 182 женщины. Средняя пенсия составляла 3 193 куны в месяц: у мужчин 3 518, у женщин 2 987 кун; средний страховой стаж женщин — 31 год, мужчин — 34 года. Вдовьи (семейные) пенсии получали 23 695 женщин и 2 553 мужчины.",
+      "description_en": "On 31 December 2018 Zagreb had 194,391 pension recipients, 119,182 of them women. The average pension was 3,193 kuna a month: 3,518 kuna for men and 2,987 for women; women's average insured service was 31 years and men's 34. Survivors' (family) pensions went to 23,695 women and 2,553 men.",
+      "statistics": [
+        {
+          "indicator": "average_pension_women",
+          "value": 2987,
+          "unit": "HRK/month",
+          "year": 2018,
+          "area_id": "hr-zagreb",
+          "population": "получательницы пенсий по Закону о пенсионном страховании",
+          "method_note": "данные HZMO, 31.12.2018",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "average_pension_men",
+          "value": 3518,
+          "unit": "HRK/month",
+          "year": 2018,
+          "area_id": "hr-zagreb",
+          "population": "получатели пенсий по Закону о пенсионном страховании",
+          "method_note": "данные HZMO, 31.12.2018",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 5.2 Korisnici mirovina prema Zakonu o mirovinskom osiguranju i spolu, stanje 31.12.2018."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-net-wage-2018",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 2017,
+      "period_end": 2018,
+      "context_type": "wages_income",
+      "attribute": "average_net_wage",
+      "title": "Средняя зарплата в Загребе 2017–2018",
+      "title_en": "Average net pay in Zagreb, 2017–2018",
+      "description": "Средняя выплаченная месячная чистая зарплата в юридических лицах Загреба составляла 6 962 куны в 2017 г. и 7 243 куны в 2018 г.; в обрабатывающей промышленности — 7 102 куны в 2018 г. С 2017 г. расчёт охватывает все юридические лица, поэтому с более ранними годами не сравним.",
+      "description_en": "The average monthly net pay in legal entities in Zagreb was 6,962 kuna in 2017 and 7,243 kuna in 2018; in manufacturing it was 7,102 kuna in 2018. Since 2017 the figure covers all legal entities and is therefore not comparable with earlier years.",
+      "statistics": [
+        {
+          "indicator": "average_net_wage",
+          "value": 7243,
+          "unit": "HRK/month",
+          "year": 2018,
+          "area_id": "hr-zagreb",
+          "population": "работники юридических лиц всех форм собственности",
+          "method_note": "полный охват юридических лиц с 2017 г.",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 7.1 Prosječne mjesečne isplaćene neto plaće po zaposlenome u pravnim osobama, 2017.–2018."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-marriages-divorces-2014-2018",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 2014,
+      "period_end": 2018,
+      "context_type": "family_marriage",
+      "attribute": "marriages_divorces",
+      "title": "Браки и разводы в Загребе 2014–2018",
+      "title_en": "Marriages and divorces in Zagreb, 2014–2018",
+      "description": "В 2014–2018 гг. в Загребе ежегодно заключали 3 647–3 899 браков и расторгали 1 298–1 682 брака (от 333 до 461 развода на 1 000 новых браков). Число умерших превышало число родившихся во все эти годы, кроме 2014 г.",
+      "description_en": "In 2014–2018 between 3,647 and 3,899 marriages were contracted in Zagreb each year and between 1,298 and 1,682 were dissolved (333 to 461 divorces per 1,000 new marriages). Deaths exceeded births in every one of these years except 2014.",
+      "statistics": [
+        {
+          "indicator": "marriages",
+          "value": 3886,
+          "unit": "marriages",
+          "year": 2018,
+          "area_id": "hr-zagreb",
+          "population": "браки, заключённые в Городе Загребе",
+          "method_note": "естественное движение населения, DZS",
+          "source_id": "hr_zagreb_stat"
+        },
+        {
+          "indicator": "divorces",
+          "value": 1372,
+          "unit": "divorces",
+          "year": 2018,
+          "area_id": "hr-zagreb",
+          "population": "разводы в Городе Загребе",
+          "method_note": "естественное движение населения, DZS",
+          "source_id": "hr_zagreb_stat"
+        }
+      ],
+      "source_ids": [
+        "hr_zagreb_stat"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_zagreb_stat",
+          "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+          "accessed": "2026-11-13",
+          "supports": "tablica 2.23 Prirodno kretanje stanovništva 2014.–2018.; 2.37 Razvedeni brakovi"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-university-students",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 1924,
+      "period_end": 1995,
+      "context_type": "education",
+      "attribute": "university_enrolment",
+      "title": "Студенты Загребского университета 1924/25 и 1994/95",
+      "title_en": "Students at the University of Zagreb, 1924/25 and 1994/95",
+      "description": "В 1924/25 учебном году в Загребском университете учились 2 805 студентов, в 1994/95 — 52 592. Между этими годами появились десятки новых факультетов: естественно-математический (1946), экономический (1947), политических наук и стоматологический (1962) и др.",
+      "description_en": "In the 1924/25 academic year the University of Zagreb had 2,805 students and in 1994/95 52,592. Between those years dozens of new faculties were created, including Science (1946), Economics (1947), and Political Science and Dentistry (1962).",
+      "statistics": [
+        {
+          "indicator": "students",
+          "value": 2805,
+          "unit": "students",
+          "year": 1925,
+          "area_id": "hr-zagreb",
+          "population": "студенты Загребского университета",
+          "method_note": "1924/25 учебный год",
+          "source_id": "hr_unizg"
+        },
+        {
+          "indicator": "students",
+          "value": 52592,
+          "unit": "students",
+          "year": 1995,
+          "area_id": "hr-zagreb",
+          "population": "студенты Загребского университета",
+          "method_note": "1994/95 учебный год",
+          "source_id": "hr_unizg"
+        }
+      ],
+      "source_ids": [
+        "hr_unizg"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_unizg",
+          "url": "https://www.unizg.hr/o-sveucilistu/sveuciliste-jucer-danas-sutra/povijest-sveucilista/",
+          "accessed": "2026-11-13",
+          "supports": "broj studenata 1924/1925: 2805; 1994/1995: 52 592; osnivanje fakulteta"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-ctx-zagreb-utilities-1900-1910",
+      "country_code": "HR",
+      "location_id": "hr-zagreb",
+      "period_start": 1900,
+      "period_end": 1910,
+      "context_type": "housing",
+      "attribute": "urban_utilities",
+      "title": "Городское хозяйство Загреба около 1900 года",
+      "title_en": "Zagreb's municipal services around 1900",
+      "description": "По данным Музея города Загреба, в 1900 г. в городе жили около 57 000 человек и за последнее десятилетие XIX века население выросло на 48,9% (статистический ежегодник города даёт для переписи 1900 г. 61 002 жителя). Городской водопровод работал с 1878 г., конка — с 1891 г.; в 1907 г. газовое освещение улиц сменилось электрическим, в 1910 г. трамвай электрифицировали.",
+      "description_en": "According to the Zagreb City Museum, the city had about 57,000 inhabitants in 1900, its population having grown by 48.9% in the last decade of the nineteenth century (the city's statistical yearbook gives 61,002 for the 1900 census). The city waterworks had operated since 1878 and the horse tram since 1891; in 1907 gas street lighting gave way to electric, and in 1910 the tram was electrified.",
+      "statistics": [],
+      "source_ids": [
+        "hr_mgz"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_mgz",
+          "url": "https://mgz.hr/hr/izlozbe/stalni-postav/komunalna-djelatnost,1136.html",
+          "accessed": "2026-11-13",
+          "supports": "1900: 57 000 stanovnika, rast 48,90%; vodovod 1878; konjski tramvaj 1891; električna rasvjeta 1907; elektrifikacija tramvaja 1910"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    }
+  ]
+}

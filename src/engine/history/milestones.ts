@@ -61,9 +61,13 @@ export function lifeMilestones(state: GameSessionState, definitions: MilestoneDe
   if (usesWorld) {
     const profile = lifeProfile(birth, world, state.biography);
     const reached = new Map(relevantEvents(world, lifeResidences(state.biography), profile, birth, last).map((item) => [item.event.id, item]));
+    const usedEvents = new Set<string>();
     for (const definition of definitions) {
       const item = definition.eventIds.map((id) => reached.get(id)).find(Boolean);
       if (!item) continue;
+      // One record is told through one milestone only, even if two countries' registries cite it.
+      if (usedEvents.has(item.event.id)) continue;
+      usedEvents.add(item.event.id);
       if (!isNarrativeHistoricalEvent(item.event.title)) continue;
       if (definition.notIn?.length && ancestorsAt(world, item.residenceId, isoDay(item.year)).some((node) => definition.notIn!.includes(node))) continue;
       result.push({

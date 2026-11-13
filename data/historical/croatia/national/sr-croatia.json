@@ -1,0 +1,410 @@
+{
+  "records": [
+    {
+      "id": "hr-rep-1947-constitution",
+      "title": "Первая конституция Народной Республики Хорватия",
+      "title_en": "First constitution of the People's Republic of Croatia",
+      "title_original": null,
+      "start_date": "1947",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "В 1947 г. принята первая Конституция Народной Республики Хорватия, определившая Сабор как однопалатный орган.",
+      "historical_summary_en": "In 1947 the first Constitution of the People's Republic of Croatia was adopted, defining the Sabor as a single-chamber body.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "hr_sabor"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_sabor",
+          "url": "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja",
+          "accessed": "2026-11-13",
+          "supports": "1947. prvi Ustav NR Hrvatske, jednodomni Sabor"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1963-constitution",
+      "title": "Конституция Социалистической Республики Хорватия",
+      "title_en": "Constitution of the Socialist Republic of Croatia",
+      "title_original": null,
+      "start_date": "1963",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "В 1963 г. по новой конституции республика стала называться Социалистической Республикой Хорватия, а Сабор получил пять веч.",
+      "historical_summary_en": "In 1963 a new constitution renamed the republic the Socialist Republic of Croatia and gave the Sabor five chambers.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "hr_sabor"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_sabor",
+          "url": "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja",
+          "accessed": "2026-11-13",
+          "supports": "1963. Ustav SR Hrvatske, pet vijeća"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1974-constitution",
+      "title": "Конституция СР Хорватии 1974 года",
+      "title_en": "The 1974 Constitution of SR Croatia",
+      "title_original": null,
+      "start_date": "1974",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "В 1974 г. новая конституция Социалистической Республики Хорватия определила Сабор как собрание из трёх веч.",
+      "historical_summary_en": "In 1974 a new constitution of the Socialist Republic of Croatia defined the Sabor as an assembly of three chambers.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "hr_sabor"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_sabor",
+          "url": "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja",
+          "accessed": "2026-11-13",
+          "supports": "1974. Ustav, Sabor s tri vijeća"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1975-colour-tv-news",
+      "title": "Цветное телевидение и ежедневные новости",
+      "title_en": "Colour television and daily news",
+      "title_original": null,
+      "start_date": "1975",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "В 1975 г. Телевидение Загреб начало вещать в цвете и выпускать ежедневные новости; второй канал работал постоянно с 1972 г.",
+      "historical_summary_en": "In 1975 Television Zagreb began broadcasting in colour and airing daily news; its second channel had been on air permanently since 1972.",
+      "affected_groups": [
+        "television_owners",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_colour_tv"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "hr_hrt"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_hrt",
+          "url": "https://o-nama.hrt.hr/hrt/o-hrt-2-1057",
+          "accessed": "2026-11-13",
+          "supports": "1972 stalni Drugi program; 1975 emitiranje u boji i dnevne vijesti"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1990-multiparty-elections",
+      "title": "Первые многопартийные выборы",
+      "title_en": "First multi-party elections",
+      "title_original": null,
+      "start_date": "1990",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "В 1990 г. в Хорватии прошли первые демократические многопартийные выборы; 30 мая 1990 г. в Загребе был конституирован многопартийный Сабор.",
+      "historical_summary_en": "In 1990 Croatia held its first democratic multi-party elections; on 30 May 1990 the multi-party Sabor was constituted in Zagreb.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "first_free_vote"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "hr_mgz",
+        "hr_sabor"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_sabor",
+          "url": "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja",
+          "accessed": "2026-11-13",
+          "supports": "1990. prvi demokratski višestranački izbori"
+        },
+        {
+          "source_id": "hr_mgz",
+          "url": "https://mgz.hr/hr/izlozbe/stalni-postav/zagreb-u-samostalnoj-drzavi-hrvatskoj,1144.html",
+          "accessed": "2026-11-13",
+          "supports": "30.5.1990 konstituiran višestranački Sabor"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1990-name-and-symbols",
+      "title": "Слово «социалистическая» исключено из названия республики",
+      "title_en": "\"Socialist\" removed from the republic's name",
+      "title_original": null,
+      "start_date": "1990-07-25",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "25 июля 1990 г. Сабор принял поправки к Конституции: из названия республики исключено слово «Социалистическая», гербом стал исторический хорватский герб из 25 красных и белых полей, флагом — красно-бело-синий триколор с гербом.",
+      "historical_summary_en": "On 25 July 1990 the Sabor adopted constitutional amendments removing the word \"Socialist\" from the republic's name, making the historical Croatian chequered arms of 25 red and white fields the coat of arms and the red, white and blue tricolour with the arms the flag.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [
+        "new_flag_on_the_building"
+      ],
+      "sensitive": false,
+      "source_ids": [
+        "hr_nn"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_nn",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_07_31_610.html",
+          "supports": "Amandmani LXIV–LXXV usvojeni 25.7.1990; LXIV briše riječ Socijalistička; LXVI grb i zastava",
+          "primary": true,
+          "primary_type": "legal_publication",
+          "document_title": "Odluka o proglašenju Amandmana LXIV. do LXXV. na Ustav Socijalističke Republike Hrvatske",
+          "document_date": "1990-07-25",
+          "archive_identifier": "Narodne novine 31/1990, br. 610",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1990-hrt-renamed",
+      "title": "Радиотелевидение Загреб становится HRT",
+      "title_en": "Radio-Television Zagreb becomes HRT",
+      "title_original": null,
+      "start_date": "1990-06",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "В июне 1990 г. Сабор переименовал Радиотелевидение Загреб в Хорватское радиотелевидение (HRT); в том же году телетекст стал постоянной услугой.",
+      "historical_summary_en": "In June 1990 the Sabor renamed Radio-Television Zagreb as Croatian Radiotelevision (HRT); in the same year teletext became a permanent service.",
+      "affected_groups": [
+        "television_owners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "hr_hrt"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_hrt",
+          "url": "https://o-nama.hrt.hr/hrt/o-hrt-2-1057",
+          "accessed": "2026-11-13",
+          "supports": "1990: lipanj, Sabor preimenovao RTZ u HRT; teletekst"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1990-christmas-constitution",
+      "title": "Конституция Республики Хорватия («Рождественская»)",
+      "title_en": "Constitution of the Republic of Croatia (the \"Christmas Constitution\")",
+      "title_original": null,
+      "start_date": "1990-12-22",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "Конституцию Республики Хорватия Сабор принял 21 декабря 1990 г., а 22 декабря 1990 г. провозгласил её и ввёл в действие.",
+      "historical_summary_en": "The Sabor adopted the Constitution of the Republic of Croatia on 21 December 1990 and proclaimed it and brought it into force on 22 December 1990.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "hr_usud"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_usud",
+          "url": "https://usud.hr:443/sites/default/files/dokumenti/USTAV_REPUBLIKE_HRVATSKE_od_22._12._1990._NN_br._56_1990.pdf",
+          "supports": "Odluka o proglašenju Ustava, Zagreb 22.12.1990; Ustav donesen 21.12.1990",
+          "primary": true,
+          "primary_type": "legal_publication",
+          "document_title": "Odluka o proglašenju Ustava Republike Hrvatske; Ustav Republike Hrvatske",
+          "document_date": "1990-12-22",
+          "archive_identifier": "Narodne novine 56/1990, br. 1092",
+          "accessed": "2026-11-13"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "hr-rep-1991-independence-decision",
+      "title": "Конституционное решение о суверенитете и самостоятельности",
+      "title_en": "Constitutional Decision on Sovereignty and Independence",
+      "title_original": null,
+      "start_date": "1991-06-25",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "hr-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "25 июня 1991 г. Сабор провозгласил Хорватию суверенным и самостоятельным государством и начал процесс отделения от других республик и СФРЮ; федеральные нормы оставались в силе до завершения отделения. Брионская декларация отложила исполнение решения на три месяца.",
+      "historical_summary_en": "On 25 June 1991 the Sabor proclaimed Croatia a sovereign and independent state and began the process of separation from the other republics and the SFRY; federal regulations remained in force until separation was complete. The Brijuni Declaration postponed implementation of the decision for three months.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [
+        "citizenship_change"
+      ],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "hr_nn"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_nn",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1991_06_31_872.html",
+          "supports": "Ustavna odluka o suverenosti i samostalnosti RH, 25.6.1991",
+          "primary": true,
+          "primary_type": "legal_publication",
+          "document_title": "Ustavna odluka o suverenosti i samostalnosti Republike Hrvatske",
+          "document_date": "1991-06-25",
+          "archive_identifier": "Narodne novine 31/1991, br. 872",
+          "accessed": "2026-11-13"
+        },
+        {
+          "source_id": "hr_nn",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1991_10_53_1265.html",
+          "accessed": "2026-11-13",
+          "supports": "tromjesečna odgoda po Brijunskoj deklaraciji istekla 7.10.1991"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

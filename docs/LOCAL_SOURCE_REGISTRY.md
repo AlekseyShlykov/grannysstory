@@ -157,6 +157,32 @@
 | [UK Data Service](https://ukdataservice.ac.uk/) | — | 1900–2025 | — | catalogue | не проверено | нет | Различные лицензии; End User Licence, часть данных Safeguarded/Controlled | Для большинства наборов нужна регистрация и согласие с End User Licence | catalogued | 0 |
 | [A Vision of Britain through Time](https://www.visionofbritain.org.uk/) | — | 1801–2001 | — | not_accessible | не проверено | нет | Условия сайта; некоммерческое использование | Ошибка TLS-сертификата при запросе из этой сессии | inaccessible | 0 |
 
+## HR
+
+| Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
+|---|---|---|---|---|---|---|---|---|---|---:|
+| [Музей города Загреба — постоянная экспозиция (тематические страницы)](https://mgz.hr/hr/izlozbe/stalni-postav/) | `hr-zagreb` | 1900–1995 | hr | museum | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 31 |
+| [Статистический ежегодник Города Загреба 2019 (Statistički ljetopis Grada Zagreba)](https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf) | `hr-zagreb` | 1900–2018 | hr | statistics | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 9 |
+| [Narodne novine — официальный вестник Республики Хорватия (электронный архив)](https://narodne-novine.nn.hr/) | `hr` | 1990–2020 | hr | government | нет | нет | Официальные тексты нормативных актов (не охраняются авторским правом по ст. 8 Закона об авторском праве), пересказ своими словами | — | accessed | 6 |
+| [Хорватский сабор — «Povijest saborovanja»](https://www.sabor.hr/hr/o-saboru/povijest-saborovanja) | `hr` | 1900–2020 | hr | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 6 |
+| [Хорватский государственный архив — портал «Prvi svjetski rat 1914.–1918. – pogled iz arhiva» и сайт arhiv.hr](https://prvisvjetskirat.arhiv.hr/) | `hr`, `hr-zagreb`, `hr-croatia-slavonia` | 1900–1991 | hr | archive | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [HRT — «Povijest HRT-a» (история Радио Загреб и Телевидения Загреб)](https://o-nama.hrt.hr/hrt/o-hrt-2-1057) | `hr-zagreb` | 1924–2002 | hr | newspaper | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [Город Загреб — официальный портал zagreb.hr (документы и новости)](https://www.zagreb.hr/) | `hr-zagreb` | 1900–2020 | hr | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [ZET — «Razvoj javnog prijevoza» (история общественного транспорта Загреба)](https://www.zet.hr/o-nama/razvoj-javnog-prijevoza/333) | `hr-zagreb` | 1900–2022 | hr | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 3 |
+| [Министерство иностранных и европейских дел — mvep.gov.hr](https://mvep.gov.hr/) | `hr` | 2003–2013 | hr | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Национальная и университетская библиотека в Загребе — «Povijest»](https://www.nsk.hr/povijest/) | `hr-zagreb` | 1900–1997 | hr | library | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Загребский университет — «Povijest Sveučilišta»](https://www.unizg.hr/o-sveucilistu/sveuciliste-jucer-danas-sutra/povijest-sveucilista/) | `hr-zagreb` | 1900–1999 | hr | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Ustavni sud Republike Hrvatske — тексты Конституции](https://www.usud.hr/) | `hr` | 1990–2014 | hr | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Zagreb International Airport (MZLZ) — пресс-релизы](https://zagreb-airport.hr/) | `hr-zagreb` | 2013–2020 | hr | other | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Хорватский народный банк — страницы о куне и нумизматический каталог 1994–2014](https://www.hnb.hr/) | `hr` | 1991–2014 | hr | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Hrčak — портал хорватских научных журналов (статьи по истории Загреба)](https://hrcak.srce.hr/) | `hr`, `hr-zagreb` | 1900–2020 | hr | academic | нет | нет | Открытый доступ; права у авторов и журналов, используются только аннотации и факты | — | accessed | 1 |
+| [Мемориальный комплекс Ясеновац (JUSP Jasenovac) — страницы о лагере](https://www.jusp-jasenovac.hr/) | `hr-ndh` | 1941–1945 | hr | museum | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Концертный зал Ватрослава Лисинского — программа к 50-летию (2023)](https://www.lisinski.hr/) | `hr-zagreb` | 1958–2023 | hr | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Muzejski dokumentacijski centar — годовые отчёты музеев](https://mdc.hr/) | `hr-zagreb` | 2000–2020 | hr | museum | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Правительство Республики Хорватия — vlada.gov.hr](https://vlada.gov.hr/) | `hr` | 1990–2020 | hr | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Государственный архив в Загребе](https://www.daz.hr/) | `hr-zagreb` | 1900–2020 | hr | archive | нет | нет | © издатель; только просмотр, тексты не копируются | см. notes | inaccessible | 0 |
+| [Wikipedia (английская)](https://en.wikipedia.org/) | `hr` | 1900–2020 | en | encyclopedia | нет | нет | CC BY-SA 4.0 | — | accessed | 0 |
+
 ## HU
 
 | Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |

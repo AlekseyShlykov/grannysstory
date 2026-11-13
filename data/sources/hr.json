@@ -1,0 +1,869 @@
+{
+  "sources": [
+    {
+      "source_id": "hr_mgz",
+      "name": "Музей города Загреба — постоянная экспозиция (тематические страницы)",
+      "publisher": "Muzej grada Zagreba",
+      "country": "HR",
+      "url": "https://mgz.hr/hr/izlozbe/stalni-postav/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1995
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Онлайн-страницы разделов постоянной экспозиции («Senzacije s početka 20. stoljeća», «Odjeci s bojišnice», «Kuća i život», «Drugi svjetski rat», «U socijalističkoj stvarnosti», «Zagrebačka škola crtanog filma», «Zagreb u samostalnoj državi Hrvatskoj», «Komunalna djelatnost», «Odjeci zagrebačkih događanja») с текстами кураторов. Основа загребского слоя 1900–1995. Тексты не копируются; часть формулировок музея содержит оценки — в записи переносятся только датированные факты.",
+      "source_type": "museum",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1995
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_zet",
+      "name": "ZET — «Razvoj javnog prijevoza» (история общественного транспорта Загреба)",
+      "publisher": "Zagrebački električni tramvaj d.o.o. (Zagrebački holding)",
+      "country": "HR",
+      "url": "https://www.zet.hr/o-nama/razvoj-javnog-prijevoza/333",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2022
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная страница городского транспортного предприятия (принадлежит Городу Загребу через Zagrebački holding). Страница zet.hr/o-nama/povijest/ отдаёт 404.",
+      "source_type": "municipal",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2022
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_zagreb_city",
+      "name": "Город Загреб — официальный портал zagreb.hr (документы и новости)",
+      "publisher": "Grad Zagreb",
+      "country": "HR",
+      "url": "https://www.zagreb.hr/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Документы городского планирования (в т. ч. исследование «2015 Zagrebački velesajam» с историей локаций ярмарки), новости городской администрации.",
+      "source_type": "municipal",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_sabor",
+      "name": "Хорватский сабор — «Povijest saborovanja»",
+      "publisher": "Hrvatski sabor",
+      "country": "HR",
+      "url": "https://www.sabor.hr/hr/o-saboru/povijest-saborovanja",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная история парламента: решения 29.10.1918, НГХ 1941, ЗАВНОХ 1945, конституции 1947–2001.",
+      "source_type": "government",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_nn",
+      "name": "Narodne novine — официальный вестник Республики Хорватия (электронный архив)",
+      "publisher": "Narodne novine d.d.",
+      "country": "HR",
+      "url": "https://narodne-novine.nn.hr/",
+      "historical_coverage": {
+        "from": 1990,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Официальные тексты нормативных актов (не охраняются авторским правом по ст. 8 Закона об авторском праве), пересказ своими словами",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Полные тексты актов с 1990 г.: Амандманы к Конституции СРХ 25.07.1990 (NN 31/1990), Конституционное решение 25.06.1991 (NN 31/1991), Решение 8.10.1991 (NN 53/1991) и др.",
+      "source_type": "government",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1990,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_hrt",
+      "name": "HRT — «Povijest HRT-a» (история Радио Загреб и Телевидения Загреб)",
+      "publisher": "Hrvatska radiotelevizija",
+      "country": "HR",
+      "url": "https://o-nama.hrt.hr/hrt/o-hrt-2-1057",
+      "historical_coverage": {
+        "from": 1924,
+        "to": 2002
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "История общественного вещателя на его собственном сайте; учитывается как медиа, а не официальный архив.",
+      "source_type": "newspaper",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1924,
+        "to": 2002
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_en_wikipedia",
+      "name": "Wikipedia (английская)",
+      "publisher": "Wikimedia Foundation",
+      "country": "HR",
+      "url": "https://en.wikipedia.org/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA 4.0",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Только для поиска и как дополнительный вторичный источник; никогда не единственный.",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_hda",
+      "name": "Хорватский государственный архив — портал «Prvi svjetski rat 1914.–1918. – pogled iz arhiva» и сайт arhiv.hr",
+      "publisher": "Hrvatski državni arhiv",
+      "country": "HR",
+      "url": "https://prvisvjetskirat.arhiv.hr/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1991
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Тематические статьи архивистов с изображениями единиц хранения и шифрами (HR-HDA-907 Zbirka stampata, HR-HDA-1973 Franjo Bučar и др.). Основной сайт arhiv.hr: список виртуальных выставок (галерея «Međuratni Zagreb» без подписей и дат). Выставка izlozba.arhiv.hr (независимость) не открылась (ECONNREFUSED).",
+      "source_type": "archive",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr",
+        "hr-zagreb",
+        "hr-croatia-slavonia"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1991
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_nsk",
+      "name": "Национальная и университетская библиотека в Загребе — «Povijest»",
+      "publisher": "Nacionalna i sveučilišna knjižnica u Zagrebu",
+      "country": "HR",
+      "url": "https://www.nsk.hr/povijest/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1997
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная история библиотеки (здание 1913 г., новое здание 28.05.1995).",
+      "source_type": "library",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1997
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_daz",
+      "name": "Государственный архив в Загребе",
+      "publisher": "Državni arhiv u Zagrebu",
+      "country": "HR",
+      "url": "https://www.daz.hr/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [
+        "см. notes"
+      ],
+      "status": "inaccessible",
+      "notes": "Сайт вернул HTTP 403 на WebFetch 13.11.2026; виртуальная выставка «Zagreb Mihajla Kranjca» известна только по ссылке в статье. Не обходилось.",
+      "source_type": "archive",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      }
+    },
+    {
+      "source_id": "hr_unizg",
+      "name": "Загребский университет — «Povijest Sveučilišta»",
+      "publisher": "Sveučilište u Zagrebu",
+      "country": "HR",
+      "url": "https://www.unizg.hr/o-sveucilistu/sveuciliste-jucer-danas-sutra/povijest-sveucilista/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 1999
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальная история университета: даты основания факультетов, численность студентов 1924/25 и 1994/95.",
+      "source_type": "academic",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 1999
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_jusp",
+      "name": "Мемориальный комплекс Ясеновац (JUSP Jasenovac) — страницы о лагере",
+      "publisher": "Javna ustanova Spomen-područje Jasenovac",
+      "country": "HR",
+      "url": "https://www.jusp-jasenovac.hr/",
+      "historical_coverage": {
+        "from": 1941,
+        "to": 1945
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Публичное учреждение и мемориальный музей. Использованы страницы «Uspostava NDH» (sid=9404) и «Jasenovački sustav logora» (sid=5345); итоговые числа жертв на открытых страницах не приведены и в записи не вносились.",
+      "source_type": "museum",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-ndh"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1941,
+        "to": 1945
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_hrcak",
+      "name": "Hrčak — портал хорватских научных журналов (статьи по истории Загреба)",
+      "publisher": "Srce — Sveučilišni računski centar Sveučilišta u Zagrebu",
+      "country": "HR",
+      "url": "https://hrcak.srce.hr/",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытый доступ; права у авторов и журналов, используются только аннотации и факты",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Научные журналы государственных институтов и университетов (в т. ч. «Časopis za suvremenu povijest» Хорватского института истории). Использованы аннотации статей.",
+      "source_type": "academic",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr",
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_lisinski",
+      "name": "Концертный зал Ватрослава Лисинского — программа к 50-летию (2023)",
+      "publisher": "Koncertna dvorana Vatroslava Lisinskog (javna ustanova Grada Zagreba)",
+      "country": "HR",
+      "url": "https://www.lisinski.hr/",
+      "historical_coverage": {
+        "from": 1958,
+        "to": 2023
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Городское публичное учреждение. Использована программа праздничного концерта 29.12.2023 (PDF) с историей зала.",
+      "source_type": "municipal",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1958,
+        "to": 2023
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_mdc",
+      "name": "Muzejski dokumentacijski centar — годовые отчёты музеев",
+      "publisher": "Muzejski dokumentacijski centar (MDC)",
+      "country": "HR",
+      "url": "https://mdc.hr/",
+      "historical_coverage": {
+        "from": 2000,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Государственный центр музейной документации; использован отчёт Музея современного искусства за 2009 г. (открытие нового здания).",
+      "source_type": "museum",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2000,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_vlada",
+      "name": "Правительство Республики Хорватия — vlada.gov.hr",
+      "publisher": "Vlada Republike Hrvatske",
+      "country": "HR",
+      "url": "https://vlada.gov.hr/",
+      "historical_coverage": {
+        "from": 1990,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Документ «Situacija s novim koronavirusom 27.2.2020» (хроника мер правительства и число заболевших).",
+      "source_type": "government",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1990,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_mvep",
+      "name": "Министерство иностранных и европейских дел — mvep.gov.hr",
+      "publisher": "Ministarstvo vanjskih i europskih poslova",
+      "country": "HR",
+      "url": "https://mvep.gov.hr/",
+      "historical_coverage": {
+        "from": 2003,
+        "to": 2013
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Страница о вступлении в ЕС 1.07.2013 с датами заявки, переговоров, договора и референдума. Страница Еврокомиссии enlargement.ec.europa.eu вернула 429 и не использована.",
+      "source_type": "government",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2003,
+        "to": 2013
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_hnb",
+      "name": "Хорватский народный банк — страницы о куне и нумизматический каталог 1994–2014",
+      "publisher": "Hrvatska narodna banka",
+      "country": "HR",
+      "url": "https://www.hnb.hr/",
+      "historical_coverage": {
+        "from": 1991,
+        "to": 2014
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Центральный банк. Использованы страница о банкнотах куны и PDF «Katalog numizmatičkih izdanja 1994.–2014.».",
+      "source_type": "government",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1991,
+        "to": 2014
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_usud",
+      "name": "Ustavni sud Republike Hrvatske — тексты Конституции",
+      "publisher": "Ustavni sud Republike Hrvatske",
+      "country": "HR",
+      "url": "https://www.usud.hr/",
+      "historical_coverage": {
+        "from": 1990,
+        "to": 2014
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "PDF «Ustav Republike Hrvatske od 22. 12. 1990. (NN 56/1990)» с решением о провозглашении.",
+      "source_type": "government",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1990,
+        "to": 2014
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_airport",
+      "name": "Zagreb International Airport (MZLZ) — пресс-релизы",
+      "publisher": "Međunarodna zračna luka Zagreb d.d.",
+      "country": "HR",
+      "url": "https://zagreb-airport.hr/",
+      "historical_coverage": {
+        "from": 2013,
+        "to": 2020
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Концессионер аэропорта (частная компания, ГЧП с правительством); не считается официальным органом. Страница истории аэропорта (zagreb-airport.hr/poslovni/o-nama/povijest/) вернула 404.",
+      "source_type": "other",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 2013,
+        "to": 2020
+      },
+      "accessed": "2026-11-13"
+    },
+    {
+      "source_id": "hr_zagreb_stat",
+      "name": "Статистический ежегодник Города Загреба 2019 (Statistički ljetopis Grada Zagreba)",
+      "publisher": "Grad Zagreb, Gradski ured za strategijsko planiranje i razvoj Grada — Odjel za statistiku",
+      "country": "HR",
+      "url": "https://www.zagreb.hr/UserDocsImages/arhiva/statistika/statisticki%20ljetopis%202019_digital.pdf",
+      "historical_coverage": {
+        "from": 1900,
+        "to": 2018
+      },
+      "geographic_coverage": [
+        "HR"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "© издатель; только просмотр, тексты не копируются",
+      "attribution_required": true,
+      "access_restrictions": [],
+      "status": "accessed",
+      "notes": "Официальный ежегодник городской статистики (на основе данных DZS, HZMO и др.): ряды переписей 1857–2011, таблицы переписи 2011 (брачное состояние, рождённые дети, владение жильём, компьютер и интернет), естественное движение 2014–2018, пенсии и зарплаты 2017–2018, сильнейшие землетрясения. Скачан один PDF для чтения таблиц.",
+      "source_type": "statistics",
+      "languages": [
+        "hr"
+      ],
+      "location_ids": [
+        "hr-zagreb"
+      ],
+      "api": {
+        "available": false,
+        "verified": true,
+        "note": "проверено: только веб-интерфейс"
+      },
+      "years": {
+        "from": 1900,
+        "to": 2018
+      },
+      "accessed": "2026-11-13"
+    }
+  ]
+}

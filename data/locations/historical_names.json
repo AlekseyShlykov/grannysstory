@@ -1032,6 +1032,30 @@
         "Државна заједница Србија и Црна Гора"
       ]
     },
+    "state-shs": {
+      "local": [
+        {
+          "name": "Država Slovenaca, Hrvata i Srba",
+          "lang": "hr",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Государство словенцев, хорватов и сербов",
+          "locative": "в Государстве словенцев, хорватов и сербов",
+          "name_en": "State of Slovenes, Croats and Serbs",
+          "from": "1918-10-29",
+          "to": "1918-11-30",
+          "locative_en": "in the State of Slovenes, Croats and Serbs"
+        }
+      ],
+      "alt": [
+        "Država SHS",
+        "State of SCS"
+      ]
+    },
     "de": {
       "local": [
         {
@@ -3536,6 +3560,230 @@
         }
       ],
       "alt": []
+    },
+    "hr-croatia-slavonia": {
+      "local": [
+        {
+          "name": "Kraljevina Hrvatska i Slavonija",
+          "lang": "hr",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "name": "Königreich Kroatien und Slawonien",
+          "lang": "de",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "name": "Horvát-Szlavónország",
+          "lang": "hu",
+          "from": null,
+          "to": "1918-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Хорватия и Славония",
+          "locative": "в Королевстве Хорватия и Славония",
+          "name_en": "Kingdom of Croatia-Slavonia",
+          "from": null,
+          "to": "1918-10-28",
+          "locative_en": "in the Kingdom of Croatia-Slavonia"
+        },
+        {
+          "name": "Хорватия и Славония",
+          "locative": "в Хорватии и Славонии",
+          "name_en": "Croatia-Slavonia",
+          "from": "1918-10-29",
+          "to": "1918-11-30",
+          "locative_en": "in Croatia-Slavonia"
+        }
+      ],
+      "alt": [
+        "Croatia-Slavonia",
+        "Hrvatska i Slavonija"
+      ]
+    },
+    "hr-sava-banovina": {
+      "local": [
+        {
+          "name": "Savska banovina",
+          "lang": "hr",
+          "from": "1929-10-03",
+          "to": "1939-08-25"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Савская бановина",
+          "locative": "в Савской бановине",
+          "name_en": "Sava Banovina",
+          "from": "1929-10-03",
+          "to": "1939-08-25"
+        }
+      ],
+      "alt": [
+        "Savska banovina"
+      ]
+    },
+    "hr-banovina-croatia": {
+      "local": [
+        {
+          "name": "Banovina Hrvatska",
+          "lang": "hr",
+          "from": "1939-08-26",
+          "to": "1941-04-09"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Бановина Хорватия",
+          "locative": "в Бановине Хорватия",
+          "name_en": "Banovina of Croatia",
+          "from": "1939-08-26",
+          "to": "1941-04-09"
+        }
+      ],
+      "alt": [
+        "Banovina Hrvatska"
+      ]
+    },
+    "hr-ndh": {
+      "local": [
+        {
+          "name": "Nezavisna Država Hrvatska",
+          "lang": "hr",
+          "from": "1941-04-10",
+          "to": "1945-05-08"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Независимое государство Хорватия",
+          "locative": "в Независимом государстве Хорватия",
+          "name_en": "Independent State of Croatia",
+          "from": "1941-04-10",
+          "to": "1945-05-08",
+          "locative_en": "in the Independent State of Croatia"
+        }
+      ],
+      "alt": [
+        "NDH"
+      ]
+    },
+    "hr-republic": {
+      "local": [
+        {
+          "name": "Narodna Republika Hrvatska",
+          "lang": "hr",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Socijalistička Republika Hrvatska",
+          "lang": "hr",
+          "from": "1963-04-07",
+          "to": "1990-07-24"
+        },
+        {
+          "name": "Republika Hrvatska",
+          "lang": "hr",
+          "from": "1990-07-25",
+          "to": "1991-10-07"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Народная Республика Хорватия",
+          "locative": "в Народной Республике Хорватии",
+          "name_en": "People's Republic of Croatia",
+          "from": "1946-01-31",
+          "to": "1963-04-06",
+          "locative_en": "in the People's Republic of Croatia"
+        },
+        {
+          "name": "Социалистическая Республика Хорватия",
+          "locative": "в Социалистической Республике Хорватии",
+          "name_en": "Socialist Republic of Croatia",
+          "from": "1963-04-07",
+          "to": "1990-07-24",
+          "locative_en": "in the Socialist Republic of Croatia"
+        },
+        {
+          "name": "Республика Хорватия",
+          "locative": "в Республике Хорватии",
+          "name_en": "Republic of Croatia",
+          "from": "1990-07-25",
+          "to": "1991-10-07",
+          "locative_en": "in the Republic of Croatia"
+        }
+      ],
+      "alt": [
+        "NR Hrvatska",
+        "SR Hrvatska",
+        "SRH"
+      ]
+    },
+    "hr": {
+      "local": [
+        {
+          "name": "Republika Hrvatska",
+          "lang": "hr",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Хорватия",
+          "locative": "в Хорватии",
+          "name_en": "Croatia",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Republika Hrvatska",
+        "Croatia",
+        "Hrvatska"
+      ]
+    },
+    "hr-zagreb": {
+      "local": [
+        {
+          "name": "Zagreb",
+          "lang": "hr",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Agram",
+          "lang": "de",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "name": "Zágráb",
+          "lang": "hu",
+          "from": null,
+          "to": "1918-10-28"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Загреб",
+          "locative": "в Загребе",
+          "name_en": "Zagreb",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Agram",
+        "Zágráb",
+        "Zagrabia"
+      ]
     },
     "it": {
       "local": [

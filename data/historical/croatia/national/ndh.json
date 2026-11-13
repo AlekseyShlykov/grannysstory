@@ -1,0 +1,54 @@
+{
+  "records": [
+    {
+      "id": "hr-ndh-1941-jasenovac-camps",
+      "title": "Лагерная система Ясеновац",
+      "title_en": "The Jasenovac camp system",
+      "title_original": null,
+      "start_date": "1941-08-23",
+      "end_date": "1945",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "HR"
+      ],
+      "geographic_scope": "national",
+      "location_ids": [
+        "hr-ndh"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "Подготовка лагеря у Ясеноваца началась не позднее 24 июля 1941 г., первые заключённые прибыли 23 августа 1941 г.; лагеря Брочице и Краппе были ликвидированы в ноябре 1941 г. массовыми убийствами. Ясеновац действовал дольше всех лагерей НГХ и был крупнейшим усташским лагерем.",
+      "historical_summary_en": "Preparations for the camp at Jasenovac began no later than 24 July 1941 and the first prisoners arrived on 23 August 1941; the Bročice and Krapje camps were liquidated in November 1941 through mass killings. Jasenovac operated longer than any other NDH camp and was the largest Ustaša camp.",
+      "affected_groups": [
+        "ethnic_minorities",
+        "jewish_population"
+      ],
+      "potential_impacts": [
+        "family_separation"
+      ],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "hr_jusp"
+      ],
+      "evidence": [
+        {
+          "source_id": "hr_jusp",
+          "url": "https://www.jusp-jasenovac.hr/Default.aspx?sid=5345",
+          "accessed": "2026-11-13",
+          "supports": "24.7.1941 pripreme; 23.8.1941 prvi zatočenici; Bročice i Krapje likvidirani u studenom 1941"
+        },
+        {
+          "source_id": "hr_jusp",
+          "url": "https://www.jusp-jasenovac.hr/Default.aspx?sid=9404",
+          "accessed": "2026-11-13",
+          "supports": "uspostava NDH 10.4.1941; Ravnateljstvo za javni red i sigurnost 7.5.1941"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

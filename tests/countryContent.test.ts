@@ -15,7 +15,22 @@ function strings(value: unknown): string[] {
   return [];
 }
 
-describe("country content of world-1.2 (Italy, Germany, China, Finland, Turkey)", () => {
+describe("milestone registry", () => {
+  it("cites each record in one milestone only", async () => {
+    const { milestones } = await import("../content/historical/milestones");
+    const owners = new Map<string, string>();
+    const clashes: string[] = [];
+    for (const milestone of milestones) {
+      for (const id of milestone.eventIds) {
+        if (owners.has(id)) clashes.push(`${id}: ${owners.get(id)} & ${milestone.id}`);
+        owners.set(id, milestone.id);
+      }
+    }
+    expect(clashes).toEqual([]);
+  });
+});
+
+describe("country content of world-1.2 and world-1.3", () => {
   let verified = new Map<string, { countries: string[] }>();
   beforeAll(() => {
     const world = loadWholeWorld();

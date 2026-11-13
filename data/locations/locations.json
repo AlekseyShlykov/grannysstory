@@ -4720,6 +4720,283 @@
       "abolished": []
     },
     {
+      "id": "hr",
+      "type": "state",
+      "level": "national",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q224",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Хорватия",
+          "locative": "в Хорватии",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1991-10-08",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "hr-banovina-croatia",
+      "type": "region",
+      "level": "regional",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q601252",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Бановина Хорватия",
+          "locative": "в Бановине Хорватия",
+          "from": "1939-08-26",
+          "to": "1941-04-09"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1939-08-26",
+          "to": "1941-04-09"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1939-08-26",
+      "validTo": "1941-04-09",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "hr-croatia-slavonia",
+      "type": "constituent_country",
+      "level": "constituent",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q533558",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Хорватия и Славония",
+          "locative": "в Королевстве Хорватия и Славония",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "name": "Хорватия и Славония",
+          "locative": "в Хорватии и Славонии",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "id": "state-shs",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1918-11-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "hr-ndh",
+      "type": "transitional_administration",
+      "level": "national",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q153128",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Независимое государство Хорватия",
+          "locative": "в Независимом государстве Хорватия",
+          "from": "1941-04-10",
+          "to": "1945-05-08"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1941-04-10",
+          "to": "1945-05-08"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1941-04-10",
+      "validTo": "1945-05-08",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "hr-republic",
+      "type": "republic",
+      "level": "constituent",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q209062",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Народная Республика Хорватия",
+          "locative": "в Народной Республике Хорватии",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Республика Хорватия",
+          "locative": "в Социалистической Республике Хорватии",
+          "from": "1963-04-07",
+          "to": "1990-07-24"
+        },
+        {
+          "name": "Республика Хорватия",
+          "locative": "в Республике Хорватии",
+          "from": "1990-07-25",
+          "to": "1991-10-07"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1991-10-07"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-01-31",
+      "validTo": "1991-10-07",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "hr-sava-banovina",
+      "type": "region",
+      "level": "regional",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q1464080",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Савская бановина",
+          "locative": "в Савской бановине",
+          "from": "1929-10-03",
+          "to": "1939-08-25"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1939-08-25"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-10-03",
+      "validTo": "1939-08-25",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "hr-zagreb",
+      "type": "city",
+      "level": "municipal",
+      "country": "HR",
+      "settlementClass": "capital",
+      "wikidata": "Q1435",
+      "coordinates": {
+        "lat": 45.813056,
+        "lon": 15.977222
+      },
+      "names": [
+        {
+          "name": "Загреб",
+          "locative": "в Загребе",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "hr-croatia-slavonia",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "hr-sava-banovina",
+          "from": "1929-10-03",
+          "to": "1939-08-25"
+        },
+        {
+          "id": "hr-banovina-croatia",
+          "from": "1939-08-26",
+          "to": "1941-04-09"
+        },
+        {
+          "id": "hr-ndh",
+          "from": "1941-04-10",
+          "to": "1945-05-08"
+        },
+        {
+          "id": "state-yu",
+          "from": "1945-05-09",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "hr-republic",
+          "from": "1946-01-31",
+          "to": "1991-10-07"
+        },
+        {
+          "id": "hr",
+          "from": "1991-10-08",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия (части вермахта; режим НГХ, установленный странами Оси)",
+          "from": "1941-04-10",
+          "to": "1945-05-08"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "it",
       "type": "state",
       "level": "national",
@@ -8105,6 +8382,36 @@
       ],
       "occupations": [],
       "validFrom": "1882",
+      "validTo": "1918-11-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "state-shs",
+      "type": "state",
+      "level": "national",
+      "country": "HR",
+      "settlementClass": null,
+      "wikidata": "Q718374",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Государство словенцев, хорватов и сербов",
+          "locative": "в Государстве словенцев, хорватов и сербов",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1918-10-29",
       "validTo": "1918-11-30",
       "legacyIds": [],
       "partitions": [],
