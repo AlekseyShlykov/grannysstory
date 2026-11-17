@@ -1,97 +1,108 @@
 {
-  "at": "2026-11-17T20:25:19.613445+00:00",
-  "scope": "Only Spain is added; no other expansion country or Bosnia records published",
-  "manifest_sha256": "e18c3dbfba118d540cf06c2863bf1f1e569bdb542dffa1ad26ce443d5d68d43b",
-  "sqlite_sha256": "8539ffbab3f676b565f5bc533bb96e79440c34731028cbee54d5ae3f0f295c67",
+  "at": "2026-11-17T21:46:59.685760+00:00",
+  "scope": "Exact isolated release: all previously published countries plus Japan; BA/BR/ZA/CD/EG drafts excluded.",
+  "manifest_sha256": "b30173e0e46eaaa5f1e55087d0c8922eec900fb0f0800db2aca9ac7f8f47909e",
+  "sqlite_sha256": "f398dbf757260ed7b00d43c6c61d5e527d5c68dcd290326ba06568dd22ddb86a",
   "commands": [
     {
       "command": "npm run data:world",
       "result": "passed",
       "authoring": {
-        "locations": 286,
-        "sources": 524,
-        "events": 2723,
-        "contexts": 594,
+        "locations": 296,
+        "sources": 606,
+        "events": 2803,
+        "contexts": 633,
         "errors": 0,
         "warnings": 0
       },
       "exported": {
-        "contexts": 592,
-        "events": 2716,
-        "locations": 286,
-        "sources": 444
+        "contexts": 631,
+        "events": 2795,
+        "locations": 296,
+        "sources": 520
       },
-      "log": "/tmp/granny-spain-only-pipeline.log"
+      "log": "/tmp/granny-japan-release-pipeline.log"
     },
     {
       "command": "npm test -- --reporter=dot --maxWorkers=1",
       "result": "passed",
-      "tests": 323,
-      "files": 23,
-      "skipped": 3,
-      "skip_reason": "Only future BR/JP/CD geography tests; those countries are not in this release. Every existing supported country and all ES tests pass.",
-      "log": "/tmp/granny-spain-only-tests.log"
+      "tests": 351,
+      "files": 24,
+      "skipped": 2,
+      "skip_reason": "Only future BR/CD geography checks, datasets not in this release. Japan and every previously supported country tested.",
+      "log": "/tmp/granny-japan-release-tests.log"
     },
     {
       "command": "npm run test:research",
       "result": "passed",
-      "tests": 25,
-      "log": "/tmp/granny-spain-only-research-tests.log"
+      "tests": 30,
+      "log": "/tmp/granny-japan-release-research-tests.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "result": "passed"
     },
     {
       "command": "npm run build:pages",
       "result": "passed",
       "includes": [
-        "historical-data validation",
+        "legacy-data validation",
         "world validation",
         "TypeScript",
         "Vite Pages build"
       ],
-      "warning": "Existing eager content bundle remains >500kB.",
-      "log": "/tmp/granny-spain-only-build.log"
+      "warning": "Existing main JS bundle remains above500kB.",
+      "log": "/tmp/granny-japan-release-build.log"
     },
     {
-      "command": "nine Spain batch replays with authored SHA-256 comparison in original workspace",
+      "command": "Four Japan research batch replays with authored SHA-256 comparison",
       "result": "passed",
-      "changed_authored_files": 0
+      "changed_authored_files": 0,
+      "proof": "japan_batch_checks.json"
     },
     {
-      "command": "competing pipeline under flock in original workspace",
+      "command": "Scope/preservation comparison against published parent",
       "result": "passed",
-      "sqlite_unchanged": true
+      "existing_authored_files_unchanged": 253,
+      "existing_world_packs_unchanged": 201,
+      "proof": "JAPAN_RELEASE_SCOPE.json"
     },
     {
-      "command": "SQLite PRAGMA integrity_check in release",
+      "command": "Original Japan record comparison against prior-session snapshot",
+      "result": "passed",
+      "original_events_unchanged": 20,
+      "original_contexts_unchanged": 14,
+      "proof": "japan_preservation.json"
+    },
+    {
+      "command": "SQLite PRAGMA integrity_check",
       "result": "passed",
       "output": "ok"
-    },
-    {
-      "command": "scope/preservation comparison with parent",
-      "result": "passed",
-      "proof": "research_progress/RELEASE_SCOPE_CHECK.json"
     }
   ],
   "comparative_biographies": {
-    "ES": "8 full city/outcome comparisons, plus 48 complete paths for boundary/war-adjacent birth cohorts; 41 birth cohorts generated per city; onward migration works using only app-prepared offline packs",
-    "others": "not included, not claimed ready"
+    "generated_cohorts": 164,
+    "complete_boundary_paths": 56,
+    "complete_city_outcome_comparisons": 8,
+    "spoken_share_lives": 48,
+    "spoken_share": {
+      "national": 541,
+      "local": 54,
+      "localPercent": 9.07563025210084
+    },
+    "offline": "Only prepared Japanese city/ancestor packs, onward migration completed"
   },
   "manual_browser_play": false,
-  "human_sensitive_editorial_review": "Open under existing provisional D-019; no human approval claimed",
+  "human_sensitive_editorial_review": "OPEN under existing provisional D-019",
   "supervisor": {
     "started": false,
-    "fake_cli_tests": "passed",
-    "real_cli_configuration_error": "model_not_found",
-    "stop_after_country": "ES"
+    "real_cli_error": "model_not_found",
+    "stop_after_country": "JP"
   },
-  "remaining_spain": [
-    "Optional local Madrid 1960–1979 event gap",
-    "Human literary review under D-019",
-    "Manual browser play; automated UI and engine paths passed"
+  "remaining_japan": [
+    "Optional local period gaps in japan_quality.json",
+    "Human literary review D-019",
+    "Manual browser play"
   ],
-  "publication": {
-    "commit": "f323c786c671445a354ef37c96038b283d02d365",
-    "pages_run": 44169261454,
-    "status": "success",
-    "live_manifest_and_five_packs_sha256": "matched"
-  }
+  "publication": "pending, tracked separately in japan_publication.json"
 }

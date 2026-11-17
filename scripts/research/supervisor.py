@@ -20,7 +20,7 @@ import time
 from checkpoint import ROOT, PROGRESS, atomic_write
 
 PROMPT = "Continue the Granny's Story historical archive expansion. Read AGENTS.md, PROJECT.md, DIALOGUE_BIBLE.md, and all files in research_progress/. Inspect the repository and continue from the last verified checkpoint. Do not repeat completed tasks. Preserve all existing verified data. Continue until the remaining assigned research and implementation tasks are complete."
-PROMPT += " The owner's latest instruction is to finish Spain and stop with a remaining-work report. Obey tasks.json execution_policy.stop_after_country; do not start another country after Spain without a new owner instruction."
+PROMPT += " Obey the latest owner instruction and tasks.json execution_policy.active_country and stop_after_country. Complete only the assigned country, then stop with a remaining-work report; do not begin another country without a new owner instruction."
 UUID = re.compile(r'^[0-9a-fA-F]{8}(?:-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}$')
 QUOTA_CODES = {'usage_limit_reached', 'usage_limit_exceeded', 'quota_exceeded'}
 STOP_CODES = {'unauthorized', 'authentication_error', 'permission_denied', 'invalid_configuration', 'invalid_api_key'}

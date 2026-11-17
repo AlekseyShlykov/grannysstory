@@ -49,7 +49,7 @@ function latestPlausibleBranchYear(type: BranchDefinition["type"], birthYear: nu
   return Number.POSITIVE_INFINITY;
 }
 
-// An authored choice needs two usable outcomes. The ES travel model has no reviewed front-line routes;
+// An authored choice needs two usable outcomes. The travel model has unreviewed historical windows;
 // place new turning points outside that window, keeping the education-age bound and all disclosed saves.
 function reviewedChoiceYear(country: string, year: number, latest = Number.POSITIVE_INFINITY): number {
   const window = unreviewedMigrationWindows.find((item) => item.country === country && year >= item.fromYear && year <= item.toYear);
@@ -468,9 +468,9 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
     ?? state.biography.residenceHistory.at(-1);
   const currentPlaceId = currentResidence?.placeId ?? birthPlaceId;
   const wantsMove = outcomeId === "pathA" ? definition.movesOnA : definition.movesOnB;
-  // Earlier ES choices may already have taken her to the initially planned destination. Only this still
+  // Earlier reviewed domestic choices may already have taken her to the planned destination. Only this still
   // unresolved route is recalculated; past residences and disclosed branches remain immutable.
-  if (wantsMove && getLocation(worldData(), birthPlaceId)?.country === "ES"
+  if (wantsMove && ["ES", "JP"].includes(getLocation(worldData(), birthPlaceId)?.country ?? "")
       && (!destination || !checkMove(worldData(), currentPlaceId, destination, active.year).ok)) {
     destination = pickDestination(worldData(), currentPlaceId, active.year,
       seededRandom(`${state.selection.runSeed}:move:${active.id}`));

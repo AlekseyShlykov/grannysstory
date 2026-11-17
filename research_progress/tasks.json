@@ -286,8 +286,8 @@
       "country": "ES",
       "stage": "export",
       "state": "completed",
-      "note": "Испания опубликована:main f323c78,Pages44169261454 success;87 событий/60 контекстов,323 игровых+25 Python;полный отчёт docs/SPAIN_RELEASE.md. Редакторский D-019 остаётся OPEN.",
-      "updated_at": "2026-11-17T20:30:39.023519+00:00"
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T21:37:37.646068+00:00"
     },
     {
       "id": "es.tests",
@@ -310,227 +310,255 @@
       "country": "JP",
       "city": "jp-tokyo",
       "stage": "geography",
-      "state": "in_progress",
-      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
-      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.tokyo.sources",
       "country": "JP",
       "city": "jp-tokyo",
       "stage": "sources",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.tokyo.events",
       "country": "JP",
       "city": "jp-tokyo",
       "stage": "events",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.tokyo.everyday",
       "country": "JP",
       "city": "jp-tokyo",
       "stage": "everyday",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.tokyo.validation",
       "country": "JP",
       "city": "jp-tokyo",
       "stage": "validation",
-      "state": "in_progress",
-      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.tokyo.gameplay",
       "country": "JP",
       "city": "jp-tokyo",
       "stage": "gameplay",
-      "state": "pending"
+      "state": "completed",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска."
     },
     {
       "id": "jp.kyoto.geography",
       "country": "JP",
       "city": "jp-kyoto",
       "stage": "geography",
-      "state": "in_progress",
-      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
-      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.kyoto.sources",
       "country": "JP",
       "city": "jp-kyoto",
       "stage": "sources",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.kyoto.events",
       "country": "JP",
       "city": "jp-kyoto",
       "stage": "events",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.kyoto.everyday",
       "country": "JP",
       "city": "jp-kyoto",
       "stage": "everyday",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.kyoto.validation",
       "country": "JP",
       "city": "jp-kyoto",
       "stage": "validation",
-      "state": "in_progress",
-      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.kyoto.gameplay",
       "country": "JP",
       "city": "jp-kyoto",
       "stage": "gameplay",
-      "state": "pending"
+      "state": "completed",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска."
     },
     {
       "id": "jp.osaka.geography",
       "country": "JP",
       "city": "jp-osaka",
       "stage": "geography",
-      "state": "in_progress",
-      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
-      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.osaka.sources",
       "country": "JP",
       "city": "jp-osaka",
       "stage": "sources",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.osaka.events",
       "country": "JP",
       "city": "jp-osaka",
       "stage": "events",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.osaka.everyday",
       "country": "JP",
       "city": "jp-osaka",
       "stage": "everyday",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.osaka.validation",
       "country": "JP",
       "city": "jp-osaka",
       "stage": "validation",
-      "state": "in_progress",
-      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.osaka.gameplay",
       "country": "JP",
       "city": "jp-osaka",
       "stage": "gameplay",
-      "state": "pending"
+      "state": "completed",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска."
     },
     {
       "id": "jp.hiroshima.geography",
       "country": "JP",
       "city": "jp-hiroshima",
       "stage": "geography",
-      "state": "in_progress",
-      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
-      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.hiroshima.sources",
       "country": "JP",
       "city": "jp-hiroshima",
       "stage": "sources",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.hiroshima.events",
       "country": "JP",
       "city": "jp-hiroshima",
       "stage": "events",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.hiroshima.everyday",
       "country": "JP",
       "city": "jp-hiroshima",
       "stage": "everyday",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.hiroshima.validation",
       "country": "JP",
       "city": "jp-hiroshima",
       "stage": "validation",
-      "state": "in_progress",
-      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.hiroshima.gameplay",
       "country": "JP",
       "city": "jp-hiroshima",
       "stage": "gameplay",
-      "state": "pending"
+      "state": "completed",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска."
     },
     {
       "id": "jp.national",
       "country": "JP",
       "stage": "national",
-      "state": "in_progress",
-      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.narrative",
       "country": "JP",
       "stage": "narrative",
-      "state": "pending"
+      "state": "completed",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска."
     },
     {
       "id": "jp.export",
       "country": "JP",
       "stage": "export",
       "state": "completed",
-      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
-      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.tests",
       "country": "JP",
       "stage": "tests",
-      "state": "in_progress",
-      "note": "Базовая изоляция истории/контекстов, координаты и офлайн-загрузка проверены для всех 18 городов. Полные биографии и литературные сравнения ожидают завершения данных.",
-      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+      "state": "completed",
+      "note": "Проверенный пакет Японии: источники, тексты, SQLite/JSON, сравнительные пути и тесты узкого выпуска.",
+      "updated_at": "2026-11-17T21:46:59.685760+00:00"
     },
     {
       "id": "jp.publish",
       "country": "JP",
       "stage": "publish",
-      "state": "pending"
+      "state": "in_progress",
+      "updated_at": "2026-11-17T20:40:18.182217+00:00"
     },
     {
       "id": "br.sao-paulo.geography",
@@ -695,7 +723,7 @@
       "stage": "export",
       "state": "completed",
       "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
-      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+      "updated_at": "2026-11-17T21:28:52.745168+00:00"
     },
     {
       "id": "br.tests",
@@ -826,7 +854,7 @@
       "stage": "export",
       "state": "completed",
       "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
-      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+      "updated_at": "2026-11-17T21:28:52.745168+00:00"
     },
     {
       "id": "za.tests",
@@ -957,7 +985,7 @@
       "stage": "export",
       "state": "completed",
       "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
-      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+      "updated_at": "2026-11-17T21:28:52.745168+00:00"
     },
     {
       "id": "cd.tests",
@@ -1136,7 +1164,7 @@
       "stage": "export",
       "state": "completed",
       "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
-      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+      "updated_at": "2026-11-17T21:28:52.745168+00:00"
     },
     {
       "id": "eg.tests",
@@ -1191,16 +1219,15 @@
   "city_count": 18,
   "execution_policy": {
     "mode": "one_country_at_a_time",
-    "active_country": "ES",
-    "instruction": "Сначала завершить Испанию: данные, тексты, интеграция, проверки и публикация; остальные исследовательские workstreams сохранены до следующей очереди.",
+    "active_country": "JP",
+    "instruction": "Новое указание владельца:завершить исследование,тексты,интеграцию и публикацию только Японии. Приоритет национальной истории,архивная доля55%;остальные вторичные источники допустимы.",
     "confirmed_on": "2026-11-17",
     "archive_minimum_percent": 55,
     "secondary_wikipedia_allowed": true,
     "local_quantity": "reduced, genuine local differentiation required",
     "priority": "major national milestones; spoken context 90% national, 10% local",
-    "stop_after_country": "ES",
+    "stop_after_country": "JP",
     "next_country_requires_new_user_instruction": true,
-    "stop_reached": true,
-    "stopped_at": "2026-11-17T20:30:39.023519+00:00"
+    "stop_reached": false
   }
 }

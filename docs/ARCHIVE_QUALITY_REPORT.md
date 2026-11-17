@@ -10,9 +10,10 @@
 |---|---:|---:|---:|---:|---:|
 | ES | 87 | 66 | 76% | 21 | 11 |
 | HR | 65 | 61 | 94% | 4 | 0 |
+| JP | 79 | 47 | 59% | 32 | 7 |
 | RS | 94 | 85 | 90% | 9 | 0 |
 | SI | 72 | 71 | 99% | 1 | 0 |
-| **всего** | 318 | 283 | 89% | 35 | 11 |
+| **всего** | 397 | 330 | 83% | 67 | 18 |
 
 ## Города
 
@@ -23,6 +24,10 @@
 | `es-malaga` Малага | supported | 10 | 8 | 80% | 33 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `es-oviedo` Овьедо | supported | 11 | 11 | 100% | 36 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `hr-zagreb` Загреб | supported | 44 | 42 | 96% | 11 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
+| `jp-hiroshima` Хиросима | supported | 8 | 5 | 62% | 20 | 1900–1919, 1940–1959, 1960–1979, 1980–1999 | — |
+| `jp-kyoto` Киото | supported | 9 | 6 | 67% | 23 | 1900–1919, 1940–1959, 1960–1979, 1980–1999, 2010–2020 | — |
+| `jp-osaka` Осака | supported | 8 | 7 | 88% | 23 | 1900–1919, 1920–1939, 1940–1959, 1960–1979 | — |
+| `jp-tokyo` Токио | supported | 9 | 5 | 56% | 21 | 1920–1939, 1940–1959, 1960–1979, 2010–2020 | — |
 | `rs-beograd` Белград | supported | 27 | 26 | 96% | 2 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `rs-novi-sad` Нови-Сад | supported | 15 | 13 | 87% | 2 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `rs-subotica` Суботица | supported | 15 | 15 | 100% | 2 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2010–2020 | — |
@@ -38,6 +43,12 @@
 - HR `hr_daz` — Сайт вернул HTTP 403 на WebFetch 13.11.2026; виртуальная выставка «Zagreb Mihajla Kranjca» известна только по ссылке в статье. Не обходилось
 - HU `rs_arcanum` — Платный доступ к венгерской прессе (Bácsmegyei Napló, Délmagyarország и др.); по условию задания не использовался.
 - HU `rs_hungaricana` — 13.11.2026: 403 Forbidden на поиске; не обходилось.
+- JP `jp_jacar_tokyo_1943` — HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано.
+- JP `jp_kantei_2020_emergency_missing` — 404; indexed search snippet not treated as read document
+- JP `jp_kyoto_yearbook_maintenance` — maintenance; 1930 table not downloaded
+- JP `jp_peace_treaty_pdf_blocked` — web no readable text; direct request 403; used modern NDL explanation as secondary
+- JP `jp_school_original_scan_blocked` — 403; separately read original legal transcription at Nagoya University
+- JP `jp_soumu_2020_cash_unavailable` — unavailable; separately read contemporary Tokyo Institute of Technology administrative notice
 - RS `rs_subotica_city` — 13.11.2026: сертификат сайта просрочен, WebFetch отказался открывать страницу; не обходилось.
 - SI `si_arsq` — 13.11.2026: соединение сброшено (ECONNRESET); не обходилось.
 - SI `si_sta` — 13.11.2026: HTTP 403 на страницу о процессе JBTZ; не обходилось.

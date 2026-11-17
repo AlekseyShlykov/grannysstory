@@ -1,0 +1,108 @@
+{
+  "at": "2026-11-17T21:46:59.685760+00:00",
+  "scope": "Exact isolated release: all previously published countries plus Japan; BA/BR/ZA/CD/EG drafts excluded.",
+  "manifest_sha256": "b30173e0e46eaaa5f1e55087d0c8922eec900fb0f0800db2aca9ac7f8f47909e",
+  "sqlite_sha256": "f398dbf757260ed7b00d43c6c61d5e527d5c68dcd290326ba06568dd22ddb86a",
+  "commands": [
+    {
+      "command": "npm run data:world",
+      "result": "passed",
+      "authoring": {
+        "locations": 296,
+        "sources": 606,
+        "events": 2803,
+        "contexts": 633,
+        "errors": 0,
+        "warnings": 0
+      },
+      "exported": {
+        "contexts": 631,
+        "events": 2795,
+        "locations": 296,
+        "sources": 520
+      },
+      "log": "/tmp/granny-japan-release-pipeline.log"
+    },
+    {
+      "command": "npm test -- --reporter=dot --maxWorkers=1",
+      "result": "passed",
+      "tests": 351,
+      "files": 24,
+      "skipped": 2,
+      "skip_reason": "Only future BR/CD geography checks, datasets not in this release. Japan and every previously supported country tested.",
+      "log": "/tmp/granny-japan-release-tests.log"
+    },
+    {
+      "command": "npm run test:research",
+      "result": "passed",
+      "tests": 30,
+      "log": "/tmp/granny-japan-release-research-tests.log"
+    },
+    {
+      "command": "npm run typecheck",
+      "result": "passed"
+    },
+    {
+      "command": "npm run build:pages",
+      "result": "passed",
+      "includes": [
+        "legacy-data validation",
+        "world validation",
+        "TypeScript",
+        "Vite Pages build"
+      ],
+      "warning": "Existing main JS bundle remains above500kB.",
+      "log": "/tmp/granny-japan-release-build.log"
+    },
+    {
+      "command": "Four Japan research batch replays with authored SHA-256 comparison",
+      "result": "passed",
+      "changed_authored_files": 0,
+      "proof": "japan_batch_checks.json"
+    },
+    {
+      "command": "Scope/preservation comparison against published parent",
+      "result": "passed",
+      "existing_authored_files_unchanged": 253,
+      "existing_world_packs_unchanged": 201,
+      "proof": "JAPAN_RELEASE_SCOPE.json"
+    },
+    {
+      "command": "Original Japan record comparison against prior-session snapshot",
+      "result": "passed",
+      "original_events_unchanged": 20,
+      "original_contexts_unchanged": 14,
+      "proof": "japan_preservation.json"
+    },
+    {
+      "command": "SQLite PRAGMA integrity_check",
+      "result": "passed",
+      "output": "ok"
+    }
+  ],
+  "comparative_biographies": {
+    "generated_cohorts": 164,
+    "complete_boundary_paths": 56,
+    "complete_city_outcome_comparisons": 8,
+    "spoken_share_lives": 48,
+    "spoken_share": {
+      "national": 541,
+      "local": 54,
+      "localPercent": 9.07563025210084
+    },
+    "offline": "Only prepared Japanese city/ancestor packs, onward migration completed"
+  },
+  "manual_browser_play": false,
+  "human_sensitive_editorial_review": "OPEN under existing provisional D-019",
+  "supervisor": {
+    "started": false,
+    "real_cli_error": "model_not_found",
+    "stop_after_country": "JP"
+  },
+  "remaining_japan": [
+    "Optional local period gaps in japan_quality.json",
+    "Human literary review D-019",
+    "Manual browser play"
+  ],
+  "publication": "pending, tracked separately in japan_publication.json"
+}

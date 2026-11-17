@@ -24,6 +24,12 @@ export const birthStatements: readonly BirthStatement[] = [
   (year, where) => `Мама говорила, что я родилась ${where} в ${year} году, в тот самый год, когда у нас наконец перестала течь крыша. Так у неё и считалось: крыша и я.`
 ];
 
+// Japanese residents did not all have a passport, a church birth record, or a blizzard at their birth.
+// Reuse the neutral fictional forms; published countries keep their established seeded palette.
+export function birthStatementsForCountry(country: string | null): readonly BirthStatement[] {
+  return country === "JP" ? birthStatements.filter((_, index) => ![0, 2, 4].includes(index)) : birthStatements;
+}
+
 // What she says next, before her own earliest memory. An empty string means she goes straight to it.
 export const birthAfterwords: readonly string[] = [
   "А что было совсем маленькой, почти не помню, так, обрывки.",

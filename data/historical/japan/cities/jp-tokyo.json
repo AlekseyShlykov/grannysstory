@@ -1,0 +1,566 @@
+{
+  "records": [
+    {
+      "id": "jp-tokyo-1923-kanto-earthquake",
+      "title": "Землетрясение Канто и восстановление Токио",
+      "title_en": "The Kantō earthquake and Tokyo reconstruction",
+      "title_original": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+      "start_date": "1923-09",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "Землетрясение и пожары разрушили значительную часть центра Токио. Позднейший план восстановления изменил городскую инфраструктуру.",
+      "historical_summary_en": "The earthquake and fires devastated much of central Tokyo. A subsequent reconstruction plan reshaped urban infrastructure.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "jp_tokyo_municipal_history",
+        "jp_ndl_nihonbashi_photo_1923"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_municipal_history",
+          "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "title": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+          "record_identifier": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "document_date": "undated",
+          "language": "en",
+          "evidence_type": "institutional_history",
+          "supports": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "historical overview and chronology",
+          "repository": "Tokyo Metropolitan Government"
+        },
+        {
+          "source_id": "jp_ndl_nihonbashi_photo_1923",
+          "url": "https://www.ndl.go.jp/modern/thumb/so_thumb/136.jpg",
+          "title": "Nihonbashi Street in Tokyo after the Great Kanto Earthquake",
+          "record_identifier": "NDL Modern Japan in Archives, illustration 136; Kanto Daishinsai Kinen",
+          "repository": "National Diet Library",
+          "document_date": "circa 1923",
+          "language": "ja",
+          "evidence_type": "photograph",
+          "supports": "Direct visual evidence of destruction on Nihonbashi Street following the earthquake; does not establish city-wide casualty counts or reconstruction policies.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Public NDL image downloaded over HTTPS and visually examined locally; caption read online. Low resolution limits the claim to visible street destruction.",
+          "locator": "illustration 136; caption in section 3-11",
+          "claim_coverage": "partial"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-1927-subway",
+      "title": "Подземная линия Асакуса — Уэно",
+      "title_en": "The Asakusa–Ueno subway",
+      "title_original": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+      "start_date": "1927",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Начала работу первая подземная линия между Асакусой и Уэно.",
+      "historical_summary_en": "The first subway line opened between Asakusa and Ueno.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_tokyo_municipal_history"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_municipal_history",
+          "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "title": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+          "record_identifier": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "document_date": "undated",
+          "language": "en",
+          "evidence_type": "institutional_history",
+          "supports": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "historical overview and chronology",
+          "repository": "Tokyo Metropolitan Government"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-1943-metropolis",
+      "title": "Объединение города и префектуры Токио",
+      "title_en": "Tokyo city and prefecture merge",
+      "title_original": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+      "start_date": "1943",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "Администрации Tokyo-shi и Tokyo-fu были объединены в Tokyo-to. Современный городской топоним не означает сохранение прежней муниципальной корпорации.",
+      "historical_summary_en": "Tokyo-shi and Tokyo-fu were merged into Tokyo-to. The continuing place name does not imply survival of the former municipal corporation.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_tokyo_municipal_history"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_municipal_history",
+          "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "title": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+          "record_identifier": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "document_date": "undated",
+          "language": "en",
+          "evidence_type": "institutional_history",
+          "supports": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "historical overview and chronology",
+          "repository": "Tokyo Metropolitan Government"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-1975-census",
+      "title": "Токио: город в переписи 1975 года",
+      "title_en": "Tokyo in the 1975 census",
+      "title_original": "昭和50年国勢調査 第14表 / Population of Cities with 100,000 Inhabitants or More as of the 1975 Census Date: 1920 to 1975",
+      "start_date": "1975",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В таблице переписи для этой городской территории указано 8 646 520 жителей. Это итог для территории в тогдашних границах, не характеристика отдельного дома.",
+      "historical_summary_en": "The census table reports 8,646,520 inhabitants for this urban area in its boundaries at that census, not a description of any particular household.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_census_1975_table14"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_census_1975_table14",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+          "title": "昭和50年国勢調査 第14表 / Population of Cities with 100,000 Inhabitants or More as of the 1975 Census Date: 1920 to 1975",
+          "record_identifier": "e-Stat statInfId 000007915398, table 14, printed page 37",
+          "document_date": "undated (1975 census report; original edition date not established)",
+          "language": "ja/en",
+          "evidence_type": "census",
+          "supports": "Tokyo: reported populations in 1920, 1930, 1940, 1950, 1960, 1970 and 1975, with the boundary qualification in the heading.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Public PDF downloaded over HTTPS and visually read locally; no access controls bypassed. Text layer is empty.",
+          "locator": "printed p. 37, row 1",
+          "repository": "Statistics Bureau of Japan / e-Stat"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-2012-gate-bridge-festival",
+      "title": "Спортивные дни на новом мосту",
+      "title_en": "Sports days on the new bridge",
+      "title_original": "開通間近の東京ゲートブリッジを走った！歩いた！",
+      "start_date": "2012-02-04",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "sport",
+      "subcategory": null,
+      "historical_summary": "Перед открытием Tokyo Gate Bridge на мосту прошли спортивные мероприятия 4–5 февраля. Это местный городской эпизод, а не доказательство участия героини.",
+      "historical_summary_en": "Sports events took place on Tokyo Gate Bridge on February 4–5 before its opening. This local episode does not imply the character attended.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_tokyo_photo_news_2012_02"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_photo_news_2012_02",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/02.html",
+          "title": "開通間近の東京ゲートブリッジを走った！歩いた！",
+          "record_identifier": "Tokyo Photo News February 2012, item 2, photo dated 4 February",
+          "repository": "Tokyo Metropolitan Government, public relations",
+          "document_date": "2012-02",
+          "language": "ja",
+          "evidence_type": "government_document",
+          "supports": "Government’s own report records bridge sports festival 4–5 February before the planned opening on February 12; no claim that an individual attended.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Public HTML downloaded over HTTPS and its full article text read locally after web-tool cache miss. No bypass of access controls.",
+          "locator": "item 2"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-2010-shinagawa-tunnel-work",
+      "title": "Строительство туннеля линии Синагава",
+      "title_en": "Shinagawa Line tunnel construction",
+      "title_original": "東京フォトニュース2010年10月",
+      "start_date": "2010-10-20",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Муниципальная хроника показала строительство туннеля в Ои для линии Синагава. Полное открытие кольца тогда ещё было будущим проектом, а не завершённым событием.",
+      "historical_summary_en": "The municipal chronicle documented tunnel construction in Ohi for the Shinagawa Line. Completion of the ring was still a future project.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_tokyo_photo_2010_10"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_photo_2010_10",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2010/10.html",
+          "title": "東京フォトニュース2010年10月",
+          "record_identifier": "Tokyo Photo News20101004",
+          "repository": "Tokyo Metropolitan Government, Tokyo Album",
+          "document_date": "2010-10",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "Текст и датированная подпись20.10: строительство туннеляOhi, будущаяShinagawaLine, не уже открытая дорога.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Текст и датированная подпись20.10: строительство туннеляOhi, будущаяShinagawaLine, не уже открытая дорога."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-2011-commuter-disruption",
+      "title": "Нарушение транспорта в Токио после землетрясения",
+      "title_en": "Tokyo transport disruption after the earthquake",
+      "title_original": "東京フォトニュース2011年3月",
+      "start_date": "2011-03-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "После землетрясения на северо-востоке страны сбои столичного транспорта оставили многих людей без обычного пути домой. Это местное последствие, не утверждение о цунами в каждом токийском квартале.",
+      "historical_summary_en": "After the northeastern earthquake, metropolitan transport disruption left many people without their usual route home. This is a local consequence, not a tsunami in every Tokyo neighbourhood.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "jp_tokyo_photo_2011_03"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_photo_2011_03",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2011/03.html",
+          "title": "東京フォトニュース2011年3月",
+          "record_identifier": "Tokyo Photo News20110301–04",
+          "repository": "Tokyo Metropolitan Government, Tokyo Album",
+          "document_date": "2011-03",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "Датированные репортажи: нарушение транспорта11марта; затем18–23марта сбор помощи в здании правительства.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Датированные репортажи: нарушение транспорта11марта; затем18–23марта сбор помощи в здании правительства."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-2012-river-light-festival",
+      "title": "Праздник огней на Сумида",
+      "title_en": "Light festival on the Sumida",
+      "title_original": "東京フォトニュース2012年5月",
+      "start_date": "2012-05-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "На участке набережной Сумида провели Tokyo Hotaru с плавающими светодиодными огнями. Это местный городской праздник и изменение досуга у реки, не обычай всех японских семей.",
+      "historical_summary_en": "Tokyo Hotaru placed floating LED lights along a section of the Sumida waterfront, documenting a local leisure event rather than a custom of all Japanese families.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_tokyo_photo_2012_05"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_photo_2012_05",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/05.html",
+          "title": "東京フォトニュース2012年5月",
+          "record_identifier": "Tokyo Photo News20120501–02",
+          "repository": "Tokyo Metropolitan Government, Tokyo Album",
+          "document_date": "2012-05",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "6мая праздникнаSumida;21мая подпись указывает открытиеSkytreeнаследующийдень22мая.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "6мая праздникнаSumida;21мая подпись указывает открытиеSkytreeнаследующийдень22мая."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-tokyo-2012-skytree",
+      "title": "Открытие Tokyo Skytree",
+      "title_en": "Tokyo Skytree opens",
+      "title_original": "東京フォトニュース2012年5月",
+      "start_date": "2012-05-22",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "technology",
+      "subcategory": null,
+      "historical_summary": "Открылась башня Tokyo Skytree. Фотохроника непосредственно перед открытием фиксировала новый городской ориентир рядом с рекой Сумида.",
+      "historical_summary_en": "Tokyo Skytree opened. The municipal chronicle immediately preceding the opening documented the new landmark beside the Sumida.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_tokyo_photo_2012_05"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_tokyo_photo_2012_05",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/05.html",
+          "title": "東京フォトニュース2012年5月",
+          "record_identifier": "Tokyo Photo News20120501–02",
+          "repository": "Tokyo Metropolitan Government, Tokyo Album",
+          "document_date": "2012-05",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "6мая праздникнаSumida;21мая подпись указывает открытиеSkytreeнаследующийдень22мая.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "6мая праздникнаSumida;21мая подпись указывает открытиеSkytreeнаследующийдень22мая.",
+          "claim_coverage": "partial"
+        }
+      ],
+      "verification_status": "needs_review",
+      "confidence": "medium",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1",
+      "research_note": "Предварительное объявление21мая не подтверждает фактическое открытие22мая. Требуется отдельный документ об исполнении; в игру не экспортировать."
+    },
+    {
+      "id": "jp-tokyo-1945-air-raid",
+      "title": "Зажигательная бомбардировка Токио",
+      "title_en": "Tokyo firebombing",
+      "title_original": "Bombing of Tokyo,10March1945",
+      "start_date": "1945-03-10",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-tokyo"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "В ночь 9–10 марта американская авиация провела разрушительную зажигательную бомбардировку восточных районов Токио. Наличие города в биографии не определяет адрес, личное присутствие или потери семьи.",
+      "historical_summary_en": "On the night of March 9–10 US aircraft carried out a devastating incendiary raid on eastern Tokyo. A biography’s city does not establish an address, personal presence or family losses.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "jp_wiki_tokyo_air_raid"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_wiki_tokyo_air_raid",
+          "url": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945)",
+          "title": "Bombing of Tokyo,10March1945",
+          "record_identifier": "Bombing of Tokyo,opening/history",
+          "repository": "Wikipedia, Wikimedia Foundation",
+          "document_date": "undated current revision; accessed2026-11-17",
+          "language": "en",
+          "evidence_type": "historical_study",
+          "supports": "Прочитано:ночь9/10.03.1945,зажигательнаябомбардировкаUSAAF,разрушениявосточныхрайонов. Безточногоспорногочислажертв.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Прочитано:ночь9/10.03.1945,зажигательнаябомбардировкаUSAAF,разрушениявосточныхрайонов. Безточногоспорногочислажертв."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

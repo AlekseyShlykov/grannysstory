@@ -1,4 +1,4 @@
-import { birthAfterwords, birthStatements } from "../../content/scenes/birthVoice";
+import { birthAfterwords, birthStatementsForCountry } from "../../content/scenes/birthVoice";
 import { dividedCitySides } from "../../content/scenes/dividedCity";
 import { secondMemoryLeads, withoutRepeatedStockLines } from "./stockLines";
 import { placeAtYear } from "./world/partition";
@@ -28,7 +28,7 @@ import { milestoneById, occupiedAfter } from "./history/milestones";
 import { atlasMemoriesForBand, atlasMemorySpeech } from "./memory/atlas";
 import type { AtlasMemory } from "./memory/atlas";
 import { isReflectionPoint, tellReflection } from "./regrets";
-import { resolveLocationId } from "./world/geography";
+import { getLocation, resolveLocationId } from "./world/geography";
 import { seededRandom } from "./random";
 import { currentOccupation, nextWorkStage, workFactId, workLifeEvent, workLine } from "./work";
 import type { WorkStage } from "./work";
@@ -191,9 +191,10 @@ function birthAnswer(state: GameSessionState, angle: ReflectionAngle): string {
   const placeId = state.biography.residenceHistory[0]?.placeId ?? "tver";
   const where = placeLocativeAt(placeId, year) ?? placeLocative(placeNameAt(placeId, year));
   const random = seededRandom(`${state.selection.runSeed}:birth-voice`);
-  const base = random.int(0, birthStatements.length - 1);
+  const statements = birthStatementsForCountry(getLocation(worldData(), placeId)?.country ?? null);
+  const base = random.int(0, statements.length - 1);
   const offset = Math.max(birthAngles.indexOf(angle), 0) * 5;
-  const statement = birthStatements[(base + offset) % birthStatements.length]!(year, where);
+  const statement = statements[(base + offset) % statements.length]!(year, where);
   const afterword = birthAfterwords[random.int(0, birthAfterwords.length - 1)]!;
   return [statement, afterword].filter(Boolean).join(" ");
 }

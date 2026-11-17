@@ -1,6 +1,7 @@
 import atlasJson from "../../../babushka_memory_atlas_5year.json";
 import { FAINT_MEMORY_NOTE } from "../stockLines";
 import { atlasPatterns } from "../../../content/memory/atlasPatterns";
+import { countryMemoryScenes } from "../../../content/memory/countryScenes";
 import type { AtlasPatternAnnotation, MemoryRequirement, MemoryVariant } from "../../../content/memory/schema";
 import { branchCatalog } from "../../../content/scenes/branchCatalog";
 import { placeLocative } from "../../../content/scenes/regions";
@@ -220,10 +221,13 @@ function realise(state: GameSessionState, record: AtlasRecord, annotation: Atlas
   const impact = Math.min(3, annotation.impact + (relatedChoices.length ? 1 : 0));
   const vividness = band.ageFrom < 5 ? 0 : Math.max(1, Math.min(3, significance + random.int(-1, 1)));
   const now = fill(variant.now, state, band);
+  const birthPlace = state.biography.residenceHistory[0]?.placeId;
+  const country = birthPlace ? getLocation(worldData(), birthPlace)?.country : null;
+  const scene = countryMemoryScenes[country ?? ""]?.[`${annotation.key}:${annotation.variants.indexOf(variant)}`] ?? variant.scene;
   return {
     record,
     annotation,
-    scene: fill(variant.scene, state, band),
+    scene: fill(scene, state, band),
     feeling: fill(variant.feeling, state, band),
     now,
     themes: annotation.themes,

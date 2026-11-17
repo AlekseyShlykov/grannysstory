@@ -1,0 +1,436 @@
+{
+  "records": [
+    {
+      "id": "jp-hiroshima-1949-peace-city-law",
+      "title": "Закон о восстановлении Хиросимы как города мира",
+      "title_en": "Hiroshima peace-city reconstruction law",
+      "title_original": "The Hiroshima Peace Memorial City Construction Law and Commentary",
+      "start_date": "1949-08-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Принят специальный закон о строительстве Хиросимы как мемориального города мира. Он предусматривал помощь центральной власти и передачу государственных земель.",
+      "historical_summary_en": "A special law provided for Hiroshima’s reconstruction as a peace memorial city, including national assistance and transfer of state land.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_peace_law"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_peace_law",
+          "url": "https://www.city.hiroshima.lg.jp/uploaded/attachment/23440.pdf",
+          "title": "The Hiroshima Peace Memorial City Construction Law and Commentary",
+          "record_identifier": "https://www.city.hiroshima.lg.jp/uploaded/attachment/23440.pdf",
+          "document_date": "1949-08-06",
+          "language": "en",
+          "evidence_type": "legal_publication",
+          "supports": "Reproduction of the law provides a framework for peace-city construction and transfer of national property; enactment date supplied in commentary.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "law text, articles 1–6; commentary treated separately",
+          "repository": "Hiroshima City"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1975-census",
+      "title": "Хиросима: город в переписи 1975 года",
+      "title_en": "Hiroshima in the 1975 census",
+      "title_original": "昭和50年国勢調査 第14表 / Population of Cities with 100,000 Inhabitants or More as of the 1975 Census Date: 1920 to 1975",
+      "start_date": "1975",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "В таблице переписи для этой городской территории указано 852 611 жителей. Это итог для территории в тогдашних границах, не характеристика отдельного дома.",
+      "historical_summary_en": "The census table reports 852,611 inhabitants for this urban area in its boundaries at that census, not a description of any particular household.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_census_1975_table14"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_census_1975_table14",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+          "title": "昭和50年国勢調査 第14表 / Population of Cities with 100,000 Inhabitants or More as of the 1975 Census Date: 1920 to 1975",
+          "record_identifier": "e-Stat statInfId 000007915398, table 14, printed page 37",
+          "document_date": "undated (1975 census report; original edition date not established)",
+          "language": "ja/en",
+          "evidence_type": "census",
+          "supports": "Hiroshima: reported populations in 1920, 1930, 1940, 1950, 1960, 1970 and 1975, with the boundary qualification in the heading.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Public PDF downloaded over HTTPS and visually read locally; no access controls bypassed. Text layer is empty.",
+          "locator": "printed p. 37, row 11",
+          "repository": "Statistics Bureau of Japan / e-Stat"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1950-municipal-paper",
+      "title": "Первый выпуск городской газеты Хиросимы",
+      "title_en": "Hiroshima municipal paper begins",
+      "title_original": "市政広報ひろしま,第1–3号",
+      "start_date": "1950-08-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "media_communication",
+      "subcategory": null,
+      "historical_summary": "Вышел первый выпуск городского информационного листка: решения, налоги и практические объявления соседствовали с темой мира. Это источник о восстановлении муниципального общения с жителями.",
+      "historical_summary_en": "The first municipal information paper combined decisions, taxes and practical notices with the theme of peace, documenting the rebuilding of local public communication.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_shisei_1950_1_3"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_shisei_1950_1_3",
+          "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/008/366/239645.pdf",
+          "title": "市政広報ひろしま,第1–3号",
+          "record_identifier": "Hiroshima Municipal Archives digital gallery239645",
+          "repository": "Hiroshima Municipal Government / Municipal Archives",
+          "document_date": "1950-08",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Hiroshima Municipal Archives: скачать по явной ссылке разрешено для исследования. Для вторичного использования изображений требуется согласование. Сканы не включены в игру; только собственный пересказ фактов и ссылка.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1950-welfare-advice",
+      "title": "Консультационная помощь жителям Хиросимы",
+      "title_en": "Hiroshima welfare advice service",
+      "title_original": "市政広報ひろしま,第1–3号",
+      "start_date": "1950-07-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "social_policy",
+      "subcategory": null,
+      "historical_summary": "Первый городской выпуск сообщал о консультационной службе, начавшей работу 1 июля, и приглашал обращаться по жизненным трудностям. Сведения не означают обращения героини за помощью.",
+      "historical_summary_en": "The first issue reported an advice service operating from July 1 and invited residents to seek help with difficulties. The character is not presumed to have used it.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_shisei_1950_1_3"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_shisei_1950_1_3",
+          "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/008/366/239645.pdf",
+          "title": "市政広報ひろしま,第1–3号",
+          "record_identifier": "Hiroshima Municipal Archives digital gallery239645",
+          "repository": "Hiroshima Municipal Government / Municipal Archives",
+          "document_date": "1950-08",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Hiroshima Municipal Archives: скачать по явной ссылке разрешено для исследования. Для вторичного использования изображений требуется согласование. Сканы не включены в игру; только собственный пересказ фактов и ссылка.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1950-chemical-fire-engine",
+      "title": "Химическая пожарная машина в Хиросиме",
+      "title_en": "Chemical fire engine in Hiroshima",
+      "title_original": "市政広報ひろしま,第1–3号",
+      "start_date": "1950-08",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "technology",
+      "subcategory": null,
+      "historical_summary": "Второй выпуск городской газеты сообщил о новой химической пожарной машине. Это конкретная деталь восстановления городских служб, без утверждения, что все работы по пожарной безопасности завершились.",
+      "historical_summary_en": "The second municipal issue reported a new chemical fire engine, a specific detail of rebuilding city services rather than completion of all fire safety work.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_shisei_1950_1_3"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_shisei_1950_1_3",
+          "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/008/366/239645.pdf",
+          "title": "市政広報ひろしま,第1–3号",
+          "record_identifier": "Hiroshima Municipal Archives digital gallery239645",
+          "repository": "Hiroshima Municipal Government / Municipal Archives",
+          "document_date": "1950-08",
+          "language": "ja",
+          "evidence_type": "municipal_record",
+          "supports": "Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Hiroshima Municipal Archives: скачать по явной ссылке разрешено для исследования. Для вторичного использования изображений требуется согласование. Сканы не включены в игру; только собственный пересказ фактов и ссылка.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1902-teacher-college",
+      "title": "Высшая нормальная школа Хиросимы",
+      "title_en": "Hiroshima higher normal school",
+      "title_original": "広島の歴史",
+      "start_date": "1902",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В Хиросиме открылась высшая нормальная школа, часть развития города как образовательного центра. Это не означает доступность данного учреждения для любой женщины того поколения.",
+      "historical_summary_en": "A higher normal school opened in Hiroshima as the city developed into an education centre. This does not establish access for every woman of that generation.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_municipal_history"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_municipal_history",
+          "url": "https://www.city.hiroshima.lg.jp/shisei/gaiyo/1021754/1003436.html",
+          "title": "広島の歴史",
+          "record_identifier": "Hiroshima page1003436",
+          "repository": "Hiroshima Municipal Government / Municipal Archives",
+          "document_date": "2026-09-30",
+          "language": "ja",
+          "evidence_type": "historical_study",
+          "supports": "Раздел明治・大正:1902 высшая нормальная школа,1912ноябрь три трамвайные линии.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Раздел明治・大正:1902 высшая нормальная школа,1912ноябрь три трамвайные линии."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1912-tram",
+      "title": "Начало трамвайного движения в Хиросиме",
+      "title_en": "Hiroshima tram services begin",
+      "title_original": "広島の歴史",
+      "start_date": "1912-11",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Открылись три городские трамвайные линии, включая направление от вокзала через Камия-тё к мосту Айой. Трамвай постепенно сменял конные омнибусы как основной городской транспорт.",
+      "historical_summary_en": "Three city tram routes opened, including the station–Kamiyacho–Aioi Bridge route, gradually replacing horse buses as a principal form of city transport.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_municipal_history"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_municipal_history",
+          "url": "https://www.city.hiroshima.lg.jp/shisei/gaiyo/1021754/1003436.html",
+          "title": "広島の歴史",
+          "record_identifier": "Hiroshima page1003436",
+          "repository": "Hiroshima Municipal Government / Municipal Archives",
+          "document_date": "2026-09-30",
+          "language": "ja",
+          "evidence_type": "historical_study",
+          "supports": "Раздел明治・大正:1902 высшая нормальная школа,1912ноябрь три трамвайные линии.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Раздел明治・大正:1902 высшая нормальная школа,1912ноябрь три трамвайные линии."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "jp-hiroshima-1994-astram",
+      "title": "Открытие Астрам-лайн",
+      "title_en": "Astram Line opens",
+      "title_original": "広島高速交通のあらまし",
+      "start_date": "1994-08-20",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "JP"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "jp-hiroshima"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Линия Хондори–Коикэ-коэн-маэ связала город с северо-западными жилыми районами. Она обслуживала также Азиатские игры 1994 года, но её роль не ограничивалась спортивным событием.",
+      "historical_summary_en": "The Hondori–Koiki-koen-mae line connected the city with northwestern residential areas. It also carried passengers for the 1994 Asian Games but served wider transport needs.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "jp_hiroshima_astram_history"
+      ],
+      "evidence": [
+        {
+          "source_id": "jp_hiroshima_astram_history",
+          "url": "https://www.jametro.or.jp/subway/japan/hiroshima/",
+          "title": "広島高速交通のあらまし",
+          "record_identifier": "Japan Subway Association/Hiroshima outline",
+          "repository": "Japan Subway Association",
+          "document_date": "2026",
+          "language": "ja",
+          "evidence_type": "historical_study",
+          "supports": "НачалоAstram:20.08.1994,Hondori–Koiki-koen-mae18.4km; жилищное развитие северо-запада.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "НачалоAstram:20.08.1994,Hondori–Koiki-koen-mae18.4km; жилищное развитие северо-запада."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

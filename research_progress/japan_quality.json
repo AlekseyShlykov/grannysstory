@@ -1,0 +1,842 @@
+{
+  "at": "2026-11-17T21:46:59.685760+00:00",
+  "country": "JP",
+  "country_coverage": {
+    "verified": 79,
+    "primary": 47,
+    "primaryIds": [
+      "jp-1900-school-tuition-order",
+      "jp-1908-six-year-school",
+      "jp-1911-factory-law",
+      "jp-1919-tuberculosis-law",
+      "jp-1925-male-suffrage",
+      "jp-1932-relief-law-effective",
+      "jp-1938-national-health-insurance-law",
+      "jp-1945-allied-occupation",
+      "jp-1945-women-voting-rights",
+      "jp-1947-constitution",
+      "jp-1947-education-reform",
+      "jp-1959-national-pension-law",
+      "jp-1973-oil-crisis",
+      "jp-1986-equal-employment",
+      "jp-1989-consumption-tax",
+      "jp-1997-financial-instability",
+      "jp-2000-long-term-care",
+      "jp-2001-quantitative-easing",
+      "jp-2008-global-financial-crisis",
+      "jp-2011-tohoku-earthquake",
+      "jp-2013-monetary-easing",
+      "jp-2019-consumption-tax",
+      "jp-2020-population-census",
+      "jp-2020-special-cash-payment",
+      "jp-hiroshima-1949-peace-city-law",
+      "jp-hiroshima-1950-chemical-fire-engine",
+      "jp-hiroshima-1950-municipal-paper",
+      "jp-hiroshima-1950-welfare-advice",
+      "jp-hiroshima-1975-census",
+      "jp-kyoto-1950-cultural-city-law",
+      "jp-kyoto-1975-census",
+      "jp-kyoto-2013-paper-recycling-trial",
+      "jp-kyoto-2014-card-announcement",
+      "jp-kyoto-2015-three-river-works",
+      "jp-kyoto-2016-heritage-programme",
+      "jp-osaka-1906-1908-double-decker-tram",
+      "jp-osaka-1933-subway",
+      "jp-osaka-1951-workers-hall",
+      "jp-osaka-1954-industrial-water",
+      "jp-osaka-1964-lung-screening",
+      "jp-osaka-1964-smoke-campaign",
+      "jp-osaka-1975-census",
+      "jp-tokyo-1975-census",
+      "jp-tokyo-2010-shinagawa-tunnel-work",
+      "jp-tokyo-2011-commuter-disruption",
+      "jp-tokyo-2012-gate-bridge-festival",
+      "jp-tokyo-2012-river-light-festival"
+    ],
+    "percentage": 59.49,
+    "meets55Percent": true,
+    "includedInThisCheckout": true,
+    "periods": [
+      "1900–1919",
+      "1920–1939",
+      "1940–1959",
+      "1960–1979",
+      "1980–1999",
+      "2000–2009",
+      "2010–2020"
+    ],
+    "missingPeriods": [],
+    "nationalEvents": 44,
+    "regionalEvents": 1,
+    "contexts": 39,
+    "inaccessibleArchives": [
+      {
+        "id": "jp_jacar_tokyo_1943",
+        "url": "https://www.jacar.archives.go.jp/das/meta/A14101068400",
+        "note": "HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано."
+      },
+      {
+        "id": "jp_kyoto_yearbook_maintenance",
+        "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+        "note": "maintenance; 1930 table not downloaded"
+      },
+      {
+        "id": "jp_school_original_scan_blocked",
+        "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+        "note": "403; separately read original legal transcription at Nagoya University"
+      },
+      {
+        "id": "jp_peace_treaty_pdf_blocked",
+        "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+        "note": "web no readable text; direct request 403; used modern NDL explanation as secondary"
+      },
+      {
+        "id": "jp_kantei_2020_emergency_missing",
+        "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+        "note": "404; indexed search snippet not treated as read document"
+      },
+      {
+        "id": "jp_soumu_2020_cash_unavailable",
+        "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+        "note": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice"
+      }
+    ]
+  },
+  "combined_released_expansion": {
+    "verified": 166,
+    "primary": 113,
+    "primaryIds": [
+      "es-1900-industrial-accidents-law",
+      "es-1900-maternity-work-protection",
+      "es-1910-women-official-enrolment",
+      "es-1919-eight-hour-day",
+      "es-1920-urban-rent-protection",
+      "es-1931-constitution",
+      "es-1931-employment-marriage-bars",
+      "es-1942-compulsory-sickness-insurance-law",
+      "es-1945-primary-education-law",
+      "es-1959-economic-stabilisation",
+      "es-1962-women-employment-rights",
+      "es-1963-social-security-bases",
+      "es-1975-married-women-capacity",
+      "es-1978-constitution",
+      "es-1981-divorce-restored",
+      "es-1990-basic-education-reform",
+      "es-2005-equal-marriage",
+      "es-2010-public-pay-cuts",
+      "es-2020-minimum-living-income",
+      "es-2020-pandemic-alarm",
+      "es-2020-remote-work-agreements",
+      "es-andalusia-1982-autonomy",
+      "es-asturias-1982-autonomy",
+      "es-barcelona-1929-international-exposition",
+      "es-barcelona-1931-port-chemical-permit",
+      "es-barcelona-1933-university-autonomy-decree",
+      "es-barcelona-1974-seat-workers-bulletin",
+      "es-barcelona-1992-olympic-opening",
+      "es-barcelona-2004-forum-public-opening",
+      "es-barcelona-2012-bus-network",
+      "es-barcelona-area-1953-urban-plan-law",
+      "es-barcelona-province-1910-census",
+      "es-catalonia-1932-statute-publication",
+      "es-catalonia-1936-parliament-resumption",
+      "es-catalonia-1977-provisional-restoration",
+      "es-catalonia-1980-autonomy",
+      "es-madrid-1949-population-register",
+      "es-madrid-1950-municipal-museum-reopening",
+      "es-madrid-1950-trolleybus-service",
+      "es-madrid-1983-autonomy",
+      "es-madrid-1986-reina-sofia-art-centre",
+      "es-madrid-2009-sol-inauguration",
+      "es-madrid-2019-minimum-metro-service",
+      "es-madrid-province-1910-census",
+      "es-malaga-1901-smallpox-measures",
+      "es-malaga-1953-park-library-rules",
+      "es-malaga-1969-bookshop-report",
+      "es-malaga-1972-university",
+      "es-malaga-1988-torremolinos-segregation-decree",
+      "es-malaga-1992-technology-park-funding",
+      "es-malaga-2003-picasso-museum-inauguration",
+      "es-malaga-2014-metro",
+      "es-malaga-province-1910-census",
+      "es-oviedo-1901-popular-classes",
+      "es-oviedo-1902-school-holiday-colony",
+      "es-oviedo-1925-station-link-tender",
+      "es-oviedo-1934-university-fire",
+      "es-oviedo-1939-reconstruction-funds",
+      "es-oviedo-1941-urban-plan-publication",
+      "es-oviedo-1968-medical-faculty",
+      "es-oviedo-1981-asturias-prizes",
+      "es-oviedo-1998-world-heritage-extension",
+      "es-oviedo-2003-bus-station-completion",
+      "es-oviedo-2014-huca",
+      "es-oviedo-province-1910-census",
+      "es-oviedo-province-1983-rename",
+      "jp-1900-school-tuition-order",
+      "jp-1908-six-year-school",
+      "jp-1911-factory-law",
+      "jp-1919-tuberculosis-law",
+      "jp-1925-male-suffrage",
+      "jp-1932-relief-law-effective",
+      "jp-1938-national-health-insurance-law",
+      "jp-1945-allied-occupation",
+      "jp-1945-women-voting-rights",
+      "jp-1947-constitution",
+      "jp-1947-education-reform",
+      "jp-1959-national-pension-law",
+      "jp-1973-oil-crisis",
+      "jp-1986-equal-employment",
+      "jp-1989-consumption-tax",
+      "jp-1997-financial-instability",
+      "jp-2000-long-term-care",
+      "jp-2001-quantitative-easing",
+      "jp-2008-global-financial-crisis",
+      "jp-2011-tohoku-earthquake",
+      "jp-2013-monetary-easing",
+      "jp-2019-consumption-tax",
+      "jp-2020-population-census",
+      "jp-2020-special-cash-payment",
+      "jp-hiroshima-1949-peace-city-law",
+      "jp-hiroshima-1950-chemical-fire-engine",
+      "jp-hiroshima-1950-municipal-paper",
+      "jp-hiroshima-1950-welfare-advice",
+      "jp-hiroshima-1975-census",
+      "jp-kyoto-1950-cultural-city-law",
+      "jp-kyoto-1975-census",
+      "jp-kyoto-2013-paper-recycling-trial",
+      "jp-kyoto-2014-card-announcement",
+      "jp-kyoto-2015-three-river-works",
+      "jp-kyoto-2016-heritage-programme",
+      "jp-osaka-1906-1908-double-decker-tram",
+      "jp-osaka-1933-subway",
+      "jp-osaka-1951-workers-hall",
+      "jp-osaka-1954-industrial-water",
+      "jp-osaka-1964-lung-screening",
+      "jp-osaka-1964-smoke-campaign",
+      "jp-osaka-1975-census",
+      "jp-tokyo-1975-census",
+      "jp-tokyo-2010-shinagawa-tunnel-work",
+      "jp-tokyo-2011-commuter-disruption",
+      "jp-tokyo-2012-gate-bridge-festival",
+      "jp-tokyo-2012-river-light-festival"
+    ],
+    "percentage": 68.07,
+    "meets55Percent": true
+  },
+  "cities": {
+    "jp-tokyo": {
+      "country": "JP",
+      "verified": 9,
+      "primary": 5,
+      "primaryIds": [
+        "jp-tokyo-1975-census",
+        "jp-tokyo-2010-shinagawa-tunnel-work",
+        "jp-tokyo-2011-commuter-disruption",
+        "jp-tokyo-2012-gate-bridge-festival",
+        "jp-tokyo-2012-river-light-festival"
+      ],
+      "percentage": 55.56,
+      "meets55Percent": true,
+      "regionalEvents": 0,
+      "localContexts": 5,
+      "nationalContexts": 16,
+      "periods": [
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "2010–2020"
+      ],
+      "missingPeriods": [
+        "1900–1919",
+        "1980–1999",
+        "2000–2009"
+      ],
+      "contextPeriods": [
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "2010–2020"
+      ],
+      "localEverydayTypes": [
+        "demography",
+        "leisure_culture",
+        "social_policy",
+        "transport"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "jp_census_1975_table14",
+        "jp_ndl_nihonbashi_photo_1923",
+        "jp_tokyo_municipal_history",
+        "jp_tokyo_photo_2010_10",
+        "jp_tokyo_photo_2011_03",
+        "jp_tokyo_photo_2012_05",
+        "jp_tokyo_photo_news_2012_02",
+        "jp_wiki_tokyo_air_raid"
+      ],
+      "licensing": [
+        {
+          "sourceId": "jp_census_1975_table14",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_ndl_nihonbashi_photo_1923",
+          "url": "https://www.ndl.go.jp/modern/thumb/so_thumb/136.jpg",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_tokyo_municipal_history",
+          "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_tokyo_photo_2010_10",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2010/10.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_tokyo_photo_2011_03",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2011/03.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_tokyo_photo_2012_05",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/05.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_tokyo_photo_news_2012_02",
+          "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/02.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_wiki_tokyo_air_raid",
+          "url": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945)",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "jp_jacar_tokyo_1943",
+          "url": "https://www.jacar.archives.go.jp/das/meta/A14101068400",
+          "note": "HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано."
+        },
+        {
+          "id": "jp_kyoto_yearbook_maintenance",
+          "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+          "note": "maintenance; 1930 table not downloaded"
+        },
+        {
+          "id": "jp_school_original_scan_blocked",
+          "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+          "note": "403; separately read original legal transcription at Nagoya University"
+        },
+        {
+          "id": "jp_peace_treaty_pdf_blocked",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+          "note": "web no readable text; direct request 403; used modern NDL explanation as secondary"
+        },
+        {
+          "id": "jp_kantei_2020_emergency_missing",
+          "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+          "note": "404; indexed search snippet not treated as read document"
+        },
+        {
+          "id": "jp_soumu_2020_cash_unavailable",
+          "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+          "note": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice"
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Необязательное пополнение местных событий: 1900–1919, 1980–1999, 2000–2009.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-kyoto": {
+      "country": "JP",
+      "verified": 9,
+      "primary": 6,
+      "primaryIds": [
+        "jp-kyoto-1950-cultural-city-law",
+        "jp-kyoto-1975-census",
+        "jp-kyoto-2013-paper-recycling-trial",
+        "jp-kyoto-2014-card-announcement",
+        "jp-kyoto-2015-three-river-works",
+        "jp-kyoto-2016-heritage-programme"
+      ],
+      "percentage": 66.67,
+      "meets55Percent": true,
+      "regionalEvents": 0,
+      "localContexts": 7,
+      "nationalContexts": 16,
+      "periods": [
+        "1900–1919",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2010–2020"
+      ],
+      "missingPeriods": [
+        "1920–1939",
+        "2000–2009"
+      ],
+      "contextPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "2010–2020"
+      ],
+      "localEverydayTypes": [
+        "demography",
+        "housing",
+        "transport",
+        "work"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "jp_census_1975_table14",
+        "jp_kyoto_culture_law_1950",
+        "jp_kyoto_environment_2013",
+        "jp_kyoto_heritage_briefing_2016",
+        "jp_kyoto_ic_2014",
+        "jp_kyoto_mayor_floodworks_2015",
+        "jp_kyoto_subway_history",
+        "jp_kyoto_tram_history"
+      ],
+      "licensing": [
+        {
+          "sourceId": "jp_census_1975_table14",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_culture_law_1950",
+          "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/00819501022251.htm",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_environment_2013",
+          "url": "https://www.city.kyoto.lg.jp/kankyo/cmsfiles/contents/0000217/217418/shiryou2.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_heritage_briefing_2016",
+          "url": "https://www.city.kyoto.lg.jp/sogo/page/0000192381.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_ic_2014",
+          "url": "https://www.city.kyoto.lg.jp/sogo/page/0000172434.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_mayor_floodworks_2015",
+          "url": "https://www.city.kyoto.lg.jp/sogo/page/0000188571.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_subway_history",
+          "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000094752.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_kyoto_tram_history",
+          "url": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi28.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "jp_jacar_tokyo_1943",
+          "url": "https://www.jacar.archives.go.jp/das/meta/A14101068400",
+          "note": "HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано."
+        },
+        {
+          "id": "jp_kyoto_yearbook_maintenance",
+          "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+          "note": "maintenance; 1930 table not downloaded"
+        },
+        {
+          "id": "jp_school_original_scan_blocked",
+          "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+          "note": "403; separately read original legal transcription at Nagoya University"
+        },
+        {
+          "id": "jp_peace_treaty_pdf_blocked",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+          "note": "web no readable text; direct request 403; used modern NDL explanation as secondary"
+        },
+        {
+          "id": "jp_kantei_2020_emergency_missing",
+          "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+          "note": "404; indexed search snippet not treated as read document"
+        },
+        {
+          "id": "jp_soumu_2020_cash_unavailable",
+          "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+          "note": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice"
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Необязательное пополнение местных событий: 1920–1939, 2000–2009.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-osaka": {
+      "country": "JP",
+      "verified": 8,
+      "primary": 7,
+      "primaryIds": [
+        "jp-osaka-1906-1908-double-decker-tram",
+        "jp-osaka-1933-subway",
+        "jp-osaka-1951-workers-hall",
+        "jp-osaka-1954-industrial-water",
+        "jp-osaka-1964-lung-screening",
+        "jp-osaka-1964-smoke-campaign",
+        "jp-osaka-1975-census"
+      ],
+      "percentage": 87.5,
+      "meets55Percent": true,
+      "regionalEvents": 1,
+      "localContexts": 6,
+      "nationalContexts": 16,
+      "periods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979"
+      ],
+      "missingPeriods": [
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979"
+      ],
+      "localEverydayTypes": [
+        "demography",
+        "healthcare",
+        "leisure_culture",
+        "transport",
+        "work"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "jp_census_1975_table14",
+        "jp_osaka_double_decker_photo",
+        "jp_osaka_shisei_041",
+        "jp_osaka_shisei_094",
+        "jp_osaka_shisei_210",
+        "jp_osaka_subway_poster_1933",
+        "jp_osaka_transport_exhibit_2011"
+      ],
+      "licensing": [
+        {
+          "sourceId": "jp_census_1975_table14",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_osaka_double_decker_photo",
+          "url": "https://www.osakamushis.jp/news/2011/shidentobus/item1.jpg",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_osaka_shisei_041",
+          "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/041.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_osaka_shisei_094",
+          "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/094_1.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_osaka_shisei_210",
+          "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/210_1_2.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_osaka_subway_poster_1933",
+          "url": "https://www.osakamushis.jp/news/2011/shidentobus/item2.jpg",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_osaka_transport_exhibit_2011",
+          "url": "https://www.osakamushis.jp/news/2011/shidentobus.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "jp_jacar_tokyo_1943",
+          "url": "https://www.jacar.archives.go.jp/das/meta/A14101068400",
+          "note": "HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано."
+        },
+        {
+          "id": "jp_kyoto_yearbook_maintenance",
+          "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+          "note": "maintenance; 1930 table not downloaded"
+        },
+        {
+          "id": "jp_school_original_scan_blocked",
+          "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+          "note": "403; separately read original legal transcription at Nagoya University"
+        },
+        {
+          "id": "jp_peace_treaty_pdf_blocked",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+          "note": "web no readable text; direct request 403; used modern NDL explanation as secondary"
+        },
+        {
+          "id": "jp_kantei_2020_emergency_missing",
+          "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+          "note": "404; indexed search snippet not treated as read document"
+        },
+        {
+          "id": "jp_soumu_2020_cash_unavailable",
+          "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+          "note": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice"
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Необязательное пополнение местных событий: 1980–1999, 2000–2009, 2010–2020.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-hiroshima": {
+      "country": "JP",
+      "verified": 8,
+      "primary": 5,
+      "primaryIds": [
+        "jp-hiroshima-1949-peace-city-law",
+        "jp-hiroshima-1950-chemical-fire-engine",
+        "jp-hiroshima-1950-municipal-paper",
+        "jp-hiroshima-1950-welfare-advice",
+        "jp-hiroshima-1975-census"
+      ],
+      "percentage": 62.5,
+      "meets55Percent": true,
+      "regionalEvents": 0,
+      "localContexts": 4,
+      "nationalContexts": 16,
+      "periods": [
+        "1900–1919",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999"
+      ],
+      "missingPeriods": [
+        "1920–1939",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [
+        "1920–1939",
+        "1940–1959",
+        "1960–1979"
+      ],
+      "localEverydayTypes": [
+        "demography",
+        "housing",
+        "prices_spending"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "jp_census_1975_table14",
+        "jp_hiroshima_astram_history",
+        "jp_hiroshima_municipal_history",
+        "jp_hiroshima_peace_law",
+        "jp_hiroshima_shisei_1950_1_3"
+      ],
+      "licensing": [
+        {
+          "sourceId": "jp_census_1975_table14",
+          "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_hiroshima_astram_history",
+          "url": "https://www.jametro.or.jp/subway/japan/hiroshima/",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_hiroshima_municipal_history",
+          "url": "https://www.city.hiroshima.lg.jp/shisei/gaiyo/1021754/1003436.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_hiroshima_peace_law",
+          "url": "https://www.city.hiroshima.lg.jp/uploaded/attachment/23440.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "jp_hiroshima_shisei_1950_1_3",
+          "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/008/366/239645.pdf",
+          "conditions": "Hiroshima Municipal Archives: скачать по явной ссылке разрешено для исследования. Для вторичного использования изображений требуется согласование. Сканы не включены в игру; только собственный пересказ фактов и ссылка.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "jp_jacar_tokyo_1943",
+          "url": "https://www.jacar.archives.go.jp/das/meta/A14101068400",
+          "note": "HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано."
+        },
+        {
+          "id": "jp_kyoto_yearbook_maintenance",
+          "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+          "note": "maintenance; 1930 table not downloaded"
+        },
+        {
+          "id": "jp_school_original_scan_blocked",
+          "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+          "note": "403; separately read original legal transcription at Nagoya University"
+        },
+        {
+          "id": "jp_peace_treaty_pdf_blocked",
+          "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+          "note": "web no readable text; direct request 403; used modern NDL explanation as secondary"
+        },
+        {
+          "id": "jp_kantei_2020_emergency_missing",
+          "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+          "note": "404; indexed search snippet not treated as read document"
+        },
+        {
+          "id": "jp_soumu_2020_cash_unavailable",
+          "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+          "note": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice"
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Необязательное пополнение местных событий: 1920–1939, 2000–2009, 2010–2020.",
+        "Публикация страны на GitHub."
+      ]
+    }
+  },
+  "context_scope_counts": {
+    "national": 16,
+    "regional": 1,
+    "municipal": 22
+  },
+  "spoken_history_48_lives": {
+    "national": 541,
+    "local": 54,
+    "localPercent": 9.07563025210084
+  },
+  "city_readiness": "supported, not exhaustive archive coverage",
+  "secondary_wikipedia_allowed": true,
+  "primary_threshold_percent": 55,
+  "human_sensitive_review": "OPEN under D-019",
+  "manual_browser_play": false
+}

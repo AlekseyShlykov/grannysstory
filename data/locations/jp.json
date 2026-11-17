@@ -1,0 +1,517 @@
+{
+  "locations": [
+    {
+      "id": "jp",
+      "type": "state",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Japan",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Япония",
+          "name_en": "Japan",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "jp_geonames"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Япония; модель ограничена четырьмя городскими местами на Хонсю. Колониальные владения, Окинава и внешние границы не моделируются как продолжение этих городов."
+    },
+    {
+      "id": "jp-tokyo",
+      "type": "city",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Tokyo",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Токио",
+          "name_en": "Tokyo",
+          "locative": "в Токио",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [
+        "東京"
+      ],
+      "coordinates": {
+        "lat": 35.69,
+        "lon": 139.692,
+        "source_id": "jp_geonames"
+      },
+      "parents": [
+        {
+          "id": "jp-tokyo-fu",
+          "from": null,
+          "to": "1943-06-30"
+        },
+        {
+          "id": "jp-tokyo-to",
+          "from": "1943-07-01",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "from": "1945-09-02",
+          "to": "1952-04-27",
+          "by_ru": "союзная оккупация (SCAP)",
+          "source_id": "jp_ndl_surrender_text"
+        }
+      ],
+      "source_ids": [
+        "jp_geonames",
+        "jp_tokyo_wards_archives",
+        "jp_ndl_surrender_text",
+        "jp_ndl_occupation_directive",
+        "jp_ndl_history_1952-occupation-ends"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются. Tokyo-shi упразднён01.07.1943 вместе сTokyo-fu; после датыIDобозначает городское место/районыTokyo-to, а не прежнюю корпорацию.23района сформировались в1947,границы не считаются неизменными. Союзная оккупация1945–1952 описана отдельно от суверенитета и не создаёт родителяСША.",
+      "settlement_class": "capital",
+      "coordinate_evidence_url": "https://www.geonames.org/jp/largest-cities-in-japan.html",
+      "modern_admin_name": "Токио",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original RU/EN fiction reviewed by implementing agent against PROJECT and DIALOGUE_BIBLE; sensitive prose uses provisional D-019. Human editorial approval remains OPEN."
+    },
+    {
+      "id": "jp-kyoto",
+      "type": "city",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Kyoto",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Киото",
+          "name_en": "Kyoto",
+          "locative": "в Киото",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [
+        "京都市"
+      ],
+      "coordinates": {
+        "lat": 35.021,
+        "lon": 135.754,
+        "source_id": "jp_geonames"
+      },
+      "parents": [
+        {
+          "id": "jp-kyoto-prefecture",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "from": "1945-09-02",
+          "to": "1952-04-27",
+          "by_ru": "союзная оккупация (SCAP)",
+          "source_id": "jp_ndl_surrender_text"
+        }
+      ],
+      "source_ids": [
+        "jp_geonames",
+        "jp_kyoto_prefecture_chronology",
+        "jp_ndl_surrender_text",
+        "jp_ndl_occupation_directive",
+        "jp_ndl_history_1952-occupation-ends"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются. Союзная оккупация1945–1952 описана отдельно от суверенитета и не создаёт родителяСША.",
+      "settlement_class": "large_city",
+      "coordinate_evidence_url": "https://www.geonames.org/jp/largest-cities-in-japan.html",
+      "modern_admin_name": "Киото",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original RU/EN fiction reviewed by implementing agent against PROJECT and DIALOGUE_BIBLE; sensitive prose uses provisional D-019. Human editorial approval remains OPEN."
+    },
+    {
+      "id": "jp-osaka",
+      "type": "city",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Osaka",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Осака",
+          "name_en": "Osaka",
+          "locative": "в Осаке",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [
+        "大阪市"
+      ],
+      "coordinates": {
+        "lat": 34.694,
+        "lon": 135.501,
+        "source_id": "jp_geonames"
+      },
+      "parents": [
+        {
+          "id": "jp-osaka-prefecture",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "from": "1945-09-02",
+          "to": "1952-04-27",
+          "by_ru": "союзная оккупация (SCAP)",
+          "source_id": "jp_ndl_surrender_text"
+        }
+      ],
+      "source_ids": [
+        "jp_geonames",
+        "jp_osaka_council_chronology",
+        "jp_ndl_surrender_text",
+        "jp_ndl_occupation_directive",
+        "jp_ndl_history_1952-occupation-ends"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются. Союзная оккупация1945–1952 описана отдельно от суверенитета и не создаёт родителяСША.",
+      "settlement_class": "large_city",
+      "coordinate_evidence_url": "https://www.geonames.org/jp/largest-cities-in-japan.html",
+      "modern_admin_name": "Осака",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original RU/EN fiction reviewed by implementing agent against PROJECT and DIALOGUE_BIBLE; sensitive prose uses provisional D-019. Human editorial approval remains OPEN."
+    },
+    {
+      "id": "jp-hiroshima",
+      "type": "city",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Hiroshima",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Хиросима",
+          "name_en": "Hiroshima",
+          "locative": "в Хиросиме",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [
+        "広島市"
+      ],
+      "coordinates": {
+        "lat": 34.4,
+        "lon": 132.45,
+        "source_id": "jp_geonames"
+      },
+      "parents": [
+        {
+          "id": "jp-hiroshima-prefecture",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "from": "1945-09-02",
+          "to": "1952-04-27",
+          "by_ru": "союзная оккупация (SCAP)",
+          "source_id": "jp_ndl_surrender_text"
+        }
+      ],
+      "source_ids": [
+        "jp_geonames",
+        "jp_hiroshima_city_geography_history",
+        "jp_ndl_surrender_text",
+        "jp_ndl_occupation_directive",
+        "jp_ndl_history_1952-occupation-ends"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются. Союзная оккупация1945–1952 описана отдельно от суверенитета и не создаёт родителяСША.",
+      "settlement_class": "large_city",
+      "coordinate_evidence_url": "https://www.geonames.org/jp/largest-cities-in-japan.html",
+      "modern_admin_name": "Хиросима",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original RU/EN fiction reviewed by implementing agent against PROJECT and DIALOGUE_BIBLE; sensitive prose uses provisional D-019. Human editorial approval remains OPEN."
+    },
+    {
+      "id": "jp-tokyo-fu",
+      "type": "province",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "東京府",
+          "lang": "ja",
+          "from": null,
+          "to": "1943-06-30"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Префектура Токио (Tokyo-fu)",
+          "name_en": "Tokyo Prefecture (Tokyo-fu)",
+          "locative": null,
+          "from": null,
+          "to": "1943-06-30"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "jp",
+          "from": null,
+          "to": "1943-06-30"
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "jp_tokyo_wards_archives"
+      ],
+      "valid_from": null,
+      "valid_to": "1943-06-30",
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются."
+    },
+    {
+      "id": "jp-tokyo-to",
+      "type": "province",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "東京都",
+          "lang": "ja",
+          "from": "1943-07-01",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Токио (Tokyo-to)",
+          "name_en": "Tokyo Metropolis (Tokyo-to)",
+          "locative": null,
+          "from": "1943-07-01",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "jp",
+          "from": "1943-07-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "jp_tokyo_wards_archives"
+      ],
+      "valid_from": "1943-07-01",
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются."
+    },
+    {
+      "id": "jp-kyoto-prefecture",
+      "type": "province",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "京都府",
+          "lang": "ja",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Префектура Киото",
+          "name_en": "Kyoto Prefecture",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "jp",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "jp_kyoto_prefecture_chronology"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются."
+    },
+    {
+      "id": "jp-osaka-prefecture",
+      "type": "province",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "大阪府",
+          "lang": "ja",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Префектура Осака",
+          "name_en": "Osaka Prefecture",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "jp",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "jp_osaka_council_chronology"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются."
+    },
+    {
+      "id": "jp-hiroshima-prefecture",
+      "type": "province",
+      "country": "JP",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "広島県",
+          "lang": "ja",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Префектура Хиросима",
+          "name_en": "Hiroshima Prefecture",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "jp",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "jp_hiroshima_city_geography_history"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверенная точечная модель1900–2020: городское место и его префектура, не неизменный муниципальный полигон. Территориальные присоединения и все изменения полномочий местных органов не реконструируются."
+    }
+  ]
+}

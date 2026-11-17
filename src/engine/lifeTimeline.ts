@@ -12,7 +12,7 @@ import { seededRandom } from "./random";
 import { earlyBeatForState, threadAffinity } from "./earlyLifeThread";
 import { lifeProfile, lifeResidences } from "./world/biographyLink";
 import { eventEndYear, isLocalLevel, relevantEvents } from "./world/events";
-import { resolveLocationId } from "./world/geography";
+import { getLocation, resolveLocationId } from "./world/geography";
 import { milestoneByEventId, milestoneById } from "./history/milestones";
 
 export interface LifeTimelinePoint {
@@ -50,6 +50,7 @@ export interface TimelineBackground {
 interface BackgroundCandidate {
   key: string;
   startYear: number;
+  startDate?: string;
   endYear: number;
   significance: number;
   speakable: boolean;
@@ -140,6 +141,7 @@ function legacyNationalCandidates(): BackgroundCandidate[] {
     return {
       key: id,
       startYear,
+      startDate: event.startDate,
       endYear,
       significance: historicalSignificance(event.id, event.title),
       speakable: Boolean(historicalVoice[event.id] || spokenFactSentence(event.historicalContext)),
@@ -177,6 +179,7 @@ function worldCandidates(state: GameSessionState): BackgroundCandidate[] | null 
       return {
         key,
         startYear: item.year,
+        startDate: item.event.start,
         endYear: Math.max(item.year, eventEndYear(item.event)),
         significance: historicalSignificance(item.event.id, item.event.title, item.event.category),
         speakable: Boolean(milestone || historicalVoice[item.event.id] || spokenFactSentence(item.event.summary)),
@@ -302,7 +305,8 @@ export function timelineBackgrounds(state: GameSessionState): Map<number, Timeli
     const isUrgent = (candidate: BackgroundCandidate) => URGENT_KINDS.has(milestoneById.get(candidate.background.milestoneId ?? "")?.kind ?? "");
     const milestones = matches.filter((candidate) => candidate.background.milestoneId);
     // Two war-class milestones in one interval (occupation, then liberation) are told in order, not one of them.
-    const urgentPair = milestones.filter(isUrgent).sort((a, b) => a.startYear - b.startYear).slice(0, 2);
+    const urgentPair = milestones.filter(isUrgent).sort((a, b) => a.startYear - b.startYear
+      || (a.startDate ?? String(a.startYear)).localeCompare(b.startDate ?? String(b.startYear))).slice(0, 2);
     const milestone = urgentPair[0] ?? best(milestones);
     return {
       second: urgentPair[1],
@@ -333,6 +337,52 @@ export function timelineBackgrounds(state: GameSessionState): Map<number, Timeli
     [localEligible[index], localEligible[swap]] = [localEligible[swap]!, localEligible[index]!];
   }
   const localPoints = new Set(localEligible.slice(0, localSlots));
+  // Japan deliberately has a compact local archive and many essential national milestones. A milestone
+  // must remain spoken, but must not consume every possible local slot. A short local companion can fill
+  // the remaining quota beside a non-urgent milestone; never beside war, occupation or another pair.
+  // Other published countries retain their established conversation shape.
+  const localCompanions = new Set<number>();
+  const birthCountry = getLocation(worldData(), state.biography.residenceHistory[0]?.placeId ?? "")?.country;
+  if (birthCountry === "JP") {
+    const baseCount = options.reduce((count, option, index) => {
+      if (!speaks[index]) return count;
+      const primary = option.personal ?? option.milestone ?? (localPoints.has(index) ? option.local : option.national);
+      const companion = option.personal && option.milestone ? option.milestone : !option.personal ? option.second : undefined;
+      return count + Number(Boolean(primary && primary.background.scope !== "personal"))
+        + Number(Boolean(companion && companion.background.scope !== "personal"));
+    }, 0);
+    const companions = options.map((_, index) => index).filter((index) => speaks[index] && options[index]!.milestone
+      && !options[index]!.urgent && !options[index]!.personal && !options[index]!.second && options[index]!.local);
+    for (let index = companions.length - 1; index > 0; index -= 1) {
+      const swap = random.int(0, index);
+      [companions[index], companions[swap]] = [companions[swap]!, companions[index]!];
+    }
+    for (const index of companions) {
+      if (localPoints.size + localCompanions.size >= Math.floor(LOCAL_SHARE * (baseCount + localCompanions.size) + dither)) break;
+      localCompanions.add(index);
+    }
+    // A genuine local record can fall in a quiet interval rather than beside a milestone. Use that
+    // interval for the remaining quota, preserving its real date and every national item already chosen.
+    // If it also contains a peaceful milestone, tell that milestone first and the local item beside it.
+    let addedItems = localCompanions.size;
+    const quietLocal = options.map((_, index) => index).filter((index) => !speaks[index]
+      && options[index]!.local && !options[index]!.personal && !options[index]!.urgent && !options[index]!.second);
+    for (let index = quietLocal.length - 1; index > 0; index -= 1) {
+      const swap = random.int(0, index);
+      [quietLocal[index], quietLocal[swap]] = [quietLocal[swap]!, quietLocal[index]!];
+    }
+    for (const index of quietLocal) {
+      if (localPoints.size + localCompanions.size >= Math.floor(LOCAL_SHARE * (baseCount + addedItems) + dither)) break;
+      speaks[index] = true;
+      if (options[index]!.milestone) {
+        localCompanions.add(index);
+        addedItems += 2;
+      } else {
+        localPoints.add(index);
+        addedItems += 1;
+      }
+    }
+  }
   const result = new Map<number, TimelineBackground>();
   options.forEach((option, index) => {
     if (!speaks[index]) return;
@@ -340,7 +390,7 @@ export function timelineBackgrounds(state: GameSessionState): Map<number, Timeli
     const selected = milestone ?? (localPoints.has(index) ? option.local : option.national);
     const primary = personal ?? selected;
     if (!primary) return;
-    const companion = personal && milestone ? milestone : !personal ? option.second : undefined;
+    const companion = personal && milestone ? milestone : !personal ? option.second ?? (localCompanions.has(index) ? option.local : undefined) : undefined;
     const place = (candidate: BackgroundCandidate) => ({
       ...candidate.background,
       year: Math.max(point.year, candidate.startYear),

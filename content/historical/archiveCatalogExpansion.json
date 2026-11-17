@@ -1,0 +1,14 @@
+{
+  "countries": {
+    "japan": {
+      "label": "Япония",
+      "sourceIds": ["jp_ndl_constitution_1946", "jp_census_1975_table14", "jp_boj_2013_qqe"]
+    }
+  },
+  "regions": {
+    "jp-tokyo": ["jp_tokyo_photo_2011_03"],
+    "jp-kyoto": ["jp_kyoto_culture_law_1950"],
+    "jp-osaka": ["jp_osaka_shisei_041"],
+    "jp-hiroshima": ["jp_hiroshima_shisei_1950_1_3"]
+  }
+}

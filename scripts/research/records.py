@@ -119,6 +119,8 @@ def save_batch(country, folder, events, contexts):
     path = PROGRESS / 'countries' / (country.lower() + '.json')
     progress = json.loads(path.read_text())
     progress.update(stage='extracted_batch', next_action='Проверить batch валидатором, дополнить недостающие эпохи и независимые документы.')
-    progress['verified_event_ids'] = sorted(set(progress.get('verified_event_ids', [])) | {row['id'] for row in events})
-    progress['verified_context_ids'] = sorted(set(progress.get('verified_context_ids', [])) | {row['id'] for row in contexts})
+    for field, rows in [('verified_event_ids', events), ('verified_context_ids', contexts)]:
+        verified = {row['id'] for row in rows if row.get('verification_status') == 'verified'}
+        pending_review = {row['id'] for row in rows if row.get('verification_status') != 'verified'}
+        progress[field] = sorted((set(progress.get(field, [])) | verified) - pending_review)
     atomic_write(path, progress)

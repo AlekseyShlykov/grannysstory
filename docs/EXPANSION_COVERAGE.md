@@ -7,13 +7,13 @@
 | Страна | События | Первичные | Доля | Национальные | Региональные | Контексты |
 |---|---:|---:|---:|---:|---:|---:|
 | ES | 87 | 66 | 75.86% | 33 | 16 | 60 |
-| JP | 0 | 0 | н/д | 0 | 0 | 0 |
+| JP | 79 | 47 | 59.49% | 44 | 1 | 39 |
 | BR | 0 | 0 | н/д | 0 | 0 | 0 |
 | ZA | 0 | 0 | н/д | 0 | 0 | 0 |
 | CD | 0 | 0 | н/д | 0 | 0 | 0 |
 | EG | 0 | 0 | н/д | 0 | 0 | 0 |
 
-Совместно: 87 событий, 66 с первичными документами, 75.86%.
+Совместно: 166 событий, 113 с первичными документами, 68.07%.
 
 ## Города
 
@@ -23,10 +23,10 @@
 | es-madrid | 8 | 6 | 75.0% | 2 | 7 | 1900–1919, 1920–1939, 1940–1959, 1980–1999, 2000–2009, 2010–2020 | supported |
 | es-oviedo | 11 | 11 | 100.0% | 5 | 7 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | supported |
 | es-malaga | 10 | 8 | 80.0% | 3 | 5 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | supported |
-| jp-tokyo | 0 | 0 | н/д | 0 | 0 | — | registered |
-| jp-kyoto | 0 | 0 | н/д | 0 | 0 | — | registered |
-| jp-osaka | 0 | 0 | н/д | 0 | 0 | — | registered |
-| jp-hiroshima | 0 | 0 | н/д | 0 | 0 | — | registered |
+| jp-tokyo | 9 | 5 | 55.56% | 0 | 5 | 1920–1939, 1940–1959, 1960–1979, 2010–2020 | supported |
+| jp-kyoto | 9 | 6 | 66.67% | 0 | 7 | 1900–1919, 1940–1959, 1960–1979, 1980–1999, 2010–2020 | supported |
+| jp-osaka | 8 | 7 | 87.5% | 1 | 6 | 1900–1919, 1920–1939, 1940–1959, 1960–1979 | supported |
+| jp-hiroshima | 8 | 5 | 62.5% | 0 | 4 | 1900–1919, 1940–1959, 1960–1979, 1980–1999 | supported |
 | br-sao-paulo | 0 | 0 | н/д | 0 | 0 | — | registered |
 | br-rio-de-janeiro | 0 | 0 | н/д | 0 | 0 | — | registered |
 | br-salvador | 0 | 0 | н/д | 0 | 0 | — | registered |
@@ -82,43 +82,43 @@
 
 ### jp-tokyo
 
-Не представлены местными событиями: 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020. Историческая география: not_in_release. Интеграция: not_in_release.
+Не представлены местными событиями: 1900–1919, 1980–1999, 2000–2009. Историческая география: verified. Интеграция: enabled.
 
-Источники местных записей: .
+Источники местных записей: [jp_census_1975_table14](https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398), [jp_ndl_nihonbashi_photo_1923](https://www.ndl.go.jp/modern/thumb/so_thumb/136.jpg), [jp_tokyo_municipal_history](https://www.english.metro.tokyo.lg.jp/w/000-101-007591), [jp_tokyo_photo_2010_10](https://www.koho.metro.tokyo.lg.jp/photo/news/2010/10.html), [jp_tokyo_photo_2011_03](https://www.koho.metro.tokyo.lg.jp/photo/news/2011/03.html), [jp_tokyo_photo_2012_05](https://www.koho.metro.tokyo.lg.jp/photo/news/2012/05.html), [jp_tokyo_photo_news_2012_02](https://www.koho.metro.tokyo.lg.jp/photo/news/2012/02.html), [jp_wiki_tokyo_air_raid](https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945)).
 
-Недоступные документы страны (не все относятся к этому городу): не зафиксированы.
+Недоступные документы страны (не все относятся к этому городу): jp_jacar_tokyo_1943, jp_kyoto_yearbook_maintenance, jp_school_original_scan_blocked, jp_peace_treaty_pdf_blocked, jp_kantei_2020_emergency_missing, jp_soumu_2020_cash_unavailable.
 
-Осталось: Историческая география, недостающие эпохи и местные документы. Повседневные контексты, авторские тексты и полные сравнительные биографии. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
+Осталось: Человеческая редактура чувствительных реплик по D-019 остаётся открытой. Необязательное пополнение местных событий: 1900–1919, 1980–1999, 2000–2009. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
 
 ### jp-kyoto
 
-Не представлены местными событиями: 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020. Историческая география: not_in_release. Интеграция: not_in_release.
+Не представлены местными событиями: 1920–1939, 2000–2009. Историческая география: verified. Интеграция: enabled.
 
-Источники местных записей: .
+Источники местных записей: [jp_census_1975_table14](https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398), [jp_kyoto_culture_law_1950](https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/00819501022251.htm), [jp_kyoto_environment_2013](https://www.city.kyoto.lg.jp/kankyo/cmsfiles/contents/0000217/217418/shiryou2.pdf), [jp_kyoto_heritage_briefing_2016](https://www.city.kyoto.lg.jp/sogo/page/0000192381.html), [jp_kyoto_ic_2014](https://www.city.kyoto.lg.jp/sogo/page/0000172434.html), [jp_kyoto_mayor_floodworks_2015](https://www.city.kyoto.lg.jp/sogo/page/0000188571.html), [jp_kyoto_subway_history](https://www.city.kyoto.lg.jp/kotsu/page/0000094752.html), [jp_kyoto_tram_history](https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi28.html).
 
-Недоступные документы страны (не все относятся к этому городу): не зафиксированы.
+Недоступные документы страны (не все относятся к этому городу): jp_jacar_tokyo_1943, jp_kyoto_yearbook_maintenance, jp_school_original_scan_blocked, jp_peace_treaty_pdf_blocked, jp_kantei_2020_emergency_missing, jp_soumu_2020_cash_unavailable.
 
-Осталось: Историческая география, недостающие эпохи и местные документы. Повседневные контексты, авторские тексты и полные сравнительные биографии. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
+Осталось: Человеческая редактура чувствительных реплик по D-019 остаётся открытой. Необязательное пополнение местных событий: 1920–1939, 2000–2009. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
 
 ### jp-osaka
 
-Не представлены местными событиями: 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020. Историческая география: not_in_release. Интеграция: not_in_release.
+Не представлены местными событиями: 1980–1999, 2000–2009, 2010–2020. Историческая география: verified. Интеграция: enabled.
 
-Источники местных записей: .
+Источники местных записей: [jp_census_1975_table14](https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398), [jp_osaka_double_decker_photo](https://www.osakamushis.jp/news/2011/shidentobus/item1.jpg), [jp_osaka_shisei_041](https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/041.pdf), [jp_osaka_shisei_094](https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/094_1.pdf), [jp_osaka_shisei_210](https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/210_1_2.pdf), [jp_osaka_subway_poster_1933](https://www.osakamushis.jp/news/2011/shidentobus/item2.jpg), [jp_osaka_transport_exhibit_2011](https://www.osakamushis.jp/news/2011/shidentobus.html).
 
-Недоступные документы страны (не все относятся к этому городу): не зафиксированы.
+Недоступные документы страны (не все относятся к этому городу): jp_jacar_tokyo_1943, jp_kyoto_yearbook_maintenance, jp_school_original_scan_blocked, jp_peace_treaty_pdf_blocked, jp_kantei_2020_emergency_missing, jp_soumu_2020_cash_unavailable.
 
-Осталось: Историческая география, недостающие эпохи и местные документы. Повседневные контексты, авторские тексты и полные сравнительные биографии. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
+Осталось: Человеческая редактура чувствительных реплик по D-019 остаётся открытой. Необязательное пополнение местных событий: 1980–1999, 2000–2009, 2010–2020. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
 
 ### jp-hiroshima
 
-Не представлены местными событиями: 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020. Историческая география: not_in_release. Интеграция: not_in_release.
+Не представлены местными событиями: 1920–1939, 2000–2009, 2010–2020. Историческая география: verified. Интеграция: enabled.
 
-Источники местных записей: .
+Источники местных записей: [jp_census_1975_table14](https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398), [jp_hiroshima_astram_history](https://www.jametro.or.jp/subway/japan/hiroshima/), [jp_hiroshima_municipal_history](https://www.city.hiroshima.lg.jp/shisei/gaiyo/1021754/1003436.html), [jp_hiroshima_peace_law](https://www.city.hiroshima.lg.jp/uploaded/attachment/23440.pdf), [jp_hiroshima_shisei_1950_1_3](https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/008/366/239645.pdf).
 
-Недоступные документы страны (не все относятся к этому городу): не зафиксированы.
+Недоступные документы страны (не все относятся к этому городу): jp_jacar_tokyo_1943, jp_kyoto_yearbook_maintenance, jp_school_original_scan_blocked, jp_peace_treaty_pdf_blocked, jp_kantei_2020_emergency_missing, jp_soumu_2020_cash_unavailable.
 
-Осталось: Историческая география, недостающие эпохи и местные документы. Повседневные контексты, авторские тексты и полные сравнительные биографии. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
+Осталось: Человеческая редактура чувствительных реплик по D-019 остаётся открытой. Необязательное пополнение местных событий: 1920–1939, 2000–2009, 2010–2020. Публикация страны на GitHub. Для источников без открытой лицензии экспортируется собственный пересказ фактов, без сканов и цитат.
 
 ### br-sao-paulo
 
@@ -226,6 +226,12 @@
 - ES: [es_oviedo_bop_1910_access_lead](https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364), Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены.
 - ES: [es_barcelona_md_olympics_1992_inaccessible](https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf), Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено.
 - ES: [es_barcelona_la84_report_download_lead](https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf), Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование.
+- JP: [jp_jacar_tokyo_1943](https://www.jacar.archives.go.jp/das/meta/A14101068400), HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано.
+- JP: [jp_kyoto_yearbook_maintenance](https://data.city.kyoto.lg.jp/dataset/00272/), maintenance; 1930 table not downloaded
+- JP: [jp_school_original_scan_blocked](https://www.digital.archives.go.jp/das/image/F0000000000000021096), 403; separately read original legal transcription at Nagoya University
+- JP: [jp_peace_treaty_pdf_blocked](https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf), web no readable text; direct request 403; used modern NDL explanation as secondary
+- JP: [jp_kantei_2020_emergency_missing](https://japan.kantei.go.jp/ongoingtopics/_00018.html), 404; indexed search snippet not treated as read document
+- JP: [jp_soumu_2020_cash_unavailable](https://www.soumu.go.jp/main_content/000685956.pdf), unavailable; separately read contemporary Tokyo Institute of Technology administrative notice
 
 ## Сохранение прежних данных и проверки
 

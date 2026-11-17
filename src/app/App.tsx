@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import archiveCatalogJson from "../../content/historical/archiveCatalog.json";
+import archiveCatalogExpansion from "../../content/historical/archiveCatalogExpansion.json";
 import sourcesJson from "../../content/historical/sources.json";
 import memorySources from "../../content/memory/memorySources.json";
 import worldSourcesJson from "../../public/data/world/sources.json";
@@ -45,7 +46,10 @@ interface ArchiveCatalog {
   regions: Record<string, string[]>;
 }
 
-const archiveCatalog = archiveCatalogJson as ArchiveCatalog;
+const archiveCatalog: ArchiveCatalog = {
+  countries: { ...archiveCatalogJson.countries, ...archiveCatalogExpansion.countries },
+  regions: { ...archiveCatalogJson.regions, ...archiveCatalogExpansion.regions }
+};
 
 function SiteHeader({ onNew }: { onNew?: () => void }) {
   const { locale, setLocale, t } = useI18n();

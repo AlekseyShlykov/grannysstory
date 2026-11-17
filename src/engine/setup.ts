@@ -30,6 +30,7 @@ export interface RegionOption {
 const LEGACY_LOCATIONS = new Set(["ru-moscow", "ru-saint-petersburg", "ru-tver", "ru-veliky-novgorod", "ru-smolensk"]);
 const COUNTRY_IDS: Record<string, string> = {
   ES: "spain",
+  JP: "japan",
   CN: "china",
   DE: "germany",
   FI: "finland",

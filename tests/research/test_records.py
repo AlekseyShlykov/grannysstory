@@ -17,7 +17,7 @@ class ResumableBatchTests(unittest.TestCase):
             progress=root/'research_progress'
             checkpoint.atomic_write(progress/'tasks.json',{'tasks':[{'id':'es.export','state':'completed'}]})
             checkpoint.atomic_write(progress/'countries/es.json',{'country':'ES'})
-            event={'id':'es-local','geographic_scope':'municipal','location_ids':['es-oviedo']}
+            event={'id':'es-local','geographic_scope':'municipal','location_ids':['es-oviedo'],'verification_status':'verified'}
             with patch.object(records,'ROOT',root), patch.object(records,'PROGRESS',progress), patch.object(checkpoint,'PROGRESS',progress):
                 records.save_batch('ES','spain',[event],[])
                 task=lambda: json.loads((progress/'tasks.json').read_text())['tasks'][0]['state']
@@ -29,6 +29,19 @@ class ResumableBatchTests(unittest.TestCase):
                 self.assertEqual(stored,[event])
                 saved=json.loads((progress/'countries/es.json').read_text())
                 self.assertEqual(saved['verified_event_ids'],['es-local'])
+
+    def test_unverified_lead_is_not_a_verified_checkpoint(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory)
+            progress=root/'research_progress'
+            checkpoint.atomic_write(progress/'tasks.json',{'tasks':[{'id':'jp.export','state':'completed'}]})
+            checkpoint.atomic_write(progress/'countries/jp.json',{'country':'JP','verified_event_ids':['jp-lead']})
+            lead={'id':'jp-lead','geographic_scope':'municipal','location_ids':['jp-tokyo'],'verification_status':'needs_review'}
+            with patch.object(records,'ROOT',root), patch.object(records,'PROGRESS',progress), patch.object(checkpoint,'PROGRESS',progress):
+                records.save_batch('JP','japan',[lead],[])
+                saved=json.loads((progress/'countries/jp.json').read_text())
+                self.assertEqual(saved['verified_event_ids'],[])
+                self.assertEqual(json.loads((root/'data/historical/japan/cities/jp-tokyo.json').read_text())['records'],[lead])
 
     def test_conflicting_evidence_never_overwrites_an_existing_record(self):
         with tempfile.TemporaryDirectory() as directory:

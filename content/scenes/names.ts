@@ -11,6 +11,12 @@ export interface NamePalette {
 }
 
 export const namePalettes: Record<string, NamePalette> = {
+  // Fictional Japanese palette for the supported cohorts, not measured regional name frequencies.
+  JP: {
+    firstNames: ["Хару", "Фуми", "Ёси", "Сидзу", "Умэ", "Кику", "Сатико", "Тосико"],
+    surnames: ["Сато", "Судзуки", "Такахаси", "Танака", "Ватанабэ", "Ито", "Ямамото", "Накамура"],
+    surnameFirst: true
+  },
   // Fictional palette, not a frequency table. No patronymic or marriage-driven surname replacement.
   ES: {
     firstNames: ["Мария дель Кармен", "Пилар", "Исабель", "Тереса", "Росарио", "Долорес", "Консепсьон", "Хосефа"],

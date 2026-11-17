@@ -35,6 +35,19 @@ beforeEach(() => {
 });
 
 describe("accessible vertical slice", () => {
+  it("offers the four Japanese cities under Japan and shows their document links", () => {
+    render(<App />);
+    const group = screen.getByRole("group", { name: "Япония" });
+    expect([...group.querySelectorAll("option")].map((option) => option.value).sort()).toEqual([
+      "jp-hiroshima", "jp-kyoto", "jp-osaka", "jp-tokyo"
+    ]);
+    fireEvent.change(screen.getByLabelText("Где она родилась?"), { target: { value: "jp-tokyo" } });
+    const disclosure = screen.getByText("Архивы и официальные источники: Япония").closest("details")!;
+    const links = [...disclosure.querySelectorAll("a")].map((link) => link.href);
+    expect(links).toContain("https://www.koho.metro.tokyo.lg.jp/photo/news/2011/03.html");
+    expect(links.some((url) => url.includes("ndl.go.jp"))).toBe(true);
+  });
+
   it("switches between Russian and English from the fixed menu and remembers the choice", () => {
     const view = render(<I18nProvider><App /></I18nProvider>);
     const english = screen.getByRole("button", { name: "EN" });

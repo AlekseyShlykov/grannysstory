@@ -1,0 +1,2878 @@
+{
+  "sources": [
+    {
+      "source_id": "jp_geonames",
+      "name": "GeoNames: Japan",
+      "publisher": "GeoNames",
+      "country": "JP",
+      "url": "https://www.geonames.org/jp/largest-cities-in-japan.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "geography"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "GeoNames CC BY; https://www.geonames.org/export. Только координаты и современные названия, не историческое свидетельство.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Данные as-is; исторические границы не подтверждают."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "gazetteer",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "jp-tokyo",
+        "jp-kyoto",
+        "jp-osaka",
+        "jp-hiroshima"
+      ],
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API не проверялся и не использовался."
+      },
+      "repository": "GeoNames"
+    },
+    {
+      "source_id": "jp_ndl_constitution_1946",
+      "name": "The Constitution of Japan, Government Printing Bureau English edition",
+      "publisher": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/constitution/e/etc/c01.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "National Diet Library"
+    },
+    {
+      "source_id": "jp_kyoto_tram_history",
+      "name": "都市史28 京都の市電, 京都市歴史資料館",
+      "publisher": "Kyoto City / Kyoto City Historical Materials Museum",
+      "country": "JP",
+      "url": "https://www2.city.kyoto.lg.jp/somu/rekishi/fm/nenpyou/htmlsheet/toshi28.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Kyoto City / Kyoto City Historical Materials Museum"
+    },
+    {
+      "source_id": "jp_hiroshima_peace_law",
+      "name": "The Hiroshima Peace Memorial City Construction Law and Commentary",
+      "publisher": "Hiroshima City",
+      "country": "JP",
+      "url": "https://www.city.hiroshima.lg.jp/uploaded/attachment/23440.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Hiroshima City"
+    },
+    {
+      "source_id": "jp_tokyo_municipal_history",
+      "name": "Tokyo’s History, Geography, and Population, Tokyo Metropolitan Government",
+      "publisher": "Tokyo Metropolitan Government",
+      "country": "JP",
+      "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Tokyo Metropolitan Government"
+    },
+    {
+      "source_id": "jp_kyoto_ic_2014",
+      "name": "門川市長記者会見（2014年9月10日）",
+      "publisher": "Kyoto City",
+      "country": "JP",
+      "url": "https://www.city.kyoto.lg.jp/sogo/page/0000172434.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Kyoto City"
+    },
+    {
+      "source_id": "jp_osaka_transport_exhibit_2011",
+      "name": "第73回特集展示「懐かしい市電とバスのある風景」, Osaka Museum of History",
+      "publisher": "Osaka Museum of History",
+      "country": "JP",
+      "url": "https://www.osakamushis.jp/news/2011/shidentobus.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Osaka Museum of History"
+    },
+    {
+      "source_id": "jp_jacar_tokyo_1943",
+      "name": "JACAR: 東京都制, Ref.A14101068400",
+      "publisher": "Japan Center for Asian Historical Records, National Archives of Japan",
+      "country": "JP",
+      "url": "https://www.jacar.archives.go.jp/das/meta/A14101068400",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "archive",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "HTTP 403. Идентификатор найден в JACAR exhibition; содержание архивного дела не прочитано.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Japan Center for Asian Historical Records, National Archives of Japan"
+    },
+    {
+      "source_id": "jp_tokyo_national_chronology",
+      "name": "Tokyo Metropolitan Government, historical chronology (national entries)",
+      "publisher": "Tokyo Metropolitan Government",
+      "country": "JP",
+      "url": "https://www.english.metro.tokyo.lg.jp/w/000-101-007591",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Tokyo Metropolitan Government"
+    },
+    {
+      "source_id": "jp_census_1975_table14",
+      "name": "Statistics Bureau of Japan / e-Stat: 1975 Population Census, Table 14",
+      "publisher": "Statistics Bureau of Japan / e-Stat",
+      "country": "JP",
+      "url": "https://www.e-stat.go.jp/en/stat-search/file-download?fileKind=2&statInfId=000007915398",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Подлинная таблица отчёта переписи, печатная с. 37. PDF скачан в /tmp через обычный публичный HTTPS, визуально прочитан. Дата первого издания не установлена. SHA-256: ffe4e4e957b65d9577c294eba58612a7f1551daed462c443253d4dc36d31f8f3",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Statistics Bureau of Japan / e-Stat"
+    },
+    {
+      "source_id": "jp_osaka_subway_poster_1933",
+      "name": "地下鉄開通ポスター, 昭和8年, 大阪市交通局蔵",
+      "publisher": "Osaka Museum of History / Osaka Municipal Transportation Bureau",
+      "repository": "Osaka Museum of History / Osaka Municipal Transportation Bureau",
+      "country": "JP",
+      "url": "https://www.osakamushis.jp/news/2011/shidentobus/item2.jpg",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "archive",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Оригинальный плакат визуально прочитан после обычной публичной HTTPS-загрузки. Музейная подпись и датировка: https://www.osakamushis.jp/news/2011/shidentobus.html . На плакате 5月20日開通, 梅田, 心齋橋 и 5分. Инвентарный номер не опубликован; URL изображения используется как идентификатор, не выдуманный шифр.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_osaka_double_decker_photo",
+      "name": "市内を走る二階つき電車, 大阪市交通局蔵",
+      "publisher": "Osaka Museum of History / Osaka Municipal Transportation Bureau",
+      "repository": "Osaka Museum of History / Osaka Municipal Transportation Bureau",
+      "country": "JP",
+      "url": "https://www.osakamushis.jp/news/2011/shidentobus/item1.jpg",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "archive",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Фотография двухэтажного трамвая у Hanazonobashi прочитана визуально. Датировка музея приблизительная: 1906–1908. Подпись https://www.osakamushis.jp/news/2011/shidentobus.html , item (1). Не устанавливает ежедневное пользование каждым жителем.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_nihonbashi_photo_1923",
+      "name": "Nihonbashi Street after the Great Kanto Earthquake, Kanto Daishinsai Kinen",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/thumb/so_thumb/136.jpg",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "archive",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано опубликованное NDL изображение и подпись https://www.ndl.go.jp/modern/e/cha3/description11.html . Около 1923 года. Малое разрешение подтверждает только видимые разрушения улицы, не число жертв и не весь город.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_environment_2013",
+      "name": "平成25年度の主な取組の実施状況, 資料2",
+      "publisher": "Kyoto City, Environmental Policy Bureau",
+      "repository": "Kyoto City, Environmental Policy Bureau",
+      "country": "JP",
+      "url": "https://www.city.kyoto.lg.jp/kankyo/cmsfiles/contents/0000217/217418/shiryou2.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Компиляция оригинальных материалов комиссии за 2013 финансовый год. Прочитаны печатные с.1–5,19–23, не все графические приложения. Дата самой компиляции не установлена; конкретный отчёт о бумаге датирован июлем 2013.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_mayor_floodworks_2015",
+      "name": "門川市長記者会見, 2015年9月16日",
+      "publisher": "Kyoto City, Office of the Mayor",
+      "repository": "Kyoto City, Office of the Mayor",
+      "country": "JP",
+      "url": "https://www.city.kyoto.lg.jp/sogo/page/0000188571.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Текст пресс-конференции 16.09.2015, дата обновления веб-страницы 12.04.2023 не подменяет дату документа. Отчёт должностного лица о собственных работах; оценка эффекта отражает его позицию.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_tokyo_photo_news_2012_02",
+      "name": "東京フォトニュース, 2012年2月",
+      "publisher": "Tokyo Metropolitan Government, public relations",
+      "repository": "Tokyo Metropolitan Government, public relations",
+      "country": "JP",
+      "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/02.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прямой датированный выпуск фотоновостей ведомства. После cache miss веб-инструмента HTML доступен обычным HTTPS и прочитан локально. Это собственный репортаж о городских мероприятиях, не утверждение о результатах олимпийской заявки 2020.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_tokyo_wards_archives",
+      "name": "大東京35区物語: 15区から23区へ",
+      "publisher": "Tokyo Metropolitan Archives",
+      "repository": "Tokyo Metropolitan Archives",
+      "country": "JP",
+      "url": "https://www.soumu.metro.tokyo.lg.jp/01soumu-archives/07edo_tokyo/0714tokyo_ku",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны разделы 35区時代 и 戦災復興: 01.07.1943 упразднены Tokyo-fu/Tokyo-shi, создана Tokyo-to; 15.03.1947 35→22 округа, 01.08.1947 выделен Nerima и стало23. Современный официальный исторический очерк, не оригинал закона; используется для географии, не первичной доли событий.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_prefecture_chronology",
+      "name": "京都府の年表: 明治",
+      "publisher": "Kyoto Prefecture, Public Relations Division",
+      "repository": "Kyoto Prefecture, Public Relations Division",
+      "country": "JP",
+      "url": "https://www.pref.kyoto.jp/nenpyo/meiji.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан официальный хронологический очерк Meiji (обновлён30.07.2018): префектура1868, расширения1871/1876, Kyoto-shi1889 с губернатором как главой, отмена особого городского режима1898. Историческая вторичная опора географии; даты до1900 не экспортируются как события.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_osaka_council_chronology",
+      "name": "市会のあゆみ",
+      "publisher": "Osaka City Council Secretariat",
+      "repository": "Osaka City Council Secretariat",
+      "country": "JP",
+      "url": "https://www.city.osaka.lg.jp/shikai/page/0000001377.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны строки Meiji1889–1912: городская система и муниципалитет в здании Osaka Prefecture в апреле1889, расширение1897. Современная официальная хронология, не первичный оригинал1889; муниципальные площади и население из неё не импортированы.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_hiroshima_city_geography_history",
+      "name": "The History of Hiroshima City",
+      "publisher": "Hiroshima City",
+      "repository": "Hiroshima City",
+      "country": "JP",
+      "url": "https://www.city.hiroshima.lg.jp/english/overview/1029882/1009928.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан раздел4 о Hiroshima Prefecture1871/1872 и городской системе01.04.1889, присоединениях1929,1955,1956 и с1971. Вторичный очерк географии; не основание назначать всем жительницам статус пострадавших от бомбардировки.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_culture_law_1950",
+      "name": "京都国際文化観光都市建設法",
+      "publisher": "House of Representatives of Japan, enacted laws collection",
+      "repository": "House of Representatives of Japan, enacted laws collection",
+      "country": "JP",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/00819501022251.htm",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Статьи1–7 и附則1: культурное развитие, городское планирование, помощь государства; вступление в силу в день опубликования.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_subway_history",
+      "name": "地下鉄のあゆみと概要",
+      "publisher": "Kyoto Municipal Government",
+      "repository": "Kyoto Municipal Government",
+      "country": "JP",
+      "url": "https://www.city.kyoto.lg.jp/kotsu/page/0000094752.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: 地下鉄のあゆみ: открытие29.05.1981, Kitaoji–Kyoto,6.6km.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_heritage_briefing_2016",
+      "name": "門川市長年頭記者会見（2016年1月4日）",
+      "publisher": "Kyoto Municipal Government",
+      "repository": "Kyoto Municipal Government",
+      "country": "JP",
+      "url": "https://www.city.kyoto.lg.jp/sogo/page/0000192381.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Раздел о новой программе京都遺産 и вопросы о Nishijin: объявление системы; Nishijin предложен для рассмотрения, не назван уже признанным.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_osaka_shisei_041",
+      "name": "大阪市政だより第41号",
+      "publisher": "Osaka Municipal Government, Shisei Dayori archive",
+      "repository": "Osaka Municipal Government, Shisei Dayori archive",
+      "country": "JP",
+      "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/041.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Оригинальный скан, нижний правый блок労働会館誕生: новый рабочий центр, комнаты, библиотека и консультации.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_osaka_shisei_094",
+      "name": "市政だより第94号",
+      "publisher": "Osaka Municipal Government, Shisei Dayori archive",
+      "repository": "Osaka Municipal Government, Shisei Dayori archive",
+      "country": "JP",
+      "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/094_1.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Прочитан оригинал: 沈殿水の給水開始 西大阪に工業用水道; подача началась21 июня; не питьевой водопровод.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_osaka_shisei_210",
+      "name": "大阪市政だより第210号,1・2面",
+      "publisher": "Osaka Municipal Government, Shisei Dayori archive",
+      "repository": "Osaka Municipal Government, Shisei Dayori archive",
+      "country": "JP",
+      "url": "https://www.city.osaka.lg.jp/seisakukikakushitsu/cmsfiles/contents/0000010/10544/210_1_2.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Прочитаны обе страницы: p1 месячная кампания против дыма с16 ноября; p2 приглашение на обследование лёгких в Osaka Medical Center.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_hiroshima_shisei_1950_1_3",
+      "name": "市政広報ひろしま,第1–3号",
+      "publisher": "Hiroshima Municipal Government / Municipal Archives",
+      "repository": "Hiroshima Municipal Government / Municipal Archives",
+      "country": "JP",
+      "url": "https://www.city.hiroshima.lg.jp/_res/projects/default_project/_page_/001/008/366/239645.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Hiroshima Municipal Archives: скачать по явной ссылке разрешено для исследования. Для вторичного использования изображений требуется согласование. Сканы не включены в игру; только собственный пересказ фактов и ссылка.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Скан PDF, прочитаныpp1,3,4: первый выпуск1 августа; p1生活相談所開設 с1 июля; p4第2号15 августа химическая пожарная машина.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_hiroshima_municipal_history",
+      "name": "広島の歴史",
+      "publisher": "Hiroshima Municipal Government / Municipal Archives",
+      "repository": "Hiroshima Municipal Government / Municipal Archives",
+      "country": "JP",
+      "url": "https://www.city.hiroshima.lg.jp/shisei/gaiyo/1021754/1003436.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Раздел明治・大正:1902 высшая нормальная школа,1912ноябрь три трамвайные линии.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_hiroshima_astram_history",
+      "name": "広島高速交通のあらまし",
+      "publisher": "Japan Subway Association",
+      "repository": "Japan Subway Association",
+      "country": "JP",
+      "url": "https://www.jametro.or.jp/subway/japan/hiroshima/",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "transport_association",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: НачалоAstram:20.08.1994,Hondori–Koiki-koen-mae18.4km; жилищное развитие северо-запада.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_tokyo_photo_2010_10",
+      "name": "東京フォトニュース2010年10月",
+      "publisher": "Tokyo Metropolitan Government, Tokyo Album",
+      "repository": "Tokyo Metropolitan Government, Tokyo Album",
+      "country": "JP",
+      "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2010/10.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Текст и датированная подпись20.10: строительство туннеляOhi, будущаяShinagawaLine, не уже открытая дорога.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_tokyo_photo_2011_03",
+      "name": "東京フォトニュース2011年3月",
+      "publisher": "Tokyo Metropolitan Government, Tokyo Album",
+      "repository": "Tokyo Metropolitan Government, Tokyo Album",
+      "country": "JP",
+      "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2011/03.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: Датированные репортажи: нарушение транспорта11марта; затем18–23марта сбор помощи в здании правительства.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_tokyo_photo_2012_05",
+      "name": "東京フォトニュース2012年5月",
+      "publisher": "Tokyo Metropolitan Government, Tokyo Album",
+      "repository": "Tokyo Metropolitan Government, Tokyo Album",
+      "country": "JP",
+      "url": "https://www.koho.metro.tokyo.lg.jp/photo/news/2012/05.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Содержание прочитано: 6мая праздникнаSumida;21мая подпись указывает открытиеSkytreeнаследующийдень22мая.. Только собственный пересказ фактов, без сканов и цитат.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_school_order_1900",
+      "name": "小学校令,勅令344号",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/133i0344",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальный текст,ст57,67: принцип без платы за обучение в обычной муниципальной начальной школе; исключения с разрешения губернатора и переход до31.03.1901.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_school_order_1907",
+      "name": "小学校令中改正,勅令52号",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/140i0052",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Ст18: шесть лет обычной начальной школы;附則: основное вступление01.04.1908, местные переходные исключения.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_factory_law_1911",
+      "name": "工場法",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/144a0046",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригиналст1–7: сфера применения, ограничения женского и детского труда, исключения. Здесь событие публикации, не неподтверждённая точная дата исполнения1916.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_tb_law_1919",
+      "name": "結核予防法",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/208a0026",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригиналст1–4: заразные формы туберкулёза, дезинфекция и профилактические указания.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_election_law_1925",
+      "name": "衆議院議員選挙法",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/214a0047",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Ст5–7: мужчины25+, ограничения в том числе для получающих помощь по бедности; женщины исключены.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_relief_law_1929",
+      "name": "救護法",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/304a0039",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригиналст1–3,10: категории бедных получателей, помощь семьи, муниципальная организация, виды помощи.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_relief_order_1931",
+      "name": "救護法施行期日ノ件",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/306i0210",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Единственная оперативная строка устанавливает начало исполнения救護法01.01.1932.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_nhi_law_1938",
+      "name": "国民健康保険法",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/313a0060",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригиналст1–2,9–11: страховые общества, болезни/травмы/роды/смерть, территориальное и профессиональное устройство; не всеобщий охват.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_occupation_directive",
+      "name": "Basic Initial Post Surrender Directive,JCS1380/15",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/constitution/e/shiryo/01/036/036tx.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Сопроводительная дата3Nov1945;PartI2–3: полномочияSCAP, оккупация через японские органы. Дата1Novв каталоге не подменяет дату обложки.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_womens_franchise_1945",
+      "name": "衆議院議員選挙法中改正法律",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/320a0042",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Изменениест5: избиратели20+ без прежнего слова男子; право женщин, не утверждение что конкретная женщина голосовала.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_education_law_1947",
+      "name": "教育基本法,制定時の条文",
+      "publisher": "Ministry of Education, Culture, Sports, Science and Technology, Japan",
+      "repository": "Ministry of Education, Culture, Sports, Science and Technology, Japan",
+      "country": "JP",
+      "url": "https://www.mext.go.jp/b_menu/kihon/about/a001.htm",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Ст3–5 и附則: равенство образовательных возможностей, девять лет обязательного обучения, совместное обучение; исходный текст1947.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_pension_law_1959",
+      "name": "国民年金法,制定時本文",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/334a0141",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригиналст7,26,74–83: пенсионные условия65лет при стаже, исключения и переходные режимы; не всеобщий возраст прекращения труда.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_equal_employment_1985",
+      "name": "雇用機会均等関連改正法",
+      "publisher": "House of Representatives of Japan, enacted laws collection",
+      "repository": "House of Representatives of Japan, enacted laws collection",
+      "country": "JP",
+      "url": "https://www.shugiin.go.jp/internet/itdb_housei.nsf/html/houritsu/10219850601045.htm",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Ст1 и附則1: равные возможности найма/обращения; начало01.04.1986. Первоначальные требования различались по обязательности.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_care_law_1997",
+      "name": "介護保険法,制定時本文",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/409a0123",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Ст1–3: помощь при необходимости ухода, муниципальное страхование;附則1: начало01.04.2000.. Первичность относится к оригинальному тексту документа, не к современным аннотациям или AI要約. Сканы и цитаты не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1904-russo-japanese-war",
+      "name": "Russo-Japanese War",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha2/description26.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1910-korea-annexation",
+      "name": "Japan’s Annexation of Korea",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha2/description27.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1918-rice-riots",
+      "name": "Rice Riots",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha3/description06.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1925-peace-preservation-law",
+      "name": "Universal Manhood Suffrage and Peace Preservation Law",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha3/description13.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1931-manchurian-invasion",
+      "name": "Manchurian Incident of1931",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha4/description01.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1945-atomic-bombings",
+      "name": "Deterioration of War Situation",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha4/description21.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1952-occupation-ends",
+      "name": "Peace Treaty and the U.S.-Japan Security Treaty",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha5/description14.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_history_1955-ldp-formation",
+      "name": "Unification of Conservative Parties",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/cha6/description07.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Историческое объяснение соответствующего события; связанные сканы не засчитаны.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_chronology_reviewed",
+      "name": "Modern Japan: Chronological Table",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/modern/e/utility/chronology.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Строка23.08.1914: объявление войны Германии; современная хронология, не первоисточник.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_census_history",
+      "name": "国勢調査のあゆみ",
+      "publisher": "Statistics Bureau of Japan",
+      "repository": "Statistics Bureau of Japan",
+      "country": "JP",
+      "url": "https://www.stat.go.jp/data/kokusei/2015/kouhou/ayumi.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "statistics",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Раздел1920: первая национальная перепись; историческое объяснение, не оригинальные листы1920.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_social_security_history",
+      "name": "White Paper: Social Security’s Development History",
+      "publisher": "Ministry of Health, Labour and Welfare, Japan",
+      "repository": "Ministry of Health, Labour and Welfare, Japan",
+      "country": "JP",
+      "url": "https://www.mhlw.go.jp/www1/english/wp_5/vol1/p1c1s1.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Раздел implementation of universal insurance: муниципальная система с апреля1961; ретроспективный очерк для этого события.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_china_war",
+      "name": "Second Sino-Japanese War",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/Second_Sino-Japanese_War",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Прочитаны конкретная дата и описание события; вторичный источник по разрешению владельца.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_olympics1964",
+      "name": "1964 Summer Olympics",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/1964_Summer_Olympics",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Прочитаны конкретная дата и описание события; вторичный источник по разрешению владельца.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_shinkansen",
+      "name": "Tokaido Shinkansen",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_Shinkansen",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Прочитаны конкретная дата и описание события; вторичный источник по разрешению владельца.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_asset_bubble",
+      "name": "Japanese asset price bubble",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/Japanese_asset_price_bubble",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Прочитаны конкретная дата и описание события; вторичный источник по разрешению владельца.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_covid2020",
+      "name": "COVID-19 pandemic in Japan",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Japan",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Прочитаны конкретная дата и описание события; вторичный источник по разрешению владельца.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_mofa_okinawa_history",
+      "name": "原本特別展示「沖縄返還協定」",
+      "publisher": "Ministry of Foreign Affairs of Japan",
+      "repository": "Ministry of Foreign Affairs of Japan",
+      "country": "JP",
+      "url": "https://www.mofa.go.jp/mofaj/annai/honsho/shiryo/page24_001761.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Текст объяснения:15.05.1972 возврат управления; непрочитанные фото оригинала не первичная опора.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_bluebook_1974_oil",
+      "name": "Diplomatic Bluebook1974,Chapter1",
+      "publisher": "Ministry of Foreign Affairs of Japan",
+      "repository": "Ministry of Foreign Affairs of Japan",
+      "country": "JP",
+      "url": "https://www.mofa.go.jp/policy/other/bluebook/1974/1974-1.htm",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Contemporary ministry report: autumn1973 oil production cuts/price rises and inflationary slowdown; official perspective is attributed.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_boj_1997_yamaichi",
+      "name": "Statement by the Governor",
+      "publisher": "Bank of Japan, historical policy releases",
+      "repository": "Bank of Japan, historical policy releases",
+      "country": "JP",
+      "url": "https://www.boj.or.jp/en/about/press/danwa/dan9711c.htm",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальное датированное заявление; вводные разделы и решение. Прогнозы отделены от результатов.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_boj_2001_easing",
+      "name": "New Procedures for Money Market Operations and Monetary Easing",
+      "publisher": "Bank of Japan, historical policy releases",
+      "repository": "Bank of Japan, historical policy releases",
+      "country": "JP",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2001/k010319a.htm",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальное датированное заявление; вводные разделы и решение. Прогнозы отделены от результатов.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_boj_2008_crisis",
+      "name": "On Monetary Policy Decisions",
+      "publisher": "Bank of Japan, historical policy releases",
+      "repository": "Bank of Japan, historical policy releases",
+      "country": "JP",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2008/k081219.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальное датированное заявление; вводные разделы и решение. Прогнозы отделены от результатов.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_boj_2013_qqe",
+      "name": "Introduction of Quantitative and Qualitative Monetary Easing",
+      "publisher": "Bank of Japan, historical policy releases",
+      "repository": "Bank of Japan, historical policy releases",
+      "country": "JP",
+      "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2013/k130404a.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальное датированное заявление; вводные разделы и решение. Прогнозы отделены от результатов.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_jma_earthquake2011",
+      "name": "The2011 Great East Japan Earthquake,first report",
+      "publisher": "Japan Meteorological Agency",
+      "repository": "Japan Meteorological Agency",
+      "country": "JP",
+      "url": "https://www.jma.go.jp/jma/en/News/2011_Earthquake_01.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Датированное наблюдение11.03.2011,14:46JST; магнитуда9.0 interim, цунами. Авария АЭС не подтверждается одним сейсмическим отчётом.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_nta_2019_tax_guide",
+      "name": "Consumption and local consumption taxes:2019 guide",
+      "publisher": "National Tax Agency, Japan",
+      "repository": "National Tax Agency, Japan",
+      "country": "JP",
+      "url": "https://www.nta.go.jp/english/taxes/consumption_tax/pdf/2019/general_02.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Прочитанысканывсех3страниц;printedp5:01.10.2019общаяставка10%,льготная8%,исключениядляеды.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_cash_payment_notice2020",
+      "name": "Application for Special Cash Payment",
+      "publisher": "Tokyo Institute of Technology, International Student Exchange Division",
+      "repository": "Tokyo Institute of Technology, International Student Exchange Division",
+      "country": "JP",
+      "url": "https://www.titech.ac.jp/english/enrolled/news/2020/046998",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "university",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальное административное объявление студентам:100000JPYнажителя,включаяиностранцевврегистре;правилорегистрации27апреля.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_census_2020_results",
+      "name": "News BulletinNo326:2020 Census results",
+      "publisher": "Statistics Bureau of Japan",
+      "repository": "Statistics Bureau of Japan",
+      "country": "JP",
+      "url": "https://www.stat.go.jp/english/info/news/20211228.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "statistics",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано: Оригинальныйстатистическийвыпуск:населениена01.10.2020,не событие2021;возрастныепроценты*=сдополнениемнеизвестных.. Современный очерк не считается первичным только из-за архивного домена. Собственный пересказ, без изображений и заимствованного текста.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_consumption_tax_1988",
+      "name": "消費税法",
+      "publisher": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "repository": "Nagoya University Graduate School of Law, Japanese Historical Legal Documents Database",
+      "country": "JP",
+      "url": "https://jahis.law.nagoya-u.ac.jp/lawdb/l/363a0108",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан исходный текст:ст29 ставка3%;附則2 применимость с01.04.1989, записанной как昭和64. AI要約 не используется. Только собственный пересказ фактов; изображения не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_fukushima",
+      "name": "Fukushima nuclear accident",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/Fukushima_nuclear_accident",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано:начало11.03.2011,связьцунами,потеряэнергоснабжения,авария. Вторичная опора, не доказательство личного облучения. Только собственный пересказ фактов; изображения не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_wiki_tokyo_air_raid",
+      "name": "Bombing of Tokyo,10March1945",
+      "publisher": "Wikipedia, Wikimedia Foundation",
+      "repository": "Wikipedia, Wikimedia Foundation",
+      "country": "JP",
+      "url": "https://en.wikipedia.org/wiki/Bombing_of_Tokyo_(10_March_1945)",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано:ночь9/10.03.1945,зажигательнаябомбардировкаUSAAF,разрушениявосточныхрайонов. Безточногоспорногочислажертв. Только собственный пересказ фактов; изображения не распространяются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_ndl_surrender_text",
+      "name": "Instrument of Surrender,2September1945",
+      "publisher": "National Diet Library",
+      "repository": "National Diet Library",
+      "country": "JP",
+      "url": "https://www.ndl.go.jp/constitution/e/etc/c05.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан исходный текст акта2сентября1945,пунктыоSCAP. Толькогеографическаяопора;не новая копиясуществующегособытия капитуляции.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_osaka_expo1970_review",
+      "name": "大阪府:日本万国博覧会関係資料",
+      "publisher": "Osaka Prefectural Government",
+      "repository": "Osaka Prefectural Government",
+      "country": "JP",
+      "url": "https://www.pref.osaka.lg.jp/documents/26540/05_banpakusiryo_touroku.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "Прочитанаp1概要:EXPO70,15.03–13.09.1970,городSuita,префектураOsaka. Современноеописаниеархивногособрания,непрочитанныеоригиналы1965–75не считаются первичными.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kyoto_yearbook_maintenance",
+      "name": "京都市統計書 dataset 00272",
+      "publisher": "Kyoto Municipal Government",
+      "repository": "Kyoto Municipal Government",
+      "country": "JP",
+      "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "maintenance; 1930 table not downloaded",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_school_original_scan_blocked",
+      "name": "小学校令改正 original scan",
+      "publisher": "National Archives of Japan",
+      "repository": "National Archives of Japan",
+      "country": "JP",
+      "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "403; separately read original legal transcription at Nagoya University",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_peace_treaty_pdf_blocked",
+      "name": "San Francisco Peace Treaty PDF",
+      "publisher": "Ministry of Foreign Affairs of Japan",
+      "repository": "Ministry of Foreign Affairs of Japan",
+      "country": "JP",
+      "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "web no readable text; direct request 403; used modern NDL explanation as secondary",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_kantei_2020_emergency_missing",
+      "name": "Emergency declaration 2020",
+      "publisher": "Prime Minister of Japan and His Cabinet",
+      "repository": "Prime Minister of Japan and His Cabinet",
+      "country": "JP",
+      "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "404; indexed search snippet not treated as read document",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "jp_soumu_2020_cash_unavailable",
+      "name": "Special cash payment PDF",
+      "publisher": "Ministry of Internal Affairs and Communications, Japan",
+      "repository": "Ministry of Internal Affairs and Communications, Japan",
+      "country": "JP",
+      "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "JP"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "government",
+      "languages": [
+        "ja"
+      ],
+      "location_ids": [],
+      "notes": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    }
+  ]
+}

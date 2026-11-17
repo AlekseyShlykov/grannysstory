@@ -1,0 +1,181 @@
+{
+  "at": "2026-11-17T21:46:59.685760+00:00",
+  "scope": "8 complete fictional deterministic engine walkthroughs; targeted dialogue reading by agent, not human editorial approval or manual browser play",
+  "source_transcript_sha256": "da4fbd8d276f2270187fba7e3b2d0e2f20169eefabf055020897a1f0339faf93",
+  "regenerate": "JAPAN_REVIEW=/tmp/granny-japan-release-walkthroughs.json npx vitest run tests/japan.test.ts --maxWorkers=1",
+  "spoken_history_48_lives": {
+    "national": 541,
+    "local": 54,
+    "localPercent": 9.07563025210084
+  },
+  "walkthroughs": [
+    {
+      "city": "jp-tokyo",
+      "outcome": "pathA",
+      "name": "Ямамото Фуми",
+      "kinship": "biological_grandmother",
+      "residences": [
+        {
+          "placeId": "jp-tokyo",
+          "fromYear": 1932,
+          "toYear": 1956
+        },
+        {
+          "placeId": "jp-osaka",
+          "fromYear": 1957,
+          "toYear": 1976
+        },
+        {
+          "placeId": "jp-hiroshima",
+          "fromYear": 1977,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "b684d71c7e405e676b5f37dd079d4449622a0f0e270ba6f44b82bd8d504ca849",
+      "atlas_items": 58
+    },
+    {
+      "city": "jp-tokyo",
+      "outcome": "pathB",
+      "name": "Судзуки Кику",
+      "kinship": "great_aunt",
+      "residences": [
+        {
+          "placeId": "jp-tokyo",
+          "fromYear": 1932,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "9ca93c31ccd1dd3123897b235281ac5a40d25c00507e3a6d3b734ef3943113bd",
+      "atlas_items": 57
+    },
+    {
+      "city": "jp-kyoto",
+      "outcome": "pathA",
+      "name": "Ямамото Фуми",
+      "kinship": "biological_grandmother",
+      "residences": [
+        {
+          "placeId": "jp-kyoto",
+          "fromYear": 1932,
+          "toYear": 1956
+        },
+        {
+          "placeId": "jp-osaka",
+          "fromYear": 1957,
+          "toYear": 1976
+        },
+        {
+          "placeId": "jp-hiroshima",
+          "fromYear": 1977,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "6521585a21ec63778e6a5d853d0928266f97ced3064822e88a554b2dcfa8df5a",
+      "atlas_items": 58
+    },
+    {
+      "city": "jp-kyoto",
+      "outcome": "pathB",
+      "name": "Судзуки Кику",
+      "kinship": "great_aunt",
+      "residences": [
+        {
+          "placeId": "jp-kyoto",
+          "fromYear": 1932,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "8e9e1c04269a9c2644839995b9faeda6181fa2047c7cf5f8b07d72564a7d0b12",
+      "atlas_items": 57
+    },
+    {
+      "city": "jp-osaka",
+      "outcome": "pathA",
+      "name": "Ямамото Фуми",
+      "kinship": "biological_grandmother",
+      "residences": [
+        {
+          "placeId": "jp-osaka",
+          "fromYear": 1932,
+          "toYear": 1956
+        },
+        {
+          "placeId": "jp-tokyo",
+          "fromYear": 1957,
+          "toYear": 1976
+        },
+        {
+          "placeId": "jp-kyoto",
+          "fromYear": 1977,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "696bce22d2ae36407063ba1e6bf76a5e1d459be9101a4597dece5d11804a5e54",
+      "atlas_items": 58
+    },
+    {
+      "city": "jp-osaka",
+      "outcome": "pathB",
+      "name": "Судзуки Кику",
+      "kinship": "great_aunt",
+      "residences": [
+        {
+          "placeId": "jp-osaka",
+          "fromYear": 1932,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "2fc68c6ef1801c19189b801158c08800ac2ad31d163f47fe8a0aae3dd67653e1",
+      "atlas_items": 57
+    },
+    {
+      "city": "jp-hiroshima",
+      "outcome": "pathA",
+      "name": "Ямамото Фуми",
+      "kinship": "biological_grandmother",
+      "residences": [
+        {
+          "placeId": "jp-hiroshima",
+          "fromYear": 1932,
+          "toYear": 1956
+        },
+        {
+          "placeId": "jp-osaka",
+          "fromYear": 1957,
+          "toYear": 1976
+        },
+        {
+          "placeId": "jp-hiroshima",
+          "fromYear": 1977,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "06654f7bb0b011feace16489fa3fd2e379787981cc8e442fa64390bb86f9af4e",
+      "atlas_items": 58
+    },
+    {
+      "city": "jp-hiroshima",
+      "outcome": "pathB",
+      "name": "Судзуки Кику",
+      "kinship": "great_aunt",
+      "residences": [
+        {
+          "placeId": "jp-hiroshima",
+          "fromYear": 1932,
+          "toYear": 2020
+        }
+      ],
+      "transcript_items": 51,
+      "transcript_sha256": "21a9d5311d78e03b7fe9daec5b8c480d8bf52a670bcf8cb35b5d4bfe41e100fd",
+      "atlas_items": 57
+    }
+  ]
+}

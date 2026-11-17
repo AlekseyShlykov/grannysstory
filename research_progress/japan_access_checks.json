@@ -1,0 +1,33 @@
+{
+  "checked_on": "2026-11-17",
+  "checks": [
+    {
+      "source_id": "jp_kyoto_yearbook_maintenance",
+      "url": "https://data.city.kyoto.lg.jp/dataset/00272/",
+      "outcome": "maintenance; 1930 table not downloaded"
+    },
+    {
+      "source_id": "jp_school_original_scan_blocked",
+      "url": "https://www.digital.archives.go.jp/das/image/F0000000000000021096",
+      "outcome": "403; separately read original legal transcription at Nagoya University"
+    },
+    {
+      "source_id": "jp_peace_treaty_pdf_blocked",
+      "url": "https://www.mofa.go.jp/mofaj/gaiko/treaty/pdfs/B-S38-P2-795_1.pdf",
+      "outcome": "web no readable text; direct request 403; used modern NDL explanation as secondary"
+    },
+    {
+      "source_id": "jp_kantei_2020_emergency_missing",
+      "url": "https://japan.kantei.go.jp/ongoingtopics/_00018.html",
+      "outcome": "404; indexed search snippet not treated as read document"
+    },
+    {
+      "source_id": "jp_soumu_2020_cash_unavailable",
+      "url": "https://www.soumu.go.jp/main_content/000685956.pdf",
+      "outcome": "unavailable; separately read contemporary Tokyo Institute of Technology administrative notice"
+    }
+  ],
+  "additional_known_block": "JACAR A14101068400: 403; not used as read evidence",
+  "restrictions_bypassed": false,
+  "bulk_or_api_assumed": false
+}
