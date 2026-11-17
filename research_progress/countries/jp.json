@@ -1,14 +1,14 @@
 {
   "country": "JP",
-  "stage": "release_validated",
+  "stage": "published",
   "cities": [
     "jp-tokyo",
     "jp-kyoto",
     "jp-osaka",
     "jp-hiroshima"
   ],
-  "status": "in_progress",
-  "next_action": "Опубликовать проверенный японский выпуск main; проверить Pages и хэши6 японских пакетов.",
+  "status": "completed",
+  "next_action": "ОСТАНОВИТЬСЯ. Япония выпущена; оставшиеся страны только по новому указанию владельца.",
   "geography": "verified city points, dated prefectural parents and Allied occupation; no immutable municipal polygons",
   "updated": "2026-11-17",
   "last_source_id": "jp_soumu_2020_cash_unavailable",
@@ -136,5 +136,19 @@
   ],
   "last_source_metadata_update": "jp_census_1975_table14",
   "last_export": "b30173e0e46eaaa5f1e55087d0c8922eec900fb0f0800db2aca9ac7f8f47909e",
-  "updated_at": "2026-11-17T21:46:59.685760+00:00"
+  "updated_at": "2026-11-17T21:50:26.884770+00:00",
+  "published_commit": "e716cbaf244bba64987d21d58841635898f15c76",
+  "publication": {
+    "at": "2026-11-17T21:50:26.884770+00:00",
+    "status": "published",
+    "branch": "main",
+    "release_commit": "e716cbaf244bba64987d21d58841635898f15c76",
+    "base_commit": "ea83a1737d8c9d49953b7135822d1e37708942af",
+    "pages_run": 44183589453,
+    "pages_conclusion": "success",
+    "pages_url": "https://github.com/AlekseyShlykov/grannysstory/actions/runs/44183589453",
+    "site": "https://buildtounderstand.dev/grannysstory/",
+    "live_index_manifest_six_japanese_packs_sha256": "matched",
+    "next_action": "STOP. Japan complete; other countries require a new owner instruction."
+  }
 }

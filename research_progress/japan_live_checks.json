@@ -1,0 +1,66 @@
+{
+  "at": "2026-11-17T21:50:26.884770+00:00",
+  "release_commit": "e716cbaf244bba64987d21d58841635898f15c76",
+  "pages_run": 44183589453,
+  "all_matched": true,
+  "checks": [
+    {
+      "file": "public/data/world/manifest.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/manifest.json",
+      "sha256": "b30173e0e46eaaa5f1e55087d0c8922eec900fb0f0800db2aca9ac7f8f47909e",
+      "live_sha256": "b30173e0e46eaaa5f1e55087d0c8922eec900fb0f0800db2aca9ac7f8f47909e",
+      "matched": true
+    },
+    {
+      "file": "public/data/world/packs/jp.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/packs/jp.json",
+      "sha256": "530968ff711df199b595850880e6c43496bd07299ec84e66a2914dd27d68a658",
+      "live_sha256": "530968ff711df199b595850880e6c43496bd07299ec84e66a2914dd27d68a658",
+      "matched": true
+    },
+    {
+      "file": "public/data/world/packs/jp-tokyo.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/packs/jp-tokyo.json",
+      "sha256": "9a919eca96fbe580aab9083bd684fe69bd6d8648a04ec584099f21f5140867b3",
+      "live_sha256": "9a919eca96fbe580aab9083bd684fe69bd6d8648a04ec584099f21f5140867b3",
+      "matched": true
+    },
+    {
+      "file": "public/data/world/packs/jp-kyoto.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/packs/jp-kyoto.json",
+      "sha256": "65dbf7d3ef055803bd4090b510f1899a0c767f3943a974904d6747486e617fc4",
+      "live_sha256": "65dbf7d3ef055803bd4090b510f1899a0c767f3943a974904d6747486e617fc4",
+      "matched": true
+    },
+    {
+      "file": "public/data/world/packs/jp-osaka.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/packs/jp-osaka.json",
+      "sha256": "ecd304e474e7863098d1cb3a44ae562b1e24f22ab293cf41059d8c2adb2a6767",
+      "live_sha256": "ecd304e474e7863098d1cb3a44ae562b1e24f22ab293cf41059d8c2adb2a6767",
+      "matched": true
+    },
+    {
+      "file": "public/data/world/packs/jp-hiroshima.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/packs/jp-hiroshima.json",
+      "sha256": "98d34b97f5cab0a50c6740087cba5e98136f595f428e4973ba11c86ee36fab2f",
+      "live_sha256": "98d34b97f5cab0a50c6740087cba5e98136f595f428e4973ba11c86ee36fab2f",
+      "matched": true
+    },
+    {
+      "file": "public/data/world/packs/jp-osaka-prefecture.json",
+      "url": "https://buildtounderstand.dev/grannysstory/data/world/packs/jp-osaka-prefecture.json",
+      "sha256": "2be3ec14424247eb2776fe323d6abfdf9e9b09a8d2045633aac06e3abec47c41",
+      "live_sha256": "2be3ec14424247eb2776fe323d6abfdf9e9b09a8d2045633aac06e3abec47c41",
+      "matched": true
+    },
+    {
+      "file": "dist/index.html",
+      "url": "https://buildtounderstand.dev/grannysstory/index.html",
+      "sha256": "60ff974072653cd3cc1803de998b65a864ec304e80247f1c3b2ae9b3681f00f4",
+      "live_sha256": "60ff974072653cd3cc1803de998b65a864ec304e80247f1c3b2ae9b3681f00f4",
+      "matched": true
+    }
+  ],
+  "browser_play": false,
+  "method": "Direct HTTPS after successful Pages run; followed redirects; compared bytes to exact release output."
+}

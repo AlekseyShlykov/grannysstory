@@ -1,8 +1,13 @@
 {
-  "at": "2026-11-17T21:46:59.685760+00:00",
-  "status": "release_validated",
+  "at": "2026-11-17T21:50:26.884770+00:00",
+  "status": "published",
   "branch": "main",
+  "release_commit": "e716cbaf244bba64987d21d58841635898f15c76",
   "base_commit": "ea83a1737d8c9d49953b7135822d1e37708942af",
+  "pages_run": 44183589453,
+  "pages_conclusion": "success",
+  "pages_url": "https://github.com/AlekseyShlykov/grannysstory/actions/runs/44183589453",
   "site": "https://buildtounderstand.dev/grannysstory/",
-  "next_action": "Commit and push the reviewed Japan-only release; verify Pages and live SHA-256."
+  "live_index_manifest_six_japanese_packs_sha256": "matched",
+  "next_action": "STOP. Japan complete; other countries require a new owner instruction."
 }

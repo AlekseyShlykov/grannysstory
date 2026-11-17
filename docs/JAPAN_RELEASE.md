@@ -55,3 +55,5 @@
 После Японии работа останавливается. По исходному расширению остаются Бразилия (3 города), ЮАР (2), ДР Конго (2), Египет (3), всего10 городов. Новый запуск не начинает их без нового указания владельца. Supervisor создан и проверен локальным имитатором, но не запущен: реальный Codex CLI возвращает model_not_found с существующим входом ChatGPT. Инструкция: `research_progress/RESUME.md`. Автоматическое продолжение не объявляется настроенным.
 
 Публикация и проверка действующего сайта записываются в `research_progress/japan_publication.json` и `research_progress/japan_live_checks.json`. Игра: https://buildtounderstand.dev/grannysstory/.
+
+Япония опубликована в [коммите e716cba](https://github.com/AlekseyShlykov/grannysstory/commit/e716cbaf244bba64987d21d58841635898f15c76). [Pages run 44183589453](https://github.com/AlekseyShlykov/grannysstory/actions/runs/44183589453) завершился успешно. Индекс приложения, манифест и6 японских пакетов на [действующем сайте](https://buildtounderstand.dev/grannysstory/) совпали поSHA-256; значения в japan_live_checks.json. После Японии работа остановлена.

@@ -378,8 +378,7 @@
       "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
       "remaining": [
         "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
-        "Необязательное пополнение местных событий: 1900–1919, 1980–1999, 2000–2009.",
-        "Публикация страны на GitHub."
+        "Необязательное пополнение местных событий: 1900–1919, 1980–1999, 2000–2009."
       ]
     },
     "jp-kyoto": {
@@ -538,8 +537,7 @@
       "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
       "remaining": [
         "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
-        "Необязательное пополнение местных событий: 1920–1939, 2000–2009.",
-        "Публикация страны на GitHub."
+        "Необязательное пополнение местных событий: 1920–1939, 2000–2009."
       ]
     },
     "jp-osaka": {
@@ -690,8 +688,7 @@
       "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
       "remaining": [
         "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
-        "Необязательное пополнение местных событий: 1980–1999, 2000–2009, 2010–2020.",
-        "Публикация страны на GitHub."
+        "Необязательное пополнение местных событий: 1980–1999, 2000–2009, 2010–2020."
       ]
     },
     "jp-hiroshima": {
@@ -819,8 +816,7 @@
       "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
       "remaining": [
         "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
-        "Необязательное пополнение местных событий: 1920–1939, 2000–2009, 2010–2020.",
-        "Публикация страны на GitHub."
+        "Необязательное пополнение местных событий: 1920–1939, 2000–2009, 2010–2020."
       ]
     }
   },
@@ -838,5 +834,18 @@
   "secondary_wikipedia_allowed": true,
   "primary_threshold_percent": 55,
   "human_sensitive_review": "OPEN under D-019",
-  "manual_browser_play": false
+  "manual_browser_play": false,
+  "publication": {
+    "at": "2026-11-17T21:50:26.884770+00:00",
+    "status": "published",
+    "branch": "main",
+    "release_commit": "e716cbaf244bba64987d21d58841635898f15c76",
+    "base_commit": "ea83a1737d8c9d49953b7135822d1e37708942af",
+    "pages_run": 44183589453,
+    "pages_conclusion": "success",
+    "pages_url": "https://github.com/AlekseyShlykov/grannysstory/actions/runs/44183589453",
+    "site": "https://buildtounderstand.dev/grannysstory/",
+    "live_index_manifest_six_japanese_packs_sha256": "matched",
+    "next_action": "STOP. Japan complete; other countries require a new owner instruction."
+  }
 }
