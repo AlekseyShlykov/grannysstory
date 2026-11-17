@@ -88,5 +88,10 @@
     "Human literary review under D-019",
     "Manual browser play; automated UI and engine paths passed"
   ],
-  "publication": "pending first Spain-only push; rejected broad commit is not an ancestor of this release"
+  "publication": {
+    "commit": "f323c786c671445a354ef37c96038b283d02d365",
+    "pages_run": 44169261454,
+    "status": "success",
+    "live_manifest_and_five_packs_sha256": "matched"
+  }
 }

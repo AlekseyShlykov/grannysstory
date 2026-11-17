@@ -1,14 +1,14 @@
 {
   "country": "ES",
-  "stage": "release_validated",
+  "stage": "published",
   "cities": [
     "es-barcelona",
     "es-madrid",
     "es-oviedo",
     "es-malaga"
   ],
-  "status": "in_progress",
-  "next_action": "Push только Испании из /tmp/granny-spain-only-20261117,проверить GitHub Pages,сохранить checkpoint и остановиться.",
+  "status": "completed",
+  "next_action": "ОСТАНОВИТЬСЯ после Испании;другая страна только по следующему указанию владельца.",
   "geography": "verified settlement points, provinces and dated modern autonomy; geographic Catalonia distinct from autonomous institutions; no polygon/control-line reconstruction",
   "updated": "2026-11-17",
   "last_source_id": "es_wiki_second_republic",
@@ -165,7 +165,7 @@
   ],
   "last_source_metadata_update": "es_gaceta_1931_344",
   "last_export": "e18c3dbfba118d540cf06c2863bf1f1e569bdb542dffa1ad26ce443d5d68d43b",
-  "updated_at": "2026-11-17T20:25:19.613445+00:00",
+  "updated_at": "2026-11-17T20:30:39.023519+00:00",
   "readiness": "supported",
   "verified_events": 87,
   "primary_events": 66,
@@ -177,5 +177,8 @@
     "D-019 sensitive editorial human review remains open",
     "No manual browser play",
     "No exact municipal boundary polygons or Civil War front-line migration model"
-  ]
+  ],
+  "release_commit": "f323c786c671445a354ef37c96038b283d02d365",
+  "pages_run": 44169261454,
+  "pages_status": "success"
 }
