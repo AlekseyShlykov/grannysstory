@@ -154,7 +154,7 @@ describe("accessible vertical slice", () => {
     render(<App />);
     fireEvent.click(screen.getByRole("button", { name: "Случайная история" }));
     await screen.findByRole("group", { name: "Что спросить" });
-    expect(fetch).toHaveBeenCalledWith(expect.stringMatching(/^\/data\/(regions\/\w+|world\/packs\/[\w-]+)\.json$/));
+    expect(fetch).toHaveBeenCalledWith(expect.stringMatching(/^\/data\/(?:regions\/\w+\.json|world\/packs\/[\w-]+\.json\?sha256=[a-f0-9]{64})$/));
   });
 
   it("opens on a random place and year on each load", () => {

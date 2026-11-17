@@ -11,6 +11,11 @@ export interface NamePalette {
 }
 
 export const namePalettes: Record<string, NamePalette> = {
+  // Fictional palette, not a frequency table. No patronymic or marriage-driven surname replacement.
+  ES: {
+    firstNames: ["Мария дель Кармен", "Пилар", "Исабель", "Тереса", "Росарио", "Долорес", "Консепсьон", "Хосефа"],
+    surnames: ["Гарсия Руис", "Лопес Мартин", "Перес Гомес", "Мартинес Диас", "Санчес Ромеро", "Фернандес Торрес"]
+  },
   RU: {
     firstNames: ["Анна", "Валентина", "Галина", "Зоя", "Лидия", "Нина", "Раиса", "Тамара"],
     patronymics: ["Алексеевна", "Васильевна", "Ивановна", "Михайловна", "Николаевна", "Петровна", "Сергеевна"],

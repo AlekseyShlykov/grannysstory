@@ -1,0 +1,92 @@
+{
+  "at": "2026-11-17T20:25:19.613445+00:00",
+  "scope": "Only Spain is added; no other expansion country or Bosnia records published",
+  "manifest_sha256": "e18c3dbfba118d540cf06c2863bf1f1e569bdb542dffa1ad26ce443d5d68d43b",
+  "sqlite_sha256": "8539ffbab3f676b565f5bc533bb96e79440c34731028cbee54d5ae3f0f295c67",
+  "commands": [
+    {
+      "command": "npm run data:world",
+      "result": "passed",
+      "authoring": {
+        "locations": 286,
+        "sources": 524,
+        "events": 2723,
+        "contexts": 594,
+        "errors": 0,
+        "warnings": 0
+      },
+      "exported": {
+        "contexts": 592,
+        "events": 2716,
+        "locations": 286,
+        "sources": 444
+      },
+      "log": "/tmp/granny-spain-only-pipeline.log"
+    },
+    {
+      "command": "npm test -- --reporter=dot --maxWorkers=1",
+      "result": "passed",
+      "tests": 323,
+      "files": 23,
+      "skipped": 3,
+      "skip_reason": "Only future BR/JP/CD geography tests; those countries are not in this release. Every existing supported country and all ES tests pass.",
+      "log": "/tmp/granny-spain-only-tests.log"
+    },
+    {
+      "command": "npm run test:research",
+      "result": "passed",
+      "tests": 25,
+      "log": "/tmp/granny-spain-only-research-tests.log"
+    },
+    {
+      "command": "npm run build:pages",
+      "result": "passed",
+      "includes": [
+        "historical-data validation",
+        "world validation",
+        "TypeScript",
+        "Vite Pages build"
+      ],
+      "warning": "Existing eager content bundle remains >500kB.",
+      "log": "/tmp/granny-spain-only-build.log"
+    },
+    {
+      "command": "nine Spain batch replays with authored SHA-256 comparison in original workspace",
+      "result": "passed",
+      "changed_authored_files": 0
+    },
+    {
+      "command": "competing pipeline under flock in original workspace",
+      "result": "passed",
+      "sqlite_unchanged": true
+    },
+    {
+      "command": "SQLite PRAGMA integrity_check in release",
+      "result": "passed",
+      "output": "ok"
+    },
+    {
+      "command": "scope/preservation comparison with parent",
+      "result": "passed",
+      "proof": "research_progress/RELEASE_SCOPE_CHECK.json"
+    }
+  ],
+  "comparative_biographies": {
+    "ES": "8 full city/outcome comparisons, plus 48 complete paths for boundary/war-adjacent birth cohorts; 41 birth cohorts generated per city; onward migration works using only app-prepared offline packs",
+    "others": "not included, not claimed ready"
+  },
+  "manual_browser_play": false,
+  "human_sensitive_editorial_review": "Open under existing provisional D-019; no human approval claimed",
+  "supervisor": {
+    "started": false,
+    "fake_cli_tests": "passed",
+    "real_cli_configuration_error": "model_not_found",
+    "stop_after_country": "ES"
+  },
+  "remaining_spain": [
+    "Optional local Madrid 1960–1979 event gap",
+    "Human literary review under D-019",
+    "Manual browser play; automated UI and engine paths passed"
+  ],
+  "publication": "pending first Spain-only push; rejected broad commit is not an ancestor of this release"
+}

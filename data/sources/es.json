@@ -1,0 +1,3088 @@
+{
+  "sources": [
+    {
+      "source_id": "es_geonames",
+      "name": "GeoNames: Spain",
+      "publisher": "GeoNames",
+      "country": "ES",
+      "url": "https://www.geonames.org/es/largest-cities-in-spain.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "geography"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "GeoNames CC BY; https://www.geonames.org/export. Только координаты и современные названия, не историческое свидетельство.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Данные as-is; исторические границы не подтверждают."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "gazetteer",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [
+        "es-barcelona",
+        "es-madrid",
+        "es-oviedo",
+        "es-malaga"
+      ],
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API не проверялся и не использовался."
+      },
+      "repository": "GeoNames"
+    },
+    {
+      "source_id": "es_boe_constitution_1978",
+      "name": "Constitución Española, BOE-A-1978-31229, texto original",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1978-31229",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Agencia Estatal Boletín Oficial del Estado"
+    },
+    {
+      "source_id": "es_bcn_bus_launch_2012",
+      "name": "Balanç de la jornada de vaga a la xarxa d’autobusos de TMB",
+      "publisher": "Transports Metropolitans de Barcelona",
+      "country": "ES",
+      "url": "https://noticies.tmb.cat/sala-de-premsa/balanc-de-jornada-de-vaga-xarxa-dautobusos-de-tmb",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "ca"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Transports Metropolitans de Barcelona"
+    },
+    {
+      "source_id": "es_madrid_metro_1919_2019",
+      "name": "100 años de la red de metro, CRTM, octubre 2019",
+      "publisher": "Consorcio Regional de Transportes de Madrid",
+      "country": "ES",
+      "url": "https://www.crtm.es/media/heofhgdi/serie_i_historico_metro_2019_portada.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Consorcio Regional de Transportes de Madrid"
+    },
+    {
+      "source_id": "es_madrid_strike_2019",
+      "name": "Servicios mínimos para la huelga de Metro, 15 octubre 2019",
+      "publisher": "Comunidad de Madrid",
+      "country": "ES",
+      "url": "https://www.comunidad.madrid/file/181629/download",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Comunidad de Madrid"
+    },
+    {
+      "source_id": "es_asturias_health_2016",
+      "name": "Informe Anual del Sistema Nacional de Salud 2016: Principado de Asturias",
+      "publisher": "Ministerio de Sanidad / Gobierno del Principado de Asturias",
+      "country": "ES",
+      "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnualSNS2016/Asturias.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Ministerio de Sanidad / Gobierno del Principado de Asturias"
+    },
+    {
+      "source_id": "es_malaga_metro_2014",
+      "name": "Inauguración del metro de Málaga, Junta de Andalucía",
+      "publisher": "Junta de Andalucía",
+      "country": "ES",
+      "url": "https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/servicios/actualidad/noticias/detalle/92029.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Junta de Andalucía"
+    },
+    {
+      "source_id": "es_loc_barcelona_1908",
+      "name": "Library of Congress: Barcelona Rambla, stereograph 1908",
+      "publisher": "Library of Congress",
+      "country": "ES",
+      "url": "https://www.loc.gov/item/2021644475/",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "archive",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "HTTP 403 при открытии карточки. Поисковый фрагмент не считается просмотром оригинала.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Library of Congress"
+    },
+    {
+      "source_id": "es_ahcb_guide_1912",
+      "name": "Barcelona, guía general de la ciudad y numerada de sus principales calles, José Mª Merino Lubián",
+      "publisher": "Arxiu Històric de la Ciutat de Barcelona",
+      "country": "ES",
+      "url": "https://ahcbdigital.bcn.cat/es/biblioteca/detalle/ahcb-d088026",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "catalogued",
+      "accessed": null,
+      "source_type": "library",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Карточка 1912 года прочитана; viewer показывает только оболочку, содержание путеводителя не извлечено.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Arxiu Històric de la Ciutat de Barcelona"
+    },
+    {
+      "source_id": "es_moncloa_history_2012",
+      "name": "España hoy 2012, Presidencia del Gobierno, Historia",
+      "publisher": "Gobierno de España, Presidencia del Gobierno",
+      "country": "ES",
+      "url": "https://lamoncloa.gob.es/espana/historico/Documents/Espa%C3%B1a%20hoy%202012.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Gobierno de España, Presidencia del Gobierno"
+    },
+    {
+      "source_id": "es_ine_census_1910_provinces",
+      "name": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+      "publisher": "Instituto Nacional de Estadística",
+      "country": "ES",
+      "url": "https://www.ine.es/inebaseweb/pdfDispacher.do?ext=.pdf&td=146689",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Instituto Nacional de Estadística"
+    },
+    {
+      "source_id": "es_gaceta_1931_344",
+      "name": "Agencia Estatal BOE / Gaceta de Madrid 344, 10 diciembre 1931",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1931/12/10/pdfs/GMD-1931-344.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-16",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      },
+      "repository": "Agencia Estatal Boletín Oficial del Estado"
+    },
+    {
+      "source_id": "es_statute_catalonia",
+      "name": "Ley Orgánica 4/1979, Estatuto de Autonomía de Cataluña",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1979-30178",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL: начальные статьи о территории/организации и данные ANÁLISIS о вступлении в силу. Дата подписания не подменяет дату действия. Правовая норма не доказывает одинаковую практику во всех семьях.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_statute_andalusia",
+      "name": "Ley Orgánica 6/1981, Estatuto de Autonomía para Andalucía",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1982-633",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL: начальные статьи о территории/организации и данные ANÁLISIS о вступлении в силу. Дата подписания не подменяет дату действия. Правовая норма не доказывает одинаковую практику во всех семьях.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_statute_asturias",
+      "name": "Ley Orgánica 7/1981, Estatuto de Autonomía para Asturias",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1982-634",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL: начальные статьи о территории/организации и данные ANÁLISIS о вступлении в силу. Дата подписания не подменяет дату действия. Правовая норма не доказывает одинаковую практику во всех семьях.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_statute_madrid",
+      "name": "Ley Orgánica 3/1983, Estatuto de Autonomía de la Comunidad de Madrid",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1983-6317",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL: начальные статьи о территории/организации и данные ANÁLISIS о вступлении в силу. Дата подписания не подменяет дату действия. Правовая норма не доказывает одинаковую практику во всех семьях.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_province_rename_1983",
+      "name": "Ley 1/1983: provincia de Oviedo → Asturias",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/boe/dias/1983/04/07/pdfs/A09482-09482.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан оригинал BOE №83, с.9482: artículo único и disposición final. Город Овьедо не переименован; действие с 08.04.1983, а не с даты подписания 05.04.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_vaccination_minutes_1901",
+      "name": "La Beneficencia Municipal de Málaga: acta del 13 de diciembre de 1901",
+      "publisher": "Archivo Municipal de Málaga",
+      "repository": "Archivo Municipal de Málaga",
+      "country": "ES",
+      "url": "https://archivomunicipal.malaga.eu/opencms/export/sites/archivo-municipal/.galeria-descargas/10ebb013-ba53-11e3-86e5-005056846acf/C3.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "PDF открыт в web; скачан обычным публичным HTTP-запросом. Прочитана транскрипция с.11–12 и визуально факсимиле с.14–15. Оригинал: Actas Capitulares, vol.302, ff.245–246. В приложении воспроизведены оригинальные листы; первичность относится к ним и транскрипции заседания, не ко всему современному историческому очерку. Источник свидетельствует о дискуссии и решении совета, не о всеобщем исполнении вакцинации.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_park_libraries_documents",
+      "name": "Las Bibliotecas de Parques y Jardines de Málaga. Vestigios de otra época en el Archivo Municipal",
+      "publisher": "Archivo Municipal de Málaga",
+      "repository": "Archivo Municipal de Málaga",
+      "country": "ES",
+      "url": "https://archivomunicipal.malaga.eu/opencms/export/sites/archivo-municipal/.galeria-descargas/10ebb013-ba53-11e3-86e5-005056846acf/C9.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны исторический очерк с.3–6 и оригинальные Normas para los lectores от23.04.1953 на с.19 (скачивание и визуальное чтение). Открытие библиотеки12.10.1926 описано современным очерком и считается вторичной опорой. Правила1953 первичны: читать только на ближайших скамьях, одну книгу за раз, вернуть на место, не шуметь. Правила не доказывают, что каждый житель пользовался библиотекой.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_proteo_licence_report_1969",
+      "name": "Una aproximación a las librerías malagueñas del siglo XX: expediente Proteo",
+      "publisher": "Archivo Municipal de Málaga",
+      "repository": "Archivo Municipal de Málaga",
+      "country": "ES",
+      "url": "https://archivomunicipal.malaga.eu/opencms/export/sites/archivo-municipal/.galeria-descargas/10ebb013-ba53-11e3-86e5-005056846acf/C14.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан очерк с.1–4 и визуально оригинальный Informe del Negociado de Policía Urbana,04.09.1969, с.6 PDF. На с.6 положительное заключение по заявке на розничную продажу новых книг, Juan de Padilla18; не само окончательное разрешение. Отдельный шифр дела в прочитанном листе не установлен. Сведения очерка о подпольных книгах не приписываются этому административному листу. События2021 не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_medicine_law_1968",
+      "name": "Ley56/1968 sobre creación de Facultades de Medicina",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-908",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, arts.1–3, и ANÁLISIS. Закон27.07, опубликован29.07.1968, вступил в силу18.08.1968. Статья3 требует постепенного введения курсов при наличии средств и помещений; это юридическое создание, не утверждение о немедленном обучении всех желающих.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_university_decree_1972",
+      "name": "Decreto2566/1972 por el que se crean las Universidades de Córdoba, Málaga y Santander",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/boe/dias/1972/09/30/pdfs/A17512-17512.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Оригинальный одностраничный PDF прочитан через web, art.2,4,7. Создание Университета Малаги, экономический факультет из состава Гранады и новый медицинский; округ соответствует провинции. Decreto18.08.1972, публикация30.09, вступление01.10.1972. Дата юридического действия отделена от подписания.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_university_fire_photo_1934",
+      "name": "Fotografías del incendio de la Universidad de Oviedo el13 de octubre de1934",
+      "publisher": "Universidad de Oviedo / REBIUN",
+      "repository": "Universidad de Oviedo / REBIUN",
+      "country": "ES",
+      "url": "https://colecciones.rebiun.org/s/exp-malheridos/item/442",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Открыта карточка: Universidad de Oviedo AFUO.GP-Alb.1-1. Изображение e748a934dc3c4146a0c1342c3f823e4d3c098133.jpg скачано по публичной ссылке карточки и визуально просмотрено. Видны горящее здание/дым; дата и идентификация даны институциональной карточкой. Фото не доказывает виновников, число жертв или судьбу конкретного человека. Не публиковать само изображение без проверки прав.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_reconstruction_order_1939",
+      "name": "Orden de12 de diciembre de1939: Junta de Reconstrucción de Oviedo",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1939/12/15/pdfs/BOE-1939-349.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитана только с.7043, Orden12.12.1939, опубликованная15.12: передать документацию и средства упразднённой Junta de Socorros совету реконструкции. В преамбуле упоминается Decreto25.04.1938, но самостоятельная первичная проверка того декрета не заявляется. Пропагандные формулы диктатуры не принимаются как нейтральные описания и не копируются в игровой текст.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_urban_plan_1941",
+      "name": "Plan de urbanización de Oviedo, Germán Valentín y García Noblejas, Revista Nacional de Arquitectura4(1941)",
+      "publisher": "Biblioteca del Colegio Oficial de Arquitectos de Madrid / Dirección General de Arquitectura",
+      "repository": "Biblioteca del Colegio Oficial de Arquitectos de Madrid / Dirección General de Arquitectura",
+      "country": "ES",
+      "url": "https://www.coam.org/media/Default%20Files/fundacion/biblioteca/revista-arquitectura-100/1941-1946/docs/revista-completa/revista-nacional-arquitectura-1941-n04.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "PDF открыт и скачан, прочитаны оглавление и разделы статьи на печатных с.17,25–26,28,30,36. С.1 подтверждает год1941 и автора; месяц не установлен. Автор плана описывает состояние и проекты на фоне реконструкции. Схемы подписаны ноябрём1940; публикация1941 не равна утверждению или завершению всех работ. Политически ангажированный источник режима: его социальная иерархия и пропагандные оценки не переносятся в авторский голос; статистика и утверждения о боевых действиях без независимой проверки не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_anales_tomo_2",
+      "name": "Anales de la Universidad de Oviedo, tomo II",
+      "publisher": "Universidad de Oviedo / Repositorio Institucional de la Universidad de Oviedo",
+      "repository": "Universidad de Oviedo / Repositorio Institucional de la Universidad de Oviedo",
+      "country": "ES",
+      "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/5290/000000662825_Tomo_02.pdf?isAllowed=y&sequence=32",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "library",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Обычное открытие web дало тайм-аут; публичный PDF успешно скачан без обхода ограничений. Прочитаны Las clases populares, pp.276–280 (PDF280–284), Las colonias escolares, pp.281–285 (PDF285–289), оглавление и колофон. На последнем листе дата окончания печати04.01.1904, а не1903. Это отчёты организаторов о курсах1901–1903. Школьная поездка организована в Овьедо, место отдыха Salinas не объявляется частью города. Устаревшие диагнозы, данные названных детей и заявления о лечебном результате не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_railway_tender_1925",
+      "name": "Compañía de los Ferrocarriles Económicos de Asturias: concurso de cambios de vía",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1925/12/16/pdfs/C00585-00592.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитано оригинальное объявление на с.589 (PDF5), дата подписи10.12.1925, публикация16.12. Шесть стрелочных переводов для соединения двух станций Овьедо: пять у Ferrocarriles Económicos и один у Vasco-Asturiana. Это конкурс на поставку, не доказательство открытия линии или поставки. OCR искажён; прочитано также изображение страницы.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_awards_speech_1981",
+      "name": "Premios Príncipe de Asturias1981–2014. Discursos: Discurso I",
+      "publisher": "Fundación Princesa de Asturias",
+      "repository": "Fundación Princesa de Asturias",
+      "country": "ES",
+      "url": "https://www.fpa.es/files/flippingbook/Discursos/files/assets/common/downloads/publication.pdf?uni=0d98916224f4ca33c3d440eddeb2b45c",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "foundation",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны титул, описание издания и раздел Discurso I: дата03.10.1981 и место Oviedo/Teatro Campoamor (PDF59–67; текст речи PDF67). Оригинальная речь1981 воспроизведена фондом в сборнике, напечатанном вянваре2016. Используется как документ состоявшейся церемонии; цитаты, фото EFE и формулы речи в игру не копируются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_unesco_extension_1998",
+      "name": "Decision22 COM VIII.B.2: Monuments of Oviedo and the Kingdom of the Asturias",
+      "publisher": "UNESCO World Heritage Centre",
+      "repository": "UNESCO World Heritage Centre",
+      "country": "ES",
+      "url": "https://whc.unesco.org/en/decisions/2785",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан текст решения: расширение объекта312bis с включением Cámara Santa, San Julián de los Prados и La Foncalada в Овьедо. Год1998; точный день принятия из карточки не установлен. Решение1985 не подменяется этим расширением; посещение героиней не подразумевается.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_feder_final_report_2011",
+      "name": "Programa Operativo Integrado de Asturias2000–2006. Informe final",
+      "publisher": "Ministerio de Economía y Hacienda, Dirección General de Fondos Comunitarios",
+      "repository": "Ministerio de Economía y Hacienda, Dirección General de Fondos Comunitarios",
+      "country": "ES",
+      "url": "https://www.fondoseuropeos.hacienda.gob.es/sitios/dgfc/es-ES/ipr/fcpp0006/fe/f/ro1/gsc/pir/Documents/Informe%20final%20POI%20Asturias%20FEDER%202000-2006.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны титул/датаabril2011 и с.175–176 (PDF179–180), medida6.6: завершение автобусной станции Овьедо в2003 на месте прежней станции Ferrocarriles Económicos;44крытых посадочных места. Это отчёт выполнения инвестиционного проекта, не современный общий исторический очерк. Остальные478страниц прочитанными не заявляются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_technology_park_funding_1992",
+      "name": "Acuerdo de8 de septiembre de1992: aportación al Parque Tecnológico de Andalucía",
+      "publisher": "Junta de Andalucía / BOJA",
+      "repository": "Junta de Andalucía / BOJA",
+      "country": "ES",
+      "url": "https://www.juntadeandalucia.es/boja/1992/110/24",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан текст первичного Acuerdo в BOJA110,29.10.1992: ратифицирован взнос300миллионов песет. Дата решения08.09.1992, публикация29.10. Наличие сайта-предупреждения о юридической силе HTML отмечено; текст используется как историческая публикация, не правовая консультация. Решение не доказывает дату открытия парка или число рабочих мест.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_torremolinos_decree_1988",
+      "name": "Decreto283/1988: segregación de Torremolinos del municipio de Málaga",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/boe/dias/1989/01/19/pdfs/A01567-01568.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан оригинальный Decreto283/1988,27.09.1988, arts.1–4, напечатанный в BOE16,19.01.1989, с.1567. Решение выделяет Torremolinos и делит имущество/обязательства. BOJA79,11.10.1988 указана IECA как ранняя публикация, но оригинальный BOJA пока не прочитан; точный день фактического административного перехода не установлен. Событие датируется принятием декрета, не датой вступления. В преамбуле есть противоречивые упоминания1923/1924; они не превращены в новую точную границу. География города сохраняет needs_review.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_oviedo_bop_1910_access_lead",
+      "name": "Boletín Oficial de la Provincia de Oviedo, número82,14.04.1910",
+      "publisher": "Biblioteca Virtual de Prensa Histórica / Biblioteca de Asturias",
+      "repository": "Biblioteca Virtual de Prensa Histórica / Biblioteca de Asturias",
+      "country": "ES",
+      "url": "https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_1950_population",
+      "name": "Anuario Estadístico Municipal1950: Estadística local: población, superficie y densidad",
+      "publisher": "Ayuntamiento de Madrid / Estadística Municipal",
+      "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+      "country": "ES",
+      "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Estad%C3%ADstica/1950020001.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Catálogo municipal abierto; PDF público descargado sin restricciones y página original leída visualmente. La fecha30.01.2012 de la web es la digitalización/catalogación, no la publicación original. Прочитана с.7 целиком. В cuadro1 capital отдельно от con inclusión de los pueblos comprendidos en el plan de anexión. Данные не равны текущим границам Мадрида и не являются переписью населения1950. План присоединения не принят за доказательство уже состоявшегося включения всех перечисленных мест.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_1950_emt_transport",
+      "name": "Anuario Estadístico Municipal1950: Transportes urbanos: Empresa Municipal de Transportes",
+      "publisher": "Ayuntamiento de Madrid / Estadística Municipal",
+      "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+      "country": "ES",
+      "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090001.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Catálogo municipal abierto; PDF público descargado sin restricciones y página original leída visualmente. La fecha30.01.2012 de la web es la digitalización/catalogación, no la publicación original. Прочитана с.73: трамваи, троллейбусы, автобусы. В троллейбусной таблице январь–март без показателей, с апреля одна линия. Не утверждается точный день открытия. Проданные билеты не равны числу разных пассажиров; единица билетов не переносится на жителей или поездки героини.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_1950_housing",
+      "name": "Anuario Estadístico Municipal1950: Edificación y vivienda: resumen general del año",
+      "publisher": "Ayuntamiento de Madrid / Estadística Municipal",
+      "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+      "country": "ES",
+      "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090009.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Catálogo municipal abierto; PDF público descargado sin restricciones y página original leída visualmente. La fecha30.01.2012 de la web es la digitalización/catalogación, no la publicación original. Одна страница, прочитаны заголовки и итоговые строки. Nueva planta: Proyectos aprobados7529viviendas, Obras terminadas1597viviendas;177зданий. Не смешивать квартиры, здания, разрешения и завершение; не вычислять дефицит как7529–1597: это не обязательно одна когорта объектов.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_1950_water",
+      "name": "Anuario Estadístico Municipal1950: Consumo de agua en Madrid: Canal de IsabelII",
+      "publisher": "Ayuntamiento de Madrid / Estadística Municipal",
+      "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+      "country": "ES",
+      "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Salubridad/1950050018.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Catálogo municipal abierto; PDF público descargado sin restricciones y página original leída visualmente. La fecha30.01.2012 de la web es la digitalización/catalogación, no la publicación original. Прочитана с.45: различаются подача в резервуар и расход; извлечён итог consumo anual из cuadro59. Учёт службы водоснабжения, не бытовое потребление одного человека, не доля домов с водопроводом. Причины колебаний1939–1950 не установлены и не выдумываются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_1950_fruit_supply",
+      "name": "Anuario Estadístico Municipal1950: Mercado Central de Frutas y Verduras: especies introducidas",
+      "publisher": "Ayuntamiento de Madrid / Estadística Municipal",
+      "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+      "country": "ES",
+      "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Bromatolog%C3%ADa/1950070004.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Catálogo municipal abierto; PDF público descargado sin restricciones y página original leída visualmente. La fecha30.01.2012 de la web es la digitalización/catalogación, no la publicación original. Из четырёхстраничного PDF визуально прочитана только с.60 (PDF1): поступления фруктов в килограммах за январь–июль. Цены на последующих страницах не извлечены. Это оптовый рыночный поток, не розничные покупки, рацион или траты семьи; отсутствие показателя не трактуется как невозможность купить продукт.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_1950_cultural_services",
+      "name": "Anuario Estadístico Municipal1950: Hemeroteca, Museo Municipal, Biblioteca Municipal",
+      "publisher": "Ayuntamiento de Madrid / Estadística Municipal",
+      "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+      "country": "ES",
+      "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090017.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Catálogo municipal abierto; PDF público descargado sin restricciones y página original leída visualmente. La fecha30.01.2012 de la web es la digitalización/catalogación, no la publicación original. Прочитана с.78. Сноска к музею: Cerrado por obras hasta el mes de abril; с апреля есть посещения. Biblioteca: Número de volúmenes existentes93367; Lectores durante el año7420. Не установлено, уникальные ли читатели: показатель в статистике сохраняется как reported readers, не число грамотных жителей. Современная модель посещений не навязывается первичному учёту.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_exposition_newspaper_1929",
+      "name": "El Mundo Deportivo,20.05.1929, portada",
+      "publisher": "Hemeroteca de Mundo Deportivo",
+      "repository": "Hemeroteca de Mundo Deportivo",
+      "country": "ES",
+      "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1929/05/20/MD19290520-001.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитана оригинальная первая полоса, в том числе визуально. Заголовок сообщает об открытии выставки вчера; выпуск понедельника20.05.1929, значит церемония19.05. Это отделено от встречающейся в современных справках даты20.05. На фото стадион: подпись говорит о предстоящем открытии сегодня, поэтому не смешивать две церемонии. Торжественные оценки монархии не перенесены, изображение и газетная проза не публикуются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_university_autonomy_1933",
+      "name": "Decreto de1 de junio de1933: autonomía de la Universidad de Barcelona",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1933/06/02/pdfs/GMD-1933-153.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан декрет на с.1630–1631, arts.1–9. Подписан01.06.1933, опубликован02.06; не подменять его последующим университетским статутом. Art.5 устанавливает сосуществование кастильского и каталонского в равенстве прав для преподавателей и учащихся. Контекст ограничен1933: дальнейшие приостановления ещё изучаются. Это Университет Барселоны, не основанная в1968 UAB с кампусом в Бельятерре.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_seat_workers_bulletin_1974",
+      "name": "Asamblea Obrera, número120,11.11.1974, página1",
+      "publisher": "Fundación Francisco Largo Caballero, Hemeroteca",
+      "repository": "Fundación Francisco Largo Caballero, Hemeroteca",
+      "country": "ES",
+      "url": "https://hemeroteca.fundacionlito.es/admin/pdf2/FFLC_Asamblea_Obrera_%281974%29_19741111%20-%2000001.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Одна страница оригинального рабочего бюллетеня скачана и прочитана визуально; número120 и дата11.11.74 на листе. Заголовок призывает к общей стачке в Барселоне и окрестностях; текст сообщает о собрании рабочих SEAT на площади Каталонии и требованиях занятости. Численность и политические обвинения авторов не принимаются за независимо установленные факты. Verified относится к публикации и содержанию требований, не к всеобщему участию жителей или личной роли героини. Исследована только страница1.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_comarcal_plan_law_1953",
+      "name": "Ley de3 de diciembre de1953 sobre ordenación urbana de Barcelona y su comarca",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1953/12/05/pdfs/BOE-1953-339.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны только с.7180–7181, arts.1–11 и вступление. Закон03.12, публикация05.12.1953; точная дата вступления не извлечена, событие о публикации. Art.3 перечисляет муниципалитеты плана, не всю провинцию. Запись региональная в пакете провинции с явным ограничением Barcelona y su comarca, не копия национального события для каждого города. Предусмотренные жильё и зелёные пространства не объявляются уже построенными; аннексия всех муниципалитетов не следует из закона.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_reina_sofia_opening_1986",
+      "name": "El País,27.05.1986, Cultura: apertura del Centro Reina Sofía",
+      "publisher": "El País / archivo de prensa",
+      "repository": "El País / archivo de prensa",
+      "country": "ES",
+      "url": "https://elpais.com/diario/1986/05/27/cultura/517528810_850215.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан доступный текст датированной газетной статьи о церемонии накануне. Центр искусств1986 отделён от последующего статуса национального музея. Прогнозы автора и цитаты не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_fire_service_history_1936",
+      "name": "Guerra Civil1936, historia del Cuerpo de Bomberos",
+      "publisher": "Ayuntamiento de Madrid / Cuerpo de Bomberos",
+      "repository": "Ayuntamiento de Madrid / Cuerpo de Bomberos",
+      "country": "ES",
+      "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Emergencias-y-seguridad/Guerra-Civil-1936/?vgnextchannel=f9cd31d3b28fe410VgnVCM1000000b205a0aRCRD&vgnextoid=a5debba6308b6210VgnVCM2000000c205a0aRCRD",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан современный институциональный очерк, абзацы о ноябре1936–весне1937. Это вторичная опора, не архивный оперативный журнал. Изображение не объявляется отдельно проверенным первичным источником. Личные потери и свидетельство героини не назначаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_madrid_sol_inauguration_2009",
+      "name": "Cordialidad institucional en la estación de Sol, Soledad Alcaide,28.06.2009",
+      "publisher": "El País / archivo de prensa",
+      "repository": "El País / archivo de prensa",
+      "country": "ES",
+      "url": "https://elpais.com/diario/2009/06/28/madrid/1246188256_850215.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитана современная событию статья; ayer относит церемонию к27.06.2009. Не смешивать с запуском пассажирского движения28.06.2009; здесь событие только церемонии. Партийные характеристики и прогноз пассажиропотока не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_malaga_picasso_inauguration_2003",
+      "name": "Inauguration of the Museo Picasso Málaga on Monday27October",
+      "publisher": "Museo Picasso Málaga / Press Office",
+      "repository": "Museo Picasso Málaga / Press Office",
+      "country": "ES",
+      "url": "https://www.museopicassomalaga.org/en/prensa/el-picasso-de-los-picasso-the-picasso-s-picassos-1",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "museum",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Открыт и прочитан собственный пресс-релиз музея с датой27.10.2003, раздел открытия и первых коллекций. Первичный документ организатора; открытие во дворце Buenavista и временная выставка. Не приравнивать церемонию27.10 к первому дню общего посещения28.10. Современные всплывающие меню и данные2026 не относятся к записи; иллюстрации и авторский текст не публикуются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_tragic_week_museum",
+      "name": "La Setmana Tràgica",
+      "publisher": "Museu d’Història de Catalunya",
+      "repository": "Museu d’Història de Catalunya",
+      "country": "ES",
+      "url": "https://www.mhcat.cat/exposicions/la_memoria_d_un_pais/els_anys_electrics/obrerisme_i_conflictivitat_social/la_setmana_tragica",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "museum",
+      "languages": [
+        "ca"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан раздел La Setmana Tràgica, два абзаца экспозиции, не только поисковый фрагмент. Современный музейный очерк, дата публикации не указана: вторичная опора. Призыв резервистов, стачка26.07.1909 и особенно тяжёлые столкновения в Барселоне. Объяснения виновников поджогов и персональные потери в игровой текст не перенесены.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_first_seat_1953_retrospective",
+      "name": "SEAT:70años sobre ruedas,13.11.2023",
+      "publisher": "SEAT S.A. / Media Center",
+      "repository": "SEAT S.A. / Media Center",
+      "country": "ES",
+      "url": "https://www.seat-cupra-mediacenter.es/SEAT-Brand/seat-brand-news/modelrange/2023/SEAT-70-anos-sobre-ruedas",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "corporate",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Открыт и прочитан юбилейный релиз13.11.2023, абзацы о1953. Первый1400 произведён13.11.1953 на фабрике Zona Franca в Барселоне. Это современный корпоративный пересказ, не первичный производственный журнал1953; не включён в первичную долю. Цифры2023, реклама и новая фабрика Martorell не извлечены.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_olympic_opening_press_1992",
+      "name": "El País,26.07.1992, portada: inauguración olímpica",
+      "publisher": "El País / archivo de prensa",
+      "repository": "El País / archivo de prensa",
+      "country": "ES",
+      "url": "https://elpais.com/diario/1992/07/26/portada/712101601_850215.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитана исходная газетная статья26.07.1992 о состоявшейся церемонии. Литературные оценки, численность аудитории и технический рассказ о стреле не извлекаются. Точный день25.07 независимо сверен с RTVE; участие героини не подразумевается.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_olympic_opening_rtve_date",
+      "name": "Los Juegos Olímpicos de Barcelona92,10.07.2017",
+      "publisher": "RTVE",
+      "repository": "RTVE",
+      "country": "ES",
+      "url": "https://www.rtve.es/rtve/20170710/els-jocs-olimpics-barcelona-92/1579313.shtml",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "broadcaster",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан текст о церемонии25.07.1992 на стадионе Монжуика. Современная справка, вторичная опора для точной даты. Сам архивный видеоматериал не просмотрен и не считается проверенным фильмом.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_forum_public_opening_2004",
+      "name": "El Fórum de Barcelona abre sus puertas al público,09.05.2004",
+      "publisher": "El País / archivo de prensa",
+      "repository": "El País / archivo de prensa",
+      "country": "ES",
+      "url": "https://elpais.com/cultura/2004/05/09/actualidad/1084053601_850215.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "newspaper_archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан датированный репортаж об открытии для публики09.05, после церемонии08.05. Площадка расположена в Барселоне и Sant Adrià de Besòs: оба муниципалитета названы; не переносится целиком в один город. Прогнозы посещаемости не выдаются за результаты.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_md_olympics_1992_inaccessible",
+      "name": "Mundo Deportivo,26.07.1992, primera página: access lead",
+      "publisher": "Hemeroteca de Mundo Deportivo",
+      "repository": "Hemeroteca de Mundo Deportivo",
+      "country": "ES",
+      "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "newspaper_archive",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_barcelona_la84_report_download_lead",
+      "name": "Official report Barcelona1992, volumeII: download lead",
+      "publisher": "LA84 Foundation",
+      "repository": "LA84 Foundation",
+      "country": "ES",
+      "url": "https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "not_accessible",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "inaccessible",
+      "accessed": null,
+      "source_type": "library",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_accidents_law_1900_reprint",
+      "name": "Ley de accidentes del trabajo, 30 de enero de 1900",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/datos/pdfs/BOE/1900/119/A00495-00496.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан PDF, повторная публикация после исчерпания тиражей31.01 и09.02. Дата закона30.01 в подписи. Статьи1–4 ограничивают охват видами труда и определяют ответственность работодателя; не всеобщая страховка.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_women_children_law_1900",
+      "name": "Ley de 13 de marzo de 1900 sobre trabajo de mujeres y niños",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1900/03/14/pdfs/GMD-1900-73.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан оригинал, в том числе статья9. В оригинале три недели после родов, а в сборнике1907 уже четыре–шесть после поправки1906: позднюю редакцию не переносить в1900. Час для кормления нельзя вычитать из оплаты; оплаченный отпуск в целом законом здесь не подтверждён.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_women_matriculation_order_1910",
+      "name": "Real orden de 8 de marzo de 1910 sobre matrícula de mujeres",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1910/03/09/pdfs/GMD-1910-68.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "PDF скачан обычным запросом и прочитан после отказа web-инструмента из-за размера. Отменена необходимость отдельного обращения к начальству при женской официальной matrícula; это не первая женщина в университете и не отмена всех социальных препятствий.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_eight_hour_decree_1919",
+      "name": "Real decreto de 3 de abril de 1919 sobre jornada máxima legal",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1919/04/04/pdfs/GMD-1919-94.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан первый декрет наp.42. Восемь часов в день ИЛИ48 в неделю с01.10.1919; статьи2–4 предусматривают разбор исключений. Следующий декрет о ночной работе пекарен не смешивается с этим.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_urban_rents_decree_1920",
+      "name": "Real decreto de 21 de junio de 1920 sobre arrendamientos urbanos",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1920/06/22/pdfs/GMD-1920-174.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны статьи1–7 в текстовом представлении BOE; PDF получен, OCR тяжело повреждён. Охват: столицы провинций и города свыше20000 жителей. Продление договоров с исключениями, регулируемые повышения, а не бессрочный запрет любого роста любой аренды.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_compulsory_sickness_law_1942",
+      "name": "Ley de 14 de diciembre de 1942: Seguro obligatorio de enfermedad",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1942/12/27/pdfs/BOE-1942-361.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны статьи1–9. Закон для работников с доходами ниже нормативного предела и оговорёнными исключениями, а не бесплатная медицина для всех. Событие — публикация закона, не начало фактических выплат. Пропагандистское предисловие не принимается как описание результатов системы.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_primary_education_law_1945",
+      "name": "Ley de 17 de julio de 1945 sobre Educación Primaria",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/datos/pdfs/BOE/1945/199/A00385-00416.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Карточка без текста; открыт исходный32-страничный PDF. Прочитаны основные принципы, обязательность и разделение полов. Католическое и националистическое содержание — требования режима, не позиция проекта. Не заявляется фактическое посещение школы каждым ребёнком.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_economic_ordinance_1959",
+      "name": "Decreto-ley 10/1959, de 21 de julio, de ordenación económica",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1959/07/22/pdfs/BOE-1959-174.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан оригинал, проверена дата21.07 (20.07 — заседание правительства). Извлечены либерализация импорта и пересмотр вмешивающихся органов. Программные обещания благосостояния и автоматическое увеличение семейного дохода не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_women_employment_law_1961",
+      "name": "Ley 56/1961, de 22 de julio, sobre derechos de la mujer",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1961-14132",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Открыт TEXTO ORIGINAL. Вступление01.01.1962 прямо указано в заключительном положении. Статья3 исключала ряд военных, судебных и морских профессий; статья5 сохраняла marital authorization там, где она требовалась законом. Не считать полным равноправием или отменой разрешения мужа.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_social_security_bases_1963",
+      "name": "Ley 193/1963, de 28 de diciembre, sobre Bases de la Seguridad Social",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1963-22667",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Открыт исходный текст: закон основ и поручение разработать исполнительные тексты, а не одновременное включение всего населения в готовую систему. Прочитаны положения об охвате, единой регистрации и видах защиты. Веха1967 требует другого документа.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_married_women_capacity_law_1975",
+      "name": "Ley 14/1975, de 2 de mayo: situación jurídica de la mujer casada",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1975-9245",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Открыт TEXTO ORIGINAL, прочитаны новые статьи57–65 и объяснение отмены licencia marital. Статья59 всё ещё делала мужа администратором общего имущества при отсутствии другого соглашения. Событие датировано публикацией, не неподтверждённым днём вступления в силу.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_primo_coup",
+      "name": "Golpe de Estado de Primo de Rivera",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Golpe_de_Estado_en_Espa%C3%B1a_de_1923",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Wikipedia text: CC BY-SA; only independently worded facts exported, no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны указанные разделы, не только поисковая выдача. Вторичный источник. Introduction and El golpe; 13–15 September distinguished from appointment on15 September.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_un_membership",
+      "name": "Spain: Civil War and Francoist dictatorship",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://en.wikipedia.org/wiki/Spain",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Wikipedia text: CC BY-SA; only independently worded facts exported, no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны указанные разделы, не только поисковая выдача. Вторичный источник. Civil War and Francoist dictatorship: UN exclusion ended1955. Exact admission day not extracted.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_european_accession",
+      "name": "Adhesión de España a las Comunidades Europeas",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Adhesi%C3%B3n_de_Espa%C3%B1a_a_las_Comunidades_Europeas",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Wikipedia text: CC BY-SA; only independently worded facts exported, no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны указанные разделы, не только поисковая выдача. Вторичный источник. Introduction: treaty signed12.06.1985, accession effective01.01.1986; not yet called the EU.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_euro_history",
+      "name": "Euro: introduction and historical currencies",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://en.wikipedia.org/wiki/Euro",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Wikipedia text: CC BY-SA; only independently worded facts exported, no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны указанные разделы, не только поисковая выдача. Вторичный источник. Introduction, launch and historical-currency table: peseta fixed at166.386 per euro. 1999 accounting currency differs from2002 cash. No current member count or2026 facts extracted.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_financial_crisis_2008",
+      "name": "2008–2014 Spanish financial crisis",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://en.wikipedia.org/wiki/2008%E2%80%932014_Spanish_financial_crisis",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Wikipedia text: CC BY-SA; only independently worded facts exported, no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "en"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны указанные разделы, не только поисковая выдача. Вторичный источник. Introduction: crisis began2008, housing bubble, recession and unemployment. No fabricated exact start day, local job-loss rate or automatic family bankruptcy.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_15m",
+      "name": "Movimiento15-M",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Movimiento_15-M",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Wikipedia text: CC BY-SA; only independently worded facts exported, no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны указанные разделы, не только поисковая выдача. Вторичный источник. Introduction: demonstrations15.05.2011, camps in different Spanish cities and demands for participation. No attribution of party support or participation to every resident.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_divorce_law_1981",
+      "name": "Ley30/1981, de7 de julio, matrimonio y divorcio",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1981-16216",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Civil Code arts.85–86, BOE172,20.07.1981. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_logse_original_1990",
+      "name": "Ley Orgánica1/1990, de3 de octubre, LOGSE",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1990-24172",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Art.5 and additional provision1, BOE238,04.10.1990. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_equal_marriage_law_2005",
+      "name": "Ley13/2005, de1 de julio, derecho a contraer matrimonio",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2005-11364",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Art.único.1, Civil Code44; final provision2; BOE157,02.07.2005. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_austerity_decree_2010",
+      "name": "Real Decreto-ley8/2010, de20 de mayo, reducción del déficit público",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2010-8228",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Art.1, amended budget art.22.Dos.B; BOE126,24.05.2010. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_minimum_income_decree_2020",
+      "name": "Real Decreto-ley20/2020, de29 de mayo, ingreso mínimo vital",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-5493",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Arts.1–3 and final provision11; BOE154,01.06.2020. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_remote_work_decree_2020",
+      "name": "Real Decreto-ley28/2020, de22 de septiembre, trabajo a distancia",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-11043",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Art.5, transitional provision3, final provision14; BOE253,23.09.2020. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_first_alarm_decree_2020",
+      "name": "Real Decreto463/2020, de14 de marzo, estado de alarma por COVID-19",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2020-3692",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан TEXTO ORIGINAL, не поздняя сводная редакция. Arts.1–3,7,9–10; BOE67,14.03.2020. Дата публикации и начало действия различены. Правовая норма не доказывает получение выплаты, развод, потерю работы, болезнь или участие героини. Только перечисленные положения, без позднейших поправок.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_pension_original_1974",
+      "name": "Ley General de la Seguridad Social, texto1974, artículo154",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/boe/dias/1974/07/22/pdfs/A15170-15185.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан исходный текст статьи154:65 лет для наёмных работников и страховой стаж; число дней взносов в исходном тексте отличается от поздней редакции1989. В игре пенсионный возраст — упрощение для оплачиваемой карьеры, не утверждение о всех женщинах или неоплачиваемом домашнем труде.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_asturias_1934",
+      "name": "Revolución de Asturias de1934",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Asturias_de_1934",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны введение и раздел последствий. Месяц октябрь подтверждён; противоречивые точные границы и числа жертв не извлекаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_asturias_1962",
+      "name": "Huelga minera de Asturias de1962",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Huelga_minera_de_Asturias_de_1962",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны введение и Desarrollo:06.04.1962, солидарность с уволенными шахтёрами pozoNicolasa вМьересе. Это не шахта внутри города Овьедо. Численность не извлечена.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_aena_malaga_terminal_history",
+      "name": "Historia del aeropuerto de Málaga: terminal1968",
+      "publisher": "Aena",
+      "repository": "Aena",
+      "country": "ES",
+      "url": "https://www.aena.es/es/malaga-costa-del-sol/conocenos/historia.html",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны исторические абзацы и хронология1968. Терминал открыт29.01.1968 для внутренних и международных рейсов. Современная ретроспектива, не первичный акт открытия. Региональный транспортный узел.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_malaga_battle_1937",
+      "name": "Batalla de Málaga1937",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Batalla_de_M%C3%A1laga_(1937)",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны введение, Asalto sobreMálaga и раздел о дороге. Вход войск08.02 подтверждён текстом после07.02; не используются противоречивые числа жертв и беженцев. Личный побег и потери не назначаются.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_wiki_second_republic",
+      "name": "Segunda República española",
+      "publisher": "Wikipedia contributors",
+      "repository": "Wikipedia contributors",
+      "country": "ES",
+      "url": "https://es.wikipedia.org/wiki/Segunda_Rep%C3%BAblica_espa%C3%B1ola",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "encyclopedia",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны введение и Proclamación:14.04.1931, смена монархии республикой. Провозглашение отличается от принятия Конституции09.12.1931.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_catalonia_statute_original_1932",
+      "name": "Ley relativa al Estatuto de Cataluña,15.09.1932",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/datos/pdfs/BOE/1932/265/A02090-02094.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Оригинальный PDF скачан и прочитан: статьи1–2, заключительная переходная норма и подпись. Четыре провинции, испанский и каталонский официальные языки. Закон подписан15.09, опубликован21.09; день публикации не выдаётся за установленный здесь день вступления в силу. Региональная география не означает непрерывного действия автономных органов в1900–1979.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_catalonia_provisional_1977",
+      "name": "Real Decreto-ley41/1977, restablecimiento provisional de la Generalidad",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1977-24354",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны статьи1–2,6, заключительные и переходное положения. Подписан29.09.1977, но действует с публикации05.10.1977. Провинциальные учреждения сохраняют правосубъектность; это временный режим, не восстановление статута1932 и не современная автономия1980.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_catalan_parliament_resumption_1936",
+      "name": "Decreto-ley de26.02.1936: Parlamento catalán",
+      "publisher": "Agencia Estatal Boletín Oficial del Estado",
+      "repository": "Agencia Estatal Boletín Oficial del Estado",
+      "country": "ES",
+      "url": "https://www.boe.es/gazeta/dias/1936/02/27/pdfs/GMD-1936-58.pdf",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитан исходный decreto-ley наp.1635. Разрешено возобновить работу парламента для назначения правительства Generalitat; преамбула прямо называет ещё действующий закон02.01.1935. Событие — публикация разрешения27.02, не неподтверждённая точная дата передачи всех служб.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    },
+    {
+      "source_id": "es_generalitat_institutional_history",
+      "name": "La Generalitat contemporánea, siglosXX–XXI",
+      "publisher": "Generalitat de Catalunya",
+      "repository": "Generalitat de Catalunya",
+      "country": "ES",
+      "url": "https://web.gencat.cat/es/generalitat/qui-som/historia-generalitat/generalitat-contemporania",
+      "historical_coverage": null,
+      "geographic_coverage": [
+        "ES"
+      ],
+      "categories": [
+        "history"
+      ],
+      "access_method": "website",
+      "bulk_download": false,
+      "license": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+      "attribution_required": true,
+      "access_restrictions": [
+        "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+      ],
+      "status": "accessed",
+      "accessed": "2026-11-17",
+      "source_type": "government",
+      "languages": [
+        "es"
+      ],
+      "location_ids": [],
+      "notes": "Прочитаны разделы1931–1939,1939–1977,1977–1980. Современная институциональная история, вторичная опора: временная Generalitat1931; приостановка парламента1934–1936; акт Франко1938 не равен фактическому контролю над Барселоной до января1939; временная реставрация1977 не является современной автономией. Политические оценки автора не переносятся как нейтральные факты.",
+      "api": {
+        "available": null,
+        "verified": false,
+        "note": "API и массовая выгрузка не проверялись."
+      }
+    }
+  ]
+}

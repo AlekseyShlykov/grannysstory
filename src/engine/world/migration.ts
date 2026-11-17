@@ -4,6 +4,7 @@ import { existsAt, getLocation, inPeriod, isoDay, isSettlement, occupationAt, re
 import { partitionPartIds } from "./partition";
 import type { ResidencePeriod } from "./events";
 import type { MigrationCorridor } from "../../../content/historical/migrationCorridors";
+import { unreviewedMigrationWindows } from "../../../content/historical/migrationLimits";
 
 const CLASS_ORDER: SettlementClass[] = ["capital", "large_city", "medium_city", "small_town", "rural"];
 
@@ -18,10 +19,15 @@ export function checkMove(world: WorldData, fromId: string, toId: string, year: 
   const from = getLocation(world, fromId);
   const to = getLocation(world, toId);
   if (!from || !to) return { ok: false, reason: "unknown place" };
+  if (to.researchOnly) return { ok: false, reason: "destination pack is still under research" };
   if (from.id === to.id) return { ok: false, reason: "same place" };
   if (!existsAt(to, day) || !isSettlement(to)) return { ok: false, reason: "destination is not a settlement that year" };
   if (partitionPartIds(world).has(to.id)) return { ok: false, reason: "part of a divided city; the city itself is the destination" };
   if (!to.coordinates || !from.coordinates) return { ok: false, reason: "no verified coordinates" };
+  if (unreviewedMigrationWindows.some((window) => year >= window.fromYear && year <= window.toYear
+      && (from.country === window.country || to.country === window.country))) {
+    return { ok: false, reason: "wartime route has not been reviewed" };
+  }
   if (occupationAt(world, to.id, day)) return { ok: false, reason: "destination under occupation" };
   // A divided city is reachable when one of its parts belongs to her state that year; she then lives in that part.
   const division = to.partitions?.find((partition) => inPeriod(day, partition.from, partition.to));

@@ -1,0 +1,112 @@
+{
+  "records": [
+    {
+      "id": "es-barcelona-province-1910-census",
+      "title": "Перепись в провинции Барселона",
+      "title_en": "Census in Barcelona province",
+      "title_original": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+      "start_date": "1910-12-31",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-province-barcelona"
+      ],
+      "category": "everyday_life",
+      "subcategory": null,
+      "historical_summary": "Перепись учла 1 141 733 человек наличного населения в провинции. Границы и единица наблюдения соответствуют таблице 1910 года.",
+      "historical_summary_en": "The census counted 1,141,733 persons present in the province, within the census boundaries of 1910.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_ine_census_1910_provinces"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_ine_census_1910_provinces",
+          "url": "https://www.ine.es/inebaseweb/pdfDispacher.do?ext=.pdf&td=146689",
+          "title": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+          "record_identifier": "https://www.ine.es/inebaseweb/pdfDispacher.do?ext=.pdf&td=146689",
+          "document_date": "undated (1910-12-31 census reference date; edition year not established)",
+          "language": "es",
+          "evidence_type": "census",
+          "supports": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "single scanned page, población de hecho provincial totals",
+          "repository": "Instituto Nacional de Estadística"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-barcelona-area-1953-urban-plan-law",
+      "title": "Публикация закона о плане Барселоны и окрестностей",
+      "title_en": "Publication of the Barcelona-area planning law",
+      "title_original": "Ley de3 de diciembre de1953 sobre ordenación urbana de Barcelona y su comarca",
+      "start_date": "1953-12-05",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-province-barcelona"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Закон утвердил план Барселоны и перечисленных соседних муниципалитетов. Для его исполнения создавалась градостроительная комиссия; присоединение этих муниципалитетов к городу не требовалось.",
+      "historical_summary_en": "A law approved a plan for Barcelona and listed neighbouring municipalities, establishing a planning commission without requiring their annexation to the city.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_barcelona_comarcal_plan_law_1953"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_barcelona_comarcal_plan_law_1953",
+          "url": "https://www.boe.es/gazeta/dias/1953/12/05/pdfs/BOE-1953-339.pdf",
+          "title": "Ley de3 de diciembre de1953 sobre ordenación urbana de Barcelona y su comarca",
+          "record_identifier": "BOE339,05.12.1953, pp.7180–7181, arts.1–11",
+          "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+          "document_date": "1953-12-05",
+          "language": "es",
+          "evidence_type": "legal_publication",
+          "supports": "Утверждение плана Барселоны и перечисленных окрестных муниципалитетов; создание комиссии градостроительства.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "pp.7180–7181; arts.1,3–5"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

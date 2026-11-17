@@ -1,0 +1,436 @@
+{
+  "records": [
+    {
+      "id": "es-madrid-1919-metro",
+      "title": "Первая линия мадридского метро",
+      "title_en": "Madrid’s first Metro line",
+      "title_original": "100 años de la red de metro, CRTM, octubre 2019",
+      "start_date": "1919-10-17",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Открыта первая линия метро между Соль и Куатро-Каминос. Дата сверена по исторической схеме CRTM, изданной в 2019 году.",
+      "historical_summary_en": "The first Metro line opened between Sol and Cuatro Caminos. The date is supported by CRTM’s 2019 historical map.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_metro_1919_2019"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_metro_1919_2019",
+          "url": "https://www.crtm.es/media/heofhgdi/serie_i_historico_metro_2019_portada.pdf",
+          "title": "100 años de la red de metro, CRTM, octubre 2019",
+          "record_identifier": "https://www.crtm.es/media/heofhgdi/serie_i_historico_metro_2019_portada.pdf",
+          "document_date": "2019-10",
+          "language": "es",
+          "evidence_type": "institutional_history",
+          "supports": "100 años de la red de metro, CRTM, octubre 2019",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "Cronología de la red; 1919",
+          "repository": "Consorcio Regional de Transportes de Madrid"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-2019-minimum-metro-service",
+      "title": "Объявлен режим работы метро на день забастовки",
+      "title_en": "Madrid announces minimum Metro service for a strike",
+      "title_original": "Servicios mínimos para la huelga de Metro, 15 octubre 2019",
+      "start_date": "2019-10-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "На 17 октября власти объявили минимум 58% обычного движения поездов метро. Это распоряжение, а не замер фактического числа поездов.",
+      "historical_summary_en": "Authorities announced a minimum of 58% of normal Metro train service for 17 October. This was a service requirement, not a measurement of trains actually run.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_strike_2019"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_strike_2019",
+          "url": "https://www.comunidad.madrid/file/181629/download",
+          "title": "Servicios mínimos para la huelga de Metro, 15 octubre 2019",
+          "record_identifier": "https://www.comunidad.madrid/file/181629/download",
+          "document_date": "2019-10-15",
+          "language": "es",
+          "evidence_type": "government_document",
+          "supports": "Community announces 58% minimum Metro train service for the strike called on 17 October 2019.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "press release",
+          "repository": "Comunidad de Madrid"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-1949-population-register",
+      "title": "Городской учёт населения Мадрида",
+      "title_en": "Madrid municipal population register",
+      "title_original": "Estadística local: población, superficie y densidad",
+      "start_date": "1949-12-31",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Исправленный городской регистр учитывал в столице 1 509 289 наличных жителей. Населённые пункты плана присоединения приведены отдельно.",
+      "historical_summary_en": "The revised municipal register counted 1,509,289 people present in the capital. Settlements in the annexation plan were listed separately.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_1950_population"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_1950_population",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Estad%C3%ADstica/1950020001.pdf",
+          "title": "Estadística local: población, superficie y densidad",
+          "record_identifier": "Anuario1950, p.7, cuadros1–3",
+          "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+          "document_date": "sin fecha de impresión establecida; anuario de referencia1950",
+          "language": "es",
+          "evidence_type": "statistical_yearbook",
+          "supports": "Третье исправление муниципального регистра на31.12.1949: население de hecho capital1509289; отдельная колонка включает населённые пункты плана присоединения.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "p.7, cuadro1 and footnote"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-1950-trolleybus-service",
+      "title": "Троллейбус в городской сети Мадрида",
+      "title_en": "Trolleybus service in Madrid",
+      "title_original": "Transportes urbanos: Empresa Municipal de Transportes",
+      "start_date": "1950",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Муниципальный ежегодник учитывал работу троллейбусной линии в Мадриде, с помесячными данными начиная с апреля.",
+      "historical_summary_en": "The municipal yearbook recorded a Madrid trolleybus route, with monthly figures from April onwards.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_1950_emt_transport"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_1950_emt_transport",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090001.pdf",
+          "title": "Transportes urbanos: Empresa Municipal de Transportes",
+          "record_identifier": "Anuario1950, p.73, cuadros93–95",
+          "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+          "document_date": "sin fecha de impresión establecida; anuario de referencia1950",
+          "language": "es",
+          "evidence_type": "statistical_yearbook",
+          "supports": "В1950 муниципальная статистика учитывала троллейбусный маршрут; месячные данные с апреля и5831826билетов за год.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "p.73, cuadro94"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-1950-municipal-museum-reopening",
+      "title": "Муниципальный музей Мадрида после ремонта",
+      "title_en": "Madrid municipal museum after building work",
+      "title_original": "Hemeroteca, Museo Municipal, Biblioteca Municipal",
+      "start_date": "1950-04",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "Муниципальный музей возобновил приём посетителей после работ. Годовой отчёт отмечает закрытие до апреля и учитывает посещения с этого месяца.",
+      "historical_summary_en": "The municipal museum resumed receiving visitors after building work. The annual report notes closure until April and records visits from that month.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_1950_cultural_services"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_1950_cultural_services",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090017.pdf",
+          "title": "Hemeroteca, Museo Municipal, Biblioteca Municipal",
+          "record_identifier": "Anuario1950, p.78, cuadros103–105",
+          "repository": "Ayuntamiento de Madrid / Estadística Municipal",
+          "document_date": "sin fecha de impresión establecida; anuario de referencia1950",
+          "language": "es",
+          "evidence_type": "statistical_yearbook",
+          "supports": "Музей был закрыт на работы до апреля; библиотечный фонд93367томов, показатель Lectores durante el año7420; уникальность читателей не установлена.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "p.78, cuadro104 footnote and cuadro105"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-1986-reina-sofia-art-centre",
+      "title": "Открытие Центра искусств Рейна-София",
+      "title_en": "Opening of the Reina Sofía art centre",
+      "title_original": "El Centro Reina Sofía se abre como lugar de encuentro del arte español con la creación artística internacional",
+      "start_date": "1986-05-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В районе Аточа открылся Центр искусств Рейна-София с выставкой испанского и зарубежного искусства.",
+      "historical_summary_en": "The Reina Sofía art centre opened in Atocha with an exhibition of Spanish and international art.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_reina_sofia_opening_1986"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_reina_sofia_opening_1986",
+          "url": "https://elpais.com/diario/1986/05/27/cultura/517528810_850215.html",
+          "title": "El Centro Reina Sofía se abre como lugar de encuentro del arte español con la creación artística internacional",
+          "record_identifier": "El País,27.05.1986, Cultura, archivo517528810_850215",
+          "repository": "El País / archivo de prensa",
+          "document_date": "1986-05-27",
+          "language": "es",
+          "evidence_type": "contemporary_newspaper",
+          "supports": "Открытие Центра искусств Рейна-София в Аточе накануне26.05.1986.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "opening paragraph: inauguró ayer"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-1936-bombardments",
+      "title": "Бомбардировки Мадрида",
+      "title_en": "Bombardments of Madrid",
+      "title_original": "Guerra Civil1936, historia del Cuerpo de Bomberos",
+      "start_date": "1936-11",
+      "end_date": "1937",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "Мадрид подвергался бомбардировкам во время боёв за город. История пожарной службы описывает их с ноября 1936 года до весны 1937 года.",
+      "historical_summary_en": "Madrid faced bombardments during the battle for the city. The fire service history describes attacks from November 1936 to spring 1937.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "es_madrid_fire_service_history_1936"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_fire_service_history_1936",
+          "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Emergencias-y-seguridad/Guerra-Civil-1936/?vgnextchannel=f9cd31d3b28fe410VgnVCM1000000b205a0aRCRD&vgnextoid=a5debba6308b6210VgnVCM2000000c205a0aRCRD",
+          "title": "Guerra Civil1936, historia del Cuerpo de Bomberos",
+          "record_identifier": "Ayuntamiento de Madrid, portal Emergencias y seguridad, Guerra Civil1936",
+          "repository": "Ayuntamiento de Madrid / Cuerpo de Bomberos",
+          "document_date": "sin fecha indicada",
+          "language": "es",
+          "evidence_type": "historical_study",
+          "supports": "Бомбардировки Мадрида с ноября1936 до весны1937, согласно истории городской пожарной службы.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "paragraph beginning Desde principios de noviembre"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-madrid-2009-sol-inauguration",
+      "title": "Церемония открытия железнодорожной станции Соль",
+      "title_en": "Sol railway station inauguration",
+      "title_original": "Cordialidad institucional en la estación de Sol",
+      "start_date": "2009-06-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-madrid"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В центре Мадрида состоялась церемония открытия новой станции пригородной железной дороги Соль.",
+      "historical_summary_en": "Madrid held the inauguration of the new Sol suburban railway station in the city centre.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_madrid_sol_inauguration_2009"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_madrid_sol_inauguration_2009",
+          "url": "https://elpais.com/diario/2009/06/28/madrid/1246188256_850215.html",
+          "title": "Cordialidad institucional en la estación de Sol",
+          "record_identifier": "Soledad Alcaide, El País,28.06.2009, Madrid, archivo1246188256_850215",
+          "repository": "El País / archivo de prensa",
+          "document_date": "2009-06-28",
+          "language": "es",
+          "evidence_type": "contemporary_newspaper",
+          "supports": "Церемония открытия станции Соль27.06.2009.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "opening paragraphs: ayer and inauguración de Sol"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

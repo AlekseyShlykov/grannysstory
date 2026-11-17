@@ -1,0 +1,30 @@
+{
+  "playable_country": "ES",
+  "playable_cities": [
+    "es-barcelona",
+    "es-madrid",
+    "es-oviedo",
+    "es-malaga"
+  ],
+  "deferred_countries_not_in_release": [
+    "JP",
+    "BR",
+    "ZA",
+    "CD",
+    "EG"
+  ],
+  "excluded_unrelated_initial_paths": [
+    "data/contexts/bosnia/everyday.json",
+    "data/research-notes/ba.md",
+    "data/historical/bosnia/regions/sarajevo-canton.json",
+    "data/historical/bosnia/regions/bosnia-land.json",
+    "data/historical/bosnia/cities/sarajevo.json",
+    "data/historical/bosnia/national/bosnia.json",
+    "data/historical/bosnia/national/sr-bosnia.json",
+    "data/locations/ba.json",
+    "data/sources/ba.json"
+  ],
+  "original_workspace_baseline_sha256": "ba6f06edf0d337ee404a83d347934fc6c9f7f589ab03c898959274860fedbeeb",
+  "release_parent": "aa5611e3411be0785d4049a91bdd54e1572fc25f",
+  "note": "Only Spain is newly enabled; existing supported countries preserved. Five draft workstreams remain only in the original workspace. No non-Spanish expansion dataset is included in this release."
+}

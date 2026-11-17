@@ -2319,6 +2319,468 @@
       "abolished": []
     },
     {
+      "id": "es",
+      "type": "state",
+      "level": "national",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Испания",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-barcelona",
+      "type": "city",
+      "level": "municipal",
+      "country": "ES",
+      "settlementClass": "large_city",
+      "wikidata": null,
+      "coordinates": {
+        "lat": 41.389,
+        "lon": 2.159
+      },
+      "names": [
+        {
+          "name": "Барселона",
+          "locative": "в Барселоне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es-province-barcelona",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [],
+      "researchOnly": false
+    },
+    {
+      "id": "es-community-andalusia",
+      "type": "region",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Андалусия",
+          "locative": null,
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1982-01-11",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-community-asturias",
+      "type": "region",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Княжество Астурия",
+          "locative": null,
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1982-01-31",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-community-catalonia",
+      "type": "region",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Каталония",
+          "locative": null,
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1980-01-11",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-community-madrid",
+      "type": "region",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сообщество Мадрид",
+          "locative": null,
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1983-03-01",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-historical-catalonia",
+      "type": "region",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Каталония, исторический регион",
+          "locative": "в Каталонии",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1980-01-10",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-madrid",
+      "type": "city",
+      "level": "municipal",
+      "country": "ES",
+      "settlementClass": "capital",
+      "wikidata": null,
+      "coordinates": {
+        "lat": 40.417,
+        "lon": -3.703
+      },
+      "names": [
+        {
+          "name": "Мадрид",
+          "locative": "в Мадриде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es-province-madrid",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [],
+      "researchOnly": false
+    },
+    {
+      "id": "es-malaga",
+      "type": "city",
+      "level": "municipal",
+      "country": "ES",
+      "settlementClass": "large_city",
+      "wikidata": null,
+      "coordinates": {
+        "lat": 36.72016,
+        "lon": -4.42034
+      },
+      "names": [
+        {
+          "name": "Малага",
+          "locative": "в Малаге",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es-province-malaga",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [],
+      "researchOnly": false
+    },
+    {
+      "id": "es-oviedo",
+      "type": "city",
+      "level": "municipal",
+      "country": "ES",
+      "settlementClass": "large_city",
+      "wikidata": null,
+      "coordinates": {
+        "lat": 43.36029,
+        "lon": -5.84476
+      },
+      "names": [
+        {
+          "name": "Овьедо",
+          "locative": "в Овьедо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es-province-oviedo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": [],
+      "researchOnly": false
+    },
+    {
+      "id": "es-province-barcelona",
+      "type": "province",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Барселона",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es-historical-catalonia",
+          "from": null,
+          "to": "1980-01-10"
+        },
+        {
+          "id": "es-community-catalonia",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-province-madrid",
+      "type": "province",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Мадрид",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1983-02-28"
+        },
+        {
+          "id": "es-community-madrid",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-province-malaga",
+      "type": "province",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Малага",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1982-01-10"
+        },
+        {
+          "id": "es-community-andalusia",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "es-province-oviedo",
+      "type": "province",
+      "level": "regional",
+      "country": "ES",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Провинция Овьедо",
+          "locative": null,
+          "from": null,
+          "to": "1983-04-07"
+        },
+        {
+          "name": "Провинция Астурия",
+          "locative": null,
+          "from": "1983-04-08",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1982-01-30"
+        },
+        {
+          "id": "es-community-asturias",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "fi",
       "type": "state",
       "level": "national",

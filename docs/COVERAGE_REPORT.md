@@ -1,6 +1,8 @@
 # Покрытие исторической базы
 
-Сгенерирован `scripts/historical-data/export/export.py` 2026-11-13, набор `world-1.2.0`. Считаются только записи со статусом `verified`, попавшие в браузерные пакеты. Российская линия, унаследованная от v0.4.0 и опубликованная в браузерном манифесте v0.5.0 (`content/historical`), включена в RU.
+Сгенерирован `scripts/historical-data/export/export.py` 2026-11-17, набор `world-1.3.0`. Считаются только записи со статусом `verified`, попавшие в браузерные пакеты. Российская линия, унаследованная от v0.4.0 и опубликованная в браузерном манифесте v0.5.0 (`content/historical`), включена в RU.
+
+Для ES, JP, BR, ZA, CD, EG действует более строгий подсчёт прямых первичных документов. Официальный современный пересказ и документ, подтверждающий лишь часть более широкого утверждения, не дают первичную опору записи. Отдельные доли и пробелы: `docs/EXPANSION_COVERAGE.md`.
 
 ## Страны
 
@@ -28,7 +30,7 @@
 | SK | 0 (250) | 0 (125) | — |
 | PT | 0 (250) | 0 (125) | — |
 | IE | 0 (250) | 0 (125) | — |
-| ES | 0 (250) | 0 (125) | — |
+| ES | 87 (250) | 60 (125) | municipal 38, national 33, regional 16 |
 | AR | 0 (250) | 0 (125) | — |
 | CL | 0 (250) | 0 (125) | — |
 | BR | 0 (250) | 0 (125) | — |
@@ -46,7 +48,7 @@
 | SG | 0 (250) | 0 (125) | — |
 | IN | 0 (250) | 0 (125) | — |
 
-Статусы всех авторских записей (включая неэкспортированные): CN:verified 306, DE:verified 333, FI:needs_review 1, FI:verified 254, FR:verified 173, GB:verified 199, HR:verified 65, IT:verified 290, PL:needs_review 5, PL:verified 170, RS:verified 94, RU:verified 200, SI:verified 72, TR:verified 271, US:needs_review 1, US:verified 202.
+Статусы всех авторских записей (включая неэкспортированные): CN:verified 306, DE:verified 333, ES:verified 87, FI:needs_review 1, FI:verified 254, FR:verified 173, GB:verified 199, HR:verified 65, IT:verified 290, PL:needs_review 5, PL:verified 170, RS:verified 94, RU:verified 200, SI:verified 72, TR:verified 271, US:needs_review 1, US:verified 202.
 
 ## Чем подтверждены события
 
@@ -76,7 +78,7 @@
 | SK | 0 | 0% | 0% |
 | PT | 0 | 0% | 0% |
 | IE | 0 | 0% | 0% |
-| ES | 0 | 0% | 0% |
+| ES | 87 | 85% | 13% |
 | AR | 0 | 0% | 0% |
 | CL | 0 | 0% | 0% |
 | BR | 0 | 0% | 0% |
@@ -120,7 +122,7 @@
 | SK | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | PT | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | IE | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ES | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ES | 6 | 7 | 5 | 14 | 4 | 7 | 6 | 7 | 10 | 5 | 7 | 6 | 3 |
 | AR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CL | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | BR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -164,7 +166,7 @@
 | SK | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | PT | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | IE | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| ES | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| ES | 5 | 6 | 1 | 4 | 5 | 9 | 7 | 5 | 4 | 2 | 7 | 6 | 4 |
 | AR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | CL | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | BR | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -206,7 +208,7 @@
 - **SK**: нет
 - **PT**: нет
 - **IE**: нет
-- **ES**: нет
+- **ES**: political_change 14, culture_leisure 10, labor 9, education 8, infrastructure_transport 8, housing_urban 5, border_administrative 5, everyday_life 4, war_conflict 4, women_rights 3, local_economy 3, economic_crisis 3, public_health 2, healthcare 2, social_policy 2, family_law 2, consumer_life 2, sport 1
 - **AR**: нет
 - **CL**: нет
 - **BR**: нет
@@ -248,7 +250,7 @@
 - **SK**: нет
 - **PT**: нет
 - **IE**: нет
-- **ES**: нет
+- **ES**: education 9, work 8, transport 6, family_marriage 5, housing 5, leisure_culture 5, demography 5, healthcare 4, communication 3, women_employment 2, retirement 2, prices_spending 2, migration 1, wages_income 1, social_policy 1, food 1
 - **AR**: нет
 - **CL**: нет
 - **BR**: нет
@@ -316,6 +318,20 @@
 | `de-zone-french` Французская зона оккупации | occupation_zone | 1 |
 | `de-bezirk-halle` Округ Галле | region | 1 |
 | `de-land-berlin` Берлин (земля) | land | 1 |
+| `es` Испания | state | 33 |
+| `es-oviedo` Овьедо | city | 11 |
+| `es-malaga` Малага | city | 10 |
+| `es-barcelona` Барселона | city | 9 |
+| `es-madrid` Мадрид | city | 8 |
+| `es-province-oviedo` Провинция Астурия | province | 4 |
+| `es-historical-catalonia` Каталония, исторический регион | region | 3 |
+| `es-province-barcelona` Провинция Барселона | province | 2 |
+| `es-province-malaga` Провинция Малага | province | 2 |
+| `es-province-madrid` Провинция Мадрид | province | 1 |
+| `es-community-catalonia` Каталония | region | 1 |
+| `es-community-andalusia` Андалусия | region | 1 |
+| `es-community-asturias` Княжество Астурия | region | 1 |
+| `es-community-madrid` Сообщество Мадрид | region | 1 |
 | `fi` Финляндия | state | 81 |
 | `fi-helsinki` Хельсинки | city | 38 |
 | `fi-tampere` Тампере | city | 28 |
@@ -490,6 +506,20 @@
 | `de-zone-french` | occupation_zone | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `de-zone-soviet` | occupation_zone | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `de-zone-us` | occupation_zone | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `es` | state | 2 | 2 | 2 | 5 | 2 | 2 | 2 | 4 | 2 | 2 | 3 | 2 | 3 |
+| `es-barcelona` | city | 1 | 0 | 1 | 2 | 0 | 1 | 0 | 1 | 0 | 1 | 1 | 1 | 0 |
+| `es-community-andalusia` | region | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| `es-community-asturias` | region | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| `es-community-catalonia` | region | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| `es-community-madrid` | region | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| `es-historical-catalonia` | region | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| `es-madrid` | city | 0 | 1 | 0 | 1 | 1 | 2 | 0 | 0 | 1 | 0 | 1 | 1 | 0 |
+| `es-malaga` | city | 1 | 0 | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 0 |
+| `es-oviedo` | city | 2 | 0 | 1 | 2 | 1 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| `es-province-barcelona` | province | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `es-province-madrid` | province | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `es-province-malaga` | province | 0 | 1 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| `es-province-oviedo` | province | 0 | 1 | 0 | 1 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 |
 | `fi` | state | 0 | 6 | 4 | 6 | 12 | 5 | 8 | 4 | 5 | 8 | 7 | 7 | 9 |
 | `fi-grand-duchy` | constituent_country | 8 | 3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | `fi-helsinki` | city | 4 | 4 | 0 | 5 | 1 | 3 | 4 | 3 | 4 | 3 | 2 | 4 | 1 |
@@ -640,6 +670,10 @@
 | `de-muenchen` | 21 | 6 (6) | 20 (18) | 8 (7) | 15 (10) | 11 (9) | 13 (13) | 10 (10) | 7 (7) | 5 (4) | 9 (9) | 6 (6) | 6 (6) | 2 (2) | да |
 | `de-oberammergau` | 12 | 5 (5) | 17 (16) | 7 (7) | 14 (10) | 10 (9) | 13 (13) | 9 (9) | 6 (6) | 5 (4) | 9 (9) | 5 (5) | 6 (6) | 3 (3) | да |
 | `de-wolfsburg` | 11 | 0 (0) | 0 (0) | 0 (0) | 4 (3) | 10 (8) | 14 (14) | 9 (9) | 7 (7) | 4 (4) | 8 (8) | 6 (6) | 6 (6) | 2 (2) | нет |
+| `es-barcelona` | 9 | 3 (2) | 3 (3) | 3 (3) | 9 (7) | 2 (2) | 4 (4) | 2 (2) | 6 (6) | 3 (3) | 3 (3) | 4 (4) | 3 (3) | 3 (2) | да |
+| `es-madrid` | 8 | 2 (2) | 4 (4) | 2 (2) | 6 (3) | 3 (3) | 4 (4) | 2 (2) | 4 (4) | 4 (4) | 2 (2) | 4 (4) | 3 (3) | 3 (2) | да |
+| `es-malaga` | 10 | 3 (3) | 3 (3) | 3 (3) | 6 (3) | 2 (2) | 3 (3) | 4 (4) | 5 (5) | 4 (4) | 3 (3) | 4 (4) | 3 (3) | 3 (2) | да |
+| `es-oviedo` | 11 | 4 (4) | 3 (3) | 3 (3) | 8 (4) | 3 (3) | 2 (2) | 4 (4) | 4 (4) | 5 (5) | 3 (3) | 4 (4) | 3 (3) | 3 (2) | да |
 | `fi-helsinki` | 38 | 15 (13) | 20 (17) | 5 (5) | 12 (10) | 17 (14) | 11 (11) | 12 (12) | 9 (9) | 9 (9) | 11 (11) | 10 (10) | 12 (12) | 11 (11) | да |
 | `fi-ilomantsi` | 8 | 12 (10) | 16 (13) | 5 (5) | 7 (6) | 17 (13) | 6 (6) | 10 (10) | 6 (6) | 6 (6) | 9 (9) | 9 (9) | 10 (10) | 11 (11) | да |
 | `fi-jyvaskyla` | 15 | 12 (10) | 18 (15) | 6 (6) | 8 (7) | 15 (12) | 7 (7) | 12 (12) | 7 (7) | 7 (7) | 10 (10) | 9 (9) | 9 (9) | 10 (10) | да |
@@ -725,6 +759,10 @@
   - `de-muenchen`: 2020
   - `de-oberammergau`: 1910
   - `de-wolfsburg`: 1900, 1910, 1920, 2020
+  - `es-barcelona`: 1940, 1960, 2020
+  - `es-madrid`: 1900, 1920, 1960, 1970, 1990, 2020
+  - `es-malaga`: 1940, 2020
+  - `es-oviedo`: 1950, 1970, 2020
   - `fi-helsinki`: 1920
   - `fi-ilomantsi`: 1910, 1920, 1930, 1950, 1970
   - `fi-oulu`: 1920, 1970, 2020
@@ -779,5 +817,5 @@
 
 ## Источники
 
-- Использовано (`accessed`): 361.
-- Зарегистрировано, но не использовано: 75: cn_difangzhi (catalogued), cn_nbs_data (catalogued), cn_nlc (catalogued), cn_yearbooks (catalogued), fi_digi_kansalliskirjasto (catalogued), fi_finna (catalogued), fi_kansallisarkisto (catalogued), fr_ad_13 (catalogued), fr_ad_nord (catalogued), fr_ad_rhone (catalogued), fr_bnf_api (catalogued), fr_britannica (catalogued), fr_chemins_de_memoire (inaccessible), fr_data_gouv (catalogued), fr_francearchives (inaccessible), fr_ined (inaccessible), fr_larousse (catalogued), fr_ratp (inaccessible), fr_unesco_whc (inaccessible), fr_vie_publique (catalogued), gb_bna (inaccessible), gb_parliament (inaccessible), gb_tna_discovery (catalogued), gb_ukds (catalogued), gb_vision_of_britain (inaccessible), hr_daz (inaccessible), it_bncr (catalogued), it_internet_culturale (catalogued), it_lastampa_archivio (catalogued), it_san (catalogued), it_treccani (catalogued), pl_britannica (inaccessible), pl_culture_pl (inaccessible), pl_fbc (catalogued), pl_ipn_main (catalogued), pl_isap (inaccessible), pl_muzeum_tarnow (inaccessible), pl_polona (catalogued), pl_pwn (inaccessible), rs_anno (inaccessible), rs_arcanum (inaccessible), rs_bms_digital (catalogued), rs_gallica (inaccessible), rs_hungaricana (inaccessible), rs_loc_chronam (inaccessible), rs_nbs_digital (catalogued), rs_novisad_city (catalogued), rs_subotica_city (inaccessible), rs_subotica_library (catalogued), ru_bigenc (catalogued), ru_demoscope (inaccessible), ru_gato (catalogued), ru_glavarchiv (catalogued), ru_prozhito (catalogued), ru_rgakfd (catalogued), ru_rosstat (inaccessible), ru_spbarchives (inaccessible), si_arsq (inaccessible), si_dlib (catalogued), si_mnzs (catalogued), si_sazu (catalogued), si_sta (inaccessible), si_ukc (inaccessible), tr_ataturk_kitapligi (catalogued), tr_devlet_arsivleri (catalogued), tr_milli_kutuphane (catalogued), tr_tuik (catalogued), us_britannica (inaccessible), us_chicago_encyclopedia (inaccessible), us_dol (catalogued), us_ipums (catalogued), us_loc (catalogued), us_ohio_history (inaccessible), us_smithsonian (catalogued), us_ssa (inaccessible).
+- Использовано (`accessed`): 444.
+- Зарегистрировано, но не использовано: 80: cn_difangzhi (catalogued), cn_nbs_data (catalogued), cn_nlc (catalogued), cn_yearbooks (catalogued), es_ahcb_guide_1912 (catalogued), es_barcelona_la84_report_download_lead (inaccessible), es_barcelona_md_olympics_1992_inaccessible (inaccessible), es_loc_barcelona_1908 (inaccessible), es_oviedo_bop_1910_access_lead (inaccessible), fi_digi_kansalliskirjasto (catalogued), fi_finna (catalogued), fi_kansallisarkisto (catalogued), fr_ad_13 (catalogued), fr_ad_nord (catalogued), fr_ad_rhone (catalogued), fr_bnf_api (catalogued), fr_britannica (catalogued), fr_chemins_de_memoire (inaccessible), fr_data_gouv (catalogued), fr_francearchives (inaccessible), fr_ined (inaccessible), fr_larousse (catalogued), fr_ratp (inaccessible), fr_unesco_whc (inaccessible), fr_vie_publique (catalogued), gb_bna (inaccessible), gb_parliament (inaccessible), gb_tna_discovery (catalogued), gb_ukds (catalogued), gb_vision_of_britain (inaccessible), hr_daz (inaccessible), it_bncr (catalogued), it_internet_culturale (catalogued), it_lastampa_archivio (catalogued), it_san (catalogued), it_treccani (catalogued), pl_britannica (inaccessible), pl_culture_pl (inaccessible), pl_fbc (catalogued), pl_ipn_main (catalogued), pl_isap (inaccessible), pl_muzeum_tarnow (inaccessible), pl_polona (catalogued), pl_pwn (inaccessible), rs_anno (inaccessible), rs_arcanum (inaccessible), rs_bms_digital (catalogued), rs_gallica (inaccessible), rs_hungaricana (inaccessible), rs_loc_chronam (inaccessible), rs_nbs_digital (catalogued), rs_novisad_city (catalogued), rs_subotica_city (inaccessible), rs_subotica_library (catalogued), ru_bigenc (catalogued), ru_demoscope (inaccessible), ru_gato (catalogued), ru_glavarchiv (catalogued), ru_prozhito (catalogued), ru_rgakfd (catalogued), ru_rosstat (inaccessible), ru_spbarchives (inaccessible), si_arsq (inaccessible), si_dlib (catalogued), si_mnzs (catalogued), si_sazu (catalogued), si_sta (inaccessible), si_ukc (inaccessible), tr_ataturk_kitapligi (catalogued), tr_devlet_arsivleri (catalogued), tr_milli_kutuphane (catalogued), tr_tuik (catalogued), us_britannica (inaccessible), us_chicago_encyclopedia (inaccessible), us_dol (catalogued), us_ipums (catalogued), us_loc (catalogued), us_ohio_history (inaccessible), us_smithsonian (catalogued), us_ssa (inaccessible).

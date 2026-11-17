@@ -8,6 +8,7 @@ Coordinates missing from authored files are filled from the Wikidata cache (coll
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 import sys
 from pathlib import Path
@@ -44,6 +45,7 @@ CREATE TABLE event_sources (event_id TEXT, source_id TEXT);
 CREATE TABLE event_groups (event_id TEXT, group_name TEXT);
 CREATE TABLE event_hooks (event_id TEXT, kind TEXT, value TEXT);
 CREATE TABLE evidence (record_kind TEXT, record_id TEXT, source_id TEXT, url TEXT, accessed TEXT, supports TEXT);
+CREATE TABLE evidence_documents (record_kind TEXT, record_id TEXT, source_id TEXT, document_json TEXT);
 CREATE TABLE contexts (
   id TEXT PRIMARY KEY, country TEXT, location_id TEXT, period_start INTEGER, period_end INTEGER, context_type TEXT,
   attribute TEXT, title TEXT, description TEXT, verification_status TEXT, confidence TEXT, file TEXT, json TEXT
@@ -75,9 +77,10 @@ def with_wikidata_coordinates(data: Dataset) -> None:
 def build(data: Dataset) -> Path:
     with_wikidata_coordinates(data)
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
-    if DB_PATH.exists():
-        DB_PATH.unlink()
-    connection = sqlite3.connect(str(DB_PATH))
+    temporary = DB_PATH.with_name(DB_PATH.name + '.tmp')
+    if temporary.exists():
+        temporary.unlink()
+    connection = sqlite3.connect(str(temporary))
     connection.executescript(SCHEMA)
     insert = connection.execute
     insert("INSERT INTO meta VALUES ('schema', 'world-dataset-v1')")
@@ -128,6 +131,7 @@ def build(data: Dataset) -> Path:
                 insert("INSERT INTO event_hooks VALUES (?,?,?)", (event["id"], kind, value))
         for item in event.get("evidence", []):
             insert("INSERT INTO evidence VALUES ('event',?,?,?,?,?)", (event["id"], item.get("source_id"), item.get("url"), item.get("accessed"), item.get("supports")))
+            insert("INSERT INTO evidence_documents VALUES ('event',?,?,?)", (event['id'], item.get('source_id'), json.dumps(item, ensure_ascii=False)))
 
     for context in data.contexts:
         insert("INSERT INTO contexts VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", (
@@ -143,9 +147,11 @@ def build(data: Dataset) -> Path:
                 stat.get("year"), stat.get("area_id"), stat.get("population"), stat.get("method_note"), stat.get("source_id")))
         for item in context.get("evidence", []):
             insert("INSERT INTO evidence VALUES ('context',?,?,?,?,?)", (context["id"], item.get("source_id"), item.get("url"), item.get("accessed"), item.get("supports")))
+            insert("INSERT INTO evidence_documents VALUES ('context',?,?,?)", (context['id'], item.get('source_id'), json.dumps(item, ensure_ascii=False)))
 
     connection.commit()
     connection.close()
+    os.replace(temporary, DB_PATH)
     return DB_PATH
 
 

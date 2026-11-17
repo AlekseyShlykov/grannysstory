@@ -1,0 +1,1481 @@
+{
+  "schema": 1,
+  "method": "unique verified events; direct reviewed primary documents only; no inherited city duplicates",
+  "combined": {
+    "verified": 87,
+    "primary": 66,
+    "primaryIds": [
+      "es-1900-industrial-accidents-law",
+      "es-1900-maternity-work-protection",
+      "es-1910-women-official-enrolment",
+      "es-1919-eight-hour-day",
+      "es-1920-urban-rent-protection",
+      "es-1931-constitution",
+      "es-1931-employment-marriage-bars",
+      "es-1942-compulsory-sickness-insurance-law",
+      "es-1945-primary-education-law",
+      "es-1959-economic-stabilisation",
+      "es-1962-women-employment-rights",
+      "es-1963-social-security-bases",
+      "es-1975-married-women-capacity",
+      "es-1978-constitution",
+      "es-1981-divorce-restored",
+      "es-1990-basic-education-reform",
+      "es-2005-equal-marriage",
+      "es-2010-public-pay-cuts",
+      "es-2020-minimum-living-income",
+      "es-2020-pandemic-alarm",
+      "es-2020-remote-work-agreements",
+      "es-andalusia-1982-autonomy",
+      "es-asturias-1982-autonomy",
+      "es-barcelona-1929-international-exposition",
+      "es-barcelona-1931-port-chemical-permit",
+      "es-barcelona-1933-university-autonomy-decree",
+      "es-barcelona-1974-seat-workers-bulletin",
+      "es-barcelona-1992-olympic-opening",
+      "es-barcelona-2004-forum-public-opening",
+      "es-barcelona-2012-bus-network",
+      "es-barcelona-area-1953-urban-plan-law",
+      "es-barcelona-province-1910-census",
+      "es-catalonia-1932-statute-publication",
+      "es-catalonia-1936-parliament-resumption",
+      "es-catalonia-1977-provisional-restoration",
+      "es-catalonia-1980-autonomy",
+      "es-madrid-1949-population-register",
+      "es-madrid-1950-municipal-museum-reopening",
+      "es-madrid-1950-trolleybus-service",
+      "es-madrid-1983-autonomy",
+      "es-madrid-1986-reina-sofia-art-centre",
+      "es-madrid-2009-sol-inauguration",
+      "es-madrid-2019-minimum-metro-service",
+      "es-madrid-province-1910-census",
+      "es-malaga-1901-smallpox-measures",
+      "es-malaga-1953-park-library-rules",
+      "es-malaga-1969-bookshop-report",
+      "es-malaga-1972-university",
+      "es-malaga-1988-torremolinos-segregation-decree",
+      "es-malaga-1992-technology-park-funding",
+      "es-malaga-2003-picasso-museum-inauguration",
+      "es-malaga-2014-metro",
+      "es-malaga-province-1910-census",
+      "es-oviedo-1901-popular-classes",
+      "es-oviedo-1902-school-holiday-colony",
+      "es-oviedo-1925-station-link-tender",
+      "es-oviedo-1934-university-fire",
+      "es-oviedo-1939-reconstruction-funds",
+      "es-oviedo-1941-urban-plan-publication",
+      "es-oviedo-1968-medical-faculty",
+      "es-oviedo-1981-asturias-prizes",
+      "es-oviedo-1998-world-heritage-extension",
+      "es-oviedo-2003-bus-station-completion",
+      "es-oviedo-2014-huca",
+      "es-oviedo-province-1910-census",
+      "es-oviedo-province-1983-rename"
+    ],
+    "percentage": 75.86,
+    "meets55Percent": true
+  },
+  "countries": {
+    "ES": {
+      "verified": 87,
+      "primary": 66,
+      "primaryIds": [
+        "es-1900-industrial-accidents-law",
+        "es-1900-maternity-work-protection",
+        "es-1910-women-official-enrolment",
+        "es-1919-eight-hour-day",
+        "es-1920-urban-rent-protection",
+        "es-1931-constitution",
+        "es-1931-employment-marriage-bars",
+        "es-1942-compulsory-sickness-insurance-law",
+        "es-1945-primary-education-law",
+        "es-1959-economic-stabilisation",
+        "es-1962-women-employment-rights",
+        "es-1963-social-security-bases",
+        "es-1975-married-women-capacity",
+        "es-1978-constitution",
+        "es-1981-divorce-restored",
+        "es-1990-basic-education-reform",
+        "es-2005-equal-marriage",
+        "es-2010-public-pay-cuts",
+        "es-2020-minimum-living-income",
+        "es-2020-pandemic-alarm",
+        "es-2020-remote-work-agreements",
+        "es-andalusia-1982-autonomy",
+        "es-asturias-1982-autonomy",
+        "es-barcelona-1929-international-exposition",
+        "es-barcelona-1931-port-chemical-permit",
+        "es-barcelona-1933-university-autonomy-decree",
+        "es-barcelona-1974-seat-workers-bulletin",
+        "es-barcelona-1992-olympic-opening",
+        "es-barcelona-2004-forum-public-opening",
+        "es-barcelona-2012-bus-network",
+        "es-barcelona-area-1953-urban-plan-law",
+        "es-barcelona-province-1910-census",
+        "es-catalonia-1932-statute-publication",
+        "es-catalonia-1936-parliament-resumption",
+        "es-catalonia-1977-provisional-restoration",
+        "es-catalonia-1980-autonomy",
+        "es-madrid-1949-population-register",
+        "es-madrid-1950-municipal-museum-reopening",
+        "es-madrid-1950-trolleybus-service",
+        "es-madrid-1983-autonomy",
+        "es-madrid-1986-reina-sofia-art-centre",
+        "es-madrid-2009-sol-inauguration",
+        "es-madrid-2019-minimum-metro-service",
+        "es-madrid-province-1910-census",
+        "es-malaga-1901-smallpox-measures",
+        "es-malaga-1953-park-library-rules",
+        "es-malaga-1969-bookshop-report",
+        "es-malaga-1972-university",
+        "es-malaga-1988-torremolinos-segregation-decree",
+        "es-malaga-1992-technology-park-funding",
+        "es-malaga-2003-picasso-museum-inauguration",
+        "es-malaga-2014-metro",
+        "es-malaga-province-1910-census",
+        "es-oviedo-1901-popular-classes",
+        "es-oviedo-1902-school-holiday-colony",
+        "es-oviedo-1925-station-link-tender",
+        "es-oviedo-1934-university-fire",
+        "es-oviedo-1939-reconstruction-funds",
+        "es-oviedo-1941-urban-plan-publication",
+        "es-oviedo-1968-medical-faculty",
+        "es-oviedo-1981-asturias-prizes",
+        "es-oviedo-1998-world-heritage-extension",
+        "es-oviedo-2003-bus-station-completion",
+        "es-oviedo-2014-huca",
+        "es-oviedo-province-1910-census",
+        "es-oviedo-province-1983-rename"
+      ],
+      "percentage": 75.86,
+      "meets55Percent": true,
+      "includedInThisCheckout": true,
+      "periods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "missingPeriods": [],
+      "nationalEvents": 33,
+      "regionalEvents": 16,
+      "contexts": 60,
+      "inaccessibleArchives": [
+        {
+          "id": "es_loc_barcelona_1908",
+          "url": "https://www.loc.gov/item/2021644475/",
+          "note": "HTTP 403 при открытии карточки. Поисковый фрагмент не считается просмотром оригинала."
+        },
+        {
+          "id": "es_oviedo_bop_1910_access_lead",
+          "url": "https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364",
+          "note": "Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены."
+        },
+        {
+          "id": "es_barcelona_md_olympics_1992_inaccessible",
+          "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf",
+          "note": "Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено."
+        },
+        {
+          "id": "es_barcelona_la84_report_download_lead",
+          "url": "https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf",
+          "note": "Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование."
+        }
+      ]
+    },
+    "JP": {
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "includedInThisCheckout": false,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "nationalEvents": 0,
+      "regionalEvents": 0,
+      "contexts": 0,
+      "inaccessibleArchives": []
+    },
+    "BR": {
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "includedInThisCheckout": false,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "nationalEvents": 0,
+      "regionalEvents": 0,
+      "contexts": 0,
+      "inaccessibleArchives": []
+    },
+    "ZA": {
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "includedInThisCheckout": false,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "nationalEvents": 0,
+      "regionalEvents": 0,
+      "contexts": 0,
+      "inaccessibleArchives": []
+    },
+    "CD": {
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "includedInThisCheckout": false,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "nationalEvents": 0,
+      "regionalEvents": 0,
+      "contexts": 0,
+      "inaccessibleArchives": []
+    },
+    "EG": {
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "includedInThisCheckout": false,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "nationalEvents": 0,
+      "regionalEvents": 0,
+      "contexts": 0,
+      "inaccessibleArchives": []
+    }
+  },
+  "cities": {
+    "es-barcelona": {
+      "country": "ES",
+      "verified": 9,
+      "primary": 7,
+      "primaryIds": [
+        "es-barcelona-1929-international-exposition",
+        "es-barcelona-1931-port-chemical-permit",
+        "es-barcelona-1933-university-autonomy-decree",
+        "es-barcelona-1974-seat-workers-bulletin",
+        "es-barcelona-1992-olympic-opening",
+        "es-barcelona-2004-forum-public-opening",
+        "es-barcelona-2012-bus-network"
+      ],
+      "percentage": 77.78,
+      "meets55Percent": true,
+      "regionalEvents": 6,
+      "localContexts": 5,
+      "nationalContexts": 26,
+      "periods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "missingPeriods": [],
+      "contextPeriods": [
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "localEverydayTypes": [
+        "education",
+        "leisure_culture",
+        "transport",
+        "work"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "es_barcelona_exposition_newspaper_1929",
+        "es_barcelona_first_seat_1953_retrospective",
+        "es_barcelona_forum_public_opening_2004",
+        "es_barcelona_olympic_opening_press_1992",
+        "es_barcelona_olympic_opening_rtve_date",
+        "es_barcelona_seat_workers_bulletin_1974",
+        "es_barcelona_tragic_week_museum",
+        "es_barcelona_university_autonomy_1933",
+        "es_bcn_bus_launch_2012",
+        "es_gaceta_1931_344"
+      ],
+      "licensing": [
+        {
+          "sourceId": "es_barcelona_exposition_newspaper_1929",
+          "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1929/05/20/MD19290520-001.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_first_seat_1953_retrospective",
+          "url": "https://www.seat-cupra-mediacenter.es/SEAT-Brand/seat-brand-news/modelrange/2023/SEAT-70-anos-sobre-ruedas",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_forum_public_opening_2004",
+          "url": "https://elpais.com/cultura/2004/05/09/actualidad/1084053601_850215.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_olympic_opening_press_1992",
+          "url": "https://elpais.com/diario/1992/07/26/portada/712101601_850215.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_olympic_opening_rtve_date",
+          "url": "https://www.rtve.es/rtve/20170710/els-jocs-olimpics-barcelona-92/1579313.shtml",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_seat_workers_bulletin_1974",
+          "url": "https://hemeroteca.fundacionlito.es/admin/pdf2/FFLC_Asamblea_Obrera_%281974%29_19741111%20-%2000001.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_tragic_week_museum",
+          "url": "https://www.mhcat.cat/exposicions/la_memoria_d_un_pais/els_anys_electrics/obrerisme_i_conflictivitat_social/la_setmana_tragica",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_barcelona_university_autonomy_1933",
+          "url": "https://www.boe.es/gazeta/dias/1933/06/02/pdfs/GMD-1933-153.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_bcn_bus_launch_2012",
+          "url": "https://noticies.tmb.cat/sala-de-premsa/balanc-de-jornada-de-vaga-xarxa-dautobusos-de-tmb",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_gaceta_1931_344",
+          "url": "https://www.boe.es/gazeta/dias/1931/12/10/pdfs/GMD-1931-344.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "es_loc_barcelona_1908",
+          "url": "https://www.loc.gov/item/2021644475/",
+          "note": "HTTP 403 при открытии карточки. Поисковый фрагмент не считается просмотром оригинала."
+        },
+        {
+          "id": "es_oviedo_bop_1910_access_lead",
+          "url": "https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364",
+          "note": "Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены."
+        },
+        {
+          "id": "es_barcelona_md_olympics_1992_inaccessible",
+          "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf",
+          "note": "Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено."
+        },
+        {
+          "id": "es_barcelona_la84_report_download_lead",
+          "url": "https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf",
+          "note": "Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование."
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "es-madrid": {
+      "country": "ES",
+      "verified": 8,
+      "primary": 6,
+      "primaryIds": [
+        "es-madrid-1949-population-register",
+        "es-madrid-1950-municipal-museum-reopening",
+        "es-madrid-1950-trolleybus-service",
+        "es-madrid-1986-reina-sofia-art-centre",
+        "es-madrid-2009-sol-inauguration",
+        "es-madrid-2019-minimum-metro-service"
+      ],
+      "percentage": 75.0,
+      "meets55Percent": true,
+      "regionalEvents": 2,
+      "localContexts": 7,
+      "nationalContexts": 26,
+      "periods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "missingPeriods": [
+        "1960–1979"
+      ],
+      "contextPeriods": [
+        "1940–1959",
+        "2010–2020"
+      ],
+      "localEverydayTypes": [
+        "demography",
+        "food",
+        "housing",
+        "leisure_culture",
+        "transport"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "es_madrid_1950_cultural_services",
+        "es_madrid_1950_emt_transport",
+        "es_madrid_1950_fruit_supply",
+        "es_madrid_1950_housing",
+        "es_madrid_1950_population",
+        "es_madrid_1950_water",
+        "es_madrid_fire_service_history_1936",
+        "es_madrid_metro_1919_2019",
+        "es_madrid_reina_sofia_opening_1986",
+        "es_madrid_sol_inauguration_2009",
+        "es_madrid_strike_2019"
+      ],
+      "licensing": [
+        {
+          "sourceId": "es_madrid_1950_cultural_services",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090017.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_1950_emt_transport",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090001.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_1950_fruit_supply",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Bromatolog%C3%ADa/1950070004.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_1950_housing",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Varios%20servicios/1950090009.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_1950_population",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Estad%C3%ADstica/1950020001.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_1950_water",
+          "url": "https://www.madrid.es/UnidadesDescentralizadas/UDCEstadistica/Nuevaweb/Publicaciones/anuesta/hist%C3%B3ricos/ANUARIOS/1950/Salubridad/1950050018.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_fire_service_history_1936",
+          "url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Emergencias-y-seguridad/Guerra-Civil-1936/?vgnextchannel=f9cd31d3b28fe410VgnVCM1000000b205a0aRCRD&vgnextoid=a5debba6308b6210VgnVCM2000000c205a0aRCRD",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_metro_1919_2019",
+          "url": "https://www.crtm.es/media/heofhgdi/serie_i_historico_metro_2019_portada.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_reina_sofia_opening_1986",
+          "url": "https://elpais.com/diario/1986/05/27/cultura/517528810_850215.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_sol_inauguration_2009",
+          "url": "https://elpais.com/diario/2009/06/28/madrid/1246188256_850215.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_madrid_strike_2019",
+          "url": "https://www.comunidad.madrid/file/181629/download",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "es_loc_barcelona_1908",
+          "url": "https://www.loc.gov/item/2021644475/",
+          "note": "HTTP 403 при открытии карточки. Поисковый фрагмент не считается просмотром оригинала."
+        },
+        {
+          "id": "es_oviedo_bop_1910_access_lead",
+          "url": "https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364",
+          "note": "Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены."
+        },
+        {
+          "id": "es_barcelona_md_olympics_1992_inaccessible",
+          "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf",
+          "note": "Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено."
+        },
+        {
+          "id": "es_barcelona_la84_report_download_lead",
+          "url": "https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf",
+          "note": "Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование."
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Необязательное пополнение местных событий: 1960–1979.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "es-oviedo": {
+      "country": "ES",
+      "verified": 11,
+      "primary": 11,
+      "primaryIds": [
+        "es-oviedo-1901-popular-classes",
+        "es-oviedo-1902-school-holiday-colony",
+        "es-oviedo-1925-station-link-tender",
+        "es-oviedo-1934-university-fire",
+        "es-oviedo-1939-reconstruction-funds",
+        "es-oviedo-1941-urban-plan-publication",
+        "es-oviedo-1968-medical-faculty",
+        "es-oviedo-1981-asturias-prizes",
+        "es-oviedo-1998-world-heritage-extension",
+        "es-oviedo-2003-bus-station-completion",
+        "es-oviedo-2014-huca"
+      ],
+      "percentage": 100.0,
+      "meets55Percent": true,
+      "regionalEvents": 5,
+      "localContexts": 7,
+      "nationalContexts": 26,
+      "periods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "missingPeriods": [],
+      "contextPeriods": [
+        "1900–1919",
+        "1940–1959",
+        "1960–1979",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "localEverydayTypes": [
+        "communication",
+        "education",
+        "healthcare",
+        "housing",
+        "leisure_culture",
+        "transport"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "es_asturias_health_2016",
+        "es_oviedo_anales_tomo_2",
+        "es_oviedo_awards_speech_1981",
+        "es_oviedo_feder_final_report_2011",
+        "es_oviedo_medicine_law_1968",
+        "es_oviedo_railway_tender_1925",
+        "es_oviedo_reconstruction_order_1939",
+        "es_oviedo_unesco_extension_1998",
+        "es_oviedo_university_fire_photo_1934",
+        "es_oviedo_urban_plan_1941"
+      ],
+      "licensing": [
+        {
+          "sourceId": "es_asturias_health_2016",
+          "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnualSNS2016/Asturias.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_anales_tomo_2",
+          "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/5290/000000662825_Tomo_02.pdf?isAllowed=y&sequence=32",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_awards_speech_1981",
+          "url": "https://www.fpa.es/files/flippingbook/Discursos/files/assets/common/downloads/publication.pdf?uni=0d98916224f4ca33c3d440eddeb2b45c",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_feder_final_report_2011",
+          "url": "https://www.fondoseuropeos.hacienda.gob.es/sitios/dgfc/es-ES/ipr/fcpp0006/fe/f/ro1/gsc/pir/Documents/Informe%20final%20POI%20Asturias%20FEDER%202000-2006.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_medicine_law_1968",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-908",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_railway_tender_1925",
+          "url": "https://www.boe.es/gazeta/dias/1925/12/16/pdfs/C00585-00592.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_reconstruction_order_1939",
+          "url": "https://www.boe.es/gazeta/dias/1939/12/15/pdfs/BOE-1939-349.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_unesco_extension_1998",
+          "url": "https://whc.unesco.org/en/decisions/2785",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_university_fire_photo_1934",
+          "url": "https://colecciones.rebiun.org/s/exp-malheridos/item/442",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_oviedo_urban_plan_1941",
+          "url": "https://www.coam.org/media/Default%20Files/fundacion/biblioteca/revista-arquitectura-100/1941-1946/docs/revista-completa/revista-nacional-arquitectura-1941-n04.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "es_loc_barcelona_1908",
+          "url": "https://www.loc.gov/item/2021644475/",
+          "note": "HTTP 403 при открытии карточки. Поисковый фрагмент не считается просмотром оригинала."
+        },
+        {
+          "id": "es_oviedo_bop_1910_access_lead",
+          "url": "https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364",
+          "note": "Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены."
+        },
+        {
+          "id": "es_barcelona_md_olympics_1992_inaccessible",
+          "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf",
+          "note": "Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено."
+        },
+        {
+          "id": "es_barcelona_la84_report_download_lead",
+          "url": "https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf",
+          "note": "Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование."
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "es-malaga": {
+      "country": "ES",
+      "verified": 10,
+      "primary": 8,
+      "primaryIds": [
+        "es-malaga-1901-smallpox-measures",
+        "es-malaga-1953-park-library-rules",
+        "es-malaga-1969-bookshop-report",
+        "es-malaga-1972-university",
+        "es-malaga-1988-torremolinos-segregation-decree",
+        "es-malaga-1992-technology-park-funding",
+        "es-malaga-2003-picasso-museum-inauguration",
+        "es-malaga-2014-metro"
+      ],
+      "percentage": 80.0,
+      "meets55Percent": true,
+      "regionalEvents": 3,
+      "localContexts": 5,
+      "nationalContexts": 26,
+      "periods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "missingPeriods": [],
+      "contextPeriods": [
+        "1900–1919",
+        "1940–1959",
+        "1960–1979",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "localEverydayTypes": [
+        "education",
+        "healthcare",
+        "leisure_culture",
+        "transport"
+      ],
+      "readiness": "supported",
+      "registeredInThisCheckout": true,
+      "geographyReview": "verified",
+      "sourceIds": [
+        "es_malaga_metro_2014",
+        "es_malaga_park_libraries_documents",
+        "es_malaga_picasso_inauguration_2003",
+        "es_malaga_proteo_licence_report_1969",
+        "es_malaga_technology_park_funding_1992",
+        "es_malaga_torremolinos_decree_1988",
+        "es_malaga_university_decree_1972",
+        "es_malaga_vaccination_minutes_1901",
+        "es_wiki_malaga_battle_1937"
+      ],
+      "licensing": [
+        {
+          "sourceId": "es_malaga_metro_2014",
+          "url": "https://www.juntadeandalucia.es/organismos/empleoempresaytrabajoautonomo/servicios/actualidad/noticias/detalle/92029.html",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_park_libraries_documents",
+          "url": "https://archivomunicipal.malaga.eu/opencms/export/sites/archivo-municipal/.galeria-descargas/10ebb013-ba53-11e3-86e5-005056846acf/C9.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_picasso_inauguration_2003",
+          "url": "https://www.museopicassomalaga.org/en/prensa/el-picasso-de-los-picasso-the-picasso-s-picassos-1",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_proteo_licence_report_1969",
+          "url": "https://archivomunicipal.malaga.eu/opencms/export/sites/archivo-municipal/.galeria-descargas/10ebb013-ba53-11e3-86e5-005056846acf/C14.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_technology_park_funding_1992",
+          "url": "https://www.juntadeandalucia.es/boja/1992/110/24",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_torremolinos_decree_1988",
+          "url": "https://www.boe.es/boe/dias/1989/01/19/pdfs/A01567-01568.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_university_decree_1972",
+          "url": "https://www.boe.es/boe/dias/1972/09/30/pdfs/A17512-17512.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_malaga_vaccination_minutes_1901",
+          "url": "https://archivomunicipal.malaga.eu/opencms/export/sites/archivo-municipal/.galeria-descargas/10ebb013-ba53-11e3-86e5-005056846acf/C3.pdf",
+          "conditions": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        },
+        {
+          "sourceId": "es_wiki_malaga_battle_1937",
+          "url": "https://es.wikipedia.org/wiki/Batalla_de_M%C3%A1laga_(1937)",
+          "conditions": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+          "access": [
+            "Публичный просмотр; разрешение на перепубликацию материалов не установлено."
+          ]
+        }
+      ],
+      "inaccessibleCountryLeads": [
+        {
+          "id": "es_loc_barcelona_1908",
+          "url": "https://www.loc.gov/item/2021644475/",
+          "note": "HTTP 403 при открытии карточки. Поисковый фрагмент не считается просмотром оригинала."
+        },
+        {
+          "id": "es_oviedo_bop_1910_access_lead",
+          "url": "https://prensahistorica.mcu.es/es/consulta/registro.do?formato=ficha_comprende&id=10004064364",
+          "note": "Открытие17.11.2026 вернуло HTTP429. Повторных запросов и обхода нет; поисковый фрагмент не считается чтением содержания. События не извлечены."
+        },
+        {
+          "id": "es_barcelona_md_olympics_1992_inaccessible",
+          "url": "https://hemeroteca-paginas.mundodeportivo.com/EMD02/HEM/1992/07/26/MD19920726-001.pdf",
+          "note": "Проверенный URL вернул403, обхода и повторных запросов нет. Не прочитан, ничего из этого листа не извлечено."
+        },
+        {
+          "id": "es_barcelona_la84_report_download_lead",
+          "url": "https://library.la84.org/6oic/OfficialReports/1992/1992s2.pdf",
+          "note": "Обычный запрос завершился редиректом на HTML вместо PDF. Полный отчёт не получен и не прочитан. Найденная карточка нынешнего каталога требует JavaScript; право LA84 распространять отчёт не объявляется лицензией проекта на копирование."
+        }
+      ],
+      "integration": "enabled",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Человеческая редактура чувствительных реплик по D-019 остаётся открытой.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-tokyo": {
+      "country": "JP",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-kyoto": {
+      "country": "JP",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-osaka": {
+      "country": "JP",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "jp-hiroshima": {
+      "country": "JP",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "br-sao-paulo": {
+      "country": "BR",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "br-rio-de-janeiro": {
+      "country": "BR",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "br-salvador": {
+      "country": "BR",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "za-johannesburg": {
+      "country": "ZA",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "za-cape-town": {
+      "country": "ZA",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "cd-kinshasa": {
+      "country": "CD",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "cd-lubumbashi": {
+      "country": "CD",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "eg-cairo": {
+      "country": "EG",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "eg-alexandria": {
+      "country": "EG",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    },
+    "eg-luxor": {
+      "country": "EG",
+      "verified": 0,
+      "primary": 0,
+      "primaryIds": [],
+      "percentage": null,
+      "meets55Percent": false,
+      "regionalEvents": 0,
+      "localContexts": 0,
+      "nationalContexts": 0,
+      "periods": [],
+      "missingPeriods": [
+        "1900–1919",
+        "1920–1939",
+        "1940–1959",
+        "1960–1979",
+        "1980–1999",
+        "2000–2009",
+        "2010–2020"
+      ],
+      "contextPeriods": [],
+      "localEverydayTypes": [],
+      "readiness": "registered",
+      "registeredInThisCheckout": false,
+      "geographyReview": "not_in_release",
+      "sourceIds": [],
+      "licensing": [],
+      "inaccessibleCountryLeads": [],
+      "integration": "not_in_release",
+      "tests": "See research_progress/validation.json for executed checks; no manual gameplay approval implied",
+      "remaining": [
+        "Историческая география, недостающие эпохи и местные документы.",
+        "Повседневные контексты, авторские тексты и полные сравнительные биографии.",
+        "Публикация страны на GitHub."
+      ]
+    }
+  },
+  "changedExistingAuthoredFiles": []
+}

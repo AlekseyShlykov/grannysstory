@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useState, type ReactNode
 import { spokenFactSentence } from "../../content/scenes/historicalNarration";
 import generatedCatalog from "./en.generated.json";
 import worldCatalog from "./en.world.generated.json";
+import { loadedWorldTranslations, worldPacksRevision } from "../data/worldStore";
 
 export type Locale = "ru" | "en";
 
@@ -15,7 +16,8 @@ interface GeneratedCatalog {
   patterns: TranslationPattern[];
 }
 
-// Countries added in world-1.2 carry English next to the Russian: the export writes it to en.world.generated.json,
+// Legacy countries carry English next to the Russian: the export writes it to en.world.generated.json,
+// while the six-country expansion loads historical translations only with the relevant geographic pack.
 // and hand-written content for those countries (names, regional texts, milestones, work) lives in en/<country>.json.
 // The reviewed full catalog wins where both translate the same string.
 const contentCatalogs = import.meta.glob<{ exact: Record<string, string> }>("./en/*.json", { eager: true, import: "default" });
@@ -272,14 +274,44 @@ const spokenCatalog = Object.entries(catalog.exact).reduce<Record<string, string
   return entries;
 }, {});
 
+let loadedRevision = -1;
+let loadedCatalog = { exact: {} as Record<string, string>, sentences: {} as Record<string, string>,
+  headlines: {} as Record<string, string>, spoken: {} as Record<string, string> };
+
+function refreshLoadedCatalog(): void {
+  const revision = worldPacksRevision();
+  if (revision === loadedRevision) return;
+  const exact = loadedWorldTranslations();
+  const parts = { exact, sentences: {} as Record<string, string>, headlines: {} as Record<string, string>,
+    spoken: {} as Record<string, string> };
+  for (const [source, target] of Object.entries(exact)) {
+    const sourceSentences = sentences(source), targetSentences = sentences(target);
+    if (sourceSentences.length === targetSentences.length) sourceSentences.forEach((sentence, index) => {
+      parts.sentences[sentence] ??= targetSentences[index]!;
+    });
+    const headline = sourceSentences[0]?.replace(/[.!?…]+$/u, "").trim();
+    const translatedHeadline = targetSentences[0]?.replace(/[.!?…]+$/u, "").trim();
+    if (headline && translatedHeadline) parts.headlines[headline] ??= translatedHeadline;
+    if (/\d{4}/u.test(source)) {
+      const spoken = spokenFactSentence(source), english = targetSentences[0];
+      if (spoken && english && !exact[spoken]) parts.spoken[spoken] ??= softenEnglishDates(english, spoken);
+    }
+  }
+  loadedCatalog = parts;
+  loadedRevision = revision;
+  // A previously unknown sentence may now have an authored translation, including after an offline reload.
+  translationCache.clear();
+}
+
 /** Headlines cut by narrativeHeadline (src/engine/eventTitles.ts) end with «…»: find the full text they came from. */
 function translateTruncatedHeadline(value: string): string | null {
   if (!value.endsWith("…")) return null;
   const prefix = value.slice(0, -1).trim();
   if (prefix.length < 40) return null;
-  const source = Object.keys(overrides).find((key) => key.startsWith(prefix)) ?? Object.keys(catalog.exact).find((key) => key.startsWith(prefix));
+  const source = Object.keys(overrides).find((key) => key.startsWith(prefix)) ?? Object.keys(catalog.exact).find((key) => key.startsWith(prefix))
+    ?? Object.keys(loadedCatalog.exact).find((key) => key.startsWith(prefix));
   if (!source) return null;
-  const headline = sentences(overrides[source] ?? catalog.exact[source] ?? "")[0]?.replace(/[.!?…]+$/u, "").trim();
+  const headline = sentences(overrides[source] ?? catalog.exact[source] ?? loadedCatalog.exact[source] ?? "")[0]?.replace(/[.!?…]+$/u, "").trim();
   if (!headline) return null;
   return headline.length <= 132 ? headline : `${headline.slice(0, 131).replace(/\s+\S*$/u, "")}…`;
 }
@@ -346,6 +378,7 @@ function withSourceCase(source: string, translated: string): string {
 }
 
 function translateEnglish(value: string): string {
+  refreshLoadedCatalog();
   const cached = translationCache.get(value);
   if (cached !== undefined) return cached;
   // Keep paragraph and line breaks: translate each block separately so normalisation cannot merge them.
@@ -361,9 +394,12 @@ function translateEnglishUncached(value: string): string {
   if (!trimmed || !russianText.test(trimmed)) return value;
   const normalized = normalize(trimmed);
   const lowerInitial = normalized.charAt(0).toLocaleLowerCase("ru") + normalized.slice(1);
-  const exact = overrides[normalized] ?? catalog.exact[normalized] ?? sentenceCatalog[normalized] ?? headlineCatalog[normalized] ?? spokenCatalog[normalized];
+  const exact = overrides[normalized] ?? catalog.exact[normalized] ?? loadedCatalog.exact[normalized]
+    ?? sentenceCatalog[normalized] ?? loadedCatalog.sentences[normalized] ?? headlineCatalog[normalized]
+    ?? loadedCatalog.headlines[normalized] ?? spokenCatalog[normalized] ?? loadedCatalog.spoken[normalized];
   if (exact) return cleanEnglish(exact);
-  const lowerExact = overrides[lowerInitial] ?? catalog.exact[lowerInitial] ?? sentenceCatalog[lowerInitial] ?? headlineCatalog[lowerInitial];
+  const lowerExact = overrides[lowerInitial] ?? catalog.exact[lowerInitial] ?? loadedCatalog.exact[lowerInitial]
+    ?? sentenceCatalog[lowerInitial] ?? loadedCatalog.sentences[lowerInitial] ?? headlineCatalog[lowerInitial] ?? loadedCatalog.headlines[lowerInitial];
   if (lowerExact) return withSourceCase(normalized, cleanEnglish(lowerExact));
   const truncated = translateTruncatedHeadline(normalized);
   if (truncated) return truncated;

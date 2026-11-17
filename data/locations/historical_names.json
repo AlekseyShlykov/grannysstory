@@ -2047,6 +2047,296 @@
       ],
       "alt": []
     },
+    "es": {
+      "local": [
+        {
+          "name": "Spain",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Испания",
+          "name_en": "Spain",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-barcelona": {
+      "local": [
+        {
+          "name": "Barcelona",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Барселона",
+          "name_en": "Barcelona",
+          "locative": "в Барселоне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-madrid": {
+      "local": [
+        {
+          "name": "Madrid",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Мадрид",
+          "name_en": "Madrid",
+          "locative": "в Мадриде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-oviedo": {
+      "local": [
+        {
+          "name": "Oviedo",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Овьедо",
+          "name_en": "Oviedo",
+          "locative": "в Овьедо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-malaga": {
+      "local": [
+        {
+          "name": "Málaga",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Малага",
+          "name_en": "Málaga",
+          "locative": "в Малаге",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-province-barcelona": {
+      "local": [
+        {
+          "name": "Barcelona",
+          "lang": "es",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Барселона",
+          "name_en": "Province of Barcelona",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-province-madrid": {
+      "local": [
+        {
+          "name": "Madrid",
+          "lang": "es",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Мадрид",
+          "name_en": "Province of Madrid",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-province-malaga": {
+      "local": [
+        {
+          "name": "Málaga",
+          "lang": "es",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Малага",
+          "name_en": "Province of Málaga",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-province-oviedo": {
+      "local": [
+        {
+          "name": "Provincia de Oviedo",
+          "lang": "es",
+          "from": null,
+          "to": "1983-04-07"
+        },
+        {
+          "name": "Provincia de Asturias",
+          "lang": "es",
+          "from": "1983-04-08",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Провинция Овьедо",
+          "name_en": "Province of Oviedo",
+          "locative": null,
+          "from": null,
+          "to": "1983-04-07"
+        },
+        {
+          "name": "Провинция Астурия",
+          "name_en": "Province of Asturias",
+          "locative": null,
+          "from": "1983-04-08",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-community-catalonia": {
+      "local": [
+        {
+          "name": "Cataluña",
+          "lang": "es",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Каталония",
+          "name_en": "Catalonia",
+          "locative": null,
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-community-andalusia": {
+      "local": [
+        {
+          "name": "Andalucía",
+          "lang": "es",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Андалусия",
+          "name_en": "Andalusia",
+          "locative": null,
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-community-asturias": {
+      "local": [
+        {
+          "name": "Principado de Asturias",
+          "lang": "es",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Княжество Астурия",
+          "name_en": "Principality of Asturias",
+          "locative": null,
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-community-madrid": {
+      "local": [
+        {
+          "name": "Comunidad de Madrid",
+          "lang": "es",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сообщество Мадрид",
+          "name_en": "Community of Madrid",
+          "locative": null,
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "alt": []
+    },
+    "es-historical-catalonia": {
+      "local": [
+        {
+          "name": "Cataluña / Catalunya",
+          "lang": "es",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Каталония, исторический регион",
+          "name_en": "Catalonia, historical region",
+          "locative": "в Каталонии",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "alt": []
+    },
     "fi-grand-duchy": {
       "local": [
         {

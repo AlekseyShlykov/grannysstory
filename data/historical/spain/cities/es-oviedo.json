@@ -1,0 +1,598 @@
+{
+  "records": [
+    {
+      "id": "es-oviedo-2014-huca",
+      "title": "Новый университетский госпиталь в Овьедо",
+      "title_en": "Oviedo’s new university hospital",
+      "title_original": "Informe Anual del Sistema Nacional de Salud 2016: Principado de Asturias",
+      "start_date": "2014",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "healthcare",
+      "subcategory": null,
+      "historical_summary": "Открылся новый Hospital Universitario Central de Asturias. Региональный отчёт описывает закрепление работы служб в 2015 году.",
+      "historical_summary_en": "The new Hospital Universitario Central de Asturias opened. The regional report describes consolidation of its services in 2015.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_asturias_health_2016"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_asturias_health_2016",
+          "url": "https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnualSNS2016/Asturias.pdf",
+          "title": "Informe Anual del Sistema Nacional de Salud 2016: Principado de Asturias",
+          "record_identifier": "https://www.sanidad.gob.es/estadEstudios/estadisticas/sisInfSanSNS/tablasEstadisticas/InfAnualSNS2016/Asturias.pdf",
+          "document_date": "2016",
+          "language": "es",
+          "evidence_type": "administrative_report",
+          "supports": "The regional health administration records the new HUCA opening in 2014 and consolidation in 2015.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "printed p.29, section 3.1.2",
+          "repository": "Ministerio de Sanidad / Gobierno del Principado de Asturias"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1968-medical-faculty",
+      "title": "Создание медицинского факультета в Овьедо",
+      "title_en": "Creation of Oviedo medical faculty",
+      "title_original": "Ley56/1968, de27 de julio, creación de Facultades de Medicina",
+      "start_date": "1968-08-18",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "Вступил в силу закон о создании медицинского факультета Университета Овьедо. Обучение предписывалось вводить постепенно, с выделением средств и помещений.",
+      "historical_summary_en": "A law creating Oviedo University medical faculty took effect. Courses were to be introduced gradually as funding and facilities became available.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_medicine_law_1968"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_medicine_law_1968",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1968-908",
+          "title": "Ley56/1968, de27 de julio, creación de Facultades de Medicina",
+          "record_identifier": "BOE-A-1968-908, BOE181, p.11091, arts.1–3",
+          "repository": "Agencia Estatal Boletín Oficial del Estado",
+          "document_date": "1968-07-29",
+          "language": "es",
+          "evidence_type": "legal_publication",
+          "supports": "Юридическое создание медицинского факультета Университета Овьедо; постепенное введение обучения; вступление18.08.1968.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "TEXTO ORIGINAL, arts.1–3; ANÁLISIS"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1934-university-fire",
+      "title": "Пожар университета в Овьедо",
+      "title_en": "Fire at Oviedo University",
+      "title_original": "Fotografías del incendio de la Universidad de Oviedo",
+      "start_date": "1934-10-13",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "Во время октябрьских событий 1934 года в Овьедо горело здание университета. Архивная фотография сохранила вид пожара.",
+      "historical_summary_en": "During the October 1934 events in Oviedo, the university building caught fire. An archival photograph records the fire.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "es_oviedo_university_fire_photo_1934"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_university_fire_photo_1934",
+          "url": "https://colecciones.rebiun.org/s/exp-malheridos/item/442",
+          "title": "Fotografías del incendio de la Universidad de Oviedo",
+          "record_identifier": "Universidad de Oviedo AFUO.GP-Alb.1-1",
+          "repository": "Universidad de Oviedo / REBIUN",
+          "document_date": "1934-10-13",
+          "language": "es",
+          "evidence_type": "photograph",
+          "supports": "Пожар здания университета в Овьедо, идентифицированный и датированный институциональной карточкой; видимые дым и повреждение.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Ficha442; imagen e748a934dc3c4146a0c1342c3f823e4d3c098133.jpg"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1939-reconstruction-funds",
+      "title": "Средства для реконструкции Овьедо",
+      "title_en": "Funds for Oviedo reconstruction",
+      "title_original": "Orden de12 de diciembre de1939: Junta de Reconstrucción de Oviedo",
+      "start_date": "1939-12-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Опубликован приказ передать совету реконструкции Овьедо документы и средства прежнего органа помощи пострадавшим.",
+      "historical_summary_en": "An order directed the transfer of the former relief body's documents and funds to Oviedo's reconstruction board.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_reconstruction_order_1939"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_reconstruction_order_1939",
+          "url": "https://www.boe.es/gazeta/dias/1939/12/15/pdfs/BOE-1939-349.pdf",
+          "title": "Orden de12 de diciembre de1939: Junta de Reconstrucción de Oviedo",
+          "record_identifier": "BOE349,15.12.1939, p.7043, artículo único",
+          "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+          "document_date": "1939-12-15",
+          "language": "es",
+          "evidence_type": "legal_publication",
+          "supports": "Передача документов и средств упразднённого органа помощи в распоряжение Junta de Reconstrucción de Oviedo.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "p.7043, Ministerio de la Gobernación, artículo único"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1941-urban-plan-publication",
+      "title": "Публикация плана реконструкции Овьедо",
+      "title_en": "Publication of Oviedo reconstruction plan",
+      "title_original": "Plan de urbanización de Oviedo, Germán Valentín y García Noblejas",
+      "start_date": "1941",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "Архитектурный журнал опубликовал план реконструкции Овьедо, включавший жилые кварталы, городские службы и транспортные связи.",
+      "historical_summary_en": "An architectural journal published Oviedo's reconstruction plan, covering housing, municipal services and transport links.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_urban_plan_1941"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_urban_plan_1941",
+          "url": "https://www.coam.org/media/Default%20Files/fundacion/biblioteca/revista-arquitectura-100/1941-1946/docs/revista-completa/revista-nacional-arquitectura-1941-n04.pdf",
+          "title": "Plan de urbanización de Oviedo, Germán Valentín y García Noblejas",
+          "record_identifier": "Revista Nacional de Arquitectura, año1, núm.4(1941), pp.3–50",
+          "repository": "Biblioteca del Colegio Oficial de Arquitectos de Madrid / Dirección General de Arquitectura",
+          "document_date": "1941",
+          "language": "es",
+          "evidence_type": "administrative_report",
+          "supports": "Опубликованный авторами план реконструкции и описания существовавших городских служб; проектируемые работы отделены от выполненных.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "printed pp.25–26,28,30,36; contents p.1"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1901-popular-classes",
+      "title": "Занятия для рабочих при университете Овьедо",
+      "title_en": "Classes for workers at Oviedo University",
+      "title_original": "Adolfo Posada, Las clases populares de la Universidad de Oviedo",
+      "start_date": "1901",
+      "end_date": "1902",
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "В 1901–1902 учебном году университет организовал занятия с бесплатной записью, предварительно обсудив программу с представителями рабочих.",
+      "historical_summary_en": "In the 1901–1902 academic year the university organised classes with free enrolment, after consulting workers' representatives about the programme.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_anales_tomo_2"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_anales_tomo_2",
+          "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/5290/000000662825_Tomo_02.pdf?isAllowed=y&sequence=32",
+          "title": "Adolfo Posada, Las clases populares de la Universidad de Oviedo",
+          "record_identifier": "Anales, tomoII, pp.276–280; colofón04.01.1904",
+          "repository": "Universidad de Oviedo / Repositorio Institucional de la Universidad de Oviedo",
+          "document_date": "1904-01-04",
+          "language": "es",
+          "evidence_type": "administrative_report",
+          "supports": "Первый опыт курсов1901–1902, бесплатная запись и обсуждение программы с представителями рабочих.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "printed pp.277–279, PDF281–283"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1902-school-holiday-colony",
+      "title": "Школьная поездка из Овьедо в Салинас",
+      "title_en": "School holiday trip from Oviedo to Salinas",
+      "title_original": "Juan Antonio Fandiño, Las colonias escolares de Oviedo",
+      "start_date": "1902",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "Организаторы школьной колонии Овьедо отчитались о поездке 21 ребёнка в Салинас летом 1902 года.",
+      "historical_summary_en": "The organisers of Oviedo's school holiday colony reported taking 21 children to Salinas in summer 1902.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_anales_tomo_2"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_anales_tomo_2",
+          "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/5290/000000662825_Tomo_02.pdf?isAllowed=y&sequence=32",
+          "title": "Juan Antonio Fandiño, Las colonias escolares de Oviedo",
+          "record_identifier": "Anales, tomoII, pp.281–287; colofón04.01.1904",
+          "repository": "Universidad de Oviedo / Repositorio Institucional de la Universidad de Oviedo",
+          "document_date": "1904-01-04",
+          "language": "es",
+          "evidence_type": "administrative_report",
+          "supports": "Отчёт директора о21ребёнке, отправленном из Овьедо в школьную колонию в Салинасе летом1902.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "printed p.284, PDF288"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1925-station-link-tender",
+      "title": "Поставка оборудования для связи станций Овьедо",
+      "title_en": "Equipment tender for the Oviedo station link",
+      "title_original": "Concurso para el suministro de cambios de vía",
+      "start_date": "1925-12-16",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Компания Ferrocarriles Económicos de Asturias объявила конкурс на стрелочные переводы для железнодорожной связи двух станций Овьедо.",
+      "historical_summary_en": "Ferrocarriles Económicos de Asturias invited tenders for points for the railway link between two Oviedo stations.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_railway_tender_1925"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_railway_tender_1925",
+          "url": "https://www.boe.es/gazeta/dias/1925/12/16/pdfs/C00585-00592.pdf",
+          "title": "Concurso para el suministro de cambios de vía",
+          "record_identifier": "Gaceta350, AnexoI,16.12.1925, p.589, anuncioX-3587",
+          "repository": "Agencia Estatal Boletín Oficial del Estado / Gazeta",
+          "document_date": "1925-12-16",
+          "language": "es",
+          "evidence_type": "contemporary_newspaper",
+          "supports": "Конкурс на шесть стрелочных переводов для соединения двух станций Овьедо; не открытие линии.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "p.589, PDF5, centro y derecha"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1981-asturias-prizes",
+      "title": "Церемония премий принца Астурийского в Овьедо",
+      "title_en": "Prince of Asturias Awards ceremony in Oviedo",
+      "title_original": "DiscursoI, Oviedo, Teatro Campoamor,3 de octubre de1981",
+      "start_date": "1981-10-03",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В театре Кампоамор в Овьедо прошла церемония вручения премий принца Астурийского. Датированная речь сохранила свидетельство этого события.",
+      "historical_summary_en": "The Prince of Asturias Awards ceremony took place at Oviedo's Campoamor Theatre, documented by the dated speech.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_awards_speech_1981"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_awards_speech_1981",
+          "url": "https://www.fpa.es/files/flippingbook/Discursos/files/assets/common/downloads/publication.pdf?uni=0d98916224f4ca33c3d440eddeb2b45c",
+          "title": "DiscursoI, Oviedo, Teatro Campoamor,3 de octubre de1981",
+          "record_identifier": "Fundación Princesa de Asturias, Discursos1981–2014, DiscursoI, pp.1–7",
+          "repository": "Fundación Princesa de Asturias",
+          "document_date": "1981-10-03",
+          "language": "es",
+          "evidence_type": "government_document",
+          "supports": "Состоявшаяся церемония премий Príncipe de Asturias в Teatro Campoamor, Овьедо.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "PDF59–67; speech PDF67; edition2016"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-1998-world-heritage-extension",
+      "title": "Расширение списка памятников Овьедо под охраной ЮНЕСКО",
+      "title_en": "Extension of Oviedo World Heritage listing",
+      "title_original": "Decision22 COM VIII.B.2",
+      "start_date": "1998",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "Комитет Всемирного наследия включил Камара-Санта, Сан-Хулиан-де-лос-Прадос и фонтан Ла-Фонкалада в расширенный объект наследия.",
+      "historical_summary_en": "The World Heritage Committee added Cámara Santa, San Julián de los Prados and La Foncalada to the extended property.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_unesco_extension_1998"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_unesco_extension_1998",
+          "url": "https://whc.unesco.org/en/decisions/2785",
+          "title": "Decision22 COM VIII.B.2",
+          "record_identifier": "UNESCO,22 COM VIII.B.2, property312bis",
+          "repository": "UNESCO World Heritage Centre",
+          "document_date": "1998",
+          "language": "en",
+          "evidence_type": "government_document",
+          "supports": "Включение Cámara Santa, San Julián de los Prados и La Foncalada в Овьедо при расширении объекта.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Decision text, paragraph1"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-2003-bus-station-completion",
+      "title": "Завершение строительства автовокзала Овьедо",
+      "title_en": "Completion of Oviedo bus station",
+      "title_original": "Programa Operativo Integrado de Asturias2000–2006, Informe final",
+      "start_date": "2003",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "es-oviedo"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В Овьедо завершили строительство автовокзала на месте прежней станции Ferrocarriles Económicos.",
+      "historical_summary_en": "Oviedo's bus station was completed on the site of the former Ferrocarriles Económicos station.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_feder_final_report_2011"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_feder_final_report_2011",
+          "url": "https://www.fondoseuropeos.hacienda.gob.es/sitios/dgfc/es-ES/ipr/fcpp0006/fe/f/ro1/gsc/pir/Documents/Informe%20final%20POI%20Asturias%20FEDER%202000-2006.pdf",
+          "title": "Programa Operativo Integrado de Asturias2000–2006, Informe final",
+          "record_identifier": "DG Fondos Comunitarios, Informe final abril2011, medida6.6, pp.175–176",
+          "repository": "Ministerio de Economía y Hacienda, Dirección General de Fondos Comunitarios",
+          "document_date": "2011-04",
+          "language": "es",
+          "evidence_type": "administrative_report",
+          "supports": "Завершение строительства автобусной станции Овьедо в2003 и44крытые посадочные площадки.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "printed pp.175–176, PDF179–180"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

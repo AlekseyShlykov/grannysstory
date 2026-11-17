@@ -24,6 +24,7 @@ import { narrativeRegionId, validateSelection } from "./setup";
 import { branchAnchorCandidates, chooseBranchWithHistory, lifeProfile, lifeResidences } from "./world/biographyLink";
 import { getLocation, resolveLocationId } from "./world/geography";
 import { checkMove, corridorDestinations, pickDestination } from "./world/migration";
+import { unreviewedMigrationWindows } from "../../content/historical/migrationLimits";
 import { migrationCorridors } from "../../content/historical/migrationCorridors";
 import { annotatePartitions, placeAtYear, undecidedPartition } from "./world/partition";
 import { dividedCitySides } from "../../content/scenes/dividedCity";
@@ -46,6 +47,13 @@ function latestPlausibleBranchYear(type: BranchDefinition["type"], birthYear: nu
   if (type === "profession") return birthYear + 40;
   if (type === "familyResponsibility") return birthYear + retirementAge(country) - 5;
   return Number.POSITIVE_INFINITY;
+}
+
+// An authored choice needs two usable outcomes. The ES travel model has no reviewed front-line routes;
+// place new turning points outside that window, keeping the education-age bound and all disclosed saves.
+function reviewedChoiceYear(country: string, year: number, latest = Number.POSITIVE_INFINITY): number {
+  const window = unreviewedMigrationWindows.find((item) => item.country === country && year >= item.fromYear && year <= item.toYear);
+  return window ? (window.toYear + 1 <= latest ? window.toYear + 1 : window.fromYear - 1) : year;
 }
 
 const childlessDescriptions = {
@@ -302,7 +310,7 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
   const family = createFamily(selection, random, country);
   const people = [...family.people, ...childhoodFamily(selection, family.relationship, family.people)];
   const branch = random.pick(branchCatalog);
-  const branchYear = Math.min(selection.birthYear + random.int(19, 27), 1965);
+  const branchYear = reviewedChoiceYear(country, Math.min(selection.birthYear + random.int(19, 27), 1965), selection.birthYear + 30);
   const flags: string[] = [];
   if (selection.birthRegionId === "leningrad" && random.next() < 0.55) flags.push("in_city_during_blockade");
   if (selection.birthRegionId === "leningrad" && !flags.includes("in_city_during_blockade")) flags.push("left_city_before_blockade");
@@ -381,11 +389,11 @@ function initialBiography(selection: StartSelection, pack: RegionPack): Biograph
   laterDefinitions.sort((a, b) => Number(workDecisionTypes.has(b.type)) - Number(workDecisionTypes.has(a.type)));
   const branchPlans = [plan.branch, ...laterDefinitions].map((definition, index) => ({
     definition,
-    year: Math.min(
+    year: reviewedChoiceYear(country, Math.min(
       branchYear + index * 10,
       selection.conversationYear - (5 - index),
       latestPlausibleBranchYear(definition.type, selection.birthYear, country)
-    ),
+    ), latestPlausibleBranchYear(definition.type, selection.birthYear, country)),
     destinationPlaceId: index === 0
       ? plan.destinationPlaceId
       : (definition.movesOnA || definition.movesOnB ? plan.destinationPlaceId : null),
@@ -455,12 +463,20 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
   const definition = branchDefinition(active.type);
   const birthPlaceId = state.biography.residenceHistory[0]?.placeId;
   if (!birthPlaceId) throw new Error("Birth residence is missing");
-  const destination = active.destinationPlaceId === undefined ? regionNarratives[narrativeRegionId(state.selection.birthRegionId)]?.destinationPlaceId ?? null : active.destinationPlaceId;
-  // Without a reachable destination she stays: the decision text still holds, but no move is invented.
-  const moves = Boolean((outcomeId === "pathA" ? definition.movesOnA : definition.movesOnB) && destination);
+  let destination = active.destinationPlaceId === undefined ? regionNarratives[narrativeRegionId(state.selection.birthRegionId)]?.destinationPlaceId ?? null : active.destinationPlaceId;
   const currentResidence = state.biography.residenceHistory.find((period) => active.year >= period.fromYear && active.year <= period.toYear)
     ?? state.biography.residenceHistory.at(-1);
   const currentPlaceId = currentResidence?.placeId ?? birthPlaceId;
+  const wantsMove = outcomeId === "pathA" ? definition.movesOnA : definition.movesOnB;
+  // Earlier ES choices may already have taken her to the initially planned destination. Only this still
+  // unresolved route is recalculated; past residences and disclosed branches remain immutable.
+  if (wantsMove && getLocation(worldData(), birthPlaceId)?.country === "ES"
+      && (!destination || !checkMove(worldData(), currentPlaceId, destination, active.year).ok)) {
+    destination = pickDestination(worldData(), currentPlaceId, active.year,
+      seededRandom(`${state.selection.runSeed}:move:${active.id}`));
+    if (!destination) throw new Error("No reviewed route for this unresolved move");
+  }
+  const moves = Boolean(wantsMove && destination);
   const placeId = moves && destination ? destination : currentPlaceId;
   const branchEvent: LifeEvent = {
     id: `life:${active.type}:decision`,
@@ -507,7 +523,7 @@ export function commitBranch(state: GameSessionState, outcomeId: "pathA" | "path
       residenceHistory,
       flags,
       branches: state.biography.branches.map((branch) => branch.id === active.id
-        ? { ...branch, resolved: true, outcome: { id: outcomeId, committedAtStep: state.dialogue.step } }
+        ? { ...branch, ...(moves ? { destinationPlaceId: destination } : {}), resolved: true, outcome: { id: outcomeId, committedAtStep: state.dialogue.step } }
         : branch),
       lifeEvents: [...state.biography.lifeEvents, branchEvent, consequenceEvent]
     },

@@ -1355,6 +1355,194 @@
       "valid_from": null,
       "valid_to": null
     },
+    "es": {
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-barcelona": {
+      "parents": [
+        {
+          "id": "es-province-barcelona",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-madrid": {
+      "parents": [
+        {
+          "id": "es-province-madrid",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-oviedo": {
+      "parents": [
+        {
+          "id": "es-province-oviedo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-malaga": {
+      "parents": [
+        {
+          "id": "es-province-malaga",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-province-barcelona": {
+      "parents": [
+        {
+          "id": "es-historical-catalonia",
+          "from": null,
+          "to": "1980-01-10"
+        },
+        {
+          "id": "es-community-catalonia",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-province-madrid": {
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1983-02-28"
+        },
+        {
+          "id": "es-community-madrid",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-province-malaga": {
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1982-01-10"
+        },
+        {
+          "id": "es-community-andalusia",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-province-oviedo": {
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1982-01-30"
+        },
+        {
+          "id": "es-community-asturias",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": null
+    },
+    "es-community-catalonia": {
+      "parents": [
+        {
+          "id": "es",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1980-01-11",
+      "valid_to": null
+    },
+    "es-community-andalusia": {
+      "parents": [
+        {
+          "id": "es",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1982-01-11",
+      "valid_to": null
+    },
+    "es-community-asturias": {
+      "parents": [
+        {
+          "id": "es",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1982-01-31",
+      "valid_to": null
+    },
+    "es-community-madrid": {
+      "parents": [
+        {
+          "id": "es",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1983-03-01",
+      "valid_to": null
+    },
+    "es-historical-catalonia": {
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1980-01-10"
+    },
     "fi-grand-duchy": {
       "parents": [
         {

@@ -1,4 +1,4 @@
-import { clearWorldPacks, registerWorldPack, validateWorldPack, worldData } from "../src/data/worldStore";
+import { clearWorldPacks, registerWorldPack, validateWorldPack, worldData, worldManifest } from "../src/data/worldStore";
 import type { WorldPack } from "../src/data/worldTypes";
 import { manifest, regionPacks } from "../src/data/catalog";
 import type { GameSessionState, RegionPack } from "../src/data/types";
@@ -10,6 +10,10 @@ const packs = import.meta.glob<WorldPack>("../public/data/world/packs/*.json", {
 export function loadWholeWorld() {
   clearWorldPacks();
   for (const raw of Object.values(packs)) registerWorldPack(validateWorldPack(raw, raw.locationId));
+  // Catch stale transformed globs when new data files were exported since the last test run.
+  for (const id of Object.keys(worldManifest.packs)) {
+    if (!worldData().packs.has(id)) throw new Error(`Test pack glob omitted ${id}; clear the Vitest cache and retry`);
+  }
   return worldData();
 }
 

@@ -17,7 +17,7 @@ from __future__ import annotations
 import datetime as dt
 import hashlib
 import json
-import shutil
+import os
 import sqlite3
 import sys
 from collections import Counter, defaultdict
@@ -25,10 +25,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
 from dataset import COUNTRY_DIRS, DATA, LEVEL_BY_TYPE, ROOT, STRICT_BATCH, STRICT_BATCH_LAST_YEAR, Dataset, event_span, period_end, period_start  # noqa: E402
+from primary_evidence import COUNTRIES as PRIMARY_COUNTRIES, applies as strict_archive_record, has_primary  # noqa: E402
 
 DB_PATH = DATA / "research" / "historical.sqlite"
 OUT = ROOT / "public" / "data" / "world"
-WORLD_DATASET_VERSION = "world-1.2.0"
+WORLD_DATASET_VERSION = "world-1.3.0"
 DECADES = list(range(1900, 2030, 10))
 SETTLEMENT_TYPES = {"city", "town", "village", "rural_area", "gmina"}
 ERAS = [(1900, 1919), (1920, 1939), (1940, 1959), (1960, 1979), (1980, 1999), (2000, 2009), (2010, 2019), (2020, 2025)]
@@ -42,7 +43,9 @@ GATE_MIN_LOCAL_EVENTS = 8
 def dump(path: Path, payload) -> str:
     path.parent.mkdir(parents=True, exist_ok=True)
     text = json.dumps(payload, ensure_ascii=False, separators=(",", ":"), sort_keys=True) + "\n"
-    path.write_text(text, encoding="utf-8")
+    temporary = path.with_name(path.name + '.tmp')
+    temporary.write_text(text, encoding="utf-8")
+    os.replace(temporary, path)
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
@@ -133,7 +136,7 @@ def compact_context(context: dict) -> dict:
         "attribute": context.get("attribute"),
         "title": context.get("title"),
         "description": context["description"],
-        "statistics": [{key: stat.get(key) for key in ("indicator", "value", "unit", "year", "area_id", "population", "source_id")}
+        "statistics": [{key: stat.get(key) for key in ("indicator", "value", "unit", "year", "area_id", "population", "method_note", "source_id")}
                        for stat in context.get("statistics", [])],
         "sourceIds": context["source_ids"],
         "confidence": context["confidence"],
@@ -257,6 +260,10 @@ def report(data: Dataset, all_events: list, exported: list, contexts: list, cove
         f"Сгенерирован `scripts/historical-data/export/export.py` {dt.date.today().isoformat()}, набор `{WORLD_DATASET_VERSION}`. "
         "Считаются только записи со статусом `verified`, попавшие в браузерные пакеты. Российская линия, унаследованная от v0.4.0 и опубликованная в браузерном манифесте v0.5.0 (`content/historical`), включена в RU.",
         "",
+        "Для ES, JP, BR, ZA, CD, EG действует более строгий подсчёт прямых первичных документов. "
+        "Официальный современный пересказ и документ, подтверждающий лишь часть более широкого утверждения, "
+        "не дают первичную опору записи. Отдельные доли и пробелы: `docs/EXPANSION_COVERAGE.md`.",
+        "",
         "## Страны",
         "",
         "| Страна | События (цель) | Контексты (цель) | Масштабы событий |",
@@ -334,7 +341,7 @@ def report(data: Dataset, all_events: list, exported: list, contexts: list, cove
     return "\n".join(lines)
 
 
-def english_catalog(data: Dataset, events: list, contexts: list) -> dict:
+def english_catalog(data: Dataset, events: list, contexts: list, include_locations=True) -> dict:
     """Russian → English pairs authored next to the records (title_en, historical_summary_en, name_en, …)."""
     exact = {}
 
@@ -349,7 +356,7 @@ def english_catalog(data: Dataset, events: list, contexts: list) -> dict:
     for context in contexts:
         add(context.get("title"), context.get("title_en"))
         add(context.get("description"), context.get("description_en"))
-    for location in data.locations.values():
+    for location in data.locations.values() if include_locations else []:
         for name in location.get("names_ru", []):
             if name.get("name_en"):
                 add(name.get("name"), name["name_en"])
@@ -402,6 +409,11 @@ READINESS_MIN_ERAS = 4
 
 def in_game_period(record: dict) -> bool:
     """world-1.3 records end with 2020; earlier batches keep their published range."""
+    if strict_archive_record(record):
+        if 'start_date' in record:
+            first, last = event_span(record)
+            return 1900 <= first.year <= last.year <= 2020
+        return 1900 <= int(record['period_start']) <= int(record['period_end']) <= 2020
     if record.get("batch") != STRICT_BATCH:
         return True
     if "start_date" in record:
@@ -412,6 +424,8 @@ def in_game_period(record: dict) -> bool:
 def has_archive_link(event: dict, sources: dict) -> bool:
     """An evidence link to an archive or official body (D-038 method): archive, library, newspaper archive,
     government, statistics, municipal, museum, academic — or a document a researcher marked as primary."""
+    if strict_archive_record(event):
+        return has_primary(event, sources)
     return any(item.get("primary") or evidence_kind(sources.get(item.get("source_id"), {}), item.get("url", "")) == "official"
                for item in event.get("evidence", []))
 
@@ -449,6 +463,13 @@ def readiness(data: Dataset, events: list, contexts: list, cover: dict) -> dict:
             "eras": len(eras) >= READINESS_MIN_ERAS,
             "everydayContext": context_count > 0,
         }
+        if location.get('country') in PRIMARY_COUNTRIES:
+            # Detailed history and authored voices are still reviewed separately from having coordinates.
+            checks['historicalGeography'] = location.get('geography_review') == 'verified'
+            checks['localEverydayContext'] = any(context['location_id'] == location['id'] for context in contexts)
+            checks['narrativeReviewed'] = location.get('narrative_review') == 'verified'
+            country_events = [event for event in events if location['country'] in event.get('country_codes', [])]
+            checks['countryPrimaryShare'] = bool(country_events) and sum(has_primary(event, data.sources) for event in country_events) * 100 >= len(country_events) * 55
         if not own:
             state = "registered"
         elif review and len(review) >= max(3, len(own) // 4):
@@ -472,6 +493,10 @@ def archive_quality_report(data: Dataset, events: list, contexts: list, ready: d
         "Охват 1900–2020. Доля архивных ссылок = события, у которых есть ссылка на страницу архива или официального органа о том же событии "
         "(государственный и муниципальный архив, библиотека и архив газет, правительство, парламент и официальный вестник, статистика, государственный музей, университет), "
         "/ все проверенные события; считаются различные события, для города — только его собственные. Минимум 55% (решение владельца 13.11.2026). Wikipedia в долю не входит.",
+        "",
+        "Исключение методики для расширения ES, JP, BR, ZA, CD, EG: здесь в числитель входят только непосредственно поддерживающие утверждение первичные документы с проверенным содержанием и полной метаинформацией. "
+        "Современная официальная справка или частично относящаяся фотография не увеличивает эту долю. "
+        "Общий итог ниже смешивает прежнюю и новую методики и не является общей долей первичных источников. Строгий отдельный отчёт: `EXPANSION_COVERAGE.md`.",
         "",
         "## Страны",
         "",
@@ -506,14 +531,18 @@ def main() -> int:
     data = load_from_db()
     exported = [event for event in data.events if event.get("verification_status") == "verified" and in_game_period(event)]
     contexts = [context for context in data.contexts if context.get("verification_status") == "verified" and in_game_period(context)]
-    if OUT.exists():
-        shutil.rmtree(OUT)
+    # Keep the previous manifest readable while writing atomic replacements. Removing OUT first made an
+    # interrupted export erase that checkpoint and broke concurrent read-only checks.
     packs = defaultdict(lambda: {"events": [], "contexts": []})
     for event in exported:
         for location_id in event["location_ids"]:
             packs[location_id]["events"].append(compact_event(event))
+            if strict_archive_record(event):
+                packs[location_id].setdefault('translations', {}).update(english_catalog(data, [event], [], False)['exact'])
     for context in contexts:
         packs[context["location_id"]]["contexts"].append(compact_context(context))
+        if strict_archive_record(context):
+            packs[context['location_id']].setdefault('translations', {}).update(english_catalog(data, [], [context], False)['exact'])
     pack_index = {}
     for location_id, pack in sorted(packs.items()):
         file = f"packs/{location_id}.json"
@@ -528,6 +557,11 @@ def main() -> int:
     ready = readiness(data, exported, contexts, cover)
     for location_id, item in ready.items():
         cover.setdefault(location_id, {})["readiness"] = item["state"]
+    # Research-only registrations must not become migration destinations for an existing saved life.
+    for location in locations:
+        if location.get('country') in PRIMARY_COUNTRIES and location['type'] in SETTLEMENT_TYPES:
+            location['researchOnly'] = ready.get(location['id'], {}).get('state') != 'supported'
+    locations_checksum = dump(OUT / 'locations.json', {'version': WORLD_DATASET_VERSION, 'locations': locations})
     manifest = {
         "worldDatasetVersion": WORLD_DATASET_VERSION,
         "schema": "world-dataset-v1",
@@ -539,6 +573,10 @@ def main() -> int:
         "counts": {"events": len(exported), "contexts": len(contexts), "locations": len(locations), "sources": len(public_sources)},
     }
     dump(OUT / "manifest.json", manifest)
+    current_files = {entry['file'] for entry in pack_index.values()}
+    for path in (OUT / 'packs').glob('*.json'):
+        if path.relative_to(OUT).as_posix() not in current_files:
+            path.unlink()
 
     # Research-side merged views.
     pretty(DATA / "locations" / "locations.json", {"generated": True, "locations": [location for location in locations]})
@@ -551,7 +589,10 @@ def main() -> int:
         for location in data.locations.values()}})
     pretty(DATA / "sources" / "source_registry.json", {"generated": True, "sources": [
         {key: value for key, value in source.items() if not key.startswith("_")} for source in data.sources.values()]})
-    dump(ROOT / "src" / "i18n" / "en.world.generated.json", english_catalog(data, exported, contexts))
+    # Expansion event/context translations travel with their geographic pack, not with the initial app bundle.
+    dump(ROOT / "src" / "i18n" / "en.world.generated.json", english_catalog(data,
+         [row for row in exported if not strict_archive_record(row)],
+         [row for row in contexts if not strict_archive_record(row)]))
     (ROOT / "docs" / "ARCHIVE_QUALITY_REPORT.md").write_text(archive_quality_report(data, exported, contexts, ready), encoding="utf-8")
     (ROOT / "docs" / "LOCAL_SOURCE_REGISTRY.md").write_text(local_source_registry(data, exported, contexts), encoding="utf-8")
     (ROOT / "docs" / "COVERAGE_REPORT.md").write_text(report(data, data.events, exported, contexts, cover, data.sources), encoding="utf-8")

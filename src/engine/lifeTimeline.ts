@@ -168,7 +168,7 @@ function worldCandidates(state: GameSessionState): BackgroundCandidate[] | null 
     .map((item) => ({ item, milestone: milestoneByEventId.get(item.event.id) }))
     .filter(({ item, milestone }) => !milestone || tellsMilestone(item.event.id, milestone.eventIds))
     // Sensitive records are spoken only through a milestone's hand-written lines, never from their summary.
-    .filter(({ item, milestone }) => isNarrativeHistoricalEvent(item.event.title)
+    .filter(({ item, milestone }) => (milestone?.includeLegalMilestone || isNarrativeHistoricalEvent(item.event.title))
       && (!item.event.sensitive || item.event.legacy || milestone)
       && !reserved.has(item.event.id)
       && !ownLifeEvents.has(`context:${item.event.id}`))

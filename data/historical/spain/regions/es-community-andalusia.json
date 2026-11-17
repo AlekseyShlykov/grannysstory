@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "id": "es-andalusia-1982-autonomy",
+      "title": "Вступление в силу статута: Андалусия",
+      "title_en": "Autonomy statute takes effect: Andalusia",
+      "title_original": "Ley Orgánica 6/1981, Estatuto de Autonomía para Andalucía",
+      "start_date": "1982-01-11",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-community-andalusia"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "Вступил в силу статут автономного сообщества. Документ определил его территорию и органы самоуправления.",
+      "historical_summary_en": "The autonomy statute entered into force, defining the community’s territory and institutions.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_statute_andalusia"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_statute_andalusia",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1982-633",
+          "title": "Ley Orgánica 6/1981, Estatuto de Autonomía para Andalucía",
+          "record_identifier": "BOE-A-1982-633",
+          "repository": "Agencia Estatal Boletín Oficial del Estado",
+          "document_date": "1981-12-30",
+          "language": "es",
+          "evidence_type": "legal_publication",
+          "supports": "Создание автономного сообщества, его территория и дата вступления статута в силу.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Título preliminar; ANÁLISIS: fecha de entrada en vigor"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

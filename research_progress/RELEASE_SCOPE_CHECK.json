@@ -1,0 +1,23 @@
+{
+  "parent": "aa5611e3411be0785d4049a91bdd54e1572fc25f",
+  "only_country_added": "ES",
+  "added_events": 87,
+  "added_contexts": 60,
+  "new_supported": [
+    "es-barcelona",
+    "es-madrid",
+    "es-oviedo",
+    "es-malaga"
+  ],
+  "other_country_or_bosnia_records_included": false,
+  "existing_authored_records_preserved": true,
+  "existing_pack_changes_only": "dataset version and previously authored statistical method notes",
+  "sqlite_integrity": "ok",
+  "counts": {
+    "contexts": 592,
+    "events": 2716,
+    "locations": 286,
+    "sources": 444
+  },
+  "manifest_sha256": "e18c3dbfba118d540cf06c2863bf1f1e569bdb542dffa1ad26ce443d5d68d43b"
+}

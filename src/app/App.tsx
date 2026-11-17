@@ -3,7 +3,8 @@ import archiveCatalogJson from "../../content/historical/archiveCatalog.json";
 import sourcesJson from "../../content/historical/sources.json";
 import memorySources from "../../content/memory/memorySources.json";
 import worldSourcesJson from "../../public/data/world/sources.json";
-import { ensureWorldPacks } from "../data/worldStore";
+import { ensureWorldPacks, worldData } from "../data/worldStore";
+import { historyPlaceIds } from "../engine/world/historyLoading";
 import { manifest } from "../data/world";
 import { loadRegionPack } from "../data/regionStore";
 import type { GameSessionState, RegionId, StartSelection } from "../data/types";
@@ -35,10 +36,7 @@ const sourceRecords: SourceRecord[] = [
 
 /** Loads the world packs a life can inherit from: every residence plus the planned destination of an open branch. */
 async function prepareHistory(state: GameSessionState): Promise<void> {
-  const places = [
-    ...state.biography.residenceHistory.map((residence) => residence.placeId),
-    ...state.biography.branches.map((branch) => branch.destinationPlaceId).filter((id): id is string => Boolean(id))
-  ];
+  const places = historyPlaceIds(state, worldData());
   await ensureWorldPacks(places, state.selection.birthYear, state.selection.conversationYear);
 }
 

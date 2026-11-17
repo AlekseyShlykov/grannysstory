@@ -1,0 +1,681 @@
+{
+  "locations": [
+    {
+      "id": "es",
+      "type": "state",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Spain",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Испания",
+          "name_en": "Spain",
+          "locative": null,
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_geonames"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-barcelona",
+      "type": "city",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Barcelona",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Барселона",
+          "name_en": "Barcelona",
+          "locative": "в Барселоне",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 41.389,
+        "lon": 2.159,
+        "source_id": "es_geonames"
+      },
+      "parents": [
+        {
+          "id": "es-province-barcelona",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_catalonia_provisional_1977",
+        "es_catalonia_statute_original_1932",
+        "es_generalitat_institutional_history",
+        "es_geonames"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "settlement_class": "large_city",
+      "coordinate_evidence_url": "https://www.geonames.org/es/largest-cities-in-spain.html",
+      "modern_admin_name": "Каталония",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original ES fiction and English copy reviewed by the implementing agent. Country/history checks and eight full deterministic dialogue paths passed; all 41 birth cohorts checked. Existing D-019 provisional sensitive editorial status remains; no human approval or manual browser play is claimed."
+    },
+    {
+      "id": "es-madrid",
+      "type": "city",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Madrid",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Мадрид",
+          "name_en": "Madrid",
+          "locative": "в Мадриде",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 40.417,
+        "lon": -3.703,
+        "source_id": "es_geonames"
+      },
+      "parents": [
+        {
+          "id": "es-province-madrid",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_geonames"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "settlement_class": "capital",
+      "coordinate_evidence_url": "https://www.geonames.org/es/largest-cities-in-spain.html",
+      "modern_admin_name": "Мадрид",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original ES fiction and English copy reviewed by the implementing agent. Country/history checks and eight full deterministic dialogue paths passed; all 41 birth cohorts checked. Existing D-019 provisional sensitive editorial status remains; no human approval or manual browser play is claimed."
+    },
+    {
+      "id": "es-oviedo",
+      "type": "city",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Oviedo",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Овьедо",
+          "name_en": "Oviedo",
+          "locative": "в Овьедо",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 43.36029,
+        "lon": -5.84476,
+        "source_id": "es_geonames"
+      },
+      "parents": [
+        {
+          "id": "es-province-oviedo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_geonames"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "settlement_class": "large_city",
+      "coordinate_evidence_url": "https://www.geonames.org/3114711/oviedo.html",
+      "modern_admin_name": "Астурия",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original ES fiction and English copy reviewed by the implementing agent. Country/history checks and eight full deterministic dialogue paths passed; all 41 birth cohorts checked. Existing D-019 provisional sensitive editorial status remains; no human approval or manual browser play is claimed."
+    },
+    {
+      "id": "es-malaga",
+      "type": "city",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Málaga",
+          "lang": "en",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Малага",
+          "name_en": "Málaga",
+          "locative": "в Малаге",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": {
+        "lat": 36.72016,
+        "lon": -4.42034,
+        "source_id": "es_geonames"
+      },
+      "parents": [
+        {
+          "id": "es-province-malaga",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_geonames"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы. Отделение Торремолиноса решением27.09.1988 не перемещает точку Малаги; точная дата фактической передачи территории здесь не устанавливается, прежняя территория не применяется к современным муниципальным числам.",
+      "settlement_class": "large_city",
+      "coordinate_evidence_url": "https://www.geonames.org/2514256/malaga.html",
+      "modern_admin_name": "Андалусия",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes",
+      "narrative_review": "verified",
+      "narrative_review_note": "Original ES fiction and English copy reviewed by the implementing agent. Country/history checks and eight full deterministic dialogue paths passed; all 41 birth cohorts checked. Existing D-019 provisional sensitive editorial status remains; no human approval or manual browser play is claimed."
+    },
+    {
+      "id": "es-province-barcelona",
+      "type": "province",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Barcelona",
+          "lang": "es",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Провинция Барселона",
+          "name_en": "Province of Barcelona",
+          "from": null,
+          "to": null
+        }
+      ],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es-historical-catalonia",
+          "from": null,
+          "to": "1980-01-10"
+        },
+        {
+          "id": "es-community-catalonia",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_catalonia_provisional_1977",
+        "es_catalonia_statute_original_1932",
+        "es_generalitat_institutional_history",
+        "es_ine_census_1910_provinces",
+        "es_statute_catalonia"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-province-madrid",
+      "type": "province",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Madrid",
+          "lang": "es",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Провинция Мадрид",
+          "name_en": "Province of Madrid",
+          "from": null,
+          "to": null
+        }
+      ],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1983-02-28"
+        },
+        {
+          "id": "es-community-madrid",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_ine_census_1910_provinces",
+        "es_statute_madrid"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-province-malaga",
+      "type": "province",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Málaga",
+          "lang": "es",
+          "from": null,
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Провинция Малага",
+          "name_en": "Province of Málaga",
+          "from": null,
+          "to": null
+        }
+      ],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1982-01-10"
+        },
+        {
+          "id": "es-community-andalusia",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_ine_census_1910_provinces",
+        "es_statute_andalusia"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы. Отделение Торремолиноса решением27.09.1988 не перемещает точку Малаги; точная дата фактической передачи территории здесь не устанавливается, прежняя территория не применяется к современным муниципальным числам.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-province-oviedo",
+      "type": "province",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Provincia de Oviedo",
+          "lang": "es",
+          "from": null,
+          "to": "1983-04-07"
+        },
+        {
+          "name": "Provincia de Asturias",
+          "lang": "es",
+          "from": "1983-04-08",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Провинция Овьедо",
+          "name_en": "Province of Oviedo",
+          "locative": null,
+          "from": null,
+          "to": "1983-04-07"
+        },
+        {
+          "name": "Провинция Астурия",
+          "name_en": "Province of Asturias",
+          "locative": null,
+          "from": "1983-04-08",
+          "to": null
+        }
+      ],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1982-01-30"
+        },
+        {
+          "id": "es-community-asturias",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_ine_census_1910_provinces",
+        "es_oviedo_province_rename_1983",
+        "es_statute_asturias"
+      ],
+      "valid_from": null,
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-community-catalonia",
+      "type": "region",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Cataluña",
+          "lang": "es",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Каталония",
+          "name_en": "Catalonia",
+          "locative": null,
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": "1980-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_statute_catalonia"
+      ],
+      "valid_from": "1980-01-11",
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-community-andalusia",
+      "type": "region",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Andalucía",
+          "lang": "es",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Андалусия",
+          "name_en": "Andalusia",
+          "locative": null,
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": "1982-01-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_statute_andalusia"
+      ],
+      "valid_from": "1982-01-11",
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-community-asturias",
+      "type": "region",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Principado de Asturias",
+          "lang": "es",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Княжество Астурия",
+          "name_en": "Principality of Asturias",
+          "locative": null,
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": "1982-01-31",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_statute_asturias"
+      ],
+      "valid_from": "1982-01-31",
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-community-madrid",
+      "type": "region",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Comunidad de Madrid",
+          "lang": "es",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Сообщество Мадрид",
+          "name_en": "Community of Madrid",
+          "locative": null,
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": "1983-03-01",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_statute_madrid"
+      ],
+      "valid_from": "1983-03-01",
+      "valid_to": null,
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Проверены точка населённого места, его провинциальная принадлежность и датированная современная автономия. Граф задаёт географическое наследование, а не полный список органов власти. Провозглашение республики, диктатура и переход описаны национальными событиями. Имена городов стабильны; название провинции Овьедо меняется отдельно с08.04.1983. Точка на карте не изображает исторический муниципальный полигон; статистика сохраняет исходные границы.",
+      "geography_review_scope": "settlement point, stable province, dated modern autonomy; historical governments are context, not sovereignty changes"
+    },
+    {
+      "id": "es-historical-catalonia",
+      "type": "region",
+      "country": "ES",
+      "wikidata": null,
+      "codes": {},
+      "names": [
+        {
+          "name": "Cataluña / Catalunya",
+          "lang": "es",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "names_ru": [
+        {
+          "name": "Каталония, исторический регион",
+          "name_en": "Catalonia, historical region",
+          "locative": "в Каталонии",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "alt_names": [],
+      "coordinates": null,
+      "parents": [
+        {
+          "id": "es",
+          "from": null,
+          "to": "1980-01-10"
+        }
+      ],
+      "occupations": [],
+      "source_ids": [
+        "es_catalonia_statute_original_1932",
+        "es_catalonia_provisional_1977",
+        "es_generalitat_institutional_history"
+      ],
+      "valid_from": null,
+      "valid_to": "1980-01-10",
+      "batch": "world-1.3",
+      "geography_review": "verified",
+      "geography_note": "Географический контейнер четырёх каталонских провинций, не утверждение непрерывной автономии. Республиканские, приостановленные и временные органы описаны отдельными документами и событиями; государственный предок остаётся Испанией.",
+      "geography_role": "historical_region"
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "schema": 1,
+  "objective": "historical-expansion-six-countries-1900-2020",
+  "countries": {
+    "ES": [
+      "barcelona",
+      "madrid",
+      "oviedo",
+      "malaga"
+    ],
+    "JP": [
+      "tokyo",
+      "kyoto",
+      "osaka",
+      "hiroshima"
+    ],
+    "BR": [
+      "sao-paulo",
+      "rio-de-janeiro",
+      "salvador"
+    ],
+    "ZA": [
+      "johannesburg",
+      "cape-town"
+    ],
+    "CD": [
+      "kinshasa",
+      "lubumbashi"
+    ],
+    "EG": [
+      "cairo",
+      "alexandria",
+      "luxor"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "foundation.inspect",
+      "state": "completed"
+    },
+    {
+      "id": "foundation.resume",
+      "state": "blocked",
+      "note": "Supervisor создан; unit-тесты и dry-run проходят. Реальный CLI probe: model_not_found для gpt-6.1-sol с ChatGPT; по требованию остановка на configuration failure, без смены модели или платного API.",
+      "updated_at": "2026-11-16T21:54:09.177605+00:00"
+    },
+    {
+      "id": "foundation.strict-evidence",
+      "state": "completed",
+      "note": "Строгий metadata validator, primary share и тесты реализованы; официальные вторичные источники не считаются первичными."
+    },
+    {
+      "id": "es.barcelona.geography",
+      "country": "ES",
+      "city": "es-barcelona",
+      "stage": "geography",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.barcelona.sources",
+      "country": "ES",
+      "city": "es-barcelona",
+      "stage": "sources",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.barcelona.events",
+      "country": "ES",
+      "city": "es-barcelona",
+      "stage": "events",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.barcelona.everyday",
+      "country": "ES",
+      "city": "es-barcelona",
+      "stage": "everyday",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.barcelona.validation",
+      "country": "ES",
+      "city": "es-barcelona",
+      "stage": "validation",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.barcelona.gameplay",
+      "country": "ES",
+      "city": "es-barcelona",
+      "stage": "gameplay",
+      "state": "completed",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается."
+    },
+    {
+      "id": "es.madrid.geography",
+      "country": "ES",
+      "city": "es-madrid",
+      "stage": "geography",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.madrid.sources",
+      "country": "ES",
+      "city": "es-madrid",
+      "stage": "sources",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.madrid.events",
+      "country": "ES",
+      "city": "es-madrid",
+      "stage": "events",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.madrid.everyday",
+      "country": "ES",
+      "city": "es-madrid",
+      "stage": "everyday",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.madrid.validation",
+      "country": "ES",
+      "city": "es-madrid",
+      "stage": "validation",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.madrid.gameplay",
+      "country": "ES",
+      "city": "es-madrid",
+      "stage": "gameplay",
+      "state": "completed",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается."
+    },
+    {
+      "id": "es.oviedo.geography",
+      "country": "ES",
+      "city": "es-oviedo",
+      "stage": "geography",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.oviedo.sources",
+      "country": "ES",
+      "city": "es-oviedo",
+      "stage": "sources",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.oviedo.events",
+      "country": "ES",
+      "city": "es-oviedo",
+      "stage": "events",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.oviedo.everyday",
+      "country": "ES",
+      "city": "es-oviedo",
+      "stage": "everyday",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.oviedo.validation",
+      "country": "ES",
+      "city": "es-oviedo",
+      "stage": "validation",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.oviedo.gameplay",
+      "country": "ES",
+      "city": "es-oviedo",
+      "stage": "gameplay",
+      "state": "completed",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается."
+    },
+    {
+      "id": "es.malaga.geography",
+      "country": "ES",
+      "city": "es-malaga",
+      "stage": "geography",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.malaga.sources",
+      "country": "ES",
+      "city": "es-malaga",
+      "stage": "sources",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.malaga.events",
+      "country": "ES",
+      "city": "es-malaga",
+      "stage": "events",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.malaga.everyday",
+      "country": "ES",
+      "city": "es-malaga",
+      "stage": "everyday",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.malaga.validation",
+      "country": "ES",
+      "city": "es-malaga",
+      "stage": "validation",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.malaga.gameplay",
+      "country": "ES",
+      "city": "es-malaga",
+      "stage": "gameplay",
+      "state": "completed",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается."
+    },
+    {
+      "id": "es.national",
+      "country": "ES",
+      "stage": "national",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.narrative",
+      "country": "ES",
+      "stage": "narrative",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.export",
+      "country": "ES",
+      "stage": "export",
+      "state": "completed",
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T20:13:48.139723+00:00"
+    },
+    {
+      "id": "es.tests",
+      "country": "ES",
+      "stage": "tests",
+      "state": "completed",
+      "note": "Выпуск Испании: 87 событий,60 контекстов,4 supported; 344 игровых теста,25 Python,8 полных детерминированных прохождений. Push ожидается.",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00"
+    },
+    {
+      "id": "es.publish",
+      "country": "ES",
+      "stage": "publish",
+      "state": "in_progress",
+      "updated_at": "2026-11-17T11:49:46.727653+00:00",
+      "note": "Проверки пройдены; готовится изолированный выпуск без первоначальных изменений Боснии."
+    },
+    {
+      "id": "jp.tokyo.geography",
+      "country": "JP",
+      "city": "jp-tokyo",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "jp.tokyo.sources",
+      "country": "JP",
+      "city": "jp-tokyo",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.tokyo.events",
+      "country": "JP",
+      "city": "jp-tokyo",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.tokyo.everyday",
+      "country": "JP",
+      "city": "jp-tokyo",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.tokyo.validation",
+      "country": "JP",
+      "city": "jp-tokyo",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "jp.tokyo.gameplay",
+      "country": "JP",
+      "city": "jp-tokyo",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "jp.kyoto.geography",
+      "country": "JP",
+      "city": "jp-kyoto",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "jp.kyoto.sources",
+      "country": "JP",
+      "city": "jp-kyoto",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.kyoto.events",
+      "country": "JP",
+      "city": "jp-kyoto",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.kyoto.everyday",
+      "country": "JP",
+      "city": "jp-kyoto",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.kyoto.validation",
+      "country": "JP",
+      "city": "jp-kyoto",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "jp.kyoto.gameplay",
+      "country": "JP",
+      "city": "jp-kyoto",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "jp.osaka.geography",
+      "country": "JP",
+      "city": "jp-osaka",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "jp.osaka.sources",
+      "country": "JP",
+      "city": "jp-osaka",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.osaka.events",
+      "country": "JP",
+      "city": "jp-osaka",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.osaka.everyday",
+      "country": "JP",
+      "city": "jp-osaka",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.osaka.validation",
+      "country": "JP",
+      "city": "jp-osaka",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "jp.osaka.gameplay",
+      "country": "JP",
+      "city": "jp-osaka",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "jp.hiroshima.geography",
+      "country": "JP",
+      "city": "jp-hiroshima",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Префектурные узлы и переход Tokyo-fu → Tokyo-to 01.07.1943 добавлены по прочитанным официальным источникам. Полный аудит границ, оккупации и правового статуса остаётся needs_review.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "jp.hiroshima.sources",
+      "country": "JP",
+      "city": "jp-hiroshima",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.hiroshima.events",
+      "country": "JP",
+      "city": "jp-hiroshima",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.hiroshima.everyday",
+      "country": "JP",
+      "city": "jp-hiroshima",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.hiroshima.validation",
+      "country": "JP",
+      "city": "jp-hiroshima",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "jp.hiroshima.gameplay",
+      "country": "JP",
+      "city": "jp-hiroshima",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "jp.national",
+      "country": "JP",
+      "stage": "national",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "jp.narrative",
+      "country": "JP",
+      "stage": "narrative",
+      "state": "pending"
+    },
+    {
+      "id": "jp.export",
+      "country": "JP",
+      "stage": "export",
+      "state": "completed",
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+    },
+    {
+      "id": "jp.tests",
+      "country": "JP",
+      "stage": "tests",
+      "state": "in_progress",
+      "note": "Базовая изоляция истории/контекстов, координаты и офлайн-загрузка проверены для всех 18 городов. Полные биографии и литературные сравнения ожидают завершения данных.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "jp.publish",
+      "country": "JP",
+      "stage": "publish",
+      "state": "pending"
+    },
+    {
+      "id": "br.sao-paulo.geography",
+      "country": "BR",
+      "city": "br-sao-paulo",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.098780+00:00"
+    },
+    {
+      "id": "br.sao-paulo.sources",
+      "country": "BR",
+      "city": "br-sao-paulo",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.sao-paulo.events",
+      "country": "BR",
+      "city": "br-sao-paulo",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.sao-paulo.everyday",
+      "country": "BR",
+      "city": "br-sao-paulo",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.sao-paulo.validation",
+      "country": "BR",
+      "city": "br-sao-paulo",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "br.sao-paulo.gameplay",
+      "country": "BR",
+      "city": "br-sao-paulo",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "br.rio-de-janeiro.geography",
+      "country": "BR",
+      "city": "br-rio-de-janeiro",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.102326+00:00"
+    },
+    {
+      "id": "br.rio-de-janeiro.sources",
+      "country": "BR",
+      "city": "br-rio-de-janeiro",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.rio-de-janeiro.events",
+      "country": "BR",
+      "city": "br-rio-de-janeiro",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.rio-de-janeiro.everyday",
+      "country": "BR",
+      "city": "br-rio-de-janeiro",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.rio-de-janeiro.validation",
+      "country": "BR",
+      "city": "br-rio-de-janeiro",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "br.rio-de-janeiro.gameplay",
+      "country": "BR",
+      "city": "br-rio-de-janeiro",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "br.salvador.geography",
+      "country": "BR",
+      "city": "br-salvador",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.106261+00:00"
+    },
+    {
+      "id": "br.salvador.sources",
+      "country": "BR",
+      "city": "br-salvador",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.salvador.events",
+      "country": "BR",
+      "city": "br-salvador",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.salvador.everyday",
+      "country": "BR",
+      "city": "br-salvador",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.salvador.validation",
+      "country": "BR",
+      "city": "br-salvador",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "br.salvador.gameplay",
+      "country": "BR",
+      "city": "br-salvador",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "br.national",
+      "country": "BR",
+      "stage": "national",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "br.narrative",
+      "country": "BR",
+      "stage": "narrative",
+      "state": "pending"
+    },
+    {
+      "id": "br.export",
+      "country": "BR",
+      "stage": "export",
+      "state": "completed",
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+    },
+    {
+      "id": "br.tests",
+      "country": "BR",
+      "stage": "tests",
+      "state": "in_progress",
+      "note": "Базовая изоляция истории/контекстов, координаты и офлайн-загрузка проверены для всех 18 городов. Полные биографии и литературные сравнения ожидают завершения данных.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "br.publish",
+      "country": "BR",
+      "stage": "publish",
+      "state": "pending"
+    },
+    {
+      "id": "za.johannesburg.geography",
+      "country": "ZA",
+      "city": "za-johannesburg",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.114369+00:00"
+    },
+    {
+      "id": "za.johannesburg.sources",
+      "country": "ZA",
+      "city": "za-johannesburg",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.johannesburg.events",
+      "country": "ZA",
+      "city": "za-johannesburg",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.johannesburg.everyday",
+      "country": "ZA",
+      "city": "za-johannesburg",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.johannesburg.validation",
+      "country": "ZA",
+      "city": "za-johannesburg",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "za.johannesburg.gameplay",
+      "country": "ZA",
+      "city": "za-johannesburg",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "za.cape-town.geography",
+      "country": "ZA",
+      "city": "za-cape-town",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.119322+00:00"
+    },
+    {
+      "id": "za.cape-town.sources",
+      "country": "ZA",
+      "city": "za-cape-town",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.cape-town.events",
+      "country": "ZA",
+      "city": "za-cape-town",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.cape-town.everyday",
+      "country": "ZA",
+      "city": "za-cape-town",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.cape-town.validation",
+      "country": "ZA",
+      "city": "za-cape-town",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "za.cape-town.gameplay",
+      "country": "ZA",
+      "city": "za-cape-town",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "za.national",
+      "country": "ZA",
+      "stage": "national",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "za.narrative",
+      "country": "ZA",
+      "stage": "narrative",
+      "state": "pending"
+    },
+    {
+      "id": "za.export",
+      "country": "ZA",
+      "stage": "export",
+      "state": "completed",
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+    },
+    {
+      "id": "za.tests",
+      "country": "ZA",
+      "stage": "tests",
+      "state": "in_progress",
+      "note": "Базовая изоляция истории/контекстов, координаты и офлайн-загрузка проверены для всех 18 городов. Полные биографии и литературные сравнения ожидают завершения данных.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "za.publish",
+      "country": "ZA",
+      "stage": "publish",
+      "state": "pending"
+    },
+    {
+      "id": "cd.kinshasa.geography",
+      "country": "CD",
+      "city": "cd-kinshasa",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.127042+00:00"
+    },
+    {
+      "id": "cd.kinshasa.sources",
+      "country": "CD",
+      "city": "cd-kinshasa",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.kinshasa.events",
+      "country": "CD",
+      "city": "cd-kinshasa",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.kinshasa.everyday",
+      "country": "CD",
+      "city": "cd-kinshasa",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.kinshasa.validation",
+      "country": "CD",
+      "city": "cd-kinshasa",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "cd.kinshasa.gameplay",
+      "country": "CD",
+      "city": "cd-kinshasa",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "cd.lubumbashi.geography",
+      "country": "CD",
+      "city": "cd-lubumbashi",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.131143+00:00"
+    },
+    {
+      "id": "cd.lubumbashi.sources",
+      "country": "CD",
+      "city": "cd-lubumbashi",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.lubumbashi.events",
+      "country": "CD",
+      "city": "cd-lubumbashi",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.lubumbashi.everyday",
+      "country": "CD",
+      "city": "cd-lubumbashi",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.lubumbashi.validation",
+      "country": "CD",
+      "city": "cd-lubumbashi",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "cd.lubumbashi.gameplay",
+      "country": "CD",
+      "city": "cd-lubumbashi",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "cd.national",
+      "country": "CD",
+      "stage": "national",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "cd.narrative",
+      "country": "CD",
+      "stage": "narrative",
+      "state": "pending"
+    },
+    {
+      "id": "cd.export",
+      "country": "CD",
+      "stage": "export",
+      "state": "completed",
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+    },
+    {
+      "id": "cd.tests",
+      "country": "CD",
+      "stage": "tests",
+      "state": "in_progress",
+      "note": "Базовая изоляция истории/контекстов, координаты и офлайн-загрузка проверены для всех 18 городов. Полные биографии и литературные сравнения ожидают завершения данных.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "cd.publish",
+      "country": "CD",
+      "stage": "publish",
+      "state": "pending"
+    },
+    {
+      "id": "eg.cairo.geography",
+      "country": "EG",
+      "city": "eg-cairo",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.137978+00:00"
+    },
+    {
+      "id": "eg.cairo.sources",
+      "country": "EG",
+      "city": "eg-cairo",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.cairo.events",
+      "country": "EG",
+      "city": "eg-cairo",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.cairo.everyday",
+      "country": "EG",
+      "city": "eg-cairo",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.cairo.validation",
+      "country": "EG",
+      "city": "eg-cairo",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "eg.cairo.gameplay",
+      "country": "EG",
+      "city": "eg-cairo",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "eg.alexandria.geography",
+      "country": "EG",
+      "city": "eg-alexandria",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.141653+00:00"
+    },
+    {
+      "id": "eg.alexandria.sources",
+      "country": "EG",
+      "city": "eg-alexandria",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.alexandria.events",
+      "country": "EG",
+      "city": "eg-alexandria",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.alexandria.everyday",
+      "country": "EG",
+      "city": "eg-alexandria",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.alexandria.validation",
+      "country": "EG",
+      "city": "eg-alexandria",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "eg.alexandria.gameplay",
+      "country": "EG",
+      "city": "eg-alexandria",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "eg.luxor.geography",
+      "country": "EG",
+      "city": "eg-luxor",
+      "stage": "geography",
+      "state": "in_progress",
+      "note": "Координаты GeoNames сверены; детальная историческая цепочка на рецензии.",
+      "updated_at": "2026-11-16T21:40:20.146212+00:00"
+    },
+    {
+      "id": "eg.luxor.sources",
+      "country": "EG",
+      "city": "eg-luxor",
+      "stage": "sources",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.luxor.events",
+      "country": "EG",
+      "city": "eg-luxor",
+      "stage": "events",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.luxor.everyday",
+      "country": "EG",
+      "city": "eg-luxor",
+      "stage": "everyday",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.luxor.validation",
+      "country": "EG",
+      "city": "eg-luxor",
+      "stage": "validation",
+      "state": "in_progress",
+      "note": "Общая автоматическая проверка проходит; полнота и historical geography не приняты."
+    },
+    {
+      "id": "eg.luxor.gameplay",
+      "country": "EG",
+      "city": "eg-luxor",
+      "stage": "gameplay",
+      "state": "pending"
+    },
+    {
+      "id": "eg.national",
+      "country": "EG",
+      "stage": "national",
+      "state": "in_progress",
+      "note": "Первый проверенный batch сохранён. Исследование эпох и полноты ещё не завершено."
+    },
+    {
+      "id": "eg.narrative",
+      "country": "EG",
+      "stage": "narrative",
+      "state": "pending"
+    },
+    {
+      "id": "eg.export",
+      "country": "EG",
+      "stage": "export",
+      "state": "completed",
+      "note": "SQLite → JSON экспорт проверен. Готовность и публикация учитываются отдельно.",
+      "updated_at": "2026-11-17T11:51:33.010868+00:00"
+    },
+    {
+      "id": "eg.tests",
+      "country": "EG",
+      "stage": "tests",
+      "state": "in_progress",
+      "note": "Базовая изоляция истории/контекстов, координаты и офлайн-загрузка проверены для всех 18 городов. Полные биографии и литературные сравнения ожидают завершения данных.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "eg.publish",
+      "country": "EG",
+      "stage": "publish",
+      "state": "pending"
+    },
+    {
+      "id": "scope.city19",
+      "state": "completed",
+      "note": "Владелец подтвердил: 18 перечисленных городов достаточно; дополнительный город не требуется."
+    },
+    {
+      "id": "foundation.checkpoints",
+      "state": "completed",
+      "note": "Пять обязательных progress-файлов, стабильные ID, атомарные записи и возобновление batch с отклонением конфликтов.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "integration.research-gates",
+      "state": "completed",
+      "note": "Исследовательские города закрыты для старта и миграции до готовности.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "integration.checksum-cache",
+      "state": "completed",
+      "note": "URL с checksum, проверка SHA-256 ответа, обновление IndexedDB и восстановление повреждений с офлайн-повтором.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "integration.lazy-translations",
+      "state": "completed",
+      "note": "Английские тексты расширения загружаются и кэшируются с географическими пакетами.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    },
+    {
+      "id": "reports.research-snapshot",
+      "state": "completed",
+      "note": "Фактические доли первичной опоры, эпохи, лицензии, ограничения и пробелы по 18 городам; не финальная сертификация стран.",
+      "updated_at": "2026-11-17T05:47:46.659900+00:00"
+    }
+  ],
+  "city_count": 18,
+  "execution_policy": {
+    "mode": "one_country_at_a_time",
+    "active_country": "ES",
+    "instruction": "Сначала завершить Испанию: данные, тексты, интеграция, проверки и публикация; остальные исследовательские workstreams сохранены до следующей очереди.",
+    "confirmed_on": "2026-11-17",
+    "archive_minimum_percent": 55,
+    "secondary_wikipedia_allowed": true,
+    "local_quantity": "reduced, genuine local differentiation required",
+    "priority": "major national milestones; spoken context 90% national, 10% local",
+    "stop_after_country": "ES",
+    "next_country_requires_new_user_instruction": true
+  }
+}

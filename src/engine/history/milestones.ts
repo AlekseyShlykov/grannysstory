@@ -68,7 +68,7 @@ export function lifeMilestones(state: GameSessionState, definitions: MilestoneDe
       // One record is told through one milestone only, even if two countries' registries cite it.
       if (usedEvents.has(item.event.id)) continue;
       usedEvents.add(item.event.id);
-      if (!isNarrativeHistoricalEvent(item.event.title)) continue;
+      if (!definition.includeLegalMilestone && !isNarrativeHistoricalEvent(item.event.title)) continue;
       if (definition.notIn?.length && ancestorsAt(world, item.residenceId, isoDay(item.year)).some((node) => definition.notIn!.includes(node))) continue;
       result.push({
         definition,
@@ -91,7 +91,7 @@ export function lifeMilestones(state: GameSessionState, definitions: MilestoneDe
   for (const definition of definitions.filter((candidate) => candidate.country === "RU")) {
     const event = legacyNational.find((candidate) => definition.eventIds.includes(candidate.id));
     if (!event) continue;
-    if (!isNarrativeHistoricalEvent(event.title)) continue;
+    if (!definition.includeLegalMilestone && !isNarrativeHistoricalEvent(event.title)) continue;
     const year = Number(event.startDate.slice(0, 4));
     if (year < birth || year > last) continue;
     result.push({

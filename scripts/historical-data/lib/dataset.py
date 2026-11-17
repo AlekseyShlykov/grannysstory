@@ -51,6 +51,7 @@ LEVEL_BY_TYPE = {
     "occupation_zone": "constituent",  # Allied occupation zone of Germany 1945–1949
     "colony": "constituent",           # colony of a sovereign state (Belgian Congo, Colony of Lagos, Straits Settlements)
     "protectorate": "constituent",     # protectorate or mandate administered by another state
+    "vassal_state": "constituent",     # e.g. Khedivate under Ottoman suzerainty, not the later British protectorate
     "department": "district",
     "county": "district",
     "metropolitan_county": "district",

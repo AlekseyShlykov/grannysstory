@@ -23,6 +23,7 @@ from dataset import (  # noqa: E402
     SETTLEMENT_TYPES, SOURCE_STATUSES, STATUSES, DateError, Dataset, Problem, event_span, parse_partial,
     period_end, period_start, ROOT,
 )
+from primary_evidence import applies as strict_archive_record, evidence_errors  # noqa: E402
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:[-_][a-z0-9]+)*$")
 LOCATION_PREFIXES = tuple(f"{code.lower()}-" for code in COUNTRY_DIRS) + ("state-",)
@@ -260,6 +261,15 @@ class Validator:
         if event.get("_legacy"):
             return
         evidence = event.get("evidence") or []
+        if strict_archive_record(event) and event.get("verification_status") == "verified":
+            # Owner clarification, 17.11.2026: a reviewed Wikipedia article may be
+            # secondary evidence; the independent 55% primary-document gate stays.
+            for item in evidence:
+                for problem in evidence_errors(item, self.data.sources):
+                    self.error(event, 'new expansion: ' + problem)
+            first, last = event_span(event)
+            if first.year < 1900 or last.year > 2020:
+                self.error(event, 'new expansion: event must lie wholly in 1900–2020')
         if event.get("batch") == STRICT_BATCH:
             self._strict_evidence(event, evidence)
         if event.get("verification_status") == "verified" and not evidence:
@@ -284,6 +294,12 @@ class Validator:
     def contexts(self) -> None:
         seen = set()
         for context in self.data.contexts:
+            if strict_archive_record(context) and context.get('verification_status') == 'verified':
+                for item in context.get('evidence', []):
+                    for problem in evidence_errors(item, self.data.sources):
+                        self.error(context, 'new expansion: ' + problem)
+                if not 1900 <= int(context.get('period_start', 0)) <= int(context.get('period_end', 0)) <= 2020:
+                    self.error(context, 'new expansion: context must lie wholly in 1900–2020')
             if context.get("id") in seen:
                 self.error(context, "duplicate context id")
             seen.add(context.get("id"))

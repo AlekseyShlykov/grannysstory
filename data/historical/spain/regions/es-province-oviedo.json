@@ -1,0 +1,220 @@
+{
+  "records": [
+    {
+      "id": "es-oviedo-province-1910-census",
+      "title": "Перепись в провинции Овьедо",
+      "title_en": "Census in Oviedo province",
+      "title_original": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+      "start_date": "1910-12-31",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-province-oviedo"
+      ],
+      "category": "everyday_life",
+      "subcategory": null,
+      "historical_summary": "Перепись учла 685 131 человек наличного населения в провинции. Границы и единица наблюдения соответствуют таблице 1910 года.",
+      "historical_summary_en": "The census counted 685,131 persons present in the province, within the census boundaries of 1910.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_ine_census_1910_provinces"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_ine_census_1910_provinces",
+          "url": "https://www.ine.es/inebaseweb/pdfDispacher.do?ext=.pdf&td=146689",
+          "title": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+          "record_identifier": "https://www.ine.es/inebaseweb/pdfDispacher.do?ext=.pdf&td=146689",
+          "document_date": "undated (1910-12-31 census reference date; edition year not established)",
+          "language": "es",
+          "evidence_type": "census",
+          "supports": "Capítulo II: Población, Sección A, Censo de 31 de diciembre de 1910",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-16",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан в веб-инструменте; без обхода ограничений.",
+          "locator": "single scanned page, población de hecho provincial totals",
+          "repository": "Instituto Nacional de Estadística"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-oviedo-province-1983-rename",
+      "title": "Провинция Овьедо получила имя Астурия",
+      "title_en": "Province of Oviedo renamed Asturias",
+      "title_original": "Ley 1/1983, de 5 de abril",
+      "start_date": "1983-04-08",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-province-oviedo"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "Закон изменил название провинции на Астурия, прямо сохранив название Овьедо за её столицей. Переименование провинции не означает переезда человека.",
+      "historical_summary_en": "The law renamed the province Asturias while expressly retaining Oviedo as the name of its capital. A provincial rename is not a personal move.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_oviedo_province_rename_1983"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_oviedo_province_rename_1983",
+          "url": "https://www.boe.es/boe/dias/1983/04/07/pdfs/A09482-09482.pdf",
+          "title": "Ley 1/1983, de 5 de abril",
+          "record_identifier": "BOE-A-1983-9453",
+          "repository": "Agencia Estatal Boletín Oficial del Estado",
+          "document_date": "1983-04-05",
+          "language": "es",
+          "evidence_type": "legal_publication",
+          "supports": "Переименование провинции Овьедо в Астурию при сохранении имени её столицы.",
+          "is_primary": true,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "Открытая лицензия не установлена. В игре только собственный пересказ фактов; сканы, фото, цитаты и персональные данные не воспроизводятся.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "BOE 83, p.9482, artículo único; disposición final"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-asturias-1934-uprising",
+      "title": "Рабочее восстание в Астурии",
+      "title_en": "Workers’ uprising in Asturias",
+      "title_original": "Revolución de Asturias de1934",
+      "start_date": "1934-10",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-province-oviedo"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "В Астурии произошло вооружённое рабочее восстание, связанное с общенациональной стачкой. Власти подавили выступление; боевые действия и репрессии тяжело затронули край.",
+      "historical_summary_en": "An armed workers’ uprising linked to the nationwide strike took place in Asturias. Government suppression, fighting and repression severely affected the region.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "es_wiki_asturias_1934"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_wiki_asturias_1934",
+          "url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_de_Asturias_de_1934",
+          "title": "Revolución de Asturias de1934",
+          "record_identifier": "Revolución de Asturias de1934; sections specified in registry",
+          "repository": "Wikipedia contributors",
+          "document_date": "publication/revision date not established; accessed2026-11-17",
+          "language": "es",
+          "evidence_type": "encyclopedia",
+          "supports": "В Астурии произошло вооружённое рабочее восстание, связанное с общенациональной стачкой. Власти подавили выступление; боевые действия и репрессии тяжело затронули край.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Прочитаны введение и раздел последствий. Месяц октябрь подтверждён; противоречивые точные границы и числа жертв не извлекаются."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    },
+    {
+      "id": "es-asturias-1962-miners-strike",
+      "title": "Шахтёрская забастовка в Астурии",
+      "title_en": "Miners’ strike in Asturias",
+      "title_original": "Huelga minera de Asturias de1962",
+      "start_date": "1962-04-06",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ES"
+      ],
+      "geographic_scope": "regional",
+      "location_ids": [
+        "es-province-oviedo"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "После увольнений на шахте Николаса в Мьересе началась стачка солидарности, распространившаяся по горнопромышленным районам Астурии.",
+      "historical_summary_en": "Dismissals at the Nicolasa pit in Mieres prompted a solidarity strike that spread across Asturias’s mining districts.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "es_wiki_asturias_1962"
+      ],
+      "evidence": [
+        {
+          "source_id": "es_wiki_asturias_1962",
+          "url": "https://es.wikipedia.org/wiki/Huelga_minera_de_Asturias_de_1962",
+          "title": "Huelga minera de Asturias de1962",
+          "record_identifier": "Huelga minera de Asturias de1962; sections specified in registry",
+          "repository": "Wikipedia contributors",
+          "document_date": "publication/revision date not established; accessed2026-11-17",
+          "language": "es",
+          "evidence_type": "encyclopedia",
+          "supports": "После увольнений на шахте Николаса в Мьересе началась стачка солидарности, распространившаяся по горнопромышленным районам Астурии.",
+          "is_primary": false,
+          "reviewed_content": true,
+          "verification_status": "verified",
+          "accessed": "2026-11-17",
+          "rights": "CC BY-SA for Wikipedia text; Aena republication permission not established. Only original factual paraphrases; no article text or media.",
+          "access_conditions": "Документ открыт и прочитан; без обхода ограничений. Способ доступа и прочитанные разделы указаны в реестре источников.",
+          "locator": "Прочитаны введение и Desarrollo:06.04.1962, солидарность с уволенными шахтёрами pozoNicolasa вМьересе. Это не шахта внутри города Овьедо. Численность не извлечена."
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3",
+      "research_standard": "primary-archive-v1"
+    }
+  ]
+}

@@ -37,6 +37,8 @@ export interface MilestoneDefinition {
   /** Verified record ids (world dataset or legacy v0.4); the first one present in loaded data is used. */
   eventIds: string[];
   kind: MilestoneKind;
+  /** Explicit editorial exception for a foundational reform, never inferred from a law's category. */
+  includeLegalMilestone?: boolean;
   voice: MilestoneVoice;
   /**
    * Places (world location ids) where the record is true but these lines are not: a resident whose chain on the

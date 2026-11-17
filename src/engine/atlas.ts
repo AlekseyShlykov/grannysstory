@@ -1,7 +1,7 @@
 import { getPlace, placeNameAt } from "../data/world";
 import type { GameSessionState, LifeEvent } from "../data/types";
 import { isNarrativeHistoricalEvent } from "../../content/historical/significance";
-import { lifeMilestones } from "./history/milestones";
+import { lifeMilestones, milestoneByEventId } from "./history/milestones";
 import { concreteEventTitle } from "./eventTitles";
 
 export interface AtlasEvent extends LifeEvent {
@@ -11,7 +11,8 @@ export interface AtlasEvent extends LifeEvent {
 
 export function knownAtlasEvents(state: GameSessionState): AtlasEvent[] {
   return state.biography.lifeEvents
-    .filter((event) => event.known && (event.provenance !== "VERIFIED_HISTORICAL" || isNarrativeHistoricalEvent(event.title)))
+    .filter((event) => event.known && (event.provenance !== "VERIFIED_HISTORICAL" || isNarrativeHistoricalEvent(event.title)
+      || milestoneByEventId.get(event.id.replace(/^context:(national:|world:)?/, ""))?.includeLegalMilestone))
     .map((event) => ({
       ...event,
       title: concreteEventTitle(event),

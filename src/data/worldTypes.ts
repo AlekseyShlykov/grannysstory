@@ -20,6 +20,8 @@ export interface WorldLocation {
   validFrom: PartialDate;
   validTo: PartialDate;
   legacyIds: string[];
+  /** Registered research locations remain unavailable for generated moves until their pack passes review. */
+  researchOnly?: boolean;
   /** Periods when the city was divided; a resident lives in one of `into` (absent in packs before world-1.2). */
   partitions?: { from: PartialDate; to: PartialDate; into: string[] }[];
   /** Periods when the unit did not exist and was later restored (GDR Länder 1952–1990). */
@@ -56,6 +58,7 @@ export interface WorldContextStatistic {
   year: number;
   area_id: string;
   population: string | null;
+  method_note?: string | null;
   source_id: string;
 }
 
@@ -78,6 +81,8 @@ export interface WorldPack {
   version: string;
   events: WorldEvent[];
   contexts: WorldContext[];
+  /** Authored English for this geography, loaded and cached together with its records. */
+  translations?: Record<string, string>;
 }
 
 export interface SettlementCoverage {
