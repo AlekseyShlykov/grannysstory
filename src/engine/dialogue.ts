@@ -18,9 +18,11 @@ import {
   lifeTimelinePoints,
   personalAnswer,
   phaseAtAge,
+  questionFormAt,
   questionsForPoint,
   timelineBackgrounds
 } from "./lifeTimeline";
+import { followUpAnswerBridges, timelineAnswerBridges } from "../../content/scenes/answerBridges";
 import type { TimelineBackground } from "./lifeTimeline";
 import { earlyBeatForState, threadClosingFor, threadEchoFor } from "./earlyLifeThread";
 import { narrativeHeadline } from "./eventTitles";
@@ -214,6 +216,16 @@ function tellWork(state: GameSessionState, stage: WorkStage): { state: GameSessi
   return { state: next, line: workLine(next, occupation, stage) };
 }
 
+/** Her first words to the question actually asked; the seed and the moment pick one of two openings. */
+function answerBridge(state: GameSessionState, bridges: Readonly<Record<string, readonly [string, string]>>, question: string | null, salt: string): string | null {
+  const pair = question ? bridges[question] : undefined;
+  return pair ? pair[seededRandom(`${state.selection.runSeed}:bridge:${salt}`).int(0, 1)]! : null;
+}
+
+function withBridge(bridge: string | null, answer: string): string {
+  return bridge ? `${bridge} ${answer}` : answer;
+}
+
 function isPointBeforeBranch(state: GameSessionState): boolean {
   const branch = nextUnresolvedBranch(state);
   const point = activePoint(state);
@@ -322,7 +334,8 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
       ...state,
       discovery: { facts: [...state.discovery.facts, { id: `fact:milestone-more:${milestoneId}`, learnedAtStep: state.dialogue.step, lifeEventIds: [] }] }
     };
-    return withTurn(answered, option.text, milestoneById.get(milestoneId)!.voice.deeper, false, false);
+    const bridge = answerBridge(state, followUpAnswerBridges, option.text, milestoneId);
+    return withTurn(answered, option.text, withBridge(bridge, milestoneById.get(milestoneId)!.voice.deeper), false, false);
   }
   if (optionId.startsWith("reflect-")) {
     const told = tellReflection(state, Number(optionId.slice(8)), point);
@@ -381,7 +394,8 @@ export function chooseOption(state: GameSessionState, optionId: string): GameSes
     };
     next = addKnownEvent(next, personalEvent, qualitiesFor(angle));
   }
-  const speech = [linkedAnswer];
+  // The opening answers the question asked; the atlas keeps only the memory itself.
+  const speech = [withBridge(answerBridge(state, timelineAnswerBridges, questionFormAt(state, point, angle), String(point.year)), linkedAnswer)];
   // One more memory of the band may be told briefly; the rest stays in her memory, untold (characterMemory).
   const rest = atlasMemories.filter((memory) => memory !== primaryAtlas);
   rest.forEach((memory, index) => {

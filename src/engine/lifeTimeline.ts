@@ -110,15 +110,18 @@ export function questionsForPoint(state: GameSessionState, point: LifeTimelinePo
       { id: "meaning", text: "Откуда ты родом, бабушка?" }
     ];
   }
-  const pointIndex = lifeTimelinePoints(state.selection).findIndex((candidate) => candidate.year === point.year);
   const lead = point.final
     ? `Сейчас ${point.year} год, тебе ${yearsCount(point.age)}.`
     : `В ${point.year} году тебе было ${yearsCount(point.age)}.`;
-  const shortenedFinal = point.final && point.age % 5 !== 0;
-  return angles.map((angle) => ({
-    id: angle,
-    text: `${lead} ${shortenedFinal ? finalQuestionForms[angle] : questionFormForPoint(angle, pointIndex)}`
-  }));
+  return angles.map((angle) => ({ id: angle, text: `${lead} ${questionFormAt(state, point, angle)}` }));
+}
+
+/** The question itself, without the year lead; null for the birth point, whose questions are asked differently. */
+export function questionFormAt(state: GameSessionState, point: LifeTimelinePoint, angle: ReflectionAngle): string | null {
+  if (point.age === 0) return null;
+  if (point.final && point.age % 5 !== 0) return finalQuestionForms[angle];
+  const pointIndex = lifeTimelinePoints(state.selection).findIndex((candidate) => candidate.year === point.year);
+  return questionFormForPoint(angle, pointIndex);
 }
 
 function residenceAt(state: GameSessionState, year: number): string {

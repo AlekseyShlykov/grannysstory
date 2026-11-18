@@ -1,4 +1,4 @@
-const CACHE = "babushka-v0.34";
+const CACHE = "babushka-v0.35";
 const scopedUrl = (path) => new URL(path, self.registration.scope).toString();
 const SHELL = [
   scopedUrl("./"),
