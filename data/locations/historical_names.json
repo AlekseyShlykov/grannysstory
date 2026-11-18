@@ -4054,6 +4054,172 @@
       ],
       "alt": []
     },
+    "gr": {
+      "local": [
+        {
+          "name": "Βασίλειον της Ελλάδος",
+          "lang": "el",
+          "from": null,
+          "to": "1924-03-24"
+        },
+        {
+          "name": "Ελληνική Δημοκρατία",
+          "lang": "el",
+          "from": "1924-03-25",
+          "to": "1935-10-09"
+        },
+        {
+          "name": "Βασίλειον της Ελλάδος",
+          "lang": "el",
+          "from": "1935-10-10",
+          "to": "1973-05-31"
+        },
+        {
+          "name": "Ελληνική Δημοκρατία",
+          "lang": "el",
+          "from": "1973-06-01",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Королевство Греция",
+          "locative": "в Королевстве Греция",
+          "name_en": "Kingdom of Greece",
+          "locative_en": "in the Kingdom of Greece",
+          "from": null,
+          "to": "1924-03-24"
+        },
+        {
+          "name": "Греческая Республика",
+          "locative": "в Греческой Республике",
+          "name_en": "Hellenic Republic",
+          "locative_en": "in the Hellenic Republic",
+          "from": "1924-03-25",
+          "to": "1935-10-09"
+        },
+        {
+          "name": "Королевство Греция",
+          "locative": "в Королевстве Греция",
+          "name_en": "Kingdom of Greece",
+          "locative_en": "in the Kingdom of Greece",
+          "from": "1935-10-10",
+          "to": "1973-05-31"
+        },
+        {
+          "name": "Греция",
+          "locative": "в Греции",
+          "name_en": "Greece",
+          "from": "1973-06-01",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Ελλάδα",
+        "Ελλάς",
+        "Hellas",
+        "Hellenic Republic",
+        "Kingdom of Greece"
+      ]
+    },
+    "gr-athens": {
+      "local": [
+        {
+          "name": "Αθήνα",
+          "lang": "el",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Афины",
+          "locative": "в Афинах",
+          "name_en": "Athens",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Αθήνα",
+        "Αθήναι",
+        "Athina",
+        "Athinai"
+      ]
+    },
+    "gr-thessaloniki": {
+      "local": [
+        {
+          "name": "Selânik",
+          "lang": "ota",
+          "from": null,
+          "to": "1912-11-08"
+        },
+        {
+          "name": "Θεσσαλονίκη",
+          "lang": "el",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Салоники",
+          "locative": "в Салониках",
+          "name_en": "Salonica",
+          "from": null,
+          "to": "1912-11-08"
+        },
+        {
+          "name": "Салоники",
+          "locative": "в Салониках",
+          "name_en": "Thessaloniki",
+          "from": "1912-11-09",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Θεσσαλονίκη",
+        "Selânik",
+        "Salonica",
+        "Salonique",
+        "Saloniki",
+        "Thessaloniki",
+        "Солунь",
+        "Фессалоники"
+      ]
+    },
+    "gr-santorini": {
+      "local": [
+        {
+          "name": "Φηρά",
+          "lang": "el",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Санторини (Фира)",
+          "locative": "на Санторини",
+          "name_en": "Santorini (Fira)",
+          "locative_en": "on Santorini",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Φηρά",
+        "Fira",
+        "Thira",
+        "Θήρα",
+        "Σαντορίνη",
+        "Santorini",
+        "Thera",
+        "Санторин",
+        "Тира"
+      ]
+    },
     "hr-croatia-slavonia": {
       "local": [
         {

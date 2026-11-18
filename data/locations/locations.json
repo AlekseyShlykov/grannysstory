@@ -5457,6 +5457,187 @@
       "abolished": []
     },
     {
+      "id": "gr",
+      "type": "state",
+      "level": "national",
+      "country": "GR",
+      "settlementClass": null,
+      "wikidata": "Q41",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Королевство Греция",
+          "locative": "в Королевстве Греция",
+          "from": null,
+          "to": "1924-03-24"
+        },
+        {
+          "name": "Греческая Республика",
+          "locative": "в Греческой Республике",
+          "from": "1924-03-25",
+          "to": "1935-10-09"
+        },
+        {
+          "name": "Королевство Греция",
+          "locative": "в Королевстве Греция",
+          "from": "1935-10-10",
+          "to": "1973-05-31"
+        },
+        {
+          "name": "Греция",
+          "locative": "в Греции",
+          "from": "1973-06-01",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "gr-athens",
+      "type": "city",
+      "level": "municipal",
+      "country": "GR",
+      "settlementClass": "capital",
+      "wikidata": "Q1524",
+      "coordinates": {
+        "lat": 37.984167,
+        "lon": 23.728056
+      },
+      "names": [
+        {
+          "name": "Афины",
+          "locative": "в Афинах",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1941-04-27",
+          "to": "1944-10"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "gr-santorini",
+      "type": "town",
+      "level": "municipal",
+      "country": "GR",
+      "settlementClass": "small_town",
+      "wikidata": "Q617169",
+      "coordinates": {
+        "lat": 36.42,
+        "lon": 25.431667
+      },
+      "names": [
+        {
+          "name": "Санторини (Фира)",
+          "locative": "на Санторини",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "gr",
+          "from": null,
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Италия",
+          "from": "1941-05",
+          "to": "1943-09"
+        },
+        {
+          "by": "Германия",
+          "from": "1943-09",
+          "to": "1944-10"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "gr-thessaloniki",
+      "type": "city",
+      "level": "municipal",
+      "country": "GR",
+      "settlementClass": "large_city",
+      "wikidata": "Q17151",
+      "coordinates": {
+        "lat": 40.640278,
+        "lon": 22.935556
+      },
+      "names": [
+        {
+          "name": "Салоники",
+          "locative": "в Салониках",
+          "from": null,
+          "to": "1912-11-08"
+        },
+        {
+          "name": "Салоники",
+          "locative": "в Салониках",
+          "from": "1912-11-09",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1912-11-08"
+        },
+        {
+          "id": "gr",
+          "from": "1912-11-09",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Германия",
+          "from": "1941-04-09",
+          "to": "1944-10"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "hr",
       "type": "state",
       "level": "national",

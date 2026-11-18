@@ -11,7 +11,8 @@ const FINISHED: Record<string, string[]> = {
   HR: ["hr-zagreb"],
   SI: ["si-ljubljana"],
   BA: ["ba-sarajevo"],
-  ME: ["me-budva"]
+  ME: ["me-budva"],
+  GR: ["gr-athens", "gr-thessaloniki", "gr-santorini"]
 };
 const COMPARISONS: string[][] = [
   ["rs-beograd", "rs-novi-sad", "rs-subotica"],
@@ -21,7 +22,8 @@ const COMPARISONS: string[][] = [
   ["ba-sarajevo", "hr-zagreb"],
   ["ba-sarajevo", "rs-beograd"],
   ["me-budva", "ba-sarajevo"],
-  ["me-budva", "rs-beograd"]
+  ["me-budva", "rs-beograd"],
+  ["gr-athens", "gr-thessaloniki", "gr-santorini"]
 ];
 
 let world: WorldData;
@@ -131,5 +133,23 @@ describe("Montenegro", () => {
     expect(sovereignAt(world, "me-budva", "1979-04-15")).toBe("state-yu");
     expect(sovereignAt(world, "me-budva", "2000-07-01")).toBe("state-yu-fr");
     expect(sovereignAt(world, "me-budva", "2010-07-01")).toBe("me");
+  });
+});
+
+describe("Greece", () => {
+  it("keeps Thessaloniki Ottoman until November 1912 and Athens and Santorini in Greece throughout", () => {
+    expect(sovereignAt(world, "gr-thessaloniki", "1908-07-24")).toBe("state-ottoman");
+    expect(sovereignAt(world, "gr-thessaloniki", "1912-11-08")).toBe("state-ottoman");
+    expect(sovereignAt(world, "gr-thessaloniki", "1912-11-09")).toBe("gr");
+    for (const id of ["gr-athens", "gr-santorini"]) {
+      expect(sovereignAt(world, id, "1905-07-01"), id).toBe("gr");
+      expect(sovereignAt(world, id, "1970-07-01"), id).toBe("gr");
+    }
+  });
+
+  it("gives Thessaloniki the 1908 Ottoman constitution but not Athens", () => {
+    const early = (placeId: string) => new Set(relevantEvents(world, [{ placeId, fromYear: 1900, toYear: 1912 }], { birthYear: 1900, groups: ["women", "all_residents"] }, 1900, 1912).map((item) => item.event.id));
+    expect(early("gr-thessaloniki").has("tr-nat-1908-constitution-restored")).toBe(true);
+    expect(early("gr-athens").has("tr-nat-1908-constitution-restored")).toBe(false);
   });
 });

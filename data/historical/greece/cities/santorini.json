@@ -1,0 +1,364 @@
+{
+  "records": [
+    {
+      "id": "gr-santorini-1925-nea-kameni-eruptions",
+      "title": "Извержения вулкана на Неа-Камени",
+      "title_en": "Volcanic eruptions on Nea Kameni",
+      "title_original": null,
+      "start_date": "1925",
+      "end_date": "1950",
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "В 1925–1928 гг. в кальдере Санторини извергался вулкан: фреатические взрывы и потоки лавы Дафни расширили островок Неа-Камени. Новые купола лавы выросли там в 1939–1941 гг., последнее слабое извержение было в 1950 г., после чего вулкан затих.",
+      "historical_summary_en": "In 1925 to 1928 the volcano in the Santorini caldera erupted: phreatic explosions and the Dafni lava flows enlarged the islet of Nea Kameni. New lava domes grew there in 1939 to 1941, the last weak eruption came in 1950, and after that the volcano fell quiet.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_ismosav"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_ismosav",
+          "url": "https://ismosav.gr/%ce%b9%cf%83%cf%84%ce%bf%cf%81%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%b5%ce%ba%cf%81%ce%ae%ce%be%ce%b5%cf%89%ce%bd/",
+          "supports": "1925–1928: фреатические извержения и лавы Дафни, расширившие Неа-Камени; 1939–1941: купола «Тритон», «Ктенас», «Fouqué», «Smith-Reck», «Ники»; 1950: слабые фреатические извержения, лава «Лиацикас»; затем фумарольное затишье; четыре периода взрывной активности 1925–1950 (по Георгаласу, 1962)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-1941-italian-occupation",
+      "title": "Остров занимают итальянские войска",
+      "title_en": "Italian troops occupy the island",
+      "title_original": null,
+      "start_date": "1941",
+      "end_date": "1944-10",
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В 1941 г. Санторини заняли итальянские войска, а после перемирия Италии в сентябре 1943 г. остров перешёл под контроль немцев. Оккупация продолжалась до октября 1944 г.",
+      "historical_summary_en": "In 1941 Santorini was occupied by Italian troops, and after the Italian armistice in September 1943 the island came under German control. The occupation lasted until October 1944.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_en_wikipedia",
+        "gr_historyofwar"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_en_wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Santorini",
+          "supports": "«occupied in 1941 by Italian forces and then by the Germans following the Italian armistice in 1943»",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_historyofwar",
+          "url": "https://www.historyofwar.org/secondworldwar/date/1944_10_18.html",
+          "supports": "18.10.1944: «The Royal Navy occupies Scarpanto and Santorini»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-1944-sbs-raid",
+      "title": "Налёт британских коммандос и расстрелы в Вурвулосе",
+      "title_en": "The British commando raid and the executions at Vourvoulos",
+      "title_original": null,
+      "start_date": "1944-04-24",
+      "end_date": "1944-04-29",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "24 апреля 1944 г. отряд британской Особой лодочной службы с греческими офицерами атаковал германо-итальянский гарнизон в Фире; при взрыве у радиостанции погибли 13 жителей Имеровигли. 29 апреля немцы в отместку арестовали мужчин Вурвулоса старше 14 лет и расстреляли пятерых, среди них старосту.",
+      "historical_summary_en": "On 24 April 1944 a British Special Boat Service party with Greek officers attacked the German and Italian garrison at Fira, and 13 people from Imerovigli died in an explosion at the radio station. On 29 April the Germans in reprisal arrested the men of Vourvoulos aged 14 and over and shot five of them, including the village headman.",
+      "affected_groups": [
+        "all_residents",
+        "men"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_en_wikipedia"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_en_wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Raid_on_Santorini",
+          "supports": "24.04.1944 налёт SBS (майор А. Ласен, лейтенант С. Казулис); 13 жителей Имеровигли погибли от подрыва у радиостанции; 29.04 аресты в Вурвулосе, расстреляны пятеро, включая старосту",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-1956-reconstruction",
+      "title": "Восстановление Санторини после землетрясения",
+      "title_en": "Rebuilding Santorini after the earthquake",
+      "title_original": null,
+      "start_date": "1956",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "После землетрясения 1956 г. восстановлением Санторини занимался архитектор Константинос Декавальяс, сторонник простой архитектуры, отвечающей климату и месту. С его работой на острове связан и Археологический музей в Фире.",
+      "historical_summary_en": "After the 1956 earthquake the architect Konstantinos Dekavallas, an advocate of simple architecture suited to climate and place, worked on rebuilding Santorini. The Archaeological Museum in Fira is also linked with his work on the island.",
+      "affected_groups": [
+        "all_residents",
+        "homeowners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_ert_archive"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_ert_archive",
+          "url": "https://archive.ert.gr/id_ps018397/",
+          "supports": "передача «Πορτραίτα και διαδρομές Ελλήνων αρχιτεκτόνων: Κωνσταντίνος Δεκαβάλας» (ERT, 2006, шифр PS018397): работа по восстановлению Санторини после разрушительного землетрясения 1956 г., Археологический музей в Фире, простая архитектура, отвечающая среде",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-1956-earthquake",
+      "title": "Землетрясение 9 июля 1956 года",
+      "title_en": "The earthquake of 9 July 1956",
+      "title_original": null,
+      "start_date": "1956-07-09",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "9 июля 1956 г. в 5:11 утра у Аморгоса произошло землетрясение магнитудой 7,5, за ним пришло цунами. На Санторини дома массово рушились; всего погибли 53 человека, около 100 были ранены.",
+      "historical_summary_en": "At 5.11 in the morning of 9 July 1956 an earthquake of magnitude 7.5 struck near Amorgos, followed by a tsunami. On Santorini houses collapsed in large numbers, and in all 53 people were killed and about 100 injured.",
+      "affected_groups": [
+        "all_residents",
+        "homeowners",
+        "rural_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_ingv",
+        "gr_oasp"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_oasp",
+          "url": "https://oasp.gr/san-simera/9-ioylioy-1956",
+          "supports": "«Σαν σήμερα»: 9.07.1956, M=7,5, эпицентр у Аморгоса; 53 погибших, 100 раненых; серьёзные повреждения на Санторини и других островах (3 761 повреждённый дом, 529 полностью разрушенных — по всем островам); цунами до 25 м на юго-восточном берегу Аморгоса",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_ingv",
+          "url": "https://cat.ingv.it/index.php/en/media-and-documents/news-en/526-tsu-memo-70-years-since-the-earthquake-and-tsunami-in-amorgos-in-the-aegean-sea",
+          "supports": "5:11 по местному времени; 53 подтверждённых погибших, более 100 раненых; массовые обрушения и тяжёлые повреждения поселений Санторини",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-1975-eot-oia",
+      "title": "Государственная программа возрождения Ии",
+      "title_en": "The state programme to revive Oia",
+      "title_original": null,
+      "start_date": "1975",
+      "end_date": "1992",
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "housing_urban",
+      "subcategory": null,
+      "historical_summary": "С 1975 г. Греческая национальная организация по туризму (ЕОТ) вела программу «Использование традиционных поселений», и Ия на Санторини стала одним из главных примеров её вмешательств и последовавшего роста туризма. Исследователи называют её первым случаем, когда государственный орган взялся охранять и застройку, и природный ландшафт.",
+      "historical_summary_en": "From 1975 the Greek National Tourism Organisation (EOT) ran a programme for the use of traditional settlements, and Oia on Santorini became one of the main examples of its interventions and of the tourist growth that followed. Researchers describe it as the first time a public body set out to protect both the built environment and the natural landscape.",
+      "affected_groups": [
+        "all_residents",
+        "homeowners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_ntua"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_ntua",
+          "url": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/43897?show=full",
+          "supports": "лекция НТУА «Ε.Ο.Τ. και ιστορικοί οικισμοί: το παράδειγμα της Οίας και της Βάθειας» (2016): программа вмешательств ЕОТ в исторические поселения 1970–1990, Ия — главный пример вмешательств и последующего туристического роста",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_ntua",
+          "url": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/54224?show=full",
+          "supports": "лекция НТУА «Το πρόγραμμα του Ε.Ο.Τ. (1975-1992)» (2021): программа ЕОТ «Αξιοποίηση Παραδοσιακών Οικισμών», начатая в 1975 г.; Ия среди участвующих поселений",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-1999-municipality-of-thira",
+      "title": "Санторини объединяют в дим Тира",
+      "title_en": "Santorini's communities are merged into the Municipality of Thira",
+      "title_original": null,
+      "start_date": "1999",
+      "end_date": "2010",
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "По закону 2539/1997 («Каподистрия») 12 из 13 исторических общин Санторини слились в один дим Тира, а Ия вместе с Тирасией стала отдельным димом. Так остров управлялся с 1999 по 2010 г.",
+      "historical_summary_en": "Under Law 2539/1997 (Kapodistrias) 12 of the 13 historic communities of Santorini were merged into a single Municipality of Thira, while Oia together with Thirasia became a separate municipality. The island was governed in this way from 1999 to 2010.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_thira_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thira_municipality",
+          "url": "https://www.thira.gov.gr/el/sitemap/i-santorini/istoria.html",
+          "supports": "закон 2539/1997: 12 из 13 исторических общин — один дим; Ия с Тирасией — по тому же закону отдельно; 1999–2010",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-santorini-2011-single-municipality",
+      "title": "Весь остров — один дим",
+      "title_en": "The whole island becomes one municipality",
+      "title_original": null,
+      "start_date": "2011-01-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-santorini"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "По закону 3852/2010 («Калликратис») с 2011 г. весь островной комплекс Санторини, включая Ию и Тирасию, стал одним димом Тира. По переписи 2011 г. в нём постоянно жили 15 550 человек.",
+      "historical_summary_en": "Under Law 3852/2010 (Kallikratis) the whole Santorini island group, including Oia and Thirasia, became a single Municipality of Thira from 2011. The 2011 census counted 15,550 permanent residents there.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_elstat",
+        "gr_thira_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thira_municipality",
+          "url": "https://www.thira.gov.gr/el/sitemap/i-santorini/istoria.html",
+          "supports": "закон 3852/2010 создал нынешний дим на весь островной комплекс с Ией и Тирасией; постоянное население 15 550",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_elstat",
+          "url": "https://www.statistics.gr/el/statistics/-/publication/SAM03/2011",
+          "supports": "перепись 2011, табл. B09: ΔΗΜΟΣ ΘΗΡΑΣ 15 550 постоянных жителей",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

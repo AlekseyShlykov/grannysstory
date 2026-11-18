@@ -101,5 +101,10 @@ export const namePalettes: Record<string, NamePalette> = {
   ME: {
     firstNames: ["Милена", "Даница", "Мара", "Зорка", "Видосава", "Йока", "Любица", "Стана"],
     surnames: ["Зенович", "Медин", "Срзентич", "Кентера", "Любиша", "Вукчевич", "Радович", "Маркович"]
+  },
+  // Greek names of women born 1900–1940; Russian transcription. Surnames in the feminine genitive form she was born with.
+  GR: {
+    firstNames: ["Мария", "Элени", "Екатерини", "Василики", "Георгия", "Эвангелия", "Панайота", "Димитра", "Анастасия"],
+    surnames: ["Пападопулу", "Георгиу", "Николау", "Иоанну", "Василиу", "Пападаки", "Атанасиу", "Константину"]
   }
 };

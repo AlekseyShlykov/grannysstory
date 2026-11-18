@@ -1,0 +1,620 @@
+{
+  "records": [
+    {
+      "id": "gr-athens-1929-marathon-dam",
+      "title": "Плотина Марафона и новый водопровод Афин",
+      "title_en": "The Marathon dam and the new Athens water supply",
+      "title_original": null,
+      "start_date": "1929-10-25",
+      "end_date": "1931-06",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "По договору государства с американской компанией ULEN от 23 декабря 1924 г. в 1926–1929 гг. построили плотину Марафона высотой 54 м и водохранилище на 44 млн м³; 25 октября 1929 г. их торжественно открыли. В июне 1931 г. новая система водоснабжения Афин и Пирея официально заработала.",
+      "historical_summary_en": "Under the state's contract of 23 December 1924 with the American company ULEN, the 54-metre Marathon dam and a reservoir of 44 million cubic metres were built in 1926 to 1929 and inaugurated on 25 October 1929. In June 1931 the new water supply system of Athens and Piraeus officially came into service.",
+      "affected_groups": [
+        "all_residents",
+        "urban_residents",
+        "homemakers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_eydap"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_eydap",
+          "url": "https://www.eydap.gr/en/SocialResponsibility/HistoryRecord/HistoricalTrackBack/",
+          "supports": "договор 23.12.1924 (государство, ULEN, Банк Афин); плотина Марафона 1926–1929, 54 м × 285 м, озеро 44 млн м³; туннель Бояти 13,4 км к станции в Галаци; «In June 1931 the new water supply system was officially launched»",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_eydap",
+          "url": "https://www.eydap.gr/en/SocialResponsibility/HistoryRecord/90YearsMarathonDam/",
+          "supports": "«on October 25, 1929, the construction of the artificial lake and the Marathon Dam was inaugurated»; выставка документов Исторического архива ΕΥΔΑΠ 12.11.2019–29.03.2020",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1941-german-entry",
+      "title": "Германские войска входят в Афины",
+      "title_en": "German troops enter Athens",
+      "title_original": null,
+      "start_date": "1941-04-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "27 апреля 1941 г. германские войска вошли в Афины, и над Акрополем подняли флаг со свастикой. Город остался в германской зоне оккупации.",
+      "historical_summary_en": "On 27 April 1941 German troops entered Athens and the swastika flag was raised over the Acropolis. The city remained in the German occupation zone.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook",
+        "gr_fhw"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 210: «Στις 27 Απριλίου του 1941 και η Αθήνα έπεσε στα χέρια των κατακτητών»; PDF с. 214: немцы сохранили за собой Афины",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_fhw",
+          "url": "https://www.fhw.gr/Chronos/14/en/1940_1945/occupation/index.html",
+          "supports": "27.04.1941 немцы вошли в Афины, над Акрополем поднята свастика; Аттика в германской зоне",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1941-acropolis-flag",
+      "title": "Глезос и Сантас снимают германский флаг с Акрополя",
+      "title_en": "Glezos and Santas take down the German flag on the Acropolis",
+      "title_original": null,
+      "start_date": "1941-05-30",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "30 мая 1941 г. двое студентов, Манолис Глезос и Апостолос Сантас, сняли германский флаг с Акрополя. Этот поступок ударил по престижу оккупантов и стал одним из первых символов сопротивления.",
+      "historical_summary_en": "On 30 May 1941 two students, Manolis Glezos and Apostolos Santas, took down the German flag from the Acropolis. The act damaged the occupiers' prestige and became one of the first symbols of resistance.",
+      "affected_groups": [
+        "students",
+        "young_adults",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 214: «Στις 30 Μαΐου του 1941 δύο φοιτητές, ο Μανώλης Γλέζος και ο Απόστολος Σάντας, κατέβασαν τη γερμανική σημαία από την Ακρόπολη»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1941-famine",
+      "title": "Голод первой оккупационной зимы",
+      "title_en": "Famine in the first winter of the occupation",
+      "title_original": null,
+      "start_date": "1941-12",
+      "end_date": "1942-02",
+      "date_precision": "month",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens",
+        "gr-thessaloniki"
+      ],
+      "category": "public_health",
+      "subcategory": null,
+      "historical_summary": "Особенно в первую оккупационную зиму 1941–1942 гг. голод опустошал население больших городов. В Афинах для голодающих детей устраивали общественные столовые, ещё в 1943 г.",
+      "historical_summary_en": "Especially in the first winter of the occupation, 1941 to 1942, famine ravaged the population of the big cities. In Athens soup kitchens were set up for hungry children, still in 1943.",
+      "affected_groups": [
+        "all_residents",
+        "urban_residents",
+        "children",
+        "elderly"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 214: «Ιδιαίτερα τον πρώτο χειμώνα του 1941-1942 η πείνα μάστιζε τους κατοίκους στις μεγάλες πόλεις»; PDF с. 218: фото «Συσσίτιο για τα πεινασμένα παιδιά της Αθήνας το 1943»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1942-march-demonstration",
+      "title": "Демонстрация 25 марта 1942 года против оккупантов",
+      "title_en": "The 25 March 1942 demonstration against the occupiers",
+      "title_original": null,
+      "start_date": "1942-03-25",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В День независимости, 25 марта 1942 г., афиняне вышли на демонстрацию против оккупационных властей. Снимок этой демонстрации стал одним из известных свидетельств городского сопротивления.",
+      "historical_summary_en": "On Independence Day, 25 March 1942, Athenians demonstrated against the occupation authorities. A photograph of this demonstration became one of the well-known records of urban resistance.",
+      "affected_groups": [
+        "all_residents",
+        "students",
+        "young_adults"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 217: фото «Διαδήλωση στην Αθήνα εναντίον των δυνάμεων Κατοχής στις 25 Μαρτίου 1942»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1943-palamas-funeral",
+      "title": "Похороны Костиса Паламаса становятся протестом",
+      "title_en": "The funeral of Kostis Palamas becomes a protest",
+      "title_original": null,
+      "start_date": "1943-02-28",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "28 февраля 1943 г. на похороны поэта Костиса Паламаса в Афинах пришли толпы людей. Они пели национальный гимн, и похороны превратились в демонстрацию против оккупантов.",
+      "historical_summary_en": "On 28 February 1943 crowds came to the funeral of the poet Kostis Palamas in Athens. They sang the national anthem, and the funeral turned into a demonstration against the occupiers.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 215: на похоронах Паламаса зимой 1943 г. толпа пела гимн и выражала гнев против оккупантов; PDF с. 217: «Η κηδεία του Κωστή Παλαμά, στις 28 Φεβρουαρίου 1943, εξελίχθηκε σε κορυφαία αντιστασιακή πράξη»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1944-liberation",
+      "title": "Освобождение Афин",
+      "title_en": "The liberation of Athens",
+      "title_original": null,
+      "start_date": "1944-10",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В октябре 1944 г. оккупация закончилась, и в Афины вернулось правительство. 18 октября 1944 г. премьер-министр Георгиос Папандреу произнёс на площади Синтагма речь об освобождении.",
+      "historical_summary_en": "In October 1944 the occupation ended and the government returned to Athens. On 18 October 1944 Prime Minister Georgios Papandreou gave a liberation speech in Syntagma Square.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook",
+        "gr_historyofwar"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 213: оккупация длилась до октября 1944 г.; PDF с. 215: речь об освобождении премьер-министра Г. Папандреу на Синтагме 18.10.1944",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_historyofwar",
+          "url": "https://www.historyofwar.org/secondworldwar/date/1944_10_18.html",
+          "supports": "18.10.1944: «The Greek government returns from exile to Athens»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1949-first-women-councillors",
+      "title": "Первые женщины в городском совете Афин",
+      "title_en": "The first women on the Athens city council",
+      "title_original": null,
+      "start_date": "1949-05",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "women_rights",
+      "subcategory": null,
+      "historical_summary": "В мае 1949 г. правительство назначило в городской совет Афин первых двух женщин-советниц. В том же году женщинам расширили права на муниципальных выборах: возрастной ценз снизили до 21 года и разрешили избираться.",
+      "historical_summary_en": "In May 1949 the government appointed the first two women councillors to the Athens city council. In the same year women's rights in municipal elections were widened: the age limit was lowered to 21 and they were allowed to stand for office.",
+      "affected_groups": [
+        "women"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_voulh_foundation"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_voulh_foundation",
+          "url": "https://foundation.parliament.gr/VoulhFoundation/VoulhFoundationPortal/images/site_content/voulhFoundation/file/Ekpaideytika%20New/women/0_7women.pdf",
+          "supports": "с. 2: в 1949 г. правительство Софулиса расширило права женщин на муниципальных выборах (возраст 21, право быть избранной; до 1953 г. голосуют только с 25 лет); «Τον Μάιο του 1949, η κυβέρνηση διόρισε και τις δύο πρώτες γυναίκες δημοτικούς συμβούλους στην Αθήνα»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1956-yliki-water",
+      "title": "Афины начинают пить воду озера Илики",
+      "title_en": "Athens begins to draw water from Lake Yliki",
+      "title_original": null,
+      "start_date": "1956",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "Население столицы росло, и в 1956 г. Афины стали получать воду из природного озера Илики в Беотии. Позже к водопроводу добавили реку Морнос, а в 2001 г. — переброску вод Эвиноса.",
+      "historical_summary_en": "The capital's population kept growing, and in 1956 Athens began to receive water from the natural Lake Yliki in Boeotia. Later the Mornos river was added to the supply, and in 2001 the diversion of the Evinos.",
+      "affected_groups": [
+        "all_residents",
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_eydap"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_eydap",
+          "url": "https://www.eydap.gr/en/SocialResponsibility/HistoryRecord/HistoricalTrackBack/",
+          "supports": "1956: из-за роста населения город стал снабжаться водой из природного озера Илики в Беотии; 1981: работы на Морносе (плотина 126 м); 2001: завершена переброска Эвиноса в водохранилище Морноса (туннель 29,4 км)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1973-polytechnic",
+      "title": "Восстание в Политехническом институте",
+      "title_en": "The Athens Polytechnic uprising",
+      "title_original": null,
+      "start_date": "1973-11",
+      "end_date": "1973-11-17",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "Весной 1973 г. против диктатуры массово выступили студенты; в ноябре они заняли Политехнический институт в Афинах. В ночь на 17 ноября 1973 г. танк выломал ворота Политехнио, восстание было подавлено силой.",
+      "historical_summary_en": "In the spring of 1973 students rose against the dictatorship in large numbers, and in November they occupied the Polytechnic in Athens. In the early hours of 17 November 1973 a tank broke down the Polytechnic gate and the uprising was crushed by force.",
+      "affected_groups": [
+        "students",
+        "young_adults",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 220: первыми массово восстали студенты весной 1973 г., кульминация — события в Политехнио Афин в ноябре; PDF с. 224: фото «17 Νοεμβρίου 1973. Άρμα μάχης ετοιμάζεται να παραβιάσει την πύλη του Πολυτεχνείου»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1979-accession-treaty",
+      "title": "В Заппионе подписан договор о вступлении в ЕЭС",
+      "title_en": "The EEC accession treaty is signed at the Zappeion",
+      "title_original": null,
+      "start_date": "1979-05-28",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "28 мая 1979 г. в афинском Заппионе был подписан договор о вступлении Греции в Европейское экономическое сообщество. Он вступил в силу в 1981 г.",
+      "historical_summary_en": "On 28 May 1979 the treaty of Greece's accession to the European Economic Community was signed at the Zappeion in Athens. It came into force in 1981.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 231: подпись к фото — подписание договора о вступлении «στο Ζάππειο Μέγαρο, στις 28 Μαΐου του 1979, Αθήνα»; PDF с. 232: вступление в 1981 г.",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1981-earthquake",
+      "title": "Землетрясение 24 февраля 1981 года",
+      "title_en": "The earthquake of 24 February 1981",
+      "title_original": null,
+      "start_date": "1981-02-24",
+      "end_date": "1981-03-04",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "24 февраля 1981 г. землетрясение магнитудой 6,7 затронуло Коринфию, Беотию, Эвбею, Фокиду и Аттику; 4 марта последовал толчок магнитудой 6,4. Погибли 20 человек, около 85 тысяч зданий были повреждены, из них 22 554 не подлежали ремонту.",
+      "historical_summary_en": "On 24 February 1981 an earthquake of magnitude 6.7 affected Corinthia, Boeotia, Euboea, Phocis and Attica, and a shock of magnitude 6.4 followed on 4 March. Twenty people were killed and about 85,000 buildings were damaged, 22,554 of them beyond repair.",
+      "affected_groups": [
+        "all_residents",
+        "homeowners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_oasp"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_oasp",
+          "url": "https://oasp.gr/san-simera/24-febroyarioy-1981",
+          "supports": "«Σαν σήμερα» 24.02.1981: M=6,7, сильнейший афтершок 4.03 M=6,4; 20 погибших, десятки раненых; около 85 000 повреждённых зданий, 22 554 не подлежат ремонту; пострадали Коринфия, Беотия, Эвбея, Фокида, Аттика",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-1999-parnitha-earthquake",
+      "title": "Землетрясение у Парниты",
+      "title_en": "The Parnitha earthquake",
+      "title_original": null,
+      "start_date": "1999-09-07",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "7 сентября 1999 г. землетрясение магнитудой 5,9 с эпицентром у горы Парнита, примерно в 18 км от центра Афин, ударило по Аттике. Погибли 143 человека, сотни были ранены, тысячи остались без крова, пострадали и памятники.",
+      "historical_summary_en": "On 7 September 1999 an earthquake of magnitude 5.9, centred near Mount Parnitha about 18 km from the centre of Athens, struck Attica. 143 people were killed, hundreds were injured, thousands were left homeless, and monuments were also damaged.",
+      "affected_groups": [
+        "all_residents",
+        "homeowners",
+        "tenants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_oasp"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_oasp",
+          "url": "https://oasp.gr/san-simera/7-septembrioy-1999",
+          "supports": "«Σαν σήμερα» 7.09.1999: M=5,9, эпицентр у Парниты ≈18 км от центра Афин; 143 погибших, сотни раненых, тысячи без крова; серьёзные повреждения памятников; форшоки с 14:38",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-athens-2004-olympic-games",
+      "title": "Олимпийские и Паралимпийские игры в Афинах",
+      "title_en": "The Olympic and Paralympic Games in Athens",
+      "title_original": null,
+      "start_date": "2004",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-athens"
+      ],
+      "category": "sport",
+      "subcategory": null,
+      "historical_summary": "В 2004 г. Афины принимали Олимпийские игры, а затем XII Паралимпийские игры. Греческие спортсмены завоевали на Олимпиаде 16 медалей, шесть из них золотые.",
+      "historical_summary_en": "In 2004 Athens hosted the Olympic Games and then the 12th Paralympic Games. Greek athletes won 16 medals at the Olympics, six of them gold.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_ert_archive"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_ert_archive",
+          "url": "https://archive.ert.gr/69780/",
+          "supports": "«Αθλητική Ανασκόπηση: 2004 – Ολυμπιακοί Αγώνες, Μέρος 1» (ERT, 2004, шифр 69780): игры в Афинах, церемония открытия, Греция — 16 медалей (шесть золотых)",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_ert_archive",
+          "url": "https://archive.ert.gr/68877/",
+          "supports": "«Αθλητική Ανασκόπηση: 2004 – Παραολυμπιακοί Αγώνες, Μέρος 1» (ERT, 2004, шифр 68877): открытие XII Паралимпийских игр в Афинах после Олимпиады",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

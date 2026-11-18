@@ -1,0 +1,428 @@
+{
+  "records": [
+    {
+      "id": "gr-ctx-thessaloniki-1900-population",
+      "country_code": "GR",
+      "location_id": "gr-thessaloniki",
+      "period_start": 1900,
+      "period_end": 1912,
+      "context_type": "demography",
+      "attribute": "religious_composition",
+      "title": "Еврейский город на османском побережье",
+      "title_en": "A Jewish city on the Ottoman coast",
+      "description": "Около 1900 г. из примерно 173 тысяч жителей Салоник около 80 тысяч были евреями; к 1935 г., после пожара и эмиграции, их оставалось около 60 тысяч. Это оценка музея для всего города, а не перепись по кварталам.",
+      "description_en": "Around 1900 about 80,000 of the roughly 173,000 inhabitants of Salonica were Jews, and by 1935, after the fire and emigration, about 60,000 remained. This is the museum's estimate for the whole city, not a census by quarter.",
+      "statistics": [
+        {
+          "indicator": "jewish_population",
+          "value": 80000,
+          "unit": "persons (about)",
+          "year": 1900,
+          "area_id": "gr-thessaloniki",
+          "population": "еврейское население города",
+          "method_note": "оценка Еврейского музея Салоник",
+          "source_id": "gr_jmth"
+        },
+        {
+          "indicator": "total_population",
+          "value": 173000,
+          "unit": "persons (about)",
+          "year": 1900,
+          "area_id": "gr-thessaloniki",
+          "population": "все жители города",
+          "method_note": "оценка Еврейского музея Салоник",
+          "source_id": "gr_jmth"
+        }
+      ],
+      "source_ids": [
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "1900: около 80 000 евреев из 173 000 жителей; 1935: около 60 000",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-ctx-athens-2011-foreign-citizens",
+      "country_code": "GR",
+      "location_id": "gr-athens",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "migration",
+      "attribute": "foreign_citizens_share",
+      "title": "Каждый пятый житель Афин — иностранный гражданин",
+      "title_en": "One Athens resident in five a foreign citizen",
+      "description": "По переписи 2011 г. в диме Афин жили 664 046 человек, из них 151 660 (около 23%) — граждане других стран, в основном не из ЕС. По всей Греции доля иностранцев была около 8%, так что центр столицы отличался от страны заметно.",
+      "description_en": "According to the 2011 census the Municipality of Athens had 664,046 permanent residents, of whom 151,660 (about 23%) were citizens of other countries, mostly from outside the EU. Across Greece the foreign share was about 8%, so the centre of the capital differed markedly from the country.",
+      "statistics": [
+        {
+          "indicator": "permanent_population",
+          "value": 664046,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-athens",
+          "population": "постоянное население дима Афин",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "foreign_citizens",
+          "value": 151660,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-athens",
+          "population": "постоянные жители с иностранным гражданством",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "non_eu_citizens",
+          "value": 121990,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-athens",
+          "population": "граждане стран вне ЕС и лица без гражданства",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "foreign_citizens_country",
+          "value": 912000,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr",
+          "population": "вся страна, 10 816 286 постоянных жителей",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        }
+      ],
+      "source_ids": [
+        "gr_elstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_elstat",
+          "url": "https://www.statistics.gr/el/statistics/-/publication/SAM03/2011",
+          "supports": "табл. B09 (documentID 310571): ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ 664 046, Ελλάδα 512 386, ξένες χώρες 151 660 (ЕС 29 670, прочие 121 990); ΣΥΝΟΛΟ ΧΩΡΑΣ 10 816 286, иностранцы 912 000",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-ctx-thessaloniki-2011-foreign-citizens",
+      "country_code": "GR",
+      "location_id": "gr-thessaloniki",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "migration",
+      "attribute": "foreign_citizens_share",
+      "title": "Иностранные граждане в Салониках",
+      "title_en": "Foreign citizens in Thessaloniki",
+      "description": "По переписи 2011 г. в диме Салоник жили 325 182 человека, из них 25 308 (около 8%) — граждане других стран, большинство не из ЕС. Это примерно средний уровень по стране и втрое ниже, чем в диме Афин.",
+      "description_en": "According to the 2011 census the Municipality of Thessaloniki had 325,182 permanent residents, of whom 25,308 (about 8%) were citizens of other countries, most from outside the EU. This was about the national average and a third of the level in the Municipality of Athens.",
+      "statistics": [
+        {
+          "indicator": "permanent_population",
+          "value": 325182,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-thessaloniki",
+          "population": "постоянное население дима Салоник",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "foreign_citizens",
+          "value": 25308,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-thessaloniki",
+          "population": "постоянные жители с иностранным гражданством",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        }
+      ],
+      "source_ids": [
+        "gr_elstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_elstat",
+          "url": "https://www.statistics.gr/el/statistics/-/publication/SAM03/2011",
+          "supports": "табл. B09 (documentID 310571): ΔΗΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ 325 182, Ελλάδα 299 874, ξένες χώρες 25 308 (ЕС 3 900, прочие 21 408)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-ctx-santorini-2011-population",
+      "country_code": "GR",
+      "location_id": "gr-santorini",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "migration",
+      "attribute": "foreign_citizens_share",
+      "title": "Санторини в переписи 2011 года",
+      "title_en": "Santorini in the 2011 census",
+      "description": "По переписи 2011 г. в диме Тира, то есть на всём Санторини, постоянно жили 15 550 человек, из них 3 174 (около 20%) — иностранные граждане. Летом людей на острове гораздо больше, но перепись считает только постоянных жителей.",
+      "description_en": "According to the 2011 census the Municipality of Thira, that is the whole of Santorini, had 15,550 permanent residents, of whom 3,174 (about 20%) were foreign citizens. There are far more people on the island in summer, but the census counts permanent residents only.",
+      "statistics": [
+        {
+          "indicator": "permanent_population",
+          "value": 15550,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-santorini",
+          "population": "постоянное население дима Тира",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "foreign_citizens",
+          "value": 3174,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-santorini",
+          "population": "постоянные жители с иностранным гражданством",
+          "method_note": "перепись 2011, табл. B09 (постоянное население по группе гражданства, димы)",
+          "source_id": "gr_elstat"
+        }
+      ],
+      "source_ids": [
+        "gr_elstat",
+        "gr_thira_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_elstat",
+          "url": "https://www.statistics.gr/el/statistics/-/publication/SAM03/2011",
+          "supports": "табл. B09 (documentID 310571): ΔΗΜΟΣ ΘΗΡΑΣ 15 550, Ελλάδα 12 376, ξένες χώρες 3 174 (ЕС 835, прочие 2 339)",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thira_municipality",
+          "url": "https://www.thira.gov.gr/el/sitemap/i-santorini/istoria.html",
+          "supports": "постоянных жителей 15 550",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-ctx-athens-2011-marital-status",
+      "country_code": "GR",
+      "location_id": "gr-athens",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "family_marriage",
+      "attribute": "marital_status",
+      "title": "Семейное положение афинян в 2011 году",
+      "title_en": "Marital status of Athenians in 2011",
+      "description": "По переписи 2011 г. среди 664 046 жителей дима Афин (все возрасты, включая детей) холостых и незамужних было 290 577, состоящих в браке 284 272, вдовых 54 770, разведённых 34 427. Доля разведённых, около 5%, выше средней по стране (около 3%).",
+      "description_en": "According to the 2011 census, of the 664,046 residents of the Municipality of Athens (all ages, children included) 290,577 were single, 284,272 married, 54,770 widowed and 34,427 divorced. The divorced share, about 5%, was higher than the national average (about 3%).",
+      "statistics": [
+        {
+          "indicator": "married",
+          "value": 284272,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-athens",
+          "population": "постоянное население всех возрастов",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "divorced",
+          "value": 34427,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-athens",
+          "population": "постоянное население всех возрастов",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "widowed",
+          "value": 54770,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-athens",
+          "population": "постоянное население всех возрастов",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "divorced_country",
+          "value": 332018,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr",
+          "population": "вся страна, 10 816 286 жителей",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        }
+      ],
+      "source_ids": [
+        "gr_elstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_elstat",
+          "url": "https://www.statistics.gr/el/statistics/-/publication/SAM03/2011",
+          "supports": "табл. B04 (documentID 310566): ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ 664 046 — άγαμοι 290 577, έγγαμοι 284 272, χήροι 54 770, διαζευγμένοι 34 427; ΣΥΝΟΛΟ ΧΩΡΑΣ διαζευγμένοι 332 018",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-ctx-thessaloniki-2011-marital-status",
+      "country_code": "GR",
+      "location_id": "gr-thessaloniki",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "family_marriage",
+      "attribute": "marital_status",
+      "title": "Семейное положение жителей Салоник в 2011 году",
+      "title_en": "Marital status of Thessaloniki residents in 2011",
+      "description": "По переписи 2011 г. среди 325 182 жителей дима Салоник (все возрасты) холостых и незамужних было 142 290, состоящих в браке 141 426, вдовых 28 918, разведённых 12 548. Вдовых было около 9%, разведённых около 4%.",
+      "description_en": "According to the 2011 census, of the 325,182 residents of the Municipality of Thessaloniki (all ages) 142,290 were single, 141,426 married, 28,918 widowed and 12,548 divorced. About 9% were widowed and about 4% divorced.",
+      "statistics": [
+        {
+          "indicator": "married",
+          "value": 141426,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-thessaloniki",
+          "population": "постоянное население всех возрастов",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "widowed",
+          "value": 28918,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-thessaloniki",
+          "population": "постоянное население всех возрастов",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        },
+        {
+          "indicator": "divorced",
+          "value": 12548,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "gr-thessaloniki",
+          "population": "постоянное население всех возрастов",
+          "method_note": "перепись 2011, табл. B04 (постоянное население по полу и семейному положению, димы)",
+          "source_id": "gr_elstat"
+        }
+      ],
+      "source_ids": [
+        "gr_elstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_elstat",
+          "url": "https://www.statistics.gr/el/statistics/-/publication/SAM03/2011",
+          "supports": "табл. B04 (documentID 310566): ΔΗΜΟΣ ΘΕΣΣΑΛΟΝΙΚΗΣ 325 182 — άγαμοι 142 290, έγγαμοι 141 426, χήροι 28 918, διαζευγμένοι 12 548",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-ctx-1907-1920-population",
+      "country_code": "GR",
+      "location_id": "gr",
+      "period_start": 1907,
+      "period_end": 1920,
+      "context_type": "demography",
+      "attribute": "population_total",
+      "title": "Страна, удвоенная войнами",
+      "title_en": "A country doubled by war",
+      "description": "Перепись 1907 г. насчитала в королевстве 2 631 952 жителя, перепись 1920 г. — 5 016 889. Почти весь прирост дали новые земли после Балканских войн и Первой мировой, естественный прирост оценивается не более чем в 13%; поэтому многие жительницы 1920 г. родились в другом государстве.",
+      "description_en": "The 1907 census counted 2,631,952 inhabitants in the kingdom and the 1920 census 5,016,889. Almost all of the growth came from the new lands gained after the Balkan Wars and the First World War, with natural increase estimated at no more than 13%, so many women living in Greece in 1920 had been born in another state.",
+      "statistics": [
+        {
+          "indicator": "population_census",
+          "value": 2631952,
+          "unit": "persons",
+          "year": 1907,
+          "area_id": "gr",
+          "population": "население королевства в границах 1907 г.",
+          "method_note": "перепись 27.10.1907 (юлиан.); по таблице FHW (Д. Цаусис)",
+          "source_id": "gr_fhw"
+        },
+        {
+          "indicator": "population_census",
+          "value": 5016889,
+          "unit": "persons",
+          "year": 1920,
+          "area_id": "gr",
+          "population": "население в границах 1920 г.",
+          "method_note": "перепись 1920 г.; по таблице FHW (Д. Цаусис)",
+          "source_id": "gr_fhw"
+        },
+        {
+          "indicator": "natural_increase_share_max",
+          "value": 13.2,
+          "unit": "% (не более)",
+          "year": 1920,
+          "area_id": "gr",
+          "population": "прирост 1907–1920",
+          "method_note": "оценка FHW",
+          "source_id": "gr_fhw"
+        }
+      ],
+      "source_ids": [
+        "gr_fhw",
+        "gr_searchculture",
+        "gr_edu_textbook"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_fhw",
+          "url": "https://www.fhw.gr/chronos/13/en/society/facts/index.html",
+          "supports": "табл. 1: 1896 — 2 443 806; 1907 — 2 631 952; 1920 — 5 016 889 (+90,6%); прирост 2 384 937 в основном за счёт территорий, естественный — не более 13,2%",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_searchculture",
+          "url": "https://www.searchculture.gr/aggregator/edm/DigPetralia/000208-13764",
+          "supports": "официальное издание результатов переписи 27.10.1907",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 191: в 1913 г. Греция почти удвоила территорию и население",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    }
+  ]
+}

@@ -1,0 +1,941 @@
+{
+  "records": [
+    {
+      "id": "gr-thessaloniki-1912-surrender-to-greece",
+      "title": "Османский гарнизон сдаёт Салоники греческой армии",
+      "title_en": "The Ottoman garrison surrenders Salonica to the Greek army",
+      "title_original": null,
+      "start_date": "1912-11-08",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "После победы греков у Яницы поздно вечером 26 октября (8 ноября по новому стилю) 1912 г. османский комендант Хасан Тахсин-паша подписал протокол о сдаче Салоник. Город был освобождён от османской власти и вошёл в состав Греческого государства.",
+      "historical_summary_en": "After the Greek victory at Giannitsa, late in the evening of 26 October (8 November New Style) 1912, the Ottoman commander Hasan Tahsin Pasha signed the protocol surrendering Salonica. The city was freed from Ottoman rule and became part of the Greek state.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook",
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 188: «Αργά το βράδυ της 26ης Οκτωβρίου 1912 ο Οθωμανός διοικητής της πόλης Χασάν Ταχσίν Πασάς υπέγραψε το Πρωτόκολλο παράδοσης»; дата пересчитана на григорианский стиль",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1912: город освобождён от Османской империи и присоединён к Греческому государству",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1915-allied-landing",
+      "title": "Высадка войск Антанты в Салониках",
+      "title_en": "Entente troops land at Salonica",
+      "title_original": null,
+      "start_date": "1915-10",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "Осенью 1915 г. в Салониках высадились войска союзников; в годы Первой мировой войны в городе стояли англичане, французы, русские. Тогда же в город пришла первая большая волна беженцев.",
+      "historical_summary_en": "In the autumn of 1915 Allied troops landed at Salonica, and during the First World War British, French and Russian troops were stationed in the city. The first large wave of refugees arrived in the city at the same time.",
+      "affected_groups": [
+        "all_residents",
+        "migrants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook",
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 192: «Το φθινόπωρο του 1915 συμμαχικές δυνάμεις αποβιβάστηκαν στη Θεσσαλονίκη»",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://cityofgastronomy.thessaloniki.gr/en/gastronomia-istorika/",
+          "supports": "«A first large wave of refugees arrived in 1915»; в Первую мировую в городе англичане, французы, русские",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1917-great-fire",
+      "title": "Великий пожар Салоник",
+      "title_en": "The Great Fire of Salonica",
+      "title_original": null,
+      "start_date": "1917-08-18",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "5 (18) августа 1917 г. в Салониках начался пожар, который сильный северный ветер вардарис разнёс по городу; весь центр выгорел. Без крова остались, по данным муниципалитета, 70–73 тысячи человек, среди них около 50 тысяч евреев; новый план улиц составляла комиссия с участием мэра Константиноса Ангелакиса.",
+      "historical_summary_en": "On 5 (18) August 1917 a fire broke out in Salonica and a strong north wind, the Vardaris, spread it across the city, burning out the whole centre. According to the municipality 70,000 to 73,000 people were left homeless, about 50,000 of them Jews, and the new street plan was drafted by a committee that included Mayor Konstantinos Aggelakis.",
+      "affected_groups": [
+        "all_residents",
+        "urban_residents",
+        "jewish_population",
+        "tenants",
+        "homeowners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_jmth",
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://cityofgastronomy.thessaloniki.gr/en/gastronomia-istorika/",
+          "supports": "«on August 5th, 1917, which started the Great Fire»; ветер Vardaris; «leaving 70,000 people homeless» (5 августа по юлианскому стилю = 18.08.1917)",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1917: пожар превратил весь центр в пепел, 73 000 человек остались без крова",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/aggelaki/?lang=en",
+          "supports": "К. Ангелакис, мэр Салоник 1916–1920, член комиссии, составившей новый план улиц после большого пожара 1917 г.",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "пожар 1917 г. уничтожил большую часть города, около 50 000 евреев остались без крова; правительство не позволило вернуться в некоторые кварталы, многие эмигрировали",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1922-sunday-rest-law",
+      "title": "Закон о воскресном отдыхе и отъезд еврейских семей",
+      "title_en": "The Sunday rest law and the departure of Jewish families",
+      "title_original": null,
+      "start_date": "1922",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "labor",
+      "subcategory": null,
+      "historical_summary": "Закон 236 1922 г. запретил работать по воскресеньям. Евреи Салоник, соблюдавшие субботу, теряли второй день торговли, и часть семей уехала — некоторые в Палестину, большинство в Париж.",
+      "historical_summary_en": "Law 236 of 1922 banned work on Sundays. The Jews of Salonica who kept the Sabbath lost a second day of trade, and some families left, a few for Palestine and most for Paris.",
+      "affected_groups": [
+        "jewish_population",
+        "office_workers",
+        "migrants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "закон 236 1922 г. обязал жителей не работать по воскресеньям; евреи, отдыхавшие в субботу, эмигрировали — часть в Палестину, большинство в Париж",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1922-refugees",
+      "title": "Беженцы из Малой Азии заселяют Салоники",
+      "title_en": "Refugees from Asia Minor settle in Salonica",
+      "title_original": null,
+      "start_date": "1922-09",
+      "end_date": "1924",
+      "date_precision": "month",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "migration",
+      "subcategory": null,
+      "historical_summary": "После Малоазиатской катастрофы и обмена населением по Лозаннскому договору в Салоники прибыли массы беженцев, а мусульманское население город покинул. Беженцев селили в церквях, в выгоревших зданиях, у городских стен и в брошенных союзниками лагерях, затем выросли новые кварталы и пригороды; их кухня во многом определила кухню города.",
+      "historical_summary_en": "After the Asia Minor Catastrophe and the population exchange under the Treaty of Lausanne, great numbers of refugees arrived in Salonica and the Muslim population left the city. Refugees were housed in churches, burnt-out buildings, by the city walls and in camps abandoned by the Allies, and then new neighbourhoods and suburbs grew up; their cooking largely shaped the city's cuisine.",
+      "affected_groups": [
+        "all_residents",
+        "migrants",
+        "urban_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1922: после Лозаннского договора и обмена населением — беженцы; город потерял мусульманское население; размещение в церквях, сгоревших зданиях, у стен, в военных лагерях союзников; новые кварталы и пригороды",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://cityofgastronomy.thessaloniki.gr/en/gastronomia-istorika/",
+          "supports": "«The Asia Minor Catastrophe 1922-1924»: беженцы «largely determined the gastronomy of Thessaloniki»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1926-university-opens",
+      "title": "Открывается Университет Салоник",
+      "title_en": "The University of Thessaloniki opens",
+      "title_original": null,
+      "start_date": "1926",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "education",
+      "subcategory": null,
+      "historical_summary": "Университет в Салониках учредил закон 3341 от 14 июня 1925 г.; в 1926 г. он начал работу с философского факультета в здании Аллатини. В 1927 г. открылся физико-математический факультет, в 1929 г. — юридический и экономический.",
+      "historical_summary_en": "The university in Thessaloniki was established by Law 3341 of 14 June 1925, and in 1926 it began work with the School of Philosophy in the Allatini building. The School of Physics and Mathematics opened in 1927 and the School of Law and Economics in 1929.",
+      "affected_groups": [
+        "students",
+        "young_adults",
+        "teachers"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_auth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_auth",
+          "url": "https://www.auth.gr/university/history/",
+          "supports": "закон 3341/14-6-25 (принят 5.06.1925, ФЕК 22.06.1925); работа с 1926 г., первый — философский факультет в здании Аллатини; 1927 физмат, 1929 юридический и экономический",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3",
+      "eligibility": {
+        "min_age": 17,
+        "max_age": 30,
+        "groups_any": [
+          "students"
+        ]
+      }
+    },
+    {
+      "id": "gr-thessaloniki-1931-campbell-riot",
+      "title": "Погром в квартале Кэмпбелл",
+      "title_en": "The Campbell riot",
+      "title_original": null,
+      "start_date": "1931",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "В 1931 г., после выборов, в Салониках вспыхнули антисемитские беспорядки: вооружённые погромщики сожгли еврейский квартал Кэмпбелл. Большинство его жителей затем уехали в Палестину.",
+      "historical_summary_en": "In 1931, after elections, antisemitic riots broke out in Salonica: armed rioters burned down the Jewish Campbell quarter. Most of its residents later left for Palestine.",
+      "affected_groups": [
+        "jewish_population"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "после выборов антисемитские беспорядки в квартале Кэмпбелл, вооружённые хулиганы сожгли еврейский квартал; большинство жителей уехали в Палестину",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1933-dockers-to-haifa",
+      "title": "Портовые рабочие уезжают в Хайфу",
+      "title_en": "Port workers leave for Haifa",
+      "title_original": null,
+      "start_date": "1933",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "migration",
+      "subcategory": null,
+      "historical_summary": "В 1933 г. около 300 еврейских моряков, докеров и носильщиков Салоник с семьями эмигрировали в Палестину и поселились в Хайфе. В 1936 г. часть из них перебралась в Тель-Авив.",
+      "historical_summary_en": "In 1933 about 300 Jewish sailors, dockers and porters from Salonica emigrated with their families to Palestine and settled in Haifa. In 1936 some of them moved on to Tel Aviv.",
+      "affected_groups": [
+        "jewish_population",
+        "dock_workers",
+        "migrants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "1933: 300 моряков, докеров и носильщиков с семьями эмигрировали в Палестину, в Хайфу; 1936: часть переехала в Тель-Авив",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1941-german-entry",
+      "title": "Германские войска занимают Салоники",
+      "title_en": "German troops occupy Thessaloniki",
+      "title_original": null,
+      "start_date": "1941-04-09",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "9 апреля 1941 г. германские войска заняли Салоники и двинулись на юг. 15 апреля был арестован весь совет еврейской общины, её помещения обыскали.",
+      "historical_summary_en": "On 9 April 1941 German forces took Thessaloniki and moved on southwards. On 15 April the whole board of the Jewish community was arrested and its offices were raided.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_edu_textbook",
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_edu_textbook",
+          "url": "https://ebooks.edu.gr/ebooks/v/pdf/8547/688/10-0182-02_V2_Istoria_ST-Dimotikou_Vivlio-Mathiti/",
+          "supports": "PDF с. 210: «Στις 9 Απριλίου 1941 γερμανικές δυνάμεις κατέλαβαν τη Θεσσαλονίκη και κατευθύνθηκαν προς τη Νότια Ελλάδα»",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "9.04.1941 германские войска вошли в город; 15 апреля арестован весь совет общины, обыск в её учреждениях",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1942-forced-labour",
+      "title": "Принудительные работы для еврейских мужчин",
+      "title_en": "Forced labour for Jewish men",
+      "title_original": null,
+      "start_date": "1942-07",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "Летом 1942 г. еврейских мужчин 18–45 лет согнали на площадь Элефтериас, около 6–7 тысяч человек продержали там под охраной до вечера. Многих отправили на работы в малярийные места, где за десять недель умерли 12%; освобождение от работ немцы дали за выкуп в 2,5 млрд драхм.",
+      "historical_summary_en": "In the summer of 1942 Jewish men aged 18 to 45 were ordered to Eleftherias Square, where about 6,000 to 7,000 were held under guard until evening. Many were sent to work in malarial areas, where 12% died within ten weeks, and the Germans granted exemption from the labour for a ransom of 2.5 billion drachmas.",
+      "affected_groups": [
+        "jewish_population",
+        "men"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "летом 1942 г. мужчины 18–45 лет на площади Элефтериас, около 6000–7000 под охраной до вечера; работы в малярийных местах, 12% умерли за десять недель; выкуп 2,5 млрд драхм; день (11.07) на странице не указан",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1942-jewish-cemetery",
+      "title": "Разрушение старого еврейского кладбища",
+      "title_en": "Destruction of the old Jewish cemetery",
+      "title_original": null,
+      "start_date": "1942-12",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "В декабре 1942 г. было захвачено и разрушено старое еврейское кладбище Салоник, существовавшее по меньшей мере с XV в. и насчитывавшее около 300 тысяч могил. Надгробия пустили на камень, в том числе для мощения.",
+      "historical_summary_en": "In December 1942 the old Jewish cemetery of Salonica, in use since at least the fifteenth century and holding about 300,000 graves, was seized and destroyed. The gravestones were used as stone, including for paving.",
+      "affected_groups": [
+        "jewish_population",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_jmth"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "декабрь 1942 г.: древнее кладбище (не позже XV в., около 300 000 могил) захвачено и использовано как каменоломня, надгробия — для мощения",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1943-deportations",
+      "title": "Депортация евреев Салоник",
+      "title_en": "Deportation of the Jews of Salonica",
+      "title_original": null,
+      "start_date": "1943-03",
+      "end_date": "1943-08-07",
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "repression",
+      "subcategory": null,
+      "historical_summary": "В феврале 1943 г. евреев обязали носить жёлтую звезду и согнали в гетто; с марта по 7 августа 1943 г. поезда вывозили их в Освенцим-Биркенау. Депортировали около 45–49 тысяч человек, почти всю общину, бо́льшая часть из них погибла.",
+      "historical_summary_en": "In February 1943 the Jews were ordered to wear the yellow star and were confined to ghettos, and from March to 7 August 1943 trains took them to Auschwitz-Birkenau. About 45,000 to 49,000 people, almost the entire community, were deported, and most of them were killed.",
+      "affected_groups": [
+        "jewish_population"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_jmth",
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "6.02.1943 германская комиссия, через два дня — жёлтая звезда; гетто; 14.03 жителям квартала Барон Хирш объявили об отправке в Польшу; последний транспорт 7.08.1943; депортированы 43 850 (95%)",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-07032014-olokautwma",
+          "supports": "около 49 000 членов общины депортированы в Освенцим-Биркенау и убиты",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1943: тысячи евреев Салоник депортированы в нацистские лагеря, община почти уничтожена",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1944-liberation",
+      "title": "Освобождение Салоник",
+      "title_en": "The liberation of Thessaloniki",
+      "title_original": null,
+      "start_date": "1944-10",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "occupation",
+      "subcategory": null,
+      "historical_summary": "В октябре 1944 г. оккупация Салоник закончилась. Немногие вернувшиеся евреи нашли свои дома занятыми, а имущество разграбленным; из 19 синагог уцелели две или три.",
+      "historical_summary_en": "In October 1944 the occupation of Thessaloniki ended. The few Jews who returned found their homes occupied and their property looted, and only two or three of the 19 synagogues had survived.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_jmth",
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_jmth",
+          "url": "https://www.jmth.gr/article-20032014-oi-evraioi-tis-thessalonikis",
+          "supports": "в октябре 1944 г. город освобождён; немногие вернувшиеся нашли дома занятыми, имущество разграбленным; из 19 синагог уцелели 2–3",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://cityofgastronomy.thessaloniki.gr/en/gastronomia-istorika/",
+          "supports": "«After the liberation in 1944 and the end of the civil war in 1949»; при германской оккупации острая нехватка продовольствия",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1953-first-woman-mp",
+      "title": "В Салониках избрана первая женщина-депутат",
+      "title_en": "Thessaloniki elects the first woman MP",
+      "title_original": null,
+      "start_date": "1953-01",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "women_rights",
+      "subcategory": null,
+      "historical_summary": "На дополнительных выборах в январе 1953 г. в Салониках впервые голосовали женщины, и депутатом парламента была избрана Элени Скура. Она стала первой женщиной в греческом парламенте.",
+      "historical_summary_en": "At a by-election in Thessaloniki in January 1953 women voted for the first time, and Eleni Skoura was elected to parliament. She became the first woman in the Greek parliament.",
+      "affected_groups": [
+        "women",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_voulh_foundation"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_voulh_foundation",
+          "url": "https://foundation.parliament.gr/VoulhFoundation/VoulhFoundationPortal/images/site_content/voulhFoundation/file/Ekpaideytika%20New/women/0_7women.pdf",
+          "supports": "с. 2: в 1953–1954 гг. женщины голосовали на шести дополнительных выборах; «στην πρώτη ... τον Ιανουάριο του 1953 στη Θεσσαλονίκη, εξελέγη η πρώτη Ελληνίδα βουλευτής, η Ελένη Σκούρα»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1978-earthquake",
+      "title": "Землетрясение 20 июня 1978 года",
+      "title_en": "The earthquake of 20 June 1978",
+      "title_original": null,
+      "start_date": "1978-06-20",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "20 июня 1978 г. землетрясение магнитудой 6,5 с очагом между озёрами Волви и Лангадас повредило около четверти зданий Салоник. Погибли, по разным официальным данным, 45–51 человек, большинство — при обрушении восьмиэтажного жилого дома; это был первый сильный толчок, ударивший по крупному городу Греции.",
+      "historical_summary_en": "On 20 June 1978 an earthquake of magnitude 6.5, centred between lakes Volvi and Langadas, damaged about a quarter of the buildings of Thessaloniki. According to different official figures 45 to 51 people were killed, most of them when an eight-storey apartment block collapsed, and it was the first strong shock to strike a large Greek city.",
+      "affected_groups": [
+        "all_residents",
+        "urban_residents",
+        "homeowners",
+        "tenants"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "gr_auth_papazachos",
+        "gr_oasp",
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_oasp",
+          "url": "https://oasp.gr/san-simera/20-ioynioy-1978",
+          "supports": "«Σαν σήμερα» 20.06.1978: M=6,5, эпицентр между Волви и Лангадасом; 45 погибших, большинство в обрушившемся восьмиэтажном доме; 220 раненых; форшок M5,8 23.05, афтершок M5,1 4.07",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_auth_papazachos",
+          "url": "https://kpapaza.webpages.auth.gr/vp/wp-content/uploads/2023/10/Κεφάλαιο-3.pdf",
+          "supports": "гл. 3: землетрясение 20.06.1978, M=6,5, очаг в Мигдонийской котловине (между Волви и Лангадасом), повредило четверть зданий Салоник, погибли 51 человек; первый сильный толчок в крупном городе; первая телеметрическая сеть после доклада премьер-министру 30.06.1978",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1978: сильное землетрясение, разрушения и жертвы",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1990s-economic-migrants",
+      "title": "Экономические мигранты после распада Восточного блока",
+      "title_en": "Economic migrants after the collapse of the Eastern Bloc",
+      "title_original": null,
+      "start_date": "1990",
+      "end_date": "1999",
+      "date_precision": "year",
+      "approximate": true,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "migration",
+      "subcategory": null,
+      "historical_summary": "В 1990-е годы, после распада советского Восточного блока, в Салоники приехали экономические мигранты. Город снова принимал людей, ищущих работу и новую жизнь.",
+      "historical_summary_en": "In the 1990s, after the dissolution of the Soviet Eastern Bloc, economic migrants came to Thessaloniki. The city again took in people looking for work and a new life.",
+      "affected_groups": [
+        "migrants",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1990-е: экономические мигранты после распада советского Восточного блока",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-1997-cultural-capital",
+      "title": "Салоники — культурная столица Европы",
+      "title_en": "Thessaloniki, European Capital of Culture",
+      "title_original": null,
+      "start_date": "1997",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В 1997 г. Салоники носили звание культурной столицы Европы.",
+      "historical_summary_en": "In 1997 Thessaloniki held the title of European Capital of Culture.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "1997: Thessaloniki European Capital of Culture",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-2011-kallikratis-triandria",
+      "title": "Реформа «Калликратис»: Триандрия входит в дим Салоник",
+      "title_en": "The Kallikratis reform: Triandria joins the Municipality of Thessaloniki",
+      "title_original": null,
+      "start_date": "2011-01-01",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "border_administrative",
+      "subcategory": null,
+      "historical_summary": "С 1 января 2011 г. по программе «Калликратис» бывший дим Триандрия, самостоятельный с 1983 г., вошёл в состав дима Салоник. Город с 1982 г. делился законом на муниципальные округа, теперь их стало шесть.",
+      "historical_summary_en": "From 1 January 2011, under the Kallikratis programme, the former municipality of Triandria, independent since 1983, became part of the Municipality of Thessaloniki. The city had been divided by law into municipal districts since 1982, and now there were six.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/aggelaki/?lang=en",
+          "supports": "с 1982 г. дим разделён законом на пять муниципальных округов; Триандрия — дим с 1.01.1983, с 1.01.2011 в составе дима Салоник по программе «Калликратис»",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/istoria/",
+          "supports": "описание общин: с 1982 г. пять муниципальных округов, ныне шесть муниципальных общин; Триандрия до 1982 г. — община, с 1.01.1983 — дим, с 1.01.2011 в диме Салоник по «Калликратису»",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-2014-youth-capital",
+      "title": "Салоники — молодёжная столица Европы",
+      "title_en": "Thessaloniki, European Youth Capital",
+      "title_original": null,
+      "start_date": "2014",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "culture_leisure",
+      "subcategory": null,
+      "historical_summary": "В 2014 г. Салоники носили звание молодёжной столицы Европы. За два года до того город отметил столетие освобождения 1912 г.",
+      "historical_summary_en": "In 2014 Thessaloniki held the title of European Youth Capital. Two years earlier the city had marked the centenary of its liberation in 1912.",
+      "affected_groups": [
+        "young_adults",
+        "students",
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_thess_municipality"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_thess_municipality",
+          "url": "https://thessaloniki.gr/i-want-to-know-the-city/moments-in-history/20th-21st-century-2/?lang=en",
+          "supports": "2012: 100 лет освобождения; 2014: European Youth Capital",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "gr-thessaloniki-2020-first-school-closure",
+      "title": "В Салониках закрывают первую школу из-за коронавируса",
+      "title_en": "The first school closes in Thessaloniki because of the coronavirus",
+      "title_original": null,
+      "start_date": "2020-02-27",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "GR"
+      ],
+      "geographic_scope": "municipal",
+      "location_ids": [
+        "gr-thessaloniki"
+      ],
+      "category": "public_health",
+      "subcategory": null,
+      "historical_summary": "27 февраля 2020 г. совместным решением министерств образования и здравоохранения временно приостановили работу одной из начальных школ Салоник. Это была первая мера такого рода, принятая на основании чрезвычайного акта о коронавирусе от 25 февраля.",
+      "historical_summary_en": "On 27 February 2020 a joint decision of the ministries of education and health temporarily suspended the operation of a primary school in Thessaloniki. It was the first measure of its kind taken under the emergency act on the coronavirus of 25 February.",
+      "affected_groups": [
+        "children",
+        "school_pupils",
+        "parents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "gr_covid_gov"
+      ],
+      "evidence": [
+        {
+          "source_id": "gr_covid_gov",
+          "url": "https://covid19.gov.gr/nomothesia-gia-ton-covid-19/",
+          "supports": "таблица законодательства, первая строка: Δ1α/ΓΠ.οικ. 13530 (Министерства образования и здравоохранения) о временной приостановке работы начальной школы в Салониках на основании ΠΝΠ от 25.02.2020, ФЕК Β 647/27.02.2020",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    }
+  ]
+}
