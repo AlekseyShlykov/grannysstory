@@ -360,7 +360,9 @@ def english_catalog(data: Dataset, events: list, contexts: list, include_locatio
         add(context.get("title"), context.get("title_en"))
         add(context.get("description"), context.get("description_en"))
     for location in data.locations.values() if include_locations else []:
-        for name in location.get("names_ru", []):
+        # Newest first: when one Russian name covers periods with different English names
+        # (Салоники: Salonica until 1912, Thessaloniki after), the catalog gives the current one.
+        for name in reversed(location.get("names_ru", [])):
             if name.get("name_en"):
                 add(name.get("name"), name["name_en"])
                 if name.get("locative"):
