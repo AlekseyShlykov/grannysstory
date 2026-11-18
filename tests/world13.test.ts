@@ -10,7 +10,8 @@ const FINISHED: Record<string, string[]> = {
   RS: ["rs-beograd", "rs-novi-sad", "rs-subotica"],
   HR: ["hr-zagreb"],
   SI: ["si-ljubljana"],
-  BA: ["ba-sarajevo"]
+  BA: ["ba-sarajevo"],
+  ME: ["me-budva"]
 };
 const COMPARISONS: string[][] = [
   ["rs-beograd", "rs-novi-sad", "rs-subotica"],
@@ -18,7 +19,9 @@ const COMPARISONS: string[][] = [
   ["rs-beograd", "hr-zagreb"],
   ["hr-zagreb", "si-ljubljana"],
   ["ba-sarajevo", "hr-zagreb"],
-  ["ba-sarajevo", "rs-beograd"]
+  ["ba-sarajevo", "rs-beograd"],
+  ["me-budva", "ba-sarajevo"],
+  ["me-budva", "rs-beograd"]
 ];
 
 let world: WorldData;
@@ -118,5 +121,15 @@ describe("Bosnia and Herzegovina", () => {
     expect(early("ba-sarajevo").has("tr-nat-1908-constitution-restored")).toBe(false);
     expect([...early("ba-sarajevo")].filter((id) => id.startsWith("tr-"))).toEqual([]);
     expect(early("tr-istanbul").has("tr-nat-1908-constitution-restored")).toBe(true);
+  });
+});
+
+describe("Montenegro", () => {
+  it("follows Budva from Austro-Hungarian Dalmatia through Yugoslavia and Serbia and Montenegro to independence", () => {
+    expect(sovereignAt(world, "me-budva", "1910-07-01")).toBe("state-at-hu");
+    expect(sovereignAt(world, "me-budva", "1930-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "me-budva", "1979-04-15")).toBe("state-yu");
+    expect(sovereignAt(world, "me-budva", "2000-07-01")).toBe("state-yu-fr");
+    expect(sovereignAt(world, "me-budva", "2010-07-01")).toBe("me");
   });
 });

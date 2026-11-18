@@ -1,0 +1,324 @@
+{
+  "records": [
+    {
+      "id": "me-rep-1959-bar-titograd-railway",
+      "title": "Первая железная дорога нормальной колеи: Бар — Титоград",
+      "title_en": "First standard-gauge railway: Bar–Titograd",
+      "title_original": null,
+      "start_date": "1959-11-29",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "29 ноября 1959 г., ко Дню Республики, открылось движение по линии Бар — Титоград, первой в Черногории железной дороге нормальной колеи и участку будущей магистрали Белград — Бар. Старые узкоколейки в стране закрылись в конце 1959 г. и в 1976 г.",
+      "historical_summary_en": "On 29 November 1959, Republic Day, the Bar–Titograd line opened to traffic, Montenegro's first standard-gauge railway and a section of the future Belgrade–Bar main line. The country's old narrow-gauge lines closed at the end of 1959 and in 1976.",
+      "affected_groups": [
+        "all_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_zicg"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_zicg",
+          "url": "https://www.zicg.me/AdminCMS/public/pdf/publikacije/monografija.pdf",
+          "supports": "prvu prugu normalnog kolosjeka Crna Gora je dobila za Dan republike, 29. novembra 1959 — Bar–Titograd; uskotračne ugašene krajem 1959. odnosno 1976.",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-rep-1976-belgrade-bar-railway",
+      "title": "Открыта железная дорога Белград — Бар",
+      "title_en": "Belgrade–Bar railway opens",
+      "title_original": null,
+      "start_date": "1976-05-28",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "28 мая 1976 г. открылось движение по железной дороге Белград — Бар, которую начали строить в 1952 г. Черногорское побережье получило прямую железнодорожную связь с Белградом.",
+      "historical_summary_en": "On 28 May 1976 traffic began on the Belgrade–Bar railway, construction of which had started in 1952. The Montenegrin coast gained a direct rail link with Belgrade.",
+      "affected_groups": [
+        "all_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_zicg"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_zicg",
+          "url": "https://www.zicg.me/AdminCMS/public/pdf/publikacije/monografija.pdf",
+          "supports": "radovi na pruzi Beograd–Bar počeli 1952; u maju 1976 protutnjali prvi vozovi; pušten u saobraćaj 28. maja 1976",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-rep-1979-earthquake",
+      "title": "Катастрофическое землетрясение на черногорском побережье",
+      "title_en": "Catastrophic earthquake on the Montenegrin coast",
+      "title_original": null,
+      "start_date": "1979-04-15",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "disaster",
+      "subcategory": null,
+      "historical_summary": "15 апреля 1979 г. в 7:19 землетрясение магнитудой 7,0 с эпицентром в море между Ульцинем и Баром ударило по всему черногорскому побережью с силой IX баллов. В Черногории погиб 101 человек, ещё 35 — в Албании; сильно пострадали Ульцинь, Бар, Петровац, Будва, Тиват, Котор, Рисан и Херцег-Нови, разрушено 250 населённых пунктов, повреждены 240 школ и 53 медицинских учреждения. До конца года было 90 сильных повторных толчков, самый сильный — 24 мая.",
+      "historical_summary_en": "At 7:19 on 15 April 1979 a magnitude 7.0 earthquake with its epicentre in the sea between Ulcinj and Bar struck the whole Montenegrin coast with intensity IX. In Montenegro 101 people died, and 35 more in Albania; Ulcinj, Bar, Petrovac, Budva, Tivat, Kotor, Risan and Herceg Novi were badly hit, 250 settlements were destroyed and 240 schools and 53 health facilities were damaged. By the end of the year there were 90 strong aftershocks, the strongest on 24 May.",
+      "affected_groups": [
+        "all_residents",
+        "homeowners",
+        "school_pupils"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "me_meteo"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_meteo",
+          "url": "https://www.meteo.co.me/Seizmologija/doc/Download%20Katastrofalni%20zemljotres%20od%2015.pdf",
+          "supports": "15. april 1979, 07h19, M 7.0, IX MCS; 101 poginuli u Crnoj Gori, 35 u Albaniji; razoreno 250 naselja; 53 zdravstvena, 240 školskih objekata; 90 jakih naknadnih udara, najjači 24. maja (6.1)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-rep-1999-deutsche-mark",
+      "title": "Черногория переходит на немецкую марку",
+      "title_en": "Montenegro switches to the Deutsche Mark",
+      "title_original": null,
+      "start_date": "1999-11-02",
+      "end_date": "2001-01-01",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "2 ноября 1999 г. в Черногории решили ввести систему двух валют — наряду с югославским динаром стала законной немецкая марка. С 1 января 2001 г. марка стала единственным законным платёжным средством.",
+      "historical_summary_en": "On 2 November 1999 Montenegro decided to introduce a dual-currency system, making the Deutsche Mark legal tender alongside the Yugoslav dinar. From 1 January 2001 the mark became the sole legal tender.",
+      "affected_groups": [
+        "all_residents",
+        "consumers",
+        "pensioners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_cbcg"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_cbcg",
+          "url": "https://www.cbcg.me/en/currency/money-museum/money-in-montenegro-through-history",
+          "supports": "on 2 November 1999, it was decided to introduce the dual currency system; as of 1 January 2001 Deutsche Mark the sole legal tender",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-rep-2002-euro",
+      "title": "Евро — единственная валюта Черногории",
+      "title_en": "The euro becomes Montenegro's only currency",
+      "title_original": null,
+      "start_date": "2002-03",
+      "end_date": null,
+      "date_precision": "month",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "consumer_life",
+      "subcategory": null,
+      "historical_summary": "С марта 2002 г. единственным законным платёжным средством в Черногории стал евро.",
+      "historical_summary_en": "From March 2002 the euro became the sole legal tender in Montenegro.",
+      "affected_groups": [
+        "all_residents",
+        "consumers",
+        "pensioners"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_cbcg"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_cbcg",
+          "url": "https://www.cbcg.me/en/currency/money-museum/money-in-montenegro-through-history",
+          "supports": "As of March 2002, the Euro is the sole legal tender in Montenegro",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-rep-2006-independence-referendum",
+      "title": "Референдум о независимости Черногории",
+      "title_en": "Montenegro's independence referendum",
+      "title_original": null,
+      "start_date": "2006-05-21",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "21 мая 2006 г. в Черногории прошёл референдум о государственном статусе: за независимость проголосовали 230 661 человек, или 55,5% действительных голосов, при явке 86,5% (в хронике Центрального банка — 55,4%). Решение граждан жить в независимом государстве названо в преамбуле Конституции Черногории первым основанием государства.",
+      "historical_summary_en": "On 21 May 2006 Montenegro held a referendum on its state status: 230,661 people, or 55.5% of valid votes, supported independence on a turnout of 86.5% (55.4% in the Central Bank's chronicle). The citizens' decision to live in an independent state is named first in the preamble of the Constitution of Montenegro.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_eu",
+        "me_cbcg",
+        "me_gov",
+        "me_dik"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_eu",
+          "url": "https://www.eu.me/en/key-dates/",
+          "supports": "21 May 2006 independence referendum, 55.5% in favour",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "me_cbcg",
+          "url": "https://cbcg.me/slike_i_fajlovi/fajlovi/fajlovi_publikacije/god_izv_gl_ekonom/god_izv_gl_ek2006/glek2006_najznacajniji_dogadjaji.pdf",
+          "supports": "21. maja održan referendum o državnom statusu; nezavisnost podržalo 55,4% izašlih birača",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "me_gov",
+          "url": "https://wapi.gov.me/download/2489436c-8a43-4c6b-9981-8af44719f19f?version=1.0",
+          "supports": "Ustav Crne Gore, preambula: odluka građana ... donesena na referendumu od 21. maja 2006.",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "me_dik",
+          "url": "https://cik.me/images/DIK/Izbori_arhiva/Referendum_2006/Rezultati-konacni-po-opstinama.pdf",
+          "supports": "konačni rezultati: upisano 484 718, izlaznost 86,5%, DA 230 661 (55,5%), NE 185 002 (44,5%)",
+          "accessed": "2026-11-18",
+          "primary": true,
+          "primary_type": "government_document",
+          "document_title": "Rezultati referenduma o državno-pravnom statusu Republike Crne Gore (po opštinama)",
+          "document_date": "2006-05-31"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-rep-1986-titograd-shkoder-railway",
+      "title": "Железная дорога Титоград — Шкодер",
+      "title_en": "Titograd–Shkodër railway",
+      "title_original": null,
+      "start_date": "1986",
+      "end_date": null,
+      "date_precision": "year",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "constituent",
+      "location_ids": [
+        "me-republic"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "В 1986 г. черногорская железнодорожная сеть пополнилась линией Титоград — Шкодер, связавшей Югославию с Албанией.",
+      "historical_summary_en": "In 1986 the Montenegrin railway network gained the Titograd–Shkodër line, linking Yugoslavia with Albania.",
+      "affected_groups": [
+        "all_residents"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_zicg"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_zicg",
+          "url": "https://www.zicg.me/AdminCMS/public/pdf/publikacije/monografija.pdf",
+          "supports": "crnogorska željeznička mreža obogaćena je 1986. godine izgradnjom pruge Titograd – Skadar",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    }
+  ]
+}

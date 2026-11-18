@@ -96,5 +96,10 @@ export const namePalettes: Record<string, NamePalette> = {
       { firstNames: ["Милица", "Стана", "Йованка"], surnames: ["Савич", "Симич", "Деспич", "Йованович"] },
       { firstNames: ["Ана", "Ката", "Ивка"], surnames: ["Перич", "Юрич", "Томич", "Марич"] }
     ]
+  },
+  // Names of women born 1900–1940 on the Budva coast; Russian transcription; surnames do not change for women.
+  ME: {
+    firstNames: ["Милена", "Даница", "Мара", "Зорка", "Видосава", "Йока", "Любица", "Стана"],
+    surnames: ["Зенович", "Медин", "Срзентич", "Кентера", "Любиша", "Вукчевич", "Радович", "Маркович"]
   }
 };

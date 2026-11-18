@@ -1,0 +1,151 @@
+{
+  "records": [
+    {
+      "id": "me-kotor-1901-zelenika-railway",
+      "title": "Железная дорога приходит в Боку: первый поезд в Зеленике",
+      "title_en": "The railway reaches the Bay of Kotor: first train at Zelenika",
+      "title_original": null,
+      "start_date": "1901-07-16",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "district",
+      "location_ids": [
+        "me-kotor-district"
+      ],
+      "category": "infrastructure_transport",
+      "subcategory": null,
+      "historical_summary": "16 июля 1901 г. в Зеленику у Херцег-Нови пришёл первый поезд по узкоколейке Габела — Зеленика; торжества по случаю открытия шли 15–16 июля. Линию построила Австро-Венгрия прежде всего из стратегических соображений, это была первая железная дорога на территории нынешней Черногории.",
+      "historical_summary_en": "On 16 July 1901 the first train arrived at Zelenika near Herceg Novi on the Gabela–Zelenika narrow-gauge line; the opening celebrations lasted from 15 to 16 July. Austria-Hungary built the line mainly for strategic reasons, and it was the first railway on the territory of present-day Montenegro.",
+      "affected_groups": [
+        "all_residents",
+        "commuters"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_zicg",
+        "me_hrcak_hgg"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_zicg",
+          "url": "https://www.zicg.me/AdminCMS/public/pdf/publikacije/monografija.pdf",
+          "supports": "prva željeznica ... stigla je 1901. u Boku kotorsku, od Gabele do Zelenike; dolazak prvog voza u Zeleniku 16. VII 1901; svečanost 15. i 16. jula 1901",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "me_hrcak_hgg",
+          "url": "https://hrcak.srce.hr/file/15020",
+          "supports": "zbog strateških potreba 1901. izgrađen nastavak uskotračne pruge ... između Dubrovnika i Zelenike",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-kotor-1907-reichsrat-suffrage",
+      "title": "Всеобщее мужское избирательное право на выборах в рейхсрат",
+      "title_en": "Universal male suffrage for the Reichsrat",
+      "title_original": null,
+      "start_date": "1907-01-26",
+      "end_date": null,
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "district",
+      "location_ids": [
+        "me-kotor-district"
+      ],
+      "category": "political_change",
+      "subcategory": null,
+      "historical_summary": "26 января 1907 г. император утвердил реформу выборов в рейхсрат — парламент австрийской половины монархии, к которой относилась Далмация с Которским округом. Весной 1907 г. прошли первые равные, тайные, прямые и свободные выборы, но голосовать могли только мужчины.",
+      "historical_summary_en": "On 26 January 1907 the emperor approved the reform of elections to the Reichsrat, the parliament of the Austrian half of the monarchy, which included Dalmatia and the District of Kotor. The first equal, secret, direct and free elections were held in spring 1907, but only men could vote.",
+      "affected_groups": [
+        "men"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": false,
+      "source_ids": [
+        "me_at_parlament",
+        "me_histogis"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_at_parlament",
+          "url": "https://www.parlament.gv.at/dokument/unterlagen/Die_Wahlrechtsreform_1907.pdf",
+          "supports": "26. Januar 1907 Wahlrechtsreform vom Kaiser sanktioniert; ersten gleichen, geheimen, direkten und freien Wahlen (allerdings nur für Männer) ein halbes Jahr später",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "me_histogis",
+          "url": "https://histogis.acdh.oeaw.ac.at/shapes/shape/detail/11635",
+          "supports": "Cattaro — Bezirkshauptmannschaft, parent Dalmatien, Cisleithanien (1868–1918)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-kotor-1918-sailors-mutiny",
+      "title": "Восстание матросов в Боке Которской",
+      "title_en": "Sailors' mutiny in the Bay of Kotor",
+      "title_original": null,
+      "start_date": "1918-02-01",
+      "end_date": "1918-02-03",
+      "date_precision": "day",
+      "approximate": false,
+      "country_codes": [
+        "ME"
+      ],
+      "geographic_scope": "district",
+      "location_ids": [
+        "me-kotor-district"
+      ],
+      "category": "war_conflict",
+      "subcategory": null,
+      "historical_summary": "1 февраля 1918 г. матросы австро-венгерского флота в Боке Которской подняли на флагмане «Санкт Георг» красный флаг и взяли под контроль большую часть кораблей; к ним присоединились рабочие арсенала в Тивте. На третий день, 3 февраля, восставшие сдались, руководителей расстреляли, многих приговорили к заключению. В 2018 г. столетие восстания отметили у памятника матросам в Шкаляри.",
+      "historical_summary_en": "On 1 February 1918 sailors of the Austro-Hungarian navy in the Bay of Kotor raised the red flag on the flagship Sankt Georg and took control of most of the ships; workers of the Tivat arsenal joined them. On the third day, 3 February, the mutineers surrendered; their leaders were shot and many were sentenced to prison. In 2018 the centenary was marked at the sailors' monument in Škaljari.",
+      "affected_groups": [
+        "men",
+        "industrial_workers",
+        "soldiers_families"
+      ],
+      "potential_impacts": [],
+      "narrative_hooks": [],
+      "sensitive": true,
+      "source_ids": [
+        "me_hrcak_hz",
+        "me_kotor"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_hrcak_hz",
+          "url": "https://hrcak.srce.hr/file/470618",
+          "supports": "pobuna buknula u Boki Kotorskoj 1. februara 1918; St. Georg crvena zastava; arsenalski radnici iz Tivta; treći dan kapitulacija, vođe streljani, mnogi osuđeni na tamnicu",
+          "accessed": "2026-11-18"
+        },
+        {
+          "source_id": "me_kotor",
+          "url": "https://www.kotor.me/en/vijesti/obiljeŽen-jubilej-povodom-vijeka-od-pobune-mornara-u-boki-kotorskoj/",
+          "supports": "12.02.2018: obilježen vijek od pobune mornara u Boki Kotorskoj 1918, vijenci kod spomenika mornarima u Škaljarima",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

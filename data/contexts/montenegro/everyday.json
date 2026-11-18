@@ -1,0 +1,646 @@
+{
+  "records": [
+    {
+      "id": "me-ctx-budva-pastrovici-work-abroad-1900-1918",
+      "country_code": "ME",
+      "location_id": "me-budva",
+      "period_start": 1900,
+      "period_end": 1918,
+      "context_type": "migration",
+      "attribute": "labour_migration",
+      "title": "Заработки на чужбине у Паштровичей",
+      "title_en": "Working abroad among the Paštrovići",
+      "description": "Земли Паштровичей к югу от Будвы жили не только морем и землёй: многие мужчины подолгу работали на чужбине — в Стамбуле, России, позже в Америке. Почти 90% из более чем 500 добровольцев войн 1912–1918 гг. хотя бы раз работали за границей. Среди петровацких коммунаров 1920 г. не было неграмотных: все окончили обязательную шестилетнюю школу на сербохорватском языке. Это сведения о мужчинах одного края, а не статистика всего округа.",
+      "description_en": "The Paštrovići lands south of Budva did not live by the sea and the land alone: many men worked abroad for long periods, in Istanbul, Russia and later America. Almost 90% of the more than 500 volunteers in the wars of 1912–1918 had worked abroad at least once. None of the Petrovac communards of 1920 was illiterate: all had completed the compulsory six-year school taught in Serbo-Croatian. These figures describe the men of one area, not statistics for the whole district.",
+      "statistics": [
+        {
+          "indicator": "volunteers_1912_1918",
+          "value": 500,
+          "unit": "persons (more than)",
+          "year": 1918,
+          "area_id": "me-budva",
+          "population": "добровольцы войн 1912–1918 гг. из Паштровичей",
+          "method_note": "оценка в издании Музеев Будвы",
+          "source_id": "me_mg_budva"
+        },
+        {
+          "indicator": "share_volunteers_worked_abroad",
+          "value": 90,
+          "unit": "% (almost)",
+          "year": 1918,
+          "area_id": "me-budva",
+          "population": "те же добровольцы, работавшие за границей хотя бы раз",
+          "method_note": "оценка в издании Музеев Будвы",
+          "source_id": "me_mg_budva"
+        }
+      ],
+      "source_ids": [
+        "me_mg_budva"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_mg_budva",
+          "url": "https://muzejiigalerijebd.me/wp-content/uploads/2026/01/petrovacka_crvena_komuna_jovo_u_zenovic-1.pdf",
+          "supports": "caravans to Galata, Russia, America; nearly 90 percent of over 500 volunteers 1912–1918 had lived abroad for work; communards all completed six-year schooling (str. 57–59)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-population-households-1948-2003",
+      "country_code": "ME",
+      "location_id": "me-republic",
+      "period_start": 1948,
+      "period_end": 2003,
+      "context_type": "demography",
+      "attribute": "census_population_households",
+      "title": "Население и домохозяйства Черногории по переписям 1948–2003",
+      "title_en": "Montenegro's population and households in the censuses of 1948–2003",
+      "description": "По переписям, население Черногории выросло с 377 189 человек в 1948 г. до 620 145 в 2003 г. Семьи становились меньше: в 1948 г. в среднем домохозяйстве жили 4,5 человека, в 1981 г. — 4,1, в 2003 г. — 3,4. В 1948 г. на 1000 мужчин приходилось 1118 женщин — след войны; к 1991 г. соотношение почти выровнялось (1010). Определения населения в переписях различались, поэтому ряды сопоставимы не полностью.",
+      "description_en": "According to the censuses, Montenegro's population grew from 377,189 in 1948 to 620,145 in 2003. Households became smaller: the average household had 4.5 members in 1948, 4.1 in 1981 and 3.4 in 2003. In 1948 there were 1,118 women for every 1,000 men, a legacy of the war; by 1991 the ratio had almost evened out (1,010). Census definitions of the population differed, so the series are not fully comparable.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 377189,
+          "unit": "persons",
+          "year": 1948,
+          "area_id": "me-republic",
+          "population": "всё население республики",
+          "method_note": "перепись 1948",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "population",
+          "value": 529604,
+          "unit": "persons",
+          "year": 1971,
+          "area_id": "me-republic",
+          "population": "всё население республики",
+          "method_note": "перепись 1971",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "population",
+          "value": 615035,
+          "unit": "persons",
+          "year": 1991,
+          "area_id": "me-republic",
+          "population": "всё население республики",
+          "method_note": "перепись 1991",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "population",
+          "value": 620145,
+          "unit": "persons",
+          "year": 2003,
+          "area_id": "me-republic",
+          "population": "всё население республики",
+          "method_note": "перепись 2003 (по определению ежегодника 2013)",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "persons_per_household",
+          "value": 4.5,
+          "unit": "persons/household",
+          "year": 1948,
+          "area_id": "me-republic",
+          "population": "все домохозяйства",
+          "method_note": "перепись 1948, включая коллективные",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "persons_per_household",
+          "value": 4.1,
+          "unit": "persons/household",
+          "year": 1981,
+          "area_id": "me-republic",
+          "population": "частные домохозяйства",
+          "method_note": "перепись 1981",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "persons_per_household",
+          "value": 3.4,
+          "unit": "persons/household",
+          "year": 2003,
+          "area_id": "me-republic",
+          "population": "частные домохозяйства",
+          "method_note": "перепись 2003",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "females_per_1000_males",
+          "value": 1118,
+          "unit": "women per 1000 men",
+          "year": 1948,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "перепись 1948",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "females_per_1000_males",
+          "value": 1010,
+          "unit": "women per 1000 men",
+          "year": 1991,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "перепись 1991",
+          "source_id": "me_monstat"
+        }
+      ],
+      "source_ids": [
+        "me_monstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_monstat",
+          "url": "https://monstat.org/userfiles/file/publikacije/godisnjak%202013/4.%20stanovnistvo.pdf",
+          "supports": "Statistički godišnjak 2013, tab. 4-1: stanovništvo, domaćinstva, broj lica po domaćinstvu, broj žena na 1000 muškaraca 1921–2011; metodološka napomena o uporedivosti",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-births-marriages-1951-2001",
+      "country_code": "ME",
+      "location_id": "me-republic",
+      "period_start": 1951,
+      "period_end": 2001,
+      "context_type": "family_marriage",
+      "attribute": "vital_statistics",
+      "title": "Рождения, браки и разводы в Черногории, 1951–2001",
+      "title_en": "Births, marriages and divorces in Montenegro, 1951–2001",
+      "description": "В 1951 г. на 1000 жителей Черногории приходилось 31,7 рождения, в 1981 г. — 17,9, в 2001 г. — 14,4. Детская смертность резко упала: 84,7 умерших младенцев на 1000 родившихся в 1951 г., 21,7 в 1981 г., 14,6 в 2001 г. Браков заключали 7–8 на 1000 жителей до 1980-х годов и около 6 в 1990-е; разводов было мало — меньше одного на 1000 жителей.",
+      "description_en": "In 1951 there were 31.7 births per 1,000 inhabitants of Montenegro, in 1981 17.9 and in 2001 14.4. Infant mortality fell sharply: 84.7 infant deaths per 1,000 live births in 1951, 21.7 in 1981 and 14.6 in 2001. Marriages ran at 7–8 per 1,000 inhabitants until the 1980s and about 6 in the 1990s; divorces were rare, fewer than one per 1,000 inhabitants.",
+      "statistics": [
+        {
+          "indicator": "birth_rate",
+          "value": 31.7,
+          "unit": "per 1000 inhabitants",
+          "year": 1951,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "регистрация рождений",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "birth_rate",
+          "value": 17.9,
+          "unit": "per 1000 inhabitants",
+          "year": 1981,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "регистрация рождений",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "birth_rate",
+          "value": 14.4,
+          "unit": "per 1000 inhabitants",
+          "year": 2001,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "регистрация рождений",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "infant_mortality",
+          "value": 84.7,
+          "unit": "per 1000 live births",
+          "year": 1951,
+          "area_id": "me-republic",
+          "population": "живорождённые",
+          "method_note": "регистрация смертей",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "infant_mortality",
+          "value": 21.7,
+          "unit": "per 1000 live births",
+          "year": 1981,
+          "area_id": "me-republic",
+          "population": "живорождённые",
+          "method_note": "регистрация смертей",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "infant_mortality",
+          "value": 14.6,
+          "unit": "per 1000 live births",
+          "year": 2001,
+          "area_id": "me-republic",
+          "population": "живорождённые",
+          "method_note": "регистрация смертей",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "marriage_rate",
+          "value": 8.1,
+          "unit": "per 1000 inhabitants",
+          "year": 1951,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "браки по месту жительства жениха",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "marriage_rate",
+          "value": 6.6,
+          "unit": "per 1000 inhabitants",
+          "year": 1991,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "браки по месту жительства жениха",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "divorce_rate",
+          "value": 0.7,
+          "unit": "per 1000 inhabitants",
+          "year": 1991,
+          "area_id": "me-republic",
+          "population": "всё население",
+          "method_note": "разводы по решениям судов",
+          "source_id": "me_monstat"
+        }
+      ],
+      "source_ids": [
+        "me_monstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_monstat",
+          "url": "https://monstat.org/userfiles/file/publikacije/godisnjak%202013/4.%20stanovnistvo.pdf",
+          "supports": "Statistički godišnjak 2013, tab. 4-2 i stope: natalitet 31,7/17,9/14,4; odojčad 84,7/21,7/14,6; nupcijalitet 8,1 (1951), 6,6 (1991); divorcijalitet 0,7 (1991)",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-population-2011",
+      "country_code": "ME",
+      "location_id": "me",
+      "period_start": 2008,
+      "period_end": 2012,
+      "context_type": "demography",
+      "attribute": "census_population_households",
+      "title": "Население Черногории в 2011 г. и рождаемость",
+      "title_en": "Montenegro's population in 2011 and births",
+      "description": "Перепись 2011 г. насчитала 620 029 жителей и около 194 800 домохозяйств, в среднем по 3,2 человека. Рождаемость продолжала снижаться: 12,0 рождений на 1000 жителей в 2010 г. и 11,6 в 2011 г.; детская смертность опустилась до 4,4 на 1000 родившихся. Разводов стало больше, чем раньше, но всё ещё меньше одного на 1000 жителей.",
+      "description_en": "The 2011 census counted 620,029 inhabitants and about 194,800 households, with an average of 3.2 members. The birth rate kept falling: 12.0 births per 1,000 inhabitants in 2010 and 11.6 in 2011; infant mortality dropped to 4.4 per 1,000 live births. Divorces were more frequent than before but still fewer than one per 1,000 inhabitants.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 620029,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "me",
+          "population": "всё население",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "households",
+          "value": 194795,
+          "unit": "households",
+          "year": 2011,
+          "area_id": "me",
+          "population": "все домохозяйства (предварительно)",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "persons_per_household",
+          "value": 3.2,
+          "unit": "persons/household",
+          "year": 2011,
+          "area_id": "me",
+          "population": "домохозяйства",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "birth_rate",
+          "value": 11.6,
+          "unit": "per 1000 inhabitants",
+          "year": 2011,
+          "area_id": "me",
+          "population": "всё население",
+          "method_note": "регистрация рождений",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "infant_mortality",
+          "value": 4.4,
+          "unit": "per 1000 live births",
+          "year": 2011,
+          "area_id": "me",
+          "population": "живорождённые",
+          "method_note": "регистрация смертей",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "divorce_rate",
+          "value": 0.8,
+          "unit": "per 1000 inhabitants",
+          "year": 2011,
+          "area_id": "me",
+          "population": "всё население",
+          "method_note": "разводы по решениям судов",
+          "source_id": "me_monstat"
+        }
+      ],
+      "source_ids": [
+        "me_monstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_monstat",
+          "url": "https://monstat.org/userfiles/file/publikacije/godisnjak%202013/4.%20stanovnistvo.pdf",
+          "supports": "Statistički godišnjak 2013, tab. 4-1 (2011: 620 029; 194 795(p) domaćinstava; 3,2) i stope 2010–2011",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-budva-population-2003-2011",
+      "country_code": "ME",
+      "location_id": "me-budva",
+      "period_start": 2003,
+      "period_end": 2011,
+      "context_type": "demography",
+      "attribute": "census_population",
+      "title": "Население общины Будва по переписям 2003 и 2011 гг.",
+      "title_en": "Budva municipality's population in the 2003 and 2011 censuses",
+      "description": "В общине Будва в 2003 г. жили 15 488 человек, в 2011 г. — 19 218 (из них 9994 женщины). За восемь лет население выросло на 3730 человек, или на 24,1% — гораздо быстрее, чем в среднем по стране (1,3%). Женщины составляли 52% жителей. Цифры относятся ко всей общине, а не только к городу.",
+      "description_en": "Budva municipality had 15,488 inhabitants in 2003 and 19,218 in 2011 (9,994 of them women). In eight years the population grew by 3,730, or 24.1%, far faster than the national average (1.3%). Women made up 52% of the residents. The figures refer to the whole municipality, not only the town.",
+      "statistics": [
+        {
+          "indicator": "population",
+          "value": 15488,
+          "unit": "persons",
+          "year": 2003,
+          "area_id": "me-budva",
+          "population": "все жители общины",
+          "method_note": "перепись 2003",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "population",
+          "value": 19218,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "все жители общины",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "population_women",
+          "value": 9994,
+          "unit": "persons",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "женщины, жительницы общины",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "population_growth",
+          "value": 24.1,
+          "unit": "%",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "изменение 2003–2011",
+          "method_note": "сравнение переписей",
+          "source_id": "me_monstat"
+        }
+      ],
+      "source_ids": [
+        "me_monstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_monstat",
+          "url": "https://www.monstat.org/userfiles/file/popis2011/saopstenje/Saop%20uporedno%202003-2011%2026%2011%202012%20PDF.pdf",
+          "supports": "Saopštenje br. 321: Budva 15 488 (7 430 m, 8 058 ž) 2003; 19 218 (9 224 m, 9 994 ž) 2011; +3 730, +24,1%",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-budva-dwellings-2011",
+      "country_code": "ME",
+      "location_id": "me-budva",
+      "period_start": 2011,
+      "period_end": 2011,
+      "context_type": "housing",
+      "attribute": "dwelling_use",
+      "title": "Жильё в Будве: больше сезонных квартир, чем постоянных",
+      "title_en": "Housing in Budva: more seasonal flats than permanent homes",
+      "description": "По переписи 2011 г., в общине Будва было 23 805 жилищ, но постоянно в них жили только в 6401 (26,9%) и ещё в 473 совмещали жильё с работой. 10 684 жилища (44,9%) использовались сезонно, для отдыха; 4765 (20,0%) временно пустовали, 1269 служили только для работы.",
+      "description_en": "According to the 2011 census, Budva municipality had 23,805 dwellings, but only 6,401 (26.9%) were permanently lived in, and 473 more combined living and work. 10,684 dwellings (44.9%) were used seasonally, for holidays; 4,765 (20.0%) were temporarily empty, and 1,269 were used only for business.",
+      "statistics": [
+        {
+          "indicator": "dwellings_total",
+          "value": 23805,
+          "unit": "dwellings",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "все жилища общины",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "dwellings_permanently_occupied",
+          "value": 6401,
+          "unit": "dwellings",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "заселённые, только для жилья",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "dwellings_seasonal_use",
+          "value": 10684,
+          "unit": "dwellings",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "для сезонного использования",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "dwellings_temporarily_empty",
+          "value": 4765,
+          "unit": "dwellings",
+          "year": 2011,
+          "area_id": "me-budva",
+          "population": "временно незаселённые",
+          "method_note": "перепись 2011",
+          "source_id": "me_monstat"
+        }
+      ],
+      "source_ids": [
+        "me_monstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_monstat",
+          "url": "https://www.monstat.org/userfiles/file/popis2011/saopstenje/Broj%20stanova%20i%20nacin%20koriscenja%20u%20Crnoj%20Gori.pdf",
+          "supports": "Saopštenje br. 53 (15.03.2012), tab. 3: Budva 23 805; samo za stanovanje 6 401 (26,9%); stanovanje i djelatnost 473; privremeno nenastanjeni 4 765 (20,0%); napušteni 55; sezonsko korišćenje 10 684 (44,9%); samo djelatnost 1 269; bez podatka 158",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-budva-tourism-work-2006",
+      "country_code": "ME",
+      "location_id": "me-budva",
+      "period_start": 2006,
+      "period_end": 2008,
+      "context_type": "work",
+      "attribute": "tourism_economy",
+      "title": "Туризм как основа заработка на будванском побережье",
+      "title_en": "Tourism as the livelihood of the Budva coast",
+      "description": "По Стратегии развития туризма до 2020 г. (2008), участок побережья от Будвы и Яза до Бара — «хребет» туристической экономики страны: здесь приходилось около 50% всех ночёвок (около 3,05 млн в 2006 г.) и около 21 000 гостиничных мест, примерно 60% гостиничного фонда Черногории. Рядом с гостиницами выросли квартиры примерно на 60 000 мест и множество частных комнат, что меняло и рынок жилья, и сезонную работу жителей.",
+      "description_en": "According to the Tourism Development Strategy to 2020 (2008), the coast from Budva and Jaz to Bar was the backbone of the country's tourist economy: it accounted for about 50% of all overnight stays (about 3.05 million in 2006) and about 21,000 hotel beds, roughly 60% of Montenegro's hotel capacity. Alongside the hotels, apartments with about 60,000 beds and many private rooms appeared, changing both the housing market and residents' seasonal work.",
+      "statistics": [
+        {
+          "indicator": "overnight_stays",
+          "value": 3050000,
+          "unit": "overnight stays (about)",
+          "year": 2006,
+          "area_id": "me-budva",
+          "population": "участок Будва — Бар (кластер стратегии)",
+          "method_note": "Стратегия развития туризма до 2020 г., цитата в статье",
+          "source_id": "me_ucg_socluca"
+        },
+        {
+          "indicator": "hotel_beds",
+          "value": 21000,
+          "unit": "beds (about)",
+          "year": 2006,
+          "area_id": "me-budva",
+          "population": "участок Будва — Бар",
+          "method_note": "та же стратегия",
+          "source_id": "me_ucg_socluca"
+        }
+      ],
+      "source_ids": [
+        "me_ucg_socluca"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_ucg_socluca",
+          "url": "http://www.socioloskaluca.ucg.ac.me/img/arhiva/PDF2016_1/Kaladjurdjevic,%20Identitet%20Budve%20sa%20problematikom%20brendiranja%20grada.pdf",
+          "supports": "Strategija razvoja turizma u Crnoj Gori do 2020 (2008), klaster Budva–Bar: oko 50% (oko 3,05 mil. u 2006) noćenja; oko 60.000 kreveta u stanovima; 21.000 hotelskih kreveta, oko 60% crnogorskog hotelskog kapaciteta",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "medium",
+      "batch": "world-1.3"
+    },
+    {
+      "id": "me-ctx-tourism-2016-2020",
+      "country_code": "ME",
+      "location_id": "me",
+      "period_start": 2016,
+      "period_end": 2020,
+      "context_type": "leisure_culture",
+      "attribute": "tourist_arrivals",
+      "title": "Туристы в Черногории, 2016–2020",
+      "title_en": "Tourists in Montenegro, 2016–2020",
+      "description": "Число зарегистрированных прибытий туристов в Черногорию росло с 1,81 млн в 2016 г. до 2,65 млн в 2019 г., а ночёвок — с 11,25 до 14,46 млн. В 2020 г., во время пандемии, прибытий было лишь 444 065 (на 83,2% меньше), ночёвок — 2,59 млн; 90,4% ночёвок пришлось на приморские курорты. Незарегистрированные туристы в статистику не входят.",
+      "description_en": "Registered tourist arrivals in Montenegro grew from 1.81 million in 2016 to 2.65 million in 2019, and overnight stays from 11.25 to 14.46 million. In 2020, during the pandemic, there were only 444,065 arrivals (83.2% fewer) and 2.59 million overnight stays; 90.4% of overnight stays were in seaside resorts. Unregistered tourists are not included in the statistics.",
+      "statistics": [
+        {
+          "indicator": "tourist_arrivals",
+          "value": 1813817,
+          "unit": "arrivals",
+          "year": 2016,
+          "area_id": "me",
+          "population": "зарегистрированные туристы, всё размещение",
+          "method_note": "MONSTAT",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "tourist_arrivals",
+          "value": 2645217,
+          "unit": "arrivals",
+          "year": 2019,
+          "area_id": "me",
+          "population": "зарегистрированные туристы, всё размещение",
+          "method_note": "MONSTAT",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "tourist_arrivals",
+          "value": 444065,
+          "unit": "arrivals",
+          "year": 2020,
+          "area_id": "me",
+          "population": "зарегистрированные туристы, всё размещение",
+          "method_note": "MONSTAT",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "overnight_stays",
+          "value": 14455920,
+          "unit": "overnight stays",
+          "year": 2019,
+          "area_id": "me",
+          "population": "то же",
+          "method_note": "MONSTAT",
+          "source_id": "me_monstat"
+        },
+        {
+          "indicator": "overnight_stays",
+          "value": 2587255,
+          "unit": "overnight stays",
+          "year": 2020,
+          "area_id": "me",
+          "population": "то же",
+          "method_note": "MONSTAT",
+          "source_id": "me_monstat"
+        }
+      ],
+      "source_ids": [
+        "me_monstat"
+      ],
+      "evidence": [
+        {
+          "source_id": "me_monstat",
+          "url": "https://monstat.org/uploads/files/TURIZAM/ukupno/konacni/Survey%20on%20tourist%20arrivals%20and%20overnight%20stays%20total-2020.pdf",
+          "supports": "Release No. 21/2 (3.06.2021), Graph 1 (2016–2020) i tekst: −83.2% arrivals, −82.1% overnights, seaside 90.4%",
+          "accessed": "2026-11-18"
+        }
+      ],
+      "verification_status": "verified",
+      "confidence": "high",
+      "batch": "world-1.3"
+    }
+  ]
+}

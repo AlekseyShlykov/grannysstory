@@ -5,10 +5,11 @@ import { content as es } from "./es";
 import { content as fi } from "./fi";
 import { content as hr } from "./hr";
 import { content as it } from "./it";
+import { content as me } from "./me";
 import { content as jp } from "./jp";
 import { content as rs } from "./rs";
 import { content as si } from "./si";
 import { content as tr } from "./tr";
 import type { CountryContent } from "./types";
 
-export const countryContent: readonly CountryContent[] = [it, de, cn, fi, tr, rs, hr, si, ba, es, jp];
+export const countryContent: readonly CountryContent[] = [it, de, cn, fi, tr, rs, hr, si, ba, me, es, jp];

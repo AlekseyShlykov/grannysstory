@@ -12,9 +12,10 @@
 | ES | 87 | 66 | 76% | 21 | 11 |
 | HR | 65 | 61 | 94% | 4 | 0 |
 | JP | 79 | 47 | 59% | 32 | 7 |
+| ME | 46 | 46 | 100% | 0 | 0 |
 | RS | 94 | 85 | 90% | 9 | 0 |
 | SI | 72 | 71 | 99% | 1 | 0 |
-| **всего** | 455 | 388 | 85% | 67 | 18 |
+| **всего** | 501 | 434 | 87% | 67 | 18 |
 
 ## Города
 
@@ -30,6 +31,7 @@
 | `jp-kyoto` Киото | supported | 9 | 6 | 67% | 23 | 1900–1919, 1940–1959, 1960–1979, 1980–1999, 2010–2020 | — |
 | `jp-osaka` Осака | supported | 8 | 7 | 88% | 23 | 1900–1919, 1920–1939, 1940–1959, 1960–1979 | — |
 | `jp-tokyo` Токио | supported | 9 | 5 | 56% | 21 | 1920–1939, 1940–1959, 1960–1979, 2010–2020 | — |
+| `me-budva` Будва | supported | 27 | 27 | 100% | 8 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `rs-beograd` Белград | supported | 27 | 26 | 96% | 2 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `rs-novi-sad` Нови-Сад | supported | 15 | 13 | 87% | 2 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2000–2009, 2010–2020 | — |
 | `rs-subotica` Суботица | supported | 15 | 15 | 100% | 2 | 1900–1919, 1920–1939, 1940–1959, 1960–1979, 1980–1999, 2010–2020 | — |
@@ -52,6 +54,8 @@
 - JP `jp_peace_treaty_pdf_blocked` — web no readable text; direct request 403; used modern NDL explanation as secondary
 - JP `jp_school_original_scan_blocked` — 403; separately read original legal transcription at Nagoya University
 - JP `jp_soumu_2020_cash_unavailable` — unavailable; separately read contemporary Tokyo Institute of Technology administrative notice
+- ME `me_skupstina` — Главная страница отдаёт только заголовок (содержимое грузится скриптом); страница «osnovne informacije» — 404; хранилище документов apisindi
+- ME `me_undrr` — HTTP 403 при обращении 18.11.2026; не обходилось.
 - RS `rs_subotica_city` — 13.11.2026: сертификат сайта просрочен, WebFetch отказался открывать страницу; не обходилось.
 - SI `si_arsq` — 13.11.2026: соединение сброшено (ECONNRESET); не обходилось.
 - SI `si_sta` — 13.11.2026: HTTP 403 на страницу о процессе JBTZ; не обходилось.

@@ -3421,6 +3421,123 @@
       "valid_from": null,
       "valid_to": null
     },
+    "me-kotor-district": {
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "id": "state-shs",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1918-11-30"
+    },
+    "me-zeta-banovina": {
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1929-10-03",
+      "valid_to": "1941-04-16"
+    },
+    "me-republic": {
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1992-04-26"
+        },
+        {
+          "id": "state-yu-fr",
+          "from": "1992-04-27",
+          "to": "2006-06-02"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1946-01-31",
+      "valid_to": "2006-06-02"
+    },
+    "me": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "2006-06-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "2006-06-03",
+      "valid_to": null
+    },
+    "me-budva": {
+      "parents": [
+        {
+          "id": "me-kotor-district",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "me-zeta-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        },
+        {
+          "id": "state-yu",
+          "from": "1941-04-17",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "me-republic",
+          "from": "1946-01-31",
+          "to": "2006-06-02"
+        },
+        {
+          "id": "me",
+          "from": "2006-06-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Королевство Черногория (военная администрация)",
+          "by_en": "Kingdom of Montenegro (military administration)",
+          "from": "1914-08",
+          "to": "1915",
+          "source_id": "me_mg_budva"
+        },
+        {
+          "by_ru": "Италия",
+          "by_en": "Italy",
+          "from": "1941-04-17",
+          "to": "1943-09",
+          "source_id": "me_to_budva"
+        },
+        {
+          "by_ru": "Германия",
+          "by_en": "Germany",
+          "from": "1943-09",
+          "to": "1944-11-21",
+          "source_id": "me_to_budva"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
     "state-pl-regency": {
       "parents": [
         {

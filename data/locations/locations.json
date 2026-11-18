@@ -7114,6 +7114,222 @@
       "abolished": []
     },
     {
+      "id": "me",
+      "type": "state",
+      "level": "national",
+      "country": "ME",
+      "settlementClass": null,
+      "wikidata": "Q236",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Черногория",
+          "locative": "в Черногории",
+          "from": "2006-06-03",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "2006-06-03",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "2006-06-03",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "me-budva",
+      "type": "town",
+      "level": "municipal",
+      "country": "ME",
+      "settlementClass": "small_town",
+      "wikidata": "Q174237",
+      "coordinates": {
+        "lat": 42.284722,
+        "lon": 18.845278
+      },
+      "names": [
+        {
+          "name": "Будва",
+          "locative": "в Будве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "me-kotor-district",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "me-zeta-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        },
+        {
+          "id": "state-yu",
+          "from": "1941-04-17",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "me-republic",
+          "from": "1946-01-31",
+          "to": "2006-06-02"
+        },
+        {
+          "id": "me",
+          "from": "2006-06-03",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Королевство Черногория (военная администрация)",
+          "from": "1914-08",
+          "to": "1915"
+        },
+        {
+          "by": "Италия",
+          "from": "1941-04-17",
+          "to": "1943-09"
+        },
+        {
+          "by": "Германия",
+          "from": "1943-09",
+          "to": "1944-11-21"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "me-kotor-district",
+      "type": "district",
+      "level": "district",
+      "country": "ME",
+      "settlementClass": null,
+      "wikidata": null,
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Которский округ",
+          "locative": "в Которском округе",
+          "from": null,
+          "to": "1918-11-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-at-hu",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "id": "state-shs",
+          "from": "1918-10-29",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1918-11-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "me-republic",
+      "type": "republic",
+      "level": "constituent",
+      "country": "ME",
+      "settlementClass": null,
+      "wikidata": "Q838291",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Народная Республика Черногория",
+          "locative": "в Народной Республике Черногории",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Республика Черногория",
+          "locative": "в Социалистической Республике Черногории",
+          "from": "1963-04-07",
+          "to": "1991-08-01"
+        },
+        {
+          "name": "Республика Черногория",
+          "locative": "в Республике Черногории",
+          "from": "1991-08-02",
+          "to": "2006-06-02"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1992-04-26"
+        },
+        {
+          "id": "state-yu-fr",
+          "from": "1992-04-27",
+          "to": "2006-06-02"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-01-31",
+      "validTo": "2006-06-02",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "me-zeta-banovina",
+      "type": "region",
+      "level": "regional",
+      "country": "ME",
+      "settlementClass": null,
+      "wikidata": "Q196875",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Зетская бановина",
+          "locative": "в Зетской бановине",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-10-03",
+      "validTo": "1941-04-16",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "pl",
       "type": "state",
       "level": "national",

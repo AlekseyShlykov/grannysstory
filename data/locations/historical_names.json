@@ -5233,6 +5233,177 @@
       ],
       "alt": []
     },
+    "me-kotor-district": {
+      "local": [
+        {
+          "name": "Bezirkshauptmannschaft Cattaro",
+          "lang": "de",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "name": "Kotorski kotar",
+          "lang": "sh",
+          "from": null,
+          "to": "1918-11-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Которский округ",
+          "locative": "в Которском округе",
+          "name_en": "District of Kotor (Cattaro)",
+          "locative_en": "in the District of Kotor",
+          "from": null,
+          "to": "1918-11-30"
+        }
+      ],
+      "alt": [
+        "Cattaro",
+        "Boka Kotorska",
+        "Bocche di Cattaro",
+        "Bezirk Cattaro"
+      ]
+    },
+    "me-zeta-banovina": {
+      "local": [
+        {
+          "name": "Zetska banovina",
+          "lang": "sh",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Зетская бановина",
+          "locative": "в Зетской бановине",
+          "name_en": "Zeta Banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-16"
+        }
+      ],
+      "alt": [
+        "Zetska banovina",
+        "Зетска бановина",
+        "Zeta Banate"
+      ]
+    },
+    "me-republic": {
+      "local": [
+        {
+          "name": "Narodna Republika Crna Gora",
+          "lang": "sh",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Socijalistička Republika Crna Gora",
+          "lang": "sh",
+          "from": "1963-04-07",
+          "to": "1991-08-01"
+        },
+        {
+          "name": "Republika Crna Gora",
+          "lang": "sh",
+          "from": "1991-08-02",
+          "to": "2006-06-02"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Народная Республика Черногория",
+          "locative": "в Народной Республике Черногории",
+          "name_en": "People's Republic of Montenegro",
+          "locative_en": "in the People's Republic of Montenegro",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Республика Черногория",
+          "locative": "в Социалистической Республике Черногории",
+          "name_en": "Socialist Republic of Montenegro",
+          "locative_en": "in the Socialist Republic of Montenegro",
+          "from": "1963-04-07",
+          "to": "1991-08-01"
+        },
+        {
+          "name": "Республика Черногория",
+          "locative": "в Республике Черногории",
+          "name_en": "Republic of Montenegro",
+          "locative_en": "in the Republic of Montenegro",
+          "from": "1991-08-02",
+          "to": "2006-06-02"
+        }
+      ],
+      "alt": [
+        "Crna Gora",
+        "Црна Гора",
+        "NR Crna Gora",
+        "SR Crna Gora"
+      ]
+    },
+    "me": {
+      "local": [
+        {
+          "name": "Republika Crna Gora",
+          "lang": "sh",
+          "from": "2006-06-03",
+          "to": "2007-10-18"
+        },
+        {
+          "name": "Crna Gora",
+          "lang": "sh",
+          "from": "2007-10-19",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Черногория",
+          "locative": "в Черногории",
+          "name_en": "Montenegro",
+          "from": "2006-06-03",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Crna Gora",
+        "Црна Гора",
+        "Montenegro",
+        "MNE"
+      ]
+    },
+    "me-budva": {
+      "local": [
+        {
+          "name": "Budua",
+          "lang": "it",
+          "from": null,
+          "to": "1918-10-28"
+        },
+        {
+          "name": "Budva",
+          "lang": "sh",
+          "from": null,
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Будва",
+          "locative": "в Будве",
+          "name_en": "Budva",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Budua",
+        "Будва",
+        "Butua"
+      ]
+    },
     "state-pl-regency": {
       "local": [
         {
