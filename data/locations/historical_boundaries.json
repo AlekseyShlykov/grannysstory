@@ -2,6 +2,150 @@
   "generated": true,
   "note": "Временные связи «место → родитель»; суверенитет — верхнее государство цепочки на дату.",
   "relations": {
+    "ba-bosnia-herzegovina-land": {
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1908-10-05"
+        },
+        {
+          "id": "state-at-hu",
+          "from": "1908-10-06",
+          "to": "1918-10-31"
+        },
+        {
+          "id": "state-shs",
+          "from": "1918-11-01",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "valid_from": null,
+      "valid_to": "1918-11-30"
+    },
+    "ba-drina-banovina": {
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1929-10-03",
+      "valid_to": "1941-04-15"
+    },
+    "ba-republic": {
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1992-03-05"
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1946-01-31",
+      "valid_to": "1992-03-05"
+    },
+    "ba": {
+      "parents": [
+        {
+          "id": "world",
+          "from": "1992-03-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1992-03-06",
+      "valid_to": null
+    },
+    "ba-fbih": {
+      "parents": [
+        {
+          "id": "ba",
+          "from": "1994-03-30",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1994-03-30",
+      "valid_to": null
+    },
+    "ba-ks": {
+      "parents": [
+        {
+          "id": "ba-fbih",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "valid_from": "1996-03-11",
+      "valid_to": null
+    },
+    "ba-sarajevo": {
+      "parents": [
+        {
+          "id": "ba-bosnia-herzegovina-land",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "ba-drina-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        },
+        {
+          "id": "hr-ndh",
+          "from": "1941-04-16",
+          "to": "1945-04-05"
+        },
+        {
+          "id": "state-yu",
+          "from": "1945-04-06",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "ba-republic",
+          "from": "1946-01-31",
+          "to": "1992-03-05"
+        },
+        {
+          "id": "ba",
+          "from": "1992-03-06",
+          "to": "1996-03-10"
+        },
+        {
+          "id": "ba-ks",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by_ru": "Австро-Венгрия (управление при османском суверенитете)",
+          "by_en": "Austria-Hungary (administration under Ottoman sovereignty)",
+          "from": "1878-08",
+          "to": "1908-10-05",
+          "source_id": "ba_has"
+        },
+        {
+          "by_ru": "Германия",
+          "by_en": "Germany",
+          "from": "1941-04-15",
+          "to": "1945-04-05",
+          "source_id": "ba_vig"
+        }
+      ],
+      "valid_from": null,
+      "valid_to": null
+    },
     "state-cn-qing": {
       "parents": [
         {

@@ -1,0 +1,90 @@
+{
+ "records": [
+  {
+   "id": "ba-land-1908-annexation",
+   "title": "Аннексия Боснии и Герцеговины Австро-Венгрией",
+   "title_en": "Annexation of Bosnia and Herzegovina by Austria-Hungary",
+   "title_original": "Aneksija Bosne i Hercegovine",
+   "start_date": "1908-10-06",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "BA"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "ba-bosnia-herzegovina-land"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "6 октября 1908 г. Австро-Венгрия аннексировала Боснию и Герцеговину, которой управляла с 1878 г. при формальном османском суверенитете. Прокламация Франца Иосифа обещала конституционные учреждения и отдельное управление краем; на следующий день её напечатал «Sarajevski list».",
+   "historical_summary_en": "On 6 October 1908 Austria-Hungary annexed Bosnia and Herzegovina, which it had administered since 1878 under formal Ottoman sovereignty. Franz Joseph's proclamation promised constitutional institutions and a separate administration for the province; Sarajevski list printed it the next day.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "ba_has"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_has",
+     "url": "https://www.arhivsa.ba/wordpress/?p=2710",
+     "supports": "аннексия 6.10.1908; текст прокламации в «Sarajevski list» № 120 от 7.10.1908 (библиотека HAS)",
+     "primary": true,
+     "primary_type": "contemporary_newspaper",
+     "document_title": "Sarajevski list, br. 120",
+     "document_date": "1908-10-07",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-land-1918-national-council",
+   "title": "Конец австро-венгерского управления в Боснии и Герцеговине",
+   "title_en": "End of Austro-Hungarian rule in Bosnia and Herzegovina",
+   "title_original": null,
+   "start_date": "1918-11-01",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "BA"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "ba-bosnia-herzegovina-land"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "31 октября 1918 г. в Сараеве конституировался Главный комитет Народного совета СХС для Боснии и Герцеговины, 1 ноября генерал Саркотич передал ему управление краем, 3 ноября было назначено Народное правительство. Босния и Герцеговина вошла в Государство словенцев, хорватов и сербов.",
+   "historical_summary_en": "On 31 October 1918 the Main Board of the National Council of SHS for Bosnia and Herzegovina was constituted in Sarajevo; on 1 November General Sarkotić handed the administration of the province over to it, and on 3 November a National Government was appointed. Bosnia and Herzegovina joined the State of Slovenes, Croats and Serbs.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "ba_grad_sarajevo"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_grad_sarajevo",
+     "url": "https://www.sarajevo.ba/bs/sarajevo-u-periodu-1918-1945-godina-1221",
+     "supports": "31.10.1918 Glavni odbor Narodnog vijeća za BiH; 1.11. Sarkotić predaje upravu; 3.11. imenovana Narodna vlada",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

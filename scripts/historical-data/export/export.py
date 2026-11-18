@@ -123,6 +123,9 @@ def compact_event(event: dict) -> dict:
     }
     if event.get("legacy_requires_flag"):
         record["requiresFlag"] = event["legacy_requires_flag"]
+    # True for the state, untrue for one part of it (Ottoman reforms in Austro-Hungarian-run Bosnia before 1908).
+    if event.get("not_in_location_ids"):
+        record["notIn"] = event["not_in_location_ids"]
     return record
 
 

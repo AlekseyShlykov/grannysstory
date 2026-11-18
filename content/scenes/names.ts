@@ -8,6 +8,11 @@ export interface NamePalette {
   surnames: readonly string[];
   /** Family name first, as in Chinese («Ван Шулань»). */
   surnameFirst?: boolean;
+  /**
+   * Naming traditions within one country: the surname is drawn from the group of the first name, so a pair reads
+   * naturally. Mixed families existed; this is a simplification of naming, not a statement about anyone's life.
+   */
+  groups?: readonly { firstNames: readonly string[]; surnames: readonly string[] }[];
 }
 
 export const namePalettes: Record<string, NamePalette> = {
@@ -81,5 +86,15 @@ export const namePalettes: Record<string, NamePalette> = {
   SI: {
     firstNames: ["Мария", "Ангела", "Франчишка", "Иванка", "Йожефа", "Милка", "Терезия", "Антония", "Зора", "Олга"],
     surnames: ["Новак", "Хорват", "Крайнц", "Котник", "Жагар", "Подобник", "Колар", "Врхунец", "Зупан", "Кос"]
+  },
+  // Names of women born 1900–1940 in Sarajevo, by naming tradition; Russian transcription; surnames do not change.
+  BA: {
+    firstNames: ["Фатима", "Хайра", "Эмина", "Зейна", "Сафия", "Милица", "Стана", "Йованка", "Ана", "Ката", "Ивка"],
+    surnames: ["Хаджич", "Бегович", "Мехмедович", "Османович", "Савич", "Симич", "Деспич", "Йованович", "Перич", "Юрич", "Томич", "Марич"],
+    groups: [
+      { firstNames: ["Фатима", "Хайра", "Эмина", "Зейна", "Сафия"], surnames: ["Хаджич", "Бегович", "Мехмедович", "Османович"] },
+      { firstNames: ["Милица", "Стана", "Йованка"], surnames: ["Савич", "Симич", "Деспич", "Йованович"] },
+      { firstNames: ["Ана", "Ката", "Ивка"], surnames: ["Перич", "Юрич", "Томич", "Марич"] }
+    ]
   }
 };

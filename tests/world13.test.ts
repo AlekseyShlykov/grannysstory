@@ -9,13 +9,16 @@ import { loadWholeWorld } from "./worldHelpers";
 const FINISHED: Record<string, string[]> = {
   RS: ["rs-beograd", "rs-novi-sad", "rs-subotica"],
   HR: ["hr-zagreb"],
-  SI: ["si-ljubljana"]
+  SI: ["si-ljubljana"],
+  BA: ["ba-sarajevo"]
 };
 const COMPARISONS: string[][] = [
   ["rs-beograd", "rs-novi-sad", "rs-subotica"],
   ["rs-novi-sad", "rs-subotica"],
   ["rs-beograd", "hr-zagreb"],
-  ["hr-zagreb", "si-ljubljana"]
+  ["hr-zagreb", "si-ljubljana"],
+  ["ba-sarajevo", "hr-zagreb"],
+  ["ba-sarajevo", "rs-beograd"]
 ];
 
 let world: WorldData;
@@ -97,5 +100,23 @@ describe("Slovenia", () => {
     expect(sovereignAt(world, "si-ljubljana", "1930-07-01")).toBe("state-yu");
     expect(sovereignAt(world, "si-ljubljana", "1942-07-01")).toBe("state-yu");
     expect(sovereignAt(world, "si-ljubljana", "2000-07-01")).toBe("si");
+  });
+});
+
+describe("Bosnia and Herzegovina", () => {
+  it("follows Sarajevo from Ottoman sovereignty through annexation and Yugoslavia to independent Bosnia", () => {
+    expect(sovereignAt(world, "ba-sarajevo", "1905-07-01")).toBe("state-ottoman");
+    expect(sovereignAt(world, "ba-sarajevo", "1910-07-01")).toBe("state-at-hu");
+    expect(sovereignAt(world, "ba-sarajevo", "1930-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "ba-sarajevo", "1943-07-01")).toBe("state-yu");
+    expect(sovereignAt(world, "ba-sarajevo", "1984-02-08")).toBe("state-yu");
+    expect(sovereignAt(world, "ba-sarajevo", "2000-07-01")).toBe("ba");
+  });
+
+  it("keeps Ottoman reforms out of Austro-Hungarian-run Sarajevo but not out of Istanbul", () => {
+    const early = (placeId: string) => new Set(relevantEvents(world, [{ placeId, fromYear: 1900, toYear: 1908 }], { birthYear: 1900, groups: ["women", "all_residents"] }, 1900, 1908).map((item) => item.event.id));
+    expect(early("ba-sarajevo").has("tr-nat-1908-constitution-restored")).toBe(false);
+    expect([...early("ba-sarajevo")].filter((id) => id.startsWith("tr-"))).toEqual([]);
+    expect(early("tr-istanbul").has("tr-nat-1908-constitution-restored")).toBe(true);
   });
 });

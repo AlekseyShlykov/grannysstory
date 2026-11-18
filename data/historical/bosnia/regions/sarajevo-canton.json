@@ -1,0 +1,51 @@
+{
+ "records": [
+  {
+   "id": "ba-ks-2020-covid-disaster",
+   "title": "COVID-19: состояние беды в Кантоне Сараево",
+   "title_en": "COVID-19: state of disaster in Sarajevo Canton",
+   "title_original": null,
+   "start_date": "2020-03-18",
+   "end_date": null,
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "BA"
+   ],
+   "geographic_scope": "regional",
+   "location_ids": [
+    "ba-ks"
+   ],
+   "category": "public_health",
+   "subcategory": null,
+   "historical_summary": "18 марта 2020 г. правительство Кантона Сараево объявило состояние природной и иной беды из-за опасности распространения COVID-19. Штабы гражданской защиты дезинфицировали улицы и общественные здания, общины закупали защитное снаряжение, продуктовые пакеты для малоимущих и для рожениц.",
+   "historical_summary_en": "On 18 March 2020 the government of Sarajevo Canton declared a state of natural and other disaster because of the risk of COVID-19 spreading. Civil protection staffs disinfected streets and public buildings, and municipalities bought protective equipment and food parcels for low-income families and new mothers.",
+   "affected_groups": [
+    "all_residents",
+    "elderly",
+    "parents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "ba_kucz"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_kucz",
+     "url": "https://kucz.ks.gov.ba/sites/kucz.ks.gov.ba/files/2025-03/redovni_izvjestaj_za_25.03.2020.pdf",
+     "supports": "Odluka Vlade KS br. 02-04-7986-1.1/20 od 18.03.2020; dezinfekcija; paketi za socijalno ugrožene i porodilje",
+     "primary": true,
+     "primary_type": "administrative_report",
+     "document_title": "Redovni izvještaj Operativnog centra KUCZ, br. 04-40-1-84/20",
+     "document_date": "2020-03-25",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

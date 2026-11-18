@@ -1,0 +1,45 @@
+{
+ "records": [
+  {
+   "id": "ba-republic-1992-independence-referendum",
+   "title": "Референдум о независимости Боснии и Герцеговины",
+   "title_en": "Independence referendum in Bosnia and Herzegovina",
+   "title_original": null,
+   "start_date": "1992-02-29",
+   "end_date": "1992-03-01",
+   "date_precision": "day",
+   "approximate": false,
+   "country_codes": [
+    "BA"
+   ],
+   "geographic_scope": "constituent",
+   "location_ids": [
+    "ba-republic"
+   ],
+   "category": "political_change",
+   "subcategory": null,
+   "historical_summary": "29 февраля и 1 марта 1992 г. в Боснии и Герцеговине прошёл референдум о независимости: проголосовало почти 64% избирателей, около 99% из них — за независимость. 6 марта Скупщина БиГ подтвердила итоги; 1 марта отмечается как День независимости.",
+   "historical_summary_en": "On 29 February and 1 March 1992 Bosnia and Herzegovina held an independence referendum: almost 64% of voters took part, and about 99% of them voted for independence. On 6 March the Assembly confirmed the results; 1 March is celebrated as Independence Day.",
+   "affected_groups": [
+    "all_residents"
+   ],
+   "potential_impacts": [],
+   "narrative_hooks": [],
+   "sensitive": false,
+   "source_ids": [
+    "ba_has"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_has",
+     "url": "https://www.arhivsa.ba/wordpress/?p=6450",
+     "supports": "referendum 29.2–1.3.1992, izlaznost blizu 64%, ~99% za; 6.3.1992 potvrđeno u Skupštini; 1. mart Dan nezavisnosti",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

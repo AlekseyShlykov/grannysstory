@@ -2,6 +2,281 @@
   "generated": true,
   "locations": [
     {
+      "id": "ba",
+      "type": "state",
+      "level": "national",
+      "country": "BA",
+      "settlementClass": null,
+      "wikidata": "Q225",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Босния и Герцеговина",
+          "locative": "в Боснии и Герцеговине",
+          "from": "1992-03-06",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "world",
+          "from": "1992-03-06",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1992-03-06",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "ba-bosnia-herzegovina-land",
+      "type": "land",
+      "level": "regional",
+      "country": "BA",
+      "settlementClass": null,
+      "wikidata": "Q609233",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Босния и Герцеговина",
+          "locative": "в Боснии и Герцеговине",
+          "from": null,
+          "to": "1918-11-30"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-ottoman",
+          "from": null,
+          "to": "1908-10-05"
+        },
+        {
+          "id": "state-at-hu",
+          "from": "1908-10-06",
+          "to": "1918-10-31"
+        },
+        {
+          "id": "state-shs",
+          "from": "1918-11-01",
+          "to": "1918-11-30"
+        }
+      ],
+      "occupations": [],
+      "validFrom": null,
+      "validTo": "1918-11-30",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "ba-drina-banovina",
+      "type": "region",
+      "level": "regional",
+      "country": "BA",
+      "settlementClass": null,
+      "wikidata": "Q1259126",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Дринская бановина",
+          "locative": "в Дринской бановине",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1929-10-03",
+      "validTo": "1941-04-15",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "ba-fbih",
+      "type": "constituent_country",
+      "level": "constituent",
+      "country": "BA",
+      "settlementClass": null,
+      "wikidata": "Q11198",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Федерация Боснии и Герцеговины",
+          "locative": "в Федерации Боснии и Герцеговины",
+          "from": "1994-03-30",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ba",
+          "from": "1994-03-30",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1994-03-30",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "ba-ks",
+      "type": "region",
+      "level": "regional",
+      "country": "BA",
+      "settlementClass": null,
+      "wikidata": "Q18276",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Сараевский кантон",
+          "locative": "в Сараевском кантоне",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ba-fbih",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1996-03-11",
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "ba-republic",
+      "type": "republic",
+      "level": "constituent",
+      "country": "BA",
+      "settlementClass": null,
+      "wikidata": "Q208545",
+      "coordinates": null,
+      "names": [
+        {
+          "name": "Народная Республика Босния и Герцеговина",
+          "locative": "в Народной Республике Боснии и Герцеговине",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Социалистическая Республика Босния и Герцеговина",
+          "locative": "в Социалистической Республике Боснии и Герцеговине",
+          "from": "1963-04-07",
+          "to": "1992-03-05"
+        }
+      ],
+      "parents": [
+        {
+          "id": "state-yu",
+          "from": "1946-01-31",
+          "to": "1992-03-05"
+        }
+      ],
+      "occupations": [],
+      "validFrom": "1946-01-31",
+      "validTo": "1992-03-05",
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
+      "id": "ba-sarajevo",
+      "type": "city",
+      "level": "municipal",
+      "country": "BA",
+      "settlementClass": "capital",
+      "wikidata": "Q11194",
+      "coordinates": {
+        "lat": 43.856389,
+        "lon": 18.413056
+      },
+      "names": [
+        {
+          "name": "Сараево",
+          "locative": "в Сараеве",
+          "from": null,
+          "to": null
+        }
+      ],
+      "parents": [
+        {
+          "id": "ba-bosnia-herzegovina-land",
+          "from": null,
+          "to": "1918-11-30"
+        },
+        {
+          "id": "state-yu",
+          "from": "1918-12-01",
+          "to": "1929-10-02"
+        },
+        {
+          "id": "ba-drina-banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        },
+        {
+          "id": "hr-ndh",
+          "from": "1941-04-16",
+          "to": "1945-04-05"
+        },
+        {
+          "id": "state-yu",
+          "from": "1945-04-06",
+          "to": "1946-01-30"
+        },
+        {
+          "id": "ba-republic",
+          "from": "1946-01-31",
+          "to": "1992-03-05"
+        },
+        {
+          "id": "ba",
+          "from": "1992-03-06",
+          "to": "1996-03-10"
+        },
+        {
+          "id": "ba-ks",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "occupations": [
+        {
+          "by": "Австро-Венгрия (управление при османском суверенитете)",
+          "from": "1878-08",
+          "to": "1908-10-05"
+        },
+        {
+          "by": "Германия",
+          "from": "1941-04-15",
+          "to": "1945-04-05"
+        }
+      ],
+      "validFrom": null,
+      "validTo": null,
+      "legacyIds": [],
+      "partitions": [],
+      "abolished": []
+    },
+    {
       "id": "cn",
       "type": "state",
       "level": "national",

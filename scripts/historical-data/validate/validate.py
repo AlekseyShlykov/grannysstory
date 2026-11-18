@@ -239,6 +239,9 @@ class Validator:
                 continue
             if level != scope:
                 self.error(event, f"scope '{scope}' does not match location {location_id} (level '{level}')")
+        for location_id in event.get("not_in_location_ids", []):
+            if self.data.level(location_id) is None:
+                self.error(event, f"unknown not_in location {location_id}")
         start, end = event_span(event)
         for location_id in event.get("location_ids", []):
             location = self.data.locations.get(location_id)

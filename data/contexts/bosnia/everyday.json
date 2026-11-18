@@ -1,0 +1,664 @@
+{
+ "records": [
+  {
+   "id": "ba-ctx-sarajevo-population-1910-1991",
+   "country_code": "BA",
+   "location_id": "ba-sarajevo",
+   "period_start": 1910,
+   "period_end": 1991,
+   "context_type": "demography",
+   "attribute": "census_population",
+   "title": "Население Сараева по переписям 1910–1991",
+   "title_en": "Sarajevo's population in the censuses of 1910–1991",
+   "description": "По переписям, в Сараеве жили 51 919 человек в 1910 г., 66 317 в 1921 г., 78 173 в 1931 г. (в том числе не меньше 7500 евреев); весной 1941 г. — по оценке, более 90 тысяч. После войны город рос намного быстрее: 111 087 человек в 1948 г. (Центар, Ново Сараево, Илиджа), 359 448 в 1971 г., 448 519 в 1981 г. и 527 049 в 1991 г. в десяти общинах, из них 429 672 в городской зоне. Границы города между переписями менялись.",
+   "description_en": "According to the censuses, Sarajevo had 51,919 inhabitants in 1910, 66,317 in 1921 and 78,173 in 1931 (including at least 7,500 Jews); by spring 1941 it was estimated at more than 90,000. After the war the city grew much faster: 111,087 in 1948 (Centar, Novo Sarajevo, Ilidža), 359,448 in 1971, 448,519 in 1981 and 527,049 in 1991 in ten municipalities, of whom 429,672 lived in the urban area. The city's boundaries changed between censuses.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 51919,
+     "unit": "persons",
+     "year": 1910,
+     "area_id": "ba-sarajevo",
+     "population": "жители города",
+     "method_note": "австрийская перепись 10.10.1910",
+     "source_id": "ba_grad_sarajevo"
+    },
+    {
+     "indicator": "population",
+     "value": 66317,
+     "unit": "persons",
+     "year": 1921,
+     "area_id": "ba-sarajevo",
+     "population": "жители города",
+     "method_note": "перепись 31.01.1921",
+     "source_id": "ba_grad_sarajevo"
+    },
+    {
+     "indicator": "population",
+     "value": 78173,
+     "unit": "persons",
+     "year": 1931,
+     "area_id": "ba-sarajevo",
+     "population": "жители города",
+     "method_note": "перепись 31.03.1931",
+     "source_id": "ba_grad_sarajevo"
+    },
+    {
+     "indicator": "population",
+     "value": 111087,
+     "unit": "persons",
+     "year": 1948,
+     "area_id": "ba-sarajevo",
+     "population": "городская зона: Центар, Ново Сараево, Илиджа",
+     "method_note": "перепись 1948",
+     "source_id": "ba_grad_sarajevo"
+    },
+    {
+     "indicator": "population",
+     "value": 359448,
+     "unit": "persons",
+     "year": 1971,
+     "area_id": "ba-sarajevo",
+     "population": "жители города",
+     "method_note": "перепись 1971",
+     "source_id": "ba_grad_sarajevo"
+    },
+    {
+     "indicator": "population",
+     "value": 448519,
+     "unit": "persons",
+     "year": 1981,
+     "area_id": "ba-sarajevo",
+     "population": "жители города",
+     "method_note": "перепись 1981",
+     "source_id": "ba_grad_sarajevo"
+    },
+    {
+     "indicator": "population",
+     "value": 527049,
+     "unit": "persons",
+     "year": 1991,
+     "area_id": "ba-sarajevo",
+     "population": "десять общин Сараева (городская зона 429 672)",
+     "method_note": "перепись апреля 1991",
+     "source_id": "ba_grad_sarajevo"
+    }
+   ],
+   "source_ids": [
+    "ba_grad_sarajevo"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_grad_sarajevo",
+     "url": "https://www.sarajevo.ba/bs/sarajevo-u-periodu-1918-1945-godina-1221",
+     "supports": "popisi 1910, 1921, 1931; procjena 1941",
+     "accessed": "2026-11-13"
+    },
+    {
+     "source_id": "ba_grad_sarajevo",
+     "url": "https://www.sarajevo.ba/bs/sarajevo-u-periodu-1945-1991-godina",
+     "supports": "popisi 1948, 1971, 1981, 1991",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-population-2014-2018",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2014,
+   "period_end": 2018,
+   "context_type": "demography",
+   "attribute": "population_estimate",
+   "title": "Население Кантона Сараево в 2014–2018 гг.",
+   "title_en": "Population of Sarajevo Canton, 2014–2018",
+   "description": "По оценке на 30 июня 2018 г., в Кантоне Сараево жили 419 414 человек, из них 221 193 женщины; людей 65 лет и старше было 67 806, детей до 15 лет — 65 493. Почти треть жителей кантона жила в общине Нови Град (121 297). В 2014–2018 гг. оценка населения росла медленно, примерно на 1000 человек в год.",
+   "description_en": "As estimated on 30 June 2018, Sarajevo Canton had 419,414 inhabitants, 221,193 of them women; 67,806 people were aged 65 or over and 65,493 were children under 15. Almost a third of the canton's residents lived in the Novi Grad municipality (121,297). Between 2014 and 2018 the estimated population grew slowly, by about 1,000 a year.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 419414,
+     "unit": "persons",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "все жители кантона, оценка на 30.06",
+     "method_note": "оценка FZS по переписи 2013",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "population_women",
+     "value": 221193,
+     "unit": "persons",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "женщины, оценка на 30.06",
+     "method_note": "оценка FZS",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "population_65_plus",
+     "value": 67806,
+     "unit": "persons",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "жители 65 лет и старше",
+     "method_note": "оценка FZS",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "population",
+     "value": 414721,
+     "unit": "persons",
+     "year": 2014,
+     "area_id": "ba-ks",
+     "population": "все жители кантона, оценка на 30.06",
+     "method_note": "оценка FZS",
+     "source_id": "ba_fzs"
+    }
+   ],
+   "source_ids": [
+    "ba_fzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_fzs",
+     "url": "https://fzs.ba/wp-content/uploads/2019/06/9.pdf",
+     "supports": "Procjena ukupnog broja stanovnika po starosnoj strukturi 2014–2018, str. 12",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-births-marriages-2014-2018",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2014,
+   "period_end": 2018,
+   "context_type": "family_marriage",
+   "attribute": "vital_statistics",
+   "title": "Рождения, браки и разводы в Кантоне Сараево",
+   "title_en": "Births, marriages and divorces in Sarajevo Canton",
+   "description": "В 2018 г. в Кантоне Сараево родились живыми 4530 детей (10,8 на 1000 жителей) и умерли 4437 человек, так что естественный прирост почти исчез. Заключено 2523 брака и расторгнуто 320; в 2014–2018 гг. браков ежегодно было около 2500–2700, разводов — от 139 до 413.",
+   "description_en": "In 2018 Sarajevo Canton recorded 4,530 live births (10.8 per 1,000 inhabitants) and 4,437 deaths, so natural increase had almost disappeared. There were 2,523 marriages and 320 divorces; between 2014 and 2018 there were about 2,500–2,700 marriages and between 139 and 413 divorces a year.",
+   "statistics": [
+    {
+     "indicator": "live_births",
+     "value": 4530,
+     "unit": "births",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "живорождённые по месту жительства матери",
+     "method_note": "естественное движение",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "birth_rate",
+     "value": 10.8,
+     "unit": "per 1000 inhabitants",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "все жители",
+     "method_note": "естественное движение",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "marriages",
+     "value": 2523,
+     "unit": "marriages",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "браки по месту жительства",
+     "method_note": "естественное движение",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "divorces",
+     "value": 320,
+     "unit": "divorces",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "разводы по месту жительства",
+     "method_note": "естественное движение",
+     "source_id": "ba_fzs"
+    }
+   ],
+   "source_ids": [
+    "ba_fzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_fzs",
+     "url": "https://fzs.ba/wp-content/uploads/2019/06/9.pdf",
+     "supports": "Prirodno kretanje stanovništva 2014–2018, str. 13",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-wages-employment-2018",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2017,
+   "period_end": 2018,
+   "context_type": "wages_income",
+   "attribute": "net_wage",
+   "title": "Занятость и зарплаты в Кантоне Сараево",
+   "title_en": "Employment and wages in Sarajevo Canton",
+   "description": "В 2018 г. в Кантоне Сараево в среднем работали 147 848 человек по найму; средняя чистая зарплата составляла 1096 конвертируемых марок. Больше всего людей работало в торговле (28 275, зарплата 841 КМ); самые низкие зарплаты были в гостиницах и общепите (565 КМ), самые высокие — в финансах и энергетике (около 1620–1670 КМ).",
+   "description_en": "In 2018 Sarajevo Canton had on average 147,848 people in paid employment; the average net wage was 1,096 convertible marks. Trade employed the most people (28,275, at 841 KM); wages were lowest in hotels and catering (565 KM) and highest in finance and energy (about 1,620–1,670 KM).",
+   "statistics": [
+    {
+     "indicator": "employed",
+     "value": 147848,
+     "unit": "persons",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "работающие по найму, среднегодовое число",
+     "method_note": "отчётность работодателей (КД БиГ 2010)",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "net_wage",
+     "value": 1096,
+     "unit": "KM/month",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "работающие по найму",
+     "method_note": "средняя месячная чистая зарплата",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "net_wage_hospitality",
+     "value": 565,
+     "unit": "KM/month",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "работающие в гостиницах и общепите",
+     "method_note": "средняя месячная чистая зарплата",
+     "source_id": "ba_fzs"
+    }
+   ],
+   "source_ids": [
+    "ba_fzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_fzs",
+     "url": "https://fzs.ba/wp-content/uploads/2019/06/9.pdf",
+     "supports": "Zaposlenost i plaće prema područjima KD BiH 2010, 2017–2018, str. 14",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-unemployment-2014-2018",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2014,
+   "period_end": 2018,
+   "context_type": "work",
+   "attribute": "registered_unemployment",
+   "title": "Зарегистрированная безработица в Кантоне Сараево",
+   "title_en": "Registered unemployment in Sarajevo Canton",
+   "description": "В декабре 2014 г. на учёте в бюро занятости Кантона Сараево стояли 71 415 безработных, в декабре 2018 г. — 62 561, то есть примерно по одному на каждых двух работающих по найму. Больше всего было людей со средним образованием и неквалифицированных работников.",
+   "description_en": "In December 2014 the employment office of Sarajevo Canton had 71,415 registered unemployed, and in December 2018 62,561, roughly one for every two people in paid employment. Most had secondary education or were unskilled workers.",
+   "statistics": [
+    {
+     "indicator": "registered_unemployed",
+     "value": 71415,
+     "unit": "persons",
+     "year": 2014,
+     "area_id": "ba-ks",
+     "population": "зарегистрированные безработные на декабрь",
+     "method_note": "данные Федерального бюро занятости",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "registered_unemployed",
+     "value": 62561,
+     "unit": "persons",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "зарегистрированные безработные на декабрь",
+     "method_note": "данные Федерального бюро занятости",
+     "source_id": "ba_fzs"
+    }
+   ],
+   "source_ids": [
+    "ba_fzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_fzs",
+     "url": "https://fzs.ba/wp-content/uploads/2019/06/9.pdf",
+     "supports": "Nezaposlene osobe prema stručnoj spremi, stanje decembar 2014–2018, str. 15",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-public-transport-2014-2018",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2014,
+   "period_end": 2018,
+   "context_type": "transport",
+   "attribute": "public_transport_passengers",
+   "title": "Городской транспорт и автомобили",
+   "title_en": "City transport and cars",
+   "description": "В 2018 г. городской и пригородный транспорт кантона перевёз 93,4 млн пассажиров: 41,8 млн трамваем, 37,2 млн автобусами и 14,4 млн троллейбусами; с 2014 г. число поездок понемногу снижалось. В кантоне было зарегистрировано 134 191 легковой автомобиль, больше половины из них старше 10 лет.",
+   "description_en": "In 2018 the canton's urban and suburban transport carried 93.4 million passengers: 41.8 million by tram, 37.2 million by bus and 14.4 million by trolleybus; the number of journeys had been slowly falling since 2014. The canton had 134,191 registered passenger cars, more than half of them over ten years old.",
+   "statistics": [
+    {
+     "indicator": "public_transport_passengers",
+     "value": 93396,
+     "unit": "thousand passengers",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "все перевозки городского и пригородного транспорта",
+     "method_note": "отчётность перевозчиков",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "tram_passengers",
+     "value": 41795,
+     "unit": "thousand passengers",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "перевозки трамваем",
+     "method_note": "отчётность перевозчиков",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "passenger_cars",
+     "value": 134191,
+     "unit": "vehicles",
+     "year": 2018,
+     "area_id": "ba-ks",
+     "population": "зарегистрированные легковые автомобили",
+     "method_note": "регистрация транспортных средств",
+     "source_id": "ba_fzs"
+    }
+   ],
+   "source_ids": [
+    "ba_fzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_fzs",
+     "url": "https://fzs.ba/wp-content/uploads/2019/06/9.pdf",
+     "supports": "Gradsko-prigradski prijevoz 2014–2018 i registrirana vozila prema starosti 2018, str. 23–24",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-higher-education-2014-2019",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2014,
+   "period_end": 2019,
+   "context_type": "education",
+   "attribute": "students_enrolled",
+   "title": "Студенты в Сараеве в 2014–2019 гг.",
+   "title_en": "Students in Sarajevo, 2014–2019",
+   "description": "В 2018/19 учебном году в высших учебных заведениях Сараева учились 28 253 студента, из них 16 595 женщин; число студентов с 2015/16 г. (34 673) заметно сократилось. Большинство (24 967) училось в государственном Университете в Сараеве; среди выпускников 2018 г. женщины составляли около 62%.",
+   "description_en": "In the 2018/19 academic year 28,253 students were enrolled in Sarajevo's higher-education institutions, 16,595 of them women; numbers had fallen noticeably since 2015/16 (34,673). Most (24,967) studied at the public University of Sarajevo; women made up about 62% of 2018 graduates.",
+   "statistics": [
+    {
+     "indicator": "students_enrolled",
+     "value": 28253,
+     "unit": "students",
+     "year": 2018,
+     "area_id": "ba-sarajevo",
+     "population": "все студенты вузов Сараева, 2018/19 (предварительно)",
+     "method_note": "статистика высшего образования",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "students_enrolled_women",
+     "value": 16595,
+     "unit": "students",
+     "year": 2018,
+     "area_id": "ba-sarajevo",
+     "population": "студентки вузов Сараева, 2018/19",
+     "method_note": "статистика высшего образования",
+     "source_id": "ba_fzs"
+    },
+    {
+     "indicator": "graduates",
+     "value": 5285,
+     "unit": "persons",
+     "year": 2018,
+     "area_id": "ba-sarajevo",
+     "population": "выпускники вузов Сараева (3254 женщины)",
+     "method_note": "статистика высшего образования",
+     "source_id": "ba_fzs"
+    }
+   ],
+   "source_ids": [
+    "ba_fzs"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_fzs",
+     "url": "https://fzs.ba/wp-content/uploads/2019/06/9.pdf",
+     "supports": "Visoko obrazovanje, Grad Sarajevo 2014/15–2018/19; diplomirani 2017–2018, str. 30",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-ks-census-2013",
+   "country_code": "BA",
+   "location_id": "ba-ks",
+   "period_start": 2013,
+   "period_end": 2013,
+   "context_type": "demography",
+   "attribute": "census_population",
+   "title": "Кантон Сараево по переписи 2013 г.",
+   "title_en": "Sarajevo Canton in the 2013 census",
+   "description": "По переписи 2013 г., в Кантоне Сараево жили 413 593 человека, из них 195 161 мужчина и 218 432 женщины. Для сравнения: в десяти довоенных общинах Сараева в 1991 г. жили 527 049 человек, но границы не совпадают: часть довоенных общин после 1995 г. вошла в Республику Сербскую.",
+   "description_en": "The 2013 census counted 413,593 inhabitants in Sarajevo Canton, 195,161 men and 218,432 women. For comparison, the ten prewar municipalities of Sarajevo had 527,049 inhabitants in 1991, but the boundaries differ: part of the prewar municipalities became part of Republika Srpska after 1995.",
+   "statistics": [
+    {
+     "indicator": "population",
+     "value": 413593,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "ba-ks",
+     "population": "все жители кантона (концепция постоянного населения)",
+     "method_note": "перепись 1–15.10.2013, окончательные итоги",
+     "source_id": "ba_bhas"
+    },
+    {
+     "indicator": "population_men",
+     "value": 195161,
+     "unit": "persons",
+     "year": 2013,
+     "area_id": "ba-ks",
+     "population": "мужчины",
+     "method_note": "перепись 2013",
+     "source_id": "ba_bhas"
+    }
+   ],
+   "source_ids": [
+    "ba_bhas",
+    "ba_grad_sarajevo"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_bhas",
+     "url": "https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf",
+     "supports": "Stanovništvo prema starosti po petogodištima i spolu, nivo kantona: KS 413.593, M 195.161",
+     "accessed": "2026-11-13"
+    },
+    {
+     "source_id": "ba_grad_sarajevo",
+     "url": "https://www.sarajevo.ba/bs/sarajevo-u-periodu-1945-1991-godina",
+     "supports": "1991: 527.049 u deset općina",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-sarajevo-university-students-1941-2018",
+   "country_code": "BA",
+   "location_id": "ba-sarajevo",
+   "period_start": 1941,
+   "period_end": 2018,
+   "context_type": "education",
+   "attribute": "university_students",
+   "title": "Студенты Университета в Сараеве, 1941–2018",
+   "title_en": "Students of the University of Sarajevo, 1941–2018",
+   "description": "На первый курс первого сараевского факультета в 1941 г. поступили 127 студентов, больше 20% из них девушки. В 1959/60 учебном году в университете учились около 6000 студентов, в 1991/92 — 32 тысячи, в 1994/95, во время осады, — около 9 тысяч, в 2018 г. — 27 116. Это численность одного университета, а не всех вузов города.",
+   "description_en": "The first Sarajevo faculty enrolled 127 first-year students in 1941, more than 20% of them women. In 1959/60 the university had about 6,000 students, in 1991/92 32,000, in 1994/95, during the siege, about 9,000, and in 2018 27,116. These are figures for the one university, not for all higher-education institutions in the city.",
+   "statistics": [
+    {
+     "indicator": "students_enrolled",
+     "value": 127,
+     "unit": "students",
+     "year": 1941,
+     "area_id": "ba-sarajevo",
+     "population": "первый курс сельскохозяйственно-лесного факультета",
+     "method_note": "монография UNSA",
+     "source_id": "ba_unsa"
+    },
+    {
+     "indicator": "students_enrolled",
+     "value": 6000,
+     "unit": "students",
+     "year": 1959,
+     "area_id": "ba-sarajevo",
+     "population": "студенты Университета в Сараеве, 1959/60 (около)",
+     "method_note": "монография UNSA",
+     "source_id": "ba_unsa"
+    },
+    {
+     "indicator": "students_enrolled",
+     "value": 32000,
+     "unit": "students",
+     "year": 1991,
+     "area_id": "ba-sarajevo",
+     "population": "студенты Университета в Сараеве, 1991/92",
+     "method_note": "монография UNSA",
+     "source_id": "ba_unsa"
+    },
+    {
+     "indicator": "students_enrolled",
+     "value": 9000,
+     "unit": "students",
+     "year": 1994,
+     "area_id": "ba-sarajevo",
+     "population": "студенты Университета в Сараеве, 1994/95",
+     "method_note": "монография UNSA",
+     "source_id": "ba_unsa"
+    },
+    {
+     "indicator": "students_enrolled",
+     "value": 27116,
+     "unit": "students",
+     "year": 2018,
+     "area_id": "ba-sarajevo",
+     "population": "студенты Университета в Сараеве на ноябрь 2018",
+     "method_note": "монография UNSA",
+     "source_id": "ba_unsa"
+    }
+   ],
+   "source_ids": [
+    "ba_unsa"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_unsa",
+     "url": "https://www.unsa.ba/sites/default/files/inline-files/70Godina_UNSA_bh_2019_Web_1.pdf",
+     "supports": "127 studenata 1941; oko 6.000 1959/60; 32.000 1991/92; 9.000 1994/95; 27.116 (2018)",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  },
+  {
+   "id": "ba-ctx-sarajevo-gas-heating-1968-1991",
+   "country_code": "BA",
+   "location_id": "ba-sarajevo",
+   "period_start": 1968,
+   "period_end": 1991,
+   "context_type": "housing",
+   "attribute": "heating_gas",
+   "title": "Отопление и газ в сараевских квартирах",
+   "title_en": "Heating and gas in Sarajevo homes",
+   "description": "До конца 1960-х годов котельные многоквартирных домов вели сами домовые советы; с 1968 г. их начало принимать городское предприятие центрального отопления. Природный газ пришёл в город в конце 1979 г.: в 1980 г. его получали 8759 потребителей, в 1990 г. — около 15 тысяч домохозяйств; большая часть газа шла промышленности и котельным.",
+   "description_en": "Until the late 1960s the boiler houses of apartment blocks were run by residents' councils; from 1968 the city's central heating company began taking them over. Natural gas reached the city at the end of 1979: in 1980 there were 8,759 customers and in 1990 about 15,000 households; most of the gas went to industry and boiler houses.",
+   "statistics": [
+    {
+     "indicator": "gas_customers",
+     "value": 8759,
+     "unit": "customers",
+     "year": 1980,
+     "area_id": "ba-sarajevo",
+     "population": "все потребители природного газа",
+     "method_note": "данные предприятия Sarajevogas",
+     "source_id": "ba_sarajevogas"
+    },
+    {
+     "indicator": "gas_households",
+     "value": 15000,
+     "unit": "households",
+     "year": 1990,
+     "area_id": "ba-sarajevo",
+     "population": "домохозяйства с газом (около)",
+     "method_note": "данные предприятия Sarajevogas",
+     "source_id": "ba_sarajevogas"
+    }
+   ],
+   "source_ids": [
+    "ba_sarajevogas",
+    "ba_toplane"
+   ],
+   "evidence": [
+    {
+     "source_id": "ba_sarajevogas",
+     "url": "https://www.sarajevogas.ba/kroz-historiju-preduzeca/",
+     "supports": "1980: 8.759 potrošača; 1990: oko 15.000 domaćinstava; većina gasa velikim potrošačima i Toplanama",
+     "accessed": "2026-11-13"
+    },
+    {
+     "source_id": "ba_toplane",
+     "url": "https://www.toplanesarajevo.ba/stranica/historija",
+     "supports": "1968 preuzimanje kotlovnica kućnih savjeta",
+     "accessed": "2026-11-13"
+    }
+   ],
+   "verification_status": "verified",
+   "confidence": "high",
+   "batch": "world-1.3"
+  }
+ ]
+}

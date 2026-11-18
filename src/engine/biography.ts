@@ -177,7 +177,7 @@ function grandmotherName(country: string, random: ReturnType<typeof seededRandom
   const first = random.pick(palette.firstNames);
   // Three draws regardless of palette, so the rest of the generated life does not depend on the naming culture.
   const patronymic = random.pick(namePalettes.RU!.patronymics!);
-  const surname = random.pick(palette.surnames);
+  const surname = random.pick(palette.groups?.find((group) => group.firstNames.includes(first))?.surnames ?? palette.surnames);
   if (palette.patronymics) return `${first} ${patronymic} ${surname}`;
   return palette.surnameFirst ? `${surname} ${first}` : `${first} ${surname}`;
 }

@@ -1,12 +1,42 @@
 # Реестр местных источников
 
-Сгенерирован `scripts/historical-data/export/export.py` 2026-11-17, набор `world-1.3.0`. Число записей посчитано по опубликованным (`verified`) событиям и контекстам, которые ссылаются на источник. API указан как доступный только там, где исследователь сам проверил документацию или ответ (`api.verified`).
+Сгенерирован `scripts/historical-data/export/export.py` 2026-11-18, набор `world-1.3.0`. Число записей посчитано по опубликованным (`verified`) событиям и контекстам, которые ссылаются на источник. API указан как доступный только там, где исследователь сам проверил документацию или ответ (`api.verified`).
 
 ## AT
 
 | Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
 |---|---|---|---|---|---|---|---|---|---|---:|
 | [ANNO — AustriaN Newspapers Online](https://anno.onb.ac.at/) | `rs-novi-sad`, `rs-subotica`, `rs-beograd` | 1900–2020 | de | newspaper_archive | нет | нет | — | — | inaccessible | 0 |
+
+## BA
+
+| Источник | Места | Годы | Язык | Тип | API | Выгрузка | Лицензия | Ограничения | Статус | Записей |
+|---|---|---|---|---|---|---|---|---|---|---:|
+| [Город Сараево — раздел «Historija» (sarajevo.ba)](https://www.sarajevo.ba/bs/historija) | `ba-sarajevo` | 1878–1991 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 23 |
+| [Исторический архив Сараева (Historijski arhiv Sarajevo) — «Priče iz arhiva» и виртуальные выставки](https://www.arhivsa.ba/wordpress/) | `ba-sarajevo`, `ba-bosnia-herzegovina-land`, `ba` | 1878–2024 | bs | archive | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 8 |
+| [Федеральный статистический институт — «Kanton Sarajevo u brojkama 2019»](https://fzs.ba/wp-content/uploads/2019/06/9.pdf) | `ba-ks` | 2013–2018 | bs | statistics | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 6 |
+| [KJKP GRAS Sarajevo — «Historijat»](https://gras.ba/historijat/) | `ba-sarajevo` | 1885–2020 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [Университет в Сараеве — монография «70 godina Univerziteta u Sarajevu» (2019) и речь ректора к 75-летию (2024)](https://www.unsa.ba/sites/default/files/inline-files/70Godina_UNSA_bh_2019_Web_1.pdf) | `ba-sarajevo` | 1941–2019 | bs | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 5 |
+| [Općina Stari Grad Sarajevo — «Kalendar obilježavanja značajnih historijskih događaja, datuma i ličnosti»](https://starigrad.ba/userfiles/file/kalendar%20historijskih%20datuma.pdf) | `ba-sarajevo` | 1945–2022 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 4 |
+| [Библиотека Гази Хусрев-бега — «Historijat»](https://ghb.ba/historijat/) | `ba-sarajevo` | 1863–2014 | bs | library | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 3 |
+| [KJKP Toplane Sarajevo — «Historija»](https://www.toplanesarajevo.ba/stranica/historija) | `ba-sarajevo` | 1968–2020 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 3 |
+| [Агентство статистики БиГ — «Popis stanovništva, domaćinstava i stanova u BiH 2013. Rezultati popisa» (2016)](https://www.popis.gov.ba/popis2013/doc/RezultatiPopisa_BS.pdf) | `ba`, `ba-ks` | 2013–2013 | bs, en | statistics | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Делегация ЕС в БиГ — «Ključni datumi»](https://www.eeas.europa.eu/delegations/bosnia-and-herzegovina/klju%C4%8Dni-datumi_bs) | `ba` | 1997–2019 | bs | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [МТБЮ — информационный лист по делу «Сараево» (IT-98-29, Галич)](https://www.icty.org/x/cases/galic/cis/en/cis_galic_en.pdf) | `ba-sarajevo` | 1992–1995 | en | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Кантональная управление гражданской защиты Кантона Сараево — оперативные отчёты 2020 г.](https://kucz.ks.gov.ba/) | `ba-ks` | 2020–2020 | bs | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [KJKP Sarajevogas — «Kroz historiju preduzeća»](https://www.sarajevogas.ba/kroz-historiju-preduzeca/) | `ba-sarajevo` | 1975–1991 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Vijećnica Sarajevo — официальный сайт («Historija», «Obnova»)](https://vijecnica.ba/historija) | `ba-sarajevo` | 1896–2014 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [KJKP Vodovod i kanalizacija Sarajevo — «O preduzeću»](https://www.viksa.ba/str/51/o_preduzecu) | `ba-sarajevo` | 1889–2020 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [KJP ZOI '84 Olimpijski centar Sarajevo — «Historijat»](https://zoi84.ba/historijat-o-nama/) | `ba-sarajevo` | 1970–1984 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 2 |
+| [Центральный банк Боснии и Герцеговины — «Opće informacije», «KM novčanice»](https://www.cbbh.ba/) | `ba` | 1997–2020 | bs, en | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Городской совет Города Сараево — материалы заседаний](https://gradskovijece.sarajevo.ba/) | `ba-sarajevo` | 2018–2020 | bs | municipal | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Клинический центр Университета в Сараеве — «Historijat, misija i vizija KCUS»](https://kcus.ba/historijat-misija-i-vizija-kcus/) | `ba-sarajevo` | 1894–1996 | bs | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Управление косвенного налогообложения БиГ — страница о НДС](https://uino.gov.ba/portal/en/vat) | `ba` | 2006–2020 | bs, en | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Vojnoistorijski glasnik 2/2024: Томанић, Стамболија, Цветковић «Цивилне жртве Другог светског рата у Срезу Сарајево»](https://www.vig.mod.gov.rs/pdf_clanci/vig222/02_1738667900.pdf) | `ba-sarajevo` | 1941–1945 | sr | academic | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Земский музей Боснии и Герцеговины — «O Zemaljskom muzeju BiH»](https://zemaljskimuzej.ba/o-zemaljskom-muzeju-bih/) | `ba-sarajevo` | 1888–1913 | bs | museum | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 1 |
+| [Правительство и органы Кантона Сараево (ks.gov.ba)](https://ks.gov.ba/) | `ba-ks`, `ba-sarajevo` | 1996–2020 | bs | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 0 |
+| [Музей Сараева (muzejsarajeva.ba)](https://muzejsarajeva.ba/) | `ba-sarajevo` | 1878–1945 | bs | museum | не проверено | нет | © издатель; только просмотр, тексты не копируются | — | inaccessible | 0 |
+| [Палата представителей Парламента Федерации БиГ — текст Конституции ФБиГ с поправками](https://www.predstavnickidom-pfbih.gov.ba/) | `ba-fbih` | 1994–2020 | bs | government | нет | нет | © издатель; только просмотр, тексты не копируются | — | accessed | 0 |
 
 ## CN
 

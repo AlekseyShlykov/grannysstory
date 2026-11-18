@@ -1,6 +1,209 @@
 {
   "generated": true,
   "names": {
+    "ba-bosnia-herzegovina-land": {
+      "local": [
+        {
+          "name": "Bosnien und Hercegovina",
+          "lang": "de",
+          "from": null,
+          "to": "1918-10-31"
+        },
+        {
+          "name": "Bosna i Hercegovina",
+          "lang": "sh",
+          "from": null,
+          "to": "1918-11-30"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Босния и Герцеговина",
+          "locative": "в Боснии и Герцеговине",
+          "name_en": "Bosnia and Herzegovina",
+          "from": null,
+          "to": "1918-11-30"
+        }
+      ],
+      "alt": [
+        "Bosnien-Herzegowina",
+        "Bosna i Hercegovina",
+        "Reichsland Bosnien und Herzegowina"
+      ]
+    },
+    "ba-drina-banovina": {
+      "local": [
+        {
+          "name": "Drinska banovina",
+          "lang": "sh",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Дринская бановина",
+          "locative": "в Дринской бановине",
+          "name_en": "Drina Banovina",
+          "from": "1929-10-03",
+          "to": "1941-04-15"
+        }
+      ],
+      "alt": [
+        "Drinska banovina",
+        "Дринска бановина",
+        "Drina Banate"
+      ]
+    },
+    "ba-republic": {
+      "local": [
+        {
+          "name": "Narodna Republika Bosna i Hercegovina",
+          "lang": "sh",
+          "from": "1946-01-31",
+          "to": "1963-04-06"
+        },
+        {
+          "name": "Socijalistička Republika Bosna i Hercegovina",
+          "lang": "sh",
+          "from": "1963-04-07",
+          "to": "1992-03-05"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Народная Республика Босния и Герцеговина",
+          "locative": "в Народной Республике Боснии и Герцеговине",
+          "name_en": "People's Republic of Bosnia and Herzegovina",
+          "from": "1946-01-31",
+          "to": "1963-04-06",
+          "locative_en": "in the People's Republic of Bosnia and Herzegovina"
+        },
+        {
+          "name": "Социалистическая Республика Босния и Герцеговина",
+          "locative": "в Социалистической Республике Боснии и Герцеговине",
+          "name_en": "Socialist Republic of Bosnia and Herzegovina",
+          "from": "1963-04-07",
+          "to": "1992-03-05",
+          "locative_en": "in the Socialist Republic of Bosnia and Herzegovina"
+        }
+      ],
+      "alt": [
+        "NR BiH",
+        "SR BiH",
+        "SRBiH"
+      ]
+    },
+    "ba": {
+      "local": [
+        {
+          "name": "Republika Bosna i Hercegovina",
+          "lang": "sh",
+          "from": "1992-03-06",
+          "to": "1995-12-13"
+        },
+        {
+          "name": "Bosna i Hercegovina",
+          "lang": "sh",
+          "from": "1995-12-14",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Босния и Герцеговина",
+          "locative": "в Боснии и Герцеговине",
+          "name_en": "Bosnia and Herzegovina",
+          "from": "1992-03-06",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Bosna i Hercegovina",
+        "Босна и Херцеговина",
+        "BiH",
+        "Bosnia and Herzegovina"
+      ]
+    },
+    "ba-fbih": {
+      "local": [
+        {
+          "name": "Federacija Bosne i Hercegovine",
+          "lang": "sh",
+          "from": "1994-03-30",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Федерация Боснии и Герцеговины",
+          "locative": "в Федерации Боснии и Герцеговины",
+          "name_en": "Federation of Bosnia and Herzegovina",
+          "from": "1994-03-30",
+          "to": null,
+          "locative_en": "in the Federation of Bosnia and Herzegovina"
+        }
+      ],
+      "alt": [
+        "FBiH",
+        "Federacija BiH"
+      ]
+    },
+    "ba-ks": {
+      "local": [
+        {
+          "name": "Kanton Sarajevo",
+          "lang": "sh",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сараевский кантон",
+          "locative": "в Сараевском кантоне",
+          "name_en": "Sarajevo Canton",
+          "from": "1996-03-11",
+          "to": null
+        }
+      ],
+      "alt": [
+        "Kanton Sarajevo",
+        "Sarajevski kanton",
+        "KS"
+      ]
+    },
+    "ba-sarajevo": {
+      "local": [
+        {
+          "name": "Sarajevo",
+          "lang": "sh",
+          "from": null,
+          "to": null
+        },
+        {
+          "name": "Saraybosna",
+          "lang": "ota",
+          "from": null,
+          "to": "1908-10-05"
+        }
+      ],
+      "ru": [
+        {
+          "name": "Сараево",
+          "locative": "в Сараеве",
+          "name_en": "Sarajevo",
+          "from": null,
+          "to": null
+        }
+      ],
+      "alt": [
+        "Saraybosna",
+        "Sarajewo",
+        "Сарајево",
+        "Bosna-Saray"
+      ]
+    },
     "state-cn-qing": {
       "local": [
         {

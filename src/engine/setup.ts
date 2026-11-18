@@ -31,6 +31,7 @@ const LEGACY_LOCATIONS = new Set(["ru-moscow", "ru-saint-petersburg", "ru-tver",
 const COUNTRY_IDS: Record<string, string> = {
   ES: "spain",
   JP: "japan",
+  BA: "bosnia",
   CN: "china",
   DE: "germany",
   FI: "finland",

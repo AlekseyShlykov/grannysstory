@@ -105,6 +105,7 @@ export function relevantEvents(
       const chain = ancestorsAt(world, residenceId, probe);
       const matched = chain.find((node) => event.locationIds.includes(node));
       if (!matched || result.has(event.id)) continue;
+      if (event.notIn?.some((node) => chain.includes(node))) continue;
       const year = Number(probe.slice(0, 4));
       const age = year - profile.birthYear;
       result.set(event.id, {

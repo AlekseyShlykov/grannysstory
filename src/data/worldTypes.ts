@@ -49,6 +49,8 @@ export interface WorldEvent {
   confidence: "high" | "medium" | "low";
   legacy: boolean;
   requiresFlag?: string;
+  /** Parts of the state where the record is untrue (an ancestor of the residence at the event date). */
+  notIn?: string[];
 }
 
 export interface WorldContextStatistic {

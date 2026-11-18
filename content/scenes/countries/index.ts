@@ -1,3 +1,4 @@
+import { content as ba } from "./ba";
 import { content as cn } from "./cn";
 import { content as de } from "./de";
 import { content as es } from "./es";
@@ -10,4 +11,4 @@ import { content as si } from "./si";
 import { content as tr } from "./tr";
 import type { CountryContent } from "./types";
 
-export const countryContent: readonly CountryContent[] = [it, de, cn, fi, tr, rs, hr, si, es, jp];
+export const countryContent: readonly CountryContent[] = [it, de, cn, fi, tr, rs, hr, si, ba, es, jp];
